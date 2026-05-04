@@ -67,7 +67,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem clamp(1.5rem, 4vw, 3rem);
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   font-family: 'Printvetica', sans-serif;
@@ -166,7 +166,7 @@ main {
   font-family: 'Printvetica', sans-serif;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   padding: 1.1rem 2rem;
   cursor: pointer;
   transition: background .15s, color .15s;
@@ -237,6 +237,6 @@ footer {
 }
 
 @media (max-width: 520px) {
-  .top { font-size: 0.6rem; padding: 1rem; }
+  .top { font-size: 0.85rem; padding: 1rem; }
   .top .title em { display: none; }
 }
