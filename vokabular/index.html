@@ -3,38 +3,44 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Vokabular — Hellmuth Soda</title>
+  <title>Vokabular — Mut zur Klarheit</title>
   <meta name="description" content="Begriffe, die die Industrie missbraucht. Klartext, alphabetisch sortiert." />
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="vokabular.css" />
 </head>
 <body>
   <header class="top">
-    <div class="title">
-      <span>Vokabular</span>
-      <em data-tagline></em>
+    <a href="../" class="brand" aria-label="Startseite">
+      <img src="../mut-zur-klarheit.png" alt="Mut zur Klarheit" />
+    </a>
+    <div class="top-bar">
+      <div class="title">
+        <span>Vokabular</span>
+        <em data-tagline></em>
+      </div>
+      <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu" aria-hidden="true">
+        <a href="../">Quiz</a>
+        <a href="./" class="is-active">Vokabular</a>
+        <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Sanatorium</a>
+      </nav>
     </div>
-    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="menu" aria-hidden="true">
-      <a href="../">Quiz</a>
-      <a href="./" class="is-active">Vokabular</a>
-      <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Sanatorium</a>
-    </nav>
   </header>
 
   <main class="vokabular-main">
-    <section class="vokabular-controls">
-      <input type="search" id="search" class="vokabular-search" placeholder="Tippe ein Wort, das missbraucht wird…" autocomplete="off" />
-      <nav class="vokabular-azstrip" id="azstrip" aria-label="Alphabetische Navigation"></nav>
-    </section>
-    <div class="vokabular-list" id="list"></div>
-    <p class="vokabular-empty" id="empty" hidden>Kein Eintrag passt. Tippe weniger.</p>
+    <ul class="vokabular-register" id="register" aria-label="Vokabular-Register"></ul>
   </main>
 
+  <div class="entry-modal" id="entry-modal" hidden role="dialog" aria-modal="true" aria-labelledby="entry-modal-title">
+    <div class="entry-modal-frame">
+      <button class="entry-close" aria-label="Schließen">×</button>
+      <article class="vokabular-entry" id="entry-modal-content"></article>
+    </div>
+  </div>
+
   <footer>
-    <span class="footer-tagline">Mut zur Klarheit.</span>
     <a href="../impressum/" class="footer-impressum">Impressum</a>
   </footer>
 

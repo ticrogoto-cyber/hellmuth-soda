@@ -1,85 +1,110 @@
-/* Vokabular-specific layout — assumes ../styles.css already loaded */
+/* Vokabular — Register im Buchregister-Stil mit Modal-Overlay */
 
 .vokabular-main {
   flex: 1;
   max-width: 60rem;
   width: 100%;
   margin: 0 auto;
-  padding: 6rem clamp(2rem, 6vw, 5rem) 4rem;
+  padding: 8rem clamp(2rem, 6vw, 5rem) 4rem;
 }
 
-/* Sticky controls (search + A–Z) */
-.vokabular-controls {
-  position: sticky;
-  top: 4.5rem;
-  background: var(--paper);
-  padding: 1rem 1.25rem 0.85rem;
-  z-index: 4;
-  border: 1px solid var(--ink);
-  margin-bottom: 2.5rem;
+/* Register: dichte Spalten mit allen Begriffen */
+.vokabular-register {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 4;
+  column-gap: 2.25rem;
+  column-rule: 1px solid var(--ink);
+}
+@media (max-width: 900px) {
+  .vokabular-register { columns: 3; column-gap: 1.5rem; }
+}
+@media (max-width: 600px) {
+  .vokabular-register { columns: 2; column-gap: 1.25rem; }
 }
 
-.vokabular-search {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid var(--ink);
-  background: transparent;
-  color: var(--ink);
-  font-family: 'Fournier Pro', serif;
-  font-style: italic;
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
-  padding: 0.6rem 0;
-  outline: none;
-}
-.vokabular-search::placeholder {
-  color: var(--muted);
-  font-style: italic;
+.vokabular-register li {
+  break-inside: avoid;
+  margin: 0 0 0.5rem;
 }
 
-.vokabular-azstrip {
-  margin-top: 0.85rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem 0.95rem;
+.vokabular-register a {
+  display: inline-block;
+  padding: 0.15rem 0;
   font-family: 'Printvetica', sans-serif;
-  letter-spacing: 0.18em;
-  font-size: 0.85rem;
-}
-.vokabular-azstrip a {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
   color: var(--ink);
   text-decoration: none;
-  transition: color .12s;
+  border-bottom: 1px solid transparent;
+  transition: color .15s ease, border-color .15s ease;
 }
-.vokabular-azstrip a:hover {
-  color: var(--muted);
-}
-.vokabular-azstrip a.is-empty {
-  color: #ccc;
-  pointer-events: none;
+.vokabular-register a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
 }
 
-/* Letter headers */
-.vokabular-letter {
-  font-family: 'Printvetica', sans-serif;
-  font-size: clamp(2.2rem, 5vw, 3.2rem);
-  letter-spacing: 0.1em;
-  margin: 3rem 0 1.25rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--ink);
+/* Modal — schwebt vor dem Register, geschlossen hidden */
+.entry-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.88);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(2rem, 8vh, 6rem) 1rem;
+  overflow-y: auto;
+  animation: modal-in .15s ease both;
 }
-.vokabular-letter:first-child {
-  margin-top: 0;
+.entry-modal[hidden] {
+  display: none;
+}
+@keyframes modal-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-/* Entry */
+.entry-modal-frame {
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  max-width: 38rem;
+  width: 100%;
+  padding: 2.5rem clamp(1.5rem, 4vw, 2.5rem);
+  position: relative;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.entry-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.7rem;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--ink);
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .15s ease;
+}
+.entry-close:hover {
+  opacity: 0.6;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/* Entry layout (used inside modal) */
 .vokabular-entry {
-  margin: 0 0 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px dotted #aaa;
-}
-.vokabular-entry:last-of-type {
-  border-bottom: none;
+  margin: 0;
 }
 
 .vokabular-term {
@@ -87,7 +112,7 @@
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin: 0 0 1rem;
+  margin: 0 0 1.25rem;
 }
 
 .vokabular-line {
@@ -114,6 +139,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem 0.75rem;
+  margin-top: 1.5rem;
 }
 
 .btn-cta,
@@ -125,7 +151,7 @@
   text-transform: uppercase;
   font-size: 0.78rem;
   text-decoration: none;
-  transition: background .12s, color .12s;
+  transition: background .15s ease, color .15s ease;
   border: 1px solid var(--ink);
 }
 .btn-cta {
@@ -145,17 +171,8 @@
   color: var(--paper);
 }
 
-.vokabular-empty {
-  text-align: center;
-  font-family: 'Fournier Pro', serif;
-  font-style: italic;
-  color: var(--muted);
-  margin: 4rem 0;
-}
-
 @media (max-width: 520px) {
-  .vokabular-main { padding-top: 5rem; }
-  .vokabular-controls { top: 4rem; }
+  .vokabular-main { padding-top: 7rem; }
   .vokabular-actions { flex-direction: column; }
   .btn-cta, .btn-cta-alt { width: 100%; text-align: center; }
 }

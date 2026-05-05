@@ -3,25 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Impressum — Hellmuth Soda</title>
+  <title>Impressum — Mut zur Klarheit</title>
   <meta name="robots" content="noindex" />
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="impressum.css" />
 </head>
 <body>
   <header class="top">
-    <div class="title">
-      <span>Impressum</span>
-      <em data-tagline></em>
+    <a href="../" class="brand" aria-label="Startseite">
+      <img src="../mut-zur-klarheit.png" alt="Mut zur Klarheit" />
+    </a>
+    <div class="top-bar">
+      <div class="title">
+        <span>Impressum</span>
+        <em data-tagline></em>
+      </div>
+      <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu" aria-hidden="true">
+        <a href="../">Quiz</a>
+        <a href="../vokabular/">Vokabular</a>
+        <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Sanatorium</a>
+      </nav>
     </div>
-    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="menu" aria-hidden="true">
-      <a href="../">Quiz</a>
-      <a href="../vokabular/">Vokabular</a>
-      <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Sanatorium</a>
-    </nav>
   </header>
 
   <main class="impressum-main">
@@ -34,7 +39,6 @@
   </main>
 
   <footer>
-    <span class="footer-tagline">Mut zur Klarheit.</span>
     <a href="./" class="footer-impressum is-active">Impressum</a>
   </footer>
 

@@ -2,91 +2,83 @@
   const data = window.VOKABULAR_DATA;
   if (!data) return;
 
-  const list = document.getElementById('list');
-  const azstrip = document.getElementById('azstrip');
-  const search = document.getElementById('search');
-  const empty = document.getElementById('empty');
+  const registerEl = document.getElementById('register');
+  const modalEl = document.getElementById('entry-modal');
+  const modalContentEl = document.getElementById('entry-modal-content');
+  const closeBtn = modalEl.querySelector('.entry-close');
 
-  const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const slug = (s) => s.toLowerCase()
+    .replace(/[äöüß]/g, c => ({ä:'a',ö:'o',ü:'u',ß:'ss'}[c]))
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 
-  // Build A–Z strip
-  const presentLetters = [...new Set(data.entries.map(e => e.term[0].toUpperCase()))].sort();
-  azstrip.innerHTML = presentLetters
-    .map(l => `<a href="#letter-${l}" data-letter="${l}">${l}</a>`)
+  // Register: alle Begriffe als kompakte Spaltenliste
+  registerEl.innerHTML = data.entries
+    .map(e => `<li><a href="#${slug(e.term)}" data-term="${e.term}">${e.term}</a></li>`)
     .join('');
 
-  // Render entries grouped by letter
-  let html = '';
-  let currentLetter = '';
-  data.entries.forEach(e => {
-    const letter = e.term[0].toUpperCase();
-    if (letter !== currentLetter) {
-      currentLetter = letter;
-      html += `<h2 class="vokabular-letter" id="letter-${letter}">${letter}</h2>`;
-    }
+  // Modal-Inhalt aus Eintrag bauen
+  const renderEntry = (e) => {
     const amazon = e.amazon || data.buch_default.amazon;
     const buchTitle = e.buch_title || data.buch_default.title;
-    html += `
-      <article class="vokabular-entry" id="term-${slug(e.term)}" data-term="${e.term.toLowerCase()}">
-        <h3 class="vokabular-term">${e.term}</h3>
-        <p class="vokabular-line"><em>Wie es heißt:</em> ${e.as_called}</p>
-        <p class="vokabular-line"><em>Was es ist:</em> ${e.what_it_is}</p>
-        <p class="vokabular-ref">${buchTitle}, ${e.ref}</p>
-        <div class="vokabular-actions">
-          <a class="btn-cta" href="${amazon}" target="_blank" rel="noopener">Klartext bestellen →</a>
-          <a class="btn-cta-alt" href="${data.substack}" target="_blank" rel="noopener">Mehr Klartext →</a>
-        </div>
-      </article>
+    return `
+      <h3 class="vokabular-term">${e.term}</h3>
+      <p class="vokabular-line"><em>Wie es heißt:</em> ${e.as_called}</p>
+      <p class="vokabular-line"><em>Was es ist:</em> ${e.what_it_is}</p>
+      <p class="vokabular-ref">${buchTitle}, ${e.ref}</p>
+      <div class="vokabular-actions">
+        <a class="btn-cta" href="${amazon}" target="_blank" rel="noopener">Klartext bestellen →</a>
+        <a class="btn-cta-alt" href="${data.substack}" target="_blank" rel="noopener">Mehr Klartext →</a>
+      </div>
     `;
-  });
-  list.innerHTML = html;
+  };
 
-  // Search filter — tokenize, normalize umlauts, AND-match per token (each
-  // word in the query must appear anywhere in the entry's text).
-  const norm = (s) => s
-    .toLowerCase()
-    .replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss')
-    .replace(/[^a-z0-9 ]+/g, ' ')
-    .trim();
+  const openEntry = (termName, updateHash = true) => {
+    const entry = data.entries.find(e => e.term === termName);
+    if (!entry) return;
+    modalContentEl.innerHTML = renderEntry(entry);
+    modalContentEl.scrollTop = 0;
+    modalEl.removeAttribute('hidden');
+    document.body.classList.add('modal-open');
+    if (updateHash) {
+      history.replaceState(null, '', '#' + slug(entry.term));
+    }
+    closeBtn.focus();
+  };
 
-  search.addEventListener('input', () => {
-    const tokens = norm(search.value).split(/\s+/).filter(Boolean);
-    let visibleCount = 0;
-    document.querySelectorAll('.vokabular-entry').forEach(el => {
-      const text = norm(el.textContent);
-      const match = !tokens.length || tokens.every(t => text.includes(t));
-      el.hidden = !match;
-      if (match) visibleCount++;
-    });
-    // Hide letter headers whose entries are all hidden
-    document.querySelectorAll('.vokabular-letter').forEach(h => {
-      let n = h.nextElementSibling;
-      let anyVisible = false;
-      while (n && !n.classList.contains('vokabular-letter')) {
-        if (!n.hidden) { anyVisible = true; break; }
-        n = n.nextElementSibling;
-      }
-      h.hidden = !anyVisible;
-    });
-    // Hide A–Z strip letters that have no visible entries
-    document.querySelectorAll('.vokabular-azstrip a').forEach(a => {
-      const letter = a.dataset.letter;
-      const header = document.getElementById(`letter-${letter}`);
-      a.classList.toggle('is-empty', !header || header.hidden);
-    });
-    empty.hidden = visibleCount > 0;
-  });
+  const closeEntry = () => {
+    modalEl.setAttribute('hidden', '');
+    document.body.classList.remove('modal-open');
+    if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname);
+    }
+  };
 
-  // Smooth-scroll for A–Z strip clicks (offset for sticky header)
-  azstrip.addEventListener('click', (ev) => {
-    const a = ev.target.closest('a[href^="#letter-"]');
-    if (!a) return;
+  // Klick auf Begriff im Register
+  registerEl.addEventListener('click', (ev) => {
+    const link = ev.target.closest('a[data-term]');
+    if (!link) return;
     ev.preventDefault();
-    const target = document.getElementById(a.getAttribute('href').slice(1));
-    if (!target) return;
-    const headerOffset = document.querySelector('.top').offsetHeight + document.querySelector('.vokabular-controls').offsetHeight + 16;
-    const top = target.getBoundingClientRect().top + window.scrollY - headerOffset;
-    window.scrollTo({ top, behavior: 'smooth' });
-    history.replaceState(null, '', a.getAttribute('href'));
+    openEntry(link.dataset.term);
   });
+
+  // Klick außerhalb des Modals (auf den Backdrop) schließt
+  modalEl.addEventListener('click', (ev) => {
+    if (ev.target === modalEl) closeEntry();
+  });
+
+  // Schließen-Button
+  closeBtn.addEventListener('click', closeEntry);
+
+  // ESC schließt
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Escape' && !modalEl.hasAttribute('hidden')) closeEntry();
+  });
+
+  // Direkter Aufruf via URL-Hash (#sucht öffnet SUCHT)
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    const entry = data.entries.find(e => slug(e.term) === hash);
+    if (entry) openEntry(entry.term, false);
+  }
 })();
