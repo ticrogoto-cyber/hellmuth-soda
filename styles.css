@@ -67,62 +67,64 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: clamp(2rem, 6vw, 5rem) clamp(1.5rem, 6vw, 4rem);
+  padding: clamp(8rem, 14vh, 11rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
   max-width: 880px;
   margin: 0 auto;
   width: 100%;
 }
 
-/* Top bar — two rows: brand logo on top, title/progress/menu below */
+/* Top bar — single row, big logo absolutely centered, title left, menu right.
+   Title and menu align with the top of the logo (»Mut«). */
 .top {
   position: fixed;
   top: 0; left: 0; right: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   background: var(--paper);
   z-index: 5;
   border-bottom: 1px solid var(--ink);
-}
-
-.top .brand {
-  display: block;
-  padding: 0.85rem 0 0.5rem;
-  line-height: 0;
-  transition: opacity .15s ease;
-}
-.top .brand:hover {
-  opacity: 0.65;
-}
-.top .brand img {
-  display: block;
-  height: 2.6rem;
-  width: auto;
-  max-width: 90vw;
-}
-
-.top-bar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.6rem clamp(1.5rem, 4vw, 3rem);
+  padding: 1.1rem clamp(1.5rem, 4vw, 3rem) 0.6rem;
   font-size: 1rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   font-family: 'Printvetica', sans-serif;
-  position: relative;
 }
 
-.top .title { display: flex; gap: 1.25rem; align-items: baseline; }
+.top .brand {
+  position: absolute;
+  left: 50%;
+  top: 0.4rem;
+  transform: translateX(-50%);
+  display: block;
+  line-height: 0;
+  transition: opacity .15s ease;
+  pointer-events: auto;
+}
+.top .brand:hover {
+  opacity: 0.7;
+}
+.top .brand img {
+  display: block;
+  height: clamp(5rem, 9vw, 7rem);
+  width: auto;
+  max-width: 70vw;
+}
+
+.top .title { display: flex; gap: 1.25rem; align-items: baseline; max-width: 30%; }
 .top .title em { font-family: 'Fournier Pro', serif; font-style: italic; text-transform: none; letter-spacing: 0; color: var(--muted); }
 
-/* Progress */
+/* Progress: small, top-right next to the hamburger (only visible on quiz) */
 .progress {
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.3em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-left: auto;
+  margin-right: 0.75rem;
+  align-self: center;
 }
+.progress:empty { display: none; }
 
 /* Intro screen */
 .intro h1 {
@@ -354,9 +356,11 @@ footer .footer-impressum.is-active {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 520px) {
-  .top .brand img { height: 2rem; }
-  .top-bar { font-size: 0.85rem; padding: 0.5rem 1rem 0.6rem; }
+@media (max-width: 720px) {
+  .top { font-size: 0.78rem; padding: 0.85rem 1rem 0.5rem; letter-spacing: 0.18em; }
+  .top .brand img { height: clamp(3.5rem, 14vw, 5rem); }
   .top .title em { display: none; }
+  .top .title { max-width: 35%; }
   .menu { right: 1rem; }
+  .progress { font-size: 0.65rem; margin-right: 0.5rem; }
 }
