@@ -73,18 +73,17 @@ main {
   width: 100%;
 }
 
-/* Top bar — single row, big logo absolutely centered, title left, menu right.
-   Title and menu align with the top of the logo (»Mut«). */
+/* Top bar — horizontal wordmark centered, title left, menu right, all on one row. */
 .top {
   position: fixed;
   top: 0; left: 0; right: 0;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   background: var(--paper);
   z-index: 5;
   border-bottom: 1px solid var(--ink);
-  padding: 1.1rem clamp(1.5rem, 4vw, 3rem) 0.6rem;
+  padding: 0.85rem clamp(1.5rem, 4vw, 3rem);
   font-size: 1rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -94,8 +93,8 @@ main {
 .top .brand {
   position: absolute;
   left: 50%;
-  top: 0.4rem;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: block;
   line-height: 0;
   transition: opacity .15s ease;
@@ -106,9 +105,9 @@ main {
 }
 .top .brand img {
   display: block;
-  height: clamp(5rem, 9vw, 7rem);
+  height: clamp(1.4rem, 2vw, 1.9rem);
   width: auto;
-  max-width: 70vw;
+  max-width: 60vw;
 }
 
 .top .title { display: flex; gap: 1.25rem; align-items: baseline; max-width: 30%; }
@@ -357,8 +356,8 @@ footer .footer-impressum.is-active {
 }
 
 @media (max-width: 720px) {
-  .top { font-size: 0.78rem; padding: 0.85rem 1rem 0.5rem; letter-spacing: 0.18em; }
-  .top .brand img { height: clamp(3.5rem, 14vw, 5rem); }
+  .top { font-size: 0.78rem; padding: 0.7rem 1rem; letter-spacing: 0.18em; }
+  .top .brand img { height: clamp(1.1rem, 3.5vw, 1.4rem); }
   .top .title em { display: none; }
   .top .title { max-width: 35%; }
   .menu { right: 1rem; }
