@@ -27,6 +27,14 @@
 .vokabular-register li {
   break-inside: avoid;
   margin: 0 0 0.5rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 600ms cubic-bezier(.2, .8, .2, 1),
+              transform 600ms cubic-bezier(.2, .8, .2, 1);
+}
+.vokabular-register li.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .vokabular-register a {
@@ -38,11 +46,28 @@
   color: var(--ink);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: color .15s ease, border-color .15s ease;
+  transition: color 200ms ease,
+              border-color 300ms cubic-bezier(.2, .8, .2, 1),
+              transform 200ms cubic-bezier(.2, .8, .2, 1);
 }
 .vokabular-register a:hover {
   color: var(--ink);
   border-bottom-color: var(--ink);
+  transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vokabular-register li {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .vokabular-register a {
+    transition: none;
+  }
+  .vokabular-register a:hover {
+    transform: none;
+  }
 }
 
 /* Modal — schwebt vor dem Register, geschlossen hidden */
@@ -56,7 +81,7 @@
   align-items: flex-start;
   padding: clamp(2rem, 8vh, 6rem) 1rem;
   overflow-y: auto;
-  animation: modal-in .15s ease both;
+  animation: modal-in 280ms cubic-bezier(.2, .8, .2, 1) both;
 }
 .entry-modal[hidden] {
   display: none;
@@ -74,6 +99,18 @@
   padding: 2.5rem clamp(1.5rem, 4vw, 2.5rem);
   position: relative;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  animation: frame-in 380ms cubic-bezier(.2, .8, .2, 1) both;
+}
+@keyframes frame-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.985); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .entry-modal,
+  .entry-modal-frame {
+    animation: none;
+  }
 }
 
 .entry-close {

@@ -17,6 +17,23 @@
     .map(e => `<li><a href="#${slug(e.term)}" data-term="${e.term}">${e.term}</a></li>`)
     .join('');
 
+  // Scroll-Reveal: Items fadet beim Eintritt in den Viewport ein, mit leichtem Stagger
+  const items = registerEl.querySelectorAll('li');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    items.forEach(li => li.classList.add('is-visible'));
+  } else {
+    const io = new IntersectionObserver((entries) => {
+      const visible = entries.filter(e => e.isIntersecting);
+      visible.forEach((entry, i) => {
+        entry.target.style.transitionDelay = `${(i % 10) * 35}ms`;
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      });
+    }, { threshold: 0.05, rootMargin: '0px 0px -5% 0px' });
+    items.forEach(item => io.observe(item));
+  }
+
   // Modal-Inhalt aus Eintrag bauen
   const renderEntry = (e) => {
     const amazon = e.amazon || data.buch_default.amazon;
