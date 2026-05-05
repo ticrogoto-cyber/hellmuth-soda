@@ -61,8 +61,8 @@ window.VOKABULAR_DATA =
     {
       "term": "BIER",
       "as_called": "Volksgetränk. Kulturgut. Flüssiges Brot.",
-      "what_it_is": "Ethanol unter Brauchtumsschutz. Sensorische Konditionierung in Reinkultur — die erste Halbe widerlich, die hundertste verdient. Das Gehirn lernt, den bitteren Warngeschmack als Belohnung zu lesen, weil im Schluck Dopamin liegt. Die wahrgenommene Geselligkeit ist die Betäubung der Stressachse, die das Bier selbst hochsetzt. Was als deutsches Kulturgut firmiert, ist eine industrielle Lieferkette für dasselbe Nervengift, das in der Wodkaflasche steht — nur in größeren Schlücken serviert und mit besserer PR.",
-      "ref": "Kap. 6, 16"
+      "what_it_is": "Alkoholismus mit Schaumkrone und Steuermarke. Ethanol mit Tarnkappe und Tempo, dazu flüssige Kohlenhydrate, die Dopamin und Insulin hochtreiben. Niemand, der täglich vier Flaschen leert, nennt sich »bierabhängig«. Niemand denkt »ich saufe«. Eine Schachtel Zigaretten täglich entspricht neurotoxisch vierzehn Flaschen Bier. Bier enthält außerdem Purine, die der Körper zu Harnsäure abbaut: Gefäßwände altern, Zellen sitzen fest und vergiften ihr Umfeld mit Entzündungsstoffen. Hochgenuss und Tod im selben Schluck.",
+      "ref": "Kap. 6, 10"
     },
     {
       "term": "BIORESONANZ",
@@ -90,9 +90,9 @@ window.VOKABULAR_DATA =
     },
     {
       "term": "DARMZOTTEN",
-      "as_called": "Mikroskopische Faltungen der Dünndarmschleimhaut zur Nährstoffaufnahme.",
-      "what_it_is": "Die Saugfläche, mit der der Körper überhaupt überleben kann. Alkohol legt sie flach, Nikotin verkrümmt sie, chronischer Stress lässt sie schrumpfen. Wer die Zotten beschädigt, baut keine Mauer ein, sondern bohrt Löcher in den Boden: Vitamine, Mineralien, Aminosäuren rinnen unverwertet durch. Die »Mangelernährung« des Westlers ist selten ein Mangel an Lebensmitteln, sondern ein Mangel an funktionierender Darmwand. Genau hier füttert der Markt die Lücke mit Kapseln, die der Darm gar nicht mehr aufnehmen kann.",
-      "ref": "Kap. 9"
+      "as_called": "Mikroskopische Falten der Dünndarmschleimhaut. Resorptionsfläche.",
+      "what_it_is": "Die Membran, an der Nahrung Körper wird. Alkohol und sein Stoffwechselprodukt Acetaldehyd zerfressen das Gewebe: die Zotten werden kürzer, flacher, brechen ab. Thiamin, Folat, Zink, Magnesium gelangen nicht mehr ins Blut. Was hereinkommt, sickert vorbei und wird ausgeschieden. Ein Liter Bier am Tag reicht. Aufhören stoppt den Schaden, nicht zwangsläufig die Reparatur. Mikronährstoffe müssen lebenslang substituiert werden. Die Sucht ist heilbar. Der Schaden nicht.",
+      "ref": "Kap. 6, 9"
     },
     {
       "term": "DEPRESSION",
