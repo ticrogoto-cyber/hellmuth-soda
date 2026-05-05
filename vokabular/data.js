@@ -59,6 +59,12 @@ window.VOKABULAR_DATA =
       "ref": "Kap. 18"
     },
     {
+      "term": "BIER",
+      "as_called": "Volksgetränk. Kulturgut. Flüssiges Brot.",
+      "what_it_is": "Ethanol unter Brauchtumsschutz. Sensorische Konditionierung in Reinkultur — die erste Halbe widerlich, die hundertste verdient. Das Gehirn lernt, den bitteren Warngeschmack als Belohnung zu lesen, weil im Schluck Dopamin liegt. Die wahrgenommene Geselligkeit ist die Betäubung der Stressachse, die das Bier selbst hochsetzt. Was als deutsches Kulturgut firmiert, ist eine industrielle Lieferkette für dasselbe Nervengift, das in der Wodkaflasche steht — nur in größeren Schlücken serviert und mit besserer PR.",
+      "ref": "Kap. 6, 16"
+    },
+    {
       "term": "BIORESONANZ",
       "as_called": "Energetisches Verfahren zur Frequenzkorrektur des Körpers.",
       "what_it_is": "Ein vielversprechender Start ins Scheitern. In Studien zur Raucherentwöhnung war die Bioresonanztherapie von gewöhnlichen Behandlungen statistisch nicht unterscheidbar. Das Wunder erreichte Placeboniveau. Die Geräte sehen wissenschaftlich aus, blinken bunt. Mehr braucht es nicht, um pro Sitzung dreistellig abzurechnen.",
@@ -81,6 +87,12 @@ window.VOKABULAR_DATA =
       "as_called": "Heilpflanze. Sanfte Alternative. Bewusstseinserweiterung.",
       "what_it_is": "Schizophrenie auf Vertrauensbasis. Tägliche Kiffer haben ein fünffach erhöhtes Risiko, eine Psychose zu entwickeln. In Amsterdam gehen rund fünfzig Prozent der neuen Schizophrenie-Fälle auf hochpotenten Cannabis-Konsum zurück. THC bindet an CB1-Rezeptoren im präfrontalen Kortex und sabotiert dort die Synapsenbildung. »Heilpflanze« ist ein rhetorischer Trick. Tabak ist auch eine Pflanze. Bilsenkraut auch.",
       "ref": "Kap. 12"
+    },
+    {
+      "term": "DARMZOTTEN",
+      "as_called": "Mikroskopische Faltungen der Dünndarmschleimhaut zur Nährstoffaufnahme.",
+      "what_it_is": "Die Saugfläche, mit der der Körper überhaupt überleben kann. Alkohol legt sie flach, Nikotin verkrümmt sie, chronischer Stress lässt sie schrumpfen. Wer die Zotten beschädigt, baut keine Mauer ein, sondern bohrt Löcher in den Boden: Vitamine, Mineralien, Aminosäuren rinnen unverwertet durch. Die »Mangelernährung« des Westlers ist selten ein Mangel an Lebensmitteln, sondern ein Mangel an funktionierender Darmwand. Genau hier füttert der Markt die Lücke mit Kapseln, die der Darm gar nicht mehr aufnehmen kann.",
+      "ref": "Kap. 9"
     },
     {
       "term": "DEPRESSION",
