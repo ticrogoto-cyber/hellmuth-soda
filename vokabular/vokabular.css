@@ -208,8 +208,70 @@ body.modal-open {
   color: var(--paper);
 }
 
+/* Querverlinkungen im Fließtext */
+.vokabular-xref {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 0.95em;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--muted);
+  cursor: pointer;
+  padding: 0 1px;
+  transition: border-color 220ms cubic-bezier(.2, .8, .2, 1),
+              color 220ms ease;
+}
+.vokabular-xref:hover,
+.vokabular-xref:focus-visible {
+  border-bottom-color: var(--ink);
+  border-bottom-style: solid;
+}
+
+/* Hover-Vorschau */
+.vokabular-xref-tooltip {
+  position: fixed;
+  z-index: 200;
+  max-width: 22rem;
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  padding: 0.7rem 0.9rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 220ms cubic-bezier(.2, .8, .2, 1),
+              transform 220ms cubic-bezier(.2, .8, .2, 1);
+}
+.vokabular-xref-tooltip[hidden] { display: none; }
+.vokabular-xref-tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.vokabular-xref-tooltip-term {
+  display: block;
+  font-family: 'Printvetica', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+.vokabular-xref-tooltip-line {
+  display: block;
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vokabular-xref { transition: none; }
+  .vokabular-xref-tooltip { transition: none; transform: none; }
+}
+
 @media (max-width: 520px) {
   .vokabular-main { padding-top: 7rem; }
   .vokabular-actions { flex-direction: column; }
   .btn-cta, .btn-cta-alt { width: 100%; text-align: center; }
+  .vokabular-xref-tooltip { max-width: calc(100vw - 2rem); }
 }

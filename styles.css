@@ -89,6 +89,14 @@ main {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   font-family: 'Printvetica', sans-serif;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: box-shadow 220ms cubic-bezier(.2, .8, .2, 1);
+}
+.top.is-scrolled {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+@media (prefers-reduced-motion: reduce) {
+  .top { transition: none; }
 }
 
 .top .brand {

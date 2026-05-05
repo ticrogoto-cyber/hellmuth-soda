@@ -44,6 +44,17 @@
         toggle.focus();
       }
     });
+
+    // Sticky-Header: Schatten ab ein paar Pixel Scroll
+    const top = document.querySelector('.top');
+    if (top) {
+      const onScroll = () => {
+        if (window.scrollY > 8) top.classList.add('is-scrolled');
+        else top.classList.remove('is-scrolled');
+      };
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
   };
 
   if (document.readyState === 'loading') {
