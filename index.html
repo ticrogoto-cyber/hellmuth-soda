@@ -11,16 +11,28 @@
   <header class="top">
     <div class="title">
       <span>Sucht-Mythen</span>
-      <em>ein Quiz von Ticro Goto</em>
+      <em data-tagline></em>
     </div>
     <div class="progress" id="progress"></div>
+    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" aria-hidden="true">
+      <a href="./" class="is-active">Quiz</a>
+      <a href="vokabular/">Vokabular</a>
+      <a href="https://kokosundzitrone.de" target="_blank" rel="noopener">Sanatorium</a>
+    </nav>
   </header>
 
   <main id="app"></main>
 
-  <footer>Mut zur Klarheit.</footer>
+  <footer>
+    <span class="footer-tagline">Mut zur Klarheit.</span>
+    <a href="impressum/" class="footer-impressum">Impressum</a>
+  </footer>
 
   <script src="questions.js"></script>
   <script src="quiz.js"></script>
+  <script src="site.js"></script>
 </body>
 </html>

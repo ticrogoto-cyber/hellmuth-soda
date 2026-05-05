@@ -1,0 +1,25 @@
+.impressum-main {
+  flex: 1;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 8rem clamp(1.5rem, 5vw, 3rem) 4rem;
+  text-align: center;
+}
+
+.impressum-line {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  margin: 0 0 1.5rem;
+  line-height: 1.55;
+}
+
+.impressum-block {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 2;
+  margin: 0;
+}

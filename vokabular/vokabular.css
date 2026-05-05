@@ -1,0 +1,161 @@
+/* Vokabular-specific layout — assumes ../styles.css already loaded */
+
+.vokabular-main {
+  flex: 1;
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6rem clamp(1.5rem, 5vw, 3rem) 4rem;
+}
+
+/* Sticky controls (search + A–Z) */
+.vokabular-controls {
+  position: sticky;
+  top: 4.5rem;
+  background: var(--paper);
+  padding: 1rem 0 0.75rem;
+  z-index: 4;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 2rem;
+}
+
+.vokabular-search {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  padding: 0.6rem 0;
+  outline: none;
+}
+.vokabular-search::placeholder {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.vokabular-azstrip {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.95rem;
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+}
+.vokabular-azstrip a {
+  color: var(--ink);
+  text-decoration: none;
+  transition: color .12s;
+}
+.vokabular-azstrip a:hover {
+  color: var(--muted);
+}
+.vokabular-azstrip a.is-empty {
+  color: #ccc;
+  pointer-events: none;
+}
+
+/* Letter headers */
+.vokabular-letter {
+  font-family: 'Printvetica', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  letter-spacing: 0.1em;
+  margin: 3rem 0 1.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--ink);
+}
+.vokabular-letter:first-child {
+  margin-top: 0;
+}
+
+/* Entry */
+.vokabular-entry {
+  margin: 0 0 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dotted #aaa;
+}
+.vokabular-entry:last-of-type {
+  border-bottom: none;
+}
+
+.vokabular-term {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin: 0 0 1rem;
+}
+
+.vokabular-line {
+  font-family: 'Fournier Pro', serif;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.55;
+  margin: 0 0 0.75rem;
+}
+.vokabular-line em {
+  font-style: italic;
+  color: var(--muted);
+  margin-right: 0.35em;
+}
+
+.vokabular-ref {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 1rem 0 1rem;
+}
+
+.vokabular-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 0.75rem;
+}
+
+.btn-cta,
+.btn-cta-alt {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  text-decoration: none;
+  transition: background .12s, color .12s;
+  border: 1px solid var(--ink);
+}
+.btn-cta {
+  background: var(--ink);
+  color: var(--paper);
+}
+.btn-cta:hover {
+  background: var(--paper);
+  color: var(--ink);
+}
+.btn-cta-alt {
+  background: var(--paper);
+  color: var(--ink);
+}
+.btn-cta-alt:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.vokabular-empty {
+  text-align: center;
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  color: var(--muted);
+  margin: 4rem 0;
+}
+
+@media (max-width: 520px) {
+  .vokabular-main { padding-top: 5rem; }
+  .vokabular-controls { top: 4rem; }
+  .vokabular-actions { flex-direction: column; }
+  .btn-cta, .btn-cta-alt { width: 100%; text-align: center; }
+}
