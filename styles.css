@@ -83,7 +83,7 @@ main {
   background: var(--paper);
   z-index: 5;
   border-bottom: 1px solid var(--ink);
-  padding: 0.85rem clamp(1.5rem, 4vw, 3rem);
+  padding: 0.95rem clamp(1.5rem, 4vw, 3rem);
   font-size: 1rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -105,7 +105,7 @@ main {
 }
 .top .brand img {
   display: block;
-  height: clamp(1.4rem, 2vw, 1.9rem);
+  height: clamp(1.7rem, 2.4vw, 2.3rem);
   width: auto;
   max-width: 60vw;
 }
@@ -357,7 +357,7 @@ footer .footer-impressum.is-active {
 
 @media (max-width: 720px) {
   .top { font-size: 0.78rem; padding: 0.7rem 1rem; letter-spacing: 0.18em; }
-  .top .brand img { height: clamp(1.1rem, 3.5vw, 1.4rem); }
+  .top .brand img { height: clamp(1.3rem, 4.2vw, 1.7rem); }
   .top .title em { display: none; }
   .top .title { max-width: 35%; }
   .menu { right: 1rem; }
