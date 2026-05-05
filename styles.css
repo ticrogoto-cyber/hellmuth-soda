@@ -106,9 +106,9 @@ main {
 }
 .top .brand img {
   display: block;
-  height: clamp(5rem, 9vw, 7rem);
+  height: clamp(2rem, 4vw, 3rem);
   width: auto;
-  max-width: 70vw;
+  max-width: 60vw;
 }
 
 .top .title { display: flex; gap: 1.25rem; align-items: baseline; max-width: 30%; }
@@ -358,7 +358,7 @@ footer .footer-impressum.is-active {
 
 @media (max-width: 720px) {
   .top { font-size: 0.78rem; padding: 0.85rem 1rem 0.5rem; letter-spacing: 0.18em; }
-  .top .brand img { height: clamp(3.5rem, 14vw, 5rem); }
+  .top .brand img { height: clamp(1.75rem, 7vw, 2.5rem); }
   .top .title em { display: none; }
   .top .title { max-width: 35%; }
   .menu { right: 1rem; }
