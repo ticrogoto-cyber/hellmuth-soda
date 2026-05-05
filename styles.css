@@ -113,15 +113,18 @@ main {
 .top .title { display: flex; gap: 1.25rem; align-items: baseline; max-width: 30%; }
 .top .title em { font-family: 'Fournier Pro', serif; font-style: italic; text-transform: none; letter-spacing: 0; color: var(--muted); }
 
-/* Progress: small, top-right next to the hamburger (only visible on quiz) */
+/* Progress: centered below the header bar (only visible on quiz) */
 .progress {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.55rem;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.3em;
   font-size: 0.75rem;
   color: var(--muted);
-  margin-left: auto;
-  margin-right: 0.75rem;
-  align-self: center;
+  white-space: nowrap;
 }
 .progress:empty { display: none; }
 
