@@ -5,7 +5,7 @@
   max-width: 60rem;
   width: 100%;
   margin: 0 auto;
-  padding: 6rem clamp(1.5rem, 5vw, 3rem) 4rem;
+  padding: 6rem clamp(2rem, 6vw, 5rem) 4rem;
 }
 
 /* Sticky controls (search + A–Z) */
@@ -13,10 +13,10 @@
   position: sticky;
   top: 4.5rem;
   background: var(--paper);
-  padding: 1rem 0 0.75rem;
+  padding: 1rem 1.25rem 0.85rem;
   z-index: 4;
-  border-bottom: 1px solid var(--ink);
-  margin-bottom: 2rem;
+  border: 1px solid var(--ink);
+  margin-bottom: 2.5rem;
 }
 
 .vokabular-search {

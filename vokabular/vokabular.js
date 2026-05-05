@@ -41,15 +41,20 @@
   });
   list.innerHTML = html;
 
-  // Search filter
-  const norm = (s) => s.toLowerCase().replace(/[^a-zäöüß0-9 ]/g, ' ').trim();
+  // Search filter — tokenize, normalize umlauts, AND-match per token (each
+  // word in the query must appear anywhere in the entry's text).
+  const norm = (s) => s
+    .toLowerCase()
+    .replace(/ä/g, 'a').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/ß/g, 'ss')
+    .replace(/[^a-z0-9 ]+/g, ' ')
+    .trim();
 
   search.addEventListener('input', () => {
-    const q = norm(search.value);
+    const tokens = norm(search.value).split(/\s+/).filter(Boolean);
     let visibleCount = 0;
     document.querySelectorAll('.vokabular-entry').forEach(el => {
       const text = norm(el.textContent);
-      const match = !q || text.includes(q);
+      const match = !tokens.length || tokens.every(t => text.includes(t));
       el.hidden = !match;
       if (match) visibleCount++;
     });

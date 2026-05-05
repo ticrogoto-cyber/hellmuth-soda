@@ -29,10 +29,24 @@ html, body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Fournier Pro', 'Times New Roman', serif;
-  font-feature-settings: "liga", "dlig";
-  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  /* Roman/Regular: ligatures off (clean, technical look) */
+  font-feature-settings: "liga" 0, "dlig" 0;
+  font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
+}
+
+/* Italic: ligatures on (organic, fluid look) */
+em, i,
+.top .title em,
+.intro h2, .intro p,
+.option,
+.result .score-of, .result .tag, .result .text,
+footer .footer-tagline, footer,
+.vokabular-line em, .vokabular-ref, .vokabular-search, .vokabular-empty,
+.impressum-line {
+  font-feature-settings: "liga", "dlig";
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
 }
 
 body {

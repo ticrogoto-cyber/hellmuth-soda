@@ -8,7 +8,7 @@ window.VOKABULAR_DATA =
     "title": "Kreativer Suizid",
     "amazon": "https://www.amazon.de/dp/B0GT4G61VX"
   },
-  "substack": "https://kokosundzitrone.de",
+  "substack": "https://kokos-und-zitrone.de",
   "entries": [
     {
       "term": "ACETYLCHOLIN",
