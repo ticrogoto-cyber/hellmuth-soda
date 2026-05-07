@@ -319,6 +319,15 @@ main {
   background: var(--ink);
   color: var(--paper);
 }
+.share-hint {
+  margin-top: 0.85rem;
+  min-height: 1.1rem;
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-align: center;
+}
 
 /* Hamburger menu */
 .menu-toggle {
