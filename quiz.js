@@ -77,8 +77,6 @@
           <div class="share-label">Ergebnis teilen</div>
           <div class="share-row">
             ${hasNativeShare ? '<button class="share-btn" id="share-native" type="button">Teilen</button>' : ''}
-            <a class="share-btn" id="share-whatsapp" href="https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="share-btn" id="share-x" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}" target="_blank" rel="noopener">X / Twitter</a>
             <button class="share-btn" id="share-copy" type="button">Link kopieren</button>
           </div>
         </div>
@@ -89,6 +87,27 @@
       i = 0; score = 0; renderQuestion();
     });
 
+    const payload = `${shareText} ${shareUrl}`;
+
+    const copyToClipboard = async (text) => {
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'absolute';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch {}
+        document.body.removeChild(ta);
+        return ok;
+      }
+    };
+
     if (hasNativeShare) {
       document.getElementById('share-native').addEventListener('click', () => {
         navigator.share({ title: data.title, text: shareText, url: shareUrl }).catch(() => {});
@@ -97,20 +116,7 @@
 
     const copyBtn = document.getElementById('share-copy');
     copyBtn.addEventListener('click', async () => {
-      const payload = `${shareText} ${shareUrl}`;
-      try {
-        await navigator.clipboard.writeText(payload);
-      } catch {
-        const ta = document.createElement('textarea');
-        ta.value = payload;
-        ta.setAttribute('readonly', '');
-        ta.style.position = 'absolute';
-        ta.style.left = '-9999px';
-        document.body.appendChild(ta);
-        ta.select();
-        try { document.execCommand('copy'); } catch {}
-        document.body.removeChild(ta);
-      }
+      await copyToClipboard(payload);
       const original = copyBtn.textContent;
       copyBtn.textContent = 'Kopiert';
       copyBtn.classList.add('is-copied');
