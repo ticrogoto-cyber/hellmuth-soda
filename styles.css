@@ -275,6 +275,51 @@ main {
   margin: 2.5rem auto;
 }
 
+/* Share */
+.share {
+  margin: 0 auto 2.5rem;
+  max-width: 36rem;
+}
+.share-label {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-bottom: 0.85rem;
+}
+.share-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.share-btn {
+  appearance: none;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  padding: 0.7rem 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  transition: background .12s, color .12s;
+}
+.share-btn:hover, .share-btn:focus-visible {
+  background: var(--ink);
+  color: var(--paper);
+  outline: none;
+}
+.share-btn.is-copied {
+  background: var(--ink);
+  color: var(--paper);
+}
+
 /* Hamburger menu */
 .menu-toggle {
   background: none;

@@ -61,6 +61,10 @@
     const result = data.results.find(r => score <= r.max) || data.results[data.results.length - 1];
     const max = total * Math.max(...data.questions.flatMap(q => q.options.map(o => o.s)));
 
+    const shareUrl = 'https://hellmuth-soda.de/';
+    const shareText = `Ich bin »${result.label}« — ${result.tag} Sucht-Mythen-Quiz:`;
+    const hasNativeShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
+
     root.innerHTML = `
       <section class="result">
         <div class="score-num">${score}</div>
@@ -69,11 +73,51 @@
         <div class="tag">${result.tag}</div>
         <hr class="divider" />
         <p class="text">${result.text}</p>
+        <div class="share">
+          <div class="share-label">Ergebnis teilen</div>
+          <div class="share-row">
+            ${hasNativeShare ? '<button class="share-btn" id="share-native" type="button">Teilen</button>' : ''}
+            <a class="share-btn" id="share-whatsapp" href="https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="share-btn" id="share-x" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}" target="_blank" rel="noopener">X / Twitter</a>
+            <button class="share-btn" id="share-copy" type="button">Link kopieren</button>
+          </div>
+        </div>
         <button class="btn" id="restart">Noch einmal</button>
       </section>`;
 
     document.getElementById('restart').addEventListener('click', () => {
       i = 0; score = 0; renderQuestion();
+    });
+
+    if (hasNativeShare) {
+      document.getElementById('share-native').addEventListener('click', () => {
+        navigator.share({ title: data.title, text: shareText, url: shareUrl }).catch(() => {});
+      });
+    }
+
+    const copyBtn = document.getElementById('share-copy');
+    copyBtn.addEventListener('click', async () => {
+      const payload = `${shareText} ${shareUrl}`;
+      try {
+        await navigator.clipboard.writeText(payload);
+      } catch {
+        const ta = document.createElement('textarea');
+        ta.value = payload;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'absolute';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch {}
+        document.body.removeChild(ta);
+      }
+      const original = copyBtn.textContent;
+      copyBtn.textContent = 'Kopiert';
+      copyBtn.classList.add('is-copied');
+      setTimeout(() => {
+        copyBtn.textContent = original;
+        copyBtn.classList.remove('is-copied');
+      }, 1600);
     });
   };
 
