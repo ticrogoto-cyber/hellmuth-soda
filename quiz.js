@@ -77,12 +77,8 @@
           <div class="share-label">Ergebnis teilen</div>
           <div class="share-row">
             ${hasNativeShare ? '<button class="share-btn" id="share-native" type="button">Teilen</button>' : ''}
-            <button class="share-btn" id="share-substack" type="button">Substack Notes</button>
-            <a class="share-btn" id="share-whatsapp" href="https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="share-btn" id="share-x" href="https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}" target="_blank" rel="noopener">X / Twitter</a>
             <button class="share-btn" id="share-copy" type="button">Link kopieren</button>
           </div>
-          <div class="share-hint" id="share-hint" aria-live="polite"></div>
         </div>
         <button class="btn" id="restart">Noch einmal</button>
       </section>`;
@@ -92,7 +88,6 @@
     });
 
     const payload = `${shareText} ${shareUrl}`;
-    const hintEl = document.getElementById('share-hint');
 
     const copyToClipboard = async (text) => {
       try {
@@ -113,41 +108,22 @@
       }
     };
 
-    const flashBtn = (btn, label = 'Kopiert') => {
-      const original = btn.dataset.original || btn.textContent;
-      btn.dataset.original = original;
-      btn.textContent = label;
-      btn.classList.add('is-copied');
-      setTimeout(() => {
-        btn.textContent = original;
-        btn.classList.remove('is-copied');
-      }, 1600);
-    };
-
-    const showHint = (msg) => {
-      if (!hintEl) return;
-      hintEl.textContent = msg;
-      clearTimeout(showHint._t);
-      showHint._t = setTimeout(() => { hintEl.textContent = ''; }, 4000);
-    };
-
     if (hasNativeShare) {
       document.getElementById('share-native').addEventListener('click', () => {
         navigator.share({ title: data.title, text: shareText, url: shareUrl }).catch(() => {});
       });
     }
 
-    document.getElementById('share-substack').addEventListener('click', async (e) => {
-      const btn = e.currentTarget;
+    const copyBtn = document.getElementById('share-copy');
+    copyBtn.addEventListener('click', async () => {
       await copyToClipboard(payload);
-      flashBtn(btn, 'Kopiert');
-      showHint('Text kopiert — bei Substack Notes einfügen (Cmd/Strg+V).');
-      window.open('https://substack.com/notes', '_blank', 'noopener');
-    });
-
-    document.getElementById('share-copy').addEventListener('click', async (e) => {
-      await copyToClipboard(payload);
-      flashBtn(e.currentTarget, 'Kopiert');
+      const original = copyBtn.textContent;
+      copyBtn.textContent = 'Kopiert';
+      copyBtn.classList.add('is-copied');
+      setTimeout(() => {
+        copyBtn.textContent = original;
+        copyBtn.classList.remove('is-copied');
+      }, 1600);
     });
   };
 
