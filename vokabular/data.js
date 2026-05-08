@@ -257,6 +257,12 @@ window.VOKABULAR_DATA =
       "ref": "Kap. 8"
     },
     {
+      "term": "PFLANZENÖLE",
+      "as_called": "Herzgesunde pflanzliche Alternative zu Butter und Schmalz.",
+      "what_it_is": "Industrieabfall mit Marketingbudget. Sonnenblumen-, Raps-, Soja- und Distelöl werden mit Hexan aus Saaten extrahiert, gebleicht und desodoriert, weil das Rohprodukt ungenießbar wäre. Mehrfach ungesättigte Fettsäuren oxidieren bei Licht, Wärme und Sauerstoff zu reaktiven Aldehyden wie 4-HNE und Malondialdehyd, die DNA, Proteine und Mitochondrien angreifen. Die durchsichtige Glasflasche im Supermarktregal beschleunigt den Verfall, lange bevor der Deckel zum ersten Mal aufgeht. Das Öl ist beim Kauf bereits ranzig, der Gaumen merkt nichts, weil ihm das Vergleichsmuster fehlt. Erhitzt in der Pfanne kommen weitere Oxidationsprodukte dazu. Die Fettsäuren wandern in die Zellmembranen und bleiben dort über Monate. »Herzgesund« ist ein Werbeslogan der Margarineindustrie aus den siebziger Jahren, kein Befund.",
+      "ref": "Kap. 13"
+    },
+    {
       "term": "PHARMAZEUTISCHE MATROSCHKA",
       "as_called": "Differenzierte medikamentöse Therapie.",
       "what_it_is": "Eine Pille, die das Symptom behandelt, das die andere Pille verursacht hat. Antidepressiva gegen die Depression, die der Alkohol auslöst, den der Patient gegen die Angst trinkt, die das Koffein aufrechterhält. Schlafmittel gegen die Schlafstörung, die das Schlafmittel von gestern erzeugt hat. Die innerste Puppe ist immer der Patient.",
