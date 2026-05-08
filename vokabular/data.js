@@ -257,10 +257,10 @@ window.VOKABULAR_DATA =
       "ref": "Kap. 8"
     },
     {
-      "term": "PFLANZENÖLE",
-      "as_called": "Herzgesunde pflanzliche Alternative zu Butter und Schmalz.",
-      "what_it_is": "Industrieabfall mit Marketingbudget. Sonnenblumen-, Raps-, Soja- und Distelöl werden mit Hexan aus Saaten extrahiert, gebleicht und desodoriert, weil das Rohprodukt ungenießbar wäre. Mehrfach ungesättigte Fettsäuren oxidieren bei Licht, Wärme und Sauerstoff zu reaktiven Aldehyden wie 4-HNE und Malondialdehyd, die DNA, Proteine und Mitochondrien angreifen. Die durchsichtige Glasflasche im Supermarktregal beschleunigt den Verfall, lange bevor der Deckel zum ersten Mal aufgeht. Das Öl ist beim Kauf bereits ranzig, der Gaumen merkt nichts, weil ihm das Vergleichsmuster fehlt. Erhitzt in der Pfanne kommen weitere Oxidationsprodukte dazu. Die Fettsäuren wandern in die Zellmembranen und bleiben dort über Monate. »Herzgesund« ist ein Werbeslogan der Margarineindustrie aus den siebziger Jahren, kein Befund.",
-      "ref": "Kap. 13"
+      "term": "PFLANZENÖL",
+      "as_called": "Gesunde Fette. Mediterrane Küche. Natives Olivenöl extra.",
+      "what_it_is": "Ranzig, bevor die Flasche im Regal steht. Braunglas schützt nur bis 440 nm, Grünglas erst unterhalb 400. Chlorophyll absorbiert genau diese Wellenlängen, hebt Sauerstoff in den Singulett-Zustand, zerlegt die Fettsäuren. Der Deckenfluter in der Küche reicht. Olivenöl verliert unter Supermarktbedingungen die Klassifizierung Natives Olivenöl extra. Bioladen statt Supermarkt beruhigt nur das Gewissen.",
+      "ref": ""
     },
     {
       "term": "PHARMAZEUTISCHE MATROSCHKA",
