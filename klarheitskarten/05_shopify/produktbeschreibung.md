@@ -50,11 +50,28 @@ Du kannst das Deck als Trumpfquartett spielen, als Gesprächsspiel nutzen oder a
 
 **Enthalten:**
 - 52 Selbstbetrugskarten
-- 4 Regelkarten (Trumpfquartett, Falltür, Solo-Diagnose, Hinweis)
-- 63,5 × 88,9 mm, abgerundete Ecken, Premium Smooth Karton
+- 3 Regelkarten (Trumpfquartett, Falltür, Solo-Diagnose)
+- 55 Karten gesamt
+- 63,5 × 88,9 mm, abgerundete Ecken, Premium Smooth Karton, mattes Finish
 - in Cellophan eingeschweißt (ohne Box)
 - mehrere Spielmodi: Quartett, Falltür, Solo-Diagnose, Duell, Textklinik
 - minimalistisches schwarz-weißes Printdesign
+
+---
+
+## Pflichtangaben (GPSR)
+
+**Hersteller / Inverkehrbringer:** Ticro Goto, [Strasse, PLZ Ort, Land]
+**Kontakt:** kontakt@kokos-und-zitrone.de
+**Produktkennung:** KK-001-SELBSTBETRUG-DE
+
+**Sicherheits- und Warnhinweise:**
+- Für Erwachsene. 18+.
+- Kleinteile – nicht für Kinder unter 3 Jahren geeignet.
+- Kein medizinisches, psychotherapeutisches oder suchttherapeutisches Produkt.
+- Bei akuten psychischen oder körperlichen Beschwerden professionelle Hilfe suchen.
+
+**TODO:** Inverkehrbringer-Adresse durch echte Anschrift ersetzen, sobald von Ticro Goto bestätigt.
 
 **Hinweis:**
 Dieses Kartenspiel ist kein medizinisches, psychotherapeutisches oder suchttherapeutisches Produkt. Es dient der Selbstreflexion und Gesprächsanregung für Erwachsene.

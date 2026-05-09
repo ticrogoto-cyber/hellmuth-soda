@@ -10,14 +10,15 @@
 - Premium-Edition mit Box bleibt für später (Briefing 13.2)
 
 ### GPSR-Pflichtangaben
-Ohne Box brauchen die EU-Pflichtangaben einen physischen Träger im Lieferumfang. Lösung: **R04 (Hinweis-Karte) wurde erweitert** und enthält jetzt:
-- 18+
-- Disclaimer (kein medizinisches Produkt)
-- Inverkehrbringer-Name + Adresse (Platzhalter, vom Autor zu füllen)
-- E-Mail-Kontakt
-- SKU
+**Entscheidung 2026-05-09:** Hinweiskarte fällt raus (Kostenersparnis: €3/Deck bei 55 statt 56 Karten). GPSR-Pflichtangaben werden ins Online-Angebot (Snapshop Lite + Substack-Footer) aufgenommen. Das ist GPSR-konform, sofern alle Pflichtinformationen im Angebot deutlich auffindbar sind:
 
-**TODO vor Druck:** Adresse in `02_design/render_cards.py` (Funktion `render_all`, R04-Block) durch echte Anschrift ersetzen, dann neu rendern.
+- Hersteller-/Inverkehrbringer-Name
+- postalische Adresse
+- elektronische Kontaktadresse
+- Produktkennung (SKU)
+- Warn-/Sicherheitshinweise (18+, kein Therapieprodukt)
+
+Pflegestelle: `05_shopify/produktbeschreibung.md` Block "Pflichtangaben".
 
 ### Verpackungsoption bei QPMN
 Beim Produkt-Konfigurator: **Cellophan-Wrap** oder **einfacher Samtbeutel**.

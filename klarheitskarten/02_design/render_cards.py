@@ -330,25 +330,7 @@ def render_all():
         "Ausrede – Funktion – Kosten – Handlung.",
         rules_dir / "R03_solo.png",
     )
-    render_rule_card(
-        "Hinweis",
-        [
-            "Für Erwachsene. 18+.",
-            "Selbstreflexion und Gesprächsanregung.",
-            "Kein medizinisches, psychotherapeutisches",
-            "oder suchttherapeutisches Produkt.",
-            "",
-            "Inverkehrbringer / EU-Kontakt:",
-            "Ticro Goto",
-            "[Strasse, PLZ Ort, Land]",
-            "kontakt@kokos-und-zitrone.de",
-            "",
-            "SKU: KK-001-SELBSTBETRUG-DE",
-        ],
-        "Ein Kartenspiel ist ein Kartenspiel.",
-        rules_dir / "R04_hinweis.png",
-    )
-    print("  rule cards")
+    print("  rule cards (R01–R03)")
 
 
 if __name__ == "__main__":

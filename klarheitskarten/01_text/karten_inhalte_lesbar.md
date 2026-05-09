@@ -1,5 +1,6 @@
 # Klarheitskarten I – Selbstbetrug. Vollständige Karteninhalte
 
+Deck: **52 Selbstbetrugskarten + 3 Regelkarten = 55 Karten**.
 Reihenfolge: 13 Quartette × 4 Karten = 52 Karten. Werte: Sofortentlastung / Tarnung / Rückfallkraft / Folgekosten / Klarheitsschmerz.
 
 ---
@@ -400,7 +401,4 @@ Schlusssatz: Keine Lebensgeschichte. Ein Satz.
 
 Schlusssatz: Ausrede – Funktion – Kosten – Handlung.
 
-### R04 – Hinweis
-Dieses Kartenspiel ist für Erwachsene. Es dient der Selbstreflexion und Gesprächsanregung. Es ist kein medizinisches, psychotherapeutisches oder suchttherapeutisches Produkt. Bei akuten psychischen oder körperlichen Beschwerden such professionelle Hilfe.
-
-Schlusssatz: Ein Kartenspiel ist ein Kartenspiel.
+**Hinweis (R04) entfernt:** GPSR-Pflichtangaben und Disclaimer wandern ins Online-Angebot (Snapshop Lite, Substack). Siehe `05_shopify/produktbeschreibung.md` Block „Pflichtangaben (GPSR)".
