@@ -61,6 +61,10 @@
     const result = data.results.find(r => score <= r.max) || data.results[data.results.length - 1];
     const max = total * Math.max(...data.questions.flatMap(q => q.options.map(o => o.s)));
 
+    const shareUrl = 'https://hellmuth-soda.de/';
+    const shareText = `Ich bin »${result.label}« — ${result.tag} Sucht-Mythen-Quiz:`;
+    const hasNativeShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
+
     root.innerHTML = `
       <section class="result">
         <div class="score-num">${score}</div>
@@ -69,11 +73,62 @@
         <div class="tag">${result.tag}</div>
         <hr class="divider" />
         <p class="text">${result.text}</p>
+        <aside class="result-promo">
+          <div class="result-promo-eyebrow">Bald erhältlich</div>
+          <p class="result-promo-line">Klarheitskarten <span class="kk-roman">I</span> — Selbstbetrug. Das Quartett gegen Selbstsabotage.</p>
+          <a class="result-promo-link" href="klarheitskarten/">52 Karten ansehen →</a>
+        </aside>
+        <div class="share">
+          <div class="share-label">Ergebnis teilen</div>
+          <div class="share-row">
+            ${hasNativeShare ? '<button class="share-btn" id="share-native" type="button">Teilen</button>' : ''}
+            <button class="share-btn" id="share-copy" type="button">Link kopieren</button>
+          </div>
+        </div>
         <button class="btn" id="restart">Noch einmal</button>
       </section>`;
 
     document.getElementById('restart').addEventListener('click', () => {
       i = 0; score = 0; renderQuestion();
+    });
+
+    const payload = `${shareText} ${shareUrl}`;
+
+    const copyToClipboard = async (text) => {
+      try {
+        await navigator.clipboard.writeText(text);
+        return true;
+      } catch {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'absolute';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch {}
+        document.body.removeChild(ta);
+        return ok;
+      }
+    };
+
+    if (hasNativeShare) {
+      document.getElementById('share-native').addEventListener('click', () => {
+        navigator.share({ title: data.title, text: shareText, url: shareUrl }).catch(() => {});
+      });
+    }
+
+    const copyBtn = document.getElementById('share-copy');
+    copyBtn.addEventListener('click', async () => {
+      await copyToClipboard(payload);
+      const original = copyBtn.textContent;
+      copyBtn.textContent = 'Kopiert';
+      copyBtn.classList.add('is-copied');
+      setTimeout(() => {
+        copyBtn.textContent = original;
+        copyBtn.classList.remove('is-copied');
+      }, 1600);
     });
   };
 
