@@ -242,6 +242,38 @@
   font-feature-settings: "liga", "dlig";
 }
 
+.kk-mockups {
+  margin: 4rem 0 3rem;
+}
+.kk-mockup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.kk-mockup {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kk-mockup img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #fff;
+}
+.kk-mockup figcaption {
+  margin-top: 0.6rem;
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  font-feature-settings: "liga", "dlig";
+}
+
 @media (max-width: 720px) {
   .kk-card-grid { grid-template-columns: 1fr; }
+  .kk-mockup-grid { grid-template-columns: 1fr; gap: 2rem; }
 }
