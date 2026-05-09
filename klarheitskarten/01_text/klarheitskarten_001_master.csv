@@ -1,0 +1,53 @@
+id;quartett;titel;mechanismus;sofortentlastung;tarnung;rueckfallkraft;folgekosten;klarheitsschmerz;diagnose;falltuerfrage;status;kommentar;final_geprueft
+A01;Aufschub;Ich fange morgen an;Present Bias;9;8;10;9;6;Morgen ist der Lieblingsort der Sucht.;Was wäre heute der kleinste echte Schritt?;draft;;nein
+A02;Aufschub;Nach diesem Stress;Stress-Ausnahme;8;9;9;8;7;Der Stress endet nie, er wechselt nur das Kostüm.;Welchen Stress benutzt du gerade als Erlaubnis?;draft;;nein
+A03;Aufschub;Ab Montag;Neustart-Illusion;7;8;8;7;5;Der Kalender soll erledigen, was du vermeidest.;Warum darf Dienstag nicht genügen?;draft;;nein
+A04;Aufschub;Erst muss Ordnung rein;Vorbereitungsfalle;6;9;7;6;6;Vorbereitung klingt sauberer als Angst.;Welche Unordnung schützt dich vor Handlung?;draft;;nein
+B01;Kontrollillusion;Ich habe das im Griff;Kontrollillusion;8;9;10;10;8;Kontrolle muss nicht behauptet werden.;Was würdest du sehen, wenn du es nicht im Griff hättest?;draft;;nein
+B02;Kontrollillusion;Ich kann jederzeit aufhören;Omnipotenzlüge;9;8;10;9;8;Jederzeit heißt fast immer nie.;Warum nicht jetzt?;draft;;nein
+B03;Kontrollillusion;Nur heute;Ausnahmegenehmigung;10;7;9;8;5;Sucht lebt von einzelnen Tagen.;Wie oft war heute schon nur heute?;draft;;nein
+B04;Kontrollillusion;Ich dosiere bewusst;Selbstmanagement-Mythos;7;9;8;7;6;Dosierung kann auch nur gebildete Abhängigkeit sein.;Wer entscheidet wirklich: du oder das Muster?;draft;;nein
+C01;Entlastungsluegen;Das beruhigt mich;Withdrawal Reversal;10;8;10;9;7;Es löscht Unruhe, die es selbst erzeugt.;Welche Ruhe hättest du ohne diese Schleife?;draft;;nein
+C02;Entlastungsluegen;Ich brauche das gerade;Bedürfnis-Tarnung;9;9;8;8;6;Gerade ist das Lieblingswort der Kapitulation.;Was brauchst du wirklich gerade?;draft;;nein
+C03;Entlastungsluegen;Ich habe es verdient;Moral Licensing;8;8;7;7;5;Belohnung ist oft Bestrafung mit Geschenkpapier.;Wofür belohnst du dich mit Verlust?;draft;;nein
+C04;Entlastungsluegen;Sonst halte ich es nicht aus;Katastrophisierung;9;7;9;9;8;Du verwechselst Entzug mit Wahrheit über dich.;Was genau wäre unaushaltbar, und wie lange?;draft;;nein
+D01;Identitaetsluegen;So bin ich eben;Essentialismus;8;9;9;9;9;Gewohnheit trägt gern Persönlichkeitsmaske.;Wer wärst du ohne diesen Satz?;draft;;nein
+D02;Identitaetsluegen;Ich bin eben Genussmensch;Genuss-Verklärung;8;9;8;8;6;Genuss ohne Freiheit ist nur hübsche Gefangenschaft.;Genießt du oder gehorchst du?;draft;;nein
+D03;Identitaetsluegen;Ich bin halt sensibel;Selbstbild-Schutz;7;9;7;7;7;Sensibilität kann eine Tarnkappe für Vermeidung sein.;Welche Härte vermeidest du mit diesem Bild?;draft;;nein
+D04;Identitaetsluegen;Ohne das bin ich nicht ich;Identitätsfusion;9;8;10;10;10;Die Abhängigkeit hat deinen Namen gestohlen.;Was an dir bleibt, wenn das Muster wegfällt?;draft;;nein
+E01;Leistungsmythen;Damit funktioniere ich besser;Funktionslüge;9;9;10;10;8;Kurzfristige Schärfe kann langfristige Demontage sein.;Welche Fähigkeit kaufst du dir auf Pump?;draft;;nein
+E02;Leistungsmythen;Kaffee macht wach;Gewöhnungsblindheit;8;9;8;7;5;Oft macht er nur den Mangel weniger sichtbar.;Wie wach wärst du ohne Entzug?;draft;;nein
+E03;Leistungsmythen;Rauchen macht kreativ;Künstler-Mythos;8;8;9;10;9;Die Pause war nützlich. Das Gift nicht.;Welche Kreativität braucht wirklich Rauch?;draft;;nein
+E04;Leistungsmythen;Unter Druck bin ich besser;Adrenalin-Mythos;7;8;8;8;7;Chaos fühlt sich tief an, weil es laut ist.;Welche Qualität verlierst du im Dauerbrand?;draft;;nein
+F01;Entzug_Rueckfall;Das ist ein Zeichen;Fehlinterpretation;8;7;9;8;8;Entzug beweist nicht Bedarf, sondern Abhängigkeit.;Was beweist der Schmerz wirklich?;draft;;nein
+F02;Entzug_Rueckfall;Mein Körper verlangt es;Körper-Orakel;9;8;10;9;7;Nicht jedes Verlangen ist ein Bedürfnis.;Wer spricht: Körper, Gewohnheit oder Angst?;draft;;nein
+F03;Entzug_Rueckfall;Ich war zu früh dran;Timing-Flucht;7;8;8;7;6;Der perfekte Zeitpunkt ist ein sehr höflicher Feigling.;Welcher Zeitpunkt wäre schlecht genug, um echt zu sein?;draft;;nein
+F04;Entzug_Rueckfall;Ein Rückfall ist egal;Alles-oder-nichts;7;7;9;8;6;Egal ist die Brücke zurück in die Schleife.;Was rettest du nach dem ersten Fehler?;draft;;nein
+G01;Ersatzhandlungen;Dann esse ich eben;Ersatzbelohnung;9;8;8;8;6;Das Loch wird nicht kleiner, nur anders gefüllt.;Welche Leere bekommt gerade Kalorien?;draft;;nein
+G02;Ersatzhandlungen;Dann trinke ich eben;Substanzwechsel;10;7;9;10;8;Der Ausgang heißt manchmal nur andere Droge.;Was genau ersetzt du gerade?;draft;;nein
+G03;Ersatzhandlungen;Dann arbeite ich mehr;Produktive Flucht;7;10;8;8;7;Leistung ist der eleganteste Fluchtwagen.;Wovor schützt dich deine Nützlichkeit?;draft;;nein
+G04;Ersatzhandlungen;Dann kaufe ich etwas;Konsumventil;8;8;7;7;5;Kaufen simuliert Entscheidung ohne Veränderung.;Welche Handlung ersetzt der Kauf?;draft;;nein
+H01;Recherche_Ablenkung;Nur noch kurz informieren;Informationsaufschub;8;10;9;8;6;Recherche ist Denken mit Fluchtversicherung.;Was würdest du tun, wenn du genug wüsstest?;draft;;nein
+H02;Recherche_Ablenkung;Ich brauche erst Klarheit;Klarheitsparadox;7;10;8;8;8;Manchmal entsteht Klarheit erst nach Handlung.;Welche Entscheidung versteckt sich hinter Analyse?;draft;;nein
+H03;Recherche_Ablenkung;Ich optimiere das System;Systemflucht;7;9;8;7;6;Das System wird perfekt, damit du nicht anfangen musst.;Welche Arbeit vermeidet dein Setup?;draft;;nein
+H04;Recherche_Ablenkung;Ich muss kurz aufs Handy;Mikroflucht;9;7;10;8;5;Kurz ist ein Loch im Tag.;Was wolltest du eine Sekunde vorher nicht fühlen?;draft;;nein
+I01;Opfergeschichten;Meine Kindheit erklärt das;Ursprungsabsolutismus;8;10;8;9;9;Erklärung ist nicht automatisch Entlassung aus Verantwortung.;Was wird möglich, obwohl es stimmt?;draft;;nein
+I02;Opfergeschichten;Die Umstände sind schuld;Externalisierung;8;9;8;8;7;Umstände erklären viel und erledigen nichts.;Welcher Anteil bleibt trotzdem bei dir?;draft;;nein
+I03;Opfergeschichten;Ich hatte nie eine Chance;Gelernte Niederlage;9;8;9;10;10;Der Satz schützt vor Versuch und vor Enttäuschung.;Was wäre eine Chance im Maßstab von heute?;draft;;nein
+I04;Opfergeschichten;Niemand hilft mir;Bindungsanklage;8;8;8;8;7;Manchmal ist Hilflosigkeit eine Bitte ohne Adresse.;Welche konkrete Hilfe hast du klar verlangt?;draft;;nein
+J01;Moralische_Ausreden;Andere machen es schlimmer;Abwärtsvergleich;7;9;7;7;5;Schlechtere Beispiele sind keine Erlaubnis.;Warum beruhigt dich der Schaden anderer?;draft;;nein
+J02;Moralische_Ausreden;Man muss auch leben;Freiheitsrhetorik;8;9;8;8;6;Leben heißt nicht, dem schwächsten Impuls zu dienen.;Wird dein Leben größer oder kleiner dadurch?;draft;;nein
+J03;Moralische_Ausreden;Ich schade ja keinem;Unsichtbare Kosten;8;8;8;8;7;Selbstzerstörung macht selten nur eine Person kleiner.;Wer bezahlt mit, ohne gefragt zu werden?;draft;;nein
+J04;Moralische_Ausreden;Ich bin wenigstens ehrlich;Tugend-Immunisierung;7;9;7;7;6;Ehrlichkeit über Stillstand ist noch keine Bewegung.;Was nützt Wahrheit ohne Konsequenz?;draft;;nein
+K01;Koerperluegen;Mein Körper braucht Salz;Signal-Deutung;8;8;7;7;5;Körperstimmen können von Gewohnheit übersetzt sein.;Welches Signal prüfst du, statt ihm zu gehorchen?;draft;;nein
+K02;Koerperluegen;Ich brauche Energie;Energielüge;9;9;8;8;5;Energie kann kurzfristig geliehen und langfristig verloren sein.;Was kostet dieser Energieschub morgen?;draft;;nein
+K03;Koerperluegen;Ich muss mich belohnen;Körpervertrag;8;8;7;7;5;Der Körper bekommt oft, was der Schmerz bestellt.;Welche Belohnung würde dich wirklich stärken?;draft;;nein
+K04;Koerperluegen;Ich höre auf mein Gefühl;Gefühlsabsolutismus;8;9;8;8;7;Gefühle sind Daten, keine Regierung.;Was sagt dein Gefühl, wenn der Pegel fällt?;draft;;nein
+L01;Beziehung_Milieu;Alle machen das;Normdruck;8;9;8;8;6;Gemeinschaft kann auch gemeinsames Untergehen sein.;Welche Gruppe schützt dein altes Ich?;draft;;nein
+L02;Beziehung_Milieu;Sonst bin ich langweilig;Zugehörigkeitsangst;8;8;8;8;8;Manche Milieus mögen nur deine Schwäche.;Wer bleibt, wenn du klar wirst?;draft;;nein
+L03;Beziehung_Milieu;Das gehört dazu;Ritualbindung;8;9;8;7;6;Rituale können Sinn geben oder Sucht dekorieren.;Was bleibt vom Ritual ohne Substanz?;draft;;nein
+L04;Beziehung_Milieu;Ich will niemanden enttäuschen;Sozialgehorsam;7;9;7;8;8;Anpassung ist oft Feigheit im höflichen Mantel.;Wen enttäuschst du, wenn du dich weiter verrätst?;draft;;nein
+M01;Kreativitaet_Autor;Ich brauche den Abgrund;Romantisierung;8;8;9;10;9;Der Abgrund schreibt selten. Er frisst nur Zeit.;Welche Arbeit verwechselst du mit Schmerz?;draft;;nein
+M02;Kreativitaet_Autor;Ohne Exzess keine Tiefe;Künstlerfolklore;8;8;8;10;9;Tiefe entsteht durch Wahrnehmung, nicht Verwüstung.;Was wäre deine Tiefe ohne Selbstzerstörung?;draft;;nein
+M03;Kreativitaet_Autor;Ich bin produktiv im Chaos;Chaosmythos;7;8;8;8;7;Chaos erzeugt Dringlichkeit und nennt sie Inspiration.;Welche Ideen sterben im Lärm?;draft;;nein
+M04;Kreativitaet_Autor;Ich muss erst leiden;Märtyrerlogik;7;8;8;9;10;Leiden ist kein Qualitätsnachweis.;Was würdest du schreiben, wenn es leichter ginge?;draft;;nein
