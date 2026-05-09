@@ -31,9 +31,10 @@ Für Erwachsene. 18+.
 Entwurf bis Testbestellung erfolgreich.
 
 ## Preisstaffel
-- Einstiegstest: 29,90 EUR
-- Empfehlung: 34,90 EUR
-- Premiumedition: 39,90–49,90 EUR
+- **MVP (Beutel/Cellophan, ohne Box): 19,90 EUR** (aktueller Plan)
+- Premiumedition (mit Box, Buchcover-Front): 29,90–39,90 EUR (späterer Schritt)
+
+Hintergrund: Box hätte ~10 EUR Aufpreis bedeutet und damit die Kaufschmerzgrenze gerissen. Buchcover-Anbindung läuft über das Buch *Kreativer Suizid* selbst, nicht über die Deck-Verpackung.
 
 ---
 
@@ -49,10 +50,11 @@ Du kannst das Deck als Trumpfquartett spielen, als Gesprächsspiel nutzen oder a
 
 **Enthalten:**
 - 52 Selbstbetrugskarten
-- Regelkarten
-- mehrere Spielmodi
-- Quartett-, Falltür- und Solo-Modus
-- minimalistisches Printdesign
+- 4 Regelkarten (Trumpfquartett, Falltür, Solo-Diagnose, Hinweis)
+- 63,5 × 88,9 mm, abgerundete Ecken, Premium Smooth Karton
+- in Cellophan eingeschweißt (ohne Box)
+- mehrere Spielmodi: Quartett, Falltür, Solo-Diagnose, Duell, Textklinik
+- minimalistisches schwarz-weißes Printdesign
 
 **Hinweis:**
 Dieses Kartenspiel ist kein medizinisches, psychotherapeutisches oder suchttherapeutisches Produkt. Es dient der Selbstreflexion und Gesprächsanregung für Erwachsene.
