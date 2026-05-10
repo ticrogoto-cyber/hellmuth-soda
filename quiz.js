@@ -74,7 +74,7 @@
         <hr class="divider" />
         <p class="text">${result.text}</p>
         <aside class="result-promo">
-          <div class="result-promo-eyebrow">Bald erhältlich</div>
+          <div class="result-promo-eyebrow">Jetzt erhältlich</div>
           <p class="result-promo-line">Klarheitskarten <span class="kk-roman">I</span> — Selbstbetrug. Das Quartett gegen Selbstsabotage.</p>
           <a class="result-promo-link" href="klarheitskarten/">52 Karten ansehen →</a>
         </aside>
