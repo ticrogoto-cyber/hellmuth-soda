@@ -240,6 +240,14 @@
   margin: 0 0 2rem;
   font-feature-settings: "liga", "dlig";
 }
+.kk-final-aside {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 1.5rem 0 0;
+  font-feature-settings: "liga", "dlig";
+}
 
 .kk-mockups {
   margin: 4rem 0 3rem;
