@@ -1,78 +1,99 @@
-# HELLMUTH — Vier Finanzpläne im Vergleich
+# HELLMUTH — Zwei Finanzpläne im Vergleich
 
-**Stand:** Q4 2025 / Q1 2026
-**Trägergesellschaft:** Deep Dive Botanicals UG (haftungsbeschränkt) i. G., Berlin
-**Produkt:** HELLMUTH — Functional Botanical Soda, 250 ml Slim-Aludose, 0 % Zucker / 0 % Koffein / 0 % Alkohol
-**Quellen:** sämtliche Dokumente in `dokumente/` (Businesspläne, Pitch, Canvas, Founder-Masterplan, Katalog, Finanzplanungs-Übersicht).
+**Frage, die diese Pläne beantworten:** Wie viel Geld wird gebraucht, um HELLMUTH herzustellen — vom Rezept bis zur fertigen Dose im Markt — und wofür genau geht dieses Geld?
 
----
-
-## Die Cash-Frage
-
-> *"Hast du einen Finanzplan, aus dem ersichtlich ist, wie viel Geld du brauchst, um Hellmuth in den Markt zu bringen? Dein Engpass ist Cash, und das gibt es wie Sand am Meer."*
-
-**Antwort:** Vier Pfade, je nach Risikoappetit der Geldgeber und gewünschter Geschwindigkeit. Jeder Pfad ist in sich geschlossen finanzierbar und bringt HELLMUTH **vom Rezept bis ins Regal / die Bar / die Bestellung** (Plan 0 als Probelauf vor dem Markteintritt).
-
-| Szenario | Kapitalbedarf | Erstcharge | Vertrieb Start | Break-Even | Jahr-1-Umsatz | Jahr-3-Ziel |
-|---|---|---|---|---|---|---|
-| **0 — Probelauf** | **10.000 €** | 5.000 Dosen (1 SKU, Sleeve) | Berlin, 5–7 Gastro + organischer D2C | – (Kassen-neutral nach 4 Mon., kein Gewinn) | 5.100 € (2.720 Dosen verkauft + 2.280 Bestand) | nicht für sich gerechnet — Sprungbrett in A oder B |
-| **A — Lean MVP** | **25.000 €** | 10.000–15.000 Dosen (1 SKU) | Berlin, 15 Gastro + D2C + Office-Sampling | Monat 4–6 (operativ Cash-positiv) | 84.000 € (60.000 Dosen) | 250.000 € |
-| **B — Seed Launch** | **250.000 €** | 50.000 Dosen (3 SKUs) | Berlin, 50 Gastro + 10 Premium-Retail + D2C-Abo | Monat 9–12 | 180.000 € (180.000 Dosen) | 2.500.000 € |
-| **C — Scale DACH** | **500.000 €** | 250.000 Dosen (3 SKUs + Limited) | Berlin Full + Hamburg/München/Köln Soft-Launch | Q2 Jahr 2 | 480.000 € (480.000 Dosen) | 4.800.000 € |
+**Was diese Pläne nicht tun:** Sie spekulieren nicht über Geldquellen, Investorenrunden, Fördermittel, Kredite oder ähnliches. Sie geben nur an, was an welcher Stelle der Produktionskette zu welchem Preis nötig ist.
 
 ---
 
-## Was in jedem Plan steckt (A bis Z)
+## Produkt
 
-Jeder Plan enthält die volle Wertschöpfungskette:
+3 Sorten Botanical Soda in 250-ml-Slim-Aludose, 0 % Zucker, 0 % Koffein, 0 % Alkohol, 7,0–7,5 g CO₂/L, **EVP 2,29 € brutto** pro Dose.
 
-1. **Rezeptur & Botanicals** — Einkauf Destillate / Extrakte, Wareneinsatz pro Liter und pro Dose
-2. **Produktion** — Co-Packer-Wahl (Füllkopf / BeverageScouts / Rhodius), MOQ, Stückkosten-Modell
-3. **Verpackung & Druck** — 250 ml Slim-Aludose inkl. Sleek-Ends, Spot/White-Under, DPG-Pfand 0,25 €
-4. **Regulatory & Compliance** — LMIV-Etikettierung, HCVO-Health-Claims, DPG-Markierung, LUCID-Registrierung, Dualsystem für D2C-Karton
-5. **Branding & Design** — CI/CD, Etikettenfinalisierung, Website, POS-Material
-6. **Vertriebskanäle** — Gastronomie / Premium-Retail / D2C / Office-Abo / GFGH
-7. **Preisarchitektur** — EVP 1,79 € (Volumenlinie) bzw. 2,49 € (Distilled), Abgabepreise 0,95–1,39 € netto
-8. **Marketing & PR** — Gastro-Seeding, Influencer-Sampling, Instagram/TikTok, Events, Content
-9. **Personal & Berater** — Gründerentnahme, AVGS-Coaches, Vertriebs- und QA-Berater
-10. **Logistik & Lager** — 3PL Berlin, Versandlogistik, Lieferfahrzeug-Leasing
-11. **Fixkosten & Tools** — Miete, Buchhaltung, Versicherung, IHK, Shopify/Klaviyo
-12. **Working Capital** — Reserve 6–12 Wochen Betrieb, FX-Schwankungen Botanicals
-13. **GuV & Liquiditätsplan** — Monatlich Jahr 1, quartalsweise Jahr 2–3
-14. **Use of Funds** — Tabelle mit Mittelverwendung
-15. **Break-Even & Risiken** — Sensitivitäten, Notfallpfade
+| SKU | Profil | Botanicals |
+|---|---|---|
+| **HELLMUTH 1 — Hopfen / Brennnessel** | herb-mineralisch, abendgeeignet | Hopfen-Extrakt (Humulus lupulus), Brennnessel-Auszug |
+| **HELLMUTH 2 — Wacholder / Bergamotte** | klar, harzig, zitrushell | Wacholder-Destillat, Bergamotte-Destillat |
+| **HELLMUTH 3 — Traube / Zitronenverbene** | rund, leicht süß, krautig-zitrisch | Traubensaft-Konzentrat, Zitronenverbene-Extrakt (Aloysia citrodora) |
 
 ---
 
-## Empfehlung
+## Vergleich
 
-Welcher Plan **jetzt** der richtige Einstieg ist, hängt vom Cash-Status und der Velocity-Frage ab:
+| Position | Plan A — Kombiniert | Plan B — Rhodius Full-Service |
+|---|---|---|
+| **Kapitalbedarf** | **15.000 €** | **25.000 €** |
+| **Stückzahl Erstcharge** | 18.000 Dosen (3 × 6.000) | 50.000 Dosen 1 SKU **oder** 3 × 15.000 Dosen |
+| **SKUs sofort** | 3 | 1 (Variante 1) oder 3 (Variante 2) |
+| **Druckverfahren** | Digital direkt auf Dose (NOMOQ) | Industrieller Direktdruck (Rhodius) |
+| **Lohnabfüller** | Faustcatcher Drinks | entfällt — Rhodius füllt selbst |
+| **Aromakonzentrat-Pfad** | Eigenmischung aus SimLife / Aromakonzentrate / Berlin Distillery | Eigenmischung Kundenlieferung (Option B bei Rhodius) |
+| **MOQ-Hürde** | keine | 50.000 Dosen verhandelbar, offiziell 250.000 |
+| **Anzahl orchestrierter Partner** | drei (NOMOQ + Faustcatcher + Botanical-Quellen) | einer (Rhodius) plus Botanical-Quellen |
+| **COGS pro Dose** | 0,84 € | 0,56 € (Variante 1) / 0,72 € (Variante 2) |
+| **DB I D2C Endkunde (EVP 2,29 €)** | 1,08 € pro Dose | 1,36 € (V1) / 1,20 € (V2) |
+| **DB I Gastronomie (Abgabe 1,49 €)** | 0,65 € | 0,93 € (V1) / 0,77 € (V2) |
+| **Vorlaufzeit Geld → Ware** | 8–9 Wochen | 9–10 Wochen |
+| **Zertifizierungen Co-Packer** | regional/handwerklich | IFS, ISO, FDA, Halal, Koscher |
+| **Komplexität in Operations** | hoch (drei Schnittstellen) | niedrig (eine Schnittstelle) |
+| **Reproduktionsfähigkeit Folgechargen aus Erstumsatz** | ja, bei vollständigem Abverkauf | ja, bei vollständigem Abverkauf — Folgechargen mit reduzierten Setup-Pauschalen günstiger pro Dose |
 
-| Wenn das gilt … | … dann startet man hier |
+---
+
+## Warum zwei Pfade — und nicht einer
+
+**Plan A (15.000 €) startet mit weniger Geld**, dafür mit höheren Stückkosten und mehr Koordinationsaufwand. Die Charge ist klein genug, dass eine Sortenfehleinschätzung nicht zur Bilanzleiche wird. Der Markeneindruck ist von Tag eins komplett (drei Sorten).
+
+**Plan B (25.000 €) startet mit mehr Geld**, dafür mit niedrigeren Stückkosten, höherer Margenqualität und einer einzigen, sauberen Lieferantenbeziehung. Variante 1 reduziert die Marke zunächst auf eine SKU, Variante 2 erlaubt das volle Sortiment, ist aber preislich an der Obergrenze des Budgets.
+
+Die Entscheidung hängt nicht an einer Wahrscheinlichkeit, sondern an drei Fragen:
+
+1. **Wie viel Geld ist verfügbar?** Unter 25.000 €: Plan A ist die einzig realistische Option. Über 25.000 €: Plan B wird interessant.
+2. **Wie viel Lieferantenkoordination ist neben Vertrieb und Marketing leistbar?** Drei Partner gleichzeitig (Plan A) oder einer (Plan B).
+3. **Ist die Rezeptur final, oder werden noch sensorische Iterationen erwartet?** Plan A ist iterationsfreundlich (kleine Sortenchargen). Plan B legt mit einer Charge die Marke fest.
+
+---
+
+## Aufschlüsselung der Hauptpositionen — direkter Vergleich
+
+| Posten | Plan A | Plan B Variante 1 |
+|---|---|---|
+| Dosen (Material + Druck) | 7.560 € | im Rhodius-Block enthalten |
+| Setup-Pauschalen Dosenhersteller | 750 € (NOMOQ 3 Designs) | im Rhodius-Setup enthalten |
+| Abfüllung | 3.240 € (Faustcatcher) | im Rhodius-Block enthalten |
+| **Rhodius Full-Service-Block (Dose + Druck + Abfüllung + Karton)** | – | 21.000 € |
+| Aromakonzentrat / Botanicals | 1.980 € | 5.000 € (Doppelzählung im Rhodius-Plan korrigiert: netto im Block 0 €, separat 0 €) |
+| Karton / Tray | 540 € | im Rhodius-Block |
+| Transport | 540 € | 300 € |
+| Reinzeichnung Design | 600 € | 600 € |
+| LMIV-Prüfung | 280 € | 140 € |
+| DPG / LUCID-Anmeldung | 150 € | 100 € |
+| Produkthaftpflicht | 360 € | 360 € |
+| Setup Rezeptur + Druckfreigabe Co-Packer | – | 2.000 € |
+| Lager Co-Packer Monate 2–4 | – | 500 € |
+| **Summe** | **15.000 €** | **25.000 €** |
+
+---
+
+## Liefer- und Botanical-Quellen (beide Pläne)
+
+| Komponente | Quelle |
 |---|---|
-| Persönliche Reserve < 6 Monate Lebenshaltung **und** AVGS / Mikrokredit verfügbar | **Plan 0** — Probelauf, ohne Cap-Table-Folgen |
-| 25 k aus AVGS + Mikrokredit + F&F-Runde erreichbar **und** Velocity-Daten bereits aus Plan 0 oder Substack-Vorabverkäufen | **Plan A** — Lean MVP |
-| Plan A läuft 6 Monate, Velocity ≥ 6 Dosen / Wo / Outlet bestätigt | **Plan B** — Companisto + Lead-Angel |
-| Plan B läuft 12 Monate, DACH-Velocity bestätigt, VC-Gespräche reif | **Plan C** — Series-Seed |
-
-**Kernlogik aller vier Pläne — "Daten vor Meinung":**
-
-1. **Cash ist da wie Sand am Meer** — aber nicht für Pre-Revenue-Marken ohne Velocity-Daten. Plan 0 erzeugt die ersten Daten ohne Geldsuche. Plan A erzeugt die Daten, die Plan B/C finanzierbar machen.
-2. **Jeder Plan ist die Vorstufe des nächsten.** Co-Packer-Vertrag, DPG/LUCID, Sleeve-Design, Substack-Audience — alle Plan-0-Assets fließen ohne Wertverlust in Plan A weiter.
-3. **Plan 0 ist die Antwort auf "Wir brauchen Cash" — ohne extern zu fragen.** AVGS + Mikrokredit + KSK + 1–2 Coaching-Sessions reichen, um in 4 Wochen anzufangen.
-
-**Empfohlene Reihenfolge (organischer Pfad):**
-Plan 0 (Q1 2026) → Plan A (Q3 2026) → Plan B (Q1 2027) → Plan C (Q4 2027).
-
-**Alternativ (mit Investor-Push):** Plan 0 als 90-Tage-Probelauf, direkter Pitch in Plan B (Companisto + Angel-Lead) mit Probelauf-Daten als Anker.
+| Aludose 250 ml Slim, Digitaldruck (Plan A) | NOMOQ AG (Schweiz, EU-verzollt) |
+| Aludose 250 ml Slim, Industrie-Direktdruck (Plan B) | Rhodius Co-Packing (Burgbrohl) |
+| Lohnabfüllung (nur Plan A) | Faustcatcher Drinks (Lohnabfüller, DE) |
+| Wacholder-Destillat | SimLife Naturprodukte (Grävenwiesbach) oder Berlin Distillery (Brandenburg) |
+| Bergamotte-Destillat | SimLife Naturprodukte (Grävenwiesbach) |
+| Zitronenverbene-Extrakt (Aloysia citrodora) | SimLife Naturprodukte oder Provence-Destillateur |
+| Hopfen-Extrakt (Humulus lupulus) | Aromakonzentrate.com oder Hopfenmanufaktur Tettnang |
+| Brennnessel-Auszug | Kräutermanufaktur regional oder Aromakonzentrate.com |
+| Traubensaft-Konzentrat | Pfanner B2B (AT) oder Hauser-Konzentrate |
+| Apfelsäure / Zitronensäure | Standard-Großhandel, in Lohnabfüller-Posten enthalten |
+| CO₂ Lebensmittelqualität | beim Lohnabfüller / Co-Packer enthalten |
 
 ---
 
 ## Lesepfad
 
-- **`01_Plan_0_Probelauf_10k.md`** — Mikrocharge, 10.000 €, 5.000 Dosen Probelauf in 4 Monaten
-- **`02_Plan_A_Lean_MVP_25k.md`** — Bootstrap, 25.000 €, Proof of Concept in 90 Tagen
-- **`03_Plan_B_Seed_Launch_250k.md`** — Companisto Crowd + Angels, 250.000 €, Berlin Full Launch
-- **`04_Plan_C_Scale_DACH_500k.md`** — Pre-Seed VC, 500.000 €, DACH-Vorbereitung
-
-Alle vier Pläne stützen sich auf identische COGS- und Preiskorridore. Der Unterschied liegt in Chargen-Größe, Kanalbreite, Geschwindigkeit und Teamgröße.
+- **`01_Plan_Kombiniert_15k.md`** — 15.000 €, 18.000 Dosen, 3 Sorten, NOMOQ + Faustcatcher + eigene Botanicals
+- **`02_Plan_Rhodius_25k.md`** — 25.000 €, 50.000 Dosen (V1) oder 45.000 Dosen (V2), Rhodius Full-Service
