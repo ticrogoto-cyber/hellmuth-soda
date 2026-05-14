@@ -1,4 +1,4 @@
-# HELLMUTH — Zwei Finanzpläne im Vergleich
+# HELLMUTH — Drei Finanzpläne im Vergleich
 
 **Frage, die diese Pläne beantworten:** Wie viel Geld wird gebraucht, um HELLMUTH herzustellen — vom Rezept bis zur fertigen Dose im Markt — und wofür genau geht dieses Geld?
 
@@ -20,58 +20,65 @@
 
 ## Vergleich
 
-| Position | Plan A — Kombiniert | Plan B — Rhodius Full-Service |
-|---|---|---|
-| **Kapitalbedarf** | **15.000 €** | **25.000 €** |
-| **Stückzahl Erstcharge** | 18.000 Dosen (3 × 6.000) | 50.000 Dosen 1 SKU **oder** 3 × 15.000 Dosen |
-| **SKUs sofort** | 3 | 1 (Variante 1) oder 3 (Variante 2) |
-| **Druckverfahren** | Digital direkt auf Dose (NOMOQ) | Industrieller Direktdruck (Rhodius) |
-| **Lohnabfüller** | Faustcatcher Drinks | entfällt — Rhodius füllt selbst |
-| **Aromakonzentrat-Pfad** | Eigenmischung aus SimLife / Aromakonzentrate / Berlin Distillery | Eigenmischung Kundenlieferung (Option B bei Rhodius) |
-| **MOQ-Hürde** | keine | 50.000 Dosen verhandelbar, offiziell 250.000 |
-| **Anzahl orchestrierter Partner** | drei (NOMOQ + Faustcatcher + Botanical-Quellen) | einer (Rhodius) plus Botanical-Quellen |
-| **COGS pro Dose** | 0,84 € | 0,56 € (Variante 1) / 0,72 € (Variante 2) |
-| **DB I D2C Endkunde (EVP 2,29 €)** | 1,08 € pro Dose | 1,36 € (V1) / 1,20 € (V2) |
-| **DB I Gastronomie (Abgabe 1,49 €)** | 0,65 € | 0,93 € (V1) / 0,77 € (V2) |
-| **Vorlaufzeit Geld → Ware** | 8–9 Wochen | 9–10 Wochen |
-| **Zertifizierungen Co-Packer** | regional/handwerklich | IFS, ISO, FDA, Halal, Koscher |
-| **Komplexität in Operations** | hoch (drei Schnittstellen) | niedrig (eine Schnittstelle) |
-| **Reproduktionsfähigkeit Folgechargen aus Erstumsatz** | ja, bei vollständigem Abverkauf | ja, bei vollständigem Abverkauf — Folgechargen mit reduzierten Setup-Pauschalen günstiger pro Dose |
+| Position | Plan Start | Plan A — Kombiniert | Plan B — Rhodius Full-Service |
+|---|---|---|---|
+| **Kapitalbedarf** | **7.500 €** | **15.000 €** | **25.000 €** |
+| **Stückzahl Erstcharge** | 5.000 Dosen | 18.000 Dosen (3 × 6.000) | 50.000 Dosen 1 SKU **oder** 3 × 15.000 Dosen |
+| **SKUs sofort** | 1 — Hopfen / Brennnessel | 3 (alle drei) | 1 (Variante 1) oder 3 (Variante 2) |
+| **Druckverfahren** | NOMOQ Digital direkt auf Dose | NOMOQ Digital direkt auf Dose | Rhodius industrieller Direktdruck |
+| **Lohnabfüller** | Faustcatcher Drinks | Faustcatcher Drinks (Alt: Füllkopf) | entfällt — Rhodius füllt selbst |
+| **Aromakonzentrat-Pfad** | Eigenmischung 1 × 20-L-Kanister | Eigenmischung 3 × 20-L-Kanister | Eigenmischung Kundenlieferung (Option B bei Rhodius) |
+| **MOQ-Hürde** | keine | keine | 50.000 Dosen verhandelbar, offiziell 250.000 |
+| **Anzahl orchestrierter Partner** | drei | drei | einer (Rhodius) plus Botanical-Quellen |
+| **COGS pro Dose Erstcharge** | 1,20 € | 0,84 € | 0,56 € (V1) / 0,72 € (V2) |
+| **COGS pro Dose Folgecharge gleicher SKU** | 0,90 € | ~ 0,75 € | ~ 0,50 € |
+| **DB I D2C Endkunde (EVP 2,29 €)** | 0,72 € | 1,08 € | 1,36 € (V1) / 1,20 € (V2) |
+| **DB I Gastronomie (Abgabe 1,49 €)** | 0,29 € | 0,65 € | 0,93 € (V1) / 0,77 € (V2) |
+| **Vorlaufzeit Geld → Ware** | 8–9 Wochen | 8–9 Wochen | 9–10 Wochen |
+| **Zertifizierungen Co-Packer** | regional/handwerklich | regional/handwerklich | IFS, ISO, FDA, Halal, Koscher |
+| **Komplexität in Operations** | mittel (3 Schnittstellen, aber nur 1 SKU) | hoch (3 Schnittstellen + 3 SKUs) | niedrig (1 Schnittstelle) |
+| **Risikoprofil** | Gesamtmaterial-Verlust < 6.000 € im Worst Case | Gesamtmaterial-Verlust < 12.000 € | Gesamtmaterial-Verlust ~ 20.000 € |
 
 ---
 
-## Warum zwei Pfade — und nicht einer
+## Warum drei Pfade — und nicht einer
 
-**Plan A (15.000 €) startet mit weniger Geld**, dafür mit höheren Stückkosten und mehr Koordinationsaufwand. Die Charge ist klein genug, dass eine Sortenfehleinschätzung nicht zur Bilanzleiche wird. Der Markeneindruck ist von Tag eins komplett (drei Sorten).
+**Plan Start (7.500 €) — eine Sorte, 5.000 Dosen.** Minimaler Materialeinsatz, hohe Stückkosten (1,20 € pro Dose Erstcharge), reduzierter Markenauftritt mit nur einer SKU. Die Charge ist klein genug, um vollständig verlierbar zu sein. Bei vollem Abverkauf finanziert die Erstcharge eine etwa gleich große oder doppelt so große Folgecharge mit deutlich niedrigeren Stückkosten (0,90 €).
 
-**Plan B (25.000 €) startet mit mehr Geld**, dafür mit niedrigeren Stückkosten, höherer Margenqualität und einer einzigen, sauberen Lieferantenbeziehung. Variante 1 reduziert die Marke zunächst auf eine SKU, Variante 2 erlaubt das volle Sortiment, ist aber preislich an der Obergrenze des Budgets.
+**Plan A (15.000 €) — drei Sorten, 18.000 Dosen.** Doppeltes Material, dreifaches Sortenangebot. Stückkosten bei 0,84 € pro Dose. Koordination weiterhin über NOMOQ + Faustcatcher, plus drei Aromakonzentrate statt einem. Marken­auftritt vollständig.
 
-Die Entscheidung hängt nicht an einer Wahrscheinlichkeit, sondern an drei Fragen:
+**Plan B (25.000 €) — Rhodius Full-Service.** Eine einzige Lieferantenbeziehung, IFS-zertifizierte Industriequalität, deutlich niedrigere Stückkosten (0,56 € / 0,72 €). Variante 1 reduziert auf eine SKU, Variante 2 erlaubt das volle Sortiment.
 
-1. **Wie viel Geld ist verfügbar?** Unter 25.000 €: Plan A ist die einzig realistische Option. Über 25.000 €: Plan B wird interessant.
-2. **Wie viel Lieferantenkoordination ist neben Vertrieb und Marketing leistbar?** Drei Partner gleichzeitig (Plan A) oder einer (Plan B).
-3. **Ist die Rezeptur final, oder werden noch sensorische Iterationen erwartet?** Plan A ist iterationsfreundlich (kleine Sortenchargen). Plan B legt mit einer Charge die Marke fest.
+Die Entscheidung hängt an drei Fragen:
+
+1. **Wie viel Geld ist verfügbar?** Unter 10.000 €: Plan Start. 10.000–20.000 €: Plan A oder vergrößerter Plan Start (= 10.000 Dosen einer Sorte für ~ 10.500 €). 20.000–25.000 €: Plan B.
+2. **Wie wichtig ist der Marken­auftritt mit allen drei Sorten im ersten Verkauf?** Wichtig → Plan A oder B Variante 2. Erst eine Sorte beweisen → Plan Start.
+3. **Wie viel Lieferantenkoordination ist neben Vertrieb und Marketing leistbar?** Drei Partner gleichzeitig (Plan Start oder A) oder einer (Plan B).
+
+**Trajektorie, die alle drei Pläne verbindet:**
+Plan Start liefert 5.000 Dosen Hopfen/Brennnessel. Bei vollständigem Abverkauf (Ø Netto 1,82 €/Dose × 5.000 = 9.100 € Umsatz) stehen netto ~ 4.500–5.000 € für die zweite Charge zur Verfügung — Folgecharge derselben Sorte oder Erweiterung um Sorte 2. Plan A und Plan B sind dann die natürlichen Aufstockungs­optionen, wenn das Sortenbild erweitert oder die Stückkosten weiter gesenkt werden sollen.
 
 ---
 
 ## Aufschlüsselung der Hauptpositionen — direkter Vergleich
 
-| Posten | Plan A | Plan B Variante 1 |
-|---|---|---|
-| Dosen (Material + Druck) | 7.560 € | im Rhodius-Block enthalten |
-| Setup-Pauschalen Dosenhersteller | 750 € (NOMOQ 3 Designs) | im Rhodius-Setup enthalten |
-| Abfüllung | 3.240 € (Faustcatcher) | im Rhodius-Block enthalten |
-| **Rhodius Full-Service-Block (Dose + Druck + Abfüllung + Karton)** | – | 21.000 € |
-| Aromakonzentrat / Botanicals | 1.980 € | 5.000 € (Doppelzählung im Rhodius-Plan korrigiert: netto im Block 0 €, separat 0 €) |
-| Karton / Tray | 540 € | im Rhodius-Block |
-| Transport | 540 € | 300 € |
-| Reinzeichnung Design | 600 € | 600 € |
-| LMIV-Prüfung | 280 € | 140 € |
-| DPG / LUCID-Anmeldung | 150 € | 100 € |
-| Produkthaftpflicht | 360 € | 360 € |
-| Setup Rezeptur + Druckfreigabe Co-Packer | – | 2.000 € |
-| Lager Co-Packer Monate 2–4 | – | 500 € |
-| **Summe** | **15.000 €** | **25.000 €** |
+| Posten | Plan Start | Plan A | Plan B V1 |
+|---|---|---|---|
+| Dosen (Material + Druck NOMOQ) | 2.750 € (5.000 × 0,35 € + 1.000 € Setup-Block) | 7.560 € | im Rhodius-Block |
+| Setup-Pauschalen Dosenhersteller (sep. ausgewiesen) | im Setup-Block | 750 € (3 Designs) | im Rhodius-Setup |
+| Abfüllung (Faustcatcher) | 1.400 € | 3.240 € | – |
+| **Rhodius Full-Service-Block** | – | – | 21.000 € |
+| Aromakonzentrat / Botanicals | 310 € | 1.980 € | 5.000 € (eingerechnet im Rhodius-Doppel) |
+| Karton / Tray | im Faustcatcher-Posten | 540 € | im Rhodius-Block |
+| Transport | 280 € | 540 € | 300 € |
+| Reinzeichnung Design | 600 € (1 Design) | 600 € (3 Designs) | 600 € (1 Design) |
+| LMIV-Prüfung | 140 € | 280 € | 140 € |
+| DPG / LUCID-Anmeldung | 130 € | 150 € | 100 € |
+| Produkthaftpflicht 1. Jahr | 360 € | 360 € | 360 € |
+| Setup Rezeptur + Druckfreigabe Co-Packer | – | – | 2.000 € |
+| Lager Co-Packer | – | – | 500 € |
+| Reserve / Working Capital | 1.530 € | – | – |
+| **Summe** | **7.500 €** | **15.000 €** | **25.000 €** |
 
 ---
 
@@ -132,5 +139,6 @@ Die Entscheidung hängt nicht an einer Wahrscheinlichkeit, sondern an drei Frage
 
 ## Lesepfad
 
-- **`01_Plan_Kombiniert_15k.md`** — 15.000 €, 18.000 Dosen, 3 Sorten, NOMOQ + Faustcatcher (Alt: Füllkopf) + eigene Botanicals
-- **`02_Plan_Rhodius_25k.md`** — 25.000 €, 50.000 Dosen (V1) oder 45.000 Dosen (V2), Rhodius Full-Service
+- **`01_Plan_Start_5000_Dosen.md`** — 7.500 €, 5.000 Dosen, 1 SKU (HELLMUTH 1 Hopfen / Brennnessel), NOMOQ + Faustcatcher + Eigenkonzentrat
+- **`02_Plan_Kombiniert_15k.md`** — 15.000 €, 18.000 Dosen, 3 Sorten, NOMOQ + Faustcatcher (Alt: Füllkopf) + eigene Botanicals
+- **`03_Plan_Rhodius_25k.md`** — 25.000 €, 50.000 Dosen (V1) oder 45.000 Dosen (V2), Rhodius Full-Service
