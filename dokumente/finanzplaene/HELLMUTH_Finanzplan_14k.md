@@ -1,6 +1,8 @@
 # HELLMUTH SODA. Finanzplan Variante 1
 
-**5.000 Dosen, eine Sorte, 13.500 €**
+**5.000 Dosen, eine Sorte, 14.000 €**
+
+*Streng vertraulich.*
 
 ---
 
@@ -12,9 +14,9 @@ Die Rezeptur folgt einer durchgängigen Clean-Label-Philosophie. Wasser, hochwer
 
 Diese Variante produziert 5.000 Dosen einer einzigen Sorte, HELLMUTH 1 (Hopfen, Brennnessel, Szechuanpfeffer-Trace), als minimale produktionsreife Erstcharge. Sie beweist die Geschmacksführung mit kleinst möglichem Materialeinsatz und verankert das taktile Markenzeichen, das in jeder weiteren Sorte wiederkehrt: das spürbare Sanshool-Kribbeln auf der Zunge.
 
-**Was wird gebraucht**: 13.500 €.
-**Was steht am Ende**: 5.000 verkaufsfertige Dosen, freigegebene Rezeptur, dokumentierte Partner-Kette, alle Erstanmeldungen erledigt.
-**Erwarteter Netto-Umsatz Erstcharge** bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gastronomie 5 %): rund 16.000 €. Daraus refinanziert sich die Folgecharge von etwa 10.500 € sowie ein Beitrag von rund 5.500 € zu Marketing, Vertrieb und Gründer-Entnahme.
+**Was wird gebraucht**: 14.000 €.
+**Was steht am Ende**: 5.000 verkaufsfertige Dosen im 3PL-Lager mit automatischer Versendung bei Online-Bestellung, freigegebene Rezeptur, dokumentierte Partner-Kette, alle Erstanmeldungen erledigt.
+**Erwarteter Netto-Umsatz Erstcharge** bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gastronomie 5 %): rund 16.000 €. Daraus refinanziert sich die Folgecharge von etwa 11.000 € sowie ein Beitrag von rund 5.000 € zu Marketing, Vertrieb und Gründer-Entnahme.
 
 ---
 
@@ -64,6 +66,19 @@ Das Sanshool des Szechuanpfeffers löst auf der Zunge ein deutlich spürbares Kr
 | Karbonisierung | 7,0 bis 7,5 g pro Liter |
 
 Alternative: Füllkopf GmbH (Steinheim) ab etwa 10.000 Dosen. Für 5.000 Dosen passt Faustcatcher besser, weil flexibler bei Kleinchargen.
+
+### Logistik nach Produktion: byrd Technologies (3PL)
+
+| Position | Wert |
+|---|---|
+| Was sie tun | Übernahme der Ware vom Lohnabfüller, Lagerung im 3PL-Warehouse, Shopify-Integration, automatische Versendung bei eingehender Online-Bestellung |
+| Setup und Shopify-Integration | rund 200 € einmalig |
+| Goods-in (Annahme + Einlagerung 1 Euro-Palette) | rund 50 € |
+| Lagerung Erstcharge (rund 1 Euro-Palette, abnehmend über die Verkaufszeit) | rund 250 € |
+| Pick & Pack pro Bestellung | rund 2,30 € (variabel, wird über die Versandkosten vom Endkunden refinanziert) |
+| Versand DHL oder GLS | wird vom Endkunden direkt im Shop bezahlt |
+
+Alternative 3PL-Anbieter mit Shopify-Integration: Warehouse1, Sendcloud Fulfillment, Hermes Fulfilment, DHL Fulfillment Solutions.
 
 ### Botanik
 
@@ -116,24 +131,25 @@ Bei einer Folgecharge fallen LMIV, DPG- und LUCID-Anmeldung sowie Versicherung n
 
 ---
 
-## Was kostet was: Aufschlüsselung 13.500 €
+## Was kostet was: Aufschlüsselung 14.000 €
 
 | Position | € | % |
 |---|---|---|
-| NOMOQ, 5.000 Dosen + Setup-Block | 2.750 | 20,4 |
-| Faustcatcher Lohnabfüllung | 1.550 | 11,5 |
-| Hopfen-Destillat (98,75 L × 40 €/L) | 3.950 | 29,3 |
-| Brennnessel-Destillat (86,25 L × 30 €/L) | 2.588 | 19,2 |
-| Szechuanpfeffer-Destillat (2,5 L × 80 €/L) | 200 | 1,5 |
+| NOMOQ, 5.000 Dosen + Setup-Block | 2.750 | 19,6 |
+| Faustcatcher Lohnabfüllung | 1.550 | 11,1 |
+| Hopfen-Destillat (98,75 L × 40 €/L) | 3.950 | 28,2 |
+| Brennnessel-Destillat (86,25 L × 30 €/L) | 2.588 | 18,5 |
+| Szechuanpfeffer-Destillat (2,5 L × 80 €/L) | 200 | 1,4 |
 | Kaliumsorbat + Zitronensäure | 35 | 0,3 |
-| Sample-Pilot-Charge (rund 50 Dosen Vorlauf-Test, drei Mischungs-Varianten) | 300 | 2,2 |
+| Sample-Pilot-Charge (rund 50 Dosen Vorlauf-Test, drei Mischungs-Varianten) | 300 | 2,1 |
 | Versand Botanik-Kanister an Faustcatcher | 150 | 1,1 |
-| Transport NOMOQ zu Faustcatcher | 280 | 2,1 |
+| Transport NOMOQ zu Faustcatcher | 280 | 2,0 |
+| **3PL-Setup byrd: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **500** | **3,6** |
 | LMIV-Etiketten-Prüfung extern | 140 | 1,0 |
-| DPG-Anmeldung + LUCID Verpackungsregister | 130 | 1,0 |
-| Produkthaftpflicht | 360 | 2,7 |
-| Reserve / Working Capital | 1.067 | 7,9 |
-| **Summe** | **13.500** | **100** |
+| DPG-Anmeldung + LUCID Verpackungsregister | 130 | 0,9 |
+| Produkthaftpflicht | 360 | 2,6 |
+| Reserve / Working Capital | 1.067 | 7,6 |
+| **Summe** | **14.000** | **100** |
 
 ---
 
@@ -165,8 +181,10 @@ Bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gast
 9. Großbestellung der Botanicals, Anlieferung an Faustcatcher koordinieren.
 10. Produkthaftpflicht-Police abschließen.
 11. NOMOQ-Dosen treffen bei Faustcatcher ein.
-12. Faustcatcher mischt, karbonisiert, füllt 5.000 Dosen.
-13. Ware abrufbereit, Erstauslieferung beginnt.
+12. byrd-Onboarding: Shopify-Integration einrichten, Anlieferadresse beim 3PL-Warehouse abstimmen.
+13. Faustcatcher mischt, karbonisiert, füllt 5.000 Dosen.
+14. Ware geht direkt vom Lohnabfüller zu byrd ins 3PL-Lager.
+15. Shop ist live, byrd versendet automatisch bei jeder eingehenden Online-Bestellung.
 
 ---
 
@@ -186,7 +204,7 @@ Bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gast
 
 ## Was am Ende vorliegt
 
-- 5.000 produzierte Dosen mit echter Botanik-Destillation und Szechuanpfeffer-Trace.
+- 5.000 produzierte Dosen mit echter Botanik-Destillation und Szechuanpfeffer-Trace, eingelagert bei byrd und sofort online versandfähig.
 - Eine freigegebene, dokumentierte Botanik-Spezifikation (Mischungsverhältnisse, Lieferanten, Sample-Verkostungs-Notizen), übertragbar auf jeden anderen Lohnabfüller.
 - Aktive Geschäftsbeziehungen zu NOMOQ, Faustcatcher und mindestens einer Custom-Destillerie.
 - LMIV-geprüftes Etiketten-Design.
@@ -198,4 +216,4 @@ Bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gast
 
 ## Hinweis zu Nebenposten
 
-Dieser Plan deckt ausschließlich die Produktionskette, vom Rezept bis zur fertigen Dose abrufbereit beim Lohnabfüller. Nicht enthalten sind die laufenden Geschäftskosten, die parallel zu finanzieren sind: UG-Gründung und Stammkapital, Steuerberater, AGB / Datenschutz / Impressum, Geschäftskonto, Stripe-/PayPal-Gebühren, DPG-Pfand-Vorfinanzierung (0,25 € pro Dose durchlaufend), Betriebshaftpflicht, Versandkartons und Logistik zum Endkunden, Shopify-Abo, Domain, Klaviyo-Newsletter, Produktfotografie, Sampling-Versand, Werbung, Verkostungs-Equipment, Reisekosten, Lebenshaltung Gründer.
+Dieser Plan deckt die Produktionskette einschließlich Onboarding, Goods-in und Erstlagerung beim 3PL. Nicht enthalten sind die laufenden Pick-&-Pack-Gebühren pro Bestellung (rund 2,30 €, werden über die Versandkosten vom Endkunden refinanziert) sowie die laufenden Geschäftskosten, die parallel zu finanzieren sind: UG-Gründung und Stammkapital, Steuerberater, AGB / Datenschutz / Impressum, Geschäftskonto, Stripe-/PayPal-Gebühren, DPG-Pfand-Vorfinanzierung (0,25 € pro Dose durchlaufend), Betriebshaftpflicht, Shopify-Abo, Domain, Klaviyo-Newsletter, Produktfotografie, Sampling-Versand, Werbung, Verkostungs-Equipment, Reisekosten, Lebenshaltung Gründer.
