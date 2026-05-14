@@ -20,24 +20,25 @@
 
 ## Vergleich
 
-| Position | Plan Start | Plan A — Kombiniert | Plan B — Rhodius Full-Service |
-|---|---|---|---|
-| **Kapitalbedarf** | **7.500 €** | **15.000 €** | **25.000 €** |
-| **Stückzahl Erstcharge** | 5.000 Dosen | 18.000 Dosen (3 × 6.000) | 50.000 Dosen 1 SKU **oder** 3 × 15.000 Dosen |
-| **SKUs sofort** | 1 — Hopfen / Brennnessel | 3 (alle drei) | 1 (Variante 1) oder 3 (Variante 2) |
-| **Druckverfahren** | NOMOQ Digital direkt auf Dose | NOMOQ Digital direkt auf Dose | Rhodius industrieller Direktdruck |
-| **Lohnabfüller** | Faustcatcher Drinks | Faustcatcher Drinks (Alt: Füllkopf) | entfällt — Rhodius füllt selbst |
-| **Aromakonzentrat-Pfad** | Eigenmischung 1 × 20-L-Kanister | Eigenmischung 3 × 20-L-Kanister | Eigenmischung Kundenlieferung (Option B bei Rhodius) |
-| **MOQ-Hürde** | keine | keine | 50.000 Dosen verhandelbar, offiziell 250.000 |
-| **Anzahl orchestrierter Partner** | drei | drei | einer (Rhodius) plus Botanical-Quellen |
-| **COGS pro Dose Erstcharge** | 1,20 € | 0,84 € | 0,56 € (V1) / 0,72 € (V2) |
-| **COGS pro Dose Folgecharge gleicher SKU** | 0,90 € | ~ 0,75 € | ~ 0,50 € |
-| **DB I D2C Endkunde (EVP 2,29 €)** | 0,72 € | 1,08 € | 1,36 € (V1) / 1,20 € (V2) |
-| **DB I Gastronomie (Abgabe 1,49 €)** | 0,29 € | 0,65 € | 0,93 € (V1) / 0,77 € (V2) |
-| **Vorlaufzeit Geld → Ware** | 8–9 Wochen | 8–9 Wochen | 9–10 Wochen |
-| **Zertifizierungen Co-Packer** | regional/handwerklich | regional/handwerklich | IFS, ISO, FDA, Halal, Koscher |
-| **Komplexität in Operations** | mittel (3 Schnittstellen, aber nur 1 SKU) | hoch (3 Schnittstellen + 3 SKUs) | niedrig (1 Schnittstelle) |
-| **Risikoprofil** | Gesamtmaterial-Verlust < 6.000 € im Worst Case | Gesamtmaterial-Verlust < 12.000 € | Gesamtmaterial-Verlust ~ 20.000 € |
+| Position | Plan Start | Plan A — Kombiniert | Plan B — Rhodius MIN | Plan B — Rhodius V1 / V2 |
+|---|---|---|---|---|
+| **Kapitalbedarf** | **7.500 €** | **15.000 €** | **21.000 €** | **25.000 €** |
+| **Stückzahl Erstcharge** | 5.000 Dosen | 18.000 Dosen (3 × 6.000) | 30.000 Dosen | 50.000 Dosen (V1) oder 3 × 15.000 (V2) |
+| **SKUs sofort** | 1 — Hopfen / Brennnessel | 3 (alle drei) | 1 — Hopfen / Brennnessel | 1 (V1) oder 3 (V2) |
+| **Druckverfahren** | NOMOQ Digital | NOMOQ Digital | Rhodius industrieller Direktdruck | Rhodius industrieller Direktdruck |
+| **Lohnabfüller** | Faustcatcher | Faustcatcher (Alt: Füllkopf) | entfällt — Rhodius | entfällt — Rhodius |
+| **Aromakonzentrat-Pfad** | 1 × 20-L-Kanister | 3 × 20-L-Kanister | 4 × 20-L-Kanister | 7,5 × 20 L (V1) / 9 × 20 L (V2) |
+| **MOQ-Hürde** | keine | keine | konditional ab 30.000 wenn Rhodius Linienzeit frei hat | offiziell 250.000, verhandelbar 50.000 |
+| **Anzahl orchestrierter Partner** | drei | drei | einer plus Botanical-Quellen | einer plus Botanical-Quellen |
+| **COGS pro Dose Erstcharge** | 1,20 € | 0,84 € | 0,59 € | 0,56 € (V1) / 0,72 € (V2) |
+| **COGS pro Dose Folgecharge gleicher SKU** | 0,90 € | ~ 0,75 € | ~ 0,52 € | ~ 0,50 € |
+| **DB I D2C Endkunde (EVP 2,29 €)** | 0,72 € | 1,08 € | 1,33 € | 1,36 € (V1) / 1,20 € (V2) |
+| **DB I Gastronomie (Abgabe 1,49 €)** | 0,29 € | 0,65 € | 0,90 € | 0,93 € (V1) / 0,77 € (V2) |
+| **Vorlaufzeit Geld → Ware** | 8–9 Wochen | 8–9 Wochen | 9–10 Wochen | 9–10 Wochen |
+| **Zertifizierungen Co-Packer** | regional/handwerklich | regional/handwerklich | IFS, ISO, FDA, Halal, Koscher | IFS, ISO, FDA, Halal, Koscher |
+| **Komplexität in Operations** | mittel | hoch | niedrig | niedrig |
+| **Risikoprofil** | Materialverlust < 6.000 € | Materialverlust < 12.000 € | Materialverlust ~ 17.000 € | Materialverlust ~ 20.000 € |
+| **Annahmebedingung Co-Packer** | jederzeit | jederzeit | **Rhodius muss freie Linienzeit haben** | für Neukunden verhandelbar |
 
 ---
 
@@ -51,7 +52,7 @@
 
 Die Entscheidung hängt an drei Fragen:
 
-1. **Wie viel Geld ist verfügbar?** Unter 10.000 €: Plan Start. 10.000–20.000 €: Plan A oder vergrößerter Plan Start (= 10.000 Dosen einer Sorte für ~ 10.500 €). 20.000–25.000 €: Plan B.
+1. **Wie viel Geld ist verfügbar?** Unter 10.000 €: Plan Start. 10.000–20.000 €: Plan A oder vergrößerter Plan Start (= 10.000 Dosen einer Sorte für ~ 10.500 €). 20.000–22.000 €: Plan B Variante MIN (Rhodius 30.000 Dosen, konditional). 22.000–25.000 €: Plan B Variante 1 oder 2.
 2. **Wie wichtig ist der Marken­auftritt mit allen drei Sorten im ersten Verkauf?** Wichtig → Plan A oder B Variante 2. Erst eine Sorte beweisen → Plan Start.
 3. **Wie viel Lieferantenkoordination ist neben Vertrieb und Marketing leistbar?** Drei Partner gleichzeitig (Plan Start oder A) oder einer (Plan B).
 
@@ -62,23 +63,23 @@ Plan Start liefert 5.000 Dosen Hopfen/Brennnessel. Bei vollständigem Abverkauf 
 
 ## Aufschlüsselung der Hauptpositionen — direkter Vergleich
 
-| Posten | Plan Start | Plan A | Plan B V1 |
-|---|---|---|---|
-| Dosen (Material + Druck NOMOQ) | 2.750 € (5.000 × 0,35 € + 1.000 € Setup-Block) | 7.560 € | im Rhodius-Block |
-| Setup-Pauschalen Dosenhersteller (sep. ausgewiesen) | im Setup-Block | 750 € (3 Designs) | im Rhodius-Setup |
-| Abfüllung (Faustcatcher) | 1.400 € | 3.240 € | – |
-| **Rhodius Full-Service-Block** | – | – | 21.000 € |
-| Aromakonzentrat / Botanicals | 310 € | 1.980 € | 5.000 € (eingerechnet im Rhodius-Doppel) |
-| Karton / Tray | im Faustcatcher-Posten | 540 € | im Rhodius-Block |
-| Transport | 280 € | 540 € | 300 € |
-| Reinzeichnung Design | 600 € (1 Design) | 600 € (3 Designs) | 600 € (1 Design) |
-| LMIV-Prüfung | 140 € | 280 € | 140 € |
-| DPG / LUCID-Anmeldung | 130 € | 150 € | 100 € |
-| Produkthaftpflicht 1. Jahr | 360 € | 360 € | 360 € |
-| Setup Rezeptur + Druckfreigabe Co-Packer | – | – | 2.000 € |
-| Lager Co-Packer | – | – | 500 € |
-| Reserve / Working Capital | 1.530 € | – | – |
-| **Summe** | **7.500 €** | **15.000 €** | **25.000 €** |
+| Posten | Plan Start | Plan A | Plan B MIN | Plan B V1 |
+|---|---|---|---|---|
+| Dosen (Material + Druck NOMOQ) | 2.750 € | 7.560 € | im Rhodius-Block | im Rhodius-Block |
+| Setup-Pauschalen NOMOQ | im Setup | 750 € | – | – |
+| Abfüllung (Faustcatcher) | 1.400 € | 3.240 € | – | – |
+| **Rhodius Full-Service-Block** | – | – | 13.500 € | 21.000 € |
+| Aromakonzentrat / Botanicals | 310 € | 1.980 € | 1.600 € | 5.000 € |
+| Karton / Tray | im Faustcatcher-Posten | 540 € | im Rhodius-Block | im Rhodius-Block |
+| Transport | 280 € | 540 € | 200 € | 300 € |
+| Reinzeichnung Design | 600 € | 600 € | 600 € | 600 € |
+| LMIV-Prüfung | 140 € | 280 € | 140 € | 140 € |
+| DPG / LUCID-Anmeldung | 130 € | 150 € | 100 € | 100 € |
+| Produkthaftpflicht 1. Jahr | 360 € | 360 € | 360 € | 360 € |
+| Setup Rezeptur + Druckfreigabe Rhodius | – | – | 2.500 € | 2.000 € |
+| Lager Rhodius | – | – | 400 € | 500 € |
+| Reserve / Working Capital | 1.530 € | – | 1.600 € | – |
+| **Summe** | **7.500 €** | **15.000 €** | **21.000 €** | **25.000 €** |
 
 ---
 

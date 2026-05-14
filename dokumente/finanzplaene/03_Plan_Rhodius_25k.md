@@ -1,7 +1,7 @@
 # Plan B — HELLMUTH Rhodius Full-Service
 
-**Was wird gebraucht: 25.000 €**
-**Wofür: 50.000 Dosen — 1 oder 3 Sorten — alles aus einer Hand bei Rhodius.**
+**Was wird gebraucht: 21.000 € (Variante MIN) bis 25.000 € (Variante 1 oder 2)**
+**Wofür: 30.000 bis 50.000 Dosen — 1 oder 3 Sorten — alles aus einer Hand bei Rhodius.**
 
 Dies ist der unkomplizierte Pfad. Ein einziger Partner übernimmt Rezepturentwicklung, Aromen-Sourcing, Produktion, Direktdruck auf der Dose, Karbonisierung, Karton, Palettierung, Lager. Der Vorteil ist deutlich niedrigere COGS pro Dose und keine Koordination zwischen drei Lieferanten. Der Nachteil ist die höhere Eintrittsmenge — Rhodius arbeitet ab Chargengröße, in der NOMOQ und Faustcatcher gar nicht mehr starten.
 
@@ -17,12 +17,13 @@ Dieselben drei Sorten wie in Plan A, in derselben Spezifikation: 250 ml Slim-Alu
 | **HELLMUTH 2 — Wacholder / Bergamotte** | klar, harzig, zitrushell | Wacholder-Destillat, Bergamotte-Destillat |
 | **HELLMUTH 3 — Traube / Zitronenverbene** | rund, leicht süß, krautig-zitrisch | Traubensaft-Konzentrat, Zitronenverbene-Extrakt (Aloysia citrodora) |
 
-Bei 25.000 € Kapitalbedarf sind in Rhodius-Kalkulation **zwei Varianten** möglich:
+In Rhodius-Kalkulation sind **drei Varianten** möglich:
 
-**Variante 1 — 50.000 Dosen einer einzigen SKU.** Niedrigste Stückkosten, ein Geschmacksprofil im Markt, beste DB-Performance.
-**Variante 2 — 3 SKUs à ~15.000 Dosen.** Höherer Setup-Aufwand pro Sorte (drei Druckfreigaben, drei Rezepturen), höhere Stückkosten, aber Markenauftritt mit der vollen Sortenvielfalt.
+**Variante MIN — 30.000 Dosen einer einzigen SKU.** Niedrigster realistischer Rhodius-Einstieg. Bedingt akzeptiert (Rhodius muss freie Linienzeit haben). ~ 21.000 €.
+**Variante 1 — 50.000 Dosen einer einzigen SKU.** Sicher akzeptierter Einstieg für Neukunden. Niedrigste Stückkosten. ~ 25.000 €.
+**Variante 2 — 3 SKUs à ~15.000 Dosen (45.000 gesamt).** Höherer Setup-Aufwand pro Sorte. Volles Sortiment im Markt. ~ 25.000 €.
 
-Beide Varianten werden unten kalkuliert. Empfehlung: **Variante 1 zum Marktstart, Variante 2 nach Verkauf der ersten Charge** — weil Rhodius bei Folgeaufträgen die Setup-Pauschalen reduziert und die Sortenwechselkosten dann durch den Umsatz der Erstcharge gedeckt sind.
+Empfehlung: **Variante 1 zum Marktstart**, weil Rhodius dann mit hoher Wahrscheinlichkeit annimmt und die Stückkosten am niedrigsten sind. Variante MIN nur, wenn 25.000 € nicht aufstellbar sind und Rhodius bestätigt, dass eine 30.000er-Charge auf der Linie freisteht. Variante 2 nach Verkauf der ersten Charge.
 
 ---
 
@@ -68,6 +69,12 @@ Für diesen Plan wird **Option B** kalkuliert, weil sie die niedrigsten Stückko
 
 ## 3 · Mengengerüst
 
+### Variante MIN — 30.000 Dosen, 1 SKU
+
+Empfehlung: **HELLMUTH 1 — Hopfen / Brennnessel** als Start-SKU, weil das Profil bewusst polarisiert (herb, mineralisch) und sich damit am klarsten von süßen Botanical-Sodas am Regal absetzt — der härtere Beweis, dass die Marke ohne Marketing-Brimborium funktioniert. Alternativ kann mit Sorte 2 oder 3 gestartet werden.
+
+**Bedingung:** Rhodius muss bestätigen, dass eine 30.000er-Charge auf der Linie freisteht. Offizieller MOQ liegt bei 250.000, verhandelbar für Neukunden bei 50.000, gelegentlich 30.000 bei freier Linienzeit. Bei Ablehnung Rhodius muss auf Variante 1 erhöht oder auf Plan A / Plan Start zurückgegangen werden.
+
 ### Variante 1 — 50.000 Dosen, 1 SKU
 
 Empfehlung: **HELLMUTH 2 — Wacholder / Bergamotte** als Start-SKU, weil das Profil die klarste Differenzierung am Regal trägt und sensorisch am wenigsten erklärungsbedürftig ist.
@@ -79,6 +86,17 @@ Wenn der Markenauftritt mit drei Sorten Pflicht ist, wandern 3.000 € der 25.00
 ---
 
 ## 4 · Stückkosten pro Dose
+
+### Variante MIN (30.000 Dosen, 1 SKU)
+
+| Position | € / Dose |
+|---|---|
+| Aludose 250 ml Slim, Vollservice inkl. Direktdruck Vollfarbe, Karbonisierung, Abfüllung, Verschluss, Karton 24er, Tray, Palettierung — kleine Charge, etwas höherer Linientarif | 0,45 |
+| Aromakonzentrat-Anteil (Kunden-Lieferung, ~ 4 × 20-L-Kanister für 30.000 Dosen) | 0,05 |
+| Anteilige Setup-Pauschale Rezeptur + Druckfreigabe (~ 2.500 € / 30.000) | 0,08 |
+| Transport Konzentrat → Rhodius anteilig | 0,01 |
+| **COGS Vollkosten pro Dose** | **0,59 €** |
+| DPG-Pfand durchlaufend | 0,25 |
 
 ### Variante 1 (50.000 Dosen, 1 SKU)
 
@@ -101,7 +119,7 @@ Wenn der Markenauftritt mit drei Sorten Pflicht ist, wandern 3.000 € der 25.00
 | **COGS Vollkosten pro Dose** | **0,72 €** |
 | DPG-Pfand durchlaufend | 0,25 |
 
-> Vergleich: Plan A (NOMOQ + Faustcatcher) → 0,84 € / Dose. Rhodius Variante 2 → 0,72 € / Dose. Rhodius Variante 1 → 0,56 € / Dose.
+> Vergleich: Plan Start (5.000 Dosen) → 1,20 € / Dose. Plan A (NOMOQ + Faustcatcher, 18.000 Dosen) → 0,84 € / Dose. Rhodius Variante MIN → 0,59 € / Dose. Rhodius Variante 2 → 0,72 € / Dose. Rhodius Variante 1 → 0,56 € / Dose.
 
 ---
 
@@ -109,17 +127,35 @@ Wenn der Markenauftritt mit drei Sorten Pflicht ist, wandern 3.000 € der 25.00
 
 Identisch zu Plan A, weil der EVP unverändert bei 2,29 € liegt. Was sich ändert, ist der Deckungsbeitrag pro Dose:
 
-| Kanal | EVP brutto | Netto-Abgabe | DB I Variante 1 | DB I Variante 2 |
-|---|---|---|---|---|
-| D2C-Shop | 2,29 € | 1,92 € | 1,36 € | 1,20 € |
-| Gastronomie (Abgabe) | – | 1,49 € | 0,93 € | 0,77 € |
-| Verkostung / Event | 2,50 € | 2,10 € | 1,54 € | 1,38 € |
+| Kanal | EVP brutto | Netto-Abgabe | DB I Variante MIN | DB I Variante 1 | DB I Variante 2 |
+|---|---|---|---|---|---|
+| D2C-Shop | 2,29 € | 1,92 € | 1,33 € | 1,36 € | 1,20 € |
+| Gastronomie (Abgabe) | – | 1,49 € | 0,90 € | 0,93 € | 0,77 € |
+| Verkostung / Event | 2,50 € | 2,10 € | 1,51 € | 1,54 € | 1,38 € |
 
 ---
 
-## 6 · Was kostet was — Aufschlüsselung 25.000 €
+## 6 · Was kostet was — Aufschlüsselung
 
-### Variante 1 — 50.000 Dosen, 1 SKU
+### Variante MIN — 30.000 Dosen, 1 SKU (~ 21.000 €)
+
+| Position | € | % | Wofür konkret |
+|---|---|---|---|
+| **Rhodius Produktion 30.000 × 0,45 €** | **13.500** | 64,3 % | Dose + Direktdruck + Wasser + CO₂ + Säuerung + Abfüllung + Verschluss + Karton + Palettierung — kleine Charge, leicht höherer Linientarif |
+| **Setup Rezeptur + Direktdruckfreigabe** | **2.500** | 11,9 % | Setup-Block etwas höher als bei Variante 1, weil Rhodius bei Mini-Auftrag den gleichen Linienaufwand hat und kompensiert |
+| **Aromakonzentrat-Anteil** | **1.600** | 7,6 % | 4 × 20-L-Kanister: Hopfen-Extrakt + Brennnessel-Auszug + Träger + Säuerung + Sample-Pilot |
+| Reinzeichnung 1 Design | 600 | 2,9 % | Direktdruck-Reinzeichnung |
+| LMIV-Etiketten-Prüfung extern | 140 | 0,7 % | 1 Etikett |
+| DPG- und LUCID-Anmeldung | 100 | 0,5 % | einmalige Anmeldegebühren |
+| Produkthaftpflicht 1. Jahr | 360 | 1,7 % | Hiscox-Police 1 Mio. € |
+| Transport Aromakonzentrat → Rhodius | 200 | 1,0 % | Spedition für 4 Kanister |
+| Lager-/Abrufkosten Rhodius (Monate 2–3) | 400 | 1,9 % | bei Bedarf, ggf. niedriger |
+| Reserve / Working Capital | 1.600 | 7,6 % | Puffer für Rezeptur-Iteration, Versand-Mehrkosten, Reklamation |
+| **Summe Variante MIN** | **21.000** | **100 %** | |
+
+> Voraussetzung Variante MIN: schriftliche Zusage von Rhodius, dass eine 30.000er-Charge auf der Linie freisteht. Ohne diese Zusage rückt die Variante automatisch auf 50.000 Dosen (Variante 1).
+
+### Variante 1 — 50.000 Dosen, 1 SKU (25.000 €)
 
 | Position | € | % | Wofür konkret |
 |---|---|---|---|
@@ -136,7 +172,7 @@ Identisch zu Plan A, weil der EVP unverändert bei 2,29 € liegt. Was sich änd
 | ./. Abzug Aromakonzentrat-Doppelzählung (kommt nicht zusätzlich, ist im Aromen-Posten enthalten) | –5.000 | | |
 | **Summe Variante 1** | **25.000** | **100 %** | |
 
-### Variante 2 — 3 × 15.000 Dosen, 3 SKUs
+### Variante 2 — 3 × 15.000 Dosen, 3 SKUs (25.000 €)
 
 | Position | € | % | Wofür konkret |
 |---|---|---|---|
