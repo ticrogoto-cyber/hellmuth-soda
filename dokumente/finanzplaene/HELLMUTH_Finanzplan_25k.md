@@ -63,19 +63,19 @@ Konsequent botanische Destillate (Wasserdampfdestillation, kupfergebrannte Desti
 
 Alternative: Füllkopf GmbH (Steinheim) ab etwa 10.000 Dosen, ist aber bei Kleinchargen-Sortenwechseln weniger flexibel als Faustcatcher.
 
-### Logistik nach Produktion: byrd Technologies (3PL)
+### Logistik nach Produktion: Berliner 3PL
 
 | Position | Wert |
 |---|---|
-| Was sie tun | Übernahme der Ware vom Lohnabfüller, Lagerung im 3PL-Warehouse, Shopify-Integration, automatische Versendung bei eingehender Online-Bestellung |
+| Was sie tun | Übernahme der Ware vom Lohnabfüller, Lagerung im Berliner 3PL-Warehouse, Shopify-Integration, automatische Versendung bei eingehender Online-Bestellung |
 | Setup und Shopify-Integration | rund 200 € einmalig |
 | Goods-in (Annahme + Einlagerung 1,5 Euro-Paletten) | rund 75 € |
 | Lagerung Erstcharge (rund 1,5 Euro-Paletten, abnehmend über die Verkaufszeit) | rund 525 € |
 | Pick & Pack pro Bestellung | rund 2,30 € (variabel, wird über die Versandkosten vom Endkunden refinanziert) |
 | Versand DHL oder GLS | wird vom Endkunden direkt im Shop bezahlt |
-| DACH-Versand | byrd (Hauptsitz Wien) versendet aus dem Lager direkt nach Deutschland und Österreich. Versand in die Schweiz mit Zollabwicklung über Schweizer Post oder DPD CH, Importzoll und Mehrwertsteuer (8,1 %) trägt der Endkunde. |
+| DACH-Versand | aus dem Berliner Warehouse direkt nach Deutschland und Österreich. Versand in die Schweiz mit Zollabwicklung über Schweizer Post oder DPD CH, Importzoll und Mehrwertsteuer (8,1 %) trägt der Endkunde. |
 
-Alternative 3PL-Anbieter mit Shopify-Integration: Warehouse1, Sendcloud Fulfillment, Hermes Fulfilment, DHL Fulfillment Solutions.
+Anbieter in Berlin (zu prüfen und Konditionen einzuholen): DEINHARDT.fulfillment (Berlin, DTC-Spezialist mit Shopify-Integration), Warehouse1 (Berlin, kleinere Mengen, DTC-orientiert), DHL Fulfillment Solutions (Berliner Standort, größere Lösung). Backup außerhalb Berlins, aber in Deutschland: byrd Technologies (Warehouse Halle bei Leipzig), Hermes Fulfilment.
 
 ### DACH-Compliance und Pfandsysteme
 
@@ -149,7 +149,7 @@ Folgecharge 9.000 Dosen, gleiche 3 SKUs, ohne Erst-Setup: rund 19.000 € (= 2,1
 | Sample-Pilot-Charge | 300 | 1,2 |
 | Botanik-Versand (Spedition mehrerer Kanister) | 300 | 1,2 |
 | Transport NOMOQ zu Faustcatcher | 540 | 2,2 |
-| **3PL-Setup byrd: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **800** | **3,2** |
+| **3PL-Setup Berlin: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **800** | **3,2** |
 | LMIV-Etiketten-Prüfung extern (3 Etiketten) | 420 | 1,7 |
 | DPG-Anmeldung + LUCID (DE) + ARA-Lizenzierung (AT) | 200 | 0,8 |
 | Produkthaftpflicht | 360 | 1,4 |
@@ -188,10 +188,10 @@ Bei Mischverkauf (D2C 55 %, Spezial-Retail 20 %, Verkostung und Event 15 %, Gast
 11. Großbestellung der 7 Botanicals, Anlieferung an Faustcatcher koordinieren.
 12. Produkthaftpflicht-Police abschließen.
 13. NOMOQ-Dosen treffen bei Faustcatcher ein.
-14. byrd-Onboarding: Shopify-Integration einrichten, Anlieferadresse beim 3PL-Warehouse abstimmen.
+14. Berliner 3PL auswählen und Konditionen einholen (DEINHARDT.fulfillment, Warehouse1 oder DHL Fulfillment Berlin). Onboarding starten, Shopify-Integration einrichten, Anlieferadresse beim Berliner Warehouse abstimmen.
 15. Faustcatcher mischt und füllt Sorte 1 (3.000 Dosen), Linienreinigung, Sorte 2 (3.000), Linienreinigung, Sorte 3 (3.000).
-16. Ware geht direkt vom Lohnabfüller zu byrd ins 3PL-Lager.
-17. Shop ist live, byrd versendet automatisch bei jeder eingehenden Online-Bestellung.
+16. Ware geht direkt vom Lohnabfüller zum Berliner 3PL-Lager.
+17. Shop ist live, der Berliner 3PL versendet automatisch bei jeder eingehenden Online-Bestellung.
 
 ---
 
@@ -210,7 +210,7 @@ Bei Mischverkauf (D2C 55 %, Spezial-Retail 20 %, Verkostung und Event 15 %, Gast
 
 ## Was am Ende vorliegt
 
-- 9.000 produzierte Dosen, gleichmäßig auf 3 Sorten verteilt, mit echter Botanik-Destillation in allen Komponenten und Szechuanpfeffer-Trace in jeder Sorte, eingelagert bei byrd und sofort online versandfähig.
+- 9.000 produzierte Dosen, gleichmäßig auf 3 Sorten verteilt, mit echter Botanik-Destillation in allen Komponenten und Szechuanpfeffer-Trace in jeder Sorte, eingelagert beim Berliner 3PL und sofort online versandfähig (Versand aus Berlin nach DACH).
 - Drei freigegebene, dokumentierte Botanik-Mischungs-Spezifikationen, übertragbar auf jeden anderen Lohnabfüller.
 - Aktive Geschäftsbeziehungen zu NOMOQ, Faustcatcher und mindestens 6 Destillerien oder Spezial-Lieferanten.
 - LMIV-geprüfte Etiketten-Direktdrucke für 3 Designs.

@@ -67,19 +67,19 @@ Das Sanshool des Szechuanpfeffers löst auf der Zunge ein deutlich spürbares Kr
 
 Alternative: Füllkopf GmbH (Steinheim) ab etwa 10.000 Dosen. Für 5.000 Dosen passt Faustcatcher besser, weil flexibler bei Kleinchargen.
 
-### Logistik nach Produktion: byrd Technologies (3PL)
+### Logistik nach Produktion: Berliner 3PL
 
 | Position | Wert |
 |---|---|
-| Was sie tun | Übernahme der Ware vom Lohnabfüller, Lagerung im 3PL-Warehouse, Shopify-Integration, automatische Versendung bei eingehender Online-Bestellung |
+| Was sie tun | Übernahme der Ware vom Lohnabfüller, Lagerung im Berliner 3PL-Warehouse, Shopify-Integration, automatische Versendung bei eingehender Online-Bestellung |
 | Setup und Shopify-Integration | rund 200 € einmalig |
 | Goods-in (Annahme + Einlagerung 1 Euro-Palette) | rund 50 € |
 | Lagerung Erstcharge (rund 1 Euro-Palette, abnehmend über die Verkaufszeit) | rund 250 € |
 | Pick & Pack pro Bestellung | rund 2,30 € (variabel, wird über die Versandkosten vom Endkunden refinanziert) |
 | Versand DHL oder GLS | wird vom Endkunden direkt im Shop bezahlt |
-| DACH-Versand | byrd (Hauptsitz Wien) versendet aus dem Lager direkt nach Deutschland und Österreich. Versand in die Schweiz mit Zollabwicklung über Schweizer Post oder DPD CH, Importzoll und Mehrwertsteuer (8,1 %) trägt der Endkunde. |
+| DACH-Versand | aus dem Berliner Warehouse direkt nach Deutschland und Österreich. Versand in die Schweiz mit Zollabwicklung über Schweizer Post oder DPD CH, Importzoll und Mehrwertsteuer (8,1 %) trägt der Endkunde. |
 
-Alternative 3PL-Anbieter mit Shopify-Integration: Warehouse1, Sendcloud Fulfillment, Hermes Fulfilment, DHL Fulfillment Solutions.
+Anbieter in Berlin (zu prüfen und Konditionen einzuholen): DEINHARDT.fulfillment (Berlin, DTC-Spezialist mit Shopify-Integration), Warehouse1 (Berlin, kleinere Mengen, DTC-orientiert), DHL Fulfillment Solutions (Berliner Standort, größere Lösung). Backup außerhalb Berlins, aber in Deutschland: byrd Technologies (Warehouse Halle bei Leipzig), Hermes Fulfilment.
 
 ### DACH-Compliance und Pfandsysteme
 
@@ -153,7 +153,7 @@ Bei einer Folgecharge fallen LMIV, DPG- und LUCID-Anmeldung sowie Versicherung n
 | Sample-Pilot-Charge (rund 50 Dosen Vorlauf-Test, drei Mischungs-Varianten) | 300 | 2,1 |
 | Versand Botanik-Kanister an Faustcatcher | 150 | 1,1 |
 | Transport NOMOQ zu Faustcatcher | 280 | 2,0 |
-| **3PL-Setup byrd: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **500** | **3,6** |
+| **3PL-Setup Berlin: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **500** | **3,6** |
 | LMIV-Etiketten-Prüfung extern | 140 | 1,0 |
 | DPG-Anmeldung + LUCID (DE) + ARA-Lizenzierung (AT) | 180 | 1,3 |
 | Produkthaftpflicht | 360 | 2,6 |
@@ -190,10 +190,10 @@ Bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gast
 9. Großbestellung der Botanicals, Anlieferung an Faustcatcher koordinieren.
 10. Produkthaftpflicht-Police abschließen.
 11. NOMOQ-Dosen treffen bei Faustcatcher ein.
-12. byrd-Onboarding: Shopify-Integration einrichten, Anlieferadresse beim 3PL-Warehouse abstimmen.
+12. Berliner 3PL auswählen und Konditionen einholen (DEINHARDT.fulfillment, Warehouse1 oder DHL Fulfillment Berlin). Onboarding starten, Shopify-Integration einrichten, Anlieferadresse beim Berliner Warehouse abstimmen.
 13. Faustcatcher mischt, karbonisiert, füllt 5.000 Dosen.
-14. Ware geht direkt vom Lohnabfüller zu byrd ins 3PL-Lager.
-15. Shop ist live, byrd versendet automatisch bei jeder eingehenden Online-Bestellung.
+14. Ware geht direkt vom Lohnabfüller zum Berliner 3PL-Lager.
+15. Shop ist live, der Berliner 3PL versendet automatisch bei jeder eingehenden Online-Bestellung.
 
 ---
 
@@ -213,7 +213,7 @@ Bei Mischverkauf (D2C 70 %, Verkostung und Event 15 %, Spezial-Retail 10 %, Gast
 
 ## Was am Ende vorliegt
 
-- 5.000 produzierte Dosen mit echter Botanik-Destillation und Szechuanpfeffer-Trace, eingelagert bei byrd und sofort online versandfähig.
+- 5.000 produzierte Dosen mit echter Botanik-Destillation und Szechuanpfeffer-Trace, eingelagert beim Berliner 3PL und sofort online versandfähig (Versand aus Berlin nach DACH).
 - Eine freigegebene, dokumentierte Botanik-Spezifikation (Mischungsverhältnisse, Lieferanten, Sample-Verkostungs-Notizen), übertragbar auf jeden anderen Lohnabfüller.
 - Aktive Geschäftsbeziehungen zu NOMOQ, Faustcatcher und mindestens einer Custom-Destillerie.
 - LMIV-geprüftes Etiketten-Design.
