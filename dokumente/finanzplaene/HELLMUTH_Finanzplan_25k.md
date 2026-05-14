@@ -73,8 +73,17 @@ Alternative: Füllkopf GmbH (Steinheim) ab etwa 10.000 Dosen, ist aber bei Klein
 | Lagerung Erstcharge (rund 1,5 Euro-Paletten, abnehmend über die Verkaufszeit) | rund 525 € |
 | Pick & Pack pro Bestellung | rund 2,30 € (variabel, wird über die Versandkosten vom Endkunden refinanziert) |
 | Versand DHL oder GLS | wird vom Endkunden direkt im Shop bezahlt |
+| DACH-Versand | byrd (Hauptsitz Wien) versendet aus dem Lager direkt nach Deutschland und Österreich. Versand in die Schweiz mit Zollabwicklung über Schweizer Post oder DPD CH, Importzoll und Mehrwertsteuer (8,1 %) trägt der Endkunde. |
 
 Alternative 3PL-Anbieter mit Shopify-Integration: Warehouse1, Sendcloud Fulfillment, Hermes Fulfilment, DHL Fulfillment Solutions.
+
+### DACH-Compliance und Pfandsysteme
+
+| Markt | Anmeldung / Pfandsystem |
+|---|---|
+| Deutschland | DPG-Einwegpfand 0,25 € pro Dose, LUCID Verpackungsregister, Aluminium-Lizenzierung |
+| Österreich | ARA-Lizenzierung (Altstoff Recycling Austria) für jede in AT in Verkehr gebrachte Verpackung. Ab Januar 2026 zusätzlich das österreichische Einwegpfandsystem 0,25 € auf Aludosen (parallel zum deutschen DPG, getrennte Registrierung). |
+| Schweiz | Freiwillige Teilnahme am Aluminium-Recyclingsystem IGORA. Kein Einwegpfand. Importbestimmungen für Lebensmittel (Lebensmittelverordnung) beachten. |
 
 ### Botanik
 
@@ -142,14 +151,14 @@ Folgecharge 9.000 Dosen, gleiche 3 SKUs, ohne Erst-Setup: rund 19.000 € (= 2,1
 | Transport NOMOQ zu Faustcatcher | 540 | 2,2 |
 | **3PL-Setup byrd: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **800** | **3,2** |
 | LMIV-Etiketten-Prüfung extern (3 Etiketten) | 420 | 1,7 |
-| DPG-Anmeldung + LUCID Verpackungsregister | 150 | 0,6 |
+| DPG-Anmeldung + LUCID (DE) + ARA-Lizenzierung (AT) | 200 | 0,8 |
 | Produkthaftpflicht | 360 | 1,4 |
-| Reserve / Working Capital | 1.730 | 6,9 |
+| Reserve / Working Capital | 1.680 | 6,7 |
 | **Summe** | **25.000** | **100** |
 
 ---
 
-## Preisarchitektur bei EVP 3,99 € brutto
+## Preisarchitektur bei EVP 3,99 € brutto (DE und AT). Schweiz entsprechend rund 4,49 CHF brutto.
 
 | Kanal | EVP brutto | Netto-Abgabe (19 % MwSt) | DB I pro Dose |
 |---|---|---|---|

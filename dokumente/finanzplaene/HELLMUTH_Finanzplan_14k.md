@@ -77,8 +77,17 @@ Alternative: Füllkopf GmbH (Steinheim) ab etwa 10.000 Dosen. Für 5.000 Dosen p
 | Lagerung Erstcharge (rund 1 Euro-Palette, abnehmend über die Verkaufszeit) | rund 250 € |
 | Pick & Pack pro Bestellung | rund 2,30 € (variabel, wird über die Versandkosten vom Endkunden refinanziert) |
 | Versand DHL oder GLS | wird vom Endkunden direkt im Shop bezahlt |
+| DACH-Versand | byrd (Hauptsitz Wien) versendet aus dem Lager direkt nach Deutschland und Österreich. Versand in die Schweiz mit Zollabwicklung über Schweizer Post oder DPD CH, Importzoll und Mehrwertsteuer (8,1 %) trägt der Endkunde. |
 
 Alternative 3PL-Anbieter mit Shopify-Integration: Warehouse1, Sendcloud Fulfillment, Hermes Fulfilment, DHL Fulfillment Solutions.
+
+### DACH-Compliance und Pfandsysteme
+
+| Markt | Anmeldung / Pfandsystem |
+|---|---|
+| Deutschland | DPG-Einwegpfand 0,25 € pro Dose, LUCID Verpackungsregister, Aluminium-Lizenzierung |
+| Österreich | ARA-Lizenzierung (Altstoff Recycling Austria) für jede in AT in Verkehr gebrachte Verpackung. Ab Januar 2026 zusätzlich das österreichische Einwegpfandsystem 0,25 € auf Aludosen (parallel zum deutschen DPG, getrennte Registrierung). |
+| Schweiz | Freiwillige Teilnahme am Aluminium-Recyclingsystem IGORA. Kein Einwegpfand. Importbestimmungen für Lebensmittel (Lebensmittelverordnung) beachten. |
 
 ### Botanik
 
@@ -146,14 +155,14 @@ Bei einer Folgecharge fallen LMIV, DPG- und LUCID-Anmeldung sowie Versicherung n
 | Transport NOMOQ zu Faustcatcher | 280 | 2,0 |
 | **3PL-Setup byrd: Onboarding + Shopify-Integration + Goods-in + Lagerung Erstcharge** | **500** | **3,6** |
 | LMIV-Etiketten-Prüfung extern | 140 | 1,0 |
-| DPG-Anmeldung + LUCID Verpackungsregister | 130 | 0,9 |
+| DPG-Anmeldung + LUCID (DE) + ARA-Lizenzierung (AT) | 180 | 1,3 |
 | Produkthaftpflicht | 360 | 2,6 |
-| Reserve / Working Capital | 1.067 | 7,6 |
+| Reserve / Working Capital | 1.017 | 7,3 |
 | **Summe** | **14.000** | **100** |
 
 ---
 
-## Preisarchitektur bei EVP 3,99 € brutto
+## Preisarchitektur bei EVP 3,99 € brutto (DE und AT). Schweiz entsprechend rund 4,49 CHF brutto.
 
 | Kanal | EVP brutto | Netto-Abgabe (19 % MwSt) | DB I pro Dose |
 |---|---|---|---|
