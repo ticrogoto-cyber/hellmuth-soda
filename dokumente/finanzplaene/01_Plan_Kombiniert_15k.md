@@ -38,7 +38,7 @@ Säuerungsmittel Apfelsäure / Zitronensäure, kein Pektin im Grundkonzept (kann
 
 Bei 3 Designs à 6.000 Dosen entfallen die Setup-Pauschalen einmal je Design: 3 × 250 € = 750 €.
 
-### Abfüllung — Faustcatcher Drinks (Lohnabfüllung, DE)
+### Abfüllung — Faustcatcher Drinks (Lohnabfüllung, DE) — Primär
 
 | Position | Wert |
 |---|---|
@@ -52,18 +52,32 @@ Bei 3 Designs à 6.000 Dosen entfallen die Setup-Pauschalen einmal je Design: 3 
 | Vorlaufzeit Produktion ab vorhandenem Konzentrat & Dose | 2–3 Wochen |
 | Aufwand für Sortenwechsel auf der Linie | gering, weil Spezialist für Kleinchargen |
 
-### Botanicals / Aromakonzentrat — SimLife Naturprodukte + Berliner Brennereien
+### Abfüllung — Alternative: Füllkopf GmbH (Steinheim, Schwäbische Alb)
 
-| Komponente | Lieferant |
+| Position | Wert |
 |---|---|
-| Bergamotte-Destillat lebensmitteltauglich | SimLife Naturprodukte GmbH (Grävenwiesbach) |
-| Wacholder-Destillat | SimLife Naturprodukte oder Berliner Distillery (regional, Berlin Distillery Brandenburg) |
-| Hopfen-Extrakt Humulus lupulus (zuckerfrei, alkoholarm) | Aromakonzentrate.com oder regionale Hopfenmanufaktur (z. B. Hopfenhof Tettnang) |
-| Brennnessel-Auszug | regionale Bio-Imkereien / Kräutermanufakturen oder Aromakonzentrate.com |
-| Traubensaft-Konzentrat | Pfanner B2B oder Hauser-Konzentrate (AT) |
-| Zitronenverbene-Extrakt (Aloysia citrodora) | SimLife Naturprodukte oder spezialisierte französische Destillateure (z. B. distillerie-stéphane-rey, Provence) |
+| Was sie tun | Full-Service-Abfüllung Slim 150 / 200 / 250 ml inklusive Karbonisierung, Verschluss, Karton, Tray, Palettierung |
+| MOQ | ab ca. 10.000 Dosen, "start-up-freundlich" laut Dokumentation |
+| Direktdruck auf Dose | nein, nur Etikettierung — Dosen kommen vorbedruckt (NOMOQ) oder werden etikettiert |
+| Preisniveau | vergleichbar mit Faustcatcher bei dieser Chargengröße, Verhandlung pro Auftrag |
+| Wann sinnvoll | wenn Faustcatcher Linienzeit gerade nicht hat oder die Mengenstruktur (3 × 6.000 statt 1 × 20.000) Faustcatcher nicht optimal passt |
+
+### Botanicals / Aromakonzentrat
 
 Aromakonzentrat wird in 20-L-Kanistern in Eigenregie gemischt (Wasser-, Glycerin- oder PG-Träger plus Botanicals und Säuerung), direkt an Faustcatcher geliefert. Das schützt die Rezeptur — der Lohnabfüller bekommt kein Rezept, sondern ein fertiges Konzentrat.
+
+| Komponente | Primäre Quelle | Backup / Alternative |
+|---|---|---|
+| Bergamotte-Destillat lebensmitteltauglich | SimLife Naturprodukte GmbH (Grävenwiesbach) | W. Behrens (wbehrens.com) für Aromen-Extrakte, kostenlose Muster; VOM FASS (Berlin Hamburger Str. 19) für Mikromengen zur Rezeptur-Iteration |
+| Wacholder-Destillat | Berlin Distillery (Brandenburg) oder Rheinspirits (alkoholfreies Wacholder-Destillat) | Aromakonzentrate.com "Wacholder Aroma Typ"; VOM FASS für Mikromengen |
+| Hopfen-Extrakt Humulus lupulus (zuckerfrei, alkoholarm) | Aromakonzentrate.com oder Hopfenmanufaktur Tettnang | Th. Geyer Ingredients (Vertreter von Symrise, kostenlose Muster, regulatorische Beratung) |
+| Brennnessel-Auszug | W. Behrens (start-up-freundlich, kleine Mengen, Muster) oder regionale Kräutermanufaktur | Aromakonzentrate.com |
+| Traubensaft-Konzentrat | Pfanner B2B (AT) | Hauser-Konzentrate (AT), Döhler GmbH (Darmstadt, höhere MOQ aber Industriequalität) |
+| Zitronenverbene-Extrakt (Aloysia citrodora) | SimLife Naturprodukte | Brennerei Ziegler (Zeitgeist Flora Zero, alkoholfreie Botanicals), französische Destillateure (Provence) |
+| Glycerin / PG als Träger | Apotheke (Kleinmengen, < 5 L) | Aromakonzentrate.com (Großmengen ab 25 L) |
+| Apfelsäure / Zitronensäure | Standard-Großhandel | wird in Faustcatcher-Posten beigemischt |
+
+**Hinweis aus den Rechercheunterlagen:** Die Aromenhäuser **Destilla GmbH** und **Symrise AG** wurden direkt kontaktiert und haben nicht geantwortet. Zugang zu Symrise läuft daher ausschließlich über **Th. Geyer Ingredients** als Vertretung. Destilla wird nicht weiter verfolgt.
 
 ---
 

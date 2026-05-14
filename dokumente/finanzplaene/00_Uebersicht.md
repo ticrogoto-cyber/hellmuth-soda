@@ -77,23 +77,60 @@ Die Entscheidung hängt nicht an einer Wahrscheinlichkeit, sondern an drei Frage
 
 ## Liefer- und Botanical-Quellen (beide Pläne)
 
-| Komponente | Quelle |
+### Dosen und Direktdruck
+
+| Quelle | Was sie liefern | Status / Konditionen |
+|---|---|---|
+| NOMOQ AG (Schweiz, EU-verzollt) | 250 ml Slim, Digitaldruck Vollfarbe direkt auf Dose, kein MOQ | Setup 250 € pro Design, ab 0,275 €/Dose, ~ 0,42 €/Dose realistisch |
+| Falken AG (Schweiz) | neutrale Aludosen, optional anschließend NOMOQ-Bedruckung | Backup für Plan A |
+| Rhodius Co-Packing (Burgbrohl) | Industrieller Direktdruck auf Dose | Plan B, ab Charge 50.000 verhandelbar |
+
+### Lohnabfüllung / Co-Packing
+
+| Quelle | Profil | Status |
+|---|---|---|
+| Faustcatcher Drinks | Lohnabfüllung, kleine Chargen ab wenigen Tausend, 20-L-Aromakanister, Slim 250 ml | **Plan A — Primär** |
+| Füllkopf GmbH (Steinheim, Schwäbische Alb) | Full-Service-Abfüller ab ca. 10.000 Dosen, Slim 150/200/250 ml, "Start-up-freundlich" | **Plan A — Alternative**, falls Faustcatcher Linienzeit nicht verfügbar |
+| Rhodius Co-Packing (Burgbrohl) | Full-Service Industrie, MOQ offiziell 250.000 / verhandelbar 50.000, IFS/ISO/FDA/Halal/Koscher | **Plan B — Primär** |
+| Pfanner (AT) | Lohnabfüllung ab 6.000 L (≈ 24.000 Dosen) | Reserve-Option größere Chargen |
+| BeverageScouts (AT) | Ab 150.000 Dosen, BIO/HALAL, teilbar 2× 75.000 | erst bei Skalierung relevant |
+| Sonic Drink (sonic-drink.de) | Drinks-Co-Packer | Reserve |
+| Rilling Healthcare | Spezialist funktionale Getränke | Reserve |
+| Canable | Mobil-Abfüllservice für Kleinchargen | Reserve |
+
+### Botanicals / Aromen / Destillate
+
+| Quelle | Was | Status |
+|---|---|---|
+| SimLife Naturprodukte (Grävenwiesbach) | B2B-Großhandel ätherische Öle: Bergamotte, Eukalyptus, weitere; Made in Germany | **Primär** Plan A und B |
+| W. Behrens (wbehrens.com) | Aromen-Extrakte, kleine Mindestmengen, kostenlose Muster, individuelle Angebote | **Primär** — laut Dokumentation start-up-freundlich, antwortet schnell |
+| Th. Geyer Ingredients | Vertreter von Symrise, Zugang zu > 1.500 Aromen, regulatorische Beratung | **Primär** — einziger Symrise-Zugang, da Direkt-Anfrage bei Symrise unbeantwortet bleibt |
+| Aromakonzentrate.com | Bergamotte Aroma Typ, Wacholder Aroma Typ in PG- oder Glycerin-Trägern, zuckerfrei | Primär für Hopfen-Extrakt und Brennnessel-Auszug |
+| Berlin Distillery / Rheinspirits | Alkoholfreies Wacholder-Destillat, regional aus Berlin/Brandenburg | Premium-Quelle Wacholder |
+| Brennerei Ziegler (Zeitgeist Flora Zero) | Alkoholfreier Aperitif mit Wildwiesen-Botanicals, dokumentierte Bitter-/Frucht-Balance ohne Ethanol | Inspirations-/Vergleichsquelle, ggf. Lohnauftrag möglich |
+| Boar Distillery (Schwarzwald, Boar Zero) | Alkoholfreies destilliertes Botanic-Produkt | Vergleichsquelle |
+| Bôtan Distillery (Frankreich) | Alkoholfreie Single-Distillates mit Reifezeit | Premium-Vergleich |
+| VOM FASS (Berlin, Hamburger Str. 19, weitere Filialen) | Wacholder-Destillat, Süßholz-Extrakt, Bergamotte-Öl in Endverbraucher-Größen | Mikromengen für Rezeptur-Iteration |
+| Hopfenmanufaktur Tettnang / Hallertau-Lieferanten | Hopfen-Extrakt Humulus lupulus | Primär für Sorte 1 |
+| Pfanner B2B / Hauser-Konzentrate (AT) | Traubensaft-Konzentrat | Primär für Sorte 3 |
+| Döhler GmbH (Darmstadt) | Industrielle Hochkonzentrate, reinste Extrakte | Reserve für Skalierung, MOQ höher |
+| Martin Bauer Group | Pflanzenextrakte Industriequalität | Reserve |
+| Destilla GmbH | "Hochwertige Naturkompositionen, reine Essenzen" laut Eigendarstellung | **Nicht erreichbar** — Anfrage in den Dokumenten als unbeantwortet vermerkt, nicht weiter verfolgen |
+| Symrise AG (Holzminden) | Aromenhaus | **Nicht erreichbar im Direktkontakt** — Zugang ausschließlich über Th. Geyer Ingredients |
+| Givaudan / Frutarom | Aromenhaus | erst über Rhodius-Sourcing relevant |
+| Indena S.p.A. | Pflanzenextrakte | Reserve, höhere MOQ |
+
+### Sonstige
+
+| Quelle | Was |
 |---|---|
-| Aludose 250 ml Slim, Digitaldruck (Plan A) | NOMOQ AG (Schweiz, EU-verzollt) |
-| Aludose 250 ml Slim, Industrie-Direktdruck (Plan B) | Rhodius Co-Packing (Burgbrohl) |
-| Lohnabfüllung (nur Plan A) | Faustcatcher Drinks (Lohnabfüller, DE) |
-| Wacholder-Destillat | SimLife Naturprodukte (Grävenwiesbach) oder Berlin Distillery (Brandenburg) |
-| Bergamotte-Destillat | SimLife Naturprodukte (Grävenwiesbach) |
-| Zitronenverbene-Extrakt (Aloysia citrodora) | SimLife Naturprodukte oder Provence-Destillateur |
-| Hopfen-Extrakt (Humulus lupulus) | Aromakonzentrate.com oder Hopfenmanufaktur Tettnang |
-| Brennnessel-Auszug | Kräutermanufaktur regional oder Aromakonzentrate.com |
-| Traubensaft-Konzentrat | Pfanner B2B (AT) oder Hauser-Konzentrate |
 | Apfelsäure / Zitronensäure | Standard-Großhandel, in Lohnabfüller-Posten enthalten |
 | CO₂ Lebensmittelqualität | beim Lohnabfüller / Co-Packer enthalten |
+| Glycerin / Propylenglykol als Aroma-Träger | Apotheke (Kleinmengen) oder Aromakonzentrate.com (Großmengen) |
 
 ---
 
 ## Lesepfad
 
-- **`01_Plan_Kombiniert_15k.md`** — 15.000 €, 18.000 Dosen, 3 Sorten, NOMOQ + Faustcatcher + eigene Botanicals
+- **`01_Plan_Kombiniert_15k.md`** — 15.000 €, 18.000 Dosen, 3 Sorten, NOMOQ + Faustcatcher (Alt: Füllkopf) + eigene Botanicals
 - **`02_Plan_Rhodius_25k.md`** — 25.000 €, 50.000 Dosen (V1) oder 45.000 Dosen (V2), Rhodius Full-Service

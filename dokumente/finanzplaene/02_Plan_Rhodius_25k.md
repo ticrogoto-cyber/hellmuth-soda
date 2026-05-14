@@ -45,11 +45,24 @@ Beide Varianten werden unten kalkuliert. Empfehlung: **Variante 1 zum Marktstart
 
 | Option | Was passiert | Konsequenz auf Stückkosten |
 |---|---|---|
-| **A — Aromen-Beschaffung durch Rhodius** | Rhodius nutzt Eigenlieferantenstamm (Givaudan, Frutarom, Indena u. a.) | bequem, ~ 0,03 € teurer pro Dose, kein Rezeptschutz |
-| **B — Kunde liefert Aromakonzentrat** | Kunde stellt Konzentrat selbst her oder kauft bei SimLife / Berliner Distillery / Aromakonzentrate.com und liefert 20-L-Kanister an Rhodius | günstiger pro Dose, Rezeptschutz, dafür eigenes Aroma-Setup nötig (siehe Plan A) |
+| **A — Aromen-Beschaffung durch Rhodius** | Rhodius nutzt Eigenlieferantenstamm (Givaudan, Frutarom, Indena, Döhler u. a.) | bequem, ~ 0,03 € teurer pro Dose, kein Rezeptschutz |
+| **B — Kunde liefert Aromakonzentrat** | Kunde stellt Konzentrat selbst her aus den Quellen unten und liefert 20-L-Kanister an Rhodius | günstiger pro Dose, Rezeptschutz, dafür eigenes Aroma-Setup nötig |
 | **C — Hybrid** | Basis-Aromen bei Rhodius, kritische Botanicals (z. B. Wacholder regional) selbst beigesteuert | mittlerer Preis, mittlerer Aufwand |
 
 Für diesen Plan wird **Option B** kalkuliert, weil sie die niedrigsten Stückkosten erzeugt und die Aromakonzentrat-Pipeline aus Plan A in jedem Fall vorhanden ist.
+
+### Botanicals und Aromen für Option B (Kunde liefert Konzentrat)
+
+| Komponente | Primäre Quelle | Alternative |
+|---|---|---|
+| Bergamotte-Destillat | SimLife Naturprodukte (Grävenwiesbach) | W. Behrens (kostenlose Muster), Th. Geyer Ingredients (Symrise-Zugang) |
+| Wacholder-Destillat | Berlin Distillery (Brandenburg) oder Rheinspirits | Aromakonzentrate.com, VOM FASS für Mikromengen |
+| Hopfen-Extrakt | Aromakonzentrate.com oder Hopfenmanufaktur Tettnang | Th. Geyer Ingredients |
+| Brennnessel-Auszug | W. Behrens (Start-up-freundlich, Muster) | Martin Bauer Group, Aromakonzentrate.com |
+| Traubensaft-Konzentrat | Pfanner B2B (AT) | Hauser-Konzentrate, Döhler GmbH |
+| Zitronenverbene-Extrakt | SimLife Naturprodukte | Brennerei Ziegler, französische Destillateure |
+
+**Nicht erreichbar:** Direktkontakte an Destilla GmbH und Symrise AG sind laut Recherche unbeantwortet geblieben. Zugang zu Symrise-Aromen nur über Th. Geyer Ingredients als offizielle Vertretung. Destilla wird nicht weiter verfolgt.
 
 ---
 
