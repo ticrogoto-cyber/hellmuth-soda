@@ -217,6 +217,26 @@
   max-width: 32rem;
   margin: 0 auto 2rem;
 }
+.hm-form-embed {
+  max-width: 36rem;
+  margin: 0 auto;
+  border: 1px solid var(--ink);
+}
+.hm-form-embed iframe {
+  width: 100%;
+  height: 620px;
+  border: 0;
+  display: block;
+}
+.hm-form-fallback {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 1rem 0 0;
+  font-feature-settings: "liga", "dlig";
+}
+.hm-form-fallback a { color: var(--ink); }
 
 .hm-final {
   text-align: center;
