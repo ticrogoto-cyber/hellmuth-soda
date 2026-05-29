@@ -231,6 +231,18 @@
 @media (max-width: 600px) {
   .hm-form-embed iframe { height: 1150px; }
 }
+.hm-form-embed--blocked { height: auto; }
+.hm-form-safari {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+.hm-form-safari p {
+  font-family: 'Fournier Pro', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 26rem;
+  margin: 0 auto 1.5rem;
+}
 .hm-form-fallback {
   font-family: 'Fournier Pro', serif;
   font-style: italic;

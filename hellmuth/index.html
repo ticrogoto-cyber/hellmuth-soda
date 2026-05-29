@@ -121,10 +121,29 @@
     <section class="hm-waitlist" id="warteliste">
       <h3 class="hm-section-head">Warteliste</h3>
       <p class="hm-waitlist-line">Trag dich ein. Du erfährst als Erster, wann die erste Charge kommt. Und du entscheidest mit, dass sie überhaupt kommt.</p>
-      <div class="hm-form-embed">
+      <div class="hm-form-embed" id="hm-form-embed">
         <iframe src="https://excited-party-a69.notion.site/ebd//3a584c04776548a1a82e160dc3fd732f" title="Hellmuth Warteliste — Anmeldeformular" loading="lazy" allowfullscreen></iframe>
       </div>
       <p class="hm-form-fallback">Formular wird nicht geladen? <a href="https://www.notion.so/3a584c04776548a1a82e160dc3fd732f?pvs=106" target="_blank" rel="noopener noreferrer">In neuem Tab öffnen</a>.</p>
+      <script>
+        (function () {
+          var ua = navigator.userAgent;
+          var isSafari = /^((?!chrome|android|crios|fxios|edg).)*safari/i.test(ua);
+          var isiOS = /iP(ad|hone|od)/.test(ua) ||
+            (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+          if (isSafari || isiOS) {
+            var box = document.getElementById('hm-form-embed');
+            if (box) {
+              box.classList.add('hm-form-embed--blocked');
+              box.innerHTML =
+                '<div class="hm-form-safari">' +
+                '<p>Safari blockiert eingebettete Formulare. Öffne die Warteliste in einem neuen Tab — dort funktioniert sie zuverlässig.</p>' +
+                '<a class="btn" href="https://www.notion.so/3a584c04776548a1a82e160dc3fd732f?pvs=106" target="_blank" rel="noopener noreferrer">Warteliste öffnen</a>' +
+                '</div>';
+            }
+          }
+        })();
+      </script>
     </section>
 
     <section class="hm-final">
