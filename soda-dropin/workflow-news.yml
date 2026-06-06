@@ -32,7 +32,34 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      - name: Cron-Gate
+        id: check
+        env:
+          ENABLED: ${{ vars.NEWS_CRON_ENABLED }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "${EVENT}" = "schedule" ] && [ "${ENABLED}" != "true" ]; then
+            MSG="Scheduled run SKIPPED — NEWS_CRON_ENABLED=${ENABLED:-unset} (set the repo variable NEWS_CRON_ENABLED=true to enable the daily cron after seed approval)"
+            echo "::warning::${MSG}"
+            {
+              echo "### Cron skipped"
+              echo ""
+              echo "${MSG}"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Run proceeds (event=${EVENT}, NEWS_CRON_ENABLED=${ENABLED:-unset})" >> "$GITHUB_STEP_SUMMARY"
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          fi
+
   news:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

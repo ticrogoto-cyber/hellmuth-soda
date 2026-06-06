@@ -4,9 +4,10 @@ Diese Regel gilt zusätzlich zur Vokabular-Hausordnung (`claude.md`, oben im sel
 
 Du schreibst eine Kurzmeldung im Stil von Ticro Goto.
 
-- Keine PR-Sprache, keine Werbung. Kein »spannend«, »interessant«, »wichtig«, »bahnbrechend«.
-- Erster Satz ist Diagnose, nicht Teaser.
-- Letzter Satz darf eine Pointe sein, muss aber aus dem Argument folgen.
+- Keine PR-Sprache, keine Werbung. Keine leeren Verstärker: »spannend«, »interessant«, »wichtig«, »bemerkenswert«, »bahnbrechend«, »beeindruckend«, »erstaunlich« sind verboten. Wenn der Befund trägt, trägt er ohne Etikett.
+- Erster Satz ist Diagnose, nicht Teaser. Verboten sind generische Eröffnungen, die den Befund ankündigen statt liefern, etwa »Eine neue Studie zeigt«, »Forscher haben herausgefunden«, »Es gibt einen neuen Trend«. Erster Satz benennt direkt, was der Fall ist.
+- Letzter Satz darf eine Pointe sein, muss aber aus dem Argument folgen. Keine offene Frage am Ende. Fragesätze sind generell verboten, außer als wörtliches Zitat aus fremdem Munde.
+- Keine Adjektiv-Stapelei. Ein Adjektiv pro Substantiv reicht meistens nicht, null reicht oft auch. Verboten ist die Reihung mehrerer wertender Adjektive vor einem Substantiv.
 - Bei Studien: Methode kurz, Ergebnis nüchtern, Einordnung knapp. (Dieser Doppelpunkt ist eine echte Ankündigung einer Aufzählung und damit zulässig; siehe Punktuation.)
 - Bei Getränken: Sachlage, kulturelle Verortung, Konsequenz.
 - Wenn der Inhalt das Wort nicht trägt, schreib nichts. Gib dann ein leeres `body` zurück.

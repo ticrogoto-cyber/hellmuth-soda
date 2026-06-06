@@ -42,6 +42,12 @@ Workflow: `.github/workflows/news.yml`.
 | `ANTHROPIC_API_KEY` | Relevanz/Übersetzung/Transformation | ja |
 | `NCBI_API_KEY` | höheres PubMed-Ratelimit | optional |
 
+### Cron-Sicherung
+
+Der tägliche Cron (Schedule-Trigger) läuft **nur**, wenn die Repo-Variable `NEWS_CRON_ENABLED=true` gesetzt ist. Ohne diese Variable wird der Schedule-Lauf am Gate sauber übersprungen mit einer Warning-Annotation und einem Eintrag in der Job-Summary (»Cron skipped — NEWS_CRON_ENABLED=…«). Manuelles `workflow_dispatch` (`task=check-feeds` und `task=run`) ist davon nicht betroffen und läuft immer.
+
+Sequenz nach Merge: erst `task=check-feeds`, dann Seed mit `task=run` und `max_new=3`, Stilprüfung gemäß `docs/news-seed-check.md`, **erst danach** `NEWS_CRON_ENABLED=true` in `Settings → Secrets and variables → Actions → Variables` setzen.
+
 ## Quellen hinzufügen / abschalten
 
 Alles in `config/news-sources.json`. Eine Quelle ist ein Objekt:

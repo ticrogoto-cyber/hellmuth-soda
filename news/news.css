@@ -146,6 +146,25 @@
   color: var(--ink);
   margin: 0 0 2rem;
 }
+.news-detail .news-press-notice {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--muted);
+  border-left: 2px solid var(--ink);
+  padding: 0.4rem 0 0.4rem 0.85rem;
+  margin: 0 0 1.5rem;
+}
+.news-detail .news-press-notice a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+.news-detail .news-press-notice a:hover {
+  color: var(--muted);
+  border-color: var(--muted);
+}
+
 .news-detail .news-body p {
   font-family: 'Fournier Pro', serif;
   font-size: clamp(1.05rem, 1.6vw, 1.2rem);
