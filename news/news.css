@@ -1,0 +1,181 @@
+/* News-Modul — Designsystem der Sucht-Mythen-Seite (S/W, Printvetica + Fournier).
+   Tokens und Fonts stammen aus ../styles.css. */
+
+.news-main {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: clamp(7rem, 12vh, 10rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
+}
+
+.news-head {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.news-head h1 {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin: 0 0 0.75rem;
+}
+.news-head p {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  margin: 0;
+}
+
+/* Rubrik-Filter (Tabs) */
+.news-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.news-filter button {
+  appearance: none;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  padding: 0.6rem 1.1rem;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+.news-filter button:hover,
+.news-filter button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Liste */
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.news-card {
+  border: 1px solid var(--ink);
+  padding: 1.25rem 1.5rem;
+  transition: background 0.12s, color 0.12s;
+}
+.news-card a.news-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.news-card:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+.news-eyebrow {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+.news-card:hover .news-eyebrow {
+  color: var(--paper);
+}
+.news-card h2,
+.news-card h3 {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.3;
+  margin: 0 0 0.5rem;
+}
+.news-card p.news-lead {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.5;
+  margin: 0;
+}
+.news-tag {
+  display: inline-block;
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.55rem;
+  border: 1px solid currentColor;
+  padding: 0.15rem 0.4rem;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+.news-empty {
+  text-align: center;
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  color: var(--muted);
+  padding: 3rem 0;
+}
+
+/* Detailseite */
+.news-detail {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(7rem, 12vh, 10rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
+}
+.news-detail h1 {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  line-height: 1.2;
+  margin: 0.5rem 0 1.25rem;
+}
+.news-detail .news-lead {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 2rem;
+}
+.news-detail .news-body p {
+  font-family: 'Fournier Pro', serif;
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+  line-height: 1.6;
+  margin: 0 0 1.1rem;
+}
+.news-detail .news-source {
+  font-family: 'Printvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  border-top: 1px solid var(--ink);
+  padding-top: 1.25rem;
+  margin-top: 2rem;
+}
+.news-detail .news-source a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+.news-detail .news-back {
+  margin-top: 2rem;
+}
+.news-detail .news-back a {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  color: var(--muted);
+  text-decoration: none;
+}
+.news-detail .news-back a:hover {
+  color: var(--ink);
+}

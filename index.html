@@ -7,6 +7,7 @@
   <meta name="description" content="Zwölf Fragen. Drei Antworten. Eine Diagnose. Ein Quiz, das die Werbung für deine Sucht entlarvt." />
   <link rel="canonical" href="https://hellmuth-soda.de/" />
   <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="news/news-home.css?v=1" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -56,6 +57,7 @@
     <nav class="menu" aria-hidden="true">
       <a href="./" class="is-active">Quiz</a>
       <a href="vokabular/">Vokabular</a>
+      <a href="news/">News</a>
       <a href="klarheitskarten/">Klarheitskarten</a>
       <a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate</a>
       <a href="hellmuth/">Hellmuth</a>
@@ -65,6 +67,8 @@
 
   <main id="app"></main>
 
+  <section class="news-band" id="news-band" hidden aria-label="Neueste Befunde"></section>
+
   <footer>
     <a href="impressum/" class="footer-impressum">Impressum</a>
   </footer>
@@ -72,5 +76,7 @@
   <script src="questions.js?v=5"></script>
   <script src="quiz.js?v=5"></script>
   <script src="site.js?v=5"></script>
+  <script src="news/data.js?v=1"></script>
+  <script src="news/news-home.js?v=1"></script>
 </body>
 </html>

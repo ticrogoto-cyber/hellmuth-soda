@@ -1,0 +1,5 @@
+node_modules/
+pipeline/node_modules/
+pipeline/package-lock.json
+*.log
+.DS_Store

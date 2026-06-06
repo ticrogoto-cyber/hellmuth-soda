@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News — Mut zur Klarheit</title>
+  <meta name="description" content="Begutachtete Wissenschaft zu Substanzen und Pharmakologie, in Klartext. Täglich kuratiert." />
+  <link rel="canonical" href="https://hellmuth-soda.de/news/" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="news.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="title">
+      <span>News</span>
+      <em data-tagline></em>
+    </div>
+    <a href="../" class="brand" aria-label="Startseite">
+      <img src="../mut-zur-klarheit4.png" alt="Mut zur Klarheit" />
+    </a>
+    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" aria-hidden="true">
+      <a href="../">Quiz</a>
+      <a href="../vokabular/">Vokabular</a>
+      <a href="./" class="is-active">News</a>
+      <a href="https://1du1ph-j0.myshopify.com" target="_blank" rel="noopener">Shop</a>
+      <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Sanatorium</a>
+    </nav>
+  </header>
+
+  <main class="news-main">
+    <div class="news-head">
+      <h1>News</h1>
+      <p>Klartext aus Forschung und Getränkewelt. Täglich kuratiert, in eigenen Worten.</p>
+    </div>
+    <div class="news-filter" id="news-filter" role="group" aria-label="Rubrik wählen">
+      <button data-filter="all" aria-pressed="true">Alle</button>
+      <button data-filter="science" aria-pressed="false">Wissenschaft</button>
+      <button data-filter="hellmuth" aria-pressed="false">HELLMUTH</button>
+    </div>
+    <ul class="news-list" id="news-list" aria-live="polite"></ul>
+  </main>
+
+  <footer>
+    <a href="../impressum/" class="footer-impressum">Impressum</a>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="../site.js"></script>
+  <script src="news.js"></script>
+</body>
+</html>
