@@ -1,0 +1,84 @@
+/* News-Band für die Soda-Startseite. Eigene Datei, damit die Soda-styles.css
+   unangetastet bleibt. Platzierung: vor <footer class="site-foot">. */
+
+.news-band {
+  background: var(--cream-soft, #f4eee0);
+  border-top: 1px solid rgba(22, 26, 38, 0.08);
+  border-bottom: 1px solid rgba(22, 26, 38, 0.08);
+  padding: clamp(3rem, 6vw, 5rem) clamp(1.25rem, 5vw, 4rem);
+}
+.news-band[hidden] {
+  display: none;
+}
+.news-band-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.news-band-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+.news-band-head h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  margin: 0;
+}
+.news-band-head a {
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.news-band-head a:hover {
+  color: var(--ink);
+}
+.news-band-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+@media (max-width: 720px) {
+  .news-band-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.news-band-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(22, 26, 38, 0.14);
+  background: var(--cream, #ece4d3);
+  padding: 1.25rem 1.4rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.news-band-card:hover {
+  border-color: var(--accent, #c9b48a);
+  transform: translateY(-2px);
+}
+.news-band-card .news-eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+.news-band-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.15;
+  margin: 0 0 0.5rem;
+}
+.news-band-card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft, #232838);
+  margin: 0;
+}

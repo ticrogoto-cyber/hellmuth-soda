@@ -1,0 +1,43 @@
+{
+  "hellmuth": [
+    { "name": "FoodNavigator Asia", "url": "https://www.foodnavigator-asia.com", "feed": null, "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "priority": true, "active": true, "feed_status": "unverified", "notes": "William Reed; zuverlässigster APAC-Ticker" },
+    { "name": "Beverage Daily", "url": "https://www.beveragedaily.com", "feed": null, "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "priority": true, "active": true, "feed_status": "unverified", "notes": "William Reed" },
+    { "name": "The Drinks Business Asia", "url": "https://www.thedrinksbusiness.com/category/asia", "feed": "https://www.thedrinksbusiness.com/category/asia/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "priority": true, "active": true, "feed_status": "unverified", "notes": "" },
+    { "name": "Food Dive", "url": "https://www.fooddive.com", "feed": "https://www.fooddive.com/feeds/news/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "Asien-Coverage im internationalen Kontext" },
+    { "name": "BevNet", "url": "https://www.bevnet.com", "feed": "https://www.bevnet.com/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "" },
+    { "name": "VinePair", "url": "https://vinepair.com", "feed": "https://vinepair.com/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "Drinks-fokussiert" },
+    { "name": "Food & Beverage Asia", "url": "https://foodbeverageasia.com", "feed": "https://foodbeverageasia.com/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "WordPress" },
+    { "name": "AP Food Online", "url": "https://apfoodonline.com", "feed": "https://apfoodonline.com/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "Asia Pacific Food Industry" },
+    { "name": "SoraNews24 Food", "url": "https://soranews24.com/category/food", "feed": "https://soranews24.com/category/food/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "Japan" },
+    { "name": "The Peak Singapore", "url": "https://thepeakmagazine.com.sg", "feed": "https://thepeakmagazine.com.sg/feed/", "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": false, "active": true, "feed_status": "unverified", "notes": "Lifestyle/Luxus, Beverage gelegentlich" },
+    { "name": "Japan Times Food & Drink", "url": "https://www.japantimes.co.jp/tag/food-drink", "feed": null, "type": "scrape", "lang": "en", "translate": false, "discovery": "sitemap", "paywall": false, "active": true, "feed_status": "unverified", "notes": "metered, aber Lead frei" },
+    { "name": "FoodTalks", "url": "https://www.foodtalks.cn", "feed": null, "type": "scrape", "lang": "zh", "translate": true, "discovery": "sitemap", "paywall": false, "active": true, "feed_status": "unverified", "notes": "Chinesisch -> Uebersetzungsschritt" },
+    { "name": "China Hirn", "url": "https://www.chinahirn.de", "feed": null, "type": "rss", "lang": "de", "translate": false, "discovery": "sitemap", "paywall": false, "active": false, "feed_status": "unverified", "notes": "DE-Newsletter, Nische; nach Feed-Check entscheiden" },
+    { "name": "Korea Times Lifestyle", "url": "https://www.koreatimes.co.kr/www/art/lifestyle.html", "feed": null, "type": "scrape", "lang": "en", "translate": false, "discovery": "sitemap", "paywall": false, "active": false, "feed_status": "unverified", "notes": "Feed unklar" },
+    { "name": "Kyodo News Food", "url": "https://english.kyodonews.net/news/food", "feed": null, "type": "scrape", "lang": "en", "translate": false, "discovery": "sitemap", "paywall": false, "active": false, "feed_status": "unverified", "notes": "Wire; Feed unklar" },
+    { "name": "Knowledge@CKGSB", "url": "https://knowledge.ckgsb.edu.cn", "feed": null, "type": "scrape", "lang": "en", "translate": false, "discovery": "scrape", "paywall": false, "active": false, "feed_status": "unverified", "notes": "Business-Insights, kaum Beverage" },
+    { "name": "Campaign Asia", "url": "https://www.campaignasia.com", "feed": null, "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": true, "active": false, "feed_status": "unverified", "notes": "Paywall + Marketing-Fokus" },
+    { "name": "Nikkei Asia Beverages", "url": "https://asia.nikkei.com/Business/Beverages", "feed": null, "type": "scrape", "lang": "en", "translate": false, "discovery": "scrape", "paywall": true, "headline_only": true, "active": true, "feed_status": "unverified", "notes": "Wichtigste asiatische Wirtschaftsquelle fuer Beverages; Pressespiegel: nur Headline + freier Lead, kein Volltext hinter Paywall" },
+    { "name": "SCMP Food & Drink", "url": "https://www.scmp.com/lifestyle/food-drink", "feed": null, "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": true, "headline_only": true, "active": true, "feed_status": "unverified", "notes": "metered Paywall; Pressespiegel: nur Headline + freier Lead" },
+    { "name": "Just Drinks", "url": "https://www.justdrinks.com", "feed": null, "type": "rss", "lang": "en", "translate": false, "discovery": "rss", "paywall": true, "active": false, "feed_status": "unverified", "notes": "Premium/Paywall" }
+  ],
+  "science": [
+    { "name": "PubMed E-Utilities", "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/", "feed": null, "type": "pubmed", "lang": "en", "translate": false, "active": true, "feed_status": "unverified", "queries": [
+      "(nicotine[MeSH] OR \"tobacco use disorder\"[MeSH]) AND (brain OR neurotoxicity)",
+      "\"alcohol-related disorders\"[MeSH] AND (neurotoxicity OR cognition OR atrophy)",
+      "cannabis AND (psychosis OR schizophrenia)",
+      "MDMA AND (serotonin OR neurotoxicity)",
+      "\"substance-related disorders\"[MeSH] AND (dopamine OR reward OR \"nucleus accumbens\")",
+      "caffeine AND (adenosine OR dependence OR withdrawal)",
+      "(addiction OR dependence) AND (remission OR abstinence OR recovery)"
+    ], "notes": "Rueckgrat: stabil, liefert DOI" },
+    { "name": "medRxiv Psychiatry", "url": "https://www.medrxiv.org", "feed": "https://connect.medrxiv.org/medrxiv_xml.php?subject=psychiatry_and_clinical_psychology", "type": "rss", "lang": "en", "translate": false, "active": true, "preprint": true, "feed_status": "unverified", "notes": "Preprint-Kennzeichnung" },
+    { "name": "bioRxiv Neuroscience", "url": "https://www.biorxiv.org", "feed": "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience", "type": "rss", "lang": "en", "translate": false, "active": true, "preprint": true, "feed_status": "unverified", "notes": "Preprint-Kennzeichnung" },
+    { "name": "Nature Medicine", "url": "https://www.nature.com/nm/", "feed": "https://www.nature.com/nm.rss", "type": "rss", "lang": "en", "translate": false, "active": true, "feed_status": "unverified", "notes": "" },
+    { "name": "Nature Neuroscience", "url": "https://www.nature.com/neuro/", "feed": "https://www.nature.com/neuro.rss", "type": "rss", "lang": "en", "translate": false, "active": true, "feed_status": "unverified", "notes": "" },
+    { "name": "The Lancet Psychiatry", "url": "https://www.thelancet.com/journals/lanpsy", "feed": "https://www.thelancet.com/rssfeed/lanpsy_current.xml", "type": "rss", "lang": "en", "translate": false, "active": false, "feed_status": "unverified", "notes": "nach Smoke-Test scharf" },
+    { "name": "JAMA Psychiatry", "url": "https://jamanetwork.com/journals/jamapsychiatry", "feed": null, "type": "rss", "lang": "en", "translate": false, "active": false, "feed_status": "unverified", "notes": "ToC-Feed-ID pruefen" },
+    { "name": "NEJM", "url": "https://www.nejm.org", "feed": "https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm", "type": "rss", "lang": "en", "translate": false, "active": false, "feed_status": "unverified", "notes": "breit, hart filtern" },
+    { "name": "Addiction (Wiley)", "url": "https://onlinelibrary.wiley.com/journal/13600443", "feed": "https://onlinelibrary.wiley.com/feed/13600443/most-recent", "type": "rss", "lang": "en", "translate": false, "active": false, "feed_status": "unverified", "notes": "Kern-Suchtjournal" }
+  ]
+}
