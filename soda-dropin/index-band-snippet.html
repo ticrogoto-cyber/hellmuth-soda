@@ -1,0 +1,16 @@
+<!-- ============================================================ -->
+<!-- HELLMUTH News-Band: in die Soda-index.html einsetzen.        -->
+<!-- ============================================================ -->
+
+<!-- 1) Im <head>, nach dem bestehenden styles.css-Link: -->
+<link rel="stylesheet" href="news/news-home.css" />
+
+<!-- 2) Direkt VOR <footer class="site-foot"> einsetzen: -->
+<section class="news-band" id="news-band" hidden aria-label="Aus der Getränkewelt"></section>
+
+<!-- 3) Vor </body> (nach dem bestehenden year-Script) einsetzen: -->
+<script src="news/data.js"></script>
+<script src="news/news-home.js"></script>
+
+<!-- Optional: im <header class="nav"> einen Menüpunkt ergänzen: -->
+<!-- <a href="news/">News</a> -->

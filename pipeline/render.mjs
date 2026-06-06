@@ -19,6 +19,11 @@ const RUBRIKEN = ['hellmuth', 'science'];
 const RUBRIK_LABEL = { hellmuth: 'HELLMUTH', science: 'Wissenschaft' };
 const MAX_PER_RUBRIK = 200;
 
+// Designvariante der generierten Detailseiten:
+//   mono = Sucht-Mythen (S/W, Printvetica/Fournier)  [Default, dieses Repo]
+//   soda = Hellmuth Botanical Soda (Creme/Gold, Cormorant/Inter)
+const NEWS_THEME = process.env.NEWS_THEME || 'mono';
+
 const esc = (s) =>
   String(s || '')
     .replace(/&/g, '&amp;')
@@ -104,7 +109,7 @@ function readAll() {
   return out;
 }
 
-function detailHtml(rec) {
+function detailHtmlMono(rec) {
   const backlink = rec.doi ? rec.source_url : rec.source_url;
   const bodyHtml = String(rec.body || '')
     .split(/\n{2,}/)
@@ -156,6 +161,69 @@ function detailHtml(rec) {
 </html>
 `;
 }
+
+function detailHtmlSoda(rec) {
+  const bodyHtml = String(rec.body || '')
+    .split(/\n{2,}/)
+    .map((p) => `<p>${esc(p)}</p>`)
+    .join('\n        ');
+  const tags = [
+    rec.preprint ? '<span class="news-tag">Preprint</span>' : '',
+    rec.press_review ? '<span class="news-tag">Pressespiegel</span>' : '',
+  ].join('');
+  return `<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${esc(rec.title)} — News — Hellmuth</title>
+  <meta name="description" content="${esc(rec.lead)}" />
+  <link rel="canonical" href="https://hellmuth-soda.de/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../../styles.css" />
+  <link rel="stylesheet" href="../../news.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="../../../" aria-label="Hellmuth — Startseite">
+      <span class="brand-mark">Hellmuth<sup>™</sup></span>
+      <span class="brand-sub">Botanical Soda</span>
+    </a>
+    <nav>
+      <a href="../../../#produkt">Produkt</a>
+      <a href="../../../#zutaten">Zutaten</a>
+      <a href="../../">News</a>
+      <a href="../../../#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="news-detail">
+    <article>
+      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${tags}</p>
+      <h1>${esc(rec.title)}</h1>
+      <p class="news-lead">${esc(rec.lead)}</p>
+      <div class="news-body">
+        ${bodyHtml}
+      </div>
+      <p class="news-source">Quelle: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>${rec.doi ? ` · DOI: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.doi)}</a>` : ''}</p>
+      <p class="news-back"><a href="../../">← Alle Meldungen</a></p>
+    </article>
+  </main>
+
+  <footer class="site-foot">
+    <div class="foot-inner">
+      <div><p class="foot-mark">Hellmuth<sup>™</sup> · Botanical Soda</p></div>
+      <div><p><a href="../../">News</a></p></div>
+    </div>
+  </footer>
+</body>
+</html>
+`;
+}
+
+const detailHtml = (rec) => (NEWS_THEME === 'soda' ? detailHtmlSoda(rec) : detailHtmlMono(rec));
 
 function dataJs(all) {
   // Für Frontend: schlanke Records (ohne vollständigen Body) reichen für Übersicht/Startseite.
