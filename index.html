@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sucht-Mythen — Wie sehr bist du gehirngewaschen?</title>
-  <meta name="description" content="Zwölf Fragen. Drei Antworten. Eine Diagnose. Ein Quiz, das die Werbung für deine Sucht entlarvt." />
+  <title>Mut zur Klarheit — News</title>
+  <meta name="description" content="Klartext aus Forschung und Getränkewelt. Täglich kuratiert, in eigenen Worten." />
   <link rel="canonical" href="https://hellmuth-soda.de/" />
   <link rel="stylesheet" href="styles.css?v=5" />
-  <link rel="stylesheet" href="news/news-home.css?v=1" />
+  <link rel="stylesheet" href="news/news.css?v=1" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -16,17 +16,10 @@
         "@type": "WebSite",
         "@id": "https://hellmuth-soda.de/#website",
         "url": "https://hellmuth-soda.de/",
-        "name": "Sucht-Mythen",
-        "description": "Zwölf Fragen. Drei Antworten. Eine Diagnose. Ein Quiz, das die Werbung für deine Sucht entlarvt.",
+        "name": "Mut zur Klarheit",
+        "description": "Klartext aus Forschung und Getränkewelt. Täglich kuratiert, in eigenen Worten.",
         "inLanguage": "de",
         "publisher": { "@id": "https://hellmuth-soda.de/#publisher" }
-      },
-      {
-        "@type": "Quiz",
-        "name": "Sucht-Mythen — Wie sehr bist du gehirngewaschen?",
-        "url": "https://hellmuth-soda.de/",
-        "inLanguage": "de",
-        "isPartOf": { "@id": "https://hellmuth-soda.de/#website" }
       },
       {
         "@type": "Organization",
@@ -44,20 +37,19 @@
 <body>
   <header class="top">
     <div class="title">
-      <span>Sucht-Mythen</span>
+      <span>News</span>
       <em data-tagline></em>
     </div>
     <a href="./" class="brand" aria-label="Startseite">
       <img src="mut-zur-klarheit4.png" alt="Mut zur Klarheit" />
     </a>
-    <div class="progress" id="progress"></div>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <nav class="menu" aria-hidden="true">
-      <a href="./" class="is-active">Quiz</a>
+      <a href="quiz/">Quiz</a>
       <a href="vokabular/">Vokabular</a>
-      <a href="news/">News</a>
+      <a href="./" class="is-active">News</a>
       <a href="klarheitskarten/">Klarheitskarten</a>
       <a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate</a>
       <a href="hellmuth/">Hellmuth</a>
@@ -65,18 +57,25 @@
     </nav>
   </header>
 
-  <main id="app"></main>
-
-  <section class="news-band" id="news-band" hidden aria-label="Neueste Befunde"></section>
+  <main class="news-main">
+    <div class="news-head">
+      <h1>News</h1>
+      <p>Klartext aus Forschung und Getränkewelt. Täglich kuratiert, in eigenen Worten.</p>
+    </div>
+    <div class="news-filter" id="news-filter" role="group" aria-label="Rubrik wählen">
+      <button data-filter="all" aria-pressed="true">Alle</button>
+      <button data-filter="science" aria-pressed="false">Wissenschaft</button>
+      <button data-filter="hellmuth" aria-pressed="false">HELLMUTH</button>
+    </div>
+    <ul class="news-list" id="news-list" aria-live="polite"></ul>
+  </main>
 
   <footer>
     <a href="impressum/" class="footer-impressum">Impressum</a>
   </footer>
 
-  <script src="questions.js?v=5"></script>
-  <script src="quiz.js?v=5"></script>
-  <script src="site.js?v=5"></script>
   <script src="news/data.js?v=1"></script>
-  <script src="news/news-home.js?v=1"></script>
+  <script src="site.js?v=5"></script>
+  <script src="news/news.js?v=1"></script>
 </body>
 </html>

@@ -137,10 +137,12 @@ function detailHtmlMono(rec) {
     <a href="../../../" class="brand" aria-label="Startseite"><img src="../../../mut-zur-klarheit4.png" alt="Mut zur Klarheit" /></a>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true">
-      <a href="../../../">Quiz</a>
+      <a href="../../../quiz/">Quiz</a>
       <a href="../../../vokabular/">Vokabular</a>
-      <a href="../../" class="is-active">News</a>
-      <a href="https://1du1ph-j0.myshopify.com" target="_blank" rel="noopener">Shop</a>
+      <a href="../../../" class="is-active">News</a>
+      <a href="../../../klarheitskarten/">Klarheitskarten</a>
+      <a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate</a>
+      <a href="../../../hellmuth/">Hellmuth</a>
       <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Sanatorium</a>
     </nav>
   </header>
@@ -155,7 +157,7 @@ function detailHtmlMono(rec) {
         ${bodyHtml}
       </div>
       <p class="news-source">Quelle: <a href="${esc(backlink)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>${rec.doi ? ` · DOI: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.doi)}</a>` : ''}</p>
-      <p class="news-back"><a href="../../">← Alle Meldungen</a></p>
+      <p class="news-back"><a href="../../../">← Alle Meldungen</a></p>
     </article>
   </main>
 
