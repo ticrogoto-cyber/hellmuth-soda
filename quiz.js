@@ -61,7 +61,7 @@
     const result = data.results.find(r => score <= r.max) || data.results[data.results.length - 1];
     const max = total * Math.max(...data.questions.flatMap(q => q.options.map(o => o.s)));
 
-    const shareUrl = 'https://hellmuth-soda.de/';
+    const shareUrl = 'https://hellmuth-soda.de/quiz/';
     const shareText = `Ich bin »${result.label}« — ${result.tag} Sucht-Mythen-Quiz:`;
     const hasNativeShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
@@ -76,7 +76,7 @@
         <aside class="result-promo">
           <div class="result-promo-eyebrow">Jetzt erhältlich</div>
           <p class="result-promo-line">Klarheitskarten <span class="kk-roman">I</span> — Selbstbetrug. Das Quartett gegen Selbstsabotage.</p>
-          <a class="result-promo-link" href="klarheitskarten/">52 Karten ansehen →</a>
+          <a class="result-promo-link" href="../klarheitskarten/">52 Karten ansehen →</a>
         </aside>
         <div class="share">
           <div class="share-label">Ergebnis teilen</div>
