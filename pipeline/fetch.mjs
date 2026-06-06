@@ -31,12 +31,14 @@ const httpGet = async (url, accept = 'text/html,application/xhtml+xml,*/*') => {
 
 const normItem = (source, { title, summary, url, publishedAt }) => ({
   title: stripHtml(title),
-  summary: clip(stripHtml(summary), 1200),
+  // Bei Paywall-Pressespiegel nur den frei zugänglichen Anriss knapp halten.
+  summary: clip(stripHtml(summary), source.headline_only ? 400 : 1200),
   url: String(url || '').trim(),
   publishedAt: publishedAt || null,
   lang: source.lang || 'en',
   sourceName: source.name,
   isPreprint: !!source.preprint,
+  headlineOnly: !!source.headline_only,
 });
 
 // ---- RSS / Atom -----------------------------------------------------------

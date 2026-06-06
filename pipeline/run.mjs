@@ -89,6 +89,7 @@ async function main() {
             sourceName: item.sourceName,
             sourceUrl: item.url,
             isPreprint: item.isPreprint,
+            headlineOnly: item.headlineOnly,
           });
 
           if (!out.body || !out.title) {
@@ -108,6 +109,7 @@ async function main() {
               sourceName: item.sourceName,
               doi: doiFromUrl(item.url),
               preprint: item.isPreprint,
+              pressReview: item.headlineOnly,
               relevance: score,
             });
           }

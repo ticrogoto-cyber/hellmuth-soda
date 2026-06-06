@@ -168,9 +168,10 @@ export async function translateToGerman({ title, summary, lang }) {
  * gecacht. Output: {title, lead, body}. Leerer body => Item verwerfen.
  * @returns {Promise<{title:string, lead:string, body:string}>}
  */
-export async function transformToHouseStyle({ rubrik, title, summary, sourceName, sourceUrl, isPreprint }) {
-  const lengthRule =
-    rubrik === 'science'
+export async function transformToHouseStyle({ rubrik, title, summary, sourceName, sourceUrl, isPreprint, headlineOnly }) {
+  const lengthRule = headlineOnly
+    ? 'Pressespiegel-Modus: nur Titel und frei zugänglicher Anriss liegen vor. Keine Volltext-Rekonstruktion, keine erfundenen Details oder Zahlen. body genau 2 bis 4 Sätze, klar als Pressespiegel kenntlich (Verweis auf Meldung hinter Paywall). Diese Regel überschreibt die Rubrik-Länge.'
+    : rubrik === 'science'
       ? 'Rubrik Wissenschaft: genau 5 Sätze im body.'
       : 'Rubrik HELLMUTH: 5 bis 15 Sätze im body.';
   const preprintNote = isPreprint

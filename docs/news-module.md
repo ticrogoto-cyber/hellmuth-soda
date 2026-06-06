@@ -48,14 +48,14 @@ Alles in `config/news-sources.json`. Eine Quelle ist ein Objekt:
 
 ```json
 { "name": "…", "url": "https://…", "feed": "https://…/feed/", "type": "rss|pubmed|sitemap|scrape",
-  "lang": "en|de|zh|…", "translate": false, "paywall": false, "active": true,
+  "lang": "en|de|zh|…", "translate": false, "paywall": false, "headline_only": false, "active": true,
   "preprint": false, "queries": ["…"], "notes": "…", "feed_status": "unverified" }
 ```
 
 - An-/Abschalten: `active`.
 - `type`: `rss` versucht zusätzlich Sitemap/Scrape als Fallback. `pubmed` nutzt `queries`. `sitemap`/`scrape` für Quellen ohne Feed.
 - Nicht-EN/DE: `lang` setzen und `translate:true`.
-- Paywall-Quellen sind per Auftrag `active:false`.
+- **Paywall im Pressespiegel-Modus:** `paywall:true` + `headline_only:true`. Dann wird nur Titel und frei zugänglicher Anriss verarbeitet (kein Volltext hinter der Paywall), die Meldung wird auf 2–4 Sätze gekürzt und sichtbar als »Pressespiegel« markiert. So laufen Nikkei Asia und SCMP. Just Drinks und Campaign Asia bleiben `active:false`.
 - Nach dem Hinzufügen einmal `task=check-feeds` laufen lassen und erst bei `feed_status: ok` scharf schalten.
 
 ## Stil nachjustieren

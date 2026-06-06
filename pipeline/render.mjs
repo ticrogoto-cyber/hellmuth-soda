@@ -28,7 +28,7 @@ const esc = (s) =>
 
 // ---- Frontmatter (selbst-konsistentes JSON-pro-Zeile-Format) --------------
 
-const FM_KEYS = ['title', 'date', 'slug', 'rubrik', 'source_url', 'source_name', 'lead', 'doi', 'preprint', 'relevance'];
+const FM_KEYS = ['title', 'date', 'slug', 'rubrik', 'source_url', 'source_name', 'lead', 'doi', 'preprint', 'press_review', 'relevance'];
 
 function serialize(rec) {
   const lines = ['---'];
@@ -63,7 +63,7 @@ function parse(md) {
 /**
  * @returns {object} der geschriebene Datensatz
  */
-export function writeItem({ rubrik, title, lead, body, sourceUrl, sourceName, doi = null, preprint = false, relevance = null, date }) {
+export function writeItem({ rubrik, title, lead, body, sourceUrl, sourceName, doi = null, preprint = false, pressReview = false, relevance = null, date }) {
   const d = date || isoDate();
   const s = slug(title) || slug(sourceName + '-' + d);
   const rec = {
@@ -76,6 +76,7 @@ export function writeItem({ rubrik, title, lead, body, sourceUrl, sourceName, do
     lead,
     doi,
     preprint: !!preprint,
+    press_review: !!pressReview,
     relevance,
     body,
   };
@@ -110,6 +111,7 @@ function detailHtml(rec) {
     .map((p) => `<p>${esc(p)}</p>`)
     .join('\n        ');
   const preprintTag = rec.preprint ? '<span class="news-tag">Preprint, nicht peer-reviewed</span>' : '';
+  const pressTag = rec.press_review ? '<span class="news-tag">Pressespiegel</span>' : '';
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -137,7 +139,7 @@ function detailHtml(rec) {
 
   <main class="news-detail">
     <article>
-      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${preprintTag}</p>
+      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${preprintTag}${pressTag}</p>
       <h1>${esc(rec.title)}</h1>
       <p class="news-lead">${esc(rec.lead)}</p>
       <div class="news-body">
@@ -166,6 +168,7 @@ function dataJs(all) {
     source_name: rec.source_name,
     source_url: rec.source_url,
     preprint: !!rec.preprint,
+    press_review: !!rec.press_review,
     href: `/news/${rec.rubrik}/${rec.slug}/`,
   });
   const payload = {

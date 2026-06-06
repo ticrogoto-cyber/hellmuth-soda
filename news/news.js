@@ -20,7 +20,7 @@
       <a class="news-card-link" href="${esc(it.href)}">
         <p class="news-eyebrow">${LABEL[it.rubrik] || it.rubrik} · ${esc(it.date)}${
     it.preprint ? '<span class="news-tag">Preprint</span>' : ''
-  }</p>
+  }${it.press_review ? '<span class="news-tag">Pressespiegel</span>' : ''}</p>
         <h2>${esc(it.title)}</h2>
         <p class="news-lead">${esc(it.lead)}</p>
       </a>
