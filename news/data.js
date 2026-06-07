@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T14:03:36.772Z",
+  "generated": "2026-06-07T14:35:36.698Z",
   "hellmuth": [
     {
       "title": "Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine",
