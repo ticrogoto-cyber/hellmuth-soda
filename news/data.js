@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T17:31:32.598Z",
+  "generated": "2026-06-07T17:36:28.143Z",
   "hellmuth": [
     {
       "title": "Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet",
@@ -13,6 +13,7 @@ window.NEWS_DATA =
       "source_url": "https://www.apfoodonline.com/sudan-conflict-affects-gum-arabic-supply/",
       "preprint": false,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/hellmuth/gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet/"
     },
     {
@@ -26,6 +27,7 @@ window.NEWS_DATA =
       "source_url": "https://www.bevnet.com/news/2026/the-energy-refreshers-wave-is-moving-from-qsrs-to-cpg",
       "preprint": false,
       "press_review": false,
+      "minutes": 0,
       "href": "/news/hellmuth/refresher-verlassen-die-theke/"
     },
     {
@@ -39,6 +41,7 @@ window.NEWS_DATA =
       "source_url": "https://www.foodnavigator-asia.com/Article/2026/05/12/ginseng-democratisation-advancing-food-as-medicine/",
       "preprint": false,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/hellmuth/ginseng-als-alltagsware/"
     },
     {
@@ -52,6 +55,7 @@ window.NEWS_DATA =
       "source_url": "https://www.bevnet.com/spirits/2026/spirits-distribution-punch-club-lands-at-total-wine-oishii-signs-with-sgws",
       "preprint": false,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/"
     },
     {
@@ -65,6 +69,7 @@ window.NEWS_DATA =
       "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3355137/why-korean-rice-wine-could-be-next-big-drink-hong-kong-and-mainland-china?utm_source=rss_feed",
       "preprint": false,
       "press_review": true,
+      "minutes": 1,
       "href": "/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/"
     }
   ],
@@ -80,6 +85,7 @@ window.NEWS_DATA =
       "source_url": "https://www.medrxiv.org/content/10.64898/2026.05.31.26354553v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/science/darmflora-und-innenwelt-teilen-sich-gene/"
     },
     {
@@ -93,6 +99,7 @@ window.NEWS_DATA =
       "source_url": "https://www.medrxiv.org/content/10.64898/2026.05.25.26353865v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/science/erstpsychose-ohne-hirnalterung/"
     },
     {
@@ -106,6 +113,7 @@ window.NEWS_DATA =
       "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.01.26354666v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/science/psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni/"
     },
     {
@@ -119,6 +127,7 @@ window.NEWS_DATA =
       "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.02.26354718v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/"
     },
     {
@@ -132,6 +141,7 @@ window.NEWS_DATA =
       "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.03.26354754v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 0,
       "href": "/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/"
     },
     {
@@ -145,6 +155,7 @@ window.NEWS_DATA =
       "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.01.26354320v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 1,
       "href": "/news/science/zwei-depressionen-im-hirn/"
     },
     {
@@ -158,6 +169,7 @@ window.NEWS_DATA =
       "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730003v1?rss=1",
       "preprint": true,
       "press_review": false,
+      "minutes": 0,
       "href": "/news/science/wenn-das-belohnungszentrum-vor-nahe-warnt/"
     }
   ]

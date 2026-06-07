@@ -7,7 +7,7 @@
   <meta name="description" content="Klartext aus Forschung und Getränkewelt." />
   <link rel="canonical" href="https://hellmuth-soda.de/" />
   <link rel="stylesheet" href="styles.css?v=7" />
-  <link rel="stylesheet" href="news/news.css?v=1" />
+  <link rel="stylesheet" href="news/news.css?v=2" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -67,6 +67,10 @@
       <h1>News</h1>
       <p>Klartext aus Forschung und Getränkewelt.</p>
     </div>
+    <section class="news-featured" id="news-featured" aria-label="Klartext der Woche" hidden>
+      <h2 class="news-featured-head">Klartext der Woche</h2>
+      <ul class="news-featured-list" id="news-featured-list"></ul>
+    </section>
     <div class="news-filter" id="news-filter" role="group" aria-label="Rubrik wählen">
       <button data-filter="all" aria-pressed="true">Alle</button>
       <button data-filter="science" aria-pressed="false">Forschung</button>

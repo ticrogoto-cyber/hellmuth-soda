@@ -31,6 +31,17 @@ const esc = (s) =>
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 
+// ---- Lesezeit (200 Wörter/Minute) -----------------------------------------
+
+const WORDS_PER_MIN = 200;
+export function readingMinutes(body) {
+  const words = String(body || '').trim().split(/\s+/).filter(Boolean).length;
+  return Math.round(words / WORDS_PER_MIN);
+}
+export function readingLabel(min) {
+  return min < 1 ? 'unter 1 Min.' : `${min} Min.`;
+}
+
 // ---- Frontmatter (selbst-konsistentes JSON-pro-Zeile-Format) --------------
 
 const FM_KEYS = ['title', 'date', 'created', 'slug', 'rubrik', 'source_url', 'source_name', 'lead', 'doi', 'preprint', 'press_review', 'relevance'];
@@ -114,13 +125,27 @@ function readAll() {
   return out;
 }
 
-function detailHtmlMono(rec) {
+// Prev/Next-Navigation. nav = { prev: {href,title}|null, next: {href,title}|null }.
+// Vorheriger = älterer Artikel (links), Nächster = neuerer Artikel (rechts).
+function prevNextHtml(nav) {
+  if (!nav || (!nav.prev && !nav.next)) return '';
+  const prev = nav.prev
+    ? `<a class="news-pn news-pn-prev" href="${esc(nav.prev.href)}"><span class="news-pn-dir">← Vorheriger</span><span class="news-pn-title">${esc(nav.prev.title)}</span></a>`
+    : '<span class="news-pn news-pn-empty"></span>';
+  const next = nav.next
+    ? `<a class="news-pn news-pn-next" href="${esc(nav.next.href)}"><span class="news-pn-dir">Nächster →</span><span class="news-pn-title">${esc(nav.next.title)}</span></a>`
+    : '<span class="news-pn news-pn-empty"></span>';
+  return `\n      <nav class="news-prevnext" aria-label="Weitere Meldungen">\n        ${prev}\n        ${next}\n      </nav>`;
+}
+
+function detailHtmlMono(rec, nav) {
   const backlink = rec.doi ? rec.source_url : rec.source_url;
   const bodyHtml = String(rec.body || '')
     .split(/\n{2,}/)
     .map((p) => `<p>${esc(p)}</p>`)
     .join('\n        ');
   const preprintTag = rec.preprint ? '<span class="news-tag">Preprint, nicht peer-reviewed</span>' : '';
+  const readTime = readingLabel(readingMinutes(rec.body));
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -155,13 +180,13 @@ function detailHtmlMono(rec) {
 
   <main class="news-detail">
     <article>
-      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${preprintTag}</p>
+      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} · ${esc(readTime)} ${preprintTag}</p>
       <h1>${esc(rec.title)}</h1>
       <p class="news-lead">${esc(rec.lead)}</p>
       <div class="news-body">
         ${bodyHtml}
       </div>
-      <p class="news-source">Quelle: <a href="${esc(backlink)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>${rec.doi ? ` · DOI: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.doi)}</a>` : ''}</p>
+      <p class="news-source">Quelle: <a href="${esc(backlink)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>${rec.doi ? ` · DOI: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.doi)}</a>` : ''}</p>${prevNextHtml(nav)}
       <p class="news-back"><a href="../../../">← Alle Meldungen</a></p>
     </article>
   </main>
@@ -174,12 +199,13 @@ function detailHtmlMono(rec) {
 `;
 }
 
-function detailHtmlSoda(rec) {
+function detailHtmlSoda(rec, nav) {
   const bodyHtml = String(rec.body || '')
     .split(/\n{2,}/)
     .map((p) => `<p>${esc(p)}</p>`)
     .join('\n        ');
   const tags = rec.preprint ? '<span class="news-tag">Preprint</span>' : '';
+  const readTime = readingLabel(readingMinutes(rec.body));
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -210,13 +236,13 @@ function detailHtmlSoda(rec) {
 
   <main class="news-detail">
     <article>
-      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${tags}</p>
+      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} · ${esc(readTime)} ${tags}</p>
       <h1>${esc(rec.title)}</h1>
       <p class="news-lead">${esc(rec.lead)}</p>
       <div class="news-body">
         ${bodyHtml}
       </div>
-      <p class="news-source">Quelle: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>${rec.doi ? ` · DOI: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.doi)}</a>` : ''}</p>
+      <p class="news-source">Quelle: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>${rec.doi ? ` · DOI: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.doi)}</a>` : ''}</p>${prevNextHtml(nav)}
       <p class="news-back"><a href="../../">← Alle Meldungen</a></p>
     </article>
   </main>
@@ -232,7 +258,7 @@ function detailHtmlSoda(rec) {
 `;
 }
 
-const detailHtml = (rec) => (NEWS_THEME === 'soda' ? detailHtmlSoda(rec) : detailHtmlMono(rec));
+const detailHtml = (rec, nav) => (NEWS_THEME === 'soda' ? detailHtmlSoda(rec, nav) : detailHtmlMono(rec, nav));
 
 function dataJs(all) {
   // Für Frontend: schlanke Records (ohne vollständigen Body) reichen für Übersicht/Startseite.
@@ -247,6 +273,7 @@ function dataJs(all) {
     source_url: rec.source_url,
     preprint: !!rec.preprint,
     press_review: !!rec.press_review,
+    minutes: readingMinutes(rec.body),
     href: `/news/${rec.rubrik}/${rec.slug}/`,
   });
   const payload = {
@@ -264,10 +291,20 @@ function dataJs(all) {
 export function build() {
   const all = readAll();
   for (const rubrik of RUBRIKEN) {
-    for (const rec of all[rubrik]) {
+    const list = all[rubrik]; // neuestes zuerst
+    for (let i = 0; i < list.length; i++) {
+      const rec = list[i];
+      const newer = list[i - 1]; // chronologisch nächster (neuer)
+      const older = list[i + 1]; // chronologisch vorheriger (älter)
+      // Nachbarn innerhalb derselben Rubrik; Detailseiten liegen unter
+      // ../<slug>/ relativ zueinander.
+      const nav = {
+        prev: older ? { href: `../${older.slug}/`, title: older.title } : null,
+        next: newer ? { href: `../${newer.slug}/`, title: newer.title } : null,
+      };
       const dir = join(NEWS, rubrik, rec.slug);
       mkdirSync(dir, { recursive: true });
-      writeFileSync(join(dir, 'index.html'), detailHtml(rec), 'utf8');
+      writeFileSync(join(dir, 'index.html'), detailHtml(rec, nav), 'utf8');
     }
   }
   mkdirSync(NEWS, { recursive: true });
