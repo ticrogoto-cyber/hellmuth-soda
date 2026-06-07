@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T12:55:35.669Z",
+  "generated": "2026-06-07T13:24:08.477Z",
   "hellmuth": [
     {
       "title": "Koreanischer Reiswein drängt nach Süden",

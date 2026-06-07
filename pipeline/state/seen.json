@@ -1351,6 +1351,34 @@
       "rubrik": "hellmuth",
       "score": 9,
       "published": true
+    },
+    "0859ce8964dff586798eeaafb4b5a2d6a33caf3b1dc1fdcf10885dd727ea30e3": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/functional-beverage-trends-in-2026/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "4f177a1e700cbefc6dbd7ce691d04588c5079e038da38fb0746e571d5452f1ee": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/New-trends-in-the-RTD-coffee-category/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "d7ac471f1e2b4a7845b06ef2f54c9f6b1c4cbff49759a33808a56e474d1b97b1": {
+      "url": "https://soranews24.com/2026/06/07/colour-hunting-the-hot-new-street-photography-trend-changing-how-we-see-japan/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d978af483a503124917e8a782e53f08671ded9c8ae336ad8cc2519102967e307": {
+      "url": "https://sustainable.japantimes.com/lr/132?utm_source=jto&utm_medium=sidebanner&utm_campaign=jto_sidebanner&f=1",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance"
     }
   }
 }
