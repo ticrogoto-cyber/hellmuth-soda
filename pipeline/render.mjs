@@ -135,7 +135,7 @@ function detailHtmlMono(rec) {
 <body>
   <header class="top">
     <div class="title"><span>News</span><em data-tagline></em></div>
-    <a href="../../../" class="brand" aria-label="Startseite"><img src="../../../mut-zur-klarheit4.png" alt="Mut zur Klarheit" /></a>
+    <a href="../../../" class="brand" aria-label="Hellmuth — Startseite"><img src="../../../hellmuth.png" alt="Hellmuth" /></a>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true">
       <a href="../../../" class="is-active">News</a>
