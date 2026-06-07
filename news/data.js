@@ -1,7 +1,20 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T13:24:08.477Z",
+  "generated": "2026-06-07T14:03:36.772Z",
   "hellmuth": [
+    {
+      "title": "Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine",
+      "date": "2026-06-07",
+      "created": "2026-06-07T13:57:51.230Z",
+      "slug": "sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine",
+      "rubrik": "hellmuth",
+      "lead": "Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/spirits-distribution-punch-club-lands-at-total-wine-oishii-signs-with-sgws",
+      "preprint": false,
+      "press_review": false,
+      "href": "/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/"
+    },
     {
       "title": "Koreanischer Reiswein drängt nach Süden",
       "date": "2026-06-07",
@@ -17,6 +30,19 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Zwei Depressionen im Hirn",
+      "date": "2026-06-07",
+      "created": "2026-06-07T14:02:09.547Z",
+      "slug": "zwei-depressionen-im-hirn",
+      "rubrik": "science",
+      "lead": "Ein Preprint findet zwei neuroanatomische Muster bei jungen Depressiven, und nur eines davon trägt eine Entzündungssignatur.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.01.26354320v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "href": "/news/science/zwei-depressionen-im-hirn/"
+    },
     {
       "title": "Wenn das Belohnungszentrum vor Nähe warnt",
       "date": "2026-06-07",
