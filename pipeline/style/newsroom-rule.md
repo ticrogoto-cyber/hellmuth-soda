@@ -42,7 +42,7 @@ Erwartbare Formulierungen zermürben den Text. Zwei Schärfungen:
 ## Längen
 
 - Rubrik HELLMUTH (Getränke/Food & Beverage): 5 bis 15 Sätze.
-- Rubrik Wissenschaft (Substanzen/Pharmakologie/Bewusstsein): genau 5 Sätze.
+- Rubrik Forschung (Substanzen/Pharmakologie/Bewusstsein): genau 5 Sätze.
 - Diese Satzzahl gilt für den Fließtext. Der Aphorismus-Closer (siehe unten) ist ein zusätzlicher Schlussabsatz und zählt nicht mit.
 
 ## Aphorismus-Closer (Pflicht)
@@ -71,7 +71,7 @@ Beispiel (Maßstab, nicht Schablone; jeder Closer erwächst aus dem konkreten Ar
 Wird im User-Prompt als »Pressespiegel« signalisiert.
 
 - Es liegen nur Titel und frei zugänglicher Anriss vor. Keine Volltext-Rekonstruktion, keine erfundenen Details, keine Zahlen, die nicht im Anriss stehen. Die Paywall nicht erwähnen (kein »hinter Paywall«, »ohne Zugang zum Volltext«, »mehr ist nicht belegt«). Die Quellenangabe macht der Renderer, nicht der Text.
-- **Gleiche Mindestqualität wie Volltext-Items, kein Längenrabatt.** Es gilt die volle Rubrik-Länge (HELLMUTH 5 bis 15 Sätze, Wissenschaft genau 5), jeder Satz trägt Haltung.
+- **Gleiche Mindestqualität wie Volltext-Items, kein Längenrabatt.** Es gilt die volle Rubrik-Länge (HELLMUTH 5 bis 15 Sätze, Forschung genau 5), jeder Satz trägt Haltung.
 - **Wenn Titel und Anriss keine fünf substanziellen Sätze mit Einordnung hergeben, gib einen leeren `body` zurück.** Lieber verwerfen als einen dünnen Zwei- oder Dreisätzer durchwinken. Kein Auffüllen mit Meta-Sätzen oder Quellen-Paraphrase.
 - Die Relevanzschwelle für Pressespiegel-Items liegt höher (Score mindestens 9); der Aufrufer setzt das durch.
 

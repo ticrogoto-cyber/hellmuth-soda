@@ -16,7 +16,7 @@
   <meta name="twitter:title" content="Hellmuth — Botanical Soda" />
   <meta name="twitter:description" content="Klarheit ist das neue High. Intensität statt Intoxikation." />
 
-  <link rel="stylesheet" href="../styles.css?v=5" />
+  <link rel="stylesheet" href="../styles.css?v=6" />
   <link rel="stylesheet" href="hellmuth.css" />
 </head>
 <body>
@@ -28,6 +28,10 @@
     <a href="../" class="brand" aria-label="Hellmuth — Startseite">
       <img src="../hellmuth.png" alt="Hellmuth" />
     </a>
+    <form class="top-search" role="search" autocomplete="off">
+      <input type="search" placeholder="Suchen" aria-label="Site-Suche" />
+      <ul class="top-search-results" hidden></ul>
+    </form>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -156,6 +160,7 @@
     <a href="../impressum/" class="footer-impressum">Impressum</a>
   </footer>
 
-  <script src="../site.js?v=5"></script>
+  <script src="../site.js?v=6"></script>
+  <script src="../search.js?v=1"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@ const CONTENT = join(ROOT, 'content', 'news');
 const NEWS = join(ROOT, 'news');
 
 const RUBRIKEN = ['hellmuth', 'science'];
-const RUBRIK_LABEL = { hellmuth: 'HELLMUTH', science: 'Wissenschaft' };
+const RUBRIK_LABEL = { hellmuth: 'HELLMUTH', science: 'Forschung' };
 const MAX_PER_RUBRIK = 200;
 
 // Designvariante der generierten Detailseiten:
@@ -129,13 +129,17 @@ function detailHtmlMono(rec) {
   <title>${esc(rec.title)} — News — Mut zur Klarheit</title>
   <meta name="description" content="${esc(rec.lead)}" />
   <link rel="canonical" href="https://hellmuth-soda.de/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
-  <link rel="stylesheet" href="../../../styles.css" />
+  <link rel="stylesheet" href="../../../styles.css?v=6" />
   <link rel="stylesheet" href="../../news.css" />
 </head>
 <body>
   <header class="top">
     <div class="title"><span>News</span><em data-tagline></em></div>
     <a href="../../../" class="brand" aria-label="Hellmuth — Startseite"><img src="../../../hellmuth.png" alt="Hellmuth" /></a>
+    <form class="top-search" role="search" autocomplete="off">
+      <input type="search" placeholder="Suchen" aria-label="Site-Suche" />
+      <ul class="top-search-results" hidden></ul>
+    </form>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true">
       <a href="../../../" class="is-active">News</a>
@@ -162,7 +166,8 @@ function detailHtmlMono(rec) {
   </main>
 
   <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
-  <script src="../../../site.js"></script>
+  <script src="../../../site.js?v=6"></script>
+  <script src="../../../search.js?v=1"></script>
 </body>
 </html>
 `;

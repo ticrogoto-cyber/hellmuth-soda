@@ -28,7 +28,7 @@ Die `pipeline/` und `config/` sind identisch zwischen beiden Seiten. Wenn beide 
 
 - `news/index.html`, `news/news.css`, `news/news.js` nutzen die Soda-Tokens (`--cream`, `--ink`, `--accent`, `--muted`) und Cormorant + Inter aus der bestehenden Soda-`styles.css`. Es werden keine bestehenden Soda-Styles verändert.
 - Detailseiten erzeugt die Pipeline mit `NEWS_THEME=soda` automatisch im Soda-Look (`pipeline/render.mjs`, Funktion `detailHtmlSoda`). Sie verlinken die Soda-`styles.css` und `news/news.css`.
-- Die Rubrik HELLMUTH zeigt Getränke-Meldungen; ein Querverweis führt zu den Wissenschafts-Meldungen auf `hellmuth-soda.de/news/`.
+- Die Rubrik HELLMUTH zeigt Getränke-Meldungen; ein Querverweis führt zu den Forschungs-Meldungen auf `hellmuth-soda.de/news/`.
 
 ## Datenfluss
 

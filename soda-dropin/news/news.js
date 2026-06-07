@@ -1,5 +1,5 @@
 // Soda /news-Übersicht: HELLMUTH-Rubrik (Getränke), chronologisch.
-// Wissenschaft lebt auf hellmuth-soda.de; hier nur ein Querverweis.
+// Forschung lebt auf hellmuth-soda.de; hier nur ein Querverweis.
 (() => {
   const data = window.NEWS_DATA || { hellmuth: [] };
   const listEl = document.getElementById('news-list');

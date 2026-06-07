@@ -160,7 +160,7 @@ export async function translateToGerman({ title, summary, lang }) {
     {
       type: 'text',
       text:
-        'Du bist ein präziser Fachübersetzer. Übersetze Getränke- und Wissenschaftsmeldungen ' +
+        'Du bist ein präziser Fachübersetzer. Übersetze Getränke- und Forschungsmeldungen ' +
         'originalgetreu ins Deutsche. Keine Ausschmückung, keine Wertung, keine Auslassung. ' +
         'Gib nur JSON zurück: {"title": "...", "summary": "..."}.',
     },
@@ -193,7 +193,7 @@ export async function translateToGerman({ title, summary, lang }) {
 export async function transformToHouseStyle({ rubrik, title, summary, sourceName, sourceUrl, isPreprint, headlineOnly }) {
   const lengthRule =
     rubrik === 'science'
-      ? 'Rubrik Wissenschaft: genau 5 Sätze im body.'
+      ? 'Rubrik Forschung: genau 5 Sätze im body.'
       : 'Rubrik HELLMUTH: 5 bis 15 Sätze im body.';
   const headlineNote = headlineOnly
     ? '\nPressespiegel: nur Titel und frei zugänglicher Anriss liegen vor. Keine Volltext-Rekonstruktion, keine erfundenen Details oder Zahlen, die Paywall NICHT erwähnen. Gleiche Mindestqualität und volle Rubrik-Länge wie sonst. Wenn Titel und Anriss keine fünf substanziellen Sätze mit eigener Einordnung tragen, gib einen leeren body zurück (das Item wird dann verworfen). Lieber nichts als ein dünner Zweisätzer.'
