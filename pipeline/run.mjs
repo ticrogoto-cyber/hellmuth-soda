@@ -36,7 +36,7 @@ async function main() {
     process.exit(1);
   }
   log.info(`Modelle: relevance=${modelInfo.relevance} transform=${modelInfo.transform}(effort=${modelInfo.transformEffort}) translate=${modelInfo.translate}`);
-  log.info(`Rubriken: ${RUBRIKEN.join(', ')} | Schwelle: >=${THRESHOLD} | Max neu: ${MAX_NEW} | Dry-Run: ${DRY_RUN}`);
+  log.info(`Rubriken: ${RUBRIKEN.join(', ')} | Schwelle: >=${THRESHOLD} | Max neu pro Rubrik: ${MAX_NEW} | Dry-Run: ${DRY_RUN}`);
 
   const config = JSON.parse(readFileSync(CONFIG, 'utf8'));
   const state = loadSeen();
@@ -49,11 +49,12 @@ async function main() {
   const S = (r) => (stats[r] ||= { fetched: 0, afterDedup: 0, scored: 0, ge8: 0, mid: 0, lt6: 0, nearMiss: [] });
 
   for (const rubrik of RUBRIKEN) {
+    let rubPublished = 0; // max_new gilt pro Rubrik, nicht global
     const sources = (config[rubrik] || []).filter((s) => s.active !== false);
     log.step(`Rubrik ${rubrik} — ${sources.length} aktive Quellen`);
 
     for (const source of sources) {
-      if (published >= MAX_NEW) break;
+      if (rubPublished >= MAX_NEW) break;
       const res = await fetchSource(source);
       if (res.status !== 'ok' || !res.items.length) {
         log.warn(`  ${source.name}: ${res.status}${res.error ? ' (' + res.error + ')' : ''}`);
@@ -62,7 +63,7 @@ async function main() {
       S(rubrik).fetched += res.items.length;
 
       for (const item of res.items) {
-        if (published >= MAX_NEW) break;
+        if (rubPublished >= MAX_NEW) break;
         if (!item.url) continue;
         if (isSeen(state, item.url)) continue;
         S(rubrik).afterDedup += 1;
@@ -131,6 +132,7 @@ async function main() {
             });
           }
           markSeen(state, item.url, { rubrik, score, published: true });
+          rubPublished += 1;
           published += 1;
           summary.push(`[${rubrik}] (${score}) ${out.title}`);
           log.info(`  PUBLISH (${score}) ${out.title}`);
