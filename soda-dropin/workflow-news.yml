@@ -19,6 +19,9 @@ on:
       max_new:
         description: "Max. neue Items (nur bei run)"
         default: "12"
+      rubriken:
+        description: "Rubriken, Komma-getrennt (nur bei run; Default hellmuth)"
+        default: "hellmuth"
       dry_run:
         description: "Dry-Run (nichts schreiben, nur bei run)"
         type: boolean
@@ -90,7 +93,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
-          PIPELINE_RUBRIKEN: "hellmuth"
+          PIPELINE_RUBRIKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.rubriken || 'hellmuth' }}
           NEWS_THEME: "soda"
           RELEVANCE_THRESHOLD: "8"
           MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '12' }}

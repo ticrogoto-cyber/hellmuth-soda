@@ -138,7 +138,9 @@ async function main() {
   console.log(JSON.stringify({ published, items: summary }, null, 2));
 }
 
-main().catch((e) => {
-  log.error(e.stack || e.message);
-  process.exit(1);
-});
+main()
+  .then(() => process.exit(0)) // offene Keep-Alive-Sockets (undici) sonst Event-Loop am Leben halten
+  .catch((e) => {
+    log.error(e.stack || e.message);
+    process.exit(1);
+  });

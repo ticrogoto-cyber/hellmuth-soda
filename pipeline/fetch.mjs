@@ -14,17 +14,28 @@ const MAX_PER_SOURCE = Number(process.env.MAX_PER_SOURCE || 15);
 const NCBI_API_KEY = process.env.NCBI_API_KEY || '';
 const NCBI_EMAIL = process.env.NCBI_EMAIL || 'hallo@hellmuth-soda.de';
 
-const parser = new Parser({
-  timeout: 20000,
-  headers: { 'User-Agent': USER_AGENT, Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*' },
-});
+// Browser-Fallback-UA für Quellen, die den Bot-UA mit 4xx blocken.
+const BROWSER_UA =
+  process.env.NEWS_BROWSER_UA ||
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15';
 
+// Statuscodes, bei denen ein zweiter Versuch mit Browser-UA sinnvoll ist.
+const UA_RETRY = new Set([401, 403, 404, 406, 429, 451]);
+
+const parser = new Parser({ timeout: 20000 });
+
+// Holt Text mit Bot-UA; bei typischen Bot-Sperren ein Retry mit Browser-UA.
 const httpGet = async (url, accept = 'text/html,application/xhtml+xml,*/*') => {
-  const res = await fetch(url, {
-    headers: { 'User-Agent': USER_AGENT, Accept: accept },
-    redirect: 'follow',
-    signal: AbortSignal.timeout(20000),
-  });
+  const tryOnce = (ua) =>
+    fetch(url, {
+      headers: { 'User-Agent': ua, Accept: accept },
+      redirect: 'follow',
+      signal: AbortSignal.timeout(20000),
+    });
+  let res = await tryOnce(USER_AGENT);
+  if (!res.ok && UA_RETRY.has(res.status)) {
+    res = await tryOnce(BROWSER_UA);
+  }
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
 };
@@ -51,25 +62,65 @@ const rssCandidates = (source) => {
   return [...new Set(c)];
 };
 
+const RSS_ACCEPT = 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*';
+
+// Feed-Discovery aus dem HTML der Hauptseite: <link rel="alternate" type="application/rss+xml">.
+const discoverFeeds = async (sourceUrl) => {
+  try {
+    const html = await httpGet(sourceUrl, 'text/html,application/xhtml+xml,*/*');
+    const out = [];
+    const re = /<link\b[^>]*type=["']application\/(?:rss|atom)\+xml["'][^>]*>/gi;
+    let m;
+    while ((m = re.exec(html)) && out.length < 8) {
+      const href = (m[0].match(/href=["']([^"']+)["']/i) || [])[1];
+      if (!href) continue;
+      try {
+        out.push(new URL(href, sourceUrl).toString());
+      } catch {}
+    }
+    return [...new Set(out)];
+  } catch {
+    return [];
+  }
+};
+
+const parseFeed = async (feedUrl) => {
+  const xml = await httpGet(feedUrl, RSS_ACCEPT);
+  return parser.parseString(xml);
+};
+
+const rssItems = (source, feed) =>
+  (feed.items || []).slice(0, MAX_PER_SOURCE).map((it) =>
+    normItem(source, {
+      title: it.title,
+      summary: it.contentSnippet || it.content || it.summary || '',
+      url: it.link || it.guid,
+      publishedAt: it.isoDate || it.pubDate || null,
+    })
+  );
+
 async function fetchRss(source) {
   let lastErr = null;
+  // 1) Geratene Kandidaten (inkl. konfigurierter feed-URL), mit UA-Fallback in httpGet.
   for (const feedUrl of rssCandidates(source)) {
     try {
       if (!(await isAllowed(feedUrl))) {
         lastErr = new Error('robots-disallow');
         continue;
       }
-      const feed = await parser.parseURL(feedUrl);
-      const items = (feed.items || []).slice(0, MAX_PER_SOURCE).map((it) =>
-        normItem(source, {
-          title: it.title,
-          summary: it.contentSnippet || it.content || it.summary || '',
-          url: it.link || it.guid,
-          publishedAt: it.isoDate || it.pubDate || null,
-        })
-      );
+      const items = rssItems(source, await parseFeed(feedUrl));
       if (items.length) return { items, mode: 'rss', feedUrl, status: 'ok' };
       lastErr = new Error('feed leer');
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+  // 2) Echte Discovery aus der Hauptseite, falls die Kandidaten scheitern.
+  for (const feedUrl of await discoverFeeds(source.url)) {
+    try {
+      if (!(await isAllowed(feedUrl))) continue;
+      const items = rssItems(source, await parseFeed(feedUrl));
+      if (items.length) return { items, mode: 'rss-discovered', feedUrl, status: 'ok' };
     } catch (e) {
       lastErr = e;
     }

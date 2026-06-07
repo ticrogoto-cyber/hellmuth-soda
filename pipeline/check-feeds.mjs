@@ -57,7 +57,9 @@ async function main() {
   console.log(lines.join('\n'));
 }
 
-main().catch((e) => {
-  log.error(e.stack || e.message);
-  process.exit(1);
-});
+main()
+  .then(() => process.exit(0)) // verhindert den Leerlauf-Hang nach dem Report (offene Sockets)
+  .catch((e) => {
+    log.error(e.stack || e.message);
+    process.exit(1);
+  });
