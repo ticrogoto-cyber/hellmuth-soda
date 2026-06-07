@@ -80,7 +80,6 @@ main {
   top: 0; left: 0; right: 0;
   background: var(--paper);
   z-index: 5;
-  border-bottom: 1px solid var(--ink);
   padding: 0.9rem clamp(1.5rem, 4vw, 3rem) 0.65rem;
   font-size: 1rem;
   letter-spacing: 0.25em;
