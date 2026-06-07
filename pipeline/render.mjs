@@ -121,10 +121,6 @@ function detailHtmlMono(rec) {
     .map((p) => `<p>${esc(p)}</p>`)
     .join('\n        ');
   const preprintTag = rec.preprint ? '<span class="news-tag">Preprint, nicht peer-reviewed</span>' : '';
-  const pressTag = rec.press_review ? '<span class="news-tag">Pressespiegel</span>' : '';
-  const pressNotice = rec.press_review
-    ? `<p class="news-press-notice">Pressespiegel, Volltext bei <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>.</p>`
-    : '';
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -154,10 +150,9 @@ function detailHtmlMono(rec) {
 
   <main class="news-detail">
     <article>
-      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${preprintTag}${pressTag}</p>
+      <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${preprintTag}</p>
       <h1>${esc(rec.title)}</h1>
       <p class="news-lead">${esc(rec.lead)}</p>
-      ${pressNotice}
       <div class="news-body">
         ${bodyHtml}
       </div>
@@ -178,13 +173,7 @@ function detailHtmlSoda(rec) {
     .split(/\n{2,}/)
     .map((p) => `<p>${esc(p)}</p>`)
     .join('\n        ');
-  const tags = [
-    rec.preprint ? '<span class="news-tag">Preprint</span>' : '',
-    rec.press_review ? '<span class="news-tag">Pressespiegel</span>' : '',
-  ].join('');
-  const pressNotice = rec.press_review
-    ? `<p class="news-press-notice">Pressespiegel, Volltext bei <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a>.</p>`
-    : '';
+  const tags = rec.preprint ? '<span class="news-tag">Preprint</span>' : '';
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -218,7 +207,6 @@ function detailHtmlSoda(rec) {
       <p class="news-eyebrow">${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)} · ${esc(rec.date)} ${tags}</p>
       <h1>${esc(rec.title)}</h1>
       <p class="news-lead">${esc(rec.lead)}</p>
-      ${pressNotice}
       <div class="news-body">
         ${bodyHtml}
       </div>

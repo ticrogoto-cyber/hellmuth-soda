@@ -169,11 +169,13 @@ export async function translateToGerman({ title, summary, lang }) {
  * @returns {Promise<{title:string, lead:string, body:string}>}
  */
 export async function transformToHouseStyle({ rubrik, title, summary, sourceName, sourceUrl, isPreprint, headlineOnly }) {
-  const lengthRule = headlineOnly
-    ? 'Pressespiegel-Modus: nur Titel und frei zugänglicher Anriss liegen vor. Keine Volltext-Rekonstruktion, keine erfundenen Details oder Zahlen. body genau 2 bis 4 Sätze, klar als Pressespiegel kenntlich (Verweis auf Meldung hinter Paywall). Diese Regel überschreibt die Rubrik-Länge.'
-    : rubrik === 'science'
+  const lengthRule =
+    rubrik === 'science'
       ? 'Rubrik Wissenschaft: genau 5 Sätze im body.'
       : 'Rubrik HELLMUTH: 5 bis 15 Sätze im body.';
+  const headlineNote = headlineOnly
+    ? '\nPressespiegel: nur Titel und frei zugänglicher Anriss liegen vor. Keine Volltext-Rekonstruktion, keine erfundenen Details oder Zahlen, die Paywall NICHT erwähnen. Gleiche Mindestqualität und volle Rubrik-Länge wie sonst. Wenn Titel und Anriss keine fünf substanziellen Sätze mit eigener Einordnung tragen, gib einen leeren body zurück (das Item wird dann verworfen). Lieber nichts als ein dünner Zweisätzer.'
+    : '';
   const preprintNote = isPreprint
     ? '\nHinweis: Dies ist ein Preprint (nicht peer-reviewed). Das im Text kenntlich machen.'
     : '';
@@ -186,7 +188,7 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
     },
   ];
   const user =
-    `Rubrik: ${rubrik}\n${lengthRule}${preprintNote}\n\n` +
+    `Rubrik: ${rubrik}\n${lengthRule}${headlineNote}${preprintNote}\n\n` +
     `Quelle: ${sourceName || ''}\n` +
     `Original-URL (nur Kontext, nicht in den Text schreiben): ${sourceUrl || ''}\n` +
     `Original-Titel: ${title || ''}\n` +
