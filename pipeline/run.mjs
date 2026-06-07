@@ -44,6 +44,10 @@ async function main() {
   let published = 0;
   const summary = [];
 
+  // Pro-Rubrik-Statistik für den Cutoff-Befund (landet im Step-Summary).
+  const stats = {};
+  const S = (r) => (stats[r] ||= { fetched: 0, afterDedup: 0, scored: 0, ge8: 0, mid: 0, lt6: 0, nearMiss: [] });
+
   for (const rubrik of RUBRIKEN) {
     const sources = (config[rubrik] || []).filter((s) => s.active !== false);
     log.step(`Rubrik ${rubrik} — ${sources.length} aktive Quellen`);
@@ -55,11 +59,13 @@ async function main() {
         log.warn(`  ${source.name}: ${res.status}${res.error ? ' (' + res.error + ')' : ''}`);
         continue;
       }
+      S(rubrik).fetched += res.items.length;
 
       for (const item of res.items) {
         if (published >= MAX_NEW) break;
         if (!item.url) continue;
         if (isSeen(state, item.url)) continue;
+        S(rubrik).afterDedup += 1;
 
         // Ab hier gilt das Item als gesehen (auch wenn es später ausscheidet),
         // damit es nicht erneut die API kostet.
@@ -75,6 +81,14 @@ async function main() {
             summary: probe.summary,
             sourceName: item.sourceName,
           });
+
+          const st = S(rubrik);
+          st.scored += 1;
+          if (score >= 8) st.ge8 += 1;
+          else if (score >= 6) {
+            st.mid += 1;
+            st.nearMiss.push({ score, title: probe.title });
+          } else st.lt6 += 1;
 
           if (score < THRESHOLD) {
             markSeen(state, item.url, { rubrik, score, dropped: 'low-relevance' });
@@ -134,8 +148,27 @@ async function main() {
     log.step('Dry-Run fertig (nichts geschrieben)');
   }
 
-  // Maschinenlesbare Zusammenfassung nach stdout.
-  console.log(JSON.stringify({ published, items: summary }, null, 2));
+  // Statistik-Report nach stdout -> landet via tee im GITHUB_STEP_SUMMARY.
+  const md = ['## Pipeline-Statistik', '', `Schwelle: Score >= ${THRESHOLD} | Veröffentlicht: ${published}${DRY_RUN ? ' (Dry-Run)' : ''}`, ''];
+  md.push('| Rubrik | gefetcht | nach Dedup | geprüft | ≥8 | 6–7 | <6 |', '|---|---|---|---|---|---|---|');
+  for (const r of RUBRIKEN) {
+    const s = S(r);
+    md.push(`| ${r} | ${s.fetched} | ${s.afterDedup} | ${s.scored} | ${s.ge8} | ${s.mid} | ${s.lt6} |`);
+  }
+  for (const r of RUBRIKEN) {
+    const s = S(r);
+    if (s.nearMiss.length) {
+      md.push('', `**${r} — knapp verfehlt (6–7):**`);
+      for (const n of s.nearMiss.sort((a, b) => b.score - a.score)) {
+        md.push(`- (${n.score}) ${n.title}`);
+      }
+    }
+  }
+  md.push('', 'Hinweis: gefetcht zählt alle Feed-Items; nach Dedup/geprüft nur bis zum Erreichen von max_new (Frühstopp).');
+  console.log(md.join('\n'));
+
+  // Maschinenlesbare Zusammenfassung (für Logs/Tooling).
+  console.log('\n' + JSON.stringify({ published, items: summary }, null, 2));
 }
 
 main()

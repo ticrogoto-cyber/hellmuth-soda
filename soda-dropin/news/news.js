@@ -5,7 +5,7 @@
   const listEl = document.getElementById('news-list');
   if (!listEl) return;
 
-  const items = (data.hellmuth || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const items = (data.hellmuth || []).slice().sort((a, b) => String(b.created || b.date).localeCompare(String(a.created || a.date)));
 
   const esc = (s) =>
     String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

@@ -33,7 +33,7 @@ const esc = (s) =>
 
 // ---- Frontmatter (selbst-konsistentes JSON-pro-Zeile-Format) --------------
 
-const FM_KEYS = ['title', 'date', 'slug', 'rubrik', 'source_url', 'source_name', 'lead', 'doi', 'preprint', 'press_review', 'relevance'];
+const FM_KEYS = ['title', 'date', 'created', 'slug', 'rubrik', 'source_url', 'source_name', 'lead', 'doi', 'preprint', 'press_review', 'relevance'];
 
 function serialize(rec) {
   const lines = ['---'];
@@ -74,6 +74,7 @@ export function writeItem({ rubrik, title, lead, body, sourceUrl, sourceName, do
   const rec = {
     title,
     date: d,
+    created: new Date().toISOString(),
     slug: s,
     rubrik,
     source_url: sourceUrl,
@@ -103,7 +104,11 @@ function readAll() {
       const rec = parse(readFileSync(join(dir, f), 'utf8'));
       if (rec && rec.title) out[rubrik].push(rec);
     }
-    out[rubrik].sort((a, b) => String(b.date).localeCompare(String(a.date)) || String(b.slug).localeCompare(String(a.slug)));
+    out[rubrik].sort(
+      (a, b) =>
+        String(b.created || b.date).localeCompare(String(a.created || a.date)) ||
+        String(b.slug).localeCompare(String(a.slug))
+    );
     out[rubrik] = out[rubrik].slice(0, MAX_PER_RUBRIK);
   }
   return out;
@@ -240,6 +245,7 @@ function dataJs(all) {
   const trim = (rec) => ({
     title: rec.title,
     date: rec.date,
+    created: rec.created || null,
     slug: rec.slug,
     rubrik: rec.rubrik,
     lead: rec.lead,
