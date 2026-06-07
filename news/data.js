@@ -1,7 +1,46 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T14:35:36.698Z",
+  "generated": "2026-06-07T16:21:44.464Z",
   "hellmuth": [
+    {
+      "title": "Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:17:06.492Z",
+      "slug": "gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet",
+      "rubrik": "hellmuth",
+      "lead": "Siebzig bis achtzig Prozent des weltweit verbrauchten Gummi arabicum stammen aus dem Sudan, wo seit 2023 Krieg herrscht.",
+      "source_name": "AP Food Online",
+      "source_url": "https://www.apfoodonline.com/sudan-conflict-affects-gum-arabic-supply/",
+      "preprint": false,
+      "press_review": false,
+      "href": "/news/hellmuth/gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet/"
+    },
+    {
+      "title": "Refresher verlassen die Theke",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:14:57.978Z",
+      "slug": "refresher-verlassen-die-theke",
+      "rubrik": "hellmuth",
+      "lead": "Was Starbucks und Dunkin' als koffeinierte Fruchtgetränke etabliert haben, wandert ins Supermarktregal.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/the-energy-refreshers-wave-is-moving-from-qsrs-to-cpg",
+      "preprint": false,
+      "press_review": false,
+      "href": "/news/hellmuth/refresher-verlassen-die-theke/"
+    },
+    {
+      "title": "Ginseng als Alltagsware",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:12:32.319Z",
+      "slug": "ginseng-als-alltagsware",
+      "rubrik": "hellmuth",
+      "lead": "Was Apotheke war, soll Snack werden.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/05/12/ginseng-democratisation-advancing-food-as-medicine/",
+      "preprint": false,
+      "press_review": false,
+      "href": "/news/hellmuth/ginseng-als-alltagsware/"
+    },
     {
       "title": "Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine",
       "date": "2026-06-07",
@@ -30,6 +69,71 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Darmflora und Innenwelt teilen sich Gene",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:21:44.453Z",
+      "slug": "darmflora-und-innenwelt-teilen-sich-gene",
+      "rubrik": "science",
+      "lead": "Eine Mendel-Randomisierung verschiebt die Darm-Hirn-Achse von der Korrelation in Richtung gemeinsamer genetischer Architektur, allerdings nur für eine Achse der Psyche.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.05.31.26354553v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "href": "/news/science/darmflora-und-innenwelt-teilen-sich-gene/"
+    },
+    {
+      "title": "Erstpsychose ohne Hirnalterung",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:21:31.747Z",
+      "slug": "erstpsychose-ohne-hirnalterung",
+      "rubrik": "science",
+      "lead": "Ein Preprint stellt eine zentrale Annahme der biologischen Psychiatrie infrage.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.05.25.26353865v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "href": "/news/science/erstpsychose-ohne-hirnalterung/"
+    },
+    {
+      "title": "Psychose, Stimmung, Bildung: ostasiatische Genetik bricht das europäische Muster nicht",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:21:15.379Z",
+      "slug": "psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni",
+      "rubrik": "science",
+      "lead": "Ein Preprint findet in ostasiatischen Kohorten dieselbe paradoxe Überlappung zwischen Schizophrenie- und Bildungsgenen, die aus europäischen Daten bekannt ist.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.01.26354666v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "href": "/news/science/psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni/"
+    },
+    {
+      "title": "Widrigkeit schreibt sich in die Mitochondrien der Immunzellen",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:20:59.327Z",
+      "slug": "widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der MiSBIE-Studie verknüpft Lebensbelastung, depressive Symptome und die Energieproduktion einzelner Immunzelltypen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.02.26354718v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "href": "/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/"
+    },
+    {
+      "title": "Hirnscans sagen psychotische Erfahrungen bei Jugendlichen voraus",
+      "date": "2026-06-07",
+      "created": "2026-06-07T16:20:37.089Z",
+      "slug": "hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus",
+      "rubrik": "science",
+      "lead": "Ein Preprint koppelt MRT-Daten von Neunjährigen an die Bahn, auf der psychosenahe Erlebnisse über Jahre verlaufen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.03.26354754v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "href": "/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/"
+    },
     {
       "title": "Zwei Depressionen im Hirn",
       "date": "2026-06-07",
