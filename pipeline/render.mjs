@@ -137,9 +137,9 @@ function detailHtmlMono(rec) {
     <a href="../../../" class="brand" aria-label="Startseite"><img src="../../../mut-zur-klarheit4.png" alt="Mut zur Klarheit" /></a>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true">
+      <a href="../../../" class="is-active">News</a>
       <a href="../../../quiz/">Quiz</a>
       <a href="../../../vokabular/">Vokabular</a>
-      <a href="../../../" class="is-active">News</a>
       <a href="../../../klarheitskarten/">Klarheitskarten</a>
       <a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate</a>
       <a href="../../../hellmuth/">Hellmuth</a>
