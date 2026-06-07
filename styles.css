@@ -441,12 +441,22 @@ main {
   position: relative;
   width: clamp(8rem, 18vw, 14rem);
 }
+.top-search-icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.95rem;
+  height: 0.95rem;
+  color: var(--muted);
+  pointer-events: none;
+}
 .top-search input[type="search"] {
   width: 100%;
   border: 1px solid var(--ink);
   background: var(--paper);
   color: var(--ink);
-  padding: 0.35rem 0.6rem;
+  padding: 0.35rem 0.6rem 0.35rem 1.7rem;
   font-family: 'Printvetica', sans-serif;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -597,8 +607,9 @@ footer .footer-impressum.is-active {
     width: 100%;
     font-size: 0.8rem;
     letter-spacing: 0.12em;
-    padding: 0.5rem 0.6rem;
+    padding: 0.5rem 0.6rem 0.5rem 2rem;
   }
+  .top > .menu .top-search-icon { left: 1.4rem; width: 1.05rem; height: 1.05rem; }
   .top > .menu .top-search-results {
     position: relative;
     top: auto; right: auto;
