@@ -6,7 +6,7 @@
   <title>Mut zur Klarheit — News</title>
   <meta name="description" content="Klartext aus Forschung und Getränkewelt." />
   <link rel="canonical" href="https://hellmuth-soda.de/" />
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=6" />
   <link rel="stylesheet" href="news/news.css?v=1" />
   <script type="application/ld+json">
   {
@@ -43,6 +43,10 @@
     <a href="./" class="brand" aria-label="Hellmuth — Startseite">
       <img src="hellmuth.png" alt="Hellmuth" />
     </a>
+    <form class="top-search" role="search" autocomplete="off">
+      <input type="search" placeholder="Suchen" aria-label="Site-Suche" />
+      <ul class="top-search-results" hidden></ul>
+    </form>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -64,7 +68,7 @@
     </div>
     <div class="news-filter" id="news-filter" role="group" aria-label="Rubrik wählen">
       <button data-filter="all" aria-pressed="true">Alle</button>
-      <button data-filter="science" aria-pressed="false">Wissenschaft</button>
+      <button data-filter="science" aria-pressed="false">Forschung</button>
       <button data-filter="hellmuth" aria-pressed="false">HELLMUTH</button>
     </div>
     <ul class="news-list" id="news-list" aria-live="polite"></ul>
@@ -74,7 +78,8 @@
     <a href="impressum/" class="footer-impressum">Impressum</a>
   </footer>
 
-  <script src="site.js?v=5"></script>
+  <script src="site.js?v=6"></script>
+  <script src="search.js?v=1"></script>
   <script>
     // news/data.js wird täglich vom Bot neu geschrieben; ohne Cache-Buster pro
     // Page-Load hält der Browser-Cache (GitHub-Pages-Default ~10 min) die alte

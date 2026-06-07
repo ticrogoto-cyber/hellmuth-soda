@@ -6,7 +6,7 @@ Dieses Dokument beschreibt, wie der erste echte Lauf des News-Moduls geprüft un
 
 1. Cron-Sicherung ist scharf: `NEWS_CRON_ENABLED` ist nicht gesetzt oder steht auf etwas anderem als `true`. Der Cron läuft nach Merge **nicht** los.
 2. `task=check-feeds` manuell auslösen. Echte `feed_status`-Werte werden in `config/news-sources.json` geschrieben. Quellen mit Status `missing`, `error` oder `robots-disallow` bleiben oder werden inaktiv.
-3. `task=run` mit `max_new=3` manuell auslösen. Drei Wissenschaft-Items werden in `content/news/science/` committet.
+3. `task=run` mit `max_new=3` manuell auslösen. Drei Forschungs-Items werden in `content/news/science/` committet (Slug bleibt `science`, Anzeigelabel ist Forschung).
 4. Stilprüfung gemäß Drift-Liste unten.
 5. Erst nach Freigabe: Repo-Variable `NEWS_CRON_ENABLED=true` setzen. Damit wird der tägliche Cron scharf.
 
@@ -41,7 +41,7 @@ Wenn eines dieser Muster auftaucht: **melden, nicht selbst korrigieren**. Der Fi
 
 ### Längen
 
-- Wissenschaft: genau 5 Sätze.
+- Forschung: genau 5 Sätze.
 - HELLMUTH: 5 bis 15 Sätze.
 - Pressespiegel-Modus: 2 bis 4 Sätze, klar als solcher gekennzeichnet, mit dem Hinweis »Pressespiegel, Volltext bei <Quelle>« über dem Body. Wenn der Hinweis fehlt: drift.
 

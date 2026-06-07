@@ -2,7 +2,7 @@
 
 Automatisiertes, täglich aktualisiertes News-Modul mit zwei Rubriken:
 
-- **Wissenschaft** — begutachtete Studien zu Substanzen, Pharmakologie, Bewusstsein. Läuft in **diesem** Repo (`hellmuth-soda`), S/W-Design.
+- **Forschung** (interner Slug: `science`) — begutachtete Studien zu Substanzen, Pharmakologie, Bewusstsein. Läuft in **diesem** Repo (`hellmuth-soda`), S/W-Design.
 - **HELLMUTH** — asiatische Getränkekultur. Gehört auf die Hellmuth-Botanical-Soda-Seite (anderes Repo, Creme/Gold). Die Pipeline ist rubrik-agnostisch; auf der Soda-Seite läuft derselbe Code mit `PIPELINE_RUBRIKEN=hellmuth`.
 
 ## Architektur
@@ -22,9 +22,9 @@ Quelle der Wahrheit sind die Markdown-Dateien; `data.js` und Detailseiten werden
 
 ## Frontend
 
-- `news/index.html` — Übersicht mit Rubrik-Filter (Alle / Wissenschaft / HELLMUTH).
+- `news/index.html` — Übersicht mit Rubrik-Filter (Alle / Forschung / HELLMUTH).
 - `news/<rubrik>/<slug>/index.html` — generierte Detailseite mit Pflicht-Backlink + DOI.
-- Startseite: `<section id="news-band">` zwischen Quiz und Footer, befüllt von `news/news-home.js` aus `news/data.js` (3 jüngste Wissenschaft-Items). Der Quiz-Code bleibt unangetastet.
+- Startseite: `<section id="news-band">` zwischen Quiz und Footer, befüllt von `news/news-home.js` aus `news/data.js` (3 jüngste Forschungs-Items). Der Quiz-Code bleibt unangetastet.
 
 ## Betrieb (GitHub Actions)
 

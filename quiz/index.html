@@ -6,7 +6,7 @@
   <title>Sucht-Mythen — Wie sehr bist du gehirngewaschen?</title>
   <meta name="description" content="Zwölf Fragen. Drei Antworten. Eine Diagnose. Ein Quiz, das die Werbung für deine Sucht entlarvt." />
   <link rel="canonical" href="https://hellmuth-soda.de/quiz/" />
-  <link rel="stylesheet" href="../styles.css?v=5" />
+  <link rel="stylesheet" href="../styles.css?v=6" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,6 +28,10 @@
       <img src="../hellmuth.png" alt="Hellmuth" />
     </a>
     <div class="progress" id="progress"></div>
+    <form class="top-search" role="search" autocomplete="off">
+      <input type="search" placeholder="Suchen" aria-label="Site-Suche" />
+      <ul class="top-search-results" hidden></ul>
+    </form>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -50,6 +54,7 @@
 
   <script src="../questions.js?v=5"></script>
   <script src="../quiz.js?v=5"></script>
-  <script src="../site.js?v=5"></script>
+  <script src="../site.js?v=6"></script>
+  <script src="../search.js?v=1"></script>
 </body>
 </html>

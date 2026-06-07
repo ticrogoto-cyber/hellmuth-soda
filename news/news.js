@@ -1,11 +1,11 @@
-// /news-Übersicht: Rubrik-Filter (Alle / HELLMUTH / Wissenschaft), chronologisch.
+// /news-Übersicht: Rubrik-Filter (Alle / HELLMUTH / Forschung), chronologisch.
 (() => {
   const data = window.NEWS_DATA || { hellmuth: [], science: [] };
   const listEl = document.getElementById('news-list');
   const filterEl = document.getElementById('news-filter');
   if (!listEl) return;
 
-  const LABEL = { hellmuth: 'HELLMUTH', science: 'Wissenschaft' };
+  const LABEL = { hellmuth: 'HELLMUTH', science: 'Forschung' };
 
   const all = []
     .concat((data.hellmuth || []).map((x) => ({ ...x, rubrik: 'hellmuth' })))
