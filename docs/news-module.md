@@ -86,6 +86,17 @@ ANTHROPIC_API_KEY=sk-… PIPELINE_RUBRIKEN=science MAX_NEW_PER_RUN=3 node run.mj
 node check-feeds.mjs
 ```
 
+## SEO & Feeds (automatisch im Renderer)
+
+Alles aus `render.mjs`, bei jedem `build()` neu erzeugt, kein Eingriff pro Item:
+
+- **Meta pro Detailseite:** `<title>` (Item-Titel + „— News — Mut zur Klarheit"), `<meta name="description">` (Lead), `<meta name="robots" content="index, follow">`, `<link rel="canonical">`.
+- **Open Graph:** `og:type=article`, `og:title`, `og:description` (Lead), `og:url`, `og:site_name=Hellmuth`. Kein `og:image` (keine Bilder in den Items).
+- **JSON-LD:** Schema.org `NewsArticle` mit `headline`, `datePublished`/`dateModified`, `articleSection`, `author`/`publisher` (Hellmuth + Logo-URL), `description`, `mainEntityOfPage` (Canonical). `<` wird zu `<` neutralisiert.
+- **Sitemap:** `sitemap.xml` im Root. Vorhandene statische `<url>`-Blöcke (alles ohne `/news/`) bleiben erhalten; News-URLs werden ersetzt/aufgefrischt (`lastmod` = Item-Datum). Der Workflow committet `sitemap.xml` mit.
+- **RSS 2.0:** `news/feed.xml` (alle), `news/science/feed.xml`, `news/hellmuth/feed.xml` mit Titel, Lead, `pubDate`, Link, Rubrik als `<category>`. Auf der Startseite per `<link rel="alternate">` im `<head>` und als „RSS"-Link im Footer.
+- **robots.txt:** `Allow: /` (nichts blockiert /news/), referenziert `Sitemap: https://hellmuth-soda.de/sitemap.xml`. Bereits korrekt, keine Änderung nötig.
+
 ## Recht
 
 Eigenständige Kurzfassung in eigenen Worten, sichtbarer Pflicht-Backlink, Attribution (Quelle, Original-Datum, DOI bei Studien), Preprints gekennzeichnet, im Zweifel kein Bild.

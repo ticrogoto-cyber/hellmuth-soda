@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hellmuth News — HELLMUTH</title>
+    <link>https://hellmuth-soda.de/</link>
+    <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
+    <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
+    <language>de</language>
+    <lastBuildDate>Sun, 07 Jun 2026 17:52:41 GMT</lastBuildDate>
+    <item>
+      <title>Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:17:06 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Siebzig bis achtzig Prozent des weltweit verbrauchten Gummi arabicum stammen aus dem Sudan, wo seit 2023 Krieg herrscht.</description>
+    </item>
+    <item>
+      <title>Refresher verlassen die Theke</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/refresher-verlassen-die-theke/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/refresher-verlassen-die-theke/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:14:57 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Was Starbucks und Dunkin' als koffeinierte Fruchtgetränke etabliert haben, wandert ins Supermarktregal.</description>
+    </item>
+    <item>
+      <title>Ginseng als Alltagsware</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/ginseng-als-alltagsware/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ginseng-als-alltagsware/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:12:32 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Was Apotheke war, soll Snack werden.</description>
+    </item>
+    <item>
+      <title>Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/</guid>
+      <pubDate>Sun, 07 Jun 2026 13:57:51 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.</description>
+    </item>
+    <item>
+      <title>Koreanischer Reiswein drängt nach Süden</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</guid>
+      <pubDate>Sun, 07 Jun 2026 12:55:35 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Was in Seoul Handwerk ist, wird in Shenzhen langsam zur Karte.</description>
+    </item>
+  </channel>
+</rss>
