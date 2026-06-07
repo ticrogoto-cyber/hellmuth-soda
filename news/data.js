@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T17:36:28.143Z",
+  "generated": "2026-06-07T17:42:52.678Z",
   "hellmuth": [
     {
       "title": "Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet",
