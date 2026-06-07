@@ -1,7 +1,7 @@
 window.QUIZ_DATA = {
   "title": "Unternehmer oder Übernehmer",
   "subtitle": "Siebzehn Fragen. Drei Antworten. Eine Bilanz.",
-  "intro": "Siebzehn Fragen über Geld, Haftung und die Lüge von der Sicherheit. Die Antworten, die sich am besten anfühlen, kosten dich am Ende am meisten.",
+  "intro": "Siebzehn Fragen über Geld, Haftung und die Lüge von der Sicherheit.",
   "shareName": "Unternehmer-oder-Übernehmer-Quiz",
   "shareUrl": "https://hellmuth-soda.de/quiz-unternehmer/",
   "questions": [
