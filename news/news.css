@@ -90,6 +90,29 @@
 .news-featured .news-card-title { font-size: clamp(1.5rem, 2.8vw, 2rem); }
 .news-featured .news-lead { font-size: clamp(1.1rem, 1.7vw, 1.3rem); }
 
+/* Sortierumschalter (Neueste / Meistgelesen) — dezente Textlinks. */
+.news-sort {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: -2rem 0 2.75rem;
+  font-family: 'Printvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.62rem;
+}
+.news-sort a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding: 0.15rem 0;
+}
+.news-sort a:hover { color: var(--ink); }
+.news-sort a[aria-pressed="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
 /* ── Übersichtsliste ──────────────────────────────────────────────────── */
 .news-list {
   list-style: none;
@@ -276,3 +299,42 @@
   text-underline-offset: 0.18em;
   text-decoration-thickness: 1px;
 }
+
+/* Actions-Bar auf der Detailseite: Like, Teilen, Aufrufe. Dezent, links
+   ausgerichtet auf den Satzspiegel. Inline-SVGs erben currentColor. */
+.news-detail .news-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 2rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  max-width: var(--news-measure);
+  font-family: 'Printvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.62rem;
+  color: var(--muted);
+}
+.news-detail .news-act {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+.news-detail .news-act svg { width: 0.95rem; height: 0.95rem; }
+.news-detail .news-like { cursor: pointer; }
+.news-detail .news-like:hover, .news-detail .news-share:hover { color: var(--ink); }
+.news-detail .news-like.is-liked { color: var(--ink); }
+.news-detail .news-like.is-liked .news-like-icon { color: var(--ink); }
+.news-detail .news-share.is-copied { color: var(--ink); }
+.news-detail .news-views { cursor: default; }
+.news-detail .news-views[hidden] { display: none; }

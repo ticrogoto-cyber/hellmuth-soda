@@ -10,7 +10,7 @@
   <link rel="alternate" type="application/rss+xml" title="Hellmuth News — Forschung" href="/news/science/feed.xml" />
   <link rel="alternate" type="application/rss+xml" title="Hellmuth News — HELLMUTH" href="/news/hellmuth/feed.xml" />
   <link rel="stylesheet" href="styles.css?v=7" />
-  <link rel="stylesheet" href="news/news.css?v=2" />
+  <link rel="stylesheet" href="news/news.css?v=3" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -79,6 +79,10 @@
       <button data-filter="science" aria-pressed="false">Forschung</button>
       <button data-filter="hellmuth" aria-pressed="false">HELLMUTH</button>
     </div>
+    <div class="news-sort" id="news-sort" aria-label="Sortierung">
+      <a href="#" data-sort="neueste" aria-pressed="true">Neueste</a>
+      <a href="#" data-sort="meistgelesen" aria-pressed="false">Meistgelesen</a>
+    </div>
     <ul class="news-list" id="news-list" aria-live="polite"></ul>
   </main>
 
@@ -88,6 +92,7 @@
 
   <script src="site.js?v=6"></script>
   <script src="search.js?v=1"></script>
+  <script src="news/counters.js?v=1"></script>
   <script>
     // news/data.js wird täglich vom Bot neu geschrieben; ohne Cache-Buster pro
     // Page-Load hält der Browser-Cache (GitHub-Pages-Default ~10 min) die alte
