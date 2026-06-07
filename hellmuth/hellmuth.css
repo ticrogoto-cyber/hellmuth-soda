@@ -29,7 +29,7 @@
   font-size: clamp(1.6rem, 4.5vw, 2.8rem);
   line-height: 1.25;
   margin: 0 0 2rem;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 .hm-product {
   font-family: 'Printvetica', sans-serif;
@@ -65,10 +65,10 @@
   margin-top: 0.6rem;
   font-family: 'Fournier Pro', serif;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--muted);
   text-align: center;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 
 .hm-pitch {
@@ -100,14 +100,15 @@
   font-size: 0.85rem;
   color: var(--muted);
   text-align: center;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 
 .hm-section-head {
   font-family: 'Printvetica', sans-serif;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  color: var(--muted);
   text-align: center;
   margin: 0 0 1.5rem;
 }
@@ -123,7 +124,7 @@
   font-size: clamp(1.05rem, 1.7vw, 1.25rem);
   line-height: 1.6;
   margin: 0;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 
 .hm-flavors { margin: 0 0 4rem; }
@@ -162,9 +163,9 @@
   grid-area: note;
   font-family: 'Fournier Pro', serif;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--muted);
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 .hm-flavor-first .hm-flavor-no { color: var(--ink); }
 
@@ -249,7 +250,7 @@
   font-size: 0.85rem;
   color: var(--muted);
   margin: 1rem 0 0;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 .hm-form-fallback a { color: var(--ink); }
 
@@ -264,7 +265,7 @@
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   line-height: 1.4;
   margin: 0;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 
 @media (max-width: 720px) {

@@ -29,14 +29,14 @@ html, body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Fournier Pro', 'Times New Roman', serif;
-  /* Roman/Regular: ligatures off (clean, technical look) */
-  font-feature-settings: "liga" 0, "dlig" 0;
+  /* Ligaturen global aus (sauberer, technischer Look) — auch kursiv. */
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
   font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
   -webkit-font-smoothing: antialiased;
   min-height: 100%;
 }
 
-/* Italic: ligatures on (organic, fluid look) */
+/* Kursive Fournier Pro: Ligaturen ebenfalls aus (zuvor an). */
 em, i,
 .top .title em,
 .intro h2, .intro p,
@@ -45,8 +45,8 @@ em, i,
 footer .footer-tagline, footer,
 .vokabular-line em, .vokabular-ref, .vokabular-search, .vokabular-empty,
 .impressum-line {
-  font-feature-settings: "liga", "dlig";
-  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
+  font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 
 body {
@@ -212,7 +212,7 @@ main {
   text-align: left;
   line-height: 1.4;
   transition: background .12s, color .12s, transform .12s;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 .option:hover, .option:focus-visible {
   background: var(--ink);
@@ -318,7 +318,7 @@ main {
   text-decoration: none;
   border-bottom: 1px solid var(--ink);
   padding-bottom: 0.1rem;
-  font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 .result-promo-link:hover { color: var(--muted); border-color: var(--muted); }
 
