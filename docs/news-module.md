@@ -86,3 +86,8 @@ node check-feeds.mjs
 ## Recht
 
 Eigenständige Kurzfassung in eigenen Worten, sichtbarer Pflicht-Backlink, Attribution (Quelle, Original-Datum, DOI bei Studien), Preprints gekennzeichnet, im Zweifel kein Bild.
+
+## Bekannte Probleme (Known Issues)
+
+- **Dedup nur per URL, keine Titel-Ähnlichkeit.** `dedup.mjs` hasht ausschließlich die Original-URL (`hashUrl(url)`). Derselbe Artikel unter zwei verschiedenen URLs — etwa identischer Wire-Bericht bei zwei Quellen, oder RSS-URL mit Tracking-Parametern vs. kanonische URL — wird als zwei Items behandelt. Folge: gelegentlich dasselbe Item doppelt in den Near-Misses (gleicher Titel, gleicher Score, zweimal gelistet). Kein Datenschaden, da veröffentlichte Items per URL gesperrt bleiben; betrifft nur die Anzeige/Bewertung. Möglicher Fix später: zusätzlicher Titel-Hash (normalisiert) oder Fuzzy-Vergleich (z.B. Levenshtein/Token-Set) als zweite Dedup-Stufe. Vorerst nicht behoben.
+
