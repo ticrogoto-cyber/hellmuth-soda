@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T12:52:58.042Z",
-  "hellmuth": [],
+  "generated": "2026-06-07T12:55:35.669Z",
+  "hellmuth": [
+    {
+      "title": "Koreanischer Reiswein drängt nach Süden",
+      "date": "2026-06-07",
+      "created": "2026-06-07T12:55:35.667Z",
+      "slug": "koreanischer-reiswein-drangt-nach-suden",
+      "rubrik": "hellmuth",
+      "lead": "Was in Seoul Handwerk ist, wird in Shenzhen langsam zur Karte.",
+      "source_name": "SCMP Food & Drink",
+      "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3355137/why-korean-rice-wine-could-be-next-big-drink-hong-kong-and-mainland-china?utm_source=rss_feed",
+      "preprint": false,
+      "press_review": true,
+      "href": "/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/"
+    }
+  ],
   "science": [
     {
       "title": "Wenn das Belohnungszentrum vor Nähe warnt",
