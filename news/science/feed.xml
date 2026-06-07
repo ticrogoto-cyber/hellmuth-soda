@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hellmuth News — Forschung</title>
+    <link>https://hellmuth-soda.de/</link>
+    <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
+    <language>de</language>
+    <lastBuildDate>Sun, 07 Jun 2026 17:52:41 GMT</lastBuildDate>
+    <item>
+      <title>Darmflora und Innenwelt teilen sich Gene</title>
+      <link>https://hellmuth-soda.de/news/science/darmflora-und-innenwelt-teilen-sich-gene/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/darmflora-und-innenwelt-teilen-sich-gene/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:21:44 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Mendel-Randomisierung verschiebt die Darm-Hirn-Achse von der Korrelation in Richtung gemeinsamer genetischer Architektur, allerdings nur für eine Achse der Psyche.</description>
+    </item>
+    <item>
+      <title>Erstpsychose ohne Hirnalterung</title>
+      <link>https://hellmuth-soda.de/news/science/erstpsychose-ohne-hirnalterung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/erstpsychose-ohne-hirnalterung/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:21:31 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint stellt eine zentrale Annahme der biologischen Psychiatrie infrage.</description>
+    </item>
+    <item>
+      <title>Psychose, Stimmung, Bildung: ostasiatische Genetik bricht das europäische Muster nicht</title>
+      <link>https://hellmuth-soda.de/news/science/psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:21:15 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint findet in ostasiatischen Kohorten dieselbe paradoxe Überlappung zwischen Schizophrenie- und Bildungsgenen, die aus europäischen Daten bekannt ist.</description>
+    </item>
+    <item>
+      <title>Widrigkeit schreibt sich in die Mitochondrien der Immunzellen</title>
+      <link>https://hellmuth-soda.de/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:20:59 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der MiSBIE-Studie verknüpft Lebensbelastung, depressive Symptome und die Energieproduktion einzelner Immunzelltypen.</description>
+    </item>
+    <item>
+      <title>Hirnscans sagen psychotische Erfahrungen bei Jugendlichen voraus</title>
+      <link>https://hellmuth-soda.de/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:20:37 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint koppelt MRT-Daten von Neunjährigen an die Bahn, auf der psychosenahe Erlebnisse über Jahre verlaufen.</description>
+    </item>
+    <item>
+      <title>Zwei Depressionen im Hirn</title>
+      <link>https://hellmuth-soda.de/news/science/zwei-depressionen-im-hirn/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-depressionen-im-hirn/</guid>
+      <pubDate>Sun, 07 Jun 2026 14:02:09 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint findet zwei neuroanatomische Muster bei jungen Depressiven, und nur eines davon trägt eine Entzündungssignatur.</description>
+    </item>
+    <item>
+      <title>Wenn das Belohnungszentrum vor Nähe warnt</title>
+      <link>https://hellmuth-soda.de/news/science/wenn-das-belohnungszentrum-vor-nahe-warnt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-das-belohnungszentrum-vor-nahe-warnt/</guid>
+      <pubDate>Sun, 07 Jun 2026 12:52:57 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Im Mausmodell für Autismus codiert der Nucleus accumbens soziale Begegnung als Bedrohung statt als Belohnung.</description>
+    </item>
+  </channel>
+</rss>

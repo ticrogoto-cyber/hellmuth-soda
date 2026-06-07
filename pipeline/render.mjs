@@ -19,6 +19,19 @@ const RUBRIKEN = ['hellmuth', 'science'];
 const RUBRIK_LABEL = { hellmuth: 'HELLMUTH', science: 'Forschung' };
 const MAX_PER_RUBRIK = 200;
 
+// SEO/Feeds: kanonische Site-Basis. Muss zur CNAME passen.
+const SITE = 'https://hellmuth-soda.de';
+const SITE_NAME = 'Hellmuth';
+const LOGO_URL = `${SITE}/hellmuth.png`;
+// Statische, indexierbare Seiten (ohne /news/, ohne noindex-Seiten wie Impressum).
+const STATIC_PAGES = [
+  { path: '/', changefreq: 'daily', priority: '1.0' },
+  { path: '/hellmuth/', changefreq: 'monthly', priority: '0.7' },
+  { path: '/quiz/', changefreq: 'monthly', priority: '0.8' },
+  { path: '/klarheitskarten/', changefreq: 'weekly', priority: '0.9' },
+  { path: '/vokabular/', changefreq: 'monthly', priority: '0.8' },
+];
+
 // Designvariante der generierten Detailseiten:
 //   mono = Sucht-Mythen (S/W, Printvetica/Fournier)  [Default, dieses Repo]
 //   soda = Hellmuth Botanical Soda (Creme/Gold, Cormorant/Inter)
@@ -40,6 +53,112 @@ export function readingMinutes(body) {
 }
 export function readingLabel(min) {
   return min < 1 ? 'unter 1 Min.' : `${min} Min.`;
+}
+
+// ---- SEO: Meta-Tags, Open Graph, JSON-LD pro Detailseite ------------------
+
+const newsUrl = (rec) => `${SITE}/news/${rec.rubrik}/${rec.slug}/`;
+
+// Robots + Open Graph + Schema.org-NewsArticle. Wird in den <head> beider
+// Detail-Templates direkt nach dem Canonical-Link eingehängt.
+function seoHead(rec) {
+  const url = newsUrl(rec);
+  const published = rec.created || rec.date;
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: rec.title,
+    description: rec.lead,
+    datePublished: published,
+    dateModified: published,
+    articleSection: RUBRIK_LABEL[rec.rubrik] || rec.rubrik,
+    author: { '@type': 'Organization', name: SITE_NAME, url: `${SITE}/` },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      logo: { '@type': 'ImageObject', url: LOGO_URL },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  };
+  // </script> und < in JSON-LD neutralisieren, damit das Skript nicht bricht.
+  const ldJson = JSON.stringify(ld, null, 2).replace(/</g, '\\u003c');
+  return `  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${esc(rec.title)}" />
+  <meta property="og:description" content="${esc(rec.lead)}" />
+  <meta property="og:url" content="${esc(url)}" />
+  <meta property="og:site_name" content="${SITE_NAME}" />
+  <link rel="alternate" type="application/rss+xml" title="${SITE_NAME} News — ${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)}" href="${SITE}/news/${esc(rec.rubrik)}/feed.xml" />
+  <script type="application/ld+json">
+${ldJson}
+  </script>`;
+}
+
+// ---- RSS 2.0 Feeds --------------------------------------------------------
+
+function rssItem(rec) {
+  const url = newsUrl(rec);
+  const pub = new Date(rec.created || rec.date).toUTCString();
+  return `    <item>
+      <title>${esc(rec.title)}</title>
+      <link>${url}</link>
+      <guid isPermaLink="true">${url}</guid>
+      <pubDate>${pub}</pubDate>
+      <category>${esc(RUBRIK_LABEL[rec.rubrik] || rec.rubrik)}</category>
+      <description>${esc(rec.lead)}</description>
+    </item>`;
+}
+
+function rssFeed({ title, feedUrl, link, description, items }) {
+  const now = new Date().toUTCString();
+  const body = items.map(rssItem).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>${esc(title)}</title>
+    <link>${link}</link>
+    <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />
+    <description>${esc(description)}</description>
+    <language>de</language>
+    <lastBuildDate>${now}</lastBuildDate>
+${body}
+  </channel>
+</rss>
+`;
+}
+
+// ---- Sitemap (statische Seiten erhalten, News-URLs auffrischen) -----------
+
+function buildSitemapXml(all) {
+  const path = join(ROOT, 'sitemap.xml');
+  // Vorhandene statische <url>-Blöcke (alles ohne /news/) unverändert übernehmen,
+  // damit handgepflegte Einträge nicht verloren gehen.
+  let kept = null;
+  try {
+    const existing = readFileSync(path, 'utf8');
+    kept = (existing.match(/<url>[\s\S]*?<\/url>/g) || []).filter((b) => !b.includes('/news/'));
+  } catch {
+    kept = null;
+  }
+  if (!kept || !kept.length) {
+    // Fallback: statische Seiten aus der Konstante erzeugen.
+    const today = isoDate();
+    kept = STATIC_PAGES.map(
+      (p) =>
+        `<url>\n    <loc>${SITE}${p.path}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`
+    );
+  }
+  const newsBlocks = [];
+  for (const rubrik of RUBRIKEN) {
+    for (const rec of all[rubrik]) {
+      const lastmod = String(rec.created || rec.date).slice(0, 10);
+      newsBlocks.push(
+        `<url>\n    <loc>${newsUrl(rec)}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>`
+      );
+    }
+  }
+  const all2 = [...kept, ...newsBlocks].map((b) => '  ' + b).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all2}\n</urlset>\n`;
 }
 
 // ---- Frontmatter (selbst-konsistentes JSON-pro-Zeile-Format) --------------
@@ -153,7 +272,8 @@ function detailHtmlMono(rec, nav) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${esc(rec.title)} — News — Mut zur Klarheit</title>
   <meta name="description" content="${esc(rec.lead)}" />
-  <link rel="canonical" href="https://hellmuth-soda.de/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <link rel="canonical" href="${SITE}/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=7" />
   <link rel="stylesheet" href="../../news.css" />
 </head>
@@ -213,7 +333,8 @@ function detailHtmlSoda(rec, nav) {
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${esc(rec.title)} — News — Hellmuth</title>
   <meta name="description" content="${esc(rec.lead)}" />
-  <link rel="canonical" href="https://hellmuth-soda.de/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <link rel="canonical" href="${SITE}/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -309,5 +430,41 @@ export function build() {
   }
   mkdirSync(NEWS, { recursive: true });
   writeFileSync(join(NEWS, 'data.js'), dataJs(all), 'utf8');
+
+  // RSS-Feeds: kombiniert + je Rubrik. Chronologisch, neuestes zuerst.
+  const combined = [...all.hellmuth, ...all.science].sort(
+    (a, b) =>
+      String(b.created || b.date).localeCompare(String(a.created || a.date)) ||
+      String(b.slug).localeCompare(String(a.slug))
+  );
+  writeFileSync(
+    join(NEWS, 'feed.xml'),
+    rssFeed({
+      title: `${SITE_NAME} News`,
+      feedUrl: `${SITE}/news/feed.xml`,
+      link: `${SITE}/`,
+      description: 'Klartext aus Forschung und Getränkewelt.',
+      items: combined,
+    }),
+    'utf8'
+  );
+  for (const rubrik of RUBRIKEN) {
+    mkdirSync(join(NEWS, rubrik), { recursive: true });
+    writeFileSync(
+      join(NEWS, rubrik, 'feed.xml'),
+      rssFeed({
+        title: `${SITE_NAME} News — ${RUBRIK_LABEL[rubrik] || rubrik}`,
+        feedUrl: `${SITE}/news/${rubrik}/feed.xml`,
+        link: `${SITE}/`,
+        description: `${RUBRIK_LABEL[rubrik] || rubrik} — Kurzmeldungen in eigenen Worten.`,
+        items: all[rubrik],
+      }),
+      'utf8'
+    );
+  }
+
+  // Sitemap im Root aktualisieren (statische Seiten erhalten, News auffrischen).
+  writeFileSync(join(ROOT, 'sitemap.xml'), buildSitemapXml(all), 'utf8');
+
   return { counts: { hellmuth: all.hellmuth.length, science: all.science.length } };
 }
