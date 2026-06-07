@@ -75,15 +75,18 @@ jobs:
       - name: Feed-Check
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.task == 'check-feeds' }}
         working-directory: pipeline
+        shell: bash
         env:
           NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
           WRITE_STATUS: "1"
         run: |
+          set -eo pipefail
           node check-feeds.mjs | tee "$GITHUB_STEP_SUMMARY"
 
       - name: Pipeline-Lauf
         if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.task == 'run') }}
         working-directory: pipeline
+        shell: bash
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
@@ -93,6 +96,17 @@ jobs:
           MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '12' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '0' }}
         run: |
+          set -eo pipefail
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            MSG="ANTHROPIC_API_KEY missing — set the repo secret in Settings → Secrets and variables → Actions → Secrets"
+            echo "::error::${MSG}"
+            {
+              echo "### Pipeline-Lauf aborted"
+              echo ""
+              echo "${MSG}"
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
           node run.mjs | tee "$GITHUB_STEP_SUMMARY"
 
       - name: Änderungen committen
