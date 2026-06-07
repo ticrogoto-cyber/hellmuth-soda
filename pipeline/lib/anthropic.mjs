@@ -35,18 +35,34 @@ const HOUSE_STYLE = [
   readFileSync(join(styleDir, 'newsroom-rule.md'), 'utf8'),
 ].join('');
 
-// Themen-Vokabular für den Relevanz-Filter, abgeleitet aus claude.md.
+// Themen-Vokabular für den Relevanz-Filter. Wird im Haiku-System-Prompt
+// pro Rubrik eingesetzt; Cluster bewusst als Absätze gegliedert.
 const THEME_VOCAB = {
-  science:
-    'Substanzabhängigkeit, Nikotin, Alkohol, Cannabis, MDMA, Koffein, Zucker; ' +
-    'Pharmakologie, Dopamin, Serotonin, Nucleus accumbens, Acetylcholin, Adenosin; ' +
-    'Neurobiologie der Sucht, Entzug, Toleranz, Kindling, Anhedonie, Neuroinflammation; ' +
-    'Bewusstsein, Interozeption, Set & Setting, Polytoxikomanie, Remission/Abstinenz.',
-  hellmuth:
-    'Getränkekultur in Asien (Japan, Korea, China, Südostasien); alkoholfreie und ' +
-    'funktionale Getränke, botanische Sodas, Hopfen, Tee, Sake, Soju, Baijiu; ' +
-    'Markttrends, Produktneuheiten, Regulierung, Konsumverhalten, Zucker/Süßstoffe, ' +
-    'Nüchternheit/Sober-curious, Brauwesen und Getränkeindustrie.',
+  hellmuth: [
+    'Getränkekultur in Asien (Japan, Korea, China, Südostasien), alkoholfreie und funktionale Getränke, Botanical Sodas, Nutraceutical Soda, Functional Clarity als Kategorie, Post-Alkohol-Ära, Mindful Drinking, Sober-curious, No/Low-Alcohol-Segment.',
+    'Botanische Destillate und Extrakte, Hopfen (Hopfenextrakt, Hopfenwasser, Hop Water, hop aroma, Cascade), Wacholder, Bergamotte, Brennnessel, Zitronenverbene, Rosmarin, Safran, Estragon, Löwenzahn, Petersilie, Adaptogene (Ginseng, Ashwagandha, Reishi, Rhodiola rosea, L-Theanin), Pilzextrakte, Kräutergetränke, Tonikum-Geschichte (Coca-Cola-Ursprünge, Tonic Water, Ginger Ale als funktionale Tonika).',
+    'Spilanthes Acmella, Parakresse, Jambu, Buzz Buttons, Szechuanpfeffer, Spilanthol, trigeminale Stimulation, sensorische Innovation in Getränken, Botanical Buzz, Mundgefühl, Karbonisierung, CO2-Technologie, Stickstoff-Dosierung, Cold-Fill, Gegendruckabfüllung.',
+    'Zusatzstoffe und deren Vermeidung, Clean Label, Gummi arabicum, Farbstoffe, Süßstoffe (Aspartam, Erythrit, Stevia), Emulgatoren, Pektin, Zitronensäure, Ascorbinsäure als Antioxidans, keine E-Nummern, Zucker-Alternativen, Lebensmittelregulierung und Kennzeichnung (LMIV, EFSA, Novel Food, Health Claims Verordnung, LUCID, DPG-Pfandsystem).',
+    'Food as Medicine, Nutraceuticals, funktionale Inhaltsstoffe, Phytotherapie, Ethnobotanik, Trophologie (Ernährungswissenschaft im kulturhistorischen Kontext).',
+    "Markttrends Getränke, Produktneuheiten, Konsumverhalten, Premium-Positionierung, Prestige Pricing, RTD (Ready-to-drink), Signature Serves, Bar-Kultur, alkoholfreie Cocktails, NA-Spirits (Seedlip, Lyre's, Everleaf), Gastronomie-Trends, Office-Getränke, Getränke-Abonnements.",
+    'Fermentation als Trend, Craft Beverages, Makgeolli, Sake, Soju, Baijiu, Kombucha, Shrubs, Kefir.',
+    'Nachhaltigkeit in der Getränkeindustrie, Aludose und Recycling, Mehrweg-Glas, Lieferketten-Disruption bei Getränke-Rohstoffen, CO2-Bilanz, regionale Abfüllung, Small-Batch-Produktion, Co-Packing.',
+    "Markenstrategien im Beverage-Sektor, biografisches Branding, Authentizität versus KI-generierte Marken, D2C-Modelle, Community-basierte Skalierung, Limited Editions, Collector's Culture, Chi Forest / Genki Forest, Liquid Death, Olipop.",
+    'Wettbewerb: Energy Drinks (Red Bull, Monster), Bio-Limonaden (Bionade, Fritz-Kola, Lemonaid), Functional Sodas (Olipop, Poppi), Premium-Mixer (Fever-Tree, Three Cents, Thomas Henry), Vitaminwässer (Vitamin Well, HOLY).',
+  ].join('\n\n'),
+  science: [
+    'Substanzabhängigkeit, Nikotin, Alkohol, Cannabis, MDMA, Koffein, Zucker als Suchtmechanismus, Polytoxikomanie, Entzug, Toleranz, Kindling, Remission, Abstinenz.',
+    'Pharmakologie, Dopamin, Serotonin, Nucleus accumbens, Acetylcholin, Adenosin, GABA, Glutamat, Opioidrezeptoren, Endocannabinoid-System.',
+    'Neurobiologie der Sucht, Belohnungssystem, mesolimbisches System, präfrontaler Cortex, Anhedonie, Craving, Rückfall.',
+    'Neurodegeneration, Demenz, Alzheimer, Tau-Pathologie, Amyloid, Mikroglia, Neuroinflammation, kognitive Erholung nach Substanzgebrauch, Gehirnreparatur, Neuroplastizität, Neurogenese, BDNF.',
+    'Psychose, Schizophrenie, psychotische Erfahrungen, bipolare Störung, Depression als neurobiologischer Prozess, Angststörungen, PTBS.',
+    'Epilepsie, Anfallsforschung, Antikonvulsiva, Neuroprotektion, Bioelektrische Felder (Levin), Delta FosB, Epigenetik.',
+    'Bewusstsein, Interozeption, Set und Setting, Bewusstseinsforschung (Chalmers, Tononi, Goff), Assembly Theory (Walker/Cronin), Thermodynamik des Lebens (England).',
+    'Adaptogene und ihre Mechanismen, Phytopharmakologie, botanische Wirkstoffe auf das Nervensystem, Spilanthol und trigeminale Wirkung, anxiolytische Pflanzenwirkstoffe (Hopfen, Baldrian, Passionsblume), L-Theanin, Ginkgo, Rhodiola.',
+    'Neuroimaging, fMRT, EEG, Kalzium-Bildgebung, Optogenetik, Chemogenetik als Forschungsmethoden.',
+    'Autophagie, Fasten und Gehirnfunktion, Dry Fasting, ketogene Ernährung und Epilepsie, Darm-Hirn-Achse, Mikrobiom und psychische Gesundheit.',
+    'Resilienz im Kontext neurodegenerativer Erkrankungen, Selbstmedikation, Harm Reduction, psychedelische Therapie, Psilocybin, Ketamin-Therapie.',
+  ].join('\n\n'),
 };
 
 const logUsage = (label, usage) => {
