@@ -146,17 +146,30 @@ window.QUIZ_DATA = {
     {
       "max": 35,
       "label": "DER AKADEMISCHE HAMSTER",
-      "text": "Ein gut trainierter Hamster in einem Rad, das ein anderer gebaut hat. Du zahlst die höchste Steuerlast, die das System für dich vorgesehen hat, und nennst das Sicherheit. Deine besten Jahre tauschst du gegen ein Versprechen, das niemand unterschrieben hat."
+      "text": "Ein gut trainierter Hamster in einem Rad, das ein anderer gebaut hat. Du zahlst die höchste Steuerlast, die das System für dich vorgesehen hat, und nennst das Sicherheit. Deine besten Jahre tauschst du gegen ein Versprechen, das niemand unterschrieben hat.",
+      "closingLead": "Das Rad, in dem du läufst, hat eine Tür. Du musst sie nur sehen."
     },
     {
       "max": 80,
       "label": "DER GOLDENE KÄFIG",
-      "text": "Raus aus dem Angestelltenverhältnis, rein in die nächste Falle. Alles steckt in deiner GmbH, also steckt alles im Feuer. Geht sie unter, gehst du mit, weil du Vermögen und Risiko nie getrennt hast. Du bedienst Erwartungen und nennst es Freiheit."
+      "text": "Raus aus dem Angestelltenverhältnis, rein in die nächste Falle. Alles steckt in deiner GmbH, also steckt alles im Feuer. Geht sie unter, gehst du mit, weil du Vermögen und Risiko nie getrennt hast. Du bedienst Erwartungen und nennst es Freiheit.",
+      "closingLead": "Du hast den Sprung gewagt, aber nicht die Landung gebaut."
     },
     {
       "max": 102,
       "label": "DER ÜBERNEHMER",
-      "text": "Struktur ist dein Skelett, nicht deine Fessel. Dein Vermögen liegt da, wo das Risiko es nicht erreicht. Du bist deine eigene Bank und trägst die Verantwortung für deine Ergebnisse ohne Netz. Der Preis dafür ist, dass es keine Ausrede mehr gibt."
+      "text": "Struktur ist dein Skelett, nicht deine Fessel. Dein Vermögen liegt da, wo das Risiko es nicht erreicht. Du bist deine eigene Bank und trägst die Verantwortung für deine Ergebnisse ohne Netz. Der Preis dafür ist, dass es keine Ausrede mehr gibt.",
+      "closingLead": "Struktur allein reicht nicht. Wer sein Exoskelett nicht wartet, trägt irgendwann totes Gewicht."
+    }
+  ],
+  "closingLinks": [
+    {
+      "text": "Falco Aust schreibt auf Substack über das, was zwischen Unternehmer und Übernehmer liegt. Keine Motivation, keine Frameworks, nur Struktur.",
+      "url": "https://falcoaust.substack.com/"
+    },
+    {
+      "text": "Wer nicht lesen, sondern handeln will, bucht Falco direkt.",
+      "url": "https://stan.store/uebernehmer"
     }
   ]
 };
