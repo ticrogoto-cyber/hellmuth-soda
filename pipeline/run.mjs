@@ -90,9 +90,12 @@ async function main() {
             st.nearMiss.push({ score, title: probe.title });
           } else st.lt6 += 1;
 
-          if (score < THRESHOLD) {
+          // Pressespiegel-Quellen (headline_only) müssen härter gefiltert werden:
+          // mind. Score 9, weil nur Titel + Anriss vorliegen.
+          const minScore = item.headlineOnly ? Math.max(THRESHOLD, 9) : THRESHOLD;
+          if (score < minScore) {
             markSeen(state, item.url, { rubrik, score, dropped: 'low-relevance' });
-            log.info(`  drop (${score}) ${item.title?.slice(0, 70)}`);
+            log.info(`  drop (${score}${item.headlineOnly ? ', presse min 9' : ''}) ${item.title?.slice(0, 70)}`);
             continue;
           }
 

@@ -13,9 +13,7 @@
   const card = (it) => `
     <li class="news-card">
       <a class="news-card-link" href="${esc(it.href)}">
-        <p class="news-eyebrow">HELLMUTH · ${esc(it.date)}${
-    it.press_review ? '<span class="news-tag">Pressespiegel</span>' : ''
-  }</p>
+        <p class="news-eyebrow">HELLMUTH · ${esc(it.date)}</p>
         <h2>${esc(it.title)}</h2>
         <p class="news-lead">${esc(it.lead)}</p>
       </a>
