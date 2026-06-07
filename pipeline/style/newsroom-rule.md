@@ -31,8 +31,8 @@ Wird im User-Prompt als »Pressespiegel« signalisiert.
 
 - Es liegen nur Titel und der frei zugängliche Anriss vor. Keine Volltext-Rekonstruktion, keine erfundenen Details, keine Zahlen, die nicht im Anriss stehen.
 - Sehr knapp: 2 bis 4 Sätze, unabhängig von der Rubrik-Länge.
-- Klar als Pressespiegel kenntlich. Lead oder erster Satz macht deutlich, dass auf eine Meldung hinter einer Paywall nur verwiesen wird.
-- Wenn Titel und Anriss nicht genug tragen: leerer `body`.
+- **Die Paywall nicht erwähnen.** Kein »hinter Paywall«, kein »meldet hinter Paywall«, kein »ohne Zugang zum Volltext«, kein »mehr ist nicht belegt«. Die Kennzeichnung als Pressespiegel und der Quellenverweis macht ausschließlich der Renderer (Tag + Hinweiszeile), nicht der Text. Der Text bleibt eine klare, pointierte Kurzmeldung über die Sache selbst.
+- Schreib nur, was Titel und Anriss tragen. Wenn das zu dünn ist: leerer `body`. Keine Meta-Sätze darüber, dass der Text dünn ist.
 
 ## Rechtliches (nicht verhandelbar)
 

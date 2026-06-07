@@ -10,7 +10,7 @@
   const all = []
     .concat((data.hellmuth || []).map((x) => ({ ...x, rubrik: 'hellmuth' })))
     .concat((data.science || []).map((x) => ({ ...x, rubrik: 'science' })))
-    .sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    .sort((a, b) => String(b.created || b.date).localeCompare(String(a.created || a.date)));
 
   const esc = (s) =>
     String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
