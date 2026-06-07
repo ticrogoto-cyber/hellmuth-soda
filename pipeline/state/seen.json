@@ -1162,6 +1162,34 @@
       "rubrik": "science",
       "score": 2,
       "dropped": "low-relevance"
+    },
+    "493f2cb5929d102daabb85e7175df16073c5f9a322c280fb2e9606b4b135d154": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/2026-beverage-trends-show-pineapple-flavours-align-with-consumer-preference/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "de691d8bf75f3d2b0b69c5a4937858d3531793caa69cc79bc58c9c1c7846198e": {
+      "url": "https://www.japantimes.co.jp/news/2026/06/07/japan/society/missing-us-student-found-dead-kyoto/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c339b2d47a32bf26cc65c74ad2bc4289d8397450b192a4429b7b6a022a3bec08": {
+      "url": "https://www.japantimes.co.jp/news/2026/06/06/japan/society/shibuya-trash/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ba88f17839247508e241ca9b25c4790eead40dace78940fa2564fe9fef304c19": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3355137/why-korean-rice-wine-could-be-next-big-drink-hong-kong-and-mainland-china?utm_source=rss_feed",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 9,
+      "published": true
     }
   }
 }
