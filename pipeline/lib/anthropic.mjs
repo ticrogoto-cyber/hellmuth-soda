@@ -89,8 +89,13 @@ export async function scoreRelevance({ rubrik, title, summary, sourceName }) {
       text:
         'Du bist ein strenger Relevanz-Gutachter für ein redaktionelles News-Modul. ' +
         'Bewerte, wie gut ein Fundstück thematisch passt, auf einer Ganzzahl-Skala 0 bis 10. ' +
-        '10 = exakt im Kern des Themas und substanziell; 0 = themenfremd oder reines Marketing. ' +
-        'Sei knauserig: im Zweifel niedriger. Keine Borderline-Großzügigkeit.\n\n' +
+        'Sei knauserig: im Zweifel die niedrigere Stufe. Keine Borderline-Großzügigkeit.\n\n' +
+        'Ankerstufen:\n' +
+        '9-10: Kerntreffer. Konkrete neue Erkenntnis, Studie, Produktlaunch oder Marktverschiebung direkt im Themenfeld. Eigene Substanz, nicht nur Erwähnung.\n' +
+        '8: Substanziell und thematisch klar zugehörig, aber entweder Randaspekt des Kernthemas oder bekanntes Thema mit neuem Datenpunkt. Schwelle für Veröffentlichung.\n' +
+        '6-7: Thematisch nah, aber dünn. Branchenmeldung ohne eigene Aussage, Ankündigung ohne Substanz, PR-nah oder nur tangential relevant. Wird nicht veröffentlicht.\n' +
+        '3-5: Entfernt verwandt. Lebensmittelindustrie allgemein ohne Getränkebezug; Neurowissenschaft ohne Suchtbezug.\n' +
+        '0-2: Themenfremd oder reines Marketing.\n\n' +
         `Themenfeld der Rubrik »${rubrik}«:\n${vocab}`,
       cache_control: { type: 'ephemeral' },
     },
