@@ -1176,6 +1176,20 @@
       "rubrik": "hellmuth",
       "score": 0,
       "dropped": "low-relevance"
+    },
+    "f2d21eb03c429df6c3e9f46259ae5504572952a79df38179fa93203873044675": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730489v1?rss=1",
+      "date": "2026-06-07",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "f138e6eb6333c29eba27e8f7fc2d0105cfb7a00b3ed43f2c4c374838efa6f043": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730003v1?rss=1",
+      "date": "2026-06-07",
+      "rubrik": "science",
+      "score": 8,
+      "published": true
     }
   }
 }
