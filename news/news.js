@@ -1,4 +1,5 @@
 // /news-Übersicht: Rubrik-Filter (Alle / HELLMUTH / Forschung), chronologisch.
+// Zusätzlich: optionale "Klartext der Woche"-Sektion aus config/featured.json.
 (() => {
   const data = window.NEWS_DATA || { hellmuth: [], science: [] };
   const listEl = document.getElementById('news-list');
@@ -15,10 +16,13 @@
   const esc = (s) =>
     String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+  const readingLabel = (m) => (!m || m < 1 ? 'unter 1 Min.' : m + ' Min.');
+
+  // Eine Meta-Zeile: Rubrik · Datum · Lesezeit (Preprint-Tag bei Bedarf).
   const card = (it) => `
     <li class="news-card">
       <a class="news-card-link" href="${esc(it.href)}">
-        <p class="news-eyebrow">${LABEL[it.rubrik] || it.rubrik} · ${esc(it.date)}${
+        <p class="news-eyebrow">${LABEL[it.rubrik] || it.rubrik} · ${esc(it.date)} · ${esc(readingLabel(it.minutes))}${
     it.preprint ? '<span class="news-tag">Preprint</span>' : ''
   }</p>
         <h2 class="news-card-title">${esc(it.title)}</h2>
@@ -46,4 +50,24 @@
   }
 
   render('all');
+
+  // ---- Klartext der Woche (manuell kuratiert) -----------------------------
+  // config/featured.json: Array von Slugs (oder { items: [...] }). Leeres
+  // Array oder Fehler => Sektion bleibt versteckt. Laufzeit-Fetch, damit
+  // eine Aenderung an der Datei sofort ohne Pipeline-Lauf greift.
+  const featuredSec = document.getElementById('news-featured');
+  const featuredList = document.getElementById('news-featured-list');
+  if (featuredSec && featuredList) {
+    const bySlug = new Map(all.map((x) => [x.slug, x]));
+    fetch('/config/featured.json?v=' + Date.now())
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => {
+        const slugs = Array.isArray(j) ? j : j && Array.isArray(j.items) ? j.items : [];
+        const picked = slugs.map((s) => bySlug.get(s)).filter(Boolean).slice(0, 3);
+        if (!picked.length) return; // bleibt hidden
+        featuredList.innerHTML = picked.map(card).join('');
+        featuredSec.removeAttribute('hidden');
+      })
+      .catch(() => {});
+  }
 })();

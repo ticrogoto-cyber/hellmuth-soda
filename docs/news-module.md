@@ -25,6 +25,9 @@ Quelle der Wahrheit sind die Markdown-Dateien; `data.js` und Detailseiten werden
 - `news/index.html` — Übersicht mit Rubrik-Filter (Alle / Forschung / HELLMUTH).
 - `news/<rubrik>/<slug>/index.html` — generierte Detailseite mit Pflicht-Backlink + DOI.
 - Startseite: `<section id="news-band">` zwischen Quiz und Footer, befüllt von `news/news-home.js` aus `news/data.js` (3 jüngste Forschungs-Items). Der Quiz-Code bleibt unangetastet.
+- **Lesezeit:** aus der Wortzahl des Body (200 Wörter/Min, `render.mjs` `readingMinutes`), in `data.js` als `minutes` und in der Meta-Zeile (Rubrik · Datum · Lesezeit) auf Karte und Detailseite. Bei sehr kurzen Items „unter 1 Min." (gewollt).
+- **Klartext der Woche:** `config/featured.json` ist ein Array von Slugs (max. 3 werden gezeigt), z. B. `["ginseng-als-alltagsware","zwei-depressionen-im-hirn"]`. `news/news.js` zieht die Datei zur Laufzeit (Cache-Buster), eine Änderung greift also sofort ohne Pipeline-Lauf. Leeres Array (`[]`) → die Sektion bleibt versteckt.
+- **Prev/Next:** jede Detailseite verlinkt unter der Quellenangabe den chronologisch benachbarten Artikel **derselben Rubrik** (Vorheriger = älter, links; Nächster = neuer, rechts). Fehlt ein Nachbar, bleibt die Seite leer.
 
 ## Betrieb (GitHub Actions)
 
