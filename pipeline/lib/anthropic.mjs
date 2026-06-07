@@ -94,7 +94,7 @@ const parseJsonObject = (text) => {
 };
 
 /**
- * Relevanz-Score 0–10 (Haiku, strukturierte Ausgabe). Nur Items >= 8 sollten weiter.
+ * Relevanz-Score 0–10 (Haiku, strukturierte Ausgabe). Nur Items >= 7 sollten weiter.
  * @returns {Promise<{score:number, reason:string}>}
  */
 export async function scoreRelevance({ rubrik, title, summary, sourceName }) {
@@ -108,8 +108,9 @@ export async function scoreRelevance({ rubrik, title, summary, sourceName }) {
         'Sei knauserig: im Zweifel die niedrigere Stufe. Keine Borderline-Großzügigkeit.\n\n' +
         'Ankerstufen:\n' +
         '9-10: Kerntreffer. Konkrete neue Erkenntnis, Studie, Produktlaunch oder Marktverschiebung direkt im Themenfeld. Eigene Substanz, nicht nur Erwähnung.\n' +
-        '8: Substanziell und thematisch klar zugehörig, aber entweder Randaspekt des Kernthemas oder bekanntes Thema mit neuem Datenpunkt. Schwelle für Veröffentlichung.\n' +
-        '6-7: Thematisch nah, aber dünn. Branchenmeldung ohne eigene Aussage, Ankündigung ohne Substanz, PR-nah oder nur tangential relevant. Wird nicht veröffentlicht.\n' +
+        '8: Substanziell und thematisch klar zugehörig, aber entweder Randaspekt des Kernthemas oder bekanntes Thema mit neuem Datenpunkt.\n' +
+        '7: Thematisch zugehörig mit eigener Aussage, aber etwas dünner als 8. Untere Schwelle für Veröffentlichung.\n' +
+        '6: Thematisch nah, aber zu dünn. Branchenmeldung ohne eigene Aussage, Ankündigung ohne Substanz, PR-nah oder nur tangential relevant. Wird nicht veröffentlicht.\n' +
         '3-5: Entfernt verwandt. Lebensmittelindustrie allgemein ohne Getränkebezug; Neurowissenschaft ohne Suchtbezug.\n' +
         '0-2: Themenfremd oder reines Marketing.\n\n' +
         `Themenfeld der Rubrik »${rubrik}«:\n${vocab}`,

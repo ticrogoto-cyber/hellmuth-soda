@@ -97,7 +97,7 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
           PIPELINE_RUBRIKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.rubriken || 'hellmuth,science' }}
-          RELEVANCE_THRESHOLD: "8"
+          RELEVANCE_THRESHOLD: "7"
           MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '3' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '0' }}
         run: |

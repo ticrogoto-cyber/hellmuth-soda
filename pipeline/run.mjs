@@ -1,5 +1,5 @@
 // Orchestrierung des täglichen Laufs:
-//   fetch -> dedup -> (translate) -> relevance(>=8) -> transform -> render -> persist
+//   fetch -> dedup -> (translate) -> relevance(>=Cutoff) -> transform -> render -> persist
 //
 // Welche Rubriken hier verarbeitet werden, steuert PIPELINE_RUBRIKEN
 // (Default: nur "science", da HELLMUTH auf der Soda-Seite lebt).
@@ -17,7 +17,7 @@ import { log } from './lib/log.mjs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONFIG = join(__dirname, '..', 'config', 'news-sources.json');
 
-const THRESHOLD = Number(process.env.RELEVANCE_THRESHOLD || 8);
+const THRESHOLD = Number(process.env.RELEVANCE_THRESHOLD || 7);
 const MAX_NEW = Number(process.env.MAX_NEW_PER_RUN || 12);
 const RUBRIKEN = (process.env.PIPELINE_RUBRIKEN || 'science')
   .split(',')
@@ -46,7 +46,7 @@ async function main() {
 
   // Pro-Rubrik-Statistik für den Cutoff-Befund (landet im Step-Summary).
   const stats = {};
-  const S = (r) => (stats[r] ||= { fetched: 0, afterDedup: 0, scored: 0, ge8: 0, mid: 0, lt6: 0, nearMiss: [] });
+  const S = (r) => (stats[r] ||= { fetched: 0, afterDedup: 0, scored: 0, gePass: 0, mid: 0, ltLow: 0, nearMiss: [] });
 
   for (const rubrik of RUBRIKEN) {
     let rubPublished = 0; // max_new gilt pro Rubrik, nicht global
@@ -85,11 +85,11 @@ async function main() {
 
           const st = S(rubrik);
           st.scored += 1;
-          if (score >= 8) st.ge8 += 1;
-          else if (score >= 6) {
+          if (score >= THRESHOLD) st.gePass += 1;
+          else if (score >= THRESHOLD - 2) {
             st.mid += 1;
             st.nearMiss.push({ score, title: probe.title });
-          } else st.lt6 += 1;
+          } else st.ltLow += 1;
 
           // Pressespiegel-Quellen (headline_only) müssen härter gefiltert werden:
           // mind. Score 9, weil nur Titel + Anriss vorliegen.
@@ -155,15 +155,15 @@ async function main() {
 
   // Statistik-Report nach stdout -> landet via tee im GITHUB_STEP_SUMMARY.
   const md = ['## Pipeline-Statistik', '', `Schwelle: Score >= ${THRESHOLD} | Veröffentlicht: ${published}${DRY_RUN ? ' (Dry-Run)' : ''}`, ''];
-  md.push('| Rubrik | gefetcht | nach Dedup | geprüft | ≥8 | 6–7 | <6 |', '|---|---|---|---|---|---|---|');
+  md.push(`| Rubrik | gefetcht | nach Dedup | geprüft | ≥${THRESHOLD} | ${THRESHOLD - 2}–${THRESHOLD - 1} | <${THRESHOLD - 2} |`, '|---|---|---|---|---|---|---|');
   for (const r of RUBRIKEN) {
     const s = S(r);
-    md.push(`| ${r} | ${s.fetched} | ${s.afterDedup} | ${s.scored} | ${s.ge8} | ${s.mid} | ${s.lt6} |`);
+    md.push(`| ${r} | ${s.fetched} | ${s.afterDedup} | ${s.scored} | ${s.gePass} | ${s.mid} | ${s.ltLow} |`);
   }
   for (const r of RUBRIKEN) {
     const s = S(r);
     if (s.nearMiss.length) {
-      md.push('', `**${r} — knapp verfehlt (6–7):**`);
+      md.push('', `**${r} — knapp verfehlt (${THRESHOLD - 2}–${THRESHOLD - 1}):**`);
       for (const n of s.nearMiss.sort((a, b) => b.score - a.score)) {
         md.push(`- (${n.score}) ${n.title}`);
       }
