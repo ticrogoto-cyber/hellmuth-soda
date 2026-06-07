@@ -291,6 +291,10 @@ function detailHtmlMono(rec, nav) {
   <title>${esc(rec.title)} — News — Mut zur Klarheit</title>
   <meta name="description" content="${esc(rec.lead)}" />
   <link rel="canonical" href="${SITE}/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <link rel="icon" href="/favicon.ico?v=8" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=8" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=8" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=8" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=7" />
   <link rel="stylesheet" href="../../news.css" />
@@ -353,6 +357,10 @@ function detailHtmlSoda(rec, nav) {
   <title>${esc(rec.title)} — News — Hellmuth</title>
   <meta name="description" content="${esc(rec.lead)}" />
   <link rel="canonical" href="${SITE}/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <link rel="icon" href="/favicon.ico?v=8" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=8" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=8" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=8" />
 ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
