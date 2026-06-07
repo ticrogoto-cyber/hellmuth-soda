@@ -66,6 +66,21 @@
     const shareText = `Ich bin »${result.label}« — ${shareName}:`;
     const hasNativeShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
+    const escapeHTML = (s) => String(s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+
+    const closingLinks = Array.isArray(data.closingLinks) ? data.closingLinks : [];
+    const closingHTML = (result.closingLead || closingLinks.length)
+      ? `
+        <section class="qu-closing">
+          ${result.closingLead ? `<p class="qu-closing-lead">${result.closingLead}</p>` : ''}
+          ${closingLinks.length ? `<ul class="qu-closing-links">
+            ${closingLinks.map(l => `<li><a href="${escapeHTML(l.url)}" target="_blank" rel="noopener noreferrer">${l.text} <span class="qu-closing-arrow" aria-hidden="true">→</span></a></li>`).join('')}
+          </ul>` : ''}
+        </section>`
+      : '';
+
     root.innerHTML = `
       <section class="result">
         <div class="score-num">${score}</div>
@@ -74,6 +89,7 @@
         ${result.tag ? `<div class="tag">${result.tag}</div>` : ''}
         <hr class="divider" />
         <p class="text">${result.text}</p>
+        ${closingHTML}
         <div class="share">
           <div class="share-label">Ergebnis teilen</div>
           <div class="share-row">
