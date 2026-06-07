@@ -74,8 +74,23 @@
     <a href="impressum/" class="footer-impressum">Impressum</a>
   </footer>
 
-  <script src="news/data.js?v=1"></script>
   <script src="site.js?v=5"></script>
-  <script src="news/news.js?v=1"></script>
+  <script>
+    // news/data.js wird täglich vom Bot neu geschrieben; ohne Cache-Buster pro
+    // Page-Load hält der Browser-Cache (GitHub-Pages-Default ~10 min) die alte
+    // Liste fest. Date.now() erzwingt frische Auslieferung; news.js wartet auf
+    // window.NEWS_DATA per onload.
+    (function () {
+      var v = '?v=' + Date.now();
+      var d = document.createElement('script');
+      d.src = 'news/data.js' + v;
+      d.onload = function () {
+        var n = document.createElement('script');
+        n.src = 'news/news.js' + v;
+        document.body.appendChild(n);
+      };
+      document.body.appendChild(d);
+    })();
+  </script>
 </body>
 </html>
