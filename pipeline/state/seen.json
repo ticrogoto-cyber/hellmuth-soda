@@ -1660,6 +1660,116 @@
       "rubrik": "science",
       "score": 8,
       "published": true
+    },
+    "61bbdb818d5b9f10e16c9b8706d862308215b2063d571b5ae50b2cbb767785f2": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/Bio-based-sustainable-beverage-innovations/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:37:35.305Z"
+    },
+    "96638c576ff4e0af061b70326d52a7c200bc48741b08da35911516d1033daab0": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/Plant-based-natural-colors-in-soft-drinks-and-alcoholic-beverages/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:37:37.733Z"
+    },
+    "8385e4b94fc8a82c7aac667745340d2727a41313fcaca0451b3c25a3529b6a3e": {
+      "url": "https://robbreport.com.sg/luxury-news-79/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:37:58.954Z"
+    },
+    "91449f099b4e7490180cc83226b89df736f88be67508d9de27a2fd4600543fa6": {
+      "url": "https://www.about-drinks.com/anheuser-busch-bud-wird-exklusiver-bierpartner-des-wacken-open-air/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:14.194Z"
+    },
+    "9def23deca342a7837f85b39b7c755edd58bfbba77f0f1dbede021372d8b3825": {
+      "url": "https://www.about-drinks.com/yopro-startet-globalen-wettbewerb-mit-tennisstar-carlos-alcaraz/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:16.495Z"
+    },
+    "03773a37a18b8a7ea983ba36715e15e5acf8b2f10c776d17d5bcfc25b5b8206b": {
+      "url": "https://www.about-drinks.com/knut-hansen-startelf-drinks-zur-fussball-wm-2026/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "3e44fe921cd50fb4901530a444bc39428d29a3071ee2b66d6ec7cb4fe4537887": {
+      "url": "https://www.about-drinks.com/verpackungs-entwicklung-vollherbst-eroeffnet-the-cube-in-suedafrika/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:33.039Z"
+    },
+    "92ecad59b2324c0b717e6e449088ee3297d48c25c5a6bdd9d683cec61c9c73dd": {
+      "url": "https://www.about-drinks.com/nutri-bringt-ersten-veganen-koffeinfreien-protein-kaffee-auf-den-markt/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:35.522Z"
+    },
+    "a1f896ffea016043ef7b88c34ad3754dbb07745725655facea8d0a1c4d8d38d4": {
+      "url": "https://www.about-drinks.com/togouchi-praesentiert-neue-limitierte-edition-rum-cask-finish/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:40.350Z"
+    },
+    "b089f68f3632266a29d124956bd9e578563bdb79085b119554cc0a1a6c949ccd": {
+      "url": "https://www.about-drinks.com/made-to-mix-jacobs-launcht-espresso-concentrate/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:42.349Z"
+    },
+    "0bd2b03e417bc0856cf25d2fba95f69906eca4ee31fd9602e7599ce286b2952c": {
+      "url": "https://www.about-drinks.com/goenrgy-platz-3-im-gesamtmarkt-und-launch-der-ltd-edition-7/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:44.808Z"
+    },
+    "b358d8ee10bbf3a2d40bc72bc37c68fd093184b2ee3d8d8dd3f310f651940211": {
+      "url": "https://www.about-drinks.com/neuer-branchenverband-bws-vereint-wein-sekt-und-spirituosen/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:48.623Z"
+    },
+    "2363c58f3cfba617e59db145077fbb8dbcb59eb28b773e1d79e287af5d0e56b6": {
+      "url": "https://www.about-drinks.com/pommery-und-henkell-verhandeln-ueber-strategische-partnerschaft/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-14T21:38:50.776Z"
+    },
+    "68d15cffa6b776712f37ff49dd4639e20ae7beaa3f536bfef1ab1d876a56f255": {
+      "url": "https://www.about-drinks.com/neue-kategorie-im-getraenkeregal-joonys-launcht-natural-soda/",
+      "date": "2026-06-07",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
     }
   }
 }

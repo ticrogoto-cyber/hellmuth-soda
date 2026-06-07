@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T19:43:55.866Z",
+  "generated": "2026-06-07T21:39:02.949Z",
   "hellmuth": [
+    {
+      "title": "Joony's nennt sein Wasser mit Saftschuss eine neue Kategorie",
+      "date": "2026-06-07",
+      "created": "2026-06-07T21:39:02.938Z",
+      "slug": "joony-s-nennt-sein-wasser-mit-saftschuss-eine-neue-kategorie",
+      "rubrik": "hellmuth",
+      "lead": "Ein Hersteller erklärt sein Produkt zur Gattung und hofft, dass der Handel mitspielt.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/neue-kategorie-im-getraenkeregal-joonys-launcht-natural-soda/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/joony-s-nennt-sein-wasser-mit-saftschuss-eine-neue-kategorie/"
+    },
+    {
+      "title": "Knut Hansen baut eine Elf aus Gin-Cocktails",
+      "date": "2026-06-07",
+      "created": "2026-06-07T21:38:30.888Z",
+      "slug": "knut-hansen-baut-eine-elf-aus-gin-cocktails",
+      "rubrik": "hellmuth",
+      "lead": "Eine Hamburger Destillerie inszeniert ihre Cocktailkarte zur Fußball-WM 2026 als Mannschaftsaufstellung.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/knut-hansen-startelf-drinks-zur-fussball-wm-2026/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/knut-hansen-baut-eine-elf-aus-gin-cocktails/"
+    },
     {
       "title": "Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet",
       "date": "2026-06-07",
