@@ -14,11 +14,11 @@ on:
           - run
           - check-feeds
       max_new:
-        description: "Max. neue Items (nur bei run)"
-        default: "12"
+        description: "Max. neue Items pro Rubrik (nur bei run)"
+        default: "3"
       rubriken:
-        description: "Rubriken, Komma-getrennt (nur bei run; Default science)"
-        default: "science"
+        description: "Rubriken, Komma-getrennt (nur bei run; Default beide)"
+        default: "hellmuth,science"
       dry_run:
         description: "Dry-Run (nichts schreiben, nur bei run)"
         type: boolean
@@ -96,9 +96,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
-          PIPELINE_RUBRIKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.rubriken || 'science' }}
+          PIPELINE_RUBRIKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.rubriken || 'hellmuth,science' }}
           RELEVANCE_THRESHOLD: "8"
-          MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '12' }}
+          MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '3' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '0' }}
         run: |
           set -eo pipefail
