@@ -2,8 +2,9 @@ name: News-Pipeline
 
 on:
   schedule:
-    # Täglich 05:17 UTC. Cron in UTC; GitHub kann sich um Minuten verzögern.
-    - cron: "17 5 * * *"
+    # Täglich 22:17 UTC (Off-Peak). Cron in UTC; GitHub kann sich um Minuten
+    # bis Stunden verzögern, daher bewusst nicht in der globalen Morgen-Peak.
+    - cron: "17 22 * * *"
   workflow_dispatch:
     inputs:
       task:
