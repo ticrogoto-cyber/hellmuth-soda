@@ -99,6 +99,46 @@ const parseJsonObject = (text) => {
  */
 export async function scoreRelevance({ rubrik, title, summary, sourceName }) {
   const vocab = THEME_VOCAB[rubrik] || '';
+
+  // Rubrikspezifische Anker. Forschung misst inhaltliche Tiefe (Studien,
+  // Erkenntnisse). HELLMUTH ist eine Branchen-/Marktrubrik: Produktlaunches,
+  // Vertriebsdeals, Markttrends, Regulierung sind das Substrat und keine
+  // 'thin'-Items, solange sie das Themenfeld berühren.
+  const anchorsScience =
+    '9-10: Kerntreffer. Konkrete neue Erkenntnis oder Studie direkt im Themenfeld. Eigene Substanz, nicht nur Erwähnung.\n' +
+    '8: Substanziell und thematisch klar zugehörig, aber Randaspekt des Kernthemas oder bekanntes Thema mit neuem Datenpunkt.\n' +
+    '7: Thematisch zugehörig mit eigener Aussage, etwas dünner als 8. Untere Schwelle für Veröffentlichung.\n' +
+    '6: Thematisch nah, aber zu dünn. Übersichtsartikel ohne neue Daten, Kommentar ohne Befund. Wird nicht veröffentlicht.\n' +
+    '3-5: Entfernt verwandt. Neurowissenschaft ohne Suchtbezug, Allgemeinmedizin ohne Substanz-Fokus.\n' +
+    '0-2: Themenfremd oder reines Marketing.';
+
+  const anchorsHellmuth =
+    'WICHTIG: HELLMUTH ist eine Branchen- und Marktrubrik. Produktneuheiten, ' +
+    'Markttrends, Vertriebsentwicklungen, Regulierungsthemen, Konsumverhalten ' +
+    'und Industrie-Bewegungen sind das Substrat — NICHT thin, solange sie das ' +
+    'Themenfeld (asiatische Getränke- und Esskultur, alkoholfreie Premium-' +
+    'Drinks, Functional Beverages, Soda, fermentierte Getränke, Botanicals) ' +
+    'berühren. Eine konkrete Branchenmeldung ist nicht weniger wert als ein ' +
+    'tiefer Hintergrundartikel.\n\n' +
+    'Ankerstufen:\n' +
+    '9-10: Kerntreffer. Konkreter Produktlaunch, Marktverschiebung, große ' +
+    'Branchenmeldung oder kulturelle Verschiebung direkt im Themenfeld. ' +
+    'Eigene Substanz, klarer Befund, kein bloßer PR-Aufguss.\n' +
+    '8: Substanziell im Themenfeld: Produktneuheit mit klaren Eckdaten, ' +
+    'Vertriebsdeal mit Marktrelevanz, Regulierung mit konkretem Effekt, ' +
+    'Konsum-Trend mit Datenpunkt, Firmenmeldung mit echter Veränderung.\n' +
+    '7: Thematisch klar zugehörig mit eigener Aussage, etwas dünner als 8. ' +
+    'Branchenmeldung mit Substanz, auch wenn nicht weltbewegend. Untere ' +
+    'Schwelle für Veröffentlichung.\n' +
+    '6: Thematisch nah, aber dünn oder reine PR. Pressemitteilung ohne ' +
+    'eigenen Befund, vage Ankündigung, Marketing-Geplapper ohne Fakten. ' +
+    'Wird nicht veröffentlicht.\n' +
+    '3-5: Entfernt verwandt. Lebensmittelindustrie ohne Getränkebezug, ' +
+    'Gastronomie-Meldung ohne Produktdimension.\n' +
+    '0-2: Themenfremd oder reines Marketing.';
+
+  const anchors = rubrik === 'hellmuth' ? anchorsHellmuth : anchorsScience;
+
   const system = [
     {
       type: 'text',
@@ -106,13 +146,8 @@ export async function scoreRelevance({ rubrik, title, summary, sourceName }) {
         'Du bist ein strenger Relevanz-Gutachter für ein redaktionelles News-Modul. ' +
         'Bewerte, wie gut ein Fundstück thematisch passt, auf einer Ganzzahl-Skala 0 bis 10. ' +
         'Sei knauserig: im Zweifel die niedrigere Stufe. Keine Borderline-Großzügigkeit.\n\n' +
-        'Ankerstufen:\n' +
-        '9-10: Kerntreffer. Konkrete neue Erkenntnis, Studie, Produktlaunch oder Marktverschiebung direkt im Themenfeld. Eigene Substanz, nicht nur Erwähnung.\n' +
-        '8: Substanziell und thematisch klar zugehörig, aber entweder Randaspekt des Kernthemas oder bekanntes Thema mit neuem Datenpunkt.\n' +
-        '7: Thematisch zugehörig mit eigener Aussage, aber etwas dünner als 8. Untere Schwelle für Veröffentlichung.\n' +
-        '6: Thematisch nah, aber zu dünn. Branchenmeldung ohne eigene Aussage, Ankündigung ohne Substanz, PR-nah oder nur tangential relevant. Wird nicht veröffentlicht.\n' +
-        '3-5: Entfernt verwandt. Lebensmittelindustrie allgemein ohne Getränkebezug; Neurowissenschaft ohne Suchtbezug.\n' +
-        '0-2: Themenfremd oder reines Marketing.\n\n' +
+        anchors +
+        '\n\n' +
         `Themenfeld der Rubrik »${rubrik}«:\n${vocab}`,
       cache_control: { type: 'ephemeral' },
     },
