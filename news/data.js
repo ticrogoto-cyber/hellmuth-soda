@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-08T07:47:14.509Z",
+  "generated": "2026-06-08T08:07:24.264Z",
   "hellmuth": [
+    {
+      "title": "Hydration trifft Koffein, der nächste Etikettentrick",
+      "date": "2026-06-08",
+      "created": "2026-06-08T08:07:24.250Z",
+      "slug": "hydration-trifft-koffein-der-nachste-etikettentrick",
+      "rubrik": "hellmuth",
+      "lead": "Das US-Startup PHX fusioniert zwei gesättigte Kategorien zu einer dritten und nennt das Innovation.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/05/28/phx-blends-hydration-and-energy/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/hydration-trifft-koffein-der-nachste-etikettentrick/"
+    },
+    {
+      "title": "Texas nimmt sich Celsius vor",
+      "date": "2026-06-08",
+      "created": "2026-06-08T08:06:52.465Z",
+      "slug": "texas-nimmt-sich-celsius-vor",
+      "rubrik": "hellmuth",
+      "lead": "Der texanische Generalstaatsanwalt prüft, ob Celsius und die Schwestermarke Alani Nu ihre Koffeinbomben gezielt an Minderjährige vermarkten.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/05/texas-ag-investigates-celsius-alani-nu-over-caffeine-and-youth-marketing/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/texas-nimmt-sich-celsius-vor/"
+    },
+    {
+      "title": "Apfelessig wird zur süßen Limonade",
+      "date": "2026-06-08",
+      "created": "2026-06-08T08:05:42.338Z",
+      "slug": "apfelessig-wird-zur-sussen-limonade",
+      "rubrik": "hellmuth",
+      "lead": "Ein chinesischer Hersteller verschiebt Apfelessig aus dem Wellness-Regal in die Kühltheke der Erfrischungsgetränke.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/05/28/china-firm-reinvents-apple-cider-vinegar-for-rtd/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/apfelessig-wird-zur-sussen-limonade/"
+    },
     {
       "title": "Joony's nennt sein Wasser mit Saftschuss eine neue Kategorie",
       "date": "2026-06-07",
