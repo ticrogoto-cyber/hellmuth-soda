@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-07T21:39:02.949Z",
+  "generated": "2026-06-08T07:38:01.547Z",
   "hellmuth": [
     {
       "title": "Joony's nennt sein Wasser mit Saftschuss eine neue Kategorie",
@@ -102,6 +102,76 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Darmbakterien greifen in den Hormonhaushalt ein",
+      "date": "2026-06-08",
+      "created": "2026-06-08T07:38:01.534Z",
+      "slug": "darmbakterien-greifen-in-den-hormonhaushalt-ein",
+      "rubrik": "science",
+      "lead": "Die Mikrobiota verstoffwechselt Sexualhormone und steuert darüber die Motorik des Darms.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02338-5",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/darmbakterien-greifen-in-den-hormonhaushalt-ein/"
+    },
+    {
+      "title": "Mikroglia entscheiden über Demenz oder Resilienz",
+      "date": "2026-06-08",
+      "created": "2026-06-08T07:37:46.019Z",
+      "slug": "mikroglia-entscheiden-uber-demenz-oder-resilienz",
+      "rubrik": "science",
+      "lead": "Der Kipppunkt zwischen Amyloid und Tau liegt nicht in den Plaques, sondern in den Immunzellen des Gehirns.",
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04393-8",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/mikroglia-entscheiden-uber-demenz-oder-resilienz/"
+    },
+    {
+      "title": "Astrozyten aus der Schublade",
+      "date": "2026-06-08",
+      "created": "2026-06-08T07:37:17.163Z",
+      "slug": "astrozyten-aus-der-schublade",
+      "rubrik": "science",
+      "lead": "Die Sternzellen des Gehirns lassen sich in Tagen statt Monaten herstellen, und das verschiebt den Zugriff auf das Immunsystem im Kopf.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730242v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/astrozyten-aus-der-schublade/"
+    },
+    {
+      "title": "Wie das Gehirn mehr Botenstoffe unterscheidet als Schaltkreise",
+      "date": "2026-06-08",
+      "created": "2026-06-08T07:36:59.920Z",
+      "slug": "wie-das-gehirn-mehr-botenstoffe-unterscheidet-als-schaltkreise",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft liefert eine Antwort auf ein altes Bottleneck-Problem der Hirnchemie.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729927v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wie-das-gehirn-mehr-botenstoffe-unterscheidet-als-schaltkreise/"
+    },
+    {
+      "title": "Hebbs Regel bekommt eine Ableitung",
+      "date": "2026-06-08",
+      "created": "2026-06-08T07:36:31.730Z",
+      "slug": "hebbs-regel-bekommt-eine-ableitung",
+      "rubrik": "science",
+      "lead": "Im Hippocampus richtet sich die Richtung synaptischer Plastizität nach der zeitlichen Änderung der Aktivität, nicht nach ihrem Niveau.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730489v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/hebbs-regel-bekommt-eine-ableitung/"
+    },
     {
       "title": "Darmflora und Innenwelt teilen sich Gene",
       "date": "2026-06-07",
