@@ -570,6 +570,488 @@
       "rubrik": "hellmuth",
       "score": 7,
       "published": true
+    },
+    "346de5bb413421c7458e0ec12d83f619044aa628424c22579810397c7d514d64": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/08/ingredion-buys-tate-lyle/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:17.500Z"
+    },
+    "abf4db0a70cbd8feea98f021e2e43c65c136d07d4899c9ea2ad91de313272a50": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/08/monster-uses-coca-cola-network-to-expand-energy-drinks-globally/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:20.954Z"
+    },
+    "eb2b35be9b561f2542f33ac5a637654dafb14cc3051db2a3b6d6af4114e2146c": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/03/nestle-targets-rig-led-growth-in-bold-strategy-shift/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:23.241Z"
+    },
+    "3ff66aa0b28f0b9d14446b1ec2de0c2fec6095db0187ae449e094e64147fd803": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/innovations-and-trends-in-the-beverage-industry/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:25.278Z"
+    },
+    "2ff5daafaddc0c89a9c0b6bc4770d339599c9736cf9f529dfd7b892735aaf2e0": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/felix-hart-turns-visual-sommelier-in-peter-stafford-bows-new-wine-novel/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:28.667Z"
+    },
+    "72c2cb6ece7f9f65eb69be2a1764be4217b58b446e19abeade2f0356e3a83490": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/chef-qa-harriet-mansell/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:31.256Z"
+    },
+    "27be9736353af0e52d3a53b60ed1838aaa7862b7c6093fa36963e91470170bc3": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/the-positive-impact-of-women-working-in-beer/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:33.585Z"
+    },
+    "d2832565712d7ddc93530866ed71a383022134aaec030409e235795ab4266bf2": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/dom-perignon-offers-first-taste-of-2018-vintage-in-glittering-bilbao-bash/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:35.685Z"
+    },
+    "8c4a8c110fcb7fec30a807383d3974552e651cc4ff8c6cb711690f3eb3deb000": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/the-wine-society-posts-operating-loss-to-protect-members/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:38.013Z"
+    },
+    "315e6bf963aa4a5524a82708b2c2712c28b19a40ffd1a86db195fa3dab1d60e2": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/raising-labour-standard-in-the-wine-industry-unsexy-but-important/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:40.495Z"
+    },
+    "b9e090dbc15e92d6906ddd5452bb9e6402547339616d7d962923a53a47e366d9": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/old-vine-photography-shortlist-unveiled-at-heritage-showcase/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:42.344Z"
+    },
+    "6c72a0522ed742d7ee46bac6a17ca6a20323948464b7a75e487d4de5493ab541": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/are-we-about-to-see-a-super-el-nino/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:44.758Z"
+    },
+    "8022e20df58176c92a210872df1be540f12fbfc4b49a9071451d123f6011f33c": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/will-this-be-the-most-collectable-pint-glass-of-2026/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:46.834Z"
+    },
+    "debbcc96d9bf84cfa968f3f82cb8d348c2d396d172a0ed6fa8708eb614880909": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/wine-list-of-the-week-coopers-cut-four-seasons-hotel-london-at-tower-bridge/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:49.059Z"
+    },
+    "bde54b0510633a5d52af028072f5776437ffb9f9a8e7e09fc4dbaec500184215": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/why-latitude-has-exited-the-conversation/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:50.902Z"
+    },
+    "8cf321a47370ab6d4b67f59508f2d88210b8bf91978a2c2b7c3934e602f262d0": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/brazilian-ski-tourists-help-drive-chilean-wine-tourism-boom/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:53.177Z"
+    },
+    "e30630313bfaf8f2f0a785c446bc6178ae1f106259ce206b19c856536505b3a5": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/weekinpictures-royals-photographers-and-sparkling-wine-anniversaries/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:55.642Z"
+    },
+    "5d1c438a40436cf985d5c6deabb2504250cfa2d1422270ea4d8f9485b9790326": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/cono-sur-shows-off-terroir-led-range/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:40:58.272Z"
+    },
+    "6e45f38d539f0d5b62502212487435f79406d10694ebfe05cc4560602e06e53b": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/new-zealand-grain-growers-to-build-upon-supply-chain/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:01.534Z"
+    },
+    "e7d137e3d818d5be6d31dc8a1383ea2da6605c5e22669ddc0fe648802e0b66ba": {
+      "url": "https://www.fooddive.com/news/violife-slices-through-dairy-free-cheese-misconceptions-with-social-series/822209/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:03.365Z"
+    },
+    "56152dd873f110ba565e8a68fe59ac7772e913743acf85f7810872f68e6c0073": {
+      "url": "https://www.fooddive.com/news/ingredion-strikes-deal-to-buy-tate-lyle-for-36b/822213/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:06.745Z"
+    },
+    "e0b82a2f09b31d87424452304da5df76e4c847043c1615619965fb3041d5bcbf": {
+      "url": "https://www.fooddive.com/news/will-consumers-pay-395-for-a-pineapple-how-innovation-is-upending-the-pop/813672/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:08.925Z"
+    },
+    "cf466c32fa6728e29f7d044c414281cc11d625cbdd9c1ea92af51aaa2ddb068b": {
+      "url": "https://www.fooddive.com/spons/the-next-recall-risk-isnt-ingredientsits-your-packaging-data/821831/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:11.687Z"
+    },
+    "4b7a6b3cc68d2c6c175a2ae8739806e14a00bb9b3addd832d285003a6604fbe8": {
+      "url": "https://www.fooddive.com/spons/3-real-world-examples-of-modeling-and-simulation-for-food-safety/821916/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:13.876Z"
+    },
+    "bfdbc87575169145752675a47d5d9ef1b502429abe4739b635a98760eedbb44a": {
+      "url": "https://www.fooddive.com/news/texas-ag-investigates-celsius-for-marketing-high-caffeine-energy-drinks-to/822047/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:16.740Z"
+    },
+    "a239dba1ac7476bca00c17532be3f98c450d409c08fb0ddad9567405d21b16a1": {
+      "url": "https://www.fooddive.com/news/snickers-wins-praise-from-reeses-for-bigger-push-behind-peanut-butter/822080/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:18.265Z"
+    },
+    "7c9ebabe540af672f2395b31f23b5921ef93e5bc5ff801948ffe8c4dbee6834c": {
+      "url": "https://www.fooddive.com/news/popeyes-retail-biscuits-tom-holland-bero-shandy-jose-cuervo-tequila-canned-cocktails/822107/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:20.786Z"
+    },
+    "8b384be618916a39888d30e48c2ac41a41390e6d190c779104b50dfcb1c561df": {
+      "url": "https://www.fooddive.com/news/sunflower-power-inside-barry-callebaults-bid-to-win-the-chocolate-alterna/822004/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:22.985Z"
+    },
+    "52f4626f6a391a4257ef955f84ba0715919eb996d1e048a365f8b9ac05a16377": {
+      "url": "https://www.fooddive.com/news/c-stores-are-a-key-growth-channel-for-food-and-beverage-brands-but-not-an/821980/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:25.516Z"
+    },
+    "031094a08fc70bbfcd8731863115b51ca093abf4de79bf116c8393de9ad44c78": {
+      "url": "https://www.bevnet.com/news/2026/juneshine-refreshes-ramps-up-willies-as-november-hemp-derived-thc-ban-looms",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:29.169Z"
+    },
+    "12a9ee9d1d28755d57faf2d8a4316780157822eb19ee00f1166eaadee74e598c": {
+      "url": "https://www.bevnet.com/events/bevnetlive",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:33.242Z"
+    },
+    "32438c9f6e926eba56a86cdf32feb2af832a98415ce560a6ab970c1f2ad09386": {
+      "url": "https://www.bevnet.com/news/2026/tom-brady-teams-with-gopuff-to-launch-good-nut-premium-coconut-water",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:35.381Z"
+    },
+    "99ac0b040d48d0dbfcb8c93dce3e49a9c24a62b947f0ef48492165e4a76895cc": {
+      "url": "https://www.bevnet.com/news/2026/profile-swinger-tees-up-golf-as-next-frontier-for-leisure-energy",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:38.341Z"
+    },
+    "99dbd0d11cda00bd886f724d29ad4635781f3c60e91528fd78593d2d9f9b9226": {
+      "url": "https://www.bevnet.com/news/2026/ingredion-to-buy-u-k-competitor-tate-lyle-in-3-6b-deal",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:40.828Z"
+    },
+    "533cd13cd7ad3cd8f134262f1b9ed961778ab7cb3a4e356e21a44298b24f51df": {
+      "url": "https://www.bevnet.com/spirits/2026/reyes-ceo-tom-day-on-rndc-deal-scaling-spirits-and-wine-business",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:43.937Z"
+    },
+    "ce502a7faf8706e07376cf6b478ae048807ca21a12b4ba43290f2c08180f2bfd": {
+      "url": "https://www.bevnet.com/news/2026/new-beverages-nurri-launches-shake-for-kids-new-from-saratoga-slice-starbucks",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:45.925Z"
+    },
+    "e1e8ca3894a02b21f9d4f743800b787988aa0efb8cd74aafbd157a2e7db48b0f": {
+      "url": "https://www.bevnet.com/news/2026/taste-radio-davids-decadent-bet-ai-discovery-austins-top-operators",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:47.799Z"
+    },
+    "6e3cbb1444c55e6c0452ae428de39c8506a537a55aad5a0dc81404035b43ef08": {
+      "url": "https://www.bevnet.com/news/2026/wize-tea-sold-to-u-s-buyer",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:49.897Z"
+    },
+    "87e7ca0a0848a6bade0c1d6f2169ad1c476cf8a124e8bba9cf3696b6439f7cb7": {
+      "url": "https://www.bevnet.com/news/2026/texas-ag-opens-investigation-into-deceptive-celsius-marketing-practices",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:41:52.266Z"
+    },
+    "42ec740f5e42c54ec53af51d80180a72f0ff5818957339779af6625192993546": {
+      "url": "https://www.bevnet.com/spirits/2026/why-saint-spritz-broke-the-rules",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "df99e8c4411215ab0fe7b47d0e28d12fbbd17eae4c8aa0233023132c2f229ec0": {
+      "url": "https://www.bevnet.com/spirits/2026/inside-the-rtd-ma-frenzy-carbliss-spikedade-and-happy-dad-talk-different-strategies",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "8a752d08ce1753b3d4b77a9b9e65f3a55a415dd2dd493b1f238a3ae4c5e3f4a1": {
+      "url": "https://www.bevnet.com/news/2026/review-summer-camp-puts-craft-iced-tea-in-your-pocket",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "6f8823b8204c47754eee434020498c1f3f40e7090800632501a1ca10c6eb3f96": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26354912v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 8,
+      "published": true
+    },
+    "743790da2ce17359631e7a6850f1d18de03831b164de395f688f3316c353a45b": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.04.26354916v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:42:57.013Z"
+    },
+    "152a3e4a1c1a35b039b6aabab6fac11fd6cce6f691b8e43977b87e6c48605a61": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.04.26354967v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:42:58.976Z"
+    },
+    "b3b76b9378135156b02731ec485c5a248050426550ac625762212e2977ea6f9f": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.05.26354915v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:01.253Z"
+    },
+    "7e856405a3735dc06b164173a1cc6be96933382ed9fb8e44f6e2d1c48f190527": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.08.730157v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "8184cb3f995b862d7aaf8a456da6ddbd60c6c7cca1cb9c55389dba7cf1cee64f": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729931v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:19.303Z"
+    },
+    "c743291f67be1b4e93709476bbefa919e32e323bd1a3d61e57e8cdd92777a5a1": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729995v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:21.650Z"
+    },
+    "3ba48c2ffef52d868a8e7479a5065d229e38c239ae90ea109ffa2283ae655d71": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729823v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:23.066Z"
+    },
+    "ca9e49fda8e12772d62219dab9338180de1a7cc92c52cb8a324bfe4dd01f6f68": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729955v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:25.046Z"
+    },
+    "bd5a86b2ca017ba799eecbabd69a0ae49db7191d22156aa135c2d19b30cb33bd": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729876v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:27.822Z"
+    },
+    "cf437787acf355551762211ce9077d1e8bd0f8888dc2137f2f5f74ba84bbb839": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730096v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:30.310Z"
+    },
+    "bb50c5ec2c259032cb27c4a728e6b416ab3e82650c6b7d6100115c74b49a3595": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729800v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:32.302Z"
+    },
+    "2083dbde204131eed5f0899fc1e016904bd629293f430dfcf46f86df6770685f": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729825v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:34.187Z"
+    },
+    "651d90e95202649611e075a3834415ff74e9c31a6d51aa0f2650f90485e7eea7": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729640v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:36.543Z"
+    },
+    "59da7a96da8417230affe17c3bf9e7e574dde29015c1b07e20cf2d513aa7b44b": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729790v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:38.529Z"
+    },
+    "1867291ce19e55a736936ee6541453fdba1a172c74c1aef376ef3be65f24933d": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729883v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:41.551Z"
+    },
+    "9656be73e3f2e3376f0326131ccb355875b312b0629aa095bd8d03a5ae113354": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729709v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:44.043Z"
+    },
+    "74c695fa2b72c81a4290f4098e90c9954a784fb96e5bb838cca0a5af23618148": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729707v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T23:43:46.053Z"
+    },
+    "0d39504b99eb90d238e42e9903f470c8e80bf312f48416c05d6f4171087e89aa": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.727794v1?rss=1",
+      "date": "2026-06-08",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
     }
   }
 }

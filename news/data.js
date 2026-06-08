@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-08T08:07:24.264Z",
+  "generated": "2026-06-08T23:44:02.989Z",
   "hellmuth": [
+    {
+      "title": "Eistee als Pulverstift",
+      "date": "2026-06-08",
+      "created": "2026-06-08T23:42:38.875Z",
+      "slug": "eistee-als-pulverstift",
+      "rubrik": "hellmuth",
+      "lead": "Der Eistee verliert seine Flasche und damit sein Format.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-summer-camp-puts-craft-iced-tea-in-your-pocket",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/eistee-als-pulverstift/"
+    },
+    {
+      "title": "RTD-Markt sortiert sich, die Marken stellen sich in die Auslage",
+      "date": "2026-06-08",
+      "created": "2026-06-08T23:42:24.853Z",
+      "slug": "rtd-markt-sortiert-sich-die-marken-stellen-sich-in-die-auslage",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für trinkfertige Alkoholmischungen hat die Wachstumsphase hinter sich und beginnt die Konsolidierungsphase.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/inside-the-rtd-ma-frenzy-carbliss-spikedade-and-happy-dad-talk-different-strategies",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/rtd-markt-sortiert-sich-die-marken-stellen-sich-in-die-auslage/"
+    },
+    {
+      "title": "Saint Spritz gegen die RTD-Doktrin",
+      "date": "2026-06-08",
+      "created": "2026-06-08T23:42:12.796Z",
+      "slug": "saint-spritz-gegen-die-rtd-doktrin",
+      "rubrik": "hellmuth",
+      "lead": "Die Gründerregel für Ready-to-Drink-Marken lautet seit Jahren: ein Format, eine Geschmacksrichtung, eine Vertriebsschiene, erst Tempo beweisen, dann erweitern.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/why-saint-spritz-broke-the-rules",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/saint-spritz-gegen-die-rtd-doktrin/"
+    },
     {
       "title": "Hydration trifft Koffein, der nächste Etikettentrick",
       "date": "2026-06-08",
@@ -144,6 +186,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Hirnstamm in Hochauflösung",
+      "date": "2026-06-08",
+      "created": "2026-06-08T23:44:02.974Z",
+      "slug": "hirnstamm-in-hochauflosung",
+      "rubrik": "science",
+      "lead": "Ein neuer Atlas kartiert die unterste Etage des Gehirns über drei Lebensalter hinweg, in einer Tiefe, die bisher fehlte.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.727794v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/hirnstamm-in-hochauflosung/"
+    },
+    {
+      "title": "Zwei Krankheiten, ein mitochondrialer Bruch",
+      "date": "2026-06-08",
+      "created": "2026-06-08T23:43:16.784Z",
+      "slug": "zwei-krankheiten-ein-mitochondrialer-bruch",
+      "rubrik": "science",
+      "lead": "Leigh-Syndrom und Chorea Huntington haben nichts gemeinsam, außer dem Punkt, an dem die Zelle aufhört zu funktionieren.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.08.730157v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-krankheiten-ein-mitochondrialer-bruch/"
+    },
+    {
+      "title": "Polygenes Risiko vererbt sich auch an die Gesunden",
+      "date": "2026-06-08",
+      "created": "2026-06-08T23:42:54.731Z",
+      "slug": "polygenes-risiko-vererbt-sich-auch-an-die-gesunden",
+      "rubrik": "science",
+      "lead": "Eine kanadische Familienstudie als Preprint findet erhöhte Schizophrenie- und Bipolar-Risikoscores nicht nur bei Erkrankten, sondern auch bei deren symptomfreien erwachsenen Verwandten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26354912v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/polygenes-risiko-vererbt-sich-auch-an-die-gesunden/"
+    },
     {
       "title": "Darmbakterien greifen in den Hormonhaushalt ein",
       "date": "2026-06-08",
