@@ -2101,6 +2101,14 @@
       "rubrik": "science",
       "score": 7,
       "published": true
+    },
+    "4f177a1e700cbefc6dbd7ce691d04588c5079e038da38fb0746e571d5452f1ee": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/New-trends-in-the-RTD-coffee-category/",
+      "date": "2026-06-08",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-15T07:46:37.517Z"
     }
   }
 }

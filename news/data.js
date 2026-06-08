@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-08T07:38:01.547Z",
+  "generated": "2026-06-08T07:47:14.509Z",
   "hellmuth": [
     {
       "title": "Joony's nennt sein Wasser mit Saftschuss eine neue Kategorie",
