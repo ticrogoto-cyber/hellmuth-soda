@@ -26,9 +26,9 @@
   font-family: 'Fournier Pro', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(1.6rem, 4.5vw, 2.8rem);
-  line-height: 1.25;
-  margin: 0 0 2rem;
+  font-size: clamp(1.15rem, 2.4vw, 1.6rem);
+  line-height: 1.35;
+  margin: 0 0 1.5rem;
   font-feature-settings: "liga" 0, "clig" 0, "dlig" 0; font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
 }
 .hm-product {
