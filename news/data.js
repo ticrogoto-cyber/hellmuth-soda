@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-09T09:09:57.053Z",
+  "generated": "2026-06-09T09:41:29.729Z",
   "hellmuth": [
     {
       "title": "Eistee als Pulverstift",

@@ -291,6 +291,7 @@ function detailHtmlMono(rec, nav) {
   <title>${esc(rec.title)} — News — Mut zur Klarheit</title>
   <meta name="description" content="${esc(rec.lead)}" />
   <link rel="canonical" href="${SITE}/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <meta name="google-site-verification" content="ar5d_npNuZhmgCXrZdy-tU5cXO58GYic5yykv7to0B0" />
   <link rel="icon" href="/favicon.ico?v=9" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=9" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
@@ -357,6 +358,7 @@ function detailHtmlSoda(rec, nav) {
   <title>${esc(rec.title)} — News — Hellmuth</title>
   <meta name="description" content="${esc(rec.lead)}" />
   <link rel="canonical" href="${SITE}/news/${esc(rec.rubrik)}/${esc(rec.slug)}/" />
+  <meta name="google-site-verification" content="ar5d_npNuZhmgCXrZdy-tU5cXO58GYic5yykv7to0B0" />
   <link rel="icon" href="/favicon.ico?v=9" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=9" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
