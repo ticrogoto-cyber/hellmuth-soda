@@ -3,13 +3,16 @@
 //  - "Klartext der Woche"-Sektion aus config/featured.json (manuell kuratiert)
 //  - Sortierung "Neueste" (Default) oder "Meistgelesen" (View-Counts vom Worker)
 //  - View-Count je Karte (dezent neben der Lesezeit)
+//  - Pagination: max. 20 Items pro Seite, Seitenzahlen + Vor/Zurück (clientseitig)
 (() => {
   const data = window.NEWS_DATA || { hellmuth: [], science: [] };
   const listEl = document.getElementById('news-list');
   const filterEl = document.getElementById('news-filter');
   const sortEl = document.getElementById('news-sort');
+  const pagerEl = document.getElementById('news-pagination');
   if (!listEl) return;
 
+  const PAGE_SIZE = 20;
   const LABEL = { hellmuth: 'HELLMUTH', science: 'Forschung' };
 
   const all = []
@@ -44,6 +47,7 @@
 
   let currentFilter = 'all';
   let currentSort = 'neueste';
+  let currentPage = 1;
 
   const sortItems = (items) => {
     if (currentSort === 'meistgelesen') {
@@ -52,10 +56,52 @@
     return items.slice().sort(byCreated);
   };
 
+  const currentItems = () =>
+    sortItems(currentFilter === 'all' ? all : all.filter((x) => x.rubrik === currentFilter));
+
+  // Kompakte Seitenliste: 1 … (p-1) p (p+1) … last. Lücken als 'gap'.
+  const pageSequence = (page, pages) => {
+    const seq = new Set([1, pages, page, page - 1, page + 1]);
+    const sorted = [...seq].filter((n) => n >= 1 && n <= pages).sort((a, b) => a - b);
+    const out = [];
+    let prev = 0;
+    for (const n of sorted) {
+      if (n - prev > 1) out.push('gap');
+      out.push(n);
+      prev = n;
+    }
+    return out;
+  };
+
+  const renderPagination = (pages) => {
+    if (!pagerEl) return;
+    if (pages <= 1) {
+      pagerEl.innerHTML = '';
+      return;
+    }
+    const btn = (label, attrs, disabled, active) =>
+      `<button type="button" class="news-page${active ? ' is-current' : ''}" ${attrs}${
+        disabled ? ' disabled' : ''
+      }${active ? ' aria-current="page"' : ''}>${label}</button>`;
+    let html = btn('←', `data-rel="prev" aria-label="Vorherige Seite"`, currentPage <= 1, false);
+    for (const n of pageSequence(currentPage, pages)) {
+      html += n === 'gap'
+        ? '<span class="news-page-gap" aria-hidden="true">…</span>'
+        : btn(String(n), `data-page="${n}"`, false, n === currentPage);
+    }
+    html += btn('→', `data-rel="next" aria-label="Nächste Seite"`, currentPage >= pages, false);
+    pagerEl.innerHTML = html;
+  };
+
   const render = () => {
-    const items = sortItems(currentFilter === 'all' ? all : all.filter((x) => x.rubrik === currentFilter));
-    listEl.innerHTML = items.length
-      ? items.map(card).join('')
+    const items = currentItems();
+    const pages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+    if (currentPage > pages) currentPage = pages;
+    if (currentPage < 1) currentPage = 1;
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = items.slice(start, start + PAGE_SIZE);
+    listEl.innerHTML = pageItems.length
+      ? pageItems.map(card).join('')
       : '<li class="news-empty">Noch keine Meldungen.</li>';
     if (filterEl) {
       filterEl.querySelectorAll('button').forEach((b) =>
@@ -67,13 +113,16 @@
         a.setAttribute('aria-pressed', a.dataset.sort === currentSort ? 'true' : 'false')
       );
     }
+    renderPagination(pages);
   };
 
+  // Filter/Sortierung setzen die Seite zurueck auf 1.
   if (filterEl) {
     filterEl.addEventListener('click', (ev) => {
-      const btn = ev.target.closest('button[data-filter]');
-      if (!btn) return;
-      currentFilter = btn.dataset.filter;
+      const b = ev.target.closest('button[data-filter]');
+      if (!b) return;
+      currentFilter = b.dataset.filter;
+      currentPage = 1;
       render();
     });
   }
@@ -83,7 +132,22 @@
       if (!a) return;
       ev.preventDefault();
       currentSort = a.dataset.sort;
+      currentPage = 1;
       render();
+    });
+  }
+  if (pagerEl) {
+    pagerEl.addEventListener('click', (ev) => {
+      const b = ev.target.closest('button[data-page], button[data-rel]');
+      if (!b || b.disabled) return;
+      const pages = Math.max(1, Math.ceil(currentItems().length / PAGE_SIZE));
+      if (b.dataset.page) currentPage = parseInt(b.dataset.page, 10);
+      else if (b.dataset.rel === 'prev') currentPage = Math.max(1, currentPage - 1);
+      else if (b.dataset.rel === 'next') currentPage = Math.min(pages, currentPage + 1);
+      render();
+      // Nach Seitenwechsel an den Listenanfang scrollen (ohne Sprung in die Tiefe).
+      const top = document.querySelector('.news-main');
+      if (top) window.scrollTo({ top: top.offsetTop - 20, behavior: 'smooth' });
     });
   }
 
