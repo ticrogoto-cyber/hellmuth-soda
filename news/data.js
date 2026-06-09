@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-09T09:41:29.729Z",
+  "generated": "2026-06-09T23:48:18.212Z",
   "hellmuth": [
+    {
+      "title": "Hoplark poliert die Marke",
+      "date": "2026-06-09",
+      "created": "2026-06-09T23:47:33.332Z",
+      "slug": "hoplark-poliert-die-marke",
+      "rubrik": "hellmuth",
+      "lead": "Hopfen ohne Alkohol wird ein Regalproblem, kein Konzeptproblem.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/hoplarks-refresh-aims-to-boost-discovery-across-channels",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/hoplark-poliert-die-marke/"
+    },
+    {
+      "title": "Präbiotik-Soda sucht europäischen Gaumen",
+      "date": "2026-06-09",
+      "created": "2026-06-09T23:46:31.565Z",
+      "slug": "prabiotik-soda-sucht-europaischen-gaumen",
+      "rubrik": "hellmuth",
+      "lead": "Was in den USA als Funktionsgetränk durchmarschiert, stößt in Europa auf einen Geschmack, der Süße misstraut.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/News/Promotional-features/prebiotic-fibre-soda-reaching-eu-market/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/"
+    },
+    {
+      "title": "Ballaststoffe als Limonade",
+      "date": "2026-06-09",
+      "created": "2026-06-09T23:46:06.926Z",
+      "slug": "ballaststoffe-als-limonade",
+      "rubrik": "hellmuth",
+      "lead": "Was als Ernährungspflicht galt, wird zur Geschmacksrichtung.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/09/fibremaxxing-drives-rise-of-fibre-soda/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ballaststoffe-als-limonade/"
+    },
     {
       "title": "Eistee als Pulverstift",
       "date": "2026-06-08",
@@ -186,6 +228,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "BDNF zwischen Leber und Hirn",
+      "date": "2026-06-09",
+      "created": "2026-06-09T23:48:18.199Z",
+      "slug": "bdnf-zwischen-leber-und-hirn",
+      "rubrik": "science",
+      "lead": "Alkoholabhängigkeit wird zunehmend als Stoffwechselkrankheit gelesen, die im Kopf endet.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1134/S000629792660078X",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/bdnf-zwischen-leber-und-hirn/"
+    },
+    {
+      "title": "Was Raucher sehen, wenn sie eine Zigarette sehen",
+      "date": "2026-06-09",
+      "created": "2026-06-09T23:48:06.380Z",
+      "slug": "was-raucher-sehen-wenn-sie-eine-zigarette-sehen",
+      "rubrik": "science",
+      "lead": "Bei Tabakabhängigkeit verschiebt sich nicht der Geschmack, sondern die Aufmerksamkeit.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/adb.70151",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/was-raucher-sehen-wenn-sie-eine-zigarette-sehen/"
+    },
+    {
+      "title": "Pränatale Substanzexposition senkt das Geburtsgewicht",
+      "date": "2026-06-09",
+      "created": "2026-06-09T23:47:52.664Z",
+      "slug": "pranatale-substanzexposition-senkt-das-geburtsgewicht",
+      "rubrik": "science",
+      "lead": "Eine US-Kohortenstudie verknüpft Drogenkonsum in der Schwangerschaft mit messbar leichteren Neugeborenen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1542/peds.2025-074604",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/pranatale-substanzexposition-senkt-das-geburtsgewicht/"
+    },
     {
       "title": "Hirnstamm in Hochauflösung",
       "date": "2026-06-08",
