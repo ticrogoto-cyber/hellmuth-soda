@@ -10,7 +10,7 @@ window.QUIZ_DATA = {
       "options": [
         { "t": "Die Wahrheit. Nach Jahren habe ich gelernt, meiner Intuition zu vertrauen.", "s": 1 },
         { "t": "Meistens das Vernünftige. Am Ende kippt die Entscheidung trotzdem mit der Stimmung.", "s": 3 },
-        { "t": "Was es gerade will. Ich höre Bauch und Verstand zu und handle oft gegen beide, weil beide bequem sind.", "s": 6 }
+        { "t": "Meistens Unsinn. Ich handle trotzdem, aber nicht nach Gefühl, sondern nach Struktur.", "s": 6 }
       ]
     },
     {
@@ -50,7 +50,7 @@ window.QUIZ_DATA = {
       "options": [
         { "t": "Magen zu. Hoffentlich keine Nachzahlung.", "s": 1 },
         { "t": "genervt. Ich delegiere das und verstehe die Hebel bis heute nicht.", "s": 3 },
-        { "t": "Ich lege ihm die Zahlen offen hin, bevor er fragt. Wer gestalten will, kann nichts mehr vor sich selbst verstecken.", "s": 6 }
+        { "t": "Ich lege ihm die Zahlen offen hin, bevor er fragt.", "s": 6 }
       ]
     },
     {
@@ -82,7 +82,7 @@ window.QUIZ_DATA = {
       "options": [
         { "t": "hältst still und wartest ab. In der Krise überstürzt man nichts.", "s": 1 },
         { "t": "hältst am alten Modell fest, bis es nicht mehr geht.", "s": 3 },
-        { "t": "drehst sofort und tötest, was gestern noch lief. Gesichert ist die Substanz, nicht das Produkt, in das du verliebt warst.", "s": 6 }
+        { "t": "schneidest ab, was gestern noch lief. Die Substanz ist gesichert, der Rest ist Sentimentalität.", "s": 6 }
       ]
     },
     {
@@ -98,7 +98,7 @@ window.QUIZ_DATA = {
       "options": [
         { "t": "den Feierabend nimmst. Eine Serie, ein Glas Wein, das Essen kommt. Runterkommen muss auch sein.", "s": 1 },
         { "t": "noch schnell Mails abarbeitest, damit es sich nach Produktivität anfühlt.", "s": 3 },
-        { "t": "nichts tust. Kein Reiz, keine Ablenkung, nur der unangenehme Moment, in dem dir auffällt, was der Tag mit dir gemacht hat.", "s": 6 }
+        { "t": "nichts. Stille. Was du dann fühlst, ist die Wahrheit über den Tag.", "s": 6 }
       ]
     },
     {
@@ -106,7 +106,7 @@ window.QUIZ_DATA = {
       "options": [
         { "t": "abschalten. Der Sonntag gehört nicht der Arbeit, das muss auch mal sein.", "s": 1 },
         { "t": "nur draufschauen, wenn im Geschäft etwas brennt.", "s": 3 },
-        { "t": "zehn Minuten, in denen ich mir die eigenen Fehler der Woche ungeschönt notiere.", "s": 6 }
+        { "t": "zehn Minuten, in denen ich mir die Fehler der Woche notiere.", "s": 6 }
       ]
     },
     {
