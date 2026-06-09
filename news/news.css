@@ -338,3 +338,36 @@
 .news-detail .news-share.is-copied { color: var(--ink); }
 .news-detail .news-views { cursor: default; }
 .news-detail .news-views[hidden] { display: none; }
+
+/* Pagination unter dem Feed: Seitenzahlen + Vor/Zurueck, dezent. */
+.news-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 3rem;
+  font-family: 'Printvetica', sans-serif;
+}
+.news-pagination:empty { display: none; }
+.news-page {
+  appearance: none;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font-family: inherit;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  min-width: 2.2rem;
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+.news-page:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+.news-page.is-current { background: var(--ink); color: var(--paper); cursor: default; }
+.news-page:disabled { opacity: 0.35; cursor: default; }
+.news-page-gap {
+  color: var(--muted);
+  padding: 0 0.2rem;
+  font-size: 0.72rem;
+}
