@@ -49,7 +49,7 @@
     <p class="impressum-block">
       Geschäftsführer: Ticro Goto<br />
       Registergericht: Amtsgericht Charlottenburg, HRB 281916 B<br />
-      E-Mail: <a href="mailto:ticro.goto@proton.me">ticro.goto@proton.me</a>
+      E-Mail: <a id="impressum-mail" href="#">E-Mail einblenden</a>
     </p>
     <p class="impressum-line">Inhaltlich Verantwortlicher gemäß § 18 Abs. 2 MStV:</p>
     <p class="impressum-block">
@@ -65,5 +65,17 @@
 
   <script src="../site.js?v=6"></script>
   <script src="../search.js?v=1"></script>
+  <script>
+    // E-Mail per JS zusammensetzen, damit HTML-Scraper sie nicht parsen.
+    (function () {
+      var user = 'ticro.goto';
+      var domain = 'proton.me';
+      var el = document.getElementById('impressum-mail');
+      if (el) {
+        el.href = 'mailto:' + user + '@' + domain;
+        el.textContent = user + '@' + domain;
+      }
+    })();
+  </script>
 </body>
 </html>
