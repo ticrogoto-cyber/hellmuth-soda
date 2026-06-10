@@ -1326,6 +1326,128 @@
       "rubrik": "science",
       "score": 9,
       "published": true
+    },
+    "74a6beab676cc5fb3406c300446bb57af1d929999939f563934b5bd8b8023bd9": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/10/experts-warn-against-pursuing-zero-risk-food-safety-goals/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:51:44.316Z"
+    },
+    "c4302e45bccbf58e17a34fad009b9bcf7a559fa71bc5f4d05893c3c47d741d13": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/10/croissant-gin-four-pillars-tests-the-boundaries-of-innovation/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:51:46.671Z"
+    },
+    "7577dbdbd10240ecc888ef969cc475cdbb93c571cf74a85b39e10ada1211ea3e": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/10/growth-asia-summit-2026-womens-health-experts-discuss-hormones-and-wellbeing/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:51:48.879Z"
+    },
+    "ced9d97c36efb8ed0e8a016e9c3ef3a781626870ccae8747b6c0f710e874d4fa": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/05/general-mills-bets-on-remarkability-amid-soft-demand/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:51:51.053Z"
+    },
+    "ab7c6dde221ca39e226114e3f28451e92498bf32a253e26e51a419d4d597b86f": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/05/28/energy-drink-trends-us-startup-phx-blends-hydration-and-energy/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:51:53.411Z"
+    },
+    "de76cab4144a541a2cc6fd7c5ccb9471d2b9cb9622e29ff6f6709b0307c9efd2": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/10/croissant-gin-four-pillars-tests-the-boundaries-of-innovation/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:52:03.454Z"
+    },
+    "3335d75e4f68ea0392fb2ce52f9eebd26e067d31999d23ccbf9435edc22273cb": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/09/world-cup-2026-challenges-cpg-brands-with-real-time-retail-media/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:52:05.608Z"
+    },
+    "96638c576ff4e0af061b70326d52a7c200bc48741b08da35911516d1033daab0": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/Plant-based-natural-colors-in-soft-drinks-and-alcoholic-beverages/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "493f2cb5929d102daabb85e7175df16073c5f9a322c280fb2e9606b4b135d154": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/2026-beverage-trends-show-pineapple-flavours-align-with-consumer-preference/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:52:21.527Z"
+    },
+    "3f0097241d46290420de65e69a76491c35bc6242b3e5f0497f3904b9aaff29b7": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/pierpaolo-petrassi-mw-stepping-down-from-bws-boss-role-at-waitrose/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:52:25.761Z"
+    },
+    "1a1f3501eb114a04795f6a264d7af6135e081f93d45dc7eb8a36253774b7302b": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/alcohol-spending-in-south-korea-posts-sharpest-drop-in-seven-years/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "a3fbd9d4b384569a6520f13f2bb7d6a862f72187a117921c7dd798896c362ea9": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+      "date": "2026-06-10",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "4814c896d8799942ae8997bed72caf4ae6eecc4fe4af1a30adecb65537ceb15d": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26355206v1?rss=1",
+      "date": "2026-06-10",
+      "rubrik": "science",
+      "score": 8,
+      "published": true
+    },
+    "b176b8c24621c9c13be50805b8e5fd93ac40f7fc248a01cb61317c5b0059d835": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.05.26354416v1?rss=1",
+      "date": "2026-06-10",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "ee97b5714de9cc2e93818167719a98ae0aafd2e962545ff5ad883259b6f044ae": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26355155v1?rss=1",
+      "date": "2026-06-10",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-17T23:53:29.680Z"
+    },
+    "48cf642321a571c2c52857ae107b09f8a6838e75c3aac56e7ed9eab880ce8daf": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730661v1?rss=1",
+      "date": "2026-06-10",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
     }
   }
 }

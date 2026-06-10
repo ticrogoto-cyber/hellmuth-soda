@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-09T23:48:18.212Z",
+  "generated": "2026-06-10T23:53:44.513Z",
   "hellmuth": [
+    {
+      "title": "Impossibrew sammelt wieder ein",
+      "date": "2026-06-10",
+      "created": "2026-06-10T23:52:55.813Z",
+      "slug": "impossibrew-sammelt-wieder-ein",
+      "rubrik": "hellmuth",
+      "lead": "Eine alkoholfreie Funktionsbier-Marke geht zurück an die Crowd, und das sagt mehr über die Kategorie als über die Marke.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/impossibrew-sammelt-wieder-ein/"
+    },
+    {
+      "title": "Südkorea trinkt sich nüchtern",
+      "date": "2026-06-10",
+      "created": "2026-06-10T23:52:40.228Z",
+      "slug": "sudkorea-trinkt-sich-nuchtern",
+      "rubrik": "hellmuth",
+      "lead": "Der koreanische Alkoholmarkt erlebt im ersten Quartal 2026 den steilsten Rückgang seit sieben Jahren.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/alcohol-spending-in-south-korea-posts-sharpest-drop-in-seven-years/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sudkorea-trinkt-sich-nuchtern/"
+    },
+    {
+      "title": "Pflanzenfarben im Glas",
+      "date": "2026-06-10",
+      "created": "2026-06-10T23:52:19.068Z",
+      "slug": "pflanzenfarben-im-glas",
+      "rubrik": "hellmuth",
+      "lead": "Die Getränkeindustrie tauscht synthetische Farbstoffe gegen Pflanzenextrakte, weil der Regulator und der Regalverkäufer es verlangen.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/News/Promotional-features/Plant-based-natural-colors-in-soft-drinks-and-alcoholic-beverages/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/pflanzenfarben-im-glas/"
+    },
     {
       "title": "Hoplark poliert die Marke",
       "date": "2026-06-09",
@@ -228,6 +270,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Bewusstlosigkeit zieht das Gehirn zurück auf seine Anatomie",
+      "date": "2026-06-10",
+      "created": "2026-06-10T23:53:44.495Z",
+      "slug": "bewusstlosigkeit-zieht-das-gehirn-zuruck-auf-seine-anatomie",
+      "rubrik": "science",
+      "lead": "Wenn das Bewusstsein wegbricht, folgt die funktionelle Architektur des Gehirns nicht mehr der Kognition, sondern der Hardware.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730661v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/bewusstlosigkeit-zieht-das-gehirn-zuruck-auf-seine-anatomie/"
+    },
+    {
+      "title": "Entzündung sagt Altersdepression voraus, Aspirin ändert daran nichts",
+      "date": "2026-06-10",
+      "created": "2026-06-10T23:53:27.352Z",
+      "slug": "entzundung-sagt-altersdepression-voraus-aspirin-andert-daran-nichts",
+      "rubrik": "science",
+      "lead": "Ein erhöhter Entzündungsmarker im Blut älterer Menschen erhöht das Risiko späterer depressiver Symptome, doch niedrig dosiertes Aspirin bricht diesen Zusammenhang nicht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.05.26354416v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/entzundung-sagt-altersdepression-voraus-aspirin-andert-daran-nichts/"
+    },
+    {
+      "title": "Ein MRT, ein Jahr Vorlauf",
+      "date": "2026-06-10",
+      "created": "2026-06-10T23:53:12.423Z",
+      "slug": "ein-mrt-ein-jahr-vorlauf",
+      "rubrik": "science",
+      "lead": "Adoleszente Depression und Angst lassen sich aus einem einzigen Ruhe-MRT vorhersagen, bevor Symptome sich verfestigen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26355206v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-mrt-ein-jahr-vorlauf/"
+    },
     {
       "title": "BDNF zwischen Leber und Hirn",
       "date": "2026-06-09",
