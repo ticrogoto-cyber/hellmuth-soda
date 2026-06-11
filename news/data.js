@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-10T23:53:44.513Z",
+  "generated": "2026-06-11T23:59:29.767Z",
   "hellmuth": [
+    {
+      "title": "Die Sober-Curious-Bühne wird zur Hauptbühne",
+      "date": "2026-06-11",
+      "created": "2026-06-11T23:58:34.512Z",
+      "slug": "die-sober-curious-buhne-wird-zur-hauptbuhne",
+      "rubrik": "hellmuth",
+      "lead": "Was vor drei Jahren als Nischenpanel lief, eröffnet jetzt die Branchenkonferenz.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/bevnet-live-day-one-recap-sober-curious-founders-take-the-stage",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/die-sober-curious-buhne-wird-zur-hauptbuhne/"
+    },
+    {
+      "title": "Nüchterne Getränke treiben den M&A-Markt",
+      "date": "2026-06-11",
+      "created": "2026-06-11T23:57:57.457Z",
+      "slug": "nuchterne-getranke-treiben-den-m-a-markt",
+      "rubrik": "hellmuth",
+      "lead": "Funktionale und alkoholfreie Drinks sind zur Übernahmewährung im globalen Lebensmittelsektor geworden.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/nuchterne-getranke-treiben-den-m-a-markt/"
+    },
+    {
+      "title": "Baijiu zwischen Heimmarkt und Weltanspruch",
+      "date": "2026-06-11",
+      "created": "2026-06-11T23:57:20.736Z",
+      "slug": "baijiu-zwischen-heimmarkt-und-weltanspruch",
+      "rubrik": "hellmuth",
+      "lead": "Die größte Spirituose der Welt ist außerhalb Chinas fast unsichtbar, und genau das wird zum Verkaufsargument der Branche.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/10/baijiu-top-brands-and-their-global-opportunity/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/baijiu-zwischen-heimmarkt-und-weltanspruch/"
+    },
     {
       "title": "Impossibrew sammelt wieder ein",
       "date": "2026-06-10",
@@ -270,6 +312,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wert kommt nicht mehr an",
+      "date": "2026-06-11",
+      "created": "2026-06-11T23:59:29.748Z",
+      "slug": "wert-kommt-nicht-mehr-an",
+      "rubrik": "science",
+      "lead": "Angst und Depression verzerren Entscheidungen nicht durch übertriebene Vorsicht, sondern durch eine geschwächte Übersetzung von Wert in Evidenz.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.09.731091v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wert-kommt-nicht-mehr-an/"
+    },
+    {
+      "title": "Clozapin frisst Hirnsubstanz dort, wo Serotonin sitzt",
+      "date": "2026-06-11",
+      "created": "2026-06-11T23:59:10.098Z",
+      "slug": "clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt",
+      "rubrik": "science",
+      "lead": "Ein Preprint kartiert, wo das letzte Mittel gegen therapieresistente Schizophrenie strukturell zugreift, und findet das Muster nicht im Dopamin-, sondern im Serotoninsystem.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.06.26354980v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt/"
+    },
+    {
+      "title": "Trauma, Cannabis und das Methylom des Teenagers",
+      "date": "2026-06-11",
+      "created": "2026-06-11T23:58:55.157Z",
+      "slug": "trauma-cannabis-und-das-methylom-des-teenagers",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Studie aus der ALSPAC-Kohorte sucht die biologische Spur früher Gewalt im Blut Siebzehnjähriger.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355257v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/trauma-cannabis-und-das-methylom-des-teenagers/"
+    },
     {
       "title": "Bewusstlosigkeit zieht das Gehirn zurück auf seine Anatomie",
       "date": "2026-06-10",
