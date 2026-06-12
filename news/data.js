@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-11T23:59:29.767Z",
+  "generated": "2026-06-12T23:59:19.162Z",
   "hellmuth": [
+    {
+      "title": "Tealive und Dutch Lady füllen den Bubble-Tea-Hype in Tetra Pak",
+      "date": "2026-06-12",
+      "created": "2026-06-12T23:58:35.187Z",
+      "slug": "tealive-und-dutch-lady-fullen-den-bubble-tea-hype-in-tetra-pak",
+      "rubrik": "hellmuth",
+      "lead": "Was als Kassenschlange vor dem Tresen begann, landet jetzt im Kühlregal des Supermarkts.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/12/tealive-and-dutch-lady-unveil-new-rtd-dairy-milk-teas/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/tealive-und-dutch-lady-fullen-den-bubble-tea-hype-in-tetra-pak/"
+    },
+    {
+      "title": "Ooso Sparkling Tea, dritte Sorte",
+      "date": "2026-06-12",
+      "created": "2026-06-12T23:56:57.534Z",
+      "slug": "ooso-sparkling-tea-dritte-sorte",
+      "rubrik": "hellmuth",
+      "lead": "Der Premium-Tee ohne Alkohol verlässt die Nische der frommen Absicht und wird zur eigenen Kategorie.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-ooso-sparkling-tea-impresses-again",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ooso-sparkling-tea-dritte-sorte/"
+    },
+    {
+      "title": "Klarheit schlägt Story",
+      "date": "2026-06-12",
+      "created": "2026-06-12T23:56:42.565Z",
+      "slug": "klarheit-schlagt-story",
+      "rubrik": "hellmuth",
+      "lead": "Auf der BevNET Live NYC 2026 einigten sich Gründer, Händler und Investoren auf eine gemeinsame Diagnose des Getränkemarktes.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/taste-radio-a-live-take-in-a-crowded-market-clarity-wins",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/klarheit-schlagt-story/"
+    },
     {
       "title": "Die Sober-Curious-Bühne wird zur Hauptbühne",
       "date": "2026-06-11",
@@ -312,6 +354,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Legalisierung ohne Aufklärung",
+      "date": "2026-06-12",
+      "created": "2026-06-12T23:59:19.143Z",
+      "slug": "legalisierung-ohne-aufklarung",
+      "rubrik": "science",
+      "lead": "Kanada hat Cannabis 2018 legalisiert, aber das Wissen der Bevölkerung über die gesundheitlichen Folgen ist seither nicht gewachsen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1186/s42238-026-00428-6",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/legalisierung-ohne-aufklarung/"
+    },
+    {
+      "title": "Ligustrazin gegen Alkohol-Hirn",
+      "date": "2026-06-12",
+      "created": "2026-06-12T23:59:08.941Z",
+      "slug": "ligustrazin-gegen-alkohol-hirn",
+      "rubrik": "science",
+      "lead": "Ein chinesisches Pflanzenalkaloid soll die neurologischen Folgen alkoholischer Lebererkrankung über fünf Signalwege gleichzeitig dämpfen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/jbt.70960",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ligustrazin-gegen-alkohol-hirn/"
+    },
+    {
+      "title": "Nikotin-Review räumt die Werkstatt auf",
+      "date": "2026-06-12",
+      "created": "2026-06-12T23:58:55.945Z",
+      "slug": "nikotin-review-raumt-die-werkstatt-auf",
+      "rubrik": "science",
+      "lead": "Ein neues Übersichtspapier sortiert, was Nikotin im Nervensystem tatsächlich anrichtet.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.cbi.2026.112148",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/nikotin-review-raumt-die-werkstatt-auf/"
+    },
     {
       "title": "Wert kommt nicht mehr an",
       "date": "2026-06-11",
