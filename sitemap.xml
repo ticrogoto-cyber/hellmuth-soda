@@ -31,6 +31,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/goldberg-setzt-auf-lavendel/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/fuze-tea-tanzt-nuchtern/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/sussstoff-allein-reicht-der-industrie-nicht-mehr/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/tealive-und-dutch-lady-fullen-den-bubble-tea-hype-in-tetra-pak/</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -177,6 +195,24 @@
   <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</loc>
     <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde/</loc>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

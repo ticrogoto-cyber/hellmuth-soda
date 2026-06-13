@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-12T23:59:19.162Z",
+  "generated": "2026-06-13T23:41:01.015Z",
   "hellmuth": [
+    {
+      "title": "Goldberg setzt auf Lavendel",
+      "date": "2026-06-13",
+      "created": "2026-06-13T23:40:05.160Z",
+      "slug": "goldberg-setzt-auf-lavendel",
+      "rubrik": "hellmuth",
+      "lead": "Der Premium-Mixer-Markt sucht nach Differenzierung jenseits von Tonic und Ginger, und florale Noten sollen die Lücke schließen.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/fuer-moderne-aperitivo-drinks-goldberg-launcht-die-limited-edition-lavender/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/goldberg-setzt-auf-lavendel/"
+    },
+    {
+      "title": "Fuze Tea tanzt nüchtern",
+      "date": "2026-06-13",
+      "created": "2026-06-13T23:36:29.913Z",
+      "slug": "fuze-tea-tanzt-nuchtern",
+      "rubrik": "hellmuth",
+      "lead": "Coca-Colas RTD-Teemarke veranstaltet in Singapur und Malaysia alkoholfreie Tagesraves, um die Generation Z zu erreichen.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/13/fuze-tea-new-campaign-involves-tea-raves-and-pack-update-to-win-over-gen-z/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/fuze-tea-tanzt-nuchtern/"
+    },
+    {
+      "title": "Süßstoff allein reicht der Industrie nicht mehr",
+      "date": "2026-06-13",
+      "created": "2026-06-13T23:35:52.814Z",
+      "slug": "sussstoff-allein-reicht-der-industrie-nicht-mehr",
+      "rubrik": "hellmuth",
+      "lead": "Zucker raus heißt nicht Geschmack rein, und die Getränkebranche hat das verstanden.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/News/Promotional-features/Low-and-no-sugar-soft-drinks-with-FMPs-for-improved-sweetness-and-mouthfeel/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sussstoff-allein-reicht-der-industrie-nicht-mehr/"
+    },
     {
       "title": "Tealive und Dutch Lady füllen den Bubble-Tea-Hype in Tetra Pak",
       "date": "2026-06-12",
@@ -354,6 +396,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Zwei Suizidalitäts-Regime statt einer Symptomliste",
+      "date": "2026-06-13",
+      "created": "2026-06-13T23:41:00.993Z",
+      "slug": "zwei-suizidalitats-regime-statt-einer-symptomliste",
+      "rubrik": "science",
+      "lead": "Ein Preprint sortiert Suizidalität nicht nach Symptomen, sondern nach der Art, wie Betroffene auf Bestrafung reagieren.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355278v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/"
+    },
+    {
+      "title": "Wenn Hirnstimulation gegen Depression nicht wirkt, liegt es an der Verkabelung",
+      "date": "2026-06-13",
+      "created": "2026-06-13T23:40:45.544Z",
+      "slug": "wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung",
+      "rubrik": "science",
+      "lead": "Tiefe Hirnstimulation im subgenualen Cingulum hilft manchen schwer Depressiven und anderen nicht, und ein Preprint legt nahe, dass die individuelle Verschaltung das entscheidet.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355288v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/"
+    },
+    {
+      "title": "Angststörungen zeigen sich im Blutfluss der Stirnhirnrinde",
+      "date": "2026-06-13",
+      "created": "2026-06-13T23:40:26.990Z",
+      "slug": "angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde",
+      "rubrik": "science",
+      "lead": "Ein medRxiv-Preprint kartiert Angsterkrankungen nicht über Symptome, sondern über die Durchblutung kortikaler Areale während einer Sprachaufgabe.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.11.26355427v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde/"
+    },
     {
       "title": "Legalisierung ohne Aufklärung",
       "date": "2026-06-12",
