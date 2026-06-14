@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-13T23:41:01.015Z",
+  "generated": "2026-06-14T23:41:48.090Z",
   "hellmuth": [
+    {
+      "title": "Reis als Getränk, weil ihn keiner mehr isst",
+      "date": "2026-06-14",
+      "created": "2026-06-14T23:40:54.955Z",
+      "slug": "reis-als-getrank-weil-ihn-keiner-mehr-isst",
+      "rubrik": "hellmuth",
+      "lead": "Thailands Reisindustrie sucht einen Ausweg aus dem Tellerrückgang und findet ihn im Tetrapak.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/14/clp-transforms-thai-rice-into-a-wellness-drink-with-sisod-rice-milk/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/reis-als-getrank-weil-ihn-keiner-mehr-isst/"
+    },
+    {
+      "title": "Malaysias Modern-Soda-Markt bekommt eine Marke",
+      "date": "2026-06-14",
+      "created": "2026-06-14T23:40:35.210Z",
+      "slug": "malaysias-modern-soda-markt-bekommt-eine-marke",
+      "rubrik": "hellmuth",
+      "lead": "Was in den USA längst Regal füllt, kommt nun nach Südostasien.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/14/70254/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/malaysias-modern-soda-markt-bekommt-eine-marke/"
+    },
+    {
+      "title": "Funktionsgetränke 2026, der Geschmack als Alibi",
+      "date": "2026-06-14",
+      "created": "2026-06-14T23:40:10.516Z",
+      "slug": "funktionsgetranke-2026-der-geschmack-als-alibi",
+      "rubrik": "hellmuth",
+      "lead": "Die europäische Getränkebranche stimmt sich auf ein Jahr ein, in dem Funktion und Aroma nicht mehr getrennt verhandelt werden.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/News/Promotional-features/functional-beverage-trends-in-2026/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/funktionsgetranke-2026-der-geschmack-als-alibi/"
+    },
     {
       "title": "Goldberg setzt auf Lavendel",
       "date": "2026-06-13",
@@ -396,6 +438,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Die Angstschaltung hat ein viertes Zimmer",
+      "date": "2026-06-14",
+      "created": "2026-06-14T23:41:48.065Z",
+      "slug": "die-angstschaltung-hat-ein-viertes-zimmer",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt das Standardmodell der Furchtkonditionierung um eine Hirnregion, die im Lehrbuch bislang als Nebenschauplatz galt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731865v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/die-angstschaltung-hat-ein-viertes-zimmer/"
+    },
+    {
+      "title": "Alzheimer hat eine zweite Schrift",
+      "date": "2026-06-14",
+      "created": "2026-06-14T23:41:32.032Z",
+      "slug": "alzheimer-hat-eine-zweite-schrift",
+      "rubrik": "science",
+      "lead": "Nicht welche Proteine im Gehirn liegen, sondern wie sie chemisch beschriftet sind, korreliert mit Plaques, Tangles und kognitivem Verfall.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732018v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-hat-eine-zweite-schrift/"
+    },
+    {
+      "title": "Halsableitung gegen Alzheimer",
+      "date": "2026-06-14",
+      "created": "2026-06-14T23:41:17.657Z",
+      "slug": "halsableitung-gegen-alzheimer",
+      "rubrik": "science",
+      "lead": "Wer Lymphe aus dem Schädel abzieht, verändert offenbar, was im Gehirn an Plaques liegen bleibt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731621v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/halsableitung-gegen-alzheimer/"
+    },
     {
       "title": "Zwei Suizidalitäts-Regime statt einer Symptomliste",
       "date": "2026-06-13",
