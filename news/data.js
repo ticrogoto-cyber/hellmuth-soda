@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-14T23:41:48.090Z",
+  "generated": "2026-06-16T00:08:46.305Z",
   "hellmuth": [
+    {
+      "title": "Niigata bekommt einen Newcomer, der gleich Preise sammelt",
+      "date": "2026-06-16",
+      "created": "2026-06-16T00:08:00.114Z",
+      "slug": "niigata-bekommt-einen-newcomer-der-gleich-preise-sammelt",
+      "rubrik": "hellmuth",
+      "lead": "Eine der ältesten Sake-Regionen Japans öffnet sich für einen Quereinsteiger, der die Hierarchie nicht respektiert.",
+      "source_name": "Japan Times Food & Drink",
+      "source_url": "https://www.japantimes.co.jp/life/2026/06/14/food-drink/snow-satoyama-sake/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/niigata-bekommt-einen-newcomer-der-gleich-preise-sammelt/"
+    },
+    {
+      "title": "Mangostan rückt in Thailands Kaffeeketten auf",
+      "date": "2026-06-16",
+      "created": "2026-06-16T00:06:17.388Z",
+      "slug": "mangostan-ruckt-in-thailands-kaffeeketten-auf",
+      "rubrik": "hellmuth",
+      "lead": "Was als regionale Saisonfrucht galt, wird zur Sommerwährung der thailändischen Kaffeeketten.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/14/mangosteen-fever-punthai-and-starbucks-elevate-thailands-queen-of-fruits/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/mangostan-ruckt-in-thailands-kaffeeketten-auf/"
+    },
+    {
+      "title": "Was die Getränkebranche unter Aufbruch versteht",
+      "date": "2026-06-16",
+      "created": "2026-06-16T00:05:33.795Z",
+      "slug": "was-die-getrankebranche-unter-aufbruch-versteht",
+      "rubrik": "hellmuth",
+      "lead": "Der Mittelstand der neuen Marken steckt fest, und die Branche redet sich das schön.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/state-of-the-market-emerging-brands-at-mid-year",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/was-die-getrankebranche-unter-aufbruch-versteht/"
+    },
     {
       "title": "Reis als Getränk, weil ihn keiner mehr isst",
       "date": "2026-06-14",
@@ -438,6 +480,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Cannabis und Tabak zusammen kippen die Psychose-Statistik",
+      "date": "2026-06-16",
+      "created": "2026-06-16T00:08:46.283Z",
+      "slug": "cannabis-und-tabak-zusammen-kippen-die-psychose-statistik",
+      "rubrik": "science",
+      "lead": "In klinischen Hochrisikokohorten sagt der gleichzeitige Konsum von Cannabis und Tabak den Übergang in die Psychose voraus.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s44220-026-00648-y",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/cannabis-und-tabak-zusammen-kippen-die-psychose-statistik/"
+    },
+    {
+      "title": "Gruppentherapie unterm Scanner",
+      "date": "2026-06-16",
+      "created": "2026-06-16T00:08:34.988Z",
+      "slug": "gruppentherapie-unterm-scanner",
+      "rubrik": "science",
+      "lead": "Eine Studie will messen, ob junge Trinker gemeinsam nüchterner werden, indem ihre Gehirne im fMRT synchronisieren.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1371/journal.pone.0349575",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/gruppentherapie-unterm-scanner/"
+    },
+    {
+      "title": "Adoleszentes Nikotin hinterlässt eine Microglia-Spur",
+      "date": "2026-06-16",
+      "created": "2026-06-16T00:08:18.569Z",
+      "slug": "adoleszentes-nikotin-hinterlasst-eine-microglia-spur",
+      "rubrik": "science",
+      "lead": "Eine Mausstudie verortet die Depression nach jugendlicher Nikotinexposition in einer einzigen Signalkaskade.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1007/s11064-026-04811-w",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/adoleszentes-nikotin-hinterlasst-eine-microglia-spur/"
+    },
     {
       "title": "Die Angstschaltung hat ein viertes Zimmer",
       "date": "2026-06-14",
