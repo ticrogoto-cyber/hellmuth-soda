@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-16T00:08:46.305Z",
+  "generated": "2026-06-16T23:53:26.956Z",
   "hellmuth": [
+    {
+      "title": "Kombucha lernt Kindergeburtstag",
+      "date": "2026-06-16",
+      "created": "2026-06-16T23:52:35.486Z",
+      "slug": "kombucha-lernt-kindergeburtstag",
+      "rubrik": "hellmuth",
+      "lead": "Der Kombucha-Marktführer GT's koppelt sich an einen Sauerkirschsaft-Spezialisten und nennt das Ergebnis Shirley Temple.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/gts-cheribundi-team-up-for-shirley-temple-flavored-lto",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kombucha-lernt-kindergeburtstag/"
+    },
+    {
+      "title": "Zevia holt einen Red-Bull-Mann",
+      "date": "2026-06-16",
+      "created": "2026-06-16T23:52:12.355Z",
+      "slug": "zevia-holt-einen-red-bull-mann",
+      "rubrik": "hellmuth",
+      "lead": "Die Stevia-Limonade Zevia sucht ihren Ausweg aus der Stagnation ausgerechnet bei einem Veteranen der Energydrink-Industrie.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/red-bull-coca-cola-celsius-executive-CEO-zevia/822996/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zevia-holt-einen-red-bull-mann/"
+    },
+    {
+      "title": "Nestlé USA streicht künstliche Farbstoffe",
+      "date": "2026-06-16",
+      "created": "2026-06-16T23:51:17.495Z",
+      "slug": "nestl-usa-streicht-kunstliche-farbstoffe",
+      "rubrik": "hellmuth",
+      "lead": "Was als Verbraucherschutz inszeniert wird, ist Vorgriff auf eine absehbare Regulierung.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/15/nestle-usa-eliminates-artificial-colors-as-part-of-broader-reformulation-overhaul/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/nestl-usa-streicht-kunstliche-farbstoffe/"
+    },
     {
       "title": "Niigata bekommt einen Newcomer, der gleich Preise sammelt",
       "date": "2026-06-16",
@@ -480,6 +522,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Genie und Psychose teilen sich die Schaltung",
+      "date": "2026-06-16",
+      "created": "2026-06-16T23:53:26.926Z",
+      "slug": "genie-und-psychose-teilen-sich-die-schaltung",
+      "rubrik": "science",
+      "lead": "Ein bioRxiv-Preprint liest schizophrene Risikogene als unterversorgte Hochleistungsarchitektur.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.14.732123v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/genie-und-psychose-teilen-sich-die-schaltung/"
+    },
+    {
+      "title": "Psychiatrische Gene schreiben sich ins Blut",
+      "date": "2026-06-16",
+      "created": "2026-06-16T23:53:13.113Z",
+      "slug": "psychiatrische-gene-schreiben-sich-ins-blut",
+      "rubrik": "science",
+      "lead": "Eine genetische Last für psychiatrische Diagnosen verschiebt das Stoffwechselprofil, bevor irgendjemand Diagnose oder Medikament gesehen hat.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.06.26354927v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psychiatrische-gene-schreiben-sich-ins-blut/"
+    },
+    {
+      "title": "Schizophrenie verschiebt das EEG, nicht den Metabolitenspiegel",
+      "date": "2026-06-16",
+      "created": "2026-06-16T23:52:54.260Z",
+      "slug": "schizophrenie-verschiebt-das-eeg-nicht-den-metabolitenspiegel",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Schizophrenieforschung trennt zwei Messebenen, die bislang als ein Befund galten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.12.26354984v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-verschiebt-das-eeg-nicht-den-metabolitenspiegel/"
+    },
     {
       "title": "Cannabis und Tabak zusammen kippen die Psychose-Statistik",
       "date": "2026-06-16",

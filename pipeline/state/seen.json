@@ -269,46 +269,6 @@
       "score": 9,
       "published": true
     },
-    "ca0fec92f489485552f0e2ca2e1a9dcab09a7771f6c445ba28ada6cb94bcebf0": {
-      "url": "https://www.foodnavigator-asia.com/Article/2026/06/09/betagro-turns-chicken-into-noodles-to-double-protein-per-meal/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:45:34.953Z"
-    },
-    "015bc00a39f345ab6e5cf42e932c53de56e708de9c29ff370b273ef256914a84": {
-      "url": "https://www.foodnavigator-asia.com/Article/2026/06/09/can-integrated-food-hubs-secure-singapores-manufacturing-future/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:45:37.311Z"
-    },
-    "fee2b3bd2af979d959b11f5ebcecf3a76c49e0e76b178c4e58acb5688f8ca995": {
-      "url": "https://www.foodnavigator-asia.com/Article/2026/06/09/safety-first-regulatory-harmonisation-unfair-ads-and-palm-oil/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 4,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:45:40.420Z"
-    },
-    "2ff4c4cec852b798c47bdd6b732c3f6384e22da62b81c22ca3978e85d088fc6f": {
-      "url": "https://www.foodnavigator-asia.com/Article/2026/06/08/monster-uses-coca-cola-network-to-expand-energy-drinks-globally/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:45:42.958Z"
-    },
-    "ff5dbe9ca00de15d6f372577d2928a642660045d3e1cb1e0d3572a6a3bd45e1e": {
-      "url": "https://www.foodnavigator-asia.com/Article/2026/05/27/unilever-mccormick-deal-under-pressure-as-40bn-foods-merger-faces-backlash/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:45:45.030Z"
-    },
     "7912500e72618d9036f2fb07b33cde52b331426e6d2d6f00023f037877f85618": {
       "url": "https://www.beveragedaily.com/Article/2026/06/09/fibremaxxing-drives-rise-of-fibre-soda/",
       "date": "2026-06-09",
@@ -316,204 +276,12 @@
       "score": 8,
       "published": true
     },
-    "866542419b7a45d2967d2461279baabf340d7664c6c9dcbb99812df9e184f731": {
-      "url": "https://www.beveragedaily.com/Article/2026/06/05/glp-1s-can-enhance-taste-or-dull-it/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:09.771Z"
-    },
-    "f7580ae365231e7632b87afe13274b6e62dde80a493aa9c0dfd5a14bf04facda": {
-      "url": "https://www.beveragedaily.com/Article/2026/06/04/alcohol-occasions-are-moving-from-the-bar-to-the-home/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:12.134Z"
-    },
-    "33741f33ffdc85d57316f2637c4d2f58c008fd87474773226da8d9164068d1f1": {
-      "url": "https://www.beveragedaily.com/News/Promotional-features/beverage-sustainability-innovation-strategy-for-value-creation/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:14.951Z"
-    },
     "1cd47bb04f4c839e6d5f2faac275a404f2f8c25b3515eb8b199d40ce21987a6d": {
       "url": "https://www.beveragedaily.com/News/Promotional-features/prebiotic-fibre-soda-reaching-eu-market/",
       "date": "2026-06-09",
       "rubrik": "hellmuth",
       "score": 9,
       "published": true
-    },
-    "1495e3b92c5c14c84e89e5c3b5f5d2ccdf890423c451663f20e2adf8846a5f9f": {
-      "url": "https://www.beveragedaily.com/Article/2026/06/09/fmcg-npd-bingham-jones-shaping-global-product-launches/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:34.474Z"
-    },
-    "dd47cf2232ef4760356bf6085d7637c3407d120489e7c083a0acd060331ac7a4": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/talha-tales-reviving-alentejos-amphora-wines/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:38.164Z"
-    },
-    "4f06e71affd48c5c5bb0cd9e9b8f65e1d08a5ccda98eea2882babb46c1545ca5": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/beyond-the-guest-shift-singapores-cocktail-community-is-ready-for-a-new-chapter/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:40.277Z"
-    },
-    "2d46c0ab2b72dc9dccb08471ed0c0c9da9d3f0eb6d490649d2f9512448443e62": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/popular-peckham-pub-listed-for-1-2m/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:42.192Z"
-    },
-    "5d5c919275f408afa5184ae51ab85c4351daac8cf3e236711ab2277617ba4a99": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/justerini-brooks-asian-collectors-no-longer-satisfied-with-just-the-label/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:44.346Z"
-    },
-    "d72aa12471f37fa348b5dc9555b8f0ac13d1c29251d4487e59539f236b37f306": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/brewers-note-reliability-of-sorghum-grains/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:47.031Z"
-    },
-    "dc49d003715cadc3958331f0867cc637e59d52f950713a44507684f0ca884dd9": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/chet-sharma-returns-to-gymkhana-as-global-culinary-director/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:49.108Z"
-    },
-    "b9abe0694cca06dc0027d40e4e936b242e13bd3a5e5bbafe844f3ffb8996b610": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/asc-fine-wines-toasts-30-years-the-best-is-yet-to-come/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:51.533Z"
-    },
-    "f2ce270c90ca571e777a064120f41f67b7e4674814dcdaa42714a25f6469aa67": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/bruichladdich-anniversary-release-sells-out-at-launch/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:54.403Z"
-    },
-    "072c6c4f84604f586d73a1dceea04b6eb31772c7f177bdfe6f60e408f058f4be": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/vin-de-france-gains-ground-in-bordeaux/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:56.833Z"
-    },
-    "cc264cc48263fbe2e2598493a069e0f605e4cf2a75f496a307590cbe5d0e9d8c": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/db-asia-may-in-pictures-2/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:46:59.058Z"
-    },
-    "d7116fb9e44ef139352d56c55ec2812b6e2c28d46505febb5979756cffb9b025": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/enter-now-the-global-pinot-grigio-pinot-gris-masters-2025/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:00.964Z"
-    },
-    "c0d09f355535eed16c867c88e96595691e85bed035c0f58915574ed2e4c75ef9": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/us-single-owner-collection-sale-achieves-u3-2m/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:03.012Z"
-    },
-    "b0c7fd8f65f6ced6dfe4f2f716705ee764ad62eae9d5c82564dab8710bd81220": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/is-carlsberg-india-considering-an-ipo/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:04.953Z"
-    },
-    "9044b67c94cc5b2f5bc884b1a796b883656a91b1ddf866d52d89ad818e502a6b": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/are-monovarietal-wine-cellars-the-future-of-hospitality/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:06.815Z"
-    },
-    "dd9e48e563cc9fe4c33c1e5c40ff63d3961a5b2cc79c58324d857b357fef62ba": {
-      "url": "https://www.thedrinksbusiness.com/2026/06/cause-for-celebration/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:09.362Z"
-    },
-    "e5341c9effc092a8c0371d75791f98ad3ccbcb4ff6dc016c2fb4d0c00a10853a": {
-      "url": "https://www.fooddive.com/news/lavazza-coffee-pods-no-packaging-tabli/822359/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:12.154Z"
-    },
-    "16b46344d10a21de89664678fac93aa18d76e1e986fc0deed657f3faf70d10f7": {
-      "url": "https://www.fooddive.com/news/howgood-sweep-partner-to-track-carbon-footprint-of-food-agriculture-products/822233/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:13.986Z"
-    },
-    "bb44dd5f5d3a72175d66efbd34bdc31bf03bef9022b185c962683c4c1fe67db8": {
-      "url": "https://www.fooddive.com/news/brownie-brittle-owner-buys-meat-snack-maker-tillamook-country-smoker/822285/",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:15.597Z"
-    },
-    "482d15230bbc76a69c146da0b02cc663b4a840f2420bfc8e6cdaef20c53dc208": {
-      "url": "https://www.bevnet.com/news/2026/taste-radio-how-mooala-built-a-multi-million-dollar-brand-by-keeping-it-simple",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:19.494Z"
-    },
-    "c8aad202488899a6fd23f7b223bf2871e8619434b8a29f85ea5a154a2244282b": {
-      "url": "https://www.bevnet.com/news/2026/distribution-guru-heads-to-sprouts-maizly-adds-harris-teeter",
-      "date": "2026-06-09",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-06-16T23:47:21.928Z"
     },
     "d7fb11a746d245b641fb687846b004693060fa0a9fe801d9da8f8cfd14d45e12": {
       "url": "https://www.bevnet.com/news/2026/hoplarks-refresh-aims-to-boost-discovery-across-channels",
@@ -2782,6 +2550,280 @@
     },
     "3a4cd4061b229294abd51be66e2b130c957971002a25e5c651004b87c568e452": {
       "url": "https://doi.org/10.1038/s44220-026-00648-y",
+      "date": "2026-06-16",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "fdc4fdd06533104132f5822722f8d88200b2c8f990dd57d31e660f638b2bbbac": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/16/4-ways-food-brands-can-win-in-chinas-conscious-indulgence-era/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:50:42.419Z"
+    },
+    "b905e24c3f017e92ee4af4f4bf0187afb66239f41461f6fdb472ba75436406aa": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/13/triple-threat-japans-sustainable-diet-challenged-by-modern-habits-study-finds/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:50:44.263Z"
+    },
+    "52ebbd3344e96348c66dade3be91fceb4c481f9b40e4f4424fd0c2a806904c07": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/16/growth-asia-summit-2026-enjoy-30-discount-until-jun-18/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:50:46.334Z"
+    },
+    "7c85b0c0250eab6ce7f3641a9e9d0d00d44625c5a7b304ec0dc2fd35ab3b8148": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/06/12/uganda-ebola-crisis-coffee-trade-risk-offset-by-global-supply-boom/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:50:48.218Z"
+    },
+    "88ae5fd92c20e01f150b0fb05786f271f8ddadcb9f7690bf48e62dbc493ba723": {
+      "url": "https://www.foodnavigator-asia.com/News/Promotional-features/probiotics-support-active-lifestyles-and-performance/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:50:51.167Z"
+    },
+    "e914d1ca55b1c6fa7610b7692acf2ce32cb42c4d3650ab56b014accc9b09c099": {
+      "url": "https://www.foodnavigator-asia.com/News/Promotional-features/usdec-insights-into-growing-dairy-protein-market-in-southeast-asia/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:50:53.231Z"
+    },
+    "2c2b0f2bf861e7c7e446d7e6a984e4208726e2b5497cc6e6d907a0811d7e24d9": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/16/iran-us-peace-deal-impact-on-food-sector/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:01.984Z"
+    },
+    "8acd12996bec3e14ae49fcd6b930bebe98822d2d020f63b57f6dad4281f5a922": {
+      "url": "https://www.beveragedaily.com/Article/2026/06/15/nestle-usa-eliminates-artificial-colors-as-part-of-broader-reformulation-overhaul/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "4f177a1e700cbefc6dbd7ce691d04588c5079e038da38fb0746e571d5452f1ee": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/New-trends-in-the-RTD-coffee-category/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:20.309Z"
+    },
+    "50891b0d53ae0501ffe393bed8d1d490f32b658aa6914f367f773d09a3e68465": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/bottle-briefing-canihan-family-winery-with-patrick-schmitt-mw/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:23.962Z"
+    },
+    "eb89e1270c1749273f65382a15b5212cab1f56a417962f0a1914b29088d64f07": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/appetite-for-us-fine-wine-grows/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:25.771Z"
+    },
+    "304a5cb2f9e826b9e0fc8291c7b3448b99935033f6fa0c45a36484d57ac34746": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/chateau-petit-village-unveils-its-new-relationship-with-la-place-de-bordeaux/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:27.699Z"
+    },
+    "6cd0acf15870121c2d65bc8f59085fb614b1670ae9be6f4eb51aa0999c02ba83": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/chance-clean-cider-raises-funds-to-boost-next-stage-of-expansion/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:30.569Z"
+    },
+    "77731a4436db91bbf04a77d860c6766289cab5feb846772a3b66afc8fb4b1e6c": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/the-first-album-inspired-by-the-production-of-vini-dabruzzo-has-now-launched/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:33.555Z"
+    },
+    "89261f415565b42fe6d3e85ff00ede0772eb878a5862bb276cf065cd4fc39b46": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/zachys-to-auction-staggering-cellar-of-new-yorks-most-historic-italian-restaurant/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:35.495Z"
+    },
+    "e1cf9e07d2986dfe58b38924dfcb9f724ddbfda0da7477ac779e5e88ea15d191": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/global-wine-tourism-to-hit-us138-4bn-by-2033/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:37.750Z"
+    },
+    "4559b7ab641ac5e9833cc8b178bcb7544b1549086caaf25ace7e99946b0da1f7": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/bar-serves-cocktails-disguised-as-pints-for-football-fans/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:40.036Z"
+    },
+    "d180058aac01959e4e3a9c2283fad61a09c8f32d6ee4d78cfe1becdeffc84e92": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/is-iron-maiden-releasing-a-west-coast-ipa-with-lagunitas-an-evolution-for-trooper/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:42.072Z"
+    },
+    "c82a4ddf4346ec4b1ccba612475a36e53a968edf3f41661c8beb0ba9ff84adbb": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/the-italian-region-selling-rose-to-the-french/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:43.893Z"
+    },
+    "74e189241b4cff074d20c5f4c1eeb2caeea8ea904f6c6fccd3466fade513fbad": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/digital-influence-rises-but-consumers-still-trust-people-over-ai-study-finds/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:46.257Z"
+    },
+    "0b4e525fdf503af15c719fff80d2218227bd952aaa8f084156cfa8403205ba9b": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/china-is-rebuilding-its-on-trade-around-a-new-kind-of-drinker/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:49.390Z"
+    },
+    "1e85d9ded54f1cb469e40c949feb4b78d683d1f02fc02c64d63b9f0d4adf0081": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/spains-taste-of-sunshine-grape-proves-its-value/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:53.092Z"
+    },
+    "2dcbf754e07b5e10d11b29f6b147a09148f4e97a07407a7c4b0fd32ec36973e4": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/damien-hirst-partners-with-chateau-la-coste-on-rose-brand/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:55.061Z"
+    },
+    "d45911c7043f79840ddbedc44de62134dc89cebcb2c6ff0fd97d4d98c11724ed": {
+      "url": "https://www.fooddive.com/news/danone-sues-chobani-high-protein-yogurt-claims-oikos/823033/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:51:57.714Z"
+    },
+    "f83288296f95c06a761a6c2d52db2122cb5459b1fdf4ca3037a8a58bdaf26f9c": {
+      "url": "https://www.fooddive.com/news/red-bull-coca-cola-celsius-executive-CEO-zevia/822996/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "589efb0d24bf339aab75d78fa872fc78f4ade44ac7cb9b969165937d2c522f1d": {
+      "url": "https://www.fooddive.com/news/no-toxics-in-food-packaging-act-2026/822803/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:52:14.833Z"
+    },
+    "df3968924015f921d0fec8385b41da3033947b6903133dcfa95ea77fcc176db9": {
+      "url": "https://www.fooddive.com/news/soup-campbells-banza-partner-gluten-free-condensed/822629/",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:52:16.667Z"
+    },
+    "fa313e77dd034da161c22f102c785be5695fd72bf620c77a9a39923e412f7e34": {
+      "url": "https://www.bevnet.com/news/2026/meet-the-investor-elly-truesdell-of-new-fare-partners",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:52:20.275Z"
+    },
+    "0284eb4ac52bcd3cb7678d6406bdc4427f828c6c4112f86b90ae3f459cbb233b": {
+      "url": "https://www.bevnet.com/news/2026/gts-cheribundi-team-up-for-shirley-temple-flavored-lto",
+      "date": "2026-06-16",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "44246aa9425b2ffe119e997f7a3498a51d4be607a1dce667cba4f2fdcbe45789": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26354940v1?rss=1",
+      "date": "2026-06-16",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:52:38.598Z"
+    },
+    "061e2a99a80a823eaa2ce5b5a93cb43830f552ff2a7e8f96624f968f5c655c62": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.12.26354984v1?rss=1",
+      "date": "2026-06-16",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "37ede89a9c0499a7862990d5517ac933aa4e4d81338b4398511706c6ec36716f": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.13.26355592v1?rss=1",
+      "date": "2026-06-16",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:52:56.991Z"
+    },
+    "26abfad906d0af8118c35ac7a4f18856c3be31a77caaa8abb2d43a667976ac28": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26355224v1?rss=1",
+      "date": "2026-06-16",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-23T23:52:59.258Z"
+    },
+    "231a9585ffa66b6f2af34be2f54643c6e7874f8bb289a9432f522b6cad055681": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.06.26354927v1?rss=1",
+      "date": "2026-06-16",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "eaa8d8634cc3c9a0e347034e023e5e30672c280635493dbf866d37746b8a53d9": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.14.732123v1?rss=1",
       "date": "2026-06-16",
       "rubrik": "science",
       "score": 9,
