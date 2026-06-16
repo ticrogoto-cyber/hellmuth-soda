@@ -127,27 +127,17 @@ ${body}
 `;
 }
 
-// ---- Sitemap (statische Seiten erhalten, News-URLs auffrischen) -----------
+// ---- Sitemap (statische Seiten immer mit heutigem lastmod, News je Item) ---
 
 function buildSitemapXml(all) {
-  const path = join(ROOT, 'sitemap.xml');
-  // Vorhandene statische <url>-Blöcke (alles ohne /news/) unverändert übernehmen,
-  // damit handgepflegte Einträge nicht verloren gehen.
-  let kept = null;
-  try {
-    const existing = readFileSync(path, 'utf8');
-    kept = (existing.match(/<url>[\s\S]*?<\/url>/g) || []).filter((b) => !b.includes('/news/'));
-  } catch {
-    kept = null;
-  }
-  if (!kept || !kept.length) {
-    // Fallback: statische Seiten aus der Konstante erzeugen.
-    const today = isoDate();
-    kept = STATIC_PAGES.map(
-      (p) =>
-        `<url>\n    <loc>${SITE}${p.path}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`
-    );
-  }
+  // Statische Seiten: bei jedem Lauf mit heutigem lastmod neu erzeugen, damit
+  // Google ein frisches Crawl-Signal sieht und die Werte nicht eingefroren
+  // bleiben. Quelle der Wahrheit ist STATIC_PAGES.
+  const today = isoDate();
+  const staticBlocks = STATIC_PAGES.map(
+    (p) =>
+      `<url>\n    <loc>${SITE}${p.path}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${p.changefreq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>`
+  );
   const newsBlocks = [];
   for (const rubrik of RUBRIKEN) {
     for (const rec of all[rubrik]) {
@@ -157,7 +147,7 @@ function buildSitemapXml(all) {
       );
     }
   }
-  const all2 = [...kept, ...newsBlocks].map((b) => '  ' + b).join('\n');
+  const all2 = [...staticBlocks, ...newsBlocks].map((b) => '  ' + b).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all2}\n</urlset>\n`;
 }
 
