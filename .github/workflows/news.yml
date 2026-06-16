@@ -130,6 +130,11 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:${{ github.ref_name }}; then
               echo "Gepusht (Versuch $attempt)."
+              # Google Sitemap-Ping (best-effort, kein Abbruch bei Fehler).
+              # Hinweis: Der Endpoint wurde von Google im Juni 2023
+              # offiziell abgeschaltet; der Call schadet aber nicht.
+              curl -sS -m 10 -o /dev/null -w "Sitemap-Ping HTTP %{http_code}\n" \
+                "https://www.google.com/ping?sitemap=https://hellmuth-soda.de/sitemap.xml" || true
               exit 0
             fi
             echo "Push abgelehnt, rebase auf origin/${{ github.ref_name }} und erneut (Versuch $attempt)."
