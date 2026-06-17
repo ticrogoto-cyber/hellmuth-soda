@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-16T23:53:26.956Z",
+  "generated": "2026-06-17T23:55:12.039Z",
   "hellmuth": [
+    {
+      "title": "Alkoholfreies Bier ist kein Ausstieg",
+      "date": "2026-06-17",
+      "created": "2026-06-17T23:54:26.360Z",
+      "slug": "alkoholfreies-bier-ist-kein-ausstieg",
+      "rubrik": "hellmuth",
+      "lead": "94 Prozent der Konsumenten alkoholfreier Biere trinken weiterhin Alkohol.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/94-of-alcohol-free-beer-drinkers-also-consume-booze/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/"
+    },
+    {
+      "title": "Enzyme als Stillschweigevereinbarung der Getränkeindustrie",
+      "date": "2026-06-17",
+      "created": "2026-06-17T23:53:51.105Z",
+      "slug": "enzyme-als-stillschweigevereinbarung-der-getrankeindustrie",
+      "rubrik": "hellmuth",
+      "lead": "Was die Branche als technologische Raffinesse feiert, ist die Industrialisierung der Abkürzung.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/16/enzyme-solutions-to-upfs-in-beer-brewing-alcohol-free-coffee/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/"
+    },
+    {
+      "title": "Klares Whey frisst den Markt leer",
+      "date": "2026-06-17",
+      "created": "2026-06-17T23:53:34.748Z",
+      "slug": "klares-whey-frisst-den-markt-leer",
+      "rubrik": "hellmuth",
+      "lead": "Funktionsgetränke mit Whey-Protein-Isolat treiben eine Nachfrage, der die Rohstoffbasis nicht mehr hinterherkommt.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/17/clear-whey-drives-functional-drinks-as-wpi-supply-tightens/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/klares-whey-frisst-den-markt-leer/"
+    },
     {
       "title": "Kombucha lernt Kindergeburtstag",
       "date": "2026-06-16",
@@ -522,6 +564,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Im Thalamus liegt die Rückfallstelle",
+      "date": "2026-06-17",
+      "created": "2026-06-17T23:55:12.012Z",
+      "slug": "im-thalamus-liegt-die-ruckfallstelle",
+      "rubrik": "science",
+      "lead": "Wenn die Expositionstherapie versagt, liegt der Fehler tiefer als bislang adressiert.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355743v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/im-thalamus-liegt-die-ruckfallstelle/"
+    },
+    {
+      "title": "Säuglings-EEG sortiert Kinder Jahre vor der Diagnose",
+      "date": "2026-06-17",
+      "created": "2026-06-17T23:54:56.247Z",
+      "slug": "sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus medRxiv koppelt neurophysiologische Profile aus dem siebten Lebensmonat an Temperament und psychische Auffälligkeiten mit sieben.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355713v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose/"
+    },
+    {
+      "title": "Schizophrenie und bipolare Störung im fMRT",
+      "date": "2026-06-17",
+      "created": "2026-06-17T23:54:43.240Z",
+      "slug": "schizophrenie-und-bipolare-storung-im-fmrt",
+      "rubrik": "science",
+      "lead": "Ein Preprint testet, ob Ruhezustands-Hirnscans zwei Diagnosen trennen können, die klinisch ineinanderfließen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.16.26355608v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-und-bipolare-storung-im-fmrt/"
+    },
     {
       "title": "Genie und Psychose teilen sich die Schaltung",
       "date": "2026-06-16",
