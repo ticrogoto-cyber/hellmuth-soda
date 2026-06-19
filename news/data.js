@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-19T00:08:04.731Z",
+  "generated": "2026-06-19T23:21:41.075Z",
   "hellmuth": [
+    {
+      "title": "BOSS Coffee dockt in Vietnam an den Energy-Drink-Markt an",
+      "date": "2026-06-19",
+      "created": "2026-06-19T23:18:55.841Z",
+      "slug": "boss-coffee-dockt-in-vietnam-an-den-energy-drink-markt-an",
+      "rubrik": "hellmuth",
+      "lead": "Suntory PepsiCo verschiebt seine Kaffeemarke in das Regal, in dem Koffein nicht mehr getrunken, sondern dosiert wird.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/20/boss-coffee-expands-into-energy-drink-in-vietnam/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/boss-coffee-dockt-in-vietnam-an-den-energy-drink-markt-an/"
+    },
     {
       "title": "Alkoholfreies Bier ist kein Ausstieg",
       "date": "2026-06-17",
@@ -564,6 +578,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Zwangsstörung als Attraktorfalle im Rattenhirn",
+      "date": "2026-06-19",
+      "created": "2026-06-19T23:21:41.047Z",
+      "slug": "zwangsstorung-als-attraktorfalle-im-rattenhirn",
+      "rubrik": "science",
+      "lead": "Ein Preprint bringt die Zwangsstörung von der Symptomebene in die Schaltungsebene und liest sie als Verlust neuronaler Beweglichkeit.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.730877v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwangsstorung-als-attraktorfalle-im-rattenhirn/"
+    },
+    {
+      "title": "Die Pille greift in die Stressachse ein, regional getrennt",
+      "date": "2026-06-19",
+      "created": "2026-06-19T23:21:25.885Z",
+      "slug": "die-pille-greift-in-die-stressachse-ein-regional-getrennt",
+      "rubrik": "science",
+      "lead": "Ein Mausmodell zur kombinierten oralen Kontrazeption zeigt, dass synthetisches Östrogen plus Levonorgestrel die Glucocorticoid-Rückkopplung im Gehirn umbaut.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.731933v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/die-pille-greift-in-die-stressachse-ein-regional-getrennt/"
+    },
+    {
+      "title": "Hemmung als Statik des Gehirns",
+      "date": "2026-06-19",
+      "created": "2026-06-19T23:21:06.677Z",
+      "slug": "hemmung-als-statik-des-gehirns",
+      "rubrik": "science",
+      "lead": "Resilienz neuronaler Schaltkreise gegen Degeneration hängt nicht an der Menge erhaltener Verbindungen, sondern an der Position der hemmenden Neuronen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732346v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/hemmung-als-statik-des-gehirns/"
+    },
     {
       "title": "Kindheitstrauma verkabelt das Gehirn neu",
       "date": "2026-06-19",
