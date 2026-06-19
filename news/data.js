@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-17T23:55:12.039Z",
+  "generated": "2026-06-19T00:08:04.731Z",
   "hellmuth": [
     {
       "title": "Alkoholfreies Bier ist kein Ausstieg",
@@ -564,6 +564,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Kindheitstrauma verkabelt das Gehirn neu",
+      "date": "2026-06-19",
+      "created": "2026-06-19T00:08:04.703Z",
+      "slug": "kindheitstrauma-verkabelt-das-gehirn-neu",
+      "rubrik": "science",
+      "lead": "Frühe Gewalt verschiebt die Schaltzentrale der Persönlichkeit von der Kognition in die Limbik.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26354444v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kindheitstrauma-verkabelt-das-gehirn-neu/"
+    },
+    {
+      "title": "Hyperbolisches Ausschleichen ruht auf weicherem Boden als gedacht",
+      "date": "2026-06-19",
+      "created": "2026-06-19T00:07:49.928Z",
+      "slug": "hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht",
+      "rubrik": "science",
+      "lead": "Ein medRxiv-Preprint rechnet vor, dass die Kurve, an der sich das schonende Absetzen von SSRI ausrichtet, nicht die entscheidende ist.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355019v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht/"
+    },
+    {
+      "title": "Predictive Processing zerfällt unter dem Faktoranalyse-Skalpell",
+      "date": "2026-06-19",
+      "created": "2026-06-19T00:07:34.779Z",
+      "slug": "predictive-processing-zerfallt-unter-dem-faktoranalyse-skalpell",
+      "rubrik": "science",
+      "lead": "Die Annahme, dass eine einzige Größe »Vorhersageverarbeitung« über Aufgaben hinweg messbar sei, hält der ersten ernsthaften Prüfung nicht stand.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26354804v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/predictive-processing-zerfallt-unter-dem-faktoranalyse-skalpell/"
+    },
     {
       "title": "Im Thalamus liegt die Rückfallstelle",
       "date": "2026-06-17",
