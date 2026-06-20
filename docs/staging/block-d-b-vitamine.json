@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Vitamin B1 (Thiamin)",
+    "slug": "vitamin-b1-thiamin",
+    "szenario": "sonderfall",
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Wichtiges Nerven-Vitamin für Energie und Konzentration. Klassiker im B-Komplex, deckt den Tagesbedarf, hilft bei Müdigkeit, sorgt für starke Nerven und einen wachen Kopf.«",
+    "wirkung": "Thiamin ist Cofaktor der Pyruvatdehydrogenase und der Transketolase. Ohne diese beiden Enzyme stockt der Glukoseabbau und die Pentosephosphatachse für NADPH und Ribose bricht ein. Der Mangel heißt Beri-Beri und beschreibt seit dem neunzehnten Jahrhundert Polyneuropathie, Herzinsuffizienz und Wernicke-Enzephalopathie. Verdikt: kein Wellness-Vitamin, sondern ein Bauteil der Energiegewinnung.\n\nGefährdet sind Alkoholiker, ältere Erwachsene und Menschen mit hochkohlenhydrathaltiger Industriekost. Polierter Reis und Weißmehl liefern Glukose ohne den passenden Cofaktor. Müdigkeit, Nervenkribbeln in den Füßen und Konzentrationsabbrüche sind die Frühzeichen, die der Hausarzt selten testet. In der Notaufnahme rettet hochdosiertes Thiamin bei Wernicke-Enzephalopathie Leben, ein etabliertes klinisches Standardprotokoll. Verdikt: real wirksam, real unterschätzt, real lebensrettend.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer morgens drei Tassen trinkt und seine Energie aus Brot und Pasta bezieht, schafft sich den klassischen Thiamin-Mangel selbst. Die fettlösliche Form Benfotiamin umgeht die Resorptionsschwelle und erreicht Nervengewebe besser, eigener Eintrag im Index, Querverweis ausdrücklich. Verdikt: das wasserlösliche Thiamin ist Pflicht, Benfotiamin ist die pharmakologisch saubere Variante für Nervenschäden.",
+    "quellen": ["Morck 1983", "Rapuri 2007", "Sechi 2007 Wernicke-Enzephalopathie", "Lonsdale 2006 Thiamin-Status"],
+    "related_article": null
+  },
+  {
+    "name": "Vitamin B2 (Riboflavin)",
+    "slug": "vitamin-b2-riboflavin",
+    "szenario": 3,
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Energie-Vitamin für Haut, Augen und Stoffwechsel. Macht Schleimhäute geschmeidig, sorgt für rosige Haut und unterstützt die Verwertung der Nahrung. Vegetarier sollten besonders darauf achten.«",
+    "wirkung": "Riboflavin ist die Vorstufe von FAD und FMN, den beiden Coenzymen der mitochondrialen Atmungskette und der Fettsäureoxidation. Ohne FAD läuft Komplex II nicht, ohne FMN steht Komplex I. Der Mangel zeigt sich an Mundwinkelrhagaden, geröteten Augen und einer entzündlich brennenden Zunge. Verdikt: kein dekoratives Hautvitamin, sondern Bauteil der Energieproduktion.\n\nDie überzeugendste klinische Spur führt in die Neurologie. Vierhundert mg Riboflavin täglich senken die Migränefrequenz um etwa fünfzig Prozent, die Datenlage ist robust und mehrfach repliziert. Ein aktueller Status-Report aus dem Jahr 2024 fasst den Befund zusammen. Bei Trägern der MTHFR-Variante spielt B2 zusammen mit Folat und B12 in der Homocysteinregulation, weil das MTHFR-Enzym FAD-abhängig arbeitet. Verdikt: prophylaktisch in der Migränesprechstunde unterbenutzt, in der Methylierung verkettet.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer mit Kopfschmerzen und Müdigkeit zum Espresso greift, neutralisiert das Vitamin, das die Kopfschmerzen verhindern könnte. Riboflavin färbt Urin neon-gelb, ein harmloser Marker und gleichzeitig der einzige sichtbare Beleg, dass etwas resorbiert wurde. Verdikt: billig, klinisch belegt, im Markt unterdosiert.",
+    "quellen": ["Morck 1983", "Rapuri 2007", "Schoenen 1998 Riboflavin Migräne 400 mg", "Mariwalla 2024 Status-Report", "Boehnke 2004"],
+    "related_article": null
+  },
+  {
+    "name": "Vitamin B5 (Pantothensäure)",
+    "slug": "vitamin-b5-pantothensaeure",
+    "szenario": 3,
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Das Schönheitsvitamin für Haut, Haar und Wundheilung. Dexpanthenol in der Salbe, Pantothensäure in der Kapsel, der Klassiker für glatte Haut und kräftige Nägel.«",
+    "wirkung": "Pantothensäure ist die Vorstufe von Coenzym A, dem zentralen Träger von Acetyl- und Acylresten im Stoffwechsel. Ohne CoA stoppt die Fettsäuresynthese, die Acetylcholin-Bildung und die Produktion von Cortisol, Aldosteron und Geschlechtshormonen. Verdikt: kein kosmetischer Posten, sondern Knotenpunkt der Acetyl-Biochemie.\n\nDexpanthenol als Vorstufe in der topischen Anwendung beschleunigt die epitheliale Reepithelisierung nach Verbrennungen, Operationen und Schleimhautläsionen. Daten in Dermatologie und HNO sind solide. Akne-Studien mit oraler Megadosis kursieren seit Jahren, methodisch dünn, schlecht verblindet, Effektstärke fraglich. Klinischer Mangel ist selten und entsteht meist im Rahmen genereller Mangelernährung. Müdigkeit, Brennen in den Füßen und Kopfschmerzen gelten als Frühzeichen. Verdikt: topisch sauber belegt, oral als Beauty-Mittel überverkauft.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer Pantothensäure einnimmt, um nach durchwachten Nächten und vier Tassen Filterkaffee die Haut zu retten, behandelt die falsche Stellschraube. Pantothensäure ist solide, aber kein Wundermittel. Verdikt: in der Wundsalbe gerechtfertigt, im Anti-Aging-Sortiment Marketing.",
+    "quellen": ["Morck 1983", "Rapuri 2007", "Ebner 2002 Dexpanthenol Wundheilung", "Leung 1995 Pantothenat Akne"],
+    "related_article": null
+  },
+  {
+    "name": "Vitamin B6 (P5P)",
+    "slug": "vitamin-b6-p5p",
+    "szenario": 3,
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Nerven-Vitamin für Stimmung und Stoffwechsel. Tagesdosis als Pyridoxin in jeder Drogerie, deckt den Bedarf, gut für PMS und gute Laune.«",
+    "wirkung": "Pyridoxal-5-Phosphat ist die aktive Form von Vitamin B6 und Cofaktor von über hundertfünfzig Enzymen. Es trägt die Synthese von GABA, Serotonin, Dopamin und Noradrenalin, baut Homocystein über die Transsulfurierung ab und reguliert die Hämbiosynthese. Pyridoxin aus dem Drogerieregal muss erst in der Leber zu P5P aktiviert werden, P5P umgeht diesen Schritt direkt. Verdikt: aktive Form für aktive Pharmakologie.\n\nDie VITACOG-Studie zeigte eine Reduktion der Hirnatrophie um dreißig Prozent, wenn B6 zusammen mit Folat und B12 gegeben wird. In den am stärksten betroffenen Regionen erreicht der Effekt bis zu siebzig Prozent. Die Folgearbeit schärfte die Bedingung. Der Effekt tritt nur bei gefülltem Omega-3-Speicher auf. Ohne EPA und DHA verpufft die B-Vitamin-Wirkung, Querverweis zu Omega-3 Eintrag Nummer 177. Verdikt: drei Vitamine plus zwei Fettsäuren halten den Hippocampus zusammen.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer seinen Tag mit Kaffee bestreitet und abends mit Stimmungseinbrüchen kämpft, supplementiert gegen einen Verursacher, den er stündlich nachfüllt. P5P kostet wenig und wirkt direkt. Verdikt: aktiv statt inaktiv, Achse statt Einzelvitamin, Omega-3 als Voraussetzung.",
+    "quellen": ["Smith 2010 VITACOG", "Jerneren 2015 Omega-3 Synergie", "Morck 1983", "Rapuri 2007", "Spinneker 2007 P5P Review"],
+    "related_article": null
+  },
+  {
+    "name": "Vitamin B7 (Biotin)",
+    "slug": "vitamin-b7-biotin",
+    "szenario": 1,
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Das Schönheitsvitamin für volles Haar, starke Nägel und reine Haut. Hochdosis zehntausend Mikrogramm pro Kapsel, der Bestseller in jedem Beauty-Sortiment.«",
+    "wirkung": "Biotin ist Cofaktor von vier Carboxylasen im Fettsäure- und Aminosäurestoffwechsel. Echter Mangel ist sehr selten, der Körper recycelt das Vitamin effizient und die Darmflora produziert es nach. Wer keinen Mangel hat, gewinnt durch zusätzliche Megadosen nichts an Haarwuchs oder Nagelfestigkeit. Verdikt: Mangelmedikament, kein Beautytool.\n\nDie Marketingbasis stützt sich auf Studien an wenigen Patientinnen mit brüchigen Nägeln und unklarer Ausgangslage, kontrolliert und replikationsfähig ist davon wenig. In Hochdosis verfälscht Biotin Schilddrüsen- und Troponinwerte im Labor und kann zu falschen Diagnosen führen, Herzinfarkte werden übersehen, Hashimoto-Befunde verwirft das Labor. Die FDA warnt seit 2017. Verdikt: kosmetische Hoffnung mit diagnostischem Schaden.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent, aber im Fall von Biotin ist das eher akademisch, weil der reale Bedarf gering bleibt. Müdigkeit, Hautschuppen am Haaransatz und Haarausfall sind häufiger Eisen-, Schilddrüsen- oder Eiweißprobleme als Biotin-Mangel. Verdikt: im Schönheitsmarkt überbewertet, in der Differentialdiagnose ein Trojanisches Pferd.",
+    "quellen": ["Morck 1983", "Rapuri 2007", "FDA Safety Communication 2017 Biotin Lab Interference", "Patel 2017 Biotin Hair"],
+    "related_article": null
+  },
+  {
+    "name": "Vitamin B9 (Folat / Methylfolat)",
+    "slug": "vitamin-b9-folat",
+    "szenario": 3,
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Folsäure für die Schwangerschaft und gute Laune. Tagesdosis in der Drogerie, der Standard für Frauen mit Kinderwunsch und für jeden, der seine Nerven schützen will.«",
+    "wirkung": "Folsäure ist die synthetische Form und braucht zwei Aktivierungsschritte über die Dihydrofolatreduktase, bevor sie als 5-Methyltetrahydrofolat in den Methylierungszyklus eintritt. Methylfolat ist die direkt aktive Form. Träger der MTHFR-C677T-Variante aktivieren Folsäure unzureichend und stauen unmetabolisierte Folsäure im Blut, ein eigener Risikoposten bei Folsäure-angereicherten Lebensmitteln. Verdikt: aktive Form statt Vorstufe, besonders bei MTHFR-Polymorphismus.\n\nDie VITACOG-Achse aus Smith 2010 koppelt Folat mit B6 und B12 in der Reduktion der Hirnatrophie um dreißig Prozent, in stark betroffenen Arealen bis zu siebzig Prozent. Jerneren 2015 ergänzt die Bedingung, dass nur bei gefülltem Omega-3-Speicher die Wirkung eintritt, Querverweis zu Omega-3 Eintrag Nummer 177. In der Schwangerschaft senkt Folat die Inzidenz von Neuralrohrdefekten klar belegt. Verdikt: pränatale Pflicht, neurologische Achse, MTHFR-bewusste Form.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Müdigkeit, Glossitis und makrozytäre Anämie sind die Spätzeichen, die sich gut hinter dem morgendlichen Becher verstecken. Methylfolat statt Folsäure, B12 daneben, Omega-3 als Voraussetzung. Verdikt: die Form entscheidet, nicht das Etikett.",
+    "quellen": ["Smith 2010 VITACOG", "Jerneren 2015 Omega-3 Synergie", "Morck 1983", "Rapuri 2007", "Pietrzik 2010 5-MTHF Bioverfügbarkeit", "MRC Vitamin Study 1991 Neuralrohrdefekte"],
+    "related_article": null
+  },
+  {
+    "name": "Vitamin B12 (Methylcobalamin)",
+    "slug": "vitamin-b12-methylcobalamin",
+    "szenario": 3,
+    "kategorie": "Vitamin",
+    "unterkategorie": "Vitamin",
+    "werbung": "»Das Energie-Vitamin gegen Müdigkeit und schwache Nerven. Cyanocobalamin als Tagesdosis im Drogerieregal, der Klassiker für Vegetarier und ältere Menschen.«",
+    "wirkung": "Methylcobalamin ist die aktive Form von B12 und arbeitet direkt im Methylierungszyklus als Cofaktor der Methioninsynthase. Cyanocobalamin ist die synthetische Standardform und muss in der Zelle erst entcyaniert und in Methyl- oder Adenosylcobalamin umgewandelt werden, ein Schritt, den manche Menschen schlecht leisten. Verdikt: aktive Form, weniger Umwege, weniger Cyanid-Last.\n\nVegetarier und Veganer tragen das höchste Mangelrisiko, ältere Menschen folgen wegen abnehmender Magensäure und intrinsischem Faktor. Subakute kombinierte Degeneration des Rückenmarks bei lang unbehandeltem Mangel ist die schwerste Folge, irreversibel ab einem gewissen Punkt. Müdigkeit, Zungenbrennen, Taubheit in den Füßen und Konzentrationsabbrüche sind die Frühzeichen. Die VITACOG-Achse aus Smith 2010 koppelt B12 mit B6 und Folat zur Reduktion der Hirnatrophie um dreißig Prozent. Verdikt: neurologisch ernsthaft, nicht kosmetisch.\n\nJerneren 2015 zeigte, dass die VITACOG-Wirkung nur bei ausreichendem Omega-3-Status auftritt, Querverweis zu Omega-3 Eintrag Nummer 177. Kaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent, gleichzeitig reduziert Magensäureblockade durch Protonenpumpenhemmer die Resorption zusätzlich. Methylcobalamin sublingual oder als Injektion umgeht das Problem. Verdikt: aktive Form, Achse statt Solo, Omega-3 als Voraussetzung.",
+    "quellen": ["Smith 2010 VITACOG", "Jerneren 2015 Omega-3 Synergie", "Morck 1983", "Rapuri 2007", "Stabler 2013 Vitamin B12 Deficiency NEJM", "Healton 1991 SCD Spinal Cord"],
+    "related_article": null
+  }
+]
