@@ -18,26 +18,20 @@
     '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"/></svg>';
   const SVG_SHARE =
     '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z"/></svg>';
-  const SVG_EYE =
-    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z"/></svg>';
 
   // ID-Schema: zutaten/<slug> — landet so im Worker-KV und in
-  // localStorage-Keys (hl-liked:zutaten/<slug>, hl-viewed:zutaten/<slug>).
-  // Feature-Flag-Spiegel zu render.mjs:SHOW_VIEW_COUNT. Worker-Zählung
-  // läuft trotzdem (counters.view wird unten weiter gepingt), nur das
-  // Markup wird unterdrückt. Toggle als One-Liner.
+  // localStorage-Keys (hl-liked:zutaten/<slug>). Aufrufe-Anzeige
+  // wurde aus Overlay und Detailseiten entfernt; Worker-Zählung
+  // (counters.view) läuft im Hintergrund weiter, aber wird nirgends
+  // mehr gerendert.
   const SHOW_VIEW_COUNT = false;
 
   const actionsBarHtml = (slug, name) => {
     const id = `zutaten/${slug}`;
-    const viewsSpan = SHOW_VIEW_COUNT
-      ? `<span class="zutaten-act zutaten-views" hidden>${SVG_EYE}<span class="zutaten-views-count"></span> Aufrufe</span>`
-      : '';
     return `
       <div class="zutaten-actions" data-news-id="${id}">
         <button type="button" class="zutaten-act zutaten-like" aria-pressed="false" aria-label="Gefällt mir"><span class="zutaten-like-icon">${SVG_HEART_OUTLINE}</span><span class="zutaten-like-count"></span></button>
         <button type="button" class="zutaten-act zutaten-share" aria-label="Teilen">${SVG_SHARE}<span class="zutaten-share-label">Teilen</span></button>
-        ${viewsSpan}
       </div>`;
   };
 
@@ -163,8 +157,6 @@
     const likeIcon     = bar.querySelector('.zutaten-like-icon');
     const likeCountEl  = bar.querySelector('.zutaten-like-count');
     const shareBtn     = bar.querySelector('.zutaten-share');
-    const viewsWrap    = bar.querySelector('.zutaten-views');
-    const viewsCountEl = bar.querySelector('.zutaten-views-count');
 
     const likedKey  = 'hl-liked:'  + id;
     const viewedKey = 'hl-viewed:' + id;
@@ -183,22 +175,17 @@
 
     let counted = false;
     try { counted = sessionStorage.getItem(viewedKey) === '1'; } catch {}
-    const showView = (n) => {
-      if (!viewsWrap || !viewsCountEl) return;
-      const t = fmt(n);
-      if (t) { viewsCountEl.textContent = t; viewsWrap.hidden = false; }
-    };
 
     if (window.Counters) {
+      // Worker-View-Zählung im Hintergrund (fire-and-forget). Anzeige
+      // entfernt — Counter läuft nur noch für Aggregations-Auswertung.
       if (!counted) {
-        window.Counters.view(id).then((r) => {
+        window.Counters.view(id).then(() => {
           try { sessionStorage.setItem(viewedKey, '1'); } catch {}
-          if (r && typeof r.views === 'number') showView(r.views);
         });
       }
-      window.Counters.getCounts([id]).then(({ views, likes }) => {
+      window.Counters.getCounts([id]).then(({ likes }) => {
         if (likeCountEl) likeCountEl.textContent = fmt(likes[id]);
-        if (counted) showView(views[id]);
       });
     }
 
