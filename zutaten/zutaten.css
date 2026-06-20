@@ -128,8 +128,16 @@
   overflow: hidden;
 }
 
+/* Hover-Feedback, einheitlich für alle vier Verdikt-Stufen.
+   Border wird sichtbar dunkler im eigenen Hue, plus 1px Lift.
+   Stufenspezifischer Hue weiter unten pro Selektor. */
+.zutaten-tile {
+  transition: background 0.15s ease, border-color 220ms ease-out, transform 220ms ease-out, box-shadow 220ms ease-out;
+}
+
 .zutaten-tile:hover {
-  border-color: var(--zutaten-text-color);
+  border-color: hsl(40, 18%, 72%);
+  transform: translateY(-1px);
 }
 
 /* Verdikt-Hierarchie, vier Stufen, oben schlägt unten:
@@ -155,6 +163,36 @@
   background: var(--zutaten-gold-bg);
   border-color: var(--zutaten-gold-border);
   box-shadow: var(--zutaten-gold-glow);
+  animation: zutaten-gold-breath 6s ease-in-out infinite;
+}
+
+/* Stufenspezifische Hover-Borders. Gleiches Lift, dunklerer Hue im
+   jeweils eigenen Farbraum. Reihenfolge mirror der Hierarchie. */
+.zutaten-tile[data-szenario="2"]:hover,
+.zutaten-tile[data-szenario="3"]:hover {
+  border-color: hsl(140, 25%, 62%);
+}
+
+.zutaten-tile[data-szenario="1"]:hover {
+  border-color: hsl(0, 50%, 78%);
+}
+
+.zutaten-tile[data-featured="true"]:hover {
+  border-color: hsl(42, 55%, 60%);
+  box-shadow: 0 0 28px hsla(42, 75%, 62%, 0.6), inset 0 0 0 1px hsla(42, 65%, 70%, 0.55);
+  animation-play-state: paused;
+}
+
+/* Permanente Gold-Atmung. Sechs-Sekunden-Zyklus, Opazität pendelt
+   zwischen 0.32 und 0.48, kein Skalieren, nur der Schatten atmet —
+   peripher als »lebendig« wahrgenommen, direkt angesehen unauffällig. */
+@keyframes zutaten-gold-breath {
+  0%, 100% {
+    box-shadow: 0 0 18px hsla(42, 70%, 65%, 0.32), inset 0 0 0 1px hsla(42, 60%, 75%, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 24px hsla(42, 70%, 65%, 0.48), inset 0 0 0 1px hsla(42, 60%, 75%, 0.5);
+  }
 }
 
 /* Aktiver Zustand: invertiert + farbiger 2px Streifen am Boden */
