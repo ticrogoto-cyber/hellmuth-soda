@@ -23,13 +23,21 @@
 
   // ID-Schema: zutaten/<slug> — landet so im Worker-KV und in
   // localStorage-Keys (hl-liked:zutaten/<slug>, hl-viewed:zutaten/<slug>).
+  // Feature-Flag-Spiegel zu render.mjs:SHOW_VIEW_COUNT. Worker-Zählung
+  // läuft trotzdem (counters.view wird unten weiter gepingt), nur das
+  // Markup wird unterdrückt. Toggle als One-Liner.
+  const SHOW_VIEW_COUNT = false;
+
   const actionsBarHtml = (slug, name) => {
     const id = `zutaten/${slug}`;
+    const viewsSpan = SHOW_VIEW_COUNT
+      ? `<span class="zutaten-act zutaten-views" hidden>${SVG_EYE}<span class="zutaten-views-count"></span> Aufrufe</span>`
+      : '';
     return `
       <div class="zutaten-actions" data-news-id="${id}">
         <button type="button" class="zutaten-act zutaten-like" aria-pressed="false" aria-label="Gefällt mir"><span class="zutaten-like-icon">${SVG_HEART_OUTLINE}</span><span class="zutaten-like-count"></span></button>
         <button type="button" class="zutaten-act zutaten-share" aria-label="Teilen">${SVG_SHARE}<span class="zutaten-share-label">Teilen</span></button>
-        <span class="zutaten-act zutaten-views" hidden>${SVG_EYE}<span class="zutaten-views-count"></span> Aufrufe</span>
+        ${viewsSpan}
       </div>`;
   };
 
