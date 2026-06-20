@@ -648,9 +648,11 @@ function readIcons() {
  */
 function tileHtmlForListing(entry, iconFor) {
   const sz = String(entry.szenario || '');
+  const fullName = esc(entry.name);
   const attrs = [
     `class="zutaten-tile"`,
     `data-slug="${esc(entry.slug)}"`,
+    `data-name="${fullName}"`,
     `data-kategorie="${esc(entry.kategorie || '')}"`,
   ];
   if (sz) attrs.push(`data-szenario="${esc(sz)}"`);
@@ -658,7 +660,7 @@ function tileHtmlForListing(entry, iconFor) {
   attrs.push(`aria-pressed="false"`);
   const name = esc(entry.shortName || entry.name);
   const cat = esc((entry.unterkategorie || entry.kategorie || '').toUpperCase());
-  return `<li data-slug="${esc(entry.slug)}"><button type="button" ${attrs.join(' ')}><span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span><span class="zutaten-tile-name">${name}</span><span class="zutaten-tile-cat">${cat}</span></button></li>`;
+  return `<li data-slug="${esc(entry.slug)}" data-name="${fullName}" data-kategorie="${esc(entry.kategorie || '')}"><button type="button" ${attrs.join(' ')}><span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span><span class="zutaten-tile-name">${name}</span><span class="zutaten-tile-cat">${cat}</span></button></li>`;
 }
 
 /**
@@ -675,7 +677,31 @@ function buildZutatenIndex(entries) {
   const tiles = entries.map(e => tileHtmlForListing(e, iconFor)).join('\n      ');
   const re = /(<ul class="zutaten-grid"[^>]*>)[\s\S]*?(<\/ul>)/;
   if (!re.test(template)) throw new Error('buildZutatenIndex: grid <ul> not found in template');
-  const filled = template.replace(re, `$1\n      ${tiles}\n    $2`);
+  let filled = template.replace(re, `$1\n      ${tiles}\n    $2`);
+
+  // JSON-LD ItemList: 168 Substanzen als nummerierte Liste mit URL + Name,
+  // damit Crawler die Listing-Seite als strukturierte Sammlung interpretieren.
+  // Ersetzt den Platzhalter-Kommentar SUBSTANCE_LISTING_JSON_LD im <head>.
+  const itemList = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Hellmuth-Soda Substanz-Index',
+    description: 'Was die Industrie verspricht, was die Substanz tatsächlich tut.',
+    numberOfItems: entries.length,
+    itemListElement: entries.map((e, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE}/zutaten/${e.slug}/`,
+      name: e.name,
+    })),
+  };
+  const jsonLdTag = `<script type="application/ld+json">${JSON.stringify(itemList)}</script>`;
+  // Idempotent: matcht entweder den Marker-Kommentar (Erstlauf) oder das
+  // bereits gerenderte Script-Tag (Folgeläufe).
+  const jsonLdRe = /(?:<!-- SUBSTANCE_LISTING_JSON_LD -->|<script type="application\/ld\+json">\{"@context":"https:\/\/schema\.org","@type":"ItemList"[\s\S]*?<\/script>)/;
+  if (!jsonLdRe.test(filled)) throw new Error('buildZutatenIndex: JSON-LD slot not found');
+  filled = filled.replace(jsonLdRe, jsonLdTag);
+
   writeFileSync(indexPath, filled, 'utf8');
 }
 

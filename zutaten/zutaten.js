@@ -83,23 +83,29 @@
     return li;
   };
 
+  // Filter-Logik: SSG hat alle 168 Kacheln als <li data-kategorie=""> im DOM.
+  // Beim Filter-Click toggeln wir nur hidden auf den nicht-matchenden <li>s,
+  // statt das Grid neu zu rendern. Damit bleibt der initiale Crawler-Snapshot
+  // konsistent und JS hängt nur Sichtbarkeit dran.
   const renderGrid = (filterKey) => {
-    // Detail entfernen, wenn vorhanden
     const oldDetail = gridEl.querySelector('.zutaten-detail-row');
     if (oldDetail) oldDetail.remove();
+    const oldEmpty = gridEl.querySelector('.zutaten-empty');
+    if (oldEmpty) oldEmpty.remove();
 
-    gridEl.innerHTML = '';
-    const filtered = filterKey === 'all'
-      ? entries
-      : entries.filter(e => e.kategorie === filterKey);
-    if (filtered.length === 0) {
+    const items = gridEl.querySelectorAll('li[data-slug]');
+    let visible = 0;
+    items.forEach(li => {
+      const match = filterKey === 'all' || li.dataset.kategorie === filterKey;
+      li.hidden = !match;
+      if (match) visible += 1;
+    });
+    if (visible === 0) {
       const li = document.createElement('li');
       li.className = 'zutaten-empty';
       li.textContent = 'Keine Einträge in dieser Rubrik.';
       gridEl.appendChild(li);
-      return;
     }
-    filtered.forEach(e => gridEl.appendChild(tile(e)));
   };
 
   // ── Detail-Bereich, inline nach der Reihe der geklickten Kachel ────
