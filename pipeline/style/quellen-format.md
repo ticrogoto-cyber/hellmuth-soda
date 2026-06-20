@@ -139,3 +139,36 @@ Audit-Datei: `docs/staging/quellen-format-audit.md` (Stand 2026-06-20).
 
 Folge-Welle: Diese 11 Slugs manuell auf das Soll-Format zu bringen,
 bevor neue Einträge das Muster reproduzieren.
+
+## V. Werbung-Feld ohne umschließende Guillemets
+
+Das `werbung`-Feld in `substances.js` enthält **keine umschließenden
+Guillemets** `»…«`. Die Renderer-Feldbeschriftung »Werbung:« markiert
+den Inhalt bereits als externe Marketing-Position. Doppelte Markierung
+durch Guillemets ist redundant.
+
+### Regel
+
+- Werbung-Text beginnt ohne `»` und endet ohne `«`.
+- Guillemets **innerhalb** des Werbung-Inhalts bleiben erlaubt:
+  Zitat-im-Zitat, Markennamen, ironisch markierte Marketing-Floskeln.
+
+### Beispiele
+
+- Falsch: `werbung: "»Pflanzliche Cholesterin-Lösung. Plaque weg.«"`
+- Richtig: `werbung: "Pflanzliche Cholesterin-Lösung. Plaque weg."`
+- Richtig mit Innen-Guillemets: `werbung: "Vermarktet als »Botox-Ersatz« für die Stirn."`
+
+### Geltung
+
+Gilt ab sofort für alle bestehenden 168 Einträge (Migration in dieser
+Welle), für alle in Sektion III gelisteten kommenden Blöcke
+(block-d/e/f/g, batches 1-11) und analog für künftige Bildgebung-Artikel-
+Werbung-Felder, sofern diese ein vergleichbares Muster nutzen.
+
+### Migrations-Status (2026-06-20)
+
+- 167 Einträge bereinigt
+- 1 Eintrag (Spilanthol) war bereits ohne umschließende Guillemets
+- 1 Eintrag (Ergothionein) behält innere Guillemets `»Longevity-Vitamin«`
+  als Zitat-im-Zitat, äußere Klammer entfernt
