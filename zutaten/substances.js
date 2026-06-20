@@ -2,7 +2,7 @@
 // Schema per entry:
 //   name             string  Display name
 //   slug             string  URL-safe identifier
-//   featured         boolean (optional, nur für die 18 Leuchttürme)
+//   featured         boolean (optional, nur für die 16 Leuchttürme)
 //   szenario         1 | 2 | 3 | "sonderfall"
 //   kategorie        "Pflanze" | "Pilz" | "Mikrobiom" | "Aminosäure" | "Vitamin" | "Mineral" | "Fettsäure" | "Substanz" | "Konzept"
 //   unterkategorie   string (z. B. "Wurzel", "Bakterium", "Molekül")
@@ -857,7 +857,6 @@ window.SUBSTANCES_DATA = {
     {
       name: "Ingwer (Zingiber officinale)",
       slug: "ingwer",
-      featured: true,
       shortName: "Ingwer",
       szenario: "sonderfall",
       kategorie: "Pflanze",
@@ -1080,7 +1079,6 @@ window.SUBSTANCES_DATA = {
     {
       name: "Limonenöl / D-Limonen",
       slug: "limonenoel-d-limonen",
-      featured: true,
       shortName: "Limonenöl",
       szenario: 3,
       kategorie: "Fettsäure",
