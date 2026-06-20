@@ -363,3 +363,45 @@
     animation: none;
   }
 }
+
+/* ── Actions-Bar im Detail: Like, Teilen, Aufrufe ─────────
+   Portiert aus news.css (.news-actions). Dezent, links
+   ausgerichtet, Inline-SVGs erben currentColor. Etwa 24px
+   Margin-Top für Atemraum nach der Wirkung. */
+.zutaten-detail .zutaten-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 24px 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--zutaten-border-color);
+  font-family: 'Printvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.62rem;
+  color: var(--zutaten-text-color);
+  opacity: 0.7;
+}
+.zutaten-detail .zutaten-act {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+.zutaten-detail .zutaten-act svg { width: 0.95rem; height: 0.95rem; }
+.zutaten-detail .zutaten-like { cursor: pointer; }
+.zutaten-detail .zutaten-like:hover,
+.zutaten-detail .zutaten-share:hover { color: var(--zutaten-text-color); opacity: 1; }
+.zutaten-detail .zutaten-like.is-liked { color: var(--zutaten-text-color); opacity: 1; }
+.zutaten-detail .zutaten-like.is-liked .zutaten-like-icon { color: var(--zutaten-text-color); }
+.zutaten-detail .zutaten-share.is-copied { color: var(--zutaten-text-color); opacity: 1; }
+.zutaten-detail .zutaten-views { cursor: default; }
+.zutaten-detail .zutaten-views[hidden] { display: none; }

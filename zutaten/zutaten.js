@@ -9,6 +9,30 @@
 
   const entries = data.entries.slice();
 
+  // ── Actions-Bar SVGs (Heart outline/filled, Share, Eye) ──
+  // Verbatim aus pipeline/render.mjs (actionsBarHtml). Heart-Filled
+  // wird beim Like-Toggle via innerHTML auf .zutaten-like-icon gesetzt.
+  const SVG_HEART_OUTLINE =
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"/></svg>';
+  const SVG_HEART_FILLED =
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"/></svg>';
+  const SVG_SHARE =
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z"/></svg>';
+  const SVG_EYE =
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z"/></svg>';
+
+  // ID-Schema: zutaten/<slug> — landet so im Worker-KV und in
+  // localStorage-Keys (hl-liked:zutaten/<slug>, hl-viewed:zutaten/<slug>).
+  const actionsBarHtml = (slug, name) => {
+    const id = `zutaten/${slug}`;
+    return `
+      <div class="zutaten-actions" data-news-id="${id}">
+        <button type="button" class="zutaten-act zutaten-like" aria-pressed="false" aria-label="Gefällt mir"><span class="zutaten-like-icon">${SVG_HEART_OUTLINE}</span><span class="zutaten-like-count"></span></button>
+        <button type="button" class="zutaten-act zutaten-share" aria-label="Teilen">${SVG_SHARE}<span class="zutaten-share-label">Teilen</span></button>
+        <span class="zutaten-act zutaten-views" hidden>${SVG_EYE}<span class="zutaten-views-count"></span> Aufrufe</span>
+      </div>`;
+  };
+
   // ── Icon-Lookup ────────────────────────────────────────────
   const iconFor = (entry) => {
     if (icons.bySlug[entry.slug]) return icons.bySlug[entry.slug];
@@ -90,6 +114,7 @@
         <p class="zutaten-detail-meta">${entry.kategorie} · ${entry.unterkategorie || ''}</p>
         <p class="zutaten-line"><em class="zutaten-field-label">Werbung:</em> ${link(entry.werbung)}</p>
         ${wirkungParas}
+        ${actionsBarHtml(entry.slug, entry.name)}
         ${ref}
       </div>
     `;
@@ -103,6 +128,97 @@
     const allTiles = Array.from(gridEl.querySelectorAll('li[data-slug]'));
     const rowTop = tileLi.getBoundingClientRect().top;
     return allTiles.filter(l => Math.abs(l.getBoundingClientRect().top - rowTop) < 2);
+  };
+
+  // ── Actions-Bar Wire-Up ───────────────────────────────────
+  // Wird pro openEntry() aufgerufen, weil das Detail bei jedem Klick
+  // frisch in den DOM injiziert wird (kein einmaliger Page-Load wie bei
+  // news/detail.js). Idempotente Likes via localStorage + Worker-POST.
+  const wireActionsBar = (root, entry) => {
+    const bar = root.querySelector('.zutaten-actions');
+    if (!bar) return;
+    const id = bar.getAttribute('data-news-id');
+    if (!id) return;
+
+    const likeBtn      = bar.querySelector('.zutaten-like');
+    const likeIcon     = bar.querySelector('.zutaten-like-icon');
+    const likeCountEl  = bar.querySelector('.zutaten-like-count');
+    const shareBtn     = bar.querySelector('.zutaten-share');
+    const viewsWrap    = bar.querySelector('.zutaten-views');
+    const viewsCountEl = bar.querySelector('.zutaten-views-count');
+
+    const likedKey  = 'hl-liked:'  + id;
+    const viewedKey = 'hl-viewed:' + id;
+    let liked = false;
+    try { liked = localStorage.getItem(likedKey) === '1'; } catch {}
+
+    const fmt = (n) => (typeof n === 'number' && n > 0 ? String(n) : '');
+    const setHeart = () => {
+      if (likeIcon) likeIcon.innerHTML = liked ? SVG_HEART_FILLED : SVG_HEART_OUTLINE;
+      if (likeBtn) {
+        likeBtn.setAttribute('aria-pressed', liked ? 'true' : 'false');
+        likeBtn.classList.toggle('is-liked', liked);
+      }
+    };
+    setHeart();
+
+    let counted = false;
+    try { counted = sessionStorage.getItem(viewedKey) === '1'; } catch {}
+    const showView = (n) => {
+      if (!viewsWrap || !viewsCountEl) return;
+      const t = fmt(n);
+      if (t) { viewsCountEl.textContent = t; viewsWrap.hidden = false; }
+    };
+
+    if (window.Counters) {
+      if (!counted) {
+        window.Counters.view(id).then((r) => {
+          try { sessionStorage.setItem(viewedKey, '1'); } catch {}
+          if (r && typeof r.views === 'number') showView(r.views);
+        });
+      }
+      window.Counters.getCounts([id]).then(({ views, likes }) => {
+        if (likeCountEl) likeCountEl.textContent = fmt(likes[id]);
+        if (counted) showView(views[id]);
+      });
+    }
+
+    if (likeBtn) {
+      likeBtn.addEventListener('click', () => {
+        if (liked || !window.Counters) return;
+        liked = true;
+        try { localStorage.setItem(likedKey, '1'); } catch {}
+        setHeart();
+        window.Counters.like(id).then((r) => {
+          if (r && typeof r.likes === 'number' && likeCountEl)
+            likeCountEl.textContent = fmt(r.likes);
+        });
+      });
+    }
+
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async () => {
+        const url = location.origin + location.pathname + '#' + entry.slug;
+        const title = entry.name + ' — Substanz-Index — Mut zur Klarheit';
+        if (navigator.share) {
+          try { await navigator.share({ title, url }); } catch {}
+          return;
+        }
+        try {
+          await navigator.clipboard.writeText(url);
+          const label = shareBtn.querySelector('.zutaten-share-label');
+          if (label) {
+            const prev = label.textContent;
+            label.textContent = 'Link kopiert';
+            shareBtn.classList.add('is-copied');
+            setTimeout(() => {
+              label.textContent = prev;
+              shareBtn.classList.remove('is-copied');
+            }, 1800);
+          }
+        } catch {}
+      });
+    }
   };
 
   const closeDetail = () => {
@@ -145,6 +261,10 @@
 
     // Nach der letzten Kachel der Reihe einfügen
     lastInRow.insertAdjacentElement('afterend', detailRow);
+
+    // Like/Share/Views verdrahten (pro openEntry, weil Detail bei jedem
+    // Klick frisch in den DOM injiziert wird).
+    wireActionsBar(detail, entry);
 
     // Kachel als aktiv markieren
     const btn = tileLi.querySelector('.zutaten-tile');
