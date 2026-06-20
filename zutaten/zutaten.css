@@ -21,16 +21,46 @@
 .zutaten-main {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 48px 16px 80px;
+  padding: 0 16px 80px;
   color: var(--zutaten-text-color);
 }
 
-/* Filter-Leiste verwendet news-filter (siehe news/news.css) für
-   visuelle Konsistenz mit /zutaten/bildgebung/. Override-Margin,
-   weil hier kein news-head darüber sitzt. */
-.news-filter#filter {
-  margin-top: 0;
-  margin-bottom: 2rem;
+/* ── Filter-Leiste ─────────────────────────────────────────
+   Visuelle Familie der Substanz-Kacheln, nicht der Bildgebung-
+   Rechtecke. Kleinere Höhe, dunklerer Border, semibold-Schrift —
+   gleiche Material-Welt wie die Kacheln. */
+
+.zutaten-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.zutaten-filter button {
+  background: var(--zutaten-bg-secondary);
+  border: 1.5px solid #c8c8c8;
+  border-radius: 4px;
+  padding: 10px 18px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--zutaten-text-color);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.zutaten-filter button:hover {
+  background: #e8e8e8;
+  border-color: #a8a8a8;
+}
+
+.zutaten-filter button[aria-pressed="true"] {
+  background: var(--zutaten-text-color);
+  border-color: var(--zutaten-text-color);
+  color: var(--zutaten-bg-color);
 }
 
 /* ── Kachel-Grid ──────────────────────────────────────────── */
@@ -314,7 +344,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .zutaten-tile,
-  .news-filter button,
+  .zutaten-filter button,
   .zutaten-detail {
     transition: none;
     animation: none;
