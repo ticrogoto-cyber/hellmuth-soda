@@ -105,6 +105,14 @@
   display: block;
 }
 
+/* Filter-Versteckung muss display:block aus der Regel oben überstimmen.
+   Die User-Agent-Default-Regel [hidden]{display:none} hat Spezifität
+   (0,0,1,0), die Grid-li-Regel oben (0,0,1,1) — höhere Spezifität
+   gewinnt. Explizite Regel mit (0,0,2,1) sichert das Filter-Verhalten. */
+.zutaten-grid > li[hidden] {
+  display: none;
+}
+
 .zutaten-grid > li.zutaten-detail-row {
   grid-column: 1 / -1;
   aspect-ratio: auto;
