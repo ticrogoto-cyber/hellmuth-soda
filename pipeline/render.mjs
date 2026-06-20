@@ -496,7 +496,7 @@ export function build() {
       title: `${SITE_NAME} Bildgebung`,
       feedUrl: `${SITE}/zutaten/bildgebung/feed.xml`,
       link: `${SITE}/zutaten/bildgebung/`,
-      description: 'Werbung gegen Evidenz, eine Substanz nach der anderen.',
+      description: 'Stoffe. Befunde.',
       items: [],
     }),
     'utf8'
