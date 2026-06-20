@@ -715,7 +715,7 @@ window.SUBSTANCES_DATA = {
       name: "Glänzender Lackporling (Ganoderma lucidum, Reishi)",
       slug: "glaenzender-lackporling",
       shortName: "Reishi",
-      szenario: 1,
+      szenario: 3,
       kategorie: "Pilz",
       unterkategorie: "Vitalpilz",
       werbung: "»Pilz der Unsterblichkeit aus der TCM. Reishi für Immunsystem, Stress, Schlaf, Krebsprävention und Longevity, tausende Jahre Tradition.«",
