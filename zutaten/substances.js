@@ -785,7 +785,7 @@ window.SUBSTANCES_DATA = {
       name: "Heilerde (gelb und weiß)",
       slug: "heilerde",
       shortName: "Heilerde",
-      szenario: null,
+      szenario: 3,
       kategorie: "Mineral",
       unterkategorie: "Erde",
       werbung: "Natürliches Hausmittel aus Tonmineralien. Reinigt von innen, hilft sanft bei Sodbrennen und unreiner Haut. Das vergessene Großmutter-Rezept aus dem Reformhaus.",
