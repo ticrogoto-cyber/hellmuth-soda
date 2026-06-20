@@ -29,6 +29,7 @@
   margin: 0 auto;
   padding: 0 16px 80px;
   color: var(--zutaten-text-color);
+  display: flow-root;
 }
 
 /* ── Filter-Leiste ─────────────────────────────────────────
