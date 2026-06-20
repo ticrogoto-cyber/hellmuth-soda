@@ -1,0 +1,138 @@
+/* ============================================================================
+   bildgebung.css — Bildgebung-spezifische Regeln, additiv zu news.css
+   ----------------------------------------------------------------------------
+   Diese Datei wird zusaetzlich zu news.css geladen. Sie ueberschreibt nur,
+   was fuer die Bildgebung-Rubrik anders sein soll, und ergaenzt neue
+   Bausteine (Tags auf Karten, Fussnoten-Apparat, Inline-Refs).
+   Phase 1: Detailseite existiert noch nicht — die Regeln stehen aber bereit.
+   ============================================================================ */
+
+/* ----------------------------------------------------------------------------
+   1) Breiteres Textmass fuer die kuenftige Detailseite
+   ----------------------------------------------------------------------------
+   Die Bildgebung-Detailseite soll einen etwas breiteren Satzspiegel haben
+   als die News (10% mehr). Wir leiten das aus --news-measure ab, damit
+   beide Maessse zusammen skalieren, wenn news.css das Grundmass anpasst.
+---------------------------------------------------------------------------- */
+:root {
+  --bildgebung-measure: calc(var(--news-measure) * 1.1);
+}
+
+/* Ueberschreibungen: ueberall dort, wo news.css var(--news-measure)
+   verwendet, setzen wir auf der Detailseite das breitere Mass ein. */
+.bildgebung-detail h1,
+.bildgebung-detail .news-lead,
+.bildgebung-detail .news-body p,
+.bildgebung-detail .news-source {
+  max-width: var(--bildgebung-measure);
+}
+
+/* ----------------------------------------------------------------------------
+   2) Optionale Rubrik-Tags auf den Uebersichts-Karten
+   ----------------------------------------------------------------------------
+   Wenn eine Karte mehrere Filter-Chips traegt (z.B. "Roentgen, CT"),
+   blenden wir sie als feine Printvetica-Versalien-Zeile zwischen
+   Eyebrow und Titel ein. Kommas trennt die Schablone im HTML.
+   Bewusst dezent — die Karte bleibt ruhig.
+---------------------------------------------------------------------------- */
+.bildgebung-card-tags {
+  font-family: "Printvetica", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.68rem;
+  color: var(--muted);
+  margin: 0.25rem 0 0.4rem;
+  line-height: 1.3;
+}
+
+/* ----------------------------------------------------------------------------
+   3) Fussnoten-Apparat (Quellenangaben am Artikelende)
+   ----------------------------------------------------------------------------
+   Phase-1-Geruest fuer die spaeteren Detailseiten. Liste der Quellen
+   unter dezenter Linie, kompakter Satz, kollabierbar via footnotes.js
+   ("Mehr sehen"-Toggle).
+---------------------------------------------------------------------------- */
+
+/* Container: setzt sich optisch durch eine Hairline vom Fliesstext ab. */
+.bildgebung-sources {
+  border-top: 1px solid var(--line);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  max-width: var(--bildgebung-measure);
+  font-size: 0.85em;
+}
+
+/* Ueberschrift "Quellenangaben" — Versalien, gespreizt, leise. */
+.bildgebung-sources h2 {
+  font-family: "Printvetica", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+  font-weight: normal;
+}
+
+/* Nummerierte Liste, Standard-Decimal, ruhige Zeilenhoehe. */
+.bildgebung-sources ol {
+  padding-left: 1.5rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Einzelne Eintraege — Fournier fuer den Lesefluss; Groesse erbt
+   vom Container, damit der Apparat geschlossen kompakt wirkt. */
+.bildgebung-sources li {
+  margin: 0 0 0.6rem;
+  font-family: "Fournier Pro", Georgia, serif;
+  font-size: inherit;
+}
+
+/* Links in den Quellen: ruhige Unterlinie statt Browser-Default. */
+.bildgebung-sources li a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+
+/* Versteckte Eintraege jenseits der initialen Sichtbarkeit —
+   footnotes.js setzt diese Klasse, der "Mehr sehen"-Button entfernt sie. */
+.bildgebung-sources li.is-hidden {
+  display: none;
+}
+
+/* Toggle-Button "Mehr sehen / Weniger sehen" — rahmenlos, kursiv,
+   liest sich wie ein Link, ohne einer zu sein. */
+.bildgebung-sources-toggle {
+  border: none;
+  background: none;
+  padding: 0;
+  margin-top: 0.8rem;
+  font-family: "Fournier Pro", Georgia, serif;
+  font-style: italic;
+  font-size: inherit;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.bildgebung-sources-toggle:hover,
+.bildgebung-sources-toggle:focus {
+  color: var(--ink);
+}
+
+/* ----------------------------------------------------------------------------
+   4) Inline-Fussnotenmarker im Fliesstext: (1), (2), (3) ...
+   ----------------------------------------------------------------------------
+   Eingebettet als <a class="bildgebung-ref" href="#fn-1">(1)</a>.
+   Bewusst kein Hochstellen, keine Unterstreichung — ein leiser Marker
+   in --muted, der den Lesefluss nicht stoert.
+---------------------------------------------------------------------------- */
+.bildgebung-ref {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.bildgebung-ref:hover,
+.bildgebung-ref:focus {
+  color: var(--ink);
+}

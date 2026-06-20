@@ -66,6 +66,47 @@
       });
     }
 
+    // Menü-Dropdowns (Diagnose / Zutaten):
+    //  - Desktop (Hover): das CSS regelt das Aufklappen via :hover. JS sorgt nur
+    //    fuer Click/Tap-Toggle (Mobile + Touch-Geraete) und ESC/Click-outside.
+    //  - aria-expanded wird konsistent gepflegt.
+    const groups = top ? Array.from(top.querySelectorAll('.menu-group')) : [];
+    const closeAllGroups = (except) => {
+      for (const g of groups) {
+        if (g === except) continue;
+        g.removeAttribute('data-open');
+        const t = g.querySelector('.menu-trigger');
+        if (t) t.setAttribute('aria-expanded', 'false');
+      }
+    };
+    for (const g of groups) {
+      const trigger = g.querySelector('.menu-trigger');
+      if (!trigger) continue;
+      trigger.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+        const wasOpen = g.hasAttribute('data-open');
+        closeAllGroups(g);
+        if (wasOpen) {
+          g.removeAttribute('data-open');
+          trigger.setAttribute('aria-expanded', 'false');
+        } else {
+          g.setAttribute('data-open', '');
+          trigger.setAttribute('aria-expanded', 'true');
+        }
+      });
+    }
+    // Klick ausserhalb einer offenen Gruppe schliesst sie.
+    document.addEventListener('click', (ev) => {
+      const t = ev.target;
+      const inside = groups.some(g => g.contains(t));
+      if (!inside) closeAllGroups(null);
+    });
+    // ESC schliesst Dropdowns.
+    document.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Escape') closeAllGroups(null);
+    });
+
     // Sticky-Header: Schatten ab ein paar Pixel Scroll
     if (top) {
       const onScroll = () => {

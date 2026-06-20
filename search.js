@@ -19,6 +19,8 @@
     { kind: 'Seite', title: 'Quiz — Sucht-Mythen', summary: 'Zwölf Fragen, drei Antworten, eine Diagnose.', url: '/quiz/' },
     { kind: 'Seite', title: 'Klarheitskarten I — Selbstbetrug', summary: 'Kartenspiel gegen Ausreden und Selbstsabotage.', url: '/klarheitskarten/' },
     { kind: 'Seite', title: 'Vokabular', summary: 'Begriffe, die die Industrie missbraucht.', url: '/vokabular/' },
+    { kind: 'Seite', title: 'Substanz-Index', summary: 'Was die Industrie verspricht, was die Substanz tatsächlich tut.', url: '/zutaten/' },
+    { kind: 'Seite', title: 'Bildgebung', summary: 'Substanzen unter dem Mikroskop. Diagnostische Lesarten.', url: '/zutaten/bildgebung/' },
     { kind: 'Seite', title: 'Sanatorium Kokos & Zitrone', summary: 'Substack mit Texten von Ticro Goto.', url: 'https://kokos-und-zitrone.de/' },
     { kind: 'Seite', title: 'Impressum', summary: '', url: '/impressum/' },
   ];

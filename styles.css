@@ -44,6 +44,7 @@ em, i,
 .result .score-of, .result .tag, .result .text,
 footer .footer-tagline, footer,
 .vokabular-line em, .vokabular-ref, .vokabular-search, .vokabular-empty,
+.zutaten-line em, .zutaten-ref, .zutaten-field-label,
 .impressum-line {
   font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
   font-variant-ligatures: no-common-ligatures no-discretionary-ligatures;
@@ -430,6 +431,65 @@ main {
 .menu a:hover { border-bottom-color: var(--ink); }
 .menu a.is-active { border-bottom-color: var(--ink); font-weight: 700; }
 
+/* Dropdown-Gruppen (Diagnose / Zutaten). Bewusst minimal: keine Box, kein Schatten,
+   kein Rahmen — die Subpunkte erscheinen direkt unter dem Triggerwort, linksbuendig.
+   Bestehende Transitions auf .menu a (border-color .15s) bleiben unangetastet. */
+.menu-group {
+  position: relative;
+  display: inline-block;
+}
+.menu .menu-trigger {
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.95rem;
+  border-bottom: 1px solid transparent;
+  transition: border-color .15s ease;
+  white-space: nowrap;
+}
+.menu .menu-trigger:hover,
+.menu .menu-trigger[aria-expanded="true"],
+.menu .menu-trigger.is-current { border-bottom-color: var(--ink); }
+.menu .menu-trigger.is-current { font-weight: 700; }
+.menu .menu-caret {
+  display: inline-block;
+  font-size: 0.85em;
+  margin-left: 0.15em;
+  vertical-align: 0.02em;
+  color: var(--muted);
+}
+.menu .menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0.35rem 0 0;
+  list-style: none;
+  background: transparent;
+  border: none;
+  display: none;
+  min-width: max-content;
+  z-index: 6;
+}
+.menu-group:hover .menu-dropdown,
+.menu-group[data-open] .menu-dropdown { display: block; }
+.menu .menu-dropdown li { display: block; }
+.menu .menu-dropdown a {
+  display: block;
+  padding: 0.3rem 0.95rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  white-space: nowrap;
+}
+
 /* Suchfeld — Desktop: oben rechts; Mobile: wandert per JS ins Dropdown */
 .top-search {
   grid-area: search;
@@ -617,5 +677,39 @@ footer .footer-impressum.is-active {
     min-width: 0;
     max-height: 40vh;
   }
+
+  /* Dropdown-Gruppen im Hamburger-Dropdown: Accordion (inline aufklappen).
+     Kein Hover; nur Tap auf den Trigger. */
+  .top > .menu .menu-group { display: block; position: static; border-bottom: 1px solid var(--ink); }
+  .top > .menu .menu-group:last-child { border-bottom: none; }
+  .top > .menu .menu-trigger {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    font-size: 0.85rem;
+    border-bottom: none;
+  }
+  .top > .menu .menu-trigger:hover,
+  .top > .menu .menu-trigger[aria-expanded="true"] {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .top > .menu .menu-dropdown {
+    position: static;
+    display: none;
+    padding: 0;
+    background: var(--paper);
+    border-top: 1px solid var(--ink);
+  }
+  .top > .menu .menu-group[data-open] .menu-dropdown { display: block; }
+  .top > .menu .menu-dropdown a {
+    display: block;
+    padding: 0.85rem 2.25rem;
+    font-size: 0.78rem;
+    border-bottom: 1px solid var(--ink);
+  }
+  .top > .menu .menu-dropdown li:last-child a { border-bottom: none; }
+
   .progress { font-size: 0.65rem; margin-top: 0.35rem; }
 }

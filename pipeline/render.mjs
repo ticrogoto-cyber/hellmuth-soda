@@ -30,6 +30,8 @@ const STATIC_PAGES = [
   { path: '/quiz/', changefreq: 'monthly', priority: '0.8' },
   { path: '/klarheitskarten/', changefreq: 'weekly', priority: '0.9' },
   { path: '/vokabular/', changefreq: 'monthly', priority: '0.8' },
+  { path: '/zutaten/', changefreq: 'weekly', priority: '0.85' },
+  { path: '/zutaten/bildgebung/', changefreq: 'weekly', priority: '0.85' },
 ];
 
 // Designvariante der generierten Detailseiten:
@@ -287,7 +289,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
-  <link rel="stylesheet" href="../../../styles.css?v=7" />
+  <link rel="stylesheet" href="../../../styles.css?v=8" />
   <link rel="stylesheet" href="../../news.css" />
 </head>
 <body>
@@ -300,12 +302,11 @@ ${seoHead(rec)}
       <ul class="top-search-results" hidden></ul>
     </form>
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
-    <nav class="menu" aria-hidden="true">
+    <nav class="menu" aria-hidden="true" aria-label="Hauptnavigation">
       <a href="../../../" class="is-active">Start</a>
-      <a href="../../../quiz/">Quiz</a>
-      <a href="../../../vokabular/">Vokabular</a>
-      <a href="../../../klarheitskarten/">Klarheitskarten</a>
-      <a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <span class="menu-caret" aria-hidden="true">&#9662;</span></button><ul class="menu-dropdown"><li><a href="../../../quiz/">Quiz</a></li><li><a href="../../../vokabular/">Vokabular</a></li><li><a href="../../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
+      <div class="menu-group" data-dropdown="zutaten"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Zutaten <span class="menu-caret" aria-hidden="true">&#9662;</span></button><ul class="menu-dropdown"><li><a href="../../../zutaten/">Substanz-Index</a></li><li><a href="../../../zutaten/bildgebung/">Bildgebung</a></li></ul></div>
+      <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Hausbesuch<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
       <a href="../../../hellmuth/">Über</a>
     </nav>
   </header>
@@ -324,7 +325,7 @@ ${seoHead(rec)}
   </main>
 
   <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
-  <script src="../../../site.js?v=6"></script>
+  <script src="../../../site.js?v=7"></script>
   <script src="../../../search.js?v=1"></script>
   <script src="../../counters.js?v=1"></script>
   <script src="../../detail.js?v=1"></script>
@@ -484,6 +485,22 @@ export function build() {
       'utf8'
     );
   }
+
+  // Bildgebung-Feed Phase 1: leerer Channel, damit /zutaten/bildgebung/feed.xml
+  // existiert und in Sitemap/rel=alternate-Links verlinkt werden kann. Wird in
+  // Phase 3 mit Items befuellt, wenn der Bildgebung-Renderer steht.
+  mkdirSync(join(ROOT, 'zutaten', 'bildgebung'), { recursive: true });
+  writeFileSync(
+    join(ROOT, 'zutaten', 'bildgebung', 'feed.xml'),
+    rssFeed({
+      title: `${SITE_NAME} Bildgebung`,
+      feedUrl: `${SITE}/zutaten/bildgebung/feed.xml`,
+      link: `${SITE}/zutaten/bildgebung/`,
+      description: 'Substanzen unter dem Mikroskop. Diagnostische Lesarten von Werbung, Wirkung und Evidenz.',
+      items: [],
+    }),
+    'utf8'
+  );
 
   // Sitemap im Root aktualisieren (statische Seiten erhalten, News auffrischen).
   writeFileSync(join(ROOT, 'sitemap.xml'), buildSitemapXml(all), 'utf8');

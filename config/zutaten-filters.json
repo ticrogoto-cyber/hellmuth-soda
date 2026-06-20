@@ -1,0 +1,9 @@
+{
+  "filters": [
+    { "key": "ruhe", "label": "Ruhe", "description": "Schlaf, Nervina, Adaptogene, Anti-Stress, Anxiolyse" },
+    { "key": "klarheit", "label": "Klarheit", "description": "Cognition, Fokus, Nootropika, Acetylcholin" },
+    { "key": "darm", "label": "Darm", "description": "Mikrobiom, Verdauung, Detox, Fasten, Leber" },
+    { "key": "zelle", "label": "Zelle", "description": "Longevity, Mitochondrien, NAD+, Antioxidantien, Autophagie" },
+    { "key": "substanz", "label": "Substanz", "description": "Basis-Naehrstoffe, Vitamine, Mineralien, Bioverfuegbarkeit, Meta-Themen" }
+  ]
+}
