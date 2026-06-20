@@ -50,16 +50,29 @@
     return (text) => text.replace(regex, '<a class="zutaten-xref" data-term="$1" href="#">$1</a>');
   };
 
-  // Modal-Inhalt aus Eintrag bauen
+  // Modal-Inhalt aus Eintrag bauen.
+  // Wirkung kann mehrere Absätze enthalten (durch \n\n getrennt) — jeder Absatz
+  // wird zu einem eigenen <p>. Werbung bleibt einsätzig.
   const renderEntry = (e) => {
     const link = buildLinkifier(e.name);
     const ref = e.related_article
       ? `<p class="zutaten-ref"><a href="${e.related_article}" target="_blank" rel="noopener">Mehr lesen →</a></p>`
       : '';
+    const meta = e.unterkategorie
+      ? `<p class="zutaten-meta">${e.unterkategorie.toUpperCase()}</p>`
+      : '';
+    const wirkungParas = (e.wirkung || '')
+      .split(/\n\n+/)
+      .map((p, i) => {
+        const label = i === 0 ? '<em class="zutaten-field-label">Wirkung:</em> ' : '';
+        return `<p class="zutaten-line">${label}${link(p)}</p>`;
+      })
+      .join('');
     return `
       <h3 class="zutaten-term">${e.name}</h3>
+      ${meta}
       <p class="zutaten-line"><em class="zutaten-field-label">Werbung:</em> ${link(e.werbung)}</p>
-      <p class="zutaten-line"><em class="zutaten-field-label">Wirkung:</em> ${link(e.wirkung)}</p>
+      ${wirkungParas}
       ${ref}
     `;
   };
