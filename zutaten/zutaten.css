@@ -17,6 +17,13 @@
   --zutaten-sz1-border: hsl(0, 40%, 88%);
   --zutaten-sz1-accent: hsl(0, 65%, 50%);
 
+  /* Sz2/Sz3, unterdrückt oder unterschätzt — Salbeigrün.
+     Gleicher Ton für Sz2 und Sz3, kein visueller Unterschied.
+     Verdikt, nicht Diagnose. */
+  --zutaten-sz23-bg: hsl(140, 22%, 94%);
+  --zutaten-sz23-border: hsl(140, 20%, 78%);
+  --zutaten-sz23-accent: hsl(140, 45%, 38%);
+
   /* Featured-Leuchtturm — Gold */
   --zutaten-gold-bg: hsl(42, 55%, 92%);
   --zutaten-gold-border: hsl(42, 50%, 72%);
@@ -125,10 +132,19 @@
   border-color: var(--zutaten-text-color);
 }
 
-/* Verdikt-Hierarchie:
-   1) featured = true            → Gold-Glow (überschreibt alles)
-   2) szenario = 1, nicht featured → Rosa
-   3) sonst                       → warmes Neutral (Default-Hintergrund) */
+/* Verdikt-Hierarchie, vier Stufen, oben schlägt unten:
+   1) featured = true                 → Gold-Glow (überschreibt alles)
+   2) szenario = 1                    → Rosa (entlarvte Werbung)
+   3) szenario = 2 oder 3             → Salbeigrün (unterdrückt/unterschätzt)
+   4) sonst (Konzept, Sonderfall)     → warmes Neutral (Default)
+   Reihenfolge im CSS macht den Tiebreak bei gleicher Specificity:
+   Grün vor Rosa vor Gold. */
+
+.zutaten-tile[data-szenario="2"],
+.zutaten-tile[data-szenario="3"] {
+  background: var(--zutaten-sz23-bg);
+  border-color: var(--zutaten-sz23-border);
+}
 
 .zutaten-tile[data-szenario="1"] {
   background: var(--zutaten-sz1-bg);
@@ -156,6 +172,17 @@
   bottom: 0;
   height: 2px;
   background: var(--zutaten-sz1-accent);
+}
+
+.zutaten-tile[aria-pressed="true"][data-szenario="2"]::after,
+.zutaten-tile[aria-pressed="true"][data-szenario="3"]::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--zutaten-sz23-accent);
 }
 
 .zutaten-tile[aria-pressed="true"][data-featured="true"] {

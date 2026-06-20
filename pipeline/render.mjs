@@ -572,7 +572,7 @@ function substanceDetailHtml(entry) {
 ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
-  <link rel="stylesheet" href="../zutaten.css?v=4" />
+  <link rel="stylesheet" href="../zutaten.css?v=6" />
 </head>
 <body>
   <header class="top">
@@ -663,11 +663,9 @@ function buildZutatenIndex(entries) {
   const indexPath = join(ROOT, 'zutaten', 'index.html');
   const template = readFileSync(indexPath, 'utf8');
   const tiles = entries.map(e => tileHtmlForListing(e, iconFor)).join('\n      ');
-  const filled = template.replace(
-    /(<ul class="zutaten-grid"[^>]*>)[\s\S]*?(<\/ul>)/,
-    `$1\n      ${tiles}\n    $2`
-  );
-  if (filled === template) throw new Error('buildZutatenIndex: grid <ul> not found in template');
+  const re = /(<ul class="zutaten-grid"[^>]*>)[\s\S]*?(<\/ul>)/;
+  if (!re.test(template)) throw new Error('buildZutatenIndex: grid <ul> not found in template');
+  const filled = template.replace(re, `$1\n      ${tiles}\n    $2`);
   writeFileSync(indexPath, filled, 'utf8');
 }
 

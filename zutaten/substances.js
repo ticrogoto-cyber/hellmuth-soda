@@ -2,7 +2,7 @@
 // Schema per entry:
 //   name             string  Display name
 //   slug             string  URL-safe identifier
-//   featured         boolean (optional, nur für die 16 Leuchttürme)
+//   featured         boolean (optional, nur für die 17 Leuchttürme)
 //   szenario         1 | 2 | 3 | "sonderfall"
 //   kategorie        "Pflanze" | "Pilz" | "Mikrobiom" | "Aminosäure" | "Vitamin" | "Mineral" | "Fettsäure" | "Substanz" | "Konzept"
 //   unterkategorie   string (z. B. "Wurzel", "Bakterium", "Molekül")
@@ -203,7 +203,7 @@ window.SUBSTANCES_DATA = {
       name: "Baldrian (Valeriana officinalis)",
       slug: "baldrian",
       shortName: "Baldrian",
-      szenario: 1,
+      szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
       werbung: "»Pflanzliches Schlafmittel. Beruhigt bei Einschlafstörungen und innerer Unruhe, ohne Tageschläfrigkeit am nächsten Morgen.«",
@@ -857,6 +857,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Ingwer (Zingiber officinale)",
       slug: "ingwer",
+      featured: true,
       shortName: "Ingwer",
       szenario: "sonderfall",
       kategorie: "Pflanze",
@@ -1287,7 +1288,7 @@ window.SUBSTANCES_DATA = {
       name: "NAC (N-Acetylcystein)",
       slug: "nac-n-acetylcystein",
       shortName: "NAC",
-      szenario: 1,
+      szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
       werbung: "»Direkter Vorläufer von Glutathion. Entgiftet die Leber, schützt die Atemwege, hilft bei Sucht und Zwangsverhalten. Sicher und nebenwirkungsarm.«",
@@ -1358,7 +1359,7 @@ window.SUBSTANCES_DATA = {
       name: "Passionsblume (Passiflora incarnata)",
       slug: "passionsblume",
       shortName: "Passionsblume",
-      szenario: 1,
+      szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
       werbung: "»Pflanzliche Beruhigung bei Nervosität und Schlafstörungen. Sanfte Hilfe ohne Gewöhnungseffekt, traditionell bewährt.«",
