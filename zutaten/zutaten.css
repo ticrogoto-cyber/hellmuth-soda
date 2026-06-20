@@ -1,259 +1,280 @@
-/* Zutaten — Substanz-Index im Buchregister-Stil mit Modal-Overlay */
+/* /zutaten/ — Substanz-Index
+   Hochkant-Kachel-Grid mit Filter-Leiste und Inline-Detail.
+   Variablen aus dem Icon-Prototyp. */
+
+:root {
+  --zutaten-text-color: #1a1a1a;
+  --zutaten-bg-color: #f8f8f8;
+  --zutaten-bg-secondary: #f0f0f0;
+  --zutaten-border-color: #e0e0e0;
+}
 
 .zutaten-main {
-  flex: 1;
-  max-width: 60rem;
-  width: 100%;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 8rem clamp(2rem, 6vw, 5rem) 4rem;
+  padding: 24px 16px 80px;
+  color: var(--zutaten-text-color);
 }
 
-/* Register: dichte Spalten mit allen Begriffen */
-.zutaten-register {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  columns: 4;
-  column-gap: 2.25rem;
-  column-rule: 1px solid var(--ink);
-}
-@media (max-width: 900px) {
-  .zutaten-register { columns: 3; column-gap: 1.5rem; }
-}
-@media (max-width: 600px) {
-  .zutaten-register { columns: 2; column-gap: 1.25rem; }
-}
+/* ── Filter-Leiste ─────────────────────────────────────────── */
 
-.zutaten-register li {
-  break-inside: avoid;
-  margin: 0 0 0.5rem;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 600ms cubic-bezier(.2, .8, .2, 1),
-              transform 600ms cubic-bezier(.2, .8, .2, 1);
-}
-.zutaten-register li.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.zutaten-register a {
-  display: inline-block;
-  padding: 0.15rem 0;
-  font-family: 'Printvetica', sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  color: var(--ink);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: color 200ms ease,
-              border-color 300ms cubic-bezier(.2, .8, .2, 1),
-              transform 200ms cubic-bezier(.2, .8, .2, 1);
-}
-.zutaten-register a:hover {
-  color: var(--ink);
-  border-bottom-color: var(--ink);
-  transform: translateY(-1px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .zutaten-register li {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-  .zutaten-register a {
-    transition: none;
-  }
-  .zutaten-register a:hover {
-    transform: none;
-  }
-}
-
-/* Modal — schwebt vor dem Register, geschlossen hidden */
-.entry-modal {
-  position: fixed;
-  inset: 0;
-  /* Backdrop-Veil: gleicher Ton wie --page-bg (#f8f8f8), translucent. */
-  background: rgba(248, 248, 248, 0.88);
-  z-index: 100;
+.zutaten-filter {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: clamp(2rem, 8vh, 6rem) 1rem;
-  overflow-y: auto;
-  animation: modal-in 280ms cubic-bezier(.2, .8, .2, 1) both;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--zutaten-border-color);
 }
-.entry-modal[hidden] {
+
+.zutaten-filter button {
+  background: transparent;
+  border: 1px solid var(--zutaten-border-color);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--zutaten-text-color);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.zutaten-filter button:hover {
+  background: var(--zutaten-bg-secondary);
+}
+
+.zutaten-filter button[aria-pressed="true"] {
+  background: var(--zutaten-text-color);
+  border-color: var(--zutaten-text-color);
+  color: var(--zutaten-bg-color);
+}
+
+/* ── Kachel-Grid ──────────────────────────────────────────── */
+
+.zutaten-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.zutaten-tile {
+  background: var(--zutaten-bg-secondary);
+  border: 1px solid var(--zutaten-border-color);
+  border-radius: 4px;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--zutaten-text-color);
+  font-family: inherit;
+  text-align: center;
+  transition: all 0.15s ease;
+  min-height: 144px;
+}
+
+.zutaten-tile:hover {
+  border-color: var(--zutaten-text-color);
+}
+
+.zutaten-tile[aria-pressed="true"] {
+  background: var(--zutaten-text-color);
+  border-color: var(--zutaten-text-color);
+  color: var(--zutaten-bg-color);
+}
+
+.zutaten-tile-icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+.zutaten-tile-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.zutaten-tile-name {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.zutaten-tile-cat {
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  margin-top: auto;
+}
+
+.zutaten-tile[aria-pressed="true"] .zutaten-tile-cat {
+  opacity: 0.7;
+}
+
+/* ── Detail-Bereich (Inline-Panel) ────────────────────────── */
+
+.zutaten-detail {
+  margin-top: 28px;
+  padding: 28px;
+  border: 1px solid var(--zutaten-border-color);
+  border-radius: 4px;
+  background: var(--zutaten-bg-color);
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.zutaten-detail[hidden] {
   display: none;
 }
-@keyframes modal-in {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+
+.zutaten-detail-icon {
+  width: 140px;
+  height: 140px;
 }
 
-.entry-modal-frame {
-  background: var(--page-bg);
-  border: 1px solid var(--ink);
-  max-width: 38rem;
+.zutaten-detail-icon svg {
   width: 100%;
-  padding: 2.5rem clamp(1.5rem, 4vw, 2.5rem);
-  position: relative;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
-  animation: frame-in 380ms cubic-bezier(.2, .8, .2, 1) both;
-}
-@keyframes frame-in {
-  from { opacity: 0; transform: translateY(12px) scale(0.985); }
-  to   { opacity: 1; transform: translateY(0) scale(1); }
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .entry-modal,
-  .entry-modal-frame {
-    animation: none;
-  }
+.zutaten-detail-body {
+  min-width: 0;
 }
 
-.entry-close {
-  position: absolute;
-  top: 0.4rem;
-  right: 0.7rem;
-  background: none;
-  border: none;
-  font-size: 1.6rem;
-  line-height: 1;
-  cursor: pointer;
-  color: var(--ink);
-  width: 2rem;
-  height: 2rem;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity .15s ease;
-}
-.entry-close:hover {
-  opacity: 0.6;
+.zutaten-detail-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  line-height: 1.2;
 }
 
-body.modal-open {
-  overflow: hidden;
-}
-
-/* Entry layout (used inside modal) */
-.zutaten-entry {
-  margin: 0;
-}
-
-.zutaten-term {
-  font-family: 'Printvetica', sans-serif;
-  letter-spacing: 0.16em;
+.zutaten-detail-meta {
+  font-size: 11px;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin: 0 0 1.25rem;
+  opacity: 0.55;
+  margin: 0 0 16px;
+}
+
+.zutaten-field-label {
+  font-style: normal;
+  font-weight: 600;
 }
 
 .zutaten-line {
-  font-family: 'Fournier Pro', serif;
-  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  font-size: 15px;
   line-height: 1.55;
-  margin: 0 0 0.75rem;
-}
-.zutaten-line em {
-  font-style: italic;
-  color: var(--muted);
-  margin-right: 0.35em;
+  margin: 0 0 12px;
 }
 
-/* Werbung: / Wirkung: Feld-Label (kursiv, Fournier Pro) */
-.zutaten-field-label {
-  font-family: 'Fournier Pro', serif;
-  font-style: italic;
-  color: var(--muted);
-  margin-right: 0.35em;
+.zutaten-line:last-of-type {
+  margin-bottom: 0;
 }
 
-.zutaten-ref {
-  font-family: 'Fournier Pro', serif;
-  font-style: italic;
-  font-size: 0.95rem;
-  color: var(--muted);
-  margin: 1rem 0 1rem;
-}
-
-.zutaten-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem 0.75rem;
-  margin-top: 1.5rem;
-}
-
-/* Hinweis: Substanz-Index hat keinen Klartext-bestellen-Button —
-   .btn-cta / .btn-cta-alt Regeln entfallen hier bewusst. */
-
-/* Querverlinkungen im Fließtext */
 .zutaten-xref {
-  font-family: 'Printvetica', sans-serif;
-  letter-spacing: 0.05em;
-  font-size: 0.95em;
-  color: var(--ink);
+  color: inherit;
+  border-bottom: 1px dotted currentColor;
   text-decoration: none;
-  border-bottom: 1px dotted var(--muted);
-  cursor: pointer;
-  padding: 0 1px;
-  transition: border-color 220ms cubic-bezier(.2, .8, .2, 1),
-              color 220ms ease;
 }
-.zutaten-xref:hover,
-.zutaten-xref:focus-visible {
-  border-bottom-color: var(--ink);
+
+.zutaten-xref:hover {
   border-bottom-style: solid;
 }
 
-/* Hover-Vorschau */
+.zutaten-ref {
+  margin: 16px 0 0;
+}
+
+.zutaten-ref a {
+  color: inherit;
+  font-size: 13px;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+/* ── Leerer Zustand ───────────────────────────────────────── */
+
+.zutaten-empty {
+  grid-column: 1 / -1;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.55;
+}
+
+/* ── Tooltip ──────────────────────────────────────────────── */
+
 .zutaten-xref-tooltip {
   position: fixed;
-  z-index: 200;
-  max-width: 22rem;
-  background: var(--page-bg);
-  border: 1px solid var(--ink);
-  padding: 0.7rem 0.9rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+  z-index: 100;
+  background: var(--zutaten-text-color);
+  color: var(--zutaten-bg-color);
+  padding: 10px 14px;
+  border-radius: 4px;
+  max-width: 280px;
+  font-size: 12px;
+  line-height: 1.4;
   pointer-events: none;
   opacity: 0;
-  transform: translateY(4px);
-  transition: opacity 220ms cubic-bezier(.2, .8, .2, 1),
-              transform 220ms cubic-bezier(.2, .8, .2, 1);
+  transition: opacity 0.2s ease;
 }
-.zutaten-xref-tooltip[hidden] { display: none; }
+
 .zutaten-xref-tooltip.is-visible {
   opacity: 1;
-  transform: translateY(0);
 }
+
 .zutaten-xref-tooltip-term {
   display: block;
-  font-family: 'Printvetica', sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  margin-bottom: 0.35rem;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
+
 .zutaten-xref-tooltip-line {
   display: block;
-  font-family: 'Fournier Pro', serif;
-  font-style: italic;
-  font-size: 0.95rem;
-  line-height: 1.45;
-  color: var(--muted);
+  opacity: 0.85;
+}
+
+/* ── Responsiv ────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .zutaten-main {
+    padding: 16px 12px 60px;
+  }
+  .zutaten-grid {
+    grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+    gap: 8px;
+  }
+  .zutaten-tile {
+    padding: 12px 8px;
+    min-height: 124px;
+  }
+  .zutaten-tile-icon {
+    width: 52px;
+    height: 52px;
+  }
+  .zutaten-detail {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .zutaten-detail-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .zutaten-xref { transition: none; }
-  .zutaten-xref-tooltip { transition: none; transform: none; }
-}
-
-@media (max-width: 520px) {
-  .zutaten-main { padding-top: 7rem; }
-  .zutaten-actions { flex-direction: column; }
-  .zutaten-xref-tooltip { max-width: calc(100vw - 2rem); }
+  .zutaten-tile,
+  .zutaten-filter button {
+    transition: none;
+  }
 }

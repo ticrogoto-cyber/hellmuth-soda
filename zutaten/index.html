@@ -41,20 +41,27 @@
   </header>
 
   <main class="zutaten-main">
-    <ul class="zutaten-register" id="register" aria-label="Substanz-Register"></ul>
-  </main>
-
-  <div class="entry-modal" id="entry-modal" hidden role="dialog" aria-modal="true" aria-labelledby="entry-modal-title">
-    <div class="entry-modal-frame">
-      <button class="entry-close" aria-label="Schließen">×</button>
-      <article class="zutaten-entry" id="entry-modal-content"></article>
+    <div class="zutaten-filter" id="filter" role="group" aria-label="Rubrik wählen">
+      <button type="button" data-filter="all" aria-pressed="true">Alle</button>
+      <button type="button" data-filter="Pflanze" aria-pressed="false">Pflanze</button>
+      <button type="button" data-filter="Pilz" aria-pressed="false">Pilz</button>
+      <button type="button" data-filter="Mikrobiom" aria-pressed="false">Mikrobiom</button>
+      <button type="button" data-filter="Aminosäure" aria-pressed="false">Aminosäure</button>
+      <button type="button" data-filter="Vitamin" aria-pressed="false">Vitamin</button>
+      <button type="button" data-filter="Mineral" aria-pressed="false">Mineral</button>
+      <button type="button" data-filter="Fettsäure" aria-pressed="false">Fettsäure</button>
+      <button type="button" data-filter="Substanz" aria-pressed="false">Substanz</button>
+      <button type="button" data-filter="Konzept" aria-pressed="false">Konzept</button>
     </div>
-  </div>
+    <ul class="zutaten-grid" id="grid" aria-label="Substanz-Kacheln"></ul>
+    <article class="zutaten-detail" id="detail" hidden aria-live="polite"></article>
+  </main>
 
   <footer>
     <a href="../impressum/" class="footer-impressum">Impressum</a>
   </footer>
 
+  <script src="icons.js"></script>
   <script src="substances.js"></script>
   <script src="../site.js?v=7"></script>
   <script src="../search.js?v=1"></script>

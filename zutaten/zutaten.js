@@ -1,46 +1,65 @@
 (() => {
   const data = window.SUBSTANCES_DATA;
+  const icons = window.SUBSTANCE_ICONS || { bySlug: {}, byCategory: {} };
   if (!data) return;
 
-  const registerEl = document.getElementById('register');
-  const modalEl = document.getElementById('entry-modal');
-  const modalContentEl = document.getElementById('entry-modal-content');
-  const closeBtn = modalEl.querySelector('.entry-close');
+  const gridEl = document.getElementById('grid');
+  const filterEl = document.getElementById('filter');
+  const detailEl = document.getElementById('detail');
+  if (!gridEl || !filterEl || !detailEl) return;
 
-  const slug = (s) => s.toLowerCase()
-    .replace(/[äöüß]/g, c => ({ä:'a',ö:'o',ü:'u',ß:'ss'}[c]))
+  const slugify = (s) => s.toLowerCase()
+    .replace(/[äöüß]/g, c => ({ ä: 'a', ö: 'o', ü: 'u', ß: 'ss' }[c]))
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 
-  // Register: alle Zutaten alphabetisch als kompakte Spaltenliste
-  const sortedEntries = [...data.entries].sort((a, b) =>
-    a.name.localeCompare(b.name, 'de', { sensitivity: 'base' })
-  );
-  registerEl.innerHTML = sortedEntries
-    .map(e => `<li><a href="#${slug(e.name)}" data-term="${e.name}">${e.name}</a></li>`)
-    .join('');
+  // Reihenfolge: Bestand der Daten (Seed zuerst, dann Batches), kein Alphabet.
+  const entries = data.entries.slice();
 
-  // Scroll-Reveal: Items fadet beim Eintritt in den Viewport ein, mit leichtem Stagger
-  const items = registerEl.querySelectorAll('li');
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduceMotion || !('IntersectionObserver' in window)) {
-    items.forEach(li => li.classList.add('is-visible'));
-  } else {
-    const io = new IntersectionObserver((entries) => {
-      const visible = entries.filter(e => e.isIntersecting);
-      visible.forEach((entry, i) => {
-        entry.target.style.transitionDelay = `${(i % 10) * 35}ms`;
-        entry.target.classList.add('is-visible');
-        io.unobserve(entry.target);
-      });
-    }, { threshold: 0.05, rootMargin: '0px 0px -5% 0px' });
-    items.forEach(item => io.observe(item));
-  }
+  // ── Icon-Lookup ────────────────────────────────────────────
+  const iconFor = (entry) => {
+    if (icons.bySlug[entry.slug]) return icons.bySlug[entry.slug];
+    if (icons.byCategory[entry.kategorie]) return icons.byCategory[entry.kategorie];
+    return icons.byCategory['Substanz'] || '';
+  };
 
-  // Querverlinkung: andere Zutaten im Fließtext zu klickbaren Links machen
+  // ── Kachel-Rendering ──────────────────────────────────────
+  const tile = (entry) => {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'zutaten-tile';
+    btn.dataset.slug = entry.slug;
+    btn.dataset.kategorie = entry.kategorie;
+    btn.setAttribute('aria-pressed', 'false');
+    btn.innerHTML = `
+      <span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span>
+      <span class="zutaten-tile-name">${entry.name}</span>
+      <span class="zutaten-tile-cat">${(entry.unterkategorie || entry.kategorie || '').toUpperCase()}</span>
+    `;
+    li.appendChild(btn);
+    return li;
+  };
+
+  const renderGrid = (filterKey) => {
+    gridEl.innerHTML = '';
+    const filtered = filterKey === 'all'
+      ? entries
+      : entries.filter(e => e.kategorie === filterKey);
+    if (filtered.length === 0) {
+      const li = document.createElement('li');
+      li.className = 'zutaten-empty';
+      li.textContent = 'Keine Einträge in dieser Rubrik.';
+      gridEl.appendChild(li);
+      return;
+    }
+    filtered.forEach(e => gridEl.appendChild(tile(e)));
+  };
+
+  // ── Querverlinkung im Wirkungs-Text ────────────────────────
   const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
   const buildLinkifier = (currentName) => {
-    const others = data.entries
+    const others = entries
       .map(en => en.name)
       .filter(t => t !== currentName)
       .sort((a, b) => b.length - a.length);
@@ -50,76 +69,75 @@
     return (text) => text.replace(regex, '<a class="zutaten-xref" data-term="$1" href="#">$1</a>');
   };
 
-  // Modal-Inhalt aus Eintrag bauen.
-  // Wirkung kann mehrere Absätze enthalten (durch \n\n getrennt) — jeder Absatz
-  // wird zu einem eigenen <p>. Werbung bleibt einsätzig.
-  const renderEntry = (e) => {
-    const link = buildLinkifier(e.name);
-    const ref = e.related_article
-      ? `<p class="zutaten-ref"><a href="${e.related_article}" target="_blank" rel="noopener">Mehr lesen →</a></p>`
-      : '';
-    const meta = e.unterkategorie
-      ? `<p class="zutaten-meta">${e.unterkategorie.toUpperCase()}</p>`
-      : '';
-    const wirkungParas = (e.wirkung || '')
+  // ── Detail-Bereich ────────────────────────────────────────
+  const renderDetail = (entry) => {
+    const link = buildLinkifier(entry.name);
+    const wirkungParas = (entry.wirkung || '')
       .split(/\n\n+/)
       .map((p, i) => {
         const label = i === 0 ? '<em class="zutaten-field-label">Wirkung:</em> ' : '';
         return `<p class="zutaten-line">${label}${link(p)}</p>`;
       })
       .join('');
-    return `
-      <h3 class="zutaten-term">${e.name}</h3>
-      ${meta}
-      <p class="zutaten-line"><em class="zutaten-field-label">Werbung:</em> ${link(e.werbung)}</p>
-      ${wirkungParas}
-      ${ref}
+    const ref = entry.related_article
+      ? `<p class="zutaten-ref"><a href="${entry.related_article}" target="_blank" rel="noopener">Mehr lesen →</a></p>`
+      : '';
+    detailEl.innerHTML = `
+      <div class="zutaten-detail-icon" aria-hidden="true">${iconFor(entry)}</div>
+      <div class="zutaten-detail-body">
+        <h2 class="zutaten-detail-name">${entry.name}</h2>
+        <p class="zutaten-detail-meta">${entry.kategorie} · ${entry.unterkategorie || ''}</p>
+        <p class="zutaten-line"><em class="zutaten-field-label">Werbung:</em> ${link(entry.werbung)}</p>
+        ${wirkungParas}
+        ${ref}
+      </div>
     `;
+    detailEl.hidden = false;
   };
 
-  const openEntry = (termName, updateHash = true) => {
-    const entry = data.entries.find(e => e.name === termName);
-    if (!entry) return;
-    modalContentEl.innerHTML = renderEntry(entry);
-    modalContentEl.scrollTop = 0;
-    modalEl.removeAttribute('hidden');
-    document.body.classList.add('modal-open');
-    if (updateHash) {
-      history.replaceState(null, '', '#' + slug(entry.name));
-    }
-    closeBtn.focus();
-  };
-
-  const closeEntry = () => {
-    modalEl.setAttribute('hidden', '');
-    document.body.classList.remove('modal-open');
+  const closeDetail = () => {
+    detailEl.hidden = true;
+    detailEl.innerHTML = '';
+    gridEl.querySelectorAll('.zutaten-tile[aria-pressed="true"]')
+      .forEach(b => b.setAttribute('aria-pressed', 'false'));
     if (window.location.hash) {
       history.replaceState(null, '', window.location.pathname);
     }
   };
 
-  // Klick auf Zutat im Register
-  registerEl.addEventListener('click', (ev) => {
-    const link = ev.target.closest('a[data-term]');
-    if (!link) return;
-    ev.preventDefault();
-    openEntry(link.dataset.term);
+  const openEntry = (slug, updateHash = true) => {
+    const entry = entries.find(e => e.slug === slug);
+    if (!entry) return;
+    renderDetail(entry);
+    gridEl.querySelectorAll('.zutaten-tile').forEach(b => {
+      b.setAttribute('aria-pressed', b.dataset.slug === slug ? 'true' : 'false');
+    });
+    if (updateHash) history.replaceState(null, '', '#' + slug);
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  // ── Filter-Buttons ────────────────────────────────────────
+  filterEl.addEventListener('click', (ev) => {
+    const btn = ev.target.closest('button[data-filter]');
+    if (!btn) return;
+    filterEl.querySelectorAll('button').forEach(b =>
+      b.setAttribute('aria-pressed', b === btn ? 'true' : 'false')
+    );
+    closeDetail();
+    renderGrid(btn.dataset.filter);
   });
 
-  // Klick außerhalb des Modals (auf den Backdrop) schließt
-  modalEl.addEventListener('click', (ev) => {
-    if (ev.target === modalEl) closeEntry();
+  // ── Grid-Klicks (Kachel öffnen/schließen) ─────────────────
+  gridEl.addEventListener('click', (ev) => {
+    const btn = ev.target.closest('.zutaten-tile');
+    if (!btn) return;
+    const slug = btn.dataset.slug;
+    const isOpen = btn.getAttribute('aria-pressed') === 'true';
+    if (isOpen) closeDetail();
+    else openEntry(slug);
   });
 
-  // Schließen-Button
-  closeBtn.addEventListener('click', closeEntry);
-
-  // ESC schließt
-  document.addEventListener('keydown', (ev) => {
-    if (ev.key === 'Escape' && !modalEl.hasAttribute('hidden')) closeEntry();
-  });
-
-  // Querverlinkungs-Tooltip: Hover-Vorschau auf andere Zutaten im Fließtext
+  // ── Querverlinkung im Detail-Text ─────────────────────────
   const tooltip = document.createElement('div');
   tooltip.className = 'zutaten-xref-tooltip';
   tooltip.setAttribute('hidden', '');
@@ -137,7 +155,7 @@
     tooltip.style.left = left + 'px';
   };
   const showTooltip = (link) => {
-    const entry = data.entries.find(en => en.name === link.dataset.term);
+    const entry = entries.find(en => en.name === link.dataset.term);
     if (!entry) return;
     tooltip.innerHTML = `
       <span class="zutaten-xref-tooltip-term">${entry.name}</span>
@@ -154,32 +172,34 @@
     }, 220);
   };
 
-  modalContentEl.addEventListener('mouseover', (ev) => {
+  detailEl.addEventListener('mouseover', (ev) => {
     const link = ev.target.closest('.zutaten-xref');
     if (!link) return;
     clearTimeout(hideTimer);
     clearTimeout(showTimer);
     showTimer = setTimeout(() => showTooltip(link), 220);
   });
-  modalContentEl.addEventListener('mouseout', (ev) => {
+  detailEl.addEventListener('mouseout', (ev) => {
     if (!ev.target.closest('.zutaten-xref')) return;
     clearTimeout(showTimer);
     hideTimer = setTimeout(hideTooltip, 120);
   });
-
-  modalContentEl.addEventListener('click', (ev) => {
+  detailEl.addEventListener('click', (ev) => {
     const link = ev.target.closest('.zutaten-xref');
     if (!link) return;
     ev.preventDefault();
     clearTimeout(showTimer);
     hideTooltip();
-    openEntry(link.dataset.term);
+    const entry = entries.find(en => en.name === link.dataset.term);
+    if (entry) openEntry(entry.slug);
   });
 
-  // Direkter Aufruf via URL-Hash (#hopfen öffnet Hopfen)
+  // ── Initial-Render ────────────────────────────────────────
+  renderGrid('all');
+
   const hash = window.location.hash.slice(1);
   if (hash) {
-    const entry = data.entries.find(e => slug(e.name) === hash);
-    if (entry) openEntry(entry.name, false);
+    const entry = entries.find(e => e.slug === hash);
+    if (entry) openEntry(entry.slug, false);
   }
 })();
