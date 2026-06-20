@@ -172,3 +172,39 @@ Werbung-Felder, sofern diese ein vergleichbares Muster nutzen.
 - 1 Eintrag (Spilanthol) war bereits ohne umschließende Guillemets
 - 1 Eintrag (Ergothionein) behält innere Guillemets `»Longevity-Vitamin«`
   als Zitat-im-Zitat, äußere Klammer entfernt
+
+## VI. Ortsnamen in deutscher Konvention
+
+Ortsnamen im Fließtext nutzen die etablierte deutsche Schreibweise.
+Englische oder originalsprachliche Schreibweisen bleiben nur in
+zitiertem Markenkontext erhalten (Studientitel, Firmen-Eigennamen,
+offiziell genannte Konferenz-/Dokument-Titel wie »The Tokyo Declaration«).
+
+### Regel
+
+| Englisch / Original | Deutsch (Fließtext) |
+|---|---|
+| Tokyo | Tokio |
+| Beijing / Peking (alt) | Peking |
+| Moscow / Moskva | Moskau |
+| Rome / Roma | Rom |
+| Milan | Mailand |
+| Florence / Firenze | Florenz |
+| Naples / Napoli | Neapel |
+| Lisbon / Lisboa | Lissabon |
+| Copenhagen / København | Kopenhagen |
+| Warsaw / Warszawa | Warschau |
+| Bombay (alt) | Mumbai |
+
+### Beispiele
+
+- Falsch im Fließtext: »In Tokyo ein Rezept, in Berlin ein NEM.«
+- Richtig: »In Tokio ein Rezept, in Berlin ein NEM.«
+- Erhalten bleibt: Studientitel »The Tokyo Declaration on Adverse Drug Reactions«.
+
+### Migrations-Status (2026-06-20)
+
+- 1 Treffer in substances.js bereinigt: `zink-carnosin` Wirkungstext,
+  »Tokyo« → »Tokio«.
+- Keine weiteren Ortsnamen-Treffer in den 168 Einträgen.
+- Bildgebung-Artikel: noch nicht vorhanden, Regel gilt ab Erstellung.

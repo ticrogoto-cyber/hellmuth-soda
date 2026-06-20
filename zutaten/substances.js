@@ -1974,7 +1974,7 @@ window.SUBSTANCES_DATA = {
       kategorie: "Substanz",
       unterkategorie: "Molekül",
       werbung: "Magenschutz aus Zink und L-Carnosin. Innovativer Schleimhautschutz.",
-      wirkung: "In Japan seit 1994 verschreibungspflichtig gegen Magengeschwüre. Heilungsrate vergleichbar mit Sucralfat.\n\nPolaprezinc klebt an der geschädigten Schleimhaut und induziert Hitzeschock-Protein HSP70, das die Zellregeneration beschleunigt. Sieben Tage 75 mg reduzieren NSAID-induzierte Magenläsionen signifikant. Verbessert die Eradikationsrate bei Helicobacter-Triple-Therapie. Wirkt auch bei Geschmacksstörungen und Hyperammonämie unter Leberzirrhose.\n\nIn Tokyo ein Rezept, in Berlin ein Nahrungsergänzungsmittel.",
+      wirkung: "In Japan seit 1994 verschreibungspflichtig gegen Magengeschwüre. Heilungsrate vergleichbar mit Sucralfat.\n\nPolaprezinc klebt an der geschädigten Schleimhaut und induziert Hitzeschock-Protein HSP70, das die Zellregeneration beschleunigt. Sieben Tage 75 mg reduzieren NSAID-induzierte Magenläsionen signifikant. Verbessert die Eradikationsrate bei Helicobacter-Triple-Therapie. Wirkt auch bei Geschmacksstörungen und Hyperammonämie unter Leberzirrhose.\n\nIn Tokio ein Rezept, in Berlin ein Nahrungsergänzungsmittel.",
       quellen: ["Watari 2008", "Kashimura 1999"],
       related_article: null,
     }
