@@ -289,7 +289,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
-  <link rel="stylesheet" href="../../../styles.css?v=10" />
+  <link rel="stylesheet" href="../../../styles.css?v=11" />
   <link rel="stylesheet" href="../../news.css" />
 </head>
 <body>

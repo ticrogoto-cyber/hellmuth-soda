@@ -492,6 +492,20 @@ main {
   border-bottom: 1px solid transparent;
   white-space: nowrap;
 }
+/* Hover-Effekt analog zur Wortmarke (.top .brand:hover { opacity: 0.7 }):
+   die Eintraege werden beim Druebergleiten heller. Der bestehende
+   .menu a transition (opacity .15s ease) tragt die Animation. Der
+   Unterstrich-Hover aus .menu a wird hier weggenommen, damit nur die
+   Aufhellung passiert (sauberer Effekt, kein Doppelreiz). Nur Desktop;
+   Mobile behaelt den Invert (bg/text-Tausch) im Hamburger-Dropdown. */
+@media (min-width: 768px) {
+  .menu .menu-dropdown a:hover,
+  .menu .menu-dropdown a:focus-visible {
+    opacity: 0.7;
+    border-bottom-color: transparent;
+    outline: none;
+  }
+}
 
 /* Suchfeld — Desktop: oben rechts; Mobile: wandert per JS ins Dropdown */
 .top-search {
