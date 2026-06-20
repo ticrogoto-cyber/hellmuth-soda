@@ -43,7 +43,7 @@
     btn.setAttribute('aria-pressed', 'false');
     btn.innerHTML = `
       <span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span>
-      <span class="zutaten-tile-name">${entry.name}</span>
+      <span class="zutaten-tile-name">${entry.shortName || entry.name}</span>
       <span class="zutaten-tile-cat">${(entry.unterkategorie || entry.kategorie || '').toUpperCase()}</span>
     `;
     li.appendChild(btn);

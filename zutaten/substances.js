@@ -20,6 +20,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Hopfen (Humulus lupulus)",
       slug: "hopfen",
+      shortName: "Hopfen",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Zapfen",
@@ -32,6 +33,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Ashwagandha (Withania somnifera)",
       slug: "ashwagandha",
+      shortName: "Ashwagandha",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Beere",
@@ -56,6 +58,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "NAC (N-Acetylcystein)",
       slug: "nac-n-acetylcystein",
+      shortName: "NAC",
       szenario: 1,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -68,6 +71,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Igelstachelbart (Hericium erinaceus)",
       slug: "igelstachelbart",
+      shortName: "Igelstachelbart",
       szenario: 3,
       kategorie: "Pilz",
       unterkategorie: "Vitalpilz",
@@ -80,6 +84,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Brennnessel (Urtica dioica)",
       slug: "brennnessel",
+      shortName: "Brennnessel",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wildkraut",
@@ -104,6 +109,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Spilanthol (Acmella oleracea)",
       slug: "spilanthol",
+      shortName: "Spilanthol",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
@@ -116,6 +122,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Passionsblume (Passiflora incarnata)",
       slug: "passionsblume",
+      shortName: "Passionsblume",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
@@ -128,6 +135,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Baldrian (Valeriana officinalis)",
       slug: "baldrian",
+      shortName: "Baldrian",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -140,6 +148,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Szechuanpfeffer (Zanthoxylum piperitum / bungeanum)",
       slug: "szechuanpfeffer",
+      shortName: "Szechuanpfeffer",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
@@ -152,6 +161,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Ingwer (Zingiber officinale)",
       slug: "ingwer",
+      shortName: "Ingwer",
       szenario: "sonderfall",
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -164,6 +174,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Limonenöl / D-Limonen",
       slug: "limonenoel-d-limonen",
+      shortName: "Limonenöl",
       szenario: 3,
       kategorie: "Fettsäure",
       unterkategorie: "Öl",
@@ -176,6 +187,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Wacholder (Juniperus communis)",
       slug: "wacholder",
+      shortName: "Wacholder",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Beere",
@@ -204,6 +216,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Lactobacillus rhamnosus GG (LGG)",
       slug: "lactobacillus-rhamnosus-gg",
+      shortName: "LGG",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -216,6 +229,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Lactobacillus plantarum 299v",
       slug: "lactobacillus-plantarum-299v",
+      shortName: "L. plantarum 299v",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -228,6 +242,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Lactobacillus reuteri DSM 17938",
       slug: "lactobacillus-reuteri-dsm-17938",
+      shortName: "L. reuteri 17938",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -240,6 +255,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Lactobacillus acidophilus",
       slug: "lactobacillus-acidophilus",
+      shortName: "L. acidophilus",
       szenario: 1,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -252,6 +268,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Lactobacillus gasseri SBT2055 / BNR17",
       slug: "lactobacillus-gasseri",
+      shortName: "L. gasseri",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -264,6 +281,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Bifidobacterium lactis BB-12",
       slug: "bifidobacterium-lactis-bb-12",
+      shortName: "B. lactis BB-12",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -276,6 +294,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Bifidobacterium longum Rosell-175",
       slug: "bifidobacterium-longum-rosell-175",
+      shortName: "B. longum R-175",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -288,6 +307,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Bifidobacterium bifidum",
       slug: "bifidobacterium-bifidum",
+      shortName: "B. bifidum",
       szenario: 1,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -300,6 +320,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Saccharomyces boulardii",
       slug: "saccharomyces-boulardii",
+      shortName: "S. boulardii",
       szenario: 3,
       kategorie: "Pilz",
       unterkategorie: "Hefe",
@@ -312,6 +333,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Akkermansia muciniphila",
       slug: "akkermansia-muciniphila",
+      shortName: "A. muciniphila",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -328,6 +350,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Bacillus coagulans (GBI-30, 6086)",
       slug: "bacillus-coagulans",
+      shortName: "B. coagulans",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -340,6 +363,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Bacillus subtilis (DE111 / Natto)",
       slug: "bacillus-subtilis",
+      shortName: "B. subtilis",
       szenario: 1,
       kategorie: "Mikrobiom",
       unterkategorie: "Bakterium",
@@ -364,6 +388,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "FOS (Fructooligosaccharide)",
       slug: "fos-fructooligosaccharide",
+      shortName: "FOS",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Präbiotikum",
@@ -376,6 +401,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "GOS (Galactooligosaccharide)",
       slug: "gos-galactooligosaccharide",
+      shortName: "GOS",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Präbiotikum",
@@ -388,6 +414,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Resistente Stärke (RS2 / RS3)",
       slug: "resistente-staerke",
+      shortName: "Resistente Stärke",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Präbiotikum",
@@ -400,6 +427,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Psyllium (Plantago ovata)",
       slug: "psyllium",
+      shortName: "Psyllium",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
@@ -412,6 +440,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "PHGG (teilhydrolysiertes Guarkernmehl, Sunfiber)",
       slug: "phgg",
+      shortName: "PHGG",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Präbiotikum",
@@ -424,6 +453,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Pektin (inkl. Modified Citrus Pectin)",
       slug: "pektin",
+      shortName: "Pektin",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Präbiotikum",
@@ -500,6 +530,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Zink-Carnosin (Polaprezinc)",
       slug: "zink-carnosin",
+      shortName: "Zink-Carnosin",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -512,6 +543,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "DGL (Deglycyrrhiziniertes Süßholz)",
       slug: "dgl-deglycyrrhiziniertes-suessholz",
+      shortName: "DGL",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -524,6 +556,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Slippery Elm (Ulmenrinde)",
       slug: "slippery-elm-ulmenrinde",
+      shortName: "Ulmenrinde",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Rinde",
@@ -536,6 +569,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Eibischwurzel (Althaea officinalis)",
       slug: "eibischwurzel",
+      shortName: "Eibischwurzel",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -560,6 +594,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Boswellia (Weihrauch)",
       slug: "boswellia-weihrauch",
+      shortName: "Weihrauch",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Harz",
@@ -576,6 +611,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Bittersalz · Glaubersalz",
       slug: "bittersalz-glaubersalz",
+      shortName: "Bittersalz · Glaubersalz",
       szenario: 1,
       kategorie: "Mineral",
       unterkategorie: "Mineral",
@@ -600,6 +636,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Kakaobohne (Theobroma cacao, roh)",
       slug: "kakaobohne",
+      shortName: "Kakaobohne",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
@@ -612,6 +649,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "NR (Nicotinamid-Ribosid)",
       slug: "nr-nicotinamid-ribosid",
+      shortName: "NR",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -624,6 +662,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Nicotinamid · Niacin · Vitamin B3",
       slug: "vitamin-b3-niacin-nicotinamid",
+      shortName: "Vitamin B3",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -684,6 +723,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Quercetin (Quercefit®)",
       slug: "quercetin-quercefit",
+      shortName: "Quercetin",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -724,6 +764,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "PQQ (Pyrrolochinolinchinon)",
       slug: "pqq-pyrrolochinolinchinon",
+      shortName: "PQQ",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -772,6 +813,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Calcium-Alpha-Ketoglutarat (Calcium-AKG)",
       slug: "calcium-akg",
+      shortName: "Calcium-AKG",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -808,6 +850,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "EGCG (Epigallocatechingallat, Grüntee)",
       slug: "egcg-epigallocatechingallat",
+      shortName: "EGCG",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -824,6 +867,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Melisse (Melissa officinalis)",
       slug: "melisse",
+      shortName: "Melisse",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -836,6 +880,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Lavendel (Lavandula angustifolia, Silexan)",
       slug: "lavendel",
+      shortName: "Lavendel",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
@@ -848,6 +893,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Kamille (Matricaria chamomilla)",
       slug: "kamille",
+      shortName: "Kamille",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
@@ -860,6 +906,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Goldmohn (Eschscholzia californica)",
       slug: "goldmohn",
+      shortName: "Goldmohn",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
@@ -872,6 +919,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Magnolia (Magnolia officinalis)",
       slug: "magnolia",
+      shortName: "Magnolia",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Rinde",
@@ -884,6 +932,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Phellodendron amurense (Relora-Kombi)",
       slug: "phellodendron",
+      shortName: "Phellodendron",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Rinde",
@@ -896,6 +945,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Jujube (Ziziphus jujuba, Suan Zao Ren)",
       slug: "jujube",
+      shortName: "Jujube",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Beere",
@@ -908,6 +958,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Helmkraut (Scutellaria baicalensis)",
       slug: "helmkraut",
+      shortName: "Helmkraut",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -932,6 +983,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "GABA (oral)",
       slug: "gaba",
+      shortName: "GABA",
       szenario: 1,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -972,6 +1024,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Ginseng (Panax ginseng)",
       slug: "ginseng-panax",
+      shortName: "Ginseng",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -984,6 +1037,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Eleutherococcus senticosus",
       slug: "eleutherococcus",
+      shortName: "Eleutherococcus",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -1008,6 +1062,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Maca (Lepidium meyenii)",
       slug: "maca-lepidium-meyenii",
+      shortName: "Maca",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -1032,6 +1087,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Tulsi (Ocimum sanctum)",
       slug: "tulsi-ocimum-sanctum",
+      shortName: "Tulsi",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1044,6 +1100,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Raupenpilz (Cordyceps militaris)",
       slug: "raupenpilz-cordyceps-militaris",
+      shortName: "Raupenpilz",
       szenario: 1,
       kategorie: "Pilz",
       unterkategorie: "Vitalpilz",
@@ -1056,6 +1113,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Glänzender Lackporling (Ganoderma lucidum, Reishi)",
       slug: "glaenzender-lackporling",
+      shortName: "Reishi",
       szenario: 1,
       kategorie: "Pilz",
       unterkategorie: "Vitalpilz",
@@ -1084,6 +1142,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Gotu Kola (Centella asiatica)",
       slug: "gotu-kola-centella-asiatica",
+      shortName: "Gotu Kola",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1096,6 +1155,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Suma (Pfaffia paniculata)",
       slug: "suma-pfaffia-paniculata",
+      shortName: "Suma",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -1120,6 +1180,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Salbei (Salvia officinalis / lavandulaefolia)",
       slug: "salbei-salvia-officinalis",
+      shortName: "Salbei",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1132,6 +1193,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Rosmarin (Rosmarinus officinalis)",
       slug: "rosmarin-rosmarinus-officinalis",
+      shortName: "Rosmarin",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1144,6 +1206,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Citicolin (CDP-Cholin)",
       slug: "citicolin-cdp-cholin",
+      shortName: "Citicolin",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1168,6 +1231,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Cholin (Bitartrat)",
       slug: "cholin-bitartrat",
+      shortName: "Cholin",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1196,6 +1260,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Butyrat (Buttersäure)",
       slug: "butyrat-buttersaeure",
+      shortName: "Butyrat",
       szenario: 3,
       kategorie: "Mikrobiom",
       unterkategorie: "Postbiotikum",
@@ -1220,6 +1285,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Mandelpilz (Agaricus blazei, ABM)",
       slug: "mandelpilz-agaricus-blazei",
+      shortName: "Mandelpilz",
       szenario: 1,
       kategorie: "Pilz",
       unterkategorie: "Vitalpilz",
@@ -1232,6 +1298,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Mariendistel / Silymarin",
       slug: "mariendistel-silymarin",
+      shortName: "Mariendistel",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
@@ -1244,6 +1311,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Artischocke / Cynarin",
       slug: "artischocke-cynarin",
+      shortName: "Artischocke",
       szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Blüte",
@@ -1256,6 +1324,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Löwenzahnwurzel (Taraxacum officinale)",
       slug: "loewenzahnwurzel",
+      shortName: "Löwenzahnwurzel",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -1304,6 +1373,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Alpha-Liponsäure (ALA)",
       slug: "alpha-liponsaeure-ala",
+      shortName: "ALA",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1320,6 +1390,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Enzian (Gentiana lutea)",
       slug: "enzian-gentiana-lutea",
+      shortName: "Enzian",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
@@ -1332,6 +1403,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Schafgarbe (Achillea millefolium)",
       slug: "schafgarbe-achillea-millefolium",
+      shortName: "Schafgarbe",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1344,6 +1416,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Tausendgüldenkraut (Centaurium erythraea)",
       slug: "tausendgueldenkraut-centaurium-erythraea",
+      shortName: "Tausendgüldenkraut",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1356,6 +1429,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Fenchel · Anis · Kümmel",
       slug: "fenchel-anis-kuemmel",
+      shortName: "Fenchel · Anis · K.",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
@@ -1368,6 +1442,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Andorn (Marrubium vulgare)",
       slug: "andorn-marrubium-vulgare",
+      shortName: "Andorn",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1392,6 +1467,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Basenpulver · Basentee",
       slug: "basenpulver-basentee",
+      shortName: "Basenpulver · Tee",
       szenario: 1,
       kategorie: "Mineral",
       unterkategorie: "Mineral",
@@ -1468,6 +1544,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Indol-3-Carbinol · DIM",
       slug: "indol-3-carbinol-dim",
+      shortName: "I3C · DIM",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1520,6 +1597,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "DMSO (Dimethylsulfoxid)",
       slug: "dmso",
+      shortName: "DMSO",
       szenario: 2,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1544,6 +1622,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Macadamia (Macadamia integrifolia)",
       slug: "macadamia",
+      shortName: "Macadamia",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
@@ -1560,6 +1639,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Petersilie (Petroselinum crispum)",
       slug: "petersilie",
+      shortName: "Petersilie",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1572,6 +1652,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Estragon (Artemisia dracunculus)",
       slug: "estragon",
+      shortName: "Estragon",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1600,6 +1681,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Heilerde (gelb und weiß)",
       slug: "heilerde",
+      shortName: "Heilerde",
       szenario: 3,
       kategorie: "Mineral",
       unterkategorie: "Erde",
@@ -1612,6 +1694,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Wermut (Artemisia absinthium)",
       slug: "wermut-artemisia-absinthium",
+      shortName: "Wermut",
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
@@ -1752,6 +1835,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "N-Acetyl-L-Tyrosin (NALT)",
       slug: "nalt-n-acetyl-l-tyrosin",
+      shortName: "NALT",
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1764,6 +1848,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "DMAE (Dimethylaminoethanol)",
       slug: "dmae",
+      shortName: "DMAE",
       szenario: 1,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1805,6 +1890,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B1 (Thiamin)",
       slug: "vitamin-b1-thiamin",
+      shortName: "Vitamin B1",
       szenario: "sonderfall",
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1817,6 +1903,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B2 (Riboflavin)",
       slug: "vitamin-b2-riboflavin",
+      shortName: "Vitamin B2",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1829,6 +1916,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B5 (Pantothensäure)",
       slug: "vitamin-b5-pantothensaeure",
+      shortName: "Vitamin B5",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1841,6 +1929,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B6 (P5P)",
       slug: "vitamin-b6-p5p",
+      shortName: "Vitamin B6",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1853,6 +1942,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B7 (Biotin)",
       slug: "vitamin-b7-biotin",
+      shortName: "Vitamin B7",
       szenario: 1,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1865,6 +1955,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B9 (Folat / Methylfolat)",
       slug: "vitamin-b9-folat",
+      shortName: "Vitamin B9",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1877,6 +1968,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin B12 (Methylcobalamin)",
       slug: "vitamin-b12-methylcobalamin",
+      shortName: "Vitamin B12",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1893,6 +1985,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin A · Retinol",
       slug: "vitamin-a-retinol",
+      shortName: "Vitamin A",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1917,6 +2010,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin D3 · Cholecalciferol",
       slug: "vitamin-d3",
+      shortName: "Vitamin D3",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1929,6 +2023,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin E · Tocotrienole",
       slug: "vitamin-e-tocotrienole",
+      shortName: "Vitamin E",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
@@ -1941,6 +2036,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin K2 · MK-7",
       slug: "vitamin-k2-mk7",
+      shortName: "Vitamin K2",
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
