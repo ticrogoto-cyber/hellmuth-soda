@@ -619,7 +619,61 @@ ${ldJson}
 }
 
 /**
- * Baut alle Substanz-Detailseiten unter /zutaten/{slug}/index.html.
+ * Lädt zutaten/icons.js (window.SUBSTANCE_ICONS) im Node-VM-Kontext.
+ * icons.js nutzt Template-Literal-Expressions, die beim Laden ausgewertet werden.
+ */
+function readIcons() {
+  const src = readFileSync(join(ROOT, 'zutaten', 'icons.js'), 'utf8');
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  const icons = ctx.window.SUBSTANCE_ICONS || { bySlug: {}, byCategory: {} };
+  return icons;
+}
+
+/**
+ * Rendert eine Substanz-Kachel als statisches Listing-HTML. Markup muss
+ * identisch zum Client-side tile() in zutaten.js sein, damit der Client-
+ * Renderer nicht neu zeichnen muss und Crawler sofort 168 Kacheln sehen.
+ */
+function tileHtmlForListing(entry, iconFor) {
+  const sz = String(entry.szenario || '');
+  const attrs = [
+    `class="zutaten-tile"`,
+    `data-slug="${esc(entry.slug)}"`,
+    `data-kategorie="${esc(entry.kategorie || '')}"`,
+  ];
+  if (sz) attrs.push(`data-szenario="${esc(sz)}"`);
+  if (entry.featured) attrs.push(`data-featured="true"`);
+  attrs.push(`aria-pressed="false"`);
+  const name = esc(entry.shortName || entry.name);
+  const cat = esc((entry.unterkategorie || entry.kategorie || '').toUpperCase());
+  return `<li data-slug="${esc(entry.slug)}"><button type="button" ${attrs.join(' ')}><span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span><span class="zutaten-tile-name">${name}</span><span class="zutaten-tile-cat">${cat}</span></button></li>`;
+}
+
+/**
+ * Schreibt /zutaten/index.html mit allen 168 Kacheln server-side gerendert.
+ * Behält Header, Filter, Footer und Script-Tags aus dem bestehenden Template;
+ * füllt nur das <ul class="zutaten-grid">. Crawler sehen damit das volle Listing
+ * im HTML, JS hängt nur Event-Handler an (renderGrid-Initial-Skip in zutaten.js).
+ */
+function buildZutatenIndex(entries) {
+  const icons = readIcons();
+  const iconFor = (e) => icons.bySlug[e.slug] || icons.byCategory[e.kategorie] || icons.byCategory.Substanz || '';
+  const indexPath = join(ROOT, 'zutaten', 'index.html');
+  const template = readFileSync(indexPath, 'utf8');
+  const tiles = entries.map(e => tileHtmlForListing(e, iconFor)).join('\n      ');
+  const filled = template.replace(
+    /(<ul class="zutaten-grid"[^>]*>)[\s\S]*?(<\/ul>)/,
+    `$1\n      ${tiles}\n    $2`
+  );
+  if (filled === template) throw new Error('buildZutatenIndex: grid <ul> not found in template');
+  writeFileSync(indexPath, filled, 'utf8');
+}
+
+/**
+ * Baut alle Substanz-Detailseiten unter /zutaten/{slug}/index.html und das
+ * statische Listing /zutaten/index.html.
  * @returns {{ entries: object[], written: number }}
  */
 export function buildZutaten() {
@@ -631,6 +685,7 @@ export function buildZutaten() {
     writeFileSync(join(dir, 'index.html'), substanceDetailHtml(entry), 'utf8');
     written += 1;
   }
+  buildZutatenIndex(entries);
   return { entries, written };
 }
 

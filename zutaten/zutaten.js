@@ -365,7 +365,10 @@
   // beim Layout-Pass des Grids final sind. Verhindert das Initial-Render-2-Spalten-
   // Phänomen, das durch zu früh berechnetes auto-fill ausgelöst wurde.
   const init = () => {
-    renderGrid('all');
+    // SSG-Markup respektieren: wenn das Listing bereits server-side mit
+    // Kacheln gefüllt ist, nicht überschreiben. Nur bei leerem Grid (z.B.
+    // beim ersten lokalen Laden ohne Build) clientseitig rendern.
+    if (gridEl.children.length === 0) renderGrid('all');
     const hash = window.location.hash.slice(1);
     if (hash) {
       const entry = entries.find(e => e.slug === hash);
