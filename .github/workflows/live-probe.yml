@@ -8,9 +8,10 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
     steps:
-      - name: curl Listing + Hopfen-Detail
+      - uses: actions/checkout@v4
+      - name: curl Listing + Hopfen-Detail + Vitamin-C-Hybrid
         run: |
           set +e
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
@@ -57,7 +58,35 @@ jobs:
           echo ""
           echo ""
           echo "==============================================="
+          echo "LIVE-PROBE Detail Vitamin C — Hybrid-Wirkung-Test"
+          echo "==============================================="
+          # Sleep um Pages-Edge-Cache nach dem Vitamin-C-Commit (6ae8378)
+          # Zeit zur Invalidierung zu geben. max-age=600 lt. live-probe-Header.
+          sleep 30
+          curl -sS -o /tmp/vitc.html -w "HTTP %{http_code}, size %{size_download} bytes\n" \
+            --max-time 15 -A "$UA" -H "Accept: text/html" -H "Cache-Control: no-cache" \
+            "https://hellmuth-soda.de/zutaten/vitamin-c/?nocache=$(date +%s)"
+          echo ""
+          echo "--- LAST-MODIFIED ---"
+          curl -sI --max-time 15 -A "$UA" "https://hellmuth-soda.de/zutaten/vitamin-c/" | grep -iE 'last-modified|etag|age|cache-control'
+          echo ""
+          echo "--- FÜNF SCHLÜSSEL-STRINGS (User-Spec) ---"
+          for needle in "Symptomverwaltung" "TET-Enzyme" "erfährt nicht, dass es sie gibt" "Saft aus der Frucht ist Therapie" "verkauft dir stattdessen Bisphosphonate"; do
+            count=$(grep -oc "$needle" /tmp/vitc.html)
+            ctx=$(grep -oE ".{0,60}$needle.{0,60}" /tmp/vitc.html | head -1)
+            echo "  [$count] '$needle'"
+            echo "      → $ctx"
+          done
+          echo ""
+          echo "--- WIRKUNG <p>-COUNT ---"
+          # Zähle nur Wirkung-Paragraphs (zutaten-line ohne zutaten-quellen, ohne "Werbung:")
+          # Approximation: grep auf class="zutaten-line"> direkt (ohne weitere Klasse)
+          echo "<p class=zutaten-line> (alle): $(grep -oc 'class="zutaten-line">' /tmp/vitc.html)"
+          echo "Quellen-Block:                  $(grep -oc 'zutaten-quellen' /tmp/vitc.html)"
+          echo "Werbung-Label:                  $(grep -oc 'Werbung:' /tmp/vitc.html)"
+          echo ""
+          echo "==============================================="
           echo "REPO-BLOB-SHA für Vergleich"
           echo "==============================================="
-          git rev-parse HEAD
-          git ls-tree HEAD zutaten/index.html zutaten/hopfen/index.html
+          git rev-parse HEAD || true
+          git ls-tree HEAD zutaten/vitamin-c/index.html || true
