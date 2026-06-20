@@ -6,8 +6,8 @@ mit Replikationsplan für die Substanz-Detail-Pages (`/zutaten/`).
 Quellen:
 - `/home/user/hellmuth-soda/news/counters.js` — Worker-Client (`window.Counters`)
 - `/home/user/hellmuth-soda/news/detail.js` — Interaktions-Handler (Click → like/view)
-- `/home/user/hellmuth-soda/news/news.css` (Z. 303–340) — Styling der `.news-actions`-Leiste
-- `/home/user/hellmuth-soda/pipeline/render.mjs` (Funktion `actionsBarHtml`, Z. 255–268) — generiert das Markup beim Build
+- `/home/user/hellmuth-soda/news/news.css` (Z. 303—340) — Styling der `.news-actions`-Leiste
+- `/home/user/hellmuth-soda/pipeline/render.mjs` (Funktion `actionsBarHtml`, Z. 255—268) — generiert das Markup beim Build
 - Beispiel-Render: `/home/user/hellmuth-soda/news/science/adoleszentes-nikotin-hinterlasst-eine-microglia-spur/index.html`
 
 ---
@@ -54,7 +54,7 @@ Der Heart wechselt sein SVG-Pfad-Markup (outline → filled) durch direktes `inn
 
 ## 2. CSS
 
-Aus `/home/user/hellmuth-soda/news/news.css` (Z. 303–340). Der Scope `.news-detail`
+Aus `/home/user/hellmuth-soda/news/news.css` (Z. 303—340). Der Scope `.news-detail`
 ist die `<main>` der Detailseite.
 
 ```css
@@ -295,7 +295,7 @@ Fehler sind nie fatal — der Client schluckt sie und zeigt einfach keinen Count
 
 Die Substanz-Pages sind eine Single-Page-App: `/zutaten/index.html` rendert das
 Grid, beim Klick wird das Detail (`.zutaten-detail`) inline als `<li class="zutaten-detail-row">`
-in den Grid-Container injiziert (siehe `openEntry()` in `zutaten.js`, Z. 118–154).
+in den Grid-Container injiziert (siehe `openEntry()` in `zutaten.js`, Z. 118—154).
 Es gibt **keine** separaten Detail-HTML-Files — jede Substanz wird durch
 `#<slug>`-Hash adressiert.
 
@@ -348,7 +348,7 @@ werden (im Gegensatz zum News-Modul, wo `detail.js` einmal pro Seitenaufruf läu
    };
    ```
 
-2. **`renderDetailContent(entry)` ergänzen** (Z. 74–96), Actions-Bar an das
+2. **`renderDetailContent(entry)` ergänzen** (Z. 74—96), Actions-Bar an das
    Ende des `.zutaten-detail-body` anhängen:
 
    ```js

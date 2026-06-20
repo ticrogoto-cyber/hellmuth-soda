@@ -88,7 +88,7 @@
           // "Bakterium" alle Probiotika-Stämme (unterkategorie="Bakterium").
           const sub = e.unterkategorie ? `${e.kategorie} · ${e.unterkategorie}` : (e.kategorie || '');
           items.push({
-            kind: 'Substanz',
+            kind: (e.unterkategorie || e.kategorie || 'Substanz').toUpperCase(),
             title: e.name,
             summary: sub,
             url: '/zutaten/' + e.slug + '/',

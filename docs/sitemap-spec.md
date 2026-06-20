@@ -12,7 +12,7 @@ Implementor of next step: write the generator. Do not redesign URLs.
 
 **File:** `/home/user/hellmuth-soda/sitemap.xml` (20 454 bytes, last touched
 2026-06-20). **Auto-generated.** Built by `pipeline/render.mjs` →
-`buildSitemapXml(all)` (lines 132–154) and written at the end of `build()`
+`buildSitemapXml(all)` (lines 132—154) and written at the end of `build()`
 (line 507). `render.mjs` is invoked from `pipeline/run.mjs`.
 
 **robots.txt:** present, three lines —
@@ -28,7 +28,7 @@ Sitemap: https://hellmuth-soda.de/sitemap.xml
 
 | Block | Source in render.mjs | Count |
 |---|---|---|
-| Static pages | `STATIC_PAGES` const (lines 27–35) | 7 |
+| Static pages | `STATIC_PAGES` const (lines 27—35) | 7 |
 | `/news/hellmuth/<slug>/` | `readAll().hellmuth` | 41 |
 | `/news/science/<slug>/` | `readAll().science` | 40 |
 
@@ -282,7 +282,7 @@ Insert in `<head>` after the canonical link. Field-to-source mapping:
   the Latin binomial in parentheses, which is part of the brand voice.
 - **`og:description` / `twitter:description` / `<meta name=description>`:**
   `entry.werbung` (the "Verpackungsrückseite"-tone marketing line, always
-  1–3 sentences, present on every entry). Strip the German guillemets
+  1—3 sentences, present on every entry). Strip the German guillemets
   (`»…«`) for the meta attribute — they hurt snippet rendering on social
   cards. Truncate to 200 chars hard, ending at the last sentence boundary
   before the cut, to keep under the OG 300-char soft cap.
@@ -325,7 +325,7 @@ valid SEO — OG + Twitter Card + canonical is the floor.
     helper).
 - Search Console: resubmit sitemap.xml after deploy. New URLs will only be
   crawled once the substance pages actually exist (HTTP 200 with the
-  canonical/OG head from §5–§6). Until then, expect "discovered, not
+  canonical/OG head from §5—§6). Until then, expect "discovered, not
   indexed" — acceptable for a one-deploy lag, not for longer.
 
 ---
@@ -334,9 +334,9 @@ valid SEO — OG + Twitter Card + canonical is the floor.
 
 - `/home/user/hellmuth-soda/sitemap.xml` (current output)
 - `/home/user/hellmuth-soda/robots.txt`
-- `/home/user/hellmuth-soda/pipeline/render.mjs` (lines 27–35
-  `STATIC_PAGES`, 132–154 `buildSitemapXml`, 285/352 canonical pattern,
-  87–96 `seoHead`)
+- `/home/user/hellmuth-soda/pipeline/render.mjs` (lines 27—35
+  `STATIC_PAGES`, 132—154 `buildSitemapXml`, 285/352 canonical pattern,
+  87—96 `seoHead`)
 - `/home/user/hellmuth-soda/pipeline/run.mjs` (entry point — no edit)
 - `/home/user/hellmuth-soda/zutaten/substances.js` (168 entries, schema
   comment in header)

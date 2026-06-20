@@ -1,6 +1,6 @@
 # Pointe-Sichtungs-Notizen
 
-Ein paralleler Subagent hatte die Heuristik »letzter Absatz, sonst letzte 1–2 Sätze«
+Ein paralleler Subagent hatte die Heuristik »letzter Absatz, sonst letzte 1—2 Sätze«
 auf alle 167 Wirkungs-Texte angewendet. Hier die nützlichen Beobachtungen aus
 seiner Analyse für die Sichtung des `pointe-proposal.md` (drei-Optionen-Tabelle).
 

@@ -14,7 +14,7 @@ fetch → dedup → (translate) → relevance(≥8) → transform → render →
 - **fetch** (`pipeline/fetch.mjs`): RSS/Atom (mit Discovery), PubMed E-Utilities, Sitemap- und Scrape-Fallback. robots.txt wird respektiert.
 - **dedup** (`pipeline/dedup.mjs`): SHA-256 der Original-URL gegen `pipeline/state/seen.json`.
 - **translate** (`pipeline/lib/anthropic.mjs`): nur für Quellen mit `translate:true` und Sprache ≠ en/de (Haiku).
-- **relevance**: Claude Haiku, Score 0–10, nur ≥ `RELEVANCE_THRESHOLD` (Default 8) gehen weiter.
+- **relevance**: Claude Haiku, Score 0—10, nur ≥ `RELEVANCE_THRESHOLD` (Default 8) gehen weiter.
 - **transform**: Claude Opus, System-Prompt = vollständige `pipeline/style/claude.md` + `pipeline/style/newsroom-rule.md` (prompt-gecacht).
 - **render** (`pipeline/render.mjs`): schreibt Markdown nach `content/news/<rubrik>/<YYYY-MM-DD>-<slug>.md`, generiert statische Detailseiten `news/<rubrik>/<slug>/index.html` und `news/data.js`.
 
@@ -64,7 +64,7 @@ Alles in `config/news-sources.json`. Eine Quelle ist ein Objekt:
 - An-/Abschalten: `active`.
 - `type`: `rss` versucht zusätzlich Sitemap/Scrape als Fallback. `pubmed` nutzt `queries`. `sitemap`/`scrape` für Quellen ohne Feed.
 - Nicht-EN/DE: `lang` setzen und `translate:true`.
-- **Paywall im Pressespiegel-Modus:** `paywall:true` + `headline_only:true`. Dann wird nur Titel und frei zugänglicher Anriss verarbeitet (kein Volltext hinter der Paywall), die Meldung wird auf 2–4 Sätze gekürzt und sichtbar als »Pressespiegel« markiert. So laufen Nikkei Asia und SCMP. Just Drinks und Campaign Asia bleiben `active:false`.
+- **Paywall im Pressespiegel-Modus:** `paywall:true` + `headline_only:true`. Dann wird nur Titel und frei zugänglicher Anriss verarbeitet (kein Volltext hinter der Paywall), die Meldung wird auf 2—4 Sätze gekürzt und sichtbar als »Pressespiegel« markiert. So laufen Nikkei Asia und SCMP. Just Drinks und Campaign Asia bleiben `active:false`.
 - Nach dem Hinzufügen einmal `task=check-feeds` laufen lassen und erst bei `feed_status: ok` scharf schalten.
 
 ## Stil nachjustieren

@@ -1,4 +1,4 @@
-# Slug Audit – /zutaten/{slug}/
+# Slug Audit — /zutaten/{slug}/
 
 Audit der 168 `slug`-Werte aus `/zutaten/substances.js`.
 Geprüft auf URL-Sicherheit, Länge, Eindeutigkeit, Pfad-Kollisionen, semantische Klarheit und Bot-Lesbarkeit.
@@ -13,7 +13,7 @@ Keine harten Verstöße. Alle 168 Slugs erfüllen die strikten Kriterien (Charse
 
 | Slug | Problem | Vorschlag |
 |------|---------|-----------|
-| – | – | – |
+| — | — | — |
 
 Soft-Findings (keine harten Fehler, aber Empfehlungen) → siehe Abschnitt **Recommended renames** unten.
 
@@ -29,14 +29,14 @@ Soft-Findings (keine harten Fehler, aber Empfehlungen) → siehe Abschnitt **Rec
 
 | Bucket | Anzahl | Anteil |
 |--------|-------:|-------:|
-| 0–20 Zeichen | 129 | 76,8 % |
-| 21–30 Zeichen | 33 | 19,6 % |
-| 31–40 Zeichen | 6 | 3,6 % |
+| 0—20 Zeichen | 129 | 76,8 % |
+| 21—30 Zeichen | 33 | 19,6 % |
+| 31—40 Zeichen | 6 | 3,6 % |
 | 41+ Zeichen | 0 | 0,0 % |
 
 Statistik: min = 3 (`iod`, `bor`), max = 40 (`tausendgueldenkraut-centaurium-erythraea`), Mittel = 14,6 Zeichen.
 
-Längste 6 (31–40):
+Längste 6 (31—40):
 
 | Slug | Länge |
 |------|------:|
@@ -47,7 +47,7 @@ Längste 6 (31–40):
 | `rosmarin-rosmarinus-officinalis` | 31 |
 | `schafgarbe-achillea-millefolium` | 31 |
 
-Alle deutlich unter dem 50-Zeichen-Soft-Limit – kein Bucket benötigt zwingende Kürzung.
+Alle deutlich unter dem 50-Zeichen-Soft-Limit — kein Bucket benötigt zwingende Kürzung.
 
 ---
 
@@ -55,7 +55,7 @@ Alle deutlich unter dem 50-Zeichen-Soft-Limit – kein Bucket benötigt zwingend
 
 Verglichen gegen die existierenden Einträge unter `/zutaten/`:
 
-- `bildgebung/` (Unterordner – explizit reserviert)
+- `bildgebung/` (Unterordner — explizit reserviert)
 - `bildgebung.css`, `bildgebung.js`, `feed.xml`, `footnotes.js`, `index.html` (innerhalb `bildgebung/`)
 - `icons.js`, `index.html`, `substances.js`, `zutaten.css`, `zutaten.js` (im `zutaten/`-Root)
 
@@ -63,7 +63,7 @@ Verglichen gegen die existierenden Einträge unter `/zutaten/`:
 
 | Reserved path | Konflikt-Slug |
 |---------------|---------------|
-| – | – |
+| — | — |
 
 ---
 
@@ -74,21 +74,21 @@ Keine **erforderlichen** Umbenennungen. Folgende Slugs könnten aus reiner Lesba
 | Current slug | New slug (Vorschlag) | Reason |
 |--------------|----------------------|--------|
 | `lactobacillus-rhamnosus-gg` | `lactobacillus-rhamnosus` *oder* `l-rhamnosus-gg` | Stamm-Suffix `gg` ist Fachjargon; für Social-Share wäre eine Variante ohne den Suffix oder mit verkürztem Gattungsnamen freundlicher. Aktueller Slug ist aber korrekt und Bot-lesbar. |
-| `lactobacillus-plantarum-299v` | `lactobacillus-plantarum` *oder* `l-plantarum-299v` | Stamm-Code `299v` wirkt kryptisch; Plain-Slug wäre kürzer. Risiko: weitere Plantarum-Stämme könnten später kollidieren – aktuell ist `299v` deshalb sogar präziser. |
+| `lactobacillus-plantarum-299v` | `lactobacillus-plantarum` *oder* `l-plantarum-299v` | Stamm-Code `299v` wirkt kryptisch; Plain-Slug wäre kürzer. Risiko: weitere Plantarum-Stämme könnten später kollidieren — aktuell ist `299v` deshalb sogar präziser. |
 | `lactobacillus-reuteri-dsm-17938` | `lactobacillus-reuteri` *oder* `l-reuteri-dsm17938` | `dsm-17938` ist eine DSMZ-Hinterlegungsnummer, für Endnutzer wenig sprechend. Wenn Eindeutigkeit zu anderen Reuteri-Stämmen nicht nötig, kürzen. |
-| `bifidobacterium-lactis-bb-12` | `bifidobacterium-lactis` *oder* `b-lactis-bb12` | `bb-12` enthält den einzigen Stamm-Code mit zwei Bindestrich-Komponenten – konsistenter wäre `bb12` (ein Token). |
+| `bifidobacterium-lactis-bb-12` | `bifidobacterium-lactis` *oder* `b-lactis-bb12` | `bb-12` enthält den einzigen Stamm-Code mit zwei Bindestrich-Komponenten — konsistenter wäre `bb12` (ein Token). |
 | `bifidobacterium-longum-rosell-175` | `bifidobacterium-longum` *oder* `b-longum-rosell175` | Herstellercode `Rosell-175` ist Markenstamm, in URL eher Ballast. |
-| `dgl-deglycyrrhiziniertes-suessholz` | `dgl-suessholz` *oder* `suessholz-dgl` | 34 Zeichen mit voller Wirkstoff-Definition im Slug; `dgl-suessholz` (13) wäre share-freundlicher, ohne Information zu verlieren – die Langform steht ohnehin im `name`. |
+| `dgl-deglycyrrhiziniertes-suessholz` | `dgl-suessholz` *oder* `suessholz-dgl` | 34 Zeichen mit voller Wirkstoff-Definition im Slug; `dgl-suessholz` (13) wäre share-freundlicher, ohne Information zu verlieren — die Langform steht ohnehin im `name`. |
 | `tausendgueldenkraut-centaurium-erythraea` | `tausendgueldenkraut` | Längster Slug (40). Botanischer Name dupliziert nur den `name`-Eintrag. Verkürzung halbiert die URL ohne Bedeutungsverlust. |
-| `iod` | `jod` *oder* unverändert | `iod` (3 Zeichen) ist die fachliche Schreibweise (IUPAC), `jod` die umgangssprachliche – wenn die Site eher Endnutzer adressiert, ist `jod` suchfreundlicher. |
-| `bor` | unverändert | 3 Zeichen, aber das ist der etablierte deutsche Trivialname des Elements – keine bessere Alternative. |
+| `iod` | `jod` *oder* unverändert | `iod` (3 Zeichen) ist die fachliche Schreibweise (IUPAC), `jod` die umgangssprachliche — wenn die Site eher Endnutzer adressiert, ist `jod` suchfreundlicher. |
+| `bor` | unverändert | 3 Zeichen, aber das ist der etablierte deutsche Trivialname des Elements — keine bessere Alternative. |
 
 **Konsistenz-Hinweis (keine Pflicht):** Die fünf Probiotika-Stämme verwenden uneinheitliche Stamm-Suffix-Formate (`-gg`, `-299v`, `-dsm-17938`, `-bb-12`, `-rosell-175`). Falls jemals eine Vereinheitlichung gewünscht ist: entweder durchgehend mit Stamm-Code (current) oder durchgehend ohne. Aktuell sind sie konsistent „mit Stamm-Code", nur die interne Schreibweise variiert (Bindestrich vs. zusammenhängend).
 
 **Nicht empfohlen zu ändern:**
-- `gaba`, `dmso`, `dmae`, `pqq`, `egcg`, `nalt`, `nac`, `mct-oel`, `nad-nmn`, `coq10-ubiquinol`, `nr-nicotinamid-ribosid`, `vitamin-b6-p5p`, `vitamin-k2-mk7`, `alpha-gpc`, `indol-3-carbinol-dim` – sind etablierte Fach-Akronyme, in Suchanfragen die primäre Form, und im jeweiligen `name`-Feld wird die Langform mitgeliefert.
-- `nad-nmn` – kombiniert zwei verwandte Moleküle in einem Eintrag; akzeptabel.
-- Botanische Doppelnamen wie `rosmarin-rosmarinus-officinalis`, `salbei-salvia-officinalis`, `schafgarbe-achillea-millefolium` – sind SEO-freundlich (deckt deutschen + lateinischen Suchbegriff ab) und unter 35 Zeichen.
+- `gaba`, `dmso`, `dmae`, `pqq`, `egcg`, `nalt`, `nac`, `mct-oel`, `nad-nmn`, `coq10-ubiquinol`, `nr-nicotinamid-ribosid`, `vitamin-b6-p5p`, `vitamin-k2-mk7`, `alpha-gpc`, `indol-3-carbinol-dim` — sind etablierte Fach-Akronyme, in Suchanfragen die primäre Form, und im jeweiligen `name`-Feld wird die Langform mitgeliefert.
+- `nad-nmn` — kombiniert zwei verwandte Moleküle in einem Eintrag; akzeptabel.
+- Botanische Doppelnamen wie `rosmarin-rosmarinus-officinalis`, `salbei-salvia-officinalis`, `schafgarbe-achillea-millefolium` — sind SEO-freundlich (deckt deutschen + lateinischen Suchbegriff ab) und unter 35 Zeichen.
 
 ---
 

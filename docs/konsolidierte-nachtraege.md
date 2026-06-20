@@ -93,7 +93,7 @@ User-Direktive: »Lithium darf übrigens nicht gut wegkommen. Wurde als nebenwir
 
 Lithium ist kein vergessenes Heilmittel, sondern ein nebenwirkungsreiches Antipsychotikum, das in der Psychiatrie mit guten Gründen nur noch unter engmaschiger Blutspiegelkontrolle eingesetzt wird (therapeutische Breite extrem schmal, Nephrotoxizität, Schilddrüsensuppression, Tremor, Diabetes insipidus).
 
-Die aktuelle Welle von Lithiumorotat-Supplementen in niedrigen Dosen (fünf bis zwanzig Milligramm) wird im deutschen Supplement-Markt und in Biohacker-Kreisen als »sicheres Mikrodosis-Lithium für Stimmung und Neuroprotection« vermarktet, ohne dass kontrollierte Humanstudien zur Wirksamkeit dieser niedrigen Dosen existieren. Die Werbung borgt sich die psychiatrische Datenlage (erhoben bei therapeutischen Dosen 600–1800 mg Lithiumcarbonat) und projiziert sie auf Mikrodosen, für die es keine Evidenz gibt. Scharlatanerie mit wissenschaftlichem Anstrich.
+Die aktuelle Welle von Lithiumorotat-Supplementen in niedrigen Dosen (fünf bis zwanzig Milligramm) wird im deutschen Supplement-Markt und in Biohacker-Kreisen als »sicheres Mikrodosis-Lithium für Stimmung und Neuroprotection« vermarktet, ohne dass kontrollierte Humanstudien zur Wirksamkeit dieser niedrigen Dosen existieren. Die Werbung borgt sich die psychiatrische Datenlage (erhoben bei therapeutischen Dosen 600—1800 mg Lithiumcarbonat) und projiziert sie auf Mikrodosen, für die es keine Evidenz gibt. Scharlatanerie mit wissenschaftlichem Anstrich.
 
 Die Werbung im Index trägt das Mikrodosis-Hype-Versprechen (stimmungsstabilisierend, neuroprotektiv, sicher, natürlich). Die Wirkung entlarvt die fehlende Dosisbrücke und die reale Toxizität bei therapeutischen Dosen.
 
@@ -116,7 +116,7 @@ Warum unterschätzt: Die Werbung verkauft Premium-Snack, hawaiianische Delikates
 ### Wermut — Sz3, »Hammer-Substanz« *(NACHTRAG)*
 **User-Direktive ausdrücklich:** »Wermut ist natürlich 'n Klassiker, aber Wermut ist Hammer. Also das ist wirklich sehr, sehr, sehr, sehr krass, was das so alles bewirken kann.«
 
-Absinthin als einer der stärksten bekannten Bitterstoffe der Pflanzenwelt (Bitterwert 10.000–30.000). TAS2R-Aktivierung. Klinisch wirksam bei Anorexie, Verdauungsschwäche, Cholestase. Im Markt breit unterdosiert. Thujon-Warnung als differenzierter Hinweis, nicht als dominanter Frame.
+Absinthin als einer der stärksten bekannten Bitterstoffe der Pflanzenwelt (Bitterwert 10.000—30.000). TAS2R-Aktivierung. Klinisch wirksam bei Anorexie, Verdauungsschwäche, Cholestase. Im Markt breit unterdosiert. Thujon-Warnung als differenzierter Hinweis, nicht als dominanter Frame.
 
 Schwesterart-Querverweis zu Estragon (Artemisia dracunculus) als Bitterstoff-Pair in derselben Gattung.
 

@@ -6,7 +6,7 @@
 //   szenario         1 | 2 | 3 | "sonderfall"
 //   kategorie        "Pflanze" | "Pilz" | "Mikrobiom" | "Aminosäure" | "Vitamin" | "Mineral" | "Fettsäure" | "Substanz" | "Konzept"
 //   unterkategorie   string (z. B. "Wurzel", "Bakterium", "Molekül")
-//   werbung          string  Verpackungsrückseite-Ton, 1–drei Sätze
+//   werbung          string  Verpackungsrückseite-Ton, 1—drei Sätze
 //   wirkung          string  Mehrabsatziger Diagnose-Text, Absätze durch \n\n getrennt
 //   quellen          string[]  Studienzitate als Datenattribute (nicht im Fließtext)
 //   related_article  string|null  Pfad zu Bildgebung-Artikel

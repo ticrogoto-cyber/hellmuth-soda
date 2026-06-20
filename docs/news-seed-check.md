@@ -17,7 +17,7 @@ Wenn eines dieser Muster auftaucht: **melden, nicht selbst korrigieren**. Der Fi
 ### Punktuation
 
 - Em-Dash (`—`) im Text. Verboten überall.
-- En-Dash (`–`) als Satzzeichen, also nicht zwischen Zahlen oder Datumsangaben.
+- En-Dash (`—`) als Satzzeichen, also nicht zwischen Zahlen oder Datumsangaben.
 - Doppelpunkt, der keine Aufzählung ankündigt und keine zwingende Ankündigung ist. Wenn der Doppelpunkt nur Rhythmus erzeugt, ist er drift.
 - Englische Anführungszeichen statt Guillemets.
 - Ausrufezeichen.
