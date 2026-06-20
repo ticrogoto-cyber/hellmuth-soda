@@ -1,6 +1,9 @@
 name: Live-Probe
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/live-probe.yml'
 
 jobs:
   probe:
