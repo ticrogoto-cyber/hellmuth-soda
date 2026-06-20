@@ -469,9 +469,12 @@ main {
   top: 100%;
   left: 0;
   margin: 0;
-  padding: 0.35rem 0 0;
+  /* Hintergrund identisch zur Body-Farbe (var(--paper)), damit der
+     Page-Inhalt nicht durchscheint. Padding seitlich Null, weil die
+     Items ihr eigenes Padding tragen. */
+  padding: 0.35rem 0;
   list-style: none;
-  background: transparent;
+  background: var(--paper);
   border: none;
   display: none;
   min-width: max-content;
