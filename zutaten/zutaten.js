@@ -118,6 +118,10 @@
         return `<p class="zutaten-line">${label}${link(p)}</p>`;
       })
       .join('');
+    const quellen = Array.isArray(entry.quellen) ? entry.quellen.filter(Boolean) : [];
+    const quellenHtml = quellen.length
+      ? `<p class="zutaten-line zutaten-quellen"><em class="zutaten-field-label">Quellen:</em> ${quellen.join(', ')}</p>`
+      : '';
     const ref = entry.related_article
       ? `<p class="zutaten-ref"><a href="${entry.related_article}" target="_blank" rel="noopener">Mehr lesen →</a></p>`
       : '';
@@ -128,6 +132,7 @@
         <p class="zutaten-detail-meta">${entry.kategorie} · ${entry.unterkategorie || ''}</p>
         <p class="zutaten-line"><em class="zutaten-field-label">Werbung:</em> ${link(entry.werbung)}</p>
         ${wirkungParas}
+        ${quellenHtml}
         ${actionsBarHtml(entry.slug, entry.name)}
         ${ref}
       </div>
