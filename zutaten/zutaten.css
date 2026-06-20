@@ -34,25 +34,28 @@
 .zutaten-main {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 16px 80px;
+  /* Top-Padding kompensiert die fixed-Position des .top-Headers, analog zu
+     .news-main:padding-top. Ohne diesen Offset verdeckt der schwebende
+     Header die Filter-Leiste und die erste Kachelreihe. */
+  padding: clamp(7rem, 12vh, 10rem) 16px 80px;
   color: var(--zutaten-text-color);
   display: flow-root;
 }
 
 /* ── Filter-Leiste ─────────────────────────────────────────
-   Visuelle Familie der Substanz-Kacheln, kleinere Höhe,
-   dunklerer Border, semibold. 32px Atemraum oben und unten. */
+   Visuelle Familie der Substanz-Kacheln, warmgraue Pille mit
+   dunklerem Border als die Kacheln. 40px Atemraum oben und unten. */
 
 .zutaten-filter {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 32px 0;
+  margin: 40px 0;
 }
 
 .zutaten-filter button {
-  background: var(--zutaten-bg-secondary);
-  border: 1.5px solid #c8c8c8;
+  background: hsl(40, 14%, 90%);
+  border: 1.5px solid hsl(40, 12%, 72%);
   border-radius: 4px;
   padding: 6px 14px;
   height: 28px;
@@ -70,8 +73,8 @@
 }
 
 .zutaten-filter button:hover {
-  background: #e8e8e8;
-  border-color: #a8a8a8;
+  background: hsl(40, 14%, 84%);
+  border-color: hsl(40, 12%, 58%);
 }
 
 .zutaten-filter button[aria-pressed="true"] {
