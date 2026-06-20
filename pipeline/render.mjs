@@ -582,7 +582,7 @@ function substanceDetailHtml(entry) {
 ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
-  <link rel="stylesheet" href="../zutaten.css?v=10" />
+  <link rel="stylesheet" href="../zutaten.css?v=11" />
 </head>
 <body>
   <header class="top">

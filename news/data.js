@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-20T21:12:35.445Z",
+  "generated": "2026-06-20T21:20:42.389Z",
   "hellmuth": [
     {
       "title": "BOSS Coffee dockt in Vietnam an den Energy-Drink-Markt an",

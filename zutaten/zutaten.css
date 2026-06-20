@@ -20,9 +20,9 @@
   /* Sz2/Sz3, unterdrückt oder unterschätzt — Salbeigrün.
      Gleicher Ton für Sz2 und Sz3, kein visueller Unterschied.
      Verdikt, nicht Diagnose. */
-  --zutaten-sz23-bg: hsl(140, 22%, 94%);
-  --zutaten-sz23-border: hsl(140, 20%, 78%);
-  --zutaten-sz23-accent: hsl(140, 45%, 38%);
+  --zutaten-sz23-bg: hsl(135, 28%, 90%);
+  --zutaten-sz23-border: hsl(135, 25%, 72%);
+  --zutaten-sz23-accent: hsl(135, 45%, 38%);
 
   /* Featured-Leuchtturm — Gold */
   --zutaten-gold-bg: hsl(42, 55%, 92%);
@@ -174,7 +174,7 @@
    jeweils eigenen Farbraum. Reihenfolge mirror der Hierarchie. */
 .zutaten-tile[data-szenario="2"]:hover,
 .zutaten-tile[data-szenario="3"]:hover {
-  border-color: hsl(140, 25%, 62%);
+  border-color: hsl(135, 25%, 62%);
 }
 
 .zutaten-tile[data-szenario="1"]:hover {
