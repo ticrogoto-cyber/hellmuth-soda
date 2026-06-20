@@ -40,6 +40,7 @@
     btn.dataset.slug = entry.slug;
     btn.dataset.kategorie = entry.kategorie;
     if (sz) btn.dataset.szenario = sz;
+    if (entry.featured) btn.dataset.featured = 'true';
     btn.setAttribute('aria-pressed', 'false');
     btn.innerHTML = `
       <span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span>

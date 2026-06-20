@@ -20,6 +20,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Hopfen (Humulus lupulus)",
       slug: "hopfen",
+      featured: true,
       shortName: "Hopfen",
       szenario: 3,
       kategorie: "Pflanze",
@@ -33,6 +34,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Ashwagandha (Withania somnifera)",
       slug: "ashwagandha",
+      featured: true,
       shortName: "Ashwagandha",
       szenario: 3,
       kategorie: "Pflanze",
@@ -46,6 +48,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Kokosöl",
       slug: "kokosoel",
+      featured: true,
       szenario: 2,
       kategorie: "Fettsäure",
       unterkategorie: "Öl",
@@ -58,6 +61,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "NAC (N-Acetylcystein)",
       slug: "nac-n-acetylcystein",
+      featured: true,
       shortName: "NAC",
       szenario: 1,
       kategorie: "Substanz",
@@ -71,6 +75,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Igelstachelbart (Hericium erinaceus)",
       slug: "igelstachelbart",
+      featured: true,
       shortName: "Igelstachelbart",
       szenario: 3,
       kategorie: "Pilz",
@@ -84,6 +89,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Brennnessel (Urtica dioica)",
       slug: "brennnessel",
+      featured: true,
       shortName: "Brennnessel",
       szenario: 3,
       kategorie: "Pflanze",
@@ -97,6 +103,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Sulforaphan",
       slug: "sulforaphan",
+      featured: true,
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -109,6 +116,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Spilanthol (Acmella oleracea)",
       slug: "spilanthol",
+      featured: true,
       shortName: "Spilanthol",
       szenario: 3,
       kategorie: "Pflanze",
@@ -200,6 +208,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "NAD+ / NMN",
       slug: "nad-nmn",
+      featured: true,
       szenario: 2,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -594,6 +603,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Boswellia (Weihrauch)",
       slug: "boswellia-weihrauch",
+      featured: true,
       shortName: "Weihrauch",
       szenario: 3,
       kategorie: "Pflanze",
@@ -675,6 +685,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Apigenin",
       slug: "apigenin",
+      featured: true,
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -801,6 +812,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Kreatin",
       slug: "kreatin",
+      featured: true,
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1361,6 +1373,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Glutathion",
       slug: "glutathion",
+      featured: true,
       szenario: 3,
       kategorie: "Aminosäure",
       unterkategorie: "Peptid",
@@ -1598,6 +1611,7 @@ window.SUBSTANCES_DATA = {
       name: "DMSO (Dimethylsulfoxid)",
       slug: "dmso",
       shortName: "DMSO",
+      featured: true,
       szenario: 2,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1608,8 +1622,23 @@ window.SUBSTANCES_DATA = {
     },
 
     {
+      name: "Methylenblau",
+      slug: "methylenblau",
+      shortName: "Methylenblau",
+      featured: true,
+      szenario: 2,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Umstrittene Off-Label-Substanz aus dem Aquarienbedarf und Färberlabor. Antimalariamittel mit zweifelhafter Reputation, nicht für die Selbstmedikation gedacht.«",
+      wirkung: "Methylenblau ist der erste synthetisch hergestellte Pharmastoff der Geschichte, isoliert 1876 von Heinrich Caro, und seit 1891 in der Klinik gegen Malaria im Einsatz. Ein Stammbaum, der dem Aquarium-Etikett der Werbung nicht ansatzweise gerecht wird. Pharmakologisch funktioniert die Substanz als alternativer Elektronen-Carrier in der mitochondrialen Atmungskette und überbrückt einen defekten Komplex I. Damit ist sie die einzige bekannte kleinmolekulare mitochondriale Rettung mit klinischer Datenlage.\n\nNiedrige Dosen zwischen 0,5 und 4 mg/kg verbessern in einer randomisierten fMRT-Studie an gesunden Erwachsenen Arbeitsgedächtnis und Reaktionszeit, korreliert mit erhöhter Aktivität im präfrontalen Kortex. Eine Phase-II-Studie bei moderater Alzheimer-Demenz dokumentiert nach dem LMTM-Derivat über zwölf Monate Verlangsamung des kognitiven Abfalls. Antidepressive Wirkung ist seit den 1960er Jahren beschrieben und in einer aktuellen randomisierten Studie bei bipolarer Depression bestätigt.\n\nFDA-zugelassen ist die Substanz seit Jahrzehnten für Methämoglobinämie und Cyanid-Vergiftung, jede weitere Indikation gilt als off-label. Im Apothekenregal als »Color Additive« kategorisiert und in der ärztlichen Praxis konsequent gemieden. Eine Substanz mit Alzheimer-, Depressions- und Mitochondrien-Daten findet im Westen den Verschreibungsweg nicht, obwohl sie der erste Wirkstoff der modernen Pharmazie war.",
+      quellen: ["Atamna 2008", "Rodriguez 2016 (fMRT)", "Wischik 2008 (LMTM Alzheimer)", "Alda 2017 (bipolare Depression)"],
+      related_article: "/zutaten/bildgebung/dmso-methylenblau-lithiumorotat/"
+    },
+
+    {
       name: "Lithiumorotat",
       slug: "lithiumorotat",
+      featured: true,
       szenario: 1,
       kategorie: "Substanz",
       unterkategorie: "Molekül",
@@ -1622,6 +1651,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Macadamia (Macadamia integrifolia)",
       slug: "macadamia",
+      featured: true,
       shortName: "Macadamia",
       szenario: 3,
       kategorie: "Pflanze",
@@ -1639,6 +1669,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Petersilie (Petroselinum crispum)",
       slug: "petersilie",
+      featured: true,
       shortName: "Petersilie",
       szenario: 3,
       kategorie: "Pflanze",
@@ -1665,6 +1696,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Sango Koralle",
       slug: "sango-koralle",
+      featured: true,
       szenario: 3,
       kategorie: "Mineral",
       unterkategorie: "Koralle",
@@ -1694,6 +1726,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Wermut (Artemisia absinthium)",
       slug: "wermut-artemisia-absinthium",
+      featured: true,
       shortName: "Wermut",
       szenario: 3,
       kategorie: "Pflanze",
@@ -1707,6 +1740,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Kokoswasser",
       slug: "kokoswasser",
+      featured: true,
       szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Frucht",
@@ -1719,6 +1753,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Chlorophyll",
       slug: "chlorophyll",
+      featured: true,
       szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Pigment",
@@ -1735,6 +1770,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Biophotonen",
       slug: "biophotonen",
+      featured: true,
       szenario: 2,
       kategorie: "Konzept",
       unterkategorie: "Mechanismus",
@@ -1747,6 +1783,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Magnesium",
       slug: "magnesium",
+      featured: true,
       szenario: "sonderfall",
       kategorie: "Mineral",
       unterkategorie: "Mineral",

@@ -8,14 +8,20 @@
   --zutaten-bg-secondary: #f0f0f0;
   --zutaten-border-color: #e0e0e0;
 
-  /* Szenario-Aquarelle, sehr dezent */
-  --zutaten-sz1-bg: hsl(0, 50%, 96%);
-  --zutaten-sz1-border: hsl(0, 40%, 88%);
-  --zutaten-sz1-accent: hsl(0, 70%, 45%);
+  /* Warmes Neutral als Default-Hintergrund für alle nicht-getaggten Kacheln */
+  --zutaten-warm-bg: hsl(40, 18%, 95%);
+  --zutaten-warm-border: hsl(40, 12%, 88%);
 
-  --zutaten-sz23-bg: hsl(140, 35%, 95%);
-  --zutaten-sz23-border: hsl(140, 30%, 86%);
-  --zutaten-sz23-accent: hsl(140, 55%, 35%);
+  /* Sz1, entlarvte Werbung — Rosa */
+  --zutaten-sz1-bg: hsl(0, 45%, 95%);
+  --zutaten-sz1-border: hsl(0, 40%, 88%);
+  --zutaten-sz1-accent: hsl(0, 65%, 50%);
+
+  /* Featured-Leuchtturm — Gold */
+  --zutaten-gold-bg: hsl(42, 55%, 92%);
+  --zutaten-gold-border: hsl(42, 50%, 72%);
+  --zutaten-gold-glow: 0 0 18px hsla(42, 70%, 65%, 0.35), inset 0 0 0 1px hsla(42, 60%, 75%, 0.4);
+  --zutaten-gold-accent: hsl(42, 70%, 50%);
 }
 
 .zutaten-main {
@@ -26,30 +32,33 @@
 }
 
 /* ── Filter-Leiste ─────────────────────────────────────────
-   Visuelle Familie der Substanz-Kacheln, nicht der Bildgebung-
-   Rechtecke. Kleinere Höhe, dunklerer Border, semibold-Schrift —
-   gleiche Material-Welt wie die Kacheln. */
+   Visuelle Familie der Substanz-Kacheln, kleinere Höhe,
+   dunklerer Border, semibold. 32px Atemraum oben und unten. */
 
 .zutaten-filter {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 40px 0;
+  gap: 8px;
+  margin: 32px 0;
 }
 
 .zutaten-filter button {
   background: var(--zutaten-bg-secondary);
   border: 1.5px solid #c8c8c8;
   border-radius: 4px;
-  padding: 10px 18px;
+  padding: 6px 14px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--zutaten-text-color);
   cursor: pointer;
   transition: all 0.15s ease;
+  line-height: 1;
 }
 
 .zutaten-filter button:hover {
@@ -90,8 +99,8 @@
 }
 
 .zutaten-tile {
-  background: var(--zutaten-bg-secondary);
-  border: 1px solid var(--zutaten-border-color);
+  background: var(--zutaten-warm-bg);
+  border: 1px solid var(--zutaten-warm-border);
   border-radius: 4px;
   padding: 14px 10px;
   display: flex;
@@ -115,21 +124,20 @@
   border-color: var(--zutaten-text-color);
 }
 
-/* Szenario-Aquarelle */
+/* Verdikt-Hierarchie:
+   1) featured = true            → Gold-Glow (überschreibt alles)
+   2) szenario = 1, nicht featured → Rosa
+   3) sonst                       → warmes Neutral (Default-Hintergrund) */
+
 .zutaten-tile[data-szenario="1"] {
   background: var(--zutaten-sz1-bg);
   border-color: var(--zutaten-sz1-border);
 }
 
-.zutaten-tile[data-szenario="2"],
-.zutaten-tile[data-szenario="3"] {
-  background: var(--zutaten-sz23-bg);
-  border-color: var(--zutaten-sz23-border);
-}
-
-.zutaten-tile[data-szenario="sonderfall"] {
-  background: var(--zutaten-bg-secondary);
-  border-color: var(--zutaten-border-color);
+.zutaten-tile[data-featured="true"] {
+  background: var(--zutaten-gold-bg);
+  border-color: var(--zutaten-gold-border);
+  box-shadow: var(--zutaten-gold-glow);
 }
 
 /* Aktiver Zustand: invertiert + farbiger 2px Streifen am Boden */
@@ -149,15 +157,18 @@
   background: var(--zutaten-sz1-accent);
 }
 
-.zutaten-tile[aria-pressed="true"][data-szenario="2"]::after,
-.zutaten-tile[aria-pressed="true"][data-szenario="3"]::after {
+.zutaten-tile[aria-pressed="true"][data-featured="true"] {
+  box-shadow: var(--zutaten-gold-glow);
+}
+
+.zutaten-tile[aria-pressed="true"][data-featured="true"]::after {
   content: '';
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   height: 2px;
-  background: var(--zutaten-sz23-accent);
+  background: var(--zutaten-gold-accent);
 }
 
 .zutaten-tile-icon {
@@ -180,15 +191,17 @@
 }
 
 .zutaten-tile-cat {
-  font-size: 10px;
-  letter-spacing: 0.05em;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  opacity: 0.5;
-  font-weight: 500;
+  font-weight: 600;
+  color: var(--zutaten-text-color);
+  opacity: 0.7;
+  margin-top: 4px;
 }
 
 .zutaten-tile[aria-pressed="true"] .zutaten-tile-cat {
-  opacity: 0.65;
+  opacity: 0.8;
 }
 
 /* ── Detail-Bereich, inline in der Grid-Zeile ────────────── */
