@@ -496,7 +496,7 @@ export function build() {
       title: `${SITE_NAME} Bildgebung`,
       feedUrl: `${SITE}/zutaten/bildgebung/feed.xml`,
       link: `${SITE}/zutaten/bildgebung/`,
-      description: 'Substanzen unter dem Mikroskop. Diagnostische Lesarten von Werbung, Wirkung und Evidenz.',
+      description: 'Werbung gegen Evidenz, eine Substanz nach der anderen.',
       items: [],
     }),
     'utf8'
