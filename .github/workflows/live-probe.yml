@@ -1,0 +1,60 @@
+name: Live-Probe
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: curl Listing + Hopfen-Detail
+        run: |
+          set +e
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+          echo "==============================================="
+          echo "LIVE-PROBE Listing https://hellmuth-soda.de/zutaten/"
+          echo "==============================================="
+          curl -sS -o /tmp/listing.html -w "HTTP %{http_code}, size %{size_download} bytes, time %{time_total}s\n" \
+            --max-time 15 -A "$UA" -H "Accept: text/html" \
+            "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)"
+          echo ""
+          echo "--- COUNTS LIVE LISTING ---"
+          echo "zutaten-tile: $(grep -oc 'zutaten-tile' /tmp/listing.html)"
+          echo "data-name=:   $(grep -oc 'data-name=' /tmp/listing.html)"
+          echo "ItemList:     $(grep -oc 'ItemList' /tmp/listing.html)"
+          echo "og:type:      $(grep -oc 'og:type' /tmp/listing.html)"
+          echo "<li:          $(grep -oc '<li' /tmp/listing.html)"
+          echo "Total bytes:  $(wc -c < /tmp/listing.html)"
+          echo ""
+          echo "--- LAST-MODIFIED + ETag Header ---"
+          curl -sI --max-time 15 -A "$UA" "https://hellmuth-soda.de/zutaten/" | grep -iE 'last-modified|etag|x-github|server|age|cache-control'
+          echo ""
+          echo "--- LISTING BODY first 1500 chars ---"
+          head -c 1500 /tmp/listing.html
+          echo ""
+          echo ""
+          echo "==============================================="
+          echo "LIVE-PROBE Detail https://hellmuth-soda.de/zutaten/hopfen/"
+          echo "==============================================="
+          curl -sS -o /tmp/hopfen.html -w "HTTP %{http_code}, size %{size_download} bytes\n" \
+            --max-time 15 -A "$UA" -H "Accept: text/html" \
+            "https://hellmuth-soda.de/zutaten/hopfen/?nocache=$(date +%s)"
+          echo ""
+          echo "--- COUNTS HOPFEN ---"
+          echo "Title:        $(grep -oP '<title>[^<]*</title>' /tmp/hopfen.html | head -1)"
+          echo "Hopfen-Hits:  $(grep -oc 'Hopfen' /tmp/hopfen.html)"
+          echo "Wirkung-Hits: $(grep -oc 'Wirkung' /tmp/hopfen.html)"
+          echo "<p>-Tags:     $(grep -oc '<p' /tmp/hopfen.html)"
+          echo "JSON-LD:      $(grep -oc 'application/ld+json' /tmp/hopfen.html)"
+          echo "Total bytes:  $(wc -c < /tmp/hopfen.html)"
+          echo ""
+          echo "--- HOPFEN BODY first 1500 chars ---"
+          head -c 1500 /tmp/hopfen.html
+          echo ""
+          echo ""
+          echo "==============================================="
+          echo "REPO-BLOB-SHA für Vergleich"
+          echo "==============================================="
+          git rev-parse HEAD
+          git ls-tree HEAD zutaten/index.html zutaten/hopfen/index.html
