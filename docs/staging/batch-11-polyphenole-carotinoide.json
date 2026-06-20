@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Catechine",
+    "slug": "catechine",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Antioxidans der Natur. Catechine aus Grüntee, Kakao und Trauben für Herz und Gefäße.«",
+    "wirkung": "Catechine sind keine generischen Antioxidantien. Epicatechin aktiviert das endotheliale NO-Signal und entspannt die Gefäße akut. Kakao-Metaanalysen zeigen Blutdrucksenkung um zwei bis fünf mmHg. Das ist klein und kardiovaskulär relevant zugleich.\n\nIm Grüntee dominiert EGCG mit seinem Bioverfügbarkeitsproblem, im Kakao das pharmakokinetisch bessere Epicatechin. Wer Catechine für die Gefäße will, geht über dunkle Schokolade oder reines Epicatechin, nicht über Grüntee-Extrakt.\n\nIm Mund spürt der Körper die Substanz unmittelbar. Catechine binden Schleimhautproteine und erzeugen das pelzige Adstringenz-Gefühl von Tee und Kakao. Diese Adstringenz ist kein Nebeneffekt, sondern der biochemische Beleg, dass die Substanz mit Schleimhaut interagiert.",
+    "quellen": ["Hooper 2012"],
+    "related_article": null
+  },
+  {
+    "name": "Anthocyane",
+    "slug": "anthocyane",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Pigment",
+    "werbung": "»Blau und kraftvoll. Anthocyane aus Beeren für Augen, Herz und Klarheit.«",
+    "wirkung": "Anthocyane sind die Farbstoffe der dunklen Beeren. Sie wirken am Endothel über NO-Aktivierung, in der Mikroglia über NF-κB-Hemmung, am Auge über Photorezeptor-Stabilisierung. Aronia-Saft senkt den systolischen Blutdruck bei moderater Hypertonie über zwölf Wochen. Das ist Pharmakologie aus dem Strauch.\n\nSauerkirsche enthält andere Anthocyane mit eigener Wirkung. Tart-Cherry-Saft am Abend verbessert die Schlafqualität bei Insomnie über Melatonin-Erhöhung. Beeren-Pharmakologie ist sortenabhängig, das Marketing der Antioxidans-Kapsel nicht.\n\nBioverfügbarkeit ist niedrig, klinische Effekte trotzdem messbar, weil Anthocyane bereits in geringer Plasmakonzentration über Sirtuin-Signale arbeiten. Wer Anthocyane will, isst die Beere, nicht das Extrakt-Pulver. Die Frucht trägt mehr, als jeder Pulversack ausweisen kann.",
+    "quellen": ["Kardum 2014", "Pigeon 2010"],
+    "related_article": null
+  },
+  {
+    "name": "Hesperidin",
+    "slug": "hesperidin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Mikrovaskulärer Schutz. Hesperidin aus Zitrus für Venen, Kapillaren und Hämorrhoiden.«",
+    "wirkung": "Hesperidin sitzt in der weißen Innenhaut der Zitrusfrucht, dort, wo die meisten Menschen sie wegwerfen. Es stabilisiert Kapillaren und reduziert mikrovaskuläre Durchlässigkeit. In Frankreich verschreiben Ärzte Daflon (Diosmin plus Hesperidin) gegen chronisch-venöse Insuffizienz und Hämorrhoiden, mit harter Datenlage. In Deutschland steht die Substanz im Reformhaus.\n\nWer schwere Beine und geschwollene Knöchel hat, hat hier ein klinisch belegtes Werkzeug. Pharmakologisch arbeitet Hesperidin als Phlebotonikum über Hemmung der Noradrenalin-Spaltung an den Venenwänden und reduziert venöse Stase. Nach vier Wochen 1000 mg täglich nimmt das Abendschwellen messbar ab, ohne Messgerät. Phlebotonische Pharmakologie auf der Beinhaut.",
+    "quellen": ["Lyseng-Williamson 2003"],
+    "related_article": null
+  },
+  {
+    "name": "Rutin",
+    "slug": "rutin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Buchweizen-Kraft für Venen und Kapillaren. Rutin für stabile Gefäße.«",
+    "wirkung": "Rutin ist der Glykosid-Bruder des Quercetins, in Buchweizen und Zitrusschalen reichlich vorhanden. Die Mikrobiota spaltet es zu Quercetin, was die Bioverfügbarkeit an die Darmflora koppelt. Pharmakologisch reduziert es die kapilläre Permeabilität und stabilisiert die Mikrozirkulation, ein Effekt, der die Anwendung bei Krampfadern und Hämorrhoiden trägt.\n\nKlinisch reduziert Rutin Beinschmerzen und Schwellung über sechs Wochen und stabilisiert die retinale Kapillarwand bei Diabetes. Diese Indikationen erklären, warum osteuropäische und französische Phytotherapien Rutin halten und die deutsche Drogerie es zwischen Vitaminen verliert.\n\nSubjektiv tut Rutin nichts Spürbares, es arbeitet auf Endothelebene. Aber wer chronisch geschwollene Knöchel hat, registriert nach Wochen ein Abklingen. Rutin ist eine leise Substanz mit kapillarstabilisierender Wirkung, im westlichen Markt eine Statistnummer.",
+    "quellen": ["Belcaro 2017"],
+    "related_article": null
+  },
+  {
+    "name": "Berberin",
+    "slug": "berberin",
+    "szenario": 2,
+    "kategorie": "Substanz",
+    "unterkategorie": "Alkaloid",
+    "werbung": "»Pflanzliches Insulin. Blutzucker senken ohne Nebenwirkungen. Die natürliche Alternative zu Metformin.«",
+    "wirkung": "Berberin senkt HbA1c bei Typ-2-Diabetes mit einer Wirkstärke, die in Metaanalysen Metformin gleichzieht. Drei chinesische RCTs zeigen Senkung von Nüchternblutzucker, postprandialer Glukose und LDL-Cholesterin in Größenordnungen, die jedes erste-Wahl-Antidiabetikum beanspruchen würde. Pharmakologisch aktiviert die Substanz AMPK, dieselbe Energiesensor-Kinase, die Metformin nutzt. Wer Berberin als naturheilkundlichen Zusatz behandelt, übersieht eine pharmakologisch potente Substanz.\n\nDer Mainstream-Westen ignoriert diesen Befund. Nicht aus Datenmangel, sondern aus Patentmangel. Berberin stammt aus Berberis-Sträuchern und ist pharmazeutisch nicht patentierbar. Kein Hersteller finanziert eine Phase-III-Diabetes-Zulassung. Das ist nicht Medizin, das ist Marktordnung.\n\nDie Nebenwirkungen sind real und im Bauch spürbar. 1500 mg täglich verursachen Krämpfe und Durchfall. Die GI-Toleranz erzwingt schrittweisen Aufbau. Eine Substanz, die Metformin in der Wirkstärke gleichzieht und in der westlichen Versorgung Supplement-Status hat, ist nicht unterdosiert. Sie ist absichtlich unter den klinischen Radar geschoben.",
+    "quellen": ["Yin 2008", "Dong 2012"],
+    "related_article": null
+  },
+  {
+    "name": "Indol-3-Carbinol · DIM",
+    "slug": "indol-3-carbinol-dim",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Hormonbalance aus Kreuzblütlern. I3C und DIM für gesunden Östrogenstoffwechsel.«",
+    "wirkung": "Indol-3-Carbinol entsteht beim Zerkleinern von Brokkoli und Kohl, im Magen wird daraus DIM, das aktive Endprodukt. Die Substanz verschiebt den Östrogen-Metabolismus weg vom genotoxischen 16-Hydroxy-Östron hin zum schützenden 2-Hydroxy-Östron. Wer regelmäßig Kreuzblütler isst, modifiziert sein eigenes Östrogen-Profil messbar.\n\nBei Frauen mit erhöhtem Brustkrebs-Risiko verschiebt DIM das 2-OH/16-OH-Verhältnis in die schützende Richtung. Bei Cervix-Dysplasie reduziert I3C milde Läsionen. Im Frauen-Supplement-Markt wird die Substanz vermarktet, in der Mainstream-Gynäkologie ignoriert.\n\nSubjektiv spürt der Körper die Wirkung nicht direkt, Anwenderinnen mit zyklusgebundenen Brustspannungen berichten nach Wochen Rückgang. Wer Brokkoli regelmäßig isst, betreibt unbeabsichtigt Östrogen-Pharmakologie. Wer DIM in Kapseln nimmt, beschleunigt den Vorgang.",
+    "quellen": ["Bell 2000", "Dalessandri 2004"],
+    "related_article": null
+  },
+  {
+    "name": "Beta-Carotin",
+    "slug": "beta-carotin",
+    "szenario": 1,
+    "kategorie": "Substanz",
+    "unterkategorie": "Pigment",
+    "werbung": "»Provitamin A aus der Karotte. Für Augen, Haut und Immunsystem.«",
+    "wirkung": "Beta-Carotin ist die größte Warnung in der Carotinoid-Pharmakologie. Die ATBC-Studie 1994 und die CARET-Studie 1996 mussten vorzeitig gestoppt werden, weil männliche Raucher unter Beta-Carotin-Hochdosis 18 bis 28 Prozent mehr Lungenkrebs entwickelten. Das ist keine Vitamin-Ergänzung, das ist eine Substanz mit dokumentiertem Schadenspotenzial bei Risikogruppen.\n\nDer Mechanismus ist verstanden. In oxidativ belasteten Geweben kippt isoliertes Beta-Carotin von antioxidativ zu pro-oxidativ. Es bildet instabile Metabolite, die DNA-Schäden verstärken statt verhindern. Was im Reagenzglas als Antioxidans glänzt, wird im Raucher-Lungengewebe zum DNA-Toxin.\n\nDie Lebensmittelmatrix ist davon nicht betroffen. Karotten und Spinat liefern Beta-Carotin im Kontext von Vitamin C, E und Tocotrienolen, die die pro-oxidative Kippreaktion abfangen. Wer Beta-Carotin isoliert nimmt, riskiert das, was die Karottensuppe gefahrlos liefert. Im Reformhaus steht eine Substanz, die in der Pharmakovigilanz als Schadensbeispiel geführt wird.",
+    "quellen": ["ATBC 1994", "Omenn 1996"],
+    "related_article": null
+  },
+  {
+    "name": "Astaxanthin",
+    "slug": "astaxanthin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Pigment",
+    "werbung": "»Das stärkste Antioxidans der Natur. Astaxanthin aus der Mikroalge für Haut, Augen und Anti-Aging.«",
+    "wirkung": "Astaxanthin ist das rote Carotinoid, das Lachs, Garnele und Flamingo färbt. Es löscht Singulett-Sauerstoff mit einer Wirkstärke, die andere Carotinoide um Größenordnungen übertrifft. Klinisch reduziert es UV-induzierte Hautschäden und altersbedingte Faltentiefe nach zwölf Wochen Einnahme. Das ist messbare Photonen-Pharmakologie, nicht Marketing.\n\nIm Auge wirkt die Substanz an der Macula und verlangsamt den Sehfähigkeitsverlust bei AMD im Vergleich zum Standard-AREDS-Protokoll. Die antiinflammatorische NF-κB-Hemmung hat klinisch relevante Effekte bei rheumatoider Arthritis. Im Westen fliegt die Substanz unterhalb der Wellness-Aufmerksamkeit.\n\nSubjektiv ist die Wirkung subtil. Wer Astaxanthin über Wochen einnimmt, registriert veränderte Hautadaptation an die Sonne, weniger Rötung, langsameres Bräunen mit besserer Erholung. Eine Substanz, die das Sonnenlicht der Mikroalge filtert, übernimmt diese Aufgabe auch beim Menschen.",
+    "quellen": ["Tominaga 2012", "Piermarocchi 2012"],
+    "related_article": null
+  },
+  {
+    "name": "Lutein · Zeaxanthin",
+    "slug": "lutein-zeaxanthin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Pigment",
+    "werbung": "»Augenpigmente aus Spinat und Grünkohl. Lutein und Zeaxanthin für scharfe Sicht und gesunde Macula.«",
+    "wirkung": "Lutein und Zeaxanthin sind zwei Carotinoide, die der Körper gezielt in der Macula lutea akkumuliert. Dort filtern sie blaues Licht und neutralisieren Radikale, die Photorezeptoren beschädigen. Die AREDS2-Studie hat 2013 beide Substanzen als sicheren Ersatz für Beta-Carotin in der AMD-Prophylaxe etabliert. Damit gehören sie zu den evidenzbasierten Augenpharmakologien im Supplement-Markt.\n\nKlinisch reduzieren 10 mg Lutein und 2 mg Zeaxanthin täglich die AMD-Progression. Bei gesunden Erwachsenen verbessern sie Kontrastsensitivität und Erholung von Blendung. Im Auge ist das eine seltene pharmakologische Direktheit, kein systemischer Umweg.\n\nSubjektiv registriert der Körper die Wirkung nach Wochen. Wer beim Autofahren am Abend von Scheinwerfern geblendet wird, merkt eine schnellere Wiederherstellung der Sicht. Die Substanz baut den UV-Schutzfilter, den die Pflanze in der Sonne aufgebaut hat, im menschlichen Auge nach.",
+    "quellen": ["AREDS2 2013", "Stringham 2017"],
+    "related_article": null
+  }
+]

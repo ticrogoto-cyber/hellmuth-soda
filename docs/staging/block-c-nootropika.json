@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Noopept",
+    "slug": "noopept",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Russisches Hochleistungs-Nootropikum. Tausendfach stärker als der Klassiker. Tropfen unter die Zunge, Gedächtnis und Klarheit am Schreibtisch.«",
+    "wirkung": "Noopept ist N-Phenylacetyl-L-prolylglycin-ethylester, in den 1990er Jahren am russischen Sachetow-Institut entwickelt und strukturell mit den Racetamen verwandt. Im Tiermodell zeigt die Substanz eine etwa tausendfach höhere Wirkstärke pro Milligramm als Piracetam. Die typische Tagesdosis liegt bei 10 mg sublingual oder oral, also einem Bruchteil der klassischen Racetam-Mengen. Pharmakologisch induziert Noopept BDNF und NGF im Hippocampus und stabilisiert cholinerge und glutamaterge Signalwege. Die Substanz passiert die Blut-Hirn-Schranke problemlos und entfaltet ihre Wirkung innerhalb einer Stunde. Russische Kliniken setzen Noopept bei mild bis moderat ausgeprägter kognitiver Beeinträchtigung nach Schlaganfall, Schädel-Hirn-Trauma und altersassoziiertem Gedächtnisverlust ein. Die dortigen Studien dokumentieren messbare Verbesserungen in Gedächtnis, Aufmerksamkeit und exekutiver Funktion. Der westliche Markt führt Noopept als Nahrungsergänzungsmittel ohne Zulassung, obwohl die Substanz pharmakologisch ein Arzneimittel ist. Anwender berichten klare Konzentration, leichten Antrieb und ein kühles Bauchgefühl ohne den nervösen Überschwung klassischer Stimulanzien. Die Substanz arbeitet leise.",
+    "closer": "In Moskau ein Klinikpräparat mit Indikation, in Berlin eine Internetbestellung mit Disclaimer.",
+    "quellen": ["Ostrovskaya 2007", "Gudasheva 1996"],
+    "related_article": null
+  },
+  {
+    "name": "Piracetam",
+    "slug": "piracetam",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Der Nootropic-Klassiker aus den siebziger Jahren. Konzentration, Gedächtnis, Klarheit. Das Original, das den Begriff Nootropikum erst geschaffen hat.«",
+    "wirkung": "Piracetam ist das Stamm-Molekül der Racetam-Klasse, von Giurgea 1972 synthetisiert und gleichzeitig mit dem Begriff Nootropikum überhaupt erst eingeführt. Die Substanz moduliert AMPA-Rezeptoren am glutamatergen Synapsenende und verstärkt die cholinerge Transmission im Hippocampus. Zusätzlich verbessert Piracetam die Membranfluidität alternder Neuronen und steigert die zerebrale Mikrozirkulation. Die klinischen Anwendungsgebiete sind ungewöhnlich breit. In Frankreich und Italien führen Apotheken Piracetam als Verschreibungspräparat bei vaskulärer Demenz, Myoklonus, Schwindel kortikalen Ursprungs und Dyslexie bei Kindern. Die übliche Tagesdosis liegt zwischen 1200 mg und 4800 mg, aufgeteilt auf zwei bis drei Gaben. Die orale Bioverfügbarkeit erreicht nahezu hundert Prozent und die Substanz zeigt eine bemerkenswert flache Toxizitätskurve über Jahrzehnte klinischer Erfahrung. Anwender berichten eine ruhige Klarheit, ein kühles Bauchgefühl und längere Konzentrationsphasen ohne stimulierenden Überschwung. Im deutschsprachigen Raum bewegt sich Piracetam in einer regulatorischen Grauzone zwischen Arzneimittelstatus und freier Bestellbarkeit, während südeuropäische Patienten das Mittel routinemäßig in der Apotheke erhalten.",
+    "closer": "In Paris ein Apothekenpräparat mit Indikation, in Hamburg ein Pulver aus dem Internet ohne Beipackzettel.",
+    "quellen": ["Giurgea 1972", "Winblad 2005"],
+    "related_article": null
+  },
+  {
+    "name": "Phenylpiracetam",
+    "slug": "phenylpiracetam",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Die starke Racetam-Variante mit Antrieb. Russische Kosmonauten-Forschung. Konzentration, Wachheit, körperliche Belastbarkeit in einer Kapsel.«",
+    "wirkung": "Phenylpiracetam trägt eine zusätzliche Phenyl-Gruppe am Piracetam-Grundgerüst und passiert dadurch die Blut-Hirn-Schranke deutlich besser als das Ausgangsmolekül. Die russische Forschung entwickelte die Substanz ursprünglich für Kosmonauten und Soldaten unter extremer Belastung. In Russland ist sie als Phenotropil zugelassen und steht auf der offiziellen Arzneimittelliste. Pharmakologisch wirkt Phenylpiracetam wie ein Hybrid aus Racetam und mildem Stimulans. Die Substanz erhöht Dopamin und Noradrenalin im präfrontalen Kortex, verbessert Aufmerksamkeit und Reaktionszeit und steigert messbar die körperliche Leistungsfähigkeit unter Kältestress. Die typische Tagesdosis liegt zwischen 100 mg und 200 mg, der Effekt setzt innerhalb einer Stunde ein. Die Welt-Anti-Doping-Agentur führt Phenylpiracetam seit 2018 auf der Verbotsliste für den Wettkampfsport, was den klinischen Wirkmechanismus indirekt bestätigt. Anwender berichten klare Wachheit, gesteigerte Motivation und körperliche Energie ohne den scharfen Crash typischer Stimulanzien. Die Toleranzentwicklung ist allerdings ausgeprägt und begrenzt den Dauergebrauch auf wenige Tage pro Woche.",
+    "closer": "Auf der WADA-Verbotsliste, in der russischen Klinik zugelassen. Beides für dieselbe Substanz.",
+    "quellen": ["Kovalev 2007", "Malykh 2010"],
+    "related_article": null
+  },
+  {
+    "name": "Aniracetam",
+    "slug": "aniracetam",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Das anxiolytische Racetam. Konzentration ohne Anspannung, Klarheit ohne Hektik. Italienisches Apothekenpräparat mit Geschichte.«",
+    "wirkung": "Aniracetam ist ein fettlösliches Racetam mit ungewöhnlich breitem Wirkprofil und gilt unter den Racetamen als die anxiolytisch wirksamste Variante. Die Substanz moduliert AMPA-Rezeptoren positiv und verlängert die glutamaterge Synapsenaktivität, ohne den exzitotoxischen Bereich zu erreichen. Zusätzlich beeinflusst Aniracetam serotonerge und dopaminerge Bahnen und greift damit in das emotionale Tönungssystem ein. Die Halbwertszeit ist kurz, weshalb die übliche Dosierung dreimal täglich 750 mg beträgt, vorzugsweise zu fettreichen Mahlzeiten für optimale Resorption. In Italien führen Apotheken Aniracetam als Verschreibungspräparat bei seniler kognitiver Beeinträchtigung und nach Schlaganfall. Klinische Studien dokumentieren Verbesserungen in Gedächtnis, Aufmerksamkeit und Stimmung bei post-Stroke-Patienten mit messbaren Punktgewinnen in kognitiven Testbatterien. Anwender berichten ein ruhiges Gehirn ohne den engen Brustraum sozialer Anspannung, Klarheit beim Sprechen und ein lockeres Gefühl unter Druck. Die Substanz wirkt weniger stimulierend als Phenylpiracetam und weniger nüchtern-klar als Piracetam, eher warm und entspannt-fokussiert. Aniracetam ist das Racetam für Menschen, die nicht ruhig sind.",
+    "closer": "Wer Aniracetam nimmt, fokussiert sich nicht trotz der Angst, sondern findet eine Ruhe, in der Fokus wieder möglich ist.",
+    "quellen": ["Lee 1994", "Senin 1991"],
+    "related_article": null
+  },
+  {
+    "name": "N-Acetyl-L-Tyrosin (NALT)",
+    "slug": "nalt-n-acetyl-l-tyrosin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Die bioverfügbare Tyrosin-Form für klare Köpfe unter Druck. Dopamin-Baustein gegen Erschöpfung, Stress und kalte Nächte.«",
+    "wirkung": "N-Acetyl-L-Tyrosin ist eine acetylierte Form der Aminosäure Tyrosin mit deutlich verbesserter Wasserlöslichkeit und stabilerer Plasmakinetik. Tyrosin selbst ist die direkte Vorstufe von L-Dopa und damit Ausgangsmaterial für die Synthese von Dopamin, Noradrenalin und Adrenalin im Locus coeruleus und im präfrontalen Kortex. Unter akutem Stress, Schlafentzug, Kältebelastung oder anhaltender mentaler Beanspruchung sinkt die Tyrosin-Konzentration im Plasma messbar ab. Die katecholaminergen Bahnen geraten in Substratmangel, und kognitive Leistungsfähigkeit, Reaktionszeit und Stimmung brechen ein. Militärstudien der US Army dokumentieren bei Soldaten unter Schlafentzug, Kältestress oder Höhenexposition eine deutliche Erhalt-Wirkung kognitiver Leistung durch orale Tyrosin-Supplementation. Die typische Dosis liegt zwischen 500 mg und 2000 mg vor der Belastung. NALT zeigt eine bessere Bioverfügbarkeit als freies Tyrosin und überzeugt besonders unter akuten Belastungsbedingungen mit schneller Anflutung. Anwender berichten erhaltene Klarheit bei langer Nacht, stabile Stimmung bei Drucksituationen und ein körperliches Gefühl von Wachheit ohne den scharfen Antrieb von Koffein. Die Substanz wirkt subtraktiv, sie verhindert den Einbruch.",
+    "closer": "Tyrosin bringt keine zusätzliche Klarheit. Es verhindert den Einbruch der vorhandenen.",
+    "quellen": ["Banderet 1989", "Magill 2003"],
+    "related_article": null
+  },
+  {
+    "name": "DMAE (Dimethylaminoethanol)",
+    "slug": "dmae",
+    "szenario": 1,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Anti-Aging-Booster für Haut und Hirn. Cholin-Vorstufe für Gedächtnis und straffe Gesichtskonturen, der Klassiker aus dem amerikanischen Wellness-Regal.«",
+    "wirkung": "DMAE wird als Cholin-Vorstufe und damit als indirekter Acetylcholin-Spender beworben, doch die biochemische Realität ist deutlich dünner als die Marketingaussagen. Studien zur tatsächlichen Umwandlung von DMAE zu Cholin oder Acetylcholin im menschlichen Gehirn liefern uneinheitliche und überwiegend schwache Daten. Tiermodelle zeigen eine gewisse Membranstabilisierung an alternden Neuronen, ohne dass sich daraus reproduzierbare klinische Effekte ableiten ließen. In den 1960er Jahren testeten amerikanische Psychiater DMAE bei hyperaktiven Kindern unter dem Markennamen Deanol, bevor die FDA das Präparat aufgrund unzureichender Wirksamkeitsbelege vom Markt nahm. Tierstudien an trächtigen Tieren weisen auf eine Assoziation mit Neuralrohrdefekten bei der Nachkommenschaft hin, weshalb eine Anwendung in Schwangerschaft und Stillzeit klar zu vermeiden ist. Die kommerziell relevante Anwendung von DMAE liegt heute in topischen Anti-Aging-Hautcremes, wo die Substanz eine kurzfristige Hautstraffung über Membraneffekte vermitteln soll. Pharmakologisch bleibt DMAE eine Substanz mit großem Marketingversprechen und kleiner Evidenzbasis. Wer klare kognitive Effekte sucht, greift zu Citicolin oder Alpha-GPC und nicht zu DMAE.",
+    "closer": "In der Hautcreme ein temporärer Straffungseffekt, im Nootropika-Regal eine Hoffnung mit dünnen Daten.",
+    "quellen": ["Dimpfel 2003", "FDA Drug Efficacy Study"],
+    "related_article": null
+  },
+  {
+    "name": "Vinpocetin",
+    "slug": "vinpocetin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Pflanzliches Hirndurchblutungs-Tonikum aus dem Vinca-Strauch. Ungarisches Apothekenpräparat für klaren Kopf und gute Erinnerung im Alter.«",
+    "wirkung": "Vinpocetin ist ein halbsynthetisches Derivat des Apovincamin-Alkaloids aus der Pflanze Vinca minor, das in Ungarn in den 1970er Jahren entwickelt wurde. Die Substanz hemmt selektiv die Phosphodiesterase Typ 1 im zerebralen Gefäßsystem und erhöht dadurch lokal cAMP und cGMP. Die Folge ist eine gezielte Vasodilatation der Hirngefäße ohne wesentliche systemische Blutdruckwirkung. Zusätzlich verbessert Vinpocetin die Erythrozytenflexibilität, reduziert die Thrombozytenaggregation und steigert die Sauerstoffextraktion im Hirngewebe. In Osteuropa, Russland und Japan führen Apotheken Vinpocetin als Cavinton bei zerebrovaskulärer Insuffizienz, vaskulärer Demenz und nach Schlaganfall. Die typische Tagesdosis liegt zwischen 15 mg und 30 mg, aufgeteilt auf drei Gaben. Klinische Studien dokumentieren Verbesserungen in Gedächtnis, Aufmerksamkeit und globalem kognitivem Status bei älteren Patienten mit zerebrovaskulärer Symptomatik. Die FDA warnte 2019 vor Vinpocetin in Nahrungsergänzungsmitteln wegen tierexperimenteller Hinweise auf Teratogenität. Anwender berichten klare Erinnerung im Alltag, weniger Wortfindungspausen und ein gleichmäßiges Energieniveau über den Tag. Die Substanz wirkt mechanistisch sauber definiert.",
+    "closer": "In Budapest ein Apothekenpräparat mit drei Jahrzehnten Klinik-Erfahrung, in Washington ein FDA-Warnschreiben mit Schwangerschaftshinweis.",
+    "quellen": ["Bönöczk 2000", "Szatmari 2003"],
+    "related_article": null
+  },
+  {
+    "name": "Sulbutiamin",
+    "slug": "sulbutiamin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Französisches Erschöpfungs-Präparat aus der Apotheke. Fettlösliches Thiamin gegen Müdigkeit, klare Gedanken und neue Energie für den Tag.«",
+    "wirkung": "Sulbutiamin ist ein synthetisches Dimer aus zwei modifizierten Thiamin-Molekülen, verbunden über eine Schwefelbrücke. Die Verbindung ist im Gegensatz zum wasserlöslichen Standard-Thiamin lipophil und passiert die Blut-Hirn-Schranke deutlich besser. In den Neuronen hebt Sulbutiamin den Thiamin- und Thiaminpyrophosphat-Spiegel deutlich an und unterstützt damit den oxidativen Hirnstoffwechsel an seiner zentralen Stellschraube. Zusätzlich erhöht die Substanz die Dopamin-Konzentration und die D1-Rezeptordichte im präfrontalen Kortex, was den Effekt auf Motivation und Antrieb erklärt. In Frankreich führen Apotheken Sulbutiamin als Arcalion in 200 mg-Tabletten verschreibungspflichtig bei asthenischer Erschöpfung, post-infektiöser Müdigkeit und psychogener Erschöpfungszustände. Klinische Studien dokumentieren signifikante Verbesserungen bei chronischer Müdigkeit, nach durchgemachten Infektionen und bei depressionsassoziierter Inhibition. Die typische Tagesdosis liegt zwischen 400 mg und 600 mg über zwei bis vier Wochen. Anwender berichten neue Antriebslage am Morgen, klarere Gedanken bei Erschöpfung und ein körperliches Gefühl wiederkehrender Belastbarkeit ohne stimulierenden Charakter. Die Substanz hebt die Grundlinie, nicht den Spitzenwert.",
+    "closer": "In der französischen Apotheke ein etabliertes Erschöpfungs-Präparat, im deutschen Lehrbuch eine Fußnote ohne Eintrag.",
+    "quellen": ["Tiev 1999", "Trovero 2000"],
+    "related_article": null
+  }
+]

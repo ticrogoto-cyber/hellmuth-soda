@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Enzian (Gentiana lutea)",
+    "slug": "enzian-gentiana-lutea",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Wurzel",
+    "werbung": "»Bitterer Klassiker für Magen und Verdauung. Gelber Enzian im Magenbitter, traditionell aus dem Hochgebirge.«",
+    "wirkung": "Enzianwurzel enthält Gentiopikrin und Amarogentin, zwei der reinsten Bitterstoffe der europäischen Phytotherapie. Amarogentin hat einen Bitterwert von bis zu 58.000.000. Gentiopikrin aktiviert TAS2R-Rezeptoren der Mund- und Magenschleimhaut. Über den Vagusnerv steigt die Magensaftsekretion reflektorisch und in Minuten.\n\nDie Kommission E hat die Wurzel positiv bewertet bei nicht-ulzerativer Dyspepsie, Appetitlosigkeit und Verdauungsschwäche. Daneben sind Sekoiridoide hepatoprotektiv und cholagog, was die traditionelle Anwendung bei Lebergallenwegserkrankungen pharmakologisch trägt.\n\nEnzian ist im Magenbitter eine Garnitur und im Magen eine Pharmakologie mit dem höchsten Bitterwert, der je gemessen wurde.",
+    "quellen": ["Gebhardt 1997"],
+    "related_article": null
+  },
+  {
+    "name": "Schafgarbe (Achillea millefolium)",
+    "slug": "schafgarbe-achillea-millefolium",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Kraut",
+    "werbung": "»Wildes Heilkraut für Frauen und Verdauung. Wiesenkraut der europäischen Volksmedizin, vielseitig und bewährt.«",
+    "wirkung": "Schafgarbe gehört zur kleinen Klasse der Heilpflanzen mit mehreren distinkten Wirkstoff-Familien in einer einzigen Pflanze. Sesquiterpenlactone als Bitterstoffe stimulieren die Verdauung. Ätherisches Öl mit Chamazulen hemmt Entzündungen an Schleimhäuten. Flavonoide entspannen die glatte Muskulatur. Achillein wirkt hämostyptisch bei Blutungen.\n\nKlinisch belegt bei nicht-ulzerativer Dyspepsie, dysmenorrhoischen Krämpfen, kleineren Wunden und entzündlichen Hauterkrankungen. Eine doppelblinde Studie zeigt unter Schafgarbe-Tinktur Reduktion von Stuhlfrequenz und abdominellen Schmerzen bei chronisch entzündlicher Darmerkrankung. Bei aphthösen Mundulzera verkürzt sich die Heilungszeit signifikant.\n\nEine Heilpflanze mit vier pharmakologischen Achsen in einem Stengel wird im westlichen Markt als »Wiesenkraut« geführt.",
+    "quellen": ["Nematy 2018"],
+    "related_article": null
+  },
+  {
+    "name": "Tausendgüldenkraut (Centaurium erythraea)",
+    "slug": "tausendgueldenkraut-centaurium-erythraea",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Kraut",
+    "werbung": "»Reiner Bitter. Aperitif aus der Heilpflanzentradition. Magen und Galle in Form.«",
+    "wirkung": "Tausendgüldenkraut enthält mit Gentianin, Erytaurin und Erythrocentaurin eine seltene Reinheit an Bitterstoffen ohne nennenswerte Schärfe- oder Gerbstoff-Komponenten. Die Kommission E hat das Kraut positiv für nicht-ulzerative Dyspepsie und Appetitlosigkeit bewertet. Pharmakologisch wirkt die Substanz über TAS2R-Aktivierung auf Magensaftfluss und Galleflussförderung. In vergleichenden Bitterwert-Tests liegt das Kraut zwischen Enzian und Wermut.\n\nIn der traditionellen Phytotherapie ist die Substanz als gut verträglicher Aperitif etabliert. Sie wird in Mischungen für Reizmagen-Symptomatik und funktionelle Dyspepsie verschrieben, ohne dass moderne Einzelsubstanz-RCTs vorliegen.\n\nIm modernen Phytotherapie-Markt ist das Kraut praktisch verschwunden, weil weder eine starke Industrie-Pflanze noch ein Wellness-Trend hinter ihm steht. Tausendgüldenkraut steht in der Kommission-E-Monografie mit positivem Votum und im Apothekenregal mit dem Status einer ausgestorbenen Empfehlung.",
+    "quellen": [],
+    "related_article": null
+  },
+  {
+    "name": "Fenchel · Anis · Kümmel",
+    "slug": "fenchel-anis-kuemmel",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Samen",
+    "werbung": "»Klassiker für Kinder und Bauch. Pflanzlicher Magen-Darm-Tee, mild und natürlich.«",
+    "wirkung": "Anethol in Fenchel und Anis und Carvon in Kümmel wirken spasmolytisch auf die glatte Darmmuskulatur. Sie hemmen calcium-abhängige Kontraktionen und erleichtern die Gasausscheidung über Relaxation des unteren Ösophagussphinkters.\n\nFenchelöl reduziert in einer kontrollierten Studie bei Kindern mit infantiler Kolik die tägliche Schreidauer signifikant gegenüber Placebo. Eine weitere Arbeit bei funktioneller Dyspepsie dokumentiert nach kombiniertem Anis-Kümmel-Pfefferminze-Öl Symptomreduktion vergleichbar mit Cisaprid. Pharmakologisch aktivieren Carvon TRPM8 und Anethol TRPA1.\n\nHinzu kommen östrogen-rezeptor-modulierende Effekte des Anethols, die die traditionelle Anwendung bei Wechseljahresbeschwerden und in der Geburtsheilkunde teilweise pharmakologisch unterlegen. Drei Küchengewürze, die in der Pädiatrie als Cisaprid-Alternative funktionieren, gelten im modernen Markt als Tee gegen Blähungen.",
+    "quellen": ["Alexandrovich 2003", "May 2000"],
+    "related_article": null
+  },
+  {
+    "name": "Andorn (Marrubium vulgare)",
+    "slug": "andorn-marrubium-vulgare",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Kraut",
+    "werbung": "»Vergessenes Heilkraut für Husten und Verdauung. Marrubin in Bitter und Schleimlöser, in einer Pflanze.«",
+    "wirkung": "Andorn enthält Marrubin als pharmakologischen Hauptwirkstoff. Das Diterpenlacton wirkt dual als Bitterstoff für TAS2R-vermittelte Sekretionsstimulation und als Sekretolytikum mit dokumentierter Verflüssigung des Bronchialsekrets.\n\nPharmakologisch ist die Substanz in präklinischen Modellen analgetisch und antiinflammatorisch über NF-κB-Hemmung, in Tiermodellen kardiotonisch über Vagusnerv-Modulation, klinisch bei Husten, Dyspepsie und milden Hypertonien dokumentiert.\n\nMarrubium wurde 2018 zur Heilpflanze des Jahres gekürt. Klinisch findet die Substanz heute nur in vereinzelten Spezialpräparaten der naturheilkundlichen Phytotherapie Anwendung, während im Drogeriemarkt Hustenmischungen ohne Andorn dominieren. Eine Heilpflanze, die 2018 ausgezeichnet wurde und im selben Jahr im Regal fehlte, hat kein Wirksamkeitsproblem.",
+    "quellen": [],
+    "related_article": null
+  },
+  {
+    "name": "Bentonit · Zeolith",
+    "slug": "bentonit-zeolith",
+    "szenario": 1,
+    "kategorie": "Mineral",
+    "unterkategorie": "Erde",
+    "werbung": "»Detox aus Vulkan und Lava. Mineralische Bindemittel für Schwermetalle und Darmreinigung.«",
+    "wirkung": "Bentonit (Montmorillonit) und Zeolith (Klinoptilolith) sind Aluminiumsilikat-Mineralien mit dokumentierter Adsorptionskapazität für Schwermetalle und organische Toxine in vitro. Diese pharmakologische Eigenschaft dient seit Jahrzehnten als Grundlage für Detox-Vermarktung, ohne dass klinische Studien zur Schwermetallausleitung am Menschen die in-vitro-Effekte robust replizieren.\n\nKlinoptilolith ist in Europa als Medizinprodukt zur Magen-Darm-Anwendung zugelassen. Das Marketing führt diese Zulassung als Wirksamkeitsbeleg, faktisch ist es die schwächste regulatorische Stufe ohne Wirksamkeitsnachweis nach Arzneimittelmaßstab. Hinzu kommt ein zentrales Sicherheitsproblem, weil die Tonmineralien selbst je nach Lagerstätte erhebliche Mengen Aluminium und teilweise Blei enthalten, die bei längerer oraler Einnahme nicht ausgeschieden werden. Die Substanzen sollen Toxine binden und führen selbst welche zu.\n\nIn randomisierten Studien sind die Effekte auf laborchemisch nachweisbare Schwermetalllasten am Menschen marginal oder nicht nachweisbar. Bentonit und Zeolith sind in-vitro-Adsorbenzien mit einer Detox-Geschichte, die in vivo nie überzeugend nachgezogen wurde.",
+    "quellen": [],
+    "related_article": null
+  },
+  {
+    "name": "Basenpulver · Basentee",
+    "slug": "basenpulver-basentee",
+    "szenario": 1,
+    "kategorie": "Mineral",
+    "unterkategorie": "Mineral",
+    "werbung": "»Säure-Basen-Balance. Übersäuerung weg. Pflanzliche Basenmischung für mehr Energie.«",
+    "wirkung": "Die Säure-Basen-Pseudopharmakologie der typischen Basenpulver beruht auf einer widerlegten Annahme. Die moderne Ernährung führt nicht zu chronischer Übersäuerung des Blutes. Der Blut-pH ist durch Bikarbonat-Puffer, Atmung und Niere im engen Bereich 7,35 bis 7,45 reguliert und durch keine Nahrungsbestandteile außerhalb pathologischer Stoffwechselsituationen messbar verschoben.\n\nDie meisten kommerziellen Basenpulver liefern unspezifische Mineralsalzmischungen ohne pharmakologische Indikation. Das Marketing verkauft eine Krankheit, die so nicht existiert.\n\nEine differenzierte Ausnahme ist die Basenpulver-III-Formulierung nach Rauch im Kontext der Original-FX-Mayr-Therapie. Diese definierte Mischung aus Natriummonohydrogenphosphat, Calciumcarbonat, Magnesiumhydrogencitrat, Kaliumhydrogencarbonat, Kaliumcitrat und Natriummonohydrogencarbonat ist für das modifizierte Fasten entwickelt. Dabei entsteht durch Lipolyse-bedingte Ketonkörperbildung tatsächlich eine metabolische Azidose, die eine reale Mineralstoffsubstitution erfordert. Die Substitution wirkt nicht über »Entsäuerung«, sondern über Elektrolyt-Ersatz unter Fasten-Stoffwechselbedingungen.\n\nWer fastet, braucht das Rauch-Pulver. Wer im Alltag ein generisches Basenpulver einnimmt, kauft ein Marketing-Versprechen für eine Krankheit, die so nicht existiert.",
+    "quellen": [],
+    "related_article": null
+  }
+]

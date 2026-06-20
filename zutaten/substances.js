@@ -9,9 +9,6 @@
 //   wirkung          string  Mehrabsatziger Diagnose-Text, Absätze durch \n\n getrennt
 //   quellen          string[]  Studienzitate als Datenattribute (nicht im Fließtext)
 //   related_article  string|null  Pfad zu Bildgebung-Artikel
-//
-// Stand: Batches 4, 5, 7, 9, 10 (50 Einträge), verbatim aus dem Stil-Review.
-// Batches 1, 2, 3, 6, 8 folgen in den nächsten Commits (Originale + Feinschliffe).
 
 window.SUBSTANCES_DATA = {
   entries: [
@@ -20,7 +17,6 @@ window.SUBSTANCES_DATA = {
     // SEED — 15 Einträge (Hellmuth-Heim + Sulforaphan + NAD+/NMN)
     // Verbatim aus WEBSITE2-Chatverlauf, freigegeben.
     // ============================================================
-
     {
       name: "Hopfen (Humulus lupulus)",
       slug: "hopfen",
@@ -818,6 +814,986 @@ window.SUBSTANCES_DATA = {
       werbung: "»Premium-Grüntee-Catechin für Anti-Aging und Stoffwechsel. EGCG für Krebsprävention, Fettverbrennung und Anti-Aging, klinisch erforscht.«",
       wirkung: "EGCG ist das stärkste Catechin im Grüntee. In vitro hundertfach so antioxidativ wie Vitamin C. Im Plasma kommt davon wenig an. Die orale Bioverfügbarkeit liegt unter zwei Prozent. Was im Reagenzglas spektakulär aussieht, scheitert am menschlichen Verdauungstrakt.\n\nKlinisch zeigt EGCG moderate Effekte bei Cervixdysplasie und bei nicht-alkoholischer Steatohepatitis. Bei Adipositas bleiben die Stoffwechseleffekte klein, und die zur Wirkung notwendigen Dosen sind hoch genug, um lebertoxisch zu werden. FDA-Warnungen seit 2018 dokumentieren Fälle akuten Leberversagens nach hochdosierten Grüntee-Extrakten.\n\nWer Grüntee trinkt, profitiert. Drei Tassen täglich enthalten genug Polyphenole für epidemiologisch nachweisbare Effekte auf die Herz-Kreislauf-Mortalität. Wer Grüntee-Extrakt in Kapselform schluckt, riskiert die Leber für eine Wirkung, die das Getränk pharmakologisch ohnehin liefert. Die Pflanze ist klüger als ihr Konzentrat.",
       quellen: ["Yates 2018", "Jin 2018", "Khan 2008"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BATCH 1 — Ruhe-Phytos klassisch + Sonstige
+    // ============================================================
+
+    {
+      name: "Melisse (Melissa officinalis)",
+      slug: "melisse",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Beruhigende Kräuterteepflanze für gute Nerven, hilft bei Einschlafproblemen und nervösem Magen. Reich an ätherischen Ölen.«",
+      wirkung: "Das Blatt enthält Rosmarinsäure als Hauptphenolsäure und ein ätherisches Öl mit Citral und Citronellal, dessen pharmakologisches Profil weit über »Beruhigung« hinausreicht. Eine doppelblinde Studie zeigt nach 600 mg standardisiertem Extrakt über vierzehn Tage signifikante Reduktion von Stress- und Angstsymptomen sowie kognitive Verbesserung in mathematischer Verarbeitung. Der Mechanismus läuft unter anderem über Hemmung der GABA-Transaminase, was den endogenen GABA-Spiegel anhebt, ohne den Rezeptor wie ein Benzodiazepin zu besetzen. Daneben ist Rosmarinsäure einer der wirksamsten pflanzlichen Hemmer von HSV-1 mit klinisch belegter Wirkung bei Lippenherpes, was die Pflanze zur einzigen Anxiolytikum-Antivirum-Kombination im europäischen Garten macht. Anxiolytikum und Antivirum in einer Pflanze, verkauft als Einschlafhilfe.",
+      quellen: ["Kennedy 2002", "Kennedy 2004", "Koytchev 1999"],
+      related_article: null
+    },
+
+    {
+      name: "Lavendel (Lavandula angustifolia, Silexan)",
+      slug: "lavendel",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Blüte",
+      werbung: "»Lavendelduft für Entspannung und ruhigen Schlaf. Ätherisches Öl aus dem Mittelmeerraum, beliebt für Aromabäder, Massagen und Duftkissen.«",
+      wirkung: "Silexan ist ein oral standardisierter Lavendelölextrakt, der in vier randomisierten Studien bei Generalisierter Angststörung auf Hamilton-Skalen wirksam war, in einem direkten Vergleich von 80 mg über sechs Wochen mit Lorazepam 0,5 mg ohne unterlegene Anxiolyse, aber ohne Sedierung und ohne Abhängigkeitspotenzial. Pharmakologisch bindet Linalylacetat an spannungsabhängige Calciumkanäle und moduliert Serotonin- sowie Glutamatbahnen, ein Mechanismus, der mit Benzodiazepinen nichts zu tun hat und genau deshalb nicht in dieselbe Verschreibungsroutine fällt. In Deutschland ist die Substanz als Lasea zugelassen, im Rest Europas weitgehend unbekannt, weil die Hausarztpraxis das ätherische Öl mit dem Duftbad verwechselt. Lorazepam und Lavendelöl messen sich in derselben Skala, nur eins davon braucht ein Rezept.",
+      quellen: ["Woelk 2010", "Kasper 2014"],
+      related_article: null
+    },
+
+    {
+      name: "Kamille (Matricaria chamomilla)",
+      slug: "kamille",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Blüte",
+      werbung: "»Sanfte Kräuterhilfe bei Magenbeschwerden, Schlafproblemen und Nervosität. Klassischer Hausmitteltee für Groß und Klein.«",
+      wirkung: "Hinter dem Hausmittel steht ein Apigenin, das mit hoher Affinität an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors andockt und in einer randomisierten Studie bei generalisierter Angststörung über acht Wochen klinisch signifikante Symptomreduktion zeigte. Eine Folgearbeit dokumentiert antidepressive Komorbiditätseffekte, eine Erhaltungsstudie über 26 Wochen reduziertes Rückfallrisiko unter laufender Einnahme. Daneben sind Bisaboloide und α-Bisabolol an der Schleimhaut entzündungshemmend, was die alte Anwendung bei Magenreizung und entzündlichen Hauterkrankungen pharmakologisch trägt und der Folklore entzieht. Eine Tasse aufgegossener Kamille enthält pharmakologisch wirksame Konzentrationen, was bei kaum einem anderen Heilpflanzen-Aufguss noch zutrifft. Der Teebeutel im Supermarkt ist eine unterdosierte Form eines belegt anxiolytisch wirksamen Phytotherapeutikums.",
+      quellen: ["Amsterdam 2009", "Amsterdam 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Goldmohn (Eschscholzia californica)",
+      slug: "goldmohn",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Blüte",
+      werbung: "»Sanfter pflanzlicher Schlafhelfer mit kalifornischem Mohngewächs. Traditionell beruhigend, nicht abhängig machend, gut bei nervöser Unruhe.«",
+      wirkung: "Die Pflanze enthält Isochinolin-Alkaloide wie Californidin und Eschscholtzin, die in vitro an GABA-A- und Benzodiazepin-Bindungsstellen andocken und in Tiermodellen sedative Effekte zeigen. Auf den Menschen übertragen schrumpft die Datenlage auf eine einzige kontrollierte Pilotstudie aus dem Jahr 2004 mit knapp hundert Teilnehmern, in der Goldmohn in Kombination mit Magnesium gegen leichte Angststörungen geprüft wurde, ohne dass die Wirkung dem einzelnen Wirkstoff zugeordnet werden konnte. Eine moderne, eigenständige Studie zur Schlafwirkung der Pflanze existiert nicht, was nach zwanzig Jahren unverändertem Marketing ein bemerkenswerter Befund ist. Im Regal steht Goldmohn dennoch als »sanfter Schlafhelfer«, eine Behauptung, die im Wesentlichen auf indianischer Volksmedizin und einer einzelnen Kombinationsstudie ruht. Wer Goldmohn kauft, kauft eine Tradition, die nie in eine moderne Studie überführt wurde.",
+      quellen: ["Hanus 2004"],
+      related_article: null
+    },
+
+    {
+      name: "Magnolia (Magnolia officinalis)",
+      slug: "magnolia",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Rinde",
+      werbung: "»Pflanzlicher Stresslöser aus der traditionellen chinesischen Medizin. Hilft bei Anspannung, Schlaflosigkeit und nervöser Erschöpfung.«",
+      wirkung: "Die Rinde enthält Honokiol und Magnolol, zwei Biphenyl-Derivate, die als positive allosterische Modulatoren am GABA-A-Rezeptor an der δ-Untereinheit binden, einem Ort, der mit klassischen Benzodiazepinen nicht überlappt und tonische Hemmung verstärkt, ohne phasische Sedierung zu erzeugen. Die anxiolytische Wirkung in Tiermodellen ist robust und dosisabhängig, in Schlafmodellen reduziert Honokiol die Einschlaflatenz mit einer Wirkstärke vergleichbar Diazepam, ohne dessen Tagesnachwirkung. Daneben sind beide Substanzen antitumoral durch Apoptose-Induktion und antiinflammatorisch durch NF-κB-Hemmung dokumentiert, ein Spektrum, das in der pharmazeutischen Industrie als Verkaufsargument einer Leitsubstanz gelten würde. Belastbare Humanstudien sind selten und meist herstellergesponsert, was die klinische Bewertung unsicher macht, ohne die präklinische Tiefe zu entwerten. Honokiol hat das Profil einer pharmakologischen Leitsubstanz und das Marketing einer Teemischung.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Phellodendron amurense (Relora-Kombi)",
+      slug: "phellodendron",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Rinde",
+      werbung: "»Pflanzlicher Cortisol-Senker für Bauchfett, Stress-Essen und Schlafprobleme. Bewährte Kombination aus Magnolienrinde und Phellodendron, klinisch geprüft.«",
+      wirkung: "Die Mischung Relora kombiniert Magnolia-Rinde mit Phellodendron amurense und wird seit etwa zwanzig Jahren als Cortisol-Modulator vermarktet. Eine zugrundeliegende Berberin-Komponente aus dem Korkbaum hat in vitro plausible Effekte auf den Glukosestoffwechsel, klinische Wirksamkeit auf Cortisol-Tagesprofile findet sich aber ausschließlich in herstellerfinanzierten Studien mit kleinen Fallzahlen, nicht konsistenter Methodik und selektiver Endpunkt-Berichterstattung. Eine unabhängige Replikation der Bauchfett-Reduktion existiert nicht, und die Effekte auf wahrgenommenen Stress liegen in derselben Größenordnung wie Placebo. Die einzelne Wirksamkeit des Phellodendron-Extrakts unabhängig von Magnolia ist klinisch nirgends sauber isoliert. Was als Cortisol-Senker im Sportregal steht, ist eine Verkaufskonstruktion auf der Basis zweier herstellereigener Studien.",
+      quellen: ["Kalman 2008", "Talbott 2013"],
+      related_article: null
+    },
+
+    {
+      name: "Jujube (Ziziphus jujuba, Suan Zao Ren)",
+      slug: "jujube",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Beere",
+      werbung: "»Chinesische Rotjujube, traditionelles Stärkungsmittel und sanfter Schlafhelfer aus der TCM. Reich an Vitamin C, gut für Magen und Nerven.«",
+      wirkung: "In der chinesischen Pharmakopöe gehört Suan Zao Ren, der Samen der Jujube, zu den am häufigsten verordneten Schlafrezepturen, mit Spinosin als pharmakologisch identifizierter Hauptkomponente, einem Flavonoid-Glykosid, das an GABA-A-Rezeptoren bindet und in vivo die Schlaflatenz verkürzt sowie REM-Phasen verlängert. Eine doppelblinde Studie bei Schlafstörungen zeigt nach 1500 mg Standardextrakt über sechs Wochen signifikante Verbesserung auf der Pittsburgh-Schlafqualitäts-Skala gegenüber Placebo. Die Frucht selbst ist reich an cAMP-Phosphodiesterase-Hemmern und Triterpenen wie Ziziphussäure, mit dokumentierten hepatoprotektiven und antiproliferativen Effekten in präklinischen Studien. Im Westen ist die Pflanze bestenfalls als getrocknete Knabberei bekannt, eine Reduktion, die der Pharmakopöe-Tradition nicht gerecht wird und der modernen Datenlage erst recht nicht. Suan Zao Ren steht in China seit 2000 Jahren auf den Schlafrezepturen, im deutschen Drogeriemarkt liegt die getrocknete Frucht zwischen Datteln und Aprikosen.",
+      quellen: ["Cao 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Helmkraut (Scutellaria baicalensis)",
+      slug: "helmkraut",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Asiatisches Helmkraut für Beruhigung und Entspannung. Pflanzliche Hilfe bei Anspannung und nervösen Beschwerden, traditionell in der chinesischen Medizin.«",
+      wirkung: "Die Wurzel enthält Baicalin und sein Aglykon Baicalein, zwei Flavonoide mit einem pharmakologischen Profil, das in keinem Wellness-Etikett ausreichend Platz findet. Am GABA-A-Rezeptor binden sie als positive allosterische Modulatoren an einer benzodiazepin-distinkten Stelle, in Tiermodellen mit anxiolytischen und antikonvulsiven Effekten dokumentiert. Daneben sind beide Substanzen klinisch und präklinisch als potente Entzündungshemmer über Hemmung der 12-Lipoxygenase und der NF-κB-Achse charakterisiert, mit hepatoprotektiven Effekten bei viraler Hepatitis und antiviraler Aktivität gegen Influenza. Die SARS-CoV-2-Forschung hat Baicalein als Mpro-Inhibitor identifiziert, einen Befund, der in einer Phase-I-Studie weiterverfolgt wurde, ohne dass die westliche Öffentlichkeit Notiz nahm. Drei eigenständige Wirkbereiche, eine Pflanze, kein passendes Etikett.",
+      quellen: ["Wu 2015", "Li 2018"],
+      related_article: null
+    },
+
+    {
+      name: "Melatonin",
+      slug: "melatonin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Das Schlafhormon. Hilft beim Einschlafen, gleicht den Jetlag aus, fördert erholsame Nachtruhe ohne Gewöhnungseffekt.«",
+      wirkung: "Schlaf ist die kleinste Funktion. Melatonin ist eines der ältesten Moleküle der biologischen Evolution, in Pflanzen, Bakterien und Mitochondrien synthetisiert, lange bevor es ein zentrales Nervensystem gab, und seine zirkadiane Rolle ist nur die jüngste seiner Aufgaben. Es ist ein außergewöhnlich potenter intrazellulärer Antioxidans mit direkter Radikalfänger-Wirkung an mitochondrialen Membranen, in einer Größenordnung, die Vitamin C und Vitamin E übertrifft. Die Substanz reguliert den Calcium-Influx in Neuronen, hemmt mitochondriale Permeabilitätsporen, reduziert oxidativen Stress in Hepatozyten und zeigt in klinischen Studien antitumorale, immunmodulatorische und antiinflammatorische Effekte, die in der Onkologie als adjuvante Therapie bei Chemotherapie-Toxizität untersucht werden. In Deutschland ist Melatonin für Erwachsene über 55 Jahren als Schlafhilfe zugelassen, in den USA als Nahrungsergänzung frei verkäuflich, in beiden Märkten verkauft, als hätte es nur einen einzigen Zweck. Auf der Packung steht Schlafhilfe. In der Zelle arbeitet ein Radikalfänger mit Evolutionstiefe.",
+      quellen: ["Reiter 2016", "Lissoni 2008"],
+      related_article: null
+    },
+
+    {
+      name: "GABA (oral)",
+      slug: "gaba",
+      szenario: 1,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Beruhigender Neurotransmitter zum Einnehmen. GABA für ruhige Nerven, besseren Schlaf, weniger Stress. Direkt im Körper wirksam.«",
+      wirkung: "Die Werbung verkauft eine biochemische Vereinfachung. Gamma-Aminobuttersäure ist der wichtigste hemmende Neurotransmitter im zentralen Nervensystem, aber die orale Form überwindet die Blut-Hirn-Schranke nur eingeschränkt und in dosisabhängig variabler Höhe, was bei einer Substanz, die im Gehirn wirken soll, ein zentrales Problem darstellt. Eine kleine Studie an gesunden Probanden zeigt nach 100 mg orales GABA Hinweise auf erhöhte Alpha-Wellen im EEG, was als Beruhigungsindikator vermarktet wird, aber kein direkter Beleg zentraler GABAerger Wirkung ist, sondern auch über enterische Nervenfasern und Vagusafferenzen vermittelt sein könnte. Eine belastbare Datenlage zur klinischen Anxiolyse oder Schlafverbesserung mit oraler GABA fehlt weitgehend, und die wenigen positiven Studien sind klein, herstellerfinanziert oder methodisch schwach. GABA auf der Verpackung ist eine Behauptung, kein Wirkmechanismus.",
+      quellen: ["Abdou 2006"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BATCH 2 — Adaptogene
+    // ============================================================
+
+    {
+      name: "Rhodiola rosea",
+      slug: "rhodiola-rosea",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Adaptogen aus dem hohen Norden für Stress, Erschöpfung und mentale Leistung. Natürliche Hilfe, seit Jahrhunderten in Skandinavien und Sibirien verwendet.«",
+      wirkung: "Die Pflanze ist seit den 1960er Jahren im sowjetischen Militär- und Sportprogramm dokumentiert, kam aber erst nach 2000 ins westliche Bewusstsein, mit deutlich weniger Tiefe, als das Datenmaterial hergibt. Hauptwirkstoffe Rosavin und Salidrosid modulieren monoaminerge Systeme über reversible MAO-Hemmung, beeinflussen die HPA-Achse und erhöhen Neuropeptid Y, ein Profil, das in randomisierten Studien bei stressbedingter Erschöpfung und chronischer Burnout-Symptomatik klinisch konsistent abgebildet ist. Eine vierwöchige Studie bei moderater Depression zeigt nach 340 mg täglich signifikante Symptomreduktion auf der Hamilton-Skala, in der Größenordnung mit Sertralin vergleichbar, aber mit besserem Nebenwirkungsprofil. Die Werbung verkauft das Adaptogen als »Stress-Hilfe«, was die anxiolytische, antidepressive und kognitiv stimulierende Wirkung auf einen einzigen Nenner reduziert, der nichts erklärt. Eine Pflanze, die in einer direkten Studie mit Sertralin mithält, wird im Reformhaus nicht als Antidepressivum verkauft. Sie wird als Wachmacher etikettiert, weil das einfacher ist.",
+      quellen: ["Olsson 2009", "Edwards 2012", "Mao 2015"],
+      related_article: null
+    },
+
+    {
+      name: "Bacopa monnieri",
+      slug: "bacopa-monnieri",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Ayurvedische Gedächtnispflanze. Brain-Booster für Konzentration, Lernfähigkeit und mentale Klarheit, traditionell verwendet und klinisch belegt.«",
+      wirkung: "Im Ayurveda gilt Brahmi seit über 3000 Jahren als Gedächtnispflanze, und die moderne Pharmakologie hat das im Wesentlichen bestätigt, mit einer Geduld, die das Supplement-Marketing nicht aufbringt. Hauptwirkstoffe sind die Bacoside A und B, dammarane Triterpene, die im Hippocampus die dendritische Verzweigung fördern, die cholinerge Übertragung modulieren und über antioxidative Mechanismen die Lipidperoxidation senken. Doppelblinde Studien mit zwölfwöchiger Einnahme zeigen signifikante Verbesserung des Arbeitsgedächtnisses und der visuellen Informationsverarbeitung, eine spätere Metaanalyse bestätigt den Effekt über neun RCTs hinweg. Daneben zeigen kleinere Studien anxiolytische Effekte bei generalisierter Angststörung und antidepressive Wirkung über serotonerge Vermittlung, was im Marketing als »Brain-Booster« nicht vorkommt. Der zentrale Haken ist die Latenz, denn die kognitive Wirkung tritt nach mindestens acht Wochen kontinuierlicher Einnahme ein, nicht nach einer Kapsel. Eine Pflanze, deren Wirkung Wochen braucht, passt nicht in einen Markt, der akute Effekte verkauft.",
+      quellen: ["Stough 2001", "Calabrese 2008", "Kongkeaw 2014"],
+      related_article: null
+    },
+
+    {
+      name: "Ginseng (Panax ginseng)",
+      slug: "ginseng-panax",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Koreanischer Ginseng für Energie, Vitalität und Leistung. Adaptogen seit Jahrtausenden in Ostasien, wirkt belebend und stärkend.«",
+      wirkung: "Panax ginseng ist eine der am gründlichsten erforschten Heilpflanzen weltweit, mit einer pharmakologischen Komplexität, die im westlichen Marketing als »Energie« vereinfacht wird und dabei das eigentliche Phänomen verfehlt. Die mehr als dreißig identifizierten Ginsenoside wirken bidirektional, Rb1 sedativ und anxiolytisch, Rg1 stimulierend und kognitiv aktivierend, weshalb die Pflanze in einigen Personen beruhigt und in anderen aktiviert, abhängig von Extraktverhältnis und individuellem Stoffwechsel. Eine randomisierte Studie bei erektiler Dysfunktion zeigt nach 900 mg über acht Wochen signifikante Verbesserung der IIEF-Werte, eine zweite bei Krebs-bedingter Fatigue nach 2000 mg täglich klinisch relevante Reduktion, eine dritte bei Typ-2-Diabetes Senkung des Nüchternblutzuckers über zwölf Wochen. Hinzu kommen kognitive Effekte auf Arbeitsgedächtnis und mentale Verarbeitungsgeschwindigkeit bereits nach Einzeldosis, antiinflammatorische Daten über NF-κB-Hemmung und neuroprotektive Effekte in Tiermodellen der Parkinsonkrankheit. Der traditionelle Begriff »Qi-Tonifizierung« lässt sich pharmakologisch am ehesten als mitochondriale Modulation lesen. Das ist Energie, nur anders als die Werbung meint.",
+      quellen: ["Hong 2002", "Vuksan 2008", "Reay 2010", "Barton 2013"],
+      related_article: null
+    },
+
+    {
+      name: "Eleutherococcus senticosus",
+      slug: "eleutherococcus",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Sibirischer Ginseng für Ausdauer, Immunsystem und Stressresistenz. Adaptogen aus der russischen Forschung, traditionell genutzt in Ostasien.«",
+      wirkung: "Der Name »Sibirischer Ginseng« ist eine Marketing-Erfindung der 1970er Jahre und bezeichnet eine Pflanze, die mit echtem Panax ginseng botanisch nicht verwandt ist und ihre Reputation lediglich durch Übernahme des bekannteren Namens borgt. Die im Wurzelextrakt enthaltenen Eleutheroside B und E zeigen in präklinischen Modellen ein breites adaptogenes Wirkspektrum, das in der sowjetischen Forschungsliteratur ausführlich beschrieben wurde, in westlichen kontrollierten Studien aber kaum reproduzierbar ist. Eine randomisierte Studie an Patienten mit chronischer Erschöpfung findet nach acht Wochen Eleuthero-Extrakt keinen signifikanten Effekt gegenüber Placebo, eine zweite an trainierten Sportlern keinen Einfluss auf Ausdauer oder VO2max, und die wenigen positiven Studien stammen aus Russland und sind methodisch nicht westlich nachprüfbar. Im Regal steht die Pflanze als »Adaptogen«, ein Etikett, das durch den Verkaufsnamen verdient erscheint und durch die Evidenz nicht gedeckt ist. Eleuthero lebt vom Namen Ginseng, ohne ein Ginseng zu sein.",
+      quellen: ["Hartz 2004", "Goulet 2005"],
+      related_article: null
+    },
+
+    {
+      name: "Schisandra chinensis",
+      slug: "schisandra-chinensis",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Beere",
+      werbung: "»Beerenfrucht für Stress, Leber und Konzentration. Traditionelles Adaptogen aus der chinesischen Medizin, fünf Geschmacksrichtungen vereint.«",
+      wirkung: "Wu Wei Zi heißt »Fünf-Geschmäcker-Frucht«, weil sie süß, sauer, salzig, bitter und scharf zugleich schmeckt, ein Hinweis darauf, dass die Pharmakologie ebenfalls in mehrere Richtungen geht. Die Lignane Schisandrin A, B und C zählen zu den wirksamsten pflanzlichen Induktoren der Phase-II-Detoxifikation, mit dokumentierter Erhöhung von Glutathion und hepatischer GST-Aktivität, eine biochemische Grundlage, die in China seit den 1970er Jahren als Adjuvanstherapie bei chronischer Hepatitis verwendet wird und in einer kontrollierten Studie die ALT-Normalisierung gegenüber Placebo signifikant beschleunigt. Daneben zeigt die Beere kognitive Wirkung auf Aufmerksamkeit und Arbeitsgedächtnis bei stressbedingter Erschöpfung, anxiolytische Effekte über GABAerge Modulation und antioxidative Aktivität, die in Tiermodellen neuroprotektiv ist. Im Westen ist die Frucht weitgehend unbekannt, weil ihre wichtigste klinische Anwendung in einer Region liegt, deren Studien in den europäischen Datenbanken nicht prominent indexiert sind. Eine hepatoprotektive Substanz mit etablierter Hepatitis-Indikation auf dem chinesischen Markt verdient im europäischen Reformhaus mehr als das Etikett »Beere für Konzentration«.",
+      quellen: ["Liu 1979"],
+      related_article: null
+    },
+
+    {
+      name: "Maca (Lepidium meyenii)",
+      slug: "maca-lepidium-meyenii",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Anden-Aphrodisiakum für Libido, Energie und Hormonbalance. Inka-Superfood, natürlicher Booster für Mann und Frau.«",
+      wirkung: "Die peruanische Wurzelknolle wird als »natürliches Aphrodisiakum« vermarktet, ein Anspruch, der sich auf Andentradition und auf eine Handvoll kleiner Studien stützt, deren Methodik und Replizierbarkeit zu wünschen übrig lassen. Eine Untersuchung bei Männern mit erektiler Dysfunktion findet nach zwölf Wochen 2400 mg Maca-Extrakt eine subjektive Verbesserung des sexuellen Wohlbefindens, aber keine objektive Veränderung erektionsphysiologischer Parameter, eine andere bei gesunden Männern keine Wirkung auf Serum-Testosteron, -DHT oder -LH, und die Cochrane-Übersicht 2010 zieht den Schluss, dass die Evidenz für eine echte aphrodisierende Wirkung nicht ausreicht. Macamide und Glucosinolate sind in vitro pharmakologisch interessant, eine Übersetzung in nachvollziehbare endokrine oder zentralnervöse Effekte am Menschen ist bisher nicht gelungen. Die Andentradition ist real, sie betrifft die ganze frische Knolle in lokaler Zubereitung, nicht ein importiertes Trockenpulver in einer Kapsel. Wer Maca als Hormonbooster nimmt, wirft eine Wurzel ins System, die nachweislich keine Hormone bewegt.",
+      quellen: ["Gonzales 2003", "Zenico 2009", "Cochrane 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Mucuna pruriens",
+      slug: "mucuna-pruriens",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Samen",
+      werbung: "»Natürliche L-Dopa-Quelle für Stimmung, Motivation und Wohlbefinden. Ayurvedische Pflanze, traditionell zur Stärkung verwendet.«",
+      wirkung: "Die Samen der Juckbohne enthalten bis zu sechs Prozent L-Dopa, die direkte Vorstufe von Dopamin und seit den 1960er Jahren die Standardtherapie bei Morbus Parkinson. Eine randomisierte, doppelblinde Crossover-Studie an Parkinson-Patienten vergleicht 30 g Mucuna-Samenpulver mit 200/50 mg Levodopa-Carbidopa und findet einen schnelleren Wirkeintritt, eine längere ON-Phase und keine vermehrten Dyskinesien, ein Befund, der die Pflanze als pharmakologische Alternative ernst nimmt, nicht als Nahrungsergänzungs-Beigabe. Daneben senkt die Substanz dosisabhängig Prolaktin, stimuliert Wachstumshormon-Freisetzung und zeigt in einer indischen Studie bei Männern mit Subfertilität verbesserte Spermienparameter über drei Monate. Das Marketing in westlichen Supplement-Shops reduziert das alles auf »Mood-Booster« und »Motivation«, was die Substanz als das vorstellt, was sie pharmakologisch nicht ist, ein sanftes Hilfsmittel. Mucuna ist eine direkte L-Dopa-Quelle mit aktiv neurologischer Wirkung, und wer das ohne Aufklärung in eine Stress-Kapsel mischt, riskiert Wechselwirkungen, die im Beipackzettel eines Antiparkinson-Mittels stehen, nicht im Werbeprospekt eines Adaptogen-Sets.",
+      quellen: ["Katzenschlager 2004", "Shukla 2009"],
+      related_article: null
+    },
+
+    {
+      name: "Tulsi (Ocimum sanctum)",
+      slug: "tulsi-ocimum-sanctum",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Heiliges Basilikum aus Indien für Stress, Immunsystem und innere Ruhe. Ayurvedische Königin der Kräuter, traditionell vielseitig verwendet.«",
+      wirkung: "Tulasi gilt im Ayurveda als »Rasayana«, eine Pflanze, die in den klassischen Texten gegen so unterschiedliche Beschwerden wie Husten, Fieber, Schlangenbisse und seelische Verstimmung empfohlen wird, eine Indikationsliste, die nach Folklore klingt und sich bei näherer Betrachtung pharmakologisch in einzelne Wirkachsen auflösen lässt. Hauptwirkstoffe sind Eugenol, Ursolsäure und Carvacrol, mit anxiolytischen und adaptogenen Effekten über Cortisol-Modulation in einer randomisierten Studie an erwachsenen Probanden mit Stress-Symptomen. Eine weitere Studie bei Typ-2-Diabetes zeigt nach acht Wochen 2,5 g Blattpulver täglich signifikante Senkung des Nüchternblutzuckers und postprandialer Glukose, eine indische Kardiologie-Studie eine Senkung von Gesamtcholesterin und Triglyceriden über vier Wochen. Antimikrobiell wirkt das ätherische Öl breit gegen grampositive Bakterien und Pilze, in vitro mit Wirkstärke vergleichbar zu Gentamicin in standardisierten Verdünnungsversuchen. Die Werbung verkauft die Pflanze als »Königin der Kräuter«, ein Etikett, das pathetisch klingt und im pharmakologischen Befund tatsächlich nicht weit von der Realität liegt. Selten ist das so, und vermutlich liegt es daran, dass die Pflanze in Indien als Gottheit gilt und das Marketing keine Verkleinerung wagt.",
+      quellen: ["Agrawal 1996", "Saxena 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Raupenpilz (Cordyceps militaris)",
+      slug: "raupenpilz-cordyceps-militaris",
+      szenario: 1,
+      kategorie: "Pilz",
+      unterkategorie: "Vitalpilz",
+      werbung: "»Tibetischer Energie-Pilz für Ausdauer, Sauerstoffaufnahme und Performance. Adaptogen-Pilz, traditionell genutzt von Sherpas im Hochland.«",
+      wirkung: "Der Pilz wird seit der chinesischen Leichtathletik-Saison 1993 als Performance-Substanz gehandelt, weil das damals erfolgreiche Trainerteam um Ma Junren die Wirkung in einer Pressekonferenz erwähnte, eine Aussage, die rückblickend in einem Kontext von Doping-Verdacht und Schildkrötenblut-Folklore zu lesen ist und keine pharmakologische Begründung darstellt. Cordycepin, ein 3-Desoxy-Analog von Adenosin, hat in vitro antitumorale und immunmodulatorische Eigenschaften, klinische Wirksamkeit auf Ausdauer und VO2max ist aber nur in einzelnen kleinen Studien beobachtet worden und in robusten RCTs entweder nicht reproduzierbar oder marginal. Hinzu kommt, dass der traditionell verwendete Cordyceps sinensis ein wild auf Raupen wachsender Pilz aus tibetischen Hochlagen ist, der mit dem im Supplement-Handel verkauften Cordyceps militaris-Myzel chemisch nicht identisch ist, eine Substitution, die im Etikett unsichtbar bleibt und in der Werbung nicht erwähnt wird. Die Substanz hat präklinisch ein interessantes Profil, aber die kommerzielle Vermarktung als »Sauerstoff-Booster« für trainierende Erwachsene überspannt das, was die Humanstudien hergeben, deutlich. Im Supplement-Glas steckt ein Laborpilz, im Sherpa-Mythos ein wilder, und beide haben weniger Humandaten, als das Etikett verspricht.",
+      quellen: ["Earnest 2004", "Chen 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Glänzender Lackporling (Ganoderma lucidum, Reishi)",
+      slug: "glaenzender-lackporling",
+      szenario: 1,
+      kategorie: "Pilz",
+      unterkategorie: "Vitalpilz",
+      werbung: "»Pilz der Unsterblichkeit aus der TCM. Reishi für Immunsystem, Stress, Schlaf, Krebsprävention und Longevity, tausende Jahre Tradition.«",
+      wirkung: "Reishi trägt im Chinesischen den Namen Lingzhi, »göttliche Pflanze«, und im Westen ein Marketing, das die Pflanze als universellen Krebsschutz, Immunbooster und Longevity-Substanz präsentiert. Eine Cochrane-Übersicht aus dem Jahr 2016 wertet fünf RCTs zur Krebsbegleittherapie aus und kommt zum Schluss, dass die Evidenz für einen Überlebensvorteil nicht ausreicht, lediglich eine Verbesserung der Lebensqualität wird in einigen Studien beobachtet. Triterpene wie Ganoderinsäuren und Beta-Glucane haben in vitro immunmodulatorische Effekte über NK-Zell-Aktivierung und Makrophagen-Phagozytose, klinische Übersetzungen am Menschen fallen aber bescheidener aus, als die Werbung suggeriert. Hinzu kommen vereinzelte Berichte von Lebertoxizität bei hochdosierten Pulverpräparaten, ein Sicherheitsaspekt, den die Tradition nie thematisieren musste, weil sie mit Tee gearbeitet hat und nicht mit Kapseln. Lingzhi heißt göttliche Pflanze. Die Götter haben keine RCTs hinterlassen.",
+      quellen: ["Jin 2016"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BATCH 3 — Klarheit-Phytos + Cholin-Cluster
+    // ============================================================
+
+    {
+      name: "Glycin",
+      slug: "glycin",
+      szenario: 3,
+      kategorie: "Aminosäure",
+      unterkategorie: "Aminosäure",
+      werbung: "»Beruhigende Aminosäure für besseren Schlaf und schnellere Regeneration. Sanftes Schlafhilfsmittel, baut Stress ab, ohne Tagesnachwirkung am nächsten Morgen.«",
+      wirkung: "Glycin ist gleichzeitig der hemmende Co-Transmitter am NMDA-Rezeptor und der wichtigste inhibitorische Neurotransmitter im Hirnstamm und Rückenmark, eine Doppelrolle, die im Marketing-Etikett »Aminosäure für Schlaf« nicht ansatzweise abgebildet ist.\n\nEine japanische Studie zeigt nach 3 g oraler Einnahme vor dem Zubettgehen über vier Nächte signifikante Verbesserung der subjektiven Schlafqualität, kürzere Einschlaflatenz und reduzierte Tagesmüdigkeit, eine Folgearbeit dokumentiert eine Absenkung der Körperkerntemperatur durch periphere Vasodilatation, ein Mechanismus, der den physiologischen Einschlafprozess imitiert.\n\nDaneben ist Glycin Hauptvorläufer von Glutathion, beteiligt an der Kollagensynthese und an der Entgiftung über Konjugation an Gallensäuren, eine Rolle, die für die anabole Bindegewebsfunktion und für die Leber klinisch relevant ist.\n\nEine Aminosäure mit drei pharmakologischen Profilen wird verkauft, als hätte sie eines.",
+      quellen: ["Yamadera 2007", "Bannai 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Gotu Kola (Centella asiatica)",
+      slug: "gotu-kola-centella-asiatica",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Asiatische Heilpflanze für Schönheit, Haut und Gefäße. Pflanzliche Hautpflege, traditionell in Ayurveda und TCM verwendet.«",
+      wirkung: "Gotu Kola enthält triterpene Saponine wie Asiaticoside und Madecassoside, deren venoprotektive und kollagensynthese-fördernde Wirkung in einer kontrollierten Studie bei chronisch-venöser Insuffizienz dokumentiert ist, ein Befund, der die kosmetische Anwendung pharmakologisch trägt und nicht der Anekdote überlässt.\n\nDaneben zeigt die Pflanze auf zentralnervöser Ebene messbare Wirkung. Eine randomisierte Studie an älteren Erwachsenen verbessert nach 750 mg Standardextrakt täglich Arbeitsgedächtnis und Aufmerksamkeit signifikant gegenüber Placebo, eine weitere reduziert die akustische Schreckreaktion als Korrelat des Angstniveaus bei gesunden Probanden.\n\nPharmakologisch lässt sich die Doppelwirkung über Asiaticosäure als GABA-A-Modulator und über die Stimulation des BDNF erklären, beides Mechanismen, die nichts mit Hautcreme zu tun haben und alles mit Neurochemie.\n\nDie Pflanze macht Bindegewebe und Synapsen, und das Marketing notiert davon die Haut.",
+      quellen: ["Pointel 1987", "Wattanathorn 2008", "Bradwejn 2000"],
+      related_article: null
+    },
+
+    {
+      name: "Suma (Pfaffia paniculata)",
+      slug: "suma-pfaffia-paniculata",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Brasilianischer Ginseng für Energie, Libido und Stresstoleranz. Adaptogen aus dem Amazonas-Regenwald, von indigenen Heilern seit Jahrhunderten verwendet.«",
+      wirkung: "Die Wurzel der südamerikanischen Pflanze trägt im Handel den Beinamen »brasilianischer Ginseng«, ist botanisch aber nicht mit Panax verwandt und übernimmt den Namen genauso opportunistisch wie der sibirische Verwandte.\n\nPharmakologisch interessant sind die enthaltenen Ecdysteroide, vor allem Beta-Ecdyson, mit anabolen Effekten in präklinischen Modellen an Ratten und einer erhöhten Proteinsynthese im Muskel, eine Datenlage, die in der Sportergänzungsindustrie ausgiebig zitiert wird.\n\nAuf den Menschen übertragen verschwindet das Bild, weil kontrollierte Studien zur anabolen, adaptogenen oder libido-steigernden Wirkung am Menschen praktisch nicht existieren, und die wenigen verfügbaren Arbeiten sind klein, methodisch schwach oder Konferenzabstracts ohne Volltext.\n\nDas Marketing speist sich aus indigener Folklore, einem geliehenen Verkaufsnamen und Ratten-Studien, deren Ergebnisse niemand am Menschen reproduziert hat. Suma ist eine Wurzel mit präklinischen Hypothesen und einem prestigeträchtigen Beinamen, beides ersetzt keine Humandaten.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Ginkgo biloba",
+      slug: "ginkgo-biloba",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Blatt",
+      werbung: "»Gedächtnisbaum aus China für Konzentration, Durchblutung und mentale Klarheit. Klassisches pflanzliches Mittel bei Altersvergesslichkeit und Tinnitus.«",
+      wirkung: "Ginkgo ist das meistverkaufte Phytotherapeutikum gegen kognitive Beschwerden in Europa und gleichzeitig dasjenige mit der größten Diskrepanz zwischen Marketingversprechen und kontrollierter Evidenz.\n\nDie Ginkgo Evaluation of Memory Study mit über 3000 älteren Teilnehmern über sechs Jahre fand keinen Effekt von 240 mg EGb 761 täglich auf die Inzidenz von Alzheimer-Demenz und keine Verlangsamung des kognitiven Abfalls, eine Cochrane-Übersicht aus dem Jahr 2009 zieht das gleiche Fazit für alle untersuchten kognitiven Outcomes.\n\nPharmakologisch sind die Wirkstoffe Bilobalid und die Ginkgolide A und B als PAF-Antagonisten und antioxidativ aktiv, ein in vitro plausibles Profil, das sich aber nicht in nachweisbare klinische Verbesserung übersetzt. Bei Tinnitus und vestibulärem Schwindel finden sich marginale Effekte mit grenzwertiger statistischer Signifikanz, deutlich unter dem, was das Werbeversprechen suggeriert.\n\nGinkgo ist ein Apotheker-Reflex mit präklinischer Plausibilität und einer Studienlage, die das Versprechen seit anderthalb Jahrzehnten nicht einlöst.",
+      quellen: ["DeKosky 2008", "Cochrane 2009"],
+      related_article: null
+    },
+
+    {
+      name: "Salbei (Salvia officinalis / lavandulaefolia)",
+      slug: "salbei-salvia-officinalis",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Klassisches Heilkraut für Hals, Mund und Atemwege. Antibakteriell, schweißhemmend, traditionell in Tee, Bonbons und Hustensaft.«",
+      wirkung: "Hinter dem Halsbonbon steckt eine Pflanze, deren ätherisches Öl Acetylcholinesterase mit einer Wirkstärke hemmt, die in vitro mit den zugelassenen Alzheimer-Substanzen aus der Klasse der reversiblen Inhibitoren vergleichbar ist.\n\nEine doppelblinde Studie über vier Monate an Patienten mit leichter bis mittelschwerer Alzheimer-Demenz zeigt nach 60 Tropfen Salbei-Tinktur täglich signifikante Verbesserung der kognitiven Funktion gegenüber Placebo, eine weitere Arbeit an gesunden jungen Probanden dokumentiert Verbesserung von Erinnerung und Aufmerksamkeit bereits nach einer Einzeldosis von 333 mg getrocknetem Blattmaterial.\n\nDaneben sind Rosmarinsäure und Carnosolsäure als antioxidative und neuroprotektive Komponenten dokumentiert, mit präklinischen Daten zu Amyloid-Aggregations-Hemmung und Mikroglia-Modulation. Die schweißhemmende Wirkung über Hyperhidrosis ist klinisch belegt und in der Phytotherapie Standard, das Anwendungsspektrum endet im Marketing aber genau dort.\n\nEine cholinerg aktive Heilpflanze, die in einer Alzheimer-Studie Wirkung zeigt, gehört in die Demenzforschung, nicht ins Bonbon-Regal.",
+      quellen: ["Akhondzadeh 2003", "Tildesley 2003", "Kennedy 2006"],
+      related_article: null
+    },
+
+    {
+      name: "Rosmarin (Rosmarinus officinalis)",
+      slug: "rosmarin-rosmarinus-officinalis",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Mediterranes Küchenkraut für Geist und Herz. Klassisch in Olivenöl, Marinaden und Tee, traditionell anregend und gut bei Müdigkeit.«",
+      wirkung: "Eine kontrollierte Studie zeigt, dass schon die Inhalation von Rosmarin-Ätherischem Öl in Konzentrationen, wie sie aus einem Topf am Herd austreten, die Aufmerksamkeit und Verarbeitungsgeschwindigkeit gesunder Probanden signifikant verbessert.\n\nPharmakokinetisch ist 1,8-Cineol als Hauptverdächtiger identifiziert, dessen Plasma-Konzentration nach Inhalation mit der kognitiven Leistung korreliert, ein seltener Fall, in dem die olfaktorische Wirkung biochemisch und nicht nur psychologisch unterlegt ist.\n\nDaneben sind Carnosolsäure und Rosmarinsäure als antioxidative, antiinflammatorische und neuroprotektive Substanzen mit Daten aus Tiermodellen der Parkinsonkrankheit dokumentiert. Eine kleine Studie zeigt nach 750 mg getrocknetem Rosmarinblatt täglich über vier Wochen kognitive Verbesserung bei älteren Erwachsenen, eine Dosis, die im Küchengebrauch mühelos erreichbar ist.\n\nEine Würze geht vom Topf in die Lunge, von der Lunge ins EEG und von dort in eine messbare kognitive Leistung.",
+      quellen: ["Moss 2003", "Moss 2017", "Moss 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Citicolin (CDP-Cholin)",
+      slug: "citicolin-cdp-cholin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Hochwertige Cholin-Form für Gehirnleistung und Konzentration. Wissenschaftlich erforscht, bioverfügbar, für mentale Klarheit und neuronalen Schutz.«",
+      wirkung: "Citicolin ist das natürlich vorkommende Intermediat in der Cholin-Phosphatidylcholin-Synthese, im Körper zu Cholin und Cytidin gespalten und beide Komponenten unabhängig im zentralen Nervensystem aktiv, ein pharmakokinetisches Profil, das oraler Form Bioverfügbarkeit verleiht und es von einfachem Cholinsalz unterscheidet.\n\nIn Spanien und Italien ist die Substanz unter dem Namen Somazina als Medikament gegen ischämischen Schlaganfall und vaskuläre Demenz zugelassen, im englischsprachigen Raum gilt sie als Nahrungsergänzung, eine regulatorische Inkonsistenz, die nichts über die Substanz und alles über Zulassungspolitik aussagt.\n\nEine doppelblinde Studie an Frauen mittleren Alters zeigt nach 250 mg täglich über 28 Tage signifikante Verbesserung der Aufmerksamkeit und mentalen Reaktionszeit, eine weitere bei Glaukom-Patienten dokumentiert neuroprotektive Effekte auf retinale Ganglienzellen. Die klinischen Schlaganfall-Daten sind heterogen, eine internationale Studie fand keinen primären Endpunkt-Effekt, kleinere Arbeiten aber konsistente Verbesserung bei kognitiven Sekundärendpunkten.\n\nIn Madrid wird die Substanz auf Rezept abgegeben, in Berlin im Internet bestellt.",
+      quellen: ["McGlade 2012", "Parisi 2008", "Davalos 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Alpha-GPC",
+      slug: "alpha-gpc",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Hochbioverfügbare Cholin-Quelle für Kognition, Power und Leistung. Beliebte Nootropic-Ergänzung, durchquert die Blut-Hirn-Schranke und unterstützt den Acetylcholin-Aufbau.«",
+      wirkung: "Alpha-Glycerophosphocholin ist eine cholin-haltige Membrankomponente mit direkter Bioverfügbarkeit ins zentrale Nervensystem, in Italien unter dem Namen Gliatilin als Verschreibungspräparat gegen vaskuläre Demenz und kognitive Folgen nach Schlaganfall zugelassen, in den USA und Deutschland als Nahrungsergänzung verkauft, eine Diskrepanz, die für Substanzen dieser Klasse charakteristisch ist.\n\nDie ASCOMALVA-Studie an Patienten mit leichter bis mittelschwerer Alzheimer-Demenz zeigt unter Donepezil plus 1200 mg Alpha-GPC täglich über zwölf Monate eine signifikant geringere kognitive Verschlechterung als unter Donepezil allein, mit klinisch relevanten Effekten auf ADAS-cog und MMSE.\n\nSportphysiologisch dokumentiert eine Studie an gesunden Männern nach Einzeldosis von 600 mg eine signifikante Erhöhung der Wachstumshormon-Sekretion und eine Verbesserung der Krafterzeugung um etwa vierzehn Prozent. Pharmakologisch ist die direkte Verfügbarkeit als Acetylcholin-Vorläufer der entscheidende Punkt, eine Eigenschaft, die einfaches Cholinbitartrat nicht ohne weiteres bietet.\n\nPharmakologisch derselbe Stoff, kategorisch ein anderes Produkt.",
+      quellen: ["Amenta 2014", "Ziegenfuss 2008"],
+      related_article: null
+    },
+
+    {
+      name: "Cholin (Bitartrat)",
+      slug: "cholin-bitartrat",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Essentieller Nährstoff für Leber, Gehirn und Membranen. Cholin als Bitartrat für mentale Klarheit und Lebergesundheit, oft mit B-Vitaminen kombiniert.«",
+      wirkung: "Cholin ist seit 1998 vom US Institute of Medicine als essentieller Nährstoff klassifiziert, mit etwa neunzig Prozent der erwachsenen Bevölkerung westlicher Länder unter der empfohlenen Tagesaufnahme, eine Tatsache, die in der Werbung als »essentiell« ankommt, ohne dass das tatsächliche Verteilungsspektrum der Cholin-Pharmakologie sichtbar wird.\n\nAus Cholin synthetisiert der Körper Phosphatidylcholin als Membranbaustein, Sphingomyelin für die Myelinscheide, Acetylcholin als Neurotransmitter und Betain als Methylgruppendonor in der Homocystein-Senkung, vier voneinander unabhängige Stoffwechselwege.\n\nIn kontrollierten Defizitstudien führt Cholinmangel innerhalb von Wochen zu hepatischer Steatose, Muskelschäden und erhöhten Leberenzymen, ein Hinweis darauf, dass die Substanz nicht nur kognitiv, sondern hepatologisch unverzichtbar ist. Die Salzform ist klinisch relevant, das im Markt dominierende Cholinbitartrat passiert die Blut-Hirn-Schranke schlecht und eignet sich pharmakologisch nicht als Acetylcholin-Vorläufer, anders als Citicolin oder Alpha-GPC.\n\nDie Leber profitiert nachweislich. Das Gehirn weniger, als das Etikett verspricht.",
+      quellen: ["Zeisel 2007"],
+      related_article: null
+    },
+
+    {
+      name: "Phosphatidylserin",
+      slug: "phosphatidylserin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Phospholipid für Gedächtnis und Konzentration. Membran-Baustein, sinkt mit dem Alter, gleicht Stress aus und schützt das Gehirn vor altersbedingtem Abbau.«",
+      wirkung: "Phosphatidylserin stellt in den inneren Membranen von Neuronen den größten Anteil der sauren Phospholipide, mit funktioneller Bedeutung für Membranfluidität, Apoptose-Signalisierung und die Aktivität membranständiger Enzyme wie der Proteinkinase C.\n\nDie klinische Datenlage reicht auf eine doppelblinde Studie von 1991 zurück, in der 300 mg bovines Phosphatidylserin täglich über zwölf Wochen bei Patienten mit altersbedingtem Gedächtnisverlust signifikante kognitive Verbesserungen zeigte, eine Datenbasis, die durch die spätere BSE-Krise auf soja-basiertes Phosphatidylserin umgestellt wurde, dessen Lipid-Komposition nicht identisch ist und dessen klinische Replikation nicht gleichwertig ausfällt.\n\nEine deutsche Studie an gesunden Probanden zeigt nach 400 mg PS vor dem Trier Social Stress Test eine signifikant geringere Cortisol-Antwort und reduzierte subjektive Stresswahrnehmung, ein Befund, der die Anwendung im Sport pharmakologisch trägt. Eine japanische Arbeit bei Kindern mit Aufmerksamkeitsdefiziten dokumentiert nach acht Wochen 200 mg soja-PS klinisch relevante Verbesserung der ADHS-Symptome.\n\nKlinisch geprüft wurde die bovine Form, im Regal liegt die Soja-Form, und die Studienlage hat den Sprung nicht vollständig mitgemacht.",
+      quellen: ["Crook 1991", "Hellhammer 2004", "Hirayama 2014"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BATCH 6 — Postbiotika + Mandelpilz + Hepato-Detox
+    // ============================================================
+
+    {
+      name: "Butyrat (Buttersäure)",
+      slug: "butyrat-buttersaeure",
+      szenario: 3,
+      kategorie: "Mikrobiom",
+      unterkategorie: "Postbiotikum",
+      werbung: "»Kurzkettige Fettsäure für eine gesunde Darmflora. Sanfter Energielieferant für die Darmzellen, natürlich in Butter und Milchprodukten enthalten.«",
+      wirkung: "Butyrat ist nicht primär ein Nahrungsmittel, sondern das endogene Stoffwechselprodukt der bakteriellen Faserfermentation im Kolon, dort als Hauptbrennstoff der Kolonozyten genutzt, die etwa siebzig Prozent ihrer Energie aus dieser einen Fettsäure beziehen. Pharmakologisch wirkt Butyrat als reversibler Inhibitor der Histon-Deacetylasen der Klassen I und IIa, eine epigenetische Modulation, die in vitro die Tumorzell-Differenzierung induziert und in vivo die Expression antiinflammatorischer Gene wie FOXP3 und TGF-β fördert. In klinischen Studien an Patienten mit Colitis ulcerosa verbessern rektale Butyrat-Klysmen die Mukosaheilung und reduzieren Krankheitsaktivitätsindizes signifikant. Die orale Gabe als Natriumbutyrat scheitert pharmakokinetisch, weil die Substanz bereits im Dünndarm absorbiert wird und das Kolon nicht erreicht, weshalb enterische Beschichtungen oder die Tributyrin-Form als Workaround entwickelt wurden, ohne die rektale Anwendung in der klinischen Wirkung zu erreichen. Im Werbeetikett ein Energielieferant, im Kolon ein HDAC-Inhibitor mit epigenetischer Wirkung, sofern er den Weg dorthin findet.",
+      quellen: ["Scheppach 1992", "Hamer 2008"],
+      related_article: null
+    },
+
+    {
+      name: "Propionat",
+      slug: "propionat",
+      szenario: 3,
+      kategorie: "Mikrobiom",
+      unterkategorie: "Postbiotikum",
+      werbung: "»Konservierungsmittel und kurzkettige Fettsäure. Bestandteil natürlicher Fermentationsprozesse, im Lebensmittel als Zusatzstoff (E280 bis E283) zur Schimmelhemmung verwendet.«",
+      wirkung: "Propionat ist neben Acetat und Butyrat die dritte große SCFA aus der bakteriellen Faserfermentation und wirkt im Wirt als Ligand der Rezeptoren FFAR2 und FFAR3, mit dokumentierter Aktivierung der GLP-1- und PYY-Freisetzung aus den L-Zellen des Darms. Eine kontrollierte Studie mit Inulin-Propionat-Ester an übergewichtigen Erwachsenen zeigt nach 24 Wochen täglich zehn Gramm Esterzugabe signifikante Reduktion des intraabdominellen Fettgewebes, Senkung der hepatischen Steatose und verbesserte Glukosetoleranz, ein Befund, der die metabolische Rolle dieser SCFA exemplarisch belegt. Daneben hemmt Propionat die hepatische Lipogenese über Reduktion der Acetyl-CoA-Synthese und senkt damit die Cholesterin- und Triglyceridproduktion, ein lange unterschätzter Stoffwechseleffekt. In präklinischen Modellen wirkt die Substanz zusätzlich antiepileptogen und neuroprotektiv über Modulation der Mikroglia-Aktivität. Eine SCFA, die im Lebensmittelregal als Schimmelhemmer firmiert, ist im Darm ein Sättigungssignal und in der Leber ein Lipogenese-Bremser.",
+      quellen: ["Chambers 2015"],
+      related_article: null
+    },
+
+    {
+      name: "Mandelpilz (Agaricus blazei, ABM)",
+      slug: "mandelpilz-agaricus-blazei",
+      szenario: 1,
+      kategorie: "Pilz",
+      unterkategorie: "Vitalpilz",
+      werbung: "»Brasilianischer Sonnenpilz für Immunsystem, Krebsvorbeugung und Vitalität. Tropisches Heilmittel aus dem Amazonas, weltweit als ABM in onkologischen Begleitprotokollen vermarktet.«",
+      wirkung: "Agaricus blazei wurde in den 1970er Jahren in Brasilien als »Sonnenpilz von Piedade« vermarktet und in der japanischen Komplementärmedizin der 1980er und 1990er zu einem der populärsten Heilpilze ausgebaut, eine Geschichte, die mehr auf Marketing als auf kontrollierter Studienlage beruht. Pharmakologisch enthält der Pilz Beta-1,3/1,6-Glucane mit präklinisch dokumentierter Aktivierung dendritischer Zellen und makrophagaler NK-Zell-Stimulation, eine Datenlage, die in vitro überzeugt und in vivo am Menschen kaum reproduziert ist. Eine kontrollierte Studie an Gebärmutterkrebs-Patientinnen unter Chemotherapie zeigt nach Agaricus-Extrakt eine moderate Verbesserung der NK-Zell-Aktivität, eine Replikation in vergleichbarer Größenordnung fehlt seit zwei Jahrzehnten. Sicherheitsrelevant sind Fallberichte schwerer Hepatitis und akuten Leberversagens nach hochdosierten Pulverpräparaten, ein Befund, den die Marketing-Industrie weitgehend ignoriert und den die Tradition nie kennen musste, weil sie mit Aufgüssen arbeitete. Eine Pilzart, deren Humandatenlage dünner ist als ihr Hype und deren Hochdosis-Pulver mit dokumentierter Hepatotoxizität verbunden sind, gehört nicht in einen Wellness-Schrank.",
+      quellen: ["Ahn 2004", "Mukai 2006"],
+      related_article: null
+    },
+
+    {
+      name: "Mariendistel / Silymarin",
+      slug: "mariendistel-silymarin",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Samen",
+      werbung: "»Pflanzlicher Leberschutz und Detox-Klassiker. Silymarin-Komplex aus den Samen der Mariendistel für Leberregeneration und Galleentlastung, in Kapsel- oder Tropfenform.«",
+      wirkung: "Silibinin, der pharmakologisch aktive Hauptbestandteil von Silymarin, ist als intravenöses Antidot bei Knollenblätterpilz-Vergiftung (Legalon SIL) eine medizinische Standardsubstanz mit dokumentierter Mortalitätsreduktion in der Behandlung schwerer Amatoxin-Hepatitis. Diese Wirkung wird in der Werbung beständig zitiert und auf orale OTC-Kapseln übertragen, ohne dass die Dosisbrücke geschlossen wird. Die intravenöse Therapie arbeitet mit etwa 20 mg/kg täglich, entsprechend 1400 mg bei einem 70-kg-Patienten, während handelsübliche Reformhaus-Kapseln 80 bis 140 mg Silymarin pro Dosis liefern, davon nur ein Bruchteil als bioverfügbares Silibinin. Klinische Studien bei nicht-alkoholischer Steatohepatitis verwenden Dosen ab 420 mg täglich in phytosomaler Form, eine Größenordnung, die im Supplement-Regal selten erreicht wird, weil sie pro Tagesdosis ein halbes Dutzend Kapseln verlangt. Mariendistel ist als Substanz pharmakologisch real. Das im Regal verkaufte Produkt ist es in der typischen Dosierung kaum.",
+      quellen: ["Loguercio 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Artischocke / Cynarin",
+      slug: "artischocke-cynarin",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Blüte",
+      werbung: "»Pflanzliche Galle-Stimulanz und Cholesterin-Senker aus der Artischockenblüte. Sanfter Detox-Helfer für Leber, Galle und Verdauung, mediterrane Heilpflanze in Kapsel- und Tropfenform.«",
+      wirkung: "Cynarin und Luteolin sind die pharmakologisch identifizierten Hauptwirkstoffe der Artischocke, mit nachgewiesener choleretischer Wirkung über Steigerung des Galleflusses und antiinflammatorischer Aktivität in der Leber über NF-κB-Hemmung. Klinisch findet eine randomisierte Studie bei funktioneller Dyspepsie nach sechs Wochen 320 mg Artischockenextrakt täglich eine signifikante Symptomreduktion gegenüber Placebo, eine zweite Arbeit bei mäßiger Hypercholesterinämie zeigt nach zwölf Wochen 1280 mg täglich eine LDL-Senkung um etwa vier Prozent. Diese Effektgrößen sind klinisch moderat und für Patienten mit ausgeprägter Dyslipidämie therapeutisch irrelevant, werden im Marketing aber als Cholesterin-Senker präsentiert, der mit Statinen verglichen wird. Die Detox-Vermarktung ist pharmakologisch noch dünner, weil weder die Choleretika-Wirkung noch die antioxidative Aktivität in publizierten Studien klinisch relevante Endpunkte zur Lebergesundheit verändert. Artischocke ist ein moderates Verdauungs-Mittel mit milder Lipidwirkung und steht im Marketing als universeller Leber-Detox.",
+      quellen: ["Holtmann 2003", "Bundy 2008"],
+      related_article: null
+    },
+
+    {
+      name: "Löwenzahnwurzel (Taraxacum officinale)",
+      slug: "loewenzahnwurzel",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Klassisches Heilkraut für Leber und Galle. Wildwachsendes Bitterkraut, traditionell als Detox-Tee, in Tinkturen und in der europäischen Heilkunde verwendet.«",
+      wirkung: "Die Wurzel des Gemeinen Löwenzahns enthält eine seltene Doppelpharmakologie aus Bitterstoffen (Taraxin, Taraxacin), die TAS2R-Bitterrezeptoren im Mund und im Darm aktivieren und die exokrine Drüsensekretion vorbahnen, und Inulin in einer Konzentration von bis zu vierzig Prozent der Trockenmasse, das als Präbiotikum die Kolonflora moduliert. Die choleretische Wirkung ist in präklinischen Modellen über eine Steigerung des Galleflusses um bis zu vierzig Prozent dokumentiert, die diuretische Aktivität in einer Pilotstudie am Menschen über erhöhte Urinfrequenz nach acht Stunden Einnahme bestätigt. Daneben hemmen Sesquiterpenlactone die Lipopolysaccharid-induzierte Entzündungsreaktion in Hepatozyten und Makrophagen, ein Mechanismus, der die volksmedizinische Anwendung bei Leber- und Galleerkrankungen pharmakologisch trägt. Im Garten zertreten als Unkraut steht eine der wenigen Pflanzen, die Bitterstoffe und Präbiotika in derselben Substanz vereint.",
+      quellen: ["Mascolo 1987", "Clare 2009"],
+      related_article: null
+    },
+
+    {
+      name: "Chlorella",
+      slug: "chlorella",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Alge",
+      werbung: "»Grünes Superfood und Detox-Algen für Zellgesundheit, Schwermetallausleitung und Vitalität. Reich an Chlorophyll, Vitamin B12 und Proteinen, in Tabletten- oder Pulverform.«",
+      wirkung: "Chlorella wird als Detox-Algen vermarktet mit dem Versprechen, Schwermetalle wie Quecksilber und Blei aus dem Körper zu eliminieren, eine Behauptung, die auf In-vitro-Bindungsstudien beruht und am Menschen nur in einer einzigen kleinen Studie zu Quecksilber-Ausleitung dokumentiert ist. Das eigentliche pharmakologische Problem ist umgekehrt, weil Chlorella als Mikroalge an ihrem Wachstumssubstrat mit Schwermetallen kontaminiert sein kann, was in unabhängigen Marktanalysen regelmäßig in Produkten ohne GMP-Zertifizierung nachgewiesen wurde. Hinzu kommt ein Toxinrisiko, weil Co-Kulturen mit Cyanobakterien Mikrozystine und das neurotoxische BMAA enthalten können, ein Befund, der die Detox-Werbung nicht selten in den umgekehrten klinischen Befund überführt. Der häufig zitierte Vitamin-B12-Gehalt ist überdies pharmakologisch wertlos, weil es sich um inaktive Cobamide handelt, die am menschlichen B12-Rezeptor nicht binden und die Aufnahme echten Cobalamins in einigen Fällen kompetitiv hemmen. Eine Alge, die als Detox-Mittel vermarktet wird, ist im klinischen Befund vor allem ein Kontaminationsrisiko, und das beworbene B12 darin ist biochemisch nicht aktiv.",
+      quellen: ["Uchikawa 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Spirulina",
+      slug: "spirulina",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Alge",
+      werbung: "»Blaualgen-Superfood für Energie, Immunsystem und Eiweißversorgung. NASA-erprobt, jahrhundertealte Tradition, reich an pflanzlichem Protein, Vitamin B12 und Eisen.«",
+      wirkung: "Spirulina ist botanisch keine Alge, sondern ein Cyanobakterium der Gattung Arthrospira, das in der Werbung als »ältestes Superfood« und »NASA-Astronautennahrung« geführt wird, beides Behauptungen, die mehr Mythos als wissenschaftliche Substanz tragen. Das Pigment Phycocyanin hat in vitro antiinflammatorische und antioxidative Eigenschaften, klinische Übersetzungen bleiben aber bescheiden, und die häufig zitierten Studien zu Lipidsenkung und allergischer Rhinitis sind klein, methodisch heterogen und mit Effektgrößen im grenzwertigen Bereich. Das zentrale Sicherheitsproblem liegt in der Kontamination mit Mikrozystinen und dem neurotoxischen BMAA, weil Spirulina als Cyanobakterium häufig in offenen Kultursystemen mit toxinproduzierenden Verwandten wächst und in Marktanalysen ohne GMP-Zertifizierung regelmäßig kontaminiert auftritt. Das Vitamin-B12-Versprechen ist pharmakologisch falsch, weil Spirulina wie Chlorella inaktive Cobamide enthält, die am menschlichen B12-Rezeptor nicht binden und vegane Patienten in ein falsches Sicherheitsgefühl verschieben können. Spirulina wird als NASA-Nahrung verkauft und hat das Sicherheitsprofil eines Cyanobakteriums, das im offenen Tank gewachsen ist.",
+      quellen: ["Karkos 2011"],
+      related_article: null
+    },
+
+    {
+      name: "Glutathion",
+      slug: "glutathion",
+      szenario: 3,
+      kategorie: "Aminosäure",
+      unterkategorie: "Peptid",
+      werbung: "»Master-Antioxidans für Zellgesundheit und Detox. Wichtigstes körpereigenes Antioxidans, als Kapsel oder in liposomaler Form für Anti-Aging und Leberunterstützung empfohlen.«",
+      wirkung: "Glutathion ist das zentrale intrazelluläre Antioxidans und der Hauptträger der Phase-II-Detoxifikation, ein Tripeptid aus Glycin, Glutamat und Cystein, dessen Spiegel mit zunehmendem Alter, oxidativem Stress und chronischer Lebererkrankung absinkt. Das pharmakologische Problem liegt in der oralen Bioverfügbarkeit, weil ungeschütztes Glutathion bereits im Dünndarm durch Peptidasen in seine Aminosäuren zerlegt wird, was die Substanz als orale Kapsel pharmakologisch unbrauchbar macht. Eine kontrollierte Studie zeigt, dass nur die liposomale Form über sechs Monate die intrazellulären GSH-Spiegel in Erythrozyten und PBMC signifikant erhöht, ein Befund, der die einzige orale Variante mit messbarem Effekt isoliert. Pharmakologisch klüger ist meistens der Weg über die Vorstufen, weil der Körper aus NAC die limitierende Aminosäure Cystein bezieht (siehe N-Acetylcystein im Index), Alpha-Liponsäure das oxidierte Glutathion regeneriert (siehe Alpha-Liponsäure) und Sulforaphan die endogene Synthese über Nrf2 hochfährt (siehe Sulforaphan), drei Mechanismen, die die GSH-Spiegel zuverlässiger erhöhen als ein orales Glutathion-Pulver. Im Regal steht das Master-Antioxidans als Kapsel. In die Zelle kommt es nur über seine Vorstufen.",
+      quellen: ["Sinha 2018"],
+      related_article: null
+    },
+
+    {
+      name: "Alpha-Liponsäure (ALA)",
+      slug: "alpha-liponsaeure-ala",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Universelles Antioxidans und Nervenschutz-Vitamin für diabetische Neuropathie, Anti-Aging und Detox. Wasser- und fettlöslich, vielseitig einsetzbar in Kapsel- oder Tablettenform.«",
+      wirkung: "Alpha-Liponsäure ist das einzige bekannte endogene Antioxidans mit gleichzeitiger Wasser- und Fettlöslichkeit und damit das einzige, das jedes Zellkompartiment einschließlich Zytoplasma, Mitochondrien und Zellkern erreicht, durchquert dabei die Blut-Hirn-Schranke und recycelt im Verbund Vitamin C, Vitamin E und Glutathion zurück in ihre aktiven Formen. Die Substanz cheliert klinisch relevant zweiwertige Schwermetalle wie Quecksilber, Blei, Cadmium und Arsen über ihre zwei Thiolgruppen, ein Mechanismus, der die Anwendung bei amalgam-belasteten Patienten, bei Berufsbelastung mit Neurotoxinen und bei Rauchern pharmakologisch trägt. Klinisch ist die diabetische periphere Neuropathie die am besten dokumentierte Indikation, mit Schmerzreduktion und verbesserter Nervenleitgeschwindigkeit nach 600 mg täglich über mindestens drei Wochen. Pharmakologisch bedeutsam ist die Stereochemie, weil nur das R-Enantiomer biologisch aktiv ist und das im Markt dominierende Racemat zur Hälfte aus inaktivem S-Isomer besteht, was die Dosis verfügbarer Wirksubstanz halbiert und die unterdosierte Form im Reformhaus pharmakologisch zur Lotterie macht. Zusammen mit Sulforaphan über die Nrf2-Achse arbeitet R-ALA als Entgiftungsduo, das pharmakologisch eine Einheit bildet und im Markt als zwei isolierte Posten geführt wird. Pflicht für Raucher und Neurotoxin-Exponierte. Kein Anti-Aging-Posten im Wellness-Sortiment.",
+      quellen: ["Patrick 2002", "Ziegler 2011"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BATCH 8 — Bitterpflanzen + Mayr-Klassiker (Wermut, Estragon, Heilerde in Block C)
+    // ============================================================
+
+    {
+      name: "Enzian (Gentiana lutea)",
+      slug: "enzian-gentiana-lutea",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Bitterer Klassiker für Magen und Verdauung. Gelber Enzian im Magenbitter, traditionell aus dem Hochgebirge.«",
+      wirkung: "Enzianwurzel enthält Gentiopikrin und Amarogentin, zwei der reinsten Bitterstoffe der europäischen Phytotherapie. Amarogentin hat einen Bitterwert von bis zu 58.000.000. Gentiopikrin aktiviert TAS2R-Rezeptoren der Mund- und Magenschleimhaut. Über den Vagusnerv steigt die Magensaftsekretion reflektorisch und in Minuten.\n\nDie Kommission E hat die Wurzel positiv bewertet bei nicht-ulzerativer Dyspepsie, Appetitlosigkeit und Verdauungsschwäche. Daneben sind Sekoiridoide hepatoprotektiv und cholagog, was die traditionelle Anwendung bei Lebergallenwegserkrankungen pharmakologisch trägt.\n\nEnzian ist im Magenbitter eine Garnitur und im Magen eine Pharmakologie mit dem höchsten Bitterwert, der je gemessen wurde.",
+      quellen: ["Gebhardt 1997"],
+      related_article: null
+    },
+
+    {
+      name: "Schafgarbe (Achillea millefolium)",
+      slug: "schafgarbe-achillea-millefolium",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Wildes Heilkraut für Frauen und Verdauung. Wiesenkraut der europäischen Volksmedizin, vielseitig und bewährt.«",
+      wirkung: "Schafgarbe gehört zur kleinen Klasse der Heilpflanzen mit mehreren distinkten Wirkstoff-Familien in einer einzigen Pflanze. Sesquiterpenlactone als Bitterstoffe stimulieren die Verdauung. Ätherisches Öl mit Chamazulen hemmt Entzündungen an Schleimhäuten. Flavonoide entspannen die glatte Muskulatur. Achillein wirkt hämostyptisch bei Blutungen.\n\nKlinisch belegt bei nicht-ulzerativer Dyspepsie, dysmenorrhoischen Krämpfen, kleineren Wunden und entzündlichen Hauterkrankungen. Eine doppelblinde Studie zeigt unter Schafgarbe-Tinktur Reduktion von Stuhlfrequenz und abdominellen Schmerzen bei chronisch entzündlicher Darmerkrankung. Bei aphthösen Mundulzera verkürzt sich die Heilungszeit signifikant.\n\nEine Heilpflanze mit vier pharmakologischen Achsen in einem Stengel wird im westlichen Markt als »Wiesenkraut« geführt.",
+      quellen: ["Nematy 2018"],
+      related_article: null
+    },
+
+    {
+      name: "Tausendgüldenkraut (Centaurium erythraea)",
+      slug: "tausendgueldenkraut-centaurium-erythraea",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Reiner Bitter. Aperitif aus der Heilpflanzentradition. Magen und Galle in Form.«",
+      wirkung: "Tausendgüldenkraut enthält mit Gentianin, Erytaurin und Erythrocentaurin eine seltene Reinheit an Bitterstoffen ohne nennenswerte Schärfe- oder Gerbstoff-Komponenten. Die Kommission E hat das Kraut positiv für nicht-ulzerative Dyspepsie und Appetitlosigkeit bewertet. Pharmakologisch wirkt die Substanz über TAS2R-Aktivierung auf Magensaftfluss und Galleflussförderung. In vergleichenden Bitterwert-Tests liegt das Kraut zwischen Enzian und Wermut.\n\nIn der traditionellen Phytotherapie ist die Substanz als gut verträglicher Aperitif etabliert. Sie wird in Mischungen für Reizmagen-Symptomatik und funktionelle Dyspepsie verschrieben, ohne dass moderne Einzelsubstanz-RCTs vorliegen.\n\nIm modernen Phytotherapie-Markt ist das Kraut praktisch verschwunden, weil weder eine starke Industrie-Pflanze noch ein Wellness-Trend hinter ihm steht. Tausendgüldenkraut steht in der Kommission-E-Monografie mit positivem Votum und im Apothekenregal mit dem Status einer ausgestorbenen Empfehlung.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Fenchel · Anis · Kümmel",
+      slug: "fenchel-anis-kuemmel",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Samen",
+      werbung: "»Klassiker für Kinder und Bauch. Pflanzlicher Magen-Darm-Tee, mild und natürlich.«",
+      wirkung: "Anethol in Fenchel und Anis und Carvon in Kümmel wirken spasmolytisch auf die glatte Darmmuskulatur. Sie hemmen calcium-abhängige Kontraktionen und erleichtern die Gasausscheidung über Relaxation des unteren Ösophagussphinkters.\n\nFenchelöl reduziert in einer kontrollierten Studie bei Kindern mit infantiler Kolik die tägliche Schreidauer signifikant gegenüber Placebo. Eine weitere Arbeit bei funktioneller Dyspepsie dokumentiert nach kombiniertem Anis-Kümmel-Pfefferminze-Öl Symptomreduktion vergleichbar mit Cisaprid. Pharmakologisch aktivieren Carvon TRPM8 und Anethol TRPA1.\n\nHinzu kommen östrogen-rezeptor-modulierende Effekte des Anethols, die die traditionelle Anwendung bei Wechseljahresbeschwerden und in der Geburtsheilkunde teilweise pharmakologisch unterlegen. Drei Küchengewürze, die in der Pädiatrie als Cisaprid-Alternative funktionieren, gelten im modernen Markt als Tee gegen Blähungen.",
+      quellen: ["Alexandrovich 2003", "May 2000"],
+      related_article: null
+    },
+
+    {
+      name: "Andorn (Marrubium vulgare)",
+      slug: "andorn-marrubium-vulgare",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Vergessenes Heilkraut für Husten und Verdauung. Marrubin in Bitter und Schleimlöser, in einer Pflanze.«",
+      wirkung: "Andorn enthält Marrubin als pharmakologischen Hauptwirkstoff. Das Diterpenlacton wirkt dual als Bitterstoff für TAS2R-vermittelte Sekretionsstimulation und als Sekretolytikum mit dokumentierter Verflüssigung des Bronchialsekrets.\n\nPharmakologisch ist die Substanz in präklinischen Modellen analgetisch und antiinflammatorisch über NF-κB-Hemmung, in Tiermodellen kardiotonisch über Vagusnerv-Modulation, klinisch bei Husten, Dyspepsie und milden Hypertonien dokumentiert.\n\nMarrubium wurde 2018 zur Heilpflanze des Jahres gekürt. Klinisch findet die Substanz heute nur in vereinzelten Spezialpräparaten der naturheilkundlichen Phytotherapie Anwendung, während im Drogeriemarkt Hustenmischungen ohne Andorn dominieren. Eine Heilpflanze, die 2018 ausgezeichnet wurde und im selben Jahr im Regal fehlte, hat kein Wirksamkeitsproblem.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Bentonit · Zeolith",
+      slug: "bentonit-zeolith",
+      szenario: 1,
+      kategorie: "Mineral",
+      unterkategorie: "Erde",
+      werbung: "»Detox aus Vulkan und Lava. Mineralische Bindemittel für Schwermetalle und Darmreinigung.«",
+      wirkung: "Bentonit (Montmorillonit) und Zeolith (Klinoptilolith) sind Aluminiumsilikat-Mineralien mit dokumentierter Adsorptionskapazität für Schwermetalle und organische Toxine in vitro. Diese pharmakologische Eigenschaft dient seit Jahrzehnten als Grundlage für Detox-Vermarktung, ohne dass klinische Studien zur Schwermetallausleitung am Menschen die in-vitro-Effekte robust replizieren.\n\nKlinoptilolith ist in Europa als Medizinprodukt zur Magen-Darm-Anwendung zugelassen. Das Marketing führt diese Zulassung als Wirksamkeitsbeleg, faktisch ist es die schwächste regulatorische Stufe ohne Wirksamkeitsnachweis nach Arzneimittelmaßstab. Hinzu kommt ein zentrales Sicherheitsproblem, weil die Tonmineralien selbst je nach Lagerstätte erhebliche Mengen Aluminium und teilweise Blei enthalten, die bei längerer oraler Einnahme nicht ausgeschieden werden. Die Substanzen sollen Toxine binden und führen selbst welche zu.\n\nIn randomisierten Studien sind die Effekte auf laborchemisch nachweisbare Schwermetalllasten am Menschen marginal oder nicht nachweisbar. Bentonit und Zeolith sind in-vitro-Adsorbenzien mit einer Detox-Geschichte, die in vivo nie überzeugend nachgezogen wurde.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Basenpulver · Basentee",
+      slug: "basenpulver-basentee",
+      szenario: 1,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Säure-Basen-Balance. Übersäuerung weg. Pflanzliche Basenmischung für mehr Energie.«",
+      wirkung: "Die Säure-Basen-Pseudopharmakologie der typischen Basenpulver beruht auf einer widerlegten Annahme. Die moderne Ernährung führt nicht zu chronischer Übersäuerung des Blutes. Der Blut-pH ist durch Bikarbonat-Puffer, Atmung und Niere im engen Bereich 7,35 bis 7,45 reguliert und durch keine Nahrungsbestandteile außerhalb pathologischer Stoffwechselsituationen messbar verschoben.\n\nDie meisten kommerziellen Basenpulver liefern unspezifische Mineralsalzmischungen ohne pharmakologische Indikation. Das Marketing verkauft eine Krankheit, die so nicht existiert.\n\nEine differenzierte Ausnahme ist die Basenpulver-III-Formulierung nach Rauch im Kontext der Original-FX-Mayr-Therapie. Diese definierte Mischung aus Natriummonohydrogenphosphat, Calciumcarbonat, Magnesiumhydrogencitrat, Kaliumhydrogencarbonat, Kaliumcitrat und Natriummonohydrogencarbonat ist für das modifizierte Fasten entwickelt. Dabei entsteht durch Lipolyse-bedingte Ketonkörperbildung tatsächlich eine metabolische Azidose, die eine reale Mineralstoffsubstitution erfordert. Die Substitution wirkt nicht über »Entsäuerung«, sondern über Elektrolyt-Ersatz unter Fasten-Stoffwechselbedingungen.\n\nWer fastet, braucht das Rauch-Pulver. Wer im Alltag ein generisches Basenpulver einnimmt, kauft ein Marketing-Versprechen für eine Krankheit, die so nicht existiert.",
+      quellen: [],
+      related_article: null
+    },
+
+    // ============================================================
+    // BATCH 11 — Polyphenole-Rest + Carotinoide (Curcumin in Block C)
+    // ============================================================
+
+    {
+      name: "Catechine",
+      slug: "catechine",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Antioxidans der Natur. Catechine aus Grüntee, Kakao und Trauben für Herz und Gefäße.«",
+      wirkung: "Catechine sind keine generischen Antioxidantien. Epicatechin aktiviert das endotheliale NO-Signal und entspannt die Gefäße akut. Kakao-Metaanalysen zeigen Blutdrucksenkung um zwei bis fünf mmHg. Das ist klein und kardiovaskulär relevant zugleich.\n\nIm Grüntee dominiert EGCG mit seinem Bioverfügbarkeitsproblem, im Kakao das pharmakokinetisch bessere Epicatechin. Wer Catechine für die Gefäße will, geht über dunkle Schokolade oder reines Epicatechin, nicht über Grüntee-Extrakt.\n\nIm Mund spürt der Körper die Substanz unmittelbar. Catechine binden Schleimhautproteine und erzeugen das pelzige Adstringenz-Gefühl von Tee und Kakao. Diese Adstringenz ist kein Nebeneffekt, sondern der biochemische Beleg, dass die Substanz mit Schleimhaut interagiert.",
+      quellen: ["Hooper 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Anthocyane",
+      slug: "anthocyane",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Pigment",
+      werbung: "»Blau und kraftvoll. Anthocyane aus Beeren für Augen, Herz und Klarheit.«",
+      wirkung: "Anthocyane sind die Farbstoffe der dunklen Beeren. Sie wirken am Endothel über NO-Aktivierung, in der Mikroglia über NF-κB-Hemmung, am Auge über Photorezeptor-Stabilisierung. Aronia-Saft senkt den systolischen Blutdruck bei moderater Hypertonie über zwölf Wochen. Das ist Pharmakologie aus dem Strauch.\n\nSauerkirsche enthält andere Anthocyane mit eigener Wirkung. Tart-Cherry-Saft am Abend verbessert die Schlafqualität bei Insomnie über Melatonin-Erhöhung. Beeren-Pharmakologie ist sortenabhängig, das Marketing der Antioxidans-Kapsel nicht.\n\nBioverfügbarkeit ist niedrig, klinische Effekte trotzdem messbar, weil Anthocyane bereits in geringer Plasmakonzentration über Sirtuin-Signale arbeiten. Wer Anthocyane will, isst die Beere, nicht das Extrakt-Pulver. Die Frucht trägt mehr, als jeder Pulversack ausweisen kann.",
+      quellen: ["Kardum 2014", "Pigeon 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Hesperidin",
+      slug: "hesperidin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Mikrovaskulärer Schutz. Hesperidin aus Zitrus für Venen, Kapillaren und Hämorrhoiden.«",
+      wirkung: "Hesperidin sitzt in der weißen Innenhaut der Zitrusfrucht, dort, wo die meisten Menschen sie wegwerfen. Es stabilisiert Kapillaren und reduziert mikrovaskuläre Durchlässigkeit. In Frankreich verschreiben Ärzte Daflon (Diosmin plus Hesperidin) gegen chronisch-venöse Insuffizienz und Hämorrhoiden, mit harter Datenlage. In Deutschland steht die Substanz im Reformhaus.\n\nWer schwere Beine und geschwollene Knöchel hat, hat hier ein klinisch belegtes Werkzeug. Pharmakologisch arbeitet Hesperidin als Phlebotonikum über Hemmung der Noradrenalin-Spaltung an den Venenwänden und reduziert venöse Stase. Nach vier Wochen 1000 mg täglich nimmt das Abendschwellen messbar ab, ohne Messgerät. Phlebotonische Pharmakologie auf der Beinhaut.",
+      quellen: ["Lyseng-Williamson 2003"],
+      related_article: null
+    },
+
+    {
+      name: "Rutin",
+      slug: "rutin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Buchweizen-Kraft für Venen und Kapillaren. Rutin für stabile Gefäße.«",
+      wirkung: "Rutin ist der Glykosid-Bruder des Quercetins, in Buchweizen und Zitrusschalen reichlich vorhanden. Die Mikrobiota spaltet es zu Quercetin, was die Bioverfügbarkeit an die Darmflora koppelt. Pharmakologisch reduziert es die kapilläre Permeabilität und stabilisiert die Mikrozirkulation, ein Effekt, der die Anwendung bei Krampfadern und Hämorrhoiden trägt.\n\nKlinisch reduziert Rutin Beinschmerzen und Schwellung über sechs Wochen und stabilisiert die retinale Kapillarwand bei Diabetes. Diese Indikationen erklären, warum osteuropäische und französische Phytotherapien Rutin halten und die deutsche Drogerie es zwischen Vitaminen verliert.\n\nSubjektiv tut Rutin nichts Spürbares, es arbeitet auf Endothelebene. Aber wer chronisch geschwollene Knöchel hat, registriert nach Wochen ein Abklingen. Rutin ist eine leise Substanz mit kapillarstabilisierender Wirkung, im westlichen Markt eine Statistnummer.",
+      quellen: ["Belcaro 2017"],
+      related_article: null
+    },
+
+    {
+      name: "Berberin",
+      slug: "berberin",
+      szenario: 2,
+      kategorie: "Substanz",
+      unterkategorie: "Alkaloid",
+      werbung: "»Pflanzliches Insulin. Blutzucker senken ohne Nebenwirkungen. Die natürliche Alternative zu Metformin.«",
+      wirkung: "Berberin senkt HbA1c bei Typ-2-Diabetes mit einer Wirkstärke, die in Metaanalysen Metformin gleichzieht. Drei chinesische RCTs zeigen Senkung von Nüchternblutzucker, postprandialer Glukose und LDL-Cholesterin in Größenordnungen, die jedes erste-Wahl-Antidiabetikum beanspruchen würde. Pharmakologisch aktiviert die Substanz AMPK, dieselbe Energiesensor-Kinase, die Metformin nutzt. Wer Berberin als naturheilkundlichen Zusatz behandelt, übersieht eine pharmakologisch potente Substanz.\n\nDer Mainstream-Westen ignoriert diesen Befund. Nicht aus Datenmangel, sondern aus Patentmangel. Berberin stammt aus Berberis-Sträuchern und ist pharmazeutisch nicht patentierbar. Kein Hersteller finanziert eine Phase-III-Diabetes-Zulassung. Das ist nicht Medizin, das ist Marktordnung.\n\nDie Nebenwirkungen sind real und im Bauch spürbar. 1500 mg täglich verursachen Krämpfe und Durchfall. Die GI-Toleranz erzwingt schrittweisen Aufbau. Eine Substanz, die Metformin in der Wirkstärke gleichzieht und in der westlichen Versorgung Supplement-Status hat, ist nicht unterdosiert. Sie ist absichtlich unter den klinischen Radar geschoben.",
+      quellen: ["Yin 2008", "Dong 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Indol-3-Carbinol · DIM",
+      slug: "indol-3-carbinol-dim",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Hormonbalance aus Kreuzblütlern. I3C und DIM für gesunden Östrogenstoffwechsel.«",
+      wirkung: "Indol-3-Carbinol entsteht beim Zerkleinern von Brokkoli und Kohl, im Magen wird daraus DIM, das aktive Endprodukt. Die Substanz verschiebt den Östrogen-Metabolismus weg vom genotoxischen 16-Hydroxy-Östron hin zum schützenden 2-Hydroxy-Östron. Wer regelmäßig Kreuzblütler isst, modifiziert sein eigenes Östrogen-Profil messbar.\n\nBei Frauen mit erhöhtem Brustkrebs-Risiko verschiebt DIM das 2-OH/16-OH-Verhältnis in die schützende Richtung. Bei Cervix-Dysplasie reduziert I3C milde Läsionen. Im Frauen-Supplement-Markt wird die Substanz vermarktet, in der Mainstream-Gynäkologie ignoriert.\n\nSubjektiv spürt der Körper die Wirkung nicht direkt, Anwenderinnen mit zyklusgebundenen Brustspannungen berichten nach Wochen Rückgang. Wer Brokkoli regelmäßig isst, betreibt unbeabsichtigt Östrogen-Pharmakologie. Wer DIM in Kapseln nimmt, beschleunigt den Vorgang.",
+      quellen: ["Bell 2000", "Dalessandri 2004"],
+      related_article: null
+    },
+
+    {
+      name: "Beta-Carotin",
+      slug: "beta-carotin",
+      szenario: 1,
+      kategorie: "Substanz",
+      unterkategorie: "Pigment",
+      werbung: "»Provitamin A aus der Karotte. Für Augen, Haut und Immunsystem.«",
+      wirkung: "Beta-Carotin ist die größte Warnung in der Carotinoid-Pharmakologie. Die ATBC-Studie 1994 und die CARET-Studie 1996 mussten vorzeitig gestoppt werden, weil männliche Raucher unter Beta-Carotin-Hochdosis 18 bis 28 Prozent mehr Lungenkrebs entwickelten. Das ist keine Vitamin-Ergänzung, das ist eine Substanz mit dokumentiertem Schadenspotenzial bei Risikogruppen.\n\nDer Mechanismus ist verstanden. In oxidativ belasteten Geweben kippt isoliertes Beta-Carotin von antioxidativ zu pro-oxidativ. Es bildet instabile Metabolite, die DNA-Schäden verstärken statt verhindern. Was im Reagenzglas als Antioxidans glänzt, wird im Raucher-Lungengewebe zum DNA-Toxin.\n\nDie Lebensmittelmatrix ist davon nicht betroffen. Karotten und Spinat liefern Beta-Carotin im Kontext von Vitamin C, E und Tocotrienolen, die die pro-oxidative Kippreaktion abfangen. Wer Beta-Carotin isoliert nimmt, riskiert das, was die Karottensuppe gefahrlos liefert. Im Reformhaus steht eine Substanz, die in der Pharmakovigilanz als Schadensbeispiel geführt wird.",
+      quellen: ["ATBC 1994", "Omenn 1996"],
+      related_article: null
+    },
+
+    {
+      name: "Astaxanthin",
+      slug: "astaxanthin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Pigment",
+      werbung: "»Das stärkste Antioxidans der Natur. Astaxanthin aus der Mikroalge für Haut, Augen und Anti-Aging.«",
+      wirkung: "Astaxanthin ist das rote Carotinoid, das Lachs, Garnele und Flamingo färbt. Es löscht Singulett-Sauerstoff mit einer Wirkstärke, die andere Carotinoide um Größenordnungen übertrifft. Klinisch reduziert es UV-induzierte Hautschäden und altersbedingte Faltentiefe nach zwölf Wochen Einnahme. Das ist messbare Photonen-Pharmakologie, nicht Marketing.\n\nIm Auge wirkt die Substanz an der Macula und verlangsamt den Sehfähigkeitsverlust bei AMD im Vergleich zum Standard-AREDS-Protokoll. Die antiinflammatorische NF-κB-Hemmung hat klinisch relevante Effekte bei rheumatoider Arthritis. Im Westen fliegt die Substanz unterhalb der Wellness-Aufmerksamkeit.\n\nSubjektiv ist die Wirkung subtil. Wer Astaxanthin über Wochen einnimmt, registriert veränderte Hautadaptation an die Sonne, weniger Rötung, langsameres Bräunen mit besserer Erholung. Eine Substanz, die das Sonnenlicht der Mikroalge filtert, übernimmt diese Aufgabe auch beim Menschen.",
+      quellen: ["Tominaga 2012", "Piermarocchi 2012"],
+      related_article: null
+    },
+
+    {
+      name: "Lutein · Zeaxanthin",
+      slug: "lutein-zeaxanthin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Pigment",
+      werbung: "»Augenpigmente aus Spinat und Grünkohl. Lutein und Zeaxanthin für scharfe Sicht und gesunde Macula.«",
+      wirkung: "Lutein und Zeaxanthin sind zwei Carotinoide, die der Körper gezielt in der Macula lutea akkumuliert. Dort filtern sie blaues Licht und neutralisieren Radikale, die Photorezeptoren beschädigen. Die AREDS2-Studie hat 2013 beide Substanzen als sicheren Ersatz für Beta-Carotin in der AMD-Prophylaxe etabliert. Damit gehören sie zu den evidenzbasierten Augenpharmakologien im Supplement-Markt.\n\nKlinisch reduzieren 10 mg Lutein und 2 mg Zeaxanthin täglich die AMD-Progression. Bei gesunden Erwachsenen verbessern sie Kontrastsensitivität und Erholung von Blendung. Im Auge ist das eine seltene pharmakologische Direktheit, kein systemischer Umweg.\n\nSubjektiv registriert der Körper die Wirkung nach Wochen. Wer beim Autofahren am Abend von Scheinwerfern geblendet wird, merkt eine schnellere Wiederherstellung der Sicht. Die Substanz baut den UV-Schutzfilter, den die Pflanze in der Sonne aufgebaut hat, im menschlichen Auge nach.",
+      quellen: ["AREDS2 2013", "Stringham 2017"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK C — DMSO + Lithiumorotat + Macadamia (Sonderanweisungen)
+    // ============================================================
+
+    {
+      name: "DMSO (Dimethylsulfoxid)",
+      slug: "dmso",
+      szenario: 2,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Umstrittenes Hausmittel ohne ausreichende klinische Grundlage. In der Schulmedizin nicht anerkannt. Anwendung auf eigene Verantwortung.«",
+      wirkung: "DMSO hemmt Entzündungen, verstärkt die Penetration anderer Wirkstoffe durch die Haut, schützt Nervengewebe und bewahrt Organe nach Ischämie vor dem Absterben. Die FDA hat das Molekül 1978 für interstitielle Zystitis zugelassen und seitdem nie erweitert, obwohl die Datenlage für Dutzende weitere Indikationen vorliegt. Das pharmakologische Standardwerk fasst die Befunde zusammen, ohne dass ein einziger Leitlinienausschuss reagiert. Eine Substanz, die als irreversibel geltende Lähmungen rückgängig macht, wird im Drogeriemarkt geführt und in der Klinik konsequent ignoriert.\n\nAls Lösungsmittel löst DMSO pflanzliche Wirkstoffe mindestens so gut wie Ethanol, durchquert dabei die Blut-Hirn-Schranke und hebt die Bioverfügbarkeit der gelösten Stoffe deutlich an. Die gesamte Schwedenbitter-Tradition, die gesamte alkoholische Phytotherapie ließe sich auf DMSO umstellen, ohne Alkoholschaden, mit besserer Penetration ins Gewebe. Dass kein Hersteller diesen Schritt vollzieht, ist kein Zufall, sondern Marktstruktur. Wer einen Extrakt verkauft, dessen Wirkstoffe tatsächlich ankommen, untergräbt das Geschäftsmodell der Verdünnung. Das wirksamere Extraktionsmedium der gesamten Pflanzenheilkunde liegt seit Jahrzehnten in jedem Regal und wird konsequent übersehen.\n\nIn Deutschland ist DMSO frei verkäuflich, billig und nicht patentierbar. Wer es medizinisch anwendet, verschweigt es dem Arzt, weil der sonst aufhört zuzuhören. Auf der Haut entsteht nach wenigen Minuten eine knoblauchartige Wärme im Mund, der Körper meldet die systemische Verteilung in Echtzeit. Verboten ist die Substanz nicht, aber unsagbar. Unterdrückung läuft hier nicht über Gesetze, sondern über soziale Ächtung und fehlende Erstattung. Kein Arzt zahlt mit DMSO seine Hypothek ab. Das Paradebeispiel einer wirksamen Substanz, die ohne Verbot aus dem klinischen Alltag verschwunden ist.",
+      quellen: ["Jacob/de la Torre 2015", "Jacob/Herschler 1986", "midwesterndoctor.com DMSO-Serie", "kokos-und-zitrone.de/p/trinken-stoppt-die-heilung"],
+      related_article: "/zutaten/bildgebung/dmso-methylenblau-lithiumorotat/"
+    },
+
+    {
+      name: "Lithiumorotat",
+      slug: "lithiumorotat",
+      szenario: 1,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Sanftes Mikrodosis-Lithium für Stimmung, Klarheit und Neuroprotektion. Natürlich, sicher, gut verträglich. Das vergessene Spurenelement für das moderne Gehirn.«",
+      wirkung: "Lithium ist in der Psychiatrie ein nebenwirkungsreiches Antipsychotikum, eingesetzt nur unter engmaschiger Blutspiegelkontrolle. Die therapeutische Breite ist extrem schmal, jede Überschreitung führt in Toxizität. Nephrotoxizität, Schilddrüsensuppression, Tremor und Diabetes insipidus sind dokumentierte Folgen einer Langzeitbehandlung mit 600 bis 1800 mg Lithiumcarbonat. Kein Psychiater verschreibt Lithium ohne wöchentliche Laborkontrolle in der Einstellungsphase. Der Wirkstoff trägt seine Datenlage als Warnetikett, nicht als Versprechen. Wer Lithium kennt, kennt es als Substanz, deren Wirksamkeit ihren Preis fordert, nicht als sanftes Nahrungsergänzungsmittel mit Wohlfühlprofil.\n\nIm Supplement-Markt taucht Lithium seit kurzem als Lithiumorotat in Dosen von 5 bis 20 mg auf, vermarktet als sicheres Mikrodosis-Lithium für Stimmung und Neuroprotektion. Kontrollierte Humanstudien zur Wirksamkeit dieser Dosen existieren nicht. Die Werbung borgt sich die psychiatrische Datenlage, erhoben bei therapeutischen Dosen, und projiziert sie auf eine zehn- bis hundertfach niedrigere Konzentration ohne jede Dosisbrücke. Das Orotat-Anion soll die Bioverfügbarkeit erhöhen, auch dafür fehlt die belastbare Humanevidenz. Eine Substanz, deren psychiatrischer Einsatz Laborkontrolle erfordert, wird im Biohacker-Kreis als Tagesvitamin angeboten.\n\nDie deutsche Biohacker-Szene reaktiviert Lithium gerade als vergessenes Spurenelement, beruft sich auf ökologische Korrelationsstudien mit Trinkwasser-Lithium und ignoriert, dass dort Mikrogramm-Mengen wirken, nicht Milligramm. Wer 5 mg täglich schluckt, liegt um drei Größenordnungen über dem Trinkwasserwert und um zwei Größenordnungen unter der psychiatrischen Dosis. In dieser Lücke gibt es keine Evidenz, nur Marketing. Das ist Scharlatanerie mit wissenschaftlichem Anstrich. Lithium gehört unter Blutspiegelkontrolle in die Psychiatrie oder ins Trinkwasser, nicht als selbstdosiertes Mikrodosis-Supplement zwischen Vitamin D und Magnesium ins Regal.",
+      quellen: ["McKnight 2012 (Lancet Nephrotoxizität)", "Schou 1997 (therapeutische Breite)", "Schrauzer 2002 (Trinkwasser-Korrelation)"],
+      related_article: "/zutaten/bildgebung/dmso-methylenblau-lithiumorotat/"
+    },
+
+    {
+      name: "Macadamia (Macadamia integrifolia)",
+      slug: "macadamia",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Samen",
+      werbung: "»Cremig-süße Königin der Nüsse. Hawaiianische Delikatesse mit hochwertigem Fett. Edler Snack für Genießer und feine Backwerke.«",
+      wirkung: "Macadamia trägt rund achtzig Prozent einfach ungesättigte Fettsäuren, den höchsten MUFA-Anteil aller Nüsse. Entscheidend ist die Palmitoleinsäure, eine Omega-7-Fettsäure in einer Konzentration, die keine andere Nuss erreicht. Palmitoleinsäure wirkt als Lipokin, also als fettabgeleitetes Hormon, das die Glukoseaufnahme im Muskel verbessert und die Glukoseproduktion der Leber drosselt. Das ist ein eigenständiger metabolischer Wirkmechanismus, kein generischer Effekt »gesunder Fette«. Der Körper reagiert auf eine tägliche Ration mit messbar besserer Insulinantwort. Macadamia gehört nicht in die Schublade Premium-Snack, sondern in die Schublade hormonell aktives Lebensmittel.\n\nEine Penn-State-Studie aus dem Jahr 2008 zeigt unter täglicher Macadamia-Ration eine Senkung des Gesamtcholesterins um 9,4 Prozent und des LDL um 8,9 Prozent, größer als allein durch den Fettsäureanteil vorhersagbar. Die HOMA-IR-Verbesserung als Insulinresistenz-Marker fällt stärker aus als bei Mandeln oder Walnüssen. Bei regelmäßigem Verzehr sinkt der HbA1c-Wert. Nach dem Rösten steigt der Antioxidantien-Gehalt um 26 Prozent, weil Öl- und Proteinstrukturen aufbrechen und Polyphenole freisetzen. Eine Nuss mit messbarer Wirkung auf Cholesterin, Insulin und Langzeitblutzucker, die im Regal als Knabberei verkauft wird.\n\nBryan Johnson nimmt zehn bis zwölf Macadamianüsse täglich, etwa 28 g, als Kernelement seines Blueprint-Protokolls, eingebaut in den Nutty Pudding, mit Macadamia-Milch als Basis. Die Werbung verkauft hawaiianische Delikatesse, Backzutat, Premium-Snack. Palmitoleinsäure als Lipokin, Insulinsensitivierung und kardiovaskuläre Protektion jenseits des generischen Nuss-Effekts stehen nicht auf der Packung. Im Supermarkt liegt sie zwischen Cashew und Paranuss, im Stoffwechselprofil steht sie allein. Eine pflanzliche Quelle für Omega-7 mit Cholesterin-, Insulin- und Blutzuckerwirkung wird als Geschenkartikel im Glas vermarktet, statt als tägliche Ration in jedem Haushalt.",
+      quellen: ["Griel 2008 (Penn State)", "Garg 2007", "Curb 2000", "blueprint.bryanjohnson.com"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK C — Petersilie + Estragon + Sango Koralle (Sonderanweisungen)
+    // ============================================================
+
+    {
+      name: "Petersilie (Petroselinum crispum)",
+      slug: "petersilie",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Die klassische Garnitur. Frische Petersilie bringt grüne Farbe auf den Teller und liefert wertvolle Vitamine. Vielseitig in der Küche, einfach im Anbau.«",
+      wirkung: "Die Petersilie trägt mit 215,5 mg Apigenin pro 100 g frisch den höchsten Wert aller Lebensmittel. Sellerie liefert zum Vergleich nur 19,1 mg, also über zehnmal weniger. Apigenin hemmt CD38 und spart dadurch zelluläres NAD+, den Kofaktor jeder mitochondrialen Energieproduktion. Im Longevity-Regal kostet eine Kapsel mit derselben Substanz dreißig Euro. Auf dem Tellerrand schiebt der Gast die Garnitur zur Seite. Das pharmakologische Kraftwerk landet im Restmüll. Wer Petersilie nur als Deko begreift, verliert einen NAD+-Sparer ohne Rezept.\n\nEine Tasse Petersilie liefert 547 µg Vitamin K, fast viermal so viel wie Spinat. Vitamin C übersteigt pro Gewicht den Wert der Orange. 100 g decken 77,5 Prozent des Eisen-Tagesbedarfs. Die Vitamin-C-Eisen-Kombination im selben Blatt fördert die Absorption ohne Ergänzungspräparat. Myristicin wirkt neuroprotektiv und antimikrobiell. Eugenol agiert lokalanästhetisch und senkt den Blutzucker. Apiol treibt die Diurese. Sechs pharmakologisch aktive Verbindungen sitzen in einem Küchenkraut, das die Hand vom Teller wischt. Wer Spinat für eisenreich hält, hat das falsche Blatt gewählt.\n\nEin Review in Frontiers in Medicine bestätigt nephroprotektive Wirkung. Eine zweite Arbeit im Journal of Agricultural and Food Chemistry dokumentiert hepatoprotektive, neuroprotektive, kardioprotektive und antineoplastische Effekte. Eine dermatologische Übersicht zeigt Wirksamkeit bei atopischer Dermatitis. Sechs Organsysteme reagieren auf dasselbe Blatt. Die Werbung verkauft Garnitur. Apigenin-Kapseln stehen drei Regale weiter zum Longevity-Preis. Petersilie liegt dort, wo der Koch sie hinschiebt. Wer dreißig Euro für Apigenin ausgibt und die Petersilie wegwirft, hat die Reihenfolge der Pharmakologie nicht verstanden.",
+      quellen: ["Alobaidi 2024", "Bahramsoltani 2024", "Frontiers in Pharmacology 2025"],
+      related_article: null
+    },
+
+    {
+      name: "Estragon (Artemisia dracunculus)",
+      slug: "estragon",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Edles Küchenkraut der französischen Tradition. Verfeinert Sauce béarnaise, Fisch und Geflügel mit anisartigem Aroma. Aus dem Mittelmeerraum.«",
+      wirkung: "Estragon ist die Schwesterart des Wermuts in der Gattung Artemisia, mit milderem Bitterstoff-Profil. Das ätherische Öl trägt Estragol und Methyleugenol. Die Polyphenole Davidigenin und Estragonosid prägen die Pflanzenchemie. Klinisch zeigt der Extrakt antidiabetische, antiinflammatorische und hepatoprotektive Wirkungen. Die Entzündungshemmung läuft über Blockade von IL-17 und IL-23, zwei Achsen, die auch moderne Biologika adressieren. Glutathion-Induktion schützt die Leber. Das Küchenkraut für die Sauce béarnaise greift in dieselben Signalwege wie patentierte Antikörper. Wer Estragon nur als Aroma denkt, übersieht eine Pflanze mit Arzneiprofil.\n\nEine doppelblinde Studie aus dem Jahr 2024 vergleicht Estragon-Extrakt mit Sulfasalazin bei aktiver Colitis ulcerosa. Auf dem Mayo-Aktivitätsscore erreicht die Pflanze gleichwertige Wirksamkeit. Das Nebenwirkungsprofil fällt günstiger aus als beim synthetischen Standard. Die Schulgastroenterologie hat einen pflanzlichen Wirkstoff vor sich, der ihrem Erstlinienpräparat ebenbürtig ist. Die Apotheke führt Sulfasalazin auf Rezept. Estragon steht im Gewürzregal neben Salz und Pfeffer. Wer eine entzündliche Darmerkrankung trägt, bekommt das Antikörper-Update verschrieben und das Kraut verschwiegen.\n\nDie Immunmodulation verschiebt das T-Helfer-Profil in Richtung Th1. Präklinisch zeigt Estragon antitumorale Aktivität gegen Mamma- und Kolontumoren. Das ist keine Aromakomponente mehr, das ist Onkologie-Pipeline-Material aus dem Kräutergarten. Die Werbung verkauft Verfeinerung französischer Küche. Die Forschung untersucht eine Sulfasalazin-Alternative. Beide Felder kennen denselben Stiel, sprechen aber nicht miteinander. Die Sauce béarnaise enthält ein Küchengewürz, das in der modernen Gastroenterologie als Sulfasalazin-Alternative untersucht wird.",
+      quellen: ["Aslam 2024", "Colitis-ulcerosa-Studie 2024"],
+      related_article: null
+    },
+
+    {
+      name: "Sango Koralle",
+      slug: "sango-koralle",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Koralle",
+      werbung: "»Natürliches Calcium aus der Tiefsee Okinawas. Über siebzig Spurenelemente in ionisierter Form, jahrtausendelang im Korallengestein gereift. Das Geheimnis der hundertjährigen Insulaner.«",
+      wirkung: "Sango stammt aus fossilen Korallenablagerungen in den Gewässern um Okinawa. Calcium und Magnesium liegen im Verhältnis zwei zu eins vor, die Konstellation, die der Körper optimal absorbiert. Über siebzig Spurenelemente sitzen in ionisierter Form im Gerüst. Die Bioverfügbarkeit erreicht etwa neunzig Prozent, während Calciumcarbonat aus dem Drogeriemarkt bei dreißig Prozent verharrt. Innerhalb von zwanzig Minuten weisen Blutproben die Mineralien nach. Das ist kein Supplementprofil, das ist die Geschwindigkeit einer Infusion ohne Nadel. Wer Calciumcarbonat schluckt, verschwendet zwei Drittel der Tablette im Stuhl.\n\nDie Okinawa Centenarian Study von 1976 bis 1994 untersucht eine Bevölkerung mit überdurchschnittlicher Lebenserwartung. Das Trinkwasser fließt dort durch Sango-Korallengestein, bevor es die Haushalte erreicht. Die Filtration über das Mineral gilt als ein Faktor der Hundertjährigen-Häufung. Die Korallenstruktur ähnelt dem menschlichen Knochen so präzise, dass die orthopädische Forschung Sango als Knochenersatzmaterial untersucht. Das Gestein wird nicht aus lebenden Riffen gebrochen, sondern aus toten Ablagerungen ab fünfzig Meter Tiefe geborgen. Die japanische Regierung kontrolliert den Abbau. Wer hier von Riffzerstörung spricht, hat das Datenblatt nicht gelesen.\n\nDie Werbung verkauft ein weiteres Calcium-Präparat, exotisch verpackt, teuer ausgepreist, für die Esoterik-Kundschaft markiert. Die tatsächliche Substanz ist ein natürlicher Mineralstoff-Komplex mit ionisierten Spurenelementen im Verhältnis des menschlichen Körpers. Die Evidenz ist epidemiologisch, nicht molekular sauber, aber sie ruht auf der höchsten dokumentierten Lebenserwartungs-Subpopulation der Welt. Das ist mehr Statistik, als die meisten Anti-Aging-Moleküle vorweisen können. Wer das Mineralstoffregal nach Marketingsprech sortiert, übersieht das eine Präparat mit Bevölkerungsdaten. Die ältesten Menschen der Welt trinken das Wasser, das durch diese Koralle läuft.",
+      quellen: ["Okinawa Centenarian Study 1976-1994", "Willcox 2007"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK C — Heilerde + Wermut-Hammer + Kokoswasser + Chlorophyll (Sonderanweisungen)
+    // ============================================================
+
+    {
+      name: "Heilerde (gelb und weiß)",
+      slug: "heilerde",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Erde",
+      werbung: "»Natürliches Hausmittel aus Tonmineralien. Reinigt von innen, hilft sanft bei Sodbrennen und unreiner Haut. Das vergessene Großmutter-Rezept aus dem Reformhaus.«",
+      wirkung: "Heilerde besteht aus feinst vermahlenen Tonmineralien mit dokumentierter Adsorptionskapazität für Säuren, Gallensalze, Bakterientoxine und Reizstoffe. Gelbe Heilerde bindet überschüssige Magensäure physikalisch im Lumen. Madisch publizierte 2007 eine Studie bei Refluxpatienten, die nach vier Wochen oraler Heilerde eine Symptomreduktion erreichten, vergleichbar in der Wirkstärke mit Ranitidin, ohne Rebound nach Absetzen. Reflux endet als mechanisches Problem, nicht als Rezeptpflicht. Klinische Anwendungsdaten existieren zusätzlich bei Reizdarm und funktioneller Dyspepsie. Weiße Heilerde (Kaolin) ist der Pädiatrie-Klassiker bei akuter Diarrhö und bindet Toxine im Darmlumen, bevor sie die Mukosa erreichen. Dermatologisch zeigen Sebumetrie-Messungen nach Kaolin-Masken eine signifikante Reduktion der Talgproduktion bei atopischer Dermatitis und fettiger Haut. Der Talgfluss sinkt, der Juckreiz lässt nach, die Schwellung weicht. Im aktuellen Markt überdeckt der Bentonit-Detox-Hype die etablierten klinischen Anwendungen vollständig. Heilerde landet im Wellness-Sortiment, obwohl sie pharmazeutische Pflichtindikationen mit harten Endpunkten abdeckt. Wer Heilerde gegen Reflux nimmt, behandelt mit Tonmineral, nicht mit Marketing.",
+      quellen: ["Madisch 2007"],
+      related_article: null
+    },
+
+    {
+      name: "Wermut (Artemisia absinthium)",
+      slug: "wermut-artemisia-absinthium",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Kraut",
+      werbung: "»Klassisches Bitterkraut aus der Klosterapotheke. Sanfter Aperitif, traditioneller Magenstärker, harmonisiert Verdauung und Appetit auf natürliche Weise.«",
+      wirkung: "Wermut trägt einen Bitterwert bis 30.000 und gehört zu den stärksten bekannten Bitterstoffen der gesamten Pflanzenwelt. Der Hauptwirkstoff Absinthin ist ein Sesquiterpenlacton und aktiviert die TAS2R-Bitterrezeptoren in Mund, Magen und Darm. Mit der Bitterkeit synchronisiert der Körper Speichel, Magensaft und Galleflüssigkeit in einer einzigen reflektorischen Kaskade. Die Sekretion kommt zurück, der Appetit kommt zurück, die Galle fließt. Klinisch wirksam ist die Substanz bei Anorexie, Verdauungsschwäche, Gallendyskinesie und Cholestase, mit Wermut-Extrakt in einer kontrollierten Studie bei Morbus Crohn (Omer 2007) die Steroiddosis reduzierte und Remissionsraten signifikant erhöhte. Die Pflanze arbeitet auf Rezeptorebene, nicht über Suggestion. Die Thujon-Warnung gilt ausschließlich für historisches Absinth als Hochdosis-Spirituose, nicht für moderne Phytotherapie-Tinkturen oder Teezubereitungen mit thujonarmen Sorten. Im Markt steht Wermut als netter Aperitif neben Magenbittern für ältere Damen, während die pharmakologische Realität die wirkungsstärkste Bitterstoffpflanze der gesamten europäischen Pharmakopöe beschreibt. Wermut ist Hammer.",
+      quellen: ["Omer 2007"],
+      related_article: null
+    },
+
+    {
+      name: "Kokoswasser",
+      slug: "kokoswasser",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Frucht",
+      werbung: "»Tropisches Trendgetränk und natürliche Fitness-Limo. Hydration nach dem Yoga, Elektrolyte aus der Natur, der Sommer-Drink mit Instagram-Glanz.«",
+      wirkung: "Frisches Kokoswasser ist innerhalb der intakten grünen Schale natürlich steril und stand im Zweiten Weltkrieg als improvisierte Infusion zur Verfügung. Britische Ärzte nutzten es in Sri Lanka, japanische Truppen in Sumatra, in Havanna behandelten Mediziner 1942 zwölf Kinder intravenös ohne dokumentierte Nebenwirkungen. 1954 erhielten in Thailand, den USA und Honduras 157 Patienten Kokoswasser-Infusionen mit klinisch tragbarem Verlauf. Das Elektrolytprofil zeigt hohe Konzentrationen von Kalium, Magnesium und Calcium bei niedrigem Natrium. Diese Zusammensetzung ähnelt intrazellulärer Flüssigkeit, nicht Plasma. Hinzu kommen Cytokinine als pflanzliche Wachstumshormone mit antioxidativem Profil, Spuren von Laurinsäure und niedrige natürliche Zucker. Die Flüssigkeit ist physiologisch strukturiert, nicht zufällig isoton. Das eigentliche Produkt ist die frische junge grüne Kokosnuss, geöffnet vor Ort. Pasteurisierte Supermarktware mit hitzedenaturierten Enzymen und oxidierten Phenolen ist ein anderes Profil und teilt mit dem Original wenig mehr als den Namen. Der Yoga-Drink im Tetrapak entkernt das Pharmakon.",
+      quellen: ["Campbell-Falck 2000", "Pradera 1942"],
+      related_article: null
+    },
+
+    {
+      name: "Chlorophyll",
+      slug: "chlorophyll",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Pigment",
+      werbung: "»Grünes Superfood-Wasser für Detox und Vitalität. Der Sauerstoff-Booster aus dem Blatt, Tropfen für das gesunde Glas Wasser am Morgen.«",
+      wirkung: "Chlorophyll ist der molekulare Zwilling von Hämoglobin mit identischer Porphyrinring-Struktur und Magnesium im Zentrum statt Eisen. JAMA publizierte Arbeiten zur Blutregeneration durch Chlorophyll bereits in den 1930er Jahren. Eine Tierstudie (PMC 2023) mit Chlorophyll-Injektion bei Ratten zeigt signifikante Erhöhung von Erythrozyten, Leukozyten, Hämoglobin, Hämatokrit und Thrombozyten. Weizengras als chlorophyllreiche Pflanze reduzierte in einer pädiatrischen Studie den Transfusionsbedarf bei Thalassämie-Patienten substantiell. Im chinesischen Arzneibuch arbeitet Shengxuening als Natrium-Eisen-Chlorophyllin (Magnesium durch Eisen ersetzt) bei verschiedenen Anämieformen mit dokumentiertem klinischem Erfolg. Die Substanz stimuliert die Erythropoiese im Knochenmark direkt und reduziert die Rouleaux-Formation in der peripheren Mikrozirkulation. Das Blut fließt freier, der Sauerstofftransport steigt. Zusätzlich bindet Chlorophyll Schwermetalle und Karzinogene im Darmlumen und unterstützt die Leberfiltration über Phase-2-Enzyme. Die Substanz wirkt antiinflammatorisch und neuroprotektiv. Werbung verkauft grünen Instagram-Drink, Detox-Tropfen und Superfood-Wasser, während im Körper ein Blutbildner arbeitet.",
+      quellen: ["Burgi 1934 JAMA", "Marawaha 2004", "PMC 2023"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK C — Biophotonen + Magnesium + L-Theanin + Curcumin-Sonderfall (Sonderanweisungen)
+    // ============================================================
+
+    {
+      name: "Biophotonen",
+      slug: "biophotonen",
+      szenario: 2,
+      kategorie: "Konzept",
+      unterkategorie: "Mechanismus",
+      werbung: "»Esoterische Lichttherapie aus der New-Age-Ecke. Unwissenschaftliche Behauptung ohne Beleg, eine Phantasie der Alternativmedizin ohne physikalische Grundlage und ohne Platz in der seriösen Forschung.«",
+      wirkung: "Ultra-weak photon emission ist physikalisch gemessen, mit Photomultipliern dokumentiert und international reproduziert. Jeder lebende Organismus emittiert Photonen im Bereich von 200 bis 800 Nanometern. Alexander Gurwitsch beschrieb das Phänomen 1922 als mitogenetische Strahlung, rigorose Quantifizierung folgte ab den 1970er Jahren. Verdikt: kein Mythos, sondern Messdaten. Fritz-Albert Popp prägte 1984 den Begriff Biophoton, promovierter theoretischer Physiker der Universität Mainz und Gründer des International Institute of Biophysics in Neuss. Seine Arbeiten erschienen in Experientia, Cell Biophysics und im Journal of Photochemistry and Photobiology B. Popp lokalisierte die Emissionsquelle in der DNA. Verdikt: peer-reviewed publiziert, nicht aus dem Esoterik-Regal. Krebszellen emittieren messbar anders als gesunde Zellen, ein PMC-Review von 2024 bestätigt die Methode als potenziellen Biomarker für Krebsfrüherkennung. DNA-Reparatur-defiziente Zellen bei Xeroderma pigmentosum zeigen erhöhte Photonenemission. Karzinogene absorbieren UV-A bei 380 Nanometern und verschieben die Frequenz, was Popp 1975 als prädiktives Werkzeug für Karzinogenität nutzte. Auch Lebensmittelqualität lässt sich über die Poisson-Statistik der Emission abschätzen, ihre Kohärenz trägt diagnostische Information. Verdikt: messbar, reproduzierbar, klinisch verwertbar. Die Messung ist unbestritten. Bestritten wird allein die Interpretation, und auch das nur von jenen, die das Messprotokoll nicht öffnen. Ein Phänomen als esoterisch abzutun, das mit Photomultipliern gemessen wird, sagt mehr über die Ideologie der Kritiker als über die Physik der Zelle.",
+      quellen: ["Gurwitsch 1922", "Popp 1975", "Popp 1984 Cell Biophysics 6, 33", "Niggli 1993", "PMC 2024 Review UPE Cancer Biomarker"],
+      related_article: null
+    },
+
+    {
+      name: "Magnesium",
+      slug: "magnesium",
+      szenario: "sonderfall",
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Das wichtigste Mineral für Muskel, Nerven und Schlaf. Tagesdosis als Brausetablette, schmeckt nach Zitrone, deckt den Bedarf, beugt Krämpfen vor und sorgt für Ruhe in der Nacht.«",
+      wirkung: "Magnesium ist Kofaktor in über dreihundert enzymatischen Reaktionen, Bindungspartner von ATP und Modulator des GABA-Systems. Achtzig Prozent der westlichen Bevölkerung liegen unter der empfohlenen Tagesaufnahme. Die Substanz ist real, der Mangel ist real, die nächtlichen Wadenkrämpfe sind real. Verdikt: gerechtfertigte Indikation, schlecht ausgeführtes Marketing. Die Formen unterscheiden sich pharmakologisch klar. Bisglycinat moduliert GABA und unterstützt den Schlaf. Threonat passiert die Blut-Hirn-Schranke und wirkt kognitiv. Malat liefert das Substrat für den Citratzyklus und entspannt die Muskulatur. Citrat zeigt hohe Bioverfügbarkeit und wirkt zugleich auf den Darm. Oxid bleibt schlecht resorbiert, dominiert aber den Markt, weil es billig ist. Verdikt: Wirksamkeit hängt am Salz, nicht am Etikett. Im Marketing wird nie differenziert, die Packung sagt einfach Magnesium und überlässt dem Käufer die falsche Wahl. Kaffee blockiert die Aufnahme von Calcium und Magnesium um bis zu achtzig Prozent. Wer morgens zwei Tassen Kaffee trinkt und abends die Brausetablette nimmt, neutralisiert die Supplementierung am Vormittag. Müdigkeit und nächtliche Wadenkrämpfe bleiben, weil der Verursacher unbeachtet bleibt. Verdikt: das Mineral ist gut, das Salz ist entscheidend, der Kaffee ist der unsichtbare Gegenspieler. Magnesium ist real. Was fehlt, ist das Wissen, welche Form wofür wirkt.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Slutsky 2010 Magnesium-L-Threonat Kognition"],
+      related_article: null
+    },
+
+    {
+      name: "L-Theanin",
+      slug: "l-theanin",
+      szenario: 1,
+      kategorie: "Aminosäure",
+      unterkategorie: "Aminosäure",
+      werbung: "»Natürlicher Fokus-Booster aus grünem Tee. Der Koffein-Begleiter für entspannte Wachheit ohne Nebenwirkungen, sanft, sauber, biohacker-freundlich, ideal für den konzentrierten Bürotag.«",
+      wirkung: "Pharmakologisch moduliert L-Theanin das GABA-System und induziert Alpha-Wellen im EEG, beides ist dokumentiert. Die Substanz wirkt also messbar. Ihre Hauptverwendung im Supplement-Markt ist aber eine andere, sie soll Koffein erträglich machen. Verdikt: Wirkung vorhanden, Verwendungszweck verschoben. Koffein blockiert die Aufnahme von Eisen, Calcium, Magnesium, Zink, Vitamin D und B-Vitaminen um bis zu achtzig Prozent. Koffein senkt die zerebrale Durchblutung um 27 Prozent. Wer L-Theanin einnimmt, um Koffein erträglicher zu machen, repariert ein Symptom und legitimiert den Verursacher. Müdigkeit am Nachmittag wird mit der nächsten Tasse beantwortet, die Schleife schließt sich. Verdikt: Selbstbetrug in pharmakologischer Verpackung. Drei Industrien leben voneinander, ohne es zuzugeben. Die Kaffee-Industrie verkauft das Adenosin-blockierende Molekül, die Supplement-Industrie verkauft die Puffer, und die Mineral-Industrie verkauft genau das, was der Kaffee ausspült. Koffein über grünen Tee zuzuführen, ist derselbe Selbstbetrug in grün. Dem Adenosin-Rezeptor ist die Farbe des Getränks egal. Verdikt: Biohacking-Etikett auf einer Reparaturschleife. Wer L-Theanin nimmt, um Koffein erträglicher zu machen, repariert ein Symptom und nennt es Biohacking.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Nobre 2008 L-Theanin EEG Alpha", "Kreativer Suizid (Buch)"],
+      related_article: "/zutaten/bildgebung/l-theanin-koffein-puffer/"
+    },
+
+    {
+      name: "Curcumin / Kurkuma",
+      slug: "curcumin-kurkuma",
+      szenario: "sonderfall",
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Goldenes Gewürz für Entzündung, Gelenke und Anti-Aging. Pflanzlicher Klassiker aus der ayurvedischen Tradition, jetzt als Kapsel oder Golden-Milk-Pulver für den modernen Alltag.«",
+      wirkung: "Curcumin gehört zu den wenigen Substanzen im Index, die DNA reparieren. In gesunden Zellen aktiviert es die Basen-Exzisions-Reparatur und das NHEJ, fährt PARP-1, DNA-Polymerase β, XRCC1, DNA-Ligase III und IV hoch und unterdrückt 8-OHdG als Marker oxidativer Schäden. Verdikt: nicht Gewürz, sondern Reparaturmodulator. In Krebszellen kehrt sich die Wirkung um. Curcumin hemmt BRCA1, MGMT und MDC1, blockiert also die Reparaturwege, die Tumoren zum Überleben brauchen. Im Knochenmark schützt es vor Chemotherapie-induzierter Myelosuppression. Die Westbengalen-Arsenstudie zeigt eine Reduktion oxidativer DNA-Schäden bei arsenbelasteten Erwachsenen. Verdikt: duale Selektivität, in gesunden Zellen reparativ, in entarteten Zellen entwaffnend. Drei Metaanalysen belegen die antidepressive Wirkung, mit stärkstem Effekt als Augmentation zu SSRIs, Effektgröße vergleichbar mit Standardantidepressiva. Mechanistisch hemmt Curcumin NF-κB im Gehirn und moduliert die Mikroglia-Aktivität. Bitterkeit auf der Zunge, Wärme im Stoffwechsel, Spuren im Liquor. Verdikt: psychiatrisch relevant, in der Leitlinie nicht erwähnt. Das eigentliche Problem ist die Bioverfügbarkeit. Standardcurcumin erreicht unter einem Prozent Resorption, Golden-Milk-Pulver und unterdosierte Kapseln bleiben pharmakologisch wirkungslos. Wirksam sind Phytosom-Formulierungen wie Meriva, BCM-95 und liposomale Varianten, die die Bioverfügbarkeit zehn- bis dreißigfach erhöhen. Verdikt: ohne Galenik kein Effekt. Curcumin ist eine der wenigen Substanzen im Index, die DNA reparieren können. Das darf nicht verschwiegen werden.",
+      quellen: ["Al-Karawi 2016", "Ng 2017", "Fusar-Poli 2020", "Biswas 2010 Arsen Westbengalen", "Cuomo 2011 Meriva Bioverfügbarkeit"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK C — Acht synthetische und semi-synthetische Nootropika
+    // ============================================================
+
+    {
+      name: "Noopept",
+      slug: "noopept",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Russisches Hochleistungs-Nootropikum. Tausendfach stärker als der Klassiker. Tropfen unter die Zunge, Gedächtnis und Klarheit am Schreibtisch.«",
+      wirkung: "Noopept ist N-Phenylacetyl-L-prolylglycin-ethylester, in den 1990er Jahren am russischen Sachetow-Institut entwickelt und strukturell mit den Racetamen verwandt. Im Tiermodell zeigt die Substanz eine etwa tausendfach höhere Wirkstärke pro Milligramm als Piracetam. Die typische Tagesdosis liegt bei 10 mg sublingual oder oral, also einem Bruchteil der klassischen Racetam-Mengen. Pharmakologisch induziert Noopept BDNF und NGF im Hippocampus und stabilisiert cholinerge und glutamaterge Signalwege. Die Substanz passiert die Blut-Hirn-Schranke problemlos und entfaltet ihre Wirkung innerhalb einer Stunde. Russische Kliniken setzen Noopept bei mild bis moderat ausgeprägter kognitiver Beeinträchtigung nach Schlaganfall, Schädel-Hirn-Trauma und altersassoziiertem Gedächtnisverlust ein. Die dortigen Studien dokumentieren messbare Verbesserungen in Gedächtnis, Aufmerksamkeit und exekutiver Funktion. Der westliche Markt führt Noopept als Nahrungsergänzungsmittel ohne Zulassung, obwohl die Substanz pharmakologisch ein Arzneimittel ist. Anwender berichten klare Konzentration, leichten Antrieb und ein kühles Bauchgefühl ohne den nervösen Überschwung klassischer Stimulanzien. Die Substanz arbeitet leise.",
+      quellen: ["Ostrovskaya 2007", "Gudasheva 1996"],
+      related_article: null
+    },
+
+    {
+      name: "Piracetam",
+      slug: "piracetam",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Der Nootropic-Klassiker aus den siebziger Jahren. Konzentration, Gedächtnis, Klarheit. Das Original, das den Begriff Nootropikum erst geschaffen hat.«",
+      wirkung: "Piracetam ist das Stamm-Molekül der Racetam-Klasse, von Giurgea 1972 synthetisiert und gleichzeitig mit dem Begriff Nootropikum überhaupt erst eingeführt. Die Substanz moduliert AMPA-Rezeptoren am glutamatergen Synapsenende und verstärkt die cholinerge Transmission im Hippocampus. Zusätzlich verbessert Piracetam die Membranfluidität alternder Neuronen und steigert die zerebrale Mikrozirkulation. Die klinischen Anwendungsgebiete sind ungewöhnlich breit. In Frankreich und Italien führen Apotheken Piracetam als Verschreibungspräparat bei vaskulärer Demenz, Myoklonus, Schwindel kortikalen Ursprungs und Dyslexie bei Kindern. Die übliche Tagesdosis liegt zwischen 1200 mg und 4800 mg, aufgeteilt auf zwei bis drei Gaben. Die orale Bioverfügbarkeit erreicht nahezu hundert Prozent und die Substanz zeigt eine bemerkenswert flache Toxizitätskurve über Jahrzehnte klinischer Erfahrung. Anwender berichten eine ruhige Klarheit, ein kühles Bauchgefühl und längere Konzentrationsphasen ohne stimulierenden Überschwung. Im deutschsprachigen Raum bewegt sich Piracetam in einer regulatorischen Grauzone zwischen Arzneimittelstatus und freier Bestellbarkeit, während südeuropäische Patienten das Mittel routinemäßig in der Apotheke erhalten.",
+      quellen: ["Giurgea 1972", "Winblad 2005"],
+      related_article: null
+    },
+
+    {
+      name: "Phenylpiracetam",
+      slug: "phenylpiracetam",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Die starke Racetam-Variante mit Antrieb. Russische Kosmonauten-Forschung. Konzentration, Wachheit, körperliche Belastbarkeit in einer Kapsel.«",
+      wirkung: "Phenylpiracetam trägt eine zusätzliche Phenyl-Gruppe am Piracetam-Grundgerüst und passiert dadurch die Blut-Hirn-Schranke deutlich besser als das Ausgangsmolekül. Die russische Forschung entwickelte die Substanz ursprünglich für Kosmonauten und Soldaten unter extremer Belastung. In Russland ist sie als Phenotropil zugelassen und steht auf der offiziellen Arzneimittelliste. Pharmakologisch wirkt Phenylpiracetam wie ein Hybrid aus Racetam und mildem Stimulans. Die Substanz erhöht Dopamin und Noradrenalin im präfrontalen Kortex, verbessert Aufmerksamkeit und Reaktionszeit und steigert messbar die körperliche Leistungsfähigkeit unter Kältestress. Die typische Tagesdosis liegt zwischen 100 mg und 200 mg, der Effekt setzt innerhalb einer Stunde ein. Die Welt-Anti-Doping-Agentur führt Phenylpiracetam seit 2018 auf der Verbotsliste für den Wettkampfsport, was den klinischen Wirkmechanismus indirekt bestätigt. Anwender berichten klare Wachheit, gesteigerte Motivation und körperliche Energie ohne den scharfen Crash typischer Stimulanzien. Die Toleranzentwicklung ist allerdings ausgeprägt und begrenzt den Dauergebrauch auf wenige Tage pro Woche.",
+      quellen: ["Kovalev 2007", "Malykh 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Aniracetam",
+      slug: "aniracetam",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Das anxiolytische Racetam. Konzentration ohne Anspannung, Klarheit ohne Hektik. Italienisches Apothekenpräparat mit Geschichte.«",
+      wirkung: "Aniracetam ist ein fettlösliches Racetam mit ungewöhnlich breitem Wirkprofil und gilt unter den Racetamen als die anxiolytisch wirksamste Variante. Die Substanz moduliert AMPA-Rezeptoren positiv und verlängert die glutamaterge Synapsenaktivität, ohne den exzitotoxischen Bereich zu erreichen. Zusätzlich beeinflusst Aniracetam serotonerge und dopaminerge Bahnen und greift damit in das emotionale Tönungssystem ein. Die Halbwertszeit ist kurz, weshalb die übliche Dosierung dreimal täglich 750 mg beträgt, vorzugsweise zu fettreichen Mahlzeiten für optimale Resorption. In Italien führen Apotheken Aniracetam als Verschreibungspräparat bei seniler kognitiver Beeinträchtigung und nach Schlaganfall. Klinische Studien dokumentieren Verbesserungen in Gedächtnis, Aufmerksamkeit und Stimmung bei post-Stroke-Patienten mit messbaren Punktgewinnen in kognitiven Testbatterien. Anwender berichten ein ruhiges Gehirn ohne den engen Brustraum sozialer Anspannung, Klarheit beim Sprechen und ein lockeres Gefühl unter Druck. Die Substanz wirkt weniger stimulierend als Phenylpiracetam und weniger nüchtern-klar als Piracetam, eher warm und entspannt-fokussiert. Aniracetam ist das Racetam für Menschen, die nicht ruhig sind.",
+      quellen: ["Lee 1994", "Senin 1991"],
+      related_article: null
+    },
+
+    {
+      name: "N-Acetyl-L-Tyrosin (NALT)",
+      slug: "nalt-n-acetyl-l-tyrosin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Die bioverfügbare Tyrosin-Form für klare Köpfe unter Druck. Dopamin-Baustein gegen Erschöpfung, Stress und kalte Nächte.«",
+      wirkung: "N-Acetyl-L-Tyrosin ist eine acetylierte Form der Aminosäure Tyrosin mit deutlich verbesserter Wasserlöslichkeit und stabilerer Plasmakinetik. Tyrosin selbst ist die direkte Vorstufe von L-Dopa und damit Ausgangsmaterial für die Synthese von Dopamin, Noradrenalin und Adrenalin im Locus coeruleus und im präfrontalen Kortex. Unter akutem Stress, Schlafentzug, Kältebelastung oder anhaltender mentaler Beanspruchung sinkt die Tyrosin-Konzentration im Plasma messbar ab. Die katecholaminergen Bahnen geraten in Substratmangel, und kognitive Leistungsfähigkeit, Reaktionszeit und Stimmung brechen ein. Militärstudien der US Army dokumentieren bei Soldaten unter Schlafentzug, Kältestress oder Höhenexposition eine deutliche Erhalt-Wirkung kognitiver Leistung durch orale Tyrosin-Supplementation. Die typische Dosis liegt zwischen 500 mg und 2000 mg vor der Belastung. NALT zeigt eine bessere Bioverfügbarkeit als freies Tyrosin und überzeugt besonders unter akuten Belastungsbedingungen mit schneller Anflutung. Anwender berichten erhaltene Klarheit bei langer Nacht, stabile Stimmung bei Drucksituationen und ein körperliches Gefühl von Wachheit ohne den scharfen Antrieb von Koffein. Die Substanz wirkt subtraktiv, sie verhindert den Einbruch.",
+      quellen: ["Banderet 1989", "Magill 2003"],
+      related_article: null
+    },
+
+    {
+      name: "DMAE (Dimethylaminoethanol)",
+      slug: "dmae",
+      szenario: 1,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Anti-Aging-Booster für Haut und Hirn. Cholin-Vorstufe für Gedächtnis und straffe Gesichtskonturen, der Klassiker aus dem amerikanischen Wellness-Regal.«",
+      wirkung: "DMAE wird als Cholin-Vorstufe und damit als indirekter Acetylcholin-Spender beworben, doch die biochemische Realität ist deutlich dünner als die Marketingaussagen. Studien zur tatsächlichen Umwandlung von DMAE zu Cholin oder Acetylcholin im menschlichen Gehirn liefern uneinheitliche und überwiegend schwache Daten. Tiermodelle zeigen eine gewisse Membranstabilisierung an alternden Neuronen, ohne dass sich daraus reproduzierbare klinische Effekte ableiten ließen. In den 1960er Jahren testeten amerikanische Psychiater DMAE bei hyperaktiven Kindern unter dem Markennamen Deanol, bevor die FDA das Präparat aufgrund unzureichender Wirksamkeitsbelege vom Markt nahm. Tierstudien an trächtigen Tieren weisen auf eine Assoziation mit Neuralrohrdefekten bei der Nachkommenschaft hin, weshalb eine Anwendung in Schwangerschaft und Stillzeit klar zu vermeiden ist. Die kommerziell relevante Anwendung von DMAE liegt heute in topischen Anti-Aging-Hautcremes, wo die Substanz eine kurzfristige Hautstraffung über Membraneffekte vermitteln soll. Pharmakologisch bleibt DMAE eine Substanz mit großem Marketingversprechen und kleiner Evidenzbasis. Wer klare kognitive Effekte sucht, greift zu Citicolin oder Alpha-GPC und nicht zu DMAE.",
+      quellen: ["Dimpfel 2003", "FDA Drug Efficacy Study"],
+      related_article: null
+    },
+
+    {
+      name: "Vinpocetin",
+      slug: "vinpocetin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Pflanzliches Hirndurchblutungs-Tonikum aus dem Vinca-Strauch. Ungarisches Apothekenpräparat für klaren Kopf und gute Erinnerung im Alter.«",
+      wirkung: "Vinpocetin ist ein halbsynthetisches Derivat des Apovincamin-Alkaloids aus der Pflanze Vinca minor, das in Ungarn in den 1970er Jahren entwickelt wurde. Die Substanz hemmt selektiv die Phosphodiesterase Typ 1 im zerebralen Gefäßsystem und erhöht dadurch lokal cAMP und cGMP. Die Folge ist eine gezielte Vasodilatation der Hirngefäße ohne wesentliche systemische Blutdruckwirkung. Zusätzlich verbessert Vinpocetin die Erythrozytenflexibilität, reduziert die Thrombozytenaggregation und steigert die Sauerstoffextraktion im Hirngewebe. In Osteuropa, Russland und Japan führen Apotheken Vinpocetin als Cavinton bei zerebrovaskulärer Insuffizienz, vaskulärer Demenz und nach Schlaganfall. Die typische Tagesdosis liegt zwischen 15 mg und 30 mg, aufgeteilt auf drei Gaben. Klinische Studien dokumentieren Verbesserungen in Gedächtnis, Aufmerksamkeit und globalem kognitivem Status bei älteren Patienten mit zerebrovaskulärer Symptomatik. Die FDA warnte 2019 vor Vinpocetin in Nahrungsergänzungsmitteln wegen tierexperimenteller Hinweise auf Teratogenität. Anwender berichten klare Erinnerung im Alltag, weniger Wortfindungspausen und ein gleichmäßiges Energieniveau über den Tag. Die Substanz wirkt mechanistisch sauber definiert.",
+      quellen: ["Bönöczk 2000", "Szatmari 2003"],
+      related_article: null
+    },
+
+    {
+      name: "Sulbutiamin",
+      slug: "sulbutiamin",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Französisches Erschöpfungs-Präparat aus der Apotheke. Fettlösliches Thiamin gegen Müdigkeit, klare Gedanken und neue Energie für den Tag.«",
+      wirkung: "Sulbutiamin ist ein synthetisches Dimer aus zwei modifizierten Thiamin-Molekülen, verbunden über eine Schwefelbrücke. Die Verbindung ist im Gegensatz zum wasserlöslichen Standard-Thiamin lipophil und passiert die Blut-Hirn-Schranke deutlich besser. In den Neuronen hebt Sulbutiamin den Thiamin- und Thiaminpyrophosphat-Spiegel deutlich an und unterstützt damit den oxidativen Hirnstoffwechsel an seiner zentralen Stellschraube. Zusätzlich erhöht die Substanz die Dopamin-Konzentration und die D1-Rezeptordichte im präfrontalen Kortex, was den Effekt auf Motivation und Antrieb erklärt. In Frankreich führen Apotheken Sulbutiamin als Arcalion in 200 mg-Tabletten verschreibungspflichtig bei asthenischer Erschöpfung, post-infektiöser Müdigkeit und psychogener Erschöpfungszustände. Klinische Studien dokumentieren signifikante Verbesserungen bei chronischer Müdigkeit, nach durchgemachten Infektionen und bei depressionsassoziierter Inhibition. Die typische Tagesdosis liegt zwischen 400 mg und 600 mg über zwei bis vier Wochen. Anwender berichten neue Antriebslage am Morgen, klarere Gedanken bei Erschöpfung und ein körperliches Gefühl wiederkehrender Belastbarkeit ohne stimulierenden Charakter. Die Substanz hebt die Grundlinie, nicht den Spitzenwert.",
+      quellen: ["Tiev 1999", "Trovero 2000"],
       related_article: null
     }
 

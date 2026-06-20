@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Rhodiola rosea",
+    "slug": "rhodiola-rosea",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Wurzel",
+    "werbung": "»Adaptogen aus dem hohen Norden für Stress, Erschöpfung und mentale Leistung. Natürliche Hilfe, seit Jahrhunderten in Skandinavien und Sibirien verwendet.«",
+    "wirkung": "Die Pflanze ist seit den 1960er Jahren im sowjetischen Militär- und Sportprogramm dokumentiert, kam aber erst nach 2000 ins westliche Bewusstsein, mit deutlich weniger Tiefe, als das Datenmaterial hergibt. Hauptwirkstoffe Rosavin und Salidrosid modulieren monoaminerge Systeme über reversible MAO-Hemmung, beeinflussen die HPA-Achse und erhöhen Neuropeptid Y, ein Profil, das in randomisierten Studien bei stressbedingter Erschöpfung und chronischer Burnout-Symptomatik klinisch konsistent abgebildet ist. Eine vierwöchige Studie bei moderater Depression zeigt nach 340 mg täglich signifikante Symptomreduktion auf der Hamilton-Skala, in der Größenordnung mit Sertralin vergleichbar, aber mit besserem Nebenwirkungsprofil. Die Werbung verkauft das Adaptogen als »Stress-Hilfe«, was die anxiolytische, antidepressive und kognitiv stimulierende Wirkung auf einen einzigen Nenner reduziert, der nichts erklärt. Eine Pflanze, die in einer direkten Studie mit Sertralin mithält, wird im Reformhaus nicht als Antidepressivum verkauft. Sie wird als Wachmacher etikettiert, weil das einfacher ist.",
+    "quellen": ["Olsson 2009", "Edwards 2012", "Mao 2015"],
+    "related_article": null
+  },
+  {
+    "name": "Bacopa monnieri",
+    "slug": "bacopa-monnieri",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Kraut",
+    "werbung": "»Ayurvedische Gedächtnispflanze. Brain-Booster für Konzentration, Lernfähigkeit und mentale Klarheit, traditionell verwendet und klinisch belegt.«",
+    "wirkung": "Im Ayurveda gilt Brahmi seit über 3000 Jahren als Gedächtnispflanze, und die moderne Pharmakologie hat das im Wesentlichen bestätigt, mit einer Geduld, die das Supplement-Marketing nicht aufbringt. Hauptwirkstoffe sind die Bacoside A und B, dammarane Triterpene, die im Hippocampus die dendritische Verzweigung fördern, die cholinerge Übertragung modulieren und über antioxidative Mechanismen die Lipidperoxidation senken. Doppelblinde Studien mit zwölfwöchiger Einnahme zeigen signifikante Verbesserung des Arbeitsgedächtnisses und der visuellen Informationsverarbeitung, eine spätere Metaanalyse bestätigt den Effekt über neun RCTs hinweg. Daneben zeigen kleinere Studien anxiolytische Effekte bei generalisierter Angststörung und antidepressive Wirkung über serotonerge Vermittlung, was im Marketing als »Brain-Booster« nicht vorkommt. Der zentrale Haken ist die Latenz, denn die kognitive Wirkung tritt nach mindestens acht Wochen kontinuierlicher Einnahme ein, nicht nach einer Kapsel. Eine Pflanze, deren Wirkung Wochen braucht, passt nicht in einen Markt, der akute Effekte verkauft.",
+    "quellen": ["Stough 2001", "Calabrese 2008", "Kongkeaw 2014"],
+    "related_article": null
+  },
+  {
+    "name": "Ginseng (Panax ginseng)",
+    "slug": "ginseng-panax",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Wurzel",
+    "werbung": "»Koreanischer Ginseng für Energie, Vitalität und Leistung. Adaptogen seit Jahrtausenden in Ostasien, wirkt belebend und stärkend.«",
+    "wirkung": "Panax ginseng ist eine der am gründlichsten erforschten Heilpflanzen weltweit, mit einer pharmakologischen Komplexität, die im westlichen Marketing als »Energie« vereinfacht wird und dabei das eigentliche Phänomen verfehlt. Die mehr als dreißig identifizierten Ginsenoside wirken bidirektional, Rb1 sedativ und anxiolytisch, Rg1 stimulierend und kognitiv aktivierend, weshalb die Pflanze in einigen Personen beruhigt und in anderen aktiviert, abhängig von Extraktverhältnis und individuellem Stoffwechsel. Eine randomisierte Studie bei erektiler Dysfunktion zeigt nach 900 mg über acht Wochen signifikante Verbesserung der IIEF-Werte, eine zweite bei Krebs-bedingter Fatigue nach 2000 mg täglich klinisch relevante Reduktion, eine dritte bei Typ-2-Diabetes Senkung des Nüchternblutzuckers über zwölf Wochen. Hinzu kommen kognitive Effekte auf Arbeitsgedächtnis und mentale Verarbeitungsgeschwindigkeit bereits nach Einzeldosis, antiinflammatorische Daten über NF-κB-Hemmung und neuroprotektive Effekte in Tiermodellen der Parkinsonkrankheit. Der traditionelle Begriff »Qi-Tonifizierung« lässt sich pharmakologisch am ehesten als mitochondriale Modulation lesen. Das ist Energie, nur anders als die Werbung meint.",
+    "quellen": ["Hong 2002", "Vuksan 2008", "Reay 2010", "Barton 2013"],
+    "related_article": null
+  },
+  {
+    "name": "Eleutherococcus senticosus",
+    "slug": "eleutherococcus",
+    "szenario": 1,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Wurzel",
+    "werbung": "»Sibirischer Ginseng für Ausdauer, Immunsystem und Stressresistenz. Adaptogen aus der russischen Forschung, traditionell genutzt in Ostasien.«",
+    "wirkung": "Der Name »Sibirischer Ginseng« ist eine Marketing-Erfindung der 1970er Jahre und bezeichnet eine Pflanze, die mit echtem Panax ginseng botanisch nicht verwandt ist und ihre Reputation lediglich durch Übernahme des bekannteren Namens borgt. Die im Wurzelextrakt enthaltenen Eleutheroside B und E zeigen in präklinischen Modellen ein breites adaptogenes Wirkspektrum, das in der sowjetischen Forschungsliteratur ausführlich beschrieben wurde, in westlichen kontrollierten Studien aber kaum reproduzierbar ist. Eine randomisierte Studie an Patienten mit chronischer Erschöpfung findet nach acht Wochen Eleuthero-Extrakt keinen signifikanten Effekt gegenüber Placebo, eine zweite an trainierten Sportlern keinen Einfluss auf Ausdauer oder VO2max, und die wenigen positiven Studien stammen aus Russland und sind methodisch nicht westlich nachprüfbar. Im Regal steht die Pflanze als »Adaptogen«, ein Etikett, das durch den Verkaufsnamen verdient erscheint und durch die Evidenz nicht gedeckt ist. Eleuthero lebt vom Namen Ginseng, ohne ein Ginseng zu sein.",
+    "quellen": ["Hartz 2004", "Goulet 2005"],
+    "related_article": null
+  },
+  {
+    "name": "Schisandra chinensis",
+    "slug": "schisandra-chinensis",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Beere",
+    "werbung": "»Beerenfrucht für Stress, Leber und Konzentration. Traditionelles Adaptogen aus der chinesischen Medizin, fünf Geschmacksrichtungen vereint.«",
+    "wirkung": "Wu Wei Zi heißt »Fünf-Geschmäcker-Frucht«, weil sie süß, sauer, salzig, bitter und scharf zugleich schmeckt, ein Hinweis darauf, dass die Pharmakologie ebenfalls in mehrere Richtungen geht. Die Lignane Schisandrin A, B und C zählen zu den wirksamsten pflanzlichen Induktoren der Phase-II-Detoxifikation, mit dokumentierter Erhöhung von Glutathion und hepatischer GST-Aktivität, eine biochemische Grundlage, die in China seit den 1970er Jahren als Adjuvanstherapie bei chronischer Hepatitis verwendet wird und in einer kontrollierten Studie die ALT-Normalisierung gegenüber Placebo signifikant beschleunigt. Daneben zeigt die Beere kognitive Wirkung auf Aufmerksamkeit und Arbeitsgedächtnis bei stressbedingter Erschöpfung, anxiolytische Effekte über GABAerge Modulation und antioxidative Aktivität, die in Tiermodellen neuroprotektiv ist. Im Westen ist die Frucht weitgehend unbekannt, weil ihre wichtigste klinische Anwendung in einer Region liegt, deren Studien in den europäischen Datenbanken nicht prominent indexiert sind. Eine hepatoprotektive Substanz mit etablierter Hepatitis-Indikation auf dem chinesischen Markt verdient im europäischen Reformhaus mehr als das Etikett »Beere für Konzentration«.",
+    "quellen": ["Liu 1979"],
+    "related_article": null
+  },
+  {
+    "name": "Maca (Lepidium meyenii)",
+    "slug": "maca-lepidium-meyenii",
+    "szenario": 1,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Wurzel",
+    "werbung": "»Anden-Aphrodisiakum für Libido, Energie und Hormonbalance. Inka-Superfood, natürlicher Booster für Mann und Frau.«",
+    "wirkung": "Die peruanische Wurzelknolle wird als »natürliches Aphrodisiakum« vermarktet, ein Anspruch, der sich auf Andentradition und auf eine Handvoll kleiner Studien stützt, deren Methodik und Replizierbarkeit zu wünschen übrig lassen. Eine Untersuchung bei Männern mit erektiler Dysfunktion findet nach zwölf Wochen 2400 mg Maca-Extrakt eine subjektive Verbesserung des sexuellen Wohlbefindens, aber keine objektive Veränderung erektionsphysiologischer Parameter, eine andere bei gesunden Männern keine Wirkung auf Serum-Testosteron, -DHT oder -LH, und die Cochrane-Übersicht 2010 zieht den Schluss, dass die Evidenz für eine echte aphrodisierende Wirkung nicht ausreicht. Macamide und Glucosinolate sind in vitro pharmakologisch interessant, eine Übersetzung in nachvollziehbare endokrine oder zentralnervöse Effekte am Menschen ist bisher nicht gelungen. Die Andentradition ist real, sie betrifft die ganze frische Knolle in lokaler Zubereitung, nicht ein importiertes Trockenpulver in einer Kapsel. Wer Maca als Hormonbooster nimmt, wirft eine Wurzel ins System, die nachweislich keine Hormone bewegt.",
+    "quellen": ["Gonzales 2003", "Zenico 2009", "Cochrane 2010"],
+    "related_article": null
+  },
+  {
+    "name": "Mucuna pruriens",
+    "slug": "mucuna-pruriens",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Samen",
+    "werbung": "»Natürliche L-Dopa-Quelle für Stimmung, Motivation und Wohlbefinden. Ayurvedische Pflanze, traditionell zur Stärkung verwendet.«",
+    "wirkung": "Die Samen der Juckbohne enthalten bis zu sechs Prozent L-Dopa, die direkte Vorstufe von Dopamin und seit den 1960er Jahren die Standardtherapie bei Morbus Parkinson. Eine randomisierte, doppelblinde Crossover-Studie an Parkinson-Patienten vergleicht 30 g Mucuna-Samenpulver mit 200/50 mg Levodopa-Carbidopa und findet einen schnelleren Wirkeintritt, eine längere ON-Phase und keine vermehrten Dyskinesien, ein Befund, der die Pflanze als pharmakologische Alternative ernst nimmt, nicht als Nahrungsergänzungs-Beigabe. Daneben senkt die Substanz dosisabhängig Prolaktin, stimuliert Wachstumshormon-Freisetzung und zeigt in einer indischen Studie bei Männern mit Subfertilität verbesserte Spermienparameter über drei Monate. Das Marketing in westlichen Supplement-Shops reduziert das alles auf »Mood-Booster« und »Motivation«, was die Substanz als das vorstellt, was sie pharmakologisch nicht ist, ein sanftes Hilfsmittel. Mucuna ist eine direkte L-Dopa-Quelle mit aktiv neurologischer Wirkung, und wer das ohne Aufklärung in eine Stress-Kapsel mischt, riskiert Wechselwirkungen, die im Beipackzettel eines Antiparkinson-Mittels stehen, nicht im Werbeprospekt eines Adaptogen-Sets.",
+    "quellen": ["Katzenschlager 2004", "Shukla 2009"],
+    "related_article": null
+  },
+  {
+    "name": "Tulsi (Ocimum sanctum)",
+    "slug": "tulsi-ocimum-sanctum",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Kraut",
+    "werbung": "»Heiliges Basilikum aus Indien für Stress, Immunsystem und innere Ruhe. Ayurvedische Königin der Kräuter, traditionell vielseitig verwendet.«",
+    "wirkung": "Tulasi gilt im Ayurveda als »Rasayana«, eine Pflanze, die in den klassischen Texten gegen so unterschiedliche Beschwerden wie Husten, Fieber, Schlangenbisse und seelische Verstimmung empfohlen wird, eine Indikationsliste, die nach Folklore klingt und sich bei näherer Betrachtung pharmakologisch in einzelne Wirkachsen auflösen lässt. Hauptwirkstoffe sind Eugenol, Ursolsäure und Carvacrol, mit anxiolytischen und adaptogenen Effekten über Cortisol-Modulation in einer randomisierten Studie an erwachsenen Probanden mit Stress-Symptomen. Eine weitere Studie bei Typ-2-Diabetes zeigt nach acht Wochen 2,5 g Blattpulver täglich signifikante Senkung des Nüchternblutzuckers und postprandialer Glukose, eine indische Kardiologie-Studie eine Senkung von Gesamtcholesterin und Triglyceriden über vier Wochen. Antimikrobiell wirkt das ätherische Öl breit gegen grampositive Bakterien und Pilze, in vitro mit Wirkstärke vergleichbar zu Gentamicin in standardisierten Verdünnungsversuchen. Die Werbung verkauft die Pflanze als »Königin der Kräuter«, ein Etikett, das pathetisch klingt und im pharmakologischen Befund tatsächlich nicht weit von der Realität liegt. Selten ist das so, und vermutlich liegt es daran, dass die Pflanze in Indien als Gottheit gilt und das Marketing keine Verkleinerung wagt.",
+    "quellen": ["Agrawal 1996", "Saxena 2012"],
+    "related_article": null
+  },
+  {
+    "name": "Raupenpilz (Cordyceps militaris)",
+    "slug": "raupenpilz-cordyceps-militaris",
+    "szenario": 1,
+    "kategorie": "Pilz",
+    "unterkategorie": "Vitalpilz",
+    "werbung": "»Tibetischer Energie-Pilz für Ausdauer, Sauerstoffaufnahme und Performance. Adaptogen-Pilz, traditionell genutzt von Sherpas im Hochland.«",
+    "wirkung": "Der Pilz wird seit der chinesischen Leichtathletik-Saison 1993 als Performance-Substanz gehandelt, weil das damals erfolgreiche Trainerteam um Ma Junren die Wirkung in einer Pressekonferenz erwähnte, eine Aussage, die rückblickend in einem Kontext von Doping-Verdacht und Schildkrötenblut-Folklore zu lesen ist und keine pharmakologische Begründung darstellt. Cordycepin, ein 3-Desoxy-Analog von Adenosin, hat in vitro antitumorale und immunmodulatorische Eigenschaften, klinische Wirksamkeit auf Ausdauer und VO2max ist aber nur in einzelnen kleinen Studien beobachtet worden und in robusten RCTs entweder nicht reproduzierbar oder marginal. Hinzu kommt, dass der traditionell verwendete Cordyceps sinensis ein wild auf Raupen wachsender Pilz aus tibetischen Hochlagen ist, der mit dem im Supplement-Handel verkauften Cordyceps militaris-Myzel chemisch nicht identisch ist, eine Substitution, die im Etikett unsichtbar bleibt und in der Werbung nicht erwähnt wird. Die Substanz hat präklinisch ein interessantes Profil, aber die kommerzielle Vermarktung als »Sauerstoff-Booster« für trainierende Erwachsene überspannt das, was die Humanstudien hergeben, deutlich. Im Supplement-Glas steckt ein Laborpilz, im Sherpa-Mythos ein wilder, und beide haben weniger Humandaten, als das Etikett verspricht.",
+    "quellen": ["Earnest 2004", "Chen 2010"],
+    "related_article": null
+  },
+  {
+    "name": "Glänzender Lackporling (Ganoderma lucidum, Reishi)",
+    "slug": "glaenzender-lackporling",
+    "szenario": 1,
+    "kategorie": "Pilz",
+    "unterkategorie": "Vitalpilz",
+    "werbung": "»Pilz der Unsterblichkeit aus der TCM. Reishi für Immunsystem, Stress, Schlaf, Krebsprävention und Longevity, tausende Jahre Tradition.«",
+    "wirkung": "Reishi trägt im Chinesischen den Namen Lingzhi, »göttliche Pflanze«, und im Westen ein Marketing, das die Pflanze als universellen Krebsschutz, Immunbooster und Longevity-Substanz präsentiert. Eine Cochrane-Übersicht aus dem Jahr 2016 wertet fünf RCTs zur Krebsbegleittherapie aus und kommt zum Schluss, dass die Evidenz für einen Überlebensvorteil nicht ausreicht, lediglich eine Verbesserung der Lebensqualität wird in einigen Studien beobachtet. Triterpene wie Ganoderinsäuren und Beta-Glucane haben in vitro immunmodulatorische Effekte über NK-Zell-Aktivierung und Makrophagen-Phagozytose, klinische Übersetzungen am Menschen fallen aber bescheidener aus, als die Werbung suggeriert. Hinzu kommen vereinzelte Berichte von Lebertoxizität bei hochdosierten Pulverpräparaten, ein Sicherheitsaspekt, den die Tradition nie thematisieren musste, weil sie mit Tee gearbeitet hat und nicht mit Kapseln. Lingzhi heißt göttliche Pflanze. Die Götter haben keine RCTs hinterlassen.",
+    "quellen": ["Jin 2016"],
+    "related_article": null
+  }
+]

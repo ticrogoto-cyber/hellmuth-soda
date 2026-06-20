@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Melisse (Melissa officinalis)",
+    "slug": "melisse",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Kraut",
+    "werbung": "»Beruhigende Kräuterteepflanze für gute Nerven, hilft bei Einschlafproblemen und nervösem Magen. Reich an ätherischen Ölen.«",
+    "wirkung": "Das Blatt enthält Rosmarinsäure als Hauptphenolsäure und ein ätherisches Öl mit Citral und Citronellal, dessen pharmakologisches Profil weit über »Beruhigung« hinausreicht. Eine doppelblinde Studie zeigt nach 600 mg standardisiertem Extrakt über vierzehn Tage signifikante Reduktion von Stress- und Angstsymptomen sowie kognitive Verbesserung in mathematischer Verarbeitung. Der Mechanismus läuft unter anderem über Hemmung der GABA-Transaminase, was den endogenen GABA-Spiegel anhebt, ohne den Rezeptor wie ein Benzodiazepin zu besetzen. Daneben ist Rosmarinsäure einer der wirksamsten pflanzlichen Hemmer von HSV-1 mit klinisch belegter Wirkung bei Lippenherpes, was die Pflanze zur einzigen Anxiolytikum-Antivirum-Kombination im europäischen Garten macht. Anxiolytikum und Antivirum in einer Pflanze, verkauft als Einschlafhilfe.",
+    "quellen": ["Kennedy 2002", "Kennedy 2004", "Koytchev 1999"],
+    "related_article": null
+  },
+  {
+    "name": "Lavendel (Lavandula angustifolia, Silexan)",
+    "slug": "lavendel",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Blüte",
+    "werbung": "»Lavendelduft für Entspannung und ruhigen Schlaf. Ätherisches Öl aus dem Mittelmeerraum, beliebt für Aromabäder, Massagen und Duftkissen.«",
+    "wirkung": "Silexan ist ein oral standardisierter Lavendelölextrakt, der in vier randomisierten Studien bei Generalisierter Angststörung auf Hamilton-Skalen wirksam war, in einem direkten Vergleich von 80 mg über sechs Wochen mit Lorazepam 0,5 mg ohne unterlegene Anxiolyse, aber ohne Sedierung und ohne Abhängigkeitspotenzial. Pharmakologisch bindet Linalylacetat an spannungsabhängige Calciumkanäle und moduliert Serotonin- sowie Glutamatbahnen, ein Mechanismus, der mit Benzodiazepinen nichts zu tun hat und genau deshalb nicht in dieselbe Verschreibungsroutine fällt. In Deutschland ist die Substanz als Lasea zugelassen, im Rest Europas weitgehend unbekannt, weil die Hausarztpraxis das ätherische Öl mit dem Duftbad verwechselt. Lorazepam und Lavendelöl messen sich in derselben Skala, nur eins davon braucht ein Rezept.",
+    "quellen": ["Woelk 2010", "Kasper 2014"],
+    "related_article": null
+  },
+  {
+    "name": "Kamille (Matricaria chamomilla)",
+    "slug": "kamille",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Blüte",
+    "werbung": "»Sanfte Kräuterhilfe bei Magenbeschwerden, Schlafproblemen und Nervosität. Klassischer Hausmitteltee für Groß und Klein.«",
+    "wirkung": "Hinter dem Hausmittel steht ein Apigenin, das mit hoher Affinität an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors andockt und in einer randomisierten Studie bei generalisierter Angststörung über acht Wochen klinisch signifikante Symptomreduktion zeigte. Eine Folgearbeit dokumentiert antidepressive Komorbiditätseffekte, eine Erhaltungsstudie über 26 Wochen reduziertes Rückfallrisiko unter laufender Einnahme. Daneben sind Bisaboloide und α-Bisabolol an der Schleimhaut entzündungshemmend, was die alte Anwendung bei Magenreizung und entzündlichen Hauterkrankungen pharmakologisch trägt und der Folklore entzieht. Eine Tasse aufgegossener Kamille enthält pharmakologisch wirksame Konzentrationen, was bei kaum einem anderen Heilpflanzen-Aufguss noch zutrifft. Der Teebeutel im Supermarkt ist eine unterdosierte Form eines belegt anxiolytisch wirksamen Phytotherapeutikums.",
+    "quellen": ["Amsterdam 2009", "Amsterdam 2012"],
+    "related_article": null
+  },
+  {
+    "name": "Goldmohn (Eschscholzia californica)",
+    "slug": "goldmohn",
+    "szenario": 1,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Blüte",
+    "werbung": "»Sanfter pflanzlicher Schlafhelfer mit kalifornischem Mohngewächs. Traditionell beruhigend, nicht abhängig machend, gut bei nervöser Unruhe.«",
+    "wirkung": "Die Pflanze enthält Isochinolin-Alkaloide wie Californidin und Eschscholtzin, die in vitro an GABA-A- und Benzodiazepin-Bindungsstellen andocken und in Tiermodellen sedative Effekte zeigen. Auf den Menschen übertragen schrumpft die Datenlage auf eine einzige kontrollierte Pilotstudie aus dem Jahr 2004 mit knapp hundert Teilnehmern, in der Goldmohn in Kombination mit Magnesium gegen leichte Angststörungen geprüft wurde, ohne dass die Wirkung dem einzelnen Wirkstoff zugeordnet werden konnte. Eine moderne, eigenständige Studie zur Schlafwirkung der Pflanze existiert nicht, was nach zwanzig Jahren unverändertem Marketing ein bemerkenswerter Befund ist. Im Regal steht Goldmohn dennoch als »sanfter Schlafhelfer«, eine Behauptung, die im Wesentlichen auf indianischer Volksmedizin und einer einzelnen Kombinationsstudie ruht. Wer Goldmohn kauft, kauft eine Tradition, die nie in eine moderne Studie überführt wurde.",
+    "quellen": ["Hanus 2004"],
+    "related_article": null
+  },
+  {
+    "name": "Magnolia (Magnolia officinalis)",
+    "slug": "magnolia",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Rinde",
+    "werbung": "»Pflanzlicher Stresslöser aus der traditionellen chinesischen Medizin. Hilft bei Anspannung, Schlaflosigkeit und nervöser Erschöpfung.«",
+    "wirkung": "Die Rinde enthält Honokiol und Magnolol, zwei Biphenyl-Derivate, die als positive allosterische Modulatoren am GABA-A-Rezeptor an der δ-Untereinheit binden, einem Ort, der mit klassischen Benzodiazepinen nicht überlappt und tonische Hemmung verstärkt, ohne phasische Sedierung zu erzeugen. Die anxiolytische Wirkung in Tiermodellen ist robust und dosisabhängig, in Schlafmodellen reduziert Honokiol die Einschlaflatenz mit einer Wirkstärke vergleichbar Diazepam, ohne dessen Tagesnachwirkung. Daneben sind beide Substanzen antitumoral durch Apoptose-Induktion und antiinflammatorisch durch NF-κB-Hemmung dokumentiert, ein Spektrum, das in der pharmazeutischen Industrie als Verkaufsargument einer Leitsubstanz gelten würde. Belastbare Humanstudien sind selten und meist herstellergesponsert, was die klinische Bewertung unsicher macht, ohne die präklinische Tiefe zu entwerten. Honokiol hat das Profil einer pharmakologischen Leitsubstanz und das Marketing einer Teemischung.",
+    "quellen": [],
+    "related_article": null
+  },
+  {
+    "name": "Phellodendron amurense (Relora-Kombi)",
+    "slug": "phellodendron",
+    "szenario": 1,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Rinde",
+    "werbung": "»Pflanzlicher Cortisol-Senker für Bauchfett, Stress-Essen und Schlafprobleme. Bewährte Kombination aus Magnolienrinde und Phellodendron, klinisch geprüft.«",
+    "wirkung": "Die Mischung Relora kombiniert Magnolia-Rinde mit Phellodendron amurense und wird seit etwa zwanzig Jahren als Cortisol-Modulator vermarktet. Eine zugrundeliegende Berberin-Komponente aus dem Korkbaum hat in vitro plausible Effekte auf den Glukosestoffwechsel, klinische Wirksamkeit auf Cortisol-Tagesprofile findet sich aber ausschließlich in herstellerfinanzierten Studien mit kleinen Fallzahlen, nicht konsistenter Methodik und selektiver Endpunkt-Berichterstattung. Eine unabhängige Replikation der Bauchfett-Reduktion existiert nicht, und die Effekte auf wahrgenommenen Stress liegen in derselben Größenordnung wie Placebo. Die einzelne Wirksamkeit des Phellodendron-Extrakts unabhängig von Magnolia ist klinisch nirgends sauber isoliert. Was als Cortisol-Senker im Sportregal steht, ist eine Verkaufskonstruktion auf der Basis zweier herstellereigener Studien.",
+    "quellen": ["Kalman 2008", "Talbott 2013"],
+    "related_article": null
+  },
+  {
+    "name": "Jujube (Ziziphus jujuba, Suan Zao Ren)",
+    "slug": "jujube",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Beere",
+    "werbung": "»Chinesische Rotjujube, traditionelles Stärkungsmittel und sanfter Schlafhelfer aus der TCM. Reich an Vitamin C, gut für Magen und Nerven.«",
+    "wirkung": "In der chinesischen Pharmakopöe gehört Suan Zao Ren, der Samen der Jujube, zu den am häufigsten verordneten Schlafrezepturen, mit Spinosin als pharmakologisch identifizierter Hauptkomponente, einem Flavonoid-Glykosid, das an GABA-A-Rezeptoren bindet und in vivo die Schlaflatenz verkürzt sowie REM-Phasen verlängert. Eine doppelblinde Studie bei Schlafstörungen zeigt nach 1500 mg Standardextrakt über sechs Wochen signifikante Verbesserung auf der Pittsburgh-Schlafqualitäts-Skala gegenüber Placebo. Die Frucht selbst ist reich an cAMP-Phosphodiesterase-Hemmern und Triterpenen wie Ziziphussäure, mit dokumentierten hepatoprotektiven und antiproliferativen Effekten in präklinischen Studien. Im Westen ist die Pflanze bestenfalls als getrocknete Knabberei bekannt, eine Reduktion, die der Pharmakopöe-Tradition nicht gerecht wird und der modernen Datenlage erst recht nicht. Suan Zao Ren steht in China seit 2000 Jahren auf den Schlafrezepturen, im deutschen Drogeriemarkt liegt die getrocknete Frucht zwischen Datteln und Aprikosen.",
+    "quellen": ["Cao 2010"],
+    "related_article": null
+  },
+  {
+    "name": "Helmkraut (Scutellaria baicalensis)",
+    "slug": "helmkraut",
+    "szenario": 3,
+    "kategorie": "Pflanze",
+    "unterkategorie": "Wurzel",
+    "werbung": "»Asiatisches Helmkraut für Beruhigung und Entspannung. Pflanzliche Hilfe bei Anspannung und nervösen Beschwerden, traditionell in der chinesischen Medizin.«",
+    "wirkung": "Die Wurzel enthält Baicalin und sein Aglykon Baicalein, zwei Flavonoide mit einem pharmakologischen Profil, das in keinem Wellness-Etikett ausreichend Platz findet. Am GABA-A-Rezeptor binden sie als positive allosterische Modulatoren an einer benzodiazepin-distinkten Stelle, in Tiermodellen mit anxiolytischen und antikonvulsiven Effekten dokumentiert. Daneben sind beide Substanzen klinisch und präklinisch als potente Entzündungshemmer über Hemmung der 12-Lipoxygenase und der NF-κB-Achse charakterisiert, mit hepatoprotektiven Effekten bei viraler Hepatitis und antiviraler Aktivität gegen Influenza. Die SARS-CoV-2-Forschung hat Baicalein als Mpro-Inhibitor identifiziert, einen Befund, der in einer Phase-I-Studie weiterverfolgt wurde, ohne dass die westliche Öffentlichkeit Notiz nahm. Drei eigenständige Wirkbereiche, eine Pflanze, kein passendes Etikett.",
+    "quellen": ["Wu 2015", "Li 2018"],
+    "related_article": null
+  },
+  {
+    "name": "Melatonin",
+    "slug": "melatonin",
+    "szenario": 3,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Das Schlafhormon. Hilft beim Einschlafen, gleicht den Jetlag aus, fördert erholsame Nachtruhe ohne Gewöhnungseffekt.«",
+    "wirkung": "Schlaf ist die kleinste Funktion. Melatonin ist eines der ältesten Moleküle der biologischen Evolution, in Pflanzen, Bakterien und Mitochondrien synthetisiert, lange bevor es ein zentrales Nervensystem gab, und seine zirkadiane Rolle ist nur die jüngste seiner Aufgaben. Es ist ein außergewöhnlich potenter intrazellulärer Antioxidans mit direkter Radikalfänger-Wirkung an mitochondrialen Membranen, in einer Größenordnung, die Vitamin C und Vitamin E übertrifft. Die Substanz reguliert den Calcium-Influx in Neuronen, hemmt mitochondriale Permeabilitätsporen, reduziert oxidativen Stress in Hepatozyten und zeigt in klinischen Studien antitumorale, immunmodulatorische und antiinflammatorische Effekte, die in der Onkologie als adjuvante Therapie bei Chemotherapie-Toxizität untersucht werden. In Deutschland ist Melatonin für Erwachsene über 55 Jahren als Schlafhilfe zugelassen, in den USA als Nahrungsergänzung frei verkäuflich, in beiden Märkten verkauft, als hätte es nur einen einzigen Zweck. Auf der Packung steht Schlafhilfe. In der Zelle arbeitet ein Radikalfänger mit Evolutionstiefe.",
+    "quellen": ["Reiter 2016", "Lissoni 2008"],
+    "related_article": null
+  },
+  {
+    "name": "GABA (oral)",
+    "slug": "gaba",
+    "szenario": 1,
+    "kategorie": "Substanz",
+    "unterkategorie": "Molekül",
+    "werbung": "»Beruhigender Neurotransmitter zum Einnehmen. GABA für ruhige Nerven, besseren Schlaf, weniger Stress. Direkt im Körper wirksam.«",
+    "wirkung": "Die Werbung verkauft eine biochemische Vereinfachung. Gamma-Aminobuttersäure ist der wichtigste hemmende Neurotransmitter im zentralen Nervensystem, aber die orale Form überwindet die Blut-Hirn-Schranke nur eingeschränkt und in dosisabhängig variabler Höhe, was bei einer Substanz, die im Gehirn wirken soll, ein zentrales Problem darstellt. Eine kleine Studie an gesunden Probanden zeigt nach 100 mg orales GABA Hinweise auf erhöhte Alpha-Wellen im EEG, was als Beruhigungsindikator vermarktet wird, aber kein direkter Beleg zentraler GABAerger Wirkung ist, sondern auch über enterische Nervenfasern und Vagusafferenzen vermittelt sein könnte. Eine belastbare Datenlage zur klinischen Anxiolyse oder Schlafverbesserung mit oraler GABA fehlt weitgehend, und die wenigen positiven Studien sind klein, herstellerfinanziert oder methodisch schwach. GABA auf der Verpackung ist eine Behauptung, kein Wirkmechanismus.",
+    "quellen": ["Abdou 2006"],
+    "related_article": null
+  }
+]
