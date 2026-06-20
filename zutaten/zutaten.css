@@ -67,10 +67,21 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* <li> ist das Grid-Item. aspect-ratio liegt hier, damit auto-fill
+   die Spaltenzahl beim ersten Layout korrekt berechnet. */
 .zutaten-grid > li {
-  display: contents;
+  aspect-ratio: 1 / 1.1;
+  min-width: 0;
+  display: block;
+}
+
+.zutaten-grid > li.zutaten-detail-row {
+  grid-column: 1 / -1;
+  aspect-ratio: auto;
 }
 
 .zutaten-tile {
@@ -88,9 +99,8 @@
   font-family: inherit;
   text-align: center;
   transition: all 0.15s ease;
-  /* Festes 1:1.1 Hochkant-Verhältnis */
-  aspect-ratio: 1 / 1.1;
   width: 100%;
+  height: 100%;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
@@ -178,12 +188,7 @@
 
 /* ── Detail-Bereich, inline in der Grid-Zeile ────────────── */
 
-.zutaten-detail-row {
-  display: contents;
-}
-
 .zutaten-detail {
-  grid-column: 1 / -1;
   margin: 4px 0 8px;
   padding: 28px;
   border: 1px solid var(--zutaten-border-color);
@@ -194,6 +199,8 @@
   gap: 28px;
   align-items: start;
   animation: zutaten-detail-fade-in 0.15s ease;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @keyframes zutaten-detail-fade-in {

@@ -96,19 +96,12 @@
 
   /**
    * Finde alle <li>-Kacheln in derselben visuellen Zeile wie tileLi.
-   * Mit display: contents auf den <li> hat das innere <button> die
-   * tatsächliche Box, daher messen wir am Button.
+   * Die <li> sind selbst Grid-Items, gemessen wird direkt am <li>.
    */
   const findRowSiblings = (tileLi) => {
     const allTiles = Array.from(gridEl.querySelectorAll('li[data-slug]'));
-    const tileBtn = tileLi.querySelector('.zutaten-tile');
-    if (!tileBtn) return [tileLi];
-    const rowTop = tileBtn.getBoundingClientRect().top;
-    return allTiles.filter(l => {
-      const b = l.querySelector('.zutaten-tile');
-      if (!b) return false;
-      return Math.abs(b.getBoundingClientRect().top - rowTop) < 2;
-    });
+    const rowTop = tileLi.getBoundingClientRect().top;
+    return allTiles.filter(l => Math.abs(l.getBoundingClientRect().top - rowTop) < 2);
   };
 
   const closeDetail = () => {
@@ -247,11 +240,20 @@
   });
 
   // ── Initial-Render ────────────────────────────────────────
-  renderGrid('all');
-
-  const hash = window.location.hash.slice(1);
-  if (hash) {
-    const entry = entries.find(e => e.slug === hash);
-    if (entry) openEntry(entry.slug, false);
+  // Erst nach DOMContentLoaded rendern, damit Stylesheet und Container-Breite
+  // beim Layout-Pass des Grids final sind. Verhindert das Initial-Render-2-Spalten-
+  // Phänomen, das durch zu früh berechnetes auto-fill ausgelöst wurde.
+  const init = () => {
+    renderGrid('all');
+    const hash = window.location.hash.slice(1);
+    if (hash) {
+      const entry = entries.find(e => e.slug === hash);
+      if (entry) openEntry(entry.slug, false);
+    }
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
 })();
