@@ -21,41 +21,16 @@
 .zutaten-main {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 24px 16px 80px;
+  padding: 48px 16px 80px;
   color: var(--zutaten-text-color);
 }
 
-/* ── Filter-Leiste ─────────────────────────────────────────── */
-
-.zutaten-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 16px 0 28px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--zutaten-border-color);
-}
-
-.zutaten-filter button {
-  background: transparent;
-  border: 1px solid var(--zutaten-border-color);
-  border-radius: 999px;
-  padding: 6px 14px;
-  font-family: inherit;
-  font-size: 13px;
-  color: var(--zutaten-text-color);
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.zutaten-filter button:hover {
-  background: var(--zutaten-bg-secondary);
-}
-
-.zutaten-filter button[aria-pressed="true"] {
-  background: var(--zutaten-text-color);
-  border-color: var(--zutaten-text-color);
-  color: var(--zutaten-bg-color);
+/* Filter-Leiste verwendet news-filter (siehe news/news.css) für
+   visuelle Konsistenz mit /zutaten/bildgebung/. Override-Margin,
+   weil hier kein news-head darüber sitzt. */
+.news-filter#filter {
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 /* ── Kachel-Grid ──────────────────────────────────────────── */
@@ -339,7 +314,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .zutaten-tile,
-  .zutaten-filter button,
+  .news-filter button,
   .zutaten-detail {
     transition: none;
     animation: none;
