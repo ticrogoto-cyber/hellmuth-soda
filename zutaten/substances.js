@@ -1885,6 +1885,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin C",
       slug: "vitamin-c",
+      featured: true,
       szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
