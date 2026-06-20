@@ -457,10 +457,19 @@ main {
 .menu .menu-trigger[aria-expanded="true"],
 .menu .menu-trigger.is-current { border-bottom-color: var(--ink); }
 .menu .menu-trigger.is-current { font-weight: 700; }
-/* .menu-caret ist jetzt ein Inline-SVG (lucide chevron-down) und traegt
-   alle Style-Werte inline — gleiche Strichstaerke und Groesse wie der
-   externe-Link-Pfeil bei Hausbesuch/Plakate. Keine separate CSS-Regel
-   noetig. */
+/* .menu-caret ist ein Inline-SVG (lucide chevron-down) und traegt
+   Stroke/Groesse inline. Hier nur die Rotation beim Aufklappen: nach oben
+   drehen, sobald die Gruppe geoeffnet ist (Desktop-Hover oder Click/Tap-
+   Toggle, beides triggert aria-expanded="true" oder data-open). Selbe
+   Timing-Werte wie die uebrigen Menue-Transitions. */
+.menu .menu-caret {
+  transition: transform .15s ease;
+}
+.menu-group:hover .menu-caret,
+.menu-group[data-open] .menu-caret,
+.menu .menu-trigger[aria-expanded="true"] .menu-caret {
+  transform: rotate(180deg);
+}
 .menu .menu-dropdown {
   position: absolute;
   top: 100%;
