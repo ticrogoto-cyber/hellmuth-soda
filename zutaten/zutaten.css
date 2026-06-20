@@ -43,21 +43,22 @@
 }
 
 /* ── Filter-Leiste ─────────────────────────────────────────
-   Visuelle Familie der Substanz-Kacheln, warmgraue Pille mit
-   dunklerem Border als die Kacheln. 40px Atemraum oben und unten. */
+   Warme Pille in der Hellmuth-Palette. Active-State in warmem
+   Anthrazit statt Schwarz, Inactive subtil-warmgrau. 32px Atemraum. */
 
 .zutaten-filter {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 40px 0;
+  margin: 32px 0;
 }
 
 .zutaten-filter button {
-  background: hsl(40, 14%, 90%);
-  border: 1.5px solid hsl(40, 12%, 72%);
+  box-sizing: border-box;
+  background: hsl(40, 22%, 94%);
+  border: 1px solid hsl(40, 15%, 78%);
   border-radius: 4px;
-  padding: 6px 14px;
+  padding: 0 14px;
   height: 28px;
   display: inline-flex;
   align-items: center;
@@ -66,21 +67,21 @@
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--zutaten-text-color);
+  color: hsl(40, 18%, 28%);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 180ms ease-out;
   line-height: 1;
 }
 
 .zutaten-filter button:hover {
-  background: hsl(40, 14%, 84%);
-  border-color: hsl(40, 12%, 58%);
+  background: hsl(40, 22%, 90%);
+  border-color: hsl(40, 15%, 65%);
 }
 
 .zutaten-filter button[aria-pressed="true"] {
-  background: var(--zutaten-text-color);
-  border-color: var(--zutaten-text-color);
-  color: var(--zutaten-bg-color);
+  background: hsl(40, 18%, 22%);
+  border-color: hsl(40, 18%, 22%);
+  color: hsl(40, 22%, 96%);
 }
 
 /* ── Kachel-Grid ──────────────────────────────────────────── */
