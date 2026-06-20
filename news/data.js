@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-20T23:42:18.765Z",
+  "generated": "2026-06-20T23:43:19.754Z",
   "hellmuth": [
+    {
+      "title": "Hautcreme als Smoothie",
+      "date": "2026-06-20",
+      "created": "2026-06-20T23:39:18.633Z",
+      "slug": "hautcreme-als-smoothie",
+      "rubrik": "hellmuth",
+      "lead": "Kosmetikmarken besetzen die Saftbar als neuen Verkaufsregalplatz.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/20/oh-juice-and-cerave-develop-smoothie-that-promote-glow-from-within/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/hautcreme-als-smoothie/"
+    },
     {
       "title": "BOSS Coffee dockt in Vietnam an den Energy-Drink-Markt an",
       "date": "2026-06-19",
@@ -578,6 +592,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wenn die Glia den Strom nicht mehr abführt",
+      "date": "2026-06-20",
+      "created": "2026-06-20T23:42:00.350Z",
+      "slug": "wenn-die-glia-den-strom-nicht-mehr-abfuhrt",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt die Schuldfrage bei Epilepsie weg vom Neuron, hin zur Stützzelle.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732359v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/"
+    },
+    {
+      "title": "Schizophrenie-Erkennung wandert in die Hochfrequenz",
+      "date": "2026-06-20",
+      "created": "2026-06-20T23:41:44.206Z",
+      "slug": "schizophrenie-erkennung-wandert-in-die-hochfrequenz",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt die Diagnostik früher Schizophrenie von der klinischen Beobachtung in die räumlichen Randbereiche der Hirnscans.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732490v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/"
+    },
+    {
+      "title": "Huntington beginnt im Fötus",
+      "date": "2026-06-20",
+      "created": "2026-06-20T23:41:18.575Z",
+      "slug": "huntington-beginnt-im-fotus",
+      "rubrik": "science",
+      "lead": "Die Krankheit, die typischerweise erst in der Lebensmitte ausbricht, hinterlässt bereits im fetalen Striatum eine eigene Signatur.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733377v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/huntington-beginnt-im-fotus/"
+    },
     {
       "title": "Zwangsstörung als Attraktorfalle im Rattenhirn",
       "date": "2026-06-19",
