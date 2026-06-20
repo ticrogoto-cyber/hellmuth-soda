@@ -1219,7 +1219,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "MCT-Öl",
       slug: "mct-oel",
-      szenario: 3,
+      szenario: null,
       kategorie: "Fettsäure",
       unterkategorie: "Öl",
       werbung: "»MCT-Öl aus Kokosnuss für Ketose, Energie und Fettverbrennung. Bulletproof-Coffee-Klassiker für mentale Klarheit und Stoffwechsel.«",
