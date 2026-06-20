@@ -86,7 +86,25 @@ jobs:
           echo "Werbung-Label:                  $(grep -oc 'Werbung:' /tmp/vitc.html)"
           echo ""
           echo "==============================================="
+          echo "KONSOLIDIERUNGS-WELLE: Such-Dropdown + Tokio + MCT + Reishi"
+          echo "==============================================="
+          # Such-JS-Datei mit Cache-Bust v=3 zur Verifikation der Label-Fix
+          curl -sS -o /tmp/search.js -w "HTTP %{http_code}, size %{size_download} bytes\n" \
+            --max-time 15 -A "$UA" "https://hellmuth-soda.de/search.js?v=3&nocache=$(date +%s)"
+          echo "--- search.js Such-Dropdown-Label-Logik ---"
+          grep -A1 "items.push" /tmp/search.js | grep -A1 "Substanz\|unterkategorie\|toUpperCase" | head -6
+          echo ""
+          echo "--- Zink-Carnosin live: \"In Tokio\" present? ---"
+          curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/zink-carnosin/?nocache=$(date +%s)" | grep -oE "In Tokio[^<.]{0,60}\.|In Tokyo[^<.]{0,60}\." | head -2
+          echo ""
+          echo "--- MCT-Öl live: szenario-Attribut auf Tile? ---"
+          curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'data-slug="mct-oel"[^>]*data-szenario="[^"]*"|data-slug="mct-oel"[^>]*data-name=' | head -2
+          echo ""
+          echo "--- Reishi live: szenario=3 auf Tile? ---"
+          curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'data-slug="glaenzender-lackporling"[^>]*data-szenario="[^"]*"' | head -2
+          echo ""
+          echo "==============================================="
           echo "REPO-BLOB-SHA für Vergleich"
           echo "==============================================="
           git rev-parse HEAD || true
-          git ls-tree HEAD zutaten/vitamin-c/index.html || true
+          git ls-tree HEAD zutaten/vitamin-c/index.html search.js || true
