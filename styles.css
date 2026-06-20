@@ -23,10 +23,14 @@
   --paper: #fafafa;
   --muted: #6b6b6b;
   --line: #000;
+  /* Zentrale Hintergrundfarbe (Body, Header, Dropdowns, Karten, Modale).
+     Bewusst eigenes Token (nicht --paper), damit --paper als Text-/Invertfarbe
+     auf dunklen Flächen (Buttons, Hover-States) unabhängig bleibt. */
+  --page-bg: #f8f8f8;
 }
 
 html, body {
-  background: var(--paper);
+  background: var(--page-bg);
   color: var(--ink);
   font-family: 'Fournier Pro', 'Times New Roman', serif;
   /* Ligaturen global aus (sauberer, technischer Look) — auch kursiv. */
@@ -79,7 +83,7 @@ main {
 .top {
   position: fixed;
   top: 0; left: 0; right: 0;
-  background: var(--paper);
+  background: var(--page-bg);
   z-index: 5;
   padding: 0.9rem clamp(1.5rem, 4vw, 3rem) 0.65rem;
   font-size: 1rem;
@@ -202,7 +206,7 @@ main {
 
 .option {
   appearance: none;
-  background: var(--paper);
+  background: var(--page-bg);
   border: 1px solid var(--ink);
   color: var(--ink);
   font-family: 'Fournier Pro', serif;
@@ -236,7 +240,7 @@ main {
   cursor: pointer;
   transition: background .15s, color .15s;
 }
-.btn:hover { background: var(--paper); color: var(--ink); }
+.btn:hover { background: var(--page-bg); color: var(--ink); }
 
 .center { text-align: center; }
 .mt-3 { margin-top: 3rem; }
@@ -344,7 +348,7 @@ main {
 }
 .share-btn {
   appearance: none;
-  background: var(--paper);
+  background: var(--page-bg);
   color: var(--ink);
   border: 1px solid var(--ink);
   font-family: 'Printvetica', sans-serif;
@@ -475,12 +479,12 @@ main {
   top: 100%;
   left: 0;
   margin: 0;
-  /* Hintergrund identisch zur Body-Farbe (var(--paper)), damit der
+  /* Hintergrund identisch zur Body-Farbe (var(--page-bg)), damit der
      Page-Inhalt nicht durchscheint. Padding seitlich Null, weil die
      Items ihr eigenes Padding tragen. */
   padding: 0.35rem 0;
   list-style: none;
-  background: var(--paper);
+  background: var(--page-bg);
   border: none;
   display: none;
   min-width: max-content;
@@ -536,7 +540,7 @@ main {
 .top-search input[type="search"] {
   width: 100%;
   border: 1px solid var(--ink);
-  background: var(--paper);
+  background: var(--page-bg);
   color: var(--ink);
   padding: 0.35rem 0.6rem 0.35rem 1.7rem;
   font-family: 'Printvetica', sans-serif;
@@ -548,7 +552,7 @@ main {
   border-radius: 0;
 }
 .top-search input[type="search"]::placeholder { color: var(--muted); }
-.top-search input[type="search"]:focus { background: var(--paper); }
+.top-search input[type="search"]:focus { background: var(--page-bg); }
 .top-search-results {
   position: absolute;
   top: calc(100% + 2px);
@@ -560,7 +564,7 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: var(--paper);
+  background: var(--page-bg);
   border: 1px solid var(--ink);
   z-index: 7;
 }
@@ -653,7 +657,7 @@ footer .footer-impressum.is-active {
     position: absolute;
     top: 100%;
     right: 1rem;
-    background: var(--paper);
+    background: var(--page-bg);
     border: 1px solid var(--ink);
     display: none;
     flex-direction: column;
@@ -722,7 +726,7 @@ footer .footer-impressum.is-active {
     position: static;
     display: none;
     padding: 0;
-    background: var(--paper);
+    background: var(--page-bg);
     border-top: 1px solid var(--ink);
   }
   .top > .menu .menu-group[data-open] .menu-dropdown { display: block; }

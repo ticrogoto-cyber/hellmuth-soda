@@ -45,7 +45,7 @@
 }
 .news-filter button {
   appearance: none;
-  background: var(--paper);
+  background: var(--page-bg);
   color: var(--ink);
   border: 1px solid var(--ink);
   font-family: 'Printvetica', sans-serif;
@@ -352,7 +352,7 @@
 .news-pagination:empty { display: none; }
 .news-page {
   appearance: none;
-  background: var(--paper);
+  background: var(--page-bg);
   color: var(--ink);
   border: 1px solid var(--ink);
   font-family: inherit;

@@ -59,7 +59,7 @@
 }
 
 .btn-ghost {
-  background: var(--paper);
+  background: var(--page-bg);
   color: var(--ink);
 }
 .btn-ghost:hover {
@@ -101,7 +101,7 @@
 .kk-card {
   border: 1px solid var(--ink);
   padding: 1.5rem 1.25rem;
-  background: var(--paper);
+  background: var(--page-bg);
   display: flex;
   flex-direction: column;
 }
@@ -268,7 +268,7 @@
   width: 100%;
   height: auto;
   display: block;
-  background: var(--paper);
+  background: var(--page-bg);
 }
 .kk-mockup figcaption {
   margin-top: 0.6rem;
