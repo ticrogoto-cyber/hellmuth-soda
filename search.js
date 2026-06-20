@@ -11,6 +11,7 @@
   // Pfade relativ zum Site-Root (führender Slash); überall identisch nutzbar.
   const NEWS_DATA_URL = '/news/data.js';
   const VOKABULAR_DATA_URL = '/vokabular/data.js';
+  const SUBSTANCES_DATA_URL = '/zutaten/substances.js';
 
   // Statische Seiten — Klartext-Liste, ohne Lazy-Load.
   const STATIC_PAGES = [
@@ -51,9 +52,10 @@
         document.head.appendChild(s);
       });
 
-      const [news, vokab] = await Promise.all([
+      const [news, vokab, subs] = await Promise.all([
         ensureScript(NEWS_DATA_URL, 'NEWS_DATA'),
         ensureScript(VOKABULAR_DATA_URL, 'VOKABULAR_DATA'),
+        ensureScript(SUBSTANCES_DATA_URL, 'SUBSTANCES_DATA'),
       ]);
 
       if (news) {
@@ -76,6 +78,20 @@
             title: e.term,
             summary: e.as_called,
             url: '/vokabular/#' + slug(e.term),
+          });
+        }
+      }
+      if (subs && Array.isArray(subs.entries)) {
+        for (const e of subs.entries) {
+          // summary trägt Kategorie + Unterkategorie, damit Suche nach
+          // "Vitamin" auch Benfotiamin findet (kategorie="Vitamin") und
+          // "Bakterium" alle Probiotika-Stämme (unterkategorie="Bakterium").
+          const sub = e.unterkategorie ? `${e.kategorie} · ${e.unterkategorie}` : (e.kategorie || '');
+          items.push({
+            kind: 'Substanz',
+            title: e.name,
+            summary: sub,
+            url: '/zutaten/' + e.slug + '/',
           });
         }
       }
