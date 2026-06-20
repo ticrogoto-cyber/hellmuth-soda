@@ -17,6 +17,191 @@ window.SUBSTANCES_DATA = {
   entries: [
 
     // ============================================================
+    // SEED — 15 Einträge (Hellmuth-Heim + Sulforaphan + NAD+/NMN)
+    // Verbatim aus WEBSITE2-Chatverlauf, freigegeben.
+    // ============================================================
+
+    {
+      name: "Hopfen (Humulus lupulus)",
+      slug: "hopfen",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Zapfen",
+      werbung: "»Natürliches Schlafmittel ohne Nebenwirkungen. Beruhigt sanft, traditionell bewährt, alkoholfrei. Hilft beim Einschlafen und Durchschlafen.«",
+      wirkung: "Hopfen ist in der europäischen Heilpflanzentradition ein Nervinum, in der Pharmakologie eine Mehrkomponentenpflanze und in der Werbung nur ein Schlaftee. Humulon und die Iso-α-Säuren modulieren GABA-A-Rezeptoren positiv, eine placebokontrollierte Studie an gesunden Erwachsenen senkt unter Hopfen-Trockenextrakt Angst-, Depressions- und Stress-Scores in allen drei DASS-21-Skalen. Xanthohumol, das prenylierte Chalcon der Lupulindrüsen, induziert Nrf2 und hemmt NF-κB, eine anti-inflammatorische Achse jenseits jedes Schlafkontextes. Die Bitterstoffe sprechen TAS2R-Rezeptoren an und ziehen über das enteroendokrine System Ghrelin- und CCK-Signale nach, eine eigene Wirkachse. Dass die Monotherapie-Evidenz dünn aussieht, sagt mehr über die Forschungsfrage als über die Pflanze. Man hat ein Sedativum gesucht und eine Apotheke übersehen.",
+      quellen: ["Benkherouf 2019", "Kyrou 2017"],
+      related_article: "/zutaten/bildgebung/hopfen-jenseits-vom-bier/"
+    },
+
+    {
+      name: "Ashwagandha (Withania somnifera)",
+      slug: "ashwagandha",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Beere",
+      werbung: "»Adaptogen aus dem Ayurveda. Senkt Stress und Cortisol, fördert Schlaf und Energie. KSM-66 ist die meistuntersuchte Form, klinisch belegt.«",
+      wirkung: "Eine der wenigen pflanzlichen Substanzen, deren anxiolytische und stress-modulierende Wirkung am Menschen mehrfach placebokontrolliert belegt ist, mit Effektstärken im Bereich klinischer Pharmaka. Die Withanolide wirken als positive allosterische Modulatoren am GABA-A-Rezeptor und greifen in die HPA-Achse ein, der chronisch erhöhte Cortisol-Tonus wird messbar gesenkt, die Schlafarchitektur verbessert sich, ohne dass es zu klassischer Sedierung kommt. Eine Metaanalyse von 12 RCTs findet eine standardisierte Mittelwertdifferenz von -1,55 für Angst-Scores gegenüber Placebo, das ist die Größenordnung gut wirksamer Anxiolytika und macht die Substanz nützlich bei chronischer Übererregung und Panikneigung, wo SSRIs zu träge und Benzodiazepine zu riskant sind. Bei latenter Hyperthyreose ist Vorsicht geboten, weil Withanolide die TSH-Suppression verstärken und in Einzelfällen thyrotoxische Krisen ausgelöst haben. Die Schilddrüse ist die einzige Kontraindikation. Dass sie auf keiner Packung steht, ist die einzige Kritik.",
+      quellen: ["Akhgarjand 2022", "Langade 2019"],
+      related_article: null
+    },
+
+    {
+      name: "Kokosöl",
+      slug: "kokosoel",
+      szenario: 2,
+      kategorie: "Fettsäure",
+      unterkategorie: "Öl",
+      werbung: "»Gesundheitsschädlich wegen seines hohen Anteils gesättigter Fette, die das LDL-Cholesterin erhöhen. Die American Heart Association rät 2017 ausdrücklich vom Kochen mit Kokosöl ab, die deutschen Ernährungsleitlinien folgen dieser Linie. Pflanzliche Öle wie Raps oder Sonnenblume gelten als überlegen.«",
+      wirkung: "Die AHA stützt sich auf einen Surrogat-Marker. LDL steigt, aber Metaanalysen finden keine konsistente Verbindung zwischen gesättigten Fetten und kardiovaskulärer Mortalität bei gesunden Erwachsenen. Unter Kokosöl steigt vor allem das große, weniger atherogene LDL, HDL steigt im selben Verhältnis. Laurinsäure ist antimikrobiell gegen behüllte Viren, gram-positive Bakterien und Candida, ihr Monoester Monolaurin steht in klinischen Daten. Sonnenblumenöl, das die AHA als Alternative empfiehlt, oxidiert bei Bratenhitze zu reaktiven Aldehyden, die in der Linolsäure-Forschung als gefährlicher gelten als das gesamte gesättigte Fett, gegen das die Warnung sich richtet. Die Pfanne ist klüger als die Leitlinie, sie raucht beim Sonnenblumenöl und schweigt beim Kokosöl.",
+      quellen: ["Siri-Tarino 2010", "Chowdhury 2014", "Astrup 2020"],
+      related_article: null
+    },
+
+    {
+      name: "NAC (N-Acetylcystein)",
+      slug: "nac-n-acetylcystein",
+      szenario: 1,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Direkter Vorläufer von Glutathion. Entgiftet die Leber, schützt die Atemwege, hilft bei Sucht und Zwangsverhalten. Sicher und nebenwirkungsarm.«",
+      wirkung: "Aminosäurederivat aus der Notfallmedizin, das in der Klinik bei Paracetamol-Vergiftung Leben rettet und im Supplement-Regal vor allem verspricht. Die orale Aufnahme wird zu großen Teilen schon in der Darmwand zerlegt, der zelluläre Glutathion-Anstieg ist messbar, bleibt aber bescheiden. In der Psychiatrie zeigen Metaanalysen kleine Effekte bei Trichotillomanie und Skin Picking, gemischte Daten bei OCD, keine konsistente Wirkung bei Schizophrenie oder Depression. Die EMA stuft NAC weiterhin als Arzneimittel ein, der Verkauf als Nahrungsergänzung in der EU bewegt sich in der rechtlichen Grauzone. Was als universelles Antioxidans vermarktet wird, ist ein Notfall-Antidot, das jemand in eine Kapsel gesteckt hat.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Igelstachelbart (Hericium erinaceus)",
+      slug: "igelstachelbart",
+      szenario: 3,
+      kategorie: "Pilz",
+      unterkategorie: "Vitalpilz",
+      werbung: "»Der Pilz fürs Gehirn. Enthält Hericenone und Erinacine, die den Nervenwachstumsfaktor anregen. Fördert Konzentration, Gedächtnis und Nervenregeneration.«",
+      wirkung: "Speisepilz mit einer der konsistentesten präklinischen Neurotrophin-Signaturen, die die Pflanzenpharmakologie überhaupt kennt. Hericenone und Erinacine induzieren NGF in humanen Astrozyten, erhöhen BDNF und fördern hippocampale Neurogenese, beschleunigen die Axonregeneration nach peripherer Nervenverletzung und schützen in Tiermodellen gegen Aβ-Toxizität. Vier Humanstudien aus drei Ländern weisen in dieselbe Richtung, kognitive Verbesserung bei milder Beeinträchtigung, Stimmung und Schlaf bei gesunden Erwachsenen, reduzierte depressive Symptome bei postmenopausalen Frauen, akute Verarbeitungsgeschwindigkeit bei jungen Erwachsenen. In der chinesischen Medizin als Hou Tou Gu und in Japan als Yamabushitake wird der Pilz seit Jahrhunderten als nervenstärkender Heilpilz eingesetzt, ohne dokumentierte Toxizitätssignale. Dass die klinischen Stichproben klein sind, ist ein Defizit der Forschungslandschaft, nicht des Pilzes. Was Igelstachelbart braucht, ist eine Studie mit dreihundert Teilnehmern, nicht einen weiteren Skeptiker.",
+      quellen: ["Mori 2008", "Wong 2012", "Li 2020", "Mori 2009", "Saitsu 2019", "Vigna 2019", "Docherty 2023"],
+      related_article: null
+    },
+
+    {
+      name: "Brennnessel (Urtica dioica)",
+      slug: "brennnessel",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Wildkraut",
+      werbung: "»Natürliches Entwässerungsmittel. Pflanzliche Hilfe bei Prostatabeschwerden. Reich an Vitaminen, traditionell bewährt, gut bei Harnwegsbeschwerden.«",
+      wirkung: "Eine der nährstoffdichtesten Heilpflanzen Europas, von der Werbung auf Entwässerung und Prostata reduziert. Das Blatt liefert Eisen, Kalzium, Silizium, Vitamin K und Chlorophyll in Konzentrationen, die kein Multivitaminpräparat aus dem Supplement-Regal erreicht. Wässrige und alkoholische Extrakte hemmen TNF-α und IL-6 in mehreren Studien, ein konsistentes anti-inflammatorisches Signal, das die Volksmedizin seit dem Mittelalter empirisch ausgenutzt hat. Kleine RCTs zeigen einen antihistaminischen Effekt bei allergischer Rhinitis und blutzuckersenkende Wirkung bei Typ-2-Diabetes über alpha-Glucosidase-Hemmung. Die Wurzel hemmt die 5-alpha-Reduktase und stört die SHBG-Bindung, was die Anwendung bei benigner Prostatahyperplasie pharmakologisch trägt. Die Wurzel macht die Prostata. Das Blatt macht alles andere. Die Forschung läuft an dieser Pflanze vorbei, weil am Wegesrand kein Patent liegt.",
+      quellen: [],
+      related_article: null
+    },
+
+    {
+      name: "Sulforaphan",
+      slug: "sulforaphan",
+      szenario: 3,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»Antioxidans aus Brokkolisprossen, 20 bis 50 Mal stärker als reifer Brokkoli. Unterstützt die natürliche Entgiftung und schützt vor oxidativem Stress. Mit standardisiertem Glucoraphanin-Gehalt für gleichbleibende Wirkung.«",
+      wirkung: "Sulforaphan ist der potenteste bekannte Nrf2-Aktivator in der menschlichen Nahrung, ein einzelner Schalter, der ein ganzes Phase-II-Programm hochfährt. Glutathion-S-Transferasen, NQO1, HO-1 und die Glutamatcystein-Ligase werden induziert, der Körper aktiviert seine eigene Stressantwort, statt sie von außen geliefert zu bekommen. Klinisch ist das angekommen, ein doppelblinder RCT findet signifikante Verbesserungen auf Autismus-Verhaltensskalen unter 18 Wochen Brokkoli-Sprossen-Extrakt, in China beschleunigt Sulforaphan die Ausscheidung von Aflatoxin- und Acrolein-Metaboliten messbar, bei Typ-2-Diabetes senken Brokkolisprossen Insulin und HOMA-IR. Das Problem ist nicht die Substanz, es ist die Bioverfügbarkeit, denn aktive Myrosinase wird beim Erhitzen zerstört, und ohne sie konvertiert Glucoraphanin im Darm nur unzuverlässig zu Sulforaphan. Die Sprossen-Standardisierung schwankt um den Faktor zehn, was die Werbung als »definierter Glucoraphanin-Gehalt« verkauft, ist im Regal eine Lotterie. Was die Werbung Antioxidans nennt, ist in Wahrheit die Anweisung, eines zu werden.",
+      quellen: ["Singh 2014", "Egner 2014", "Bahadoran 2013", "Yagishita 2019"],
+      related_article: null
+    },
+
+    {
+      name: "Spilanthol (Acmella oleracea)",
+      slug: "spilanthol",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Blüte",
+      werbung: "Es gibt keine. Die Kosmetik vermarktet die Pflanze als Botox-Ersatz für die Stirn, die Lebensmittelindustrie schweigt, und kein Supplement-Hersteller hat verstanden, was er in der Hand hält.",
+      wirkung: "Spilanthol ist ein N-Isobutylamid, das auf trigeminale Afferenzen wirkt, nicht auf das Zentralnervensystem. Es aktiviert TRPV1- und TRPA1-Kanäle in den freien Nervenendigungen der Mundschleimhaut, was als prickelndes, fast elektrisches Erwachen wahrgenommen wird und nichts mit Geschmack zu tun hat, sondern mit Berührung. Das ist sensorisch einzigartig, weil keine andere Pflanze der Welt diese Form der Salivation auslöst, weder Chili noch Menthol noch Sanshool. Pharmakologisch ist die Substanz darüber hinaus dokumentiert anti-inflammatorisch über COX-2- und iNOS-Hemmung und in einer doppelblinden RCT bei Kniearthrose topisch vergleichbar mit Diclofenac-Gel, aber das ist nicht der Grund, warum sie in einem Botanical Soda steht. Sie steht dort, weil sie ein Getränk wach macht, ohne ein Stimulans zu sein. Eine Substanz, die nur funktioniert, wenn die Zunge sie trifft, gehört in keine Kapsel.",
+      quellen: ["Wu 2008", "Boonen 2010"],
+      related_article: null
+    },
+
+    {
+      name: "Passionsblume (Passiflora incarnata)",
+      slug: "passionsblume",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Blüte",
+      werbung: "»Pflanzliche Beruhigung bei Nervosität und Schlafstörungen. Sanfte Hilfe ohne Gewöhnungseffekt, traditionell bewährt.«",
+      wirkung: "Eine der wenigen Pflanzen, deren anxiolytische Wirkung in randomisierten kontrollierten Studien gegen Benzodiazepine bestanden hat. Akhondzadeh 2001 zeigt bei generalisierter Angststörung Äquivalenz zu Oxazepam über vier Wochen, mit signifikant weniger Beeinträchtigung der Arbeitsleistung. Movafegh 2008 dokumentiert präoperative Anxiolyse über 90 Minuten ohne sedativen Überhang. Der Wirkmechanismus läuft über Chrysin und weitere Flavonoide als positive allosterische Modulatoren am GABA-A-Rezeptor, ein Profil, das pharmakologisch verwandt mit Benzodiazepinen ist, klinisch aber ohne deren Abhängigkeitspotenzial. Tierdaten weisen darüber hinaus auf antikonvulsive und dopaminerge Effekte, die im westlichen Forschungsbetrieb nie ernsthaft verfolgt wurden. Eine Pflanze, die mit Oxazepam auf Augenhöhe verhandelt und in der Werbung als »sanfte Hilfe« erscheint, wird systematisch unter ihrem Wert verkauft.",
+      quellen: ["Akhondzadeh 2001", "Movafegh 2008"],
+      related_article: null
+    },
+
+    {
+      name: "Baldrian (Valeriana officinalis)",
+      slug: "baldrian",
+      szenario: 1,
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Pflanzliches Schlafmittel. Beruhigt bei Einschlafstörungen und innerer Unruhe, ohne Tageschläfrigkeit am nächsten Morgen.«",
+      wirkung: "Die Studienlage zum Schlaf ist heterogen, weil die Industrie sich auf wässrige Standardextrakte verlässt, die Valerensäure und Valepotriate in wechselnden Konzentrationen enthalten. Wo sauber gemessen wurde, zeigen sich konsistente Effekte. Valerensäure bindet als positiver allosterischer Modulator an die β3-Untereinheit des GABA-A-Rezeptors, hemmt den GABA-Abbau und wirkt zusätzlich als partieller Agonist am 5-HT5A-Rezeptor, was den anxiolytischen Anteil erklärt. Eine Metaanalyse von 16 RCTs findet eine signifikante subjektive Schlafverbesserung, ohne den objektiven Polysomnographie-Befund vollständig zu bestätigen, ein Diskrepanzmuster, das in der Pflanzenforschung typisch ist und mehr über die Messung als über die Substanz sagt. Außerhalb des Schlafs gibt es Daten zu Tremor, Wechseljahresbeschwerden und Reizdarm, die kaum jemand zitiert. Die Pflanze ist breiter als ihr Etikett, aber das Etikett verkauft sich besser.",
+      quellen: ["Bent 2006"],
+      related_article: null
+    },
+
+    {
+      name: "Szechuanpfeffer (Zanthoxylum piperitum / bungeanum)",
+      slug: "szechuanpfeffer",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Samen",
+      werbung: "»Exotisches Gewürz aus der chinesischen und japanischen Küche. Aromatisch-zitronig mit prickelnder Schärfe, ideal für Wok-Gerichte und Marinaden.«",
+      wirkung: "Das Hydroxy-alpha-Sanshool im Pfeffer aktiviert KCNK-Kaliumkanäle in mechanosensitiven Nervenfasern und erzeugt damit eine wahrnehmbare Vibration im Mund, die in einer Frequenzanalyse mit 50 Hz quantifizierbar ist. Das ist keine Schärfe und keine Kühle, sondern eine taktile Halluzination, ein Berührungseindruck ohne Berührung, neuropharmakologisch ein Phänomen, das bisher kein anderer Naturstoff reproduziert hat. Die Substanz aktiviert zusätzlich TRPA1, hat in präklinischen Modellen anti-inflammatorische und analgetische Eigenschaften, und die Wurzelrinde wird in der traditionellen chinesischen Medizin bei chronischen Schmerzen verwendet, mit Hinweisen auf periphere Nervenregeneration in Tiermodellen. Was als Gewürz im Regal steht, ist molekular eine pharmakologische Sonde mit unausgeschöpftem Potenzial. Die Küche hat es früher entdeckt als die Wissenschaft.",
+      quellen: ["Hagura 2013"],
+      related_article: null
+    },
+
+    {
+      name: "Ingwer (Zingiber officinale)",
+      slug: "ingwer",
+      szenario: "sonderfall",
+      kategorie: "Pflanze",
+      unterkategorie: "Wurzel",
+      werbung: "»Wärmt von innen, hilft bei Übelkeit und unterstützt die Verdauung. Reich an ätherischen Ölen und traditionell als Hausmittel bewährt.«",
+      wirkung: "Die antiemetische Wirkung ist die am besten dokumentierte und gleichzeitig die langweiligste Eigenschaft der Pflanze. Gingerol und Shogaol antagonisieren 5-HT3-Rezeptoren am Vagusnerv, was die Wirksamkeit bei Schwangerschaftserbrechen, Chemotherapie-induzierter Übelkeit und Reisekrankheit erklärt und in mehr als 30 RCTs bestätigt ist. Interessanter ist, was darunter liegt. Eine doppelblinde RCT vergleicht 250 mg Ingwerpulver mit 50 mg Sumatriptan bei akuter Migräne und findet vergleichbare Schmerzreduktion bei deutlich besserem Nebenwirkungsprofil. Die COX- und LOX-Hemmung trägt eine analgetische Wirkung bei Osteoarthritis, die in einer großen RCT der Wirkung von Ibuprofen nahekommt. Hinzu kommen Daten zu HbA1c-Reduktion bei Typ-2-Diabetes, beschleunigter Magenentleerung und einer Hemmung der Plättchenaggregation, die klinisch relevant ist und in keinem Beipackzettel auftaucht. Das Hausmittel ist ein Pharmakon, das niemand patentieren konnte.",
+      quellen: ["Maghbooli 2014", "Altman 2001"],
+      related_article: null
+    },
+
+    {
+      name: "Limonenöl / D-Limonen",
+      slug: "limonenoel-d-limonen",
+      szenario: 3,
+      kategorie: "Fettsäure",
+      unterkategorie: "Öl",
+      werbung: "»Erfrischender Zitrusduft für Aromatherapie und Haushalt. Reinigt natürlich und sorgt für gute Laune.«",
+      wirkung: "D-Limonen ist eines der am besten erforschten Monoterpene mit Daten, die weit über Duft hinausreichen. Wilkins 2002 zeigt in einer offenen Studie bei GERD eine Symptomfreiheit über zwei Wochen bei 89 Prozent der Teilnehmer nach Einnahme von 1000 mg jeden zweiten Tag, ein Effekt, der bisher in keinem Protonenpumpenhemmer-Vergleich seriös nachgeprüft wurde. In einer Phase-I-Studie bei Brustkrebs reichern sich Limonen-Metaboliten im Tumorgewebe an und reduzieren die Cyclin-D1-Expression, ein Befund, der präklinisch durch chemopräventive Daten in Kolon-, Haut- und Mammakarzinom-Modellen gestützt wird. Die Substanz induziert Phase-II-Detoxenzyme wie Glutathion-S-Transferase, was die hepatoprotektive Beobachtung in mehreren Tiermodellen erklärt. Olfaktorisch wirkt sie über limbische Bahnen anxiolytisch und antidepressiv, was die Aromatherapie zufällig richtig macht, ohne den pharmakologischen Hintergrund zu kennen. Eine Zitrusschale wird hier als Putzmittel verkauft, obwohl sie eine Phase-I-Studie hinter sich hat.",
+      quellen: ["Wilkins 2002", "Miller 2013", "Komiya 2006"],
+      related_article: null
+    },
+
+    {
+      name: "Wacholder (Juniperus communis)",
+      slug: "wacholder",
+      szenario: 3,
+      kategorie: "Pflanze",
+      unterkategorie: "Beere",
+      werbung: "»Botanical für Gin. Aromatische Beere mit harzig-würziger Note, traditionell für Kräuterliköre und Wildgerichte verwendet.«",
+      wirkung: "Wacholder war über Jahrhunderte eine der wichtigsten Heilpflanzen Europas, mit Anwendungen gegen Harnwegsinfekte, Rheuma, Verdauungsbeschwerden und in der Pestzeit als Räuchermittel zur Luftdesinfektion. Das ätherische Öl enthält alpha-Pinen, Myrcen und Sabinen, eine Kombination, die in vitro antimikrobielle Aktivität gegen E. coli, Staphylococcus aureus und Candida albicans zeigt und in der Volksmedizin empirisch die diuretische Wirkung trug, bevor Terpinen-4-ol als wahrscheinlicher Wirkstoff identifiziert wurde. Wässrige Beerenextrakte hemmen TNF-α und reduzieren Ödeme in Tiermodellen, eine alkoholische Tinktur senkt postprandiale Blutzuckerspitzen in einer kleinen Humanstudie. Die antiseptische Wirkung des Rauchs ist in einer experimentellen Studie zur Krankenhaushygiene tatsächlich gemessen worden, ein Befund, der die mittelalterliche Praxis pharmakologisch trägt. Heute steht die Beere im Supermarkt unter den Gewürzen und ihr wichtigster Markt ist eine Spirituose. Die Pflanze hat die Pest überlebt, aber nicht die Gin-Renaissance.",
+      quellen: ["Acar 2016"],
+      related_article: null
+    },
+
+    {
+      name: "NAD+ / NMN",
+      slug: "nad-nmn",
+      szenario: 2,
+      kategorie: "Substanz",
+      unterkategorie: "Molekül",
+      werbung: "»NMN gegen das Altern. Zellverjüngung auf molekularer Ebene. Fühl dich wieder wie 30. Die Longevity-Revolution aus dem Silicon Valley, jetzt auch für jeden, der sie sich leisten kann.«",
+      wirkung: "Hinter dem Longevity-Marketing steht ein Molekül, ohne das keine Zelle des Körpers Energie produziert. NAD+ ist die zentrale Währung des oxidativen Stoffwechsels, der Kofaktor von mehr als fünfhundert Enzymen, und sein Spiegel sinkt mit dem Alter messbar um etwa 50 Prozent, ein Befund, der mit praktisch jeder altersbedingten Pathologie korreliert, von Kognition über Stimmung und Schlaf bis zur Entzündungskontrolle. Die Vorläufer NMN und NR reaktivieren über SIRT3 die mitochondriale Atmungskette und über SIRT1/PGC-1α die mitochondriale Biogenese, was in Tiermodellen die Hippocampusfunktion restauriert und depressives Verhalten messbar umkehrt. Yoshino 2017 zeigt am Menschen, dass orales NMN bioverfügbar ist und den NAD+-Spiegel in Skelettmuskel und peripheren mononukleären Blutzellen erhöht, eine pharmakokinetische Grundlage, die das Marketing nicht braucht und die Psychiatrie ignoriert, obwohl die Daten zur mitochondrialen Energiekrise unter dem Etikett »Depression« seit Jahren auf dem Tisch liegen. In der EU steht NMN unter dem Novel-Food-Vorbehalt und ist nicht durchgehend zugelassen, ein regulatorisches Problem, das die Substanz politisch betrifft und pharmakologisch nichts über sie aussagt. Das Longevity-Marketing macht NAD+ zur Hautcreme, der Regulator macht es zum Aktenzeichen, und dazwischen verschwindet der Kofaktor, ohne den keine Zelle Energie produziert.",
+      quellen: ["Xie 2020", "Yoshino 2017"],
+      related_article: null
+    },
+
+    // ============================================================
     // BATCH 4 — Probiotika stammspezifisch
     // ============================================================
 
