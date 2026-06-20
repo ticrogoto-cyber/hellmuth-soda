@@ -1795,6 +1795,307 @@ window.SUBSTANCES_DATA = {
       wirkung: "Sulbutiamin ist ein synthetisches Dimer aus zwei modifizierten Thiamin-Molekülen, verbunden über eine Schwefelbrücke. Die Verbindung ist im Gegensatz zum wasserlöslichen Standard-Thiamin lipophil und passiert die Blut-Hirn-Schranke deutlich besser. In den Neuronen hebt Sulbutiamin den Thiamin- und Thiaminpyrophosphat-Spiegel deutlich an und unterstützt damit den oxidativen Hirnstoffwechsel an seiner zentralen Stellschraube. Zusätzlich erhöht die Substanz die Dopamin-Konzentration und die D1-Rezeptordichte im präfrontalen Kortex, was den Effekt auf Motivation und Antrieb erklärt. In Frankreich führen Apotheken Sulbutiamin als Arcalion in 200 mg-Tabletten verschreibungspflichtig bei asthenischer Erschöpfung, post-infektiöser Müdigkeit und psychogener Erschöpfungszustände. Klinische Studien dokumentieren signifikante Verbesserungen bei chronischer Müdigkeit, nach durchgemachten Infektionen und bei depressionsassoziierter Inhibition. Die typische Tagesdosis liegt zwischen 400 mg und 600 mg über zwei bis vier Wochen. Anwender berichten neue Antriebslage am Morgen, klarere Gedanken bei Erschöpfung und ein körperliches Gefühl wiederkehrender Belastbarkeit ohne stimulierenden Charakter. Die Substanz hebt die Grundlinie, nicht den Spitzenwert.",
       quellen: ["Tiev 1999", "Trovero 2000"],
       related_article: null
+    },
+
+
+    // ============================================================
+    // BLOCK D — B-Vitamine (B1–B12 ohne B3) mit VITACOG-Achse
+    // ============================================================
+
+    {
+      name: "Vitamin B1 (Thiamin)",
+      slug: "vitamin-b1-thiamin",
+      szenario: "sonderfall",
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Wichtiges Nerven-Vitamin für Energie und Konzentration. Klassiker im B-Komplex, deckt den Tagesbedarf, hilft bei Müdigkeit, sorgt für starke Nerven und einen wachen Kopf.«",
+      wirkung: "Thiamin ist Cofaktor der Pyruvatdehydrogenase und der Transketolase. Ohne diese beiden Enzyme stockt der Glukoseabbau und die Pentosephosphatachse für NADPH und Ribose bricht ein. Der Mangel heißt Beri-Beri und beschreibt seit dem neunzehnten Jahrhundert Polyneuropathie, Herzinsuffizienz und Wernicke-Enzephalopathie. kein Wellness-Vitamin, sondern ein Bauteil der Energiegewinnung.\n\nGefährdet sind Alkoholiker, ältere Erwachsene und Menschen mit hochkohlenhydrathaltiger Industriekost. Polierter Reis und Weißmehl liefern Glukose ohne den passenden Cofaktor. Müdigkeit, Nervenkribbeln in den Füßen und Konzentrationsabbrüche sind die Frühzeichen, die der Hausarzt selten testet. In der Notaufnahme rettet hochdosiertes Thiamin bei Wernicke-Enzephalopathie Leben, ein etabliertes klinisches Standardprotokoll. real wirksam, real unterschätzt, real lebensrettend.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer morgens drei Tassen trinkt und seine Energie aus Brot und Pasta bezieht, schafft sich den klassischen Thiamin-Mangel selbst. Die fettlösliche Form Benfotiamin umgeht die Resorptionsschwelle und erreicht Nervengewebe besser, eigener Eintrag im Index, Querverweis ausdrücklich. das wasserlösliche Thiamin ist Pflicht, Benfotiamin ist die pharmakologisch saubere Variante für Nervenschäden.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Sechi 2007 Wernicke-Enzephalopathie", "Lonsdale 2006 Thiamin-Status"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin B2 (Riboflavin)",
+      slug: "vitamin-b2-riboflavin",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Energie-Vitamin für Haut, Augen und Stoffwechsel. Macht Schleimhäute geschmeidig, sorgt für rosige Haut und unterstützt die Verwertung der Nahrung. Vegetarier sollten besonders darauf achten.«",
+      wirkung: "Riboflavin ist die Vorstufe von FAD und FMN, den beiden Coenzymen der mitochondrialen Atmungskette und der Fettsäureoxidation. Ohne FAD läuft Komplex II nicht, ohne FMN steht Komplex I. Der Mangel zeigt sich an Mundwinkelrhagaden, geröteten Augen und einer entzündlich brennenden Zunge. kein dekoratives Hautvitamin, sondern Bauteil der Energieproduktion.\n\nDie überzeugendste klinische Spur führt in die Neurologie. Vierhundert mg Riboflavin täglich senken die Migränefrequenz um etwa fünfzig Prozent, die Datenlage ist robust und mehrfach repliziert. Ein aktueller Status-Report aus dem Jahr 2024 fasst den Befund zusammen. Bei Trägern der MTHFR-Variante spielt B2 zusammen mit Folat und B12 in der Homocysteinregulation, weil das MTHFR-Enzym FAD-abhängig arbeitet. prophylaktisch in der Migränesprechstunde unterbenutzt, in der Methylierung verkettet.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer mit Kopfschmerzen und Müdigkeit zum Espresso greift, neutralisiert das Vitamin, das die Kopfschmerzen verhindern könnte. Riboflavin färbt Urin neon-gelb, ein harmloser Marker und gleichzeitig der einzige sichtbare Beleg, dass etwas resorbiert wurde. billig, klinisch belegt, im Markt unterdosiert.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Schoenen 1998 Riboflavin Migräne 400 mg", "Mariwalla 2024 Status-Report", "Boehnke 2004"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin B5 (Pantothensäure)",
+      slug: "vitamin-b5-pantothensaeure",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Das Schönheitsvitamin für Haut, Haar und Wundheilung. Dexpanthenol in der Salbe, Pantothensäure in der Kapsel, der Klassiker für glatte Haut und kräftige Nägel.«",
+      wirkung: "Pantothensäure ist die Vorstufe von Coenzym A, dem zentralen Träger von Acetyl- und Acylresten im Stoffwechsel. Ohne CoA stoppt die Fettsäuresynthese, die Acetylcholin-Bildung und die Produktion von Cortisol, Aldosteron und Geschlechtshormonen. kein kosmetischer Posten, sondern Knotenpunkt der Acetyl-Biochemie.\n\nDexpanthenol als Vorstufe in der topischen Anwendung beschleunigt die epitheliale Reepithelisierung nach Verbrennungen, Operationen und Schleimhautläsionen. Daten in Dermatologie und HNO sind solide. Akne-Studien mit oraler Megadosis kursieren seit Jahren, methodisch dünn, schlecht verblindet, Effektstärke fraglich. Klinischer Mangel ist selten und entsteht meist im Rahmen genereller Mangelernährung. Müdigkeit, Brennen in den Füßen und Kopfschmerzen gelten als Frühzeichen. topisch sauber belegt, oral als Beauty-Mittel überverkauft.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer Pantothensäure einnimmt, um nach durchwachten Nächten und vier Tassen Filterkaffee die Haut zu retten, behandelt die falsche Stellschraube. Pantothensäure ist solide, aber kein Wundermittel. in der Wundsalbe gerechtfertigt, im Anti-Aging-Sortiment Marketing.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Ebner 2002 Dexpanthenol Wundheilung", "Leung 1995 Pantothenat Akne"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin B6 (P5P)",
+      slug: "vitamin-b6-p5p",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Nerven-Vitamin für Stimmung und Stoffwechsel. Tagesdosis als Pyridoxin in jeder Drogerie, deckt den Bedarf, gut für PMS und gute Laune.«",
+      wirkung: "Pyridoxal-5-Phosphat ist die aktive Form von Vitamin B6 und Cofaktor von über hundertfünfzig Enzymen. Es trägt die Synthese von GABA, Serotonin, Dopamin und Noradrenalin, baut Homocystein über die Transsulfurierung ab und reguliert die Hämbiosynthese. Pyridoxin aus dem Drogerieregal muss erst in der Leber zu P5P aktiviert werden, P5P umgeht diesen Schritt direkt. aktive Form für aktive Pharmakologie.\n\nDie VITACOG-Studie zeigte eine Reduktion der Hirnatrophie um dreißig Prozent, wenn B6 zusammen mit Folat und B12 gegeben wird. In den am stärksten betroffenen Regionen erreicht der Effekt bis zu siebzig Prozent. Die Folgearbeit schärfte die Bedingung. Der Effekt tritt nur bei gefülltem Omega-3-Speicher auf. Ohne EPA und DHA verpufft die B-Vitamin-Wirkung, Querverweis zu Omega-3 Eintrag Nummer 177. drei Vitamine plus zwei Fettsäuren halten den Hippocampus zusammen.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Wer seinen Tag mit Kaffee bestreitet und abends mit Stimmungseinbrüchen kämpft, supplementiert gegen einen Verursacher, den er stündlich nachfüllt. P5P kostet wenig und wirkt direkt. aktiv statt inaktiv, Achse statt Einzelvitamin, Omega-3 als Voraussetzung.",
+      quellen: ["Smith 2010 VITACOG", "Jerneren 2015 Omega-3 Synergie", "Morck 1983", "Rapuri 2007", "Spinneker 2007 P5P Review"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin B7 (Biotin)",
+      slug: "vitamin-b7-biotin",
+      szenario: 1,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Das Schönheitsvitamin für volles Haar, starke Nägel und reine Haut. Hochdosis zehntausend Mikrogramm pro Kapsel, der Bestseller in jedem Beauty-Sortiment.«",
+      wirkung: "Biotin ist Cofaktor von vier Carboxylasen im Fettsäure- und Aminosäurestoffwechsel. Echter Mangel ist sehr selten, der Körper recycelt das Vitamin effizient und die Darmflora produziert es nach. Wer keinen Mangel hat, gewinnt durch zusätzliche Megadosen nichts an Haarwuchs oder Nagelfestigkeit. Mangelmedikament, kein Beautytool.\n\nDie Marketingbasis stützt sich auf Studien an wenigen Patientinnen mit brüchigen Nägeln und unklarer Ausgangslage, kontrolliert und replikationsfähig ist davon wenig. In Hochdosis verfälscht Biotin Schilddrüsen- und Troponinwerte im Labor und kann zu falschen Diagnosen führen, Herzinfarkte werden übersehen, Hashimoto-Befunde verwirft das Labor. Die FDA warnt seit 2017. kosmetische Hoffnung mit diagnostischem Schaden.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent, aber im Fall von Biotin ist das eher akademisch, weil der reale Bedarf gering bleibt. Müdigkeit, Hautschuppen am Haaransatz und Haarausfall sind häufiger Eisen-, Schilddrüsen- oder Eiweißprobleme als Biotin-Mangel. im Schönheitsmarkt überbewertet, in der Differentialdiagnose ein Trojanisches Pferd.",
+      quellen: ["Morck 1983", "Rapuri 2007", "FDA Safety Communication 2017 Biotin Lab Interference", "Patel 2017 Biotin Hair"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin B9 (Folat / Methylfolat)",
+      slug: "vitamin-b9-folat",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Folsäure für die Schwangerschaft und gute Laune. Tagesdosis in der Drogerie, der Standard für Frauen mit Kinderwunsch und für jeden, der seine Nerven schützen will.«",
+      wirkung: "Folsäure ist die synthetische Form und braucht zwei Aktivierungsschritte über die Dihydrofolatreduktase, bevor sie als 5-Methyltetrahydrofolat in den Methylierungszyklus eintritt. Methylfolat ist die direkt aktive Form. Träger der MTHFR-C677T-Variante aktivieren Folsäure unzureichend und stauen unmetabolisierte Folsäure im Blut, ein eigener Risikoposten bei Folsäure-angereicherten Lebensmitteln. aktive Form statt Vorstufe, besonders bei MTHFR-Polymorphismus.\n\nDie VITACOG-Achse koppelt Folat mit B6 und B12 in der Reduktion der Hirnatrophie um dreißig Prozent, in stark betroffenen Arealen bis zu siebzig Prozent. Die Folgearbeit ergänzte die Bedingung, dass die Wirkung nur bei gefülltem Omega-3-Speicher eintritt, Querverweis zu Omega-3 Eintrag Nummer 177. In der Schwangerschaft senkt Folat die Inzidenz von Neuralrohrdefekten klar belegt. pränatale Pflicht, neurologische Achse, MTHFR-bewusste Form.\n\nKaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent. Müdigkeit, Glossitis und makrozytäre Anämie sind die Spätzeichen, die sich gut hinter dem morgendlichen Becher verstecken. Methylfolat statt Folsäure, B12 daneben, Omega-3 als Voraussetzung. die Form entscheidet, nicht das Etikett.",
+      quellen: ["Smith 2010 VITACOG", "Jerneren 2015 Omega-3 Synergie", "Morck 1983", "Rapuri 2007", "Pietrzik 2010 5-MTHF Bioverfügbarkeit", "MRC Vitamin Study 1991 Neuralrohrdefekte"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin B12 (Methylcobalamin)",
+      slug: "vitamin-b12-methylcobalamin",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Das Energie-Vitamin gegen Müdigkeit und schwache Nerven. Cyanocobalamin als Tagesdosis im Drogerieregal, der Klassiker für Vegetarier und ältere Menschen.«",
+      wirkung: "Methylcobalamin ist die aktive Form von B12 und arbeitet direkt im Methylierungszyklus als Cofaktor der Methioninsynthase. Cyanocobalamin ist die synthetische Standardform und muss in der Zelle erst entcyaniert und in Methyl- oder Adenosylcobalamin umgewandelt werden, ein Schritt, den manche Menschen schlecht leisten. aktive Form, weniger Umwege, weniger Cyanid-Last.\n\nVegetarier und Veganer tragen das höchste Mangelrisiko, ältere Menschen folgen wegen abnehmender Magensäure und intrinsischem Faktor. Subakute kombinierte Degeneration des Rückenmarks bei lang unbehandeltem Mangel ist die schwerste Folge, irreversibel ab einem gewissen Punkt. Müdigkeit, Zungenbrennen, Taubheit in den Füßen und Konzentrationsabbrüche sind die Frühzeichen. Die VITACOG-Achse koppelt B12 mit B6 und Folat zur Reduktion der Hirnatrophie um dreißig Prozent. neurologisch ernsthaft, nicht kosmetisch.\n\nDie Folgearbeit zeigte, dass die VITACOG-Wirkung nur bei ausreichendem Omega-3-Status auftritt, Querverweis zu Omega-3 Eintrag Nummer 177. Kaffee blockiert die Aufnahme der B-Vitamine um bis zu achtzig Prozent, gleichzeitig reduziert Magensäureblockade durch Protonenpumpenhemmer die Resorption zusätzlich. Methylcobalamin sublingual oder als Injektion umgeht das Problem. aktive Form, Achse statt Solo, Omega-3 als Voraussetzung.",
+      quellen: ["Smith 2010 VITACOG", "Jerneren 2015 Omega-3 Synergie", "Morck 1983", "Rapuri 2007", "Stabler 2013 Vitamin B12 Deficiency NEJM", "Healton 1991 SCD Spinal Cord"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK D — Vitamine A, C, D3, E (Tocotrienole), K2 MK-7
+    // ============================================================
+
+    {
+      name: "Vitamin A · Retinol",
+      slug: "vitamin-a-retinol",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Augen, Haut, Immunsystem. Vitamin A aus der Karotte. Natürlich, sicher, pflanzlich.«",
+      wirkung: "Retinol ist die direkt aktive Form, ohne Konversionsschritt. Beta-Carotin muss erst über das Enzym BCO1 zu Retinol umgebaut werden. Bei häufigen Genvarianten von BCO1 läuft diese Umwandlung schwach. Wer mit pflanzlichem Provitamin A versorgen will und die falsche Genetik hat, bleibt im Mangel. Im Gegensatz zu Beta-Carotin trägt Retinol keine ATBC-Warnung, sondern eine harte Dosisgrenze. Über 10000 IU täglich werden hepatotoxisch, in der Schwangerschaft teratogen.\n\nRetinol steuert Sehfunktion am Stäbchen, Epithelintegrität an Haut und Schleimhaut und die Immunantwort an T-Zellen. Lebertran lieferte das historisch in der Skandinavien-Diät der Fischer.\n\nWer auf Karotten setzt und Konvertierungsprobleme hat, supplementiert besser direkt. Retinol ist Pharmakologie mit Sicherheitsgurt, nicht Wellness-Vitamin.",
+      quellen: ["Lietz 2012", "Leo 1999"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin C",
+      slug: "vitamin-c",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Immunbooster Nummer eins. Vitamin C für Abwehrkraft, Energie und strahlende Haut.«",
+      wirkung: "Vitamin C verhindert Skorbut, das ist die Pflichtfunktion. Pharmakologisch wirkt es als Cofaktor für Prolyl-Hydroxylase, das Enzym der Kollagensynthese. Ohne Vitamin C fällt das Bindegewebe auseinander, Wundheilung verlangsamt sich, Haut verliert Spannkraft. Höhere Dosen bei akuten Infekten verkürzen Symptomdauer in klinischen Studien.\n\nDie liposomale Form erreicht zwei- bis dreifach höhere Plasmaspiegel als das gängige Ascorbinsäure-Pulver. Wer Aloe Vera parallel einnimmt, hebt die Bioverfügbarkeit zusätzlich an, siehe Aloe-Vera-Eintrag.\n\nDer Linus-Pauling-Mythos der Megadosen-Anti-Aging-Wirkung hat in kontrollierten Studien nichts gehalten. Zehn Gramm täglich verhindern weder Krebs noch verlängern sie Leben. Vitamin C ist Grundversorgung und Werkzeug, kein Wundermittel. Wer es als solches verkauft, übertreibt eine ohnehin starke Substanz.",
+      quellen: ["Vinson 2005", "Hemilä 2013"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin D3 · Cholecalciferol",
+      slug: "vitamin-d3",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Sonnenvitamin in der Kapsel. Vitamin D3 für Knochen, Immunsystem und gute Laune.«",
+      wirkung: "Vitamin D3 ist kein Vitamin im klassischen Sinn, sondern ein Steroidhormon, das die Haut unter UV-B-Strahlung selbst herstellt. Über zwei Drittel der westlichen Bevölkerung liegen im Mangel, weil die Lebensrealität indoor stattfindet. Der optimale 25-OH-Spiegel liegt zwischen 40 und 60 ng/ml, in Deutschland erreichen ihn die wenigsten ohne Substitution. Im Winter sind 2000 bis 5000 IU täglich realistisch.\n\nD3 wirkt nicht solo. Es bildet mit K2 und Magnesium die Trias, ohne die Calcium in die Gefäßwand wandert statt in den Knochen. Querverweise zu beiden Einträgen.\n\nKaffee blockiert die Vitamin-D-Aufnahme um bis zu achtzig Prozent über Interferenz mit Vitamin-D-Rezeptoren und Calcium-Resorption. Wer Latte trinkt und D3 schluckt, bezahlt für beides. Müdigkeit, depressive Verstimmung im Winter und gehäufte Infekte sind die Körperquittung. D3 ist die billigste Substitution mit der größten Hebelwirkung.",
+      quellen: ["Holick 2007", "Rapuri 2007"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin E · Tocotrienole",
+      slug: "vitamin-e-tocotrienole",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Antioxidans für Zellschutz und Anti-Aging. Vitamin E aus reinem Pflanzenöl.«",
+      wirkung: "Vitamin E ist keine einzelne Substanz, sondern eine Familie aus acht Verbindungen. Vier Tocopherole, vier Tocotrienole, mit deutlich unterschiedlicher Wirkstärke. Die übliche Drogerie-Kapsel enthält synthetisches dl-alpha-Tocopherol, die schwächste Variante mit enttäuschenden Endpunkten in großen Studien. Hochdosis-Tocopherol zeigte in der Women’s-Health-Study weder Schutz vor Herzinfarkt noch vor Krebs.\n\nTocotrienole sind die stärkere Hälfte der Familie. Sie zeigen in Tiermodellen neuroprotektive Effekte, senken Cholesterin und schützen die Blut-Hirn-Schranke. Annatto-Tocotrienole sind die isolierteste Form, frei von störendem Tocopherol.\n\nAloe Vera erhöht die Bioverfügbarkeit von Vitamin E bei gleichzeitiger Einnahme, siehe Aloe-Vera-Eintrag. Wer Vitamin E will, sollte die richtige Familie nehmen. Synthetisches Tocopherol ist Marketing, Tocotrienole sind Pharmakologie.",
+      quellen: ["Manson 2008", "Sen 2006", "Vinson 2005"],
+      related_article: null
+    },
+
+    {
+      name: "Vitamin K2 · MK-7",
+      slug: "vitamin-k2-mk7",
+      szenario: 3,
+      kategorie: "Vitamin",
+      unterkategorie: "Vitamin",
+      werbung: "»Vitamin K2 MK-7 für starke Knochen und reine Gefäße. Das vergessene Vitamin.«",
+      wirkung: "Vitamin K teilt sich in K1 und K2 mit verschiedener Herkunft und Funktion. K1 (Phyllochinon) sitzt in grünem Blattgemüse und kümmert sich um die Blutgerinnung. K2 (Menachinon) entsteht durch Bakterien in fermentierten Lebensmitteln wie Natto und aktiviert die Calcium-lenkenden Proteine. Die Form MK-7 hat eine Halbwertszeit von etwa drei Tagen und bleibt mit einer Tagesdosis von 100 bis 200 mcg dauerhaft wirksam.\n\nK2 aktiviert Osteocalcin im Knochen und Matrix-Gla-Protein in der Gefäßwand. Ohne K2 lagert Calcium falsch. Es geht in Arterien statt in Knochenmatrix.\n\nWer Vitamin D hochdosiert einnimmt, treibt die Calcium-Resorption hoch. Ohne paralleles K2 und Magnesium landet das Calcium in der Aorta, nicht im Femur. Die D-K2-Magnesium-Trias trägt die ganze Substitution, sonst produziert sie Weichteil-Verkalkung statt Knochenstabilität. Querverweise zu D3 und Magnesium.",
+      quellen: ["Schurgers 2007", "Knapen 2013"],
+      related_article: null
+    },
+
+    // ============================================================
+    // BLOCK D — Zwölf Mineralien und Spurenelemente
+    // ============================================================
+
+    {
+      name: "Zink",
+      slug: "zink",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Das Immun-Mineral für Erkältungszeit, Hautbild und Testosteron. Tagesdosis als Lutschtablette, verkürzt den Schnupfen, klärt die Haut, stärkt die Abwehr und bringt Männer zurück in Form.«",
+      wirkung: "Zink dient als Kofaktor in über dreihundert Enzymen, von der DNA-Polymerase bis zur Superoxid-Dismutase. Das Mineral steuert Immunantwort, Wundheilung, Geschmacks- und Geruchssinn und die Synthese von Testosteron. Lutschtabletten verkürzen die Erkältungsdauer messbar, Akne reagiert klinisch auf orale Substitution. ein Arbeitspferd des Stoffwechsels, kein Modetrend.\n\nDie Form entscheidet die Resorption. Bisglycinat bindet Zink an die Aminosäure Glycin und passiert die Darmwand fast ohne Reizung. Picolinat zeigt ebenfalls gute Bioverfügbarkeit. Oxid bleibt billig und schlecht resorbiert, dominiert aber den Drogeriemarkt. Über vierzig Milligramm täglich kippen die Zink-Kupfer-Balance und lösen sekundären Kupfermangel aus. Querverweis Zink-Carnosin für die Magenschleimhaut. Wirksamkeit hängt am Salz und an der Dosis.\n\nKaffee blockiert die Aufnahme von Zink und anderen Mineralien um bis zu achtzig Prozent. Wer morgens drei Tassen trinkt und abends die Kapsel nimmt, neutralisiert die Substitution am Vormittag. Müder Geschmackssinn, schlecht heilende Wunden, brüchige Nägel bleiben, weil der Verursacher unbeachtet bleibt. Der Körper zahlt mit verschleppter Erkältung und stumpfer Haut die Rechnung des Kaffeekonsums. das Mineral ist gut, die Form ist entscheidend, der Kaffee ist der unsichtbare Gegenspieler.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Hemilä 2017 Zink-Lutschtabletten Erkältungsdauer", "Prasad 2008 Zink Immunfunktion"],
+      related_article: null
+    },
+
+    {
+      name: "Selen",
+      slug: "selen",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Spurenelement für Schilddrüse und Zellschutz. Natürliches Antioxidans aus brasilianischen Paranüssen, schützt die Zellen, unterstützt die Hormonbildung und gleicht den deutschen Boden-Mangel aus.«",
+      wirkung: "Selen ist Kofaktor der Glutathion-Peroxidase und Bestandteil von 25 Selenoproteinen im Menschen. Das Spurenelement aktiviert die Konversion von T4 zu T3 in der Schilddrüse und schützt die Drüse vor oxidativem Schaden. Deutsche Böden gelten als selenarm, im Gegensatz zu nordamerikanischem Weizenanbau. Mangelregion real, nicht erfunden.\n\nParanüsse liefern die höchste natürliche Konzentration, zwei Stück decken den Tagesbedarf von 70 Mikrogramm. Selenomethionin und Natriumselenit dominieren die Supplemente, die organische Form akkumuliert besser. Über 400 Mikrogramm täglich kippen ins Toxische, Haarausfall und Nagelbrüchigkeit signalisieren die Überdosis. Bei Hashimoto senkt Selen die Antikörper-Titer in mehreren Studien. enges therapeutisches Fenster, klare Indikation.\n\nKaffee blockiert die Aufnahme zahlreicher Mineralien und Vitamine um bis zu achtzig Prozent. Die direkte Selen-Blockade ist weniger dokumentiert als bei Eisen oder Calcium, der Verdauungsstress durch Koffein und die forcierte Diurese zehren aber an den Reserven aller Spurenelemente. Wer Schilddrüsenträgheit beklagt und gleichzeitig vier Tassen trinkt, addiert zwei Probleme. Der Körper zahlt mit hängender T3-Konversion und müdem Stoffwechsel die Rechnung. das Spurenelement ist gut, der Boden ist arm, der Kaffee verstärkt das Defizit.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Gärtner 2002 Selen Hashimoto Antikörper", "Rayman 2012 Selen Lancet Review"],
+      related_article: null
+    },
+
+    {
+      name: "Eisen",
+      slug: "eisen",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Das Power-Mineral gegen Müdigkeit. Tagesdosis als Kapsel oder Tropfen, deckt den Mehrbedarf von Frauen, Schwangeren und Sportlern und bringt die Energie zurück, sanft zum Magen.«",
+      wirkung: "Eisen ist zentraler Bestandteil von Hämoglobin, Myoglobin und mehreren Enzymen der mitochondrialen Atmungskette. Häm-Eisen aus tierischen Quellen wird zwei- bis dreimal besser resorbiert als nicht-Häm-Eisen aus Pflanzen. Ferritin als Speichermarker zeigt den Status präziser als Hämoglobin, das erst spät absinkt. Eisenmangel betrifft Frauen im gebärfähigen Alter, Schwangere, Vegetarier und ältere Erwachsene häufig. der häufigste Mineralmangel weltweit, klinisch unterdiagnostiziert.\n\nHepcidin reguliert die intestinale Aufnahme bedarfsabhängig. Vitamin C steigert die Resorption von nicht-Häm-Eisen messbar, Querverweis im Index. Bisglycinat verträgt sich mit dem Magen, ohne die typischen Sulfat-Nebenwirkungen aus Verstopfung und Übelkeit. Eisen-III-Maltol etabliert sich als gut tolerierte Alternative. Form entscheidet Verträglichkeit und Compliance.\n\nKaffee blockiert die Eisenabsorption um bis zu achtzig Prozent, dokumentiert in der Schlüsselstudie von 1983. Die Polyphenole im Kaffee bilden unlösliche Komplexe mit nicht-Häm-Eisen im Darm. Wer morgens zwei Tassen trinkt und abends die Eisenkapsel nimmt, neutralisiert die Substitution. Müdigkeit, blasse Haut, Konzentrationsschwäche, brüchige Nägel bleiben, weil der Verursacher unbeachtet bleibt. Der Körper zahlt mit chronischer Erschöpfung die Rechnung des Kaffeekonsums. das Mineral ist gut, die Form ist entscheidend, der Kaffee ist der dokumentierte Hauptgegner.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Hurrell 1999 Polyphenole Eisenabsorption", "Camaschella 2015 Eisenmangel NEJM"],
+      related_article: null
+    },
+
+    {
+      name: "Calcium",
+      slug: "calcium",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Das Knochen-Mineral für ein Leben lang. Tagesdosis als Brausetablette, deckt den Bedarf, beugt Osteoporose vor und hält Zähne und Knochen stabil, ein Klassiker für jede Altersgruppe.«",
+      wirkung: "Calcium mineralisiert Knochen und Zähne und steuert neuromuskuläre Übertragung, Blutgerinnung und Hormonsekretion. Ohne flankierende Kofaktoren landet das Mineral aber im falschen Gewebe. Die D-K2-Magnesium-Trias entscheidet die Verteilung, Vitamin K2 dirigiert Calcium aus den Arterien in den Knochen, Magnesium aktiviert die beteiligten Enzyme, Vitamin D regelt die Resorption. Querverweis im Index. isoliertes Calcium ohne Kofaktoren erhöht Verkalkungsrisiko.\n\nDie Form bestimmt die Bioverfügbarkeit. Calciumcitrat wird unabhängig von Magensäure aufgenommen, Carbonat braucht saures Milieu und versagt bei Säureblockern. Kalziumhydroxylapatit kommt der Knochenmatrix strukturell am nächsten. Sango Koralle liefert Calcium und Magnesium im Knochenverhältnis von 2 zu 1, Querverweis. das Salz entscheidet, nicht das Etikett.\n\nKaffee blockiert die Calciumabsorption über die forcierte renale Ausscheidung und über direkte intestinale Hemmung, dokumentiert in der Schlüsselstudie von 2007. Frauen in der Postmenopause verlieren durch täglichen Kaffeekonsum messbar Knochendichte. Wer drei Tassen trinkt und gleichzeitig die Calciumkapsel nimmt, neutralisiert einen Teil der Substitution. Der Körper zahlt mit beschleunigtem Knochenabbau und Osteoporose-Risiko die Rechnung des Kaffeekonsums. das Mineral ist gut, die Trias ist entscheidend, der Kaffee ist der unsichtbare Gegenspieler.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Heaney 2004 Calcium-Bioverfügbarkeit Formen", "Bolland 2010 Calcium kardiovaskuläres Risiko"],
+      related_article: null
+    },
+
+    {
+      name: "Kalium",
+      slug: "kalium",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Das Blutdruck-Mineral aus Avocado und Banane. Tagesdosis als Kapsel oder Pulver, senkt den Druck, schützt das Herz und gleicht die salzlastige westliche Ernährung wieder aus.«",
+      wirkung: "Kalium ist das wichtigste intrazelluläre Kation und steuert das Membranpotential jeder Zelle. Das Mineral regelt Blutdruck, Herzrhythmus und Muskelkontraktion. Die DASH-Diät senkt Blutdruck messbar über erhöhte Kaliumzufuhr aus Gemüse, Avocados und Bananen. Westliche Ernährung liefert deutlich zu wenig, das Natrium-Kalium-Verhältnis ist invertiert gegenüber der jagdsammlerischen Norm. populationsweiter Mangel mit kardiovaskulären Folgen.\n\nKaliumcitrat und Kaliumgluconat dominieren die Supplemente, Chlorid wird ebenfalls eingesetzt. Die deutsche Höchstmengenverordnung begrenzt rezeptfreie Dosen auf 500 Milligramm pro Tablette, weil hohe Bolusgaben Herzrhythmusstörungen auslösen können. Bei Niereninsuffizienz, ACE-Hemmer-Therapie und Spironolacton ist Vorsicht geboten, Hyperkaliämie wird klinisch bedrohlich. Substitution sinnvoll, Kontrolle notwendig.\n\nKaffee fördert die renale Kaliumausscheidung über die diuretische Wirkung des Koffeins und blockiert die Resorption zahlreicher Mineralien um bis zu achtzig Prozent. Wer mehrere Tassen täglich trinkt, schwemmt Kalium aus und nimmt es über die kaliumarme Standardkost nicht zurück. Muskelkrämpfe, Herzklopfen, Blutdruck am oberen Ende bleiben, weil der Verursacher unbeachtet bleibt. Der Körper zahlt mit verschobener Elektrolytbalance die Rechnung. das Mineral ist gut, die Nahrung ist arm, der Kaffee verstärkt den Verlust.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Appel 1997 DASH-Diät Blutdruck", "Aburto 2013 BMJ Kalium Metaanalyse"],
+      related_article: null
+    },
+
+    {
+      name: "Iod",
+      slug: "iod",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Spurenelement für die Schilddrüse. Iodsalz reicht offiziell, Algen und Tropfen liefern den Sicherheitsaufschlag, hält die Hormonbildung stabil und beugt Strumabildung vor.«",
+      wirkung: "Iod ist Substrat der Schilddrüsenhormone T4 und T3 und damit Taktgeber des Grundumsatzes. Deutschland gilt nach WHO-Klassifikation trotz Iodsalz als mildes Mangelgebiet. Die optimale Zufuhr liegt zwischen 150 und 250 Mikrogramm täglich. Höhere Dosen bleiben umstritten, die japanische Algen-Bevölkerung nimmt schätzungsweise 1000 bis 3000 Mikrogramm täglich ohne erhöhte Schilddrüsenpathologie auf. Referenzwerte regional verschieden, Diskussion offen.\n\nKaliumiodid in Tropfen, Algenpulver aus Kelp oder Blasentang und iodiertes Salz decken die Standardversorgung. Bei Hashimoto-Thyreoiditis erhöht Hochdosis-Iod das Risiko einer Schubaktivierung, hier ist Vorsicht oder Selenflankierung geboten. Iodmangel-Hypothyreose bleibt ein Brennpunkt, besonders bei veganer Ernährung ohne Algen. Schwangere und Stillende brauchen erhöhte Zufuhr. enges Fenster zwischen Mangel und Überstimulation.\n\nKaffee blockiert die Resorption zahlreicher Mineralien und Spurenelemente um bis zu achtzig Prozent. Die direkte Iod-Blockade ist nicht im selben Maß dokumentiert wie bei Eisen oder Calcium, der Kaffee-getriebene Verdauungsstress und die forcierte Diurese zehren aber an allen Mikronährstoff-Reserven. Wer Schilddrüsenträgheit beklagt und vier Tassen trinkt, addiert Probleme. Der Körper zahlt mit hängendem Stoffwechsel und kalten Händen die Rechnung. das Spurenelement ist gut, die Diagnostik ist entscheidend, der Kaffee verstärkt das Defizit.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Zimmermann 2009 Lancet Iodmangel", "Teas 2004 Japan Algenbevölkerung Iodzufuhr"],
+      related_article: null
+    },
+
+    {
+      name: "Kupfer",
+      slug: "kupfer",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Spurenelement für Energie und Bindegewebe. Tagesdosis als Kapsel, unterstützt die Mitochondrien, hält Haar und Haut farbig und gleicht den Mangel bei Zink-Supplementierung aus.«",
+      wirkung: "Kupfer ist Kofaktor der Cytochrom-c-Oxidase und damit der mitochondrialen Atmungskette. Das Spurenelement aktiviert Ceruloplasmin im Eisenstoffwechsel und die Dopamin-Beta-Hydroxylase in der Katecholamin-Synthese. Lysyl-Oxidase verknüpft Kollagen und Elastin, ohne Kupfer bleibt das Bindegewebe schlaff. kupferabhängige Enzyme reichen vom Energiestoffwechsel bis ins Bindegewebe.\n\nDie Zink-Kupfer-Balance entscheidet über die Versorgung. Hochdosis-Zink über 40 Milligramm täglich kompetiert um den intestinalen Transporter und löst sekundären Kupfermangel mit Anämie und Neuropathie aus. Das ideale Zink-Kupfer-Verhältnis liegt bei etwa 10 zu 1. Wilson-Krankheit zeigt das Gegenextrem, Kupfer akkumuliert in Leber und Gehirn und produziert neuropsychiatrische Symptome. Kupferbisglycinat zeigt gute Bioverfügbarkeit. Balance schlägt Einzelsubstitution.\n\nKaffee blockiert die Aufnahme von Mineralien und Spurenelementen um bis zu achtzig Prozent, dokumentiert für Eisen und Calcium. Polyphenole bilden auch mit Kupfer Chelatkomplexe, die intestinal nicht resorbiert werden. Wer hohe Mengen Kaffee trinkt und zusätzlich Hochdosis-Zink einnimmt, schiebt sich doppelt in den Kupfermangel. Der Körper zahlt mit grauen Haarspitzen, müder Bindehaut und Energieabfall die Rechnung. das Spurenelement ist gut, die Balance ist entscheidend, der Kaffee verstärkt das Risiko.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Kodama 2012 Kupfer-Stoffwechsel Review", "Osredkar 2011 Zink-Kupfer-Balance"],
+      related_article: null
+    },
+
+    {
+      name: "Mangan",
+      slug: "mangan",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Spurenelement für Knochen und Bindegewebe. Tagesdosis als Kapsel, schützt die Mitochondrien, unterstützt Gelenkknorpel und ergänzt jede Multivitamin-Formel sinnvoll und unauffällig.«",
+      wirkung: "Mangan ist Kofaktor der mitochondrialen Mn-Superoxid-Dismutase und damit zentrales Antioxidans in der Atmungskette. Das Spurenelement aktiviert Enzyme der Glykosaminoglycan-Synthese und beteiligt sich an Knochen-, Bindegewebs- und Energiestoffwechsel. Nüsse, Vollkorn und Hülsenfrüchte decken den Tagesbedarf von 2 bis 5 Milligramm in westlicher Ernährung zuverlässig. Standardkost reicht aus, Mangel klinisch selten.\n\nDer Überschuss wird häufiger zum Problem als der Mangel. Industriearbeiter mit Schweißerlunge oder Trinkwasser mit hoher Mangankonzentration entwickeln neurologische Symptome, das Bild ähnelt einem Parkinson-Syndrom. Manganismus zeigt sich an Tremor, Dystonie und kognitivem Verfall. Supplementierung über 10 Milligramm täglich bleibt fragwürdig. Mangan brauchen die meisten nicht zusätzlich, Wasserqualität bleibt der entscheidende Faktor.\n\nKaffee blockiert die Resorption zahlreicher Mineralien um bis zu achtzig Prozent. Die direkte Mangan-Blockade ist weniger prominent dokumentiert als bei Eisen, der Verdauungsstress durch Koffein zehrt aber an allen Mikronährstoffen. Bei gleichzeitigem Kaffeekonsum und einseitiger Ernährung verschiebt sich die Bilanz. Der Körper zahlt mit hängender antioxidativer Kapazität und stumpfen Gelenken die Rechnung. das Spurenelement ist real, die Standardkost meist ausreichend, der Kaffee verstärkt jedes Defizit.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Aschner 2005 Mangan Neurotoxizität", "Freeland-Graves 2016 Mangan Bedarf"],
+      related_article: null
+    },
+
+    {
+      name: "Chrom",
+      slug: "chrom",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Das Schlank-Mineral für stabile Blutzuckerkurven. Tagesdosis als Picolinat-Kapsel, senkt den Zuckerheißhunger, unterstützt die Insulinwirkung und hilft beim Abnehmen, der Klassiker der Diät-Regale.«",
+      wirkung: "Chrom soll als Bestandteil des Glucose Tolerance Factor die Insulinsensitivität erhöhen, so die historische Hypothese aus den 1950er Jahren. Klinisch hält die Wirkung bei genauer Prüfung kaum stand. Metaanalysen bei Typ-2-Diabetes zeigen minimale Effekte auf HbA1c, oft im Bereich statistischer Unschärfe. Der Mangel in westlicher Ernährung bleibt klinisch selten. Mechanismus plausibel, klinische Relevanz überschätzt.\n\nChrom-Picolinat dominiert den Supplementmarkt, die Form überquert die Darmwand besser als Chlorid. Marketing als Schlankheits- und Heißhungerblocker bleibt überzogen, kontrollierte Studien zur Gewichtsreduktion enttäuschen. Über 200 Mikrogramm täglich treten unspezifische Gastrointestinalsymptome auf, in seltenen Fällen wurden Nieren- und Leberbelastungen berichtet. viel Versprechen, wenig Substanz.\n\nKaffee blockiert die Resorption zahlreicher Mineralien um bis zu achtzig Prozent. Die direkte Chrom-Interaktion ist klinisch wenig untersucht, Polyphenole binden aber zahlreiche Metallkationen im Darmlumen. Wer Kaffee literweise trinkt und sich vom Chrom-Picolinat die schlanke Linie verspricht, kombiniert ein schwaches Supplement mit einem dokumentierten Resorptionsblocker. Der Körper zahlt mit unverändertem Blutzucker und unverändertem Hüftumfang die Rechnung. das Spurenelement ist real, die Wirkung schwach, der Kaffee macht es nicht besser.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Suksomboon 2014 Chrom Diabetes Metaanalyse", "Tian 2013 Chrom Gewichtsreduktion Review"],
+      related_article: null
+    },
+
+    {
+      name: "Bor",
+      slug: "bor",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Spurenelement für Knochen und Hormonbalance. Tagesdosis als Tropfen oder Kapsel, unterstützt Vitamin D, moduliert Östrogen und Testosteron und kommt natürlich aus Trockenfrüchten und Mineralwasser.«",
+      wirkung: "Bor moduliert den Stoffwechsel von Östrogen, Testosteron und Vitamin D und beeinflusst die Calcium- und Magnesiumretention. Mehrere Studien zeigen erhöhte Serumspiegel freier Steroidhormone unter 3 bis 10 Milligramm Bor täglich. Knochengesundheit profitiert in Tiermodellen klar, Humanstudien bleiben begrenzt. Trockenfrüchte, Nüsse und manche Mineralwässer liefern das Spurenelement natürlich. präklinisch interessant, klinisch in der zweiten Reihe.\n\nNatriumtetraborat und Bor-Glycinat dominieren die Supplemente. Das therapeutische Fenster ist breit, akute Toxizität tritt erst oberhalb von 500 Milligramm auf. Frauen in der Postmenopause zeigen verbesserte Calciumretention und Anhebung von 17-Beta-Estradiol unter Borsubstitution. Männer mit niedrigem freien Testosteron sehen moderate Anhebung. niedrige Dosis, hohe Sicherheit, mittlere Evidenz.\n\nKaffee blockiert die Resorption zahlreicher Mineralien und Spurenelemente um bis zu achtzig Prozent. Bor selbst ist zwar gut bioverfügbar, die hormonelle Wirkung lebt aber vom Zusammenspiel mit Vitamin D, Magnesium und Calcium, deren Resorption Kaffee dokumentiert hemmt. Wer hofft, mit Bor und Kaffeebauch die Knochendichte zu retten, kombiniert ein schwaches Signal mit einem starken Blocker. Der Körper zahlt mit hängenden Hormonen und mürber Knochenmatrix die Rechnung. das Spurenelement ist solide, die Kofaktoren entscheiden, der Kaffee bleibt im Hintergrund aktiv.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Nielsen 1987 Bor Postmenopause Calcium", "Naghii 2011 Bor Testosteron"],
+      related_article: null
+    },
+
+    {
+      name: "Molybdän",
+      slug: "molybdaen",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Spurenelement für die Entgiftung. Tagesdosis als Kapsel, unterstützt den Abbau von Sulfiten, hilft bei Wein-Empfindlichkeit und ergänzt die Detox-Formel im Hintergrund unauffällig.«",
+      wirkung: "Molybdän ist Kofaktor von drei essentiellen Enzymen, Xanthin-Oxidase, Aldehyd-Oxidase und Sulfit-Oxidase. Das Spurenelement reguliert den Abbau schwefelhaltiger Aminosäuren und entgiftet Sulfit zu Sulfat. Hülsenfrüchte, Getreide und Innereien decken den Tagesbedarf von 45 Mikrogramm zuverlässig. Ein klinischer Mangel ist in westlicher Ernährung extrem selten. stille Hintergrundarbeit, kaum Substitutionsbedarf.\n\nWichtig wird Molybdän bei Sulfit-Unverträglichkeit. Wein, getrocknete Aprikosen und konservierte Lebensmittel enthalten Sulfite, die bei eingeschränkter Sulfit-Oxidase Kopfschmerzen, Flush und asthmatische Reaktionen auslösen. Ammonium-Tetrathiomolybdat findet in der Wilson-Krankheit therapeutische Anwendung als Kupfer-Chelator. Nische mit klarer Indikation, nicht für jeden.\n\nKaffee blockiert die Resorption zahlreicher Mineralien um bis zu achtzig Prozent. Die direkte Molybdän-Hemmung ist klinisch nicht prominent, der durch Kaffee getriebene Verdauungsstress und die forcierte Diurese ziehen aber an allen Spurenelementen. Wer Wein-Empfindlichkeit beklagt und parallel täglich vier Tassen trinkt, addiert Belastungen. Der Körper zahlt mit unzureichendem Sulfitabbau und Kopfschmerz die Rechnung. das Spurenelement ist nischig, die Indikation ist klar, der Kaffee verstärkt jeden Mikronährstoffstress.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Mendel 2009 Molybdän-Kofaktor Review", "Brewer 2009 Tetrathiomolybdat Wilson"],
+      related_article: null
+    },
+
+    {
+      name: "Silizium",
+      slug: "silizium",
+      szenario: 3,
+      kategorie: "Mineral",
+      unterkategorie: "Mineral",
+      werbung: "»Schönheits-Mineral für Haar, Haut und Nägel. Kieselsäure als Gel oder Tropfen, stärkt das Bindegewebe, glättet Falten und hält die Lebensspanne der Zellen aufrecht.«",
+      wirkung: "Silizium dient als Kofaktor der Prolyl-Hydroxylase und Lysyl-Oxidase und damit der Kollagen- und Elastinsynthese. Das Mineral stabilisiert Haare, Nägel, Haut und Knochenmatrix. Hortega formulierte die Hypothese einer Korrelation zwischen Silizium-Status und Lebensspanne, die Datenlage bleibt schmal. Bioverfügbar ist orthokieselsäurehaltiges Wasser oder cholin-stabilisierte Orthokieselsäure, klassische Kieselgur-Pulver passieren den Darm weitgehend ungenutzt. Mechanismus solide, klinische Studien dünn.\n\nKieselsäure-Gele und Tropfen finden breite Anwendung im Schönheits-Segment. Studien zu Haarstärke und Hautelastizität bei Frauen zeigen messbare Verbesserungen unter cholinstabilisierter Form über mehrere Monate. Knochendichte-Studien deuten positive Effekte an, die Effektgrößen bleiben moderat. Bambusextrakt und Brennnessel liefern pflanzliche Quellen. kosmetische Wirkung wahrscheinlich, Knochenwirkung plausibel.\n\nKaffee blockiert die Resorption zahlreicher Mineralien um bis zu achtzig Prozent. Die direkte Silizium-Interaktion ist nicht im selben Maß dokumentiert wie bei Eisen oder Calcium, der Kaffee zieht aber Calcium und Magnesium aus dem Knochen, mit denen Silizium gemeinsam wirkt. Wer Haarausfall und brüchige Nägel beklagt und parallel literweise Kaffee trinkt, repariert nur an einem Ende. Der Körper zahlt mit stumpfen Haaren und dünner Haut die Rechnung. das Mineral ist real, die Form ist entscheidend, der Kaffee bleibt der unsichtbare Gegenspieler.",
+      quellen: ["Morck 1983", "Rapuri 2007", "Barel 2005 Silizium Haut Haar Nägel", "Jugdaohsingh 2007 Silizium Knochendichte"],
+      related_article: null
     }
 
   ]
