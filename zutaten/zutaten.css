@@ -1,12 +1,21 @@
 /* /zutaten/ — Substanz-Index
-   Hochkant-Kachel-Grid mit Filter-Leiste und Inline-Detail.
-   Variablen aus dem Icon-Prototyp. */
+   Hochkant-Kachel-Grid analog substance-icons-prototype.jsx.
+   Detail-Bereich öffnet inline direkt unter der angeklickten Kachel-Reihe. */
 
 :root {
   --zutaten-text-color: #1a1a1a;
   --zutaten-bg-color: #f8f8f8;
   --zutaten-bg-secondary: #f0f0f0;
   --zutaten-border-color: #e0e0e0;
+
+  /* Szenario-Aquarelle, sehr dezent */
+  --zutaten-sz1-bg: hsl(0, 50%, 96%);
+  --zutaten-sz1-border: hsl(0, 40%, 88%);
+  --zutaten-sz1-accent: hsl(0, 70%, 45%);
+
+  --zutaten-sz23-bg: hsl(140, 35%, 95%);
+  --zutaten-sz23-border: hsl(140, 30%, 86%);
+  --zutaten-sz23-accent: hsl(140, 55%, 35%);
 }
 
 .zutaten-main {
@@ -60,31 +69,80 @@
   margin: 0;
 }
 
+.zutaten-grid > li {
+  display: contents;
+}
+
 .zutaten-tile {
   background: var(--zutaten-bg-secondary);
   border: 1px solid var(--zutaten-border-color);
   border-radius: 4px;
-  padding: 16px 12px;
+  padding: 14px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  gap: 10px;
   cursor: pointer;
   color: var(--zutaten-text-color);
   font-family: inherit;
   text-align: center;
   transition: all 0.15s ease;
-  min-height: 144px;
+  /* Festes 1:1.1 Hochkant-Verhältnis */
+  aspect-ratio: 1 / 1.1;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
 .zutaten-tile:hover {
   border-color: var(--zutaten-text-color);
 }
 
+/* Szenario-Aquarelle */
+.zutaten-tile[data-szenario="1"] {
+  background: var(--zutaten-sz1-bg);
+  border-color: var(--zutaten-sz1-border);
+}
+
+.zutaten-tile[data-szenario="2"],
+.zutaten-tile[data-szenario="3"] {
+  background: var(--zutaten-sz23-bg);
+  border-color: var(--zutaten-sz23-border);
+}
+
+.zutaten-tile[data-szenario="sonderfall"] {
+  background: var(--zutaten-bg-secondary);
+  border-color: var(--zutaten-border-color);
+}
+
+/* Aktiver Zustand: invertiert + farbiger 2px Streifen am Boden */
 .zutaten-tile[aria-pressed="true"] {
   background: var(--zutaten-text-color);
   border-color: var(--zutaten-text-color);
   color: var(--zutaten-bg-color);
+}
+
+.zutaten-tile[aria-pressed="true"][data-szenario="1"]::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--zutaten-sz1-accent);
+}
+
+.zutaten-tile[aria-pressed="true"][data-szenario="2"]::after,
+.zutaten-tile[aria-pressed="true"][data-szenario="3"]::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--zutaten-sz23-accent);
 }
 
 .zutaten-tile-icon {
@@ -99,28 +157,34 @@
 }
 
 .zutaten-tile-name {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.25;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
   word-break: break-word;
+  padding: 0 4px;
 }
 
 .zutaten-tile-cat {
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  opacity: 0.55;
-  margin-top: auto;
+  opacity: 0.5;
+  font-weight: 500;
 }
 
 .zutaten-tile[aria-pressed="true"] .zutaten-tile-cat {
-  opacity: 0.7;
+  opacity: 0.65;
 }
 
-/* ── Detail-Bereich (Inline-Panel) ────────────────────────── */
+/* ── Detail-Bereich, inline in der Grid-Zeile ────────────── */
+
+.zutaten-detail-row {
+  display: contents;
+}
 
 .zutaten-detail {
-  margin-top: 28px;
+  grid-column: 1 / -1;
+  margin: 4px 0 8px;
   padding: 28px;
   border: 1px solid var(--zutaten-border-color);
   border-radius: 4px;
@@ -129,15 +193,17 @@
   grid-template-columns: 140px 1fr;
   gap: 28px;
   align-items: start;
+  animation: zutaten-detail-fade-in 0.15s ease;
 }
 
-.zutaten-detail[hidden] {
-  display: none;
+@keyframes zutaten-detail-fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .zutaten-detail-icon {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
 }
 
 .zutaten-detail-icon svg {
@@ -248,14 +314,6 @@
   .zutaten-main {
     padding: 16px 12px 60px;
   }
-  .zutaten-grid {
-    grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
-    gap: 8px;
-  }
-  .zutaten-tile {
-    padding: 12px 8px;
-    min-height: 124px;
-  }
   .zutaten-tile-icon {
     width: 52px;
     height: 52px;
@@ -274,7 +332,9 @@
 
 @media (prefers-reduced-motion: reduce) {
   .zutaten-tile,
-  .zutaten-filter button {
+  .zutaten-filter button,
+  .zutaten-detail {
     transition: none;
+    animation: none;
   }
 }

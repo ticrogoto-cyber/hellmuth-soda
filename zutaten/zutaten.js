@@ -5,15 +5,8 @@
 
   const gridEl = document.getElementById('grid');
   const filterEl = document.getElementById('filter');
-  const detailEl = document.getElementById('detail');
-  if (!gridEl || !filterEl || !detailEl) return;
+  if (!gridEl || !filterEl) return;
 
-  const slugify = (s) => s.toLowerCase()
-    .replace(/[äöüß]/g, c => ({ ä: 'a', ö: 'o', ü: 'u', ß: 'ss' }[c]))
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-
-  // Reihenfolge: Bestand der Daten (Seed zuerst, dann Batches), kein Alphabet.
   const entries = data.entries.slice();
 
   // ── Icon-Lookup ────────────────────────────────────────────
@@ -23,14 +16,30 @@
     return icons.byCategory['Substanz'] || '';
   };
 
+  // ── Querverlinkung ────────────────────────────────────────
+  const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
+  const buildLinkifier = (currentName) => {
+    const others = entries
+      .map(en => en.name)
+      .filter(t => t !== currentName)
+      .sort((a, b) => b.length - a.length);
+    if (others.length === 0) return (text) => text;
+    const pattern = '(?<![A-ZÄÖÜ0-9-])(' + others.map(escapeRegex).join('|') + ')(?![A-ZÄÖÜ0-9-])';
+    const regex = new RegExp(pattern, 'g');
+    return (text) => text.replace(regex, '<a class="zutaten-xref" data-term="$1" href="#">$1</a>');
+  };
+
   // ── Kachel-Rendering ──────────────────────────────────────
   const tile = (entry) => {
     const li = document.createElement('li');
+    li.dataset.slug = entry.slug;
+    const sz = String(entry.szenario || '');
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'zutaten-tile';
     btn.dataset.slug = entry.slug;
     btn.dataset.kategorie = entry.kategorie;
+    if (sz) btn.dataset.szenario = sz;
     btn.setAttribute('aria-pressed', 'false');
     btn.innerHTML = `
       <span class="zutaten-tile-icon" aria-hidden="true">${iconFor(entry)}</span>
@@ -42,6 +51,10 @@
   };
 
   const renderGrid = (filterKey) => {
+    // Detail entfernen, wenn vorhanden
+    const oldDetail = gridEl.querySelector('.zutaten-detail-row');
+    if (oldDetail) oldDetail.remove();
+
     gridEl.innerHTML = '';
     const filtered = filterKey === 'all'
       ? entries
@@ -56,21 +69,8 @@
     filtered.forEach(e => gridEl.appendChild(tile(e)));
   };
 
-  // ── Querverlinkung im Wirkungs-Text ────────────────────────
-  const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&');
-  const buildLinkifier = (currentName) => {
-    const others = entries
-      .map(en => en.name)
-      .filter(t => t !== currentName)
-      .sort((a, b) => b.length - a.length);
-    if (others.length === 0) return (text) => text;
-    const pattern = '(?<![A-ZÄÖÜ0-9-])(' + others.map(escapeRegex).join('|') + ')(?![A-ZÄÖÜ0-9-])';
-    const regex = new RegExp(pattern, 'g');
-    return (text) => text.replace(regex, '<a class="zutaten-xref" data-term="$1" href="#">$1</a>');
-  };
-
-  // ── Detail-Bereich ────────────────────────────────────────
-  const renderDetail = (entry) => {
+  // ── Detail-Bereich, inline nach der Reihe der geklickten Kachel ────
+  const renderDetailContent = (entry) => {
     const link = buildLinkifier(entry.name);
     const wirkungParas = (entry.wirkung || '')
       .split(/\n\n+/)
@@ -82,7 +82,7 @@
     const ref = entry.related_article
       ? `<p class="zutaten-ref"><a href="${entry.related_article}" target="_blank" rel="noopener">Mehr lesen →</a></p>`
       : '';
-    detailEl.innerHTML = `
+    return `
       <div class="zutaten-detail-icon" aria-hidden="true">${iconFor(entry)}</div>
       <div class="zutaten-detail-body">
         <h2 class="zutaten-detail-name">${entry.name}</h2>
@@ -92,12 +92,28 @@
         ${ref}
       </div>
     `;
-    detailEl.hidden = false;
+  };
+
+  /**
+   * Finde alle <li>-Kacheln in derselben visuellen Zeile wie tileLi.
+   * Mit display: contents auf den <li> hat das innere <button> die
+   * tatsächliche Box, daher messen wir am Button.
+   */
+  const findRowSiblings = (tileLi) => {
+    const allTiles = Array.from(gridEl.querySelectorAll('li[data-slug]'));
+    const tileBtn = tileLi.querySelector('.zutaten-tile');
+    if (!tileBtn) return [tileLi];
+    const rowTop = tileBtn.getBoundingClientRect().top;
+    return allTiles.filter(l => {
+      const b = l.querySelector('.zutaten-tile');
+      if (!b) return false;
+      return Math.abs(b.getBoundingClientRect().top - rowTop) < 2;
+    });
   };
 
   const closeDetail = () => {
-    detailEl.hidden = true;
-    detailEl.innerHTML = '';
+    const existing = gridEl.querySelector('.zutaten-detail-row');
+    if (existing) existing.remove();
     gridEl.querySelectorAll('.zutaten-tile[aria-pressed="true"]')
       .forEach(b => b.setAttribute('aria-pressed', 'false'));
     if (window.location.hash) {
@@ -108,12 +124,39 @@
   const openEntry = (slug, updateHash = true) => {
     const entry = entries.find(e => e.slug === slug);
     if (!entry) return;
-    renderDetail(entry);
-    gridEl.querySelectorAll('.zutaten-tile').forEach(b => {
-      b.setAttribute('aria-pressed', b.dataset.slug === slug ? 'true' : 'false');
-    });
+
+    const tileLi = gridEl.querySelector(`li[data-slug="${slug}"]`);
+    if (!tileLi) return;
+
+    // Existierendes Detail entfernen
+    const oldDetail = gridEl.querySelector('.zutaten-detail-row');
+    if (oldDetail) oldDetail.remove();
+
+    // Alle Kacheln entaktivieren
+    gridEl.querySelectorAll('.zutaten-tile[aria-pressed="true"]')
+      .forEach(b => b.setAttribute('aria-pressed', 'false'));
+
+    // Reihe der geklickten Kachel finden
+    const rowSiblings = findRowSiblings(tileLi);
+    const lastInRow = rowSiblings[rowSiblings.length - 1];
+
+    // Detail-Reihe konstruieren
+    const detailRow = document.createElement('li');
+    detailRow.className = 'zutaten-detail-row';
+    const detail = document.createElement('article');
+    detail.className = 'zutaten-detail';
+    detail.setAttribute('aria-live', 'polite');
+    detail.innerHTML = renderDetailContent(entry);
+    detailRow.appendChild(detail);
+
+    // Nach der letzten Kachel der Reihe einfügen
+    lastInRow.insertAdjacentElement('afterend', detailRow);
+
+    // Kachel als aktiv markieren
+    const btn = tileLi.querySelector('.zutaten-tile');
+    if (btn) btn.setAttribute('aria-pressed', 'true');
+
     if (updateHash) history.replaceState(null, '', '#' + slug);
-    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   // ── Filter-Buttons ────────────────────────────────────────
@@ -123,11 +166,10 @@
     filterEl.querySelectorAll('button').forEach(b =>
       b.setAttribute('aria-pressed', b === btn ? 'true' : 'false')
     );
-    closeDetail();
     renderGrid(btn.dataset.filter);
   });
 
-  // ── Grid-Klicks (Kachel öffnen/schließen) ─────────────────
+  // ── Grid-Klicks ───────────────────────────────────────────
   gridEl.addEventListener('click', (ev) => {
     const btn = ev.target.closest('.zutaten-tile');
     if (!btn) return;
@@ -172,19 +214,19 @@
     }, 220);
   };
 
-  detailEl.addEventListener('mouseover', (ev) => {
+  gridEl.addEventListener('mouseover', (ev) => {
     const link = ev.target.closest('.zutaten-xref');
     if (!link) return;
     clearTimeout(hideTimer);
     clearTimeout(showTimer);
     showTimer = setTimeout(() => showTooltip(link), 220);
   });
-  detailEl.addEventListener('mouseout', (ev) => {
+  gridEl.addEventListener('mouseout', (ev) => {
     if (!ev.target.closest('.zutaten-xref')) return;
     clearTimeout(showTimer);
     hideTimer = setTimeout(hideTooltip, 120);
   });
-  detailEl.addEventListener('click', (ev) => {
+  gridEl.addEventListener('click', (ev) => {
     const link = ev.target.closest('.zutaten-xref');
     if (!link) return;
     ev.preventDefault();
@@ -192,6 +234,16 @@
     hideTooltip();
     const entry = entries.find(en => en.name === link.dataset.term);
     if (entry) openEntry(entry.slug);
+  });
+
+  // Bei Viewport-Resize Detail neu positionieren (Reihen verschieben sich)
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      const activeBtn = gridEl.querySelector('.zutaten-tile[aria-pressed="true"]');
+      if (activeBtn) openEntry(activeBtn.dataset.slug, false);
+    }, 150);
   });
 
   // ── Initial-Render ────────────────────────────────────────
