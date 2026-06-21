@@ -608,6 +608,8 @@ function substanceDetailHtml(entry) {
   // Heuristik-Splits an Pflicht-Markern, Klein-Start-Fragment-Pointen
   // und Aphorismus-Pointe am Absatz-Ende). Erster Absatz bekommt Label-Em.
   const wirkungRaw = String(entry.wirkung || '').trim();
+  const _nksMatch = wirkungRaw.match(/(nicht|kein|keine|keiner|keinem|keines|keinen)\b.{0,120}\bsondern\b/);
+  if (_nksMatch) process.stderr.write(`WARNING: „nicht/kein…sondern" in wirkung of "${entry.name}": ${_nksMatch[0]}\n`);
   const wirkungParas = wirkungRaw
     ? splitWirkungForRender(wirkungRaw)
         .map((p, idx) => {
