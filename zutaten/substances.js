@@ -357,7 +357,7 @@ window.SUBSTANCES_DATA = {
       kategorie: "Pflanze",
       unterkategorie: "Harz",
       werbung: "Indisches Heilharz für Gelenke und Entzündungen, Ayurveda-Klassiker mit langer Tradition.",
-      wirkung: "Der aktive Bestandteil AKBA hemmt selektiv die 5-Lipoxygenase, ein Enzym, das konventionell nur durch wenige patentierte Substanzen adressiert wird.\n\nSechs Wochen bei aktiver Colitis ulcerosa. Remissionsrate vergleichbar mit Sulfasalazin. Acht Wochen bei Knie-Arthrose. Signifikante Schmerzreduktion. Bei Asthma. Weniger Anfälle, bessere Lungenfunktion. Anders als COX-Hemmer greift die 5-LOX-Hemmung die Magenschleimhaut nicht an.\n\nIm Ayurveda heißt es Salai Guggal.\n\nIm westlichen Markt liegt ein selektiver Entzündungshemmer zwischen Räucherstäbchen und Knie-Kapsel.",
+      wirkung: "Der aktive Bestandteil AKBA hemmt selektiv die 5-Lipoxygenase, ein Enzym, das konventionell nur durch wenige patentierte Substanzen adressiert wird.\n\nSechs Wochen bei aktiver Colitis ulcerosa erreichen eine Remissionsrate vergleichbar mit Sulfasalazin. Acht Wochen bei Knie-Arthrose senken die Schmerzscores signifikant. Bei Asthma sinkt die Anfallshäufigkeit und die Lungenfunktion verbessert sich. Anders als COX-Hemmer greift die 5-LOX-Hemmung die Magenschleimhaut nicht an.\n\nIm Ayurveda heißt die Substanz Salai Guggal. Im westlichen Markt liegt ein selektiver Entzündungshemmer zwischen Räucherstäbchen und Knie-Kapsel.",
       quellen: ["Gupta 1997", "Kimmatkar 2003", "Gupta 1998"],
       related_article: null,
     },
