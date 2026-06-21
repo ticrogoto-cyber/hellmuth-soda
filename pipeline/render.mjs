@@ -354,6 +354,7 @@ ${seoHead(rec)}
   <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../../../site.js?v=7"></script>
   <script src="../../../search.js?v=3"></script>
+  <script src="../../counters.js?v=1"></script>
   <script src="../../detail.js?v=2"></script>
 </body>
 </html>
@@ -414,6 +415,7 @@ ${seoHead(rec)}
     </article>
   </main>
 
+  <script src="../../counters.js?v=1"></script>
   <script src="../../detail.js?v=2"></script>
 
   <footer class="site-foot">
@@ -701,6 +703,7 @@ ${ldJson}
   <footer><a href="../../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../../site.js?v=7"></script>
   <script src="../../search.js?v=3"></script>
+  <script src="../../news/counters.js?v=1"></script>
   <script src="../../news/detail.js?v=2"></script>
 </body>
 </html>
