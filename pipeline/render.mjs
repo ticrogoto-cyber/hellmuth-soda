@@ -511,6 +511,8 @@ function substanceDetailHtml(entry) {
   const canonical = `${SITE}/zutaten/${entry.slug}/`;
   // Wirkung: Absätze trennen via \n\n. Erster Absatz bekommt Label-Em.
   const wirkungRaw = String(entry.wirkung || '').trim();
+  const _nksMatch = wirkungRaw.match(/(nicht|kein|keine|keiner|keinem|keines|keinen)\b.{0,120}\bsondern\b/);
+  if (_nksMatch) process.stderr.write(`WARNING: „nicht/kein…sondern" in wirkung of "${entry.name}": ${_nksMatch[0]}\n`);
   const wirkungParas = wirkungRaw
     ? wirkungRaw
         .split(/\n{2,}/)
