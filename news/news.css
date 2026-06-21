@@ -90,16 +90,16 @@
 .news-featured .news-card-title { font-size: clamp(1.5rem, 2.8vw, 2rem); }
 .news-featured .news-lead { font-size: clamp(1.1rem, 1.7vw, 1.3rem); }
 
-/* ── Sort-Toggle (Neueste · Meistgelesen) — identisch zur Eyebrow-Typografie
-   (Printvetica sans, 0.62rem, letter-spacing 0.24em, --muted).
-   Aktive Option dezent unterstrichen, inaktive ohne Unterstrich. */
+/* ── Sort-Toggle (Neueste Meistgelesen) — exakt Eyebrow-Style.
+   Selbe Schrift, selbe Größe, selbes Letter-Spacing, selbe Farbe.
+   Kein Trenner, reiner Wortabstand. */
 .sort-toggle {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
-  gap: 0;
-  margin: 1.25rem 0 2.5rem;
+  gap: 1em;
+  margin: 0.5rem 0 2.5rem;
   font-family: 'Printvetica', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.24em;
@@ -129,9 +129,7 @@
   text-decoration-thickness: 1px;
 }
 .sort-toggle__sep {
-  color: var(--muted);
-  margin: 0 0.75em;
-  user-select: none;
+  display: none;
 }
 
 /* ── Übersichtsliste ──────────────────────────────────────────────────── */
