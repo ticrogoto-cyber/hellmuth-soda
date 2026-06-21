@@ -166,8 +166,11 @@ jobs:
           echo "STRING-EDIT-WELLE SUMMARY: $fail Abweichungen"
           echo ""
           echo "==============================================="
-          echo "AUFRUFE-WELLE: Listing + Startseite + 3 News-Detail-URLs"
+          echo "AUFRUFE-ANZEIGE bleibt entfernt: Listing + Startseite + 3 News-Detail-URLs"
           echo "==============================================="
+          # Korrektur-Welle: sichtbare Aufruf-Zahl (AUFRUFE/aufrufe) MUSS 0 bleiben.
+          # counters.js ist jetzt wieder eingebunden (Restore) — Präsenz ist OK,
+          # kein Fail-Kriterium mehr.
           aufrufe_urls=(
             "https://hellmuth-soda.de/"
             "https://hellmuth-soda.de/news/"
@@ -182,19 +185,36 @@ jobs:
             uc=$(grep -oc 'AUFRUFE' /tmp/aufrufe.html)
             lc=$(grep -oc 'aufrufe' /tmp/aufrufe.html)
             ce=$(grep -oc 'counters\.js' /tmp/aufrufe.html)
-            wc=$(grep -oc 'hellmuth-counters' /tmp/aufrufe.html)
             short=$(echo "$url" | sed 's|https://hellmuth-soda.de||')
             echo "  $short"
-            echo "    AUFRUFE:               $uc (erwartet 0)"
-            echo "    aufrufe:               $lc (erwartet 0)"
-            echo "    counters.js-Script:    $ce (erwartet 0)"
-            echo "    hellmuth-counters URL: $wc (erwartet 0)"
-            if [ "$uc" != "0" ] || [ "$lc" != "0" ] || [ "$ce" != "0" ] || [ "$wc" != "0" ]; then
+            echo "    AUFRUFE (sichtbar):    $uc (erwartet 0)"
+            echo "    aufrufe (sichtbar):    $lc (erwartet 0)"
+            echo "    counters.js-Script:    $ce (Restore: erwartet >=1 auf / und Detailseiten)"
+            if [ "$uc" != "0" ] || [ "$lc" != "0" ]; then
               aufrufe_fail=$((aufrufe_fail + 1))
             fi
           done
           echo ""
-          echo "AUFRUFE-WELLE SUMMARY: $aufrufe_fail URL(s) mit Abweichung"
+          echo "AUFRUFE-ANZEIGE SUMMARY: $aufrufe_fail URL(s) mit sichtbarer Aufruf-Zahl (erwartet 0)"
+          echo ""
+          echo "==============================================="
+          echo "AUFRUFE-ANZEIGE-ZURUECK: Sort-UI + Counter-Wiring (Korrektur-Welle)"
+          echo "==============================================="
+          # b) Sort-Dropdown: Meistgelesen + Neueste beide vorhanden
+          curl -sS -A "$UA" -H "Cache-Control: no-cache" -o /tmp/home.html "https://hellmuth-soda.de/?bust=$(date +%s)"
+          echo "  Startseite data-sort Neueste:      $(grep -oc 'data-sort=\"neueste\"' /tmp/home.html) (erwartet >=1)"
+          echo "  Startseite data-sort Meistgelesen: $(grep -oc 'data-sort=\"meistgelesen\"' /tmp/home.html) (erwartet >=1)"
+          echo "  Startseite Label Meistgelesen:     $(grep -oc 'Meistgelesen' /tmp/home.html) (erwartet >=1)"
+          echo "  Startseite Label Neueste:          $(grep -oc 'Neueste' /tmp/home.html) (erwartet >=1)"
+          echo "  Startseite counters.js-Script:     $(grep -oc 'counters\.js' /tmp/home.html) (erwartet >=1)"
+          # c) Counter-Wiring im ausgelieferten JS (Network-Trace-Äquivalent)
+          curl -sS -A "$UA" -o /tmp/c-news.js     "https://hellmuth-soda.de/news/news.js?bust=$(date +%s)"
+          curl -sS -A "$UA" -o /tmp/c-detail.js   "https://hellmuth-soda.de/news/detail.js?bust=$(date +%s)"
+          curl -sS -A "$UA" -o /tmp/c-counters.js "https://hellmuth-soda.de/news/counters.js?bust=$(date +%s)"
+          echo "  news.js Counters.getCounts:    $(grep -oc 'Counters.getCounts' /tmp/c-news.js) (erwartet >=1 — Listing triggert getCounts)"
+          echo "  detail.js Counters.view:       $(grep -oc 'Counters.view' /tmp/c-detail.js) (erwartet >=1 — Detail triggert view)"
+          echo "  counters.js Worker-Endpoint:   $(grep -oc 'hellmuth-counters' /tmp/c-counters.js) (erwartet >=1)"
+          echo "  counters.js getCounts/bump:    $(grep -oc 'getCounts' /tmp/c-counters.js)/$(grep -oc 'function bump' /tmp/c-counters.js) (erwartet >=1 / >=1)"
           echo ""
           echo "==============================================="
           echo "EDGE-CACHE-DIAGNOSE: Magnesium ±Bust gegen Live"

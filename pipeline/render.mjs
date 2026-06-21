@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=6" />
+  <link rel="stylesheet" href="../../news.css?v=7" />
 </head>
 <body>
   <header class="top">
@@ -354,7 +354,8 @@ ${seoHead(rec)}
   <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../../../site.js?v=7"></script>
   <script src="../../../search.js?v=3"></script>
-  <script src="../../detail.js?v=2"></script>
+  <script src="../../counters.js?v=2"></script>
+  <script src="../../detail.js?v=3"></script>
 </body>
 </html>
 `;
@@ -385,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=6" />
+  <link rel="stylesheet" href="../../news.css?v=7" />
 </head>
 <body>
   <header class="nav">
@@ -414,7 +415,8 @@ ${seoHead(rec)}
     </article>
   </main>
 
-  <script src="../../detail.js?v=2"></script>
+  <script src="../../counters.js?v=2"></script>
+  <script src="../../detail.js?v=3"></script>
 
   <footer class="site-foot">
     <div class="foot-inner">
@@ -660,7 +662,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=6" />
+  <link rel="stylesheet" href="../../news/news.css?v=7" />
 </head>
 <body>
   <header class="top">
@@ -699,7 +701,7 @@ ${ldJson}
   <footer><a href="../../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../../site.js?v=7"></script>
   <script src="../../search.js?v=3"></script>
-  <script src="../../news/detail.js?v=2"></script>
+  <script src="../../news/detail.js?v=3"></script>
 </body>
 </html>
 `;

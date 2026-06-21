@@ -1,11 +1,15 @@
 // /news-Übersicht: Rubrik-Filter (Alle / HELLMUTH / Forschung), chronologisch.
 // Zusätzlich:
 //  - "Klartext der Woche"-Sektion aus config/featured.json (manuell kuratiert)
+//  - Sortierung "Neueste" (Default) oder "Meistgelesen" (View-Counts vom Worker).
+//    Die View-Counts steuern NUR die Sortierung; sie werden nicht je Karte
+//    angezeigt (keine "X Aufrufe"-Eyebrow).
 //  - Pagination: max. 20 Items pro Seite, Seitenzahlen + Vor/Zurück (clientseitig)
 (() => {
   const data = window.NEWS_DATA || { hellmuth: [], science: [] };
   const listEl = document.getElementById('news-list');
   const filterEl = document.getElementById('news-filter');
+  const sortEl = document.getElementById('news-sort');
   const pagerEl = document.getElementById('news-pagination');
   if (!listEl) return;
 
@@ -22,7 +26,13 @@
 
   const readingLabel = (m) => (!m || m < 1 ? 'unter 1 Min.' : m + ' Min.');
 
-  // Eine Meta-Zeile: Rubrik · Datum · Lesezeit (· Preprint-Tag bei Bedarf).
+  // Globale View-Map (rubrik/slug -> n), wird von Counters.getCounts gefüllt.
+  // Nur für die "Meistgelesen"-Sortierung; bewusst NICHT in der Karte sichtbar.
+  let viewMap = {};
+  const idOf = (it) => `${it.rubrik}/${it.slug}`;
+
+  // Eine Meta-Zeile: Rubrik · Datum · Lesezeit (Preprint-Tag bei Bedarf).
+  // Kein Aufruf-Zähler in der Eyebrow (Anzeige bleibt entfernt).
   const card = (it) => `
     <li class="news-card">
       <a class="news-card-link" href="${esc(it.href)}">
@@ -35,12 +45,18 @@
     </li>`;
 
   let currentFilter = 'all';
+  let currentSort = 'neueste';
   let currentPage = 1;
 
-  const currentItems = () => {
-    const list = currentFilter === 'all' ? all : all.filter((x) => x.rubrik === currentFilter);
-    return list.slice().sort(byCreated);
+  const sortItems = (items) => {
+    if (currentSort === 'meistgelesen') {
+      return items.slice().sort((a, b) => (viewMap[idOf(b)] || 0) - (viewMap[idOf(a)] || 0) || byCreated(a, b));
+    }
+    return items.slice().sort(byCreated);
   };
+
+  const currentItems = () =>
+    sortItems(currentFilter === 'all' ? all : all.filter((x) => x.rubrik === currentFilter));
 
   // Kompakte Seitenliste: 1 … (p-1) p (p+1) … last. Lücken als 'gap'.
   const pageSequence = (page, pages) => {
@@ -91,15 +107,30 @@
         b.setAttribute('aria-pressed', b.dataset.filter === currentFilter ? 'true' : 'false')
       );
     }
+    if (sortEl) {
+      sortEl.querySelectorAll('[data-sort]').forEach((a) =>
+        a.setAttribute('aria-pressed', a.dataset.sort === currentSort ? 'true' : 'false')
+      );
+    }
     renderPagination(pages);
   };
 
-  // Filter setzt die Seite zurueck auf 1.
+  // Filter/Sortierung setzen die Seite zurueck auf 1.
   if (filterEl) {
     filterEl.addEventListener('click', (ev) => {
       const b = ev.target.closest('button[data-filter]');
       if (!b) return;
       currentFilter = b.dataset.filter;
+      currentPage = 1;
+      render();
+    });
+  }
+  if (sortEl) {
+    sortEl.addEventListener('click', (ev) => {
+      const a = ev.target.closest('[data-sort]');
+      if (!a) return;
+      ev.preventDefault();
+      currentSort = a.dataset.sort;
       currentPage = 1;
       render();
     });
@@ -120,6 +151,16 @@
   }
 
   render();
+
+  // View-Counts asynchron nachladen und (falls "Meistgelesen" aktiv) die
+  // Sortierung aktualisieren. Rein für die Sortierung — keine Karten-Anzeige.
+  if (window.Counters && all.length) {
+    Counters.getCounts(all.map(idOf)).then(({ views }) => {
+      if (!views) return;
+      viewMap = views;
+      render();
+    });
+  }
 
   // ---- Klartext der Woche (manuell kuratiert) -----------------------------
   // config/featured.json: Array von Slugs (oder { items: [...] }). Leeres

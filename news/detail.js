@@ -1,6 +1,9 @@
-// Detailseiten-Interaktion: Like (einmal pro Browser, lokal persistiert),
-// Teilen (navigator.share, sonst Clipboard). Counter-Worker wird nicht
-// mehr getriggert — kein View-Ping, kein getCounts-Aggregat-Read.
+// Detailseiten-Interaktion: Aufruf zählen (View-Ping an den Counter-Worker,
+// einmal pro Browser-Session, OHNE sichtbare Zahl), Like (einmal pro Browser,
+// lokal persistiert), Teilen (navigator.share, sonst Clipboard).
+// Der View-Ping läuft nur, wenn window.Counters geladen ist (news/counters.js);
+// die Aufruf-Zahl wird bewusst nicht angezeigt, sie speist nur die
+// "Meistgelesen"-Sortierung im Listing.
 (() => {
   const bar = document.querySelector('.news-actions');
   if (!bar) return;
@@ -28,6 +31,20 @@
     }
   };
   setHeart();
+
+  // Aufruf zählen: einmal pro Browser-Session pro Artikel (sessionStorage gegen
+  // Reload-Inflation), serverseitig als Gesamtzahl persistiert. KEINE Anzeige —
+  // der Wert speist ausschließlich die "Meistgelesen"-Sortierung im Listing.
+  if (window.Counters) {
+    const viewedKey = 'hl-viewed:' + id;
+    let counted = false;
+    try { counted = sessionStorage.getItem(viewedKey) === '1'; } catch {}
+    if (!counted) {
+      Counters.view(id).then(() => {
+        try { sessionStorage.setItem(viewedKey, '1'); } catch {}
+      });
+    }
+  }
 
   if (likeBtn) {
     likeBtn.addEventListener('click', () => {
