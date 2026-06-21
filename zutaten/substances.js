@@ -1115,7 +1115,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "L-Theanin",
       slug: "l-theanin",
-      szenario: 3,
+      szenario: 1,
       kategorie: "Aminosäure",
       unterkategorie: "Aminosäure",
       werbung: "Natürlicher Fokus-Booster aus grünem Tee. Der Koffein-Begleiter für entspannte Wachheit ohne Nebenwirkungen, sanft, sauber, biohacker-freundlich, ideal für den konzentrierten Bürotag.",
