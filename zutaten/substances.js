@@ -3040,7 +3040,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "Vitamin C",
       slug: "vitamin-c",
-      szenario: null,
+      szenario: 3,
       kategorie: "Vitamin",
       unterkategorie: "Vitamin",
       werbung: "Das Immunvitamin. Vitamin C als Allzweckwaffe gegen Erkältung, für Kollagen und als Antioxidans.",
