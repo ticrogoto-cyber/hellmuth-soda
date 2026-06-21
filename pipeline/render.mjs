@@ -507,13 +507,109 @@ function substanceJsonLd(entry, canonical) {
   return JSON.stringify(ld, null, 2).replace(/</g, '\\u003c');
 }
 
+// ── Absatz-Architektur-Heuristik für Wirkungstext ──────────
+// Source-`\n\n`-Splits sind authoritativ. Pro Source-Absatz wird
+// zusätzlich gesplittet:
+//
+//  a) vor Pflicht-Markern als Satzanfang, wenn der Absatz > 600 Z
+//     ist (Längen-Gate Sektion 8 der Setup-Doku);
+//  b) vor und nach Klein-Start-Fragment-Pointen (Quell-Stilfigur:
+//     Punkt + kleingeschriebener Aphorismus-Satz mitten im Block);
+//  c) am Ende: letzter kurzer Satz < 150 Z mit Aphorismus-Pattern
+//     wird als eigener Pointenabsatz isoliert.
+
+export const PFLICHT_MARKER = [
+  /^Wer /,
+  /^Im Marketing\b/, /^In der Werbung\b/,
+  /^Im Patientenalltag\b/, /^In der Praxis\b/,
+  /^Pharmakologisch\b/, /^Klinisch\b/, /^Klinische /,
+  /^Dass /, /^Allerdings\b/,
+  /^Aber /, /^Bei /, /^Was /,
+  /^Demgegenüber\b/,
+  /^Konkret\b/, /^Im Detail\b/,
+  /^Daneben\b/, /^Dagegen\b/, /^Stattdessen\b/,
+  /^Tagesdosis\b/, /^Hinzu kommt\b/, /^Zusätzlich\b/,
+  /^Studien /, /^Eine randomisierte/, /^Doppelblinde/,
+  /^Über /, /^Ohne /,
+];
+
+// Aphorismus-Pattern enger gefasst (Subagent C Review): nur Verdikt-
+// Whitelist, sonst False Positives bei Mechanik-Sätzen wie "X ist
+// Kofaktor der Cytochrom-c-Oxidase".
+const APHORISMUS_PATTERN = [
+  /\bist (Marketing|Pharmakologie|Medizin|Therapie|Notlösung|Dekoration|Pflicht|Hammer|Biochemie|der Punkt|das Problem|akut|kurz|real|verstanden)\b/i,
+  /^(Das|Sie|Es|Der|Die Substanz|Das Mittel|Alles andere|Genau das|Was übrig bleibt)\b/,
+  /^Wer /,
+];
+
+function splitSentences(text) {
+  return text.split(/(?<=[.!?])\s+/).filter(Boolean);
+}
+
+function autoSplitParagraph(para) {
+  const sentences = splitSentences(para);
+  if (sentences.length < 2) return [para];
+  const longGate = para.length > 600;
+  const groups = [];
+  let buf = [];
+  for (const s of sentences) {
+    if (buf.length > 0) {
+      // Klein-Start-Fragment-Pointen werden immer isoliert (Quell-Stilfigur).
+      if (/^[a-zäöüß]/.test(s)) {
+        groups.push(buf.join(' '));
+        groups.push(s);
+        buf = [];
+        continue;
+      }
+      // Pflicht-Marker greifen nur, wenn Absatz das Längen-Gate übertritt.
+      if (longGate && PFLICHT_MARKER.some(re => re.test(s))) {
+        groups.push(buf.join(' '));
+        buf = [s];
+        continue;
+      }
+    }
+    buf.push(s);
+  }
+  if (buf.length > 0) groups.push(buf.join(' '));
+  return groups;
+}
+
+function isolatePointeFromParagraph(para) {
+  const sentences = splitSentences(para);
+  if (sentences.length < 2) return [para];
+  const lastSent = sentences[sentences.length - 1];
+  if (lastSent.length >= 150) return [para];
+  const remainder = sentences.slice(0, -1).join(' ');
+  if (!remainder) return [para];
+  const isAphorismus = APHORISMUS_PATTERN.some(re => re.test(lastSent));
+  if (!isAphorismus) return [para];
+  return [remainder, lastSent];
+}
+
+export function splitWirkungForRender(wirkungRaw) {
+  if (!wirkungRaw) return [];
+  const sourceParas = String(wirkungRaw).trim().split(/\n{2,}/).filter(Boolean);
+  let result = sourceParas.flatMap(autoSplitParagraph);
+  if (result.length > 0) {
+    const last = result[result.length - 1];
+    if (last.length >= 200) {
+      const isolated = isolatePointeFromParagraph(last);
+      if (isolated.length > 1) {
+        result = [...result.slice(0, -1), ...isolated];
+      }
+    }
+  }
+  return result;
+}
+
 function substanceDetailHtml(entry) {
   const canonical = `${SITE}/zutaten/${entry.slug}/`;
-  // Wirkung: Absätze trennen via \n\n. Erster Absatz bekommt Label-Em.
+  // Wirkung: Absätze trennen via splitWirkungForRender (Source-\n\n plus
+  // Heuristik-Splits an Pflicht-Markern, Klein-Start-Fragment-Pointen
+  // und Aphorismus-Pointe am Absatz-Ende). Erster Absatz bekommt Label-Em.
   const wirkungRaw = String(entry.wirkung || '').trim();
   const wirkungParas = wirkungRaw
-    ? wirkungRaw
-        .split(/\n{2,}/)
+    ? splitWirkungForRender(wirkungRaw)
         .map((p, idx) => {
           const safe = esc(p);
           if (idx === 0) {
@@ -563,7 +659,7 @@ function substanceDetailHtml(entry) {
 ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
-  <link rel="stylesheet" href="../zutaten.css?v=26" />
+  <link rel="stylesheet" href="../zutaten.css?v=27" />
   <link rel="stylesheet" href="../../news/news.css?v=6" />
 </head>
 <body>
