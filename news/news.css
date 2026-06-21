@@ -90,46 +90,8 @@
 .news-featured .news-card-title { font-size: clamp(1.5rem, 2.8vw, 2rem); }
 .news-featured .news-lead { font-size: clamp(1.1rem, 1.7vw, 1.3rem); }
 
-/* ── Sort-Toggle (Neueste / Meistgelesen) — stilsichere Typografie ─
-   Versalien in Fournier Pro, kein Button-Optik, Mittelpunkt-Trenner,
-   Letter-Spacing 0.14em (Spec 0.1-0.15em). Aktive Option durch
-   Akzentfarbe plus dezente Unterstreichung. */
-.sort-toggle {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5em;
-  justify-content: center;
-  align-items: baseline;
-  margin: 1.75rem 0 3rem;
-}
-.sort-toggle__option {
-  appearance: none;
-  background: transparent;
-  border: 0;
-  padding: 0;
-  font-family: 'Fournier Pro', serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--muted);
-  cursor: pointer;
-  transition: color 0.12s;
-  text-decoration: none;
-}
-.sort-toggle__option:hover {
-  color: var(--ink);
-}
-.sort-toggle__option[aria-pressed="true"] {
-  color: var(--ink);
-  text-decoration: underline;
-  text-underline-offset: 0.32em;
-  text-decoration-thickness: 1px;
-}
-.sort-toggle__sep {
-  font-family: 'Fournier Pro', serif;
-  color: var(--muted);
-  font-size: 0.95rem;
-  user-select: none;
+.sort-toggle, .sort-toggle__option, .sort-toggle__sep {
+  display: none !important;
 }
 
 /* ── Übersichtsliste ──────────────────────────────────────────────────── */
