@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=46" />
+  <link rel="stylesheet" href="../../news.css?v=47" />
 </head>
 <body>
   <header class="top">
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=46" />
+  <link rel="stylesheet" href="../../news.css?v=47" />
 </head>
 <body>
   <header class="nav">
@@ -657,7 +657,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=46" />
+  <link rel="stylesheet" href="../../news/news.css?v=47" />
 </head>
 <body>
   <header class="top">
@@ -795,7 +795,157 @@ export function buildZutaten() {
     written += 1;
   }
   buildZutatenIndex(entries);
-  return { entries, written };
+  const bildgebung = buildBildgebung();
+  return { entries, written, bildgebung };
+}
+
+// ---- Bildgebung: Artikel-Detailseiten + Listing-data.js -------------------
+
+// Liest zutaten/bildgebung/articles.js per vm.runInContext, gleicher
+// window-Shim wie für substances.js. Source of Truth für die Bildgebung-Rubrik.
+function readBildgebungArticles() {
+  const path = join(ROOT, 'zutaten', 'bildgebung', 'articles.js');
+  if (!existsSync(path)) return [];
+  const src = readFileSync(path, 'utf8');
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  const entries = (ctx.window.BILDGEBUNG_ARTICLES && ctx.window.BILDGEBUNG_ARTICLES.entries) || [];
+  const seen = new Set();
+  const out = [];
+  for (const e of entries) {
+    if (!e || !e.slug || seen.has(e.slug)) continue;
+    seen.add(e.slug);
+    out.push(e);
+  }
+  return out;
+}
+
+// Mini-Markdown: `## Heading` → <h2>, Leerzeile trennt Absätze. Reichen für
+// die strukturarmen Bodies aus den Bildgebung-Artikeln; kein voller MD-Parser.
+function mdToHtml(body) {
+  const blocks = String(body || '').trim().split(/\n{2,}/).filter(Boolean);
+  return blocks
+    .map((b) => {
+      const trimmed = b.trim();
+      if (trimmed.startsWith('## ')) {
+        return `<h2>${esc(trimmed.slice(3))}</h2>`;
+      }
+      return `<p>${esc(trimmed).replace(/\n/g, '<br />')}</p>`;
+    })
+    .join('\n        ');
+}
+
+const BILDGEBUNG_FILTER_LABEL_TO_KEY = {
+  Ruhe: 'ruhe', Klarheit: 'klarheit', Darm: 'darm', Zelle: 'zelle', Substanz: 'substanz',
+};
+
+function bildgebungDetailHtml(entry) {
+  const canonical = `${SITE}/zutaten/bildgebung/${entry.slug}/`;
+  const bodyHtml = mdToHtml(entry.body);
+  const quellen = Array.isArray(entry.quellen) ? entry.quellen.filter(Boolean) : [];
+  const quellenHtml = quellen.length
+    ? `        <h2>Quellen</h2>\n        <ol class="bildgebung-quellen">\n${quellen.map((q, i) => `          <li>${esc(q)}</li>`).join('\n')}\n        </ol>`
+    : '';
+  const filters = Array.isArray(entry.filter) ? entry.filter.filter(Boolean) : [];
+  const minutes = readingMinutes(entry.body);
+  const minutesLabel = readingLabel(minutes);
+  const eyebrow = [filters.join(' · '), entry.date, minutesLabel].filter(Boolean).join(' · ');
+  return `<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${esc(entry.titel)} — Bildgebung — Mut zur Klarheit</title>
+  <meta name="description" content="${esc(entry.lead)}" />
+  <link rel="canonical" href="${canonical}" />
+  <link rel="icon" href="/favicon.ico?v=9" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=9" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${esc(entry.titel)}" />
+  <meta property="og:description" content="${esc(entry.lead)}" />
+  <meta property="og:url" content="${canonical}" />
+  <meta property="og:site_name" content="Mut zur Klarheit" />
+  <meta property="og:image" content="${LOGO_URL}" />
+  <link rel="stylesheet" href="../../../styles.css?v=13" />
+  <link rel="stylesheet" href="../../../news/news.css?v=47" />
+  <link rel="stylesheet" href="../bildgebung.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="title"><span>Bildgebung</span><em data-tagline></em></div>
+    <a href="../../../" class="brand" aria-label="Hellmuth — Startseite"><img src="../../../hellmuth.png" alt="Hellmuth" /></a>
+    <form class="top-search" role="search" autocomplete="off">
+      <svg class="top-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/></svg>
+      <input type="search" placeholder="Suchen" aria-label="Site-Suche" />
+      <ul class="top-search-results" hidden></ul>
+    </form>
+    <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="menu" aria-hidden="true" aria-label="Hauptnavigation">
+      <a href="../../../">Start</a>
+      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../../quiz/">Quiz</a></li><li><a href="../../../vokabular/">Vokabular</a></li><li><a href="../../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
+      <a href="../../">Index</a>
+      <a href="../" class="is-active">Bildgebung</a>
+      <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Hausbesuch<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      <a href="../../../hellmuth/">Über</a>
+    </nav>
+  </header>
+
+  <main class="news-detail bildgebung-detail">
+    <article>
+      <p class="news-eyebrow">${esc(eyebrow)}</p>
+      <h1>${esc(entry.titel)}</h1>
+      <p class="news-lead">${esc(entry.lead)}</p>
+      <div class="bildgebung-body">
+        ${bodyHtml}
+${quellenHtml}
+      </div>
+      <p class="news-back"><a href="../">← Alle Bildgebung-Artikel</a></p>
+    </article>
+  </main>
+
+  <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
+  <script src="../../../site.js?v=7"></script>
+  <script src="../../../search.js?v=3"></script>
+</body>
+</html>
+`;
+}
+
+function bildgebungDataJs(entries) {
+  const items = entries.map((e) => {
+    const filters = (Array.isArray(e.filter) ? e.filter : [])
+      .map((f) => BILDGEBUNG_FILTER_LABEL_TO_KEY[f] || String(f).toLowerCase())
+      .filter(Boolean);
+    return {
+      href: `${e.slug}/`,
+      title: e.titel,
+      lead: e.lead,
+      date: e.date || '',
+      created: e.date || '',
+      minutes: readingMinutes(e.body),
+      filters,
+    };
+  });
+  return `// Auto-generated by pipeline/render.mjs. Quelle: zutaten/bildgebung/articles.js.\nwindow.BILDGEBUNG_DATA = ${JSON.stringify({ items }, null, 2)};\n`;
+}
+
+function buildBildgebung() {
+  const entries = readBildgebungArticles();
+  const dir = join(ROOT, 'zutaten', 'bildgebung');
+  mkdirSync(dir, { recursive: true });
+  let written = 0;
+  for (const entry of entries) {
+    const slugDir = join(dir, entry.slug);
+    mkdirSync(slugDir, { recursive: true });
+    writeFileSync(join(slugDir, 'index.html'), bildgebungDetailHtml(entry), 'utf8');
+    written += 1;
+  }
+  writeFileSync(join(dir, 'data.js'), bildgebungDataJs(entries), 'utf8');
+  return { entries: entries.length, written };
 }
 
 /**
