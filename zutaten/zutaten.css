@@ -442,7 +442,7 @@
   }
 }
 
-/* ── Actions-Bar im Detail: Like, Teilen, Aufrufe ─────────
+/* ── Actions-Bar im Detail: Like, Teilen ─────────
    Portiert aus news.css (.news-actions). Dezent, links
    ausgerichtet, Inline-SVGs erben currentColor. Etwa 24px
    Margin-Top für Atemraum nach der Wirkung. */
@@ -481,5 +481,3 @@
 .zutaten-detail .zutaten-like.is-liked { color: var(--zutaten-text-color); opacity: 1; }
 .zutaten-detail .zutaten-like.is-liked .zutaten-like-icon { color: var(--zutaten-text-color); }
 .zutaten-detail .zutaten-share.is-copied { color: var(--zutaten-text-color); opacity: 1; }
-.zutaten-detail .zutaten-views { cursor: default; }
-.zutaten-detail .zutaten-views[hidden] { display: none; }
