@@ -123,7 +123,8 @@
   color: var(--ink);
 }
 .sort-toggle__option[aria-pressed="true"] {
-  color: var(--muted);
+  color: var(--ink);
+  font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 0.28em;
   text-decoration-thickness: 1px;
