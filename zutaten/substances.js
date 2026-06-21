@@ -3185,6 +3185,7 @@ window.SUBSTANCES_DATA = {
       szenario: null,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
+      featured: true,
       werbung: "Duftende Teepflanze für Entspannung und Verdauung. Zitronenverbene als eleganter Kräutertee mit Zitrusaroma.",
       wirkung: "Zitronenverbene enthält Verbascoside, ein Phenylpropanoid mit dokumentierter antioxidativer und antiinflammatorischer Wirkung. Die antioxidative Kapazität im ORAC-Test übertrifft Grüntee.\n\nEine kontrollierte Studie an Sportlern zeigt unter Zitronenverbene-Extrakt signifikant reduzierte Marker für oxidativen Stress und Muskelschäden nach intensivem Training, ohne die Trainingsadaptation zu beeinträchtigen. Das unterscheidet Zitronenverbene von hochdosierten Vitamin-C- und -E-Supplementen, die die Trainingsanpassung blockieren können.\n\nDie schlaffördernde Wirkung ist empirisch breit belegt, kontrollierte Schlafstudien fehlen. In der französischen und spanischen Phytotherapie ist Verveine der traditionelle Abendtee.\n\nEin Tee, der Sportler schützt, ohne ihre Anpassung zu sabotieren. Das kann kein Antioxidans-Supplement.",
       quellen: ["Funes 2009"],
