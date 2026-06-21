@@ -132,44 +132,38 @@ jobs:
           echo "<p class=zutaten-line> (alle): $(grep -oc 'class="zutaten-line"' /tmp/ltheanin.html)"
           echo ""
           echo "==============================================="
-          echo "NACHZIEH-WELLE: 7 Stichproben-Fixes (Commit folgt)"
+          echo "STRING-EDIT-WELLE: 12 Pflicht-Phrasen (slug|needle|expected)"
           echo "==============================================="
-          for slug needle in \
-            "hopfen|Dass die Monotherapie-Evidenz" \
-            "brennnessel|Die Forschung läuft" \
-            "vitamin-c|Wer Osteopenie hat" \
-            "aktivkohle|Der Smoothie kennt keine Indikation" \
-            "magnesium|Das Etikett verrät davon nichts" \
-            "sulforaphan|Das Problem liegt in der Bioverfügbarkeit" \
-            "vitamin-c|Nur der Verabreichungsweg war falsch" \
-            "l-theanin|Schlaf, den du dir einredest" \
-            "brennnessel|Quellen:" \
-            "aktivkohle|Quellen:" \
-            "magnesium|Slutsky 2010" \
-            "magnesium|Gerechtfertigte Indikation"; do
-            # Parse slug|needle via IFS-split nicht möglich in for, daher anders:
-            true
-          done
-          # Korrekte Bash-Schleife:
-          while IFS='|' read -r slug needle; do
-            curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/$slug/?nocache=$(date +%s)" \
-              -H "Cache-Control: no-cache" > /tmp/probe.html
+          probes=(
+            "bacillus-coagulans|und Backofen.|1"
+            "bacillus-coagulans|Das ist Biochemie|0"
+            "aktivkohle|Der Smoothie kennt keine Indikation|1"
+            "magnesium|Gerechtfertigte Indikation|1"
+            "magnesium|Das Etikett verrät davon nichts|1"
+            "magnesium|Slutsky 2010|1"
+            "sulforaphan|Das Problem liegt in der Bioverfügbarkeit. Aktive Myrosinase|1"
+            "l-theanin|Sie wurde nicht klinisch belegt, sondern aus einem Hirnstrom-Diagramm|1"
+            "l-theanin|Schlaf, den du dir einredest|1"
+            "hopfen|Dass die Monotherapie-Evidenz|1"
+            "brennnessel|Die Wurzel macht die Prostata|1"
+            "brennnessel|Riehemann 1999|1"
+          )
+          fail=0
+          for probe in "${probes[@]}"; do
+            IFS='|' read -r slug needle expected <<< "$probe"
+            curl -sS -A "$UA" -H "Cache-Control: no-cache" \
+              "https://hellmuth-soda.de/zutaten/$slug/?bust=$(date +%s)" > /tmp/probe.html
             count=$(grep -oc "$needle" /tmp/probe.html)
-            echo "  [$count] $slug: '$needle'"
-          done <<'EOL'
-hopfen|Dass die Monotherapie-Evidenz
-brennnessel|Die Forschung läuft
-vitamin-c|Wer Osteopenie hat
-aktivkohle|Der Smoothie kennt keine Indikation
-magnesium|Das Etikett verrät davon nichts
-sulforaphan|Das Problem liegt in der Bioverfügbarkeit
-vitamin-c|Nur der Verabreichungsweg war falsch
-l-theanin|Schlaf, den du dir einredest
-brennnessel|Quellen:
-aktivkohle|Quellen:
-magnesium|Slutsky 2010
-magnesium|Gerechtfertigte Indikation
-EOL
+            if [ "$count" = "$expected" ]; then
+              mark="✓"
+            else
+              mark="✗"
+              fail=$((fail + 1))
+            fi
+            echo "  $mark [$count/$expected] $slug: '$needle'"
+          done
+          echo ""
+          echo "STRING-EDIT-WELLE SUMMARY: $fail Abweichungen"
           echo ""
           echo "==============================================="
           echo "CACHE-BUST STAND auf Listing"
