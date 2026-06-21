@@ -31,4 +31,4 @@ Der Abend trägt eine Frage, die selten ausgesprochen wird, und der Körper antw
 
 Im Magen entfaltet sich eine zweite Spur. Kohlensäure öffnet die Wahrnehmung für das Volumen des Augenblicks (2). Die Flüssigkeit dehnt, die Dehnung meldet, und die Meldung erreicht jene Zentren, in denen Ruhe als Information behandelt wird. Nichts davon geschieht laut. Es geschieht in einem Register, das ohne Worte auskommt und gerade deshalb verlaesslich bleibt.
 
-Was bleibt, ist eine Stille, die nicht abwesend ist sondern anwesend, eine Stille, die etwas sagt, ohne zu sprechen.
+Was bleibt, ist eine anwesende Stille, die etwas sagt, ohne zu sprechen.
