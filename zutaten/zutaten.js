@@ -97,11 +97,78 @@
     }
   };
 
+  // ── Absatz-Architektur-Heuristik (Spiegel zu pipeline/render.mjs splitWirkungForRender)
+  const PFLICHT_MARKER = [
+    /^Wer /, /^Im Marketing\b/, /^In der Werbung\b/, /^Im Patientenalltag\b/,
+    /^In der Praxis\b/, /^Pharmakologisch\b/, /^Klinisch\b/, /^Klinische /,
+    /^Dass /, /^Allerdings\b/, /^Aber /, /^Bei /, /^Was /,
+    /^Demgegenüber\b/, /^Konkret\b/, /^Im Detail\b/,
+    /^Daneben\b/, /^Dagegen\b/, /^Stattdessen\b/,
+    /^Tagesdosis\b/, /^Hinzu kommt\b/, /^Zusätzlich\b/,
+    /^Studien /, /^Eine randomisierte/, /^Doppelblinde/,
+    /^Über /, /^Ohne /,
+  ];
+  const APHORISMUS_PATTERN = [
+    /\bist (Marketing|Pharmakologie|Medizin|Therapie|Notlösung|Dekoration|Pflicht|Hammer|Biochemie|der Punkt|das Problem|akut|kurz|real|verstanden)\b/i,
+    /^(Das|Sie|Es|Der|Die Substanz|Das Mittel|Alles andere|Genau das|Was übrig bleibt)\b/,
+    /^Wer /,
+  ];
+  const splitSentences = (text) => text.split(/(?<=[.!?])\s+/).filter(Boolean);
+  const autoSplitParagraph = (para) => {
+    const sentences = splitSentences(para);
+    if (sentences.length < 2) return [para];
+    const longGate = para.length > 600;
+    const groups = [];
+    let buf = [];
+    for (const s of sentences) {
+      if (buf.length > 0) {
+        if (/^[a-zäöüß]/.test(s)) {
+          groups.push(buf.join(' '));
+          groups.push(s);
+          buf = [];
+          continue;
+        }
+        if (longGate && PFLICHT_MARKER.some(re => re.test(s))) {
+          groups.push(buf.join(' '));
+          buf = [s];
+          continue;
+        }
+      }
+      buf.push(s);
+    }
+    if (buf.length > 0) groups.push(buf.join(' '));
+    return groups;
+  };
+  const isolatePointe = (para) => {
+    const sentences = splitSentences(para);
+    if (sentences.length < 2) return [para];
+    const lastSent = sentences[sentences.length - 1];
+    if (lastSent.length >= 150) return [para];
+    const remainder = sentences.slice(0, -1).join(' ');
+    if (!remainder) return [para];
+    if (!APHORISMUS_PATTERN.some(re => re.test(lastSent))) return [para];
+    return [remainder, lastSent];
+  };
+  const splitWirkungForRender = (raw) => {
+    if (!raw) return [];
+    const sourceParas = String(raw).trim().split(/\n{2,}/).filter(Boolean);
+    let result = sourceParas.flatMap(autoSplitParagraph);
+    if (result.length > 0) {
+      const last = result[result.length - 1];
+      if (last.length >= 200) {
+        const isolated = isolatePointe(last);
+        if (isolated.length > 1) {
+          result = [...result.slice(0, -1), ...isolated];
+        }
+      }
+    }
+    return result;
+  };
+
   // ── Detail-Bereich, inline nach der Reihe der geklickten Kachel ────
   const renderDetailContent = (entry) => {
     const link = buildLinkifier(entry.name);
-    const wirkungParas = (entry.wirkung || '')
-      .split(/\n\n+/)
+    const wirkungParas = splitWirkungForRender(entry.wirkung || '')
       .map((p, i) => {
         const label = i === 0 ? '<em class="zutaten-field-label">Wirkung:</em> ' : '';
         return `<p class="zutaten-line">${label}${link(p)}</p>`;

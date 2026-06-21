@@ -229,6 +229,64 @@ jobs:
           fi
           echo ""
           echo "==============================================="
+          echo "RENDERER-AUDIT-WELLE: 10 Substanzen p-Tag-Min-Counts"
+          echo "==============================================="
+          renderer_probes=(
+            "curcumin-kurkuma|3"
+            "magnesium|4"
+            "vitamin-c|4"
+            "hopfen|3"
+            "brennnessel|3"
+            "sulforaphan|3"
+            "aktivkohle|2"
+            "l-theanin|4"
+            "bacillus-coagulans|3"
+            "andorn-marrubium-vulgare|2"
+          )
+          renderer_fail=0
+          for probe in "${renderer_probes[@]}"; do
+            IFS='|' read -r slug min_p <<< "$probe"
+            curl -sS -A "$UA" -H "Cache-Control: no-cache" \
+              "https://hellmuth-soda.de/zutaten/$slug/?bust=$(date +%s)" > /tmp/renderer-probe.html
+            count=$(grep -oc 'class="zutaten-line"' /tmp/renderer-probe.html)
+            if [ "$count" -ge "$min_p" ]; then
+              mark="✓"
+            else
+              mark="✗"
+              renderer_fail=$((renderer_fail + 1))
+            fi
+            echo "  $mark [$count/min $min_p] $slug zutaten-line"
+          done
+          echo ""
+          echo "--- VERIFIKATIONS-DOPPELLAYER: ±Bust-Drift für 3 Substanzen ---"
+          drift_probes=(
+            "curcumin-kurkuma"
+            "magnesium"
+            "sulforaphan"
+          )
+          drift_fail=0
+          for slug in "${drift_probes[@]}"; do
+            curl -sS -A "$UA" -H "Cache-Control: no-cache" \
+              "https://hellmuth-soda.de/zutaten/$slug/?bust=$(date +%s)" > /tmp/renderer-bust.html
+            curl -sS -A "$UA" \
+              "https://hellmuth-soda.de/zutaten/$slug/" > /tmp/renderer-plain.html
+            bust_count=$(grep -oc 'class="zutaten-line"' /tmp/renderer-bust.html)
+            plain_count=$(grep -oc 'class="zutaten-line"' /tmp/renderer-plain.html)
+            if [ "$bust_count" = "$plain_count" ]; then
+              mark="✓"
+              note="konsistent"
+            else
+              mark="✗"
+              note="EDGE-CACHE-DRIFT (Edge hält alte Version)"
+              drift_fail=$((drift_fail + 1))
+            fi
+            echo "  $mark $slug: bust=$bust_count plain=$plain_count → $note"
+          done
+          echo ""
+          renderer_total=$((renderer_fail + drift_fail))
+          echo "RENDERER-AUDIT-WELLE SUMMARY: $renderer_fail p-Tag-Unterschreitungen, $drift_fail Drift-Fälle, $renderer_total Abweichungen total"
+          echo ""
+          echo "==============================================="
           echo "CACHE-BUST STAND auf Listing"
           echo "==============================================="
           curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'zutaten\.css\?v=[0-9]+|zutaten\.js\?v=[0-9]+|search\.js\?v=[0-9]+' | sort -u
