@@ -1963,7 +1963,7 @@ window.SUBSTANCES_DATA = {
       name: "Mariendistel / Silymarin",
       slug: "mariendistel-silymarin",
       shortName: "Mariendistel",
-      szenario: 3,
+      szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Samen",
       werbung: "Pflanzlicher Leberschutz Nummer Eins. Mariendistel-Extrakt für Leberzellregeneration und Entgiftung.",
