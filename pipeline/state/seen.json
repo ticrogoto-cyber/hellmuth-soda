@@ -50,14 +50,6 @@
       "score": 8,
       "published": true
     },
-    "9b96426327576769b0c99855ca1aa2cd0e706372367914c82bbf66fa32fbbc66": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.06.04.26354928v1?rss=1",
-      "date": "2026-06-14",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-21T23:40:58.681Z"
-    },
     "f0e3b18e5db754a17a8648b0fa33e554fb3942710164571dc361e22115cc28bd": {
       "url": "https://www.medrxiv.org/content/10.64898/2026.06.03.26354754v1?rss=1",
       "date": "2026-06-07",
@@ -581,22 +573,6 @@
       "score": 8,
       "published": true
     },
-    "3b021a59b0fb06ccc0b1edcd1ec9a8afa2351d347655b4f0ce2605a869a3610c": {
-      "url": "https://www.minimeinsights.com/2026/06/14/salad-factory-and-heinz-elevate-game-day-dining-with-the-heinz-dipper/",
-      "date": "2026-06-14",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-06-21T23:40:37.246Z"
-    },
-    "253f6c8a1125ae0b4d3c3ca6c4703c7055ad4743ae253f90aea1fc8505d5b975": {
-      "url": "https://www.minimeinsights.com/2026/06/14/chagee-brews-compassion-with-every-cup-for-pet-parents-and-animal-lovers/",
-      "date": "2026-06-14",
-      "rubrik": "hellmuth",
-      "score": 4,
-      "dropped": "low-relevance",
-      "expires": "2026-06-21T23:40:39.747Z"
-    },
     "1ab36be4a971e568cff22835ead5318e93ae0cb878c84efbbe900a7717fbf89c": {
       "url": "https://www.minimeinsights.com/2026/06/14/clp-transforms-thai-rice-into-a-wellness-drink-with-sisod-rice-milk/",
       "date": "2026-06-14",
@@ -604,36 +580,12 @@
       "score": 7,
       "published": true
     },
-    "0c9028a4e9ee8f832df60452927656e6bd5edbf1debf0f990a5f1ab7d7501432": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731759v1?rss=1",
-      "date": "2026-06-14",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-21T23:41:02.377Z"
-    },
-    "49295e7b74fc31b6a251247244879a918eae63f5ad14d24064a134651261e3ef": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731654v1?rss=1",
-      "date": "2026-06-14",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-21T23:41:04.700Z"
-    },
     "d760b34e3a599d75e3e187949fa4830698acd9665ed2389cf9ad5c7a9160ff2e": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731621v1?rss=1",
       "date": "2026-06-14",
       "rubrik": "science",
       "score": 9,
       "published": true
-    },
-    "fcd6a852ccec590ca7b675c80a238b6e768ea9bb371edbc361916fab3b84398a": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731929v1?rss=1",
-      "date": "2026-06-14",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-06-21T23:41:19.643Z"
     },
     "cad21dd847d539a26b6e26b6fe1dc5af4bcb97919b51e51c89eac9d5358be721": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732018v1?rss=1",
@@ -3563,6 +3515,283 @@
       "rubrik": "science",
       "score": 9,
       "published": true
+    },
+    "39bb2e586bcafed0830189d80ecd0ddab65dd457791b39d6d3b7a80fb4988a8d": {
+      "url": "https://www.thedrinksbusiness.com/2026/06/helene-darroze-at-the-connaught-launches-new-a-la-carte-menu/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:02.150Z"
+    },
+    "d82f56183c3052f0ac7a5828aee3742ba9960190d9602af9bcc5eb985fdb8d59": {
+      "url": "https://foodbeverageasia.com/pre-register-now-for-interpack-china-2026-form-your-delegation-to-unlock-exclusive-vip-perks/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:08.375Z"
+    },
+    "16505aa0fe8931d12338a8fcbe28be3c06ae47095df2d32724ece6935e6d522d": {
+      "url": "https://foodbeverageasia.com/aaks-new-cocoa-butter-equivalent-overcomes-enrobing-challenges-even-when-used-at-high-levels/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:10.681Z"
+    },
+    "9dc892fdce46cfc80c9908a3dfbc6d736ead8d8f69f8812f6c929a74cc1cc269": {
+      "url": "https://foodbeverageasia.com/epax-cetoleic-2040-reduces-ldl-cholesterol-in-overweight-adults-clinical-trial-finds/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:12.853Z"
+    },
+    "54df353c2c1c3b6a6a2d5146d6fffd25f359df0c9bc4b85c2444c641bbb23963": {
+      "url": "https://foodbeverageasia.com/snackmaxx-masa-flours-authentic-corn-flavour-and-process-reliability-for-snack-applications/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:15.720Z"
+    },
+    "50906e5b84e5cec717fb8a3f4ee5894a94accb9c55e9cb4e1f23a78f98f401d8": {
+      "url": "https://foodbeverageasia.com/bharadhwaj-bharat-ramamoorthy-takes-charge-at-bgg-europe-and-international-division-amid-global-growth-plans/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:18.209Z"
+    },
+    "982fb0d91ad7e9c64db10115a9218b83c4640a644365e5cf82dcacdc23e16ae7": {
+      "url": "https://foodbeverageasia.com/delivering-success-the-6-keystones-of-client-satisfaction/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:20.521Z"
+    },
+    "adf09a3371d151908f3369af934113ad82aa6df8678274c3e79ad8ab424afcb1": {
+      "url": "https://foodbeverageasia.com/connecting-global-resources-and-deepening-presence-in-the-greater-bay-area-market-the-fifth-world-food-shenzhen-expo-concludes-successfully/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:22.843Z"
+    },
+    "698723f65142fd8675e629684f1519eabc5ae71a270f4b4aef9a5a9ca6e0aa81": {
+      "url": "https://foodbeverageasia.com/hrs-to-showcase-complete-pasteurisation-solutions-at-propak-asia-2026/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:25.321Z"
+    },
+    "799af3dbc4555d2036eb3685bff37f3f852b4b140db08cbc51265c863b2ceecb": {
+      "url": "https://foodbeverageasia.com/tna-unveils-next-leap-for-iconic-robag-packaging-system/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:27.077Z"
+    },
+    "d03781597efa34d0bb23e4eb69f5c458dd31fec8b89fd26b713fd340ebb2aad3": {
+      "url": "https://foodbeverageasia.com/robobox-synflow%ef%bc%9afirst-ever-use-of-robotics-for-container-distribution/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:29.132Z"
+    },
+    "c53d4cef8325f547c3237f646bb6d8191a97d930999faa06240a9d69bd3c100f": {
+      "url": "https://www.minimeinsights.com/2026/06/21/plantae-introduces-high-protein-almond-milk-at-7-eleven-thailand/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:36.316Z"
+    },
+    "536173b5d5bd317d0b697838b6b4684cbccf19d54f6ff4f325fc7349791d95cd": {
+      "url": "https://www.minimeinsights.com/2026/06/21/plantae-brings-lab-inspired-nutrition-to-7-eleven-with-on-the-go-range/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "958408490cb84f6b23b6ba3df7b4124e95cd7d0057e66ab2a75dd4708defc05e": {
+      "url": "https://www.minimeinsights.com/2026/06/21/turn-business-opportunities-into-growth-at-mifb/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:51.004Z"
+    },
+    "0378e2e3f568066fdcf6b8b5479068f894066507ac60af0da327c5435b9ec261": {
+      "url": "https://www.minimeinsights.com/2026/06/21/lothamilk-plus-ushers-in-a-new-era-of-pasteurized-fresh-milk-in-vietnam/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:48:53.658Z"
+    },
+    "de7ecde1dbbb526ea792956e96479f766f164c2f17da43e2aeb4289ca6b93bc7": {
+      "url": "https://www.minimeinsights.com/2026/06/21/chame-uchi-matcha-latte-tradition-meets-modern-weight-management/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "fd8f0326efd47802c7484b2ac90cecabdd0320eac8f6d084162cd374e096cef0": {
+      "url": "https://www.minimeinsights.com/2026/06/21/new-hope-water-brings-fmh-herbs-into-sports-drinks-in-china/",
+      "date": "2026-06-21",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "7db0a19b735ecb4842074f5e357f125a382a14bc5b536f618b5d87b335e77dd5": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732510v1?rss=1",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:30.509Z"
+    },
+    "fe83a053e93bebec894353dcd137be2a4af699dee62d37b2cbbd0321cd29db3b": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732206v1?rss=1",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:32.736Z"
+    },
+    "be9e7ea9ec31c472876f1daa60a1ee6754a0a937c8e3d7a21f8abf9eee601955": {
+      "url": "https://www.nature.com/articles/s41591-026-04519-y",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:34.532Z"
+    },
+    "3e4f606516095accf146b8bd6e12ebeaaf547514df044a92cfa0da51914ff392": {
+      "url": "https://www.nature.com/articles/s41591-026-04499-z",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:36.051Z"
+    },
+    "786ebf31ae1b8c18b4bfad13d345f380087b9c80bb9207f55ca96021ddc4b5f6": {
+      "url": "https://www.nature.com/articles/s41591-026-04473-9",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:37.456Z"
+    },
+    "e95bd0c5724de40f6dadb59c686f5ce38b628bf2e3017d83e6f97842df2616b9": {
+      "url": "https://www.nature.com/articles/s41591-026-04457-9",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:39.066Z"
+    },
+    "28411e2af9a46dd4748fea6f0f96c3ab31618c3f67cd3cde6026826e20d6a0b6": {
+      "url": "https://www.nature.com/articles/s41591-026-04474-8",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:41.437Z"
+    },
+    "a3af462d51c488640e00ce0ce4e4b91a21eb374f205f67a036b693f8f4c9317b": {
+      "url": "https://www.nature.com/articles/d41591-026-00031-5",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:42.696Z"
+    },
+    "ef070ecf6e00d1c088dc76957e7788f94be7e64c4fb13174270b44281c5fc633": {
+      "url": "https://www.nature.com/articles/s41591-026-04513-4",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:45.043Z"
+    },
+    "a9ce9e56816dbd08a6b3e07ce3127005dfa233d8f6a2a2a0fa7c3f6e35a2377d": {
+      "url": "https://www.nature.com/articles/s41591-026-04447-x",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:47.209Z"
+    },
+    "1207eaa4668259b92432b0408256aa9bd10edeace6ac9c8d4f058e2a59dfeff7": {
+      "url": "https://www.nature.com/articles/s41593-026-02339-4",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:49.713Z"
+    },
+    "aac5e3d1911854228c3766b62f16ce73993fc020e1ef954cd0924dbb25599127": {
+      "url": "https://www.nature.com/articles/s41593-026-02341-w",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:52.336Z"
+    },
+    "2f20c3347d473c83593957d3771c2099162963b617a2b43126696b129a988547": {
+      "url": "https://www.nature.com/articles/s41593-026-02332-x",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:54.408Z"
+    },
+    "de1087038b4ba5e4576548973e88671e44228816511a472ed9c50129fc6acbe2": {
+      "url": "https://www.nature.com/articles/s41593-026-02325-w",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:56.901Z"
+    },
+    "eb3e3ba4bcc743636d1f0539ad61184a188c762c6f30c91e539d22ade7ae06f2": {
+      "url": "https://www.nature.com/articles/s41593-026-02351-8",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:49:58.699Z"
+    },
+    "1944741749f38e3004c36e9ca772d3a6c75896e20f8b4dd4e5c69b63da840c7c": {
+      "url": "https://www.nature.com/articles/s41593-026-02361-6",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:50:00.565Z"
+    },
+    "bf66c081190e4c03ab547ab89371109605e699b958f32027009a08f0f8b5196e": {
+      "url": "https://www.nature.com/articles/s41593-026-02355-4",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:50:02.192Z"
+    },
+    "c5706b460f1a33668ca2fa8b7a1704f53ef7ee8b1a110209475d50d163c0fac5": {
+      "url": "https://www.nature.com/articles/s41593-026-02346-5",
+      "date": "2026-06-21",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-06-28T23:50:04.286Z"
     }
   }
 }

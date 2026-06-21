@@ -43,6 +43,24 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/5-htp-griffonia-simplicifolia/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/acerola-malpighia-emarginata/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/ahcc-active-hexose-correlated-compound/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/akazienfaser/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -56,6 +74,18 @@
   </url>
   <url>
     <loc>https://hellmuth-soda.de/zutaten/aktivkohle/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/alcar-acetyl-l-carnitin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/allyl-isothiocyanat-senfoel/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -103,13 +133,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/arnika-arnica-montana/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/aronia-melanocarpa/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/artemisia-annua/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/artischocke-cynarin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/ashwagandha/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/ashwagandha-withania-somnifera/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -121,13 +169,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/bacillus-coagulans/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/astragalus-tragant-huang-qi/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/bacillus-subtilis/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/autophagie/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/bacillus-coagulans-gbi-30-6086/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/bacillus-subtilis-de111-natto/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -139,13 +199,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/baldrian/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/baldrian-valeriana-officinalis/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hellmuth-soda.de/zutaten/basenpulver-basentee/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/bcaa-verzweigtkettige-aminosauren/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -169,6 +235,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/bergamottoel-citrus-bergamia/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/bertramwurzel-anacyclus-pyrethrum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/beta-alanin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/beta-carotin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -176,6 +260,12 @@
   </url>
   <url>
     <loc>https://hellmuth-soda.de/zutaten/beta-glucan-hafer/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/betain-tmg/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -205,6 +295,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/bioverfuegbarkeit/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/bittersalz-glaubersalz/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -217,13 +313,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/borretschoel-borago-officinalis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/boswellia-weihrauch/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/brennnessel/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/brennnessel-urtica-dioica/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/bromelain/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -247,13 +355,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/camu-camu-myrciaria-dubia/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/capsaicin-capsicum-annuum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/carnosin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/catechine/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/catechine-gruentee/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/cbd-hanfextrakt-cannabidiol/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/chaga-inonotus-obliquus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -295,7 +427,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/cranberry-vaccinium-macrocarpon/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/curcumin-kurkuma/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/d-mannose/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/darm-hirn-achse/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -313,13 +463,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/dmae/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/dl-phenylalanin-dlpa/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/dmso/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/dmae-dimethylaminoethanol/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/dmso-dimethylsulfoxid/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/dpa-docosapentaensaeure/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/echinacea-purpurea/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -331,7 +499,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/eibischwurzel/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/eibischwurzel-althaea-officinalis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/eichhase-polyporus-umbellatus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -343,7 +517,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/eleutherococcus/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/eisenkraut-verbena-officinalis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/eleutherococcus-senticosus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -361,7 +541,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/estragon/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/estragon-artemisia-dracunculus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/eukalyptusoel-eucalyptus-globulus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -385,7 +571,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/gaba/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/frauenmantel-alchemilla-vulgaris/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/gaba-oral/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/gerstengras-hordeum-vulgare/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -397,13 +595,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/ginseng-panax/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/ginseng-panax-ginseng/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/glaenzender-lackporling/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/glaenzender-lackporling-ganoderma-lucidum-reishi/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/glucosamin-chondroitin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -421,7 +625,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/goldmohn/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/goji-lycium-barbarum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/goldmohn-eschscholzia-californica/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -439,13 +649,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/heilerde/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/granatapfel-punica-granatum/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/helmkraut/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/heilerde-gelb-und-weiss/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/helmkraut-scutellaria-lateriflora/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -457,13 +673,43 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/hopfen/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/himbeerblätter-rubus-idaeus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/igelstachelbart/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/hopfen-humulus-lupulus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/hormesis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/huflattich-tussilago-farfara/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/huperzin-a/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/hyaluronsaeure/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/igelstachelbart-hericium-erinaceus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -475,7 +721,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/ingwer/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/ingwer-zingiber-officinale/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -493,13 +739,43 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/jujube/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/islaendisch-moos-cetraria-islandica/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/kakaobohne/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/ivermectin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/jiaogulan-gynostemma-pentaphyllum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/johanniskraut-hypericum-perforatum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/judasohr-auricularia-auricula-judae/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/jujube-ziziphus-jujuba-suan-zao-ren/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/kakaobohne-theobroma-cacao-roh/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -511,7 +787,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/kamille/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/kamille-matricaria-chamomilla/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/keratin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/klapperschwamm-grifola-frondosa-maitake/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -529,6 +817,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/kollagen-typ-i-ii-iii/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/kolloidales-silber/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/korianderkraut/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -541,7 +841,73 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/krill-oel-euphausia-superba/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/kupfer/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/kuerbiskernextrakt-cucurbita-pepo/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-arginin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-carnitin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-citrullin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-glutamin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-lysin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-methionin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-theanin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-tryptophan/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/l-tyrosin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -553,7 +919,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/lactobacillus-gasseri/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/lactobacillus-gasseri-sbt2055-bnr17/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -571,19 +937,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/lactobacillus-rhamnosus-gg/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/lactobacillus-rhamnosus-gg-lgg/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/lavendel/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/lavendel-lavandula-angustifolia-silexan/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/l-glutamin/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/leinsamenoel-linum-usitatissimum/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -601,13 +967,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/loewenzahnwurzel/</loc>
-    <lastmod>2026-06-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/zutaten/l-theanin/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/loewenzahnwurzel-taraxacum-officinale/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -619,13 +979,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/lycopin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/maca-lepidium-meyenii/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/macadamia/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/macadamia-macadamia-integrifolia/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -637,13 +1003,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/magnolia/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/magnolia-magnolia-officinalis/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/mandelpilz-agaricus-blazei/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/mandelpilz-agaricus-blazei-abm/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -661,6 +1027,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/matcha-camellia-sinensis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/mct-oel/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -673,7 +1045,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/melisse/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/melisse-melissa-officinalis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/menthol-mentha-piperita/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -691,7 +1069,43 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/moenchspfeffer-vitex-agnus-castus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/moringa-oleifera/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/msm-methylsulfonylmethan/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/mucuna-pruriens/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/myo-inositol/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/myrrhe-commiphora-myrrha/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/n-acetyl-l-tyrosin-nalt/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -703,19 +1117,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/nalt-n-acetyl-l-tyrosin/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/nad-plus-nmn/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/nad-nmn/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/nattokinase/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/vitamin-b3-niacin-nicotinamid/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/nicotinamid-niacin-vitamin-b3/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -733,25 +1147,55 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/passionsblume/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/olivenoel-oleocanthal/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/pektin/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/omega-3-epa-dha/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/petersilie/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/opc-oligomere-proanthocyanidine/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/phellodendron/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/orthosiphon-stamineus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/passionsblume-passiflora-incarnata/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/pektin-inkl-modified-citrus-pectin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/petersilie-petroselinum-crispum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/pfefferminzoel-mentha-piperita/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/phellodendron-amurense-relora-kombi/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -763,7 +1207,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/phgg/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/phgg-teilhydrolysiertes-guarkernmehl-sunfiber/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/phosphatidylcholin-lecithin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -793,13 +1243,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/psyllium/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/psyllium-plantago-ovata/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hellmuth-soda.de/zutaten/pterostilben/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/pycnogenol-kiefernrindenextrakt/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/pygeum-prunus-africana/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -817,7 +1279,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/resistente-staerke/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/resistente-staerke-rs2-rs3/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -835,7 +1297,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/ringelblume-calendula-officinalis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/rizinusoel-ricinus-communis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/rosmarin-rosmarinus-officinalis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/rosskastanie-aesculus-hippocastanum/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -853,7 +1333,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/salbei-salvia-officinalis/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/safran-crocus-sativus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/saegepalme-serenoa-repens/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/salbei-salvia-officinalis-lavandulaefolia/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/same-s-adenosylmethionin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/sanddorn-hippophae-rhamnoides/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -877,7 +1381,43 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/schwarzer-holunder-sambucus-nigra/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/schwarzer-pfeffer-piperin/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/schwarzkuemmeloel-nigella-sativa/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/selen/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/serrapeptase-serratiopeptidase/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/shiitake-lentinula-edodes/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/shilajit/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -901,13 +1441,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/spilanthol/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/spilanthol-acmella-oleracea/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hellmuth-soda.de/zutaten/spirulina/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/spitzwegerich-plantago-lanceolata/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/statine-hmg-coa-reduktase-hemmer/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/steinklee-melilotus-officinalis/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -931,13 +1489,37 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/szechuanpfeffer/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/suessholz-glycyrrhiza-glabra/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/szechuanpfeffer-zanthoxylum-piperitum-bungeanum/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/tas2r-bitterrezeptoren/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/taurin/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://hellmuth-soda.de/zutaten/tausendgueldenkraut-centaurium-erythraea/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/teebaumoel-melaleuca-alternifolia/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -997,7 +1579,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/vitamin-b9-folat/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/vitamin-b9-folat-methylfolat/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1009,7 +1591,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/vitamin-d3/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/vitamin-d3-cholecalciferol/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1021,13 +1603,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/vitamin-k2-mk7/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/vitamin-k2-mk-7/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/wacholder/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/wacholder-juniperus-communis/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/weissdorn-crataegus/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1039,16 +1627,58 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/zutaten/withdrawal-reversal/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/zeta-potenzial/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/zutaten/zink/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/zutaten/zink-carnosin/</loc>
+    <loc>https://hellmuth-soda.de/zutaten/zink-carnosin-polaprezinc/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/zistrose-cistus-incanus/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/zutaten/zitronenverbene-aloysia-citrodora/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/ginseng-im-elektrolytwasser/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/matcha-als-diatpulver/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/planta-zieht-ins-7-eleven-regal/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/hautcreme-als-smoothie/</loc>

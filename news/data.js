@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-21T03:11:10.003Z",
+  "generated": "2026-06-21T23:50:04.317Z",
   "hellmuth": [
+    {
+      "title": "Ginseng im Elektrolytwasser",
+      "date": "2026-06-21",
+      "created": "2026-06-21T23:49:25.159Z",
+      "slug": "ginseng-im-elektrolytwasser",
+      "rubrik": "hellmuth",
+      "lead": "Der chinesische Sportdrink emanzipiert sich vom westlichen Pulver-Paradigma und greift in die Apotheke der Tradition.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/21/new-hope-water-brings-fmh-herbs-into-sports-drinks-in-china/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ginseng-im-elektrolytwasser/"
+    },
+    {
+      "title": "Matcha als Diätpulver",
+      "date": "2026-06-21",
+      "created": "2026-06-21T23:49:10.329Z",
+      "slug": "matcha-als-diatpulver",
+      "rubrik": "hellmuth",
+      "lead": "Die thailändische Marke Chame stellt mit Uchi Matcha Latte ein Getränkepulver vor, das Antioxidantien-Romantik mit Fettverbrennungsversprechen koppelt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/21/chame-uchi-matcha-latte-tradition-meets-modern-weight-management/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/matcha-als-diatpulver/"
+    },
+    {
+      "title": "Plantaé zieht ins 7-Eleven-Regal",
+      "date": "2026-06-21",
+      "created": "2026-06-21T23:48:49.012Z",
+      "slug": "planta-zieht-ins-7-eleven-regal",
+      "rubrik": "hellmuth",
+      "lead": "Functional Nutrition verlässt den Apothekenkontext und landet zwischen Onigiri und Cola.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/21/plantae-brings-lab-inspired-nutrition-to-7-eleven-with-on-the-go-range/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/planta-zieht-ins-7-eleven-regal/"
+    },
     {
       "title": "Hautcreme als Smoothie",
       "date": "2026-06-20",
