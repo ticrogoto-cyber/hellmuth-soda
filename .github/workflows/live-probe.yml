@@ -166,6 +166,38 @@ jobs:
           echo "STRING-EDIT-WELLE SUMMARY: $fail Abweichungen"
           echo ""
           echo "==============================================="
+          echo "EDGE-CACHE-DIAGNOSE: Magnesium ±Bust gegen Live"
+          echo "==============================================="
+          echo "--- ohne Bust (normaler GET) ---"
+          curl -sS -A "$UA" -o /tmp/mg-plain.html -w "HTTP %{http_code}, size %{size_download} bytes\n" --max-time 15 \
+            "https://hellmuth-soda.de/zutaten/magnesium/"
+          echo "Header (ohne Bust):"
+          curl -sI --max-time 15 -A "$UA" "https://hellmuth-soda.de/zutaten/magnesium/" | grep -iE 'last-modified|etag|age|cache-control|x-served'
+          echo "  Grep 'Gerechtfertigte':             $(grep -oc 'Gerechtfertigte' /tmp/mg-plain.html)"
+          echo "  Grep 'Das Etikett verrät davon':    $(grep -oc 'Das Etikett verrät davon' /tmp/mg-plain.html)"
+          echo "  Grep 'Slutsky 2010':                $(grep -oc 'Slutsky 2010' /tmp/mg-plain.html)"
+          echo ""
+          echo "--- mit Bust + no-cache-Header ---"
+          curl -sS -A "$UA" -H "Cache-Control: no-cache" -o /tmp/mg-bust.html -w "HTTP %{http_code}, size %{size_download} bytes\n" --max-time 15 \
+            "https://hellmuth-soda.de/zutaten/magnesium/?bust=$(date +%s)"
+          echo "Header (mit Bust):"
+          curl -sI --max-time 15 -A "$UA" -H "Cache-Control: no-cache" "https://hellmuth-soda.de/zutaten/magnesium/?bust=$(date +%s)" | grep -iE 'last-modified|etag|age|cache-control|x-served'
+          echo "  Grep 'Gerechtfertigte':             $(grep -oc 'Gerechtfertigte' /tmp/mg-bust.html)"
+          echo "  Grep 'Das Etikett verrät davon':    $(grep -oc 'Das Etikett verrät davon' /tmp/mg-bust.html)"
+          echo "  Grep 'Slutsky 2010':                $(grep -oc 'Slutsky 2010' /tmp/mg-bust.html)"
+          echo ""
+          echo "--- Byte-Diff (Bust-Version sollte identisch oder neuer sein) ---"
+          plain_size=$(wc -c < /tmp/mg-plain.html)
+          bust_size=$(wc -c < /tmp/mg-bust.html)
+          echo "  ohne Bust: $plain_size bytes"
+          echo "  mit Bust:  $bust_size bytes"
+          if [ "$plain_size" = "$bust_size" ] && diff -q /tmp/mg-plain.html /tmp/mg-bust.html >/dev/null 2>&1; then
+            echo "  → IDENTISCH (Edge-Cache aktuell oder beide identisch)"
+          else
+            echo "  → UNTERSCHIED (Edge-Cache hält alte Version, Bust holt neue)"
+          fi
+          echo ""
+          echo "==============================================="
           echo "CACHE-BUST STAND auf Listing"
           echo "==============================================="
           curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'zutaten\.css\?v=[0-9]+|zutaten\.js\?v=[0-9]+|search\.js\?v=[0-9]+' | sort -u
