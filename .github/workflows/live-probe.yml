@@ -132,6 +132,46 @@ jobs:
           echo "<p class=zutaten-line> (alle): $(grep -oc 'class="zutaten-line"' /tmp/ltheanin.html)"
           echo ""
           echo "==============================================="
+          echo "NACHZIEH-WELLE: 7 Stichproben-Fixes (Commit folgt)"
+          echo "==============================================="
+          for slug needle in \
+            "hopfen|Dass die Monotherapie-Evidenz" \
+            "brennnessel|Die Forschung läuft" \
+            "vitamin-c|Wer Osteopenie hat" \
+            "aktivkohle|Der Smoothie kennt keine Indikation" \
+            "magnesium|Das Etikett verrät davon nichts" \
+            "sulforaphan|Das Problem liegt in der Bioverfügbarkeit" \
+            "vitamin-c|Nur der Verabreichungsweg war falsch" \
+            "l-theanin|Schlaf, den du dir einredest" \
+            "brennnessel|Quellen:" \
+            "aktivkohle|Quellen:" \
+            "magnesium|Slutsky 2010" \
+            "magnesium|Gerechtfertigte Indikation"; do
+            # Parse slug|needle via IFS-split nicht möglich in for, daher anders:
+            true
+          done
+          # Korrekte Bash-Schleife:
+          while IFS='|' read -r slug needle; do
+            curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/$slug/?nocache=$(date +%s)" \
+              -H "Cache-Control: no-cache" > /tmp/probe.html
+            count=$(grep -oc "$needle" /tmp/probe.html)
+            echo "  [$count] $slug: '$needle'"
+          done <<'EOL'
+hopfen|Dass die Monotherapie-Evidenz
+brennnessel|Die Forschung läuft
+vitamin-c|Wer Osteopenie hat
+aktivkohle|Der Smoothie kennt keine Indikation
+magnesium|Das Etikett verrät davon nichts
+sulforaphan|Das Problem liegt in der Bioverfügbarkeit
+vitamin-c|Nur der Verabreichungsweg war falsch
+l-theanin|Schlaf, den du dir einredest
+brennnessel|Quellen:
+aktivkohle|Quellen:
+magnesium|Slutsky 2010
+magnesium|Gerechtfertigte Indikation
+EOL
+          echo ""
+          echo "==============================================="
           echo "CACHE-BUST STAND auf Listing"
           echo "==============================================="
           curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'zutaten\.css\?v=[0-9]+|zutaten\.js\?v=[0-9]+|search\.js\?v=[0-9]+' | sort -u
