@@ -124,7 +124,7 @@ window.SUBSTANCES_DATA = {
       kategorie: "Substanz",
       unterkategorie: "Molekül",
       werbung: "Flavonoid mit Anti-Aging-Wirkung über CD38-Hemmung. Premium-Longevity-Substanz für NAD+-Sparsamkeit, in Kapsel- oder Tablettenform, klinisch erforscht.",
-      wirkung: "Apigenin hemmt CD38. CD38 verbraucht NAD+. Weniger CD38-Aktivität bedeutet mehr NAD+ in der Zelle, ohne externe Vorläufer wie NMN oder NR.\n\nDas unterscheidet Apigenin von allen anderen Polyphenolen. Es spart NAD+, statt es zu liefern.\n\nDaneben. Antiinflammatorisch über NF-κB-Hemmung, anxiolytisch über GABA-A-Modulation, antitumoral über mehrere Apoptose-Pfade.\n\nKlinische Endpunktdaten am Menschen. Selten, Die Substanz wird erst seit wenigen Jahren isoliert verkauft.\n\nDie höchste Apigenin-Konzentration der Lebensmittelwelt. Petersilie. 215 Milligramm pro 100 Gramm frisch.\n\nWer Apigenin im Longevity-Regal für dreißig Euro pro Kapsel kauft, übersieht den Tellerrand.",
+      wirkung: "Apigenin hemmt CD38. CD38 verbraucht NAD+. Weniger CD38-Aktivität bedeutet mehr NAD+ in der Zelle, ohne externe Vorläufer wie NMN oder NR.\n\nDas unterscheidet Apigenin von allen anderen Polyphenolen. Es spart NAD+, statt es zu liefern.\n\nDaneben. Antiinflammatorisch über NF-κB-Hemmung, anxiolytisch über GABA-A-Modulation, antitumoral über mehrere Apoptose-Pfade.\n\nKlinische Endpunktdaten am Menschen. Selten, Die Substanz wird erst seit wenigen Jahren isoliert verkauft.\n\nDie höchste Apigenin-Konzentration der Lebensmittelwelt, Petersilie, 215 Milligramm pro 100 Gramm frisch.\n\nWer Apigenin im Longevity-Regal für dreißig Euro pro Kapsel kauft, übersieht den Tellerrand.",
       quellen: ["Escande 2013"],
       related_article: null,
     },
