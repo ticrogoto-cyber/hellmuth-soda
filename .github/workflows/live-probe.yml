@@ -4,6 +4,10 @@ on:
   push:
     paths:
       - '.github/workflows/live-probe.yml'
+      - 'zutaten/substances.js'
+      - 'zutaten/zutaten.css'
+      - 'zutaten/zutaten.js'
+      - 'search.js'
 
 jobs:
   probe:
@@ -102,6 +106,35 @@ jobs:
           echo ""
           echo "--- Reishi live: szenario=3 auf Tile? ---"
           curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'data-slug="glaenzender-lackporling"[^>]*data-szenario="[^"]*"' | head -2
+          echo ""
+          echo "==============================================="
+          echo "L-THEANIN SZ1-NEUFASSUNG"
+          echo "==============================================="
+          curl -sS -o /tmp/ltheanin.html -w "HTTP %{http_code}, size %{size_download} bytes\n" \
+            --max-time 15 -A "$UA" -H "Cache-Control: no-cache" \
+            "https://hellmuth-soda.de/zutaten/l-theanin/?nocache=$(date +%s)"
+          echo ""
+          echo "--- DREI SCHLÜSSEL-STRINGS (User-Spec) ---"
+          for needle in "Alpha-Wellen sind kein Fokus-Marker" "Dosis-Lüge macht den Rest" "Schlaf, den du dir einredest"; do
+            count=$(grep -oc "$needle" /tmp/ltheanin.html)
+            ctx=$(grep -oE ".{0,60}$needle.{0,60}" /tmp/ltheanin.html | head -1)
+            echo "  [$count] '$needle'"
+            echo "      → $ctx"
+          done
+          echo ""
+          echo "--- L-Theanin Tile auf Listing (data-szenario=1) ---"
+          curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'data-slug="l-theanin"[^>]*data-szenario="[^"]*"' | head -2
+          echo ""
+          echo "--- Quellen-Block im Detail (3 Belege im Name-Jahr-Format) ---"
+          grep -oE 'Quellen:[^<]{0,120}' /tmp/ltheanin.html | head -1
+          echo ""
+          echo "--- Wirkungs-Absätze (6 zutaten-line erwartet) ---"
+          echo "<p class=zutaten-line> (alle): $(grep -oc 'class="zutaten-line"' /tmp/ltheanin.html)"
+          echo ""
+          echo "==============================================="
+          echo "CACHE-BUST STAND auf Listing"
+          echo "==============================================="
+          curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'zutaten\.css\?v=[0-9]+|zutaten\.js\?v=[0-9]+|search\.js\?v=[0-9]+' | sort -u
           echo ""
           echo "==============================================="
           echo "REPO-BLOB-SHA für Vergleich"
