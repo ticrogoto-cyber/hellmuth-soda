@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=40" />
+  <link rel="stylesheet" href="../../news.css?v=41" />
 </head>
 <body>
   <header class="top">
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=40" />
+  <link rel="stylesheet" href="../../news.css?v=41" />
 </head>
 <body>
   <header class="nav">
@@ -657,7 +657,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=40" />
+  <link rel="stylesheet" href="../../news/news.css?v=41" />
 </head>
 <body>
   <header class="top">
@@ -866,7 +866,7 @@ export function build() {
       title: `${SITE_NAME} Bildgebung`,
       feedUrl: `${SITE}/zutaten/bildgebung/feed.xml`,
       link: `${SITE}/zutaten/bildgebung/`,
-      description: 'Stoffe. Befunde.',
+      description: 'Was drin ist. Was davon stimmt.',
       items: [],
     }),
     'utf8'
