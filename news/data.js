@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-21T02:16:29.318Z",
+  "generated": "2026-06-21T02:25:58.653Z",
   "hellmuth": [
     {
       "title": "Hautcreme als Smoothie",
