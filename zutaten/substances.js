@@ -2850,7 +2850,7 @@ window.SUBSTANCES_DATA = {
       name: "Süßholz (Glycyrrhiza glabra)",
       slug: "suessholz-glycyrrhiza-glabra",
       shortName: "Süßholz",
-      szenario: 2,
+      szenario: 1,
       kategorie: "Pflanze",
       unterkategorie: "Wurzel",
       werbung: "Süße Heilwurzel für Magen, Atemwege und Immunsystem. Süßholz als vielseitiges Naturheilmittel, Grundlage von Lakritze.",
