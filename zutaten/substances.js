@@ -1717,7 +1717,7 @@ window.SUBSTANCES_DATA = {
     {
       name: "L-Theanin",
       slug: "l-theanin",
-      szenario: 3,
+      szenario: 1,
       kategorie: "Aminosäure",
       unterkategorie: "Aminosäure",
       werbung: "Entspannende Aminosäure aus grünem Tee. L-Theanin für wache Gelassenheit ohne Müdigkeit, ideal in Kombination mit Koffein.",
