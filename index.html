@@ -80,10 +80,6 @@
       <button data-filter="science" aria-pressed="false">Forschung</button>
       <button data-filter="hellmuth" aria-pressed="false">HELLMUTH</button>
     </div>
-    <div class="news-sort" id="news-sort" aria-label="Sortierung">
-      <a href="#" data-sort="neueste" aria-pressed="true">Neueste</a>
-      <a href="#" data-sort="meistgelesen" aria-pressed="false">Meistgelesen</a>
-    </div>
     <ul class="news-list" id="news-list" aria-live="polite"></ul>
     <nav class="news-pagination" id="news-pagination" aria-label="Seiten"></nav>
   </main>
@@ -94,7 +90,6 @@
 
   <script src="site.js?v=7"></script>
   <script src="search.js?v=3"></script>
-  <script src="news/counters.js?v=1"></script>
   <script>
     // news/data.js wird täglich vom Bot neu geschrieben; ohne Cache-Buster pro
     // Page-Load hält der Browser-Cache (GitHub-Pages-Default ~10 min) die alte

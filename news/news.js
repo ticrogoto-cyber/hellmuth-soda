@@ -1,14 +1,11 @@
 // /news-Übersicht: Rubrik-Filter (Alle / HELLMUTH / Forschung), chronologisch.
 // Zusätzlich:
 //  - "Klartext der Woche"-Sektion aus config/featured.json (manuell kuratiert)
-//  - Sortierung "Neueste" (Default) oder "Meistgelesen" (View-Counts vom Worker)
-//  - View-Count je Karte (dezent neben der Lesezeit)
 //  - Pagination: max. 20 Items pro Seite, Seitenzahlen + Vor/Zurück (clientseitig)
 (() => {
   const data = window.NEWS_DATA || { hellmuth: [], science: [] };
   const listEl = document.getElementById('news-list');
   const filterEl = document.getElementById('news-filter');
-  const sortEl = document.getElementById('news-sort');
   const pagerEl = document.getElementById('news-pagination');
   if (!listEl) return;
 
@@ -25,39 +22,25 @@
 
   const readingLabel = (m) => (!m || m < 1 ? 'unter 1 Min.' : m + ' Min.');
 
-  // Globale View-Map (rubrik/slug -> n), wird von Counters.getCounts gefüllt.
-  let viewMap = {};
-  const idOf = (it) => `${it.rubrik}/${it.slug}`;
-  const fmtViews = (n) => (typeof n === 'number' && n > 0 ? ` · ${n} Aufrufe` : '');
-
-  // Eine Meta-Zeile: Rubrik · Datum · Lesezeit (· Aufrufe) (Preprint-Tag bei Bedarf).
-  const card = (it) => {
-    const views = viewMap[idOf(it)];
-    return `
+  // Eine Meta-Zeile: Rubrik · Datum · Lesezeit (· Preprint-Tag bei Bedarf).
+  const card = (it) => `
     <li class="news-card">
       <a class="news-card-link" href="${esc(it.href)}">
-        <p class="news-eyebrow">${LABEL[it.rubrik] || it.rubrik} · ${esc(it.date)} · ${esc(readingLabel(it.minutes))}${fmtViews(views)}${
+        <p class="news-eyebrow">${LABEL[it.rubrik] || it.rubrik} · ${esc(it.date)} · ${esc(readingLabel(it.minutes))}${
       it.preprint ? '<span class="news-tag">Preprint</span>' : ''
     }</p>
         <h2 class="news-card-title">${esc(it.title)}</h2>
         <p class="news-lead">${esc(it.lead)}</p>
       </a>
     </li>`;
-  };
 
   let currentFilter = 'all';
-  let currentSort = 'neueste';
   let currentPage = 1;
 
-  const sortItems = (items) => {
-    if (currentSort === 'meistgelesen') {
-      return items.slice().sort((a, b) => (viewMap[idOf(b)] || 0) - (viewMap[idOf(a)] || 0) || byCreated(a, b));
-    }
-    return items.slice().sort(byCreated);
+  const currentItems = () => {
+    const list = currentFilter === 'all' ? all : all.filter((x) => x.rubrik === currentFilter);
+    return list.slice().sort(byCreated);
   };
-
-  const currentItems = () =>
-    sortItems(currentFilter === 'all' ? all : all.filter((x) => x.rubrik === currentFilter));
 
   // Kompakte Seitenliste: 1 … (p-1) p (p+1) … last. Lücken als 'gap'.
   const pageSequence = (page, pages) => {
@@ -108,30 +91,15 @@
         b.setAttribute('aria-pressed', b.dataset.filter === currentFilter ? 'true' : 'false')
       );
     }
-    if (sortEl) {
-      sortEl.querySelectorAll('[data-sort]').forEach((a) =>
-        a.setAttribute('aria-pressed', a.dataset.sort === currentSort ? 'true' : 'false')
-      );
-    }
     renderPagination(pages);
   };
 
-  // Filter/Sortierung setzen die Seite zurueck auf 1.
+  // Filter setzt die Seite zurueck auf 1.
   if (filterEl) {
     filterEl.addEventListener('click', (ev) => {
       const b = ev.target.closest('button[data-filter]');
       if (!b) return;
       currentFilter = b.dataset.filter;
-      currentPage = 1;
-      render();
-    });
-  }
-  if (sortEl) {
-    sortEl.addEventListener('click', (ev) => {
-      const a = ev.target.closest('[data-sort]');
-      if (!a) return;
-      ev.preventDefault();
-      currentSort = a.dataset.sort;
       currentPage = 1;
       render();
     });
@@ -152,15 +120,6 @@
   }
 
   render();
-
-  // View-Counts asynchron nachladen und Karten + Sortierung aktualisieren.
-  if (window.Counters && all.length) {
-    Counters.getCounts(all.map(idOf)).then(({ views }) => {
-      if (!views) return;
-      viewMap = views;
-      render();
-    });
-  }
 
   // ---- Klartext der Woche (manuell kuratiert) -----------------------------
   // config/featured.json: Array von Slugs (oder { items: [...] }). Leeres

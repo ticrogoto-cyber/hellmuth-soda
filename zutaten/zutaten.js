@@ -19,18 +19,13 @@
   const SVG_SHARE =
     '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z"/></svg>';
 
-  // ID-Schema: zutaten/<slug> — landet so im Worker-KV und in
-  // localStorage-Keys (hl-liked:zutaten/<slug>). Aufrufe-Anzeige
-  // wurde aus Overlay und Detailseiten entfernt; Worker-Zählung
-  // (counters.view) läuft im Hintergrund weiter, aber wird nirgends
-  // mehr gerendert.
-  const SHOW_VIEW_COUNT = false;
-
+  // ID-Schema: zutaten/<slug> — landet so im localStorage-Key für
+  // (hl-liked:zutaten/<slug>). Counter-Worker wird nicht mehr getriggert.
   const actionsBarHtml = (slug, name) => {
     const id = `zutaten/${slug}`;
     return `
       <div class="zutaten-actions" data-news-id="${id}">
-        <button type="button" class="zutaten-act zutaten-like" aria-pressed="false" aria-label="Gefällt mir"><span class="zutaten-like-icon">${SVG_HEART_OUTLINE}</span><span class="zutaten-like-count"></span></button>
+        <button type="button" class="zutaten-act zutaten-like" aria-pressed="false" aria-label="Gefällt mir"><span class="zutaten-like-icon">${SVG_HEART_OUTLINE}</span></button>
         <button type="button" class="zutaten-act zutaten-share" aria-label="Teilen">${SVG_SHARE}<span class="zutaten-share-label">Teilen</span></button>
       </div>`;
   };
@@ -145,25 +140,22 @@
 
   // ── Actions-Bar Wire-Up ───────────────────────────────────
   // Wird pro openEntry() aufgerufen, weil das Detail bei jedem Klick
-  // frisch in den DOM injiziert wird (kein einmaliger Page-Load wie bei
-  // news/detail.js). Idempotente Likes via localStorage + Worker-POST.
+  // frisch in den DOM injiziert wird. Likes via localStorage als
+  // lokaler State, Worker wird nicht mehr getriggert.
   const wireActionsBar = (root, entry) => {
     const bar = root.querySelector('.zutaten-actions');
     if (!bar) return;
     const id = bar.getAttribute('data-news-id');
     if (!id) return;
 
-    const likeBtn      = bar.querySelector('.zutaten-like');
-    const likeIcon     = bar.querySelector('.zutaten-like-icon');
-    const likeCountEl  = bar.querySelector('.zutaten-like-count');
-    const shareBtn     = bar.querySelector('.zutaten-share');
+    const likeBtn  = bar.querySelector('.zutaten-like');
+    const likeIcon = bar.querySelector('.zutaten-like-icon');
+    const shareBtn = bar.querySelector('.zutaten-share');
 
-    const likedKey  = 'hl-liked:'  + id;
-    const viewedKey = 'hl-viewed:' + id;
+    const likedKey = 'hl-liked:' + id;
     let liked = false;
     try { liked = localStorage.getItem(likedKey) === '1'; } catch {}
 
-    const fmt = (n) => (typeof n === 'number' && n > 0 ? String(n) : '');
     const setHeart = () => {
       if (likeIcon) likeIcon.innerHTML = liked ? SVG_HEART_FILLED : SVG_HEART_OUTLINE;
       if (likeBtn) {
@@ -173,32 +165,12 @@
     };
     setHeart();
 
-    let counted = false;
-    try { counted = sessionStorage.getItem(viewedKey) === '1'; } catch {}
-
-    if (window.Counters) {
-      // Worker-View-Zählung im Hintergrund (fire-and-forget). Anzeige
-      // entfernt — Counter läuft nur noch für Aggregations-Auswertung.
-      if (!counted) {
-        window.Counters.view(id).then(() => {
-          try { sessionStorage.setItem(viewedKey, '1'); } catch {}
-        });
-      }
-      window.Counters.getCounts([id]).then(({ likes }) => {
-        if (likeCountEl) likeCountEl.textContent = fmt(likes[id]);
-      });
-    }
-
     if (likeBtn) {
       likeBtn.addEventListener('click', () => {
-        if (liked || !window.Counters) return;
+        if (liked) return;
         liked = true;
         try { localStorage.setItem(likedKey, '1'); } catch {}
         setHeart();
-        window.Counters.like(id).then((r) => {
-          if (r && typeof r.likes === 'number' && likeCountEl)
-            likeCountEl.textContent = fmt(r.likes);
-        });
       });
     }
 

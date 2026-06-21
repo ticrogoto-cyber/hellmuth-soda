@@ -1,5 +1,6 @@
-// Detailseiten-Interaktion: Aufruf zählen, Like (einmal pro Browser),
-// Teilen (navigator.share, sonst Clipboard). Braucht window.Counters.
+// Detailseiten-Interaktion: Like (einmal pro Browser, lokal persistiert),
+// Teilen (navigator.share, sonst Clipboard). Counter-Worker wird nicht
+// mehr getriggert — kein View-Ping, kein getCounts-Aggregat-Read.
 (() => {
   const bar = document.querySelector('.news-actions');
   if (!bar) return;
@@ -13,17 +14,12 @@
 
   const likeBtn = bar.querySelector('.news-like');
   const likeIcon = bar.querySelector('.news-like-icon');
-  const likeCountEl = bar.querySelector('.news-like-count');
   const shareBtn = bar.querySelector('.news-share');
-  const viewsWrap = bar.querySelector('.news-views');
-  const viewsCountEl = bar.querySelector('.news-views-count');
 
   const likedKey = 'hl-liked:' + id;
-  const viewedKey = 'hl-viewed:' + id;
   let liked = false;
   try { liked = localStorage.getItem(likedKey) === '1'; } catch {}
 
-  const fmt = (n) => (typeof n === 'number' && n > 0 ? String(n) : '');
   const setHeart = () => {
     if (likeIcon) likeIcon.innerHTML = liked ? HEART_FILLED : HEART_OUTLINE;
     if (likeBtn) {
@@ -33,39 +29,12 @@
   };
   setHeart();
 
-  // Aufruf zählen: einmal pro Browser-Session pro Artikel (vermeidet
-  // Reload-Inflation), persistiert serverseitig als Gesamtzahl.
-  let counted = false;
-  try { counted = sessionStorage.getItem(viewedKey) === '1'; } catch {}
-  const showView = (n) => {
-    if (!viewsWrap || !viewsCountEl) return;
-    const t = fmt(n);
-    if (t) { viewsCountEl.textContent = t; viewsWrap.hidden = false; }
-  };
-
-  if (window.Counters) {
-    if (!counted) {
-      Counters.view(id).then((r) => {
-        try { sessionStorage.setItem(viewedKey, '1'); } catch {}
-        if (r && typeof r.views === 'number') showView(r.views);
-      });
-    }
-    // Aktuelle Zahlen laden (Like-Count, und View-Count falls nicht gerade gezählt).
-    Counters.getCounts([id]).then(({ views, likes }) => {
-      if (likeCountEl) likeCountEl.textContent = fmt(likes[id]);
-      if (counted) showView(views[id]);
-    });
-  }
-
   if (likeBtn) {
     likeBtn.addEventListener('click', () => {
-      if (liked || !window.Counters) return;
+      if (liked) return;
       liked = true;
       try { localStorage.setItem(likedKey, '1'); } catch {}
       setHeart();
-      Counters.like(id).then((r) => {
-        if (r && typeof r.likes === 'number' && likeCountEl) likeCountEl.textContent = fmt(r.likes);
-      });
     });
   }
 

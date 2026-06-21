@@ -166,6 +166,37 @@ jobs:
           echo "STRING-EDIT-WELLE SUMMARY: $fail Abweichungen"
           echo ""
           echo "==============================================="
+          echo "AUFRUFE-WELLE: Listing + Startseite + 3 News-Detail-URLs"
+          echo "==============================================="
+          aufrufe_urls=(
+            "https://hellmuth-soda.de/"
+            "https://hellmuth-soda.de/news/"
+            "https://hellmuth-soda.de/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/"
+            "https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/"
+            "https://hellmuth-soda.de/news/science/alzheimer-hat-eine-zweite-schrift/"
+          )
+          aufrufe_fail=0
+          for url in "${aufrufe_urls[@]}"; do
+            curl -sS -A "$UA" -H "Cache-Control: no-cache" -o /tmp/aufrufe.html \
+              "$url?bust=$(date +%s)"
+            uc=$(grep -oc 'AUFRUFE' /tmp/aufrufe.html)
+            lc=$(grep -oc 'aufrufe' /tmp/aufrufe.html)
+            ce=$(grep -oc 'counters\.js' /tmp/aufrufe.html)
+            wc=$(grep -oc 'hellmuth-counters' /tmp/aufrufe.html)
+            short=$(echo "$url" | sed 's|https://hellmuth-soda.de||')
+            echo "  $short"
+            echo "    AUFRUFE:               $uc (erwartet 0)"
+            echo "    aufrufe:               $lc (erwartet 0)"
+            echo "    counters.js-Script:    $ce (erwartet 0)"
+            echo "    hellmuth-counters URL: $wc (erwartet 0)"
+            if [ "$uc" != "0" ] || [ "$lc" != "0" ] || [ "$ce" != "0" ] || [ "$wc" != "0" ]; then
+              aufrufe_fail=$((aufrufe_fail + 1))
+            fi
+          done
+          echo ""
+          echo "AUFRUFE-WELLE SUMMARY: $aufrufe_fail URL(s) mit Abweichung"
+          echo ""
+          echo "==============================================="
           echo "EDGE-CACHE-DIAGNOSE: Magnesium ±Bust gegen Live"
           echo "==============================================="
           echo "--- ohne Bust (normaler GET) ---"
