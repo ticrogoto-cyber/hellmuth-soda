@@ -234,6 +234,24 @@ jobs:
           curl -sS -A "$UA" "https://hellmuth-soda.de/zutaten/?nocache=$(date +%s)" | grep -oE 'zutaten\.css\?v=[0-9]+|zutaten\.js\?v=[0-9]+|search\.js\?v=[0-9]+' | sort -u
           echo ""
           echo "==============================================="
+          echo "ABSATZ-ARCHITEKTUR (Welle C): Wirkung-p-Tag-Audit (Stichprobe)"
+          echo "==============================================="
+          # Pro Substanz: Werbung+Wirkung-p-Tags >= Längen-Schwelle (2/3/4),
+          # plus AUFRUFE muss 0 bleiben (Welle A). Schwellen aus lokalem
+          # Deterministik-Audit (alle 168 lokal: 168/168 PASS).
+          wc_fail=0
+          for pair in "vitamin-c:4" "biophotonen:4" "chlorophyll:3" "nad-nmn:4" "schisandra-chinensis:3" "tulsi-ocimum-sanctum:3" "nac-n-acetylcystein:3" "magnesium:4" "hopfen:2" "l-theanin:2"; do
+            slug="${pair%%:*}"; min="${pair##*:}"
+            curl -sS -A "$UA" -H "Cache-Control: no-cache" -o /tmp/wc.html --max-time 12 \
+              "https://hellmuth-soda.de/zutaten/$slug/?bust=$(date +%s)"
+            p=$(grep -oc 'class="zutaten-line">' /tmp/wc.html)
+            au=$(grep -oc 'AUFRUFE' /tmp/wc.html)
+            flag="OK"; if [ "$p" -lt "$min" ]; then flag="ABWEICHUNG(<$min)"; wc_fail=$((wc_fail + 1)); fi
+            echo "  $slug: Werbung+Wirkung-p=$p (min $min) [$flag]   AUFRUFE=$au (erwartet 0)"
+          done
+          echo "WELLE-C AUDIT SUMMARY: $wc_fail Stichproben-URL(s) unter Schwelle (erwartet 0)"
+          echo ""
+          echo "==============================================="
           echo "REPO-BLOB-SHA für Vergleich"
           echo "==============================================="
           git rev-parse HEAD || true

@@ -507,13 +507,130 @@ function substanceJsonLd(entry, canonical) {
   return JSON.stringify(ld, null, 2).replace(/</g, '\\u003c');
 }
 
+// ── Absatz-Architektur (Welle C) ──────────────────────────────────────
+// Rendert wirkung in Absätze: (1) Split an vorhandenen \n\n; (2) Pointen-
+// absatz (letzte 1-2 aphoristische Sätze, kumuliert <200 Z) am Gesamt-Ende
+// isolieren; (3) Längen-Gate: jeder Absatz >600 wird vor Diskurs-Markern
+// gesplittet, mind. 2-/3-/4-geteilt bei >600/>1200/>2000; Rest-Absätze >600
+// werden an Satzgrenzen nahe der Mitte weiter geteilt (nie mitten im Satz).
+// Identisch gespiegelt in zutaten/zutaten.js (renderDetailContent).
+const WIRKUNG_ABBREV = /^(z\.B\.|u\.a\.|d\.h\.|bzw\.|ca\.|etc\.|vgl\.|Nr\.|Abs\.|z\.T\.|u\.U\.|Mrd\.|Mio\.|sog\.|ggf\.|inkl\.|max\.|min\.|Dr\.|Prof\.|v\.a\.|u\.ä\.|o\.ä\.|i\.d\.R\.|Std\.)$/;
+const WIRKUNG_CAUSAL_START = /^(und|aber|oder|sondern|denn|weil|also|deshalb|deswegen|daher|darum|somit|dadurch|folglich|sodass|dabei|dazu|hierbei|insofern|zwar|trotzdem|dennoch)\b/i;
+const WIRKUNG_MARKERS = ['Wer ', 'Im Marketing', 'In der Werbung', 'Im Patientenalltag', 'In der Praxis', 'Pharmakologisch', 'Klinisch', 'Dass die ', 'Allerdings', 'Aber ', 'Demgegenüber', 'Konkret', 'Im Detail', 'Daneben', 'Dagegen', 'Stattdessen'];
+function splitSentences(text) {
+  const t = String(text).replace(/\s+/g, ' ').trim();
+  if (!t) return [];
+  const toks = t.split(' ');
+  const parts = [];
+  let buf = '';
+  for (let i = 0; i < toks.length; i++) {
+    const w = toks[i];
+    buf += (buf ? ' ' : '') + w;
+    if (/[.!?»“"”]$/.test(w) && !WIRKUNG_ABBREV.test(w)) {
+      const next = toks[i + 1] || '';
+      if (!next || /^[A-ZÄÖÜ»„“"(0-9]/.test(next)) {
+        parts.push(buf);
+        buf = '';
+      }
+    }
+  }
+  if (buf.trim()) parts.push(buf.trim());
+  return parts;
+}
+function startsWithMarker(s) {
+  const t = s.trim();
+  return WIRKUNG_MARKERS.some((m) => t.startsWith(m));
+}
+function isAphoristic(sent) {
+  const t = (sent || '').trim();
+  if (!t) return false;
+  if (/Was übrig bleibt/i.test(t)) return true;
+  if (/^Wer\b[^.!?]*\bder\b/i.test(t)) return true;
+  const noCausal = !WIRKUNG_CAUSAL_START.test(t);
+  const copula = /\b(ist|sind|bleibt|bleiben|heißt|war|wären?)\b/i.test(t);
+  if (noCausal && copula && t.length < 160) return true;
+  if (noCausal && t.length < 90) return true;
+  return false;
+}
+function splitLongParagraph(text) {
+  const sents = splitSentences(text);
+  if (sents.length <= 1) return [text];
+  const clen = (c) => c.join(' ').length;
+  const chunks = [];
+  let cur = [];
+  sents.forEach((s, i) => {
+    if (i > 0 && startsWithMarker(s) && cur.length) {
+      chunks.push(cur);
+      cur = [];
+    }
+    cur.push(s);
+  });
+  if (cur.length) chunks.push(cur);
+  const need = text.length > 2000 ? 4 : text.length > 1200 ? 3 : 2;
+  let guard = 0;
+  while (chunks.length < need && guard++ < 60) {
+    let idx = -1, best = 1;
+    chunks.forEach((c, i) => { if (c.length > best) { best = c.length; idx = i; } });
+    if (idx < 0) break;
+    const c = chunks[idx], mid = Math.ceil(c.length / 2);
+    chunks.splice(idx, 1, c.slice(0, mid), c.slice(mid));
+  }
+  guard = 0;
+  while (guard++ < 60) {
+    const idx = chunks.findIndex((c) => c.length >= 2 && clen(c) > 600);
+    if (idx < 0) break;
+    const c = chunks[idx], mid = Math.ceil(c.length / 2);
+    chunks.splice(idx, 1, c.slice(0, mid), c.slice(mid));
+  }
+  return chunks.map((c) => c.join(' ').trim()).filter(Boolean);
+}
+function peelPointe(paras) {
+  if (!paras.length) return { body: paras, pointe: null };
+  const last = paras[paras.length - 1];
+  const sents = splitSentences(last);
+  if (last.length < 200 && sents.length <= 2 && isAphoristic(sents[sents.length - 1] || last)) {
+    return { body: paras.slice(0, -1), pointe: last };
+  }
+  if (sents.length >= 2) {
+    const lastS = sents[sents.length - 1], prevS = sents[sents.length - 2];
+    const prevShortAph = prevS.length < 80 && isAphoristic(prevS);
+    let take = 0;
+    if (prevShortAph) take = 1;
+    else {
+      const two = (prevS + ' ' + lastS).trim();
+      if (two.length < 200 && isAphoristic(lastS)) take = 2;
+      else if (lastS.length < 200 && isAphoristic(lastS)) take = 1;
+    }
+    if (take > 0) {
+      const pointe = sents.slice(sents.length - take).join(' ').trim();
+      const bodySents = sents.slice(0, sents.length - take);
+      if (pointe.length < 200 && bodySents.length) {
+        return { body: paras.slice(0, -1).concat(bodySents.join(' ').trim()), pointe };
+      }
+    }
+  }
+  return { body: paras, pointe: null };
+}
+function splitWirkung(wirkung) {
+  const raw = String(wirkung || '').trim();
+  if (!raw) return [];
+  const paras = raw.split(/\n{2,}/).map((s) => s.trim()).filter(Boolean);
+  const { body, pointe } = peelPointe(paras);
+  const out = [];
+  for (const p of body) {
+    if (p.length <= 600) out.push(p);
+    else out.push(...splitLongParagraph(p));
+  }
+  if (pointe) out.push(pointe);
+  return out;
+}
+
 function substanceDetailHtml(entry) {
   const canonical = `${SITE}/zutaten/${entry.slug}/`;
   // Wirkung: Absätze trennen via \n\n. Erster Absatz bekommt Label-Em.
   const wirkungRaw = String(entry.wirkung || '').trim();
   const wirkungParas = wirkungRaw
-    ? wirkungRaw
-        .split(/\n{2,}/)
+    ? splitWirkung(wirkungRaw)
         .map((p, idx) => {
           const safe = esc(p);
           if (idx === 0) {
@@ -563,7 +680,7 @@ function substanceDetailHtml(entry) {
 ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
-  <link rel="stylesheet" href="../zutaten.css?v=26" />
+  <link rel="stylesheet" href="../zutaten.css?v=27" />
   <link rel="stylesheet" href="../../news/news.css?v=6" />
 </head>
 <body>
