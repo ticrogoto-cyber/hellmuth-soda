@@ -28,6 +28,46 @@
 }
 
 /* ----------------------------------------------------------------------------
+   1a) Fliesstext-Container `.bildgebung-body` (Detailseite)
+   ----------------------------------------------------------------------------
+   Der Renderer rahmt Body + Quellen in `<div class="bildgebung-body">`.
+   News.css greift dort nicht — deshalb hier eigene Regeln: gleiche
+   Zeilenhoehe in Lead und Body (1.65), grosszuegige Abstaende um die
+   Zwischenueberschriften (h2/h3 kleben sonst am Text), Absatz-margin 1em.
+---------------------------------------------------------------------------- */
+
+/* Lead-Text: identische Zeilenhoehe wie der Fliesstext (1.65),
+   Margin-Bottom 2em — die news.css-Defaults (line-height 1.5, 2.25rem)
+   wirken hier sonst durch und brechen die Lesetyposatz. */
+.bildgebung-detail .news-lead {
+  line-height: 1.65;
+  margin: 0 0 2em;
+}
+
+/* Fliesstext-Absaetze: Fournier, ruhige Zeilenhoehe, 1em zwischen Absaetzen,
+   Satzspiegel auf das breitere Bildgebung-Mass beschnitten. */
+.bildgebung-detail .bildgebung-body p {
+  font-family: 'Fournier Pro', serif;
+  font-size: clamp(1rem, 1.4vw, 1.125rem);
+  line-height: 1.65;
+  margin: 0 0 1em;
+  max-width: var(--bildgebung-measure);
+}
+
+.bildgebung-detail .bildgebung-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Zwischenueberschriften: 2em Luft nach oben (zum vorhergehenden Absatz),
+   0.75em nach unten (zum folgenden Absatz). News.css hat keine eigenen
+   h2/h3-Regeln im News-Body, also setzen wir sie hier. */
+.bildgebung-detail .bildgebung-body h2,
+.bildgebung-detail .bildgebung-body h3 {
+  max-width: var(--bildgebung-measure);
+  margin: 2em 0 0.75em;
+}
+
+/* ----------------------------------------------------------------------------
    2) Optionale Rubrik-Tags auf den Uebersichts-Karten
    ----------------------------------------------------------------------------
    Wenn eine Karte mehrere Filter-Chips traegt (z.B. "Roentgen, CT"),

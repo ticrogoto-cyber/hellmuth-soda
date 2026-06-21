@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=54" />
+  <link rel="stylesheet" href="../../news.css?v=55" />
 </head>
 <body>
   <header class="top">
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=54" />
+  <link rel="stylesheet" href="../../news.css?v=55" />
 </head>
 <body>
   <header class="nav">
@@ -657,7 +657,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=54" />
+  <link rel="stylesheet" href="../../news/news.css?v=55" />
 </head>
 <body>
   <header class="top">
@@ -840,12 +840,34 @@ const BILDGEBUNG_FILTER_LABEL_TO_KEY = {
   Ruhe: 'ruhe', Klarheit: 'klarheit', Darm: 'darm', Zelle: 'zelle', Substanz: 'substanz',
 };
 
+// Baut das Vollzitat aus einem Quelle-Objekt. Format "Kreativer Suizid":
+// "Autoren, »Titel«, in: <em>Journal</em>, Vol. X, Datum, Seiten. doi: X. PMID: X."
+// Für Monographien/Reports (dokument statt journal) entfällt das "in:".
+// Legacy: ein String wird unverändert escaped ausgegeben.
+function formatBildgebungQuelle(q) {
+  if (typeof q === 'string') return esc(q);
+  if (!q || typeof q !== 'object') return '';
+  const parts = [];
+  if (q.autoren) parts.push(esc(q.autoren));
+  if (q.titel) parts.push(`»${esc(q.titel)}«`);
+  if (q.journal) parts.push(`in: <em>${esc(q.journal)}</em>`);
+  else if (q.dokument) parts.push(esc(q.dokument));
+  if (q.vol) parts.push(esc(q.vol));
+  if (q.datum) parts.push(esc(q.datum));
+  if (q.seiten) parts.push(esc(q.seiten));
+  let out = parts.join(', ');
+  if (out) out += '.';
+  if (q.doi) out += ` doi: ${esc(q.doi)}.`;
+  if (q.pmid) out += ` PMID: ${esc(q.pmid)}.`;
+  return out;
+}
+
 function bildgebungDetailHtml(entry) {
   const canonical = `${SITE}/zutaten/bildgebung/${entry.slug}/`;
   const bodyHtml = mdToHtml(entry.body);
   const quellen = Array.isArray(entry.quellen) ? entry.quellen.filter(Boolean) : [];
   const quellenHtml = quellen.length
-    ? `        <h2>Quellen</h2>\n        <ol class="bildgebung-quellen">\n${quellen.map((q, i) => `          <li>${esc(q)}</li>`).join('\n')}\n        </ol>`
+    ? `        <div class="bildgebung-sources">\n          <h2>Quellenangaben</h2>\n          <ol>\n${quellen.map((q) => `            <li>${formatBildgebungQuelle(q)}</li>`).join('\n')}\n          </ol>\n        </div>`
     : '';
   const filters = Array.isArray(entry.filter) ? entry.filter.filter(Boolean) : [];
   const minutes = readingMinutes(entry.body);
@@ -871,8 +893,8 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:site_name" content="Mut zur Klarheit" />
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../../news/news.css?v=54" />
-  <link rel="stylesheet" href="../bildgebung.css" />
+  <link rel="stylesheet" href="../../../news/news.css?v=55" />
+  <link rel="stylesheet" href="../bildgebung.css?v=2" />
 </head>
 <body>
   <header class="top">
@@ -910,6 +932,7 @@ ${quellenHtml}
   <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../../../site.js?v=7"></script>
   <script src="../../../search.js?v=3"></script>
+  <script src="../footnotes.js?v=1"></script>
 </body>
 </html>
 `;
