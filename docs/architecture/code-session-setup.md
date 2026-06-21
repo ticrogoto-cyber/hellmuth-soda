@@ -37,15 +37,130 @@ Keine `.nojekyll`-Datei, kein `_config.yml`. Custom-Domain via CNAME.
 
 ## 2. Branch-Architektur
 
-- Hauptbranch: `main`. Alle Pushes hier.
-- Kein dauerhafter Integration-Branch wie `claude/quirky-fermat-8rewv0`
-  (vom User in einer früheren Direktive genannt, im Repo nicht vorhanden).
-- Feature-Branches als `claude/<beschreibung>` (~40 alte Branches im Remote, alle stale).
-- Kein PR-Workflow im aktuellen Setup — alle Edits gehen direkt auf `main`
-  via Code-Sessions mit Push-Permission.
-- Kein Auto-Merge konfiguriert. Keine `.github/auto-merge.yml`.
-- News-Pipeline (`news.yml`) committet selbst als `hellmuth-news-bot` direkt
-  auf main, mit bis zu 5 Push-Retries bei Konflikt.
+### Hauptbranch und Base
+
+- Hauptbranch: `main`. Alle Pushes hier, Pages serviert daraus.
+- Kein dauerhafter Integration-Branch. Der vom User in einer früheren
+  Direktive genannte `claude/quirky-fermat-8rewv0` **existiert nicht
+  im Remote** (`git ls-remote --heads origin 'claude/quirky-fermat-8rewv0'`
+  ist leer). Aktuelle Code-Sessions pushen direkt auf `main`.
+
+### Branch-Namens-Konvention
+
+Format: `claude/<kebab-case-feature-name>` mit optionalem 5-Zeichen-Suffix.
+Beispiele aus dem Remote-Bestand (39 stale Feature-Branches):
+
+- `claude/news-pagination` (PR #56)
+- `claude/impressum-mailschutz` (PR #57)
+- `claude/nav-headings` (PR #55)
+- `claude/favicon-rounded-cream`, `claude/favicon-hellmuth`
+- `claude/relevance-scale`, `claude/quiz-links-fix`
+- `claude/add-plant-oils-vocab-YZ7AX` (mit Suffix-ID)
+- `claude/boost-website-visibility-nDysg`
+
+Konvention: lowercase, Bindestriche zwischen Wörtern, Feature-beschreibend.
+Suffix-ID (5 alphanum Zeichen) ist optional, kommt von älteren Code-on-Web-
+Sessions die per-Session-Branch erzeugt haben.
+
+Wenn ein Branch nicht der Konvention folgt: kein technischer Bruch, aber
+der Branch fällt aus dem stale-`claude/*`-Cleanup-Pattern raus.
+
+### PR-Workflow
+
+PRs werden in der aktuellen Session-Architektur **nicht systematisch
+verwendet**. Aktuelle Code-Sessions pushen direkt auf `main`. Historisch
+gab es PR-Phasen (PR #53–#57 alle 2026-06-07 bis 2026-06-09, base=main,
+head=claude/<feature>, alle innerhalb 2–7 Minuten gemerged).
+
+Wenn PR-Workflow gewünscht: User erstellt Feature-Branch, Code committet
+dort, User merged manuell oder per `mcp__github__merge_pull_request`.
+
+### Auto-Merge-Mechanismus
+
+**Aktiver Mechanismus: keiner aus dem Repo lesbar.**
+
+Konkrete Befunde:
+- Keine `.github/auto-merge.yml`
+- Keine `.mergify.yml` oder `.github/mergify.yml`
+- Keine `dependabot.yml` mit Auto-Merge-Konfiguration
+- Keine Branch-Protection-Rules sichtbar (Repo-Settings nicht via Repo lesbar)
+- Keine GitHub-Actions, die `actions/auto-merge` oder analog nutzen
+
+PR #53–#57 wurden alle binnen Minuten merged — entweder:
+1. **Native GitHub-Auto-Merge** (UI-basiert), aktiviert via:
+   `Repository → Settings → General → Pull Requests → Allow auto-merge`
+   Pro PR muss »Enable auto-merge« geklickt werden, dann mergt GitHub
+   sobald alle required checks grün sind.
+2. **Manuelles Merging** durch den User binnen Minuten nach PR-Erstellung.
+
+Code kann das aus dem Repo nicht eindeutig unterscheiden. Verifikation
+braucht UI-Zugriff oder API-Call auf Repo-Settings.
+
+### CI-Anforderungen für Auto-Merge
+
+Im Repo ist keine Branch-Protection-Rule konfiguriert die required-checks
+erzwingt (über Repo-Files nicht ermittelbar; Repo-Settings nur via UI).
+
+Wahrscheinlich aktive Checks (falls Branch-Protection auf main):
+- `pages-build-deployment` (GitHub-Default-Jekyll-Build, läuft auf jeden
+  main-Push, Run-Dauer ~30–60 s)
+- `Live-Probe` (auto-getriggert auf zutaten/substances.js u.a., Run ~40 s)
+
+### Integration-Branch vs. main
+
+Aktuelle Session-Realität: **kein Integration-Branch**. Alle PRs landen
+direkt auf `main` (alle 5 historischen PRs: base=main). Pages serviert
+direkt aus main, kein gh-pages-Branch.
+
+Falls in Zukunft Integration-Branch eingeführt wird: PR-Base entsprechend
+ändern, Pages-Source ggf. anpassen.
+
+### Reproduzier-Anleitung für Folge-Chat
+
+Wenn der neue Code-Chat in einem frischen Repo-Klon arbeitet:
+
+1. **Klon + Setup:**
+   ```bash
+   git clone https://github.com/ticrogoto-cyber/hellmuth-soda.git
+   cd hellmuth-soda
+   cd pipeline && npm install --no-audit --no-fund
+   ```
+
+2. **Direkt-auf-main-Push prüfen:**
+   ```bash
+   git checkout main
+   echo "# test $(date)" >> /tmp/cs-test.md
+   git add /tmp/cs-test.md  # NICHT pushen, nur testen ob lokaler commit geht
+   git status
+   ```
+
+3. **Auto-Merge-Verifikation per Test-PR:**
+   ```bash
+   git checkout -b claude/auto-merge-test
+   echo "<!-- test $(date) -->" >> README.md  # trivial edit
+   git add README.md && git commit -m "test: auto-merge probe"
+   git push -u origin claude/auto-merge-test
+   # PR erstellen via mcp__github__create_pull_request (base=main, head=claude/auto-merge-test)
+   # 30 s warten, dann PR-Status prüfen
+   # Falls merged=true: Auto-Merge ist aktiv (native oder UI-konfiguriert)
+   # Falls open: kein Auto-Merge, User muss manuell mergen
+   ```
+
+4. **Falls Auto-Merge aktiv:** Code-Sessions können weiter direkt
+   auf main pushen (aktueller Modus), oder optional via PR-Workflow
+   gehen (sicherer bei größeren Wellen mit Verifikations-Pflicht).
+
+5. **Live-Probe-Workflow** triggert auto-matisch bei jedem Push auf main
+   der substances.js/zutaten.css/zutaten.js/search.js berührt
+   (siehe Sektion 5). Run-Dauer ~40 s. Logs via `mcp__github__get_job_logs`.
+
+### News-Pipeline-Bot
+
+`news.yml` committet als `hellmuth-news-bot` direkt auf main, mit bis zu
+5 Push-Retries bei Konflikt. Läuft täglich um 22:17 UTC wenn
+`vars.NEWS_CRON_ENABLED == true`. Code-Sessions die zur selben Zeit
+pushen müssen ggf. rebasen (in der aktuellen Session schon einmal
+passiert beim Commit `d651dfd` → `e198a03`).
 
 ## 3. substances.js-Struktur
 
