@@ -208,3 +208,51 @@ offiziell genannte Konferenz-/Dokument-Titel wie »The Tokyo Declaration«).
   »Tokyo« → »Tokio«.
 - Keine weiteren Ortsnamen-Treffer in den 168 Einträgen.
 - Bildgebung-Artikel: noch nicht vorhanden, Regel gilt ab Erstellung.
+
+## VII. Absatz-Architektur (Wirkungstext)
+
+Jeder Substanz-Eintrag rendert vier Slots in fester Reihenfolge:
+
+1. **Werbung-Label** + ein bis zwei Sätze (externe Marketing-Position).
+2. **Wirkung-Label** + Hauptkörper als ein oder mehrere Absätze.
+3. **Pointenabsatz** separat, durch `\n\n` abgesetzt.
+4. **Quellen-Label** + Name-Jahr-Liste (Format Sektion I).
+
+### Hauptkörper-Regel
+
+- Kurze Einträge (Wirkung < 600 Zeichen): ein Hauptkörper-Absatz.
+- Längere Einträge (≥ 600 Zeichen): zwei bis sechs Hauptkörper-Absätze,
+  thematisch getrennt. Empfohlene Schnitte:
+  - Mechanismus / Pharmakologie
+  - Studienlage / klinische Evidenz
+  - Marketing-Realität / Form-Differenzierung
+
+### Pointenabsatz-Regel
+
+- Immer als eigener Block, durch `\n\n` vom Hauptkörper getrennt.
+- Ein bis drei Sätze.
+- Pointenabsatz muss durch den Vorletzten gesetzt sein. Wenn der
+  Pointensatz ein Konzept einführt, das im Hauptkörper nicht aufgebaut
+  wurde, gehört entweder das Setup nachgezogen oder die Pointe gestrichen.
+
+### Verbotene Pattern
+
+- **Single-Block-Form**: Wirkung > 800 Zeichen ohne einen einzigen
+  `\n\n`-Trenner. Architektur-Audit 2026-06-21 hatte 59 solcher Fälle —
+  alle in derselben Welle behoben.
+- **Über-Fragmentierung**: mehr als sechs Absätze bei unter 600 Zeichen
+  (Audit fand keine, Regel gilt präventiv).
+- **Mineral-Schablonen-Trikolon**: »das Mineral / Salz / Spurenelement
+  ist gut, X ist entscheidend, der Kaffee ist Y« — acht von achtzehn
+  Mineralien trugen es, alle in derselben Welle gestrichen. Wiederkehrende
+  Closer-Schablonen über mehrere Einträge sind verboten, jede Pointe
+  eintrags-spezifisch.
+
+### Renderer-Kompatibilität
+
+Sowohl `pipeline/render.mjs` (statische Detailseiten) als auch
+`zutaten/zutaten.js renderDetailContent()` (Overlay-Template) splitten
+den wirkung-Text per `split(/\n\n+/)` und rendern jeden Block als
+eigenes `<p class="zutaten-line">`. Das Quellen-Block bekommt
+zusätzlich die Klasse `zutaten-quellen`. Beide Render-Pfade sind
+seit Welle b0383eb identisch.
