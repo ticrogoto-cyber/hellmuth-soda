@@ -122,12 +122,6 @@
     let buf = [];
     for (const s of sentences) {
       if (buf.length > 0) {
-        if (/^[a-zäöüß]/.test(s)) {
-          groups.push(buf.join(' '));
-          groups.push(s);
-          buf = [];
-          continue;
-        }
         if (longGate && PFLICHT_MARKER.some(re => re.test(s))) {
           groups.push(buf.join(' '));
           buf = [s];

@@ -556,13 +556,6 @@ function autoSplitParagraph(para) {
   let buf = [];
   for (const s of sentences) {
     if (buf.length > 0) {
-      // Klein-Start-Fragment-Pointen werden immer isoliert (Quell-Stilfigur).
-      if (/^[a-zäöüß]/.test(s)) {
-        groups.push(buf.join(' '));
-        groups.push(s);
-        buf = [];
-        continue;
-      }
       // Pflicht-Marker greifen nur, wenn Absatz das Längen-Gate übertritt.
       if (longGate && PFLICHT_MARKER.some(re => re.test(s))) {
         groups.push(buf.join(' '));
