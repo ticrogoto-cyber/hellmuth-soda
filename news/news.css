@@ -90,6 +90,33 @@
 .news-featured .news-card-title { font-size: clamp(1.5rem, 2.8vw, 2rem); }
 .news-featured .news-lead { font-size: clamp(1.1rem, 1.7vw, 1.3rem); }
 
+/* ── Sort-Toggle (Neueste / Meistgelesen) — gleicher Pillen-Style wie .news-filter ─ */
+.news-sort {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: -2rem 0 3.5rem;
+}
+.news-sort button {
+  appearance: none;
+  background: var(--page-bg);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  padding: 0.6rem 1.1rem;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+.news-sort button:hover,
+.news-sort button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
 /* ── Übersichtsliste ──────────────────────────────────────────────────── */
 .news-list {
   list-style: none;
