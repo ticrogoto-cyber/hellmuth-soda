@@ -945,7 +945,7 @@ window.SUBSTANCES_DATA = {
       name: "Eisenkraut (Verbena officinalis)",
       slug: "eisenkraut-verbena-officinalis",
       shortName: "Eisenkraut",
-      szenario: null,
+      szenario: 3,
       kategorie: "Pflanze",
       unterkategorie: "Kraut",
       werbung: "Heiliges Kraut der Kelten und Römer. Eisenkraut als traditionelles Nervenmittel und Bitterstoffpflanze.",
