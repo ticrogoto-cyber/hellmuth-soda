@@ -256,3 +256,75 @@ den wirkung-Text per `split(/\n\n+/)` und rendern jeden Block als
 eigenes `<p class="zutaten-line">`. Das Quellen-Block bekommt
 zusätzlich die Klasse `zutaten-quellen`. Beide Render-Pfade sind
 seit Welle b0383eb identisch.
+
+### Hauptkörper-Längen-Gate (verbindlich)
+
+Pro Hauptkörper-Absatz gilt:
+
+- > 600 Zeichen: mindestens zweigeteilt
+- > 1200 Zeichen: mindestens dreigeteilt
+- > 2000 Zeichen: mindestens viergeteilt
+
+Trennung folgt thematischen Brüchen, nicht starren Wortzählungen.
+Übergangs-Marker als Schnittstellen:
+
+- Mechanismus zu Klinik: »Wer X hat«, »In der Praxis«, »Im Patientenalltag«
+- Studienlage zu Marketing: »Im Marketing«, »In der Werbung«, »Der Industrie«
+- Allgemein zu spezifisch: »Konkret«, »Im Detail«, »Pharmakologisch«
+- Pro zu Contra: »Allerdings«, »Aber«, »Demgegenüber«
+- Studien-Block: »Klinisch«, »Eine randomisierte«, »Doppelblinde«
+
+## VIII. Negation-Affirmation-Konstruktionen (verbindlich)
+
+Maximum **drei** Negation-Affirmation-Konstruktionen über den gesamten
+Bestand. Verbotene Patterns:
+
+- »nicht X, sondern Y« und Komma-Varianten ohne »sondern«
+- »kein X, ein Y«
+- »Das ist keine X, das ist Y«
+- »Das ist nicht X, das ist Y«
+- »X ist nicht A, sondern B« im Satzkern
+- »weniger X als Y« (Komparativ-Negation)
+
+Erlaubt sind: »nicht nur … sondern auch« (Steigerung, nicht Antithese),
+Relativsätze (»Es gibt keine X, die Y«), reine Befunde
+(»fand keinen Effekt«), elliptische Aphorismen ohne ersten Halbsatz.
+
+Audit-Lauf 2026-06-21: 24 Treffer gefunden, 11 umgeschrieben auf
+direkte Affirmation (»Das ist keine Werbung, das ist Biochemie« →
+»Das ist Biochemie«), 3 tragende behalten (CoQ10, GOS, Piracetam),
+10 unsafe nicht angefasst.
+
+Für Block E/F/G stark zu vermeiden. Auto-Quote-Kontrolle in Folge-
+Wellen prüft, dass Bestand nicht über drei wachst.
+
+## IX. Doppelpunkt-im-Fließtext (verbindlich)
+
+Doppelpunkte sind erlaubt:
+
+- Vor Aufzählung mit drei oder mehr Items (Komma-Liste danach,
+  Items je unter 35 Zeichen)
+- Direkt nach den Feld-Labels »Werbung:«, »Wirkung:«, »Quellen:«
+  (Renderer-Output, nicht im Wirkung-String)
+
+Verstöße (nicht erlaubt):
+
+- »Daneben: …«, »Der Unterschied: …«, »Was nicht dokumentiert ist: …«
+- »Aber: …«, »Bemerkenswert: …«
+- »Vier Wochen oral bei aktiver Colitis ulcerosa: …«
+- »Klinische Endpunktdaten am Menschen: selten.«
+
+Auto-Fix-Regel: Doppelpunkt durch Punkt ersetzen, nachfolgender Text
+großschreiben. Audit-Lauf 2026-06-21: 23 Verstöße gefixt.
+
+## X. Pointenabsatz immer abgesetzt (verbindlich)
+
+Der aphoristische Schlusssatz (oder die letzten zwei kurzen Sätze)
+gehört durch `\n\n` vom Hauptkörper getrennt. Erkennungs-Heuristik:
+
+- Letzter Satz, deutlich kürzer als die anderen
+- Beginnt oft mit »Man hat…«, »Der Wert von…«, »Macht nur…«,
+  »Bleibt…«, »Heißt trotzdem…«, »Übrig bleibt…«
+- Klar aphoristisch / Verdikt-Schluss
+
+Audit-Lauf 2026-06-21: 77 Pointen abgesetzt.
