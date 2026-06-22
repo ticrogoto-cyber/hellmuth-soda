@@ -2482,5 +2482,53 @@ Die Ironie sitzt tiefer. Das verbreitetste Defizit der westlichen Welt betrifft 
         },
       ],
     },
+    {
+      slug: "liposomal-bioverfuegbarkeit-technologie",
+      titel: "Die Hülle, die entscheidet, ob etwas wirkt",
+      lead: "Liposomale Formulierung ist die wichtigste Technologie im Supplement-Regal, die kein Etikett erklärt. Bei Glutathion macht sie den Unterschied zwischen Wirkstoff und teurem Pulver. Bei Ashwagandha macht sie gar nichts. Die Industrie druckt »liposomal« auf die Packung wie einen Adelstitel und hofft, dass niemand fragt, wofür.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Die meisten Wirkstoffe im Supplement-Regal scheitern an derselben Stelle. Sie werden geschluckt, sie erreichen den Dünndarm, und dort beginnt das Problem. Peptidasen zerlegen Peptide. Die Leber sulfatiert und glucuronidiert, was durch die Pfortader kommt. Magensäure denaturiert empfindliche Strukturen. Was auf dem Etikett als 500 Milligramm steht, kommt im Blut als fünf Milligramm an, oder als null. Curcumin unter einem Prozent. Resveratrol unter einem Prozent. Glutathion wird im Darm in seine Aminosäuren zerlegt, bevor es die Mukosa passiert. Die Milligrammzahl auf der Packung misst, was man schluckt. Sie misst nicht, was wirkt.
+
+Liposomen lösen dieses Problem für bestimmte Substanzen. Ein Liposom ist eine Doppelschicht aus Phospholipiden, die den Wirkstoff umschließt wie eine künstliche Zellmembran. Der Wirkstoff passiert den Magen geschützt, wird im Dünndarm über Membranfusion oder Endozytose direkt in die Enterozyten aufgenommen und umgeht den First-Pass-Metabolismus teilweise. Das Ergebnis sind Plasmaspiegel, die bei manchen Substanzen zehn- bis dreißigfach über denen der Standardform liegen.
+
+Die Evidenz dafür ist substanzspezifisch. Bei Glutathion existiert eine kontrollierte Studie, die nach sechs Monaten liposomaler Gabe signifikant erhöhte intrazelluläre GSH-Spiegel in Erythrozyten zeigt. Standard-Glutathion-Pulver bewirkt das nachweislich nicht, weil die Peptidasen es vor der Resorption zerstören. Der Unterschied ist binär. Standard-Glutathion wirkt oral nicht. Liposomales Glutathion wirkt. Dazwischen liegt die Phospholipidmembran, und sonst nichts.
+
+Curcumin erzählt dieselbe Geschichte in Gelb. Die Phytosom-Formulierung Meriva erhöht die Bioverfügbarkeit um das Neunundzwanzigfache. Das ist der Unterschied zwischen einem Gewürzpulver, das den Darm passiert, und einem Wirkstoff, der die Darmwand durchquert und im Blut ankommt. Die Metaanalysen zur antidepressiven Wirkung von Curcumin verwendeten überwiegend bioverfügbarkeitsoptimierte Formulierungen. Die Billigkapseln im Regal verwenden Standardpulver. Dasselbe Molekül, verschiedene Welten im Plasma.
+
+Vitamin C braucht das alles nicht. Standardascorbinsäure hat bereits eine orale Bioverfügbarkeit von siebzig bis neunzig Prozent bei moderaten Dosen. Liposomales Vitamin C verbessert die Aufnahme bei hohen Dosen, wo die intestinalen Transporter gesättigt sind. Bei den üblichen ein bis zwei Gramm pro Tag zahlt man den Liposom-Aufpreis für einen marginalen Unterschied. Wer 200 Milligramm aus einer Orange isst, resorbiert fast alles. Wer zehn Gramm aus einer Kapsel will, braucht eine andere Verpackung.
+
+Ashwagandha braucht es noch weniger. Die Withanolide, die aktiven Steroidal-Laktone, sind lipophil und werden über konventionelle Mechanismen gut resorbiert. KSM-66 und Sensoril erreichen als Standardextrakte pharmakologisch wirksame Spiegel. Liposomales Ashwagandha ist eine Preiserhöhung ohne Wirkungssteigerung. Wer es gekauft hat, hat ein schönes Etikett bezahlt.
+
+Alpha-Liponsäure zeigt den Unterschied am deutlichsten. Standard-ALA wird schnell absorbiert, aber ebenso schnell metabolisiert, Spitzenplasmaspiegel nach dreißig Minuten, dann Abfall. Liposomale ALA verlängert die Resorptionskurve und erhöht die Fläche unter der Kurve, den Parameter, der die tatsächliche Gewebeexposition misst. Anwender berichten einen Unterschied, den sie bei Ashwagandha nie bemerkt haben. Das passt zur Pharmakokinetik, weil ALA in der Standardform an der schnellen Clearance scheitert, während Ashwagandha an der Clearance nie ein Problem hatte. Der Körper bestätigt, was die Kurven zeigen.
+
+Wirtschaftlich funktioniert »liposomal« in jedem Fall. Die Herstellungskosten für liposomale Formulierung liegen höher als für Standardpulver, aber der Preisaufschlag im Regal übersteigt den Herstellungsunterschied um das Drei- bis Fünffache. Der Rohstoff in einer liposomalen Glutathion-Kapsel kostet Cent. Der Aufpreis kostet Euro. Die Marge ist bei sinnvollen und bei sinnlosen liposomalen Produkten identisch. Für den Hersteller gibt es keinen ökonomischen Anreiz, dem Kunden zu erklären, wann die Technologie etwas bringt und wann sie nur die Gewinnspanne poliert.
+
+Die Industrie kennt diesen Unterschied. Sie kommuniziert ihn nicht, weil die Aufklärung die Hälfte der Produktpalette entwerten würde. Also steht »liposomal« auf der Glutathion-Kapsel und auf der Ashwagandha-Kapsel, und der Kunde bezahlt in beiden Fällen den Aufpreis, einmal für Pharmakokinetik und einmal für Typographie.
+
+Das Supplement-Regal ist voll mit Substanzen, die an der Darmwand scheitern, und voll mit Technologien, die das Problem lösen. Dass beides im selben Regal steht und auf keinem Etikett der Zusammenhang erklärt wird, fasst den Zustand der Branche in einem Bild zusammen. Die Technologie existiert. Das Wissen existiert. Die Kommunikation fehlt. Und in der Lücke zwischen Wissen und Etikett verdient jemand Geld.`,
+      quellen: [
+        {
+          autoren: "Ruchi Sinha, Devin Sinha, Sampath Parthasarathy, et al.",
+          titel: "Oral supplementation with liposomal glutathione elevates body stores of glutathione and markers of immune function",
+          journal: "European Journal of Clinical Nutrition",
+          vol: "Vol. 72, No. 1",
+          datum: "Januar 2018",
+          seiten: "105—111",
+          doi: "10.1038/ejcn.2017.132",
+          pmid: "28853742",
+        },
+        {
+          autoren: "Roberto Cuomo, Giovanna Appendino, Alberto Leyva-Gómez, et al.",
+          titel: "Comparative absorption of a standardized curcuminoid mixture and its lecithin formulation",
+          journal: "Journal of Natural Products",
+          vol: "Vol. 74, No. 4",
+          datum: "April 2011",
+          seiten: "664—669",
+          doi: "10.1021/np1007262",
+          pmid: "21413691",
+        },
+      ],
+    },
   ],
 };

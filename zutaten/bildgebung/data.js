@@ -407,6 +407,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "liposomal-bioverfuegbarkeit-technologie/",
+      "title": "Die Hülle, die entscheidet, ob etwas wirkt",
+      "lead": "Liposomale Formulierung ist die wichtigste Technologie im Supplement-Regal, die kein Etikett erklärt. Bei Glutathion macht sie den Unterschied zwischen Wirkstoff und teurem Pulver. Bei Ashwagandha macht sie gar nichts. Die Industrie druckt »liposomal« auf die Packung wie einen Adelstitel und hofft, dass niemand fragt, wofür.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 3,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
