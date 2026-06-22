@@ -1595,5 +1595,49 @@ Fünfzig Hertz. Die Frequenz eines europäischen Wechselstromnetzes. Ein Gewürz
         },
       ],
     },
+    {
+      slug: "kalium-elektrolyt-blutdruck",
+      titel: "Das Defizit, das kein Blutbild zeigt",
+      lead: "Die WHO empfiehlt 3510 Milligramm Kalium am Tag. Westliche Bevölkerungen nehmen im Schnitt 2500 auf. Die Differenz verursacht Bluthochdruck, Schlaganfälle und Knochenverlust. Kein Arzt misst sie.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Kalium ist das häufigste Kation im Inneren jeder menschlichen Zelle. Es reguliert das Membranpotenzial. Ohne Kalium schlägt kein Herz, kontrahiert kein Muskel, leitet kein Nerv. Das weiß die Medizin. Sie handelt nur nicht danach.
+
+Das Serumkalium liegt bei den meisten Menschen im Normbereich, selbst wenn das intrazelluläre Depot seit Jahren schrumpft. Der Serumwert fällt erst bei schwerer Depletion ab. Er verhält sich wie ein Bankkonto, das den Kontostand anzeigt, während die Altersvorsorge geplündert wird. Wer nur das Serum misst, verpasst den Mangel, der zählt. Ärzte messen das Serum. Sie messen es, weil es im Standardpanel steht. Und weil der Wert normal aussieht, sagen sie, alles sei in Ordnung.
+
+Aburto 2013 hat für die WHO die Evidenz zusammengetragen. Eine systematische Übersichtsarbeit und Metaanalyse im BMJ. Erhöhte Kaliumzufuhr senkt den systolischen Blutdruck um 3,5 mmHg, den diastolischen um knapp 2 mmHg. Das Schlaganfallrisiko sinkt um 24 Prozent. Der Effekt ist dosisabhängig und bei Hypertonikern am stärksten. 24 Prozent weniger Schlaganfälle. Mit einem Mineral, das in Bananen steckt. Die WHO hat daraufhin 3510 Milligramm als Untergrenze empfohlen. Die meisten westlichen Ernährungsweisen liegen tausend Milligramm darunter.
+
+Es gibt einen Faktor, der die Lücke vergrößert und auf keinem Etikett steht. Koffein steigert die renale Kaliumausscheidung. Jede Tasse Kaffee spült Kalium aus, und niemand rechnet es gegen. Eine Gesellschaft, die drei Tassen am Tag trinkt und sich kaliumarm ernährt, betreibt Elektrolyt-Raubbau, den kein Blutbild sichtbar macht.
+
+Bananen liefern 360 Milligramm pro Stück. Avocados 485 Milligramm. Kokoswasser 600 Milligramm pro Portion. Die Lösung steht im Supermarkt, nicht in der Apotheke. Wer diese Quellen meidet und supplementiert, kauft sich eine Pille gegen ein Problem, das ein Glas Kokoswasser lösen würde. Aber Kokoswasser hat keine Vertriebsabteilung.`,
+      quellen: [
+        {
+          autoren: "Nancy Aburto, Sara Hanson, Hialy Gutierrez, et al.",
+          titel: "Effect of increased potassium intake on cardiovascular risk factors and disease: systematic review and meta-analyses",
+          journal: "BMJ",
+          vol: "Vol. 346",
+          datum: "03.04.2013",
+          seiten: "f1378",
+          doi: "10.1136/bmj.f1378",
+          pmid: "23558164",
+        },
+        {
+          autoren: "World Health Organization",
+          titel: "Guideline: Potassium intake for adults and children",
+          dokument: "WHO, Genf · ISBN 978-92-4-150482-9",
+          datum: "2012",
+        },
+        {
+          autoren: "Tommaso Filippini, Androniki Naska, Maria-Iosifina Kasdagli, et al.",
+          titel: "Potassium intake and blood pressure: a dose-response meta-analysis of randomized controlled trials",
+          journal: "Journal of the American Heart Association",
+          vol: "Vol. 9, No. 12",
+          datum: "16.06.2020",
+          seiten: "e015719",
+          doi: "10.1161/JAHA.119.015719",
+          pmid: "32500831",
+        },
+      ],
+    },
   ],
 };
