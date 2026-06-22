@@ -48,20 +48,20 @@
   </g>
 
   <g class="arr-group">
-    <line class="arr draw" data-delay="220" x1="340" y1="82" x2="340" y2="110" style="--len:28"/>
+    <line class="arr draw" data-delay="220" x1="340" y1="82" x2="340" y2="100" style="--len:18"/>
   </g>
 
   <g class="arr-group">
-    <line class="arr draw" data-delay="280" x1="340" y1="110" x2="130" y2="148" style="--len:213"/>
-    <polyline class="arr-head reveal" data-delay="440" points="135,146 130,148 134,154"/>
+    <line class="arr draw" data-delay="280" x1="340" y1="100" x2="130" y2="138" style="--len:213"/>
+    <polyline class="arr-head reveal" data-delay="440" points="138,136 130,138 134,144"/>
   </g>
   <g class="arr-group">
-    <line class="arr draw" data-delay="280" x1="340" y1="110" x2="340" y2="148" style="--len:38"/>
-    <polyline class="arr-head reveal" data-delay="440" points="336,144 340,148 344,144"/>
+    <line class="arr draw" data-delay="280" x1="340" y1="100" x2="340" y2="138" style="--len:38"/>
+    <polyline class="arr-head reveal" data-delay="440" points="336,134 340,138 344,134"/>
   </g>
   <g class="arr-group">
-    <line class="arr draw" data-delay="280" x1="340" y1="110" x2="550" y2="148" style="--len:213"/>
-    <polyline class="arr-head reveal" data-delay="440" points="546,146 550,148 546,154"/>
+    <line class="arr draw" data-delay="280" x1="340" y1="100" x2="550" y2="138" style="--len:213"/>
+    <polyline class="arr-head reveal" data-delay="440" points="542,136 550,138 546,144"/>
   </g>
 
   <g class="col-group" data-col="anti">
