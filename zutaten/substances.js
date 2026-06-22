@@ -25,6 +25,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliches Serotonin-Supplement für Stimmung, Schlaf und Appetit. 5-HTP aus der afrikanischen Griffonia-Bohne als pflanzliches Antidepressivum.",
       wirkung: "5-HTP wird direkt zu Serotonin decarboxyliert, ohne den geschwindigkeitslimitierenden Schritt der Tryptophan-Hydroxylase. Das klingt nach einem Vorteil. Biochemisch ist es ein Problem.\n\nDie Decarboxylierung findet überall statt, wo Aromatische-L-Aminosäure-Decarboxylase exprimiert wird, also auch im Darm und im peripheren Blut. Peripheres Serotonin verursacht Übelkeit, Durchfall und bei chronischer Akkumulation Herzklappenfibrosen. Zentrales Serotonin hebt die Stimmung. 5-HTP ist schlecht darin, die beiden auseinanderzuhalten.\n\nOhne gleichzeitige Gabe eines peripheren Decarboxylase-Hemmers wie Carbidopa landet der Großteil des 5-HTP als Serotonin im Darm, nicht im Gehirn. Das erklärt die gastrointestinalen Nebenwirkungen und die inkonsistenten Stimmungsdaten. In Kombination mit SSRIs steigt das Risiko eines Serotonin-Syndroms, eine potentiell lebensbedrohliche Komplikation, die auf keiner 5-HTP-Packung in adäquater Deutlichkeit steht.\n\n5-HTP wurde populär, weil Tryptophan verboten war. Das Verbot ist aufgehoben. Der Ersatz verkauft sich weiter.",
       quellen: ["Turner 2006", "Byerley 1987"],
+      nahrungsquellen: "Kürbiskerne, Sojabohnen, Hafer (als Tryptophan-Vorstufen)",
       related_article: null,
     },
     {
@@ -49,6 +50,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Japanisches Pilzextrakt für Immunsystem und Krebsbegleittherapie. AHCC als klinisch erforschtes Immunstimulans aus Shiitake-Mycel.",
       wirkung: "AHCC ist ein standardisierter Extrakt aus dem Mycel von Lentinula edodes, der Alpha-1,4-Glucane statt der üblichen Beta-Glucane enthält. Dieser Strukturunterschied erklärt die eigenständige Immunaktivierung über einen Beta-Glucan-unabhängigen Signalweg.\n\nIn Japan wird AHCC in über 700 Kliniken als komplementäres Immunstimulans bei Krebspatienten eingesetzt. Kontrollierte Studien zeigen unter AHCC erhöhte NK-Zell-Aktivität, verbesserte dendritische Zellfunktion und reduzierte Nebenwirkungen der Chemotherapie. Bei hepatozellulärem Karzinom zeigt eine Studie verlängertes rezidivfreies Überleben nach kurativer Resektion.\n\nBei HPV-Infektionen läuft eine Phase-II-Studie an der University of Texas, die AHCC als Immunmodulator gegen persistierende HPV-Infektionen testet. Vorläufige Ergebnisse zeigen HPV-Clearance bei einem Teil der Teilnehmerinnen.\n\n700 japanische Kliniken setzen es ein. Europa hat keine Meinung dazu.",
       quellen: ["Matsui 2002", "Smith 2014"],
+      nahrungsquellen: "Shiitake, Maitake, Reiskleie",
       related_article: null,
     },
     {
@@ -60,6 +62,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher löslicher Ballaststoff aus dem Akazienbaum. Sanftes Präbiotikum für Verdauung und Darmgesundheit, gut verträglich und geschmacksneutral.",
       wirkung: "Akazienfaser gehört zu den am langsamsten fermentierten löslichen Ballaststoffen. Diese Eigenschaft unterscheidet sie pharmakologisch von Inulin und FOS. In der Praxis umgeht sie deren Hauptproblem, die Gasbildung im Sigmoid.\n\nEine Vergleichsstudie zeigt nach täglich zehn Gramm Akazienfaser über vier Wochen nachweisliche Erhöhung der Bifidobakterien- und Lactobacillus-Zahlen im Stuhl, mit deutlich besserer Verträglichkeit als gleich dosiertes Inulin. Klinisch findet die Substanz Anwendung bei Reizdarmsyndrom, antibiotikaassoziierter Diarrhö und chronischer Obstipation, mit moderaten aber konsistenten Effekten.\n\nDie langsame Fermentation wirkt als Selektivitätshebel, weil das Substrat über die gesamte Kolonlänge verteilt verstoffwechselt wird, statt im rechten Hemikolon einen Gasausbruch zu erzeugen.\n\nFermentiert wie Inulin, verträglich wie Reis, und im Supplement-Regal unsichtbar.",
       quellen: ["Calame 2008", "Cherbut 2003"],
+      nahrungsquellen: "Gummi arabicum (Acacia senegal), Acacia seyal, Akazienharz",
       related_article: null,
     },
     {
@@ -72,6 +75,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Innovativer Darmkeim der nächsten Generation. Akkermansia für Stoffwechsel, Darmbarriere und metabolische Gesundheit.",
       wirkung: "Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von Muzin. Das klingt parasitär, ist aber ein Erneuerungssignal. Der Abbau alter Muzinschichten stimuliert die Becherzellen zur Produktion neuer Schichten. Die Darmbarriere wird dadurch frischer.\n\nBei übergewichtigen Erwachsenen zeigt eine RCT nach drei Monaten pasteurisierter Akkermansia deutliche Verbesserung der Insulinsensitivität, Reduktion des Gesamtcholesterins und Senkung relevanter Entzündungsmarker. Pasteurisiert wirkt besser als lebend, weil das Membranprotein Amuc_1100 hitzestabil ist und den Toll-like-Rezeptor 2 aktiviert.\n\nSeit 2022 in der EU als Novel Food zugelassen. Der erste Darmbewohner, der den Weg aus dem Labor ins Supplement-Regal geschafft hat, ohne dass die Werbung den Mechanismus erklären muss.\n\nDer Keim, der sich von der Darmwand ernährt und sie dabei repariert, passt in keine Marketingkategorie.",
       quellen: ["Depommier 2019", "Plovier 2017"],
+      nahrungsquellen: "Cranberries, Granatapfel, Concord-Trauben (polyphenolreiche Förderer)",
       related_article: null,
     },
     {
@@ -95,6 +99,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Acetyliertes L-Carnitin für Gehirn und Energie. ALCAR als Nootropikum und mitochondrialer Energieträger.",
       wirkung: "ALCAR ist L-Carnitin mit einer Acetylgruppe, die zwei Vorteile bringt. Die Substanz passiert die Blut-Hirn-Schranke effizienter als L-Carnitin und liefert gleichzeitig Acetylgruppen für die Acetylcholin-Synthese. Damit ist ALCAR sowohl mitochondrialer Fettsäure-Shuttle als auch Neurotransmitter-Vorläufer.\n\nBei peripherer Neuropathie, diabetisch und chemotherapieinduziert, zeigt eine Metaanalyse signifikante Verbesserung der Nervenleitgeschwindigkeit und Schmerzreduktion unter 2000 bis 3000 mg ALCAR täglich. Bei Depression zeigt eine Metaanalyse Wirksamkeit vergleichbar mit Antidepressiva, mit stärkstem Effekt bei älteren Patienten und bei Dysthymie.\n\nBeide Formen leisten die Fettsäureoxidation. Der Unterschied liegt im zerebralen Zugang. Wer das Gehirn erreichen will, braucht die acetylierte Form.\n\nL-Carnitin für die Mitochondrien, ALCAR für das Gehirn. Zwei Formen, zwei Zielorgane.",
       quellen: ["Veronese 2018", "Li 2015"],
+      nahrungsquellen: "Vegan begrenzt; Tempeh, Avocado, Erdnussbutter (sehr geringe Mengen)",
       related_article: null,
     },
     {
@@ -107,6 +112,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Scharfstoff aus Senf, Meerrettich und Wasabi. Senföle als natürliche Antibiotika und Schleimhautreizer.",
       wirkung: "Allyl-Isothiocyanat entsteht bei der Zerstörung von Senfpflanzenzellen durch Myrosinase, dieselbe Enzym-Substrat-Reaktion, die bei Brokkoli Sulforaphan freisetzt. Der Unterschied liegt im Substrat. Sinigrin liefert Allyl-ITC, Glucoraphanin liefert Sulforaphan. Beide sind Isothiocyanate, aber mit verschiedenen Profilen.\n\nAllyl-ITC aktiviert TRPA1-Rezeptoren, den Schmerzkanal, der auch auf Rauch, Formalin und Kälte reagiert. Die Schärfe von Meerrettich und Wasabi ist ein TRPA1-Signal, das in die Nase steigt, weil Allyl-ITC bei Körpertemperatur gasförmig wird. Capsaicin bleibt im Mund, Senföl steigt auf.\n\nMolekular betrachtet zeigen Senföle aus Kapuzinerkresse und Meerrettich in einer Vergleichsstudie antibiotische Wirkung bei unkomplizierten Harnwegsinfekten vergleichbar mit Standardantibiotika, bei geringerem Resistenzrisiko. Angocin Anti-Infekt ist in Deutschland als Phytopharmakon zugelassen.\n\nDer Scharfstoff steigt als Gas in die Nase und wirkt als Antibiotikum in der Blase. Dazwischen liegt der gesamte Körper.",
       quellen: ["Goos 2007", "Borges 2015"],
+      nahrungsquellen: "Schwarzer Senf, Meerrettich, Wasabi",
       related_article: null,
     },
     {
@@ -129,6 +135,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Hochbioverfügbare Cholin-Quelle für Kognition und Leistung. Beliebtes Nootropikum, durchquert die Blut-Hirn-Schranke und unterstützt den Acetylcholin-Aufbau.",
       wirkung: "Alpha-Glycerophosphocholin ist eine cholinhaltige Membrankomponente mit direkter Bioverfügbarkeit ins zentrale Nervensystem. In Italien ist die Substanz unter dem Namen Gliatilin als Verschreibungspräparat gegen vaskuläre Demenz zugelassen. In den USA und Deutschland wird sie als Nahrungsergänzung verkauft.\n\nDie ASCOMALVA-Studie an Patienten mit leichter bis mittelschwerer Alzheimer-Demenz zeigt unter Donepezil plus 1200 mg Alpha-GPC täglich über zwölf Monate eine messbar geringere kognitive Verschlechterung als unter Donepezil allein. Sportphysiologisch dokumentiert eine Studie nach Einzeldosis von 600 mg eine nachweisliche Erhöhung der Wachstumshormon-Sekretion und eine Verbesserung der Krafterzeugung um etwa vierzehn Prozent.\n\nDie direkte Verfügbarkeit als Acetylcholin-Vorläufer ist der entscheidende Punkt. Einfaches Cholinbitartrat kann das nicht.\n\nMolekular betrachtet derselbe Stoff, kategorisch ein anderes Produkt.",
       quellen: ["Amenta 2014", "Ziegenfuss 2008"],
+      nahrungsquellen: "Sojalecithin, Sonnenblumenlecithin, Sojabohnen",
       related_article: null,
     },
     {
@@ -141,6 +148,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Universelles Antioxidans für Nerven und Stoffwechsel. Alpha-Liponsäure als natürlicher Zellschutz, besonders bei Diabetes und Entgiftung.",
       wirkung: "ALA ist das einzige Antioxidans, das sowohl wasser- als auch fettlöslich ist. Es arbeitet in beiden Kompartimenten der Zelle und recycelt verbrauchtes Glutathion, Vitamin C und Vitamin E zurück in ihre aktive Form. Kein anderes Antioxidans hat dieses Profil.\n\nBei diabetischer Neuropathie ist die Datenlage am stärksten. 600 mg intravenös über drei Wochen reduzieren neuropathische Schmerzen signifikant. Die orale Gabe ist langsamer, zeigt aber nach fünf Wochen vergleichbare Effekte. Das R-Enantiomer ist die biologisch aktive Form, das im Handel dominierende Racemat enthält fünfzig Prozent inaktives S-Enantiomer.\n\nALA cheliert Schwermetalle und unterstützt die hepatische Phase-II-Detoxifikation. Bei Neurotoxin-Exposition und chronischer Schadstoffbelastung ist das klinisch relevant.\n\nPflicht für Raucher und Neurotoxin-Exponierte. Kein Anti-Aging-Posten auf der Wellness-Liste.",
       quellen: ["Ziegler 2006", "Ziegler 2011"],
+      nahrungsquellen: "Spinat, Brokkoli, Rosenkohl",
       related_article: null,
     },
     {
@@ -175,6 +183,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Kraftvolle Pflanzenfarbstoffe für Zellschutz und Anti-Aging. Antioxidantien aus Beeren, Trauben und Rotkohl für Herz-Kreislauf-Gesundheit.",
       wirkung: "Anthocyane sind die Farbstoffe, die Heidelbeeren blau, Kirschen rot und Rotkohl violett machen. Ihre antioxidative Kapazität ist im Reagenzglas beeindruckend. Im Körper sieht die Rechnung anders aus. Die orale Bioverfügbarkeit liegt unter zwei Prozent, der Großteil wird im Darm metabolisiert, bevor er das Blut erreicht.\n\nWas die Epidemiologie zeigt, ist dennoch konsistent. Höherer Anthocyan-Konsum korreliert mit niedrigerem kardiovaskulärem Risiko, verbesserter Endothelfunktion und reduziertem kognitivem Abbau im Alter. Die Mechanismen laufen vermutlich über die Darmflora und über Metaboliten, nicht über die intakten Anthocyane selbst.\n\nWer Beeren isst, profitiert. Die Kapsel mit isolierten Anthocyanen reproduziert das Lebensmittel-Signal nicht zuverlässig, weil die Matrix fehlt.\n\nDie Farbe im Obst arbeitet. Die Farbe in der Kapsel verspricht.",
       quellen: ["Cassidy 2013", "Rodriguez-Mateos 2014"],
+      nahrungsquellen: "Aronia, Schwarzer Holunder, Schwarze Johannisbeere",
       related_article: null,
     },
     {
@@ -186,6 +195,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliches Flavonoid aus Kamille und Petersilie. Pflanzlicher Beruhiger für Schlaf und Entspannung, mild und nebenwirkungsarm.",
       wirkung: "Apigenin bindet an Benzodiazepin-Bindungsstellen des GABA-A-Rezeptors, ohne die volle agonistische Wirkung eines Benzodiazepins auszulösen. Das erklärt die anxiolytische und schlaffördernde Wirkung ohne Sedierungshangover und ohne Abhängigkeitspotenzial.\n\nPharmakologisch ist Apigenin zusätzlich ein CD38-Inhibitor. CD38 ist das Enzym, das NAD+ abbaut. Hemmung von CD38 erhöht die intrazellulären NAD+-Spiegel, ein Mechanismus, der Apigenin in die Longevity-Forschung katapultiert hat. Die Verbindung zwischen einem Kamillenflavonoid und zellulärer Energieproduktion ist eine der überraschendsten der neueren Biochemie.\n\nDie reichsten Quellen sind Petersilie und Kamille. Eine Tasse Kamillentee enthält pharmakologisch relevante Mengen. Andrew Huberman hat Apigenin als Schlafmittel populär gemacht, ohne den CD38-Mechanismus zu erwähnen.\n\nEin Flavonoid aus der Kamille hemmt das Enzym, das NAD+ zerstört. Die Teeindustrie weiß das nicht.",
       quellen: ["Salehi 2019", "Escande 2013"],
+      nahrungsquellen: "Petersilie (getrocknet), Kamille, Sellerie",
       related_article: null,
     },
     {
@@ -258,6 +268,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Stärkstes natürliches Antioxidans aus der Mikroalge. Astaxanthin für Haut, Augen und sportliche Leistung.",
       wirkung: "Astaxanthin ist ein Ketocarotinoid aus der Mikroalge Haematococcus pluvialis. In Zellstudien ist es sechstausendfach stärker als Vitamin C als Radikalfänger. Im Blutplasma kommt weniger an, aber genug für messbare Effekte.\n\nVier Milligramm täglich über sechs Wochen verbessern Hautelastizität und reduzieren Faltenbildung in einer Vergleichsstudie an Frauen über vierzig. Sportler zeigen unter Astaxanthin verlängerte Ausdauerleistung und reduzierte Muskelschäden nach Belastung. Am Auge schützt die Substanz die Retina vor lichtinduziertem oxidativem Stress.\n\nDie Bioverfügbarkeit steigt drastisch mit Fett. Astaxanthin auf nüchternen Magen ist pharmakologisch verschenkt. Wer das nicht weiß, schluckt ein fettlösliches Molekül auf leeren Magen.\n\nDas stärkste Carotinoid der Natur verlangt eine Mahlzeit, um zu wirken.",
       quellen: ["Tominaga 2012", "Earnest 2011"],
+      nahrungsquellen: "Vegan begrenzt; Mikroalge Haematococcus pluvialis (Astaxanthin-Quelle), Phaffia-Hefe, Spuren in Süßwasser-Algen",
       related_article: null,
     },
     {
@@ -281,6 +292,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Zelluläre Selbstreinigung für Langlebigkeit und Verjüngung. Autophagie als Anti-Aging-Mechanismus, aktiviert durch Fasten und Spermidin.",
       wirkung: "Autophagie ist der Prozess, bei dem die Zelle beschädigte Proteine und defekte Organellen in Lysosomen zerlegt und die Bausteine wiederverwertet. Yoshinori Ohsumi erhielt 2016 den Nobelpreis für die Aufklärung der Mechanismen. Der Prozess ist keine Reinigung, er ist zelluläres Recycling unter Ressourcenknappheit.\n\nFasten ist der stärkste physiologische Autophagie-Aktivator. Nach sechzehn bis 24 Stunden ohne Nahrung steigt die autophagische Aktivität messbar an. mTOR, der zentrale Nährstoffsensor, wird gehemmt, und AMPK aktiviert den ULK1-Komplex, der die Phagophor-Bildung initiiert. Spermidin, Resveratrol und Rapamycin aktivieren Autophagie über verschiedene Einstiegspunkte.\n\nDie Supplement-Industrie verkauft Autophagie-Booster als Kapseln. Die Physiologie sagt, der effektivste Booster ist Nahrungsentzug. Das lässt sich nicht in Kapselform pressen.\n\nDer Nobelpreis-Mechanismus aktiviert sich am besten durch etwas, das nichts kostet.",
       quellen: ["Ohsumi 2014", "Madeo 2015"],
+      nahrungsquellen: "Aktiviert durch: Fasten, Kaffee (Polyphenole), Grüner Tee (EGCG)",
       related_article: null,
     },
     {
@@ -293,6 +305,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Sporenbildendes Probiotikum für Verdauung und Immunsystem. Hitzeresistenter Milchsäurebildner, ideal für Reisen und warme Getränke.",
       wirkung: "Bacillus coagulans bildet Sporen. Das macht ihn unempfindlich gegen Magensäure, Hitze und Lagerung, drei Faktoren, an denen die meisten Probiotika scheitern. Die Spore keimt erst im Dünndarm aus und beginnt dort mit der Milchsäureproduktion.\n\nDer Stamm GBI-30, 6086 zeigt in Vergleichsstudien nachweisliche Reduktion von Blähungen und Bauchschmerzen bei Reizdarmsyndrom. Bei rheumatoider Arthritis verbessern sich Entzündungsmarker. Bei viraler Diarrhö verkürzt sich die Krankheitsdauer. Die Sporenfähigkeit sichert dabei eine Überlebensrate von über neunzig Prozent bis zum Dünndarm, verglichen mit fünf bis fünfzehn Prozent bei Lactobacillen.\n\nDie Industrie nutzt Bacillus coagulans vor allem in funktionellen Lebensmitteln, weil die Spore den Herstellungsprozess überlebt. Die Spore überlebt, was den Stamm tötet. Im Regal ist das ein Haltbarkeitsvorteil. Im Darm ist es Selektion.",
       quellen: ["Dolin 2009", "Mandel 2010"],
+      nahrungsquellen: "Sauerkraut, Kombucha, Kimchi",
       related_article: null,
     },
     {
@@ -305,6 +318,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Traditioneller Bodenkeim für Darmbalance und Immunsystem. Sporenbildner aus der japanischen Natto-Tradition.",
       wirkung: "Bacillus subtilis ist der Organismus hinter Natto, dem fermentierten Sojabohnenprodukt der japanischen Küche. Die Spore überlebt die Magenpassage vollständig und keimt im Dünndarm aus. DE111 ist der am besten untersuchte Probiotika-Stamm dieser Spezies.\n\nIn einer Vergleichsstudie zeigt DE111 nach dreißig Tagen deutliche Reduktion von LDL-Cholesterin und Triglyceriden bei übergewichtigen Erwachsenen. Die immunmodulatorische Wirkung läuft über Stimulation der sekretorischen IgA-Produktion und Modulation der intestinalen Zytokinbalance.\n\nNatto liefert zusätzlich Nattokinase, ein fibrinolytisches Enzym, das in Japan seit Jahrhunderten als kardioprotektiv gilt und in Interventionsstudien Blutdruck und Fibrinogen deutlich senkt.\n\nBodenbakterium, japanische Küchentradition, westliches Kapselprodukt. Drei Kontexte, null gemeinsame Sprache.",
       quellen: ["Townsend 2018", "Sumi 1987"],
+      nahrungsquellen: "Natto, fermentierte Sojabohnen, Doenjang",
       related_article: null,
     },
     {
@@ -341,6 +355,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Pflanzliche Basenmischung für Säure-Basen-Balance und Energie, Übersäuerung weg.",
       wirkung: "Die Säure-Basen-Pseudopharmakologie der typischen Basenpulver beruht auf einer widerlegten Annahme. Die moderne Ernährung führt nicht zu chronischer Übersäuerung des Blutes. Der Blut-pH ist durch Bikarbonat-Puffer, Atmung und Niere im engen Bereich 7,35 bis 7,45 reguliert und durch keine Nahrungsbestandteile außerhalb pathologischer Stoffwechselsituationen messbar verschoben.\n\nDie meisten kommerziellen Basenpulver liefern unspezifische Mineralsalzmischungen ohne pharmakologische Indikation. Das Marketing verkauft eine Krankheit, die so nicht existiert.\n\nEine differenzierte Ausnahme ist die Basenpulver-III-Formulierung nach Rauch im Kontext der Original-FX-Mayr-Therapie. Diese definierte Mischung aus Natriummonohydrogenphosphat, Calciumcarbonat, Magnesiumhydrogencitrat, Kaliumhydrogencarbonat, Kaliumcitrat und Natriummonohydrogencarbonat ist für das modifizierte Fasten entwickelt. Dabei entsteht durch Lipolyse-bedingte Ketonkörperbildung tatsächlich eine metabolische Azidose, die eine reale Mineralstoffsubstitution erfordert.\n\nWer fastet, braucht das Rauch-Pulver. Wer im Alltag ein generisches Basenpulver einnimmt, kauft ein Marketing-Versprechen für eine Krankheit, die so nicht existiert.",
       quellen: [],
+      nahrungsquellen: "Wirkt basisch durch: Spinat, Rosinen, Mandeln",
       related_article: null,
     },
     {
@@ -353,6 +368,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Muskelaufbau-Aminosäuren für Training und Regeneration. BCAA als essentielles Sport-Supplement für Kraft- und Ausdauersportler.",
       wirkung: "BCAA umfasst Leucin, Isoleucin und Valin, drei essentielle Aminosäuren, die im Muskel direkt oxidiert werden. Leucin aktiviert mTOR und initiiert die Muskelproteinsynthese. Das ist die Biochemie, die das Marketing nutzt. Was das Marketing verschweigt, ist der Kontext.\n\nBei ausreichender Proteinzufuhr von 1,6 bis 2,2 Gramm pro Kilogramm Körpergewicht liefert die Nahrung alle BCAA, die der Muskel braucht. Isolierte BCAA-Supplementierung zeigt in Metaanalysen keinen zusätzlichen Vorteil auf Muskelproteinsynthese oder Leistung, wenn die Gesamtproteinzufuhr stimmt. BCAA sind limitierend bei Proteinmangel und redundant bei Proteinsuffizienz.\n\nBei Lebererkrankungen ist die Lage anders. Zirrhose-Patienten haben gestörten BCAA-Metabolismus, und Supplementierung verbessert die hepatische Enzephalopathie und den Ernährungsstatus in kontrollierten Studien nachweislich.\n\nDas größte Sport-Supplement der Welt löst ein Problem, das die meisten Sportler nicht haben.",
       quellen: ["Wolfe 2017", "Gluud 2013"],
+      nahrungsquellen: "Sojabohnen, Linsen, Kürbiskerne",
       related_article: null,
     },
     {
@@ -387,6 +403,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Pflanzliches Insulin. Blutzucker senken ohne Nebenwirkungen. Die natürliche Alternative zu Metformin.",
       wirkung: "Berberin senkt HbA1c bei Typ-2-Diabetes mit einer Wirkstärke, die in Metaanalysen Metformin gleichzieht. Drei chinesische RCTs zeigen Senkung von Nüchternblutzucker, postprandialer Glukose und LDL-Cholesterin in Größenordnungen, die jedes erste-Wahl-Antidiabetikum beanspruchen würde. Biochemisch aktiviert die Substanz AMPK, dieselbe Energiesensor-Kinase, die Metformin nutzt. Wer Berberin als naturheilkundlichen Zusatz behandelt, übersieht eine pharmakologisch potente Substanz.\n\nDer Mainstream-Westen ignoriert diesen Befund aus Patentmangel. Berberin stammt aus Berberis-Sträuchern und ist pharmazeutisch nicht patentierbar. Kein Hersteller finanziert eine Phase-III-Diabetes-Zulassung. Was wie eine medizinische Lücke aussieht, ist Marktordnung.\n\nDie Nebenwirkungen sind real und im Bauch spürbar. 1500 mg täglich verursachen Krämpfe und Durchfall, die GI-Toleranz erzwingt schrittweisen Aufbau.\n\nEine Substanz, die Metformin in der Wirkstärke gleichzieht und in der westlichen Versorgung Supplement-Status hält, ist absichtlich unter den klinischen Radar geschoben.",
       quellen: ["Yin 2008", "Dong 2012"],
+      nahrungsquellen: "Berberitze, Oregon-Traube, Gelbwurzel (Coptis)",
       related_article: null,
     },
     {
@@ -422,6 +439,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Sport-Aminosäure für Ausdauer und Leistung. Beta-Alanin als Carnosin-Vorläufer gegen Muskelübersäuerung.",
       wirkung: "Beta-Alanin ist der limitierende Baustein der Carnosin-Synthese im Muskel. Carnosin puffert Protonen, die bei anaerober Belastung aus der Glykolyse anfallen. Mehr Carnosin im Muskel bedeutet späteres Einsetzen der Übersäuerung und längere Leistung im Bereich von einer bis vier Minuten Maximalbelastung.\n\nMetaanalysen bestätigen messbare Leistungssteigerung bei hochintensiven Belastungen zwischen sechzig und 240 Sekunden Dauer. Außerhalb dieses Fensters fehlt die Evidenz. Marathonläufer und Kraftsportler profitieren kaum, Schwimmer über 100 bis 400 Meter und Ruderer messbar.\n\nDas Kribbeln in Gesicht und Händen nach Einnahme (Parästhesie) ist harmlos, wird durch Mas-related G-Protein-gekoppelte Rezeptoren in der Haut ausgelöst und verschwindet bei geteilter Dosierung.\n\nFunktioniert in einem Zeitfenster von einer bis vier Minuten. Wer außerhalb trainiert, hat teuren Urin.",
       quellen: ["Hobson 2012", "Trexler 2015"],
+      nahrungsquellen: "Vegan begrenzt; Histidin als Vorstufe: Sojabohnen, Erdnüsse, Linsen",
       related_article: null,
     },
     {
@@ -433,6 +451,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher Sonnenschutz und Vitamin-A-Vorstufe. Beta-Carotin für gesunde Bräune, Augen und Immunsystem.",
       wirkung: "Beta-Carotin ist die Vitamin-A-Vorstufe aus Karotten, Süßkartoffeln und dunkelgrünem Blattgemüse. In der Nahrung ist es gesund. Als isoliertes Supplement hat es Menschen getötet.\n\nDie ATBC-Studie und die CARET-Studie zeigen bei Rauchern und Asbestarbeitern unter hochdosierter Beta-Carotin-Supplementierung eine nachweisliche Zunahme der Lungenkrebsinzidenz und der Gesamtmortalität. Die Studien wurden abgebrochen. Das Ergebnis ist einer der klarsten Belege dafür, dass isolierte Antioxidantien in Hochdosis das Gegenteil dessen bewirken können, was die Nahrungsquelle leistet.\n\nDer Mechanismus ist inzwischen verstanden. Hohe Beta-Carotin-Dosen erzeugen in der oxidativen Umgebung der Raucherlunge prooxidative Spaltprodukte, die DNA-Schäden verstärken statt sie zu verhindern.\n\nIn der Karotte ein Schutzstoff. In der Kapsel ein Risikofaktor. Der Unterschied ist die Matrix.",
       quellen: ["ATBC 1994", "Omenn 1996"],
+      nahrungsquellen: "Karotten, Süßkartoffel, Grünkohl",
       related_article: null,
     },
     {
@@ -444,6 +463,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Lösliche Hafer-Faser für gesundes Cholesterin, Sättigung und Verdauung. Klassisch in Haferflocken, von der FDA für die Cholesterinsenkung zugelassen.",
       wirkung: "Zwei Schüsseln Haferflocken am Tag senken LDL-Cholesterin um fünf bis zehn Prozent. Die FDA hat das 1997 bestätigt. Das Gel im Darm fängt Gallesäuren ab, die Leber holt sich Nachschub aus dem Blut. Mechanik ohne Magie.\n\nFrühstück reicht.",
       quellen: [],
+      nahrungsquellen: "Haferkleie, Gerste, Shiitake-Pilze",
       related_article: null,
     },
     {
@@ -456,6 +476,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher Methylgruppendonor aus Rote Bete. Betain für Homocysteinsenkung, Lebergesundheit und sportliche Leistung.",
       wirkung: "Betain remethyliert Homocystein zu Methionin über die Betain-Homocystein-Methyltransferase, einen Weg, der unabhängig von Folat und B12 funktioniert. Bei Patienten mit Homocystinurie ist Betain als Orphan Drug zugelassen (Cystadane) und senkt Homocystein um dreißig bis fünfzig Prozent.\n\nBei gesunden Erwachsenen senkt Betain-Supplementierung Homocystein moderat, die klinische Relevanz bei normalen Ausgangswerten ist unklar. Hepatoprotektive Wirkung ist in Tiermodellen konsistent dokumentiert, Betain schützt gegen alkohol- und toxininduzierte Steatose über Stabilisierung des SAMe-zu-SAH-Verhältnisses.\n\nIm Sport zeigt Betain in einigen Studien moderate Verbesserung der Kraft und Körperkomposition, die Datenlage ist heterogen. Rote Bete, Spinat und Quinoa sind die reichsten Nahrungsquellen.\n\nEin zugelassenes Orphan Drug für eine seltene Stoffwechselkrankheit, das als Sport-Supplement verkauft wird.",
       quellen: ["Cholewa 2014", "Craig 2004"],
+      nahrungsquellen: "Rote Bete, Spinat, Quinoa",
       related_article: null,
     },
     {
@@ -468,6 +489,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Klassischer Bifidus für Babys und Erwachsene. Traditionell empfohlen, mild und natürlich.",
       wirkung: "Im Säuglingsalter dominant, mit dem Alter abnehmend. Das Marketing deutet das als Auftrag zur Substitution. Das Studienprofil sagt etwas anderes.\n\nSpezifische Stamm-Codes sind selten. Der am besten untersuchte, MIMBb75, zeigt bei Reizdarm moderate Symptomreduktion, quantitativ weit unter LGG, BB-12 und Saccharomyces boulardii. Die generisch verkauften Produkte enthalten meist nicht-identifizierte Isolate, die Lebendkeimzahlen sind schlecht gemessen.\n\nBifidum lebt vom Wort »Bifido« auf der Packung, nicht von einer Stammakte.",
       quellen: ["Guglielmetti 2011"],
+      nahrungsquellen: "Sojajoghurt, Kokosjoghurt, fermentiertes Gemüse",
       related_article: null,
     },
     {
@@ -480,6 +502,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Bifidus für sanfte Verdauung und starkes Immunsystem. Besonders mild, kindgerecht.",
       wirkung: "BB-12 ist ein Produkt der dänischen Chr. Hansen mit über 300 Publikationen quer durch alle Altersgruppen.\n\nBei Kindern reduziert sieben Monate tägliche Einnahme Atemwegsinfekte und Antibiotika-Verordnungen. Bei Erwachsenen mit Obstipation steigt die Stuhlfrequenz. Vermittelt wird das über Dendritenzell-Aktivierung, T-Helfer-1-Verschiebung und IgA-Anstieg. Bifidobakterien sind im Säuglingsalter dominant und nehmen mit dem Alter ab, was die Substitution bei älteren Erwachsenen plausibel macht.\n\nBB-12 ist ein Stamm-Code, der die Werbeversprechen einer ganzen Joghurt-Marke trägt.",
       quellen: ["Taipale 2011", "Eskesen 2015"],
+      nahrungsquellen: "Sojajoghurt (angereichert), Kokosjoghurt, Wasserkefir",
       related_article: null,
     },
     {
@@ -492,6 +515,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Bifidus für Wohlbefinden und Balance. Sanfter Helfer für Nervensystem und Darm.",
       wirkung: "Klinisch nur in Kombination mit L. helveticus R0052 untersucht, unter dem Namen Probio'Stick. Diese Mischung ist das klarste Beispiel einer pharmakologisch wirksamen Darm-Hirn-Achse am Menschen.\n\nDreißig Tage tägliche Einnahme bei gestressten Erwachsenen zeigen deutliche Reduktion von Angst, Aggression und Depression, dazu zehn Prozent weniger Cortisol im Urin. Eine Replikation an Patienten mit majorer Depression bestätigt die Reduktion der BDI-Werte und einen Anstieg von BDNF im Serum. Die Wirkung läuft über vagale Afferenz und GABAerge Modulation der Amygdala. Zwei Stämme, eine Mischung, ein antidepressiver Effekt.\n\nDer Beipackzettel darf das Wort Depression nicht erwähnen.",
       quellen: ["Messaoudi 2011", "Kazemi 2019"],
+      nahrungsquellen: "Sojajoghurt, Kokosjoghurt, Wasserkefir",
       related_article: null,
     },
     {
@@ -504,6 +528,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Lichtstrahlung lebendiger Zellen. Biophotonen als Ausdruck zellulärer Vitalität und Lebensenergie.",
       wirkung: "Jede lebende Zelle emittiert ultraschwache Photonen im Bereich von einigen hundert bis einigen tausend Photonen pro Quadratzentimeter pro Sekunde. Fritz-Albert Popp hat diese Emission in den 1970er Jahren systematisch gemessen und als Biophotonen bezeichnet. Die Strahlung ist kohärent, was sie von thermischer Emission unterscheidet.\n\nDie Quellen sind oxidative Prozesse in der mitochondrialen Atmungskette und Lipidperoxidation an Zellmembranen. Tumorzellen emittieren messbar anders als gesunde Zellen. Gestresste Pflanzen emittieren anders als ungestresste. Die Messung ist reproduzierbar, die Interpretation umstritten.\n\nDie Esoterik hat Biophotonen für sich vereinnahmt und damit die wissenschaftliche Diskussion beschädigt. Popps eigene Arbeiten sind physikalisch solide. Die Schlussfolgerungen seiner Nachfolger oft nicht.\n\nZellen leuchten. Das ist physikalisch gemessen und reproduziert. Wer das ignoriert, weil die Esoterik-Szene es vereinnahmt hat, verwechselt Quelle mit Empfänger.",
       quellen: ["Popp 2003"],
+      nahrungsquellen: "Messbar in: frischem Gemüse (Sprossen), Wildkräutern, sonnengereiftem Obst",
       related_article: null,
     },
     {
@@ -515,6 +540,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Wie viel vom Supplement tatsächlich im Körper ankommt. Bioverfügbarkeit als Schlüsselkonzept für wirksame Supplementierung.",
       wirkung: "Bioverfügbarkeit bezeichnet den Anteil einer oral eingenommenen Substanz, der unverändert den systemischen Kreislauf erreicht. Intravenöse Gabe hat per Definition hundert Prozent. Orale Gabe liegt je nach Substanz zwischen unter einem und über neunzig Prozent. Der Unterschied entscheidet darüber, ob ein Supplement wirkt oder teurer Urin ist.\n\nCurcumin hat unter einem Prozent orale Bioverfügbarkeit in der Standardform. Phytosom-Formulierungen erhöhen das auf zehn bis dreißig Prozent. Quercetin hat als Standard-Pulver kaum messbare Plasmaspiegel, Quercefit erreicht das Zwanzigfache. Resveratrol wird in Minuten sulfatiert. CoQ10 als Ubiquinon hat die halbe Bioverfügbarkeit von Ubiquinol. Die Form entscheidet bei vielen Substanzen im Index stärker über die Wirkung als die Dosis.\n\nDie Supplement-Industrie druckt Milligramm auf die Packung, als wäre die Menge die Wirkung. Ohne Angabe der Bioverfügbarkeit ist die Milligrammzahl eine Zahl ohne pharmakologischen Wert.\n\nWas auf dem Etikett steht, ist die Menge, die man schluckt. Was wirkt, ist die Menge, die ankommt.",
       quellen: [],
+      nahrungsquellen: "Gesteigert durch: schwarzer Pfeffer (Piperin), Olivenöl (Fett), Zitrusfrüchte (Vitamin C)",
       related_article: null,
     },
     {
@@ -538,6 +564,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Spurenelement für Knochen und Hormonbalance. Tagesdosis als Tropfen oder Kapsel, unterstützt Vitamin D, moduliert Östrogen und Testosteron und kommt natürlich aus Trockenfrüchten und Mineralwasser.",
       wirkung: "Bor moduliert den Stoffwechsel von Östrogen, Testosteron und Vitamin D und beeinflusst die Calcium- und Magnesiumretention. Mehrere Studien zeigen erhöhte Serumspiegel freier Steroidhormone unter drei bis zehn Milligramm Bor täglich. Die Knochengesundheit profitiert in Tiermodellen klar, Humanstudien bleiben begrenzt. Trockenfrüchte, Nüsse und manche Mineralwässer liefern das Spurenelement natürlich.\n\nNatriumtetraborat und Bor-Glycinat dominieren die Supplemente. Das therapeutische Fenster ist breit, akute Toxizität tritt erst oberhalb von fünfhundert Milligramm auf. Frauen in der Postmenopause zeigen verbesserte Calciumretention und Anhebung von 17-Beta-Estradiol unter Borsubstitution, Männer mit niedrigem freien Testosteron eine moderate Anhebung.\n\nBor selbst ist gut bioverfügbar. Die hormonelle Wirkung lebt aber vom Zusammenspiel mit Vitamin D, Magnesium und Calcium. Koffein erhöht die renale Calciumausscheidung und hemmt die Vitamin-D-Rezeptor-Expression, Effekte, die bei chronisch hohem Konsum die Knochendichte messbar senken. Wer mit Bor und vier Tassen am Tag die Knochendichte retten will, kombiniert ein schwaches Signal mit einem dokumentierten Antagonisten.\n\nDas Spurenelement ist solide. Die Kofaktoren entscheiden. Der Kaffee bleibt im Hintergrund aktiv.",
       quellen: ["Nielsen 1987", "Naghii 2011", "Rapuri 2001"],
+      nahrungsquellen: "Pflaumen, Avocado, Mandeln",
       related_article: null,
     },
     {
@@ -586,6 +613,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Ananas-Enzym gegen Entzündungen und Schwellungen. Bromelain als natürlicher Entzündungshemmer nach Operationen und Verletzungen.",
       wirkung: "Bromelain ist eine Cysteinprotease aus dem Ananasstamm mit nachgewiesener antiinflammatorischer, fibrinolytischer und antiödematöser Wirkung. Im Unterschied zu Serrapeptase hat Bromelain eine solide klinische Evidenzbasis.\n\nIn der Chirurgie reduziert Bromelain postoperative Schwellungen und Hämatome nachweislich, der Effekt ist bei Weisheitszahn-Extraktionen und rhinoplastischen Eingriffen am besten gemessen. Bei Knie-Arthrose zeigt eine kontrollierte Studie unter 500 mg täglich Schmerzreduktion vergleichbar mit Diclofenac. Bei Sinusitis verkürzt Bromelain die Symptom-Dauer.\n\nDer Mechanismus läuft über Hemmung der Thromboxan-Synthese, Modulation von Bradykinin und direkte proteolytische Aktivität auf Fibrin und nekrotisches Gewebe. Bromelain überlebt die Magenpassage teilweise und erreicht in messbaren Mengen das Blut, was die systemische Wirkung erklärt.\n\nDas Enzym, das Fleisch zart macht, macht Schwellungen weich. Die Chirurgie weiß das, die Orthopädie vergisst es.",
       quellen: ["Maurer 2001", "Brien 2004"],
+      nahrungsquellen: "Ananas (Stamm), Ananasfrucht, Ananassaft",
       related_article: null,
     },
     {
@@ -598,6 +626,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Kurzkettige Fettsäure für die Darmgesundheit. Natürlicher Energielieferant der Darmschleimhaut, unterstützt das Mikrobiom und die Verdauung.",
       wirkung: "Butyrat ist kein Nahrungsmittel. Es ist das Stoffwechselprodukt, das Darmbakterien aus Ballaststoffen herstellen. Kolonozyten beziehen siebzig Prozent ihrer Energie aus dieser einen Fettsäure. Ohne Butyrat hungert die Darmschleimhaut.\n\nPharmakologisch ist die Substanz ein reversibler Histon-Deacetylase-Hemmer der Klassen I und IIa. Das ist epigenetische Modulation. In vitro induziert sie die Differenzierung von Tumorzellen, in vivo fördert sie die Expression antiinflammatorischer Gene wie FOXP3 und TGF-β. Bei Colitis ulcerosa verbessern rektale Butyrat-Klysmen die Mukosaheilung und senken die Krankheitsaktivität messbar.\n\nDie orale Gabe als Natriumbutyrat scheitert pharmakokinetisch. Die Substanz wird im Dünndarm absorbiert und erreicht das Kolon nicht. Enterische Beschichtungen und die Tributyrin-Form sind Workarounds, die das rektale Ergebnis nicht erreichen.\n\nIm Werbeetikett ein Energielieferant. Im Kolon ein HDAC-Inhibitor mit epigenetischer Wirkung, sofern er den Weg dorthin findet.",
       quellen: ["Scheppach 1992", "Hamer 2008"],
+      nahrungsquellen: "Entsteht im Darm durch Ballaststofffermentation: Haferkleie, Hülsenfrüchte, resistente Stärke",
       related_article: null,
     },
     {
@@ -609,6 +638,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Das Knochenmineral. Täglich supplementieren für starke Knochen und gesunde Zähne, besonders für Frauen ab der Menopause.",
       wirkung: "Calcium ist das häufigste Mineral im menschlichen Körper. Neunundneunzig Prozent stecken in Knochen und Zähnen. Das restliche Prozent reguliert Muskelkontraktion, Blutgerinnung und Nervensignalübertragung. Soweit das Etikett.\n\nDie Supplementierung isolierter Calciumsalze ohne gleichzeitige Vitamin-D- und Vitamin-K2-Versorgung verschiebt Calcium in die Gefäßwände statt in den Knochen. Zwei Metaanalysen zeigen unter Calcium-Monosupplementation ein erhöhtes kardiovaskuläres Risiko. Bolland 2010 dokumentiert einen deutlichen Anstieg von Myokardinfarkten. Wer Osteopenie hat, bekommt Bisphosphonate verschrieben, die den Knochenabbau bremsen, ohne neuen Aufbau zu fördern.\n\nKaffee hemmt die Calciumresorption gemessen um bis zu achtzig Prozent. Wer morgens zwei Tassen trinkt und abends die Brausetablette nimmt, neutralisiert die Supplementierung am Vormittag. Der Verursacher bleibt unbeachtet.\n\nCalcium fehlt selten. Es landet am falschen Ort. Ohne die Kofaktoren landet das Mineral am falschen Ort.",
       quellen: ["Bolland 2010", "Reid 2015"],
+      nahrungsquellen: "Mohn, Sesam, Mandeln",
       related_article: null,
     },
     {
@@ -645,6 +675,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Scharfstoff aus Chili für Stoffwechsel und Schmerzlinderung. Capsaicin als natürlicher Fatburner und Wärmespender.",
       wirkung: "Capsaicin aktiviert den TRPV1-Rezeptor, denselben Ionenkanal, der auf Temperaturen über 43 Grad reagiert. Das Gehirn interpretiert Capsaicin als Hitze, weil es denselben Kanal öffnet. Schärfe ist ein Schmerzsignal, das der Mund als Geschmack interpretiert.\n\nBiochemisch nutzt die Schmerzmedizin genau diesen Mechanismus. Capsaicin-Pflaster (Qutenza, acht Prozent) desensibilisieren TRPV1-Rezeptoren bei neuropathischem Schmerz durch Substanz-P-Depletion. Eine einzige Anwendung von dreißig bis sechzig Minuten liefert Schmerzlinderung über drei Monate. Das ist kein Supplement, das ist ein zugelassenes Medikament.\n\nOral erhöht Capsaicin den Energieverbrauch über Aktivierung von braunem Fettgewebe und Thermogenese. Die Effektgrößen auf das Körpergewicht sind in Metaanalysen klein. Die Magenschleimhaut wird paradoxerweise geschützt, Capsaicin erhöht die Mukus-Sekretion und die Durchblutung der Magenwand.\n\nEin Schmerzsignal, das Schmerz heilt. Ein Scharfstoff, der den Magen schützt. Capsaicin widerspricht jeder Intuition und hat recht.",
       quellen: ["Derry 2017", "Ludy 2011"],
+      nahrungsquellen: "Chili (Habanero), Cayennepfeffer, Jalapeño",
       related_article: null,
     },
     {
@@ -656,6 +687,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Anti-AGE-Substanz für Anti-Aging und Hautschutz. Dipeptid aus Beta-Alanin und Histidin, klinisch für Glycation-Hemmung und Anti-Aging erforscht.",
       wirkung: "Carnosin hemmt die Bildung von Glycation End Products, die sich in Geweben anlagern und sie versteifen. Diese AGEs altern die Haut, die Linse des Auges, die Gefäßwände. Carnosin bricht den chemischen Prozess. Eine seltene Substanz, die direkt eine Alterungsreaktion stoppt.\n\nIm Muskel und im Gehirn steht Carnosin in extrem hoher Konzentration. Beide Gewebe haben hohen oxidativen Stoffwechsel und brauchen einen Carbonyl-Puffer. Wer altert, verliert Carnosin in diesen Geweben am schnellsten.\n\nDie orale Pharmakokinetik ist ein Problem. Plasma-Carnosinase spaltet die Substanz innerhalb von Minuten. Hohe Dosen umgehen das teilweise, besser sind acetylierte Formen oder die Substitution mit Beta-Alanin, das der limitierende Baustein der körpereigenen Synthese ist.\n\nWer Glycation stoppen will, hat zwei Wege. Carnosin direkt in oraler Hochdosis oder den Baustein Beta-Alanin substituieren. Wer Zucker isst und altert, braucht einen AGE-Blocker. Die Frage ist nur, ob fünfhundert Milligramm am Tag genug sind.",
       quellen: ["Hipkiss 2009", "Boldyrev 2013"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; Vorstufen Beta-Alanin + Histidin: Sojabohnen, Erdnüsse, Linsen",
       related_article: null,
     },
     {
@@ -668,6 +700,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Grüntee-Power für Zellschutz und Stoffwechsel. Hochdosierte Antioxidantien aus dem grünen Tee, klinisch erforscht für Fettverbrennung und Anti-Aging.",
       wirkung: "EGCG ist das stärkste Catechin im Grüntee. In vitro hundertfach so antioxidativ wie Vitamin C. Im Plasma kommt davon wenig an. Die orale Bioverfügbarkeit liegt unter zwei Prozent. Was im Reagenzglas spektakulär aussieht, scheitert am menschlichen Verdauungstrakt.\n\nKlinisch zeigt EGCG moderate Effekte bei Cervixdysplasie und bei nicht-alkoholischer Steatohepatitis. Bei Adipositas bleiben die Stoffwechseleffekte klein, und die zur Wirkung notwendigen Dosen sind hoch genug, um lebertoxisch zu werden. FDA-Warnungen seit 2018 dokumentieren Fälle akuten Leberversagens nach hochdosierten Grüntee-Extrakten.\n\nWer Grüntee trinkt, profitiert. Drei Tassen täglich enthalten genug Polyphenole für epidemiologisch nachweisbare Effekte auf die Herz-Kreislauf-Mortalität. Wer Grüntee-Extrakt in Kapselform schluckt, riskiert die Leber für eine Wirkung, die das Getränk pharmakologisch ohnehin liefert.\n\nDie Pflanze ist klüger als ihr Konzentrat.",
       quellen: ["Yates 2017", "Khan 2008"],
+      nahrungsquellen: "Grüner Tee, Matcha, dunkle Schokolade",
       related_article: null,
     },
     {
@@ -715,6 +748,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Grüne Pflanzenpower für Entgiftung und Energie. Flüssiges Chlorophyll als natürlicher Detox-Booster und Blutbildungs-Unterstützer.",
       wirkung: "Chlorophyll ist das Molekül, das Photosynthese ermöglicht. Strukturell ist es ein Porphyrinring mit zentralem Magnesium, fast identisch zum Häm im menschlichen Hämoglobin, nur dass Häm Eisen statt Magnesium trägt. Diese Strukturanalogie ist biochemisch relevant.\n\nIm Darm bindet Chlorophyll polyzyklische aromatische Kohlenwasserstoffe und heterozyklische Amine aus gegrilltem Fleisch und reduziert deren Bioverfügbarkeit messbar. Eine Studie an Freiwilligen zeigt unter Chlorophyll-Supplementierung deutlich reduzierte DNA-Addukt-Bildung durch Aflatoxin B1. In China läuft eine der größten Chemoprävention-Studien mit Chlorophyllin bei Aflatoxin-exponierten Populationen.\n\nDas TikTok-Marketing verkauft Chlorophyll-Wasser als Detox-Trend. Die Pharmakologie dahinter ist realer als der Trend vermuten lässt. Chlorophyll bindet Karzinogene im Darmlumen, bevor sie resorbiert werden.\n\nDas grüne Pigment der Pflanzen schützt nicht die Pflanze vor Krebs. Es schützt den Menschen vor Karzinogenen im Darm.",
       quellen: ["Egner 2001", "Dashwood 2002"],
+      nahrungsquellen: "Spinat, Petersilie, Chlorella",
       related_article: null,
     },
     {
@@ -727,6 +761,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentieller Nährstoff für Leber, Gehirn und Membranen. Cholin als Bitartrat für mentale Klarheit und Lebergesundheit, oft mit B-Vitaminen kombiniert.",
       wirkung: "Cholin ist seit 1998 als essentieller Nährstoff klassifiziert. Etwa neunzig Prozent der erwachsenen Bevölkerung westlicher Länder liegen unter der empfohlenen Tagesaufnahme. Die Werbung sagt »essentiell« und meint den Buchstaben. Die Pharmakologie meint vier voneinander unabhängige Stoffwechselwege.\n\nAus Cholin synthetisiert der Körper Phosphatidylcholin als Membranbaustein, Sphingomyelin für die Myelinscheide, Acetylcholin als Neurotransmitter und Betain als Methylgruppendonor in der Homocystein-Senkung. In kontrollierten Defizitstudien führt Cholinmangel innerhalb von Wochen zu hepatischer Steatose, Muskelschäden und erhöhten Leberenzymen.\n\nDie Salzform ist klinisch relevant. Das im Markt dominierende Cholinbitartrat passiert die Blut-Hirn-Schranke schlecht und eignet sich pharmakologisch nicht als Acetylcholin-Vorläufer, anders als Citicolin oder Alpha-GPC.\n\nDie Leber profitiert nachweislich. Das Gehirn weniger, als das Etikett verspricht.",
       quellen: ["Zeisel 2007"],
+      nahrungsquellen: "Sojabohnen, Erdnüsse, Quinoa",
       related_article: null,
     },
     {
@@ -738,6 +773,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Spurenelement für stabilen Blutzucker und gesunden Stoffwechsel. Chrompicolinat als natürliche Unterstützung bei Heißhunger und Gewichtsmanagement.",
       wirkung: "Chrom wurde jahrzehntelang als insulinsensitivierendes Spurenelement vermarktet. Die Datenlage ist dünner, als die Verkaufszahlen vermuten lassen. Metaanalysen zeigen bei Typ-2-Diabetes eine moderate HbA1c-Senkung unter Chrompicolinat, die Effektgrößen sind klein und die Studienqualität heterogen.\n\nDer ursprüngliche Befund stammt von Schwarz und Mertz aus den 1950er Jahren, die den »Glucose Tolerance Factor« in Bierhefe identifizierten. Die Idee, dass Chrom einen eigenständigen Insulinsignalweg aktiviert, wurde seitdem nicht überzeugend bestätigt. Die EFSA hat 2014 den Health Claim zur Blutzuckerregulation für Chrom abgelehnt.\n\nPhysiologisch ist der Bedarf gering, Mängel bei normaler Ernährung sind selten. Die weit verbreiteten 200 bis 1000 Mikrogramm Chrompicolinat pro Kapsel liegen um ein Vielfaches über dem geschätzten Tagesbedarf von zwanzig bis fünfunddreißig Mikrogramm.\n\nDer prominenteste Health Claim wurde von der zuständigen Behörde abgelehnt. Das Supplement verkauft sich weiter.",
       quellen: ["Schwarz 1959", "EFSA 2014"],
+      nahrungsquellen: "Brokkoli, Bierhefe, Vollkorngetreide",
       related_article: null,
     },
     {
@@ -750,6 +786,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Hochwertige Cholin-Form für Gehirnleistung und Konzentration. Wissenschaftlich erforscht, bioverfügbar, für mentale Klarheit und neuronalen Schutz.",
       wirkung: "Citicolin ist das natürliche Intermediat in der Phosphatidylcholin-Synthese. Im Körper wird es zu Cholin und Cytidin gespalten, beide Komponenten unabhängig im zentralen Nervensystem aktiv. Dieses pharmakokinetische Profil unterscheidet es fundamental von einfachem Cholinsalz.\n\nIn Spanien und Italien ist die Substanz unter dem Namen Somazina als Medikament gegen ischämischen Schlaganfall und vaskuläre Demenz zugelassen. Im englischsprachigen Raum gilt sie als Nahrungsergänzung. Eine regulatorische Inkonsistenz, die nichts über die Substanz und alles über Zulassungspolitik aussagt.\n\nEine doppelblinde Studie an Frauen mittleren Alters zeigt nach 250 mg täglich über 28 Tage messbare Verbesserung der Aufmerksamkeit und mentalen Reaktionszeit. Bei Glaukom-Patienten sind neuroprotektive Effekte auf retinale Ganglienzellen dokumentiert. Die Schlaganfall-Daten sind heterogen, kleinere Arbeiten zeigen konsistente Verbesserung bei kognitiven Sekundärendpunkten.\n\nIn Madrid wird die Substanz auf Rezept abgegeben, in Berlin im Internet bestellt.",
       quellen: ["McGlade 2012", "Parisi 2008", "Davalos 2012"],
+      nahrungsquellen: "Sojabohnen, Erdnüsse, Vollkorngetreide",
       related_article: null,
     },
     {
@@ -762,6 +799,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Mitochondriales Coenzym für Energie und Herzgesundheit. Q10 in Ubiquinol- oder Ubiquinon-Form, klinisch erforscht für Herz-, Energie- und Anti-Aging-Wirkung.",
       wirkung: "CoQ10 transportiert Elektronen in der mitochondrialen Atmungskette. Ohne diesen Carrier produziert keine Zelle ATP. Die körpereigene Synthese sinkt mit dem Alter und mit Statinen. Statin-Patienten brauchen Q10 zur Kompensation, das ist Konsens unter Kardiologen, die der Substanz nicht ausweichen können.\n\nDie Form entscheidet. Ubiquinol ist die reduzierte, bioverfügbare Variante. Ubiquinon muss der Körper erst umwandeln, was bei älteren Erwachsenen unzuverlässig funktioniert. Wer Ubiquinon kauft, kauft die halbe Wirkung zum vollen Preis.\n\nDie Q-Symbio-Studie zeigt bei Herzinsuffizienz eine Mortalitätssenkung um 44 Prozent unter 300 mg täglich. Eine Migräne-Studie reduziert die Anfallshäufigkeit nachweislich. Bei Fibromyalgie senkt Q10 Schmerzscores und Erschöpfungsmarker. Das sind keine subtilen Verbesserungen, das sind Wirkungen, die der Körper als Nachlassen der Müdigkeit selbst registriert. Wer Statine nimmt und kein CoQ10 supplementiert, hemmt die Cholesterinsynthese und die Energieproduktion mit derselben Tablette.",
       quellen: ["Mortensen 2014", "Sandor 2005", "Cordero 2013"],
+      nahrungsquellen: "Sojaöl, Erdnüsse, Spinat",
       related_article: null,
     },
     {
@@ -796,6 +834,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliche Blasenschutz-Substanz gegen Harnwegsinfekte. D-Mannose als pflanzliche Alternative zu Antibiotika bei Blasenentzündung.",
       wirkung: "D-Mannose bindet an die Typ-1-Fimbrien von Escherichia coli und verhindert deren Adhäsion an der Blasenschleimhaut. Der Mechanismus ist elegant. Statt den Keim zu töten, wird er an der Anheftung gehindert und mit dem Urin ausgespült. Keine Resistenzentwicklung möglich.\n\nEine Vergleichsstudie an Frauen mit rezidivierenden Harnwegsinfekten zeigt unter zwei Gramm D-Mannose täglich über sechs Monate eine Rezidivrate vergleichbar mit Nitrofurantoin-Prophylaxe, bei deutlich weniger Nebenwirkungen. Der Befund ist bemerkenswert, weil er ein Antibiotikum durch einen Zucker ersetzt.\n\nD-Mannose wirkt nur gegen E. coli, das etwa achtzig Prozent der unkomplizierten Zystitiden verursacht. Bei Proteus, Klebsiella und Enterokokken-Infektionen ist die Substanz wirkungslos.\n\nEin Zucker, der ein Antibiotikum ersetzt, indem er Bakterien ausspült statt sie zu töten.",
       quellen: ["Kranjčec 2014"],
+      nahrungsquellen: "Cranberries, Heidelbeeren, Äpfel",
       related_article: null,
     },
     {
@@ -807,6 +846,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Wie der Darm das Gehirn steuert. Die Darm-Hirn-Achse als Schlüssel zu Stimmung, Kognition und psychischer Gesundheit.",
       wirkung: "Neunzig Prozent des Serotonins im Körper werden im Darm produziert. Der Vagusnerv verbindet das enterische Nervensystem mit dem Hirnstamm über vierhundert Millionen Nervenfasern. Das enterische Nervensystem enthält mehr Neuronen als das Rückenmark. Der Darm ist kein Verdauungsrohr, er ist ein sensorisches Organ mit eigenem Nervensystem, das dem Gehirn mehr mitteilt als umgekehrt.\n\nVergleichsstudien zeigen, dass Probiotika wie L. helveticus R0052 plus B. longum R-175 Angst, Depression und Cortisol senken. Fäkaltransplantation von depressiven Mäusen erzeugt depressives Verhalten bei Empfängermäusen. Antibiotika-bedingte Dysbiose korreliert mit erhöhtem Risiko für Depression und Angststörungen.\n\nDie pharmazeutische Konsequenz ist weitreichend. Wenn psychische Erkrankungen eine intestinale Signatur haben, gehören Probiotika, Präbiotika und Ernährungsinterventionen in die Psychiatrie. Die meisten psychiatrischen Leitlinien ignorieren den Darm.\n\nDas Organ, das Psychiater nie untersuchen, produziert den Neurotransmitter, den sie am häufigsten verschreiben.",
       quellen: ["Cryan 2019", "Messaoudi 2011"],
+      nahrungsquellen: "Gestärkt durch: fermentierte Lebensmittel (Sauerkraut, Kimchi), ballaststoffreiche Hülsenfrüchte, Leinsamen / Walnüsse (ALA als Omega-3-Quelle)",
       related_article: null,
     },
     {
@@ -843,6 +883,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Aminosäure-Mischung für Stimmung und Schmerzlinderung. DLPA als natürlicher Schmerz- und Depressions-Helfer.",
       wirkung: "DL-Phenylalanin ist eine racemische Mischung aus L-Phenylalanin und D-Phenylalanin. Die beiden Enantiomere haben völlig verschiedene pharmakologische Profile. L-Phenylalanin wird zu Tyrosin und dann zu Dopamin und Noradrenalin metabolisiert, es ist ein Katecholamin-Vorläufer. D-Phenylalanin hemmt die Enkephalinase, das Enzym, das endogene Opioidpeptide abbaut, und verlängert damit die Wirkung körpereigener Schmerzstiller.\n\nDie Kombination ergibt ein Dopamin-plus-Endorphin-Doppelprofil, das in älteren Studien bei Depression und bei chronischen Schmerzen moderate Wirksamkeit zeigt. Die Studienlage ist dünn und überwiegend aus den 1980er Jahren, eine Replikation unter modernen Standards fehlt.\n\nBei Phenylketonurie ist jede Form von Phenylalanin kontraindiziert. Der Warnhinweis steht selten auf DLPA-Produkten, weil die Zielgruppe im Supplement-Markt nicht an seltene Stoffwechselkrankheiten denkt.\n\nDopamin-Endorphin-Doppelprofil aus den 1980er Jahren. Niemand hat es repliziert. Niemand hat es widerlegt.",
       quellen: ["Beckmann 1977", "Walsh 1986"],
+      nahrungsquellen: "Sojabohnen, Kürbiskerne, Erdnüsse",
       related_article: null,
     },
     {
@@ -855,6 +896,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Nootropikum für Fokus und mentale Klarheit. DMAE als natürliche Cholin-Vorstufe für gesteigerte Konzentration und Anti-Aging.",
       wirkung: "DMAE ist eine Cholin-Vorstufe, die in den 1970er Jahren als Nootropikum populär wurde. Molekular betrachtet wird DMAE im Gehirn zu Phosphatidyl-DMAE methyliert und in die neuronale Membran eingebaut, was die Membranfluidität verändert.\n\nDie klinische Datenlage ist dünn und überwiegend alt. Zwei Studien aus den 1970er Jahren zeigen moderate Verbesserungen bei Aufmerksamkeitsdefizit bei Kindern, ohne Replikation. Eine Studie bei Spätdyskinesie blieb ergebnislos. Die Nootropika-Szene verkauft DMAE auf Basis von In-vitro-Daten zur Membranstabilisierung, die nie sauber in Humanstudien übersetzt wurden.\n\nDermatologisch existiert bessere Evidenz. Eine RCT zeigt unter topischem DMAE-Gel eine messbare Straffung der Gesichtshaut über Hemmung der Phospholipase A2 und Modulation des Arachidonsäure-Stoffwechsels.\n\nDie Nootropikum-Werbung lebt von einem Versprechen aus den 1970er Jahren. Die Haut hat bessere Daten als das Gehirn.",
       quellen: ["Grossman 2005"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; Cholin als Vorstufe: Sojabohnen, Erdnüsse, Quinoa",
       related_article: null,
     },
     {
@@ -880,6 +922,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Die dritte Omega-3-Fettsäure neben EPA und DHA. DPA als unterschätzter Bestandteil von Fischöl und Robbenfett.",
       wirkung: "DPA ist die Omega-3-Fettsäure zwischen EPA und DHA in der Biosynthese-Kette. Sie macht etwa fünf Prozent der Omega-3-Fettsäuren im menschlichen Blut aus und war bis vor kurzem ein analytischer Blindfleck, weil Studien nur EPA und DHA maßen.\n\nEpidemiologische Daten zeigen, dass DPA-Plasmaspiegel stärker invers mit kardiovaskulärer Mortalität korrelieren als EPA oder DHA allein. DPA hemmt die Thrombozytenaggregation zehnfach stärker als EPA in vitro und zeigt eigenständige antiinflammatorische Wirkung über Auflösung von Entzündungsresolvinen.\n\nRobbenfett und Lachs sind die reichsten natürlichen DPA-Quellen. In Standard-Fischölkapseln macht DPA zwei bis vier Prozent aus, in Robbenfettkapseln bis zu fünfzehn Prozent. Die Supplement-Industrie deklariert EPA und DHA, DPA wird weder gemessen noch beworben.\n\nStärkste kardiovaskuläre Korrelation unter den Omega-3-Fettsäuren. Wird weder gemessen noch deklariert.",
       quellen: ["Kaur 2011", "Mozaffarian 2013"],
+      nahrungsquellen: "Vegan begrenzt; Algenöl, Leinsamen, Walnüsse (als ALA-Vorstufen)",
       related_article: null,
     },
     {
@@ -904,6 +947,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Premium-Grüntee-Catechin für Anti-Aging und Stoffwechsel. EGCG für Krebsprävention, Fettverbrennung und Anti-Aging, klinisch erforscht.",
       wirkung: "EGCG ist das stärkste Catechin im Grüntee. In vitro hundertfach so antioxidativ wie Vitamin C. Im Plasma kommt davon wenig an. Die orale Bioverfügbarkeit liegt unter zwei Prozent. Was im Reagenzglas spektakulär aussieht, scheitert am menschlichen Verdauungstrakt.\n\nKlinisch zeigt EGCG moderate Effekte bei Cervixdysplasie und bei nicht-alkoholischer Steatohepatitis. Bei Adipositas bleiben die Stoffwechseleffekte klein, und die zur Wirkung notwendigen Dosen sind hoch genug, um lebertoxisch zu werden. FDA-Warnungen seit 2018 dokumentieren Fälle akuten Leberversagens nach hochdosierten Grüntee-Extrakten.\n\nWer Grüntee trinkt, profitiert. Drei Tassen täglich enthalten genug Polyphenole für epidemiologisch nachweisbare Effekte auf die Herz-Kreislauf-Mortalität. Wer Grüntee-Extrakt in Kapselform schluckt, riskiert die Leber für eine Wirkung, die das Getränk ohnehin liefert.\n\nDie Pflanze ist klüger als ihr Konzentrat.",
       quellen: ["Yates 2017", "Khan 2008"],
+      nahrungsquellen: "Matcha, grüner Tee (Sencha), weißer Tee",
       related_article: null,
     },
     {
@@ -939,6 +983,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Lebenswichtiges Spurenelement gegen Müdigkeit und Erschöpfung. Eisen für Blutbildung, Sauerstofftransport und Energie, besonders für Frauen und Vegetarier.",
       wirkung: "Eisen ist Bestandteil von Hämoglobin und Myoglobin. Ohne Eisen transportiert das Blut keinen Sauerstoff. Eisenmangel ist der häufigste Nährstoffmangel weltweit, betrifft etwa dreißig Prozent der Weltbevölkerung und ist bei menstruierenden Frauen, Schwangeren und Vegetariern endemisch.\n\nDie Resorption hängt von der Form ab. Häm-Eisen aus tierischen Quellen wird mit fünfzehn bis fünfunddreißig Prozent absorbiert. Nicht-Häm-Eisen aus pflanzlichen Quellen erreicht zwei bis zwanzig Prozent, abhängig von Begleitstoffen. Vitamin C verdoppelt bis verdreifacht die Nicht-Häm-Resorption. Kaffee und Tee hemmen sie um bis zu achtzig Prozent durch Polyphenol-Chelation. Wer morgens Kaffee trinkt und mittags Eisentabletten nimmt, arbeitet gegen die eigene Supplementierung.\n\nÜberdosierung ist toxisch. Freies Eisen katalysiert Fenton-Reaktionen, die oxidative Zellschäden verursachen. Supplementierung ohne dokumentierten Mangel, gemessen am Ferritin, ist pharmakologisch nicht zu rechtfertigen.\n\nEisen ist das Mineral, bei dem sowohl Mangel als auch Überschuss messbar schaden. Ohne Laborwert ist jede Entscheidung ein Blindflug.",
       quellen: ["Morck 1983", "Hallberg 1989"],
+      nahrungsquellen: "Linsen, Kürbiskerne, Quinoa",
       related_article: null,
     },
     {
@@ -986,6 +1031,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Pilz-Aminosäure für Zellschutz und Anti-Aging. Seltenes Antioxidans aus Pilzen, von Forschern als Longevity-Vitamin vorgeschlagen.",
       wirkung: "Ergothionein ist die einzige bekannte Aminosäure, die der Körper nicht selbst herstellt, aber aktiv aus der Nahrung aufnimmt und speichert. Dafür hat die Evolution einen eigenen Transporter geschaffen, SLC22A4. Wenn die Zelle sich die Mühe einer eigenen Pumpe macht, ist das ein starkes Indiz für eine essentielle Funktion.\n\nErgothionein konzentriert sich dort, wo oxidativer Stress entsteht. In den Mitochondrien, in der Linse des Auges, in den roten Blutkörperchen. Es löscht Radikale, die andere Antioxidantien nicht erreichen. Die Wissenschaft hat 2018 vorgeschlagen, die Substanz als Longevity-Vitamin zu klassifizieren. Das Etikett ist nicht offiziell, der Befund steht.\n\nDie Quellen sind fast ausschließlich Pilze. Steinpilze und Champignons enthalten viel Ergothionein, geringere Mengen liegen in Hafer, Bohnen und Knoblauch. Wer keine Pilze isst, hat ein messbares Versorgungsdefizit im Blut.\n\nDas macht Pilze pharmakologisch interessanter, als die Küche zugibt.",
       quellen: ["Halliwell 2018", "Beelman 2020"],
+      nahrungsquellen: "Shiitake, Austernpilze, Steinpilze",
       related_article: null,
     },
     {
@@ -1033,6 +1079,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Senolytisches Flavonoid für Anti-Aging und Zellverjüngung. Fisetin aus Erdbeeren als Longevity-Substanz.",
       wirkung: "Fisetin ist ein Flavonoid aus Erdbeeren, Äpfeln und Persimonen. In einer Studie der Mayo Clinic 2018 erwies es sich als das wirksamste senolytische Mittel unter zehn getesteten Flavonoiden. Es eliminiert seneszente Zellen, die sich im Alter ansammeln und durch ihren SASP-Phänotyp chronische Entzündung unterhalten.\n\nIn alten Mäusen verlängert Fisetin die mediane Lebensspanne und reduziert altersassoziierte Pathologie. Vermittelt wird das über Hemmung der PI3K/AKT/mTOR-Achse und Aktivierung apoptotischer Signalwege selektiv in seneszenten Zellen.\n\nDie klinische Übertragung auf den Menschen läuft. Die AFFIRM-Studie an der Mayo Clinic testet Fisetin bei Nierentransplantat-Empfängern und bei Arthrose. Ergebnisse stehen aus. Die Dosis in Humanstudien liegt bei zwanzig Milligramm pro Kilogramm, weit über dem, was Erdbeeren liefern.\n\nDas potenteste Senolytikum im Labor steckt in einer Erdbeere. Die wirksame Dosis verlangt eine Kapsel.",
       quellen: ["Yousefzadeh 2018"],
+      nahrungsquellen: "Erdbeeren, Äpfel, Kaki",
       related_article: null,
     },
     {
@@ -1045,6 +1092,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliche Präbiotika für eine gesunde Darmflora. FOS als Ballaststoff-Ergänzung für Bifidus-Wachstum und Verdauung.",
       wirkung: "FOS sind kurzkettige Fruktane mit selektiver Bifidogenese. Molekular betrachtet ist dieser Effekt präziser definiert als bei der populäreren Inulin-Variante. Eine RCT zeigt nach täglich zehn Gramm FOS über zwei Wochen nachweisliche Zunahme der Bifidobacterium-Population mit Reduktion pathogener Enterobakterien.\n\nDaneben verbessert FOS die intestinale Calciumabsorption bei pubertierenden Mädchen und postmenopausalen Frauen, ein Mechanismus mit relevanter Wirkung auf die Knochenmineralisierung in Risikogruppen. Bei minimaler hepatischer Enzephalopathie senkt FOS den arteriellen Ammoniakspiegel und verbessert kognitive Endpunkte über drei Monate.\n\nDie Industrie nutzt FOS hauptsächlich als kalorienreduzierten Süßstoff. Das reduziert die präbiotische Schärfe der Substanz auf eine Texturhilfe in Diät-Produkten.",
       quellen: ["Bouhnik 1999", "Coudray 2003", "Malaguarnera 2007"],
+      nahrungsquellen: "Topinambur, Chicorée-Wurzel, Zwiebeln",
       related_article: null,
     },
     {
@@ -1069,6 +1117,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Beruhigender Neurotransmitter für Schlaf und Entspannung. GABA als natürliche Angstlösung, direkt supplementieren für sofortige Ruhe.",
       wirkung: "GABA ist der wichtigste hemmende Neurotransmitter im Gehirn. Das ist biochemisch unstrittig. Was strittig ist, ob oral eingenommenes GABA die Blut-Hirn-Schranke überhaupt passiert.\n\nDie klassische Position ist eindeutig. GABA ist ein geladenes Molekül, das die Blut-Hirn-Schranke unter physiologischen Bedingungen nicht passiert. Neuere Arbeiten diskutieren eine begrenzte Permeabilität über endotheliale GABA-Transporter und über Stellen mit erhöhter Barriere-Durchlässigkeit. Die Befunde sind vorläufig und nicht repliziert.\n\nStudien, die nach oraler GABA-Gabe relaxierende Effekte messen, können nicht unterscheiden, ob die Wirkung zentral oder peripher vermittelt ist. GABA bindet auch an enterische Neuronen und an periphere GABA-Rezeptoren. Ein peripherer Effekt ist keine zentralnervöse Anxiolyse.\n\nEinen Neurotransmitter schlucken und hoffen, dass er ankommt. Das ist keine Pharmakologie, das ist ein Umweg.",
       quellen: ["Boonstra 2015"],
+      nahrungsquellen: "Fermentierter Tee (GABA-Tee), Kimchi, Tomaten",
       related_article: null,
     },
     {
@@ -1128,6 +1177,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher Gelenkschutz für Knorpel und Beweglichkeit. Glucosamin und Chondroitin als bewährtes Duo gegen Arthrose.",
       wirkung: "Glucosamin und Chondroitin sind Bausteine der Knorpelmatrix. Die Supplementierung beruht auf der Logik, dass die Zufuhr von Baumaterial den Knorpelabbau bremst. Die größte und methodisch stärkste Studie widerlegt das.\n\nDie GAIT-Studie an über 1500 Patienten mit Knie-Arthrose zeigt weder für Glucosamin noch für Chondroitin noch für die Kombination einen signifikanten Unterschied zu Placebo beim primären Endpunkt Schmerz. Eine Subgruppe mit moderater bis schwerer Arthrose zeigte einen positiven Trend, der in der Folgestudie nicht bestätigt wurde.\n\nDie europäischen Studien, überwiegend mit kristallinem Glucosaminsulfat von Rottapharm, zeigen positivere Ergebnisse. Der Unterschied könnte an der Formulierung liegen, wahrscheinlicher an der Herstellerfinanzierung.\n\nDas meistverkaufte Gelenk-Supplement der Welt hat seine größte Studie verloren und verkauft sich trotzdem.",
       quellen: ["Clegg 2006", "Wandel 2010"],
+      nahrungsquellen: "Vegan begrenzt; Glucosamin aus Pilzen (Aspergillus niger), fermentierter Mais, Algen",
       related_article: null,
     },
     {
@@ -1139,6 +1189,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Das Master-Antioxidans des Körpers. Glutathion für Entgiftung, Zellschutz und Anti-Aging, oral als Kapsel oder liposomal.",
       wirkung: "Glutathion ist das zentrale intrazelluläre Antioxidans und der Hauptträger der Phase-II-Detoxifikation, ein Tripeptid aus Glycin, Glutamat und Cystein, dessen Spiegel mit Alter, oxidativem Stress und chronischer Lebererkrankung absinkt.\n\nDas pharmakologische Problem liegt in der oralen Bioverfügbarkeit. Ungeschütztes Glutathion wird im Dünndarm durch Peptidasen in seine Aminosäuren zerlegt. Eine Vergleichsstudie zeigt, dass nur die liposomale Form über sechs Monate die intrazellulären GSH-Spiegel in Erythrozyten deutlich erhöht. Das isoliert die einzige orale Variante mit messbarem Effekt.\n\nPharmakologisch klüger ist der Weg über die Vorstufen. NAC liefert die limitierende Aminosäure Cystein. Alpha-Liponsäure regeneriert oxidiertes Glutathion. Sulforaphan fährt die endogene Synthese über Nrf2 hoch. Drei Mechanismen, die die GSH-Spiegel zuverlässiger erhöhen als ein Glutathion-Pulver.\n\nIm Regal steht das Master-Antioxidans als Kapsel. In der Zelle erreichen es nur die Vorstufen.",
       quellen: ["Sinha 2018"],
+      nahrungsquellen: "Spargel, Avocado, Spinat",
       related_article: null,
     },
     {
@@ -1150,6 +1201,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Beruhigende Aminosäure für besseren Schlaf und schnellere Regeneration. Sanftes Schlafhilfsmittel, baut Stress ab ohne Tagesnachwirkung.",
       wirkung: "Glycin ist gleichzeitig hemmender Co-Transmitter am NMDA-Rezeptor und wichtigster inhibitorischer Neurotransmitter im Hirnstamm und Rückenmark. Eine Doppelrolle, die im Marketing-Etikett »Aminosäure für Schlaf« nicht ansatzweise abgebildet ist.\n\nEine japanische Studie zeigt nach drei Gramm oraler Einnahme vor dem Zubettgehen über vier Nächte messbare Verbesserung der subjektiven Schlafqualität, kürzere Einschlaflatenz und reduzierte Tagesmüdigkeit. Eine Folgearbeit belegt eine Absenkung der Körperkerntemperatur durch periphere Vasodilatation, ein Mechanismus, der den physiologischen Einschlafprozess imitiert.\n\nDaneben ist Glycin Hauptvorläufer von Glutathion, beteiligt an der Kollagensynthese und an der Entgiftung über Konjugation an Gallensäuren. Eine Rolle, die für die anabole Bindegewebsfunktion und für die Leber klinisch relevant ist.\n\nDrei pharmakologische Profile, eine Aminosäure, ein Etikett. Auf dem Etikett steht das falsche Profil.",
       quellen: ["Yamadera 2007", "Bannai 2012"],
+      nahrungsquellen: "Hülsenfrüchte (Soja, Linsen), Kürbiskerne, Sesam",
       related_article: null,
     },
     {
@@ -1186,6 +1238,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Sanftes Präbiotikum für empfindliche Bäuche. GOS aus Milchzucker, natürlich vorkommend in Muttermilch, für eine gesunde Darmflora.",
       wirkung: "GOS gehört strukturell zu den humanen Milcholigosacchariden, die in Muttermilch in hohen Konzentrationen vorkommen und dort die selektive Etablierung der Bifidus-Flora im Säuglingsdarm steuern.\n\nDie Markenpräparation Bimuno zeigt in einer randomisierten Studie an gesunden Erwachsenen nach drei Wochen täglicher Einnahme nachweisliche Reduktion der Cortisol-Aufwachreaktion und veränderte Aufmerksamkeitsmuster zugunsten positiver Reize. Das zeigt eine messbare anxiolytische Wirkung über die Darm-Hirn-Achse. In Säuglingsformula reduziert GOS plus FOS die Inzidenz atopischer Dermatitis und gastrointestinaler Infekte über die ersten zwei Lebensjahre. Verträglichkeitsstudien zeigen ein deutlich besseres Profil als Inulin, mit geringerer Gasbildung und niedrigerer FODMAP-Belastung.\n\nIn Muttermilch funktioniert es. In der Apothekenecke wird es als sanftes Präbiotikum verkauft, obwohl die Evolution es als Säuglingsnahrung gemeint hat.",
       quellen: ["Schmidt 2015", "Arslanoglu 2008"],
+      nahrungsquellen: "Hülsenfrüchte (Linsen, Kichererbsen), Sojabohnen, Hafer",
       related_article: null,
     },
     {
@@ -1245,6 +1298,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Citrus-Flavonoid für Gefäße und Kreislauf. Hesperidin aus Orangenschalen für venöse Gesundheit und Mikrozirkulation.",
       wirkung: "Hesperidin ist das häufigste Flavonoid in Zitrusfrüchten, konzentriert in der weißen Schicht unter der Schale. Molekular betrachtet wirkt es über Hemmung der Phosphodiesterase und Modulation der Stickstoffmonoxid-Synthase auf die Gefäßelastizität.\n\nIn Vergleichsstudien senkt Hesperidin den diastolischen Blutdruck und verbessert die Endothelfunktion bei übergewichtigen Erwachsenen. Bei chronisch-venöser Insuffizienz zeigt die mikronisierte Form Diosmin-Hesperidin (Daflon) nachweisliche Reduktion von Beinödemen und venösen Ulzera, ein Befund, der in Frankreich zur Verschreibungspflicht und Kostenerstattung geführt hat.\n\nDie Bioverfügbarkeit steigt durch Darmbakterien, die Hesperidin zu Hesperetin spalten. Die individuelle Darmflora bestimmt, wie viel von der Orangenschale im Blut ankommt.\n\nEin Flavonoid, das in Frankreich auf Rezept verschrieben wird und in Deutschland als Orangenschale im Biomüll landet.",
       quellen: ["Morand 2011", "Nicolaides 2003"],
+      nahrungsquellen: "Orangen (Schale & Saft), Mandarinen, Zitronen",
       related_article: null,
     },
     {
@@ -1282,6 +1336,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Was dich nicht umbringt, macht dich stärker. Hormesis als biologisches Prinzip hinter Kältebaden, Intervallfasten und Mikrodosierung.",
       wirkung: "Hormesis beschreibt die biphasische Dosis-Wirkungs-Beziehung, bei der niedrige Dosen eines Stressors den Organismus stärken und hohe Dosen ihn schädigen. Kälteexposition, Fasten, intensive Bewegung, Sulforaphan, Resveratrol und ionisierende Strahlung in Niedrigdosis folgen alle diesem Muster.\n\nDer Weg führt über zelluläre Stressantwort-Programme. Nrf2 fährt die antioxidative Abwehr hoch. Hitzeschockproteine stabilisieren gefaltete Proteine. AMPK aktiviert die Autophagie. FOXO-Transkriptionsfaktoren induzieren Reparaturgene. Der Stressor selbst schadet, die Gegenreaktion überkompensiert.\n\nDie Supplement-Industrie hat Hormesis nie verstanden, weil sie das Gegenteil verkauft. Sie verkauft Schutz vor Stress. Hormesis sagt, der Stress selbst ist der Schutz, in der richtigen Dosis.\n\nDas wirksamste Anti-Aging-Programm ist kein Supplement. Es ist dosierter Stress.",
       quellen: ["Calabrese 2007", "Mattson 2008"],
+      nahrungsquellen: "Aktiviert durch: Fasten, scharfe Gewürze (Capsaicin), Sulforaphan (Brokkolisprossen), Polyphenole (Grüner Tee, rote Trauben)",
       related_article: null,
     },
     {
@@ -1316,6 +1371,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Feuchtigkeitsbooster für junge Haut und geschmeidige Gelenke. Hyaluronsäure als Anti-Aging-Supplement und Beauty-Drink.",
       wirkung: "Hyaluronsäure bindet das Tausendfache ihres Gewichts an Wasser. In der Haut und in der Gelenkflüssigkeit ist sie der zentrale Feuchtigkeitsspeicher. Mit dem Alter sinkt der Gehalt, die Haut wird trockener, die Gelenke steifer. Soweit die Logik des Etiketts.\n\nInjiziert funktioniert Hyaluronsäure nachweislich. Intraartikuläre Injektionen bei Knie-Arthrose verbessern Schmerz und Funktion. Dermale Filler glätten Falten. Das ist nachgewiesene Medizin.\n\nOral eingenommen ist die Lage schwieriger. Das Molekulargewicht von Hyaluronsäure liegt bei mehreren Millionen Dalton, die intestinale Absorption großer Polysaccharide ist physiologisch begrenzt. Niedermolekulare Varianten werden besser resorbiert, ob die Fragmente am Zielort eine relevante Wirkung entfalten, zeigen wenige und überwiegend herstellerfinanzierte Studien.\n\nInjiziert ein Medizinprodukt. Oral ein Versprechen, das die Darmwand kaum passiert.",
       quellen: ["Oe 2016", "Bannuru 2015"],
+      nahrungsquellen: "Vegan begrenzt; Vorstufen: Sojabohnen, Süßkartoffeln, Wurzelgemüse",
       related_article: null,
     },
     {
@@ -1341,6 +1397,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Brokkoliextrakt für Hormonbalance und Östrogenmetabolismus. I3C und DIM aus Kreuzblütlern für Frauen- und Männergesundheit.",
       wirkung: "Indol-3-Carbinol entsteht beim Zerkauen von Kreuzblütlern. Im sauren Magen-Milieu kondensiert es zu DIM, dem eigentlichen Wirkstoff. DIM verschiebt den Östrogenmetabolismus von den potenteren 16α-Hydroxy-Metaboliten in Richtung der schützenden 2-Hydroxy-Metaboliten.\n\nDieser Shift ist klinisch relevant. Cervixdysplasie (CIN II/III) zeigt in Vergleichsstudien unter I3C-Supplementierung robuste Rückbildungsraten. Bei hormonabhängigem Brustkrebs laufen Phase-II-Studien. Die antiandrogene Wirkung über Modulation der 5-alpha-Reduktase macht DIM für Männer mit benigner Prostatahyperplasie relevant.\n\nSulforaphan aus denselben Kreuzblütlern aktiviert zusätzlich Nrf2. Wer Brokkoli, Blumenkohl und Grünkohl isst, bekommt beide Wirkstoffe in der natürlichen Matrix.\n\nKrebsprävention, die beim Kauen entsteht. Die Küche liefert, was die Onkologie erforscht.",
       quellen: ["Bell 2000", "Dalessandri 2004"],
+      nahrungsquellen: "Brokkoli, Rosenkohl, Grünkohl",
       related_article: null,
     },
     {
@@ -1365,6 +1422,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher Ballaststoff aus Chicorée für die Darmflora. Präbiotikum für Bifidus-Wachstum, Verdauung und Sättigung.",
       wirkung: "Inulin ist ein langkettiges Fructan aus Chicorée-Wurzel, das intakt in den Dickdarm gelangt und dort selektiv Bifidobakterien und Lactobazillen füttert. Die bifidogene Wirkung ist in über dreißig Vergleichsstudien reproduziert, das macht Inulin zum am besten belegten Präbiotikum im Index.\n\nDie klinischen Effekte gehen über die Darmflora hinaus. Inulin verbessert die Calciumresorption bei Jugendlichen nachweislich, senkt Triglyceride in metabolisch belasteten Populationen und erhöht die Sättigung über GLP-1- und PYY-Freisetzung aus den L-Zellen des Darms.\n\nDas Hauptproblem ist die Gasbildung. Inulin fermentiert schnell und im proximalen Kolon konzentriert, was bei FODMAP-empfindlichen Patienten Blähungen, Krämpfe und osmotische Diarrhö auslöst. Dosierungen über zehn Gramm täglich sind für viele Anwender unverträglich. GOS und PHGG erreichen ähnliche präbiotische Effekte mit besserer Verträglichkeit.\n\nDas effektivste Präbiotikum ist gleichzeitig das unverträglichste. Wer es verträgt, hat Datenlage. Wer nicht, hat Alternativen.",
       quellen: ["Roberfroid 2010", "Abrams 2005"],
+      nahrungsquellen: "Topinambur, Chicorée, Schwarzwurzel",
       related_article: null,
     },
     {
@@ -1376,6 +1434,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielles Spurenelement für Schilddrüse und Stoffwechsel. Iod für Hormonproduktion und Energiehaushalt.",
       wirkung: "Iod ist der limitierende Baustein der Schilddrüsenhormone T3 und T4. Ohne Iod produziert die Schilddrüse kein Thyroxin, der Stoffwechsel fährt herunter. In Jodmangelgebieten, zu denen Mitteleuropa bis zur Einführung von jodiertem Speisesalz gehörte, ist Struma die sichtbarste Folge.\n\nDie empfohlene Tagesdosis liegt bei 150 Mikrogramm für Erwachsene. Die tatsächliche Aufnahme in Deutschland liegt oft darunter, weil Jodsalz im verarbeiteten Lebensmittel nicht standardmäßig verwendet wird. Schwangere und Stillende haben einen erhöhten Bedarf von 200 bis 260 Mikrogramm.\n\nÜberdosierung ist bei Hashimoto-Thyreoiditis kontraindiziert. Hohe Ioddosen können autoimmune Schübe auslösen. Die Iod-Hype-Szene ignoriert das systematisch. Japanische Bevölkerungsdaten mit hohem Iodkonsum durch Algen sind nicht auf europäische Schilddrüsen übertragbar.\n\nIod ist ein Spurenelement, das sowohl zu wenig als auch zu viel schadet. Die Schilddrüse hat kein Interesse an Enthusiasmus.",
       quellen: ["Zimmermann 2009"],
+      nahrungsquellen: "Algen (Nori, Wakame, Kombu), Jodsalz, Cranberries",
       related_article: null,
     },
     {
@@ -1471,6 +1530,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Wichtiges Elektrolyt für Herz, Muskeln und Blutdruck. Kalium für eine gesunde Herzfunktion und normale Muskelkontraktion.",
       wirkung: "Kalium ist das häufigste intrazelluläre Kation. Es reguliert das Membranpotenzial jeder Zelle im Körper. Ohne Kalium schlägt kein Herz, kontrahiert kein Muskel, leitet kein Nerv.\n\nDie WHO empfiehlt 3510 mg täglich. Die tatsächliche Aufnahme liegt in westlichen Bevölkerungen bei etwa 2500 mg. Das Defizit ist endemisch, aber unsichtbar, weil Kalium im Serumwert erst bei schwerer Depletion abfällt. Wer nur den Serumwert misst, verpasst den intrazellulären Mangel.\n\nMetaanalysen zeigen unter erhöhter Kaliumzufuhr nachweisliche Blutdrucksenkung, reduziertes Schlaganfallrisiko und verbesserte Knochendichte. Der Effekt ist dosisabhängig und bei hypertensiven Patienten am stärksten. Bananen liefern 360 mg, Avocados 485 mg, Kokoswasser 600 mg pro Portion. Wer diese Quellen meidet, supplementiert gegen ein Defizit, das er mit Essen lösen könnte.\n\nKaffee steigert die renale Kaliumausscheidung. Der Elektrolytverlust durch Koffein wird selten quantifiziert und nie auf der Packung erwähnt.",
       quellen: ["Aburto 2013", "WHO 2012"],
+      nahrungsquellen: "Getrocknete Aprikosen, weiße Bohnen, Bananen",
       related_article: null,
     },
     {
@@ -1494,6 +1554,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Haar-Protein für Volumen und Glanz. Keratin-Supplement für stärkere Haare, Nägel und Haut von innen.",
       wirkung: "Keratin ist das Strukturprotein von Haaren, Nägeln und der äußeren Hautschicht. Die Supplement-Industrie verkauft solubilisiertes Keratin als Haar-Booster. Die Biochemie hat ein Problem damit.\n\nKeratin ist ein hochvernetztes, durch Disulfidbrücken stabilisiertes Protein, das die Evolution absichtlich unverdaulich gemacht hat. Haare und Nägel sollen nicht im Magen aufgelöst werden. Die solubilisierten Keratin-Hydrolysate in Supplements sind enzymatisch aufgebrochene Fragmente, die im Darm zu denselben Aminosäuren zerlegt werden wie jedes andere Protein. Cystein ist der dominante Baustein, und Cystein bekommt man billiger aus NAC oder einem Ei.\n\nEine proprietäre Studie zum Markenprodukt Cynatine HNS zeigt nach neunzig Tagen moderate Verbesserung von Haarfestigkeit und Nagelbrüchigkeit. Die Studie ist herstellerfinanziert, klein und nicht repliziert.\n\nWer Keratin-Pulver schluckt, schluckt Aminosäuren zum Preis eines Markennamens.",
       quellen: ["Beer 2014"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; vegane Bausteine (schwefelhaltige Aminosäuren): Sojabohnen, Linsen, Hafer",
       related_article: null,
     },
     {
@@ -1543,6 +1604,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Beauty-Protein für straffe Haut, starke Gelenke und gesunde Haare. Kollagen-Peptide als Anti-Aging-Drink, im Kaffee oder als Pulver.",
       wirkung: "Kollagen ist das häufigste Protein im menschlichen Körper. Das Marketing verkauft die Idee, dass oral eingenommenes Kollagen die Haut glättet, indem es sich dort einlagert. Die Verdauung sieht das anders. Im Magen wird Kollagen in Aminosäuren und Dipeptide zerlegt. Was im Blut ankommt, sind Glycin, Prolin und Hydroxyprolin, keine intakten Kollagenfasern.\n\nDie Frage ist, ob diese Peptide ein Signal auslösen. Einige Vergleichsstudien zeigen nach acht bis zwölf Wochen Kollagenhydrolysat moderate Verbesserungen der Hautelastizität und Faltenreduktion. Die Hypothese ist, dass Kollagenpeptide im Blut von Fibroblasten als Abbausignal interpretiert werden, worauf diese ihre eigene Kollagensynthese hochfahren. Plausibel, aber nicht gesichert.\n\nDie Effektgrößen in den Studien, oft von Herstellern finanziert, sind klein. Dieselbe Menge Glycin und Prolin aus Knochenbrühe oder Gelatine liefert die gleichen Aminosäuren zum Bruchteil des Preises. Kollagen-Peptide für dreißig Euro im Monat enthalten keine Magie, die ein Teller Hühnersuppe nicht auch liefert.\n\nDas teuerste Proteinpulver auf dem Markt wird im Magen zu denselben Aminosäuren, die in Knochenbrühe schwimmen.",
       quellen: ["Proksch 2014", "Asserin 2015"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; Bausteine: Vitamin C (Hagebutte, Paprika), Aminosäuren (Sojabohnen, Linsen, Quinoa)",
       related_article: null,
     },
     {
@@ -1576,6 +1638,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Klassisches Sport-Supplement für Muskel- und Kraftaufbau. Kreatin-Monohydrat für Bodybuilder und Kraftsportler, gut erforscht und sicher.",
       wirkung: "Kreatin ist Phosphokreatin im Muskel und im Gehirn. Beide Organe puffern damit ihre ATP-Bereitstellung. Wer keinen ausreichenden Vorrat hat, verliert Leistung unter Stress, kognitiv wie körperlich. Das Marketing zeigt einen Bizeps. Die Wirkung zeigt ein Gehirn.\n\nBei Schlafentzug erhält Kreatin die kognitive Leistung. Bei Vegetariern und Veganern, die über Fleisch nichts aufnehmen, verbessern fünf Gramm täglich Arbeitsgedächtnis und Verarbeitungsgeschwindigkeit messbar. Bei Depression augmentiert es SSRIs in einer randomisierten Studie. Bei traumatischer Hirnverletzung beschleunigt es Recovery. Das ist eine pharmakologische Bandbreite, die im Index kaum eine andere Substanz erreicht.\n\nDie International Society of Sports Nutrition stuft Kreatin 2017 als wirksamstes ergogenes Supplement ein. Die kognitive Achse erwähnt sie nicht. Das ist die größte Auslassung der Supplement-Wissenschaft.\n\nKreatin gehört nicht ins Fitnessstudio, es gehört in jeden Haushalt mit einem Gehirn.",
       quellen: ["McMorris 2006", "Rae 2003", "Kious 2019", "Sakellaris 2006"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; Vorstufen (Arginin, Glycin, Methionin): Sojabohnen, Kürbiskerne, Erdnüsse",
       related_article: null,
     },
     {
@@ -1599,6 +1662,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielles Spurenelement für Knochen, Blut und Energie. Kupfer für Kollagenbildung, Eisenstoffwechsel und antioxidativen Schutz.",
       wirkung: "Kupfer ist Cofaktor für über ein Dutzend Enzyme, darunter Cytochrom-c-Oxidase in der Atmungskette, Superoxiddismutase im antioxidativen System und Lysyl-Oxidase in der Kollagenvernetzung. Ohne Kupfer produziert die Zelle kein ATP effizient, baut kein stabiles Bindegewebe und neutralisiert keine Superoxid-Radikale.\n\nKlinischer Mangel ist selten bei normaler Ernährung, tritt aber auf bei Langzeit-Zinksupplementation, weil Zink und Kupfer um denselben intestinalen Transporter konkurrieren. Wer dreißig Milligramm Zink täglich nimmt und Kupfer vergisst, induziert eine Kupfer-Defizienz mit Anämie und Neutropenie.\n\nÜberschuss ist toxisch. Morbus Wilson ist das genetische Extrem, aber auch bei normaler Kupferzufuhr akkumuliert das Metall bei eingeschränkter hepatischer Ausscheidung. Supplementierung ohne dokumentierten Mangel ist nicht zu empfehlen.\n\nKupfer ist das Mineral, das man vergisst, wenn man zu viel Zink nimmt.",
       quellen: ["Prohaska 2008"],
+      nahrungsquellen: "Kakaopulver, Cashews, Sesam",
       related_article: null,
     },
     {
@@ -1622,6 +1686,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Aminosäure für Durchblutung und Potenz. L-Arginin als natürlicher Stickstoffmonoxid-Booster für Herz, Muskeln und Männergesundheit.",
       wirkung: "L-Arginin ist die Vorstufe von Stickstoffmonoxid, dem Signalmolekül, das Blutgefäße entspannt. Ohne NO verengen sich Arterien, steigt der Blutdruck, versagt die Erektion. Das ist der Mechanismus hinter Viagra, nur dass Viagra den NO-Abbau hemmt, während Arginin die Produktion steigert.\n\nBei milder Hypertonie senkt Arginin-Supplementierung den systolischen Blutdruck in Metaanalysen um fünf bis sieben mmHg. Bei erektiler Dysfunktion zeigen kontrollierte Studien moderate Verbesserungen, stärker in Kombination mit Pycnogenol. Die Wirkung setzt intaktes Endothel voraus, bei fortgeschrittener Atherosklerose bleibt der NO-Weg blockiert.\n\nL-Citrullin ist der effektivere Arginin-Lieferant, weil es die hepatische Arginase umgeht und den Plasma-Argininspiegel länger und höher hält als Arginin selbst. Wer Arginin als Ziel hat, fährt mit Citrullin besser.\n\nDie Vorstufe von NO hat eine Vorstufe, die besser funktioniert.",
       quellen: ["Dong 2011", "Stanislavov 2003"],
+      nahrungsquellen: "Kürbiskerne, Erdnüsse, Walnüsse",
       related_article: null,
     },
     {
@@ -1633,6 +1698,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Fatburner-Aminosäure für Fettverbrennung und Energie. L-Carnitin als natürlicher Fetttransporter in die Mitochondrien.",
       wirkung: "L-Carnitin transportiert langkettige Fettsäuren über die innere Mitochondrienmembran. Ohne diesen Carrier verbrennt die Zelle kein Fett. Das Marketing hat daraus einen Fatburner gemacht. Die Pharmakologie sagt etwas Differenzierteres.\n\nBei gesunden Menschen mit normaler Carnitin-Synthese und ausreichend Fleischkonsum bringt Supplementierung keine zusätzliche Fettverbrennung. Die Mitochondrien sind bereits satt. Bei Vegetariern, Veganern, älteren Erwachsenen und Dialysepatienten sieht die Lage anders aus. Dort ist Carnitin der limitierende Faktor, und Supplementierung verbessert die Fettsäureoxidation messbar.\n\nDie TMAO-Kontroverse hat Carnitin in Verruf gebracht. Darmbakterien konvertieren Carnitin zu Trimethylamin, die Leber oxidiert es zu TMAO, und TMAO korreliert mit kardiovaskulärem Risiko. Die Korrelation ist real, die Kausalität umstritten. Fischesser haben höhere TMAO-Spiegel als Fleischesser und niedrigere kardiovaskuläre Mortalität. Das passt nicht zusammen.\n\nFleischesser brauchen es nicht, Veganer kennen es nicht. Dazwischen liegt ein Fetttransporter ohne Zielgruppe.",
       quellen: ["Pekala 2011", "Koeth 2013"],
+      nahrungsquellen: "Vegan begrenzt; Tempeh, Avocado, Erdnussbutter (geringe Mengen)",
       related_article: null,
     },
     {
@@ -1644,6 +1710,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Aminosäure für Ausdauer und Durchblutung. L-Citrullin aus Wassermelone, der effektivere Weg zu mehr Stickstoffmonoxid.",
       wirkung: "L-Citrullin wird in der Niere zu L-Arginin umgewandelt und umgeht dabei die hepatische First-Pass-Metabolisierung. Das Ergebnis ist ein Plasma-Argininspiegel, der unter Citrullin-Supplementierung höher und stabiler liegt als unter derselben Dosis Arginin direkt. Die Aminosäure, die man nicht will, liefert die Aminosäure, die man will, besser als die Aminosäure selbst.\n\nBei Sportlern verlängert Citrullin-Malat die Zeit bis zur Erschöpfung und reduziert Muskelkater nach dem Training signifikant. Die Wirkung läuft über verbesserte NO-vermittelte Durchblutung und über die Rolle von Citrullin im Harnstoffzyklus, wo es Ammoniak entgiftet, das sich bei anaerober Belastung akkumuliert.\n\nSechs Gramm Citrullin-Malat vor dem Training ist die dosisgesicherte Empfehlung. Wassermelone enthält relevante Mengen, aber die Rinde mehr als das Fruchtfleisch. Niemand isst die Rinde.\n\nDie bessere Arginin-Quelle ist eine Aminosäure, die nicht Arginin heißt.",
       quellen: ["Perez-Guisado 2010", "Schwedhelm 2008"],
+      nahrungsquellen: "Wassermelone, Kürbis, Gurke",
       related_article: null,
     },
     {
@@ -1655,6 +1722,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Aminosäure für Darm und Muskeln. L-Glutamin als Regenerationshilfe nach Training und bei Leaky Gut.",
       wirkung: "L-Glutamin ist die häufigste Aminosäure im Blutplasma und der Hauptenergieträger der Enterozyten. Ohne Glutamin hungert die Darmschleimhaut. Bei kritisch kranken Patienten auf Intensivstationen sinkt der Plasmaspiegel regelmäßig unter die Hälfte des Normalwerts.\n\nKlinisch zeigt Glutamin-Supplementierung bei erhöhter intestinaler Permeabilität robuste Verbesserung der Barrierefunktion. Bei Chemotherapie-induzierter Mukositis reduziert es Schwere und Dauer der Schleimhautschäden. Bei Verbrennungspatienten senkt es die Infektionsrate und verkürzt den Krankenhausaufenthalt.\n\nDie Fitness-Industrie verkauft Glutamin als Muskelregenerationsmittel. Die Datenlage für diese Indikation bei gesunden Sportlern ist schwach. Was funktioniert, ist der Darm. Was verkauft wird, ist der Bizeps.\n\nGlutamin repariert die Darmwand. Der Muskel-Claim ist ein Marketing-Parasit auf einem Gastroenterologie-Wirkstoff.",
       quellen: ["van der Hulst 1993", "Sayles 2016"],
+      nahrungsquellen: "Sojabohnen, Kohl, Spinat",
       related_article: null,
     },
     {
@@ -1666,6 +1734,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielle Aminosäure gegen Herpes und für Kollagenaufbau. L-Lysin als natürliche Abwehr gegen Herpes simplex.",
       wirkung: "L-Lysin ist eine essentielle Aminosäure, die der Körper nicht selbst herstellt. Sie konkurriert mit L-Arginin um denselben intestinalen Transporter und um den Einbau in virale Proteine. Herpes-simplex-Viren brauchen Arginin für die Replikation. Lysin verdrängt Arginin und verlangsamt damit die virale Vermehrung.\n\nVergleichsstudien zeigen unter 1000 mg Lysin täglich reduzierte Rezidivhäufigkeit und verkürzte Heilungsdauer bei Herpes labialis und genitalis. Die Effektgrößen sind moderat, die Konsistenz über Studien hinweg bemerkenswert. Wer gleichzeitig argininreiche Nahrung reduziert (Nüsse, Schokolade, Gelatine), verstärkt den Effekt.\n\nDaneben ist Lysin essentiell für die Kollagen-Crosslinking über Lysyl-Oxidase und für die Calcium-Absorption im Darm. Bei Athleten mit hohem Kollagenumsatz und bei älteren Erwachsenen mit Osteoporoserisiko ist die Aminosäure funktional relevant.\n\nEine Aminosäure, die Viren aushungert, indem sie deren Lieblingsbaustein verdrängt.",
       quellen: ["Griffith 1987", "Flodin 1997"],
+      nahrungsquellen: "Sojabohnen, Linsen, Kürbiskerne",
       related_article: null,
     },
     {
@@ -1677,6 +1746,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielle schwefelhaltige Aminosäure für Leber und Entgiftung. L-Methionin als Vorstufe von SAMe, Glutathion und Kreatin.",
       wirkung: "L-Methionin ist die einzige essentielle schwefelhaltige Aminosäure. Aus ihr synthetisiert der Körper S-Adenosylmethionin, den universellen Methylgruppendonor, Cystein als Glutathion-Vorläufer und Kreatin als ATP-Puffer. Drei Achsen des zellulären Stoffwechsels beginnen bei einer Aminosäure.\n\nDer Methionin-Zyklus ist gleichzeitig die Hauptquelle von Homocystein. Überschüssiges Methionin bei unzureichender B6-, B12- und Folat-Versorgung akkumuliert Homocystein, einen unabhängigen kardiovaskulären Risikofaktor. Supplementierung ohne Kofaktoren verschärft das Risiko, statt es zu senken.\n\nBei Harnwegsinfekten acidifiziert Methionin den Urin und hemmt das Wachstum uropathogener Keime. Diese Indikation ist nischenhaft, aber pharmakologisch solide.\n\nDie Mutter-Aminosäure von SAMe, Glutathion und Kreatin kann zur Quelle von Homocystein werden, wenn die B-Vitamine fehlen.",
       quellen: ["Brosnan 2006"],
+      nahrungsquellen: "Paranüsse, Sesam, Sonnenblumenkerne",
       related_article: null,
     },
     {
@@ -1688,6 +1758,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Entspannende Aminosäure aus grünem Tee. L-Theanin für wache Gelassenheit ohne Müdigkeit, ideal in Kombination mit Koffein.",
       wirkung: "L-Theanin ist eine nicht-proteinogene Aminosäure aus der Teepflanze. Sie passiert die Blut-Hirn-Schranke und erhöht im EEG die Alphawellen-Aktivität. Soweit die Pharmakologie.\n\nDie Erzählung dahinter verdient Skepsis. Nahezu sämtliche Humanstudien zu L-Theanin wurden mit Suntheanine durchgeführt, einem patentierten Produkt der Firma Taiyo. Taiyo finanziert die Studien, liefert das Material und vermarktet die Ergebnisse. Die Stichproben sind klein, die Laufzeiten kurz, die Replikation durch unabhängige Gruppen fehlt. Eine achtwöchige Studie an 102 gesunden Erwachsenen fand unter 177 mg L-Theanin keine Reduktion von Erschöpfungssymptomen gegenüber Placebo.\n\nDie Supplement-Dosis liegt bei 200 bis 400 mg pro Kapsel. Eine Tasse Grüntee enthält 25 bis 60 mg. Wer L-Theanin als »wie Teetrinken« bewirbt, verschweigt den Faktor vier bis acht. Die »natürlich wie Tee«-Erzählung ist bei Supplement-Dosierung pharmakologisch unredlich.\n\nDas Hauptverkaufsargument lautet, L-Theanin mache Koffein verträglicher. Ein Supplement, das die Nebenwirkungen einer Suchtsubstanz abfedert, damit man sie weiter konsumieren kann. L-Theanin ist der Weichzeichner, der das Bild schärfer aussehen lässt, ohne das Problem zu lösen.\n\nAlpha-Wellen im EEG sind ein Surrogatendpunkt. Ob ihre Veränderung klinisch relevante Entspannung erzeugt, ist nicht belegt. Was belegt ist, stammt aus der Forschungspipeline des Herstellers. Der Rest ist Tee-Romantik mit Kapselpreis.",
       quellen: ["Nobre 2008", "Owen 2008", "Hidese 2019"],
+      nahrungsquellen: "Matcha, Gyokuro, Sencha",
       related_article: null,
     },
     {
@@ -1699,6 +1770,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliche Serotonin-Vorstufe für Stimmung und Schlaf. L-Tryptophan als sanfter Weg zu mehr Wohlbefinden.",
       wirkung: "L-Tryptophan ist die seltenste essentielle Aminosäure in der Nahrung und der einzige Vorläufer von Serotonin im Gehirn. Ohne Tryptophan im Blut sinkt die zentrale Serotonin-Synthese innerhalb von Stunden, messbar als Verschlechterung der Stimmung in kontrollierten Depletionstudien.\n\n1989 verursachte eine kontaminierte Charge eines japanischen Herstellers das Eosinophilie-Myalgie-Syndrom, über 1500 Erkrankte, 37 Tote. Die FDA verbot Tryptophan als Supplement. Das Verbot galt bis 2005. Sechzehn Jahre lang war eine essentielle Aminosäure in den USA nicht frei verkäuflich, weil ein Produktionsfehler in einer einzigen Fabrik eine Kontamination verursacht hatte. Die Substanz selbst war nie das Problem.\n\nIn dieser Lücke eroberte 5-HTP den Markt, ein Zwischenmetabolit, der die Blut-Hirn-Schranke leichter passiert, aber die Serotonin-Synthese peripherer ankurbelt, mit höherem Risiko für gastrointestinale Nebenwirkungen und Serotonin-Syndrom bei Kombination mit SSRIs.\n\nEine essentielle Aminosäure wurde sechzehn Jahre lang verboten, weil eine Fabrik kontaminiert war. Der Markt hat das Verbot mit einem risikoreicheren Ersatz gefüllt.",
       quellen: ["Belongia 1990", "Young 2007"],
+      nahrungsquellen: "Kürbiskerne, Sojabohnen, Hafer",
       related_article: null,
     },
     {
@@ -1710,6 +1782,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Aminosäure für Fokus und Stressresistenz. L-Tyrosin als Dopamin-Vorläufer für mentale Leistung unter Belastung.",
       wirkung: "L-Tyrosin ist die direkte Vorstufe von Dopamin, Noradrenalin und Adrenalin. Unter normalem Betrieb ist Tyrosin kein limitierender Faktor, die Tyrosin-Hydroxylase reguliert die Synthese enzymkinetisch. Unter Stress ändert sich das. Katecholamin-Verbrauch steigt, Tyrosin-Vorräte sinken, kognitive Leistung bricht ein.\n\nMilitärische Studien an Soldaten unter Schlafentzug, Kälteexposition und Mehrfachbelastung zeigen konsistent, dass Tyrosin-Supplementierung kognitive Leistung und Arbeitsgedächtnis erhält, die ohne Supplementierung messbar abfallen. Die Wirkung tritt nur unter Stress auf. Bei ausgeruhten, satten, warmen Probanden zeigt Tyrosin nichts.\n\nDie Form ist relevant. L-Tyrosin ist die natürliche, bioverfügbare Form. NALT (N-Acetyl-L-Tyrosin) wird renal ausgeschieden, bevor es wirkt. Die Nootropika-Szene verkauft NALT als Premium-Variante, die Pharmakokinetik widerspricht.\n\nUnter Stress wirkt es. Im Alltag ist es ein teures Placebo. Im Extremfall ein kognitiver Rettungsring.",
       quellen: ["Mahoney 2007", "Jongkees 2015"],
+      nahrungsquellen: "Sojabohnen, Mandeln, Kürbiskerne",
       related_article: null,
     },
     {
@@ -1722,6 +1795,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Klassischer Joghurt-Keim für Darmgesundheit und Immunsystem. Der bekannteste Probiotikum-Stamm, seit Jahrzehnten bewährt.",
       wirkung: "Acidophilus ist der bekannteste Probiotika-Name der Welt und gleichzeitig der unspezifischste. Die Gattung Lactobacillus umfasst über zweihundert Spezies, und L. acidophilus allein enthält Dutzende Stämme mit vollkommen unterschiedlichen Wirkprofilen.\n\nGenerische Acidophilus-Produkte verkaufen einen Gattungsnamen, keinen definierten Wirkstoff. Die wenigen stammspezifisch untersuchten Varianten wie NCFM zeigen moderate Effekte bei Laktoseintoleranz und antibiotikaassoziierter Diarrhö. Die breiten Gesundheitsversprechen der Kategorie tragen keine RCTs.\n\nWer Acidophilus kauft, kauft meist eine Art ohne Stammbezeichnung, ohne Lebendkeimgarantie und ohne klinische Evidenz für irgendeine spezifische Wirkung.\n\nDer bekannteste Probiotika-Name ist gleichzeitig der leerste.",
       quellen: ["Sanders 2001"],
+      nahrungsquellen: "Sauerkraut, Sojajoghurt, fermentiertes Gemüse",
       related_article: null,
     },
     {
@@ -1734,6 +1808,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Schlankmacher-Probiotikum für Bauchfett und Gewichtsmanagement. L. gasseri als natürlicher Helfer bei viszeralem Fett.",
       wirkung: "L. gasseri SBT2055 reduziert in einer japanischen Studie an übergewichtigen Erwachsenen nach zwölf Wochen viszerales Fett um 4,6 Prozent, Hüftumfang und BMI überlegen gegenüber Placebo. Der Effekt verschwindet nach Absetzen, was einen aktiven, nicht-permanenten Mechanismus nahelegt.\n\nMolekular betrachtet läuft die Wirkung vermutlich über verringerte Fettabsorption im Dünndarm und über Modulation der Gallensäure-Rezeptorsignale. BNR17, ein koreanischer Stamm, zeigt in einer separaten Studie ähnliche Effekte auf das Körpergewicht.\n\nDie Effektgrößen sind real, aber klein. Wer dreißig Kilo verlieren muss, wird von L. gasseri nicht gerettet. Wer hartnäckiges viszerales Fett trotz Kaloriendefizit behält, hat einen plausiblen Versuch.\n\nViszerales Fett reduzieren mit einem Probiotikum. Echte Daten, realistische Grenzen, und kein Regal, das beides gleichzeitig kommuniziert.",
       quellen: ["Kadooka 2010", "Kim 2018"],
+      nahrungsquellen: "Sauerkraut, Sojajoghurt, Wasserkefir",
       related_article: null,
     },
     {
@@ -1746,6 +1821,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Klinisches Probiotikum für Reizdarm und Verdauung. L. plantarum 299v für empfindliche Bäuche, wissenschaftlich erforscht.",
       wirkung: "L. plantarum 299v ist einer der wenigen Probiotika-Stämme mit konsistenter klinischer Evidenz bei Reizdarmsyndrom. Eine doppelblinde Studie an IBS-Patienten zeigt nach vier Wochen deutliche Reduktion von Blähungen und Bauchschmerzen gegenüber Placebo.\n\nDie Wirkung läuft über Modulation der intestinalen Gasproduktion, Stabilisierung der Mukusschicht und Senkung pro-inflammatorischer Zytokine lokal in der Darmmukosa. Zusätzlich verbessert der Stamm die Eisenabsorption bei Eisenmangelanämie deutlich, ein Befund, der für menstruierende Frauen und Vegetarier klinisch relevant ist.\n\nDie Eisenresorptions-Achse unterscheidet L. plantarum 299v von allen anderen Probiotika-Stämmen im Index.\n\nReizdarm-Stamm mit Eisen-Bonus. Die zweite Indikation kennt kein Gastroenterologe.",
       quellen: ["Niedzielin 2001", "Hoppe 2017"],
+      nahrungsquellen: "Sauerkraut, Kimchi, fermentiertes Gemüse",
       related_article: null,
     },
     {
@@ -1758,6 +1834,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Klinisches Probiotikum für Babys und Erwachsene. L. reuteri gegen Koliken, für gesunde Zähne und Knochengesundheit.",
       wirkung: "L. reuteri DSM 17938 hat die breiteste klinische Evidenzbasis aller Probiotika im Säuglingsalter. Eine Metaanalyse zeigt signifikante Reduktion der Schreizeiten bei Säuglingskoliken um über fünfzig Minuten pro Tag.\n\nBei Erwachsenen produziert der Stamm Reuterin, ein antimikrobielles Breitband-Metabolit, das Helicobacter pylori in vitro hemmt. Eine Vergleichsstudie zeigt unter L. reuteri-Supplementierung verbesserte Helicobacter-Eradikationsraten bei Dreifachtherapie. Bei postmenopausalen Frauen reduziert ein verwandter Stamm (ATCC PTA 6475) den Knochenmineralverlust nachweislich über zwölf Monate.\n\nKoliken, Helicobacter, Knochen. Drei Indikationen, pharmakologisch nichts miteinander zu tun, verpackt in einer Kapsel.",
       quellen: ["Savino 2010", "Nilsson 2018"],
+      nahrungsquellen: "Sauerkraut, Kokosjoghurt, Sojajoghurt",
       related_article: null,
     },
     {
@@ -1770,6 +1847,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Das meistuntersuchte Probiotikum der Welt. LGG für Immunsystem, Darm und Kinder, mit über 1500 Publikationen.",
       wirkung: "LGG ist mit über 1500 Publikationen der am besten belegte Probiotika-Stamm der Welt. Das ist kein Marketing-Claim, das ist PubMed.\n\nBei akuter Gastroenteritis im Kindesalter reduziert LGG die Durchfalldauer um einen Tag und die Hospitalisierungsdauer klinisch relevant. Bei antibiotikaassoziierter Diarrhö senkt es die Inzidenz um etwa die Hälfte. Bei atopischer Dermatitis zeigt pränatale und postnatale Gabe eine robuste Reduktion der Ekzem-Inzidenz bei Hochrisikokindern über vier Jahre.\n\nDer Weg führt über Pili-vermittelte Adhäsion an die Darmmukosa, Produktion von Bacteriocinen gegen Pathogene und Modulation der dendritischen Zellen im GALT. LGG überlebt die Magenpassage besser als die meisten Lactobacillen, weil die Pilusstruktur die Adhäsion auch unter Säurestress erhält.\n\nTausend Studien stehen im selben Regal wie null Studien. Das Etikett unterscheidet nicht.",
       quellen: ["Szajewska 2013", "Kalliomäki 2001"],
+      nahrungsquellen: "Sauerkraut, Kombucha, fermentiertes Gemüse",
       related_article: null,
     },
     {
@@ -1806,6 +1884,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliches Zitrusöl für Verdauung und Stimmung. D-Limonen als magenfreundliches Terpen und ätherisches Öl.",
       wirkung: "D-Limonen ist das Monoterpen, das Zitrusschalen ihren Geruch gibt. Neunzig Prozent des ätherischen Öls der Orangenschale sind D-Limonen. In der Küche ein Aroma, in der Pharmakologie ein Phase-I- und Phase-II-Enzyminduktor.\n\nKlinisch zeigt eine offene Studie bei gastroösophagealem Reflux nach 1000 mg D-Limonen täglich über zwei Wochen vollständige oder partielle Symptomremission bei 89 Prozent der Teilnehmer. Der Mechanismus ist eine Beschichtung der Ösophagusschleimhaut durch das Terpen, die den Säurekontakt reduziert. In Tiermodellen hemmt D-Limonen die Tumorentstehung in Brust, Leber und Magen über Induktion der Apoptose und Hemmung der Ras-Signalkaskade.\n\nAls Lösungsmittel in Reinigungsmitteln und als Aromastoff in der Lebensmittelindustrie weltweit im Tonnmaßstab verarbeitet. Die Lebensmittelindustrie verwendet eine Substanz mit Antitumordaten als Geschmackszusatz.\n\nKrebsforschungsdaten und Reflux-Evidenz. Das Molekül endet als Putzmittel-Duftstoff.",
       quellen: ["Sun 2007", "Wilkins 2002"],
+      nahrungsquellen: "Orangenschale, Zitronenschale, Grapefruitschale",
       related_article: null,
     },
     {
@@ -1841,6 +1920,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Augenvitamine für Makula und Sehkraft. Lutein und Zeaxanthin als natürlicher Blaulichtfilter und Schutz vor altersbedingter Makuladegeneration.",
       wirkung: "Lutein und Zeaxanthin sind die einzigen Carotinoide, die sich in der Makula anreichern. Dort bilden sie das Makulapigment, einen optischen Filter, der kurzwelliges blaues Licht absorbiert und die Photorezeptoren vor oxidativem Stress schützt.\n\nDie AREDS2-Studie mit über viertausend Teilnehmern zeigt, dass Lutein plus Zeaxanthin das Progressionsrisiko der altersbedingten Makuladegeneration senkt, mit dem stärksten Effekt bei Personen mit niedrigem diätetischem Lutein-Intake. Die Substanzen ersetzen Beta-Carotin in der aktualisierten AREDS-Formel, weil Beta-Carotin bei Rauchern Lungenkrebs fördert.\n\nJenseits des Auges zeigen Observationsstudien inverse Assoziationen zwischen Lutein-Intake und kognitivem Abbau. Lutein reichert sich im Gehirn an, die Funktion dort ist noch nicht verstanden.\n\nZwei Carotinoide, die das Auge vor dem schützen, was Bildschirme emittieren. In einer Bevölkerung, die acht Stunden täglich auf Bildschirme schaut.",
       quellen: ["AREDS2 2013", "Johnson 2012"],
+      nahrungsquellen: "Grünkohl, Spinat, Mais",
       related_article: null,
     },
     {
@@ -1852,6 +1932,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Rotes Antioxidans aus Tomaten für Prostata und Herzschutz. Lycopin als natürlicher Zellschutz, besonders konzentriert in Tomatenmark.",
       wirkung: "Lycopin ist das Carotinoid, das Tomaten rot macht. Es hat keine Vitamin-A-Aktivität, dafür die höchste Singulett-Sauerstoff-Löschkapazität aller Carotinoide, doppelt so hoch wie Beta-Carotin.\n\nEpidemiologisch korreliert hoher Lycopin-Konsum in der Health Professionals Follow-up Study mit nachweislich reduziertem Prostatakrebsrisiko, mit dem stärksten Effekt bei aggressiven Tumoren. Der Weg führt über Hemmung der IGF-1-Signalkaskade und über Induktion von Apoptose in Prostatakrebszellen. Bei kardiovaskulärem Risiko zeigen Metaanalysen inverse Assoziationen zwischen Lycopin-Serumspiegel und Schlaganfallrisiko.\n\nDie Bioverfügbarkeit steigt durch Erhitzen und Fettzugabe drastisch. Tomatenmark mit Olivenöl liefert zehnfach mehr bioverfügbares Lycopin als rohe Tomaten. Kochen zerstört hier den Wirkstoff nicht, sondern befreit ihn aus der Zellmatrix.\n\nDas einzige Carotinoid, das durch Kochen besser wird.",
       quellen: ["Giovannucci 2002", "Li 2014"],
+      nahrungsquellen: "Tomatenmark, Wassermelone, rote Grapefruit",
       related_article: null,
     },
     {
@@ -1887,6 +1968,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Der Mineralstoff für Muskeln, Nerven und Schlaf. Magnesium als tägliche Basis-Supplementierung für Entspannung und Leistungsfähigkeit.",
       wirkung: "Magnesium ist Cofaktor in über dreihundert enzymatischen Reaktionen. ATP existiert im Körper als Magnesium-ATP-Komplex, ohne Magnesium ist die zelluläre Energiewährung nicht handelbar. Etwa fünfzig Prozent der erwachsenen Bevölkerung westlicher Länder liegt unter der empfohlenen Tageszufuhr.\n\nDie Form entscheidet. Magnesiumcitrat hat hohe Bioverfügbarkeit und mild laxierende Wirkung. Magnesiumglycinat kombiniert Magnesium mit der schlaffördernden Aminosäure Glycin und eignet sich für abendliche Einnahme. Magnesiumthreonat passiert als einzige Form die Blut-Hirn-Schranke effizient und zeigt in einer Tierstudie reversal von altersbedingtem kognitivem Abbau. Magnesiumoxid hat die niedrigste Bioverfügbarkeit und die höchste laxierende Wirkung, es ist die billigste und schlechteste Form auf dem Markt.\n\nBei Migräne reduziert 600 mg Magnesiumcitrat täglich die Anfallshäufigkeit um über vierzig Prozent. Bei Präeklampsie ist intravenöses Magnesiumsulfat lebensrettend. Bei Depression zeigt eine aktuelle Studie Effekte vergleichbar mit SSRIs.\n\nKein anderes Mineral hat ein solches Missverhältnis zwischen Verbreitung des Mangels und Bekanntheit des Problems.",
       quellen: ["Rosanoff 2012", "Mauskop 2012", "Tarleton 2017"],
+      nahrungsquellen: "Kürbiskerne, Cashews, Spinat",
       related_article: null,
     },
     {
@@ -1922,6 +2004,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Spurenelement für Knochen, Knorpel und Bindegewebe. Mangan für Enzymaktivität und antioxidativen Schutz.",
       wirkung: "Mangan ist Cofaktor der Mangan-Superoxiddismutase, des wichtigsten mitochondrialen Antioxidans, und der Arginase im Harnstoffzyklus. Ohne Mangan funktioniert weder die mitochondriale Radikalabwehr noch die Ammoniakentgiftung.\n\nKlinischer Mangel ist bei normaler Ernährung selten. Nüsse, Vollkornprodukte und Tee liefern ausreichend. Supplementierung ohne dokumentiertes Defizit ist nicht indiziert. Überdosierung ist neurotoxisch, chronische Mangan-Exposition verursacht Manganismus, ein parkinsonähnliches Syndrom bei Schweißern und Bergarbeitern.\n\nMangan ist das Spurenelement, bei dem der Bedarf klein und die Toxizität real ist. Der Supplementmarkt ignoriert die zweite Hälfte.",
       quellen: ["Aschner 2005"],
+      nahrungsquellen: "Haferflocken, Haselnüsse, Vollkornreis",
       related_article: null,
     },
     {
@@ -1958,6 +2041,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Reines mittelkettiges Triglycerid für schnelle Energie und Ketose. MCT-Öl als Biohacker-Brennstoff im Bulletproof Coffee.",
       wirkung: "MCT steht für Medium-Chain Triglycerides, Fettsäuren mit sechs bis zwölf Kohlenstoffatomen, die anders metabolisiert werden als langkettige Fette. Sie brauchen keine Gallensäuren zur Emulgierung und keinen Carnitin-Shuttle für den mitochondrialen Import. Der Weg von der Darmzotte zur hepatischen Ketonkörperproduktion ist kurz.\n\nBei Epilepsie ergänzt MCT-Öl die ketogene Diät, weil es Ketose auch bei höherem Kohlenhydratanteil in der Ernährung aufrechterhält. Bei Alzheimer-Demenz zeigt eine RCT unter MCT-Gabe verbesserte kognitive Leistung bei APOE4-negativen Patienten, vermittelt über zerebrale Ketonkörperverwertung als alternative Energiequelle zum gestörten Glukosemetabolismus.\n\nCaprylsäure (C8) ist die pharmakologisch potenteste MCT-Fraktion, produziert die höchsten Ketonspiegel und verursacht die geringsten gastrointestinalen Nebenwirkungen. Laurinsäure (C12) verhält sich metabolisch eher wie ein langkettiges Fett und ist in MCT-Billigprodukten dominant.\n\nC8 ist MCT-Öl. C12 ist Marketing.",
       quellen: ["Reger 2004", "Neal 2009"],
+      nahrungsquellen: "Kokosöl, Palmkernöl, Kakaobutter",
       related_article: null,
     },
     {
@@ -1969,6 +2053,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Das Schlafhormon für schnelles Einschlafen und Jetlag. Melatonin als natürliches Einschlafmittel, rezeptfrei und nebenwirkungsarm.",
       wirkung: "Melatonin taktet den Schlaf, es erzwingt ihn nicht. Die Zirbeldrüse setzt es bei Dunkelheit frei und signalisiert dem Körper damit den Beginn der Nachtphase. Wer Melatonin am falschen Zeitpunkt nimmt, verschiebt den circadianen Rhythmus statt ihn zu stützen.\n\nBei Jetlag ist Melatonin wirksam, wenn es zum lokalen Abendzeitpunkt eingenommen wird. Bei chronischer Insomnie zeigen Metaanalysen eine Verkürzung der Einschlaflatenz um durchschnittlich sieben Minuten. Sieben Minuten. Das steht auf keinem Etikett, das »natürliches Einschlafmittel« verspricht.\n\nPharmakologisch ist Melatonin deutlich mehr als ein Schlafregulator. Es ist ein potentes Antioxidans, das die Blut-Hirn-Schranke passiert, die mitochondriale Funktion schützt und in onkologischen Studien die Chemotherapie-Verträglichkeit verbessert. Die Dosen in diesen Studien liegen bei zwanzig bis einhundert Milligramm, weit über den üblichen 0,5 bis fünf Milligramm der Schlafprodukte.\n\nDas Schlafhormon schläft nicht. Es taktet, schützt und moduliert. Die Werbung kennt nur eine seiner Funktionen.",
       quellen: ["Buscemi 2006", "Reiter 2017"],
+      nahrungsquellen: "Sauerkirschen, Pistazien, Walnüsse",
       related_article: null,
     },
     {
@@ -1993,6 +2078,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Kühlendes Minzöl für Atemwege, Muskeln und Kopfschmerzen. Menthol als natürlicher Frischekick in Bonbons, Salben und Inhalatoren.",
       wirkung: "Menthol aktiviert den TRPM8-Kälterezeptor bei Raumtemperatur. Die Empfindung von Kühle ist ein neuronaler Trick, kein Temperaturabfall. Dieselben Nervenfasern, die bei acht Grad feuern, feuern unter Menthol bei 25 Grad. Das Gehirn kann die beiden nicht unterscheiden.\n\nTopisch angewendet zeigt zehnprozentiges Mentholöl in einer kontrollierten Studie Wirksamkeit gegen Spannungskopfschmerz vergleichbar mit einem Gramm Paracetamol. Die Wirkung läuft über kutane Vasokonstriktion und Aktivierung von Kappa-Opioidrezeptoren in der Haut. Bei Reizdarmsyndrom entspannt Pfefferminzöl in enterisch beschichteten Kapseln die glatte Darmmuskulatur über Calciumkanal-Blockade.\n\nIn der Sportmedizin verbessert Menthol-Inhalation die wahrgenommene Atemleistung ohne Veränderung der Sauerstoffaufnahme. Das Gehirn glaubt, besser zu atmen, weil die Nase kühler fühlt. Leistungssteigerung durch sensorische Täuschung.\n\nKälte simulieren, Kopfschmerz lindern, das Gehirn über die Atemleistung belügen. Alles mit einem Molekül.",
       quellen: ["Göbel 1996", "Eccles 2003"],
+      nahrungsquellen: "Pfefferminze, Krauseminze, Pfefferminztee",
       related_article: null,
     },
     {
@@ -2015,6 +2101,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Spurenelement für Entgiftung und Enzymfunktion. Molybdän für Sulfitabbau und Harnsäurestoffwechsel.",
       wirkung: "Molybdän ist Cofaktor der Sulfitoxidase, die toxisches Sulfit zu Sulfat oxidiert, der Xanthinoxidase im Purinstoffwechsel und der Aldehydoxidase in der Xenobiotika-Entgiftung. Ohne Molybdän akkumuliert Sulfit in toxischen Konzentrationen.\n\nKlinischer Mangel ist bei normaler Ernährung extrem selten. Der einzige dokumentierte Fall einer Molybdän-Defizienz bei oraler Ernährung betrifft einen Patienten unter langjähriger parenteraler Nutrition. Hülsenfrüchte und Getreide liefern mehr als genug.\n\nDas Supplement-Marketing verkauft Molybdän als Entgiftungsmineral und Candida-Helfer. Die Candida-Theorie stützt sich auf die Idee, dass Molybdän Acetaldehyd aus Candida-Metabolismus abbaut. Die Evidenz dafür besteht aus Anekdoten.\n\nMangel kommt in der Praxis nicht vor. Das Supplement wird gegen eine Diagnose verkauft, die so nicht existiert.",
       quellen: ["Rajagopalan 1988"],
+      nahrungsquellen: "Hülsenfrüchte, Linsen, Haferflocken",
       related_article: null,
     },
     {
@@ -2051,6 +2138,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Organischer Schwefel für Gelenke und Haut. MSM als natürliche Schwefelquelle gegen Gelenkschmerzen und Entzündungen.",
       wirkung: "MSM liefert biologisch verfügbaren Schwefel, ein Element, das für die Synthese von Glutathion, Methionin, Taurin und Kollagen essentiell ist. Der Körper braucht Schwefel, die Frage ist, ob MSM-Supplementierung bei normaler Ernährung einen Mangel adressiert.\n\nBei Knie-Arthrose zeigt eine Vergleichsstudie unter drei Gramm MSM täglich über zwölf Wochen nachweisliche Reduktion von Schmerz und Steifigkeit. Die Kombination mit Glucosamin verstärkt den Effekt. Die Effektgrößen sind moderat, die Studien überwiegend klein.\n\nDer Schwefel-Mangel-Narrative des MSM-Marketings ist nicht durch Ernährungserhebungen gestützt. Methionin aus Protein und Sulforaphan aus Kreuzblütlern liefern Schwefel in ausreichender Menge bei normaler Mischkost.\n\nSchwefel für Gelenke, die ihn möglicherweise nicht brauchen. Die Arthrose-Daten sind real, die Mangel-Behauptung nicht.",
       quellen: ["Kim 2006", "Debbi 2011"],
+      nahrungsquellen: "Tomaten, Kaffee, Tee",
       related_article: null,
     },
     {
@@ -2075,6 +2163,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher Zuckeralkohol für Hormonbalance und Psyche. Inositol bei PCOS, Angststörungen und Insulinresistenz.",
       wirkung: "Myo-Inositol ist ein Second Messenger im Insulin-Signalweg und in der Phosphoinositid-Kaskade. Bei polyzystischem Ovarsyndrom verbessert Inositol-Supplementierung die Insulinsensitivität, senkt Androgen-Spiegel und restauriert die Ovulation in kontrollierten Studien klinisch relevant. Vier Gramm täglich sind die evidenzbasierte Dosis, oft kombiniert mit D-Chiro-Inositol im Verhältnis vierzig zu eins.\n\nIn der Psychiatrie zeigen Studien unter zwölf bis achtzehn Gramm täglich anxiolytische Wirkung bei Panikstörung und Zwangsstörung, mit Effektgrößen vergleichbar mit SSRIs. Vermittelt wird das über Resensitivierung der Serotonin-Rezeptoren, die beim Inositol-Signal nachgeschaltet sind.\n\nBei Gestationsdiabetes reduziert Myo-Inositol die Inzidenz deutlich, wenn es ab dem ersten Trimester supplementiert wird. Dieses Ergebnis wird in keiner Schwangerschafts-Leitlinie zitiert.\n\nOvulation bei PCOS, Remission bei Panik, Prävention bei Gestationsdiabetes. Drei Indikationen, null Leitlinieneinträge, vier Euro pro Monat.",
       quellen: ["Unfer 2017", "Benjamin 1995"],
+      nahrungsquellen: "Zitrusfrüchte, Bohnen, Vollkorngetreide",
       related_article: null,
     },
     {
@@ -2099,6 +2188,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Acetylierte Aminosäure für Fokus und Stressresistenz. NALT als Dopamin-Vorläufer für mentale Klarheit unter Belastung.",
       wirkung: "NALT ist die acetylierte Form von L-Tyrosin, die als Dopamin- und Noradrenalin-Vorläufer vermarktet wird. Die Acetylierung sollte die Bioverfügbarkeit erhöhen. Pharmakokinetische Daten zeigen das Gegenteil. NALT wird renal ausgeschieden, bevor es deacetyliert und als Tyrosin verfügbar wird. Die Plasmaspiegel liegen unter denen von einfachem L-Tyrosin.\n\nL-Tyrosin selbst hat konsistente Daten bei akutem Stress. Militärische Studien zeigen unter Schlafentzug und Kälteexposition verbesserte kognitive Leistung und reduzierte Stressreaktion. Die Wirkung läuft über die Auffüllung katecholaminerger Vorräte, die unter Stress schneller verbraucht werden.\n\nNALT verkauft sich als Premium-Tyrosin. L-Tyrosin ist die wirksame Form. Die Acetylierung ist pharmakologisch ein Nachteil, kein Vorteil.",
       quellen: ["Magnusson 1989"],
+      nahrungsquellen: "Sojabohnen, Mandeln, Kürbiskerne",
       related_article: null,
     },
     {
@@ -2111,6 +2201,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Starkes Antioxidans und Schleimlöser. NAC als Glutathion-Vorläufer für Leber, Lunge und Entgiftung.",
       wirkung: "NAC ist das Antidot bei Paracetamol-Vergiftung. In der Notaufnahme rettet es die Leber, indem es die Glutathion-Speicher schneller auffüllt, als das Toxin sie leert. Das ist die erste Indikation, und sie ist lebensrettend.\n\nAls Glutathion-Vorläufer liefert NAC die limitierende Aminosäure Cystein in einer Form, die die Magenpassage übersteht. Chronische Einnahme erhöht den intrazellulären Glutathion-Spiegel, den zentralen antioxidativen Puffer des Körpers. Bei COPD und Mukoviszidose löst es Schleim über Spaltung von Disulfidbrücken in Muzin. In der Psychiatrie reduziert es Zwangssymptome, Trichotillomanie und Substanzverlangen über Glutamat-Modulation im Nucleus accumbens.\n\nDie pharmakologische Breite ist ungewöhnlich. Leber, Lunge, Gehirn, Immunsystem, Entgiftung, alles mit demselben Mechanismus. Cystein rein, Glutathion rauf, oxidativer Stress runter.\n\nEine Substanz, die in der Notaufnahme Leben rettet und im Supplement-Regal als Erkältungsmittel steht.",
       quellen: ["Heard 2008", "Dean 2011"],
+      nahrungsquellen: "Knoblauch, Brokkoli, Zwiebeln",
       related_article: null,
     },
     {
@@ -2124,6 +2215,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Anti-Aging-Molekül für zelluläre Verjüngung. NMN als direkter NAD+-Vorläufer, das Longevity-Supplement von David Sinclair.",
       wirkung: "NAD+ ist der zentrale Redox-Cofaktor in jeder Zelle. Ohne NAD+ stoppt die Glykolyse, der Krebs-Zyklus und die mitochondriale Atmungskette. Die Spiegel sinken mit dem Alter um vierzig bis sechzig Prozent. Sirtuine, die Langlebigkeitsenzyme, brauchen NAD+ als Substrat, ebenso PARP-Enzyme für die DNA-Reparatur.\n\nNMN ist die direkte Vorstufe. In Tiermodellen kehrt NMN-Supplementierung altersbedingte Gefäßdysfunktion um, verbessert die Insulinsensitivität und restauriert die mitochondriale Funktion in gealterten Mäusen. Die erste große Humanstudie zeigt unter 250 mg NMN täglich signifikante Verbesserung der aeroben Kapazität bei trainierten Läufern.\n\nDie Alternative NR (Nicotinamid-Ribosid) konkurriert als NAD+-Vorläufer. Beide werden in NAD+ umgewandelt, über unterschiedliche Enzyme. NMN nutzt NRK1/2 oder den neuentdeckten SLC12A8-Transporter. NR nutzt ausschließlich NRK1/2. Die klinische Überlegenheit einer der beiden Formen ist nicht bewiesen.\n\nDas Anti-Aging-Molekül hat Mausdaten, erste Humandaten und ein Marketing, das beides nicht unterscheidet.",
       quellen: ["Yoshino 2011", "Liao 2021"],
+      nahrungsquellen: "Avocado, Brokkoli, Edamame",
       related_article: null,
     },
     {
@@ -2135,6 +2227,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Fibrinolytisches Enzym aus japanischem Natto. Nattokinase für gesunde Blutgerinnung und Gefäßschutz.",
       wirkung: "Nattokinase ist eine Serinprotease aus fermentiertem Soja, die Fibrin direkt abbaut. Das unterscheidet sie von Blutverdünnern wie Aspirin oder Warfarin, die die Gerinnungskaskade hemmen, ohne vorhandene Thromben aufzulösen. Nattokinase löst Thromben auf. Das ist pharmakologisch eine andere Kategorie.\n\nVergleichsstudien belegen robuste Senkung des systolischen und diastolischen Blutdrucks, Reduktion von Fibrinogen und D-Dimer-Werten im Blut und verbesserte Blutfließeigenschaften. Eine japanische Studie dokumentiert nach acht Wochen Nattokinase messbare Reduktion der Carotis-Intima-Media-Dicke, ein Surrogatmarker für Atherosklerose.\n\nDie fibrinolytische Aktivität wird in Fibrinolyse-Einheiten (FU) gemessen, therapeutisch relevant sind 2000 bis 4000 FU täglich. Die Substanz potenziert die Wirkung von Antikoagulantien, eine Kombination mit Warfarin oder DOAKs ist kontraindiziert.\n\nEin Enzym aus fermentiertem Soja, das Blutgerinnsel auflöst. In Japan Alltag, in Europa unbekannt.",
       quellen: ["Kim 2008", "Ren 2017"],
+      nahrungsquellen: "Natto (fermentierte Sojabohnen)",
       related_article: null,
     },
     {
@@ -2147,6 +2240,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Vitamin B3 für Energiestoffwechsel und Hautzellgesundheit. Niacin und Nicotinamid als Basisvitamin in jeder B-Komplex-Formel.",
       wirkung: "Vitamin B3 existiert in drei Formen mit unterschiedlicher Pharmakologie. Niacin (Nicotinsäure) senkt LDL und Triglyceride und hebt HDL stärker als jedes Statin, verursacht aber den Flush, eine Prostaglandin-vermittelte Hautrötung, die viele Anwender abschreckt. Nicotinamid (Niacinamid) hat keine Lipidwirkung, schützt aber die Hautzelle vor UV-Schäden und reduziert in einer australischen Studie die Inzidenz nicht-melanozytärer Hautkrebs-Rezidive um dreiundzwanzig Prozent.\n\nBeide Formen werden zu NAD+ metabolisiert, aber über unterschiedliche Wege. Hochdosiertes Nicotinamid hemmt Sirtuine, die NAD+-abhängige Langlebigkeitsenzyme. Wer Nicotinamid als NAD+-Booster nimmt, sabotiert möglicherweise den Signalweg, den er aktivieren wollte.\n\nDie Pellagra, der klassische B3-Mangel mit Dermatitis, Diarrhö und Demenz, ist in westlichen Ländern selten. Subklinischer Mangel bei Alkoholismus und Malabsorption bleibt unterdiagnostiziert.\n\nDrei Formen, drei Profile, ein Vitaminname. Das Etikett differenziert nicht.",
       quellen: ["Chen 2015", "Bogan 2008"],
+      nahrungsquellen: "Erdnüsse, Pilze, Hülsenfrüchte",
       related_article: null,
     },
     {
@@ -2170,6 +2264,7 @@ window.SUBSTANCES_DATA = {
       werbung: "NAD+-Booster für zelluläre Energie und Anti-Aging. NR als patentierte Longevity-Substanz, unter dem Markennamen Niagen bekannt.",
       wirkung: "NR ist ein NAD+-Vorläufer, der über Nicotinamid-Ribosid-Kinasen (NRK1/2) in NMN und dann in NAD+ umgewandelt wird. Es konkurriert mit NMN um denselben Endpunkt, nutzt aber einen anderen Einstiegspunkt in die Biosynthese.\n\nEine RCT zeigt nach sechs Wochen 1000 mg NR täglich einen nachweislichen Anstieg der NAD+-Spiegel im Blut um sechzig Prozent bei gesunden älteren Erwachsenen. Ob dieser Anstieg klinisch relevante Endpunkte verbessert, ist weniger klar. Die meisten Humanstudien messen Surrogatmarker, keine Funktionsparameter.\n\nNR hat gegenüber NMN den Vorteil der längeren Forschungsgeschichte und des patentierten Markenstatus (Niagen, ChromaDex). NMN hat den Vorteil der direkteren Konversion und der größeren medialen Aufmerksamkeit durch David Sinclair. Die klinische Überlegenheit einer der beiden Formen ist nicht belegt.\n\nZwei Substanzen, ein Ziel, keine Antwort auf die Frage, welche besser ist.",
       quellen: ["Martens 2018", "Trammell 2016"],
+      nahrungsquellen: "Bierhefe, Edamame, Brokkoli",
       related_article: null,
     },
     {
@@ -2195,6 +2290,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielle Fettsäuren für Herz, Gehirn und Entzündungsschutz. Omega-3 aus Fischöl oder Algenöl, das wichtigste Supplement der Welt.",
       wirkung: "EPA und DHA sind die beiden langkettigen Omega-3-Fettsäuren, die der Körper braucht und kaum selbst herstellt. DHA macht zwanzig Prozent der Fettsäuren im Gehirn und fünfzig Prozent in der Retina aus. Wer kein DHA hat, baut kein Gehirn und sieht schlecht. Das ist Strukturbiochemie, kein Supplement-Marketing.\n\nDie REDUCE-IT-Studie zeigt unter vier Gramm EPA täglich eine Reduktion kardiovaskulärer Ereignisse um fünfundzwanzig Prozent bei Hochrisikopatienten. Psychiatrisch reduziert EPA in Metaanalysen depressive Symptome mit Effektgrößen vergleichbar zu Antidepressiva. Bei rheumatoider Arthritis senken drei Gramm täglich Gelenkschmerzen und Morgensteifigkeit. In der Schwangerschaft ist DHA-Supplementierung mit reduziertem Frühgeburtsrisiko assoziiert.\n\nDas Omega-6-zu-Omega-3-Verhältnis in der westlichen Ernährung liegt bei fünfzehn zu eins bis zwanzig zu eins. Evolutionär lag es bei eins zu eins bis drei zu eins. Die Entzündungslast moderner Gesellschaften hat eine Fettsäure-Signatur, die niemand auf dem Etikett liest.\n\nDer häufigste Nährstoffmangel der westlichen Welt ist unsichtbar, weil ihn niemand misst.",
       quellen: ["Bhatt 2019", "Hu 2019", "Middleton 2018"],
+      nahrungsquellen: "Algenöl, Leinsamen, Walnüsse (Leinsamen/Walnüsse liefern ALA; Konversion zu EPA/DHA begrenzt)",
       related_article: null,
     },
     {
@@ -2207,6 +2303,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Stärkstes pflanzliches Antioxidans aus Traubenkernen. OPC für Gefäße, Haut und Anti-Aging, der geheime Wirkstoff im Rotwein.",
       wirkung: "OPC sind Oligomere aus Catechin- und Epicatechin-Einheiten, konzentriert in Traubenkernen, Kiefernrinde und Kakao. Ihre antioxidative Kapazität in vitro übertrifft Vitamin C um den Faktor zwanzig und Vitamin E um den Faktor fünfzig. Im Körper schrumpfen diese Zahlen, aber die Gefäßwirkung bleibt.\n\nVergleichsstudien zeigen unter Traubenkernextrakt signifikante Senkung des systolischen Blutdrucks und Verbesserung der Endothelfunktion. Der Mechanismus läuft über Stimulation der endothelialen NO-Synthase und Hemmung des Angiotensin-Converting-Enzyms. Bei chronisch-venöser Insuffizienz reduziert OPC Beinödeme vergleichbar mit Kompressionsstrümpfen.\n\nOPC stabilisieren Kollagen durch Crosslinking-Hemmung und schützen Elastin vor enzymatischem Abbau. Das ist die pharmakologische Basis für die Haut- und Gefäßeffekte und der Grund, warum Masquelier das Patent für OPC aus Kiefernrinde als Gefäßschutzmittel erhielt.\n\nDas Antioxidans im Traubenkern schützt Gefäße über einen ACE-Hemmer-Mechanismus, den kein Etikett erwähnt.",
       quellen: ["Schini-Kerth 2010", "Belcaro 2013"],
+      nahrungsquellen: "Traubenkerne, Heidelbeeren, dunkle Schokolade",
       related_article: null,
     },
     {
@@ -2243,6 +2340,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürlicher Ballaststoff aus Äpfeln und Zitrusfrüchten. Pektin für Verdauung, Cholesterin und Schwermetall-Ausleitung.",
       wirkung: "Pektin ist ein löslicher Ballaststoff mit nachgewiesener LDL-senkender Wirkung über Gallensäurebindung. Das ist konventionell und solide.\n\nModified Citrus Pectin (MCP) ist pharmakologisch etwas anderes. Die kürzere Kettenlänge ermöglicht Absorption ins Blut, wo MCP Galectin-3 bindet, ein Lektin, das Tumorzellen bei der Metastasierung als Adhäsionsmolekül nutzen. In einer Pilotstudie bei Prostatakrebspatienten verlangsamt MCP den PSA-Anstieg. In einer kontrollierten Studie bei Kindern mit Bleiexposition senkt MCP den Blut-Bleispiegel klinisch relevant, ein Chelations-Effekt über Galectin-3-unabhängige Bindung.\n\nStandard-Pektin senkt Cholesterin. Modified Citrus Pectin hemmt Metastasen und cheliert Blei. Modifiziertes Citruspektin bindet Galectin-3 und verlangsamt Metastasen im Tiermodell. Normales Apfelpektin macht Marmelade fest. Beides heißt Pektin.",
       quellen: ["Eliaz 2006", "Zhao 2008"],
+      nahrungsquellen: "Äpfel, Zitrusschalen, Quitten",
       related_article: null,
     },
     {
@@ -2268,6 +2366,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Erfrischendes Naturöl für Verdauung und Atemwege. Pfefferminzöl als Hausmittel bei Kopfschmerzen, Blähungen und Erkältung.",
       wirkung: "Pfefferminzöl in enterisch beschichteten Kapseln ist bei Reizdarmsyndrom eines der am besten belegten Phytotherapeutika überhaupt. Eine Metaanalyse über zwölf RCTs zeigt robuste Reduktion von Bauchschmerzen, Blähungen und Stuhlfrequenz, mit einer Number Needed to Treat von drei. Das bedeutet, jeder dritte Patient profitiert messbar.\n\nVermittelt wird das über Calciumkanal-Blockade an der glatten Darmmuskulatur. Das ist derselbe Wirkprinzip wie bei Spasmolytika vom Typ Otilonium und Mebeverin, nur pflanzlich und ohne Rezept. Die enterische Beschichtung ist entscheidend, weil ungeschütztes Pfefferminzöl den unteren Ösophagussphinkter entspannt und Sodbrennen auslöst.\n\nTopisch wirkt zehnprozentiges Pfefferminzöl auf der Stirn gegen Spannungskopfschmerz vergleichbar mit Paracetamol. Die NNT von drei beim Reizdarm und die Kopfschmerz-Daten zusammengenommen machen Pfefferminzöl zu einem der wirksamsten frei verkäuflichen Phytopharmaka Europas.\n\nEin Phytopharmakon mit einer NNT von drei wird als Erkältungsbonbon verkauft.",
       quellen: ["Khanna 2014", "Göbel 1996"],
+      nahrungsquellen: "Pfefferminze (Tee), Pfefferminzblätter (frisch), Krauseminze",
       related_article: null,
     },
     {
@@ -2303,6 +2402,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Sanftes lösliches Präbiotikum für empfindliche Bäuche. PHGG als FODMAP-freundlicher Ballaststoff, ideal bei Reizdarm.",
       wirkung: "PHGG ist enzymatisch aufgespaltenes Guarkernmehl mit einer Molekülgröße, die die langsame Fermentation im gesamten Kolon sichert. Im Unterschied zu Inulin und FOS verursacht PHGG deutlich weniger Gasbildung, weil die Fermentationskinetik über die gesamte Kolonlänge verteilt ist.\n\nBei IBS-Patienten zeigt eine Vergleichsstudie nach vier Wochen PHGG messbare Reduktion von Blähungen und Bauchschmerzen, bei gleichzeitiger Normalisierung der Stuhlkonsistenz sowohl bei Obstipation als auch bei Diarrhö. Der bidirektionale Effekt auf die Stuhlfrequenz unterscheidet PHGG von den meisten anderen Ballaststoffen.\n\nBei SIBO reduziert PHGG in Kombination mit Rifaximin die Methan- und Wasserstoff-Atemtestwerte stärker als Rifaximin allein. Die Substanz potenziert das Antibiotikum, anstatt es zu ersetzen.\n\nDer verträglichste Ballaststoff im Index ist gleichzeitig der unbekannteste.",
       quellen: ["Rao 2015", "Furnari 2010"],
+      nahrungsquellen: "Guarbohne, Hülsenfrüchte (Spuren), verarbeitete Lebensmittel mit E412",
       related_article: null,
     },
     {
@@ -2315,6 +2415,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Zellmembran-Baustein für Leber und Gehirn. Phosphatidylcholin als natürlicher Emulgator und Cholinquelle aus Soja oder Sonnenblume.",
       wirkung: "Phosphatidylcholin ist der häufigste Phospholipid-Baustein jeder Zellmembran im menschlichen Körper. Die Leber braucht es für den VLDL-Export, ohne den sich Fett in den Hepatozyten ansammelt. Cholinmangel führt innerhalb von Wochen zu hepatischer Steatose, das ist in kontrollierten Depletionstudien am Menschen gemessen.\n\nPC liefert Cholin für die Acetylcholin-Synthese, aber langsamer und indirekter als Citicolin oder Alpha-GPC. Als Cholinquelle für das Gehirn ist es die schwächste der drei Formen. Als Membranreparatur-Substanz für die Leber ist es die einzig relevante.\n\nIn der Gastroenterologie schützt PC die Kolonmukosa. Bei Colitis ulcerosa zeigt eine RCT unter retardiertem PC deutliche Reduktion der Krankheitsaktivität, vermutlich über Wiederherstellung der Muzin-Phospholipid-Schicht, die bei Colitis-Patienten pathologisch ausgedünnt ist.\n\nIm Regal steht es als Lecithin-Granulat neben den Backzutaten. Die Leber weiß nicht, dass es kein Medikament ist.",
       quellen: ["Stremmel 2005", "Zeisel 2007"],
+      nahrungsquellen: "Sojabohnen, Sonnenblumenkerne, Erdnüsse",
       related_article: null,
     },
     {
@@ -2327,6 +2428,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Zellmembran-Baustein für Kognition und Stressbewältigung. Phosphatidylserin für Gedächtnis, Konzentration und mentale Leistung.",
       wirkung: "Phosphatidylserin ist ein Phospholipid, das fünfzehn Prozent der Lipidmasse im menschlichen Gehirn ausmacht. Es ist Bestandteil der inneren Zellmembranschicht und an der Signaltransduktion, Neurotransmitterfreisetzung und Rezeptorfunktion beteiligt.\n\nDie FDA hat 2003 einen Qualified Health Claim für PS und kognitive Dysfunktion bei älteren Erwachsenen zugelassen. Mehrere kontrollierte Studien zeigen Verbesserungen bei Namensgedächtnis, Gesichtserkennung und Telefonnummer-Recall bei Patienten mit altersbedingter kognitiver Verschlechterung. Die Effektgrößen sind moderat, aber konsistent.\n\nBei Sportlern senkt PS den Cortisol-Anstieg nach intensivem Training signifikant. Vermittelt wird das über Modulation der HPA-Achse. Die Cortisolsenkung ist dosisabhängig, 400 bis 800 mg zeigen die stärksten Effekte.\n\nDie ursprünglichen Studien verwendeten bovines PS aus Rinderhirn. Moderne Produkte nutzen Soja-PS, das chemisch ähnlich, aber nicht identisch ist. Die klinische Äquivalenz ist nicht vollständig belegt.\n\nFDA-Claim für Kognition, Quellwechsel von Rinder zu Soja, und die Frage, ob die Daten aus dem einen Material für das andere gelten.",
       quellen: ["Crook 1991", "Monteleone 2004"],
+      nahrungsquellen: "Vegan begrenzt; Soja-Lecithin, weiße Bohnen, Reisbohnen",
       related_article: null,
     },
     {
@@ -2350,6 +2452,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Mitochondrien-Booster für neue Kraftwerke. PQQ als einzige Substanz, die die Neubildung von Mitochondrien anregt.",
       wirkung: "PQQ ist der einzige bekannte Nährstoff, der die mitochondriale Biogenese über PGC-1α-Aktivierung stimuliert. Wenn PQQ tatsächlich neue Mitochondrien baut, wäre die Substanz in einer eigenen Kategorie. Der Befund ist zellbiologisch gemessen und nicht trivial.\n\nIn einer Vergleichsstudie an gesunden Erwachsenen verbessert zwanzig Milligramm PQQ täglich über acht Wochen den Pittsburgh Sleep Quality Index signifikant und reduziert Cortisol bei Aufwachen. Bei gleichzeitiger Gabe mit CoQ10 verstärken sich die Effekte auf Entzündungsmarker und oxidativen Stress.\n\nDie Nahrungsquellen sind Natto, Petersilie und grüner Tee. Wer die japanische Mischung aus Natto und Grüntee nicht pflegt, braucht die Kapsel.\n\nDie einzige Substanz, die neue Mitochondrien baut, Der einzige bekannte Stimulus für neue Mitochondrien. Der Körper kann ihn nicht selbst herstellen.",
       quellen: ["Chowanadisai 2010", "Nakano 2012"],
+      nahrungsquellen: "Natto, Petersilie, grüner Tee",
       related_article: null,
     },
     {
@@ -2361,6 +2464,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Kurzkettige Fettsäure für Immunsystem und Stoffwechsel. Propionat als postbiotisches Supplement aus der Darmforschung.",
       wirkung: "Propionat ist die dritte der kurzkettigen Fettsäuren neben Butyrat und Acetat. Im Unterschied zu Butyrat, das lokal im Kolon wirkt, gelangt Propionat über die Pfortader zur Leber und wirkt systemisch.\n\nEine Berliner Studie zeigt, dass orale Natriumpropionat-Supplementierung bei Multiple-Sklerose-Patienten die regulatorischen T-Zellen deutlich erhöht und die Schubrate reduziert. Der Mechanismus läuft über Hemmung von Histon-Deacetylasen und epigenetische Umprogrammierung von T-Helfer-Zellen in Richtung regulatorischer Phänotypen.\n\nBei Adipositas stimuliert Propionat die GLP-1- und PYY-Freisetzung aus intestinalen L-Zellen, was Sättigung signalisiert und die Nahrungsaufnahme reduziert. Eine Vergleichsstudie zeigt nach 24 Wochen Inulin-Propionat-Ester messbar weniger Gewichtszunahme und reduziertes viszerales Fett.\n\nEine kurzkettige Fettsäure, die Multiple Sklerose beeinflusst, gehört nicht ins Supplement-Regal. Sie gehört in die Neurologie.",
       quellen: ["Duscha 2020", "Chambers 2015"],
+      nahrungsquellen: "Entsteht durch Ballaststofffermentation im Darm; Spuren in: Schwarzbrot, Sauerkraut, Vollkornprodukten",
       related_article: null,
     },
     {
@@ -2384,6 +2488,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Optimiertes Resveratrol für Anti-Aging und Zellschutz. Pterostilben aus Blaubeeren mit vierfach besserer Bioverfügbarkeit.",
       wirkung: "Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren mit der gleichen Sirtuin-aktivierenden Wirkung wie Resveratrol, aber vierfach höherer Bioverfügbarkeit. Die zwei Methylgruppen machen das Molekül lipophiler und metabolisch stabiler.\n\nIn Tiermodellen senkt Pterostilben Blutdruck, LDL-Cholesterin und Blutzucker. Die kognitive Wirkung in gealterten Ratten ist stärker als die von Resveratrol bei gleicher Dosis. Eine Humanstudie zeigt unter 250 mg täglich nachweisliche Senkung des diastolischen Blutdrucks.\n\nMolekular betrachtet aktiviert Pterostilben SIRT1 und AMPK, hemmt mTOR und moduliert PPARα. Das ist dasselbe Longevity-Signalnetzwerk, das Kalorienrestriktion anspricht. Im Unterschied zu Resveratrol erreicht Pterostilben die Zielorgane in pharmakologisch wirksamen Konzentrationen.\n\nDas bessere Resveratrol existiert, heißt Pterostilben und wird von niemandem verkauft.",
       quellen: ["Rimando 2005", "Riche 2014"],
+      nahrungsquellen: "Heidelbeeren, Trauben, Mandeln",
       related_article: null,
     },
     {
@@ -2396,6 +2501,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Patentierter Kiefernrindenextrakt für Gefäße und Haut. Pycnogenol als Premium-OPC mit über hundert klinischen Studien.",
       wirkung: "Pycnogenol ist ein standardisierter Extrakt aus der Rinde der Seekiefer Pinus pinaster mit definiertem Procyanidin-Profil. Über hundert klinische Studien machen ihn zum am besten nachgewiesenen OPC-Produkt auf dem Markt.\n\nBei chronisch-venöser Insuffizienz reduziert Pycnogenol Beinödeme und Schweregefühl deutlich. Bei Asthma senkt es den Leukotrienverbrauch und reduziert den Bedarf an Rescue-Inhalatoren. Bei Typ-2-Diabetes verbessert es die Endothelfunktion und senkt HbA1c moderat. Bei erektiler Dysfunktion zeigt die Kombination mit L-Arginin messbare Verbesserung über drei Monate.\n\nDer Unterschied zu generischem Traubenkern-OPC liegt in der Standardisierung und der Studienlage, nicht zwingend in der Überlegenheit des Wirkstoffs. Pycnogenol hat die Studien finanziert, generische OPC-Hersteller nicht. Ob die Seekiefer pharmakologisch besser ist als der Traubenkern, ist ungeklärt.\n\nHundert Studien für ein Produkt, null für die günstigere Alternative. Das ist keine Wissenschaft, das ist Marktordnung.",
       quellen: ["Rohdewald 2002", "Enseleit 2012"],
+      nahrungsquellen: "Konzentriert aus Kiefernrinde; ähnliche OPCs in Traubenkernen, Erdnusshaut, Cranberries",
       related_article: null,
     },
     {
@@ -2420,6 +2526,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Pflanzliches Flavonoid für Immunsystem und Allergie. Quercetin als natürlicher Histaminblocker und Entzündungshemmer.",
       wirkung: "Quercetin hemmt die Mastzell-Degranulation und damit die Histaminfreisetzung. Das ist der Mechanismus hinter dem Antihistaminikum, das kein Antihistaminikum ist. Bei allergischer Rhinitis zeigen kontrollierte Studien deutliche Symptomreduktion.\n\nDaneben ist Quercetin ein Senolytikum. In Kombination mit Dasatinib eliminiert es seneszente Zellen in Tiermodellen und verbessert die Gesundheitsspanne. Die Mayo-Clinic-Studien haben diese Kombination in die Longevity-Forschung katapultiert.\n\nDas Bioverfügbarkeitsproblem ist erheblich. Standard-Quercetin-Pulver wird kaum resorbiert. Die Phytosom-Formulierung Quercefit erhöht die Bioverfügbarkeit um das Zwanzigfache. Wer Standard-Quercetin kauft, bezahlt für ein Pulver, das den Darm verlässt, ohne ins Blut zu gelangen.\n\nAllergien hemmen und seneszente Zellen töten. Zwei Karrieren, die nichts miteinander zu tun haben, in einem Flavonoid.",
       quellen: ["Mlcek 2016", "Kirkland 2017"],
+      nahrungsquellen: "Kapern, rote Zwiebeln, Äpfel",
       related_article: null,
     },
     {
@@ -2444,6 +2551,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Ballaststoff für Blutzucker und Darmgesundheit. Resistente Stärke aus kalten Kartoffeln und grünen Bananen für die Darmflora.",
       wirkung: "Resistente Stärke passiert den Dünndarm unverdaut und wird im Kolon zu Butyrat fermentiert. Das macht sie zum effizientesten natürlichen Butyrat-Produzenten, wirkungsvoller als jede orale Butyrat-Kapsel, weil die Produktion am Zielort stattfindet.\n\nRS2 aus roher Kartoffelstärke und grünen Bananen und RS3 aus retrogradierten Stärken (gekochte und abgekühlte Kartoffeln, Reis, Nudeln) haben unterschiedliche Fermentationskinetiken. RS3 fermentiert langsamer und weiter distal, was eine breitere Kolonversorgung sichert.\n\nMetaanalysen zeigen unter resistenter Stärke signifikante Verbesserung der Insulinsensitivität, reduzierte postprandiale Glukosespitzen und erhöhte Sättigung. Bei Darmkrebsprävention zeigt eine australische Studie (CAPP2) nachweisliche Reduktion nicht-kolorektaler Lynch-Syndrom-Krebsarten über Jahre.\n\nKalte Kartoffeln vom Vortag enthalten mehr Medizin als die meisten Supplements im Regal.",
       quellen: ["Robertson 2005", "Burn 2020"],
+      nahrungsquellen: "Abgekühlter Reis, abgekühlte Kartoffeln, grüne Bananen",
       related_article: null,
     },
     {
@@ -2455,6 +2563,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Anti-Aging-Polyphenol aus Rotwein. Resveratrol als Langlebigkeits-Elixier und Herzschutz, das French Paradox in Kapselform.",
       wirkung: "Resveratrol ist das Polyphenol, mit dem eine Branche sich selbst belügt. Die In-vitro-Daten sind spektakulär. SIRT1-Aktivierung, NF-κB-Hemmung, Krebszell-Apoptose, Gefäßschutz. In Petrischalen rettet Resveratrol die Welt.\n\nIm menschlichen Körper hat es eine orale Bioverfügbarkeit von unter einem Prozent. Binnen Minuten wird es in der Leber sulfatiert und glucuronidiert. Was im Plasma ankommt, sind Metaboliten, deren biologische Aktivität umstritten ist. Die klinischen Studien am Menschen zeigen, wenn überhaupt, marginale Effekte bei Dosen, die weit über dem liegen, was Rotwein liefert.\n\nDas French Paradox, das den Rotwein-Mythos begründete, ist epidemiologisch nicht durch Resveratrol erklärbar. Die Mengen im Wein sind pharmakologisch irrelevant.\n\nPterostilben macht alles, was Resveratrol verspricht, mit vierfacher Bioverfügbarkeit. Resveratrol verkauft sich trotzdem besser, weil es die bessere Geschichte hat.",
       quellen: ["Walle 2004", "Vang 2011"],
+      nahrungsquellen: "Rotwein, Trauben mit Schale, japanischer Staudenknöterich",
       related_article: null,
     },
     {
@@ -2526,6 +2635,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Vitamin P für Gefäße und Kapillaren. Rutin als natürliches Venenmittel aus Buchweizen und Zitrusfrüchten.",
       wirkung: "Rutin ist ein Quercetin-Glykosid, das die Kapillarpermeabilität senkt und die Venenwand stabilisiert. Die Substanz wurde historisch als Vitamin P bezeichnet, eine Kategorie, die nie offiziell anerkannt wurde.\n\nBei chronisch-venöser Insuffizienz zeigen kontrollierte Studien unter Oxerutin (hydroxyethyliertes Rutin) messbare Reduktion von Beinödemen, Schweregefühl und nächtlichen Wadenkrämpfen. Die Wirkung läuft über Hemmung der Leukozyten-Adhäsion an Endothelzellen und Reduktion der kapillären Filtration.\n\nAls Quercetin-Vorstufe wird Rutin im Darm durch Bakterien in Quercetin gespalten. Die präbiotische Spaltung ist individuell variabel, was die therapeutische Zuverlässigkeit mindert.\n\nGefäß-Flavonoid, das die Darmflora erst aktivieren muss. Falsche Bakterien, kein Effekt, trotz Buchweizen.",
       quellen: ["Aziz 1998"],
+      nahrungsquellen: "Buchweizen, Holunderbeeren, Spargel",
       related_article: null,
     },
     {
@@ -2538,6 +2648,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Medizinische Hefe für Reisedurchfall und Antibiotika-Schutz. S. boulardii als probiotische Hefe für unterwegs.",
       wirkung: "Saccharomyces boulardii ist eine tropische Hefe, die gegen Antibiotika immun ist. Das macht sie zum einzigen Probiotikum, das während einer Antibiotikatherapie weiterlebt. Jedes bakterielle Probiotikum wird vom Antibiotikum mitgetötet.\n\nBei Clostridium-difficile-assoziierter Diarrhö reduziert S. boulardii die Rezidivrate nachweislich. Bei Reisedurchfall senkt es die Inzidenz um dreißig bis vierzig Prozent. Bei akuter Gastroenteritis im Kindesalter verkürzt es die Durchfalldauer. Drei Indikationen, drei Metaanalysen, drei konsistente Befunde.\n\nVermittelt wird das über Protease-Sekretion, die Clostridium-Toxin A und B inaktiviert, über sekretorische IgA-Stimulation und über kompetitive Hemmung pathogener Adhäsion an der Mukosa.\n\nDie einzige probiotische Hefe, die Antibiotika überlebt, ist gleichzeitig die einzige mit konsistenter Evidenz für die häufigste Nebenwirkung von Antibiotika.",
       quellen: ["McFarland 2006", "Szajewska 2007"],
+      nahrungsquellen: "Kombucha, Litschis, Mangostan",
       related_article: null,
     },
     {
@@ -2586,6 +2697,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Universeller Methylgruppendonor für Stimmung, Leber und Gelenke. SAMe als natürliches Antidepressivum und Gelenkschutzmittel.",
       wirkung: "SAMe ist der wichtigste Methylgruppendonor im menschlichen Stoffwechsel. Über zweihundert Methylierungsreaktionen nutzen SAMe als Substrat, darunter die Synthese von Neurotransmittern, die Methylierung von DNA und die Produktion von Phosphatidylcholin in der Leber.\n\nBei Depression zeigt SAMe in einer AHRQ-Metaanalyse Wirksamkeit vergleichbar mit trizyklischen Antidepressiva. In der STAR*D-Augmentationsstudie verbessert SAMe als Add-on zu SSRIs die Remissionsrate nachweislich. Bei Arthrose zeigt eine Langzeitstudie über zwei Jahre Wirksamkeit vergleichbar mit Celecoxib bei weniger gastrointestinalen Nebenwirkungen. Bei alkoholischer Steatohepatitis verbessert SAMe die Leberfunktion und reduziert die Mortalität bei Child-A-Zirrhose.\n\nDrei Indikationen, drei Organe, ein Mechanismus. Das ist die Breite eines universellen Methyldonors.\n\nDepression, Arthrose, Leberschaden. Drei Organe, ein Methyldonor. Das ist kein Supplement, das ist ein Stoffwechsel-Knotenpunkt.",
       quellen: ["Sharma 2017", "Najm 2004", "Mato 1999"],
+      nahrungsquellen: "Paranüsse, Sesamsamen, Sonnenblumenkerne (als Methionin-Vorstufen)",
       related_article: null,
     },
     {
@@ -2657,6 +2769,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Scharfes Gewürz als Bioverfügbarkeits-Booster. Piperin aus schwarzem Pfeffer verstärkt die Aufnahme von Curcumin, Resveratrol und anderen Supplements.",
       wirkung: "Piperin hemmt die intestinalen und hepatischen Glucuronyltransferasen und Cytochrom-P450-3A4. Das verlangsamt den Phase-II-Metabolismus und erhöht die Bioverfügbarkeit co-administrierter Substanzen. Curcumin plus Piperin zeigt zwanzigfach höhere Plasmaspiegel als Curcumin allein. Resveratrol, Beta-Carotin und Selen profitieren ebenfalls.\n\nDas Problem ist die Unselektivität. Piperin hemmt dieselben Enzyme, die Arzneimittel metabolisieren. Wer Piperin mit verschreibungspflichtigen Medikamenten kombiniert, verändert deren Wirkspiegel unkontrolliert. Antikonvulsiva, Immunsuppressiva und Chemotherapeutika sind besonders betroffen.\n\nDie Supplement-Industrie packt Piperin als BioPerine in jede zweite Kombiformel, ohne auf die Arzneimittelinteraktion hinzuweisen. Ein CYP3A4-Inhibitor als Bioverfügbarkeits-Booster ist pharmakologisch elegant und klinisch riskant.\n\nDer beste Bioverfügbarkeits-Verstärker im Supplement-Regal ist gleichzeitig der riskanteste für jeden, der Medikamente nimmt.",
       quellen: ["Shoba 1998", "Bhardwaj 2002"],
+      nahrungsquellen: "Schwarzer Pfeffer, Langer Pfeffer, Weißer Pfeffer",
       related_article: null,
     },
     {
@@ -2680,6 +2793,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Spurenelement für Schilddrüse und Immunsystem. Selen als antioxidativer Zellschutz und essentieller Kofaktor.",
       wirkung: "Selen ist Bestandteil von 25 Selenoproteinen, darunter die Glutathionperoxidasen, die Thioredoxinreduktasen und die Iodthyronin-Deiodasen. Ohne Selen funktioniert weder die Glutathion-Redox-Abwehr noch die Schilddrüsenhormonkonversion von T4 zu T3.\n\nBei Hashimoto-Thyreoiditis senkt Selen-Supplementierung die TPO-Antikörper in Metaanalysen klinisch relevant. Ob das die Krankheitsprogression beeinflusst, ist unklar, die Antikörper-Senkung ist nachgewiesen. In selenarmen Regionen Europas korreliert niedriger Selenstatus mit erhöhter Krebsinzidenz und kardiovaskulärer Mortalität.\n\nDie Form ist relevant. Selenomethionin wird in Körperproteine eingebaut und bildet ein Depot. Natriumselenit wird direkt zu Selenid reduziert und hat keinen Depoteffekt. Die therapeutische Fensterbreite ist enger als bei den meisten Spurenelementen, chronische Überversorgung verursacht Selenose.\n\nSelen ist essentiell für Schilddrüse und Glutathion. Die Dosis-Antwort-Kurve hat ein Optimum, kein Plateau.",
       quellen: ["Rayman 2012", "Fan 2014"],
+      nahrungsquellen: "Paranüsse, Senfsamen, Sonnenblumenkerne",
       related_article: null,
     },
     {
@@ -2726,6 +2840,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Spurenelement für Haut, Haare und Nägel. Silizium für Bindegewebe, Knochen und jugendliches Aussehen.",
       wirkung: "Silizium ist Bestandteil des Bindegewebes, der Knochen und der Haut. In der Framingham-Offspring-Studie korreliert höhere Silizium-Aufnahme deutlich mit höherer Knochenmineraldichte, unabhängig von Calcium-Intake.\n\nDie Bioverfügbarkeit variiert drastisch zwischen den Formen. Orthosiliconsäure in Lösung (stabilisiert als Cholin-stabilisiertes OSA) zeigt in einer kontrollierten Studie signifikante Verbesserung der Haardicke und Nagelbrüchigkeit bei Frauen mit dünnem Haar. Kolloidal gebundenes Silizium und Kieselerde haben deutlich niedrigere Bioverfügbarkeit.\n\nBrennnessel, Schachtelhalm und Bambus sind die reichsten pflanzlichen Quellen. Bier enthält relevante Mengen bioverfügbares Silizium aus dem Hopfen.\n\nDas Bindegewebe-Mineral wird als Schönheitsprodukt verkauft. Die Knochen-Evidenz ist stärker als die Haar-Evidenz.",
       quellen: ["Jugdaohsingh 2004", "Barel 2005"],
+      nahrungsquellen: "Hirse, Hafer, Bambussprossen",
       related_article: null,
     },
     {
@@ -2749,6 +2864,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Natürliches Anti-Aging-Polyamin für Zellreinigung und Autophagie. Spermidin aus Weizenkeimextrakt, klinisch erforscht für Langlebigkeit.",
       wirkung: "Spermidin induziert Autophagie, den zellulären Selbstreinigungsprozess, der beschädigte Proteine und Organellen recycelt. Yoshinori Ohsumi erhielt 2016 den Nobelpreis für die Aufklärung dieses Mechanismus. Spermidin ist einer der wenigen Nährstoffe, die diesen Prozess pharmakologisch von außen anstoßen.\n\nEpidemiologische Daten aus der Bruneck-Studie zeigen eine inverse Korrelation zwischen Spermidin-Aufnahme und kardiovaskulärer Mortalität über zwanzig Jahre. In Tiermodellen verlängert Spermidin die Lebensspanne von Hefen, Fliegen, Würmern und Mäusen konsistent.\n\nEine Vergleichsstudie an älteren Erwachsenen mit subjektiver kognitiver Verschlechterung zeigt nach drei Monaten Weizenkeimextrakt-Supplementierung verbesserte Gedächtnisleistung. Die erste große Interventionsstudie SmartAge läuft in Berlin.\n\nWeizenkeime, gereifte Käsesorten und Natto sind die reichsten Nahrungsquellen. Wer Natto mit Weizenkeimen frühstückt, betreibt Longevity-Forschung am Küchentisch.",
       quellen: ["Eisenberg 2009", "Kiechl 2018", "Wirth 2018"],
+      nahrungsquellen: "Weizenkeime, Sojabohnen, Pilze",
       related_article: null,
     },
     {
@@ -2762,6 +2878,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Exotisches Zahnwehkraut mit prickelnder Wirkung. Spilanthol als natürliches Lokalanästhetikum und Hautpflege-Wirkstoff.",
       wirkung: "Spilanthol ist ein Isobutylamid aus dem Parakressekraut, das bei Kontakt mit der Mundschleimhaut sofort ein intensives Prickeln und lokale Betäubung auslöst. Die Wirkung läuft über TRPV1- und TRPA1-Ionenkanäle, dieselben, die Capsaicin und Szechuanpfeffer aktivieren.\n\nDie analgetische und lokalanästhetische Wirkung ist in Tiermodellen quantifiziert und vergleichbar mit Lidocain in niedriger Dosierung. In der traditionellen Medizin Brasiliens, Indiens und Madagaskars wird Acmella seit Jahrhunderten bei Zahnschmerzen eingesetzt. Klinische Studien am Menschen sind rar, die ethnobotanische Konsistenz über drei Kontinente ist bemerkenswert.\n\nDermatologisch zeigt Spilanthol in einer In-vitro-Studie Hemmung der Muskelkontraktion in der Haut, was den Anti-Falten-Effekt erklärt, der in der Kosmetikindustrie als »pflanzliches Botox« vermarktet wird. Zusätzlich belegt eine Studie insektizide Wirkung gegen Aedes-Mücken.\n\nEin Zahnwehkraut, das Lidocain gleichzieht, Falten glättet und Mücken tötet. Im westlichen Supplement-Markt existiert es nicht.",
       quellen: ["Paulraj 2013", "Dubey 2013"],
+      nahrungsquellen: "Parakresse (Jambú-Blätter), Acmella-Blüten, Sechuan-Buttons",
       related_article: null,
     },
     {
@@ -2832,6 +2949,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Brokkoli-Wirkstoff für Zellschutz und Krebsprävention. Sulforaphan als potentester Nrf2-Aktivator aus der Nahrung.",
       wirkung: "Sulforaphan entsteht, wenn Glucoraphanin aus Brokkoli mit dem Enzym Myrosinase in Kontakt kommt, also beim Zerkauen oder Zerkleinern der rohen Pflanze. Es ist der potenteste bekannte Nrf2-Aktivator aus der Nahrung. Nrf2 ist der Transkriptionsfaktor, der über zweihundert zytoprotektive Gene hochfährt, darunter die Glutathion-Synthese, die Phase-II-Detoxifikationsenzyme und die antioxidative Abwehr.\n\nEine chinesische Studie an Aflatoxin-exponierten Erwachsenen zeigt unter Brokkolisprossengetränk klinisch relevant erhöhte Ausscheidung von Benzol-Konjugaten und Acrolein-Metaboliten. Das ist gemessene Entgiftungsbeschleunigung, nicht Marketing.\n\nBei Autismus verbessert Sulforaphan in einer Vergleichsstudie Verhaltenssymptome deutlich, vermutlich über Hemmung der Neuroinflammation und Reduktion des oxidativen Stress im ZNS. Bei Typ-2-Diabetes senkt Brokkolisprossenextrakt den Nüchternblutzucker.\n\nKochen zerstört Myrosinase. Wer Brokkoli kocht, eliminiert den Wirkstoff. Rohe Brokkolisprossen enthalten das Fünfzigfache an Glucoraphanin gegenüber dem ausgewachsenen Kopf.\n\nDie potenteste Chemoprävention der Natur stirbt in der Pfanne.",
       quellen: ["Kensler 2012", "Singh 2014", "Axelsson 2017"],
+      nahrungsquellen: "Brokkolisprossen, Brokkoli, Grünkohl",
       related_article: null,
     },
     {
@@ -2881,6 +2999,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Bitterrezeptoren jenseits der Zunge. TAS2R als Chemosensoren in Darm, Lunge und Immunzellen.",
       wirkung: "Bitterrezeptoren wurden 2003 außerhalb der Mundhöhle entdeckt. TAS2R-Rezeptoren sitzen auf Enteroendokrinen Zellen im Darm, auf glatten Muskelzellen der Atemwege, auf Immunzellen und im Gehirn. Sie sind keine Geschmacksrezeptoren, die verdrängt wurden. Sie sind chemosensorische Wächter, die auf potenziell toxische Substanzen reagieren.\n\nIm Darm aktivieren Bitterstoffe TAS2R und lösen GLP-1-, Ghrelin- und CCK-Freisetzung aus. Das reguliert Appetit, Magenentleerung und Insulinsekretion. In den Atemwegen erweitern TAS2R-Agonisten die Bronchien stärker als Beta-2-Sympathomimetika. Auf Immunzellen modulieren sie die Zytokinproduktion.\n\nDie europäische Amara-Tradition, Enzian, Wermut, Andorn, Tausendgüldenkraut, hat diesen Mechanismus empirisch genutzt, ohne ihn zu kennen. Die Molekularbiologie hat der Volksmedizin zweitausend Jahre später einen Rezeptor gegeben.\n\nDie Volksmedizin wusste, dass bitter heilt. Die Wissenschaft weiß jetzt, warum.",
       quellen: ["Rozengurt 2006", "Shah 2009"],
+      nahrungsquellen: "Aktiviert durch: Enzianwurzel, Andorn, Radicchio, Wermut",
       related_article: null,
     },
     {
@@ -2892,6 +3011,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Energy-Drink-Zutat für Energie und Leistung. Taurin als Wachmacher-Aminosäure in Red Bull und Co.",
       wirkung: "Taurin heißt Aminosäure, wird aber in kein Protein eingebaut. Chemisch ist es ein Aminosulfonsäure-Derivat, das in praktisch jedem Gewebe des Körpers in hoher Konzentration vorliegt, am meisten im Herzmuskel, in der Retina und im Gehirn. Die Zelle hortet Taurin aus Gründen, die die Biochemie erst langsam versteht.\n\nSingh 2023 hat Taurin auf die Longevity-Karte gesetzt. Die Studie zeigt, dass Taurin-Spiegel mit dem Alter fallen, dass Supplementierung bei Mäusen und Affen die Gesundheitsspanne verlängert und dass niedrige Taurin-Spiegel beim Menschen mit Adipositas, Diabetes und Entzündungsmarkern korrelieren. Die Effektgrößen in Mäusen sind vergleichbar mit Kalorienrestriktion.\n\nRed Bull hat Taurin in die Energy-Drink-Formel gesteckt und damit den Ruf der Substanz dauerhaft an Koffein und Zucker gekettet. Pharmakologisch hat Taurin mit Stimulation nichts zu tun. Es stabilisiert Zellmembranen, moduliert Calciumströme, wirkt osmoregulatorisch und schützt Mitochondrien vor oxidativem Stress.\n\nDie wichtigste Longevity-Entdeckung seit Rapamycin steht auf der Zutatenliste von Red Bull.",
       quellen: ["Singh 2023", "Schaffer 2010"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; Algen, Hefe (Spuren); Vorstufen (Methionin/Cystein): Paranüsse, Sojabohnen, Sonnenblumenkerne",
       related_article: null,
     },
     {
@@ -2951,6 +3071,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielles Vitamin für Augen, Haut und Immunsystem. Vitamin A als Retinol oder Beta-Carotin für Sehkraft und Zellerneuerung.",
       wirkung: "Retinol reguliert die Zelldifferenzierung, die Immunfunktion und die Rhodopsin-Synthese in der Retina. Ohne Vitamin A degeneriert die Hornhaut, das Immunsystem kollabiert, und die Dunkeladaptation versagt.\n\nDie Supplementierung ist ein Doppelmesser. In Entwicklungsländern rettet Vitamin-A-Substitution bei Kindern Leben, die WHO stuft es als essenzielle Intervention ein. In westlichen Ländern ist Überdosierung das Problem. Chronisch hohe Retinol-Zufuhr (über 10.000 IU täglich) ist hepatotoxisch und teratogen. In der Schwangerschaft kann Retinol-Überdosis Fehlbildungen verursachen.\n\nBeta-Carotin als pflanzliche Vorstufe wird bedarfsreguliert umgewandelt und verursacht keine Hypervitaminose. Die Leber speichert Retinol über Monate, was eine Akkumulation bei täglicher Supplementierung begünstigt.\n\nVitamin A rettet in Entwicklungsländern Kinderleben und schädigt in Industrieländern Lebern. Der Unterschied ist die Dosis und der Ausgangsstatus.",
       quellen: ["Imdad 2010"],
+      nahrungsquellen: "Vegan nur als Provitamin (Beta-Carotin): Karotten, Süßkartoffel, Grünkohl",
       related_article: null,
     },
     {
@@ -2963,6 +3084,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Nervenvitamin für Energiestoffwechsel und Gehirn. Thiamin als essentieller B-Vitamin-Baustein.",
       wirkung: "Thiamin ist Cofaktor der Pyruvatdehydrogenase und der Alpha-Ketoglutarat-Dehydrogenase im Krebs-Zyklus. Ohne B1 kann die Zelle keine Glukose zu ATP verbrennen. Der Energiestoffwechsel steht still.\n\nKlinischer Mangel als Beriberi ist in westlichen Ländern selten, subklinischer Mangel bei Alkoholismus epidemisch. Wernicke-Enzephalopathie durch akuten Thiaminmangel ist ein neurologischer Notfall mit Augenmuskellähmung, Ataxie und Verwirrtheit. Jeder Alkoholiker in der Notaufnahme bekommt Thiamin intravenös, bevor er Glukose erhält, weil Glukose ohne Thiamin die Enzephalopathie verschärft.\n\nBenfotiamin ist die fettlösliche Variante mit drei- bis vierfacher Bioverfügbarkeit. Bei diabetischer Neuropathie ist Benfotiamin dem Standardthiamin klinisch überlegen.\n\nDas Vitamin, das man Alkoholikern in die Vene gibt, bevor man ihnen Zucker gibt.",
       quellen: ["Lonsdale 2006"],
+      nahrungsquellen: "Sonnenblumenkerne, Hülsenfrüchte, Vollkorngetreide",
       related_article: null,
     },
     {
@@ -2975,6 +3097,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Essentielles Vitamin für Nerven, Blut und Energie. B12 als Methylcobalamin, besonders wichtig für Veganer und ältere Menschen.",
       wirkung: "B12 ist Cofaktor der Methionin-Synthase und der Methylmalonyl-CoA-Mutase. Ohne B12 akkumuliert Homocystein im Blut und Methylmalonsäure in den Nerven. Beides ist toxisch. Die neurologischen Schäden bei B12-Mangel sind irreversibel, wenn sie zu spät erkannt werden.\n\nVeganer haben ohne Supplementierung einen sicheren Mangel, weil B12 ausschließlich von Bakterien produziert wird und in pflanzlicher Nahrung nicht vorkommt. Ältere Erwachsene haben häufig eine Resorptionsstörung durch atrophische Gastritis oder Protonenpumpeninhibitor-Therapie.\n\nDie Formfrage ist relevant. Cyanocobalamin ist die stabilste Form, muss aber in Methylcobalamin oder Adenosylcobalamin umgewandelt werden. Bei MTHFR-Polymorphismen ist die Umwandlung eingeschränkt, was Methylcobalamin zur direkten Alternative macht. Hydroxocobalamin hat die längste Halbwertszeit und eignet sich als Depotform.\n\nJeder Veganer, der kein B12 supplementiert, schädigt seine Nerven. Das ist keine Meinung, das ist Biochemie.",
       quellen: ["Green 2017"],
+      nahrungsquellen: "Vegan praktisch nicht enthalten; Nori-Algen, Shiitake (Spuren unzuverlässig), angereicherte Hefeflocken / Pflanzendrinks",
       related_article: null,
     },
     {
@@ -2987,6 +3110,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Energievitamin für Haut, Augen und Stoffwechsel. Riboflavin als essentieller Kofaktor im Energiestoffwechsel.",
       wirkung: "Riboflavin ist Vorläufer von FAD und FMN, Coenzymen in der mitochondrialen Atmungskette und der Glutathion-Reduktase. Ohne B2 funktioniert die Energieproduktion nicht effizient und die Glutathion-Recycling-Kapazität sinkt.\n\nBei Migräne reduziert 400 mg Riboflavin täglich die Anfallshäufigkeit um etwa fünfzig Prozent, ein Befund, der in mehreren Studien reproduziert wurde und Riboflavin in die Migräne-Prophylaxe-Leitlinien gebracht hat. Der Mechanismus läuft über verbesserte mitochondriale Energieproduktion in kortikalen Neuronen.\n\nMangel zeigt sich als Mundwinkelrhagaden, Glossitis und seborrhoische Dermatitis. Die Symptome sind unspezifisch und werden selten auf B2 zurückgeführt.\n\nMigräne-Leitlinien-Evidenz bei 400 mg täglich. Keine Kopfschmerz-Praxis empfiehlt es als Erstes.",
       quellen: ["Schoenen 1998"],
+      nahrungsquellen: "Mandeln, Pilze, Spinat",
       related_article: null,
     },
     {
@@ -2999,6 +3123,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Anti-Stress-Vitamin für Nebennieren und Haut. Pantothensäure als Grundlage der Coenzym-A-Synthese.",
       wirkung: "Pantothensäure ist Bestandteil von Coenzym A, dem zentralen Acylgruppen-Carrier im Stoffwechsel. Fettsäureoxidation, Krebs-Zyklus, Steroidhormonsynthese und Acetylierung laufen über CoA. Der Name Pantothensäure kommt von pantothen, überall, weil das Vitamin in fast allen Lebensmitteln vorkommt.\n\nIsolierter Mangel ist bei normaler Ernährung praktisch unbekannt. Die historische Bezeichnung als Anti-Stress-Vitamin basiert auf der Rolle in der Nebennieren-Hormonsynthese, klinische Evidenz für eine anxiolytische Wirkung bei Supplementierung fehlt.\n\nDexpanthenol, das Provitamin der Pantothensäure, ist topisch etabliert in der Wundheilung (Bepanthen). Die systemische Supplementierung hat keine vergleichbare Evidenzbasis.\n\nÜberall vorhanden, nirgendwo mangelhaft. Die Supplementierung löst ein Problem, das nicht existiert.",
       quellen: [],
+      nahrungsquellen: "Avocado, Sonnenblumenkerne, Pilze",
       related_article: null,
     },
     {
@@ -3011,6 +3136,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Schlüsselvitamin für Neurotransmitter und Hormone. B6 als Pyridoxal-5-Phosphat für Stimmung, Schlaf und PMS.",
       wirkung: "B6 in der aktiven Form Pyridoxal-5-Phosphat ist Cofaktor in über 150 enzymatischen Reaktionen. Die Synthese von Serotonin, Dopamin, GABA und Melatonin hängt direkt von B6 ab. Ohne P5P produziert das Gehirn keine Neurotransmitter in ausreichender Menge.\n\nBei PMS zeigen Metaanalysen nachweisliche Reduktion von Stimmungsschwankungen und Reizbarkeit unter 50 bis 100 mg B6 täglich. Bei Schwangerschaftsübelkeit ist B6 erste Wahl der ACOG-Leitlinie. Bei Karpaltunnelsyndrom zeigt eine Studie moderate Verbesserung.\n\nChronische Überdosierung über 200 mg täglich verursacht periphere Neuropathie, ein Paradox für ein Nervenvitamin. Die toxische Schwelle liegt bei der Standardform Pyridoxin-HCl niedriger als bei P5P, weil unphosphoryliertes Pyridoxin in hoher Konzentration den Pyridoxal-Kinase-Pathway kompetitiv hemmt.\n\nPyridoxin ist die billige Form, die der Körper erst umwandeln muss. P5P ist die aktive Form, die direkt wirkt. Das Etikett zeigt fast immer die billige.",
       quellen: ["Wyatt 1999"],
+      nahrungsquellen: "Kichererbsen, Kartoffeln, Sonnenblumenkerne",
       related_article: null,
     },
     {
@@ -3023,6 +3149,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Schönheitsvitamin für Haare, Haut und Nägel. Biotin als Haar-Wachstums-Booster, hochdosiert für sichtbare Ergebnisse.",
       wirkung: "Biotin ist Cofaktor von vier Carboxylasen im Glukose- und Fettsäurestoffwechsel. Die Datenlage für die Haar-Nagel-Haut-Claims ist dünn. Vergleichsstudien an Gesunden ohne Biotinmangel zeigen keine signifikante Verbesserung der Haar- oder Nagelqualität.\n\nBei belegtem Biotinmangel, der selten ist, bessern sich Haarausfall und Nagelbrüchigkeit unter Substitution. Das Marketing extrapoliert von der Mangeltherapie auf die Optimierung bei Gesunden, ohne Evidenz für diesen Schritt.\n\nDas eigentliche Risiko ist die Laborinterferenz. Hochdosiertes Biotin stört Streptavidin-Biotin-basierte Immunoassays, darunter Troponin, TSH und Schwangerschaftstests. Falsch-niedrige Troponin-Werte können einen Herzinfarkt maskieren. Die FDA hat 2017 eine Warnung herausgegeben.\n\nEin Schönheitsvitamin ohne Schönheitsevidenz, das Laborwerte fälscht und Herzinfarkte maskieren kann.",
       quellen: ["Patel 2017", "FDA 2017"],
+      nahrungsquellen: "Mandeln, Sonnenblumenkerne, Süßkartoffel",
       related_article: null,
     },
     {
@@ -3035,6 +3162,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Schwangerschaftsvitamin für gesunde Entwicklung. Folsäure für Neuralrohrschluss und Zellteilung, essentiell für Frauen mit Kinderwunsch.",
       wirkung: "Folat ist essentiell für die DNA-Synthese und die Methylierung. Folsäure-Supplementierung vor und während der Frühschwangerschaft reduziert Neuralrohrdefekte um siebzig Prozent. Das ist einer der stärksten präventiven Befunde der Medizin.\n\nDie Formfrage ist relevant. Folsäure (Pteroylmonoglutaminsäure) ist die synthetische Form, die in Supplementen und angereicherten Lebensmitteln verwendet wird. Methylfolat (5-MTHF) ist die biologisch aktive Form. Etwa dreißig Prozent der europäischen Bevölkerung tragen MTHFR-Polymorphismen, die die Umwandlung von Folsäure in Methylfolat einschränken. Diese Menschen profitieren von direkter Methylfolat-Supplementierung.\n\nHochakkumulierte, nicht-metabolisierte Folsäure im Blut (UMFA) steht in der Diskussion als potenzieller Risikofaktor. Methylfolat umgeht dieses Problem, weil es die Reduktionsschritte nicht benötigt.\n\nJede Frau mit Kinderwunsch braucht Folat. Welche Form, hängt von einem Gentest ab, den niemand routinemäßig macht.",
       quellen: ["MRC 1991"],
+      nahrungsquellen: "Hülsenfrüchte (Linsen), Blattgemüse (Spinat), Spargel",
       related_article: null,
     },
     {
@@ -3046,6 +3174,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Das Immunvitamin. Vitamin C als Allzweckwaffe gegen Erkältung, für Kollagen und als Antioxidans.",
       wirkung: "Vitamin C ist Cofaktor der Prolyl-Hydroxylase in der Kollagensynthese, der Dopamin-beta-Hydroxylase in der Noradrenalin-Produktion und ein wasserlösliches Antioxidans, das Vitamin E und Glutathion regeneriert. Ohne C zerfällt das Bindegewebe, das ist Skorbut, und die Neurotransmitter-Synthese stockt.\n\nBei Erkältungen zeigt die Cochrane-Übersicht keine Reduktion der Inzidenz bei prophylaktischer Einnahme in der Allgemeinbevölkerung, aber eine konsistente Verkürzung der Erkältungsdauer um acht Prozent bei Erwachsenen und vierzehn Prozent bei Kindern. Bei Marathonläufern und Soldaten unter extremer physischer Belastung halbiert sich die Erkältungsinzidenz.\n\nIntravenöses Vitamin C in Hochdosis wird in der komplementären Onkologie eingesetzt. Die Datenlage ist heterogen, aber eine Phase-II-Studie bei Ovarialkarzinom zeigt reduzierte Chemotherapie-Toxizität bei gleichzeitiger Wirksamkeit. Der Mechanismus bei intravenöser Gabe ist prooxidativ über Wasserstoffperoxid-Generierung, das Gegenteil der antioxidativen Wirkung bei oraler Einnahme.\n\nOral ein Antioxidans, intravenös ein Prooxidans. Dieselbe Substanz, zwei gegenläufige Mechanismen, abhängig vom Plasmaspiegel.",
       quellen: ["Hemilä 2013", "Ma 2014"],
+      nahrungsquellen: "Hagebutte, Acerola, Sanddorn",
       related_article: null,
     },
     {
@@ -3058,6 +3187,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Sonnenvitamin für Knochen, Immunsystem und Stimmung. Vitamin D3 als tägliche Basis-Supplementierung, besonders im Winter.",
       wirkung: "Vitamin D3 heißt Vitamin und funktioniert als Prohormon, das in der Haut unter UVB-Strahlung gebildet und in Leber und Niere zur aktiven Form Calcitriol hydroxyliert wird. Calcitriol bindet an den Vitamin-D-Rezeptor, der in praktisch jedem Gewebe des Körpers exprimiert ist und über tausend Gene reguliert.\n\nIn Mitteleuropa haben vierzig bis sechzig Prozent der Bevölkerung suboptimale 25-OH-D-Spiegel, im Winter steigt der Anteil auf achtzig Prozent. Die Konsequenzen reichen über Knochen hinaus. Metaanalysen zeigen inverse Assoziationen zwischen Vitamin-D-Status und Autoimmunerkrankungen, Depressionen, kardiovaskulärer Mortalität und Krebsinzidenz. Die VITAL-Studie mit über 25.000 Teilnehmern findet unter 2000 IU täglich eine robuste Reduktion der Krebsmortalität nach Ausschluss der ersten zwei Jahre.\n\nK2 ist der obligatorische Partner. Vitamin D erhöht die Calciumresorption, K2 dirigiert das Calcium in den Knochen statt in die Gefäße. D3 ohne K2 ist eine halbe Supplementierung mit vollem Kalzifizierungsrisiko.\n\nDas am weitesten verbreitete Defizit der westlichen Welt betrifft ein Hormon, das der Körper selbst herstellen könnte, wenn er Sonne sähe.",
       quellen: ["Holick 2007", "Manson 2019"],
+      nahrungsquellen: "Vegan begrenzt; UV-bestrahlte Pilze (D2), Flechten-D3 (Cladonia rangiferina), Sonnenexposition",
       related_article: null,
     },
     {
@@ -3070,6 +3200,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Antioxidatives Schutzvitamin für Zellmembranen. Vitamin E als Tocopherol oder Tocotrienol für Haut und Anti-Aging.",
       wirkung: "Vitamin E existiert in acht Formen, vier Tocopherole und vier Tocotrienole. Die Supplement-Industrie verkauft fast ausschließlich Alpha-Tocopherol, das die biologische Aktivität dominiert, aber nur einen Bruchteil des natürlichen Vitamin-E-Spektrums abdeckt.\n\nDie SELECT-Studie zeigt unter hochdosiertem Alpha-Tocopherol allein ein messbar erhöhtes Prostatakrebsrisiko. Die Erklärung liegt im Verdrängungsmechanismus. Hohe Alpha-Tocopherol-Dosen senken die Gamma-Tocopherol-Spiegel im Blut, und Gamma-Tocopherol hat eigenständige antikanzerogene Wirkung über Nitrosamin-Fangen.\n\nTocotrienole sind die neuere Entdeckung. Sie hemmen HMG-CoA-Reduktase auf einem anderen Weg als Statine und zeigen in präklinischen Studien neuroprotektive und antitumorale Wirkung, die Alpha-Tocopherol nicht hat. Die Tocotrienol-Forschung läuft am Alpha-Tocopherol-Dogma vorbei.\n\nWer Vitamin E supplementiert, supplementiert meist die falsche Form und verdrängt damit die richtige.",
       quellen: ["Klein 2011", "Sen 2006"],
+      nahrungsquellen: "Reiskleieöl, Palmöl (Tocotrienole), Weizenkeimöl",
       related_article: null,
     },
     {
@@ -3082,6 +3213,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Das vergessene Vitamin für Knochen und Gefäße. K2 als MK-7 für Calcium-Dirigierung, essentieller Partner von Vitamin D3.",
       wirkung: "Vitamin K2 aktiviert Matrix-Gla-Protein und Osteocalcin durch Carboxylierung. MGP hält Calcium aus den Arterien, Osteocalcin baut es in den Knochen ein. Ohne K2 landet supplementiertes Calcium in den Gefäßwänden statt im Skelett.\n\nDie Rotterdam-Studie zeigt bei hohem K2-Intake eine Reduktion der kardiovaskulären Mortalität um fünfzig Prozent und eine Reduktion der Aortenkalzifizierung um fünfzig Prozent über zehn Jahre. K1 aus Blattgemüse zeigt diesen Effekt nicht, weil K1 primär in der Leber für die Gerinnung verbraucht wird und die peripheren Gewebe kaum erreicht.\n\nMK-7 aus Natto hat eine Halbwertszeit von 72 Stunden, MK-4 aus tierischen Quellen nur wenige Stunden. Das macht MK-7 zur überlegenen Supplementierungsform, weil eine tägliche Dosis stabile Plasmaspiegel erreicht.\n\nJeder, der Vitamin D supplementiert und K2 vergisst, erhöht die Calciumresorption, ohne dem Calcium zu sagen, wohin es soll.",
       quellen: ["Geleijnse 2004", "Knapen 2013"],
+      nahrungsquellen: "Natto, fermentierte Sojabohnen, Tempeh",
       related_article: null,
     },
     {
@@ -3130,6 +3262,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Warum viele Substanzen nur wirken, weil ihr Entzug Symptome erzeugt. Withdrawal Reversal als blinder Fleck der Supplement-Forschung.",
       wirkung: "Withdrawal Reversal beschreibt das Phänomen, dass eine regelmäßig konsumierte Substanz keine echte Leistungssteigerung liefert, sondern nur den Entzug rückgängig macht, den das Fehlen der Substanz erst erzeugt hat. Das bekannteste Beispiel ist Koffein. Koffein verbessert die Vigilanz bei gewohnheitsmäßigen Trinkern um genau den Betrag, den der Koffeinentzug über Nacht verschlechtert hat. Netto null.\n\nDie Forschung zu Koffein hat das 2010 mit einem eleganten Design gezeigt. Gewohnheitstrinker und Nicht-Trinker erhielten Koffein oder Placebo. Nur Nicht-Trinker zeigten echte Verbesserung. Gewohnheitstrinker erreichten unter Koffein das Niveau, das Nicht-Trinker ohne alles hatten.\n\nDas Prinzip betrifft potentiell viele Substanzen im Supplement-Bereich. Wenn eine tägliche Einnahme physiologische Gegenregulation auslöst, wird das Absetzen zum Problem, das die nächste Dosis löst. Das ist kein Wirksamkeitsnachweis, das ist Abhängigkeitsdynamik.\n\nWenn etwas nur wirkt, weil man es gestern auch genommen hat, ist die Frage erlaubt, ob es je gewirkt hat.",
       quellen: ["Rogers 2010"],
+      nahrungsquellen: "Konzept: Nährstoff-Reentry nach Mangelphase, kein direkter Lebensmittelbezug",
       related_article: null,
     },
     {
@@ -3141,6 +3274,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Elektrische Ladung der Blutzellen für optimale Fließeigenschaften. Zeta-Potenzial als Schlüssel zur Mikrozirkulation.",
       wirkung: "Das Zeta-Potenzial beschreibt die elektrische Oberflächenladung kolloidaler Partikel in Suspension. Erythrozyten tragen ein negatives Zeta-Potenzial von etwa minus fünfzehn Millivolt. Diese Ladung hält sie in Abstoßung zueinander und verhindert die Geldrollenbildung (Rouleaux), die die Mikrozirkulation blockiert.\n\nAluminium, Dehydration, hohe Kochsalzzufuhr und systemische Entzündung reduzieren das Zeta-Potenzial und fördern Erythrozyten-Aggregation. Citrate, Polyphenole und ausreichende Hydratation stabilisieren es. Dunkelfeldmikroskopie zeigt die Aggregation in Echtzeit, auch wenn die Methode in der evidenzbasierten Medizin umstritten bleibt.\n\nDas Konzept ist physikochemisch solide, die therapeutische Übertragung spekulativ. Kontrollierte Interventionsstudien, die gezielt das Zeta-Potenzial als Endpunkt messen, fehlen. Was existiert, sind plausible Mechanismen und Dunkelfeldbilder, die Patienten überzeugen, aber keine Leitlinie.\n\nUnter dem Dunkelfeldmikroskop sieht jeder Patient seine Blutkörperchen verklumpen und wieder lösen. Das überzeugt stärker als jede Metaanalyse, und genau das ist das Problem.",
       quellen: ["Pollack 2013"],
+      nahrungsquellen: "Beeinflusst durch: strukturiertes Wasser, frische Säfte, mineralreiches Quellwasser",
       related_article: null,
     },
     {
@@ -3152,6 +3286,7 @@ window.SUBSTANCES_DATA = {
       werbung: "Immunmineral für Abwehrkraft und Haut. Zink als essentielles Spurenelement für über 300 Enzyme im Körper.",
       wirkung: "Zink ist Cofaktor in über dreihundert Enzymen und Bestandteil von über tausend Transkriptionsfaktoren. Immunfunktion, Wundheilung, DNA-Synthese, Geschmackswahrnehmung und Testosteronproduktion hängen direkt von Zink ab.\n\nBei Erkältungen verkürzen Zink-Lutschtabletten (Zinkacetat oder -gluconat, über 75 mg Zink pro Tag) die Symptomdauer um durchschnittlich 33 Prozent, wenn sie innerhalb von 24 Stunden nach Symptombeginn eingenommen werden. Vermittelt wird das über direkte Hemmung der Rhinovirus-Replikation an der Nasenschleimhaut.\n\nChronischer Zinkmangel ist weltweit endemisch, betrifft etwa zwei Milliarden Menschen und manifestiert sich als Immunschwäche, Wundheilungsstörung, Haarausfall und Geschmacksverlust. In westlichen Ländern sind Veganer, Alkoholiker und ältere Erwachsene die Hauptrisikogruppen.\n\nLangzeit-Zinksupplementation über dreißig Milligramm täglich induziert Kupfermangel über kompetitive Hemmung am intestinalen Transporter. Die Wechselwirkung steht auf keinem Zinketikett.\n\nDas Immunmineral, das bei Überdosierung ein anderes Mineral verdrängt.",
       quellen: ["Hemilä 2017", "Prasad 2008"],
+      nahrungsquellen: "Kürbiskerne, Cashews, Linsen",
       related_article: null,
     },
     {

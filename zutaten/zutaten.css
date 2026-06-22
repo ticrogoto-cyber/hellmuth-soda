@@ -344,6 +344,15 @@
   margin: 0 0 12px;
 }
 
+/* Vorkommen-Zeile auf Substanz-Detailseiten — vegane Top-3-Lebensmittel
+   bzw. Konzept-Kontextsatz. Erscheint nur fuer Kategorien A/C/E direkt
+   nach den Quellen. Label uebernimmt die .zutaten-field-label-Stilistik
+   (Semibold), die Lebensmittelliste erbt .zutaten-line. Etwas mehr Luft
+   nach oben, damit der Block visuell vom Quellenblock abgesetzt ist. */
+.vorkommen {
+  margin-top: 8px;
+}
+
 .zutaten-line:last-of-type {
   margin-bottom: 0;
 }
