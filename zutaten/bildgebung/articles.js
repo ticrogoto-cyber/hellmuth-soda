@@ -1494,5 +1494,58 @@ Ein Unkraut, das mehr kann als die meisten Pillen im Regal. Es wächst am Straß
         },
       ],
     },
+    {
+      slug: "kokosoel-mct-laurinsaeure",
+      titel: "Das Fett, das die Ernährungswissenschaft nicht einordnen kann",
+      lead: "Kokosöl besteht zur Hälfte aus Laurinsäure, einem Antimikrobikum, das die Lipidhülle von Viren zerstört. Die American Heart Association behandelt es trotzdem wie Butter. Das sagt mehr über die AHA als über Kokosöl.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Laurinsäure macht etwa fünfzig Prozent des Kokosöls aus. Sie ist eine mittelkettige Fettsäure mit zwölf Kohlenstoffatomen, und sie tötet Mikroben. Die Wirkung ist mechanisch. Laurinsäure und ihr Metabolit Monolaurin lösen die Lipidhülle umhüllter Viren auf und lysieren grampositive Bakterien. Kabara 1972 dokumentiert, dass Monolaurin in vitro gegen Staphylococcus aureus wirksamer ist als alle getesteten Antibiotika. Ein Speisefett mit antimikrobieller Wirkung, die stärker ist als Penicillin im Reagenzglas. Die Medizin hat stattdessen das Cholesterin gezählt.
+
+2017 veröffentlichte die AHA ein Presidential Advisory, das Kokosöl in eine Reihe mit Butter und Schmalz stellte. Sacks und Kollegen argumentierten, es erhöhe LDL-Cholesterin. Das stimmt für Laurinsäure isoliert betrachtet. Was die AHA ignorierte, war die Kettenlänge. Mittelkettige Fettsäuren werden über die Pfortader direkt zur Leber transportiert und dort in Ketonkörper umgewandelt. Langkettige Fettsäuren gehen den Umweg über Chylomikronen ins Fettgewebe. Das metabolische Profil von Kokosöl unterscheidet sich von Butter so grundlegend, dass die Gleichsetzung über den Oberbegriff »gesättigtes Fett« pharmakologisch unseriös ist. Die AHA hat eine Kategorie benutzt, wo eine Analyse nötig gewesen wäre.
+
+Dayrit 2015 beschreibt die Sondereigenschaften der Laurinsäure im Detail. Sie wird schneller absorbiert als langkettige Fettsäuren, erzeugt Ketonkörper für das Gehirn und liefert antimikrobielle Aktivität, die bei keiner anderen Fettsäure in dieser Konzentration vorkommt. Kein Pharmakonzern würde dieses Profil ignorieren. Die Ernährungswissenschaft hat es geschafft.
+
+In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die primäre Fettquelle. Lieberman 2006 untersucht Tokelau, wo über fünfzig Prozent der Kalorien aus Kokosnuss stammen. Die kardiovaskuläre Mortalität war niedrig, solange die Ernährung traditionell blieb. Sie stieg, als westliche Lebensmittel die Kokosnuss verdrängten. Das Fett, vor dem die AHA warnt, wurde durch die Ernährung ersetzt, die die AHA empfiehlt.
+
+Antimikrobikum, Ketogenes, Kochfett. Drei Funktionen, eine Fettsäure. Die AHA hat eine gemessen und die anderen übersehen. Wenn dein Werkzeug nur Cholesterin zählen kann, sieht jedes Fett aus wie ein Herzinfarkt.`,
+      quellen: [
+        {
+          autoren: "Jon Kabara, Dennis Swieczkowski, Anthony Conley, et al.",
+          titel: "Fatty acids and derivatives as antimicrobial agents",
+          journal: "Antimicrobial Agents and Chemotherapy",
+          vol: "Vol. 2, No. 1",
+          datum: "Juli 1972",
+          seiten: "23—28",
+          doi: "10.1128/AAC.2.1.23",
+          pmid: "4670656",
+        },
+        {
+          autoren: "Frank Sacks, Alice Lichtenstein, Jason Wu, et al.",
+          titel: "Dietary fats and cardiovascular disease: a presidential advisory from the American Heart Association",
+          journal: "Circulation",
+          vol: "Vol. 136, No. 3",
+          datum: "18.07.2017",
+          seiten: "e1—e23",
+          doi: "10.1161/CIR.0000000000000510",
+          pmid: "28620111",
+        },
+        {
+          autoren: "Fabian Dayrit",
+          titel: "The properties of lauric acid and their significance in coconut oil",
+          journal: "Journal of the American Oil Chemists' Society",
+          vol: "Vol. 92, No. 1",
+          datum: "Januar 2015",
+          seiten: "1—15",
+          doi: "10.1007/s11746-014-2562-7",
+        },
+        {
+          autoren: "Seymour Lieberman, Mary Enig, Harry Preuss",
+          titel: "A review of coconut oil's effect on cardiovascular risk factors",
+          journal: "Natural Medicine Journal",
+          datum: "2006",
+        },
+      ],
+    },
   ],
 };

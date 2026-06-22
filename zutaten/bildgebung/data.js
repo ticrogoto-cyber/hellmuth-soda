@@ -188,6 +188,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "kokosoel-mct-laurinsaeure/",
+      "title": "Das Fett, das die Ernährungswissenschaft nicht einordnen kann",
+      "lead": "Kokosöl besteht zur Hälfte aus Laurinsäure, einem Antimikrobikum, das die Lipidhülle von Viren zerstört. Die American Heart Association behandelt es trotzdem wie Butter. Das sagt mehr über die AHA als über Kokosöl.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };
