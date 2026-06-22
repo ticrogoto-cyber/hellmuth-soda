@@ -1291,5 +1291,72 @@ Was auf TikTok als »Chlorophyll-Wasser« kursiert, enthält meistens Chlorophyl
         },
       ],
     },
+    {
+      slug: "ingwer-gingerol-pharmakologie",
+      titel: "Die Wurzel, die die EMA ernst nimmt",
+      lead: "Die Europäische Arzneimittelagentur stuft Ingwer als »well-established use« gegen Reiseübelkeit ein. Fast kein anderer Pflanzenextrakt erreicht diese Klassifikation. Das Regal behandelt ihn trotzdem wie ein Gewürz.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Ingwer enthält über vierhundert chemische Verbindungen. Die pharmakologisch relevanten sind Gingerole im frischen Rhizom und Shogaole im getrockneten. 6-Gingerol hemmt COX-2 und NF-kB, die zentralen Entzündungsschalter, die auch Ibuprofen adressiert. 6-Shogaol entsteht beim Trocknen durch Dehydratation und ist in vitro potenter als sein Vorläufer. Frischer Ingwer und getrockneter Ingwer sind pharmakologisch zwei verschiedene Zubereitungen. Auf keinem Etikett steht das.
+
+Die Antiemese ist der am besten belegte Effekt. Vutyavanich 2001 testet ein Gramm Ingwerpulver täglich gegen Placebo bei 70 schwangeren Frauen mit Übelkeit und Erbrechen. Die Verum-Gruppe zeigt signifikant weniger Übelkeit und weniger Brechattacken. Ernst und Pittler 2000 fassen sechs randomisierte Studien zusammen. Seekrankheit, Schwangerschaftsübelkeit, Chemotherapie, alle positiv. Postoperative Übelkeit bleibt gemischt. Die EMA vergab trotzdem die höchste Klassifikation, die ein Phytopharmakon erreichen kann. Sechs Studien reichten. Die meisten Supplemente im Regal haben null.
+
+Was weniger bekannt ist und pharmakologisch bemerkenswert. Ingwer beschleunigt die Magenentleerung. Wu 2008 misst per Ultraschall, dass ein Gramm Ingwer die Passage einer Testmahlzeit signifikant verkürzt. Eine Substanz, die gleichzeitig Übelkeit reduziert und die Motilität erhöht, widerspricht der Intuition. Die meisten Antiemetika bremsen den Magen. Ingwer beruhigt die Signale und beschleunigt den Transport. Der Wirkmechanismus läuft über serotonerge 5-HT3-Rezeptoren im Darm, dieselbe Bindungsstelle, die Ondansetron adressiert, das Standardmedikament gegen Chemotherapie-Übelkeit. Ondansetron kostet auf Rezept. Ingwer kostet im Supermarkt.
+
+Die Entzündungshemmung bestätigt sich am Menschen bei Arthrose. Bartels 2015 findet in einer Metaanalyse moderate, signifikante Schmerzreduktion. Die Effektgröße liegt unter der von NSAID, aber Ingwer zerstört keinen Magen. Wer täglich Ibuprofen schluckt und von der Magenblutung liest, sollte wissen, dass eine Wurzel denselben Entzündungsweg adressiert, dosisabhängig, mit einem Nebenwirkungsprofil, das seit dreitausend Jahren empirisch getestet wird.
+
+Die Supplement-Industrie verkauft Ingwer als Verdauungshilfe. Das stimmt und greift zu kurz. Die EMA-Einstufung, die COX-2-Hemmung, die 5-HT3-Affinität, die Arthrose-Daten, nichts davon steht auf der Packung. Was draufsteht, ist »für den Magen«. Was drin ist, hätte einen Beipackzettel verdient.`,
+      quellen: [
+        {
+          autoren: "Tippawan Vutyavanich, Theerajana Kraisarin, Rung-Aroon Ruangsri",
+          titel: "Ginger for nausea and vomiting in pregnancy: Randomized, double-masked, placebo-controlled trial",
+          journal: "Obstetrics and Gynecology",
+          vol: "Vol. 97, No. 4",
+          datum: "April 2001",
+          seiten: "577—582",
+          pmid: "11275030",
+        },
+        {
+          autoren: "Edzard Ernst, Max Pittler",
+          titel: "Efficacy of ginger for nausea and vomiting: a systematic review of randomized clinical trials",
+          journal: "British Journal of Anaesthesia",
+          vol: "Vol. 84, No. 3",
+          datum: "März 2000",
+          seiten: "367—371",
+          doi: "10.1093/oxfordjournals.bja.a013442",
+          pmid: "10793599",
+        },
+        {
+          autoren: "Kun-Ling Wu, Callum Rayner, Seng-Kee Chuah, et al.",
+          titel: "Effects of ginger on gastric emptying and motility in healthy humans",
+          journal: "European Journal of Gastroenterology and Hepatology",
+          vol: "Vol. 20, No. 5",
+          datum: "Mai 2008",
+          seiten: "436—440",
+          doi: "10.1097/MEG.0b013e3282f4b224",
+          pmid: "18403946",
+        },
+        {
+          autoren: "Else Bartels, Villads Folmer, Hans Bliddal, et al.",
+          titel: "Efficacy and safety of ginger in osteoarthritis patients: a meta-analysis of randomized placebo-controlled trials",
+          journal: "Osteoarthritis and Cartilage",
+          vol: "Vol. 23, No. 1",
+          datum: "Januar 2015",
+          seiten: "13—21",
+          doi: "10.1016/j.joca.2014.09.024",
+          pmid: "25300574",
+        },
+        {
+          autoren: "Iris Bischoff-Kont, Robert Fürst",
+          titel: "Benefits of Ginger and Its Constituent 6-Shogaol in Inhibiting Inflammatory Processes",
+          journal: "Pharmaceuticals",
+          vol: "Vol. 14, No. 6",
+          datum: "15.06.2021",
+          seiten: "571",
+          doi: "10.3390/ph14060571",
+          pmid: "34208389",
+        },
+      ],
+    },
   ],
 };
