@@ -297,6 +297,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "ala-nac-glutathion-recycling/",
+      "title": "Das Antioxidans, das alle anderen recycelt",
+      "lead": "Alpha-Liponsäure ist das einzige Antioxidans, das sowohl in Wasser als auch in Fett arbeitet. Es regeneriert verbrauchtes Glutathion, Vitamin C und Vitamin E zurück in ihre aktive Form. Die Supplement-Industrie verkauft lieber die Einzelteile.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };

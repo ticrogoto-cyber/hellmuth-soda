@@ -1948,5 +1948,61 @@ Drei Ballaststoffe, drei Fermentationsprofile, alle billig, alle belegt. Die Pro
         },
       ],
     },
+    {
+      slug: "ala-nac-glutathion-recycling",
+      titel: "Das Antioxidans, das alle anderen recycelt",
+      lead: "Alpha-Liponsäure ist das einzige Antioxidans, das sowohl in Wasser als auch in Fett arbeitet. Es regeneriert verbrauchtes Glutathion, Vitamin C und Vitamin E zurück in ihre aktive Form. Die Supplement-Industrie verkauft lieber die Einzelteile.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Glutathion ist das zentrale Antioxidans jeder menschlichen Zelle. Sein Spiegel sinkt mit dem Alter, bei Lebererkrankungen und unter oxidativem Stress. Die Supplement-Industrie verkauft es als Kapsel. Die Kapsel löst sich im Darm auf, Peptidasen zerlegen das Tripeptid in seine Aminosäuren, und der Wirkstoff kommt nie an. Nur die liposomale Form zeigt in einer kontrollierten Studie messbar erhöhte intrazelluläre Spiegel über sechs Monate. Das Regal verkauft das Ziel. Was fehlt, ist der Weg.
+
+NAC liefert die limitierende Aminosäure Cystein, die die Zelle braucht, um Glutathion selbst zu bauen. In der Notaufnahme rettet NAC Lebern bei Paracetamol-Vergiftung, indem es die Glutathion-Speicher schneller auffüllt, als das Toxin sie leert. Chronisch eingenommen erhöht es den Glutathion-Spiegel zuverlässiger als Glutathion-Kapseln. In der Psychiatrie reduziert es über Glutamat-Modulation Zwangssymptome und Substanzverlangen. Eine Substanz, die in der Notaufnahme Lebern rettet und im Regal als Erkältungsmittel steht.
+
+Alpha-Liponsäure hält das System zusammen. Sie arbeitet in Wasser und Fett, überall dort, wo Zellen kaputtgehen. Sie recycelt verbrauchtes Glutathion, Vitamin C und E zurück in ihre aktive Form. Sonst kann das nichts. Bei diabetischer Neuropathie reduziert sie Schmerzen, belegt in zwei großen Studien. Sie cheliert Schwermetalle. Sie repariert, was andere Antioxidantien liegen lassen. Das alles gilt für das R-Enantiomer. Im Handel dominiert das Racemat. Fünfzig Prozent davon sind biologisch tot. Der Preis bleibt gleich. Die Verpackung schweigt. So funktioniert eine Branche, die Gesundheit verkauft und Marge meint.
+
+Drei Substanzen, ein System. Glutathion ist das Ziel, NAC ist das Baumaterial, ALA ist der Mechaniker, der alles wieder instand setzt. Die Industrie verkauft alle drei einzeln und erklärt den Zusammenhang nie.`,
+      quellen: [
+        {
+          autoren: "Dan Ziegler, Alexander Ametov, Alexei Barinov, et al.",
+          titel: "Oral treatment with alpha-lipoic acid improves symptomatic diabetic polyneuropathy: the SYDNEY 2 trial",
+          journal: "Diabetes Care",
+          vol: "Vol. 29, No. 11",
+          datum: "November 2006",
+          seiten: "2365—2370",
+          doi: "10.2337/dc06-1216",
+          pmid: "17065669",
+        },
+        {
+          autoren: "Dan Ziegler, Philip Low, William Litchy, et al.",
+          titel: "Efficacy and safety of antioxidant treatment with α-lipoic acid over 4 years in diabetic polyneuropathy",
+          journal: "Diabetes Care",
+          vol: "Vol. 34, No. 9",
+          datum: "September 2011",
+          seiten: "2054—2060",
+          doi: "10.2337/dc11-0503",
+          pmid: "21775755",
+        },
+        {
+          autoren: "Ruchi Sinha, Devin Sinha, Sampath Parthasarathy, et al.",
+          titel: "Oral supplementation with liposomal glutathione elevates body stores of glutathione and markers of immune function",
+          journal: "European Journal of Clinical Nutrition",
+          vol: "Vol. 72, No. 1",
+          datum: "Januar 2018",
+          seiten: "105—111",
+          doi: "10.1038/ejcn.2017.132",
+          pmid: "28853742",
+        },
+        {
+          autoren: "Kenneth Heard",
+          titel: "Acetylcysteine for acetaminophen poisoning",
+          journal: "New England Journal of Medicine",
+          vol: "Vol. 359, No. 3",
+          datum: "Juli 2008",
+          seiten: "285—292",
+          doi: "10.1056/NEJMct0708278",
+          pmid: "18635433",
+        },
+      ],
+    },
   ],
 };
