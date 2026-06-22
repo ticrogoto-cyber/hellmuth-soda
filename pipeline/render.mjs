@@ -827,11 +827,31 @@ function readBildgebungArticles() {
 // durchlaeuft — nur h1 (Titel) und die "Quellenangaben"-h2 bleiben.
 // Die ## ...-Marker im body-Quelltext duerfen weiter als Struktur-
 // Notiz stehen; der Renderer rendert sie nicht.
-function mdToHtml(body) {
+function mdToHtml(body, opts) {
+  // opts.footnoteSeen: optionales Set, das Marker-Nummern beim ersten
+  // Auftauchen aufnimmt. Der jeweils ERSTE <sup data-fn=N> bekommt
+  // id="bildgebung-fnref-N", damit der Reverse-Link aus dem Quellenblock
+  // genau dorthin springt. Folgeauftritte derselben Nummer bleiben id-frei.
+  const seen = (opts && opts.footnoteSeen) || null;
   const blocks = String(body || '').trim().split(/\n{2,}/).filter(Boolean);
   return blocks
     .filter((b) => !/^#{1,6}\s/.test(b.trim()))
-    .map((b) => `<p>${esc(b.trim()).replace(/\n/g, '<br />')}</p>`)
+    .map((b) => {
+      const escaped = esc(b.trim()).replace(/\n/g, '<br />');
+      // Marker [N] werden NACH dem Escapen ersetzt: esc(`[1]`) liefert `[1]`
+      // (keine HTML-Sonderzeichen), also koennen wir gefahrlos auf eckige
+      // Klammern matchen und durch sup-Elemente ersetzen. data-fn traegt
+      // die Nummer, die footnotes.js zum Lookup in der Quellenliste nutzt.
+      const withMarkers = escaped.replace(/\[(\d{1,3})\]/g, (_m, n) => {
+        let idAttr = '';
+        if (seen && !seen.has(n)) {
+          seen.add(n);
+          idAttr = ` id="bildgebung-fnref-${n}"`;
+        }
+        return `<sup${idAttr} class="bildgebung-fn" data-fn="${n}" tabindex="0" role="button" aria-label="Quelle ${n}">${n}</sup>`;
+      });
+      return `<p>${withMarkers}</p>`;
+    })
     .join('\n        ');
 }
 
@@ -880,10 +900,23 @@ function formatBildgebungQuelle(q) {
 
 function bildgebungDetailHtml(entry) {
   const canonical = `${SITE}/zutaten/bildgebung/${entry.slug}/`;
-  const bodyHtml = mdToHtml(entry.body);
+  // Tracker fuer Erst-Auftritte jeder Marker-Nummer im Body: damit der
+  // Reverse-Link aus dem Quellenblock an die richtige Stelle springt.
+  const footnoteSeen = new Set();
+  const bodyHtml = mdToHtml(entry.body, { footnoteSeen });
   const quellen = Array.isArray(entry.quellen) ? entry.quellen.filter(Boolean) : [];
+  // Jeder Quellen-Eintrag bekommt eine stabile id (id="bildgebung-fn-N"),
+  // damit footnotes.js per data-fn lookup das Vollzitat findet, und damit
+  // Reverse-Links (Klick auf die Nummer im Quellenblock) zur ersten Marker-
+  // Stelle im Text springen koennen. Die laufende Nummer (1-basiert) muss
+  // exakt zu den [N]-Markern im Body passen.
   const quellenHtml = quellen.length
-    ? `        <div class="bildgebung-sources">\n          <h2>Quellenangaben</h2>\n          <ol>\n${quellen.map((q) => `            <li>${formatBildgebungQuelle(q)}</li>`).join('\n')}\n          </ol>\n        </div>`
+    ? `        <div class="bildgebung-sources">\n          <h2>Quellenangaben</h2>\n          <ol>\n${quellen
+        .map((q, i) => {
+          const n = i + 1;
+          return `            <li id="bildgebung-fn-${n}" data-fn="${n}"><a class="bildgebung-source-back" href="#bildgebung-fnref-${n}" aria-label="Zurueck zur Textstelle ${n}">${n}.</a> ${formatBildgebungQuelle(q)}</li>`;
+        })
+        .join('\n')}\n          </ol>\n        </div>`
     : '';
   const filters = Array.isArray(entry.filter) ? entry.filter.filter(Boolean) : [];
   const minutes = readingMinutes(entry.body);
@@ -912,7 +945,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=14" />
   <link rel="stylesheet" href="../../../news/news.css?v=104" />
-  <link rel="stylesheet" href="../bildgebung.css?v=3" />
+  <link rel="stylesheet" href="../bildgebung.css?v=4" />
 </head>
 <body>
   <header class="top">
@@ -950,7 +983,7 @@ ${quellenHtml}
   <footer><a href="../../../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../../../site.js?v=7"></script>
   <script src="../../../search.js?v=3"></script>
-  <script src="../footnotes.js?v=1"></script>
+  <script src="../footnotes.js?v=2"></script>
   <script src="../../../news/counters.js?v=1"></script>
   <script src="../../../news/detail.js?v=2"></script>
 </body>
