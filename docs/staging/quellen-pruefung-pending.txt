@@ -1,29 +1,6 @@
-Artemisia annua (Einjähriger Beifuß) :: WHO 2019
 DMSO (Dimethylsulfoxid) :: Jacob 2015
-Hesperidin :: Nicolaides 2003
-Himbeerblätter (Rubus idaeus) :: Simpson 2001
-Hopfen (Humulus lupulus) :: Zanoli 2005 | Salter 2010
 Huflattich (Tussilago farfara) :: HMPC 2015
-Inulin :: Roberfroid 2010
-Ivermectin :: Lim 2022
-Jiaogulan (Gynostemma pentaphyllum) :: Huyen 2010 | Li 2010
-Johanniskraut (Hypericum perforatum) :: Hypericum Depression Trial 2002
-Jujube (Ziziphus jujuba, Suan Zao Ren) :: Cao 2010 | Jiang 2007
-Kalium :: WHO 2012
-Klapperschwamm (Grifola frondosa, Maitake) :: Konno 2013 | Kodama 2002
-Kokosöl :: Dayrit 2015 | Lieberman 2006
-Kokoswasser :: Saat 2002 | Kalman 2012
-Kolloidales Silber :: FDA 1999 | Fung 1996
-Kreatin :: McMorris 2006 | Rae 2003 | Kious 2019 | Sakellaris 2006
-Krill-Öl (Euphausia superba) :: Ulven 2011 | Salem 2014
-Kupfer :: Prohaska 2008
-L-Arginin :: Dong 2011 | Stanislavov 2003
-L-Carnitin :: Pekala 2011 | Koeth 2013
-L-Citrullin :: Perez-Guisado 2010 | Schwedhelm 2008
-L-Glutamin :: van der Hulst 1993 | Sayles 2016
-L-Lysin :: Griffith 1987 | Flodin 1997
-L-Methionin :: Brosnan 2006
-L-Tryptophan :: Belongia 1990 | Young 2007
+Jiaogulan (Gynostemma pentaphyllum) :: Li 2010
 L-Tyrosin :: Mahoney 2007 | Jongkees 2015
 Lactobacillus acidophilus :: Sanders 2001
 Lactobacillus gasseri SBT2055 / BNR17 :: Kadooka 2010 | Kim 2018

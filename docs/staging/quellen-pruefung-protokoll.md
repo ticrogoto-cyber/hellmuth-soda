@@ -5,8 +5,8 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 
 ## Zählung
 - Eindeutige Quellen gesamt: 461
-- Verifiziert (real + thematisch passend): 249
-- Offen (noch zu prüfen): 212
+- Verifiziert (real + thematisch passend): 289
+- Offen (noch zu prüfen): 172
 - Einträge bewusst ohne Beleg (Konzept-/ehrlich-evidenzlose Seiten, nichts zu prüfen): 10
   Acerola; Basenpulver; Bentonit · Zeolith; Beta-Glucan (Hafer); Bioverfügbarkeit; Bittersalz · Glaubersalz; Chlorella; Gerstengras; Sango Koralle; Vitamin B5
 
@@ -14,6 +14,8 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 
 ### Phantomverdacht (unbestätigt, NICHT als verifiziert gezählt)
 - **Jacob 2015** (Eintrag: DMSO) — nach vier gezielten Suchen (DMSO-Mechanismus, interstitielle Zystitis, Bjorklund/Jacob 2015 Reviews, Capriotti 2012 Dermatology-Kontext) kein direkter Treffer auf eine reale Publikation von Stanley W. Jacob mit Jahresanker 2015. Möglich: Buchreprint, posthume Quelle, oder Verwechslung mit Capriotti/Capriotti 2012 (J Clin Aesthet Dermatol) bzw. Bjorklund et al. 2015 (Int J Med Reviews, Burn). **Auftraggeber muss Originalangabe nachreichen oder die Quelle ersetzen.** Der zweite DMSO-Beleg Jacob 1986 (Pharmacology of DMSO, Cryobiology 23:14-27) ist real und thematisch passend.
+- **Li 2010** (Eintrag: Jiaogulan, Gynostemma pentaphyllum) — nach zwei gezielten Suchen (Insulin/Cortisol-Klinik bzw. Gypenoside Hepatoprotektion) kein eindeutiger Treffer auf ein Li-erstautorisches Gynostemma-Paper mit Jahresanker 2010. Huyen 2010 (Horm Metab Res 42:353-7) ist als zweiter Beleg dieses Eintrags verifiziert. **Auftraggeber bitte Originalangabe konkretisieren** (Initialen + Journal).
+- **HMPC 2015** (Eintrag: Huflattich, Tussilago farfara) — EMA/HMPC-Dokument(e) zu Tussilago farfara existieren (z. B. EMA/HMPC/893108/2011 Rev.1, Update Nov 2014 zu PA-Limits), aber ein spezifisches HMPC-Dokument mit Jahresanker 2015 zu Huflattich ließ sich nicht direkt belegen. **Auftraggeber bitte das gemeinte HMPC-Dokument konkretisieren** (Aktenzeichen oder Titel), gegebenenfalls Jahresanker auf 2011 oder 2014 korrigieren.
 
 ### Phantom (im Datensatz entfernt)
 - **Jin 2018** (vormals: Catechine (Grüntee) UND EGCG) — nach drei gezielten Suchen über Krebs-, Metabolik- und Hepatotoxizitäts-Literatur kein Treffer. Verdacht erfundene oder grob fehlangegebene Quelle. **Im Datensatz entfernt** (zutaten/substances.js). Damit erledigt.
@@ -32,7 +34,7 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - NALT: Magnusson 1988 → Magnusson 1989
 - Tausendgüldenkraut: Michiels 2017 → Rozengurt 2006
 
-## VERIFIZIERT (249)
+## VERIFIZIERT (289)
 - [x] Abrams 2005  —  Inulin
 - [x] Aburto 2013  —  Kalium
 - [x] Addy 1984  —  Desmodium  «korrigiert»
@@ -72,6 +74,7 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Beer 2014  —  Keratin
 - [x] Belcaro 2013  —  OPC
 - [x] Bell 2000  —  I3C · DIM
+- [x] Belongia 1990  —  L-Tryptophan
 - [x] Benedek 2007  —  Schafgarbe
 - [x] Bent 2006  —  Baldrian
 - [x] Bhagat 2013  —  Serrapeptase
@@ -86,11 +89,13 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Brekhman 1969  —  Eleutherococcus
 - [x] Brien 2004  —  Bromelain
 - [x] Broncel 2010  —  Aronia
+- [x] Brosnan 2006  —  L-Methionin
 - [x] Bucheli 2011  —  Goji
 - [x] Byerley 1987  —  5-HTP
 - [x] Calabrese 2007  —  Hormesis
 - [x] Calabrese 2008  —  Bacopa
 - [x] Calame 2008  —  Akazienfaser  «korrigiert»
+- [x] Cao 2010  —  Jujube
 - [x] Carretero 2002  —  Heilerde  «korrigiert»
 - [x] Carson 2006  —  Teebaumöl
 - [x] Cassidy 2013  —  Anthocyane
@@ -110,12 +115,14 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Dalessandri 2004  —  I3C · DIM
 - [x] Dashwood 2002  —  Chlorophyll
 - [x] Davalos 2012  —  Citicolin
+- [x] Dayrit 2015  —  Kokosöl
 - [x] DeKosky 2008  —  Ginkgo
 - [x] Depommier 2019  —  A. muciniphila
 - [x] Derry 2017  —  Capsaicin
 - [x] Deters 2010  —  Eibischwurzel
 - [x] Devinsky 2017  —  CBD
 - [x] Dolin 2009  —  B. coagulans
+- [x] Dong 2011  —  L-Arginin
 - [x] Dong 2012  —  Berberin
 - [x] Earnest 2011  —  Astaxanthin
 - [x] EFSA 2014  —  Chrom
@@ -125,14 +132,18 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Escande 2013  —  Apigenin; Petersilie
 - [x] Eskesen 2015  —  B. lactis BB-12
 - [x] Estruch 2013  —  Olivenöl
+- [x] FDA 1999  —  Kolloidales Silber
 - [x] Fernandez-San-Martin 2010  —  Baldrian
 - [x] Fiore 2008  —  Süßholz
+- [x] Flodin 1997  —  L-Lysin
 - [x] Friederich 2000  —  Kürbiskern
 - [x] Funes 2009  —  Zitronenverbene
+- [x] Fung 1996  —  Kolloidales Silber
 - [x] Fusar-Poli 2020  —  Curcumin / Kurkuma
 - [x] Glamočlija 2015  —  Chaga
 - [x] Gluud 2013  —  BCAA
 - [x] Goos 2007  —  Senföl
+- [x] Griffith 1987  —  L-Lysin
 - [x] Grossman 2005  —  DMAE
 - [x] Guglielmetti 2011  —  B. bifidum
 - [x] Gupta 1997  —  Weihrauch
@@ -147,13 +158,17 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Hobson 2012  —  Beta-Alanin
 - [x] Howell 2010  —  Cranberry
 - [x] Hsu 2007  —  Mandelpilz
+- [x] Huyen 2010  —  Jiaogulan
+- [x] Hypericum Depression Trial 2002  —  Johanniskraut
 - [x] Ingólfsdóttir 1997  —  Isländisch Moos  «korrigiert»
 - [x] Inoue 2008  —  Camu-Camu
 - [x] Jacob 1986  —  DMSO
 - [x] Jepson 2012  —  Cranberry
+- [x] Jiang 2007  —  Jujube
 - [x] Jin 2012  —  Reishi
 - [x] Jugdaohsingh 2004  —  Silizium
 - [x] Juurlink 2016  —  Aktivkohle
+- [x] Kalman 2012  —  Kokoswasser
 - [x] Kaur 2011  —  DPA
 - [x] Kazemi 2019  —  B. longum R-175
 - [x] Kehrl 2004  —  Eukalyptusöl
@@ -161,6 +176,10 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Khan 2008  —  Catechine; EGCG
 - [x] Khan 2016  —  Eisenkraut  «korrigiert»
 - [x] Kimmatkar 2003  —  Weihrauch
+- [x] Kious 2019  —  Kreatin
+- [x] Kodama 2002  —  Klapperschwamm
+- [x] Koeth 2013  —  L-Carnitin
+- [x] Konno 2013  —  Klapperschwamm
 - [x] Koshak 2017  —  Schwarzkümmelöl
 - [x] Kranjčec 2014  —  D-Mannose
 - [x] Lai 2013  —  Igelstachelbart
@@ -168,6 +187,8 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Lennertz 2010  —  Szechuanpfeffer
 - [x] Leventhal 1993  —  Borretschöl
 - [x] Li 2015  —  ALCAR
+- [x] Lieberman 2006  —  Kokosöl
+- [x] Lim 2022  —  Ivermectin
 - [x] Linde 2008  —  Johanniskraut
 - [x] Lopresti 2019  —  Ashwagandha
 - [x] Ludy 2011  —  Capsaicin
@@ -183,6 +204,7 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Maurer 2001  —  Bromelain
 - [x] McGlade 2012  —  Citicolin
 - [x] McManus 1993  —  Desmodium  «korrigiert»
+- [x] McMorris 2006  —  Kreatin
 - [x] McRorie 2015  —  Psyllium
 - [x] Mennella 2016  —  Enzian  «korrigiert»
 - [x] Messaoudi 2011  —  B. longum R-175; Darm-Hirn-Achse
@@ -199,6 +221,7 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Naruszewicz 2007  —  Aronia
 - [x] Navarra 2015  —  Bergamottöl
 - [x] Ng 2017  —  Curcumin / Kurkuma
+- [x] Nicolaides 2003  —  Hesperidin
 - [x] Nielsen 1987  —  Bor  «korrigiert»
 - [x] Nobre 2008  —  L-Theanin
 - [x] Oe 2016  —  Hyaluronsäure
@@ -213,10 +236,14 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Pantuck 2006  —  Granatapfel
 - [x] Parisi 2008  —  Citicolin
 - [x] Paulraj 2013  —  Spilanthol
+- [x] Pekala 2011  —  L-Carnitin
+- [x] Perez-Guisado 2010  —  L-Citrullin
 - [x] Plovier 2017  —  A. muciniphila
 - [x] Pointel 1987  —  Gotu Kola
 - [x] Popp 2003  —  Biophotonen
+- [x] Prohaska 2008  —  Kupfer
 - [x] Proksch 2014  —  Kollagen
+- [x] Rae 2003  —  Kreatin
 - [x] Rafii 2011  —  Huperzin A
 - [x] Raina 2019  —  Wacholder
 - [x] Rapuri 2001  —  Bor  «korrigiert»
@@ -225,28 +252,37 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Rejuvant Trial 2021  —  Calcium-AKG
 - [x] Ried 2017  —  Kakaobohne
 - [x] Ritsner 2011  —  L-Theanin
+- [x] Roberfroid 2010  —  Inulin
 - [x] Rodriguez-Mateos 2014  —  Anthocyane
 - [x] Rondanelli 2013  —  Artischocke
 - [x] Roschek 2009  —  Brennnessel
 - [x] Rozengurt 2006  —  Enzian; TAS2R; Tausendgüldenkraut  «korrigiert»
+- [x] Saat 2002  —  Kokoswasser
 - [x] Safarinejad 2005  —  Brennnessel
 - [x] Sahebkar 2018  —  Artischocke
+- [x] Sakellaris 2006  —  Kreatin
 - [x] Salehi 2019  —  Apigenin; Petersilie
+- [x] Salem 2014  —  Krill-Öl
+- [x] Salter 2010  —  Hopfen
 - [x] Sandor 2005  —  CoQ10
+- [x] Sayles 2016  —  L-Glutamin
 - [x] Scaglione 1996  —  Ginseng
 - [x] Scheppach 1992  —  Butyrat
 - [x] Schini-Kerth 2010  —  OPC
 - [x] Schlemper 1996  —  Andorn
 - [x] Schmidt 2015  —  GOS
 - [x] Schwarz 1959  —  Chrom
+- [x] Schwedhelm 2008  —  L-Citrullin
 - [x] Shah 2007  —  Echinacea
 - [x] Sharma 2010  —  Bertramwurzel
 - [x] Sharma 2018  —  Ashwagandha
 - [x] Shishtar 2014  —  Ginseng
 - [x] Shrivastava 2007  —  Frauenmantel
+- [x] Simpson 2001  —  Himbeerblätter
 - [x] Singh 2014  —  Sulforaphan
 - [x] Sinha 2018  —  Glutathion
 - [x] Smith 2014  —  AHCC
+- [x] Stanislavov 2003  —  L-Arginin
 - [x] Stough 2001  —  Bacopa
 - [x] Stracke 2008  —  Benfotiamin
 - [x] Sumi 1987  —  B. subtilis
@@ -259,12 +295,16 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Tu 2011  —  Artemisia annua
 - [x] Turner 2006  —  5-HTP
 - [x] Tuten 1999  —  Arnika  «korrigiert»
+- [x] Ulven 2011  —  Krill-Öl
+- [x] van der Hulst 1993  —  L-Glutamin
 - [x] Veronese 2018  —  ALCAR
 - [x] Wachtel-Galor 2011  —  Reishi
 - [x] Walsh 1986  —  DLPA
 - [x] Wandel 2010  —  Glucosamin · Chondroitin
 - [x] Wattanathorn 2008  —  Gotu Kola
 - [x] Wegener 1999  —  Spitzwegerich
+- [x] WHO 2012  —  Kalium
+- [x] WHO 2019  —  Artemisia annua
 - [x] Widrig 2007  —  Arnika
 - [x] Wolfe 2017  —  BCAA
 - [x] Wolfson 2003  —  Helmkraut
@@ -275,7 +315,9 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Yates 2017  —  Catechine; EGCG  «korrigiert»
 - [x] Yin 2008  —  Berberin
 - [x] Yoon 2003  —  Judasohr
+- [x] Young 2007  —  L-Tryptophan
 - [x] Yousefzadeh 2018  —  Fisetin
+- [x] Zanoli 2005  —  Hopfen
 - [x] Zeisel 2007  —  Cholin; Phosphatidylcholin
 - [x] Ziegenfuss 2008  —  Alpha-GPC
 - [x] Ziegler 2006  —  ALA
@@ -283,21 +325,18 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [x] Zimmermann 2009  —  Iod
 - [x] Zuardi 2017  —  CBD
 
-## OFFEN (212)
+## OFFEN (172)
 - [ ] Barry 2011  —  Sägepalme
-- [ ] Belongia 1990  —  L-Tryptophan
 - [ ] Benjamin 1995  —  Inositol
 - [ ] Bhardwaj 2002  —  Piperin
 - [ ] Bhatt 2019  —  Omega-3
 - [ ] Bogan 2008  —  Vitamin B3
-- [ ] Brosnan 2006  —  L-Methionin
 - [ ] Burdge 2002  —  Leinsamenöl
 - [ ] Burdge 2005  —  Leinsamenöl
 - [ ] Burn 2020  —  Resistente Stärke
 - [ ] Buscemi 2006  —  Melatonin
 - [ ] Cao 2003  —  Sanddorn
 - [ ] Cao 2008  —  Macadamia
-- [ ] Cao 2010  —  Jujube
 - [ ] Casley-Smith 1993  —  Steinklee
 - [ ] Chambers 2015  —  Propionat
 - [ ] Chen 2010  —  Raupenpilz
@@ -309,13 +348,11 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] CTT 2010  —  Statine
 - [ ] Dai 2015  —  Shiitake
 - [ ] Darbinyan 2000  —  Rhodiola
-- [ ] Dayrit 2015  —  Kokosöl
 - [ ] Dean 2011  —  NAC
 - [ ] Debbi 2011  —  MSM
 - [ ] Deng 2010  —  Spirulina
 - [ ] Dietz 2017  —  Matcha
 - [ ] Dolara 1996  —  Myrrhe
-- [ ] Dong 2011  —  L-Arginin
 - [ ] Dording 2008  —  Maca
 - [ ] Dubey 2013  —  Spilanthol
 - [ ] Duscha 2020  —  Propionat
@@ -324,11 +361,8 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Eliaz 2006  —  Pektin
 - [ ] Enseleit 2012  —  Pycnogenol
 - [ ] Fan 2014  —  Selen
-- [ ] FDA 1999  —  Kolloidales Silber
 - [ ] FDA 2017  —  Biotin
 - [ ] Ferenci 2008  —  Mariendistel
-- [ ] Flodin 1997  —  L-Lysin
-- [ ] Fung 1996  —  Kolloidales Silber
 - [ ] Furnari 2010  —  PHGG
 - [ ] Garg 2003  —  Macadamia
 - [ ] Geleijnse 2004  —  Vitamin K2
@@ -337,7 +371,6 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Golomb 2008  —  Statine
 - [ ] Gonzales 2002  —  Maca
 - [ ] Green 2017  —  Vitamin B12
-- [ ] Griffith 1987  —  L-Lysin
 - [ ] Hausenblas 2013  —  Safran
 - [ ] Hawkins 2019  —  Holunder
 - [ ] Hawrelak 2010  —  Slippery Elm
@@ -348,17 +381,13 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Holick 2007  —  Vitamin D3
 - [ ] Holubarsch 2008  —  Weißdorn
 - [ ] Hoppe 2017  —  L. plantarum 299v
-- [ ] Huyen 2010  —  Jiaogulan
-- [ ] Hypericum Depression Trial 2002  —  Johanniskraut
 - [ ] Imdad 2010  —  Vitamin A
 - [ ] Ip 1996  —  Schisandra
 - [ ] Jacob 2015  —  DMSO
-- [ ] Jiang 2007  —  Jujube
 - [ ] Johnson 2012  —  Lutein · Zeaxanthin
 - [ ] Jongkees 2015  —  L-Tyrosin
 - [ ] Kadooka 2010  —  L. gasseri
 - [ ] Kalliomäki 2001  —  LGG
-- [ ] Kalman 2012  —  Kokoswasser
 - [ ] Kalus 2009  —  Zistrose
 - [ ] Kasper 2010  —  Lavendel
 - [ ] Katzenschlager 2004  —  Mucuna
@@ -368,13 +397,9 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Kim 2006  —  MSM
 - [ ] Kim 2008  —  Nattokinase
 - [ ] Kim 2018  —  L. gasseri
-- [ ] Kious 2019  —  Kreatin
 - [ ] Kirkland 2017  —  Quercetin
 - [ ] Klein 2011  —  Vitamin E
 - [ ] Knapen 2013  —  Vitamin K2
-- [ ] Kodama 2002  —  Klapperschwamm
-- [ ] Koeth 2013  —  L-Carnitin
-- [ ] Konno 2013  —  Klapperschwamm
 - [ ] Kuribara 1998  —  Magnolia
 - [ ] Langhorst 2013  —  Myrrhe
 - [ ] Larmo 2014  —  Sanddorn
@@ -382,8 +407,6 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Li 2014  —  Lycopin
 - [ ] Liao 2019  —  Omega-3
 - [ ] Liao 2021  —  NAD+ / NMN
-- [ ] Lieberman 2006  —  Kokosöl
-- [ ] Lim 2022  —  Ivermectin
 - [ ] Loguercio 2012  —  Mariendistel
 - [ ] Lonsdale 2006  —  Vitamin B1
 - [ ] Ma 2014  —  Vitamin C
@@ -397,7 +420,6 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Matsukura 2000  —  Zink-Carnosin
 - [ ] Mauskop 2012  —  Magnesium
 - [ ] McFarland 2006  —  S. boulardii
-- [ ] McMorris 2006  —  Kreatin
 - [ ] Middleton 2018  —  Omega-3
 - [ ] Mlcek 2016  —  Quercetin
 - [ ] Modaghegh 2008  —  Safran
@@ -406,7 +428,6 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] MRC 1991  —  Folat
 - [ ] Nakano 2012  —  PQQ
 - [ ] Neal 2009  —  MCT-Öl
-- [ ] Nicolaides 2003  —  Hesperidin
 - [ ] Niedzielin 2001  —  L. plantarum 299v
 - [ ] Nilsson 2018  —  L. reuteri
 - [ ] Nishimoto 1984  —  Suma
@@ -417,15 +438,11 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Oz 2011  —  Methylenblau
 - [ ] Panossian 2009  —  Schisandra
 - [ ] Patel 2017  —  Biotin
-- [ ] Pekala 2011  —  L-Carnitin
-- [ ] Perez-Guisado 2010  —  L-Citrullin
 - [ ] Pittler 2008  —  Weißdorn
 - [ ] Pittler 2012  —  Rosskastanie
 - [ ] Pollack 2013  —  Zeta-Potenzial
 - [ ] Pommier 2004  —  Ringelblume
 - [ ] Prasad 2008  —  Zink
-- [ ] Prohaska 2008  —  Kupfer
-- [ ] Rae 2003  —  Kreatin
 - [ ] Rajagopalan 1988  —  Molybdän
 - [ ] Rao 2015  —  PHGG
 - [ ] Rayman 2012  —  Selen
@@ -435,33 +452,24 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Ren 2017  —  Nattokinase
 - [ ] Riche 2014  —  Pterostilben
 - [ ] Rimando 2005  —  Pterostilben
-- [ ] Roberfroid 2010  —  Inulin
 - [ ] Robertson 2005  —  Resistente Stärke
 - [ ] Rogers 2010  —  Withdrawal Reversal
 - [ ] Rohdewald 2002  —  Pycnogenol
 - [ ] Rojas 2012  —  Methylenblau
 - [ ] Rosanoff 2012  —  Magnesium
-- [ ] Saat 2002  —  Kokoswasser
-- [ ] Sakellaris 2006  —  Kreatin
-- [ ] Salem 2014  —  Krill-Öl
-- [ ] Salter 2010  —  Hopfen
 - [ ] Sanders 2001  —  L. acidophilus
 - [ ] Savino 2010  —  L. reuteri
 - [ ] Saxena 2012  —  Tulsi
-- [ ] Sayles 2016  —  L-Glutamin
 - [ ] Schaffer 2010  —  Taurin
 - [ ] Schellenberg 2001  —  Mönchspfeffer
 - [ ] Schoenen 1998  —  Vitamin B2
 - [ ] Schrauzer 1990  —  Lithiumorotat
-- [ ] Schwedhelm 2008  —  L-Citrullin
 - [ ] Sen 2006  —  Vitamin E
 - [ ] Shah 2009  —  TAS2R
 - [ ] Sharma 2017  —  SAMe
 - [ ] Shoba 1998  —  Piperin
-- [ ] Simpson 2001  —  Himbeerblätter
 - [ ] Singh 2023  —  Taurin
 - [ ] Smith 2011  —  Rosmarin
-- [ ] Stanislavov 2003  —  L-Arginin
 - [ ] Stohs 2015  —  Moringa
 - [ ] Stremmel 2005  —  Phosphatidylcholin
 - [ ] Sun 2007  —  Limonenöl
@@ -475,15 +483,11 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Tiralongo 2016  —  Holunder
 - [ ] Trammell 2016  —  NR
 - [ ] Tunaru 2012  —  Rizinusöl
-- [ ] Ulven 2011  —  Krill-Öl
 - [ ] Unfer 2017  —  Inositol
 - [ ] Unno 2017  —  Matcha
-- [ ] van der Hulst 1993  —  L-Glutamin
 - [ ] Vang 2011  —  Resveratrol
 - [ ] Vieira 2000  —  Rizinusöl
 - [ ] Walle 2004  —  Resveratrol
-- [ ] WHO 2012  —  Kalium
-- [ ] WHO 2019  —  Artemisia annua
 - [ ] Wilkins 2002  —  Limonenöl
 - [ ] Wilt 2002  —  Pygeum
 - [ ] Winblad 2005  —  Piracetam
@@ -493,6 +497,4 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - [ ] Wyatt 1999  —  Vitamin B6
 - [ ] Yi 2004  —  Raupenpilz
 - [ ] Yoshino 2011  —  NAD+ / NMN
-- [ ] Young 2007  —  L-Tryptophan
-- [ ] Zanoli 2005  —  Hopfen
 - [ ] Zhao 2008  —  Pektin
