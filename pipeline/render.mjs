@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=57" />
+  <link rel="stylesheet" href="../../news.css?v=58" />
 </head>
 <body>
   <header class="top">
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=57" />
+  <link rel="stylesheet" href="../../news.css?v=58" />
 </head>
 <body>
   <header class="nav">
@@ -657,7 +657,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=57" />
+  <link rel="stylesheet" href="../../news/news.css?v=58" />
 </head>
 <body>
   <header class="top">
@@ -821,18 +821,17 @@ function readBildgebungArticles() {
   return out;
 }
 
-// Mini-Markdown: `## Heading` → <h2>, Leerzeile trennt Absätze. Reichen für
-// die strukturarmen Bodies aus den Bildgebung-Artikeln; kein voller MD-Parser.
+// Mini-Markdown: Leerzeile trennt Absaetze. Zwischenueberschriften
+// (## Heading, ### Heading, ...) werden absichtlich verworfen, damit
+// der Fliesstext der Bildgebung-Artikel ohne Unterbrechungen
+// durchlaeuft — nur h1 (Titel) und die "Quellenangaben"-h2 bleiben.
+// Die ## ...-Marker im body-Quelltext duerfen weiter als Struktur-
+// Notiz stehen; der Renderer rendert sie nicht.
 function mdToHtml(body) {
   const blocks = String(body || '').trim().split(/\n{2,}/).filter(Boolean);
   return blocks
-    .map((b) => {
-      const trimmed = b.trim();
-      if (trimmed.startsWith('## ')) {
-        return `<h2>${esc(trimmed.slice(3))}</h2>`;
-      }
-      return `<p>${esc(trimmed).replace(/\n/g, '<br />')}</p>`;
-    })
+    .filter((b) => !/^#{1,6}\s/.test(b.trim()))
+    .map((b) => `<p>${esc(b.trim()).replace(/\n/g, '<br />')}</p>`)
     .join('\n        ');
 }
 
@@ -910,7 +909,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:site_name" content="Mut zur Klarheit" />
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../../news/news.css?v=57" />
+  <link rel="stylesheet" href="../../../news/news.css?v=58" />
   <link rel="stylesheet" href="../bildgebung.css?v=3" />
 </head>
 <body>
