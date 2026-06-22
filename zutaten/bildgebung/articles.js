@@ -874,5 +874,74 @@ Die Pharmakologie hat geliefert. Die Aufmerksamkeitsökonomie sabotiert die Anwe
         },
       ],
     },
+    {
+      slug: "cholin-alpha-gpc-citicolin",
+      titel: "Die Substanz, die auf dem Etikett fehlt",
+      lead: "2003 hat eine Studie an 261 Alzheimer-Patienten gezeigt, dass Alpha-GPC die Kognition signifikant verbessert. Seitdem ist nichts passiert. Die Substanz lässt sich nicht patentieren.",
+      filter: ["Klarheit"],
+      date: "2026-06-22",
+      body: `Acetylcholin steuert Aufmerksamkeit, Gedächtnisbildung und die Kommunikation zwischen Hippocampus und Cortex. Die cholinergen Neuronen im basalen Vorderhirn sind die erste Population, die bei Alzheimer degeneriert. Donepezil und Rivastigmin, die zugelassenen Medikamente, verlangsamen den Abbau von Acetylcholin. Sie reparieren nichts. Sie verlängern die Halbwertszeit eines Neurotransmitters, dessen Produktion versiegt.
+
+Die Produktion hängt am Cholin. Der Körper kann Cholin in begrenztem Umfang selbst herstellen, aber nicht genug. Zeisel 2009 zeigt, dass die Mehrheit der Bevölkerung in westlichen Industrieländern unter der empfohlenen Tageszufuhr von 550 mg liegt. Cholin ist ein essentieller Nährstoff, den fast niemand kennt und fast niemand ausreichend aufnimmt.
+
+Drei Formen stehen im Regal. Cholinbitartrat ist die billigste. Sie passiert die Blut-Hirn-Schranke schlecht und erhöht die Acetylcholin-Spiegel im Gehirn kaum messbar. Alpha-GPC passiert die Schranke. De Jesus Moreno 2003 testet 1200 mg Alpha-GPC täglich über sechs Monate an 261 Patienten mit leichter bis moderater Alzheimer-Demenz. Die Kognition verbessert sich signifikant gegenüber Placebo, gemessen auf vier verschiedenen Skalen. Das ist die größte placebokontrollierte Studie zu einem Cholinpräkursor bei Alzheimer. In Europa ist Alpha-GPC als Arzneimittel zugelassen. In den USA als Supplement.
+
+Citicolin geht einen doppelten Weg. Es liefert Cholin für die Acetylcholin-Synthese und Cytidin für die Phospholipid-Reparatur der Zellmembranen. McGlade 2012 findet unter Citicolin verbesserte Aufmerksamkeit und Impulskontrolle bei gesunden Frauen mittleren Alters. Davalos 2012 testet Citicolin im ICTUS-Trial an über 2000 Schlaganfall-Patienten, publiziert im Lancet. Der primäre Endpunkt wird nicht erreicht, aber die Sicherheitsdaten sind makellos und Subgruppenanalysen zeigen Trends bei moderatem Schweregrad.
+
+Was im Reformhaus steht, ist meistens Cholinbitartrat. Die billigste Form mit der schlechtesten Gehirnverfügbarkeit. Auf der Packung steht »Cholin 500 mg« ohne Angabe der Form. Wer Alpha-GPC und Cholinbitartrat für austauschbar hält, hält auch Leitungswasser und Espresso für dasselbe, weil beides Flüssigkeit ist.
+
+Donepezil kostet im Patent Milliarden. Alpha-GPC ist seit Jahrzehnten patentfrei. Die Frage, ob man den Nachschub erhöhen könnte statt nur den Abbau zu verlangsamen, wurde 2003 beantwortet und dann fallengelassen. Eine Studie. Signifikant. Vergessen. Niemand verdient an einem Nährstoff, den man nicht monopolisieren kann. Also steht er nicht in den Leitlinien. Also steht im Reformhaus die billige Form. Und irgendwo vergisst eine Mutter den Namen ihres Sohnes.`,
+      quellen: [
+        {
+          autoren: "Manuel De Jesus Moreno Moreno",
+          titel: "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+          journal: "Clinical Therapeutics",
+          vol: "Vol. 25, No. 1",
+          datum: "Januar 2003",
+          seiten: "178—193",
+          doi: "10.1016/S0149-2918(03)90023-3",
+          pmid: "12637119",
+        },
+        {
+          autoren: "Steven Zeisel, Kerry-Ann da Costa",
+          titel: "Choline: an essential nutrient for public health",
+          journal: "Nutrition Reviews",
+          vol: "Vol. 67, No. 11",
+          datum: "November 2009",
+          seiten: "615—623",
+          doi: "10.1111/j.1753-4887.2009.00246.x",
+          pmid: "19906248",
+        },
+        {
+          autoren: "Erin McGlade, Allison Locatelli, Julia Hardy, et al.",
+          titel: "Improved Attentional Performance Following Citicoline Administration in Healthy Adult Women",
+          journal: "Food and Nutrition Sciences",
+          vol: "Vol. 3, No. 6",
+          datum: "2012",
+          seiten: "769—773",
+          doi: "10.4236/fns.2012.36103",
+        },
+        {
+          autoren: "Antoni Davalos, José Alvarez-Sabín, Joan Castillo, et al.",
+          titel: "Citicoline in the treatment of acute ischaemic stroke: an international, randomised, multicentre, placebo-controlled study (ICTUS trial)",
+          journal: "The Lancet",
+          vol: "Vol. 380, No. 9839",
+          datum: "Juli 2012",
+          seiten: "349—357",
+          doi: "10.1016/S0140-6736(12)60813-7",
+          pmid: "22691567",
+        },
+        {
+          autoren: "Vincenzo Parisi, Giulio Manni, Monica Colacino, et al.",
+          titel: "Cytidine-5'-diphosphocholine (Citicoline) improves retinal and cortical responses in patients with glaucoma",
+          journal: "Progress in Brain Research",
+          vol: "Vol. 173",
+          datum: "2008",
+          seiten: "541—554",
+          doi: "10.1016/S0079-6123(08)01138-0",
+          pmid: "18929129",
+        },
+      ],
+    },
   ],
 };

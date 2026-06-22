@@ -89,6 +89,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "klarheit"
       ]
+    },
+    {
+      "href": "cholin-alpha-gpc-citicolin/",
+      "title": "Die Substanz, die auf dem Etikett fehlt",
+      "lead": "2003 hat eine Studie an 261 Alzheimer-Patienten gezeigt, dass Alpha-GPC die Kognition signifikant verbessert. Seitdem ist nichts passiert. Die Substanz lässt sich nicht patentieren.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "klarheit"
+      ]
     }
   ]
 };
