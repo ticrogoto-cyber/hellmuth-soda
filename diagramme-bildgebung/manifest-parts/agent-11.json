@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "glutamin-zink-carnosin-schleimhaut",
+    "essay_url": "/zutaten/bildgebung/glutamin-zink-carnosin-schleimhaut/",
+    "svg_file": "diagramm-glutamin-zink-carnosin-schleimhaut.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Zink-Carnosin arbeitet auf der anderen",
+    "closer_text": "Die Darmschleimhaut fragt nicht nach Marketing.",
+    "notes": "Drei-Spalten-Triade: GLUTAMIN (nährt Enterozyten), ZINK (heilt Ulkus, Polaprezinc), CARNOSIN (trägt Zink, senkt Permeabilität). Sep-Wort: WAND. Diagramm steht zwischen Mechanismus-Erklärung und Schluss-Pointe."
+  },
+  {
+    "essay_slug": "bitter-tas2r-amara-geschmack",
+    "essay_url": "/zutaten/bildgebung/bitter-tas2r-amara-geschmack/",
+    "svg_file": "diagramm-bitter-tas2r-amara-geschmack.svg",
+    "diagram_type": "D (Körperkarte)",
+    "insert_after_paragraph_starting_with": "Auf Immunzellen modulieren TAS2R-Agonisten",
+    "closer_text": "Die Industrie verkauft einen Verdauungshelfer und verschweigt ein Signalsystem.",
+    "notes": "Körperkarte: TAS2R zentral, sechs Anker (Zunge, Bronchien, Darm links; Gehirn, Nase, Immunzellen rechts). Gestrichelte Linien strahlen vom zentralen Punkt (340,90) zu Anker-Kreisen, ohne Text-Bboxen zu kreuzen. Sep-Wort: SIGNAL. Diagramm steht nach Multi-Organ-Befund und vor der Amara-Tradition."
+  },
+  {
+    "essay_slug": "chlorophyll-was-gruen-kann",
+    "essay_url": "/zutaten/bildgebung/chlorophyll-was-gruen-kann/",
+    "svg_file": "diagramm-chlorophyll-was-gruen-kann.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Die Geruchsbindung ist reproduzierbar und",
+    "closer_text": "Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.",
+    "notes": "Gabelung: CHLOROPHYLL teilt sich in TIKTOK (links, warn-Farbe #6B0F1A: Detox, Hautglow, Gewichtsverlust) und PHARMAKOLOGIE (rechts: Aflatoxin −55%, Wundheilung, Geruchsbindung). Sep-Wort: GABELUNG. Diagramm steht nach pharmakologischer Belege-Trias und vor dem TikTok-Absatz."
+  }
+]

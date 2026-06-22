@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "brennnessel-urtica-prostata",
+    "essay_url": "/zutaten/bildgebung/brennnessel-urtica-prostata/",
+    "svg_file": "diagramm-brennnessel-urtica-prostata.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Urtica dioica ist pharmakologisch zwei Pflanzen.",
+    "closer_text": "Wer eine Prostatawirkung erwartet und Blattextrakt kauft, kauft das Falsche.",
+    "notes": "Gabelung: Urtica dioica teilt sich in WURZEL (Lignane, Phytosterole → Prostata, sechs RCTs) und BLATT (Flavonoide, Caffeoylsäure → Allergie, Glukosestoffwechsel). Eine Pflanze, zwei pharmakologische Identitäten, ein Etikett. Sep-Wort: GABELUNG. Diagramm steht nach dem Mechanismus-Absatz und vor dem Studien-Beleg (Safarinejad 2005)."
+  },
+  {
+    "essay_slug": "wacholder-juniperus-terpinen",
+    "essay_url": "/zutaten/bildgebung/wacholder-juniperus-terpinen/",
+    "svg_file": "diagramm-wacholder-juniperus-terpinen.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Die EMA führt Juniperus communis mit",
+    "closer_text": "Die Medizin hat drei davon vergessen und trinkt die vierte.",
+    "notes": "Vier-Wege-Fanout aus einer Beere: GEWÜRZ, DIURETIKUM (Terpinen-4-ol, kaliumsparend), ANTIMIKROBIKUM (gram+/-/Candida, Raina 2019), GIN-BASIS (EU 1576/89). Typ A erweitert um vierte Spalte — vier kongruente Karrieren statt drei. Sep-Wort: SPAGAT. Diagramm steht nach dem Regulatorik-Absatz und vor dem Closer-Absatz."
+  },
+  {
+    "essay_slug": "zitronenverbene-verbascoside-sport",
+    "essay_url": "/zutaten/bildgebung/zitronenverbene-verbascoside-sport/",
+    "svg_file": "diagramm-zitronenverbene-verbascoside-sport.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Hochdosiertes Vitamin C und Vitamin E",
+    "closer_text": "Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken.",
+    "notes": "Gabelung: ROS nach Sport teilen sich in VITAMIN C (warn-rot, Megadose löscht Signal mit, Adaptation blockiert) und VERBASCOSIDE (dämpft Schaden, lässt Signal stehen, Funes 2011 / Buchwald-Werner 2018). Sep-Wort: BOTSCHAFT. Diagramm steht nach dem Mechanismus-Absatz (ROS als Signal, Buchwald-Werner) und vor dem Schlaf-Absatz (Afrasiabian 2019)."
+  }
+]

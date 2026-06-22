@@ -70,26 +70,23 @@
   </g>
 
   <g class="reveal" data-delay="500">
-    <line class="sep" x1="215" y1="195" x2="215" y2="205"/>
+    <line class="sep" x1="195" y1="195" x2="195" y2="205"/>
   </g>
   <g class="reveal lift" data-delay="520">
-    <text class="h-res" x="215" y="184" font-size="11" text-anchor="middle">3 TAGE</text>
+    <text class="h-res" x="195" y="184" font-size="11" text-anchor="middle">3 TAGE</text>
   </g>
   <g class="reveal lift" data-delay="560">
-    <text class="sub" x="215" y="222" font-size="10.5" text-anchor="middle">Rezension wird geschrieben</text>
-  </g>
-  <g class="reveal lift" data-delay="600">
-    <text class="sub" x="215" y="236" font-size="10.5" text-anchor="middle">Glas zurück ins Regal</text>
+    <text class="sub" x="195" y="222" font-size="10.5" text-anchor="middle">Käufer bricht ab</text>
   </g>
 
   <g class="reveal" data-delay="620">
-    <line class="sep" x1="350" y1="195" x2="350" y2="205"/>
+    <line class="sep" x1="340" y1="195" x2="340" y2="205"/>
   </g>
   <g class="reveal lift" data-delay="640">
-    <text class="h-res" x="350" y="184" font-size="11" text-anchor="middle">EINZELDOSIS</text>
+    <text class="h-res" x="340" y="184" font-size="11" text-anchor="middle">EINZELDOSIS</text>
   </g>
   <g class="reveal lift" data-delay="680">
-    <text class="sub" x="350" y="222" font-size="10.5" text-anchor="middle">Nathan 2001 misst nichts</text>
+    <text class="sub" x="340" y="222" font-size="10.5" text-anchor="middle">Nathan 2001 misst nichts</text>
   </g>
 
   <g class="reveal" data-delay="700">
@@ -99,10 +96,10 @@
     <text class="h-res" x="485" y="184" font-size="11" text-anchor="middle">6 WOCHEN</text>
   </g>
   <g class="reveal lift" data-delay="760">
-    <text class="sub" x="485" y="222" font-size="10.5" text-anchor="middle">Bacoside A und B beginnen</text>
+    <text class="sub" x="485" y="222" font-size="10.5" text-anchor="middle">Bacoside verzweigen</text>
   </g>
   <g class="reveal lift" data-delay="800">
-    <text class="sub" x="485" y="236" font-size="10.5" text-anchor="middle">dendritisch zu verzweigen</text>
+    <text class="sub" x="485" y="236" font-size="10.5" text-anchor="middle">Dendriten neuronal</text>
   </g>
 
   <g class="reveal" data-delay="820">

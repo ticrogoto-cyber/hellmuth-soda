@@ -49,51 +49,51 @@
 
   <g class="col-group" data-col="t1">
     <g class="reveal lift" data-delay="200">
-      <text class="h-res" x="100" y="148" font-size="11" text-anchor="middle">ENTDECKUNG</text>
+      <text class="h-res" x="90" y="148" font-size="11" text-anchor="middle">ENTDECKUNG</text>
     </g>
     <g class="reveal lift" data-delay="240">
-      <text class="sub" x="100" y="166" font-size="10.5" text-anchor="middle">Knoblauch auf der Zunge,</text>
-      <text class="sub" x="100" y="180" font-size="10.5" text-anchor="middle">DMSO im Blut</text>
+      <text class="sub" x="90" y="168" font-size="10.5" text-anchor="middle">Knoblauch im Mund,</text>
+      <text class="sub" x="90" y="182" font-size="10.5" text-anchor="middle">DMSO im Blut</text>
     </g>
   </g>
 
   <g class="col-group" data-col="t2">
     <g class="reveal lift" data-delay="220">
-      <text class="h-res" x="240" y="148" font-size="11" text-anchor="middle">PUBLIKATION</text>
+      <text class="h-res" x="225" y="148" font-size="11" text-anchor="middle">PUBLIKATION</text>
     </g>
     <g class="reveal lift" data-delay="260">
-      <text class="sub" x="240" y="166" font-size="10.5" text-anchor="middle">Jacob &amp; Herschler:</text>
-      <text class="sub" x="240" y="180" font-size="10.5" text-anchor="middle">Membran-Carrier</text>
+      <text class="sub" x="225" y="168" font-size="10.5" text-anchor="middle">Jacob &amp; Herschler,</text>
+      <text class="sub" x="225" y="182" font-size="10.5" text-anchor="middle">Membran-Carrier</text>
     </g>
   </g>
 
   <g class="col-group" data-col="t3">
     <g class="reveal lift" data-delay="240">
-      <text class="h-res warn-fill" x="380" y="148" font-size="11" text-anchor="middle">FDA-BLOCKADE</text>
+      <text class="h-res warn-fill" x="360" y="148" font-size="11" text-anchor="middle">FDA-BLOCKADE</text>
     </g>
     <g class="reveal lift" data-delay="280">
-      <text class="sub" x="380" y="166" font-size="10.5" text-anchor="middle">Hundeauge, Thalidomid,</text>
-      <text class="sub" x="380" y="180" font-size="10.5" text-anchor="middle">Forschung gestoppt</text>
+      <text class="sub" x="360" y="168" font-size="10.5" text-anchor="middle">Hundeauge, Skandal,</text>
+      <text class="sub" x="360" y="182" font-size="10.5" text-anchor="middle">Forschung gestoppt</text>
     </g>
   </g>
 
   <g class="col-group" data-col="t4">
     <g class="reveal lift" data-delay="260">
-      <text class="h-res" x="520" y="148" font-size="11" text-anchor="middle">RIMSO-50</text>
+      <text class="h-res" x="490" y="148" font-size="11" text-anchor="middle">RIMSO-50</text>
     </g>
     <g class="reveal lift" data-delay="300">
-      <text class="sub" x="520" y="166" font-size="10.5" text-anchor="middle">Interstitielle Zystitis,</text>
-      <text class="sub" x="520" y="180" font-size="10.5" text-anchor="middle">eine einzige Indikation</text>
+      <text class="sub" x="490" y="168" font-size="10.5" text-anchor="middle">Blaseninstillation,</text>
+      <text class="sub" x="490" y="182" font-size="10.5" text-anchor="middle">eine Indikation</text>
     </g>
   </g>
 
   <g class="col-group" data-col="t5">
     <g class="reveal lift" data-delay="280">
-      <text class="h-res" x="608" y="148" font-size="11" text-anchor="middle">HEUTE</text>
+      <text class="h-res" x="610" y="148" font-size="11" text-anchor="middle">HEUTE</text>
     </g>
     <g class="reveal lift" data-delay="320">
-      <text class="sub" x="608" y="166" font-size="10.5" text-anchor="middle">Veterinär, Europa,</text>
-      <text class="sub" x="608" y="180" font-size="10.5" text-anchor="middle">topisch im Ausland</text>
+      <text class="sub" x="610" y="168" font-size="10.5" text-anchor="middle">Veterinärmedizin,</text>
+      <text class="sub" x="610" y="182" font-size="10.5" text-anchor="middle">Europa, topisch</text>
     </g>
   </g>
 
