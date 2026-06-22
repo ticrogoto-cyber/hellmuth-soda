@@ -393,7 +393,7 @@ window.SUBSTANCES_DATA = {
       name: "Bergamottöl (Citrus bergamia)",
       slug: "bergamottoel-citrus-bergamia",
       shortName: "Bergamottöl",
-      szenario: null,
+      szenario: 3,
       kategorie: "Substanz",
       unterkategorie: "Öl",
       werbung: "Citrus-Essenz für Stimmung und Aromatherapie. Bergamotte als beruhigendes ätherisches Öl in Earl Grey und Parfüm.",
