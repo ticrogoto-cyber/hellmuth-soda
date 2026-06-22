@@ -1092,5 +1092,74 @@ NAD+ sinkt mit dem Alter. NMN hebt NAD+ im Blut an. Ob das die Gesundheitsspanne
         },
       ],
     },
+    {
+      slug: "dmso-loesungsmittel-heilmittel",
+      titel: "Das Lösungsmittel, das durch die Haut geht",
+      lead: "DMSO durchdringt die Haut in Sekunden und nimmt mit, was darauf liegt. Stanley Jacob entdeckte das 1963, als er es verschüttete und Knoblauch schmeckte. Sechzig Jahre später hat die FDA eine einzige Indikation genehmigt. Zwölfhundert Publikationen sagen, es hätten mehr sein müssen.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `1962 suchte der Chirurg Stanley Jacob an der University of Oregon nach einem Konservierungsmittel für Spenderorgane. Er arbeitete mit Dimethylsulfoxid, einem farblosen Nebenprodukt der Zellstoffherstellung. Als er DMSO auf die Haut bekam, schmeckte er Sekunden später Knoblauch im Mund. Die Substanz hatte seine Haut durchdrungen, war in den Blutkreislauf gelangt und hatte die Geschmacksrezeptoren erreicht, bevor er sich die Hände waschen konnte. Jacob verstand sofort, was er gefunden hatte.
+
+Jacob und Herschler publizierten 1964 die ersten Befunde. DMSO durchdringt biologische Membranen, ohne sie zu beschädigen. Es wirkt entzündungshemmend, schmerzlindernd, muskelrelaxierend. Es fängt Hydroxylradikale ab, hemmt NF-kB, reduziert die Leitungsgeschwindigkeit in peripheren Nerven. Wer DMSO auf ein geschwollenes Knie aufträgt, spürt nach Minuten, wie die Spannung nachlässt, und schmeckt Knoblauch. Beides gleichzeitig. Und es transportiert gelöste Substanzen durch die Haut mit. Ein Wirkstoff, der gleichzeitig Entzündungshemmer und transdermaler Carrier ist. Die Pharmakologie hatte dafür kein Vorbild.
+
+Dann kam der Thalidomid-Skandal. Die FDA blockierte Mitte der sechziger Jahre jede klinische DMSO-Forschung. Anlass war eine Tierstudie, in der Hunde und Kaninchen unter hohen Dosen Linsentrübungen zeigten. Der Befund wurde nie beim Menschen repliziert. Jacob verbrachte den Rest seiner Karriere damit, für DMSO zu kämpfen.
+
+Er verlor. 1978 genehmigte die FDA eine einzige Indikation. Interstitielle Zystitis, Blaseninstillation, Markenname Rimso-50. Seitdem nichts. Über tausend Publikationen zur Schmerzlinderung, Entzündungshemmung, Neuroprotection, Wundheilung. Keine zweite Zulassung.
+
+In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmedizin ist es Standardtherapie bei Gelenkentzündungen. Die Substanz ist billig, stabil, gut verträglich und seit Jahrzehnten im Einsatz. Dass sie in der Humanmedizin auf eine Blasenspülung reduziert wurde, geht auf eine regulatorische Entscheidung von 1965 zurück, die auf einer Tierstudie beruhte, die nie bestätigt wurde.
+
+Weil DMSO alles durch die Haut transportiert, muss die Reinheit stimmen. Pharmazeutische Qualität. Saubere Haut. Wer Industrieware auf ungewaschene Hände aufträgt, schiebt Schmutz in den Blutkreislauf. Wer daraus einen Einwand gegen die Substanz ableitet, verwechselt den Wirkstoff mit der Regulierung. Die FDA hätte pharmazeutische Standards setzen können, statt die Forschung zu blockieren.
+
+Stanley Jacob starb 2015. Die Substanz, für die er fünfzig Jahre kämpfte, ist in Amerika immer noch eine Blasenspülung.`,
+      quellen: [
+        {
+          autoren: "Stanley Jacob, Marc Bischel, Robert Herschler",
+          titel: "Dimethyl sulfoxide (DMSO): a new concept in pharmacotherapy",
+          journal: "Current Therapeutic Research",
+          vol: "Vol. 6",
+          datum: "1964",
+          seiten: "134—135",
+        },
+        {
+          autoren: "Stanley Jacob, Robert Herschler",
+          titel: "Pharmacology of DMSO",
+          journal: "Cryobiology",
+          vol: "Vol. 23, No. 1",
+          datum: "Februar 1986",
+          seiten: "14—27",
+          doi: "10.1016/0011-2240(86)90014-3",
+          pmid: "3510996",
+        },
+        {
+          autoren: "Natalia Santos, José Figueira-Coelho, José Martins-Silva, et al.",
+          titel: "Multidisciplinary utilization of dimethyl sulfoxide: pharmacological, cellular, and molecular aspects",
+          journal: "Biochemical Pharmacology",
+          vol: "Vol. 65, No. 7",
+          datum: "April 2003",
+          seiten: "1035—1041",
+          doi: "10.1016/S0006-2952(03)00002-9",
+          pmid: "12663039",
+        },
+        {
+          autoren: "Kirk Capriotti, Joseph Capriotti",
+          titel: "Dimethyl Sulfoxide: History, Chemistry, and Clinical Utility in Dermatology",
+          journal: "Journal of Clinical and Aesthetic Dermatology",
+          vol: "Vol. 5, No. 9",
+          datum: "September 2012",
+          seiten: "24—26",
+          pmid: "23050031",
+        },
+        {
+          autoren: "William Rawls, Lindsey Cox, Eric Rovner",
+          titel: "Dimethyl sulfoxide (DMSO) as intravesical therapy for interstitial cystitis/bladder pain syndrome: A review",
+          journal: "Neurourology and Urodynamics",
+          vol: "Vol. 36, No. 7",
+          datum: "September 2017",
+          seiten: "1677—1684",
+          doi: "10.1002/nau.23204",
+          pmid: "28220525",
+        },
+      ],
+    },
   ],
 };
