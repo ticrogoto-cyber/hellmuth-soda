@@ -4,7 +4,7 @@ window.BILDGEBUNG_DATA = {
     {
       "href": "hopfen-jenseits-vom-bier/",
       "title": "Hopfen jenseits vom Bier",
-      "lead": "Die am besten erforschte Nervenpflanze Europas wird als Schlaftee verkauft. Ihr pharmakologisches Profil reicht von Anxiolyse bis Onkologie.",
+      "lead": "Die am besten erforschte Nervenpflanze Europas wird als Schlaftee verkauft. Was die Forschung weiß und das Regal verschweigt.",
       "date": "2026-06-21",
       "created": "2026-06-21",
       "minutes": 3,
@@ -18,9 +18,20 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die einzige bekannte Nahrungsquelle, die Nervenwachstumsfaktor im Gehirn stimuliert, steht im Asia-Markt neben den Shiitake.",
       "date": "2026-06-21",
       "created": "2026-06-21",
-      "minutes": 4,
+      "minutes": 3,
       "filters": [
         "klarheit"
+      ]
+    },
+    {
+      "href": "spilanthol-trigeminale-aktivierung/",
+      "title": "Das Molekül, das die Zunge vibrieren lässt",
+      "lead": "Spilanthol aktiviert Berührungsfasern im Gesicht mit einer messbaren Frequenz von fünfzig Hertz. Die Empfindung gehört weder zum Geschmack noch zum Schmerz. Sie gehört zum Tastsinn.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 3,
+      "filters": [
+        "substanz"
       ]
     }
   ]
