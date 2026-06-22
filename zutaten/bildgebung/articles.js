@@ -1709,5 +1709,58 @@ Ein Küchenkraut mit NAD+-Relevanz, das neben dem Hauptgericht liegt und zurück
         },
       ],
     },
+    {
+      slug: "biophotonen-ultraschwache-photonenemission",
+      titel: "Das Licht, das beide Seiten ruiniert haben",
+      lead: "Jede lebende Zelle emittiert messbare Photonen. Die Physik ist reproduziert, die Messung steht. Die Esoterik hat das Phänomen vereinnahmt, die Wissenschaft hat aufgehört hinzusehen. Beide haben versagt.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `1922 beschreibt der russische Biologe Alexander Gurwitsch eine ultraschwache Strahlung, die von Zwiebelwurzeln ausgeht und in Nachbarzellen die Zellteilung stimuliert. Die Fachwelt ignoriert ihn. In den 1970er Jahren baut der deutsche Biophysiker Fritz-Albert Popp Photomultiplier-Systeme, die empfindlich genug sind, um das zu messen, was Gurwitsch behauptet hatte. Das Ergebnis war eindeutig. Jede lebende Zelle emittiert zwischen einem und einigen hundert Photonen pro Sekunde pro Quadratzentimeter, im Bereich von 200 bis 800 Nanometern. Popp nennt sie Biophotonen.
+
+Die Quellen sind identifiziert. Oxidative Prozesse in der mitochondrialen Atmungskette und Lipidperoxidation an Zellmembranen erzeugen die Emission. Tumorzellen emittieren messbar anders als gesunde Zellen. Gestresste Pflanzen emittieren anders als ungestresste. Keimfähige Sojabohnen emittieren doppelt so stark wie nicht keimfähige. Die Messung ist reproduziert, in unabhängigen Laboren, über Jahrzehnte. Die Physik steht.
+
+Dann kam die Interpretation. Popp selbst postulierte, die Emission sei kohärent und reguliere zelluläre Prozesse. Cifra und Pospíšil widersprechen in einer kritischen Analyse 2015 und nennen die Kohärenz-Interpretation umstritten und in der Fachwelt nicht akzeptiert. Die Daten zur Emission stehen. Die Theorie, dass Licht der fundamentale Regulator des Lebens sei, steht auf dünnerem Eis.
+
+Was danach passierte, hat den Schaden vervollständigt. Die Esoterik-Szene hat Biophotonen zu »Lebensenergie« erklärt und mit Reiki, Kristallheilung und »biophotonischen Lebensmitteln« verknüpft. Die Messdaten wurden in einen Sumpf gezogen, aus dem die seriöse Forschung sich kaum noch heraustraut. Wer heute »Biophotonen« googelt, findet zehn Esoterik-Shops und eine Pubmed-Suche.
+
+Zellen leuchten. Das ist gemessen, reproduziert und publiziert. Wer das für Esoterik hält, hat die Daten nie gelesen. Wer daraus Lebensenergie macht, hat sie missbraucht. Das Phänomen verdient Forschung. Es hat Fans und Feinde bekommen. Beide haben aufgehört zu lesen.`,
+      quellen: [
+        {
+          autoren: "Fritz-Albert Popp, Yan Yu",
+          titel: "Biophoton emission of the human body",
+          journal: "Indian Journal of Experimental Biology",
+          vol: "Vol. 41",
+          datum: "Mai 2003",
+          seiten: "440—445",
+          pmid: "15244259",
+        },
+        {
+          autoren: "Roeland Van Wijk, Eduard Van Wijk",
+          titel: "An introduction to human biophoton emission",
+          journal: "Forschende Komplementärmedizin und Klassische Naturheilkunde",
+          vol: "Vol. 12, No. 2",
+          datum: "April 2005",
+          seiten: "77—83",
+          doi: "10.1159/000083763",
+          pmid: "15947465",
+        },
+        {
+          autoren: "Michal Cifra, Pavel Pospíšil",
+          titel: "Biophotons, coherence and photocount statistics: a critical review",
+          dokument: "arXiv:1502.07316 (Preprint)",
+          datum: "Februar 2015",
+        },
+        {
+          autoren: "Jamie K. Adams, Daqing Piao, et al.",
+          titel: "Ultra weak photon emission — a brief review",
+          journal: "Frontiers in Physiology",
+          vol: "Vol. 15",
+          datum: "Januar 2024",
+          seiten: "1348915",
+          doi: "10.3389/fphys.2024.1348915",
+          pmid: "38384806",
+        },
+      ],
+    },
   ],
 };

@@ -243,6 +243,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "biophotonen-ultraschwache-photonenemission/",
+      "title": "Das Licht, das beide Seiten ruiniert haben",
+      "lead": "Jede lebende Zelle emittiert messbare Photonen. Die Physik ist reproduziert, die Messung steht. Die Esoterik hat das Phänomen vereinnahmt, die Wissenschaft hat aufgehört hinzusehen. Beide haben versagt.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };
