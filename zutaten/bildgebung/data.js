@@ -385,6 +385,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unklar"
       ]
+    },
+    {
+      "href": "mitochondrien-coq10-pqq-alcar/",
+      "title": "Die Kraftwerke sterben leise",
+      "lead": "Mitochondrien produzieren das ATP, von dem jede Zelle lebt. Ihre Kapazität sinkt mit dem Alter um zehn bis fünfzehn Prozent pro Dekade. Drei Substanzen greifen an verschiedenen Stellen ein. Die Supplement-Industrie verkauft sie einzeln und erklärt den Zusammenhang nie.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 4,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };

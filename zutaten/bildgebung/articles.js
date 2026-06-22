@@ -2358,5 +2358,61 @@ Curcumin ist gleichzeitig eine der bestuntersuchten und eine der am schlechteste
         },
       ],
     },
+    {
+      slug: "mitochondrien-coq10-pqq-alcar",
+      titel: "Die Kraftwerke sterben leise",
+      lead: "Mitochondrien produzieren das ATP, von dem jede Zelle lebt. Ihre Kapazität sinkt mit dem Alter um zehn bis fünfzehn Prozent pro Dekade. Drei Substanzen greifen an verschiedenen Stellen ein. Die Supplement-Industrie verkauft sie einzeln und erklärt den Zusammenhang nie.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Mit vierzig beginnt die Müdigkeit. Mit sechzig ist sie Grundverfassung. Die Zellbiologie nennt das mitochondriale Dysfunktion. Die Medizin nennt es Alter und zuckt mit den Schultern. Jede menschliche Zelle enthält zwischen hundert und zweitausend Mitochondrien, je nach Energiebedarf. Herzmuskelzellen liegen am oberen Ende. Hautzellen am unteren. Die Mitochondrien produzieren ATP über die Atmungskette, eine Abfolge von Proteinkomplexen, durch die Elektronen fließen und dabei einen Protonengradienten aufbauen, der die ATP-Synthase antreibt. Wenn diese Kette ineffizienter wird, sinkt die Energieproduktion, steigt der oxidative Stress und beginnt ein Kreislauf, in dem beschädigte Mitochondrien mehr Radikale produzieren, die weitere Mitochondrien beschädigen.
+
+Das passiert in jeder Zelle, in jedem Organ, in jedem Jahrzehnt. Die Folgen heißen Müdigkeit, kognitive Verlangsamung, Herzinsuffizienz, Sarkopenie, Immunschwäche. Die Kardiologie nennt es diastolische Dysfunktion. Die Neurologie nennt es altersassoziierte kognitive Einbuße. Jede Disziplin benennt ihre Version und übersieht die gemeinsame Ursache. Die Medizin behandelt die Symptome. Die Mitochondrien behandelt sie selten.
+
+CoQ10 ist der Elektronencarrier zwischen Komplex I, II und III der Atmungskette. Ohne CoQ10 kommt kein Elektron weiter, kein Proton wird gepumpt, kein ATP wird produziert. Der Körper synthetisiert CoQ10 selbst, aber die Synthese sinkt ab dem dreißigsten Lebensjahr. Statine beschleunigen den Verlust, weil sie denselben Mevalonat-Weg hemmen, über den auch CoQ10 entsteht. Wer Statine nimmt und kein CoQ10 supplementiert, hemmt die Cholesterinsynthese und die Energieproduktion mit derselben Tablette. Die Myalgien, die dreißig Prozent der Statin-Patienten melden, sind vermutlich mitochondriale Erschöpfung der Skelettmuskulatur. Die Kardiologie verschreibt das Medikament, ignoriert die Nebenwirkung und lässt den Patienten googeln, warum ihm die Beine wehtun.
+
+Die Q-Symbio-Studie testete 300 Milligramm CoQ10 täglich an Herzinsuffizienz-Patienten über zwei Jahre. Das Ergebnis: 44 Prozent weniger kardiovaskuläre Todesfälle in der Verumgruppe. Eine Migräne-Studie zeigt signifikante Reduktion der Anfallshäufigkeit. Bei Fibromyalgie senkt CoQ10 Schmerzscores und Erschöpfungsmarker. Das sind Effektgrößen, die der Körper selbst registriert. Ubiquinol, die reduzierte Form, hat die doppelte Bioverfügbarkeit gegenüber Ubiquinon. Wer Ubiquinon kauft, bezahlt für ein Molekül, das der alternde Körper erst umwandeln muss, und genau diese Umwandlung funktioniert im Alter unzuverlässig.
+
+PQQ ist das Gegenstück. CoQ10 hält die bestehenden Mitochondrien am Laufen. PQQ baut neue. Es aktiviert PGC-1α, den zentralen Regulator der mitochondrialen Biogenese. Das macht PQQ zum einzigen bekannten Nährstoff, der die Zahl der Mitochondrien pro Zelle erhöhen kann. In einer placebokontrollierten Studie verbessern zwanzig Milligramm PQQ täglich über acht Wochen die Schlafqualität und senken das Aufwach-Cortisol. Bei gleichzeitiger Gabe mit CoQ10 verstärken sich die Effekte auf Entzündungsmarker und oxidativen Stress. CoQ10 repariert die bestehende Maschine. PQQ baut eine neue daneben. Zusammen decken sie Wartung und Erweiterung ab.
+
+ALCAR vervollständigt das System von einer dritten Seite. Acetyl-L-Carnitin shuttelt langkettige Fettsäuren durch die innere Mitochondrienmembran, wo sie in der Beta-Oxidation zu Acetyl-CoA verbrannt werden. Ohne diesen Shuttle liegen die Fettsäuren vor der Membran und die Mitochondrien hungern trotz vollem Tank. Ein Motor mit Kraftstoff, der den Vergaser nicht erreicht. Die Acetylgruppe liefert gleichzeitig das Substrat für die Acetylcholin-Synthese, den wichtigsten Neurotransmitter für Gedächtnis und Aufmerksamkeit. ALCAR passiert die Blut-Hirn-Schranke, L-Carnitin tut das kaum. Eine Metaanalyse zeigt antidepressive Wirkung vergleichbar mit Standardmedikamenten, am stärksten bei älteren Patienten, also genau bei denen, deren Mitochondrien am meisten leiden. Eine weitere belegt signifikante Schmerzreduktion und verbesserte Nervenleitgeschwindigkeit bei Neuropathie. Das Muster ist immer dasselbe: ein mitochondriales Defizit, eine gezielte Kompensation, ein messbarer Effekt.
+
+Drei Substanzen, ein System. CoQ10 transportiert Elektronen. PQQ baut Mitochondrien. ALCAR schleust den Treibstoff ein. Keine davon ist glamourös. Keine hat eine Instagram-Ästhetik. Keine wird im Biohacker-Stack als Longevity-Geheimwaffe gehandelt, obwohl sie näher am biologischen Kern des Alterns liegen als Resveratrol, Spermidin oder Kollagenpulver zusammen. Sie sind Infrastruktur. So sichtbar und so unterschätzt wie Kanalisation. Wenn sie funktioniert, denkt niemand an sie. Wenn sie ausfällt, bricht alles zusammen, und niemand versteht warum, weil das Symptom weit weg von der Ursache liegt. Müdigkeit, Vergesslichkeit, Muskelschwäche, schwaches Immunsystem. Vier Ärzte, vier Diagnosen, eine defekte Maschine.
+
+Kein Standard-Blutbild misst die mitochondriale Kapazität. Kein Hausarzt ordnet eine Muskelbiopsie mit Respirometrie an. Die mitochondriale Medizin existiert als Spezialdisziplin für genetische Defekte im Kindesalter und als Nischenkonzept in der funktionellen Medizin. Dazwischen liegt ein Vakuum, in dem Millionen Menschen mit abnehmender Energie altern und vom Arzt hören, das sei normal. Es ist normal. Es ist auch behandelbar. Die Werkzeuge existieren, sie sind rezeptfrei, sie haben Studiendaten, und sie kosten weniger als ein Monat Atorvastatin. Dass die Kardiologie Statine verschreibt und CoQ10 dem Zufall überlässt, ist die teuerste Unterlassung in der pharmazeutischen Begleittherapie.
+
+Die Supplement-Industrie verkauft CoQ10 als »Herzschutz«, PQQ als »Mitochondrien-Booster« und ALCAR als »Nootropikum«. Drei Etiketten, drei Marketingkategorien, als wären es verschiedene Geschichten. Die Biologie erzählt eine einzige Geschichte, und sie handelt von der Maschine, die jede Zelle am Leben hält. Wer die Maschine vernachlässigt, erntet keine einzelne Krankheit. Er erntet langsames Nachlassen in allem. Die Medizin hat dafür kein Wort. Das Supplement-Regal hat dafür drei Kapseln, die sich gegenseitig nicht kennen. Die Mitochondrien hätten gern alle drei gleichzeitig.`,
+      quellen: [
+        {
+          autoren: "Svend Aage Mortensen, Franklin Rosenfeldt, Adarsh Kumar, et al.",
+          titel: "The effect of coenzyme Q10 on morbidity and mortality in chronic heart failure: results from Q-SYMBIO",
+          journal: "JACC Heart Failure",
+          vol: "Vol. 2, No. 6",
+          datum: "Dezember 2014",
+          seiten: "641—649",
+          doi: "10.1016/j.jchf.2014.06.008",
+          pmid: "25282031",
+        },
+        {
+          autoren: "Winyoo Chowanadisai, Kathryn Bauerly, Eskouhie Tchaparian, et al.",
+          titel: "Pyrroloquinoline quinone stimulates mitochondrial biogenesis through cAMP response element-binding protein phosphorylation and increased PGC-1α expression",
+          journal: "Journal of Biological Chemistry",
+          vol: "Vol. 285, No. 1",
+          datum: "Januar 2010",
+          seiten: "142—152",
+          doi: "10.1074/jbc.M109.030130",
+          pmid: "19861415",
+        },
+        {
+          autoren: "Nicola Veronese, Brendon Stubbs, Stefano Solmi, et al.",
+          titel: "Acetyl-L-carnitine supplementation and the treatment of depressive symptoms: a systematic review and meta-analysis",
+          journal: "Psychosomatic Medicine",
+          vol: "Vol. 80, No. 2",
+          datum: "Februar 2018",
+          seiten: "154—159",
+          doi: "10.1097/PSY.0000000000000537",
+          pmid: "29076953",
+        },
+      ],
+    },
   ],
 };
