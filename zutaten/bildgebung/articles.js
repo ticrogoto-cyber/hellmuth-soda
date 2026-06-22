@@ -44,7 +44,6 @@ Fünf RCTs testen Hopfen als Schlafmittel, meist in Kombination mit Baldrian.[10
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="hopfen-jenseits-vom-bier">
   <title id="diag-title">Hopfen — zwischen Schlaftee und Apotheke</title>
   <desc id="diag-desc">Humulus lupulus gabelt sich in zwei Verwertungslogiken. Links die Industrie, die ihn als Schlaftee verkauft. Rechts die Pharmakologie, die fünf Wirkmechanismen kennt, ohne sie klinisch zu testen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -60,39 +59,33 @@ Fünf RCTs testen Hopfen als Schlafmittel, meist in Kombination mit Baldrian.[10
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">HUMULUS LUPULUS</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Eine Pflanze, zwei Verwertungslogiken</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="200" x1="340" y1="78" x2="340" y2="108" style="--len:30"/>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="280" d="M 340 108 L 340 130 L 180 130 L 180 152" style="--len:362"/>
     <polyline class="arr-head reveal" data-delay="500" points="176,148 180,152 184,148"/>
@@ -101,7 +94,6 @@ Fünf RCTs testen Hopfen als Schlafmittel, meist in Kombination mit Baldrian.[10
     <path class="arr draw" data-delay="280" d="M 340 108 L 340 130 L 500 130 L 500 152" style="--len:362"/>
     <polyline class="arr-head reveal" data-delay="500" points="496,148 500,152 504,148"/>
   </g>
-
   <g class="col-group" data-col="regal">
     <g class="reveal lift" data-delay="560">
       <text class="h-col" x="180" y="170" font-size="14" text-anchor="middle">DAS REGAL</text>
@@ -119,7 +111,6 @@ Fünf RCTs testen Hopfen als Schlafmittel, meist in Kombination mit Baldrian.[10
       <text class="sub" x="180" y="258" font-size="11" text-anchor="middle">EMA: »traditionell angewendet«</text>
     </g>
   </g>
-
   <g class="col-group" data-col="forschung">
     <g class="reveal lift" data-delay="580">
       <text class="h-col" x="500" y="170" font-size="14" text-anchor="middle">DIE APOTHEKE</text>
@@ -146,21 +137,17 @@ Fünf RCTs testen Hopfen als Schlafmittel, meist in Kombination mit Baldrian.[10
       <text class="sub" x="500" y="283" font-size="10" text-anchor="middle">Tiermodell vergleichbar mit Oxazepam</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="920">
     <rect x="138" y="208" width="84" height="20" fill="none" stroke="#1a1a1a" stroke-width="0.5" rx="0"/>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="322" x2="288" y2="322"/>
     <text class="sep-word" x="340" y="326" font-size="10" text-anchor="middle">APOTHEKE</text>
     <line class="sep" x1="392" y1="322" x2="620" y2="322"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="370" font-size="13.5" text-anchor="middle">»Man hat ein Sedativum gesucht und eine Apotheke übersehen.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -333,7 +320,6 @@ Hericenone haben eine schlechtere Passage durch die Blut-Hirn-Schranke. Die meis
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="igelstachelbart-nerven-wachsen">
   <title id="diag-title">Igelstachelbart — zwei Substanzklassen, ein Pilz</title>
   <desc id="diag-desc">Hericium erinaceus enthält zwei NGF-stimulierende Substanzklassen. Hericenone sitzen im Fruchtkörper, Erinacine im Mycel. Die meisten Produkte verkaufen Fruchtkörper. Die zentralnervös wirksame Klasse fehlt.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -349,42 +335,36 @@ Hericenone haben eine schlechtere Passage durch die Blut-Hirn-Schranke. Die meis
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">EIN PILZ, ZWEI KLASSEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Hericium erinaceus stimuliert NGF auf zwei Wegen — nur einer kommt im Gehirn an</text>
   </g>
-
   <g class="reveal lift" data-delay="200">
     <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">HERICIUM ERINACEUS</text>
   </g>
   <g class="reveal lift" data-delay="240">
     <text class="sub" x="340" y="134" font-size="11" text-anchor="middle">über zwanzig präklinische Studien, konsistente NGF-Induktion</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="340" y1="150" x2="340" y2="172" style="--len:22"/>
     <line class="arr draw" data-delay="440" x1="340" y1="172" x2="180" y2="172" style="--len:160"/>
@@ -394,7 +374,6 @@ Hericenone haben eine schlechtere Passage durch die Blut-Hirn-Schranke. Die meis
     <polyline class="arr-head reveal" data-delay="640" points="176,196 180,200 184,196"/>
     <polyline class="arr-head reveal" data-delay="640" points="496,196 500,200 504,196"/>
   </g>
-
   <g class="col-group" data-col="fruchtkoerper">
     <g class="reveal lift" data-delay="720">
       <text class="h-col" x="180" y="225" font-size="13" text-anchor="middle">FRUCHTKÖRPER</text>
@@ -412,7 +391,6 @@ Hericenone haben eine schlechtere Passage durch die Blut-Hirn-Schranke. Die meis
       <text class="sub" x="180" y="306" font-size="11" text-anchor="middle">in fast allen Produkten</text>
     </g>
   </g>
-
   <g class="col-group" data-col="mycel">
     <g class="reveal lift" data-delay="720">
       <text class="h-col" x="500" y="225" font-size="13" text-anchor="middle">MYCEL</text>
@@ -430,17 +408,14 @@ Hericenone haben eine schlechtere Passage durch die Blut-Hirn-Schranke. Die meis
       <text class="sub" x="500" y="306" font-size="11" text-anchor="middle">in kaum einem Produkt</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">LÜCKE</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Der Pilz liefert. Das Produktdesign versagt.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -650,7 +625,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="spilanthol-trigeminale-aktivierung">
   <title id="diag-title">Spilanthol — ein Molekül, sechs Wirkungsorte</title>
   <desc id="diag-desc">Spilanthol aktiviert Mechanorezeptoren bei fünfzig Hertz, bindet partiell an TRPV1, blockiert Natriumkanäle, setzt GABA frei, hemmt NF-kB und greift in den Nieren-Wassertransport ein. Die Kosmetik nennt es Anti-Aging.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -666,40 +640,34 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">SPILANTHOL</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Ein Molekül, sechs Rezeptorpfade — die Kosmetik nennt es Anti-Aging</text>
   </g>
-
   <g class="reveal lift" data-delay="180">
     <text class="sub" x="340" y="100" font-size="10.5" text-anchor="middle">N-Alkylamid aus Acmella oleracea</text>
     <circle cx="340" cy="118" r="3" fill="#1a1a1a"/>
   </g>
-
   <g class="reveal" data-delay="320">
     <line class="feedback" x1="338" y1="121" x2="115" y2="170"/>
     <line class="feedback" x1="339" y1="121" x2="170" y2="222"/>
@@ -708,7 +676,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
     <line class="feedback" x1="341" y1="121" x2="510" y2="222"/>
     <line class="feedback" x1="342" y1="121" x2="565" y2="170"/>
   </g>
-
   <g class="col-group" data-col="meissner">
     <g class="reveal lift" data-delay="440">
       <circle cx="115" cy="170" r="2" fill="#1a1a1a"/>
@@ -716,7 +683,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
       <text class="sub" x="115" y="207" font-size="10.5" text-anchor="middle">Tastsinn, kein Geschmack</text>
     </g>
   </g>
-
   <g class="col-group" data-col="natrium">
     <g class="reveal lift" data-delay="480">
       <circle cx="170" cy="222" r="2" fill="#1a1a1a"/>
@@ -724,7 +690,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
       <text class="sub" x="170" y="259" font-size="10.5" text-anchor="middle">Lidocain-Prinzip</text>
     </g>
   </g>
-
   <g class="col-group" data-col="nfkb">
     <g class="reveal lift" data-delay="520">
       <circle cx="265" cy="262" r="2" fill="#1a1a1a"/>
@@ -732,7 +697,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
       <text class="sub" x="265" y="299" font-size="10.5" text-anchor="middle">Entzündung gedämpft</text>
     </g>
   </g>
-
   <g class="col-group" data-col="niere">
     <g class="reveal lift" data-delay="560">
       <circle cx="415" cy="262" r="2" fill="#1a1a1a"/>
@@ -740,7 +704,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
       <text class="sub" x="415" y="299" font-size="10.5" text-anchor="middle">NKCC2, diuretischer Pfad</text>
     </g>
   </g>
-
   <g class="col-group" data-col="gaba">
     <g class="reveal lift" data-delay="600">
       <circle cx="510" cy="222" r="2" fill="#1a1a1a"/>
@@ -748,7 +711,6 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
       <text class="sub" x="510" y="259" font-size="10.5" text-anchor="middle">lokale Schmerzhemmung</text>
     </g>
   </g>
-
   <g class="col-group" data-col="trpv1">
     <g class="reveal lift" data-delay="640">
       <circle cx="565" cy="170" r="2" fill="#1a1a1a"/>
@@ -756,17 +718,14 @@ Spilanthol hemmt NF-kB, unterdrückt COX-2 und iNOS-Expression.[6] In Mausmodell
       <text class="sub" x="565" y="207" font-size="10.5" text-anchor="middle">erst Kribbeln, dann Taubheit</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="332" x2="298" y2="332"/>
     <text class="sep-word" x="340" y="336" font-size="10" text-anchor="middle">KARTE</text>
     <line class="sep" x1="382" y1="332" x2="620" y2="332"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="365" font-size="13.5" text-anchor="middle">»Im Reformhaus steht die Faltencreme. Im Labor liegt ein Anästhesiekandidat.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -916,7 +875,6 @@ Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält Eleuteroside s
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="adaptogene-ueberblick">
   <title id="diag-title">Adaptogen — ein Wort, zwei Wirklichkeiten</title>
   <desc id="diag-desc">Das Wort »Adaptogen« gabelt sich in zwei Wege: links das Etikett, das alles vernebelt und beliebig anwendbar ist; rechts die Pharmakologie der einzelnen Pflanzen mit messbaren, distinkten Wirkprofilen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -932,39 +890,33 @@ Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält Eleuteroside s
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">ADAPTOGEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Lazarev 1947 — ein Wort, das in keinem Studiendesign versagen kann</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="260" x1="340" y1="80" x2="340" y2="118" style="--len:38"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="360" x1="340" y1="118" x2="180" y2="158" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="500" points="186,153 180,158 186,162"/>
@@ -973,7 +925,6 @@ Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält Eleuteroside s
     <line class="arr draw" data-delay="360" x1="340" y1="118" x2="500" y2="158" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="500" points="494,153 500,158 494,162"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="560">
       <text class="h-col" x="180" y="180" font-size="14" text-anchor="middle">ETIKETT</text>
@@ -994,7 +945,6 @@ Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält Eleuteroside s
       <text class="sub" x="180" y="290" font-size="11" text-anchor="middle">austauschbar im Regal</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="580">
       <text class="h-col" x="500" y="180" font-size="14" text-anchor="middle">PHARMAKOLOGIE</text>
@@ -1015,21 +965,17 @@ Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält Eleuteroside s
       <text class="sub" x="500" y="290" font-size="11" text-anchor="middle">trennt sich alles außer dem Wort</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="320" font-size="10.5" text-anchor="middle">EMA und FDA erkennen die Kategorie nicht an · sie bewerten Pflanzen einzeln</text>
   </g>
-
   <g class="reveal" data-delay="1000">
     <line class="sep" x1="60" y1="344" x2="298" y2="344"/>
     <text class="sep-word" x="340" y="348" font-size="10" text-anchor="middle">NEBEL</text>
     <line class="sep" x1="382" y1="344" x2="620" y2="344"/>
   </g>
-
   <g class="reveal lift" data-delay="1100">
     <text class="closer" x="340" y="378" font-size="13.5" text-anchor="middle">»Es reduziert Pharmakologie auf eine Haltung.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -1169,7 +1115,6 @@ Wie gefährlich, beschreiben die Fallberichte. Van der Hooft 2005 dokumentiert e
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="ashwagandha-ksm66-schilddruese">
   <title id="diag-title">Ashwagandha — drei reale Wirkungen, zwei verschwiegene Folgen</title>
   <desc id="diag-desc">KSM-66 senkt Cortisol, verbessert Schlaf und treibt Schilddrüsenhormone hoch. Die ersten zwei Wirkungen stehen auf dem Etikett. Die dritte landet in der Notaufnahme.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -1185,35 +1130,30 @@ Wie gefährlich, beschreiben die Fallberichte. Van der Hooft 2005 dokumentiert e
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">KSM-66</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Withanolide-Vollspektrum — drei reale Wirkungen, eine verschwiegen</text>
   </g>
-
   <g class="col-group" data-col="cortisol">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">CORTISOL</text>
@@ -1232,7 +1172,6 @@ Wie gefährlich, beschreiben die Fallberichte. Van der Hooft 2005 dokumentiert e
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">steht auf dem Etikett</text>
     </g>
   </g>
-
   <g class="col-group" data-col="schlaf">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">SCHLAF</text>
@@ -1251,7 +1190,6 @@ Wie gefährlich, beschreiben die Fallberichte. Van der Hooft 2005 dokumentiert e
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">steht auf dem Etikett</text>
     </g>
   </g>
-
   <g class="col-group" data-col="schilddruese">
     <g class="reveal lift" data-delay="240">
       <text class="h-col warn-fill" x="550" y="116" font-size="14" text-anchor="middle">SCHILDDRÜSE</text>
@@ -1270,25 +1208,20 @@ Wie gefährlich, beschreiben die Fallberichte. Van der Hooft 2005 dokumentiert e
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Thyreotoxikose, Tachykardie</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="290" font-size="10.5" text-anchor="middle">drei RCTs, drei harte Endpunkte · van der Hooft 2005 · Jaiswal 2023 · Abdulaziz 2022</text>
   </g>
-
   <g class="reveal lift" data-delay="970">
     <text class="sub" x="340" y="316" font-size="10.5" text-anchor="middle">bei Unterfunktion erwünscht · bei Überfunktion Notaufnahme</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="344" x2="298" y2="344"/>
     <text class="sep-word" x="340" y="348" font-size="10" text-anchor="middle">DRITTE WIRKUNG</text>
     <line class="sep" x1="382" y1="344" x2="620" y2="344"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="378" font-size="13.5" text-anchor="middle">»Die Schilddrüsenstimulation ist genauso real.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -1399,7 +1332,6 @@ Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil wäre für die Psych
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="magnolia-phellodendron-relora">
   <title id="diag-title">Honokiol — die GABA-A-Bindung, die nie in die Klinik kam</title>
   <desc id="diag-desc">Honokiol ist ein positiver allosterischer GABA-A-Modulator ohne Abhängigkeitsprofil. Statt klinischer Studien gegen Angst gibt es zwei vom Hersteller finanzierte Pilotstudien zum Stressessen. Das Patent steht der Forschung im Weg.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -1415,39 +1347,33 @@ Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil wäre für die Psych
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">HONOKIOL</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">aus der Rinde von Magnolia officinalis — zwei Wege, ein Patent</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="260" x1="340" y1="80" x2="340" y2="118" style="--len:38"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="360" x1="340" y1="118" x2="170" y2="158" style="--len:175"/>
     <polyline class="arr-head reveal" data-delay="500" points="176,153 170,158 176,162"/>
@@ -1456,7 +1382,6 @@ Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil wäre für die Psych
     <line class="arr draw" data-delay="360" x1="340" y1="118" x2="510" y2="158" style="--len:175"/>
     <polyline class="arr-head reveal" data-delay="500" points="504,153 510,158 504,162"/>
   </g>
-
   <g class="col-group" data-col="pharma">
     <g class="reveal lift" data-delay="560">
       <text class="h-col" x="170" y="180" font-size="14" text-anchor="middle">PHARMAKOLOGIE</text>
@@ -1477,7 +1402,6 @@ Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil wäre für die Psych
       <text class="sub" x="170" y="288" font-size="11" text-anchor="middle">anxiolytisch wie Diazepam</text>
     </g>
   </g>
-
   <g class="col-group" data-col="markt">
     <g class="reveal lift" data-delay="580">
       <text class="h-col" x="510" y="180" font-size="14" text-anchor="middle">PATENT</text>
@@ -1498,21 +1422,17 @@ Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil wäre für die Psych
       <text class="sub" x="510" y="288" font-size="11" text-anchor="middle">Garrison 2006, Stressessen</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="320" font-size="10.5" text-anchor="middle">Tiermodell zeigt Wirkung ohne Nebenwirkung · Phase II fehlt seit zwei Jahrzehnten</text>
   </g>
-
   <g class="reveal" data-delay="1000">
     <line class="sep" x1="60" y1="344" x2="298" y2="344"/>
     <text class="sep-word" x="340" y="348" font-size="10" text-anchor="middle">UMWEG</text>
     <line class="sep" x1="382" y1="344" x2="620" y2="344"/>
   </g>
-
   <g class="reveal lift" data-delay="1100">
     <text class="closer" x="340" y="378" font-size="13.5" text-anchor="middle">»Das Marketing folgt dem Geld, nicht der Pharmakologie.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -1616,7 +1536,6 @@ Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor der Glutamat-Decarbo
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="gaba-glycin-magnesium-glycinat">
   <title id="diag-title">Drei Wege zur Bremse — GABA, Glycin, Magnesium-Glycinat</title>
   <desc id="diag-desc">Drei Wege ins Gehirn. GABA scheitert an der Blut-Hirn-Schranke. Glycin passiert sie und kühlt über NMDA-Rezeptoren. Magnesium-Glycinat liefert beides und aktiviert die GABA-Synthese.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -1632,35 +1551,30 @@ Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor der Glutamat-Decarbo
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DREI WEGE ZUR BREMSE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Einer davon erreicht das Gehirn nicht</text>
   </g>
-
   <g class="col-group" data-col="gaba">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">GABA</text>
@@ -1682,7 +1596,6 @@ Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor der Glutamat-Decarbo
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">Boonstra 2015, kaum permeabel</text>
     </g>
   </g>
-
   <g class="col-group" data-col="glycin">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">GLYCIN</text>
@@ -1701,7 +1614,6 @@ Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor der Glutamat-Decarbo
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">Kawai 2015, Kerntemperatur senkt</text>
     </g>
   </g>
-
   <g class="col-group" data-col="mgglycinat">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">MG-GLYCINAT</text>
@@ -1720,26 +1632,21 @@ Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor der Glutamat-Decarbo
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Cofaktor für Glutamat → GABA</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 304 340 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="344,268 340,272 344,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="324" font-size="10.5" text-anchor="middle">Was am lautesten beworben wird, erreicht das Gehirn nicht · was am leisesten verkauft wird, wirkt</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="282" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">UMWEG</text>
     <line class="sep" x1="398" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Drei Gramm Glycinpulver für dreißig Cent haben keine Marketingabteilung.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -1854,7 +1761,6 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="bacopa-monnieri-langsame-wirkung">
   <title id="diag-title">Bacopa monnieri — die Zeitachse der Wirkung</title>
   <desc id="diag-desc">Zeitstrahl über zwölf Wochen. In der ersten Woche misst keine Studie etwas. Erst nach zwölf Wochen treten dendritische Verzweigung, Gedächtnis- und Verarbeitungsverbesserung ein. Die Nootropic-Käufer geben vorher auf.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -1870,47 +1776,40 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">ZWÖLF WOCHEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Bacopa monnieri und der Zeitplan der Neurobiologie</text>
   </g>
-
   <g class="reveal lift" data-delay="180">
     <text class="sub" x="80" y="158" font-size="11" text-anchor="start">Erwartung der Nootropic-Szene</text>
   </g>
   <g class="reveal lift" data-delay="220">
     <text class="sub" x="600" y="158" font-size="11" text-anchor="end">Befund der sechs RCTs</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="320" x1="80" y1="200" x2="620" y2="200" style="--len:540"/>
     <polyline class="arr-head reveal" data-delay="900" points="616,196 620,200 616,204"/>
   </g>
-
   <g class="reveal" data-delay="420">
     <line class="sep" x1="80" y1="195" x2="80" y2="205"/>
   </g>
@@ -1920,7 +1819,6 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
   <g class="reveal lift" data-delay="480">
     <text class="sub" x="80" y="222" font-size="10.5" text-anchor="start">Beginn</text>
   </g>
-
   <g class="reveal" data-delay="500">
     <line class="sep" x1="195" y1="195" x2="195" y2="205"/>
   </g>
@@ -1930,7 +1828,6 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
   <g class="reveal lift" data-delay="560">
     <text class="sub" x="195" y="222" font-size="10.5" text-anchor="middle">Käufer bricht ab</text>
   </g>
-
   <g class="reveal" data-delay="620">
     <line class="sep" x1="320" y1="195" x2="320" y2="205"/>
   </g>
@@ -1940,7 +1837,6 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
   <g class="reveal lift" data-delay="680">
     <text class="sub" x="320" y="222" font-size="10.5" text-anchor="middle">Nathan 2001: nichts</text>
   </g>
-
   <g class="reveal" data-delay="700">
     <line class="sep" x1="445" y1="195" x2="445" y2="205"/>
   </g>
@@ -1953,7 +1849,6 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
   <g class="reveal lift" data-delay="800">
     <text class="sub" x="445" y="236" font-size="10.5" text-anchor="middle">Dendriten verzweigen</text>
   </g>
-
   <g class="reveal" data-delay="820">
     <line class="sep" x1="615" y1="195" x2="615" y2="205"/>
   </g>
@@ -1966,7 +1861,6 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
   <g class="reveal lift" data-delay="920">
     <text class="sub" x="615" y="236" font-size="10.5" text-anchor="end">Gedächtnis, Abruf</text>
   </g>
-
   <g class="reveal" data-delay="960">
     <line class="feedback" x1="80" y1="278" x2="370" y2="278"/>
     <line class="feedback" x1="445" y1="278" x2="615" y2="278"/>
@@ -1977,17 +1871,14 @@ Keine einzige Studie findet einen akuten Effekt. Nathan 2001 testet Bacopa als E
   <g class="reveal lift" data-delay="1000">
     <text class="sub" x="530" y="294" font-size="10.5" text-anchor="middle">Wirkungszone</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="322" x2="298" y2="322"/>
     <text class="sep-word" x="340" y="326" font-size="10" text-anchor="middle">ZEITPLAN</text>
     <line class="sep" x1="382" y1="322" x2="620" y2="322"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="370" font-size="13.5" text-anchor="middle">»Der Befund ist robust. Die Zeitachse ist das Problem.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -2088,7 +1979,6 @@ Citicolin geht einen doppelten Weg. Es liefert Cholin für die Acetylcholin-Synt
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="cholin-alpha-gpc-citicolin">
   <title id="diag-title">Cholin — drei Formen, drei Wege ins Gehirn</title>
   <desc id="diag-desc">Cholinbitartrat ist billig und erreicht das Gehirn kaum. Alpha-GPC passiert die Blut-Hirn-Schranke und verbessert die Kognition bei Alzheimer. Citicolin liefert Cholin und Cytidin für Membranreparatur. Im Reformhaus steht meist die billigste Form.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -2104,35 +1994,30 @@ Citicolin geht einen doppelten Weg. Es liefert Cholin für die Acetylcholin-Synt
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DREI FORMEN VON CHOLIN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Dasselbe Wort auf der Packung, drei verschiedene Wege ins Gehirn</text>
   </g>
-
   <g class="col-group" data-col="bitartrat">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">BITARTRAT</text>
@@ -2151,7 +2036,6 @@ Citicolin geht einen doppelten Weg. Es liefert Cholin für die Acetylcholin-Synt
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">passiert die Schranke kaum</text>
     </g>
   </g>
-
   <g class="col-group" data-col="alpha-gpc">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">ALPHA-GPC</text>
@@ -2170,7 +2054,6 @@ Citicolin geht einen doppelten Weg. Es liefert Cholin für die Acetylcholin-Synt
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">De Jesus Moreno 2003, n=261</text>
     </g>
   </g>
-
   <g class="col-group" data-col="citicolin">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">CITICOLIN</text>
@@ -2189,25 +2072,20 @@ Citicolin geht einen doppelten Weg. Es liefert Cholin für die Acetylcholin-Synt
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Acetylcholin + Membranreparatur</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 278 Q 340 312 140 278"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">»Cholin 500 mg« deklariert das Gewicht, nicht die Form</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">FORM</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Eine Studie. Signifikant. Vergessen.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -2314,7 +2192,6 @@ Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 de
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="sulforaphan-nrf2-entgiftung">
   <title id="diag-title">Sulforaphan — die Sprosse gegen die Kapsel</title>
   <desc id="diag-desc">Aus dem Brokkoli-Vorläufer entstehen zwei Wege: Die zerkaute Sprosse liefert Myrosinase und damit sofort aktives Sulforaphan, der Nrf2 aktiviert. Die Kapsel enthält nur die Vorstufe, die Umwandlung im Darm schwankt um Faktor fünf.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -2330,35 +2207,30 @@ Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 de
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER SCHALTER</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Glucoraphanin braucht Myrosinase — sonst bleibt es Vorstufe</text>
   </g>
-
   <g class="col-group" data-col="origin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">BROKKOLI</text>
@@ -2367,7 +2239,6 @@ Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 de
       <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Glucoraphanin · die inaktive Vorstufe</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="320" y1="148" x2="170" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal" data-delay="520" points="174,196 170,200 174,204"/>
@@ -2376,7 +2247,6 @@ Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 de
     <line class="arr draw" data-delay="400" x1="360" y1="148" x2="510" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal" data-delay="540" points="506,196 510,200 506,204"/>
   </g>
-
   <g class="col-group" data-col="sprout">
     <g class="reveal lift" data-delay="620">
       <text class="h-col" x="155" y="226" font-size="14" text-anchor="middle">SPROSSE</text>
@@ -2395,7 +2265,6 @@ Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 de
       <text class="sub" x="155" y="332" font-size="11" text-anchor="middle">200 Schutzgene fahren hoch</text>
     </g>
   </g>
-
   <g class="col-group" data-col="capsule">
     <g class="reveal lift" data-delay="640">
       <text class="h-col warn-fill" x="525" y="226" font-size="14" text-anchor="middle">KAPSEL</text>
@@ -2414,17 +2283,14 @@ Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 de
       <text class="sub" x="525" y="332" font-size="11" text-anchor="middle">Bioverfügbarkeit schwankt — Lotterie</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="290" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">LOTTERIE</text>
     <line class="sep" x1="390" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Was im Körper ankommt, ist Lotterie.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -2521,7 +2387,6 @@ Ein Bund Sprossen vom Bioladen liefert die Myrosinase gratis. Selbst gezogen auf
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="nad-nmn-sirtuine-langlebigkeit">
   <title id="diag-title">NAD+ sinkt mit dem Alter — NMN als Vorstufe</title>
   <desc id="diag-desc">Die NAD+-Konzentration sinkt vom dreissigsten Lebensjahr stetig, in alten Geweben um vierzig bis sechzig Prozent. Sirtuine und PARP brauchen NAD+ als Substrat. NMN ist die direkte Vorstufe. Mausdaten spektakulaer, Humandaten erst am Anfang.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -2537,61 +2402,51 @@ Ein Bund Sprossen vom Bioladen liefert die Myrosinase gratis. Selbst gezogen auf
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER ALTERS-ABFALL</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">NAD+ sinkt ab dreissig, NMN setzt als Vorstufe wieder oben an</text>
   </g>
-
   <g class="reveal lift" data-delay="200">
     <text class="h-col" x="78" y="118" font-size="13" text-anchor="start">NAD+</text>
   </g>
   <g class="reveal lift" data-delay="230">
     <text class="sub" x="116" y="118" font-size="11" text-anchor="start">100 %</text>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="380" d="M 78 132 Q 280 152 510 225" style="--len:470"/>
   </g>
-
   <g class="reveal lift" data-delay="560">
     <text class="sub" x="520" y="222" font-size="11" text-anchor="start">40—60 %</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="640" x1="60" y1="252" x2="620" y2="252" style="--len:560"/>
   </g>
-
   <g class="arr-group">
     <line class="arr" x1="80" y1="248" x2="80" y2="256"/>
     <line class="arr" x1="220" y1="248" x2="220" y2="256"/>
     <line class="arr" x1="360" y1="248" x2="360" y2="256"/>
     <line class="arr" x1="500" y1="248" x2="500" y2="256"/>
   </g>
-
   <g class="reveal lift" data-delay="700">
     <text class="sub" x="80" y="270" font-size="10.5" text-anchor="middle">30</text>
   </g>
@@ -2607,36 +2462,30 @@ Ein Bund Sprossen vom Bioladen liefert die Myrosinase gratis. Selbst gezogen auf
   <g class="reveal lift" data-delay="740">
     <text class="sub" x="600" y="270" font-size="10.5" text-anchor="middle">Jahre</text>
   </g>
-
   <g class="reveal lift" data-delay="800">
     <text class="h-res" x="600" y="140" font-size="11" text-anchor="end">SIRTUINE · PARP</text>
   </g>
   <g class="reveal lift" data-delay="830">
     <text class="sub" x="600" y="158" font-size="10.5" text-anchor="end">verhungern ohne NAD+</text>
   </g>
-
   <g class="reveal lift" data-delay="880">
     <text class="h-col" x="340" y="310" font-size="13" text-anchor="middle">NMN</text>
   </g>
   <g class="reveal lift" data-delay="910">
     <text class="sub" x="340" y="328" font-size="11" text-anchor="middle">direkte Vorstufe — Mausdaten spektakulär, Humandaten am Anfang</text>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="950" d="M 296 290 Q 200 240 124 134" style="--len:240"/>
     <polyline class="arr-head reveal" data-delay="1020" points="119,139 124,134 130,137"/>
   </g>
-
   <g class="reveal" data-delay="1060">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">GEDULD</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Wer die Daten liest, hat Geduld.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -2713,7 +2562,6 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="dmso-loesungsmittel-heilmittel">
   <title id="diag-title">DMSO — sechzig Jahre auf einer Blasenspülung</title>
   <desc id="diag-desc">Zeitstrahl von Stanley Jacobs Entdeckung 1962 über die FDA-Blockade 1965, die einzige Zulassung 1978 bis heute. Sechs Jahrzehnte, eine Indikation.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -2729,35 +2577,30 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER ZEITSTRAHL</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Sechs Jahrzehnte, eine Substanz, eine Indikation</text>
   </g>
-
   <g class="col-group" data-col="t1">
     <g class="reveal lift" data-delay="200">
       <text class="h-res" x="90" y="148" font-size="11" text-anchor="middle">ENTDECKUNG</text>
@@ -2767,7 +2610,6 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
       <text class="sub" x="90" y="182" font-size="10.5" text-anchor="middle">DMSO im Blut</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t2">
     <g class="reveal lift" data-delay="220">
       <text class="h-res" x="225" y="148" font-size="11" text-anchor="middle">PUBLIKATION</text>
@@ -2777,7 +2619,6 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
       <text class="sub" x="225" y="182" font-size="10.5" text-anchor="middle">Membran-Carrier</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t3">
     <g class="reveal lift" data-delay="240">
       <text class="h-res warn-fill" x="360" y="148" font-size="11" text-anchor="middle">FDA-BLOCKADE</text>
@@ -2787,7 +2628,6 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
       <text class="sub" x="360" y="182" font-size="10.5" text-anchor="middle">Forschung gestoppt</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t4">
     <g class="reveal lift" data-delay="260">
       <text class="h-res" x="490" y="148" font-size="11" text-anchor="middle">RIMSO-50</text>
@@ -2797,7 +2637,6 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
       <text class="sub" x="490" y="182" font-size="10.5" text-anchor="middle">eine Indikation</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t5">
     <g class="reveal lift" data-delay="280">
       <text class="h-res" x="610" y="148" font-size="11" text-anchor="middle">STILLSTAND</text>
@@ -2807,12 +2646,10 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
       <text class="sub" x="610" y="182" font-size="10.5" text-anchor="middle">Europa, topisch</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="420" x1="60" y1="220" x2="660" y2="220" style="--len:600"/>
     <polyline class="arr-head reveal" data-delay="980" points="656,216 660,220 656,224"/>
   </g>
-
   <g class="reveal" data-delay="520">
     <line class="arr" x1="90" y1="216" x2="90" y2="226"/>
   </g>
@@ -2828,7 +2665,6 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
   <g class="reveal" data-delay="600">
     <line class="arr" x1="610" y1="216" x2="610" y2="226"/>
   </g>
-
   <g class="reveal lift" data-delay="700">
     <text class="h-col" x="90" y="248" font-size="13" text-anchor="middle">1962</text>
   </g>
@@ -2844,22 +2680,18 @@ In Europa und Lateinamerika wird DMSO breiter eingesetzt. In der Veterinärmediz
   <g class="reveal lift" data-delay="780">
     <text class="h-col" x="610" y="248" font-size="13" text-anchor="middle">HEUTE</text>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="298" font-size="10.5" text-anchor="middle">über tausend Publikationen seit 1965 — keine zweite Zulassung</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="338" x2="278" y2="338"/>
     <text class="sep-word" x="340" y="342" font-size="10" text-anchor="middle">BLASENSPÜLUNG</text>
     <line class="sep" x1="402" y1="338" x2="620" y2="338"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="372" font-size="13" text-anchor="middle">»Die Substanz, für die er fünfzig Jahre kämpfte, ist in Amerika</text>
     <text class="closer" x="340" y="390" font-size="13" text-anchor="middle">immer noch eine Blasenspülung.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -2946,7 +2778,6 @@ Saat 2002 vergleicht frisches Kokoswasser mit einem Kohlenhydrat-Elektrolyt-Spor
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="kokoswasser-elektrolyte-hydration">
   <title id="diag-title">Kokoswasser gegen Gatorade — eine Gabelung</title>
   <desc id="diag-desc">Zwei Wege zur Rehydration. Gatorade liefert Wasser, Zucker, Natrium und Farbstoff. Kokoswasser liefert 600 Milligramm Kalium, ein vollständiges Elektrolytprofil und sechzig Millionen Jahre Vorsprung.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -2962,56 +2793,47 @@ Saat 2002 vergleicht frisches Kokoswasser mit einem Kohlenhydrat-Elektrolyt-Spor
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE GABELUNG</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Sportgetränk und Tropenfrucht, dasselbe Hydrationsergebnis</text>
   </g>
-
   <g class="reveal lift" data-delay="180">
     <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">REHYDRATION</text>
   </g>
   <g class="reveal lift" data-delay="220">
     <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Saat 2002 · Kalman 2012 · kein signifikanter Unterschied</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="360" x1="340" y1="140" x2="340" y2="160" style="--len:20"/>
   </g>
-
   <g class="arr-group">
     <line class="arr warn draw" data-delay="440" x1="340" y1="160" x2="180" y2="200" style="--len:165"/>
     <polyline class="arr-head warn reveal" data-delay="580" points="186,198 180,200 184,206"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="440" x1="340" y1="160" x2="500" y2="200" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="580" points="496,198 500,200 498,206"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="180" y="222" font-size="13" text-anchor="middle">GATORADE</text>
@@ -3033,7 +2855,6 @@ Saat 2002 vergleicht frisches Kokoswasser mit einem Kohlenhydrat-Elektrolyt-Spor
       <text class="sub" x="180" y="335" font-size="10.5" text-anchor="middle">Gelb Nummer fünf inklusive</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="500" y="222" font-size="13" text-anchor="middle">KOKOSWASSER</text>
@@ -3055,17 +2876,14 @@ Saat 2002 vergleicht frisches Kokoswasser mit einem Kohlenhydrat-Elektrolyt-Spor
       <text class="sub" x="500" y="335" font-size="10.5" text-anchor="middle">Aminosäuren, Cytokinine, kein Farbstoff</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="298" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">KOPIE</text>
     <line class="sep" x1="382" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Siebzig Jahre Forschung, um eine Kokosnuss nachzubauen.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -3165,7 +2983,6 @@ Die Geruchsbindung ist reproduzierbar und klinisch genutzt. Chlorophyllin reduzi
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="chlorophyll-was-gruen-kann">
   <title id="diag-title">Chlorophyll — Dekoration und Pharmakologie</title>
   <desc id="diag-desc">Ein Molekülgerüst, zwei Erzählungen. Links die TikTok-Version mit Detox, Hautglow, Gewichtsverlust. Rechts die dokumentierte Pharmakologie: Aflatoxin-Reduktion um fünfundfünfzig Prozent in Qidong, Wundheilung in den vierziger Jahren, Geruchsbindung in der Geriatrie.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -3181,39 +2998,33 @@ Die Geruchsbindung ist reproduzierbar und klinisch genutzt. Chlorophyllin reduzi
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">CHLOROPHYLL</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Porphyrinring, Magnesium im Zentrum — und zwei Erzählungen</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="260" x1="340" y1="80" x2="340" y2="118" style="--len:38"/>
   </g>
-
   <g class="arr-group">
     <line class="arr warn draw" data-delay="360" x1="340" y1="118" x2="180" y2="158" style="--len:165"/>
     <polyline class="arr-head warn reveal" data-delay="500" points="186,153 180,158 184,164"/>
@@ -3222,7 +3033,6 @@ Die Geruchsbindung ist reproduzierbar und klinisch genutzt. Chlorophyllin reduzi
     <line class="arr draw" data-delay="360" x1="340" y1="118" x2="500" y2="158" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="500" points="494,153 500,158 496,164"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="560">
       <text class="h-col warn-fill" x="180" y="180" font-size="14" text-anchor="middle">TIKTOK</text>
@@ -3243,7 +3053,6 @@ Die Geruchsbindung ist reproduzierbar und klinisch genutzt. Chlorophyllin reduzi
       <text class="sub" x="180" y="290" font-size="11" text-anchor="middle">Selfie-Filter für grünes Wasser</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="580">
       <text class="h-col" x="500" y="180" font-size="14" text-anchor="middle">PHARMAKOLOGIE</text>
@@ -3264,21 +3073,17 @@ Die Geruchsbindung ist reproduzierbar und klinisch genutzt. Chlorophyllin reduzi
       <text class="sub" x="500" y="290" font-size="11" text-anchor="middle">Qidong, Verbandsmaterial, Geriatrie</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="320" font-size="10.5" text-anchor="middle">Das Etikett sagt Chlorophyll · die Chemie sagt etwas anderes</text>
   </g>
-
   <g class="reveal" data-delay="1000">
     <line class="sep" x1="60" y1="344" x2="298" y2="344"/>
     <text class="sep-word" x="340" y="348" font-size="10" text-anchor="middle">GABELUNG</text>
     <line class="sep" x1="382" y1="344" x2="620" y2="344"/>
   </g>
-
   <g class="reveal lift" data-delay="1100">
     <text class="closer" x="340" y="378" font-size="13.5" text-anchor="middle">»Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -3365,7 +3170,6 @@ Die Entzündungshemmung bestätigt sich am Menschen bei Arthrose. Bartels 2015 f
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="ingwer-gingerol-pharmakologie">
   <title id="diag-title">Ingwer — drei Wirkachsen einer Wurzel</title>
   <desc id="diag-desc">Drei pharmakologisch belegte Wirkungen von Ingwer: Antiemese über 5-HT3-Rezeptoren, beschleunigte Magenentleerung und COX-2-Hemmung. Die EMA klassifiziert Ingwer als »well-established use«.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -3381,35 +3185,30 @@ Die Entzündungshemmung bestätigt sich am Menschen bei Arthrose. Bartels 2015 f
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DREI ACHSEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Ingwer wirkt wie drei Medikamente gleichzeitig</text>
   </g>
-
   <g class="col-group" data-col="emesis">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">ANTIEMESE</text>
@@ -3428,7 +3227,6 @@ Die Entzündungshemmung bestätigt sich am Menschen bei Arthrose. Bartels 2015 f
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">selbe Bindungsstelle</text>
     </g>
   </g>
-
   <g class="col-group" data-col="motilitaet">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">MOTILITÄT</text>
@@ -3447,7 +3245,6 @@ Die Entzündungshemmung bestätigt sich am Menschen bei Arthrose. Bartels 2015 f
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">beruhigt und beschleunigt</text>
     </g>
   </g>
-
   <g class="col-group" data-col="cox">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">COX-2-HEMMUNG</text>
@@ -3466,26 +3263,21 @@ Die Entzündungshemmung bestätigt sich am Menschen bei Arthrose. Bartels 2015 f
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">ohne Magenblutung</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 140 272 Q 340 308 540 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="536,268 540,272 536,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">EMA-Klassifikation »well-established use« · auf der Packung steht: für den Magen</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">BEIPACKZETTEL</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Was drin ist, hätte einen Beipackzettel verdient.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -3589,7 +3381,6 @@ Dann kam PREDIMED. Über 7400 Teilnehmer mit erhöhtem kardiovaskulärem Risiko,
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="olivenoel-oleocanthal-entzuendung">
   <title id="diag-title">Olivenöl — Gabelung am Brennen im Hals</title>
   <desc id="diag-desc">Olivenöl mit Oleocanthal hemmt COX wie Ibuprofen. Das Brennen im Hals ist der Qualitätstest. Frisches Öl wirkt pharmakologisch, altes oder raffiniertes hat den Wirkstoff verloren.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -3605,35 +3396,30 @@ Dann kam PREDIMED. Über 7400 Teilnehmer mit erhöhtem kardiovaskulärem Risiko,
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DAS BRENNEN IM HALS</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Oleocanthal hemmt COX wie Ibuprofen — wenn es noch da ist</text>
   </g>
-
   <g class="col-group" data-col="ursprung">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">OLIVENÖL</text>
@@ -3642,21 +3428,17 @@ Dann kam PREDIMED. Über 7400 Teilnehmer mit erhöhtem kardiovaskulärem Risiko,
       <text class="sub" x="340" y="134" font-size="11" text-anchor="middle">Extra Vergine im Regal</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="360" x1="340" y1="148" x2="340" y2="172" style="--len:24"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="420" x1="340" y1="172" x2="180" y2="210" style="--len:164"/>
     <polyline class="arr-head reveal" data-delay="600" points="184,206 180,210 184,214"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="420" x1="340" y1="172" x2="500" y2="210" style="--len:164"/>
     <polyline class="arr-head reveal" data-delay="600" points="496,206 500,210 496,214"/>
   </g>
-
   <g class="col-group" data-col="frisch">
     <g class="reveal lift" data-delay="680">
       <text class="h-col" x="180" y="236" font-size="13" text-anchor="middle">KRATZT IM HALS</text>
@@ -3675,7 +3457,6 @@ Dann kam PREDIMED. Über 7400 Teilnehmer mit erhöhtem kardiovaskulärem Risiko,
       <text class="h-res" x="180" y="329" font-size="11" text-anchor="middle">PHARMAKOLOGIE</text>
     </g>
   </g>
-
   <g class="col-group" data-col="alt">
     <g class="reveal lift" data-delay="700">
       <text class="h-col warn-fill" x="500" y="236" font-size="13" text-anchor="middle">KRATZT NICHT</text>
@@ -3694,17 +3475,14 @@ Dann kam PREDIMED. Über 7400 Teilnehmer mit erhöhtem kardiovaskulärem Risiko,
       <text class="h-res warn-fill" x="500" y="329" font-size="11" text-anchor="middle">SALATÖL</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="298" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">QUALITÄTSTEST</text>
     <line class="sep" x1="382" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Das Brennen ist der Qualitätstest. Ibuprofen kratzt auch.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -3790,7 +3568,6 @@ Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="brennnessel-urtica-prostata">
   <title id="diag-title">Brennnessel — zwei Pflanzen in einer</title>
   <desc id="diag-desc">Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel adressiert mit Lignanen und Phytosterolen die Prostata. Das Blatt adressiert mit Flavonoiden und Caffeoylsäure Entzündung und Allergie. Wer das falsche Pflanzenteil kauft, kauft das Falsche.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -3806,35 +3583,30 @@ Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">ZWEI PFLANZEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Urtica dioica — eine Wurzel, ein Blatt, zwei Organe</text>
   </g>
-
   <g class="col-group" data-col="origin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">URTICA DIOICA</text>
@@ -3843,7 +3615,6 @@ Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und
       <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Auf dem Etikett steht nur »Brennnessel«</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="320" y1="148" x2="170" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal" data-delay="520" points="174,196 170,200 174,204"/>
@@ -3852,7 +3623,6 @@ Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und
     <line class="arr draw" data-delay="400" x1="360" y1="148" x2="510" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal" data-delay="540" points="506,196 510,200 506,204"/>
   </g>
-
   <g class="col-group" data-col="root">
     <g class="reveal lift" data-delay="620">
       <text class="h-col" x="155" y="226" font-size="14" text-anchor="middle">WURZEL</text>
@@ -3871,7 +3641,6 @@ Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und
       <text class="sub" x="155" y="332" font-size="11" text-anchor="middle">Safarinejad 2005 · sechs RCTs</text>
     </g>
   </g>
-
   <g class="col-group" data-col="leaf">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="525" y="226" font-size="14" text-anchor="middle">BLATT</text>
@@ -3890,17 +3659,14 @@ Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und
       <text class="sub" x="525" y="332" font-size="11" text-anchor="middle">Roschek 2009 · Kianbakht 2013</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="290" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">GABELUNG</text>
     <line class="sep" x1="390" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Wer eine Prostatawirkung erwartet und Blattextrakt kauft, kauft das Falsche.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -4020,7 +3786,6 @@ In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="kokosoel-mct-laurinsaeure">
   <title id="diag-title">Laurinsäure — drei Funktionen, eine Fettsäure</title>
   <desc id="diag-desc">Die Hälfte des Kokosöls ist Laurinsäure. Sie wirkt antimikrobiell, liefert Ketonkörper und ist hitzestabiles Kochfett. Die AHA hat nur die Cholesterin-Achse gemessen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -4036,39 +3801,33 @@ In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">LAURINSÄURE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Mittelkettige C12-Fettsäure, fünfzig Prozent des Kokosöls</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="220" x1="340" y1="82" x2="340" y2="100" style="--len:18"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="280" x1="340" y1="100" x2="130" y2="138" style="--len:213"/>
     <polyline class="arr-head reveal" data-delay="440" points="138,136 130,138 134,144"/>
@@ -4081,7 +3840,6 @@ In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die
     <line class="arr draw" data-delay="280" x1="340" y1="100" x2="550" y2="138" style="--len:213"/>
     <polyline class="arr-head reveal" data-delay="440" points="542,136 550,138 546,144"/>
   </g>
-
   <g class="col-group" data-col="anti">
     <g class="reveal lift" data-delay="500">
       <text class="h-col" x="130" y="168" font-size="14" text-anchor="middle">ANTIMIKROBIKUM</text>
@@ -4100,7 +3858,6 @@ In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die
       <text class="sub" x="130" y="280" font-size="11" text-anchor="middle">Kabara 1972: stärker als Penicillin</text>
     </g>
   </g>
-
   <g class="col-group" data-col="keto">
     <g class="reveal lift" data-delay="520">
       <text class="h-col" x="340" y="168" font-size="14" text-anchor="middle">KETOGENES</text>
@@ -4119,7 +3876,6 @@ In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die
       <text class="sub" x="340" y="280" font-size="11" text-anchor="middle">schnelle Aufnahme, kein Umweg</text>
     </g>
   </g>
-
   <g class="col-group" data-col="koch">
     <g class="reveal lift" data-delay="540">
       <text class="h-col" x="550" y="168" font-size="14" text-anchor="middle">KOCHFETT</text>
@@ -4138,23 +3894,19 @@ In Sri Lanka, den Philippinen und Polynesien ist Kokosöl seit Jahrhunderten die
       <text class="sub" x="550" y="280" font-size="11" text-anchor="middle">keine Aldehyde wie Sonnenblume</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="960" d="M 540 300 Q 340 322 140 300"/>
     <polyline class="feedback-head reveal" data-delay="990" points="144,296 140,300 144,304"/>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="348" x2="278" y2="348"/>
     <text class="sep-word" x="340" y="352" font-size="10" text-anchor="middle">DREI FUNKTIONEN</text>
     <line class="sep" x1="402" y1="348" x2="620" y2="348"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="374" font-size="12.5" text-anchor="middle">»Wenn dein Werkzeug nur Cholesterin zählen kann,</text>
     <text class="closer" x="340" y="392" font-size="12.5" text-anchor="middle">sieht jedes Fett aus wie ein Herzinfarkt.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -4250,7 +4002,6 @@ Hagura 2013 liefert die eleganteste Messung. In einer Studie am University Colle
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="szechuanpfeffer-sanshool-vibration">
   <title id="diag-title">Sanshool — drei Kanäle, fünfzig Hertz</title>
   <desc id="diag-desc">Hydroxy-alpha-Sanshool aus Szechuanpfeffer wirkt auf drei molekulare Targets — TRPV1/TRPA1 und die Zweiporenkaliumkanäle KCNK3 und KCNK9. Das Ergebnis ist eine messbare Vibration der Lippen bei 50 Hertz, der Empfindlichkeit der RA1/Meissner-Mechanorezeptoren.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -4266,35 +4017,30 @@ Hagura 2013 liefert die eleganteste Messung. In einer Studie am University Colle
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">FÜNFZIG HERTZ</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Drei Kanäle, eine Frequenz — Sanshool an den Berührungsfasern</text>
   </g>
-
   <g class="col-group" data-col="trp">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">TRPV1 / TRPA1</text>
@@ -4313,7 +4059,6 @@ Hagura 2013 liefert die eleganteste Messung. In einer Studie am University Colle
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">wie Capsaicin, Senföl</text>
     </g>
   </g>
-
   <g class="col-group" data-col="kcnk">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">KCNK3 / KCNK9</text>
@@ -4332,7 +4077,6 @@ Hagura 2013 liefert die eleganteste Messung. In einer Studie am University Colle
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">Ruheblock weggenommen</text>
     </g>
   </g>
-
   <g class="col-group" data-col="ra1">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">RA1-FASER</text>
@@ -4351,25 +4095,20 @@ Hagura 2013 liefert die eleganteste Messung. In einer Studie am University Colle
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Hagura 2013: 50 Hz</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 140 272 Q 340 306 540 272"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Mund meldet Vibration, obwohl nichts vibriert · chemische Haptik statt Schärfe</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">NETZFREQUENZ</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Ein Gewürz, das die Lippen auf Netzfrequenz bringt.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -4438,7 +4177,6 @@ Aburto 2013 hat für die WHO die Evidenz zusammengetragen. Eine systematische Ü
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="kalium-elektrolyt-blutdruck">
   <title id="diag-title">Kalium — drei Wirkungen, ein Defizit</title>
   <desc id="diag-desc">Erhöhte Kaliumzufuhr senkt Blutdruck, reduziert Schlaganfallrisiko und schützt die Knochen. Die WHO empfiehlt 3510 Milligramm pro Tag, westliche Bevölkerungen liegen tausend Milligramm darunter.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -4454,35 +4192,30 @@ Aburto 2013 hat für die WHO die Evidenz zusammengetragen. Eine systematische Ü
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DREI WIRKUNGEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Kalium, die WHO-Empfehlung und das stille Defizit</text>
   </g>
-
   <g class="col-group" data-col="blutdruck">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">BLUTDRUCK</text>
@@ -4501,7 +4234,6 @@ Aburto 2013 hat für die WHO die Evidenz zusammengetragen. Eine systematische Ü
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">systolisch und diastolisch</text>
     </g>
   </g>
-
   <g class="col-group" data-col="schlaganfall">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">SCHLAGANFALL</text>
@@ -4520,7 +4252,6 @@ Aburto 2013 hat für die WHO die Evidenz zusammengetragen. Eine systematische Ü
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">mit einem Mineral aus Bananen</text>
     </g>
   </g>
-
   <g class="col-group" data-col="defizit">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">DEFIZIT</text>
@@ -4539,26 +4270,21 @@ Aburto 2013 hat für die WHO die Evidenz zusammengetragen. Eine systematische Ü
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Serumwert bleibt im Normbereich</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Koffein spült Kalium aus · Natrium ohne Gegengewicht · der Mangel, der zählt</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">LÜCKE</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Lösung steht im Supermarkt, nicht in der Apotheke.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -4661,7 +4387,6 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="wacholder-juniperus-terpinen">
   <title id="diag-title">Wacholder — vier Karrieren für eine Beere</title>
   <desc id="diag-desc">Juniperus communis hat vier pharmakologische und kulinarische Rollen: Gewürz, kaliumsparendes Diuretikum, Breitband-Antimikrobikum und Gin-Basis. Die Medizin hat drei davon vergessen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -4677,35 +4402,30 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">VIER KARRIEREN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Juniperus communis — eine Beere, vier Rollen</text>
   </g>
-
   <g class="col-group" data-col="origin">
     <g class="reveal lift" data-delay="180">
       <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">WACHOLDERBEERE</text>
@@ -4714,7 +4434,6 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
       <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">über achtzig Monoterpene — Pinen, Sabinen, Terpinen-4-ol</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="340" x1="305" y1="148" x2="95" y2="190" style="--len:214"/>
     <polyline class="arr-head reveal" data-delay="500" points="99,186 95,190 99,194"/>
@@ -4731,7 +4450,6 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
     <line class="arr draw" data-delay="400" x1="375" y1="148" x2="585" y2="190" style="--len:214"/>
     <polyline class="arr-head reveal" data-delay="560" points="581,186 585,190 581,194"/>
   </g>
-
   <g class="col-group" data-col="spice">
     <g class="reveal lift" data-delay="600">
       <text class="h-col" x="95" y="214" font-size="13" text-anchor="middle">GEWÜRZ</text>
@@ -4746,7 +4464,6 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
       <text class="sub" x="95" y="260" font-size="10.5" text-anchor="middle">die übrig blieb</text>
     </g>
   </g>
-
   <g class="col-group" data-col="diuretic">
     <g class="reveal lift" data-delay="620">
       <text class="h-col" x="245" y="214" font-size="13" text-anchor="middle">DIURETIKUM</text>
@@ -4761,7 +4478,6 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
       <text class="sub" x="245" y="260" font-size="10.5" text-anchor="middle">ohne Kaliumverlust</text>
     </g>
   </g>
-
   <g class="col-group" data-col="antimicrobial">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="435" y="214" font-size="13" text-anchor="middle">ANTIMIKROBIKUM</text>
@@ -4776,7 +4492,6 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
       <text class="sub" x="435" y="260" font-size="10.5" text-anchor="middle">Raina 2019</text>
     </g>
   </g>
-
   <g class="col-group" data-col="gin">
     <g class="reveal lift" data-delay="660">
       <text class="h-col" x="585" y="214" font-size="13" text-anchor="middle">GIN-BASIS</text>
@@ -4791,22 +4506,18 @@ Die EMA führt Juniperus communis mit einer eigenen Monographie.[2] Die Europäi
       <text class="sub" x="585" y="260" font-size="10.5" text-anchor="middle">Hauptaroma</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="304" font-size="10.5" text-anchor="middle">Pharmakopöe und Spirituosenrecht zugleich — wenige Pflanzen leisten diesen Spagat</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="332" x2="290" y2="332"/>
     <text class="sep-word" x="340" y="336" font-size="10" text-anchor="middle">SPAGAT</text>
     <line class="sep" x1="390" y1="332" x2="620" y2="332"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="365" font-size="13.5" text-anchor="middle">»Die Medizin hat drei davon vergessen</text>
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">und trinkt die vierte.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -4867,7 +4578,6 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="petersilie-apigenin-nad">
   <title id="diag-title">Petersilie → Apigenin hemmt CD38 → NAD+ bleibt</title>
   <desc id="diag-desc">CD38 baut NAD+ in jeder Zelle ab und ist der Haupttreiber des altersbedingten NAD+-Verlusts. Apigenin, in Petersilie reichlich enthalten, hemmt CD38. Was das Marketing als Kapsel verkauft, liegt fuer neunundneunzig Cent neben dem Steak.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -4883,35 +4593,30 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER UMWEG ÜBER CD38</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Was Petersilie kostet, kostet die Kapsel dreissig Euro</text>
   </g>
-
   <g class="col-group" data-col="petersilie">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="120" y="130" font-size="14" text-anchor="middle">PETERSILIE</text>
@@ -4920,7 +4625,6 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
       <text class="sub" x="120" y="148" font-size="11" text-anchor="middle">Küchenkraut</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="172" y1="180" x2="280" y2="180" style="--len:108"/>
     <polyline class="arr-head reveal" data-delay="460" points="276,176 280,180 276,184"/>
@@ -4928,7 +4632,6 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
   <g class="reveal lift" data-delay="500">
     <text class="sub" x="226" y="172" font-size="10.5" text-anchor="middle">enthält</text>
   </g>
-
   <g class="col-group" data-col="apigenin">
     <g class="reveal lift" data-delay="540">
       <text class="h-col" x="340" y="130" font-size="14" text-anchor="middle">APIGENIN</text>
@@ -4937,7 +4640,6 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
       <text class="sub" x="340" y="148" font-size="11" text-anchor="middle">Flavonoid, CD38-Hemmer</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="620" x1="382" y1="180" x2="490" y2="180" style="--len:108"/>
     <line class="arr" x1="494" y1="172" x2="494" y2="188"/>
@@ -4946,7 +4648,6 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
   <g class="reveal lift" data-delay="700">
     <text class="sub" x="436" y="172" font-size="10.5" text-anchor="middle">hemmt</text>
   </g>
-
   <g class="col-group" data-col="cd38">
     <g class="reveal lift" data-delay="740">
       <text class="h-col" x="560" y="130" font-size="14" text-anchor="middle">CD38</text>
@@ -4955,7 +4656,6 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
       <text class="sub" x="560" y="148" font-size="11" text-anchor="middle">baut NAD+ ab</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="840" x1="560" y1="200" x2="560" y2="278" style="--len:78"/>
     <polyline class="arr-head reveal" data-delay="900" points="556,274 560,278 564,274"/>
@@ -4963,31 +4663,26 @@ Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publ
   <g class="reveal lift" data-delay="880">
     <text class="sub" x="600" y="240" font-size="10.5" text-anchor="start">altersbedingt</text>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="h-res" x="560" y="300" font-size="11" text-anchor="middle">NAD+ FÄLLT</text>
   </g>
   <g class="reveal lift" data-delay="970">
     <text class="sub" x="560" y="318" font-size="11" text-anchor="middle">Haupttreiber des Verlusts</text>
   </g>
-
   <g class="reveal lift" data-delay="1000">
     <text class="sub" x="220" y="240" font-size="11" text-anchor="middle">Kapsel: dreissig Euro pro Monat</text>
   </g>
   <g class="reveal lift" data-delay="1020">
     <text class="sub" x="220" y="258" font-size="11" text-anchor="middle">Bund: neunundneunzig Cent</text>
   </g>
-
   <g class="reveal" data-delay="1060">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">HEMMUNG</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Ein Bund Petersilie hemmt es für neunundneunzig Cent.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -5056,7 +4751,6 @@ Die Quellen sind identifiziert. Oxidative Prozesse in der mitochondrialen Atmung
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="biophotonen-ultraschwache-photonenemission">
   <title id="diag-title">Biophotonen — gemessenes Phänomen, ruinierte Interpretation</title>
   <desc id="diag-desc">Ultraschwache Photonenemission ist gemessen, reproduziert und publiziert. Aus der Messung wurde eine Gabelung: links die esoterische Vereinnahmung, rechts die wissenschaftliche Flucht. Beide Seiten haben aufgehört zu lesen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -5072,35 +4766,30 @@ Die Quellen sind identifiziert. Oxidative Prozesse in der mitochondrialen Atmung
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE ZELLEN LEUCHTEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Eine reproduzierte Messung, zwei Seiten, die aufgehört haben zu lesen</text>
   </g>
-
   <g class="col-group" data-col="source">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">ULTRASCHWACHE EMISSION</text>
@@ -5109,21 +4798,17 @@ Die Quellen sind identifiziert. Oxidative Prozesse in der mitochondrialen Atmung
       <text class="sub" x="340" y="134" font-size="11" text-anchor="middle">200–800 nm · oxidative Prozesse · reproduziert</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="420" x1="340" y1="148" x2="340" y2="172" style="--len:24"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw warn" data-delay="500" x1="340" y1="172" x2="180" y2="222" style="--len:168"/>
     <polyline class="arr-head warn reveal" data-delay="640" points="184,218 180,222 184,226"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="520" x1="340" y1="172" x2="500" y2="222" style="--len:168"/>
     <polyline class="arr-head reveal" data-delay="660" points="496,218 500,222 496,226"/>
   </g>
-
   <g class="col-group" data-col="esoteric">
     <g class="reveal lift" data-delay="720">
       <text class="h-col warn-fill" x="180" y="250" font-size="13" text-anchor="middle">ESOTERIK</text>
@@ -5138,7 +4823,6 @@ Die Quellen sind identifiziert. Oxidative Prozesse in der mitochondrialen Atmung
       <text class="sub" x="180" y="298" font-size="11" text-anchor="middle">vereinnahmt das Phänomen</text>
     </g>
   </g>
-
   <g class="col-group" data-col="science">
     <g class="reveal lift" data-delay="740">
       <text class="h-col" x="500" y="250" font-size="13" text-anchor="middle">WISSENSCHAFT</text>
@@ -5153,21 +4837,17 @@ Die Quellen sind identifiziert. Oxidative Prozesse in der mitochondrialen Atmung
       <text class="sub" x="500" y="298" font-size="11" text-anchor="middle">überlässt das Feld</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Die Physik steht. Die Interpretation hat zwei Seiten ruiniert.</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">GABELUNG</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Es hat Fans und Feinde bekommen. Beide haben aufgehört zu lesen.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -5256,7 +4936,6 @@ Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainings
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="zitronenverbene-verbascoside-sport">
   <title id="diag-title">Zitronenverbene — Schaden senken, Signal erhalten</title>
   <desc id="diag-desc">Nach dem Training entstehen reaktive Sauerstoffspezies, die als Signal die Trainingsanpassung anstoßen. Hochdosiertes Vitamin C löscht den Schaden und das Signal. Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -5272,35 +4951,30 @@ Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainings
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER SCHADEN UND DAS SIGNAL</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Reaktive Sauerstoffspezies nach dem Training — zwei Antworten</text>
   </g>
-
   <g class="col-group" data-col="origin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">ROS NACH SPORT</text>
@@ -5309,7 +4983,6 @@ Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainings
       <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Schadensquelle und Adaptationssignal in einem</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw warn" data-delay="380" x1="320" y1="148" x2="170" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal warn" data-delay="520" points="174,196 170,200 174,204"/>
@@ -5318,7 +4991,6 @@ Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainings
     <line class="arr draw" data-delay="400" x1="360" y1="148" x2="510" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal" data-delay="540" points="506,196 510,200 506,204"/>
   </g>
-
   <g class="col-group" data-col="vitc">
     <g class="reveal lift" data-delay="620">
       <text class="h-col warn-fill" x="155" y="226" font-size="14" text-anchor="middle">VITAMIN C</text>
@@ -5337,7 +5009,6 @@ Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainings
       <text class="sub" x="155" y="332" font-size="11" text-anchor="middle">Adaptation blockiert</text>
     </g>
   </g>
-
   <g class="col-group" data-col="verbene">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="525" y="226" font-size="14" text-anchor="middle">VERBASCOSIDE</text>
@@ -5356,17 +5027,14 @@ Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainings
       <text class="sub" x="525" y="332" font-size="11" text-anchor="middle">Funes 2011 · Buchwald-Werner 2018</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="290" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">BOTSCHAFT</text>
     <line class="sep" x1="390" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -5443,7 +5111,6 @@ LGG hat über 1500 Publikationen. Bei akuter Gastroenteritis im Kindesalter verk
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="probiotika-staemme-evidenz">
   <title id="diag-title">Probiotika — vierzehn Stämme oder drei Belege</title>
   <desc id="diag-desc">Eine Gabelung: links die Marketing-Schiene mit vierzehn ungeprüften Stämmen und Milliardenzahlen, rechts die Evidenz-Schiene mit drei einzelnen Stämmen, die je eine Indikation belegen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -5459,39 +5126,33 @@ LGG hat über 1500 Publikationen. Bei akuter Gastroenteritis im Kindesalter verk
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">PROBIOTIKA</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Vierzehn Stämme klingen breiter, ein Stamm hat Studien</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="240" x1="340" y1="80" x2="340" y2="116" style="--len:36"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="340" x1="340" y1="118" x2="180" y2="158" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="480" points="186,153 180,158 184,164"/>
@@ -5500,7 +5161,6 @@ LGG hat über 1500 Publikationen. Bei akuter Gastroenteritis im Kindesalter verk
     <line class="arr draw" data-delay="340" x1="340" y1="118" x2="500" y2="158" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="480" points="494,153 500,158 496,164"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="540">
       <text class="h-col" x="180" y="180" font-size="14" text-anchor="middle">MILLIARDEN</text>
@@ -5521,7 +5181,6 @@ LGG hat über 1500 Publikationen. Bei akuter Gastroenteritis im Kindesalter verk
       <text class="sub" x="180" y="294" font-size="11" text-anchor="middle">nicht besser als Placebo</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="560">
       <text class="h-col" x="500" y="180" font-size="14" text-anchor="middle">EVIDENZ</text>
@@ -5542,21 +5201,17 @@ LGG hat über 1500 Publikationen. Bei akuter Gastroenteritis im Kindesalter verk
       <text class="sub" x="500" y="294" font-size="11" text-anchor="middle">drei Stämme, drei Belege</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="324" font-size="10.5" text-anchor="middle">Tausend Studien stehen im selben Regal wie null Studien · der Preis unterscheidet nicht</text>
   </g>
-
   <g class="reveal" data-delay="1000">
     <line class="sep" x1="60" y1="348" x2="298" y2="348"/>
     <text class="sep-word" x="340" y="352" font-size="10" text-anchor="middle">ARITHMETIK</text>
     <line class="sep" x1="382" y1="348" x2="620" y2="348"/>
   </g>
-
   <g class="reveal lift" data-delay="1100">
     <text class="closer" x="340" y="382" font-size="13.5" text-anchor="middle">»Die Zahl misst nichts außer Marketing.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -5621,7 +5276,6 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="akkermansia-muciniphila-darmbarriere">
   <title id="diag-title">Akkermansia — Konsum als Erneuerungssignal</title>
   <desc id="diag-desc">Ein Kreislauf von vier Stationen. Die Mukusschicht wird von Akkermansia abgebaut, der Abbau stimuliert die Becherzellen, die Becherzellen produzieren frische Mukusschichten, die Barriere wird dichter — und der Kreis schließt sich.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -5637,35 +5291,30 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">AKKERMANSIA</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Konsum der Mukusschicht als Erneuerungssignal</text>
   </g>
-
   <g class="col-group" data-col="oben">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="118" font-size="14" text-anchor="middle">MUKUSSCHICHT</text>
@@ -5674,7 +5323,6 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
       <text class="sub" x="340" y="136" font-size="11" text-anchor="middle">Schleimprotein der Darmwand</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="320">
       <text class="h-col" x="540" y="210" font-size="14" text-anchor="middle">AKKERMANSIA</text>
@@ -5683,7 +5331,6 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
       <text class="sub" x="540" y="228" font-size="11" text-anchor="middle">frisst Muzin</text>
     </g>
   </g>
-
   <g class="col-group" data-col="unten">
     <g class="reveal lift" data-delay="420">
       <text class="h-col" x="340" y="298" font-size="14" text-anchor="middle">BECHERZELLEN</text>
@@ -5692,7 +5339,6 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
       <text class="sub" x="340" y="316" font-size="11" text-anchor="middle">produzieren neue Schichten</text>
     </g>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="520">
       <text class="h-col" x="140" y="210" font-size="14" text-anchor="middle">BARRIERE</text>
@@ -5701,7 +5347,6 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
       <text class="sub" x="140" y="228" font-size="11" text-anchor="middle">frischer, dichter, fester</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="620" d="M 400 130 Q 490 150 530 192" style="--len:155"/>
     <polyline class="arr-head reveal" data-delay="760" points="527,186 530,192 524,193"/>
@@ -5718,24 +5363,20 @@ Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von
     <path class="arr draw" data-delay="740" d="M 152 192 Q 195 150 280 130" style="--len:160"/>
     <polyline class="arr-head reveal" data-delay="880" points="274,133 280,130 278,136"/>
   </g>
-
   <g class="reveal lift" data-delay="920">
     <text class="sub" x="340" y="208" font-size="11" text-anchor="middle">Amuc_1100</text>
   </g>
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="226" font-size="11" text-anchor="middle">hitzestabil · TLR2</text>
   </g>
-
   <g class="reveal" data-delay="1000">
     <line class="sep" x1="60" y1="348" x2="298" y2="348"/>
     <text class="sep-word" x="340" y="352" font-size="10" text-anchor="middle">KREISLAUF</text>
     <line class="sep" x1="382" y1="348" x2="620" y2="348"/>
   </g>
-
   <g class="reveal lift" data-delay="1100">
     <text class="closer" x="340" y="382" font-size="13.5" text-anchor="middle">»Der Wirkstoff überlebt das Bakterium.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -5796,7 +5437,6 @@ Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="praebiotika-ballaststoffe-butyrat">
   <title id="diag-title">Drei Ballaststoffe, ein Endprodukt</title>
   <desc id="diag-desc">Drei Präbiotika — Inulin, Akazienfaser, resistente Stärke — werden im Darm fermentiert und zu Butyrat umgesetzt. Drei Fermentationsprofile, ein gemeinsames Ziel: die Darmschleimhaut.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -5812,35 +5452,30 @@ Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DAS FUTTER</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Drei Ballaststoffe, drei Fermentationsprofile, ein Endprodukt</text>
   </g>
-
   <g class="col-group" data-col="inulin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">INULIN</text>
@@ -5859,7 +5494,6 @@ Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">am besten belegt, am wenigsten verträglich</text>
     </g>
   </g>
-
   <g class="col-group" data-col="akazie">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">AKAZIENFASER</text>
@@ -5878,7 +5512,6 @@ Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">fermentiert wie Inulin, verträglich wie Reis</text>
     </g>
   </g>
-
   <g class="col-group" data-col="staerke">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">RESISTENTE STÄRKE</text>
@@ -5897,7 +5530,6 @@ Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">flachere Glukosekurve, weniger Krebs</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 130 258 Q 130 282 340 282"/>
   </g>
@@ -5908,21 +5540,17 @@ Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat
     <line class="arr draw" data-delay="900" x1="340" y1="282" x2="340" y2="306" style="--len:24"/>
     <polyline class="arr-head reveal" data-delay="960" points="336,302 340,306 344,302"/>
   </g>
-
   <g class="reveal lift" data-delay="980">
     <text class="h-res" x="340" y="324" font-size="11" text-anchor="middle">BUTYRAT → DARMSCHLEIMHAUT</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">FUTTER</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Probiotika-Industrie verkauft den Gast. Das Futter erwähnt sie selten.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -5999,7 +5627,6 @@ Alpha-Liponsäure hält das System zusammen. Sie arbeitet in Wasser und Fett, ü
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="ala-nac-glutathion-recycling">
   <title id="diag-title">Glutathion, NAC und ALA — das Recycling-System</title>
   <desc id="diag-desc">Drei Substanzen, ein System: Glutathion ist das Ziel, NAC liefert das Baumaterial Cystein, ALA recycelt verbrauchtes Glutathion zurück in seine aktive Form. Ohne den Kreislauf bleibt jede einzelne Kapsel wirkungslos.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -6015,35 +5642,30 @@ Alpha-Liponsäure hält das System zusammen. Sie arbeitet in Wasser und Fett, ü
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DREI ROLLEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Glutathion, NAC und Alpha-Liponsäure — ein einziges System</text>
   </g>
-
   <g class="col-group" data-col="gsh">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">GLUTATHION</text>
@@ -6062,7 +5684,6 @@ Alpha-Liponsäure hält das System zusammen. Sie arbeitet in Wasser und Fett, ü
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">sinkt im Alter, oral wirkungslos</text>
     </g>
   </g>
-
   <g class="col-group" data-col="nac">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">NAC</text>
@@ -6081,7 +5702,6 @@ Alpha-Liponsäure hält das System zusammen. Sie arbeitet in Wasser und Fett, ü
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">Zelle baut Glutathion selbst</text>
     </g>
   </g>
-
   <g class="col-group" data-col="ala">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">ALA</text>
@@ -6100,26 +5720,21 @@ Alpha-Liponsäure hält das System zusammen. Sie arbeitet in Wasser und Fett, ü
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Wasser und Fett, auch Vitamin C und E</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">ohne ALA bricht das Recycling · ohne NAC fehlt der Rohstoff</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">SYSTEM</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Drei Substanzen, ein System.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -6215,7 +5830,6 @@ Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eis
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="chlorella-spirulina-detox-kontamination">
   <title id="diag-title">Chlorella und Spirulina — Versprechen gegen Realität</title>
   <desc id="diag-desc">Die Detox-Alge spaltet sich in zwei Wege: Das Marketing-Versprechen einer Schwermetall-Ausleitung — ohne kontrollierte Humanstudien. Und der dokumentierte Befund, dass die Algen selbst mit Blei, Cadmium, Arsen und Mikrocystinen kontaminiert sind.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -6231,35 +5845,30 @@ Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eis
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE ALGE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Chlorella und Spirulina — das Detox-Superfood</text>
   </g>
-
   <g class="col-group" data-col="origin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">DETOX-VERSPRECHEN</text>
@@ -6268,7 +5877,6 @@ Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eis
       <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">»bindet Schwermetalle« — das Etikett</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="320" y1="148" x2="170" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal" data-delay="520" points="174,196 170,200 174,204"/>
@@ -6277,7 +5885,6 @@ Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eis
     <line class="arr draw warn" data-delay="400" x1="360" y1="148" x2="510" y2="200" style="--len:159"/>
     <polyline class="arr-head reveal warn" data-delay="540" points="506,196 510,200 506,204"/>
   </g>
-
   <g class="col-group" data-col="marketing">
     <g class="reveal lift" data-delay="620">
       <text class="h-col" x="155" y="226" font-size="14" text-anchor="middle">MARKETING</text>
@@ -6296,7 +5903,6 @@ Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eis
       <text class="sub" x="155" y="332" font-size="11" text-anchor="middle">kontrollierte Humanstudien fehlen</text>
     </g>
   </g>
-
   <g class="col-group" data-col="biologie">
     <g class="reveal lift" data-delay="640">
       <text class="h-col warn-fill" x="525" y="226" font-size="14" text-anchor="middle">BIOLOGIE</text>
@@ -6315,17 +5921,14 @@ Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eis
       <text class="sub" x="525" y="332" font-size="11" text-anchor="middle">Blei, Cadmium, Arsen, Mikrocystine</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="298" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">IRONIE</text>
     <line class="sep" x1="382" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Die Algen sind selbst das Problem, das sie lösen sollen.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -6384,7 +5987,6 @@ Zink-Carnosin arbeitet auf der anderen Seite der Wand. Der Chelatkomplex aus Zin
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="glutamin-zink-carnosin-schleimhaut">
   <title id="diag-title">Glutamin, Zink, Carnosin — die Wand reparieren</title>
   <desc id="diag-desc">Drei Substanzen, eine Aufgabe: die Darmschleimhaut erhalten. Glutamin nährt die Enterozyten von innen, Zink und L-Carnosin bilden den Chelatkomplex Polaprezinc, der sich an geschädigten Stellen anreichert. Eine Substanz wird für den Bizeps verkauft, die andere kennt im Westen niemand.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -6400,35 +6002,30 @@ Zink-Carnosin arbeitet auf der anderen Seite der Wand. Der Chelatkomplex aus Zin
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE WAND</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Drei Substanzen, eine Schleimhaut, kein Marketing</text>
   </g>
-
   <g class="col-group" data-col="glutamin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">GLUTAMIN</text>
@@ -6447,7 +6044,6 @@ Zink-Carnosin arbeitet auf der anderen Seite der Wand. Der Chelatkomplex aus Zin
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">Zellteilung alle drei bis fünf Tage</text>
     </g>
   </g>
-
   <g class="col-group" data-col="zink">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">ZINK</text>
@@ -6466,7 +6062,6 @@ Zink-Carnosin arbeitet auf der anderen Seite der Wand. Der Chelatkomplex aus Zin
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">in Japan als Polaprezinc zugelassen</text>
     </g>
   </g>
-
   <g class="col-group" data-col="carnosin">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">CARNOSIN</text>
@@ -6485,26 +6080,21 @@ Zink-Carnosin arbeitet auf der anderen Seite der Wand. Der Chelatkomplex aus Zin
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">bei NSAID-Schaden messbar</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Glutamin von innen · Zink-Carnosin von außen · dieselbe Barriere</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">WAND</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Darmschleimhaut fragt nicht nach Marketing.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -6600,7 +6190,6 @@ Es gibt eine Ausnahme, und sie ist real. Die Basenpulver-III-Formulierung nach R
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="saeure-basen-basenpulver-ph">
   <title id="diag-title">Basenpulver — die Gabelung zwischen Alltag und Fasten</title>
   <desc id="diag-desc">Der Blut-pH wird durch Bikarbonat-Puffer, Atmung und Niere eng reguliert. Im Alltag ohne Indikation, beim Fasten als Mineralstoffsubstitution bei realer Ketoazidose. Hunderte Produkte, eine Indikation.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -6616,56 +6205,47 @@ Es gibt eine Ausnahme, und sie ist real. Die Basenpulver-III-Formulierung nach R
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE GABELUNG</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Eine Indikation beim Fasten, null im Alltag</text>
   </g>
-
   <g class="reveal lift" data-delay="180">
     <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">BASENPULVER</text>
   </g>
   <g class="reveal lift" data-delay="220">
     <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Carbonate, Citrate, Bikarbonate</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="360" x1="340" y1="140" x2="340" y2="160" style="--len:20"/>
   </g>
-
   <g class="arr-group">
     <line class="arr warn draw" data-delay="440" x1="340" y1="160" x2="180" y2="200" style="--len:165"/>
     <polyline class="arr-head warn reveal" data-delay="580" points="186,198 180,200 184,206"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="440" x1="340" y1="160" x2="500" y2="200" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="580" points="496,198 500,200 498,206"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="180" y="222" font-size="13" text-anchor="middle">ALLTAG</text>
@@ -6685,7 +6265,6 @@ Es gibt eine Ausnahme, und sie ist real. Die Basenpulver-III-Formulierung nach R
       <text class="h-res" x="180" y="327" font-size="11" text-anchor="middle">EIN GEFÜHL</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="500" y="222" font-size="13" text-anchor="middle">FASTEN</text>
@@ -6707,17 +6286,14 @@ Es gibt eine Ausnahme, und sie ist real. Die Basenpulver-III-Formulierung nach R
       <text class="sub" x="500" y="335" font-size="10.5" text-anchor="middle">Mineralstoffsubstitution mit Indikation</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="298" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">MARGE</text>
     <line class="sep" x1="382" y1="358" x2="620" y2="358"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Das Produkt behandelt ein Gefühl, keinen Befund.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -6800,7 +6376,6 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="spermidin-autophagie-longevity">
   <title id="diag-title">Spermidin stösst Autophagie an — den zellulären Recyclingkreislauf</title>
   <desc id="diag-desc">Autophagie ist der zellulaere Selbstreinigungsprozess, in dem beschaedigte Proteine und Organellen abgebaut und recycelt werden. Spermidin ist einer der wenigen Naehrstoffe, die ihn von aussen anstossen. Mausdaten stark, Humandaten knapp.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -6816,35 +6391,30 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER RECYCLING-KREISLAUF</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Autophagie säubert die Zelle — Spermidin stösst sie an</text>
   </g>
-
   <g class="col-group" data-col="spermidin">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="100" y="218" font-size="14" text-anchor="middle">SPERMIDIN</text>
@@ -6853,7 +6423,6 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
       <text class="sub" x="100" y="236" font-size="11" text-anchor="middle">Trigger</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="380" d="M 150 198 Q 200 130 363 132" style="--len:240"/>
     <polyline class="arr-head reveal" data-delay="460" points="359,128 363,132 359,136"/>
@@ -6861,7 +6430,6 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
   <g class="reveal lift" data-delay="500">
     <text class="sub" x="100" y="252" font-size="10.5" text-anchor="middle">stösst Autophagie an</text>
   </g>
-
   <g class="col-group" data-col="schaden">
     <g class="reveal lift" data-delay="540">
       <text class="h-col" x="400" y="130" font-size="13" text-anchor="middle">SCHADEN</text>
@@ -6870,7 +6438,6 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
       <text class="sub" x="400" y="148" font-size="10.5" text-anchor="middle">defekte Proteine</text>
     </g>
   </g>
-
   <g class="col-group" data-col="verpacken">
     <g class="reveal lift" data-delay="600">
       <text class="h-col" x="580" y="220" font-size="13" text-anchor="middle">VERPACKEN</text>
@@ -6879,7 +6446,6 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
       <text class="sub" x="580" y="238" font-size="10.5" text-anchor="middle">Autophagosom</text>
     </g>
   </g>
-
   <g class="col-group" data-col="abbau">
     <g class="reveal lift" data-delay="660">
       <text class="h-col" x="400" y="310" font-size="13" text-anchor="middle">ABBAU</text>
@@ -6888,7 +6454,6 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
       <text class="sub" x="400" y="328" font-size="10.5" text-anchor="middle">Lysosom verdaut</text>
     </g>
   </g>
-
   <g class="col-group" data-col="recycling">
     <g class="reveal lift" data-delay="720">
       <text class="h-col" x="280" y="220" font-size="13" text-anchor="middle">RECYCLING</text>
@@ -6897,37 +6462,30 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
       <text class="sub" x="280" y="238" font-size="10.5" text-anchor="middle">Bausteine</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="780" d="M 455 144 Q 540 168 555 196" style="--len:130"/>
     <polyline class="arr-head reveal" data-delay="840" points="549,196 555,196 555,190"/>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="850" d="M 555 250 Q 540 280 455 304" style="--len:120"/>
     <polyline class="arr-head reveal" data-delay="900" points="461,300 455,304 461,308"/>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="910" d="M 350 304 Q 308 280 290 250" style="--len:90"/>
     <polyline class="arr-head reveal" data-delay="960" points="296,252 290,250 290,256"/>
   </g>
-
   <g class="arr-group">
     <path class="arr draw" data-delay="970" d="M 305 198 Q 340 168 360 144" style="--len:90"/>
     <polyline class="arr-head reveal" data-delay="1020" points="354,144 360,144 360,150"/>
   </g>
-
   <g class="reveal" data-delay="1050">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">KREISLAUF</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Marge wartet nicht auf Beweise.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -7038,7 +6596,6 @@ Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren.[3] Strukturell fast
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="resveratrol-pterostilben-bioverfuegbarkeit">
   <title id="diag-title">Resveratrol vs. Pterostilben — die Pharmakokinetik der Gabelung</title>
   <desc id="diag-desc">Zwei strukturell fast identische Stilbenoide, zwei Bioverfügbarkeiten. Resveratrol wird in Minuten sulfatiert, Pterostilben überlebt die Leberpassage. Die Industrie verkauft das falsche Molekül.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -7054,35 +6611,30 @@ Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren.[3] Strukturell fast
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">ZWEI METHYLGRUPPEN</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Zwei Stilbenoide, ein Reagenzglas, zwei Schicksale</text>
   </g>
-
   <g class="col-group" data-col="source">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">POLYPHENOL ORAL</text>
@@ -7091,21 +6643,17 @@ Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren.[3] Strukturell fast
       <text class="sub" x="340" y="134" font-size="11" text-anchor="middle">In vitro: SIRT1, AMPK, PPARα — alle Schalter aktiv</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="420" x1="340" y1="148" x2="340" y2="172" style="--len:24"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw warn" data-delay="500" x1="340" y1="172" x2="180" y2="222" style="--len:168"/>
     <polyline class="arr-head warn reveal" data-delay="640" points="184,218 180,222 184,226"/>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="520" x1="340" y1="172" x2="500" y2="222" style="--len:168"/>
     <polyline class="arr-head reveal" data-delay="660" points="496,218 500,222 496,226"/>
   </g>
-
   <g class="col-group" data-col="resveratrol">
     <g class="reveal lift" data-delay="720">
       <text class="h-col warn-fill" x="180" y="250" font-size="13" text-anchor="middle">RESVERATROL</text>
@@ -7120,7 +6668,6 @@ Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren.[3] Strukturell fast
       <text class="sub" x="180" y="298" font-size="11" text-anchor="middle">die Leber gewinnt</text>
     </g>
   </g>
-
   <g class="col-group" data-col="pterostilben">
     <g class="reveal lift" data-delay="740">
       <text class="h-col" x="500" y="250" font-size="13" text-anchor="middle">PTEROSTILBEN</text>
@@ -7135,21 +6682,17 @@ Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren.[3] Strukturell fast
       <text class="sub" x="500" y="298" font-size="11" text-anchor="middle">erreicht das Zielorgan</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Die In-vitro-Biologie ist identisch. Die In-vivo-Pharmakokinetik trennt die Geschichte.</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">SACKGASSE</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Der Markt belohnt Narrative, keine Bioverfügbarkeit.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -7258,7 +6801,6 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="senolytika-fisetin-quercetin-zombiezellen">
   <title id="diag-title">Senolytika — vom Konzept zur Maus, noch nicht zum Menschen</title>
   <desc id="diag-desc">Zeitstrahl der senolytischen Forschung. 2015 genetische Ablation in der Mayo Clinic, 2017 D+Q als erstes pharmakologisches Senolytikum, 2018 Fisetin als wirksamste Variante. Am Menschen liegen bisher nur Pilotsignale vor.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -7274,35 +6816,30 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE ZEITREIHE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Vom Konzept über die Maus, nicht zum Menschen</text>
   </g>
-
   <g class="col-group" data-col="t1">
     <g class="reveal lift" data-delay="200">
       <text class="h-res" x="100" y="148" font-size="11" text-anchor="middle">SASP</text>
@@ -7314,7 +6851,6 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
       <text class="sub" x="100" y="178" font-size="10.5" text-anchor="middle">Zombiezelle</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t2">
     <g class="reveal lift" data-delay="240">
       <text class="h-res" x="240" y="148" font-size="11" text-anchor="middle">MAYO 2015</text>
@@ -7326,7 +6862,6 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
       <text class="sub" x="240" y="178" font-size="10.5" text-anchor="middle">verlängert Mausleben</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t3">
     <g class="reveal lift" data-delay="280">
       <text class="h-res" x="380" y="148" font-size="11" text-anchor="middle">D + Q 2017</text>
@@ -7338,7 +6873,6 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
       <text class="sub" x="380" y="178" font-size="10.5" text-anchor="middle">erstes Senolytikum</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t4">
     <g class="reveal lift" data-delay="320">
       <text class="h-res" x="520" y="148" font-size="11" text-anchor="middle">FISETIN 2018</text>
@@ -7350,7 +6884,6 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
       <text class="sub" x="520" y="178" font-size="10.5" text-anchor="middle">EBioMedicine</text>
     </g>
   </g>
-
   <g class="col-group" data-col="t5">
     <g class="reveal lift" data-delay="360">
       <text class="h-res" x="620" y="148" font-size="11" text-anchor="middle">MENSCH ?</text>
@@ -7362,12 +6895,10 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
       <text class="sub" x="620" y="178" font-size="10.5" text-anchor="middle">n=14, drei Tage</text>
     </g>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="500" x1="60" y1="220" x2="660" y2="220" style="--len:600"/>
     <polyline class="arr-head reveal" data-delay="900" points="656,216 660,220 656,224"/>
   </g>
-
   <g class="reveal" data-delay="560">
     <line class="sep" x1="100" y1="214" x2="100" y2="226"/>
   </g>
@@ -7383,7 +6914,6 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
   <g class="reveal" data-delay="720">
     <line class="sep" x1="620" y1="214" x2="620" y2="226"/>
   </g>
-
   <g class="reveal lift" data-delay="760">
     <text class="sub" x="100" y="244" font-size="10.5" text-anchor="middle">~2005</text>
   </g>
@@ -7399,24 +6929,20 @@ Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Poten
   <g class="reveal lift" data-delay="840">
     <text class="sub" x="620" y="244" font-size="10.5" text-anchor="middle">heute</text>
   </g>
-
   <g class="reveal lift" data-delay="900">
     <text class="sub" x="340" y="290" font-size="11" text-anchor="middle">Maus → Maus → Maus → Maus → Bierdeckel an Humandaten</text>
   </g>
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="308" font-size="10.5" text-anchor="middle">Off-label-Dasatinib, Foren-Protokolle, klinische Lücke</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="340" x2="298" y2="340"/>
     <text class="sep-word" x="340" y="344" font-size="10" text-anchor="middle">MAUS</text>
     <line class="sep" x1="382" y1="340" x2="620" y2="340"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="378" font-size="13.5" text-anchor="middle">»Wer heute Senolytika nimmt, wettet darauf, dass Mäuse nicht lügen.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -7537,7 +7063,6 @@ Was funktioniert, sind die Formulierungen, die dieses Problem lösen. Meriva, ei
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="curcumin-pains-bioverfuegbarkeit">
   <title id="diag-title">Curcumin — die Gabelung zwischen Pulver und Phytosom</title>
   <desc id="diag-desc">Ein Molekül, zwei Wege. Standard-Curcumin scheitert an PAINS-Artefakten und unter einem Prozent Bioverfügbarkeit. Phytosom-Formulierungen wie Meriva erreichen 29-fache Resorption und reproduzierbare klinische Effekte.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -7553,42 +7078,36 @@ Was funktioniert, sind die Formulierungen, die dieses Problem lösen. Meriva, ei
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE GABELUNG</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Ein Molekül, zwei Pharmakokinetiken</text>
   </g>
-
   <g class="reveal lift" data-delay="200">
     <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">CURCUMIN</text>
   </g>
   <g class="reveal lift" data-delay="240">
     <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">120 klinische Studien, ein eigenes Journal</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="340" y1="140" x2="340" y2="158" style="--len:18"/>
     <line class="arr draw" data-delay="440" x1="180" y1="158" x2="500" y2="158" style="--len:320"/>
@@ -7597,7 +7116,6 @@ Was funktioniert, sind die Formulierungen, die dieses Problem lösen. Meriva, ei
     <line class="arr draw" data-delay="500" x1="500" y1="158" x2="500" y2="188" style="--len:30"/>
     <polyline class="arr-head reveal" data-delay="620" points="496,184 500,188 504,184"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="680">
       <text class="h-col" x="180" y="208" font-size="13" text-anchor="middle">STANDARD-PULVER</text>
@@ -7617,7 +7135,6 @@ Was funktioniert, sind die Formulierungen, die dieses Problem lösen. Meriva, ei
       <text class="h-res" x="180" y="313" font-size="11" text-anchor="middle">NICHTS</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="680">
       <text class="h-col" x="500" y="208" font-size="13" text-anchor="middle">PHYTOSOM</text>
@@ -7639,17 +7156,14 @@ Was funktioniert, sind die Formulierungen, die dieses Problem lösen. Meriva, ei
       <text class="sub" x="500" y="323" font-size="10.5" text-anchor="middle">antidepressiv, DNA-protektiv</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1040">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">NICHTS</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die teuerste Form von Nichts ist immer noch Nichts.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -7748,7 +7262,6 @@ Drei Substanzen, ein System. CoQ10 transportiert Elektronen. PQQ baut Mitochondr
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="mitochondrien-coq10-pqq-alcar">
   <title id="diag-title">CoQ10, PQQ und ALCAR — die mitochondriale Triade</title>
   <desc id="diag-desc">Drei Substanzen greifen an drei Stellen der Atmungskette an. CoQ10 transportiert Elektronen, PQQ baut neue Mitochondrien, ALCAR schleust Fettsäuren ein. Eine defekte Maschine, drei gezielte Kompensationen.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -7764,35 +7277,30 @@ Drei Substanzen, ein System. CoQ10 transportiert Elektronen. PQQ baut Mitochondr
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE KRAFTWERKE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Drei Substanzen, ein System, drei Defizite</text>
   </g>
-
   <g class="col-group" data-col="coq10">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">COQ10</text>
@@ -7811,7 +7319,6 @@ Drei Substanzen, ein System. CoQ10 transportiert Elektronen. PQQ baut Mitochondr
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">hält die Maschine am Laufen</text>
     </g>
   </g>
-
   <g class="col-group" data-col="pqq">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">PQQ</text>
@@ -7830,7 +7337,6 @@ Drei Substanzen, ein System. CoQ10 transportiert Elektronen. PQQ baut Mitochondr
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">mitochondriale Biogenese</text>
     </g>
   </g>
-
   <g class="col-group" data-col="alcar">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">ALCAR</text>
@@ -7849,26 +7355,21 @@ Drei Substanzen, ein System. CoQ10 transportiert Elektronen. PQQ baut Mitochondr
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Treibstoff durch die Membran</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Wartung · Erweiterung · Treibstoff — eine defekte Maschine, drei Kompensationen</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">INFRASTRUKTUR</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Vier Ärzte, vier Diagnosen, eine defekte Maschine.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -7986,7 +7487,6 @@ Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="vitamin-d-k2-magnesium-triade">
   <title id="diag-title">Vitamin D, K2 und Magnesium — die Triade</title>
   <desc id="diag-desc">Drei Substanzen, drei Funktionen, gegenseitige Abhängigkeiten. Vitamin D erhöht die Calciumaufnahme, K2 lenkt es in den Knochen, Magnesium aktiviert Vitamin D. Ohne den anderen funktioniert keine.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -8000,35 +7500,30 @@ Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3
     .hs-diagram .feedback { stroke: #888; stroke-width: 0.7; fill: none; stroke-dasharray: 4 3; }
     .hs-diagram .feedback-head { stroke: #888; stroke-width: 0.7; fill: none; }
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE TRIADE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Drei Substanzen, ein System, drei Defizite</text>
   </g>
-
   <g class="col-group" data-col="d">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">VITAMIN D</text>
@@ -8047,7 +7542,6 @@ Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">erhöht Aufnahme im Darm</text>
     </g>
   </g>
-
   <g class="col-group" data-col="k2">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">K2</text>
@@ -8066,7 +7560,6 @@ Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">Knochen, nicht Arterie</text>
     </g>
   </g>
-
   <g class="col-group" data-col="mg">
     <g class="reveal lift" data-delay="240">
       <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">MAGNESIUM</text>
@@ -8085,26 +7578,21 @@ Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Leber → Niere → Calcitriol</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">ohne Mg bleibt D inaktiv · ohne K2 kalzifiziert es die Arterien</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">TRIADE</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Triade funktioniert zusammen oder gar nicht.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -8241,7 +7729,6 @@ Alpha-Liponsäure zeigt den Unterschied am deutlichsten. Standard-ALA wird schne
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="liposomal-bioverfuegbarkeit-technologie">
   <title id="diag-title">Liposomal — wann die Hülle Pharmakokinetik ist und wann nur Typographie</title>
   <desc id="diag-desc">Gabelung der liposomalen Formulierung. Bei Glutathion, Curcumin und Alpha-Liponsäure macht die Phospholipidmembran den Unterschied zwischen Wirkung und Nullresorption. Bei Ashwagandha und niedrig dosiertem Vitamin C ist sie reine Preiserhöhung.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -8257,42 +7744,36 @@ Alpha-Liponsäure zeigt den Unterschied am deutlichsten. Standard-ALA wird schne
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE HÜLLE</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Dasselbe Etikett, zwei verschiedene Welten</text>
   </g>
-
   <g class="reveal lift" data-delay="200">
     <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">»LIPOSOMAL«</text>
   </g>
   <g class="reveal lift" data-delay="240">
     <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Phospholipidmembran als Trägerhülle</text>
   </g>
-
   <g class="arr-group">
     <line class="arr draw" data-delay="380" x1="340" y1="140" x2="340" y2="158" style="--len:18"/>
     <line class="arr draw" data-delay="440" x1="180" y1="158" x2="500" y2="158" style="--len:320"/>
@@ -8301,7 +7782,6 @@ Alpha-Liponsäure zeigt den Unterschied am deutlichsten. Standard-ALA wird schne
     <line class="arr warn draw" data-delay="500" x1="500" y1="158" x2="500" y2="188" style="--len:30"/>
     <polyline class="arr-head warn reveal" data-delay="620" points="496,184 500,188 504,184"/>
   </g>
-
   <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="680">
       <text class="h-col" x="180" y="208" font-size="13" text-anchor="middle">PHARMAKOKINETIK</text>
@@ -8328,7 +7808,6 @@ Alpha-Liponsäure zeigt den Unterschied am deutlichsten. Standard-ALA wird schne
       <text class="sub" x="180" y="339" font-size="10.5" text-anchor="middle">verlängerte AUC, langsame Clearance</text>
     </g>
   </g>
-
   <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="680">
       <text class="h-col" x="500" y="208" font-size="13" text-anchor="middle">TYPOGRAPHIE</text>
@@ -8355,17 +7834,14 @@ Alpha-Liponsäure zeigt den Unterschied am deutlichsten. Standard-ALA wird schne
       <text class="sub" x="500" y="343" font-size="10.5" text-anchor="middle">ohne Wirkungssteigerung</text>
     </g>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="362" x2="298" y2="362"/>
     <text class="sep-word" x="340" y="366" font-size="10" text-anchor="middle">HÜLLE</text>
     <line class="sep" x1="382" y1="362" x2="620" y2="362"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="392" font-size="13.5" text-anchor="middle">»Dazwischen liegt die Phospholipidmembran, und sonst nichts.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -8483,7 +7959,6 @@ Neben der Ernährung schrumpft das Gehirn noch durch eine Quelle, an die beim Th
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="omega-3-hirnatrophie-b-vitamine">
   <title id="diag-title">Omega-3, B-Vitamine, Feinstaub — die Schrumpf-Triade</title>
   <desc id="diag-desc">B-Vitamine wirken nur bei hohem Omega-3-Spiegel gegen Hirnatrophie. Omega-3 baut die Struktur, B-Vitamine liefern die Logistik, Feinstaub greift beide an. Die Industrie verkauft sie einzeln.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -8499,35 +7974,30 @@ Neben der Ernährung schrumpft das Gehirn noch durch eine Quelle, an die beim Th
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DAS GEHIRN SCHRUMPFT</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Drei Hebel, ein Hippocampus, kein Standard-Blutbild</text>
   </g>
-
   <g class="col-group" data-col="o3">
     <g class="reveal lift" data-delay="200">
       <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">OMEGA-3</text>
@@ -8546,7 +8016,6 @@ Neben der Ernährung schrumpft das Gehirn noch durch eine Quelle, an die beim Th
       <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">20 % der Hirn-Fettsäuren</text>
     </g>
   </g>
-
   <g class="col-group" data-col="b">
     <g class="reveal lift" data-delay="220">
       <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">B-VITAMINE</text>
@@ -8565,7 +8034,6 @@ Neben der Ernährung schrumpft das Gehirn noch durch eine Quelle, an die beim Th
       <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">Homocystein gesenkt, DHA verbaut</text>
     </g>
   </g>
-
   <g class="col-group" data-col="pm">
     <g class="reveal lift" data-delay="240">
       <text class="h-col warn-fill" x="550" y="116" font-size="14" text-anchor="middle">FEINSTAUB</text>
@@ -8584,26 +8052,21 @@ Neben der Ernährung schrumpft das Gehirn noch durch eine Quelle, an die beim Th
       <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Mikroglia, Amyloid, Tau</text>
     </g>
   </g>
-
   <g class="arr-group">
     <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
     <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Jernerén 2015 — B-Vitamine wirken nur, wenn der Omega-3-Spiegel hoch ist</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="306" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">PLAN B</text>
     <line class="sep" x1="374" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Biologie hatte nie einen Plan B.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
@@ -8674,7 +8137,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
 <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="bitter-tas2r-amara-geschmack">
   <title id="diag-title">TAS2R — der Bitterrezeptor sitzt im ganzen Körper</title>
   <desc id="diag-desc">2003 findet die Molekularbiologie Bitterrezeptoren außerhalb der Mundhöhle. TAS2R sitzt auf Enterozyten, glatten Muskelzellen der Atemwege, Immunzellen, Nasenschleimhaut und im Gehirn. Sechs Standorte, ein Geschmack, ein Signalsystem.</desc>
-
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -8690,39 +8152,33 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-
     .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
     .hs-diagram .reveal.is-visible { opacity: 1; }
     .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
     .hs-diagram .lift.is-visible { transform: translateY(0); }
     .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
     .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
-
     .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
     .hs-diagram .col-group:hover { opacity: 0.72; }
     .hs-diagram .arr-group .arr,
     .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
     .hs-diagram .arr-group:hover .arr,
     .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
-
     @media (prefers-reduced-motion: reduce) {
       .hs-diagram .reveal,
       .hs-diagram .lift,
       .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
     }
   </style>
-
   <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">TAS2R</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Bitterrezeptor — sechs Standorte, ein Signalsystem</text>
   </g>
-
   <g class="reveal" data-delay="200">
     <circle cx="340" cy="90" r="2.5" fill="#1a1a1a"/>
   </g>
-
   <g class="arr-group">
     <line class="feedback draw" data-delay="300" x1="340" y1="90" x2="148" y2="130" style="--len:196"/>
   </g>
@@ -8741,7 +8197,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
   <g class="arr-group">
     <line class="feedback draw" data-delay="340" x1="340" y1="90" x2="532" y2="270" style="--len:264"/>
   </g>
-
   <g class="col-group">
     <g class="reveal" data-delay="700">
       <circle cx="148" cy="130" r="2" fill="#1a1a1a"/>
@@ -8753,7 +8208,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
       <text class="sub" x="140" y="145" font-size="11" text-anchor="end">Geschmack, Warnung</text>
     </g>
   </g>
-
   <g class="col-group">
     <g class="reveal" data-delay="720">
       <circle cx="148" cy="200" r="2" fill="#1a1a1a"/>
@@ -8765,7 +8219,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
       <text class="sub" x="140" y="215" font-size="11" text-anchor="end">Bronchodilatation</text>
     </g>
   </g>
-
   <g class="col-group">
     <g class="reveal" data-delay="740">
       <circle cx="148" cy="270" r="2" fill="#1a1a1a"/>
@@ -8777,7 +8230,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
       <text class="sub" x="140" y="285" font-size="11" text-anchor="end">GLP-1, CCK, Ghrelin</text>
     </g>
   </g>
-
   <g class="col-group">
     <g class="reveal" data-delay="700">
       <circle cx="532" cy="130" r="2" fill="#1a1a1a"/>
@@ -8789,7 +8241,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
       <text class="sub" x="540" y="145" font-size="11" text-anchor="start">zentrale Signale</text>
     </g>
   </g>
-
   <g class="col-group">
     <g class="reveal" data-delay="720">
       <circle cx="532" cy="200" r="2" fill="#1a1a1a"/>
@@ -8801,7 +8252,6 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
       <text class="sub" x="540" y="215" font-size="11" text-anchor="start">Quorum-Sensing</text>
     </g>
   </g>
-
   <g class="col-group">
     <g class="reveal" data-delay="740">
       <circle cx="532" cy="270" r="2" fill="#1a1a1a"/>
@@ -8813,21 +8263,17 @@ Auf Immunzellen modulieren TAS2R-Agonisten die Zytokinproduktion. In der Nasensc
       <text class="sub" x="540" y="285" font-size="11" text-anchor="start">Zytokin-Modulation</text>
     </g>
   </g>
-
   <g class="reveal lift" data-delay="940">
     <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">2003 fand die Molekularbiologie den Rezeptor außerhalb der Mundhöhle</text>
   </g>
-
   <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
     <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">SIGNAL</text>
     <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
   </g>
-
   <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Die Industrie verkauft einen Verdauungshelfer und verschweigt ein Signalsystem.«</text>
   </g>
-
   <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;

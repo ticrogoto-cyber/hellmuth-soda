@@ -19,7 +19,7 @@
   <meta property="og:image" content="https://hellmuth-soda.de/hellmuth.png" />
   <link rel="stylesheet" href="../../../styles.css?v=14" />
   <link rel="stylesheet" href="../../../news/news.css?v=104" />
-  <link rel="stylesheet" href="../bildgebung.css?v=6" />
+  <link rel="stylesheet" href="../bildgebung.css?v=7" />
 </head>
 <body>
   <header class="top">
@@ -53,7 +53,7 @@
         <div class="bildgebung-diagramm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="kokoswasser-elektrolyte-hydration">
   <title id="diag-title">Kokoswasser gegen Gatorade — eine Gabelung</title>
   <desc id="diag-desc">Zwei Wege zur Rehydration. Gatorade liefert Wasser, Zucker, Natrium und Farbstoff. Kokoswasser liefert 600 Milligramm Kalium, ein vollständiges Elektrolytprofil und sechzig Millionen Jahre Vorsprung.</desc>
-        <style>
+  <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
     .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
     .hs-diagram .h-col { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.2em; fill: #1a1a1a; }
@@ -68,33 +68,48 @@
     .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
     .hs-diagram .warn { stroke: #6B0F1A; }
     .hs-diagram .warn-fill { fill: #6B0F1A; }
-        <p>.hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }<br />    .hs-diagram .reveal.is-visible { opacity: 1; }<br />    .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }<br />    .hs-diagram .lift.is-visible { transform: translateY(0); }<br />    .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }<br />    .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }</p>
-        <p>.hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }<br />    .hs-diagram .col-group:hover { opacity: 0.72; }<br />    .hs-diagram .arr-group .arr,<br />    .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }<br />    .hs-diagram .arr-group:hover .arr,<br />    .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }</p>
-        <p>@media (prefers-reduced-motion: reduce) {<br />      .hs-diagram .reveal,<br />      .hs-diagram .lift,<br />      .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }<br />    }<br />  &lt;/style&gt;</p>
-        <g class="reveal lift" data-delay="0">
+    .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
+    .hs-diagram .reveal.is-visible { opacity: 1; }
+    .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
+    .hs-diagram .lift.is-visible { transform: translateY(0); }
+    .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
+    .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
+    .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
+    .hs-diagram .col-group:hover { opacity: 0.72; }
+    .hs-diagram .arr-group .arr,
+    .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
+    .hs-diagram .arr-group:hover .arr,
+    .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
+    @media (prefers-reduced-motion: reduce) {
+      .hs-diagram .reveal,
+      .hs-diagram .lift,
+      .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
+    }
+  </style>
+  <g class="reveal lift" data-delay="0">
     <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE GABELUNG</text>
   </g>
   <g class="reveal lift" data-delay="100">
     <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Sportgetränk und Tropenfrucht, dasselbe Hydrationsergebnis</text>
   </g>
-        <g class="reveal lift" data-delay="180">
+  <g class="reveal lift" data-delay="180">
     <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">REHYDRATION</text>
   </g>
   <g class="reveal lift" data-delay="220">
     <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Saat 2002 · Kalman 2012 · kein signifikanter Unterschied</text>
   </g>
-        <g class="arr-group">
+  <g class="arr-group">
     <line class="arr draw" data-delay="360" x1="340" y1="140" x2="340" y2="160" style="--len:20"/>
   </g>
-        <g class="arr-group">
+  <g class="arr-group">
     <line class="arr warn draw" data-delay="440" x1="340" y1="160" x2="180" y2="200" style="--len:165"/>
     <polyline class="arr-head warn reveal" data-delay="580" points="186,198 180,200 184,206"/>
   </g>
-        <g class="arr-group">
+  <g class="arr-group">
     <line class="arr draw" data-delay="440" x1="340" y1="160" x2="500" y2="200" style="--len:165"/>
     <polyline class="arr-head reveal" data-delay="580" points="496,198 500,200 498,206"/>
   </g>
-        <g class="col-group" data-col="links">
+  <g class="col-group" data-col="links">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="180" y="222" font-size="13" text-anchor="middle">GATORADE</text>
     </g>
@@ -115,7 +130,7 @@
       <text class="sub" x="180" y="335" font-size="10.5" text-anchor="middle">Gelb Nummer fünf inklusive</text>
     </g>
   </g>
-        <g class="col-group" data-col="rechts">
+  <g class="col-group" data-col="rechts">
     <g class="reveal lift" data-delay="640">
       <text class="h-col" x="500" y="222" font-size="13" text-anchor="middle">KOKOSWASSER</text>
     </g>
@@ -136,15 +151,15 @@
       <text class="sub" x="500" y="335" font-size="10.5" text-anchor="middle">Aminosäuren, Cytokinine, kein Farbstoff</text>
     </g>
   </g>
-        <g class="reveal" data-delay="1020">
+  <g class="reveal" data-delay="1020">
     <line class="sep" x1="60" y1="358" x2="298" y2="358"/>
     <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">KOPIE</text>
     <line class="sep" x1="382" y1="358" x2="620" y2="358"/>
   </g>
-        <g class="reveal lift" data-delay="1120">
+  <g class="reveal lift" data-delay="1120">
     <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Siebzig Jahre Forschung, um eine Kokosnuss nachzubauen.«</text>
   </g>
-        <script><![CDATA[
+  <script><![CDATA[
     (function(){
       var svg = document.currentScript && document.currentScript.parentNode;
       if(!svg) return;
