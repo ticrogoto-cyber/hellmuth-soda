@@ -1,28 +1,6 @@
 DMSO (Dimethylsulfoxid) :: Jacob 2015
 Huflattich (Tussilago farfara) :: HMPC 2015
 Jiaogulan (Gynostemma pentaphyllum) :: Li 2010
-L-Tyrosin :: Mahoney 2007 | Jongkees 2015
-Lactobacillus acidophilus :: Sanders 2001
-Lactobacillus gasseri SBT2055 / BNR17 :: Kadooka 2010 | Kim 2018
-Lactobacillus plantarum 299v :: Niedzielin 2001 | Hoppe 2017
-Lactobacillus reuteri DSM 17938 :: Savino 2010 | Nilsson 2018
-Lactobacillus rhamnosus GG (LGG) :: Szajewska 2013 | Kalliomäki 2001
-Lavendel (Lavandula angustifolia, Silexan) :: Woelk 2010 | Kasper 2010
-Leinsamenöl (Linum usitatissimum) :: Burdge 2002 | Burdge 2005
-Limonenöl / D-Limonen :: Sun 2007 | Wilkins 2002
-Lithiumorotat :: Schrauzer 1990 | Ohgami 2009
-Lutein · Zeaxanthin :: Johnson 2012
-Lycopin :: Giovannucci 2002 | Li 2014
-Maca (Lepidium meyenii) :: Gonzales 2002 | Dording 2008
-Macadamia (Macadamia integrifolia) :: Garg 2003 | Cao 2008
-Magnesium :: Rosanoff 2012 | Mauskop 2012 | Tarleton 2017
-Magnolia (Magnolia officinalis) :: Kuribara 1998 | Talbott 2013
-Mariendistel / Silymarin :: Loguercio 2012 | Ferenci 2008
-Matcha (Camellia sinensis) :: Dietz 2017 | Unno 2017
-MCT-Öl :: Reger 2004 | Neal 2009
-Melatonin :: Buscemi 2006 | Reiter 2017
-Melisse (Melissa officinalis) :: Kennedy 2003
-Menthol (Mentha piperita) :: Göbel 1996 | Eccles 2003
 Methylenblau :: Rojas 2012 | Oz 2011
 Molybdän :: Rajagopalan 1988
 Mönchspfeffer (Vitex agnus-castus) :: Schellenberg 2001 | Wuttke 2003
@@ -39,8 +17,7 @@ Noopept :: Ostrovskaya 2014
 NR (Nicotinamid-Ribosid) :: Martens 2018 | Trammell 2016
 Omega-3 (EPA / DHA) :: Bhatt 2019 | Liao 2019 | Middleton 2018
 Pektin (inkl. Modified Citrus Pectin) :: Eliaz 2006 | Zhao 2008
-Pfefferminzöl (Mentha × piperita) :: Khanna 2014 | Göbel 1996
-Phellodendron amurense (Relora-Kombi) :: Talbott 2013
+Pfefferminzöl (Mentha × piperita) :: Khanna 2014
 Phenylpiracetam :: Malykh 2010
 PHGG (teilhydrolysiertes Guarkernmehl, Sunfiber) :: Rao 2015 | Furnari 2010
 Phosphatidylcholin (Lecithin) :: Stremmel 2005

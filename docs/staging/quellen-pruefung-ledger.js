@@ -88,7 +88,15 @@ VERIFIED.clear();
   "FDA 1999","Fung 1996","McMorris 2006","Rae 2003","Kious 2019","Sakellaris 2006",
   "Ulven 2011","Salem 2014","Prohaska 2008","Dong 2011","Stanislavov 2003","Pekala 2011",
   "Koeth 2013","Perez-Guisado 2010","Schwedhelm 2008","van der Hulst 1993","Sayles 2016",
-  "Griffith 1987","Flodin 1997","Brosnan 2006","Belongia 1990","Young 2007"
+  "Griffith 1987","Flodin 1997","Brosnan 2006","Belongia 1990","Young 2007",
+  // Runde 3 (L-Tyrosin bis Menthol, 42 weitere Belege gegen Primärquelle verifiziert)
+  "Mahoney 2007","Jongkees 2015","Sanders 2001","Kadooka 2010","Kim 2018","Niedzielin 2001",
+  "Hoppe 2017","Savino 2010","Nilsson 2018","Szajewska 2013","Kalliomäki 2001","Woelk 2010",
+  "Kasper 2010","Burdge 2002","Burdge 2005","Sun 2007","Wilkins 2002","Schrauzer 1990",
+  "Ohgami 2009","Johnson 2012","Giovannucci 2002","Li 2014","Gonzales 2002","Dording 2008",
+  "Garg 2003","Cao 2008","Rosanoff 2012","Mauskop 2012","Tarleton 2017","Kuribara 1998",
+  "Talbott 2013","Loguercio 2012","Ferenci 2008","Dietz 2017","Unno 2017","Reger 2004",
+  "Neal 2009","Buscemi 2006","Reiter 2017","Kennedy 2003","Göbel 1996","Eccles 2003"
 ].forEach(k => VERIFIED.add(k));
 
 // CORRECTED: reale Quelle, Angabe wurde berichtigt (Jahres-/Namensfehler, Phantom-Ersatz)
@@ -124,6 +132,9 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 - **Jacob 2015** (Eintrag: DMSO) — nach vier gezielten Suchen (DMSO-Mechanismus, interstitielle Zystitis, Bjorklund/Jacob 2015 Reviews, Capriotti 2012 Dermatology-Kontext) kein direkter Treffer auf eine reale Publikation von Stanley W. Jacob mit Jahresanker 2015. Möglich: Buchreprint, posthume Quelle, oder Verwechslung mit Capriotti/Capriotti 2012 (J Clin Aesthet Dermatol) bzw. Bjorklund et al. 2015 (Int J Med Reviews, Burn). **Auftraggeber muss Originalangabe nachreichen oder die Quelle ersetzen.** Der zweite DMSO-Beleg Jacob 1986 (Pharmacology of DMSO, Cryobiology 23:14-27) ist real und thematisch passend.
 - **Li 2010** (Eintrag: Jiaogulan, Gynostemma pentaphyllum) — nach zwei gezielten Suchen (Insulin/Cortisol-Klinik bzw. Gypenoside Hepatoprotektion) kein eindeutiger Treffer auf ein Li-erstautorisches Gynostemma-Paper mit Jahresanker 2010. Huyen 2010 (Horm Metab Res 42:353-7) ist als zweiter Beleg dieses Eintrags verifiziert. **Auftraggeber bitte Originalangabe konkretisieren** (Initialen + Journal).
 - **HMPC 2015** (Eintrag: Huflattich, Tussilago farfara) — EMA/HMPC-Dokument(e) zu Tussilago farfara existieren (z. B. EMA/HMPC/893108/2011 Rev.1, Update Nov 2014 zu PA-Limits), aber ein spezifisches HMPC-Dokument mit Jahresanker 2015 zu Huflattich ließ sich nicht direkt belegen. **Auftraggeber bitte das gemeinte HMPC-Dokument konkretisieren** (Aktenzeichen oder Titel), gegebenenfalls Jahresanker auf 2011 oder 2014 korrigieren.
+
+### Autor-Attribution korrigieren (reale Quelle, aber Erstautor abweichend)
+- **Cao 2008** (Eintrag: Macadamia) — die zitierte Studie ist real (J Nutr 138:761–767, Macadamia-Diät senkt LDL bei Hypercholesterinämikern), aber Erstautor ist **Griel AE**; Cao Y ist Zweitautor. Format-Regel pipeline/style/quellen-format.md schreibt Erstautor vor. **Empfohlene Korrektur im Datensatz: Cao 2008 → Griel 2008.** Bis zur Korrektur als verifiziert geführt, da die Primärquelle eindeutig identifiziert ist.
 
 ### Phantom (im Datensatz entfernt)
 - **Jin 2018** (vormals: Catechine (Grüntee) UND EGCG) — nach drei gezielten Suchen über Krebs-, Metabolik- und Hepatotoxizitäts-Literatur kein Treffer. Verdacht erfundene oder grob fehlangegebene Quelle. **Im Datensatz entfernt** (zutaten/substances.js). Damit erledigt.
