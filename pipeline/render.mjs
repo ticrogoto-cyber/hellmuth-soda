@@ -662,7 +662,7 @@ function substanceDetailHtml(entry) {
 ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=14" />
-  <link rel="stylesheet" href="../zutaten.css?v=28" />
+  <link rel="stylesheet" href="../zutaten.css?v=29" />
   <link rel="stylesheet" href="../../news/news.css?v=104" />
 </head>
 <body>
@@ -952,7 +952,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=14" />
   <link rel="stylesheet" href="../../../news/news.css?v=104" />
-  <link rel="stylesheet" href="../bildgebung.css?v=4" />
+  <link rel="stylesheet" href="../bildgebung.css?v=5" />
 </head>
 <body>
   <header class="top">
