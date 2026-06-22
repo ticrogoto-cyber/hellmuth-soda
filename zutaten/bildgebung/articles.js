@@ -2644,5 +2644,57 @@ Andorn wurde 2018 Heilpflanze des Jahres. Im selben Jahr fehlte er in jeder Apot
         },
       ],
     },
+    {
+      slug: "dmso-dimethylsulfoxid-unterdrueckung",
+      titel: "Das Molekül, das die Medizin nicht haben wollte",
+      lead: "DMSO durchdringt jede biologische Membran in Sekunden. Es hemmt Entzündung, blockiert Schmerz, fängt Radikale und nimmt andere Wirkstoffe durch die Haut mit. Die FDA hat es 1978 für eine einzige Indikation zugelassen und dann den Deckel geschlossen. Die Substanz ist nicht gescheitert. Sie wurde begraben.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `1961 bemerkt Stanley Jacob, Transplantationschirurg an der Oregon Health Sciences University, dass Dimethylsulfoxid durch biologische Membranen dringt, ohne sie zu beschädigen. Er sucht ein Konservierungsmittel für Organe. Er findet ein Therapeutikum. Die Substanz penetriert die Haut in Sekunden, erreicht die Blutbahn in Minuten, wird in der Lunge zu Dimethylsulfid umgewandelt und verleiht dem Atem einen Knoblauchgeruch, der Stunden bleibt. DMSO ist Lösungsmittel, Penetrationsverstärker und eigenständiger Wirkstoff in einem Molekül. Es transportiert gelöste Wirkstoffe durch Gewebe, die für orale oder intravenöse Gabe schwer erreichbar sind. Die Entdeckung landet auf der Titelseite der New York Times, bevor die Fachpresse reagiert. 1963 kennt Amerika DMSO. 1965 stoppt die FDA die klinische Forschung.
+
+Der offizielle Grund waren Linsentrübungen bei Tieren unter extremen Dosen. Bei keinem Menschen wurde dieser Befund je reproduziert. Jahrzehnte später zeigt die Sicherheitsliteratur, dass DMSO zu den am wenigsten toxischen Substanzen gehört, die je in klinischen Studien getestet wurden. Aber der inoffizielle Grund war wirksamer als der offizielle. DMSO stammt aus der Zellstoffindustrie. Es kostet Cent pro Gramm. Es lässt sich nicht patentieren. Kein Pharmaunternehmen hat einen Anreiz, die hundert Millionen Dollar für ein Phase-III-Programm auszugeben, wenn das Ergebnis ein Generikum ist, das jede Chemiefirma herstellen kann. Die FDA verlangt klinische Studien, deren Kosten nur Patentinhaber refinanzieren können. Die Substanz, die durch jede Membran dringt, scheitert an der Struktur der Arzneimittelzulassung.
+
+1978 genehmigt die FDA DMSO für interstitielle Zystitis. Eine einzige Indikation. Blaseninstillation. Dann Schweigen. Die klinische Datenlage umfasst zu diesem Zeitpunkt bereits Hunderte Studien zu Dutzenden Indikationen. Die FDA erweitert die Zulassung nie.
+
+In den Niederlanden sieht die Geschichte anders aus. Dort ist DMSO 50% als topische Therapie für komplexes regionales Schmerzsyndrom in den klinischen Leitlinien verankert. Eine randomisierte, doppelblinde Studie an 146 Patienten vergleicht DMSO mit N-Acetylcystein bei CRPS Typ 1. DMSO zeigt Wirksamkeit insbesondere bei warmer CRPS und bei Dysfunktionen der unteren Extremität. CRPS ist eine der Schmerzformen, gegen die Opioide regelmäßig versagen. Der Mechanismus von DMSO ist dabei ungewöhnlich. Die Substanz blockiert selektiv die kleinen Nervenfasern, die chronischen Schmerz transportieren, und lässt die großen motorischen Fasern in Ruhe. Opioide können das nicht. Lokalanästhetika können das nicht. Ein Nebenprodukt der Zellstoffindustrie kann es.
+
+Die Entzündungshemmung läuft über Radikalfang und Hemmung von NF-κB. DMSO fängt Hydroxylradikale ab, die aggressivste Spezies des oxidativen Stresses. Es stabilisiert lysosomale Membranen und reduziert die Freisetzung von Entzündungsmediatoren. Topisch aufgetragen, durchdringt es Haut, Faszien, Muskeln und Gelenkkapseln und wirkt dort, wo Ibuprofen nie ankommt. Wer einmal erlebt hat, wie ein geschwollenes Knie auf DMSO reagiert, fragt sich, warum die Substanz nicht in jeder Hausapotheke steht. Die Antwort riecht nach Knoblauch und nach Ökonomie.
+
+Die gesamte Phytotherapie-Tradition nutzt Ethanol als Extraktionsmedium für Kräuterauszüge. Schwedenbitter, Tinkturen, alkoholische Pflanzenauszüge. DMSO leistet dasselbe als Lösungsmittel, durchquert dabei die Blut-Hirn-Schranke und erhöht die Bioverfügbarkeit der gelösten Substanzen, ohne die Leber zu belasten. Ein Enzian-Auszug in DMSO statt in Alkohol liefert den Bitterstoff effizienter und ohne hepatischen Schaden. Dass niemand in der Phytotherapie darüber spricht, liegt daran, dass DMSO aus keiner Tradition kommt und in kein Geschäftsmodell passt.
+
+Dann die Krebszellen. Hunderte Studien zeigen, dass DMSO entartete Zellen zur Redifferenzierung anregen kann, zur Rückkehr in den normalen Zellzyklus. Leukämiezellen, die unter DMSO wieder zu funktionalen Blutzellen heranreifen. Der Befund ist reproduziert, seit Jahrzehnten bekannt und von der Onkologie vollständig ignoriert. Die Substanz passt nicht in das Geschäftsmodell einer Industrie, die patentierte Zytostatika für fünfstellige Beträge pro Zyklus verkauft. Die Biochemie hat für die Redifferenzierung keine vollständige Erklärung. Die Ökonomie hat für die Ignoranz eine vollständige.
+
+DMSO ist frei verkäuflich. Es kostet weniger als ein Euro pro Anwendung. Es hat ein Sicherheitsprofil, um das es die meisten rezeptpflichtigen Analgetika beneiden würden. Es wird von Millionen Menschen weltweit angewendet, von Sportlern, Patienten mit chronischen Schmerzen, Tierbesitzern, die es für ihre Pferde seit Jahrzehnten nutzen. Und jeder, der es medizinisch anwendet, verschweigt es seinem Arzt. Weil der sonst aufhört zuzuhören.
+
+Die Geschichte von DMSO handelt davon, was passiert, wenn eine Substanz zu billig, zu wirksam und zu unpatentierbar ist. Zu billig für ein Phase-III-Programm. Zu wirksam für die Konkurrenz. Jede Membran, die DMSO durchdringt, ist ein Vorwurf an die Membran, die es nicht durchdringen kann. Die der Zulassungsbehörde.`,
+      quellen: [
+        {
+          autoren: "Stanley Jacob, Jack de la Torre",
+          titel: "Dimethyl sulfoxide (DMSO) in trauma and disease",
+          dokument: "CRC Press, Boca Raton · ISBN 978-1-4822-6320-2",
+          datum: "April 2015",
+        },
+        {
+          autoren: "Roberto Perez, Patricia Zuurmond, Peter Bezemer, et al.",
+          titel: "The treatment of complex regional pain syndrome type I with free radical scavengers: a randomized controlled study",
+          journal: "Pain",
+          vol: "Vol. 102, No. 3",
+          datum: "April 2003",
+          seiten: "297—307",
+          doi: "10.1016/S0304-3959(02)00414-1",
+          pmid: "12670672",
+        },
+        {
+          autoren: "Stanley Jacob, Robert Herschler",
+          titel: "Pharmacology of DMSO",
+          journal: "Cryobiology",
+          vol: "Vol. 23, No. 1",
+          datum: "Februar 1986",
+          seiten: "14—27",
+          doi: "10.1016/0011-2240(86)90014-3",
+          pmid: "3512136",
+        },
+      ],
+    },
   ],
 };

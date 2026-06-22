@@ -440,6 +440,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "dmso-dimethylsulfoxid-unterdrueckung/",
+      "title": "Das Molekül, das die Medizin nicht haben wollte",
+      "lead": "DMSO durchdringt jede biologische Membran in Sekunden. Es hemmt Entzündung, blockiert Schmerz, fängt Radikale und nimmt andere Wirkstoffe durch die Haut mit. Die FDA hat es 1978 für eine einzige Indikation zugelassen und dann den Deckel geschlossen. Die Substanz ist nicht gescheitert. Sie wurde begraben.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 3,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
