@@ -65,7 +65,22 @@ VERIFIED.clear();
   "Hobson 2012","Trexler 2015","McGlade 2012","Parisi 2008","Davalos 2012","Cassidy 2013",
   "Rodriguez-Mateos 2014","Tominaga 2012","Earnest 2011","Maenthaisong 2007","Syed 1996",
   "Salehi 2019","Escande 2013","Naruszewicz 2007","Broncel 2010","Rondanelli 2013","Sahebkar 2018",
-  "Harley 2011","Cho 2007","Maurer 2001","Brien 2004","Scheppach 1992","Hamer 2008"
+  "Harley 2011","Cho 2007","Maurer 2001","Brien 2004","Scheppach 1992","Hamer 2008",
+  // Runde 2026-06-22 (Senföl bis Johanniskraut, 82 Belege gegen Primärquelle verifiziert)
+  "Goos 2007","Borges 2015","Ohsumi 2014","Madeo 2015","Dolin 2009","Mandel 2010",
+  "Townsend 2018","Sumi 1987","Wolfe 2017","Gluud 2013","Stracke 2008","Haupt 2005",
+  "Mollace 2011","Navarra 2015","Omenn 1996","Cholewa 2014","Craig 2004","Guglielmetti 2011",
+  "Taipale 2011","Eskesen 2015","Messaoudi 2011","Kazemi 2019","Popp 2003","Leventhal 1993",
+  "Chung 2002","Roschek 2009","Safarinejad 2005","Reid 2015","Derry 2017","Ludy 2011",
+  "Hipkiss 2009","Boldyrev 2013","Devinsky 2017","Zuardi 2017","Egner 2001","Zeisel 2007",
+  "Schwarz 1959","EFSA 2014","Kranjčec 2014","Cryan 2019","Dashwood 2002","Jacob 1986",
+  "Kaur 2011","Mozaffarian 2013","Barrett 2010","Shah 2007","Deters 2010","Morck 1983",
+  "Hallberg 1989","Brekhman 1969","Cicero 2004","Kehrl 2004","Worth 2009","Alexandrovich 2003",
+  "Madisch 2004","Yousefzadeh 2018","Bouhnik 1999","Coudray 2003","Malaguarnera 2007",
+  "Boonstra 2015","DeKosky 2008","Shishtar 2014","Scaglione 1996","Jin 2012","Wachtel-Galor 2011",
+  "Clegg 2006","Wandel 2010","Bucheli 2011","Pointel 1987","Wattanathorn 2008","Bradwejn 2000",
+  "Wolfson 2003","Morand 2011","Hanus 2004","Calabrese 2007","Mattson 2008","Xu 1995",
+  "Rafii 2011","Mori 2009","Lai 2013","Zimmermann 2009","Linde 2008"
 ].forEach(k => VERIFIED.add(k));
 
 // CORRECTED: reale Quelle, Angabe wurde berichtigt (Jahres-/Namensfehler, Phantom-Ersatz)
@@ -96,6 +111,9 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
   ${noQ.join("; ")}
 
 ## BEFUNDE — Korrekturen & Verdachtsfälle
+
+### Phantomverdacht (unbestätigt, NICHT als verifiziert gezählt)
+- **Jacob 2015** (Eintrag: DMSO) — nach vier gezielten Suchen (DMSO-Mechanismus, interstitielle Zystitis, Bjorklund/Jacob 2015 Reviews, Capriotti 2012 Dermatology-Kontext) kein direkter Treffer auf eine reale Publikation von Stanley W. Jacob mit Jahresanker 2015. Möglich: Buchreprint, posthume Quelle, oder Verwechslung mit Capriotti/Capriotti 2012 (J Clin Aesthet Dermatol) bzw. Bjorklund et al. 2015 (Int J Med Reviews, Burn). **Auftraggeber muss Originalangabe nachreichen oder die Quelle ersetzen.** Der zweite DMSO-Beleg Jacob 1986 (Pharmacology of DMSO, Cryobiology 23:14-27) ist real und thematisch passend.
 
 ### Phantom (im Datensatz entfernt)
 - **Jin 2018** (vormals: Catechine (Grüntee) UND EGCG) — nach drei gezielten Suchen über Krebs-, Metabolik- und Hepatotoxizitäts-Literatur kein Treffer. Verdacht erfundene oder grob fehlangegebene Quelle. **Im Datensatz entfernt** (zutaten/substances.js). Damit erledigt.

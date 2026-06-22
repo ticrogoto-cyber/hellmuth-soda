@@ -1,59 +1,13 @@
-Allyl-Isothiocyanat (Senföl) :: Goos 2007 | Borges 2015
 Artemisia annua (Einjähriger Beifuß) :: WHO 2019
-Autophagie :: Ohsumi 2014 | Madeo 2015
-Bacillus coagulans (GBI-30, 6086) :: Dolin 2009 | Mandel 2010
-Bacillus subtilis (DE111 / Natto) :: Townsend 2018 | Sumi 1987
-BCAA (Verzweigtkettige Aminosäuren) :: Wolfe 2017 | Gluud 2013
-Benfotiamin :: Stracke 2008 | Haupt 2005
-Bergamottöl (Citrus bergamia) :: Mollace 2011 | Navarra 2015
-Beta-Carotin :: Omenn 1996
-Betain / TMG (Trimethylglycin) :: Cholewa 2014 | Craig 2004
-Bifidobacterium bifidum :: Guglielmetti 2011
-Bifidobacterium lactis BB-12 :: Taipale 2011 | Eskesen 2015
-Bifidobacterium longum Rosell-175 :: Messaoudi 2011 | Kazemi 2019
-Biophotonen :: Popp 2003
-Borretschöl (Borago officinalis) :: Leventhal 1993 | Chung 2002
-Brennnessel (Urtica dioica) :: Roschek 2009 | Safarinejad 2005
-Calcium :: Reid 2015
-Capsaicin (Capsicum annuum) :: Derry 2017 | Ludy 2011
-Carnosin :: Hipkiss 2009 | Boldyrev 2013
-CBD / Hanfextrakt (Cannabidiol) :: Devinsky 2017 | Zuardi 2017
-Chlorophyll :: Egner 2001 | Dashwood 2002
-Cholin (Bitartrat) :: Zeisel 2007
-Chrom :: Schwarz 1959 | EFSA 2014
-D-Mannose :: Kranjčec 2014
-Darm-Hirn-Achse :: Cryan 2019 | Messaoudi 2011
-DMSO (Dimethylsulfoxid) :: Jacob 2015 | Jacob 1986
-DPA (Docosapentaensäure) :: Kaur 2011 | Mozaffarian 2013
-Echinacea (Echinacea purpurea) :: Barrett 2010 | Shah 2007
-Eibischwurzel (Althaea officinalis) :: Deters 2010
-Eisen :: Morck 1983 | Hallberg 1989
-Eleutherococcus senticosus :: Brekhman 1969 | Cicero 2004
-Eukalyptusöl (Eucalyptus globulus) :: Kehrl 2004 | Worth 2009
-Fenchel · Anis · Kümmel :: Alexandrovich 2003 | Madisch 2004
-Fisetin :: Yousefzadeh 2018
-FOS (Fructooligosaccharide) :: Bouhnik 1999 | Coudray 2003 | Malaguarnera 2007
-GABA (oral) :: Boonstra 2015
-Ginkgo biloba :: DeKosky 2008
-Ginseng (Panax ginseng) :: Shishtar 2014 | Scaglione 1996
-Glänzender Lackporling (Ganoderma lucidum, Reishi) :: Jin 2012 | Wachtel-Galor 2011
-Glucosamin · Chondroitin :: Clegg 2006 | Wandel 2010
-Goji (Lycium barbarum) :: Bucheli 2011
-Goldmohn (Eschscholzia californica) :: Hanus 2004
-Gotu Kola (Centella asiatica) :: Pointel 1987 | Wattanathorn 2008 | Bradwejn 2000
-Helmkraut (Scutellaria lateriflora) :: Wolfson 2003
-Hesperidin :: Morand 2011 | Nicolaides 2003
+DMSO (Dimethylsulfoxid) :: Jacob 2015
+Hesperidin :: Nicolaides 2003
 Himbeerblätter (Rubus idaeus) :: Simpson 2001
 Hopfen (Humulus lupulus) :: Zanoli 2005 | Salter 2010
-Hormesis :: Calabrese 2007 | Mattson 2008
 Huflattich (Tussilago farfara) :: HMPC 2015
-Huperzin A :: Xu 1995 | Rafii 2011
-Igelstachelbart (Hericium erinaceus) :: Mori 2009 | Lai 2013
 Inulin :: Roberfroid 2010
-Iod :: Zimmermann 2009
 Ivermectin :: Lim 2022
 Jiaogulan (Gynostemma pentaphyllum) :: Huyen 2010 | Li 2010
-Johanniskraut (Hypericum perforatum) :: Linde 2008 | Hypericum Depression Trial 2002
+Johanniskraut (Hypericum perforatum) :: Hypericum Depression Trial 2002
 Jujube (Ziziphus jujuba, Suan Zao Ren) :: Cao 2010 | Jiang 2007
 Kalium :: WHO 2012
 Klapperschwamm (Grifola frondosa, Maitake) :: Konno 2013 | Kodama 2002
@@ -112,7 +66,7 @@ Pfefferminzöl (Mentha × piperita) :: Khanna 2014 | Göbel 1996
 Phellodendron amurense (Relora-Kombi) :: Talbott 2013
 Phenylpiracetam :: Malykh 2010
 PHGG (teilhydrolysiertes Guarkernmehl, Sunfiber) :: Rao 2015 | Furnari 2010
-Phosphatidylcholin (Lecithin) :: Stremmel 2005 | Zeisel 2007
+Phosphatidylcholin (Lecithin) :: Stremmel 2005
 Phosphatidylserin :: Crook 1991 | Monteleone 2004
 Piracetam :: Winblad 2005
 PQQ (Pyrrolochinolinchinon) :: Chowanadisai 2010 | Nakano 2012
