@@ -374,6 +374,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unklar"
       ]
+    },
+    {
+      "href": "curcumin-pains-bioverfuegbarkeit/",
+      "title": "Das Molekül, das in jedem Test gewinnt und in keinem Körper ankommt",
+      "lead": "Curcumin ist die meistuntersuchte Pflanzensubstanz der Welt. Über hundertzwanzig klinische Studien, Zehntausende In-vitro-Papers, ein eigenes Journal. 2017 veröffentlicht das Journal of Medicinal Chemistry eine Analyse, die das Fundament wegzieht. Das Molekül ist ein systematischer Falschspieler. Oder ein verkanntes Genie. Oder beides.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 4,
+      "filters": [
+        "unklar"
+      ]
     }
   ]
 };

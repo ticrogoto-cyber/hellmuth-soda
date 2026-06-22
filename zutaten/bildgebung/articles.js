@@ -2290,5 +2290,73 @@ Die Frage hinter den Senolytika ist die richtige Frage. Seneszente Zellen akkumu
         },
       ],
     },
+    {
+      slug: "curcumin-pains-bioverfuegbarkeit",
+      titel: "Das Molekül, das in jedem Test gewinnt und in keinem Körper ankommt",
+      lead: "Curcumin ist die meistuntersuchte Pflanzensubstanz der Welt. Über hundertzwanzig klinische Studien, Zehntausende In-vitro-Papers, ein eigenes Journal. 2017 veröffentlicht das Journal of Medicinal Chemistry eine Analyse, die das Fundament wegzieht. Das Molekül ist ein systematischer Falschspieler. Oder ein verkanntes Genie. Oder beides.",
+      filter: ["Unklar"],
+      date: "2026-06-22",
+      body: `Die Geschichte beginnt bei den Assays. Curcumin zeigt in Zellkulturtests Aktivität gegen praktisch alles. Entzündung, Krebs, Diabetes, Neurodegeneration, Depression, Arthrose, oxidativer Stress. Kein anderes Molekül in der pharmakologischen Literatur hat ein derart breites Wirkprofil. Die naheliegende Erklärung wäre, dass Curcumin ein Wundermolekül ist. Die unbequeme Erklärung wäre, dass es ein Artefakt produziert.
+
+Nelson 2017 formuliert die unbequeme Erklärung. Curcumin ist ein PAINS-Compound, ein Pan-Assay Interference Compound. PAINS sind Moleküle, die in Hochdurchsatz-Screenings positive Ergebnisse liefern, weil sie mit dem Testsystem selbst interagieren, mit Proteinen unspezifisch reagieren, Fluoreszenz stören, Membranen destabilisieren oder Aggregate bilden. Das Ergebnis sieht nach Wirkung aus. Es ist Rauschen. Nelson nennt Curcumin instabil, reaktiv, nicht bioverfügbar und deshalb einen »highly improbable lead«. Keine doppelblinde, placebokontrollierte klinische Studie mit Curcumin sei bis dato erfolgreich gewesen.
+
+Das Paper war ein Erdbeben in einem Feld, das sich für erdbebensicher hielt. Ein einziges Review stellte die Grundannahme in Frage, und die Curcumin-Community reagierte mit Gegenpapern, Richtigstellungen und der Behauptung, Nelson habe die klinische Literatur selektiv ignoriert. Beides stimmt teilweise. Nelson hat recht, dass die In-vitro-Daten durch PAINS kontaminiert sein können und dass die Pharmakokinetik katastrophal ist. Die Gegenseite hat recht, dass es klinische Befunde gibt, die sich durch Assay-Artefakte allein schwer erklären lassen. Die Wahrheit über Curcumin liegt in der Lücke zwischen den Lagern, und beide Lager haben Karrieren darauf gebaut, die Lücke nicht zu betreten.
+
+Drei Metaanalysen, erschienen zwischen 2016 und 2020, belegen eine antidepressive Wirkung von Curcumin, am stärksten als Augmentation zu SSRIs. Fusar-Poli 2020 analysiert neun Studien mit über siebenhundert Patienten und findet Effektgrößen vergleichbar mit Standardantidepressiva. Mechanistisch hemmt Curcumin NF-κB im Gehirn und moduliert die Mikroglia-Aktivität, zwei Entzündungswege, die in der Depressionsforschung seit Jahren als relevant gelten. Hier reden Patientendaten, keine Zellkulturen. Nelson hat sie nicht erwähnt.
+
+Die DNA-Reparatur-Daten sind der zweite Befund, der über PAINS hinausgeht. In gesunden Zellen aktiviert Curcumin die Basen-Exzisions-Reparatur und das NHEJ, fährt PARP-1, DNA-Polymerase β und DNA-Ligasen hoch. In Krebszellen kehrt sich die Wirkung um. Curcumin hemmt BRCA1 und MGMT, blockiert die Reparaturwege, die Tumoren zum Überleben brauchen. Im Knochenmark schützt es vor Chemotherapie-induzierter Myelosuppression. Die Westbengalen-Arsenstudie zeigt Reduktion oxidativer DNA-Schäden bei arsenbelasteten Erwachsenen. Eine Substanz, die in gesunden Zellen repariert und in entarteten entwaffnet, ist pharmakologisch bemerkenswert, auch wenn die Bioverfügbarkeit miserabel ist. Die Selektivität allein würde in der Onkologie Aufmerksamkeit verdienen, wenn sie an einem patentierbaren Molekül hinge. An einem Gewürz, das in jedem Supermarkt für zwei Euro liegt, verdient niemand genug, um eine Phase-III-Studie zu finanzieren. Dieselbe ökonomische Sackgasse wie bei Fisetin, Pterostilben und der halben Phytomedizin.
+
+Und dort liegt der Kern des Problems. Standard-Curcumin erreicht unter einem Prozent orale Resorption. Curcumin wird im Darm glucuronidiert und sulfatiert, dasselbe Schicksal wie Resveratrol, dieselbe Leberpassage, dasselbe Ergebnis. Was im Plasma ankommt, sind Metaboliten, deren Wirksamkeit unklar ist. Golden-Milk-Pulver aus dem Supermarkt ist gelbes Wasser mit Gewürzgeschmack. Die Kurkuma-Latte auf Instagram ist ein Farbstoff, der die Darmwand nicht überlebt. Wer sich damit tröstet, dass Kurkuma wenigstens nicht schadet, hat recht. Es schadet nicht. Es tut nichts. Die teuerste Form von Nichts ist immer noch Nichts. Wer glaubt, dass eine Prise Kurkuma im Smoothie NF-κB hemmt, verwechselt Kochen mit Pharmakologie.
+
+Was funktioniert, sind die Formulierungen, die dieses Problem lösen. Meriva, ein Phytosom aus Curcumin und Sojalecithin, erhöht die Bioverfügbarkeit um das Neunundzwanzigfache. BCM-95 kombiniert Curcumin mit ätherischen Ölen der Kurkumawurzel und erreicht etwa das Siebenfache. Liposomale Varianten liegen dazwischen. Die Metaanalysen zur Depression verwendeten überwiegend diese bioverfügbarkeitsoptimierten Formulierungen. Die Billigkapseln im Regal verwenden Standard-Curcumin-Pulver. Derselbe Wirkstoffname auf dem Etikett, verschiedene Moleküle in der Blutbahn. Oder im Fall der Billigkapsel: gar kein Molekül in der Blutbahn.
+
+Der Markt macht aus dieser Komplexität einen einzigen Satz: »Kurkuma wirkt entzündungshemmend.« Kein Wort über PAINS. Kein Wort über Bioverfügbarkeit. Kein Wort über den Unterschied zwischen einem Phytosom und einem Pulver. Die Verpackung zeigt eine goldene Wurzel. Der Preis liegt bei acht Euro. Die Wirkung liegt bei null.
+
+Die PAINS-Debatte hat Curcumin nicht erledigt. Sie hat die Frage verschärft. Die In-vitro-Biologie ist wahrscheinlich aufgebläht, kontaminiert durch ein Molekül, das mit allem interagiert, was man ihm hinhält. Die klinische Evidenz für Depression und möglicherweise DNA-Protektion existiert, eng, aber reproduziert, und nur mit Formulierungen, die den First-Pass-Metabolismus umgehen. Dazwischen liegt ein Markt, der Kurkuma-Pulver für drei Euro verkauft und »entzündungshemmend« draufschreibt, als wäre die Pharmakokinetik ein Detail.
+
+Curcumin ist gleichzeitig eine der bestuntersuchten und eine der am schlechtesten verstandenen Substanzen im Supplement-Regal. Das PAINS-Paper hat gezeigt, dass ein Großteil der Grundlagenforschung auf wackligem Boden steht. Die Metaanalysen haben gezeigt, dass trotzdem etwas am Menschen funktioniert, wenn die Formulierung stimmt. Und der Markt ignoriert beides. Er verkauft weder die Warnung noch die Lösung. Er verkauft Kurkuma, in Gold getaucht, mit einem Versprechen, das die Darmwand nie passiert. Der Rest ist Farbe.`,
+      quellen: [
+        {
+          autoren: "Kathryn Nelson, Jayme Dahlin, Jonathan Bisson, et al.",
+          titel: "The essential medicinal chemistry of curcumin",
+          journal: "Journal of Medicinal Chemistry",
+          vol: "Vol. 60, No. 5",
+          datum: "März 2017",
+          seiten: "1620—1637",
+          doi: "10.1021/acs.jmedchem.6b00975",
+          pmid: "28074653",
+        },
+        {
+          autoren: "Laura Fusar-Poli, Davide Guillem Vozza, Antimo Ferrara, et al.",
+          titel: "Curcumin for depression: a meta-analysis",
+          journal: "Critical Reviews in Food Science and Nutrition",
+          vol: "Vol. 60, No. 15",
+          datum: "2020",
+          seiten: "2643—2653",
+          doi: "10.1080/10408398.2019.1653260",
+          pmid: "31423805",
+        },
+        {
+          autoren: "Roberto Cuomo, Giovanna Appendino, Alberto Leyva-Gómez, et al.",
+          titel: "Comparative absorption of a standardized curcuminoid mixture and its lecithin formulation",
+          journal: "Journal of Natural Products",
+          vol: "Vol. 74, No. 4",
+          datum: "April 2011",
+          seiten: "664—669",
+          doi: "10.1021/np1007262",
+          pmid: "21413691",
+        },
+        {
+          autoren: "Jayesh Biswas, Debasish Sinha, Subhadip Mukherjee, et al.",
+          titel: "Curcumin protects DNA damage in a chronically arsenic-exposed population of West Bengal",
+          journal: "Human and Experimental Toxicology",
+          vol: "Vol. 29, No. 6",
+          datum: "Juni 2010",
+          seiten: "513—524",
+          doi: "10.1177/0960327109359020",
+          pmid: "20056736",
+        },
+      ],
+    },
   ],
 };
