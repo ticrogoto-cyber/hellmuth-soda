@@ -2150,5 +2150,79 @@ Die reichsten Nahrungsquellen sind Weizenkeime, gereifte Käsesorten und Natto. 
         },
       ],
     },
+    {
+      slug: "resveratrol-pterostilben-bioverfuegbarkeit",
+      titel: "Das Molekül, das siebzig Prozent absorbiert und unter einem Prozent ankommt",
+      lead: "Resveratrol ist das meistverkaufte Anti-Aging-Polyphenol der Welt. Der menschliche Körper zerlegt es in Minuten. Sein methylierter Verwandter Pterostilben erreicht die Zielorgane vierfach besser. Verkauft wird trotzdem Resveratrol, weil es die bessere Geschichte hat.",
+      filter: ["Unklar"],
+      date: "2026-06-22",
+      body: `Die Geschichte geht so. Franzosen essen Fett, trinken Wein, rauchen und sterben seltener an Herzinfarkten als Amerikaner. Das Paradoxon brauchte eine Erklärung. Die Erklärung wurde Resveratrol, ein Polyphenol aus der Traubenschale. Seit den neunziger Jahren verkauft eine ganze Industrie das French Paradox in Kapselform.
+
+Die In-vitro-Biologie liest sich wie ein Förderantrag, der nie abgelehnt wird. Resveratrol aktiviert SIRT1, das Langlebigkeits-Enzym, das auch Kalorienrestriktion anschaltet. Es hemmt NF-κB, den zentralen Entzündungsschalter. Es induziert Apoptose in Krebszelllinien. Es schützt Endothelzellen vor oxidativem Stress. In der Petrischale ist Resveratrol die Substanz, die alles kann.
+
+Dann schluckt jemand die Kapsel.
+
+Walle 2004 ist die Studie, die die Industrie nie zitiert. Sechs Probanden erhielten 25 Milligramm radioaktiv markiertes Resveratrol. Die Absorption lag bei siebzig Prozent. Das klingt gut. Was im Plasma ankam, waren Spuren unter fünf Nanogramm pro Milliliter. Weniger als ein Prozent des absorbierten Resveratrol erreichte den Blutkreislauf in unveränderter Form. Innerhalb von Minuten hatten Darm und Leber das Molekül sulfatiert und glucuronidiert, in Metaboliten zerlegt, deren biologische Aktivität bis heute umstritten ist. Walle selbst schrieb 2011 das Review: »Oral bioavailability considerably less than 1%.« Dosiserhöhung ändert daran nichts. Wer doppelt so viel schluckt, produziert doppelt so viele Metaboliten. Das Originalmolekül kommt trotzdem nicht durch.
+
+Die klinischen Studien am Menschen spiegeln das Desaster. Vang 2011 fasst den Stand zusammen: moderate Effekte bei einzelnen Biomarkern, inkonsistent zwischen Studien, und immer bei Dosen weit oberhalb dessen, was Rotwein liefert. Ein Glas Rotwein enthält etwa ein bis zwei Milligramm Resveratrol. Die Dosen in klinischen Studien liegen bei 150 bis 5000 Milligramm. Das French Paradox durch Resveratrol im Wein zu erklären, ist pharmakologisch absurd. Die Erklärung für die französische Herzgesundheit liegt vermutlich in der Ernährungsstruktur, nicht in einem Polyphenol, das in homöopathischen Mengen im Glas schwimmt. Aber die Weinstory verkauft Kapseln, und Ernährungsstruktur verkauft nichts.
+
+Was bleibt, ist ein Molekül mit spektakulärer In-vitro-Biologie und katastrophaler In-vivo-Pharmakokinetik. Die gesamte Anti-Aging-Branche verkauft eine Substanz, deren zentrales Versprechen auf Zellkulturdaten beruht, die am lebenden Menschen nicht ankommen. Zwanzig Jahre klinische Forschung, Hunderte Millionen Umsatz, und das solideste Ergebnis lautet: die Leber gewinnt.
+
+Dann ist da Pterostilben.
+
+Pterostilben ist ein methyliertes Stilbenoid aus Blaubeeren. Strukturell fast identisch mit Resveratrol, aber mit zwei Methylgruppen statt zwei Hydroxylgruppen. Diese zwei Gruppen verändern alles. Sie machen das Molekül lipophiler und metabolisch stabiler. In Ratten liegt die orale Bioverfügbarkeit von Pterostilben bei achtzig Prozent, die von Resveratrol bei zwanzig. Im Menschen sind die Daten dünner, aber die Richtung stimmt. Pterostilben überlebt die Leberpassage besser, weil die Methylgruppen die Sulfatierung verlangsamen, genau den Prozess, der Resveratrol zerstört.
+
+In Tiermodellen senkt Pterostilben Blutdruck, LDL-Cholesterin und Blutzucker. In gealterten Ratten verbessert es kognitive Leistung stärker als Resveratrol bei gleicher Dosis. Molekular aktiviert es SIRT1, AMPK und PPARα, dieselben Schalter wie Resveratrol. Es hemmt mTOR. Der Unterschied ist, dass Pterostilben dieses Netzwerk in pharmakologisch wirksamen Konzentrationen erreicht. Resveratrol tut das im Reagenzglas, im Körper verliert es den Wettlauf gegen die eigene Leber.
+
+Riche 2014 ist die bislang überzeugendste Humanstudie zu Pterostilben. 250 Milligramm täglich senken den diastolischen Blutdruck bei Erwachsenen mit erhöhtem Cholesterin. Eine Studie, an einer moderaten Kohorte, mit einem messbaren Endpunkt. Das ist mehr, als Resveratrol in zwanzig Jahren klinischer Forschung konsistent geliefert hat. Und gleichzeitig ist es zu wenig, um irgendetwas abschließend zu behaupten. Die Datenbasis für Pterostilben am Menschen besteht aus einer Handvoll Studien. Die Mechanik ist plausibel, die Pharmakokinetik überlegen, die Evidenz dünn.
+
+Hier liegt das eigentliche Problem. Die Supplement-Industrie hat zwanzig Jahre lang das falsche Molekül verkauft. Resveratrol hatte die Weinstory, das French Paradox, die Schlagzeile. Pterostilben hatte zwei Methylgruppen und keinen Mythos. In einer rationalen Welt hätte die Industrie spätestens nach Walle 2004 umgeschwenkt. Stattdessen wurden die Resveratrol-Dosen erhöht, die Kapseln vergrößert, die Werbeversprechen lauter. Wer ein Pharmakokinetik-Paper liest, kauft kein Resveratrol mehr. Wer die Werbung liest, kauft weiter.
+
+Pterostilben ist vermutlich das bessere Molekül. Die Pharmakokinetik spricht dafür, die Tierdaten sprechen dafür, die ersten Humandaten deuten in die richtige Richtung. Aber »vermutlich besser« reicht für keine Empfehlung. Was es braucht, sind große, langfristige Interventionsstudien am Menschen. Die existieren für Resveratrol kaum und für Pterostilben gar nicht. Die Sirtuinforschung hat einen Mechanismus geliefert, die Chemie hat ein besseres Molekül geliefert, und die klinische Medizin hat zu beiden noch keine Antwort gegeben, die über »vielversprechend« hinausgeht.
+
+Wer heute Resveratrol kauft, bezahlt für ein Molekül, das seine eigene Leber in Minuten entsorgt. Das Etikett zeigt Trauben. Die Pharmakokinetik zeigt eine Sackgasse. Irgendwo dazwischen liegt ein Blaubeerextrakt, den niemand kennt und der vermutlich funktioniert. Der Markt belohnt Narrative, keine Bioverfügbarkeit.`,
+      quellen: [
+        {
+          autoren: "Thomas Walle, Faye Hsieh, Mark DeLegge, et al.",
+          titel: "High absorption but very low bioavailability of oral resveratrol in humans",
+          journal: "Drug Metabolism and Disposition",
+          vol: "Vol. 32, No. 12",
+          datum: "Dezember 2004",
+          seiten: "1377—1382",
+          doi: "10.1124/dmd.104.000885",
+          pmid: "15333514",
+        },
+        {
+          autoren: "Ole Vang, Nihal Ahmad, Clifton Baile, et al.",
+          titel: "What is new for an old molecule? Systematic review and recommendations on the use of resveratrol",
+          journal: "PLoS ONE",
+          vol: "Vol. 6, No. 6",
+          datum: "Juni 2011",
+          seiten: "e19881",
+          doi: "10.1371/journal.pone.0019881",
+          pmid: "21698226",
+        },
+        {
+          autoren: "Agnes Rimando, Miklos Kalt, John Magee, et al.",
+          titel: "Resveratrol, pterostilbene, and piceatannol in Vaccinium berries",
+          journal: "Journal of Agricultural and Food Chemistry",
+          vol: "Vol. 52, No. 15",
+          datum: "Juli 2004",
+          seiten: "4713—4719",
+          doi: "10.1021/jf040095e",
+          pmid: "15264904",
+        },
+        {
+          autoren: "Daniel Riche, Corey McEwen, Krista Riche, et al.",
+          titel: "Analysis of safety from a human clinical trial with pterostilbene",
+          journal: "Journal of Toxicology",
+          vol: "Vol. 2013",
+          datum: "2013",
+          seiten: "463595",
+          doi: "10.1155/2013/463595",
+          pmid: "23935618",
+        },
+      ],
+    },
   ],
 };

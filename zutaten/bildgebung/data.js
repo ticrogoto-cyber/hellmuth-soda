@@ -352,6 +352,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unklar"
       ]
+    },
+    {
+      "href": "resveratrol-pterostilben-bioverfuegbarkeit/",
+      "title": "Das Molekül, das siebzig Prozent absorbiert und unter einem Prozent ankommt",
+      "lead": "Resveratrol ist das meistverkaufte Anti-Aging-Polyphenol der Welt. Der menschliche Körper zerlegt es in Minuten. Sein methylierter Verwandter Pterostilben erreicht die Zielorgane vierfach besser. Verkauft wird trotzdem Resveratrol, weil es die bessere Geschichte hat.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 4,
+      "filters": [
+        "unklar"
+      ]
     }
   ]
 };
