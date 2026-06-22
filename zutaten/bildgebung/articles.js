@@ -2042,5 +2042,41 @@ Die Algen sind selbst das Problem, das sie lösen sollen. Wer das Ironie nennt, 
         },
       ],
     },
+    {
+      slug: "glutamin-zink-carnosin-schleimhaut",
+      titel: "Zwei Substanzen für eine Wand, die niemand sieht",
+      lead: "L-Glutamin ist der Hauptenergieträger der Darmschleimhaut. Zink-Carnosin ist in Japan als Magenmedikament zugelassen. Im Westen wird das eine für den Bizeps verkauft und das andere kennt niemand.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Die Darmschleimhaut erneuert sich alle drei bis fünf Tage. Kein Gewebe im Körper hat eine höhere Zellteilungsrate. Der Brennstoff dafür ist Glutamin, die häufigste Aminosäure im Blutplasma. Ohne Glutamin hungern die Enterozyten, die Barriere wird durchlässig, Bakterien und Endotoxine passieren in den Blutkreislauf. Bei Intensivpatienten sinkt der Plasmaspiegel regelmäßig unter die Hälfte. Bei Chemotherapie-Patienten zerfällt die Mukosa. Glutamin-Supplementierung verbessert in beiden Fällen die Barrierefunktion messbar, reduziert Mukositis und senkt bei Verbrennungspatienten die Infektionsrate.
+
+Die Fitness-Industrie verkauft Glutamin als Muskelregenerationsmittel. Die Datenlage für diese Indikation bei gesunden Sportlern wackelt seit Jahren. Was funktioniert, ist der Darm. Was verkauft wird, ist der Bizeps. Das Etikett zeigt einen Oberarm, die Evidenz zeigt eine Darmzotte.
+
+Zink-Carnosin arbeitet auf der anderen Seite der Wand. Der Chelatkomplex aus Zink und L-Carnosin im Verhältnis 1:1 dissoziiert langsam im Magen und reichert sich an geschädigten Stellen an. In Japan ist die Substanz unter dem Namen Polaprezinc als Arzneimittel gegen Magengeschwüre zugelassen. Eine placebokontrollierte Studie zeigt beschleunigte Ulkusheilung. Bei NSAID-induzierter Gastropathie sinkt die intestinale Permeabilität. Bei Helicobacter-Eradikation verbessert Zink-Carnosin die Erfolgsrate der Tripletherapie. In Japan verschreibungspflichtig. Im Westen ein obskures Nischensupplement, das in keiner Apotheke liegt.
+
+Zwei Substanzen, eine Aufgabe: die Wand reparieren, die den Körper vom Darminhalt trennt. Die eine wird für den falschen Zweck verkauft. Die andere wird gar nicht verkauft. Die Darmschleimhaut fragt nicht nach Marketing.`,
+      quellen: [
+        {
+          autoren: "Ruurd van der Hulst, Maarten von Meyenfeldt, Nicolaas Deutz, et al.",
+          titel: "Glutamine and the preservation of gut integrity",
+          journal: "The Lancet",
+          vol: "Vol. 341, No. 8857",
+          datum: "Mai 1993",
+          seiten: "1363—1365",
+          doi: "10.1016/0140-6736(93)90939-E",
+          pmid: "8098789",
+        },
+        {
+          autoren: "Adeel Mahmood, Anthony FitzGerald, Tanya Marchbank, et al.",
+          titel: "Zinc carnosine, a health food supplement that stabilises small bowel integrity and stimulates gut repair processes",
+          journal: "Gut",
+          vol: "Vol. 56, No. 2",
+          datum: "Februar 2007",
+          seiten: "168—175",
+          doi: "10.1136/gut.2006.099929",
+          pmid: "16777920",
+        },
+      ],
+    },
   ],
 };

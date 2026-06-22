@@ -319,6 +319,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "ueberschaetzt"
       ]
+    },
+    {
+      "href": "glutamin-zink-carnosin-schleimhaut/",
+      "title": "Zwei Substanzen für eine Wand, die niemand sieht",
+      "lead": "L-Glutamin ist der Hauptenergieträger der Darmschleimhaut. Zink-Carnosin ist in Japan als Magenmedikament zugelassen. Im Westen wird das eine für den Bizeps verkauft und das andere kennt niemand.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
