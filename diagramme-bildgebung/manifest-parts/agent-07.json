@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "curcumin-pains-bioverfuegbarkeit",
+    "essay_url": "/zutaten/bildgebung/curcumin-pains-bioverfuegbarkeit/",
+    "svg_file": "diagramm-curcumin-pains-bioverfuegbarkeit.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Was funktioniert, sind die Formulierungen,",
+    "closer_text": "Die teuerste Form von Nichts ist immer noch Nichts.",
+    "notes": "Gabelung: dasselbe Molekül in zwei Pharmakokinetiken — Standard-Pulver (links, warn, PAINS und <1 % Resorption, endet im gerahmten NICHTS) und Phytosom (rechts, Meriva/BCM-95, 29-fache Bioverfügbarkeit, reproduzierte Klinik). Sep-Wort: NICHTS, weil das die Frucht der billigen Schiene ist."
+  },
+  {
+    "essay_slug": "senolytika-fisetin-quercetin-zombiezellen",
+    "essay_url": "/zutaten/bildgebung/senolytika-fisetin-quercetin-zombiezellen/",
+    "svg_file": "diagramm-senolytika-fisetin-quercetin-zombiezellen.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "Dann kam Fisetin. Yousefzadeh 2018 testet",
+    "closer_text": "Wer heute Senolytika nimmt, wettet darauf, dass Mäuse nicht lügen.",
+    "notes": "Zeitstrahl: SASP-Konzept → Mayo 2015 (genetische Ablation) → D+Q 2017 (Kirkland) → Fisetin 2018 (Yousefzadeh, EBioMedicine) → Mensch heute (AFFIRM pending, Pilotstudie n=14, drei Tage). Sep-Wort: MAUS, weil die ganze Trajektorie auf Mausdaten beruht."
+  },
+  {
+    "essay_slug": "liposomal-bioverfuegbarkeit-technologie",
+    "essay_url": "/zutaten/bildgebung/liposomal-bioverfuegbarkeit-technologie/",
+    "svg_file": "diagramm-liposomal-bioverfuegbarkeit-technologie.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Alpha-Liponsäure zeigt den Unterschied am deutlichsten.",
+    "closer_text": "Dazwischen liegt die Phospholipidmembran, und sonst nichts.",
+    "notes": "Gabelung: dasselbe Etikett »liposomal« teilt sich in PHARMAKOKINETIK (links, Glutathion/Curcumin/ALA, ohne Hülle scheitern sie an Peptidasen, First-Pass oder schneller Clearance) und TYPOGRAPHIE (rechts, warn, Ashwagandha und niedrigdosiertes Vitamin C, resorbieren auch ohne Hülle, der Aufpreis ist reines Marketing). Sep-Wort: HÜLLE."
+  }
+]
