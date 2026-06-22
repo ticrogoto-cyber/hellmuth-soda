@@ -2078,5 +2078,31 @@ Zwei Substanzen, eine Aufgabe: die Wand reparieren, die den Körper vom Darminha
         },
       ],
     },
+    {
+      slug: "saeure-basen-basenpulver-ph",
+      titel: "Die Krankheit, die das Marketing erfunden hat",
+      lead: "Chronische Übersäuerung durch moderne Ernährung klingt plausibel. Der Blut-pH ist durch drei Puffersysteme so eng reguliert, dass kein Lebensmittel ihn verschieben kann. Basenpulver behandeln eine Krankheit, die außerhalb pathologischer Stoffwechselzustände nicht existiert.",
+      filter: ["Überschätzt"],
+      date: "2026-06-22",
+      body: `Der Blut-pH liegt zwischen 7,35 und 7,45. Bikarbonat-Puffer, Atmung und Niere halten ihn dort. Verschiebt sich der Wert nach unten, liegt eine metabolische Azidose vor. Das ist ein Notfall, kein Ernährungsproblem. Verschiebt sich nichts, gibt es nichts zu korrigieren.
+
+Die Basenpulver-Industrie verkauft trotzdem. Calciumcarbonat, Magnesiumcitrat, Kaliumbikarbonat. Keine Dosierung, keine Indikation, kein Zielparameter. Das Etikett verspricht »Entsäuerung«. Kein Bluttest zeigt vorher eine Säure, kein Bluttest zeigt nachher eine Wirkung. Das Produkt behandelt ein Gefühl, keinen Befund.
+
+Es gibt eine Ausnahme, und sie ist real. Die Basenpulver-III-Formulierung nach Rauch wurde für das modifizierte Fasten im Rahmen der Original-FX-Mayr-Therapie entwickelt. Beim Fasten entsteht durch Lipolyse tatsächlich eine Ketonkörper-bedingte metabolische Azidose. Die definierte Mischung aus Natriummonohydrogenphosphat, Calciumcarbonat, Magnesiumhydrogencitrat und Kaliumhydrogencarbonat ist hier eine reale Mineralstoffsubstitution für ein reales biochemisches Problem. Wer fastet, braucht das Rauch-Pulver. Wer im Alltag ein generisches Basenpulver nimmt, kauft die Therapie ohne die Krankheit.
+
+Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Alltag. Die Marge stimmt trotzdem.`,
+      quellen: [
+        {
+          autoren: "Thomas Remer, Friedrich Manz",
+          titel: "Potential renal acid load of foods and its influence on urine pH",
+          journal: "Journal of the American Dietetic Association",
+          vol: "Vol. 95, No. 7",
+          datum: "Juli 1995",
+          seiten: "791—797",
+          doi: "10.1016/S0002-8223(95)00219-7",
+          pmid: "7797810",
+        },
+      ],
+    },
   ],
 };

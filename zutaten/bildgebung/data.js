@@ -330,6 +330,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "saeure-basen-basenpulver-ph/",
+      "title": "Die Krankheit, die das Marketing erfunden hat",
+      "lead": "Chronische Übersäuerung durch moderne Ernährung klingt plausibel. Der Blut-pH ist durch drei Puffersysteme so eng reguliert, dass kein Lebensmittel ihn verschieben kann. Basenpulver behandeln eine Krankheit, die außerhalb pathologischer Stoffwechselzustände nicht existiert.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "ueberschaetzt"
+      ]
     }
   ]
 };
