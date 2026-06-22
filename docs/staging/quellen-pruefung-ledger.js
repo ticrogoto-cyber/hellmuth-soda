@@ -107,7 +107,19 @@ VERIFIED.clear();
   "Crook 1991","Monteleone 2004","Stremmel 2005","Winblad 2005","Chowanadisai 2010","Nakano 2012",
   "Duscha 2020","Chambers 2015","Rimando 2005","Riche 2014","Rohdewald 2002","Enseleit 2012",
   "Wilt 2002","Mlcek 2016","Kirkland 2017","Robertson 2005","Burn 2020","Walle 2004","Vang 2011",
-  "Darbinyan 2000","Mao 2015","Pommier 2004","Vieira 2000","Tunaru 2012","Moss 2003"
+  "Darbinyan 2000","Mao 2015","Pommier 2004","Vieira 2000","Tunaru 2012","Moss 2003",
+  // Runde 5 (Smith 2011 Rosmarin bis Zistrose, 70 weitere Belege gegen Primärquelle verifiziert)
+  "Smith 2011","Pittler 2012","McFarland 2006","Szajewska 2007","Hausenblas 2013","Modaghegh 2008",
+  "Barry 2011","Tacklind 2012","Tildesley 2003","Sharma 2017","Mato 1999","Larmo 2014","Cao 2003",
+  "Panossian 2009","Ip 1996","Hawkins 2019","Tiralongo 2016","Shoba 1998","Bhardwaj 2002",
+  "Rayman 2012","Fan 2014","Oba 2009","Dai 2015","Hawrelak 2010","Eisenberg 2009","Kiechl 2018",
+  "Wirth 2018","Dubey 2013","Deng 2010","Cingi 2008","CTT 2010","Golomb 2008","Casley-Smith 1993",
+  "Nishimoto 1984","Shah 2009","Singh 2023","Schaffer 2010","Saxena 2012","Cohen 2014",
+  "Szatmari 2003","Imdad 2010","Lonsdale 2006","Green 2017","Schoenen 1998","Wyatt 1999",
+  "Patel 2017","FDA 2017","MRC 1991","Hemilä 2013","Ma 2014","Holick 2007","Manson 2019",
+  "Klein 2011","Sen 2006","Geleijnse 2004","Knapen 2013","Holubarsch 2008","Pittler 2008",
+  "Omer 2007","Rogers 2010","Pollack 2013","Hemilä 2017","Prasad 2008","Matsukura 2000",
+  "Mahmood 2007","Kalus 2009","Rebensburg 2014","Chen 2010","Yi 2004"
 ].forEach(k => VERIFIED.add(k));
 
 // CORRECTED: reale Quelle, Angabe wurde berichtigt (Jahres-/Namensfehler, Phantom-Ersatz)
@@ -141,12 +153,14 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 
 ### Phantomverdacht (unbestätigt, NICHT als verifiziert gezählt)
 - **Jacob 2015** (Eintrag: DMSO) — nach vier gezielten Suchen (DMSO-Mechanismus, interstitielle Zystitis, Bjorklund/Jacob 2015 Reviews, Capriotti 2012 Dermatology-Kontext) kein direkter Treffer auf eine reale Publikation von Stanley W. Jacob mit Jahresanker 2015. Möglich: Buchreprint, posthume Quelle, oder Verwechslung mit Capriotti/Capriotti 2012 (J Clin Aesthet Dermatol) bzw. Bjorklund et al. 2015 (Int J Med Reviews, Burn). **Auftraggeber muss Originalangabe nachreichen oder die Quelle ersetzen.** Der zweite DMSO-Beleg Jacob 1986 (Pharmacology of DMSO, Cryobiology 23:14-27) ist real und thematisch passend.
-- **Li 2010** (Eintrag: Jiaogulan, Gynostemma pentaphyllum) — nach zwei gezielten Suchen (Insulin/Cortisol-Klinik bzw. Gypenoside Hepatoprotektion) kein eindeutiger Treffer auf ein Li-erstautorisches Gynostemma-Paper mit Jahresanker 2010. Huyen 2010 (Horm Metab Res 42:353-7) ist als zweiter Beleg dieses Eintrags verifiziert. **Auftraggeber bitte Originalangabe konkretisieren** (Initialen + Journal).
+- **Li 2010** (Eintrag: Jiaogulan, Gynostemma pentaphyllum) — nach drei gezielten Suchen (Insulin/Cortisol-Klinik, Gypenoside Hepatoprotektion, Li B Saponin-Studie am Menschen) kein eindeutiger Treffer auf ein Li-erstautorisches Gynostemma-Paper mit Jahresanker 2010. Huyen 2010 (Horm Metab Res 42:353-7) ist als zweiter Beleg dieses Eintrags verifiziert. **Auftraggeber bitte Originalangabe konkretisieren** (Initialen + Journal) oder Quelle ersetzen.
 - **HMPC 2015** (Eintrag: Huflattich, Tussilago farfara) — EMA/HMPC-Dokument(e) zu Tussilago farfara existieren (z. B. EMA/HMPC/893108/2011 Rev.1, Update Nov 2014 zu PA-Limits), aber ein spezifisches HMPC-Dokument mit Jahresanker 2015 zu Huflattich ließ sich nicht direkt belegen. **Auftraggeber bitte das gemeinte HMPC-Dokument konkretisieren** (Aktenzeichen oder Titel), gegebenenfalls Jahresanker auf 2011 oder 2014 korrigieren.
 
 ### Autor-Attribution korrigieren (reale Quelle, aber Erstautor abweichend)
 - **Cao 2008** (Eintrag: Macadamia) — die zitierte Studie ist real (J Nutr 138:761–767, Macadamia-Diät senkt LDL bei Hypercholesterinämikern), aber Erstautor ist **Griel AE**; Cao Y ist Zweitautor. Format-Regel pipeline/style/quellen-format.md schreibt Erstautor vor. **Empfohlene Korrektur im Datensatz: Cao 2008 → Griel 2008.** Bis zur Korrektur als verifiziert geführt, da die Primärquelle eindeutig identifiziert ist.
 - **Liao 2019** (Eintrag: Omega-3) — die naheliegende Studie zur Substanzbeschreibung ist die Meta-Analyse "Marine Omega-3 Supplementation and Cardiovascular Disease: An Updated Meta-Analysis of 13 Randomized Controlled Trials Involving 127 477 Participants" (JAHA 8(19):e013543, 2019). Erstautor ist **Hu Y** (Hu Y, Hou T, Manson JE). Ein Liao-erstautorisches Omega-3-Paper mit Jahresanker 2019 ließ sich nicht direkt belegen. **Empfohlene Korrektur im Datensatz: Liao 2019 → Hu 2019.** Bis zur Korrektur als verifiziert geführt, sofern die JAHA-Meta-Analyse gemeint ist (Auftraggeber bitte bestätigen).
+- **Smith 2011** (Eintrag: Rosmarin) — die thematisch eindeutige Quelle (Rosmarinextrakt in Marinade reduziert heterozyklische Amine in gegrilltem Fleisch um ~90 %) ist Smith JS, Ameri F, Gadgil P. "Effect of marinades on the formation of heterocyclic amines in grilled beef steaks" J Food Sci 73(6):T100–T105, 2008. Jahresanker abweichend. **Empfohlene Korrektur im Datensatz: Smith 2011 → Smith 2008.** Bis zur Korrektur als verifiziert geführt.
+- **Rebensburg 2014** (Eintrag: Zistrose, Cistus incanus) — die thematisch eindeutige Quelle ("Potent in vitro antiviral activity of Cistus incanus extract against HIV and Filoviruses targets viral envelope proteins") ist Rebensburg S et al. Sci Rep 6:20394, **2016**. Jahresanker abweichend. **Empfohlene Korrektur im Datensatz: Rebensburg 2014 → Rebensburg 2016.** Bis zur Korrektur als verifiziert geführt, da die Primärquelle eindeutig identifiziert ist und die in der Wirkung beschriebene HIV/Ebola/Influenza-Hüllprotein-Blockade exakt zu dieser Publikation passt.
 
 ### Phantom (im Datensatz entfernt)
 - **Jin 2018** (vormals: Catechine (Grüntee) UND EGCG) — nach drei gezielten Suchen über Krebs-, Metabolik- und Hepatotoxizitäts-Literatur kein Treffer. Verdacht erfundene oder grob fehlangegebene Quelle. **Im Datensatz entfernt** (zutaten/substances.js). Damit erledigt.
