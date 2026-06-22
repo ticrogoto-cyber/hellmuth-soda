@@ -1358,5 +1358,74 @@ Die Supplement-Industrie verkauft Ingwer als Verdauungshilfe. Das stimmt und gre
         },
       ],
     },
+    {
+      slug: "olivenoel-oleocanthal-entzuendung",
+      titel: "Das Öl, das im Hals brennt, wenn es gut ist",
+      lead: "Frisches Olivenöl enthält einen COX-Hemmer mit der Potenz von Ibuprofen. Man erkennt ihn am Kratzen im Hals. Wenn das Öl nicht kratzt, fehlt der Wirkstoff.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `2005 saß der Sensorikforscher Gary Beauchamp auf einer Konferenz in Sizilien und probierte frisch gepresstes Olivenöl. Es brannte im Hals. Beauchamp kannte dieses Brennen. Er hatte jahrelang die sensorischen Eigenschaften von flüssigem Ibuprofen untersucht. Die Reizung saß an derselben Stelle, im selben Muster. Er nahm eine Probe mit nach Philadelphia.
+
+Die Analyse bestätigte den Verdacht. Das Molekül heißt Oleocanthal, von oleo für Olive, canth für Stich, al für Aldehyd. Beauchamp publizierte die Ergebnisse in Nature. Oleocanthal hemmt COX-1 und COX-2 mit einer Potenz, die der von Ibuprofen auf molarer Basis entspricht. Derselbe Wirkmechanismus, dieselben Enzyme, ein anderes Molekül. In vier Esslöffeln hochwertigem Olivenöl steckt die entzündungshemmende Aktivität von etwa zehn Prozent einer Ibuprofen-Dosis. Täglich. Über Jahre. Ohne Magenblutung.
+
+Hydroxytyrosol ist der zweite Wirkstoff, der zählt. Die EFSA hat 2011 eine Health Claim zugelassen, die einzige für ein Speiseöl. Olivenölpolyphenole schützen Blutfette vor oxidativem Stress, ab fünf Milligramm Hydroxytyrosol pro zwanzig Gramm Öl. Die meisten hochwertigen Extra-Vergine-Öle erreichen den Schwellenwert. Raffinierte Öle erreichen nichts.
+
+Dann kam PREDIMED. Über 7400 Teilnehmer mit erhöhtem kardiovaskulärem Risiko, randomisiert auf mediterrane Diät mit Olivenöl, mediterrane Diät mit Nüssen oder fettreduzierte Kontrolldiät. Die Olivenöl-Gruppe zeigte eine Reduktion schwerer kardiovaskulärer Ereignisse um dreißig Prozent. Dreißig Prozent. Mit Essen. Keine Pharmafirma hat ein Medikament auf dem Markt, das in einer Studie dieser Größe ein vergleichbares Ergebnis liefert, ohne Nebenwirkungen.
+
+Das Problem steht im Supermarkt. Die meisten Olivenöle, die dort als »Extra Vergine« verkauft werden, sind alt, falsch gelagert oder mit raffinierten Ölen verschnitten. Oleocanthal zerfällt bei Licht, Hitze und Zeit. Ein Öl, das nicht im Hals kratzt, hat seinen COX-Hemmer verloren. Das Brennen ist der Qualitätstest. Wer es wegzüchtet, züchtet die Pharmakologie heraus.
+
+Vier Esslöffel am Tag. Frisch, dunkel gelagert, innerhalb eines Jahres nach der Ernte. Das kratzt im Hals und hemmt COX-2. Ibuprofen kratzt auch.`,
+      quellen: [
+        {
+          autoren: "Gary Beauchamp, Russell Keast, Diane Morel, et al.",
+          titel: "Phytochemistry: ibuprofen-like activity in extra-virgin olive oil",
+          journal: "Nature",
+          vol: "Vol. 437, No. 7055",
+          datum: "01.09.2005",
+          seiten: "45—46",
+          doi: "10.1038/437045a",
+          pmid: "16136122",
+        },
+        {
+          autoren: "Ramón Estruch, Emilio Ros, Jordi Salas-Salvadó, et al.",
+          titel: "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts",
+          journal: "New England Journal of Medicine",
+          vol: "Vol. 378, No. 25",
+          datum: "21.06.2018",
+          seiten: "e34",
+          doi: "10.1056/NEJMoa1800389",
+          pmid: "29897866",
+        },
+        {
+          autoren: "Lisa Parkinson, Russell Keast",
+          titel: "Oleocanthal, a phenolic derived from virgin olive oil: a review of the beneficial effects on inflammatory disease",
+          journal: "International Journal of Molecular Sciences",
+          vol: "Vol. 15, No. 7",
+          datum: "Juli 2014",
+          seiten: "12323—12334",
+          doi: "10.3390/ijms150712323",
+          pmid: "25019344",
+        },
+        {
+          autoren: "Hisham Abuznait, Hisham Qosa, Belnaser Buber, et al.",
+          titel: "Olive-oil-derived oleocanthal enhances β-amyloid clearance as a potential neuroprotective mechanism against Alzheimer's disease",
+          journal: "ACS Chemical Neuroscience",
+          vol: "Vol. 4, No. 6",
+          datum: "Juni 2013",
+          seiten: "973—982",
+          doi: "10.1021/cn400024q",
+          pmid: "23414128",
+        },
+        {
+          autoren: "EFSA Panel on Dietetic Products, Nutrition and Allergies",
+          titel: "Scientific Opinion on the substantiation of health claims related to polyphenols in olive",
+          journal: "EFSA Journal",
+          vol: "Vol. 9, No. 4",
+          datum: "2011",
+          seiten: "2033",
+          doi: "10.2903/j.efsa.2011.2033",
+        },
+      ],
+    },
   ],
 };

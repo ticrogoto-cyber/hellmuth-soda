@@ -166,6 +166,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "olivenoel-oleocanthal-entzuendung/",
+      "title": "Das Öl, das im Hals brennt, wenn es gut ist",
+      "lead": "Frisches Olivenöl enthält einen COX-Hemmer mit der Potenz von Ibuprofen. Man erkennt ihn am Kratzen im Hals. Wenn das Öl nicht kratzt, fehlt der Wirkstoff.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };
