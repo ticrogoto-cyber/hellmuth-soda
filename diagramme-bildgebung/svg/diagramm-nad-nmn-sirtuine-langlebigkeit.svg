@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="nad-nmn-sirtuine-langlebigkeit">
+  <title id="diag-title">NAD+ sinkt mit dem Alter — NMN als Vorstufe</title>
+  <desc id="diag-desc">Die NAD+-Konzentration sinkt vom dreissigsten Lebensjahr stetig, in alten Geweben um vierzig bis sechzig Prozent. Sirtuine und PARP brauchen NAD+ als Substrat. NMN ist die direkte Vorstufe. Mausdaten spektakulaer, Humandaten erst am Anfang.</desc>
+
+  <style>
+    .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
+    .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
+    .hs-diagram .h-col { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.2em; fill: #1a1a1a; }
+    .hs-diagram .h-res { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.16em; fill: #1a1a1a; }
+    .hs-diagram .sub { font-family: 'Fournier Pro', Georgia, serif; font-style: italic; fill: #888; }
+    .hs-diagram .closer { font-family: 'Fournier Pro', Georgia, serif; font-style: italic; fill: #1a1a1a; }
+    .hs-diagram .sep-word { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; letter-spacing: 0.22em; fill: #888; }
+    .hs-diagram .arr { stroke: #1a1a1a; stroke-width: 0.8; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+    .hs-diagram .arr-head { stroke: #1a1a1a; stroke-width: 0.8; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+    .hs-diagram .feedback { stroke: #888; stroke-width: 0.7; fill: none; stroke-dasharray: 4 3; }
+    .hs-diagram .feedback-head { stroke: #888; stroke-width: 0.7; fill: none; }
+    .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
+    .hs-diagram .warn { stroke: #6B0F1A; }
+    .hs-diagram .warn-fill { fill: #6B0F1A; }
+
+    .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
+    .hs-diagram .reveal.is-visible { opacity: 1; }
+    .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
+    .hs-diagram .lift.is-visible { transform: translateY(0); }
+    .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
+    .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
+
+    .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
+    .hs-diagram .col-group:hover { opacity: 0.72; }
+    .hs-diagram .arr-group .arr,
+    .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
+    .hs-diagram .arr-group:hover .arr,
+    .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hs-diagram .reveal,
+      .hs-diagram .lift,
+      .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
+    }
+  </style>
+
+  <g class="reveal lift" data-delay="0">
+    <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER ALTERS-ABFALL</text>
+  </g>
+  <g class="reveal lift" data-delay="100">
+    <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">NAD+ sinkt ab dreissig, NMN setzt oben an</text>
+  </g>
+
+  <g class="reveal lift" data-delay="200">
+    <text class="h-col" x="80" y="110" font-size="13" text-anchor="start">NAD+</text>
+  </g>
+  <g class="reveal lift" data-delay="230">
+    <text class="sub" x="118" y="110" font-size="11" text-anchor="start">100 %</text>
+  </g>
+
+  <g class="arr-group">
+    <path class="arr draw" data-delay="380" d="M 80 122 Q 280 132 530 200" style="--len:470"/>
+  </g>
+
+  <g class="reveal lift" data-delay="560">
+    <text class="sub" x="540" y="196" font-size="11" text-anchor="start">40—60 % weniger</text>
+  </g>
+
+  <g class="arr-group">
+    <line class="arr draw" data-delay="640" x1="80" y1="232" x2="600" y2="232" style="--len:520"/>
+  </g>
+
+  <g class="arr-group">
+    <line class="arr" x1="80" y1="228" x2="80" y2="236"/>
+    <line class="arr" x1="210" y1="228" x2="210" y2="236"/>
+    <line class="arr" x1="340" y1="228" x2="340" y2="236"/>
+    <line class="arr" x1="470" y1="228" x2="470" y2="236"/>
+    <line class="arr" x1="600" y1="228" x2="600" y2="236"/>
+  </g>
+
+  <g class="reveal lift" data-delay="700">
+    <text class="sub" x="80" y="250" font-size="10.5" text-anchor="start">30</text>
+  </g>
+  <g class="reveal lift" data-delay="710">
+    <text class="sub" x="210" y="250" font-size="10.5" text-anchor="middle">45</text>
+  </g>
+  <g class="reveal lift" data-delay="720">
+    <text class="sub" x="340" y="250" font-size="10.5" text-anchor="middle">60</text>
+  </g>
+  <g class="reveal lift" data-delay="730">
+    <text class="sub" x="470" y="250" font-size="10.5" text-anchor="middle">75</text>
+  </g>
+  <g class="reveal lift" data-delay="740">
+    <text class="sub" x="600" y="250" font-size="10.5" text-anchor="end">Lebensjahre</text>
+  </g>
+
+  <g class="reveal lift" data-delay="800">
+    <text class="h-res" x="170" y="290" font-size="11" text-anchor="middle">SIRTUINE</text>
+  </g>
+  <g class="reveal lift" data-delay="820">
+    <text class="sub" x="170" y="308" font-size="11" text-anchor="middle">Langlebigkeits-Enzyme</text>
+  </g>
+
+  <g class="reveal lift" data-delay="840">
+    <text class="h-res" x="510" y="290" font-size="11" text-anchor="middle">PARP</text>
+  </g>
+  <g class="reveal lift" data-delay="860">
+    <text class="sub" x="510" y="308" font-size="11" text-anchor="middle">DNA-Reparatur</text>
+  </g>
+
+  <g class="reveal lift" data-delay="880">
+    <text class="sub" x="340" y="298" font-size="10.5" text-anchor="middle">beide brauchen NAD+ als Substrat</text>
+  </g>
+
+  <g class="reveal lift" data-delay="920">
+    <text class="h-col" x="340" y="335" font-size="13" text-anchor="middle">NMN</text>
+  </g>
+  <g class="reveal lift" data-delay="940">
+    <text class="sub" x="340" y="160" font-size="11" text-anchor="middle">direkte Vorstufe von NAD+ — Mausdaten stark, Humandaten am Anfang</text>
+  </g>
+
+  <g class="reveal" data-delay="1020">
+    <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
+    <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">GEDULD</text>
+    <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
+  </g>
+
+  <g class="reveal lift" data-delay="1120">
+    <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Wer die Daten liest, hat Geduld.«</text>
+  </g>
+
+  <script><![CDATA[
+    (function(){
+      var svg = document.currentScript && document.currentScript.parentNode;
+      if(!svg) return;
+      var els = svg.querySelectorAll('.reveal, .draw');
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      function show(){ els.forEach(function(el){ var d = +(el.getAttribute('data-delay')||0); setTimeout(function(){ el.classList.add('is-visible'); }, d); }); }
+      if(reduced || !('IntersectionObserver' in window)){ els.forEach(function(el){ el.classList.add('is-visible'); }); return; }
+      var seen = false;
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting && !seen){ seen = true; show(); io.disconnect(); } });
+      }, { threshold: 0.2 });
+      io.observe(svg);
+    })();
+  ]]></script>
+</svg>

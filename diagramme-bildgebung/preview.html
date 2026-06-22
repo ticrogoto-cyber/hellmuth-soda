@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bildgebung — Diagramm-Vorschau</title>
+<style>
+  @font-face { font-family: 'Printvetica'; src: url('../fonts/PRINTVETICA.OTF') format('opentype'); font-display: swap; }
+  @font-face { font-family: 'Fournier Pro'; src: url('../fonts/FOURNIERMTPRO-REGULAR.TTF') format('truetype'); font-style: normal; font-display: swap; }
+  @font-face { font-family: 'Fournier Pro'; src: url('../fonts/FOURNIERMTPRO-ITALIC.TTF') format('truetype'); font-style: italic; font-display: swap; }
+  * { box-sizing: border-box; }
+  html, body { background: #f8f8f8; color: #1a1a1a; font-family: 'Fournier Pro', Georgia, serif; margin: 0; }
+  body { padding: 3rem 1.5rem; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-family: 'Printvetica', sans-serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 1.2rem; margin: 0 0 1.5rem; }
+  p { font-size: 1.05rem; line-height: 1.65; margin: 0 0 1em; max-width: 38rem; }
+  .diagram-wrap { margin: 3rem 0; }
+  .diagram-wrap svg { width: 100%; height: auto; display: block; }
+  .scroll-pad { height: 70vh; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vorschau: Diagramm Vitamin D · K2 · Magnesium</h1>
+  <p>Diese Seite simuliert die Einbettung im Essay. Scrolle nach unten, damit die Aufbau-Animation startet.</p>
+  <p>Vitamin D heißt Vitamin und ist ein Prohormon. Es entsteht in der Haut unter UVB-Strahlung, wird in der Leber zu 25-OH-D hydroxyliert und in der Niere zur aktiven Form Calcitriol umgewandelt.</p>
+  <div class="scroll-pad"></div>
+  <p>Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3 ohne Magnesium bleibt inaktiv. Magnesium ohne D3 fehlt der Kontext. K2 ohne D3 fehlt der Anlass.</p>
+
+  <div class="diagram-wrap">
+    <!-- SVG hier inline einfügen, damit Script + Animation laufen -->
+    <object type="image/svg+xml" data="svg/diagramm-vitamin-d-k2-magnesium-triade.svg" style="width:100%; height:auto; display:block;"></object>
+  </div>
+
+  <p>Die Triade funktioniert zusammen oder gar nicht. Die Supplement-Industrie verkauft alle drei in verschiedenen Packungen, zu verschiedenen Preisen, mit verschiedenen Versprechen.</p>
+  <div class="scroll-pad"></div>
+</main>
+</body>
+</html>

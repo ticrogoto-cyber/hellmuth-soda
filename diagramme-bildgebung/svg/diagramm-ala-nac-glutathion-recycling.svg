@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="ala-nac-glutathion-recycling">
+  <title id="diag-title">Glutathion, NAC und ALA — das Recycling-System</title>
+  <desc id="diag-desc">Drei Substanzen, ein System: Glutathion ist das Ziel, NAC liefert das Baumaterial Cystein, ALA recycelt verbrauchtes Glutathion zurück in seine aktive Form. Ohne den Kreislauf bleibt jede einzelne Kapsel wirkungslos.</desc>
+
+  <style>
+    .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
+    .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
+    .hs-diagram .h-col { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.2em; fill: #1a1a1a; }
+    .hs-diagram .h-res { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.16em; fill: #1a1a1a; }
+    .hs-diagram .sub { font-family: 'Fournier Pro', Georgia, serif; font-style: italic; fill: #888; }
+    .hs-diagram .closer { font-family: 'Fournier Pro', Georgia, serif; font-style: italic; fill: #1a1a1a; }
+    .hs-diagram .sep-word { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; letter-spacing: 0.22em; fill: #888; }
+    .hs-diagram .arr { stroke: #1a1a1a; stroke-width: 0.8; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+    .hs-diagram .arr-head { stroke: #1a1a1a; stroke-width: 0.8; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+    .hs-diagram .feedback { stroke: #888; stroke-width: 0.7; fill: none; stroke-dasharray: 4 3; }
+    .hs-diagram .feedback-head { stroke: #888; stroke-width: 0.7; fill: none; }
+    .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
+    .hs-diagram .warn { stroke: #6B0F1A; }
+    .hs-diagram .warn-fill { fill: #6B0F1A; }
+
+    .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
+    .hs-diagram .reveal.is-visible { opacity: 1; }
+    .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
+    .hs-diagram .lift.is-visible { transform: translateY(0); }
+    .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
+    .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
+
+    .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
+    .hs-diagram .col-group:hover { opacity: 0.72; }
+    .hs-diagram .arr-group .arr,
+    .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
+    .hs-diagram .arr-group:hover .arr,
+    .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hs-diagram .reveal,
+      .hs-diagram .lift,
+      .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
+    }
+  </style>
+
+  <g class="reveal lift" data-delay="0">
+    <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DREI ROLLEN</text>
+  </g>
+  <g class="reveal lift" data-delay="100">
+    <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Glutathion, NAC und Alpha-Liponsäure — ein einziges System</text>
+  </g>
+
+  <g class="col-group" data-col="gsh">
+    <g class="reveal lift" data-delay="200">
+      <text class="h-col" x="130" y="116" font-size="14" text-anchor="middle">GLUTATHION</text>
+    </g>
+    <g class="reveal lift" data-delay="240">
+      <text class="sub" x="130" y="134" font-size="11" text-anchor="middle">Tripeptid, das Ziel</text>
+    </g>
+    <g class="arr-group">
+      <line class="arr draw" data-delay="500" x1="130" y1="148" x2="130" y2="200" style="--len:52"/>
+      <polyline class="arr-head reveal" data-delay="640" points="126,196 130,200 134,196"/>
+    </g>
+    <g class="reveal lift" data-delay="700">
+      <text class="h-res" x="130" y="225" font-size="11" text-anchor="middle">ZENTRALE ABWEHR</text>
+    </g>
+    <g class="reveal lift" data-delay="740">
+      <text class="sub" x="130" y="243" font-size="11" text-anchor="middle">sinkt im Alter, oral wirkungslos</text>
+    </g>
+  </g>
+
+  <g class="col-group" data-col="nac">
+    <g class="reveal lift" data-delay="220">
+      <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">NAC</text>
+    </g>
+    <g class="reveal lift" data-delay="260">
+      <text class="sub" x="340" y="134" font-size="11" text-anchor="middle">N-Acetylcystein, das Baumaterial</text>
+    </g>
+    <g class="arr-group">
+      <line class="arr draw" data-delay="520" x1="340" y1="148" x2="340" y2="200" style="--len:52"/>
+      <polyline class="arr-head reveal" data-delay="660" points="336,196 340,200 344,196"/>
+    </g>
+    <g class="reveal lift" data-delay="720">
+      <text class="h-res" x="340" y="225" font-size="11" text-anchor="middle">LIEFERT CYSTEIN</text>
+    </g>
+    <g class="reveal lift" data-delay="760">
+      <text class="sub" x="340" y="243" font-size="11" text-anchor="middle">Zelle baut Glutathion selbst</text>
+    </g>
+  </g>
+
+  <g class="col-group" data-col="ala">
+    <g class="reveal lift" data-delay="240">
+      <text class="h-col" x="550" y="116" font-size="14" text-anchor="middle">ALA</text>
+    </g>
+    <g class="reveal lift" data-delay="280">
+      <text class="sub" x="550" y="134" font-size="11" text-anchor="middle">Alpha-Liponsäure, der Mechaniker</text>
+    </g>
+    <g class="arr-group">
+      <line class="arr draw" data-delay="540" x1="550" y1="148" x2="550" y2="200" style="--len:52"/>
+      <polyline class="arr-head reveal" data-delay="680" points="546,196 550,200 554,196"/>
+    </g>
+    <g class="reveal lift" data-delay="740">
+      <text class="h-res" x="550" y="225" font-size="11" text-anchor="middle">RECYCELT ALLES</text>
+    </g>
+    <g class="reveal lift" data-delay="780">
+      <text class="sub" x="550" y="243" font-size="11" text-anchor="middle">Wasser und Fett, auch Vitamin C und E</text>
+    </g>
+  </g>
+
+  <g class="arr-group">
+    <path class="feedback reveal" data-delay="860" d="M 540 272 Q 340 308 140 272"/>
+    <polyline class="feedback-head reveal" data-delay="900" points="144,268 140,272 144,276"/>
+  </g>
+
+  <g class="reveal lift" data-delay="940">
+    <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">ohne ALA bricht das Recycling · ohne NAC fehlt der Rohstoff</text>
+  </g>
+
+  <g class="reveal" data-delay="1020">
+    <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
+    <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">SYSTEM</text>
+    <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
+  </g>
+
+  <g class="reveal lift" data-delay="1120">
+    <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Drei Substanzen, ein System.«</text>
+  </g>
+
+  <script><![CDATA[
+    (function(){
+      var svg = document.currentScript && document.currentScript.parentNode;
+      if(!svg) return;
+      var els = svg.querySelectorAll('.reveal, .draw');
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      function show(){ els.forEach(function(el){ var d = +(el.getAttribute('data-delay')||0); setTimeout(function(){ el.classList.add('is-visible'); }, d); }); }
+      if(reduced || !('IntersectionObserver' in window)){ els.forEach(function(el){ el.classList.add('is-visible'); }); return; }
+      var seen = false;
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting && !seen){ seen = true; show(); io.disconnect(); } });
+      }, { threshold: 0.2 });
+      io.observe(svg);
+    })();
+  ]]></script>
+</svg>
