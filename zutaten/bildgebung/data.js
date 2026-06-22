@@ -100,6 +100,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "klarheit"
       ]
+    },
+    {
+      "href": "sulforaphan-nrf2-entgiftung/",
+      "title": "Der Schalter, den Brokkoli umlegt",
+      "lead": "Sulforaphan aktiviert Nrf2, den Transkriptionsfaktor, der über zweihundert Schutzgene gleichzeitig hochfährt. Die beste Quelle wächst in drei Tagen auf der Fensterbank.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };

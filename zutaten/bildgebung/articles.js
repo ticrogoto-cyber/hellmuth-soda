@@ -943,5 +943,84 @@ Donepezil kostet im Patent Milliarden. Alpha-GPC ist seit Jahrzehnten patentfrei
         },
       ],
     },
+    {
+      slug: "sulforaphan-nrf2-entgiftung",
+      titel: "Der Schalter, den Brokkoli umlegt",
+      lead: "Sulforaphan aktiviert Nrf2, den Transkriptionsfaktor, der über zweihundert Schutzgene gleichzeitig hochfährt. Die beste Quelle wächst in drei Tagen auf der Fensterbank.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Wenn man eine Brokkolisprosse kaut, bricht man Zellwände. Das Enzym Myrosinase trifft auf Glucoraphanin, und aus einer Vorstufe wird Sulforaphan. Das Molekül schmeckt scharf, leicht bitter, nach zerdrücktem Senf. Der Geschmack ist die Chemie bei der Arbeit.
+
+Fahey, Zhang und Talalay publizierten 1997 in den Proceedings of the National Academy of Sciences, dass drei Tage alte Brokkolisprossen zehn- bis hundertmal mehr Glucoraphanin enthalten als der ausgewachsene Brokkoli. Die Studie veränderte die Chemoprävention. Zhang und Talalay hatten Sulforaphan drei Jahre zuvor als Chemoprotektivum identifiziert, im Rattenmodell, mit signifikanter Reduktion von Brusttumoren nach Karzinogen-Exposition. 1997 zeigte sich, dass die Sprossen den Effekt billiger, konzentrierter und ohne Extraktion liefern. Saatgut, Wasser, drei Tage. Dreihundert Folgestudien allein aus dem Johns-Hopkins-Labor.
+
+Sulforaphan wirkt über einen einzigen Schalter. Im Normalzustand hält Keap1 den Transkriptionsfaktor Nrf2 im Zytoplasma fest und markiert ihn für den Abbau. Sulforaphan modifiziert Keap1. Nrf2 wird frei, wandert in den Zellkern, aktiviert über zweihundert Gene. Entgiftung, Entzündungshemmung, antioxidative Abwehr. Ein Molekül, eine Kaskade, zweihundert Schutzprogramme. Die Zelle fährt ihre eigene Apotheke hoch, mit einem Schlüssel aus einer zerkauten Sprosse.
+
+Singh 2014 testet Sulforaphan an jungen Männern mit Autismus-Spektrum-Störung. Die Verbesserungen in sozialer Interaktion verschwinden nach Absetzen. Alumkal 2015 prüft Brokkolisprossenextrakt bei rezidivierendem Prostatakarzinom. Shapiro 2006 dokumentiert Sicherheit in einer Phase-I-Studie. Die Daten sind vielversprechend. Eine Phase-III-Studie existiert nicht. Kein Patent, kein Sponsor.
+
+Jetzt das Supplement-Regal. Die meisten Kapseln enthalten Glucoraphanin ohne Myrosinase. Ohne Myrosinase findet die Umwandlung im Darm statt, abhängig von der individuellen Flora, mit einer Bioverfügbarkeit, die um Faktor fünf schwankt. Die Hersteller wissen das. Sie verkaufen die stabile Vorstufe, weil sich Sulforaphan selbst nicht in eine Kapsel packen lässt, ohne zu zerfallen. Auf der Packung steht »Brokkoliextrakt«. Was im Körper ankommt, ist Lotterie.
+
+Ein Bund Sprossen vom Bioladen liefert die Myrosinase gratis. Selbst gezogen auf der Fensterbank kostet die pharmakologisch überlegene Quelle Saatgut und Leitungswasser. Dreißig Cent gegen dreißig Euro. Die Industrie weiß das. Sie kann Saatgut schlecht in eine Blisterpackung drücken. Also verkauft sie die instabile Vorstufe zum zehnfachen Preis. Deshalb steht auf keiner Packung, dass Brokkoli reicht.`,
+      quellen: [
+        {
+          autoren: "Jed Fahey, Yuesheng Zhang, Paul Talalay",
+          titel: "Broccoli sprouts: An exceptionally rich source of inducers of enzymes that protect against chemical carcinogens",
+          journal: "Proceedings of the National Academy of Sciences",
+          vol: "Vol. 94, No. 19",
+          datum: "16.09.1997",
+          seiten: "10367—10372",
+          doi: "10.1073/pnas.94.19.10367",
+          pmid: "9294217",
+        },
+        {
+          autoren: "Yuesheng Zhang, Thomas Kensler, Chang-Guo Cho, et al.",
+          titel: "Anticarcinogenic activities of sulforaphane and structurally related synthetic norbornyl isothiocyanates",
+          journal: "Proceedings of the National Academy of Sciences",
+          vol: "Vol. 91, No. 8",
+          datum: "12.04.1994",
+          seiten: "3147—3150",
+          doi: "10.1073/pnas.91.8.3147",
+          pmid: "8159717",
+        },
+        {
+          autoren: "Kanwaljit Singh, Susan Connors, Eric Macklin, et al.",
+          titel: "Sulforaphane treatment of autism spectrum disorder (ASD)",
+          journal: "Proceedings of the National Academy of Sciences",
+          vol: "Vol. 111, No. 43",
+          datum: "28.10.2014",
+          seiten: "15550—15555",
+          doi: "10.1073/pnas.1416940111",
+          pmid: "25313065",
+        },
+        {
+          autoren: "Theresa Shapiro, Jed Fahey, Albena Dinkova-Kostova, et al.",
+          titel: "Safety, tolerance, and metabolism of broccoli sprout glucosinolates and isothiocyanates: A clinical Phase I study",
+          journal: "Nutrition and Cancer",
+          vol: "Vol. 55, No. 1",
+          datum: "2006",
+          seiten: "53—62",
+          pmid: "16965241",
+        },
+        {
+          autoren: "Joshi Alumkal, Rachel Slottke, Joel Schwartzman, et al.",
+          titel: "A phase II study of sulforaphane-rich broccoli sprout extracts in men with recurrent prostate cancer",
+          journal: "Investigational New Drugs",
+          vol: "Vol. 33, No. 2",
+          datum: "April 2015",
+          seiten: "480—489",
+          doi: "10.1007/s10637-014-0189-z",
+          pmid: "25431127",
+        },
+        {
+          autoren: "Jed Fahey, W. David Holtzclaw, Scott Wehage, et al.",
+          titel: "Sulforaphane Bioavailability from Glucoraphanin-Rich Broccoli: Control by Active Endogenous Myrosinase",
+          journal: "PLoS ONE",
+          vol: "Vol. 10, No. 11",
+          datum: "02.11.2015",
+          seiten: "e0140963",
+          doi: "10.1371/journal.pone.0140963",
+          pmid: "26524341",
+        },
+      ],
+    },
   ],
 };
