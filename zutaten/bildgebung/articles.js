@@ -2414,5 +2414,73 @@ Die Supplement-Industrie verkauft CoQ10 als »Herzschutz«, PQQ als »Mitochondr
         },
       ],
     },
+    {
+      slug: "vitamin-d-k2-magnesium-triade",
+      titel: "Drei Defizite, eine Triade, null Leitlinien",
+      lead: "Achtzig Prozent der Mitteleuropäer haben im Winter suboptimale Vitamin-D-Spiegel. Die Hälfte der Erwachsenen liegt unter der empfohlenen Magnesiumzufuhr. K2 misst niemand. Die drei Substanzen bilden ein System. Einzeln supplementiert können sie schaden.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Vitamin D heißt Vitamin und ist ein Prohormon. Es entsteht in der Haut unter UVB-Strahlung, wird in der Leber zu 25-OH-D hydroxyliert und in der Niere zur aktiven Form Calcitriol umgewandelt. Calcitriol bindet an den Vitamin-D-Rezeptor, der in praktisch jedem Gewebe exprimiert ist und über tausend Gene reguliert. Knochen, Immunsystem, Gehirn, Pankreas, Muskulatur, Haut. Die Bezeichnung »Vitamin« stammt aus einer Zeit, als man die Substanz noch für einen Nährstoff hielt. Sie hat sich gehalten wie ein falscher Vorname. Er kann es, wenn er Sonne sieht. In Mitteleuropa sieht er sie fünf Monate im Jahr nicht.
+
+Vierzig bis sechzig Prozent der Bevölkerung liegen ganzjährig unter dem Schwellenwert von dreißig Nanogramm pro Milliliter. Im Winter steigt der Anteil auf achtzig Prozent. Die VITAL-Studie an über 25.000 Teilnehmern testet 2000 IU täglich. Nach Ausschluss der ersten zwei Jahre findet sie eine robuste Reduktion der Krebsmortalität, also bei denen, die lange genug supplementiert hatten, um einen Effekt zu sehen. Metaanalysen zeigen inverse Assoziationen mit Autoimmunerkrankungen, Depression, kardiovaskulärer Mortalität und Infektanfälligkeit. Die Evidenz ist breit und konsistent, aber die Medizin behandelt Vitamin D immer noch wie ein Knochenmineral. Ein Hormon, das tausend Gene reguliert, bekommt eine Indikation und einen Beipackzettel.
+
+Dann kommt das Calcium-Problem. Vitamin D erhöht die Calciumresorption im Darm. Das ist erwünscht, wenn das Calcium im Knochen landet. Es ist gefährlich, wenn es in den Arterienwänden landet. Ob das eine oder das andere passiert, entscheidet Vitamin K2.
+
+K2 aktiviert zwei Proteine durch Carboxylierung. Matrix-Gla-Protein hält Calcium aus den Arterien. Osteocalcin baut Calcium in den Knochen ein. Ohne K2 bleibt beides inaktiv, und supplementiertes Calcium driftet unkontrolliert durch den Blutkreislauf. Die Rotterdam-Studie verfolgt über zehntausend Erwachsene über zehn Jahre und findet bei hohem K2-Intake eine Reduktion der kardiovaskulären Mortalität um fünfzig Prozent und eine Reduktion der Aortenkalzifizierung um denselben Faktor. K1 aus Blattgemüse zeigt diesen Effekt nicht, weil die Leber K1 für die Gerinnung verbraucht, bevor es die Gefäße erreicht. Nur K2 in der MK-7-Form aus Natto hat eine Halbwertszeit von 72 Stunden, lang genug für stabile Plasmaspiegel bei täglicher Einnahme. MK-4 aus tierischen Quellen verschwindet in Stunden. Fünfzig Prozent weniger Herztote, und kein Kardiologe in Deutschland verschreibt es.
+
+Wer Vitamin D supplementiert und K2 vergisst, erhöht die Calciumresorption, ohne dem Calcium zu sagen, wohin es soll. Das ist die halbe Supplementierung mit vollem Kalzifizierungsrisiko. Der Beipackzettel des D3-Präparats erwähnt K2 nie. Die Apotheke verkauft D3 und K2 in verschiedenen Regalen. Die Biologie kennt keine Regale.
+
+Magnesium schließt den Kreis. Die Hydroxylierung von Vitamin D in Leber und Niere benötigt Magnesium als Cofaktor. Ohne Magnesium bleibt D3 in seiner Speicherform stecken und erreicht nie die aktive Hormonstufe. Wer D3 supplementiert und gleichzeitig Magnesiummangel hat, schluckt ein Prohormon, das der Körper mangels Cofaktor nicht aktivieren kann. Das D3 liegt im Depot. Der Spiegel steigt auf dem Laborbericht. Die Wirkung bleibt aus. Daneben braucht jede Zelle Magnesium für ATP. Ohne Magnesium gibt es kein nutzbares ATP. Etwa fünfzig Prozent der Erwachsenen in westlichen Ländern liegen unter der empfohlenen Tageszufuhr, und das Standard-Serummagnesium erfasst den Mangel schlecht, weil nur ein Prozent des Körpermagnesiums im Blut schwimmt.
+
+Bei Migräne reduziert Magnesiumcitrat die Anfallshäufigkeit um über vierzig Prozent. Bei Depression zeigt eine Studie Effekte vergleichbar mit SSRIs. Und die Form entscheidet über alles. Magnesiumcitrat hat hohe Bioverfügbarkeit. Glycinat kombiniert Magnesium mit der schlaffördernden Aminosäure Glycin. Threonat passiert als einzige Form die Blut-Hirn-Schranke effizient. Oxid, die billigste und häufigste Form, hat die niedrigste Bioverfügbarkeit und die stärkste laxierende Wirkung. Wer im Drogeriemarkt zur Zwei-Euro-Packung greift, kauft ein Abführmittel, das sich als Mineralstoff verkleidet.
+
+Drei Substanzen, drei Defizite, ein System. D3 ohne K2 kalzifiziert Arterien. D3 ohne Magnesium bleibt inaktiv. Magnesium ohne D3 fehlt der Kontext. K2 ohne D3 fehlt der Anlass. Die Triade funktioniert zusammen oder gar nicht. Die Supplement-Industrie verkauft alle drei, in verschiedenen Packungen, zu verschiedenen Preisen, mit verschiedenen Versprechen, und kein Etikett erklärt, dass man allein mit einem davon die Sache verschlimmbessern kann.
+
+Kein Hausarzt in Deutschland misst routinemäßig den 25-OH-D-Spiegel. K2 taucht in keinem Laborprofil auf. Magnesium wird im Serum bestimmt, wo es nichts aussagt, weil neunundneunzig Prozent des Magnesiums im Gewebe sitzt. Die Diagnostik versagt bei allen drei Substanzen gleichzeitig. Dafür verschreibt dieselbe Medizin Statine, die den CoQ10-Spiegel senken, Protonenpumpenhemmer, die die Magnesiumresorption hemmen, und Sonnenschutzkampagnen, die den D3-Spiegel drücken. Das System erzeugt die Defizite und behandelt sie dann nicht. Wenn jemand fragen würde, ob das Absicht sei, wäre die ehrliche Antwort Desinteresse. Desinteresse, das sich wie Absicht anfühlt.
+
+Die Ironie sitzt tiefer. Das verbreitetste Defizit der westlichen Welt betrifft ein Hormon aus Sonnenlicht, einen Cofaktor aus Nüssen und ein Vitamin aus fermentiertem Soja. Alles vorhanden, alles billig, alles ignoriert. Die teuerste Unterlassung in der Präventivmedizin kostet weniger als ein Euro pro Tag.`,
+      quellen: [
+        {
+          autoren: "Michael Holick",
+          titel: "Vitamin D deficiency",
+          journal: "New England Journal of Medicine",
+          vol: "Vol. 357, No. 3",
+          datum: "Juli 2007",
+          seiten: "266—281",
+          doi: "10.1056/NEJMra070553",
+          pmid: "17634462",
+        },
+        {
+          autoren: "JoAnn Manson, Nancy Cook, I-Min Lee, et al.",
+          titel: "Vitamin D supplements and prevention of cancer and cardiovascular disease",
+          journal: "New England Journal of Medicine",
+          vol: "Vol. 380, No. 1",
+          datum: "Januar 2019",
+          seiten: "33—44",
+          doi: "10.1056/NEJMoa1809944",
+          pmid: "30415629",
+        },
+        {
+          autoren: "Johanna Geleijnse, Cees Vermeer, Diederick Grobbee, et al.",
+          titel: "Dietary intake of menaquinone is associated with a reduced risk of coronary heart disease: the Rotterdam Study",
+          journal: "Journal of Nutrition",
+          vol: "Vol. 134, No. 11",
+          datum: "November 2004",
+          seiten: "3100—3105",
+          doi: "10.1093/jn/134.11.3100",
+          pmid: "15514282",
+        },
+        {
+          autoren: "Andrea Rosanoff, Connie Weaver, Robert Rude",
+          titel: "Suboptimal magnesium status in the United States: are the health consequences underestimated?",
+          journal: "Nutrition Reviews",
+          vol: "Vol. 70, No. 3",
+          datum: "März 2012",
+          seiten: "153—164",
+          doi: "10.1111/j.1753-4887.2011.00465.x",
+          pmid: "22364157",
+        },
+      ],
+    },
   ],
 };

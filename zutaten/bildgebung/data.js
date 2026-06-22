@@ -396,6 +396,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "vitamin-d-k2-magnesium-triade/",
+      "title": "Drei Defizite, eine Triade, null Leitlinien",
+      "lead": "Achtzig Prozent der Mitteleuropäer haben im Winter suboptimale Vitamin-D-Spiegel. Die Hälfte der Erwachsenen liegt unter der empfohlenen Magnesiumzufuhr. K2 misst niemand. Die drei Substanzen bilden ein System. Einzeln supplementiert können sie schaden.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 4,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
