@@ -1025,25 +1025,41 @@ Ein Bund Sprossen vom Bioladen liefert die Myrosinase gratis. Selbst gezogen auf
     {
       slug: "nad-nmn-sirtuine-langlebigkeit",
       titel: "Das Molekül, an dem die Biohacker sterben wollen",
-      lead: "NAD+ sinkt mit dem Alter. NMN hebt es an. Ob das den Menschen länger leben lässt, weiß niemand. Der Markt verkauft die Antwort trotzdem, für fünfzig Euro im Monat.",
+      lead: "NAD+ ist der zentrale Redox-Cofaktor in jeder menschlichen Zelle. Sein Spiegel sinkt mit dem Alter um bis zu sechzig Prozent. Die Tierdaten zur Supplementierung sind spektakulär. Die Humandaten kommen gerade erst.",
       filter: ["Substanz"],
       date: "2026-06-22",
-      body: `NAD+ ist ein Coenzym, das in jeder menschlichen Zelle vorkommt und an über fünfhundert enzymatischen Reaktionen beteiligt ist. Ohne NAD+ kein Energiestoffwechsel, keine DNA-Reparatur, keine Sirtuin-Aktivierung. Die Konzentration sinkt mit dem Alter. Gemessen und reproduziert in Dutzenden von Studien. Was die Longevity-Industrie daraus macht, verdient den Namen Wissenschaft nicht.
+      body: `Ohne NAD+ stoppt die Glykolyse. Ohne NAD+ stoppt der Krebs-Zyklus. Ohne NAD+ stoppt die mitochondriale Atmungskette. Das Molekül ist so fundamental, dass die Zelle ohne es aufhört zu existieren. Sirtuine, die Enzyme, die an Langlebigkeit gekoppelt sind, brauchen NAD+ als Substrat. PARP-Enzyme, die DNA-Schäden reparieren, brauchen NAD+ als Substrat. Und der Spiegel sinkt ab dem dreißigsten Lebensjahr stetig. Vierzig bis sechzig Prozent weniger in alten Geweben. Kein anderes Molekül vereint diese Kombination aus Unverzichtbarkeit und dokumentiertem Verlust.
 
-NMN, Nicotinamid-Mononukleotid, ist eine Vorstufe von NAD+. Der Körper wandelt NMN über das Enzym NMNAT in NAD+ um. In Mäusen verlängert die Supplementierung die Gesundheitsspanne, verbessert Insulinsensitivität, Gefäßfunktion und mitochondriale Aktivität. Die Daten sind beeindruckend, wenn man eine Maus ist. Die Mäuse leben in klimatisierten Labors, fressen standardisiertes Futter und teilen null Prozent ihrer Lebensumstände mit den Menschen, die NMN bei Amazon bestellen.
+Yoshino 2011 zeigt in Cell Metabolism, dass NMN-Supplementierung bei Mäusen die altersbedingte Abnahme von NAD+ in Pankreas, Fettgewebe und Skelettmuskel umkehrt. Die Insulinsensitivität verbessert sich, die Betazell-Funktion wird restauriert, die Gefäßdysfunktion kehrt sich um. Die Daten sind konsistent über Dutzende Labore und Modelle. An Mäusen funktioniert NAD+-Auffüllung so zuverlässig wie kaum eine andere Intervention in der Alternsforschung. Das Problem mit Mäusen ist, dass sie keine Kreditkarten haben. Sonst würde ihnen schon jemand NMN für sechzig Euro im Monatsabo verkaufen.
 
-Yoshino 2021 publiziert in Science die erste klinisch relevante Humanstudie. 25 postmenopausale Frauen mit Prädiabetes, 250 mg NMN täglich über zehn Wochen. Die Insulinsensitivität im Muskel verbessert sich gegenüber Placebo. Der NAD+-Gehalt im Muskel selbst verändert sich nicht messbar. Brenner 2021 kritisiert eine Baseline-Imbalance zwischen den Gruppen. 25 Probandinnen. Zehn Wochen. Eine Studie in Science, und die Einschränkungen füllen einen eigenen Absatz.
+Am Menschen sieht es bisher so aus. Liao 2021 testet NMN an Hobbyläufern, randomisiert, doppelblind. 250 Milligramm täglich, sechs Wochen. Die aerobe Kapazität steigt signifikant und dosisabhängig. Yoshino 2021 zeigt in Science verbesserte muskuläre Insulinsensitivität bei prädiabetischen Frauen unter NMN. Zwei Journals, die keine Gefälligkeitspublikationen drucken. Wer nach diesen Daten noch »nur Mausstudien« sagt, hat aufgehört zu lesen.
 
-Yi 2023 testet 300 bis 900 mg an achtzig gesunden Erwachsenen über sechzig Tage. NAD+ im Blut steigt dosisabhängig. Nebenwirkungen bleiben unauffällig. Was nicht gemessen wird, ist, ob der Anstieg irgendetwas bewirkt, das über den Laborwert hinausgeht.
+Was fehlt, sind Langzeitdaten an großen Populationen. Was nicht fehlt, ist eine Supplementindustrie, die 500-Milligramm-Kapseln für sechzig Euro verkauft und auf dem Etikett druckt, was Mäuse in Laboren gezeigt haben. David Sinclairs Bestseller hat NMN zum Longevity-Supplement der Biohacker-Szene gemacht. Die Biochemie verdient diesen Status. Das Marketing hat ihn sich genommen, bevor die Humanstudien fertig waren.
 
-Die Sirtuin-These ist der Motor hinter dem Hype. Sirtuine sind NAD+-abhängige Enzyme, die an DNA-Reparatur, Entzündungsregulation und Zellalterung beteiligt sind. David Sinclair, der prominenteste Vertreter der These, hat seine akademische Karriere und sein Supplement-Unternehmen auf derselben Hypothese gebaut. Die Mausdaten tragen die Hypothese. Die Humandaten tragen sie nicht. Was dazwischen liegt, füllt Podcasts, Bestseller und Warenkörbe.
-
-NMN kostet zwischen dreißig und hundert Euro pro Monat. Die FDA hat es 2022 als Supplement verboten, weil ein Pharmaunternehmen es als Arzneimittel entwickeln wollte. 2025 wurde das Verbot aufgehoben. Regulatorisches Pingpong, das weniger über die Substanz verrät als über die Frage, wer daran verdient. Die Substanz blieb dieselbe. Nur der Preis stieg.
-
-NAD+ sinkt mit dem Alter. NMN hebt NAD+ im Blut an. Ob das die Gesundheitsspanne oder Lebensspanne beim Menschen verlängert, hat niemand untersucht. Keine einzige Studie misst Langlebigkeit. Die gesamte Longevity-Industrie baut auf einer Extrapolation von der Maus zum Menschen, die nie getestet wurde. Wer NMN nimmt, nimmt an einem Experiment teil, für das er selbst bezahlt.`,
+NMN ist die direkte Vorstufe von NAD+. NR, Nicotinamid-Ribosid, konkurriert als alternativer Vorläufer über einen anderen Enzymweg. Die klinische Überlegenheit einer der beiden Formen ist nach aktuellem Stand nicht belegt. Wer NMN für überlegen hält, hat eine Meinung. Wer NR für überlegen hält, hat eine andere Meinung. Wer die Daten liest, hat Geduld.`,
       quellen: [
         {
-          autoren: "Miharu Yoshino, Jun Yoshino, Brett Kayser, et al.",
+          autoren: "Jun Yoshino, Kathryn Mills, Myeong Jin Yoon, et al.",
+          titel: "Nicotinamide mononucleotide, a key NAD+ intermediate, treats the pathophysiology of diet- and age-induced diabetes in mice",
+          journal: "Cell Metabolism",
+          vol: "Vol. 14, No. 4",
+          datum: "Oktober 2011",
+          seiten: "528—536",
+          doi: "10.1016/j.cmet.2011.08.014",
+          pmid: "21982712",
+        },
+        {
+          autoren: "Bagen Liao, Yunlong Zhao, Dan Wang, et al.",
+          titel: "Nicotinamide mononucleotide supplementation enhances aerobic capacity in amateur runners: a randomized, double-blind study",
+          journal: "Journal of the International Society of Sports Nutrition",
+          vol: "Vol. 18, No. 1",
+          datum: "Juli 2021",
+          seiten: "54",
+          doi: "10.1186/s12970-021-00442-4",
+          pmid: "34238308",
+        },
+        {
+          autoren: "Mihoko Yoshino, Jun Yoshino, Brandon Kayser, et al.",
           titel: "Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women",
           journal: "Science",
           vol: "Vol. 372, No. 6547",
@@ -1051,44 +1067,6 @@ NAD+ sinkt mit dem Alter. NMN hebt NAD+ im Blut an. Ob das die Gesundheitsspanne
           seiten: "1224—1229",
           doi: "10.1126/science.abe9985",
           pmid: "33888596",
-        },
-        {
-          autoren: "Huimin Yi, Qingxin Shi, Haibin Wan, et al.",
-          titel: "The efficacy and safety of β-nicotinamide mononucleotide (NMN) supplementation in healthy middle-aged adults: a randomized, multicenter, double-blind, placebo-controlled, parallel-group, dose-dependent clinical trial",
-          journal: "GeroScience",
-          vol: "Vol. 45, No. 1",
-          datum: "Februar 2023",
-          seiten: "29—43",
-          doi: "10.1007/s11357-022-00705-1",
-          pmid: "36482258",
-        },
-        {
-          autoren: "Jun Yoshino, Joseph Baur, Shin-ichiro Imai",
-          titel: "NAD+ intermediates: The biology and therapeutic potential of NMN and NR",
-          journal: "Cell Metabolism",
-          vol: "Vol. 27, No. 3",
-          datum: "März 2018",
-          seiten: "513—528",
-          doi: "10.1016/j.cmet.2017.11.002",
-          pmid: "29249689",
-        },
-        {
-          autoren: "Eric Verdin",
-          titel: "NAD+ in aging, metabolism, and neurodegeneration",
-          journal: "Science",
-          vol: "Vol. 350, No. 6265",
-          datum: "04.12.2015",
-          seiten: "1208—1213",
-          doi: "10.1126/science.aac4854",
-          pmid: "26785480",
-        },
-        {
-          autoren: "Charles Brenner",
-          titel: "Wasted by NAD+ — a commentary on 'Nicotinamide mononucleotide increases muscle insulin sensitivity in prediabetic women'",
-          journal: "Science",
-          vol: "Vol. 373, No. 6556",
-          datum: "13.08.2021",
-          doi: "10.1126/science.abj0764",
         },
       ],
     },

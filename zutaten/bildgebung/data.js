@@ -115,7 +115,7 @@ window.BILDGEBUNG_DATA = {
     {
       "href": "nad-nmn-sirtuine-langlebigkeit/",
       "title": "Das Molekül, an dem die Biohacker sterben wollen",
-      "lead": "NAD+ sinkt mit dem Alter. NMN hebt es an. Ob das den Menschen länger leben lässt, weiß niemand. Der Markt verkauft die Antwort trotzdem, für fünfzig Euro im Monat.",
+      "lead": "NAD+ ist der zentrale Redox-Cofaktor in jeder menschlichen Zelle. Sein Spiegel sinkt mit dem Alter um bis zu sechzig Prozent. Die Tierdaten zur Supplementierung sind spektakulär. Die Humandaten kommen gerade erst.",
       "date": "2026-06-22",
       "created": "2026-06-22",
       "minutes": 2,
