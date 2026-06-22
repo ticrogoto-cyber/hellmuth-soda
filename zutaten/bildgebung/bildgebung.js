@@ -13,9 +13,9 @@
 
   const PAGE_SIZE = 20;
   const LABELS = {
-    ruhe: 'Ruhe',
-    klarheit: 'Klarheit',
-    substanz: 'Substanz',
+    unterschaetzt: 'Unterschätzt',
+    unklar: 'Unklar',
+    ueberschaetzt: 'Überschätzt',
   };
 
   const all = (data.items || []).slice();

@@ -5,7 +5,7 @@
 //   lead      string   Subtitle, ein bis zwei Sätze
 //   body      string   Markdown-Body: ## Headlines, leere Zeilen trennen Absätze
 //   quellen   Quelle[] Vollzitate als Objekte (siehe Schema unten)
-//   filter    string[] Themen-Tags: Ruhe | Klarheit | Substanz
+//   filter    string[] Themen-Tags: Unterschätzt | Unklar | Überschätzt
 //   date      string   ISO-Datum YYYY-MM-DD (Veröffentlichung, sortiert chronologisch)
 //
 // Quelle-Schema (Format "Kreativer Suizid": volle Vornamen, max. 3 Autoren + et al.,
@@ -29,7 +29,7 @@ window.BILDGEBUNG_ARTICLES = {
       slug: "hopfen-jenseits-vom-bier",
       titel: "Hopfen jenseits vom Bier",
       lead: "Die am besten erforschte Nervenpflanze Europas wird als Schlaftee verkauft. Was die Forschung weiß und das Regal verschweigt.",
-      filter: ["Ruhe"],
+      filter: ["Unterschätzt"],
       date: "2026-06-21",
       body: `Hopfen ist die am schlechtesten verkaufte Apotheke der europäischen Phytomedizin. Über hundert pharmakologisch aktive Verbindungen, fünf randomisierte kontrollierte Studien mit positiven Ergebnissen, anxiolytische Wirkung vergleichbar mit Oxazepam im Tiermodell, Chemoprävention über Xanthohumol in der onkologischen Grundlagenforschung. Und was das Marketing daraus macht: ein Schlaftee.
 
@@ -168,7 +168,7 @@ Man hat ein Sedativum gesucht und eine Apotheke übersehen.`,
       slug: "igelstachelbart-nerven-wachsen",
       titel: "Der Pilz, der Nerven wachsen lässt",
       lead: "Die einzige bekannte Nahrungsquelle, die Nervenwachstumsfaktor im Gehirn stimuliert, steht im Asia-Markt neben den Shiitake.",
-      filter: ["Klarheit"],
+      filter: ["Unterschätzt"],
       date: "2026-06-21",
       body: `Kein anderer Naturstoff stimuliert die Produktion von Nerve Growth Factor im zentralen Nervensystem so konsistent wie der Igelstachelbart. Über zwanzig präklinische Studien zeigen denselben Befund, seit Kawagishi 1994 die Hericenone im Fruchtkörper identifizierte. Die Zelle produziert NGF, wenn man ihr Hericenone oder Erinacine gibt. Der Befund ist reproduziert, der Wirkweg ist aufgeklärt, die Substanzklassen sind isoliert.
 
@@ -318,7 +318,7 @@ Im Asia-Markt steht er neben den Shiitake, für vier Euro. Die NGF-Stimulation s
       slug: "spilanthol-trigeminale-aktivierung",
       titel: "Das Molekül, das die Zunge vibrieren lässt",
       lead: "Spilanthol aktiviert Berührungsfasern im Gesicht mit einer messbaren Frequenz von fünfzig Hertz. Die Empfindung gehört weder zum Geschmack noch zum Schmerz. Sie gehört zum Tastsinn.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Wenn Spilanthol auf die Lippe trifft, passiert etwas, das in keiner Geschmackskategorie vorkommt. Die Zunge kribbelt, die Lippen summen, der Speichelfluss setzt ein. Die Empfindung fühlt sich an wie leichter Strom. Sie fühlt sich so an, weil sie im neurologischen Sinn genau das ist.
 
@@ -451,7 +451,7 @@ Im Reformhaus steht die Faltencreme. Im Labor liegt ein Anästhesiekandidat. Daz
       slug: "adaptogene-ueberblick",
       titel: "Der nützlichste Begriff, der nichts bedeutet",
       lead: "Ein sowjetischer Toxikologe hat 1947 ein Wort erfunden, das heute auf jeder zweiten Supplement-Packung steht. Die Pflanzen dahinter sind interessant. Das Wort ist das Problem.",
-      filter: ["Ruhe"],
+      filter: ["Überschätzt"],
       date: "2026-06-22",
       body: `Nikolai Lazarev prägte den Begriff 1947 in Leningrad. Er suchte nach Substanzen, die den Organismus gegen unspezifischen Stress widerstandsfähiger machen, ohne ihn zu stimulieren oder zu sedieren. Sein Schüler Israel Brekhman formulierte 1969 drei Kriterien. Die Substanz muss ungiftig sein. Sie muss die Resistenz gegen verschiedene Stressoren unspezifisch erhöhen. Und sie muss normalisierend wirken, unabhängig von der Richtung der Störung. Wer zu hoch ist, soll runterkommen. Wer zu tief ist, soll hochkommen. Dieselbe Substanz.
 
@@ -552,7 +552,7 @@ Auf Amazon heißen inzwischen auch Kurkuma, Ingwer und Spirulina »adaptogen«. 
       slug: "ashwagandha-ksm66-schilddruese",
       titel: "Die bestuntersuchte Pflanze, vor der niemand warnt",
       lead: "Ashwagandha senkt Cortisol, verbessert Schlaf und stimuliert die Schilddrüse. Für die ersten beiden Wirkungen gibt es Etiketten. Für die dritte gibt es Fallberichte in der Notaufnahme.",
-      filter: ["Ruhe"],
+      filter: ["Unklar"],
       date: "2026-06-22",
       body: `Ashwagandha ist die Pflanze, bei der die Datenlage tatsächlich hält. Chandrasekhar 2012 misst nach sechzig Tagen KSM-66-Extrakt eine Cortisolreduktion um 27,9 Prozent gegenüber Placebo. Lopresti 2019 bestätigt den Befund mit einer größeren Kohorte und ergänzt Verbesserungen bei Schlafqualität, Stressresistenz und morgendlichem Cortisol. Langade 2019 zeigt in einer Aktigraphie-kontrollierten Studie signifikant verkürzte Einschlaflatenz und erhöhte Schlafeffizienz nach zehn Wochen. Das sind drei randomisierte Studien mit harten Endpunkten aus drei unabhängigen Gruppen. Für eine Pflanze, die man im Internet für zwölf Euro bestellen kann, ist das eine ungewöhnlich dichte Beweislage.
 
@@ -640,7 +640,7 @@ Die Forschung hat bei Ashwagandha geliefert. Drei RCTs zur Stressachse, eine zur
       slug: "magnolia-phellodendron-relora",
       titel: "Zwei Baumrinden, ein Patent",
       lead: "Honokiol aus Magnolienrinde bindet an GABA-A-Rezeptoren wie ein Benzodiazepin, ohne Abhängigkeit auszulösen. Das wäre eine Nachricht. Stattdessen steht es auf einer Diätpille.",
-      filter: ["Ruhe"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `In der traditionellen chinesischen Medizin heißt die Rinde von Magnolia officinalis Houpu. Sie wird seit Jahrhunderten gegen Angst, Schlaflosigkeit und Verdauungsbeschwerden eingesetzt. Die Rinde von Phellodendron amurense, dem Amur-Korkbaum, liefert Berberin und wird gegen Entzündungen und Infektionen verwendet. Zwei Bäume, zwei Profile, zweitausend Jahre Erfahrungsmedizin. Ein amerikanisches Unternehmen hat beide in eine Kapsel gepackt und das Ergebnis patentiert.
 
@@ -721,7 +721,7 @@ Houpu gibt es im Asia-Markt. Relora gibt es auf Amazon. Die GABA-A-Bindung gibt 
       slug: "gaba-glycin-magnesium-glycinat",
       titel: "Drei Wege zur Bremse, einer davon funktioniert nicht",
       lead: "GABA ist der wichtigste hemmende Neurotransmitter im Gehirn. Als Supplement geschluckt erreicht er es wahrscheinlich nicht. Die Supplement-Industrie verkauft ihn trotzdem.",
-      filter: ["Ruhe", "Substanz"],
+      filter: ["Überschätzt"],
       date: "2026-06-22",
       body: `GABA-Kapseln sind das zweitbeliebteste Schlaf-Supplement auf Amazon nach Melatonin. Die Packung verspricht Entspannung, Stressreduktion, besseren Schlaf. Das Problem steht in keinem Beipackzettel. GABA ist ein hochpolares Molekül. Die Blut-Hirn-Schranke lässt hochpolare Moleküle nicht passieren. Boonstra 2015 fasst die Literatur zusammen und kommt zu dem Ergebnis, dass die BBB-Permeabilität von oral eingenommenem GABA beim Menschen wahrscheinlich minimal ist. Die positiven Effekte, die manche Studien messen, laufen vermutlich über den Vagusnerv oder sind Placebo. Eine direkte Messung von Gehirn-GABA-Spiegeln nach oraler Einnahme per MR-Spektroskopie existiert nicht.
 
@@ -800,7 +800,7 @@ Das Muster ist typisch. GABA als Supplement verkauft die Idee direkt, das Molek�
       slug: "bacopa-monnieri-langsame-wirkung",
       titel: "Die Pflanze, die erst nach zwölf Wochen wirkt",
       lead: "Jede positive Humanstudie zu Bacopa monnieri misst den Effekt nach zwölf Wochen. Vorher passiert nichts. Die Nootropic-Community will Ergebnisse nach einer Stunde. Das erklärt, warum die meisten aufgeben, bevor die Substanz anfängt zu wirken.",
-      filter: ["Klarheit"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Bacopa monnieri heißt im Ayurveda Brahmi und wird dort seit Jahrhunderten zur Verbesserung des Gedächtnisses eingesetzt. Die westliche Forschung hat den Befund in sechs randomisierten Studien geprüft und im Kern bestätigt. Sechs randomisierte Studien, alle mit demselben Ergebnis. Nach zwölf Wochen bessere Verarbeitungsgeschwindigkeit, besserer Abruf, weniger depressive Symptomatik. Der Extrakt heißt CDRI-08, die Dosis 300 mg, die Probanden reichen von Studenten bis Senioren. Pase 2012 fasst die Datenlage in einer systematischen Übersicht zusammen und findet konsistente Effekte auf Gedächtnis und Informationsverarbeitung.
 
@@ -878,7 +878,7 @@ Die Pharmakologie hat geliefert. Die Aufmerksamkeitsökonomie sabotiert die Anwe
       slug: "cholin-alpha-gpc-citicolin",
       titel: "Die Substanz, die auf dem Etikett fehlt",
       lead: "2003 hat eine Studie an 261 Alzheimer-Patienten gezeigt, dass Alpha-GPC die Kognition signifikant verbessert. Seitdem ist nichts passiert. Die Substanz lässt sich nicht patentieren.",
-      filter: ["Klarheit"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Acetylcholin steuert Aufmerksamkeit, Gedächtnisbildung und die Kommunikation zwischen Hippocampus und Cortex. Die cholinergen Neuronen im basalen Vorderhirn sind die erste Population, die bei Alzheimer degeneriert. Donepezil und Rivastigmin, die zugelassenen Medikamente, verlangsamen den Abbau von Acetylcholin. Sie reparieren nichts. Sie verlängern die Halbwertszeit eines Neurotransmitters, dessen Produktion versiegt.
 
@@ -947,7 +947,7 @@ Donepezil kostet im Patent Milliarden. Alpha-GPC ist seit Jahrzehnten patentfrei
       slug: "sulforaphan-nrf2-entgiftung",
       titel: "Der Schalter, den Brokkoli umlegt",
       lead: "Sulforaphan aktiviert Nrf2, den Transkriptionsfaktor, der über zweihundert Schutzgene gleichzeitig hochfährt. Die beste Quelle wächst in drei Tagen auf der Fensterbank.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Wenn man eine Brokkolisprosse kaut, bricht man Zellwände. Das Enzym Myrosinase trifft auf Glucoraphanin, und aus einer Vorstufe wird Sulforaphan. Das Molekül schmeckt scharf, leicht bitter, nach zerdrücktem Senf. Der Geschmack ist die Chemie bei der Arbeit.
 
@@ -1026,7 +1026,7 @@ Ein Bund Sprossen vom Bioladen liefert die Myrosinase gratis. Selbst gezogen auf
       slug: "nad-nmn-sirtuine-langlebigkeit",
       titel: "Das Molekül, an dem die Biohacker sterben wollen",
       lead: "NAD+ ist der zentrale Redox-Cofaktor in jeder menschlichen Zelle. Sein Spiegel sinkt mit dem Alter um bis zu sechzig Prozent. Die Tierdaten zur Supplementierung sind spektakulär. Die Humandaten kommen gerade erst.",
-      filter: ["Substanz"],
+      filter: ["Unklar"],
       date: "2026-06-22",
       body: `Ohne NAD+ stoppt die Glykolyse. Ohne NAD+ stoppt der Krebs-Zyklus. Ohne NAD+ stoppt die mitochondriale Atmungskette. Das Molekül ist so fundamental, dass die Zelle ohne es aufhört zu existieren. Sirtuine, die Enzyme, die an Langlebigkeit gekoppelt sind, brauchen NAD+ als Substrat. PARP-Enzyme, die DNA-Schäden reparieren, brauchen NAD+ als Substrat. Und der Spiegel sinkt ab dem dreißigsten Lebensjahr stetig. Vierzig bis sechzig Prozent weniger in alten Geweben. Kein anderes Molekül vereint diese Kombination aus Unverzichtbarkeit und dokumentiertem Verlust.
 
@@ -1074,7 +1074,7 @@ NMN ist die direkte Vorstufe von NAD+. NR, Nicotinamid-Ribosid, konkurriert als 
       slug: "dmso-loesungsmittel-heilmittel",
       titel: "Das Lösungsmittel, das durch die Haut geht",
       lead: "DMSO durchdringt die Haut in Sekunden und nimmt mit, was darauf liegt. Stanley Jacob entdeckte das 1963, als er es verschüttete und Knoblauch schmeckte. Sechzig Jahre später hat die FDA eine einzige Indikation genehmigt. Zwölfhundert Publikationen sagen, es hätten mehr sein müssen.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `1962 suchte der Chirurg Stanley Jacob an der University of Oregon nach einem Konservierungsmittel für Spenderorgane. Er arbeitete mit Dimethylsulfoxid, einem farblosen Nebenprodukt der Zellstoffherstellung. Als er DMSO auf die Haut bekam, schmeckte er Sekunden später Knoblauch im Mund. Die Substanz hatte seine Haut durchdrungen, war in den Blutkreislauf gelangt und hatte die Geschmacksrezeptoren erreicht, bevor er sich die Hände waschen konnte. Jacob verstand sofort, was er gefunden hatte.
 
@@ -1143,7 +1143,7 @@ Stanley Jacob starb 2015. Die Substanz, für die er fünfzig Jahre kämpfte, ist
       slug: "kokoswasser-elektrolyte-hydration",
       titel: "Das Getränk, das Gatorade überflüssig macht",
       lead: "Kokoswasser enthält mehr Kalium als eine Banane, mehr Magnesium als die meisten Mineralwässer und null Farbstoffe. Die Sportgetränke-Industrie hat siebzig Jahre gebraucht, um synthetisch zu kopieren, was in einer Kokosnuss schon drin war.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Gatorade wurde 1965 erfunden. Die Kokosnuss hatte sechzig Millionen Jahre Vorsprung.
 
@@ -1210,7 +1210,7 @@ Gatorade gehört PepsiCo. Ein 38-Milliarden-Dollar-Konzern verkauft eine Mischun
       slug: "chlorophyll-was-gruen-kann",
       titel: "Pflanzenblut",
       lead: "Chlorophyll und Hämoglobin teilen sich ein Molekülgerüst. Der Unterschied liegt im Zentralatom. Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Der Porphyrinring ist eine der ältesten molekularen Strukturen in der Biologie. In Pflanzen trägt er Magnesium im Zentrum und heißt Chlorophyll. In menschlichem Blut trägt er Eisen und heißt Häm. Die strukturelle Verwandtschaft ist publiziert. Die Influencer-Version davon, dass Chlorophyll »das Blut mit Sauerstoff anreichert«, verwechselt Photosynthese mit Physiologie. Der Körper hat dafür Lungen. Aber die Verwandtschaft ist mehr als eine Kuriosität.
 
@@ -1273,7 +1273,7 @@ Was auf TikTok als »Chlorophyll-Wasser« kursiert, enthält meistens Chlorophyl
       slug: "ingwer-gingerol-pharmakologie",
       titel: "Die Wurzel, die die EMA ernst nimmt",
       lead: "Die Europäische Arzneimittelagentur stuft Ingwer als »well-established use« gegen Reiseübelkeit ein. Fast kein anderer Pflanzenextrakt erreicht diese Klassifikation. Das Regal behandelt ihn trotzdem wie ein Gewürz.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Ingwer enthält über vierhundert chemische Verbindungen. Die pharmakologisch relevanten sind Gingerole im frischen Rhizom und Shogaole im getrockneten. 6-Gingerol hemmt COX-2 und NF-kB, die zentralen Entzündungsschalter, die auch Ibuprofen adressiert. 6-Shogaol entsteht beim Trocknen durch Dehydratation und ist in vitro potenter als sein Vorläufer. Frischer Ingwer und getrockneter Ingwer sind pharmakologisch zwei verschiedene Zubereitungen. Auf keinem Etikett steht das.
 
@@ -1340,7 +1340,7 @@ Die Supplement-Industrie verkauft Ingwer als Verdauungshilfe. Das stimmt und gre
       slug: "olivenoel-oleocanthal-entzuendung",
       titel: "Das Öl, das im Hals brennt, wenn es gut ist",
       lead: "Frisches Olivenöl enthält einen COX-Hemmer mit der Potenz von Ibuprofen. Man erkennt ihn am Kratzen im Hals. Wenn das Öl nicht kratzt, fehlt der Wirkstoff.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `2005 saß der Sensorikforscher Gary Beauchamp auf einer Konferenz in Sizilien und probierte frisch gepresstes Olivenöl. Es brannte im Hals. Beauchamp kannte dieses Brennen. Er hatte jahrelang die sensorischen Eigenschaften von flüssigem Ibuprofen untersucht. Die Reizung saß an derselben Stelle, im selben Muster. Er nahm eine Probe mit nach Philadelphia.
 
@@ -1409,7 +1409,7 @@ Vier Esslöffel am Tag. Frisch, dunkel gelagert, innerhalb eines Jahres nach der
       slug: "brennnessel-urtica-prostata",
       titel: "Das Unkraut mit der Arzneimittelzulassung",
       lead: "Brennnessel hat sechs randomisierte Studien an über tausend Prostatapatienten. In Deutschland steht sie in der Pharmakopöe. Im Garten reißen die meisten sie raus.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Wer als Kind in Brennnesseln gefallen ist, kennt den Wirkstoff. Die Brennhaare der Blätter brechen bei Berührung ab, durchstechen die Haut und injizieren ein Gemisch aus Histamin, Serotonin und Ameisensäure. Das brennt, weil es eine lokale Entzündungsreaktion ist. Die Pflanze impft dich mit ihren Botenstoffen. Dass dieselbe Pflanze Entzündung auch hemmen kann, hätte sich die Pharmakologie nicht ausgedacht.
 
@@ -1476,7 +1476,7 @@ Ein Unkraut, das mehr kann als die meisten Pillen im Regal. Es wächst am Straß
       slug: "kokosoel-mct-laurinsaeure",
       titel: "Das Fett, das die Ernährungswissenschaft nicht einordnen kann",
       lead: "Kokosöl besteht zur Hälfte aus Laurinsäure, einem Antimikrobikum, das die Lipidhülle von Viren zerstört. Die American Heart Association behandelt es trotzdem wie Butter. Das sagt mehr über die AHA als über Kokosöl.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Laurinsäure macht etwa fünfzig Prozent des Kokosöls aus. Sie ist eine mittelkettige Fettsäure mit zwölf Kohlenstoffatomen, und sie tötet Mikroben. Die Wirkung ist mechanisch. Laurinsäure und ihr Metabolit Monolaurin lösen die Lipidhülle umhüllter Viren auf und lysieren grampositive Bakterien. Kabara 1972 dokumentiert, dass Monolaurin in vitro gegen Staphylococcus aureus wirksamer ist als alle getesteten Antibiotika. Ein Speisefett mit antimikrobieller Wirkung, die stärker ist als Penicillin im Reagenzglas. Die Medizin hat stattdessen das Cholesterin gezählt.
 
@@ -1529,7 +1529,7 @@ Antimikrobikum, Ketogenes, Kochfett. Drei Funktionen, eine Fettsäure. Die AHA h
       slug: "szechuanpfeffer-sanshool-vibration",
       titel: "Das Gewürz, das die Lippen auf 50 Hertz vibrieren lässt",
       lead: "Szechuanpfeffer enthält Hydroxy-alpha-Sanshool, eine Substanz, die Mechanorezeptoren der Haut aktiviert und ein messbares Vibrieren bei 50 Hertz erzeugt. Das Kribbeln im Mund ist physikalisch real.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Szechuanpfeffer gehört botanisch zu den Rautengewächsen, hat mit schwarzem Pfeffer so viel zu tun wie Erdnüsse mit Nüssen, und erzeugt statt Schärfe etwas, das sich anfühlt wie Strom. Ein leichtes Summen, das sich über die Lippen ausbreitet. Die meisten halten das für eine Art Schmerz, aber Szechuanpfeffer tut nicht weh. Er täuscht. Er aktiviert Berührungsrezeptoren mit einer Chemikalie. Der Mund meldet Vibration, obwohl nichts vibriert. Wer das einmal verstanden hat, traut seinen Sinnen nie wieder blind.
 
@@ -1577,7 +1577,7 @@ Fünfzig Hertz. Die Frequenz eines europäischen Wechselstromnetzes. Ein Gewürz
       slug: "kalium-elektrolyt-blutdruck",
       titel: "Das Defizit, das kein Blutbild zeigt",
       lead: "Die WHO empfiehlt 3510 Milligramm Kalium am Tag. Westliche Bevölkerungen nehmen im Schnitt 2500 auf. Die Differenz verursacht Bluthochdruck, Schlaganfälle und Knochenverlust. Kein Arzt misst sie.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Kalium ist das häufigste Kation im Inneren jeder menschlichen Zelle. Es reguliert das Membranpotenzial. Ohne Kalium schlägt kein Herz, kontrahiert kein Muskel, leitet kein Nerv. Das weiß die Medizin. Sie handelt nur nicht danach.
 
@@ -1621,7 +1621,7 @@ Bananen liefern 360 Milligramm pro Stück. Avocados 485 Milligramm. Kokoswasser 
       slug: "wacholder-juniperus-terpinen",
       titel: "Die Beere mit vier Karrieren",
       lead: "Wacholder steht in der Europäischen Pharmakopöe und auf der Zutatenliste von Gin. Die Beere enthält über achtzig Monoterpene, ein kaliumsparendes Diuretikum und ein Breitband-Antimikrobikum. Das Regal verkauft sie als Gewürz.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Im achtzehnten Jahrhundert war Genever ein Medikament. Ärzte verschrieben Wacholderschnaps bei Nierenleiden, Gelenkbeschwerden und Harnwegsinfekten. Die Pharmazie war real. Der Alkohol nur Lösungsmittel. Dann wurde Gin ein Konsumgut, die Beere verschwand aus der Medizin und tauchte hinter der Bar wieder auf. Was in der Flasche wirkt, hat sich nicht geändert. Nur wer es verschreibt.
 
@@ -1665,7 +1665,7 @@ Gewürz, Diuretikum, Antimikrobikum, Gin-Basis. Vier Karrieren für eine Beere. 
       slug: "petersilie-apigenin-nad",
       titel: "Das teuerste Kraut liegt neben dem Steak",
       lead: "Petersilie enthält pro hundert Gramm mehr Vitamin C als Orangen, mehr Vitamin K als jedes Gemüse im Supermarkt und Apigenin, einen CD38-Hemmer, der den NAD+-Abbau bremst. Die Gastronomie schiebt sie an den Tellerrand.",
-      filter: ["Substanz"],
+      filter: ["Unterschätzt"],
       date: "2026-06-22",
       body: `Petersilie landet im Biomüll. Apigenin-Kapseln kosten dreißig Euro im Monat. Beides enthält denselben Wirkstoff. Die Zahlen pro hundert Gramm Petersilie: 133 Milligramm Vitamin C, 1640 Mikrogramm Vitamin K, 421 Mikrogramm Folat, 6,2 Milligramm Eisen. Eine Orange liefert 53 Milligramm Vitamin C. Spinat, das angebliche Eisenwunder, liefert 2,7 Milligramm Eisen. Petersilie schlägt beide, und niemand isst sie, weil alle glauben, sie sei Dekoration.
 
@@ -1713,7 +1713,7 @@ Ein Küchenkraut mit NAD+-Relevanz, das neben dem Hauptgericht liegt und zurück
       slug: "biophotonen-ultraschwache-photonenemission",
       titel: "Das Licht, das beide Seiten ruiniert haben",
       lead: "Jede lebende Zelle emittiert messbare Photonen. Die Physik ist reproduziert, die Messung steht. Die Esoterik hat das Phänomen vereinnahmt, die Wissenschaft hat aufgehört hinzusehen. Beide haben versagt.",
-      filter: ["Substanz"],
+      filter: ["Unklar"],
       date: "2026-06-22",
       body: `1922 beschreibt der russische Biologe Alexander Gurwitsch eine ultraschwache Strahlung, die von Zwiebelwurzeln ausgeht und in Nachbarzellen die Zellteilung stimuliert. Die Fachwelt ignoriert ihn. In den 1970er Jahren baut der deutsche Biophysiker Fritz-Albert Popp Photomultiplier-Systeme, die empfindlich genug sind, um das zu messen, was Gurwitsch behauptet hatte. Das Ergebnis war eindeutig. Jede lebende Zelle emittiert zwischen einem und einigen hundert Photonen pro Sekunde pro Quadratzentimeter, im Bereich von 200 bis 800 Nanometern. Popp nennt sie Biophotonen.
 

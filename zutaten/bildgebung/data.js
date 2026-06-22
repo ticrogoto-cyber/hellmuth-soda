@@ -9,7 +9,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-21",
       "minutes": 3,
       "filters": [
-        "ruhe"
+        "unterschaetzt"
       ]
     },
     {
@@ -20,7 +20,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-21",
       "minutes": 3,
       "filters": [
-        "klarheit"
+        "unterschaetzt"
       ]
     },
     {
@@ -31,7 +31,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 3,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -42,7 +42,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "ruhe"
+        "ueberschaetzt"
       ]
     },
     {
@@ -53,7 +53,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "ruhe"
+        "unklar"
       ]
     },
     {
@@ -64,7 +64,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "ruhe"
+        "unterschaetzt"
       ]
     },
     {
@@ -75,8 +75,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "ruhe",
-        "substanz"
+        "ueberschaetzt"
       ]
     },
     {
@@ -87,7 +86,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "klarheit"
+        "unterschaetzt"
       ]
     },
     {
@@ -98,7 +97,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "klarheit"
+        "unterschaetzt"
       ]
     },
     {
@@ -109,7 +108,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -120,7 +119,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unklar"
       ]
     },
     {
@@ -131,7 +130,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -142,7 +141,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -153,7 +152,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -164,7 +163,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -175,7 +174,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -186,7 +185,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -197,7 +196,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -208,7 +207,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 2,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -219,7 +218,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -230,7 +229,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -241,7 +240,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unterschaetzt"
       ]
     },
     {
@@ -252,7 +251,7 @@ window.BILDGEBUNG_DATA = {
       "created": "2026-06-22",
       "minutes": 1,
       "filters": [
-        "substanz"
+        "unklar"
       ]
     }
   ]
