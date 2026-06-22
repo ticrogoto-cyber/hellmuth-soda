@@ -18,9 +18,17 @@
     ueberschaetzt: 'Überschätzt',
   };
 
-  const all = (data.items || []).slice();
-  const byCreated = (a, b) =>
-    String(b.created || b.date).localeCompare(String(a.created || a.date));
+  // _pos = ursprungliche Array-Position aus data.js (= chronologische
+  // Reihenfolge der Anlage). Wird im byCreated-Vergleich als Tiebreak
+  // benutzt, damit bei datums-gleichen Artikeln (sehr haeufig: alle in
+  // einer Welle haben dasselbe date) der zuletzt hinzugefuegte oben
+  // landet. Bewahrt Sortierlogik (neueste zuerst) auch ohne Sub-Tages-
+  // Granularitaet im date-Feld.
+  const all = (data.items || []).map((it, i) => ({ ...it, _pos: i }));
+  const byCreated = (a, b) => {
+    const d = String(b.created || b.date).localeCompare(String(a.created || a.date));
+    return d !== 0 ? d : (b._pos || 0) - (a._pos || 0);
+  };
 
   const esc = (s) =>
     String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
