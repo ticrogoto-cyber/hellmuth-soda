@@ -429,6 +429,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "bitter-tas2r-amara-geschmack/",
+      "title": "Der Geschmack, den die Industrie ausgerottet hat",
+      "lead": "Der Geschmack, den niemand mehr will, steuert Verdauung, Atmung und Immunabwehr gleichzeitig. Die Industrie hat ihn aus jeder Zutat gezüchtet. Die Pharmakologie gräbt ihn gerade wieder aus.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 3,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
