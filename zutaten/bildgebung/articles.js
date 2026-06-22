@@ -1617,5 +1617,49 @@ Bananen liefern 360 Milligramm pro Stück. Avocados 485 Milligramm. Kokoswasser 
         },
       ],
     },
+    {
+      slug: "wacholder-juniperus-terpinen",
+      titel: "Die Beere mit vier Karrieren",
+      lead: "Wacholder steht in der Europäischen Pharmakopöe und auf der Zutatenliste von Gin. Die Beere enthält über achtzig Monoterpene, ein kaliumsparendes Diuretikum und ein Breitband-Antimikrobikum. Das Regal verkauft sie als Gewürz.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Im achtzehnten Jahrhundert war Genever ein Medikament. Ärzte verschrieben Wacholderschnaps bei Nierenleiden, Gelenkbeschwerden und Harnwegsinfekten. Die Pharmazie war real. Der Alkohol nur Lösungsmittel. Dann wurde Gin ein Konsumgut, die Beere verschwand aus der Medizin und tauchte hinter der Bar wieder auf. Was in der Flasche wirkt, hat sich nicht geändert. Nur wer es verschreibt.
+
+Terpinen-4-ol ist der Schlüsselwirkstoff. Er macht die Wacholderbeere zum Diuretikum, indem er die glomeruläre Filtration steigert. Im Gegensatz zu Schleifendiuretika verschwendet er kein Kalium. Wer den Kalium-Essay gelesen hat, zuckt hier zusammen. Ein Diuretikum, das entwässert, ohne den Elektrolythaushalt zu ruinieren, ist pharmakologisch selten. Wacholder liefert es zwischen Sauerkraut und Wildbraten.
+
+Das ätherische Öl aus der Beere hemmt in vitro grampositive und gramnegative Bakterien, Candida-Spezies und Dermatophyten. Raina 2019 fasst das antimikrobielle Spektrum in einem Review zusammen. Breiter als bei fast jeder Pflanze im Index. Alpha-Pinen, Sabinen, Limonen, Myrcen und Terpinen-4-ol arbeiten synergistisch, keine Einzelsubstanz erklärt die Wirkung allein. Wer ein synthetisches Antimykotikum mit diesem Spektrum auf den Markt bringen wollte, bräuchte Jahre klinischer Prüfung. Wer Wacholderbeeren kauft, braucht einen Supermarkt.
+
+Die EMA führt Juniperus communis mit einer eigenen Monographie. Die Europäische Pharmakopöe listet sowohl die Beere als auch das ätherische Öl. EU-Verordnung 1576/89 verlangt, dass Gin seinen Geschmack hauptsächlich von Wacholderbeeren bezieht. Dieselbe Pflanze steht gleichzeitig im Arzneibuch und im Spirituosenrecht. Es gibt wenige Pflanzen, deren regulatorischer Spagat absurder ist.
+
+Gewürz, Diuretikum, Antimikrobikum, Gin-Basis. Vier Karrieren für eine Beere. Die Medizin hat drei davon vergessen und trinkt die vierte.`,
+      quellen: [
+        {
+          autoren: "Rajinder Raina, Pawan Verma, Rajesh Peshin, et al.",
+          titel: "Potential of Juniperus communis L as a nutraceutical in human and veterinary medicine",
+          journal: "Heliyon",
+          vol: "Vol. 5, No. 8",
+          datum: "August 2019",
+          seiten: "e02376",
+          doi: "10.1016/j.heliyon.2019.e02376",
+          pmid: "31485546",
+        },
+        {
+          autoren: "European Medicines Agency",
+          titel: "Assessment report on Juniperus communis L., pseudo-fructus",
+          dokument: "EMA/HMPC/441929/2008 Rev. 1, London",
+          datum: "2011",
+        },
+        {
+          autoren: "Souravh Bais, Naresh Singh Gill, et al.",
+          titel: "A phytopharmacological review on a medicinal plant: Juniperus communis",
+          journal: "International Scholarly Research Notices",
+          vol: "Vol. 2014",
+          datum: "2014",
+          seiten: "634723",
+          doi: "10.1155/2014/634723",
+          pmid: "27355068",
+        },
+      ],
+    },
   ],
 };
