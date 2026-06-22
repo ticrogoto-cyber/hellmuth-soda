@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "mitochondrien-coq10-pqq-alcar",
+    "essay_url": "/zutaten/bildgebung/mitochondrien-coq10-pqq-alcar/",
+    "svg_file": "diagramm-mitochondrien-coq10-pqq-alcar.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Drei Substanzen, ein System. CoQ10",
+    "closer_text": "Vier Ärzte, vier Diagnosen, eine defekte Maschine.",
+    "notes": "Triade: CoQ10 (Elektronencarrier, Atmungskette) — PQQ (Aktivator von PGC-1α, baut neue Mitochondrien) — ALCAR (Fettsäure-Shuttle, Treibstoff durch die Membran). Drei Spalten, gestrichelter Feedback-Bogen unten. Sep-Wort: INFRASTRUKTUR — direkt aus dem Essay (»Sie sind Infrastruktur.«)."
+  },
+  {
+    "essay_slug": "biophotonen-ultraschwache-photonenemission",
+    "essay_url": "/zutaten/bildgebung/biophotonen-ultraschwache-photonenemission/",
+    "svg_file": "diagramm-biophotonen-ultraschwache-photonenemission.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Die Quellen sind identifiziert.",
+    "closer_text": "Es hat Fans und Feinde bekommen. Beide haben aufgehört zu lesen.",
+    "notes": "Gabelung: gemessene Emission als Ausgangspunkt, links Esoterik (warn-rot, »Lebensenergie« etc.), rechts Wissenschaft (zieht sich zurück). Sep-Wort: GABELUNG. Platzierung nach dem Absatz, der die Messung etabliert — dann visualisiert das Diagramm den Bruch in zwei Interpretationen."
+  },
+  {
+    "essay_slug": "resveratrol-pterostilben-bioverfuegbarkeit",
+    "essay_url": "/zutaten/bildgebung/resveratrol-pterostilben-bioverfuegbarkeit/",
+    "svg_file": "diagramm-resveratrol-pterostilben-bioverfuegbarkeit.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Pterostilben ist ein methyliertes",
+    "closer_text": "Der Markt belohnt Narrative, keine Bioverfügbarkeit.",
+    "notes": "Gabelung: identische In-vitro-Biologie (Polyphenol oral), links Resveratrol (warn-rot, Sulfatierung, <1% Plasma, Leber gewinnt), rechts Pterostilben (Methylgruppen, ~80% Bioverfügbarkeit, erreicht Zielorgan). Sep-Wort: SACKGASSE — Anspielung auf »Die Pharmakokinetik zeigt eine Sackgasse.« aus dem Schlussabsatz."
+  }
+]
