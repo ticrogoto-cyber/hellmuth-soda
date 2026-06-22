@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-21T23:50:04.317Z",
+  "generated": "2026-06-22T23:51:45.497Z",
   "hellmuth": [
+    {
+      "title": "Lantenhammer übernimmt Rebels 0.0 in Deutschland",
+      "date": "2026-06-22",
+      "created": "2026-06-22T23:50:59.189Z",
+      "slug": "lantenhammer-ubernimmt-rebels-0-0-in-deutschland",
+      "rubrik": "hellmuth",
+      "lead": "Ein bayerischer Edelbrenner verkauft ab Juni 2026 alkoholfreie Schweizer Spirits, und das ist keine Marotte, sondern Marktlogik.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/lantenhammer-startet-vertrieb-von-rebels-0-0-in-deutschland/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/"
+    },
+    {
+      "title": "Impossibrew und die funktionale Nüchternheit",
+      "date": "2026-06-22",
+      "created": "2026-06-22T23:46:43.883Z",
+      "slug": "impossibrew-und-die-funktionale-nuchternheit",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Markt segmentiert sich, und die Wirkung wird zum Verkaufsargument.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/22/impossibrew-taps-into-growing-demand-for-functional-alcohol-free-drinks/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/"
+    },
+    {
+      "title": "Kreatin verlässt das Eiweißregal",
+      "date": "2026-06-22",
+      "created": "2026-06-22T23:46:22.087Z",
+      "slug": "kreatin-verlasst-das-eiweissregal",
+      "rubrik": "hellmuth",
+      "lead": "Was jahrzehntelang in Plastikdosen für Hantelträger lag, drängt jetzt in Dosen für alle anderen.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/22/creatine-drinks-gain-ground-as-stability-hurdles-fall/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kreatin-verlasst-das-eiweissregal/"
+    },
     {
       "title": "Ginseng im Elektrolytwasser",
       "date": "2026-06-21",
@@ -634,6 +676,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Der Selbsteinschätzungs-Knick beim Alkohol",
+      "date": "2026-06-22",
+      "created": "2026-06-22T23:51:45.467Z",
+      "slug": "der-selbsteinschatzungs-knick-beim-alkohol",
+      "rubrik": "science",
+      "lead": "Niedrigrisiko-Trinker halten sich im Abstieg der Promillekurve für nüchterner, als sie sind.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.jsr.2026.05.009",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-selbsteinschatzungs-knick-beim-alkohol/"
+    },
+    {
+      "title": "Stressfolgen zerfallen in Subtypen",
+      "date": "2026-06-22",
+      "created": "2026-06-22T23:51:29.047Z",
+      "slug": "stressfolgen-zerfallen-in-subtypen",
+      "rubrik": "science",
+      "lead": "Ein Forschungsteam zerlegt »stressexponiert« in unterscheidbare klinische Phänotypen mit eigenen neurobiologischen Signaturen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1192/j.eurpsy.2026.12225",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/stressfolgen-zerfallen-in-subtypen/"
+    },
+    {
+      "title": "Abnehmspritze dämpft Nikotinbelohnung",
+      "date": "2026-06-22",
+      "created": "2026-06-22T23:51:17.644Z",
+      "slug": "abnehmspritze-dampft-nikotinbelohnung",
+      "rubrik": "science",
+      "lead": "GLP-1-Agonisten greifen in jene Hirnschaltung, die Rauchen am Laufen hält.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1155/bn/1193259",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/abnehmspritze-dampft-nikotinbelohnung/"
+    },
     {
       "title": "Wenn die Glia den Strom nicht mehr abführt",
       "date": "2026-06-20",
