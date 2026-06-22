@@ -2004,5 +2004,43 @@ Drei Substanzen, ein System. Glutathion ist das Ziel, NAC ist das Baumaterial, A
         },
       ],
     },
+    {
+      slug: "chlorella-spirulina-detox-kontamination",
+      titel: "Die Algen, die entgiften sollen und selbst vergiftet sind",
+      lead: "Chlorella und Spirulina werden als Detox-Superfoods verkauft. Kontrollierte Humanstudien zur Schwermetall-Ausleitung existieren praktisch nicht. Dafür existieren Laboranalysen, in denen die Algen selbst mit Blei, Cadmium und Arsen kontaminiert sind.",
+      filter: ["Überschätzt"],
+      date: "2026-06-22",
+      body: `Chlorella bindet Schwermetalle. Das ist das Versprechen. Millionen Menschen schlucken die Tabletten mit genau dieser Erwartung. Die Evidenz dafür besteht aus Tierstudien mit Cadmium, deren Dosierungen und Expositionsszenarien auf den Menschen nicht übertragbar sind. Kontrollierte Humanstudien zur systemischen Schwermetall-Ausleitung durch Chlorella-Einnahme fehlen. Das Versprechen lebt von Wiederholung, nicht von Belegen.
+
+Was belegt ist, schadet dem Produkt. Chlorella-Kulturen akkumulieren Schwermetalle aus dem Kulturmedium. Offene Kulturbecken, besonders in Asien, produzieren regelmäßig Ware mit Blei-, Cadmium- und Arsenkonzentrationen über den Grenzwerten. Wer ein Detox-Supplement kauft und die Kontamination mitschluckt, importiert das Problem, das er loswerden wollte.
+
+Spirulina teilt das Muster. Sechzig bis siebzig Prozent Protein, B-Vitamine, Eisen, Phycocyanin mit antioxidativer Wirkung. Die Nährstoffdichte stimmt. Moderate LDL-Senkung und Immunmodulation sind in Studien belegt. Bei allergischer Rhinitis reduziert Spirulina die Symptomscores. Konsistente Befunde, keine Schlagzeilen. Das Detox-Marketing ist trotzdem unbegründet. Spirulina cheliert im menschlichen Körper keine Schwermetalle zuverlässig. Und offene Kulturbecken sammeln Mikrocystine aus Cyanobakterien-Kontamination, ein Lebertoxin, das in nicht-zertifizierter Ware regelmäßig auftaucht.
+
+Beide Algen enthalten echte Nährstoffe. Protein, Eisen, Chlorophyll, Phycocyanin. Nichts davon ist exklusiv, nichts davon rechtfertigt den Preis gegenüber Ei, Spinat oder Brokkoli. Das Detox-Versprechen ist das einzige Alleinstellungsmerkmal. Und es existiert nur im Marketing.
+
+Die Algen sind selbst das Problem, das sie lösen sollen. Wer das Ironie nennt, ist zu höflich.`,
+      quellen: [
+        {
+          autoren: "Rui Deng, Theodore Chow",
+          titel: "Hypolipidemic, antioxidant and antiinflammatory activities of microalgae Spirulina",
+          journal: "Cardiovascular Therapeutics",
+          vol: "Vol. 28, No. 4",
+          datum: "August 2010",
+          seiten: "e33—e45",
+          doi: "10.1111/j.1755-5922.2010.00200.x",
+          pmid: "20633020",
+        },
+        {
+          autoren: "Cemal Cingi, Müge Conk-Dalay, Hasan Cakli, et al.",
+          titel: "The effects of spirulina on allergic rhinitis",
+          journal: "European Archives of Oto-Rhino-Laryngology",
+          vol: "Vol. 265, No. 10",
+          datum: "Oktober 2008",
+          seiten: "1219—1223",
+          doi: "10.1007/s00405-008-0642-8",
+          pmid: "18343939",
+        },
+      ],
+    },
   ],
 };

@@ -308,6 +308,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "chlorella-spirulina-detox-kontamination/",
+      "title": "Die Algen, die entgiften sollen und selbst vergiftet sind",
+      "lead": "Chlorella und Spirulina werden als Detox-Superfoods verkauft. Kontrollierte Humanstudien zur Schwermetall-Ausleitung existieren praktisch nicht. Dafür existieren Laboranalysen, in denen die Algen selbst mit Blei, Cadmium und Arsen kontaminiert sind.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "ueberschaetzt"
+      ]
     }
   ]
 };
