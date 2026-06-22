@@ -264,6 +264,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "probiotika-staemme-evidenz/",
+      "title": "Zwanzig Milliarden Keime, null Belege",
+      "lead": "Die Supplement-Industrie verkauft Probiotika nach Milliarden und Stämmen. Mehr klingt nach besser. Die Evidenz sagt: weniger, aber geprüft. Nur einzelne Stämme haben Belege. Der Rest ist Arithmetik für Ahnungslose.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "ueberschaetzt"
+      ]
     }
   ]
 };

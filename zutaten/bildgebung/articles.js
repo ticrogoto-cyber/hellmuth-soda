@@ -1810,5 +1810,49 @@ Ein Kraut, das Sportler schützt, ohne ihre Fortschritte zu sabotieren, und aben
         },
       ],
     },
+    {
+      slug: "probiotika-staemme-evidenz",
+      titel: "Zwanzig Milliarden Keime, null Belege",
+      lead: "Die Supplement-Industrie verkauft Probiotika nach Milliarden und Stämmen. Mehr klingt nach besser. Die Evidenz sagt: weniger, aber geprüft. Nur einzelne Stämme haben Belege. Der Rest ist Arithmetik für Ahnungslose.",
+      filter: ["Überschätzt"],
+      date: "2026-06-22",
+      body: `Auf dem Etikett steht »20 Milliarden KBE, 14 Stämme«. Es klingt nach Feuerkraft. Mehr Stämme, breiteres Spektrum, besserer Schutz. Die Studienlage sagt etwas anderes. Die meisten Multi-Stamm-Präparate sind in keiner kontrollierten Studie besser als Placebo. Die Stämme, die funktionieren, funktionieren einzeln, bei definierten Indikationen, in definierten Dosierungen. Alles andere ist Lotterie in Kapselform.
+
+LGG hat über 1500 Publikationen. Bei akuter Gastroenteritis im Kindesalter verkürzt er die Durchfalldauer um einen Tag. Bei antibiotikaassoziierter Diarrhö halbiert er die Inzidenz. Bei atopischer Dermatitis senkt pränatale und postnatale Gabe die Ekzem-Rate über vier Jahre. Drei Indikationen, drei Metaanalysen, ein Stamm. Saccharomyces boulardii ist eine Hefe und damit gegen Antibiotika immun. Jedes bakterielle Probiotikum wird vom Antibiotikum mitgetötet. S. boulardii überlebt und reduziert die Rezidivrate bei Clostridium-difficile-Infektionen. Bacillus coagulans bildet Sporen, die Magensäure, Hitze und Lagerung überstehen. Überlebensrate über neunzig Prozent bis zum Dünndarm, verglichen mit fünf bis fünfzehn Prozent bei den meisten Lactobacillen. Drei Stämme für drei Indikationen mit messbaren Effekten. Daneben im Regal stehen Produkte, die vierzehn ungeprüfte Stämme mischen und die Milliardenzahl auf dem Etikett drucken. Die Zahl misst nichts außer Marketing. Ein Produkt mit einem Stamm und einer Metaanalyse schlägt ein Produkt mit vierzehn Stämmen und null Studien. Aber das eine verkauft sich schlechter, weil vierzehn größer klingt als eins.
+
+Tausend Studien stehen im selben Regal wie null Studien. Das Etikett unterscheidet nicht. Der Preis auch nicht.`,
+      quellen: [
+        {
+          autoren: "Hania Szajewska, Maria Skórka, Ewa Ruszczyński, et al.",
+          titel: "Meta-analysis: Lactobacillus GG for treating acute gastroenteritis in children — updated analysis of randomised controlled trials",
+          journal: "Alimentary Pharmacology and Therapeutics",
+          vol: "Vol. 38, No. 5",
+          datum: "September 2013",
+          seiten: "467—476",
+          doi: "10.1111/apt.12403",
+          pmid: "23841880",
+        },
+        {
+          autoren: "Marko Kalliomäki, Seppo Salminen, Heikki Arvilommi, et al.",
+          titel: "Probiotics in primary prevention of atopic disease: a randomised placebo-controlled trial",
+          journal: "The Lancet",
+          vol: "Vol. 357, No. 9262",
+          datum: "April 2001",
+          seiten: "1076—1079",
+          doi: "10.1016/S0140-6736(00)04259-8",
+          pmid: "11297958",
+        },
+        {
+          autoren: "Lynne McFarland",
+          titel: "Meta-analysis of probiotics for the prevention of antibiotic associated diarrhea and the treatment of Clostridium difficile disease",
+          journal: "American Journal of Gastroenterology",
+          vol: "Vol. 101, No. 4",
+          datum: "April 2006",
+          seiten: "812—822",
+          doi: "10.1111/j.1572-0241.2006.00465.x",
+          pmid: "16635227",
+        },
+      ],
+    },
   ],
 };
