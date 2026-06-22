@@ -275,6 +275,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "ueberschaetzt"
       ]
+    },
+    {
+      "href": "akkermansia-muciniphila-darmbarriere/",
+      "title": "Der Keim, der tot besser wirkt als lebendig",
+      "lead": "Akkermansia muciniphila frisst die Schleimhaut des Darms und repariert sie dabei. Pasteurisiert wirkt besser als lebend. Beides widerspricht allem, was die Probiotika-Industrie über Darmbakterien erzählt.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };

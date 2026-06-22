@@ -1854,5 +1854,41 @@ Tausend Studien stehen im selben Regal wie null Studien. Das Etikett unterscheid
         },
       ],
     },
+    {
+      slug: "akkermansia-muciniphila-darmbarriere",
+      titel: "Der Keim, der tot besser wirkt als lebendig",
+      lead: "Akkermansia muciniphila frisst die Schleimhaut des Darms und repariert sie dabei. Pasteurisiert wirkt besser als lebend. Beides widerspricht allem, was die Probiotika-Industrie über Darmbakterien erzählt.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Die gesamte Probiotika-Werbung basiert auf einer Prämisse: lebende Bakterien sind gut für den Darm. Mehr davon, besser davon, Milliarden davon. Dann kommt ein Bakterium, das pasteurisiert besser wirkt als lebendig, und die Prämisse bricht zusammen.
+
+Akkermansia muciniphila lebt in der Mukusschicht des Darms und ernährt sich von Muzin, dem Schleimprotein der Darmwand. Das klingt nach Angriff. Es ist Renovierung. Der Abbau alter Muzinschichten stimuliert die Becherzellen zur Produktion neuer Schichten. Die Darmbarriere wird frischer, dichter, widerstandsfähiger. Konsum als Erneuerungssignal. Kein Marketingtexter hätte sich den Mechanismus ausgedacht.
+
+Die erste Humanstudie erscheint 2019 in Nature Medicine. Vierzig übergewichtige, insulinresistente Erwachsene, randomisiert, doppelblind, placebokontrolliert, drei Monate. Pasteurisiertes Akkermansia verbessert die Insulinsensitivität um 29 Prozent, senkt das Insulin um 34 Prozent, das Gesamtcholesterin um knapp neun Prozent. Lebendiges Akkermansia zeigt schwächere Effekte, die Signifikanz wackelt. Der tote Keim schlägt den lebenden. Die Erklärung liefert eine Mausstudie von 2017. Das Membranprotein Amuc_1100 ist hitzestabil und aktiviert den Toll-like-Rezeptor 2 auf Immunzellen. Die Pasteurisierung zerstört das Bakterium und legt den Wirkstoff frei.
+
+Seit 2022 ist Akkermansia muciniphila in der EU als Novel Food zugelassen. Das erste Darmbakterium im Supplement-Regal. Entdeckt wurde es per Sequenzierung, weil Kulturmedien es nie isoliert hatten. Das allein disqualifiziert es im Weltbild der klassischen Probiotika-Industrie, die immer noch Lebendkeimzahlen auf Etiketten druckt, als wäre Überleben im Darm das Qualitätskriterium. Akkermansia beweist das Gegenteil. Der Wirkstoff überlebt das Bakterium.`,
+      quellen: [
+        {
+          autoren: "Clara Depommier, Amandine Everard, Céline Druart, et al.",
+          titel: "Supplementation with Akkermansia muciniphila in overweight and obese human volunteers: a proof-of-concept exploratory study",
+          journal: "Nature Medicine",
+          vol: "Vol. 25, No. 7",
+          datum: "Juli 2019",
+          seiten: "1096—1103",
+          doi: "10.1038/s41591-019-0495-2",
+          pmid: "31263284",
+        },
+        {
+          autoren: "Hubert Plovier, Amandine Everard, Céline Druart, et al.",
+          titel: "A purified membrane protein from Akkermansia muciniphila or the pasteurized bacterium improves metabolism in obese and diabetic mice",
+          journal: "Nature Medicine",
+          vol: "Vol. 23, No. 1",
+          datum: "Januar 2017",
+          seiten: "107—113",
+          doi: "10.1038/nm.4236",
+          pmid: "27892954",
+        },
+      ],
+    },
   ],
 };
