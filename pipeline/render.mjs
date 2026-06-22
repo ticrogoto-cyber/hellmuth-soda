@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=14" />
-  <link rel="stylesheet" href="../../news.css?v=94" />
+  <link rel="stylesheet" href="../../news.css?v=95" />
 </head>
 <body>
   <header class="top">
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=94" />
+  <link rel="stylesheet" href="../../news.css?v=95" />
 </head>
 <body>
   <header class="nav">
@@ -657,7 +657,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=14" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=94" />
+  <link rel="stylesheet" href="../../news/news.css?v=95" />
 </head>
 <body>
   <header class="top">
@@ -911,7 +911,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:site_name" content="Mut zur Klarheit" />
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=14" />
-  <link rel="stylesheet" href="../../../news/news.css?v=94" />
+  <link rel="stylesheet" href="../../../news/news.css?v=95" />
   <link rel="stylesheet" href="../bildgebung.css?v=3" />
 </head>
 <body>

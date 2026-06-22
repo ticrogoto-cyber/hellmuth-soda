@@ -2104,5 +2104,51 @@ Hunderte Produkte im Regal, eine Indikation beim Fasten, null Indikationen im Al
         },
       ],
     },
+    {
+      slug: "spermidin-autophagie-longevity",
+      titel: "Der Nobelpreis-Mechanismus ohne Interventionsdaten",
+      lead: "Spermidin stößt Autophagie an, den zellulären Selbstreinigungsprozess, für dessen Aufklärung Ohsumi 2016 den Nobelpreis bekam. Tiermodelle zeigen Lebensverlängerung. Epidemiologie zeigt Korrelation. Was fehlt, sind große Interventionsstudien am Menschen. Die Supplement-Industrie wartet nicht.",
+      filter: ["Unklar"],
+      date: "2026-06-22",
+      body: `Autophagie ist der Prozess, in dem Zellen beschädigte Proteine und defekte Organellen abbauen und recyceln. Yoshinori Ohsumi bekam den Nobelpreis für die Aufklärung der Mechanik. Spermidin ist einer der wenigen Nährstoffe, die diesen Prozess von außen anstoßen. Hier hört die Supplement-Industrie auf zuzuhören und fängt an zu verkaufen.
+
+In Hefen, Fliegen, Würmern und Mäusen verlängert Spermidin die Lebensspanne konsistent. Die Bruneck-Studie verfolgt über zwanzig Jahre die Ernährung einer italienischen Kohorte und findet eine inverse Korrelation zwischen Spermidin-Aufnahme und kardiovaskulärer Mortalität. Wer mehr Spermidin isst, stirbt seltener am Herzen. Korrelation. Keine Kausalität. Der Unterschied zwischen beiden ist der Abstand zwischen einer Beobachtung und einem Beweis.
+
+Eine kleine Vergleichsstudie an Älteren, die über Gedächtnisprobleme klagten, zeigt nach drei Monaten Weizenkeimextrakt verbesserte Gedächtnisleistung. Die erste große Interventionsstudie SmartAge läuft in Berlin. Ergebnisse stehen aus. Das ist alles an Interventionsdaten, was es am Menschen gibt, für eine Substanz, die bereits als »Longevity-Supplement« in jedem zweiten Biohacker-Stack steckt.
+
+Die reichsten Nahrungsquellen sind Weizenkeime, gereifte Käsesorten und Natto. Wer regelmäßig davon isst, braucht vermutlich keine Kapsel. Wer die Kapsel kauft, kauft einen Nobelpreis-Mechanismus mit Tier- und Korrelationsdaten. Das Versprechen ist plausibel, der Beweis am Menschen nicht. Die Marge wartet nicht auf Beweise.`,
+      quellen: [
+        {
+          autoren: "Tobias Eisenberg, Heide Knauer, Alexandra Schauer, et al.",
+          titel: "Induction of autophagy by spermidine promotes longevity",
+          journal: "Nature Cell Biology",
+          vol: "Vol. 11, No. 11",
+          datum: "November 2009",
+          seiten: "1305—1314",
+          doi: "10.1038/ncb1975",
+          pmid: "19801973",
+        },
+        {
+          autoren: "Stefan Kiechl, Raimund Pechlaner, Peter Willeit, et al.",
+          titel: "Higher spermidine intake is linked to lower mortality: a prospective population-based study",
+          journal: "American Journal of Clinical Nutrition",
+          vol: "Vol. 108, No. 2",
+          datum: "August 2018",
+          seiten: "371—380",
+          doi: "10.1093/ajcn/nqy102",
+          pmid: "29955838",
+        },
+        {
+          autoren: "Miranka Wirth, Gloria Benson, Claudia Schwarz, et al.",
+          titel: "The effect of spermidine on memory performance in older adults at risk for dementia: a randomized controlled trial",
+          journal: "Cortex",
+          vol: "Vol. 109",
+          datum: "Dezember 2018",
+          seiten: "181—188",
+          doi: "10.1016/j.cortex.2018.09.014",
+          pmid: "30388439",
+        },
+      ],
+    },
   ],
 };

@@ -341,6 +341,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "ueberschaetzt"
       ]
+    },
+    {
+      "href": "spermidin-autophagie-longevity/",
+      "title": "Der Nobelpreis-Mechanismus ohne Interventionsdaten",
+      "lead": "Spermidin stößt Autophagie an, den zellulären Selbstreinigungsprozess, für dessen Aufklärung Ohsumi 2016 den Nobelpreis bekam. Tiermodelle zeigen Lebensverlängerung. Epidemiologie zeigt Korrelation. Was fehlt, sind große Interventionsstudien am Menschen. Die Supplement-Industrie wartet nicht.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "unklar"
+      ]
     }
   ]
 };
