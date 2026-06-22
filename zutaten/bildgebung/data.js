@@ -232,6 +232,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "petersilie-apigenin-nad/",
+      "title": "Das teuerste Kraut liegt neben dem Steak",
+      "lead": "Petersilie enthält pro hundert Gramm mehr Vitamin C als Orangen, mehr Vitamin K als jedes Gemüse im Supermarkt und Apigenin, einen CD38-Hemmer, der den NAD+-Abbau bremst. Die Gastronomie schiebt sie an den Tellerrand.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };

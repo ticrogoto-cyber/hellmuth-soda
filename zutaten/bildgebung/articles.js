@@ -1661,5 +1661,53 @@ Gewürz, Diuretikum, Antimikrobikum, Gin-Basis. Vier Karrieren für eine Beere. 
         },
       ],
     },
+    {
+      slug: "petersilie-apigenin-nad",
+      titel: "Das teuerste Kraut liegt neben dem Steak",
+      lead: "Petersilie enthält pro hundert Gramm mehr Vitamin C als Orangen, mehr Vitamin K als jedes Gemüse im Supermarkt und Apigenin, einen CD38-Hemmer, der den NAD+-Abbau bremst. Die Gastronomie schiebt sie an den Tellerrand.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Petersilie landet im Biomüll. Apigenin-Kapseln kosten dreißig Euro im Monat. Beides enthält denselben Wirkstoff. Die Zahlen pro hundert Gramm Petersilie: 133 Milligramm Vitamin C, 1640 Mikrogramm Vitamin K, 421 Mikrogramm Folat, 6,2 Milligramm Eisen. Eine Orange liefert 53 Milligramm Vitamin C. Spinat, das angebliche Eisenwunder, liefert 2,7 Milligramm Eisen. Petersilie schlägt beide, und niemand isst sie, weil alle glauben, sie sei Dekoration.
+
+Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin. Escande 2013 publiziert in Diabetes, dass Apigenin CD38 hemmt, das Enzym, das in jeder Zelle NAD+ abbaut. CD38 ist der Haupttreiber des altersbedingten NAD+-Verlusts. Ein Bund Petersilie hemmt es für neunundneunzig Cent. In fettleibigen Mäusen erhöhte Apigenin die NAD+-Spiegel im Gewebe, senkte die globale Proteinacetylierung und verbesserte den Glukose- und Lipidstoffwechsel. Die Supplement-Industrie verkauft Apigenin-Kapseln für dreißig Euro im Monat. Petersilie kostet neunundneunzig Cent im Bund.
+
+Myristicin, das zweite relevante Molekül, induziert Glutathion-S-Transferase und zeigt in vitro antikanzerogene Wirkung. Salehi 2019 fasst das therapeutische Potenzial von Apigenin in einem Review über 248 Quellen zusammen. Antioxidativ, antiinflammatorisch, antiproliferativ, neuroprotektiv. Vier Eigenschaften, die in jedem Longevity-Supplement einzeln verkauft werden. In Petersilie kommen sie zusammen, zum Preis eines Küchenkrauts.
+
+Die Schwangerschaftswarnung gehört dazu. Petersilie ist in der traditionellen Phytotherapie als Emmenagogum bekannt. Hohe Dosen können Uteruskontraktionen auslösen. Die Garnitur auf dem Teller schadet niemandem. Der tägliche Petersilien-Smoothie bei Schwangeren ist eine andere Rechnung.
+
+Ein Küchenkraut mit NAD+-Relevanz, das neben dem Hauptgericht liegt und zurück in die Küche geht. Wer Apigenin supplementiert und Petersilie wegwirft, bezahlt für seine eigene Ahnungslosigkeit.`,
+      quellen: [
+        {
+          autoren: "Carlos Escande, Veronica Nin, Nathan Price, et al.",
+          titel: "Flavonoid apigenin is an inhibitor of the NAD+ase CD38: implications for cellular NAD+ metabolism, protein acetylation, and treatment of metabolic syndrome",
+          journal: "Diabetes",
+          vol: "Vol. 62, No. 4",
+          datum: "April 2013",
+          seiten: "1084—1093",
+          doi: "10.2337/db12-1139",
+          pmid: "23172919",
+        },
+        {
+          autoren: "Bahare Salehi, Alessandro Venditti, Marcello Sharifi-Rad, et al.",
+          titel: "The therapeutic potential of apigenin",
+          journal: "International Journal of Molecular Sciences",
+          vol: "Vol. 20, No. 6",
+          datum: "März 2019",
+          seiten: "1305",
+          doi: "10.3390/ijms20061305",
+          pmid: "30875872",
+        },
+        {
+          autoren: "Sami Alobaidi",
+          titel: "Renal health benefits and therapeutic effects of parsley (Petroselinum crispum): a review",
+          journal: "Frontiers in Medicine",
+          vol: "Vol. 11",
+          datum: "Dezember 2024",
+          seiten: "1494740",
+          doi: "10.3389/fmed.2024.1494740",
+          pmid: "39735695",
+        },
+      ],
+    },
   ],
 };
