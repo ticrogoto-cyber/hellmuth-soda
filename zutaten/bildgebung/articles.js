@@ -636,5 +636,86 @@ Die Forschung hat bei Ashwagandha geliefert. Drei RCTs zur Stressachse, eine zur
         },
       ],
     },
+    {
+      slug: "magnolia-phellodendron-relora",
+      titel: "Zwei Baumrinden, ein Patent",
+      lead: "Honokiol aus Magnolienrinde bindet an GABA-A-Rezeptoren wie ein Benzodiazepin, ohne Abhängigkeit auszulösen. Das wäre eine Nachricht. Stattdessen steht es auf einer Diätpille.",
+      filter: ["Ruhe"],
+      date: "2026-06-22",
+      body: `In der traditionellen chinesischen Medizin heißt die Rinde von Magnolia officinalis Houpu. Sie wird seit Jahrhunderten gegen Angst, Schlaflosigkeit und Verdauungsbeschwerden eingesetzt. Die Rinde von Phellodendron amurense, dem Amur-Korkbaum, liefert Berberin und wird gegen Entzündungen und Infektionen verwendet. Zwei Bäume, zwei Profile, zweitausend Jahre Erfahrungsmedizin. Ein amerikanisches Unternehmen hat beide in eine Kapsel gepackt und das Ergebnis patentiert.
+
+Relora heißt das Produkt. Standardisiert auf mindestens 1,5 Prozent Honokiol und 0,1 Prozent Berberin. Die klinische Evidenz beschränkt sich auf zwei Studien, die der Hersteller finanziert hat. Talbott 2013 misst an 56 moderat gestressten Probanden nach vier Wochen Relora eine Reduktion des Speichelcortisols um achtzehn Prozent gegenüber Placebo und verbesserte Stimmungswerte. Kalman 2008 testet an 40 prämenopausalen Frauen über sechs Wochen und findet eine Reduktion vorübergehender Angst, aber keine Veränderung von Cortisol, Schlafqualität oder Appetit.
+
+Zwei Studien, finanziert vom Patentinhaber, mit widersprüchlichen Cortisol-Ergebnissen. Das ist die gesamte Humaneviden für ein Produkt, das als »klinisch erwiesen« beworben wird.
+
+Das Patent ist Bürokratie. Der Wirkstoff ist Pharmakologie. Alexeev 2012 zeigt, dass Honokiol und Magnolol positive allosterische Modulatoren an GABA-A-Rezeptoren sind, an synaptischen und extrasynaptischen. Die Bindungsstelle überschneidet sich mit der von Benzodiazepinen. Im Tiermodell zeigt Honokiol anxiolytische Wirkung vergleichbar mit Diazepam, ohne Sedierung, ohne motorische Beeinträchtigung, ohne Abhängigkeitspotenzial. Kuribara 1998 misst das im Elevated-Plus-Maze und findet keine der typischen Benzodiazepin-Nebenwirkungen.
+
+Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil wäre für die Psychiatrie eine Nachricht. Benzodiazepine sind die wirksamsten Anxiolytika und gleichzeitig eine der am häufigsten missbrauchten Substanzklassen. Eine Alternative, die denselben Rezeptor adressiert und das Suchtpotenzial umgeht, hätte klinische Studien verdient. Sie hat zwei Pilotstudien zu Stressessen bekommen. Vom Hersteller finanziert.
+
+Die Vermarktung zielt auf Gewichtsmanagement. Garrison 2006 testet Relora als Supplement gegen stressbedingtes Essen. Das Marketing folgt dem Geld, nicht der Pharmakologie. Wer Honokiol als Diäthilfe verkauft, hat einen GABA-A-Modulator und macht daraus einen Appetitzügler. Die Priorität verrät mehr über die Industrie als über die Substanz.
+
+Was bleibt, ist eine Rinde mit einem Wirkstoff, der die Grundlagenforschung verdient und die Klinik nie erreicht hat. Zwei Pilotstudien vom Hersteller ersetzen keine unabhängige Forschung. Das Tiermodell zeigt Wirkung ohne Nebenwirkung. Das Patent steht der Forschung im Weg, weil niemand eine Phase-II-Studie für ein Produkt finanziert, dessen Ergebnis dem Patentinhaber gehört.
+
+Houpu gibt es im Asia-Markt. Relora gibt es auf Amazon. Die GABA-A-Bindung gibt es nur in der Fachliteratur.`,
+      quellen: [
+        {
+          autoren: "Shawn Talbott, Julie Talbott, Mike Pugh",
+          titel: "Effect of Magnolia officinalis and Phellodendron amurense (Relora) on cortisol and psychological mood state in moderately stressed subjects",
+          journal: "Journal of the International Society of Sports Nutrition",
+          vol: "Vol. 10, No. 1",
+          datum: "07.08.2013",
+          seiten: "37",
+          doi: "10.1186/1550-2783-10-37",
+          pmid: "23924268",
+        },
+        {
+          autoren: "Douglas Kalman, Samantha Feldman, Robin Feldman, et al.",
+          titel: "Effect of a proprietary Magnolia and Phellodendron extract on stress levels in healthy women: a pilot, double-blind, placebo-controlled clinical trial",
+          journal: "Nutrition Journal",
+          vol: "Vol. 7",
+          datum: "21.04.2008",
+          seiten: "11",
+          doi: "10.1186/1475-2891-7-11",
+          pmid: "18426577",
+        },
+        {
+          autoren: "Mikhail Alexeev, Denise Grosenbaugh, David Mott, et al.",
+          titel: "The natural products magnolol and honokiol are positive allosteric modulators of both synaptic and extra-synaptic GABA(A) receptors",
+          journal: "Neuropharmacology",
+          vol: "Vol. 62, No. 8",
+          datum: "Juni 2012",
+          seiten: "2507—2514",
+          doi: "10.1016/j.neuropharm.2012.03.002",
+          pmid: "22445602",
+        },
+        {
+          autoren: "Hideo Kuribara, William Stavinoha, Yasushi Maruyama",
+          titel: "Behavioural pharmacological characteristics of honokiol, an anxiolytic agent present in extracts of Magnolia bark, evaluated by an elevated plus-maze test in mice",
+          journal: "Journal of Pharmacy and Pharmacology",
+          vol: "Vol. 50, No. 7",
+          datum: "Juli 1998",
+          seiten: "819—826",
+          pmid: "9720631",
+        },
+        {
+          autoren: "Russell Garrison, Walter Chambliss",
+          titel: "Effect of a proprietary Magnolia and Phellodendron extract on weight management: a pilot, double-blind, placebo-controlled clinical trial",
+          journal: "Alternative Therapies in Health and Medicine",
+          vol: "Vol. 12, No. 1",
+          datum: "Januar—Februar 2006",
+          seiten: "50—54",
+          pmid: "16454147",
+        },
+        {
+          autoren: "Hideo Kuribara, William Stavinoha, Yasushi Maruyama",
+          titel: "Honokiol, a putative anxiolytic agent extracted from Magnolia bark, has no diazepam-like side-effects in mice",
+          journal: "Journal of Pharmacy and Pharmacology",
+          vol: "Vol. 51, No. 1",
+          datum: "Januar 1999",
+          seiten: "97—103",
+          pmid: "10197426",
+        },
+      ],
+    },
   ],
 };

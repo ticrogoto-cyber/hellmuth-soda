@@ -55,6 +55,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "ruhe"
       ]
+    },
+    {
+      "href": "magnolia-phellodendron-relora/",
+      "title": "Zwei Baumrinden, ein Patent",
+      "lead": "Honokiol aus Magnolienrinde bindet an GABA-A-Rezeptoren wie ein Benzodiazepin, ohne Abhängigkeit auszulösen. Das wäre eine Nachricht. Stattdessen steht es auf einer Diätpille.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "ruhe"
+      ]
     }
   ]
 };
