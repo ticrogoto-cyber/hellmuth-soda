@@ -1890,5 +1890,63 @@ Seit 2022 ist Akkermansia muciniphila in der EU als Novel Food zugelassen. Das e
         },
       ],
     },
+    {
+      slug: "praebiotika-ballaststoffe-butyrat",
+      titel: "Das Futter, das wichtiger ist als der Keim",
+      lead: "Die Supplement-Industrie verkauft Probiotika für dreißig Euro im Monat. Was die gekauften Keime am Leben hält, sind Ballaststoffe, die in Haferflocken, kalten Kartoffeln und Chicorée stecken. Niemand wirbt dafür, weil sich Hafer schlecht patentieren lässt.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Probiotika sind die Gäste. Präbiotika sind das Futter. Wer Milliarden Keime schluckt und sie nicht füttert, betreibt Ansiedlungspolitik ohne Infrastruktur. Die Keime verhungern, und das Etikett hat trotzdem funktioniert, weil es verkauft wurde, bevor es wirken musste.
+
+Inulin aus der Chicorée-Wurzel ist das am besten belegte Präbiotikum im Index. Über dreißig Vergleichsstudien bestätigen, dass es gezielt die nützlichen Darmbakterien füttert und die Calciumaufnahme verbessert. Die Sättigung steigt, weil der Darm Hormone ausschüttet, die dem Gehirn melden, dass genug da ist. Das Hauptproblem ist die Gasbildung. Inulin fermentiert schnell und am falschen Ende des Dickdarms. Wer empfindlich reagiert, bekommt Krämpfe. Das effektivste Präbiotikum ist gleichzeitig das unverträglichste.
+
+Akazienfaser umgeht genau dieses Problem. Dieselbe Wirkung auf die Darmflora, aber die Fermentation verteilt sich über den gesamten Dickdarm statt sich am Eingang zu stauen. Fermentiert wie Inulin, verträglich wie Reis, und im Supplement-Regal unsichtbar.
+
+Resistente Stärke übertrifft beide in einem Punkt. Sie wird im Darm zu Butyrat fermentiert, dem Stoff, der die Darmschleimhaut ernährt und schützt. Studien zeigen verbesserte Insulinsensitivität und flachere Blutzuckerkurven nach dem Essen. Eine große Langzeitstudie dokumentiert sogar reduzierte Krebsraten bei genetisch vorbelasteten Patienten. Die Quelle von resistenter Stärke sind gekochte und abgekühlte Kartoffeln, Reis und Nudeln. Kalte Kartoffeln vom Vortag enthalten mehr Medizin als die meisten Kapseln im Regal.
+
+Drei Ballaststoffe, drei Fermentationsprofile, alle billig, alle belegt. Die Probiotika-Industrie verkauft den Gast. Das Futter erwähnt sie selten. Weil Futter kein Branding hat.`,
+      quellen: [
+        {
+          autoren: "Marcel Roberfroid, Glenn Gibson, Lesley Hoyles, et al.",
+          titel: "Prebiotic effects: metabolic and health benefits",
+          journal: "British Journal of Nutrition",
+          vol: "Vol. 104, Suppl. 2",
+          datum: "August 2010",
+          seiten: "S1—S63",
+          doi: "10.1017/S0007114510003363",
+          pmid: "20920376",
+        },
+        {
+          autoren: "Wim Calame, André Weseler, Claudia Viebke, et al.",
+          titel: "Gum arabic establishes prebiotic functionality in healthy human volunteers in a dose-dependent manner",
+          journal: "British Journal of Nutrition",
+          vol: "Vol. 100, No. 6",
+          datum: "Dezember 2008",
+          seiten: "1269—1275",
+          doi: "10.1017/S0007114508981447",
+          pmid: "18466655",
+        },
+        {
+          autoren: "Michael David Robertson, Alex Bickerton, A. Louise Dennis, et al.",
+          titel: "Insulin-sensitizing effects of dietary resistant starch and effects on skeletal muscle and adipose tissue metabolism",
+          journal: "American Journal of Clinical Nutrition",
+          vol: "Vol. 82, No. 3",
+          datum: "September 2005",
+          seiten: "559—567",
+          doi: "10.1093/ajcn/82.3.559",
+          pmid: "16155268",
+        },
+        {
+          autoren: "John Burn, Dorothy Bishop, Julia Mecklin, et al.",
+          titel: "Effect of aspirin or resistant starch on colorectal neoplasia in the Lynch syndrome",
+          journal: "New England Journal of Medicine",
+          vol: "Vol. 383, No. 7",
+          datum: "August 2020",
+          seiten: "752—763",
+          doi: "10.1056/NEJMoa1801527",
+          pmid: "32813948",
+        },
+      ],
+    },
   ],
 };

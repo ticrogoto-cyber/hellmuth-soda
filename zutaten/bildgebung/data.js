@@ -286,6 +286,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "praebiotika-ballaststoffe-butyrat/",
+      "title": "Das Futter, das wichtiger ist als der Keim",
+      "lead": "Die Supplement-Industrie verkauft Probiotika für dreißig Euro im Monat. Was die gekauften Keime am Leben hält, sind Ballaststoffe, die in Haferflocken, kalten Kartoffeln und Chicorée stecken. Niemand wirbt dafür, weil sich Hafer schlecht patentieren lässt.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
