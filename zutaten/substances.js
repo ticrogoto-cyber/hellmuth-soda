@@ -667,7 +667,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Polyphenol",
       werbung: "Grüntee-Power für Zellschutz und Stoffwechsel. Hochdosierte Antioxidantien aus dem grünen Tee, klinisch erforscht für Fettverbrennung und Anti-Aging.",
       wirkung: "EGCG ist das stärkste Catechin im Grüntee. In vitro hundertfach so antioxidativ wie Vitamin C. Im Plasma kommt davon wenig an. Die orale Bioverfügbarkeit liegt unter zwei Prozent. Was im Reagenzglas spektakulär aussieht, scheitert am menschlichen Verdauungstrakt.\n\nKlinisch zeigt EGCG moderate Effekte bei Cervixdysplasie und bei nicht-alkoholischer Steatohepatitis. Bei Adipositas bleiben die Stoffwechseleffekte klein, und die zur Wirkung notwendigen Dosen sind hoch genug, um lebertoxisch zu werden. FDA-Warnungen seit 2018 dokumentieren Fälle akuten Leberversagens nach hochdosierten Grüntee-Extrakten.\n\nWer Grüntee trinkt, profitiert. Drei Tassen täglich enthalten genug Polyphenole für epidemiologisch nachweisbare Effekte auf die Herz-Kreislauf-Mortalität. Wer Grüntee-Extrakt in Kapselform schluckt, riskiert die Leber für eine Wirkung, die das Getränk pharmakologisch ohnehin liefert.\n\nDie Pflanze ist klüger als ihr Konzentrat.",
-      quellen: ["Yates 2018", "Jin 2018", "Khan 2008"],
+      quellen: ["Yates 2017", "Khan 2008"],
       related_article: null,
     },
     {
@@ -903,7 +903,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Polyphenol",
       werbung: "Premium-Grüntee-Catechin für Anti-Aging und Stoffwechsel. EGCG für Krebsprävention, Fettverbrennung und Anti-Aging, klinisch erforscht.",
       wirkung: "EGCG ist das stärkste Catechin im Grüntee. In vitro hundertfach so antioxidativ wie Vitamin C. Im Plasma kommt davon wenig an. Die orale Bioverfügbarkeit liegt unter zwei Prozent. Was im Reagenzglas spektakulär aussieht, scheitert am menschlichen Verdauungstrakt.\n\nKlinisch zeigt EGCG moderate Effekte bei Cervixdysplasie und bei nicht-alkoholischer Steatohepatitis. Bei Adipositas bleiben die Stoffwechseleffekte klein, und die zur Wirkung notwendigen Dosen sind hoch genug, um lebertoxisch zu werden. FDA-Warnungen seit 2018 dokumentieren Fälle akuten Leberversagens nach hochdosierten Grüntee-Extrakten.\n\nWer Grüntee trinkt, profitiert. Drei Tassen täglich enthalten genug Polyphenole für epidemiologisch nachweisbare Effekte auf die Herz-Kreislauf-Mortalität. Wer Grüntee-Extrakt in Kapselform schluckt, riskiert die Leber für eine Wirkung, die das Getränk ohnehin liefert.\n\nDie Pflanze ist klüger als ihr Konzentrat.",
-      quellen: ["Yates 2018", "Jin 2018", "Khan 2008"],
+      quellen: ["Yates 2017", "Khan 2008"],
       related_article: null,
     },
     {
