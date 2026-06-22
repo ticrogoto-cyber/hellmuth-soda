@@ -548,5 +548,93 @@ Auf Amazon heißen inzwischen auch Kurkuma, Ingwer und Spirulina »adaptogen«. 
         },
       ],
     },
+    {
+      slug: "ashwagandha-ksm66-schilddruese",
+      titel: "Die bestuntersuchte Pflanze, vor der niemand warnt",
+      lead: "Ashwagandha senkt Cortisol, verbessert Schlaf und stimuliert die Schilddrüse. Für die ersten beiden Wirkungen gibt es Etiketten. Für die dritte gibt es Fallberichte in der Notaufnahme.",
+      filter: ["Ruhe"],
+      date: "2026-06-22",
+      body: `Ashwagandha ist die Pflanze, bei der die Datenlage tatsächlich hält. Chandrasekhar 2012 misst nach sechzig Tagen KSM-66-Extrakt eine Cortisolreduktion um 27,9 Prozent gegenüber Placebo. Lopresti 2019 bestätigt den Befund mit einer größeren Kohorte und ergänzt Verbesserungen bei Schlafqualität, Stressresistenz und morgendlichem Cortisol. Langade 2019 zeigt in einer Aktigraphie-kontrollierten Studie signifikant verkürzte Einschlaflatenz und erhöhte Schlafeffizienz nach zehn Wochen. Das sind drei randomisierte Studien mit harten Endpunkten aus drei unabhängigen Gruppen. Für eine Pflanze, die man im Internet für zwölf Euro bestellen kann, ist das eine ungewöhnlich dichte Beweislage.
+
+KSM-66 ist der Extrakt, auf den sich die meiste Evidenz stützt. Vollspektrum-Wurzelextrakt, standardisiert auf mindestens fünf Prozent Withanolide. Withanolide sind Steroidlactone, die an GABA-A-Rezeptoren binden, die HPA-Achse modulieren und Hitzeschockproteine hochregulieren. Wer auf dem Etikett »Ashwagandha 500 mg« liest, ohne Angabe des Extrakts und des Withanolid-Gehalts, kauft ein Versprechen ohne Spezifikation. Ob Wurzelpulver, Blattextrakt oder Vollspektrum drin ist, entscheidet über die Pharmakologie. Das Etikett schweigt.
+
+Jetzt die Schilddrüse. Sharma 2018 zeigt in einer randomisierten Studie an Patienten mit subklinischer Hypothyreose, dass 600 mg Ashwagandha-Wurzelextrakt über acht Wochen TSH normalisiert und T3 sowie T4 anhebt. Die Studie war als Wirksamkeitsnachweis angelegt. Das war sie auch. Sie bewies nebenbei, dass Ashwagandha Schilddrüsenhormone hochtreibt. Bei Unterfunktion ist das erwünscht. Bei Überfunktion ist das die Notaufnahme.
+
+Wie gefährlich, beschreiben die Fallberichte. Van der Hooft 2005 dokumentiert eine 32-jährige gesunde Frau, die unter Ashwagandha-Kapseln eine Thyreotoxikose entwickelte. Jaiswal 2023 berichtet im BMJ Case Reports einen vergleichbaren Fall. Eine 73-jährige Frau mit supraventrikulärer Tachykardie nach zwei Jahren Ashwagandha-Einnahme landete in der Notaufnahme, dokumentiert bei Abdulaziz 2022. Drei Fallberichte machen keine Epidemiologie. Sie machen Krankenakten.
+
+Die Supplement-Industrie verkauft Ashwagandha als »Stressabbau«. Das ist ungefähr so präzise wie ein Auto als »Fortbewegung« zu verkaufen, ohne die Bremsen zu erwähnen. Die Cortisolsenkung ist real. Die Schlafverbesserung ist real. Die Schilddrüsenstimulation ist genauso real. Auf dem Etikett stehen die ersten zwei. In der Notaufnahme erklärt man die dritte.
+
+Die Forschung hat bei Ashwagandha geliefert. Drei RCTs zur Stressachse, eine zur Schilddrüse, Aktigraphie-Daten zum Schlaf. Was fehlt, ist die Übersetzung dieser Befunde in eine ehrliche Produktkommunikation. Stattdessen steht auf der Packung »traditionell angewendet«, eine Formel, die gleichzeitig alles verspricht und nichts garantiert.`,
+      quellen: [
+        {
+          autoren: "Karuppiah Chandrasekhar, Jyoti Kapoor, Sridhar Anishetty",
+          titel: "A Prospective, Randomized Double-Blind, Placebo-Controlled Study of Safety and Efficacy of a High-Concentration Full-Spectrum Extract of Ashwagandha Root in Reducing Stress and Anxiety in Adults",
+          journal: "Indian Journal of Psychological Medicine",
+          vol: "Vol. 34, No. 3",
+          datum: "Juli—September 2012",
+          seiten: "255—262",
+          doi: "10.4103/0253-7176.106022",
+          pmid: "23439798",
+        },
+        {
+          autoren: "Adrian Lopresti, Stephen Smith, Heather Malvi, et al.",
+          titel: "An investigation into the stress-relieving and pharmacological actions of an ashwagandha (Withania somnifera) extract",
+          journal: "Medicine",
+          vol: "Vol. 98, No. 37",
+          datum: "September 2019",
+          seiten: "e17186",
+          doi: "10.1097/MD.0000000000017186",
+          pmid: "31517876",
+        },
+        {
+          autoren: "Deepak Langade, Subodh Kanchi, Jaising Salve, et al.",
+          titel: "Efficacy and Safety of Ashwagandha (Withania somnifera) Root Extract in Insomnia and Anxiety: A Double-blind, Randomized, Placebo-controlled Study",
+          journal: "Cureus",
+          vol: "Vol. 11, No. 9",
+          datum: "28.09.2019",
+          seiten: "e5797",
+          doi: "10.7759/cureus.5797",
+          pmid: "31728244",
+        },
+        {
+          autoren: "Ashok Kumar Sharma, Indraneel Basu, Siddarth Singh",
+          titel: "Efficacy and Safety of Ashwagandha Root Extract in Subclinical Hypothyroid Patients: A Double-Blind, Randomized Placebo-Controlled Trial",
+          journal: "Journal of Alternative and Complementary Medicine",
+          vol: "Vol. 24, No. 3",
+          datum: "März 2018",
+          seiten: "243—248",
+          doi: "10.1089/acm.2017.0183",
+          pmid: "29091029",
+        },
+        {
+          autoren: "Cees S. van der Hooft, Anke Hoekstra, Agnes Winter, et al.",
+          titel: "Thyrotoxicosis following the use of ashwagandha",
+          journal: "Netherlands Journal of Medicine",
+          vol: "Vol. 63, No. 10",
+          datum: "November 2005",
+          seiten: "400—402",
+          pmid: "16301764",
+        },
+        {
+          autoren: "Shubham Jaiswal, Ravi Singh, Rakesh Kumar",
+          titel: "Ashwagandha-induced thyrotoxicosis: a case report",
+          journal: "BMJ Case Reports",
+          vol: "Vol. 16, No. 4",
+          datum: "April 2023",
+          seiten: "e254502",
+          doi: "10.1136/bcr-2023-254502",
+        },
+        {
+          autoren: "Mohanad Abdulaziz, Naseem Akhtar, Arif Hafeez, et al.",
+          titel: "Ashwagandha as a Unique Cause of Thyrotoxicosis Presenting With Supraventricular Tachycardia",
+          journal: "Cureus",
+          vol: "Vol. 14, No. 3",
+          datum: "März 2022",
+          seiten: "e23294",
+          doi: "10.7759/cureus.23294",
+          pmid: "35475091",
+        },
+      ],
+    },
   ],
 };

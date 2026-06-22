@@ -44,6 +44,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "ruhe"
       ]
+    },
+    {
+      "href": "ashwagandha-ksm66-schilddruese/",
+      "title": "Die bestuntersuchte Pflanze, vor der niemand warnt",
+      "lead": "Ashwagandha senkt Cortisol, verbessert Schlaf und stimuliert die Schilddrüse. Für die ersten beiden Wirkungen gibt es Etiketten. Für die dritte gibt es Fallberichte in der Notaufnahme.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "ruhe"
+      ]
     }
   ]
 };
