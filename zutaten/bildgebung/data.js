@@ -418,6 +418,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unterschaetzt"
       ]
+    },
+    {
+      "href": "omega-3-hirnatrophie-b-vitamine/",
+      "title": "Die Fettsäure, die das Gehirn baut und die niemand misst",
+      "lead": "DHA macht zwanzig Prozent der Fettsäuren im Gehirn aus. Der Körper stellt es kaum selbst her. Das Omega-6-zu-Omega-3-Verhältnis in der westlichen Ernährung liegt bei fünfzehn zu eins. Evolutionär lag es bei eins zu eins. Die Entzündungslast moderner Gesellschaften hat eine Fettsäure-Signatur, die kein Arzt routinemäßig misst.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 3,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };

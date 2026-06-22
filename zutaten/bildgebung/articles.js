@@ -2530,5 +2530,61 @@ Das Supplement-Regal ist voll mit Substanzen, die an der Darmwand scheitern, und
         },
       ],
     },
+    {
+      slug: "omega-3-hirnatrophie-b-vitamine",
+      titel: "Die Fettsäure, die das Gehirn baut und die niemand misst",
+      lead: "DHA macht zwanzig Prozent der Fettsäuren im Gehirn aus. Der Körper stellt es kaum selbst her. Das Omega-6-zu-Omega-3-Verhältnis in der westlichen Ernährung liegt bei fünfzehn zu eins. Evolutionär lag es bei eins zu eins. Die Entzündungslast moderner Gesellschaften hat eine Fettsäure-Signatur, die kein Arzt routinemäßig misst.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Jeder kennt Omega-3. Niemand misst es. EPA und DHA sind essentiell. Der Körper braucht sie, baut sie kaum selbst und bekommt sie über Fisch, Algenöl oder Supplementierung. Soweit der Konsens. Was darüber hinausgeht, verschwindet im Rauschen zwischen Fischölkapseln und Gesundheitsportalen.
+
+DHA bildet die Struktur. Fünfzig Prozent der Fettsäuren in der Netzhaut, zwanzig Prozent im Gehirn. Ohne DHA werden Zellmembranen steif, Synapsen langsam, Signalübertragung ineffizient. Das Gehirn schrumpft mit dem Alter. Wie schnell, hängt vom Omega-3-Status ab. Das MRT zeigt es.
+
+EPA arbeitet auf der Entzündungsseite. Die REDUCE-IT-Studie testete vier Gramm gereinigtes EPA täglich an Hochrisikopatienten mit erhöhten Triglyceriden. Ergebnis: fünfundzwanzig Prozent weniger kardiovaskuläre Ereignisse. Publiziert im New England Journal of Medicine, repliziert, umstritten in der Frage, ob der Mineralöl-Placebo die Effektgröße aufgeblasen hat, aber in der Kernaussage robust. In Metaanalysen zur Depression reduziert EPA die Symptomscores mit Effektgrößen vergleichbar mit Antidepressiva. Bei rheumatoider Arthritis senken drei Gramm täglich Gelenkschmerzen und Morgensteifigkeit. EPA ist der entzündungshemmende Arm, DHA der strukturelle. Beide zusammen decken ab, was einzeln unvollständig bleibt.
+
+Dann kommt der Befund, den die Supplement-Industrie nie erwähnt, weil er zwei verschiedene Produktkategorien verbindet. Die VITACOG-Studie in Oxford testete hochdosierte B-Vitamine — Folsäure, B6, B12 — an älteren Erwachsenen mit milder kognitiver Beeinträchtigung. Über zwei Jahre verlangsamten die B-Vitamine die Hirnatrophie signifikant. Aber als Jernerén 2015 die Daten nach Omega-3-Status aufteilte, zerfiel das Bild in zwei Hälften. Bei Teilnehmern mit hohem Omega-3-Spiegel reduzierten B-Vitamine die Hirnatrophie um vierzig Prozent. Bei Teilnehmern mit niedrigem Omega-3-Spiegel taten B-Vitamine gar nichts. Die Wirkung war vollständig abhängig vom Omega-3-Status.
+
+B-Vitamine gegen Hirnatrophie. Wirkungslos, wenn Omega-3 fehlt. Omega-3 gegen Hirnatrophie. Unzureichend, wenn Homocystein durch B-Vitamin-Mangel erhöht bleibt. Kein Etikett erwähnt das andere. Die beiden Substanzklassen sind keine unabhängigen Wirkstoffe. Sie sind ein System. B-Vitamine erleichtern den Einbau von DHA in Phospholipide. Omega-3 liefert das Baumaterial, das B-Vitamine in die Membran dirigieren. Ohne das Material nützt die Logistik nichts. Ohne die Logistik bleibt das Material liegen.
+
+Kein Etikett einer B-Vitamin-Kapsel erwähnt Omega-3. Kein Etikett einer Omega-3-Kapsel erwähnt B-Vitamine. Die Industrie verkauft beide Seiten des Systems separat und lässt den Kunden die Verbindung selbst herstellen, die er nicht kennen kann, weil Jernerén 2015 in keiner Werbeanzeige vorkommt.
+
+Neben der Ernährung schrumpft das Gehirn noch durch eine Quelle, an die beim Thema Supplementierung niemand denkt. Feinstaub. PM2,5-Partikel sind klein genug, um die Blut-Hirn-Schranke zu passieren. Im Gehirn lösen sie neuroinflammatorische Kaskaden aus, aktivieren Mikroglia und beschleunigen die Ablagerung von Amyloid und Tau. Langzeitstudien zeigen reduziertes Hippocampusvolumen und erhöhtes Demenzrisiko bei chronischer Exposition. Wer an einer Hauptstraße in Berlin lebt, supplementiert Omega-3 und B-Vitamine gegen einen Gegner, den keine Kapsel erreicht. Die Kombination aus niedrigem Omega-3, erhöhtem Homocystein und chronischer Feinstaubbelastung beschreibt den Alltag eines durchschnittlichen Großstadtbewohners in Mitteleuropa. Drei Schrumpffaktoren gleichzeitig. Keine Leitlinie, die alle drei adressiert. Kein Arzt, der das Gespräch führt.
+
+Das Omega-6-zu-Omega-3-Verhältnis fasst das Ernährungsproblem in einer Zahl zusammen. Evolutionär lag es bei eins zu eins bis drei zu eins. In der westlichen Ernährung liegt es bei fünfzehn zu eins bis zwanzig zu eins. Sonnenblumenöl, Sojaöl, Maisöl, verarbeitete Lebensmittel, Massentierhaltung. Jedes dieser Produkte ist billiger als Fisch. Jede Mahlzeit, die mehr Omega-6 als Omega-3 liefert, verschiebt das Entzündungsgleichgewicht weiter in die falsche Richtung. Die Lebensmittelindustrie hat Omega-6 in jede Zutat gedrückt, weil es billig ist und lange hält. Die Konsequenz bezahlt das Gesundheitssystem dreißig Jahre später, wenn die Neurologie die Rechnung bekommt.
+
+Die Supplement-Industrie verkauft Fischölkapseln für sieben Euro. Die funktionelle Medizin verkauft Omega-3-Indextests für fünfzig Euro. Die Kassenmedizin misst weder den Omega-3-Index noch den Homocysteinspiegel routinemäßig. Der häufigste Nährstoffmangel der westlichen Welt taucht in keinem Standard-Blutbild auf. Dazwischen liegt ein Fettsäureprofil, das über die Geschwindigkeit entscheidet, mit der das Gehirn seinen eigenen Abschied vorbereitet. Die Fettsäure, die das Gehirn gebaut hat, ist auch die, die bestimmt, wie schnell es verfällt. Die Biologie hatte nie einen Plan B. Wer kein Omega-3 liefert, liefert den Verfall mit.`,
+      quellen: [
+        {
+          autoren: "Deepak Bhatt, Gabriel Steg, Michael Miller, et al.",
+          titel: "Cardiovascular risk reduction with icosapent ethyl for hypertriglyceridemia",
+          journal: "New England Journal of Medicine",
+          vol: "Vol. 380, No. 1",
+          datum: "Januar 2019",
+          seiten: "11—22",
+          doi: "10.1056/NEJMoa1812792",
+          pmid: "30415628",
+        },
+        {
+          autoren: "Fredrik Jernerén, Amany Elshorbagy, Abderrahim Oulhaj, et al.",
+          titel: "Brain atrophy in cognitively impaired elderly: the importance of long-chain ω-3 fatty acids and B vitamin status in a randomized controlled trial",
+          journal: "American Journal of Clinical Nutrition",
+          vol: "Vol. 102, No. 1",
+          datum: "Juli 2015",
+          seiten: "215—221",
+          doi: "10.3945/ajcn.114.103283",
+          pmid: "25877495",
+        },
+        {
+          autoren: "Philippa Middleton, Jones Gomersall, Judith Gould, et al.",
+          titel: "Omega-3 fatty acid addition during pregnancy",
+          journal: "Cochrane Database of Systematic Reviews",
+          vol: "No. 11",
+          datum: "November 2018",
+          seiten: "CD003402",
+          doi: "10.1002/14651858.CD003402.pub3",
+          pmid: "30480773",
+        },
+      ],
+    },
   ],
 };
