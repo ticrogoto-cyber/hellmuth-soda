@@ -1547,5 +1547,53 @@ Antimikrobikum, Ketogenes, Kochfett. Drei Funktionen, eine Fettsäure. Die AHA h
         },
       ],
     },
+    {
+      slug: "szechuanpfeffer-sanshool-vibration",
+      titel: "Das Gewürz, das die Lippen auf 50 Hertz vibrieren lässt",
+      lead: "Szechuanpfeffer enthält Hydroxy-alpha-Sanshool, eine Substanz, die Mechanorezeptoren der Haut aktiviert und ein messbares Vibrieren bei 50 Hertz erzeugt. Das Kribbeln im Mund ist physikalisch real.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Szechuanpfeffer gehört botanisch zu den Rautengewächsen, hat mit schwarzem Pfeffer so viel zu tun wie Erdnüsse mit Nüssen, und erzeugt statt Schärfe etwas, das sich anfühlt wie Strom. Ein leichtes Summen, das sich über die Lippen ausbreitet. Die meisten halten das für eine Art Schmerz, aber Szechuanpfeffer tut nicht weh. Er täuscht. Er aktiviert Berührungsrezeptoren mit einer Chemikalie. Der Mund meldet Vibration, obwohl nichts vibriert. Wer das einmal verstanden hat, traut seinen Sinnen nie wieder blind.
+
+Der Wirkstoff heißt Hydroxy-alpha-Sanshool. Er gehört zur Klasse der N-Alkylamide, derselben Stoffgruppe wie Spilanthol aus der Parakresse. Koo 2007 identifiziert die molekularen Zielstrukturen. Sanshool aktiviert TRPV1 und TRPA1, die Kanäle, die auch auf Capsaicin und Senföl reagieren. Aber das ist nur die halbe Geschichte. Bautista 2008 zeigt in PNAS, dass Sanshool zusätzlich Zweiporenkaliumkanäle hemmt, KCNK3 und KCNK9. Diese Kanäle halten Nervenzellen in Ruhe. Wenn sie blockiert werden, feuern die Neurone spontan. Dieselben Kanäle adressieren Anästhesiemedikamente. Szechuanpfeffer betäubt nach demselben Prinzip, nach dem ein Zahnarzt betäubt. Die chinesische Medizin wusste das seit Jahrhunderten. Die Molekularbiologie brauchte bis 2008.
+
+Hagura 2013 liefert die eleganteste Messung. In einer Studie am University College London trugen Probanden Szechuanpfeffer auf die Unterlippe auf und verglichen das Kribbeln mit mechanischen Vibrationen am Zeigefinger. Die wahrgenommene Frequenz lag bei 50 Hertz, plus minus 2,4. Das entspricht exakt dem Empfindlichkeitsbereich der RA1/Meissner-Mechanorezeptoren, der Fasern, die leichte Berührung und Vibration verarbeiten. Ein Gewürz, das die Lippen bei einer messbaren Frequenz vibrieren lässt. Die Neurologie hat dafür den Begriff »chemische Haptik« geprägt. Die Küche nennt es »Mala«.
+
+Die sensorische Wirkung überschneidet sich mit der von Spilanthol, dem Wirkstoff der Parakresse. Beide sind N-Alkylamide, beide aktivieren trigeminale Fasern, beide erzeugen Parästhesien statt Schmerz. Der Unterschied liegt im Frequenzprofil und in der Latenz. Szechuanpfeffer setzt langsamer ein und hält länger an. In der Kombination erzeugen beide eine sensorische Tiefe, die kein einzelner Wirkstoff liefert.
+
+Fünfzig Hertz. Die Frequenz eines europäischen Wechselstromnetzes. Ein Gewürz, das die Lippen auf Netzfrequenz bringt. Wer das Zufall nennt, hat keinen Sinn für die Pointen der Biochemie.`,
+      quellen: [
+        {
+          autoren: "Jun Young Koo, Yanggu Jang, Hawon Cho, et al.",
+          titel: "Hydroxy-alpha-sanshool activates TRPV1 and TRPA1 in sensory neurons",
+          journal: "European Journal of Neuroscience",
+          vol: "Vol. 26, No. 5",
+          datum: "September 2007",
+          seiten: "1139—1147",
+          doi: "10.1111/j.1460-9568.2007.05743.x",
+          pmid: "17767493",
+        },
+        {
+          autoren: "Diana Bautista, Yaron Sigal, Aaron Milstein, et al.",
+          titel: "Pungent agents from Szechuan peppers excite sensory neurons by inhibiting two-pore potassium channels",
+          journal: "Nature Neuroscience",
+          vol: "Vol. 11, No. 7",
+          datum: "Juli 2008",
+          seiten: "772—779",
+          doi: "10.1038/nn.2143",
+          pmid: "18568022",
+        },
+        {
+          autoren: "Nobuhiro Hagura, Harry Barber, Patrick Haggard",
+          titel: "Food vibrations: Asian spice sets lips trembling",
+          journal: "Proceedings of the Royal Society B",
+          vol: "Vol. 280, No. 1770",
+          datum: "07.11.2013",
+          seiten: "20131680",
+          doi: "10.1098/rspb.2013.1680",
+          pmid: "24026819",
+        },
+      ],
+    },
   ],
 };

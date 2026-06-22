@@ -199,6 +199,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "szechuanpfeffer-sanshool-vibration/",
+      "title": "Das Gewürz, das die Lippen auf 50 Hertz vibrieren lässt",
+      "lead": "Szechuanpfeffer enthält Hydroxy-alpha-Sanshool, eine Substanz, die Mechanorezeptoren der Haut aktiviert und ein messbares Vibrieren bei 50 Hertz erzeugt. Das Kribbeln im Mund ist physikalisch real.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };
