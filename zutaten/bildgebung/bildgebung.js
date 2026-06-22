@@ -12,8 +12,6 @@
   const LABELS = {
     ruhe: 'Ruhe',
     klarheit: 'Klarheit',
-    darm: 'Darm',
-    zelle: 'Zelle',
     substanz: 'Substanz',
   };
 

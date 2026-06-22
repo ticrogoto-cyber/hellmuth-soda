@@ -5,7 +5,7 @@
 //   lead      string   Subtitle, ein bis zwei Sätze
 //   body      string   Markdown-Body: ## Headlines, leere Zeilen trennen Absätze
 //   quellen   Quelle[] Vollzitate als Objekte (siehe Schema unten)
-//   filter    string[] Themen-Tags: Ruhe | Klarheit | Darm | Zelle | Substanz
+//   filter    string[] Themen-Tags: Ruhe | Klarheit | Substanz
 //   date      string   ISO-Datum YYYY-MM-DD (Veröffentlichung, sortiert chronologisch)
 //
 // Quelle-Schema (Format "Kreativer Suizid": volle Vornamen, max. 3 Autoren + et al.,
