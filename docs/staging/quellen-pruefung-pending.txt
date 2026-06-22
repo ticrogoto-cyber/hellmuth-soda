@@ -1,41 +1,8 @@
 DMSO (Dimethylsulfoxid) :: Jacob 2015
 Huflattich (Tussilago farfara) :: HMPC 2015
 Jiaogulan (Gynostemma pentaphyllum) :: Li 2010
-Methylenblau :: Rojas 2012 | Oz 2011
-Molybdän :: Rajagopalan 1988
-Mönchspfeffer (Vitex agnus-castus) :: Schellenberg 2001 | Wuttke 2003
-Moringa (Moringa oleifera) :: Stohs 2015
-MSM (Methylsulfonylmethan) :: Kim 2006 | Debbi 2011
-Mucuna pruriens :: Katzenschlager 2004
-Myo-Inositol :: Unfer 2017 | Benjamin 1995
-Myrrhe (Commiphora myrrha) :: Langhorst 2013 | Dolara 1996
-NAC (N-Acetylcystein) :: Heard 2008 | Dean 2011
-NAD+ / NMN :: Yoshino 2011 | Liao 2021
-Nattokinase :: Kim 2008 | Ren 2017
-Nicotinamid · Niacin · Vitamin B3 :: Chen 2015 | Bogan 2008
-Noopept :: Ostrovskaya 2014
-NR (Nicotinamid-Ribosid) :: Martens 2018 | Trammell 2016
-Omega-3 (EPA / DHA) :: Bhatt 2019 | Liao 2019 | Middleton 2018
-Pektin (inkl. Modified Citrus Pectin) :: Eliaz 2006 | Zhao 2008
-Pfefferminzöl (Mentha × piperita) :: Khanna 2014
-Phenylpiracetam :: Malykh 2010
-PHGG (teilhydrolysiertes Guarkernmehl, Sunfiber) :: Rao 2015 | Furnari 2010
-Phosphatidylcholin (Lecithin) :: Stremmel 2005
-Phosphatidylserin :: Crook 1991 | Monteleone 2004
-Piracetam :: Winblad 2005
-PQQ (Pyrrolochinolinchinon) :: Chowanadisai 2010 | Nakano 2012
-Propionat :: Duscha 2020 | Chambers 2015
-Pterostilben :: Rimando 2005 | Riche 2014
-Pycnogenol (Kiefernrindenextrakt) :: Rohdewald 2002 | Enseleit 2012
-Pygeum (Prunus africana) :: Wilt 2002
-Quercetin (Quercefit®) :: Mlcek 2016 | Kirkland 2017
 Raupenpilz (Cordyceps militaris) :: Chen 2010 | Yi 2004
-Resistente Stärke (RS2 / RS3) :: Robertson 2005 | Burn 2020
-Resveratrol :: Walle 2004 | Vang 2011
-Rhodiola rosea :: Darbinyan 2000 | Mao 2015
-Ringelblume (Calendula officinalis) :: Pommier 2004
-Rizinusöl (Ricinus communis) :: Tunaru 2012 | Vieira 2000
-Rosmarin (Rosmarinus officinalis) :: Moss 2003 | Smith 2011
+Rosmarin (Rosmarinus officinalis) :: Smith 2011
 Rosskastanie (Aesculus hippocastanum) :: Pittler 2012
 Saccharomyces boulardii :: McFarland 2006 | Szajewska 2007
 Safran (Crocus sativus) :: Hausenblas 2013 | Modaghegh 2008

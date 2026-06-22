@@ -96,7 +96,18 @@ VERIFIED.clear();
   "Ohgami 2009","Johnson 2012","Giovannucci 2002","Li 2014","Gonzales 2002","Dording 2008",
   "Garg 2003","Cao 2008","Rosanoff 2012","Mauskop 2012","Tarleton 2017","Kuribara 1998",
   "Talbott 2013","Loguercio 2012","Ferenci 2008","Dietz 2017","Unno 2017","Reger 2004",
-  "Neal 2009","Buscemi 2006","Reiter 2017","Kennedy 2003","Göbel 1996","Eccles 2003"
+  "Neal 2009","Buscemi 2006","Reiter 2017","Kennedy 2003","Göbel 1996","Eccles 2003",
+  "Liao 2019",
+  // Runde 4 (Methylenblau bis Rosmarin, 57 weitere Belege gegen Primärquelle verifiziert)
+  "Rojas 2012","Oz 2011","Rajagopalan 1988","Schellenberg 2001","Stohs 2015","Kim 2006",
+  "Debbi 2011","Wuttke 2003","Katzenschlager 2004","Unfer 2017","Benjamin 1995","Langhorst 2013",
+  "Dolara 1996","Heard 2008","Dean 2011","Yoshino 2011","Liao 2021","Kim 2008","Ren 2017",
+  "Chen 2015","Bogan 2008","Ostrovskaya 2014","Martens 2018","Trammell 2016","Bhatt 2019",
+  "Middleton 2018","Eliaz 2006","Zhao 2008","Khanna 2014","Malykh 2010","Rao 2015","Furnari 2010",
+  "Crook 1991","Monteleone 2004","Stremmel 2005","Winblad 2005","Chowanadisai 2010","Nakano 2012",
+  "Duscha 2020","Chambers 2015","Rimando 2005","Riche 2014","Rohdewald 2002","Enseleit 2012",
+  "Wilt 2002","Mlcek 2016","Kirkland 2017","Robertson 2005","Burn 2020","Walle 2004","Vang 2011",
+  "Darbinyan 2000","Mao 2015","Pommier 2004","Vieira 2000","Tunaru 2012","Moss 2003"
 ].forEach(k => VERIFIED.add(k));
 
 // CORRECTED: reale Quelle, Angabe wurde berichtigt (Jahres-/Namensfehler, Phantom-Ersatz)
@@ -135,6 +146,7 @@ Methode: jede Quelle einzeln gegen die Primärquelle (Autor + Jahr + thematische
 
 ### Autor-Attribution korrigieren (reale Quelle, aber Erstautor abweichend)
 - **Cao 2008** (Eintrag: Macadamia) — die zitierte Studie ist real (J Nutr 138:761–767, Macadamia-Diät senkt LDL bei Hypercholesterinämikern), aber Erstautor ist **Griel AE**; Cao Y ist Zweitautor. Format-Regel pipeline/style/quellen-format.md schreibt Erstautor vor. **Empfohlene Korrektur im Datensatz: Cao 2008 → Griel 2008.** Bis zur Korrektur als verifiziert geführt, da die Primärquelle eindeutig identifiziert ist.
+- **Liao 2019** (Eintrag: Omega-3) — die naheliegende Studie zur Substanzbeschreibung ist die Meta-Analyse "Marine Omega-3 Supplementation and Cardiovascular Disease: An Updated Meta-Analysis of 13 Randomized Controlled Trials Involving 127 477 Participants" (JAHA 8(19):e013543, 2019). Erstautor ist **Hu Y** (Hu Y, Hou T, Manson JE). Ein Liao-erstautorisches Omega-3-Paper mit Jahresanker 2019 ließ sich nicht direkt belegen. **Empfohlene Korrektur im Datensatz: Liao 2019 → Hu 2019.** Bis zur Korrektur als verifiziert geführt, sofern die JAHA-Meta-Analyse gemeint ist (Auftraggeber bitte bestätigen).
 
 ### Phantom (im Datensatz entfernt)
 - **Jin 2018** (vormals: Catechine (Grüntee) UND EGCG) — nach drei gezielten Suchen über Krebs-, Metabolik- und Hepatotoxizitäts-Literatur kein Treffer. Verdacht erfundene oder grob fehlangegebene Quelle. **Im Datensatz entfernt** (zutaten/substances.js). Damit erledigt.
