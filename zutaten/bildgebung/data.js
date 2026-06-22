@@ -66,6 +66,18 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "ruhe"
       ]
+    },
+    {
+      "href": "gaba-glycin-magnesium-glycinat/",
+      "title": "Drei Wege zur Bremse, einer davon funktioniert nicht",
+      "lead": "GABA ist der wichtigste hemmende Neurotransmitter im Gehirn. Als Supplement geschluckt erreicht er es wahrscheinlich nicht. Die Supplement-Industrie verkauft ihn trotzdem.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "ruhe",
+        "substanz"
+      ]
     }
   ]
 };

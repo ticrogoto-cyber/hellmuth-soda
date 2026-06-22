@@ -717,5 +717,84 @@ Houpu gibt es im Asia-Markt. Relora gibt es auf Amazon. Die GABA-A-Bindung gibt 
         },
       ],
     },
+    {
+      slug: "gaba-glycin-magnesium-glycinat",
+      titel: "Drei Wege zur Bremse, einer davon funktioniert nicht",
+      lead: "GABA ist der wichtigste hemmende Neurotransmitter im Gehirn. Als Supplement geschluckt erreicht er es wahrscheinlich nicht. Die Supplement-Industrie verkauft ihn trotzdem.",
+      filter: ["Ruhe", "Substanz"],
+      date: "2026-06-22",
+      body: `GABA-Kapseln sind das zweitbeliebteste Schlaf-Supplement auf Amazon nach Melatonin. Die Packung verspricht Entspannung, Stressreduktion, besseren Schlaf. Das Problem steht in keinem Beipackzettel. GABA ist ein hochpolares Molekül. Die Blut-Hirn-Schranke lässt hochpolare Moleküle nicht passieren. Boonstra 2015 fasst die Literatur zusammen und kommt zu dem Ergebnis, dass die BBB-Permeabilität von oral eingenommenem GABA beim Menschen wahrscheinlich minimal ist. Die positiven Effekte, die manche Studien messen, laufen vermutlich über den Vagusnerv oder sind Placebo. Eine direkte Messung von Gehirn-GABA-Spiegeln nach oraler Einnahme per MR-Spektroskopie existiert nicht.
+
+Ein Supplement, dessen Wirkstoff sein Zielorgan vermutlich nicht erreicht, ist das zweitbeliebteste Schlafmittel im Onlinehandel.
+
+Glycin erreicht das Gehirn. Es passiert die Blut-Hirn-Schranke per passiver Diffusion und bindet an NMDA-Rezeptoren im Nucleus suprachiasmaticus. Kawai 2015 zeigt in Ratten, dass Glycin über diesen Weg die Körperkerntemperatur senkt. Temperaturabfall ist das physiologische Signal für Schlafeinleitung. Glycin sediert nicht. Es kühlt. Der Mechanismus ist anders als bei Benzodiazepinen oder Antihistaminika, die neuronale Aktivität unterdrücken.
+
+Yamadera 2007 misst die Wirkung am Menschen. Drei Gramm Glycin vor dem Schlafengehen verbessern die subjektive Schlafqualität und korrelieren mit polysomnographischen Veränderungen. Bannai 2012 ergänzt, dass dieselbe Dosis die Tagesperformance bei Schlafentzug verbessert, weniger Müdigkeit, schnellere Reaktionszeiten. Drei Gramm. Kostet weniger als ein Euro pro Tag. Keine Nebenwirkungen in keiner der Studien.
+
+Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor der Glutamat-Decarboxylase, des Enzyms, das Glutamat in GABA umwandelt. Wer genug Magnesium hat, produziert mehr GABA im Gehirn. Das Glycinat als Träger liefert gleichzeitig die Aminosäure, die über ihren eigenen Wirkweg den Schlaf fördert. Zwei Substanzen, zwei Mechanismen, eine Tablette. Magnesium-Glycinat schneidet in Schlafstudien besser ab als Magnesiumoxid oder Citrat. Nicht wegen des Magnesiumgehalts. Der ist niedriger. Es ist das Glycin.
+
+Das Muster ist typisch. GABA als Supplement verkauft die Idee direkt, das Molekül direkt ins Gehirn zu liefern. Die Idee scheitert an der Biochemie. Glycin geht den Umweg über Temperaturregulation und NMDA-Rezeptoren und kommt an. Magnesium-Glycinat geht beide Wege gleichzeitig. Die Supplement-Industrie bewirbt am lautesten, was am schlechtesten funktioniert, und erwähnt am wenigsten, was am besten belegt ist. Drei Gramm Glycinpulver für dreißig Cent haben keine Marketingabteilung.`,
+      quellen: [
+        {
+          autoren: "Evert Boonstra, Roy de Kleijn, Lorenza Colzato, et al.",
+          titel: "Neurotransmitters as food supplements: the effects of GABA on brain and behavior",
+          journal: "Frontiers in Psychology",
+          vol: "Vol. 6",
+          datum: "06.10.2015",
+          seiten: "1520",
+          doi: "10.3389/fpsyg.2015.01520",
+          pmid: "26500584",
+        },
+        {
+          autoren: "Nobuhiro Kawai, Noriaki Sakai, Masashi Okuro, et al.",
+          titel: "The Sleep-Promoting and Hypothermic Effects of Glycine are Mediated by NMDA Receptors in the Suprachiasmatic Nucleus",
+          journal: "Neuropsychopharmacology",
+          vol: "Vol. 40, No. 6",
+          datum: "Mai 2015",
+          seiten: "1405—1416",
+          doi: "10.1038/npp.2014.326",
+          pmid: "25533534",
+        },
+        {
+          autoren: "Wataru Yamadera, Kentaro Inagawa, Shintaro Chiba, et al.",
+          titel: "Glycine ingestion improves subjective sleep quality in human volunteers, correlating with polysomnographic changes",
+          journal: "Sleep and Biological Rhythms",
+          vol: "Vol. 5, No. 2",
+          datum: "April 2007",
+          seiten: "126—131",
+          doi: "10.1111/j.1479-8425.2007.00262.x",
+        },
+        {
+          autoren: "Makoto Bannai, Nobuhiro Kawai, Kaori Ono, et al.",
+          titel: "The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers",
+          journal: "Frontiers in Neurology",
+          vol: "Vol. 3",
+          datum: "18.04.2012",
+          seiten: "61",
+          doi: "10.3389/fneur.2012.00061",
+          pmid: "22529837",
+        },
+        {
+          autoren: "Makoto Bannai, Nobuhiro Kawai",
+          titel: "New therapeutic strategy for amino acid medicine: glycine improves the quality of sleep",
+          journal: "Journal of Pharmacological Sciences",
+          vol: "Vol. 118, No. 2",
+          datum: "2012",
+          seiten: "145—148",
+          doi: "10.1254/jphs.11R04FM",
+          pmid: "22293292",
+        },
+        {
+          autoren: "Silvia Razak, Dominic Ramms, Rhonda Brereton, et al.",
+          titel: "Multifarious Beneficial Effect of Nonessential Amino Acid, Glycine: A Review",
+          journal: "Oxidative Medicine and Cellular Longevity",
+          vol: "Vol. 2017",
+          datum: "2017",
+          seiten: "1716701",
+          doi: "10.1155/2017/1716701",
+          pmid: "28337245",
+        },
+      ],
+    },
   ],
 };
