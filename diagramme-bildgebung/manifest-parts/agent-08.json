@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "ingwer-gingerol-pharmakologie",
+    "essay_url": "/zutaten/bildgebung/ingwer-gingerol-pharmakologie/",
+    "svg_file": "diagramm-ingwer-gingerol-pharmakologie.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Die Entzündungshemmung bestätigt sich am Menschen",
+    "closer_text": "Was drin ist, hätte einen Beipackzettel verdient.",
+    "notes": "Drei pharmakologische Achsen von Ingwer: Antiemese (5-HT3 wie Ondansetron), Magenmotilität (Wu 2008), COX-2-Hemmung (wie Ibuprofen). Sep-Wort: BEIPACKZETTEL. Diagramm sitzt zwischen Mechanismus-Beschreibung (Arthrose-Absatz) und der finalen Kritik an der Supplement-Industrie."
+  },
+  {
+    "essay_slug": "olivenoel-oleocanthal-entzuendung",
+    "essay_url": "/zutaten/bildgebung/olivenoel-oleocanthal-entzuendung/",
+    "svg_file": "diagramm-olivenoel-oleocanthal-entzuendung.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Dann kam PREDIMED. Über 7400 Teilnehmer",
+    "closer_text": "Das Brennen ist der Qualitätstest. Ibuprofen kratzt auch.",
+    "notes": "Gabelung am Brennen im Hals: links frisch (kratzt, Pharmakologie aktiv, PREDIMED), rechts alt/raffiniert (kratzt nicht, Oleocanthal zerfallen — Warnfarbe). Sep-Wort: QUALITÄTSTEST. Diagramm steht zwischen PREDIMED-Absatz und Supermarkt-Problem-Absatz."
+  },
+  {
+    "essay_slug": "szechuanpfeffer-sanshool-vibration",
+    "essay_url": "/zutaten/bildgebung/szechuanpfeffer-sanshool-vibration/",
+    "svg_file": "diagramm-szechuanpfeffer-sanshool-vibration.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Hagura 2013 liefert die eleganteste Messung",
+    "closer_text": "Ein Gewürz, das die Lippen auf Netzfrequenz bringt.",
+    "notes": "Drei molekulare Targets von Hydroxy-alpha-Sanshool: TRPV1/TRPA1 (Koo 2007), KCNK3/KCNK9-Hemmung (Bautista 2008), RA1-Mechanorezeptor (Hagura 2013) — alle münden in 50 Hz. Sep-Wort: NETZFREQUENZ. Diagramm steht nach dem Hagura-Absatz und vor dem Spilanthol-Vergleich."
+  }
+]

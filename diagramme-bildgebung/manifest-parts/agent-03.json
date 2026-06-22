@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "igelstachelbart-nerven-wachsen",
+    "essay_url": "/zutaten/bildgebung/igelstachelbart-nerven-wachsen/",
+    "svg_file": "diagramm-igelstachelbart-nerven-wachsen.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Hericenone haben eine schlechtere Passage",
+    "closer_text": "Der Pilz liefert. Das Produktdesign versagt.",
+    "notes": "Gabelung: Hericium erinaceus teilt sich in FRUCHTKÖRPER (links, der Speisepilz, Hericenone, schwache BHS-Passage, in fast allen Produkten) und MYCEL (rechts, Erinacine, passieren die Blut-Hirn-Schranke, in kaum einem Produkt). Sep-Wort: LÜCKE — die zentralnervös wirksame Klasse fehlt im Regal."
+  },
+  {
+    "essay_slug": "cholin-alpha-gpc-citicolin",
+    "essay_url": "/zutaten/bildgebung/cholin-alpha-gpc-citicolin/",
+    "svg_file": "diagramm-cholin-alpha-gpc-citicolin.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Citicolin geht einen doppelten Weg",
+    "closer_text": "Eine Studie. Signifikant. Vergessen.",
+    "notes": "Triade aus drei Cholinformen, die im Regal dasselbe Wort teilen: BITARTRAT (billig, bleibt im Blut), ALPHA-GPC (BHS-Passage, De Jesus Moreno 2003 n=261), CITICOLIN (doppelter Weg: Acetylcholin + Membranreparatur). Sep-Wort: FORM — was das Etikett verschweigt."
+  },
+  {
+    "essay_slug": "spilanthol-trigeminale-aktivierung",
+    "essay_url": "/zutaten/bildgebung/spilanthol-trigeminale-aktivierung/",
+    "svg_file": "diagramm-spilanthol-trigeminale-aktivierung.svg",
+    "diagram_type": "D (Körperkarte)",
+    "insert_after_paragraph_starting_with": "Spilanthol hemmt NF-kB, unterdrückt",
+    "closer_text": "Im Reformhaus steht die Faltencreme. Im Labor liegt ein Anästhesiekandidat.",
+    "notes": "Körperkarte mit sechs Wirkungsorten eines einzigen Moleküls: Meissner-Körperchen bei 50 Hz, TRPV1 partiell, Natriumkanal (Lidocain-Prinzip), GABA + Opioid, NF-kB/COX-2, Niere/cAMP/NKCC2. Sep-Wort: KARTE — sechs Pfade, ein Molekül, eine Faltencreme."
+  }
+]

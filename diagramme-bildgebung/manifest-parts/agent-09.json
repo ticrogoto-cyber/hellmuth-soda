@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "kalium-elektrolyt-blutdruck",
+    "essay_url": "/zutaten/bildgebung/kalium-elektrolyt-blutdruck/",
+    "svg_file": "diagramm-kalium-elektrolyt-blutdruck.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Aburto 2013 hat für die WHO",
+    "closer_text": "Die Lösung steht im Supermarkt, nicht in der Apotheke.",
+    "notes": "Triade der drei Kalium-Wirkungen: Blutdruck (Aburto 2013), Schlaganfall (-24%), Defizit (WHO 3510 vs IST 2500). Feedback-Bogen zeigt, dass Koffein/Natrium die Lücke vergrößert. Sep-Wort: LÜCKE."
+  },
+  {
+    "essay_slug": "kokoswasser-elektrolyte-hydration",
+    "essay_url": "/zutaten/bildgebung/kokoswasser-elektrolyte-hydration/",
+    "svg_file": "diagramm-kokoswasser-elektrolyte-hydration.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Saat 2002 vergleicht frisches Kokoswasser",
+    "closer_text": "Siebzig Jahre Forschung, um eine Kokosnuss nachzubauen.",
+    "notes": "Gabelung von REHYDRATION (Saat 2002, Kalman 2012) in Gatorade (links, warn, kein Kalium) vs. Kokoswasser (rechts, volles Profil). Sep-Wort: KOPIE."
+  },
+  {
+    "essay_slug": "saeure-basen-basenpulver-ph",
+    "essay_url": "/zutaten/bildgebung/saeure-basen-basenpulver-ph/",
+    "svg_file": "diagramm-saeure-basen-basenpulver-ph.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Es gibt eine Ausnahme, und sie ist real.",
+    "closer_text": "Das Produkt behandelt ein Gefühl, keinen Befund.",
+    "notes": "Gabelung von BASENPULVER in Alltag (links, warn, EIN GEFÜHL im Rahmen als Endpunkt) vs. Fasten (rechts, FX-Mayr, realer Befund). Sep-Wort: MARGE."
+  }
+]

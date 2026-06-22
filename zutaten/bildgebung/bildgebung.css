@@ -343,3 +343,24 @@
     display: block;
   }
 }
+
+/* ----------------------------------------------------------------------------
+   7) Inline-SVG-Diagramme im Fliesstext
+   ----------------------------------------------------------------------------
+   40 essayspezifische SVG-Diagramme (Type A — Triade, B — Gabelung, C —
+   Zeitstrahl, D — Koerperkarte, F — Kreislauf, ...) werden ueber das
+   Manifest `diagramme-bildgebung/manifest.json` zwischen die im Anker
+   benannten Absaetze in den Body gespliced. Die SVGs bringen alles selbst
+   mit (Style, Scroll-Reveal, Hover, prefers-reduced-motion); hier braucht
+   es nur den Wrapper-Abstand und volle Breite des Satzspiegels.
+---------------------------------------------------------------------------- */
+.bildgebung-diagramm {
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+.bildgebung-diagramm svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}

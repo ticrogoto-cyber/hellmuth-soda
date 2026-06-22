@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="senolytika-fisetin-quercetin-zombiezellen">
+  <title id="diag-title">Senolytika — vom Konzept zur Maus, noch nicht zum Menschen</title>
+  <desc id="diag-desc">Zeitstrahl der senolytischen Forschung. 2015 genetische Ablation in der Mayo Clinic, 2017 D+Q als erstes pharmakologisches Senolytikum, 2018 Fisetin als wirksamste Variante. Am Menschen liegen bisher nur Pilotsignale vor.</desc>
+
+  <style>
+    .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
+    .hs-diagram .h-main { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 700; letter-spacing: 0.2em; fill: #1a1a1a; }
+    .hs-diagram .h-col { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.2em; fill: #1a1a1a; }
+    .hs-diagram .h-res { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; font-weight: 400; letter-spacing: 0.16em; fill: #1a1a1a; }
+    .hs-diagram .sub { font-family: 'Fournier Pro', Georgia, serif; font-style: italic; fill: #888; }
+    .hs-diagram .closer { font-family: 'Fournier Pro', Georgia, serif; font-style: italic; fill: #1a1a1a; }
+    .hs-diagram .sep-word { font-family: 'Printvetica', 'Helvetica Neue', sans-serif; letter-spacing: 0.22em; fill: #888; }
+    .hs-diagram .arr { stroke: #1a1a1a; stroke-width: 0.8; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+    .hs-diagram .arr-head { stroke: #1a1a1a; stroke-width: 0.8; fill: none; stroke-linecap: butt; stroke-linejoin: miter; }
+    .hs-diagram .feedback { stroke: #888; stroke-width: 0.7; fill: none; stroke-dasharray: 4 3; }
+    .hs-diagram .feedback-head { stroke: #888; stroke-width: 0.7; fill: none; }
+    .hs-diagram .sep { stroke: #888; stroke-width: 0.5; fill: none; }
+    .hs-diagram .warn { stroke: #6B0F1A; }
+    .hs-diagram .warn-fill { fill: #6B0F1A; }
+
+    .hs-diagram .reveal { opacity: 0; transition: opacity 500ms ease; }
+    .hs-diagram .reveal.is-visible { opacity: 1; }
+    .hs-diagram .lift { transform: translateY(8px); transition: opacity 500ms ease, transform 500ms ease; }
+    .hs-diagram .lift.is-visible { transform: translateY(0); }
+    .hs-diagram .draw { stroke-dasharray: var(--len, 200); stroke-dashoffset: var(--len, 200); transition: stroke-dashoffset 600ms ease; opacity: 1; }
+    .hs-diagram .draw.is-visible { stroke-dashoffset: 0; }
+
+    .hs-diagram .col-group { transition: opacity 200ms ease; cursor: default; }
+    .hs-diagram .col-group:hover { opacity: 0.72; }
+    .hs-diagram .arr-group .arr,
+    .hs-diagram .arr-group .arr-head { transition: stroke-width 200ms ease; }
+    .hs-diagram .arr-group:hover .arr,
+    .hs-diagram .arr-group:hover .arr-head { stroke-width: 1.2; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hs-diagram .reveal,
+      .hs-diagram .lift,
+      .hs-diagram .draw { opacity: 1 !important; transform: none !important; stroke-dashoffset: 0 !important; transition: none !important; }
+    }
+  </style>
+
+  <g class="reveal lift" data-delay="0">
+    <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DIE ZEITREIHE</text>
+  </g>
+  <g class="reveal lift" data-delay="100">
+    <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Vom Konzept über die Maus, nicht zum Menschen</text>
+  </g>
+
+  <g class="col-group" data-col="t1">
+    <g class="reveal lift" data-delay="200">
+      <text class="h-res" x="100" y="148" font-size="11" text-anchor="middle">SASP</text>
+    </g>
+    <g class="reveal lift" data-delay="240">
+      <text class="sub" x="100" y="165" font-size="10.5" text-anchor="middle">Konzept der</text>
+    </g>
+    <g class="reveal lift" data-delay="260">
+      <text class="sub" x="100" y="178" font-size="10.5" text-anchor="middle">Zombiezelle</text>
+    </g>
+  </g>
+
+  <g class="col-group" data-col="t2">
+    <g class="reveal lift" data-delay="240">
+      <text class="h-res" x="240" y="148" font-size="11" text-anchor="middle">MAYO 2015</text>
+    </g>
+    <g class="reveal lift" data-delay="280">
+      <text class="sub" x="240" y="165" font-size="10.5" text-anchor="middle">genetische Ablation</text>
+    </g>
+    <g class="reveal lift" data-delay="300">
+      <text class="sub" x="240" y="178" font-size="10.5" text-anchor="middle">verlängert Mausleben</text>
+    </g>
+  </g>
+
+  <g class="col-group" data-col="t3">
+    <g class="reveal lift" data-delay="280">
+      <text class="h-res" x="380" y="148" font-size="11" text-anchor="middle">D + Q 2017</text>
+    </g>
+    <g class="reveal lift" data-delay="320">
+      <text class="sub" x="380" y="165" font-size="10.5" text-anchor="middle">Dasatinib + Quercetin</text>
+    </g>
+    <g class="reveal lift" data-delay="340">
+      <text class="sub" x="380" y="178" font-size="10.5" text-anchor="middle">erstes Senolytikum</text>
+    </g>
+  </g>
+
+  <g class="col-group" data-col="t4">
+    <g class="reveal lift" data-delay="320">
+      <text class="h-res" x="520" y="148" font-size="11" text-anchor="middle">FISETIN 2018</text>
+    </g>
+    <g class="reveal lift" data-delay="360">
+      <text class="sub" x="520" y="165" font-size="10.5" text-anchor="middle">Yousefzadeh,</text>
+    </g>
+    <g class="reveal lift" data-delay="380">
+      <text class="sub" x="520" y="178" font-size="10.5" text-anchor="middle">EBioMedicine</text>
+    </g>
+  </g>
+
+  <g class="col-group" data-col="t5">
+    <g class="reveal lift" data-delay="360">
+      <text class="h-res" x="620" y="148" font-size="11" text-anchor="middle">MENSCH ?</text>
+    </g>
+    <g class="reveal lift" data-delay="400">
+      <text class="sub" x="620" y="165" font-size="10.5" text-anchor="middle">AFFIRM pending,</text>
+    </g>
+    <g class="reveal lift" data-delay="420">
+      <text class="sub" x="620" y="178" font-size="10.5" text-anchor="middle">n=14, drei Tage</text>
+    </g>
+  </g>
+
+  <g class="arr-group">
+    <line class="arr draw" data-delay="500" x1="60" y1="220" x2="660" y2="220" style="--len:600"/>
+    <polyline class="arr-head reveal" data-delay="900" points="656,216 660,220 656,224"/>
+  </g>
+
+  <g class="reveal" data-delay="560">
+    <line class="sep" x1="100" y1="214" x2="100" y2="226"/>
+  </g>
+  <g class="reveal" data-delay="600">
+    <line class="sep" x1="240" y1="214" x2="240" y2="226"/>
+  </g>
+  <g class="reveal" data-delay="640">
+    <line class="sep" x1="380" y1="214" x2="380" y2="226"/>
+  </g>
+  <g class="reveal" data-delay="680">
+    <line class="sep" x1="520" y1="214" x2="520" y2="226"/>
+  </g>
+  <g class="reveal" data-delay="720">
+    <line class="sep" x1="620" y1="214" x2="620" y2="226"/>
+  </g>
+
+  <g class="reveal lift" data-delay="760">
+    <text class="sub" x="100" y="244" font-size="10.5" text-anchor="middle">~2005</text>
+  </g>
+  <g class="reveal lift" data-delay="780">
+    <text class="sub" x="240" y="244" font-size="10.5" text-anchor="middle">2015</text>
+  </g>
+  <g class="reveal lift" data-delay="800">
+    <text class="sub" x="380" y="244" font-size="10.5" text-anchor="middle">2017</text>
+  </g>
+  <g class="reveal lift" data-delay="820">
+    <text class="sub" x="520" y="244" font-size="10.5" text-anchor="middle">2018</text>
+  </g>
+  <g class="reveal lift" data-delay="840">
+    <text class="sub" x="620" y="244" font-size="10.5" text-anchor="middle">heute</text>
+  </g>
+
+  <g class="reveal lift" data-delay="900">
+    <text class="sub" x="340" y="290" font-size="11" text-anchor="middle">Maus → Maus → Maus → Maus → Bierdeckel an Humandaten</text>
+  </g>
+  <g class="reveal lift" data-delay="940">
+    <text class="sub" x="340" y="308" font-size="10.5" text-anchor="middle">Off-label-Dasatinib, Foren-Protokolle, klinische Lücke</text>
+  </g>
+
+  <g class="reveal" data-delay="1020">
+    <line class="sep" x1="60" y1="340" x2="298" y2="340"/>
+    <text class="sep-word" x="340" y="344" font-size="10" text-anchor="middle">MAUS</text>
+    <line class="sep" x1="382" y1="340" x2="620" y2="340"/>
+  </g>
+
+  <g class="reveal lift" data-delay="1120">
+    <text class="closer" x="340" y="378" font-size="13.5" text-anchor="middle">»Wer heute Senolytika nimmt, wettet darauf, dass Mäuse nicht lügen.«</text>
+  </g>
+
+  <script><![CDATA[
+    (function(){
+      var svg = document.currentScript && document.currentScript.parentNode;
+      if(!svg) return;
+      var els = svg.querySelectorAll('.reveal, .draw');
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      function show(){ els.forEach(function(el){ var d = +(el.getAttribute('data-delay')||0); setTimeout(function(){ el.classList.add('is-visible'); }, d); }); }
+      if(reduced || !('IntersectionObserver' in window)){ els.forEach(function(el){ el.classList.add('is-visible'); }); return; }
+      var seen = false;
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting && !seen){ seen = true; show(); io.disconnect(); } });
+      }, { threshold: 0.2 });
+      io.observe(svg);
+    })();
+  ]]></script>
+</svg>

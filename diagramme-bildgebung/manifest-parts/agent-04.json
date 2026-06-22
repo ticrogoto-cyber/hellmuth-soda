@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "sulforaphan-nrf2-entgiftung",
+    "essay_url": "/zutaten/bildgebung/sulforaphan-nrf2-entgiftung/",
+    "svg_file": "diagramm-sulforaphan-nrf2-entgiftung.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Sulforaphan wirkt über einen einzigen",
+    "closer_text": "Was im Körper ankommt, ist Lotterie.",
+    "notes": "Gabelung: Sprosse (links, Myrosinase aktiv, Nrf2 fährt 200 Schutzgene hoch) gegen Kapsel (rechts, warn-Farbe — Vorstufe ohne Enzym, Bioverfügbarkeit schwankt um Faktor fünf). Sep-Wort: LOTTERIE. Platzierung nach dem Mechanismus-Absatz, vor der Industriekritik."
+  },
+  {
+    "essay_slug": "ala-nac-glutathion-recycling",
+    "essay_url": "/zutaten/bildgebung/ala-nac-glutathion-recycling/",
+    "svg_file": "diagramm-ala-nac-glutathion-recycling.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Alpha-Liponsäure hält das System zusammen",
+    "closer_text": "Drei Substanzen, ein System.",
+    "notes": "Klassische Triade: GLUTATHION (Ziel) · NAC (Baumaterial Cystein) · ALA (Mechaniker, recycelt). Feedback-Bogen unten. Sep-Wort: SYSTEM. Platzierung direkt vor dem Synthese-Absatz, der die Aussage konsolidiert."
+  },
+  {
+    "essay_slug": "chlorella-spirulina-detox-kontamination",
+    "essay_url": "/zutaten/bildgebung/chlorella-spirulina-detox-kontamination/",
+    "svg_file": "diagramm-chlorella-spirulina-detox-kontamination.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Spirulina teilt das Muster",
+    "closer_text": "Die Algen sind selbst das Problem, das sie lösen sollen.",
+    "notes": "Gabelung mit ironischer Doppel-Sackgasse: Marketing-Versprechen (links — keine Humanstudien) gegen biologische Realität (rechts, warn-Farbe — Kontamination mit Blei, Cadmium, Arsen, Mikrocystinen). Sep-Wort: IRONIE. Platzierung nach Einführung beider Algen, vor dem Nährstoff/Schlusssatz-Absatz."
+  }
+]

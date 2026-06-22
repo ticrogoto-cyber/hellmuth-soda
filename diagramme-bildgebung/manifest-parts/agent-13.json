@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "dmso-loesungsmittel-heilmittel",
+    "essay_url": "/zutaten/bildgebung/dmso-loesungsmittel-heilmittel/",
+    "svg_file": "diagramm-dmso-loesungsmittel-heilmittel.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "In Europa und Lateinamerika wird",
+    "closer_text": "Die Substanz, für die er fünfzig Jahre kämpfte, ist in Amerika immer noch eine Blasenspülung.",
+    "notes": "Zeitstrahl mit fünf Marken: 1962 Entdeckung (Knoblauchgeschmack), 1964 Publikation, 1965 FDA-Blockade (Warn-Farbe, Hundeauge/Thalidomid), 1978 Rimso-50, heute (Veterinär, Europa). Horizontale Achse mit Ticks, Ereignis über der Linie, Jahr darunter. Sep-Wort: BLASENSPÜLUNG. Closer-Satz ist der wortgetreue Schlusssatz des Essays."
+  },
+  {
+    "essay_slug": "kokosoel-mct-laurinsaeure",
+    "essay_url": "/zutaten/bildgebung/kokosoel-mct-laurinsaeure/",
+    "svg_file": "diagramm-kokosoel-mct-laurinsaeure.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "In Sri Lanka, den Philippinen",
+    "closer_text": "Wenn dein Werkzeug nur Cholesterin zählen kann, sieht jedes Fett aus wie ein Herzinfarkt.",
+    "notes": "Eine Substanz (Laurinsäure) verzweigt sich in drei Funktionen: ANTIMIKROBIKUM (Monolaurin lysiert Lipidhülle, Kabara 1972), KETOGENES (Pfortader → Leber → Ketonkörper, Hirn-Brennstoff), KOCHFETT (oxidationsstabil). Feedback-Bogen am Boden. Sep-Wort: DREI FUNKTIONEN. Closer ist der wortgetreue Schlusssatz des Essays."
+  },
+  {
+    "essay_slug": "omega-3-hirnatrophie-b-vitamine",
+    "essay_url": "/zutaten/bildgebung/omega-3-hirnatrophie-b-vitamine/",
+    "svg_file": "diagramm-omega-3-hirnatrophie-b-vitamine.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Neben der Ernährung schrumpft das",
+    "closer_text": "Die Biologie hatte nie einen Plan B.",
+    "notes": "Drei Schrumpffaktoren als System-Triade: OMEGA-3 (DHA-Struktur, 20 % der Hirn-Fettsäuren), B-VITAMINE (Folsäure/B6/B12, Einbau in Membran, Homocystein), FEINSTAUB (Warn-Farbe, PM2,5, Neuroinflammation). Untertitel verweist auf Jernerén 2015 (B-Vitamine wirken nur bei hohem Omega-3-Spiegel). Sep-Wort: PLAN B. Closer wortgetreu aus dem letzten Absatz."
+  }
+]
