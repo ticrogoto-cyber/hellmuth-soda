@@ -104,8 +104,8 @@
   </g>
 
   <g class="arr-group">
-    <path class="arr draw" data-delay="950" d="M 290 297 Q 200 250 122 132" style="--len:260"/>
-    <polyline class="arr-head reveal" data-delay="1020" points="118,138 122,132 128,135"/>
+    <path class="arr draw" data-delay="950" d="M 296 290 Q 200 240 124 134" style="--len:240"/>
+    <polyline class="arr-head reveal" data-delay="1020" points="119,139 124,134 130,137"/>
   </g>
 
   <g class="reveal" data-delay="1060">

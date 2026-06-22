@@ -61,7 +61,7 @@
     <polyline class="arr-head reveal" data-delay="460" points="359,128 363,132 359,136"/>
   </g>
   <g class="reveal lift" data-delay="500">
-    <text class="sub" x="200" y="160" font-size="10.5" text-anchor="middle">stösst an</text>
+    <text class="sub" x="100" y="252" font-size="10.5" text-anchor="middle">stösst Autophagie an</text>
   </g>
 
   <g class="col-group" data-col="schaden">
