@@ -62,12 +62,12 @@
 
   <g class="arr-group">
     <line class="arr draw warn" data-delay="500" x1="340" y1="172" x2="180" y2="222" style="--len:168"/>
-    <polyline class="arr-head warn reveal" data-delay="640" points="186,220 180,222 184,228"/>
+    <polyline class="arr-head warn reveal" data-delay="640" points="184,218 180,222 184,226"/>
   </g>
 
   <g class="arr-group">
     <line class="arr draw" data-delay="520" x1="340" y1="172" x2="500" y2="222" style="--len:168"/>
-    <polyline class="arr-head reveal" data-delay="660" points="494,220 500,222 496,228"/>
+    <polyline class="arr-head reveal" data-delay="660" points="496,218 500,222 496,226"/>
   </g>
 
   <g class="col-group" data-col="esoteric">

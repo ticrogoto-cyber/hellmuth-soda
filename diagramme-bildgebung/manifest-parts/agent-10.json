@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "probiotika-staemme-evidenz",
+    "essay_url": "/zutaten/bildgebung/probiotika-staemme-evidenz/",
+    "svg_file": "diagramm-probiotika-staemme-evidenz.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "LGG hat über 1500 Publikationen",
+    "closer_text": "Die Zahl misst nichts außer Marketing.",
+    "notes": "Gabelung: Marketing-Schiene (Milliarden, vierzehn Stämme, Lotterie) links vs. Evidenz-Schiene (LGG, S. boulardii, B. coagulans — drei Stämme, drei Belege) rechts. Sep-Wort: ARITHMETIK."
+  },
+  {
+    "essay_slug": "akkermansia-muciniphila-darmbarriere",
+    "essay_url": "/zutaten/bildgebung/akkermansia-muciniphila-darmbarriere/",
+    "svg_file": "diagramm-akkermansia-muciniphila-darmbarriere.svg",
+    "diagram_type": "F (Kreislauf)",
+    "insert_after_paragraph_starting_with": "Akkermansia muciniphila lebt in der Mukusschicht",
+    "closer_text": "Der Wirkstoff überlebt das Bakterium.",
+    "notes": "Kreislauf: Mukusschicht → Akkermansia frisst Muzin → Becherzellen → neue Barriere → wieder Mukusschicht. Zentrum: Amuc_1100 (hitzestabil · TLR2). Sep-Wort: KREISLAUF."
+  },
+  {
+    "essay_slug": "praebiotika-ballaststoffe-butyrat",
+    "essay_url": "/zutaten/bildgebung/praebiotika-ballaststoffe-butyrat/",
+    "svg_file": "diagramm-praebiotika-ballaststoffe-butyrat.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Resistente Stärke übertrifft beide in einem",
+    "closer_text": "Die Probiotika-Industrie verkauft den Gast. Das Futter erwähnt sie selten.",
+    "notes": "Triade mit Konvergenz: drei Ballaststoffe (Inulin, Akazienfaser, resistente Stärke) → drei Fermentationsprofile → konvergieren via gestrichelte Bögen zu Butyrat → Darmschleimhaut. Sep-Wort: FUTTER."
+  }
+]

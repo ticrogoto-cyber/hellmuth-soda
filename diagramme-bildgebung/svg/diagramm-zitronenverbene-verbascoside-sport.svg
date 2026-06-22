@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="resveratrol-pterostilben-bioverfuegbarkeit">
-  <title id="diag-title">Resveratrol vs. Pterostilben — die Pharmakokinetik der Gabelung</title>
-  <desc id="diag-desc">Zwei strukturell fast identische Stilbenoide, zwei Bioverfügbarkeiten. Resveratrol wird in Minuten sulfatiert, Pterostilben überlebt die Leberpassage. Die Industrie verkauft das falsche Molekül.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="diag-title diag-desc" class="hs-diagram" data-diagram="zitronenverbene-verbascoside-sport">
+  <title id="diag-title">Zitronenverbene — Schaden senken, Signal erhalten</title>
+  <desc id="diag-desc">Nach dem Training entstehen reaktive Sauerstoffspezies, die als Signal die Trainingsanpassung anstoßen. Hochdosiertes Vitamin C löscht den Schaden und das Signal. Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken.</desc>
 
   <style>
     .hs-diagram { font-family: 'Fournier Pro', Georgia, 'Times New Roman', serif; }
@@ -41,77 +41,76 @@
   </style>
 
   <g class="reveal lift" data-delay="0">
-    <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">ZWEI METHYLGRUPPEN</text>
+    <text class="h-main" x="340" y="44" font-size="17" text-anchor="middle">DER SCHADEN UND DAS SIGNAL</text>
   </g>
   <g class="reveal lift" data-delay="100">
-    <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Zwei Stilbenoide, ein Reagenzglas, zwei Schicksale</text>
+    <text class="sub" x="340" y="66" font-size="12.5" text-anchor="middle">Reaktive Sauerstoffspezies nach dem Training — zwei Antworten</text>
   </g>
 
-  <g class="col-group" data-col="source">
+  <g class="col-group" data-col="origin">
     <g class="reveal lift" data-delay="200">
-      <text class="h-col" x="340" y="116" font-size="14" text-anchor="middle">POLYPHENOL ORAL</text>
+      <text class="h-col" x="340" y="108" font-size="14" text-anchor="middle">ROS NACH SPORT</text>
     </g>
     <g class="reveal lift" data-delay="240">
-      <text class="sub" x="340" y="134" font-size="11" text-anchor="middle">In vitro: SIRT1, AMPK, PPARα — alle Schalter aktiv</text>
+      <text class="sub" x="340" y="126" font-size="11" text-anchor="middle">Schadensquelle und Adaptationssignal in einem</text>
     </g>
   </g>
 
   <g class="arr-group">
-    <line class="arr draw" data-delay="420" x1="340" y1="148" x2="340" y2="172" style="--len:24"/>
+    <line class="arr draw warn" data-delay="380" x1="320" y1="148" x2="170" y2="200" style="--len:159"/>
+    <polyline class="arr-head reveal warn" data-delay="520" points="174,196 170,200 174,204"/>
   </g>
-
   <g class="arr-group">
-    <line class="arr draw warn" data-delay="500" x1="340" y1="172" x2="180" y2="222" style="--len:168"/>
-    <polyline class="arr-head warn reveal" data-delay="640" points="184,218 180,222 184,226"/>
+    <line class="arr draw" data-delay="400" x1="360" y1="148" x2="510" y2="200" style="--len:159"/>
+    <polyline class="arr-head reveal" data-delay="540" points="506,196 510,200 506,204"/>
   </g>
 
-  <g class="arr-group">
-    <line class="arr draw" data-delay="520" x1="340" y1="172" x2="500" y2="222" style="--len:168"/>
-    <polyline class="arr-head reveal" data-delay="660" points="496,218 500,222 496,226"/>
-  </g>
-
-  <g class="col-group" data-col="resveratrol">
-    <g class="reveal lift" data-delay="720">
-      <text class="h-col warn-fill" x="180" y="250" font-size="13" text-anchor="middle">RESVERATROL</text>
+  <g class="col-group" data-col="vitc">
+    <g class="reveal lift" data-delay="620">
+      <text class="h-col warn-fill" x="155" y="226" font-size="14" text-anchor="middle">VITAMIN C</text>
     </g>
-    <g class="reveal lift" data-delay="760">
-      <text class="sub" x="180" y="268" font-size="11" text-anchor="middle">70 % absorbiert, &lt; 1 % im Plasma</text>
+    <g class="reveal lift" data-delay="660">
+      <text class="sub" x="155" y="244" font-size="11" text-anchor="middle">Megadose löscht alle Spezies</text>
     </g>
-    <g class="reveal lift" data-delay="790">
-      <text class="sub" x="180" y="282" font-size="11" text-anchor="middle">Sulfatierung in Minuten</text>
+    <g class="arr-group">
+      <line class="arr draw warn" data-delay="740" x1="155" y1="258" x2="155" y2="296" style="--len:38"/>
+      <polyline class="arr-head reveal warn" data-delay="820" points="151,292 155,296 159,292"/>
     </g>
-    <g class="reveal lift" data-delay="820">
-      <text class="sub" x="180" y="298" font-size="11" text-anchor="middle">die Leber gewinnt</text>
+    <g class="reveal lift" data-delay="860">
+      <text class="h-res" x="155" y="316" font-size="11" text-anchor="middle">SIGNAL WEG</text>
     </g>
-  </g>
-
-  <g class="col-group" data-col="pterostilben">
-    <g class="reveal lift" data-delay="740">
-      <text class="h-col" x="500" y="250" font-size="13" text-anchor="middle">PTEROSTILBEN</text>
-    </g>
-    <g class="reveal lift" data-delay="780">
-      <text class="sub" x="500" y="268" font-size="11" text-anchor="middle">Bioverfügbarkeit ca. 80 % (Ratte)</text>
-    </g>
-    <g class="reveal lift" data-delay="810">
-      <text class="sub" x="500" y="282" font-size="11" text-anchor="middle">Methylgruppen bremsen Sulfatierung</text>
-    </g>
-    <g class="reveal lift" data-delay="840">
-      <text class="sub" x="500" y="298" font-size="11" text-anchor="middle">erreicht das Zielorgan</text>
+    <g class="reveal lift" data-delay="900">
+      <text class="sub" x="155" y="332" font-size="11" text-anchor="middle">Adaptation blockiert</text>
     </g>
   </g>
 
-  <g class="reveal lift" data-delay="900">
-    <text class="sub" x="340" y="328" font-size="10.5" text-anchor="middle">Die In-vitro-Biologie ist identisch. Die In-vivo-Pharmakokinetik trennt die Geschichte.</text>
+  <g class="col-group" data-col="verbene">
+    <g class="reveal lift" data-delay="640">
+      <text class="h-col" x="525" y="226" font-size="14" text-anchor="middle">VERBASCOSIDE</text>
+    </g>
+    <g class="reveal lift" data-delay="680">
+      <text class="sub" x="525" y="244" font-size="11" text-anchor="middle">dämpft Schaden, lässt Signal stehen</text>
+    </g>
+    <g class="arr-group">
+      <line class="arr draw" data-delay="760" x1="525" y1="258" x2="525" y2="296" style="--len:38"/>
+      <polyline class="arr-head reveal" data-delay="840" points="521,292 525,296 529,292"/>
+    </g>
+    <g class="reveal lift" data-delay="880">
+      <text class="h-res" x="525" y="316" font-size="11" text-anchor="middle">SCHUTZ · ADAPTATION</text>
+    </g>
+    <g class="reveal lift" data-delay="920">
+      <text class="sub" x="525" y="332" font-size="11" text-anchor="middle">Funes 2011 · Buchwald-Werner 2018</text>
+    </g>
   </g>
 
   <g class="reveal" data-delay="1020">
-    <line class="sep" x1="60" y1="352" x2="298" y2="352"/>
-    <text class="sep-word" x="340" y="356" font-size="10" text-anchor="middle">SACKGASSE</text>
-    <line class="sep" x1="382" y1="352" x2="620" y2="352"/>
+    <line class="sep" x1="60" y1="358" x2="290" y2="358"/>
+    <text class="sep-word" x="340" y="362" font-size="10" text-anchor="middle">BOTSCHAFT</text>
+    <line class="sep" x1="390" y1="358" x2="620" y2="358"/>
   </g>
 
   <g class="reveal lift" data-delay="1120">
-    <text class="closer" x="340" y="385" font-size="13.5" text-anchor="middle">»Der Markt belohnt Narrative, keine Bioverfügbarkeit.«</text>
+    <text class="closer" x="340" y="388" font-size="13.5" text-anchor="middle">»Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken.«</text>
   </g>
 
   <script><![CDATA[
