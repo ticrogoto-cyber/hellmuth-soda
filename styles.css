@@ -72,7 +72,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: clamp(8rem, 14vh, 11rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
+  padding: clamp(9rem, 15vh, 12rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
   max-width: 880px;
   margin: 0 auto;
   width: 100%;
@@ -98,7 +98,7 @@ main {
     "title brand search"
     "nav   nav   nav   ";
   column-gap: 1rem;
-  row-gap: 0.55rem;
+  row-gap: 1.5rem;
   align-items: start;
 }
 .top.is-scrolled {

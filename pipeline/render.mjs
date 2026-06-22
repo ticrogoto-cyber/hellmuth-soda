@@ -315,8 +315,8 @@ function detailHtmlMono(rec, nav) {
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
-  <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=89" />
+  <link rel="stylesheet" href="../../../styles.css?v=14" />
+  <link rel="stylesheet" href="../../news.css?v=90" />
 </head>
 <body>
   <header class="top">
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=89" />
+  <link rel="stylesheet" href="../../news.css?v=90" />
 </head>
 <body>
   <header class="nav">
@@ -655,9 +655,9 @@ function substanceDetailHtml(entry) {
   <script type="application/ld+json">
 ${ldJson}
   </script>
-  <link rel="stylesheet" href="../../styles.css?v=13" />
+  <link rel="stylesheet" href="../../styles.css?v=14" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=89" />
+  <link rel="stylesheet" href="../../news/news.css?v=90" />
 </head>
 <body>
   <header class="top">
@@ -888,7 +888,9 @@ function bildgebungDetailHtml(entry) {
   const filters = Array.isArray(entry.filter) ? entry.filter.filter(Boolean) : [];
   const minutes = readingMinutes(entry.body);
   const minutesLabel = readingLabel(minutes);
-  const eyebrow = [filters.join(' · '), entry.date, minutesLabel].filter(Boolean).join(' · ');
+  // Bildgebung-Essays tragen kein Datum in der Eyebrow-Zeile (anders als News):
+  // nur Filter-Tag (Unterschätzt/Unklar/Überschätzt) + Lesezeit.
+  const eyebrow = [filters.join(' · '), minutesLabel].filter(Boolean).join(' · ');
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -908,8 +910,8 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:url" content="${canonical}" />
   <meta property="og:site_name" content="Mut zur Klarheit" />
   <meta property="og:image" content="${LOGO_URL}" />
-  <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../../news/news.css?v=89" />
+  <link rel="stylesheet" href="../../../styles.css?v=14" />
+  <link rel="stylesheet" href="../../../news/news.css?v=90" />
   <link rel="stylesheet" href="../bildgebung.css?v=3" />
 </head>
 <body>

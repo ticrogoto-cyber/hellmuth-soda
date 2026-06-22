@@ -36,7 +36,8 @@
 
   const card = (it) => {
     const prefix = filterPrefix(it);
-    const eyebrow = [prefix, esc(it.date), esc(readingLabel(it.minutes))]
+    // Bildgebung-Kacheln zeigen kein Datum (anders als News): nur Filter-Tag + Lesezeit.
+    const eyebrow = [prefix, esc(readingLabel(it.minutes))]
       .filter(Boolean)
       .join(' · ');
     return `
