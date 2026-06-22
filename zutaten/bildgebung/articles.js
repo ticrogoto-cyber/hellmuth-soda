@@ -1762,5 +1762,53 @@ Zellen leuchten. Das ist gemessen, reproduziert und publiziert. Wer das für Eso
         },
       ],
     },
+    {
+      slug: "zitronenverbene-verbascoside-sport",
+      titel: "Das Antioxidans, das die Anpassung nicht sabotiert",
+      lead: "Hochdosiertes Vitamin C nach dem Sport kann die Trainingsanpassung blockieren. Zitronenverbene schützt die Muskeln, ohne die Adaptation zu stören. Das macht sie pharmakologisch einzigartig unter den Antioxidantien.",
+      filter: ["Unterschätzt"],
+      date: "2026-06-22",
+      body: `Millionen Menschen schlucken nach dem Training Vitamin C, um ihre Muskeln zu schützen. Sie sabotieren damit die Anpassung, für die sie trainiert haben. Zitronenverbene macht beides: schützen und die Anpassung in Ruhe lassen. In Frankreich und Spanien trinkt man sie abends als Verveine und ahnt nicht, dass in der Tasse ein Phenylpropanoid sitzt, das die Sportmedizin seit 2011 untersucht.
+
+Der Wirkstoff heißt Verbascoside. Die antioxidative Kapazität von Zitronenverbene-Extrakt übertrifft im ORAC-Test die von Grüntee. Funes 2011 testet den Extrakt an fünfzehn männlichen Läufern über 21 Tage chronischen Trainings. Die Marker für oxidativen Stress und Muskelschäden sinken signifikant unter Verum. Proinflammatorische Zytokine werden gedämpft. Die zelluläre Adaptation an das Training bleibt intakt.
+
+Hochdosiertes Vitamin C und Vitamin E nach dem Training blockieren die Trainingsanpassung. Reaktive Sauerstoffspezies nach dem Sport sind Signalmoleküle, die den Körper zur Adaptation zwingen. Wer sie mit Megadosen löscht, löscht das Signal mit. Die Supplement-Industrie verkauft das als Regeneration. Es ist das Gegenteil. Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken. Buchwald-Werner 2018 bestätigt den Befund in einer randomisierten, placebokontrollierten Studie an 44 Probanden mit 400 Milligramm Extrakt täglich. Weniger Muskelschaden, weniger Kraftverlust, keine blockierte Adaptation.
+
+Afrasiabian 2019 liefert die Schlaf-Evidenz. Eine randomisierte, doppelblinde, placebokontrollierte Studie an Insomnie-Patienten zeigt verbesserte Schlafqualität unter Zitronenverbene-Extrakt. Der Abendtee der französischen Großmutter hat jetzt eine RCT.
+
+Ein Kraut, das Sportler schützt, ohne ihre Fortschritte zu sabotieren, und abends beim Einschlafen hilft. Die Supplement-Industrie verkauft stattdessen Vitamin-C-Megadosen, die genau das Gegenteil tun. Der Abendtee der französischen Großmutter hat jetzt eine RCT. Die Brausetablette nach dem Fitnessstudio wartet noch auf den Beweis, dass sie keinen Schaden anrichtet.`,
+      quellen: [
+        {
+          autoren: "Lorena Funes, Lucrecia Carrera-Quintanar, Manuela Cerdán-Calero, et al.",
+          titel: "Effect of lemon verbena supplementation on muscular damage markers, proinflammatory cytokines release and neutrophils' oxidative stress in chronic exercise",
+          journal: "European Journal of Applied Physiology",
+          vol: "Vol. 111, No. 4",
+          datum: "April 2011",
+          seiten: "695—705",
+          doi: "10.1007/s00421-010-1684-3",
+          pmid: "20967458",
+        },
+        {
+          autoren: "Sybille Buchwald-Werner, Ioanna Naka, Manfred Wilhelm, et al.",
+          titel: "Effects of lemon verbena extract (Recoverben) supplementation on muscle strength and recovery after exhaustive exercise: a randomized, placebo-controlled trial",
+          journal: "Journal of the International Society of Sports Nutrition",
+          vol: "Vol. 15, No. 1",
+          datum: "Januar 2018",
+          seiten: "13",
+          doi: "10.1186/s12970-018-0208-0",
+          pmid: "29382402",
+        },
+        {
+          autoren: "Fatemeh Afrasiabian, Mozafar Mirabzadeh Ardakani, Kourosh Rahmani, et al.",
+          titel: "Aloysia citriodora Palau (lemon verbena) for insomnia patients: a randomized, double-blind, placebo-controlled clinical trial of efficacy and safety",
+          journal: "Phytotherapy Research",
+          vol: "Vol. 33, No. 2",
+          datum: "Februar 2019",
+          seiten: "350—359",
+          doi: "10.1002/ptr.6228",
+          pmid: "30450627",
+        },
+      ],
+    },
   ],
 };

@@ -253,6 +253,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unklar"
       ]
+    },
+    {
+      "href": "zitronenverbene-verbascoside-sport/",
+      "title": "Das Antioxidans, das die Anpassung nicht sabotiert",
+      "lead": "Hochdosiertes Vitamin C nach dem Sport kann die Trainingsanpassung blockieren. Zitronenverbene schützt die Muskeln, ohne die Adaptation zu stören. Das macht sie pharmakologisch einzigartig unter den Antioxidantien.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "unterschaetzt"
+      ]
     }
   ]
 };
