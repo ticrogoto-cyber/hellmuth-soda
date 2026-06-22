@@ -177,6 +177,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "brennnessel-urtica-prostata/",
+      "title": "Das Unkraut mit der Arzneimittelzulassung",
+      "lead": "Brennnessel hat sechs randomisierte Studien an über tausend Prostatapatienten. In Deutschland steht sie in der Pharmakopöe. Im Garten reißen die meisten sie raus.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };

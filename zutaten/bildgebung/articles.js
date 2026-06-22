@@ -1427,5 +1427,72 @@ Vier Esslöffel am Tag. Frisch, dunkel gelagert, innerhalb eines Jahres nach der
         },
       ],
     },
+    {
+      slug: "brennnessel-urtica-prostata",
+      titel: "Das Unkraut mit der Arzneimittelzulassung",
+      lead: "Brennnessel hat sechs randomisierte Studien an über tausend Prostatapatienten. In Deutschland steht sie in der Pharmakopöe. Im Garten reißen die meisten sie raus.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Wer als Kind in Brennnesseln gefallen ist, kennt den Wirkstoff. Die Brennhaare der Blätter brechen bei Berührung ab, durchstechen die Haut und injizieren ein Gemisch aus Histamin, Serotonin und Ameisensäure. Das brennt, weil es eine lokale Entzündungsreaktion ist. Die Pflanze impft dich mit ihren Botenstoffen. Dass dieselbe Pflanze Entzündung auch hemmen kann, hätte sich die Pharmakologie nicht ausgedacht.
+
+Urtica dioica ist pharmakologisch zwei Pflanzen. Die Wurzel enthält Lignane und Phytosterole und adressiert die Prostata. Das Blatt enthält Flavonoide und Caffeoylsäure-Derivate und adressiert Entzündung und Allergie. Auf den meisten Etiketten steht »Brennnessel«. Kein Pflanzenteil, kein Hinweis, welches Organ gemeint ist. Wer eine Prostatawirkung erwartet und Blattextrakt kauft, kauft das Falsche.
+
+Safarinejad 2005 testet Brennnesselwurzelextrakt an 620 Patienten mit benigner Prostatahyperplasie über sechs Monate, randomisiert, doppelblind, placebokontrolliert, mit Crossover. Die Symptome besserten sich signifikant unter Verum. Schneider 2004 bestätigt den Befund in einer zwölfmonatigen Multicenterstudie. Ghorbanibirgani 2013 repliziert an hundert Patienten. Sechs Studien, über tausend Patienten, alle in dieselbe Richtung. Für ein Unkraut ist das eine Datenbasis, die manches Medikament nicht vorweisen kann.
+
+Die EMA führt Urtica-dioica-Wurzel als traditionell angewendet bei Prostatahyperplasie. In Deutschland ist Bazoton-uno als Phytopharmakon zugelassen, verschreibbar, erstattungsfähig. Dieselbe Pflanze, die der britische Rasenbesitzer als Plage betrachtet, hat in Deutschland eine Arzneimittelzulassung. Man muss sich entscheiden, welche Seite absurd ist.
+
+Das Blatt arbeitet auf einem anderen Feld. Roschek 2009 zeigt, dass Brennnesselblattextrakt Histaminrezeptoren blockiert und Prostaglandin-D2-Synthese hemmt. Zwei Mechanismen, die erklären, warum Landbevölkerung seit Jahrhunderten bei Heuschnupfen Brennnesseltee trinkt. Die Oma wusste es, die Pharmakologie brauchte bis 2009. Kianbakht 2013 findet in einer placebokontrollierten Studie verbesserte Blutzuckerkontrolle bei Typ-2-Diabetes unter Brennnesselblattextrakt. Die Pflanze greift in den Glukosestoffwechsel ein. Aus dem Vorgarten.
+
+Ein Unkraut, das mehr kann als die meisten Pillen im Regal. Es wächst am Straßenrand. Es kostet nichts. Und genau deshalb interessiert es keinen.`,
+      quellen: [
+        {
+          autoren: "Mohammad Reza Safarinejad",
+          titel: "Urtica dioica for treatment of benign prostatic hyperplasia: a prospective, randomized, double-blind, placebo-controlled, crossover study",
+          journal: "Journal of Herbal Pharmacotherapy",
+          vol: "Vol. 5, No. 4",
+          datum: "2005",
+          seiten: "1—11",
+          pmid: "16635963",
+        },
+        {
+          autoren: "Thomas Schneider, Herbert Rübben",
+          titel: "Brennnesseltrockenextrakt (Bazoton-uno) in der Langzeittherapie des benignen Prostatasyndroms (BPS)",
+          journal: "Der Urologe A",
+          vol: "Vol. 43, No. 3",
+          datum: "März 2004",
+          seiten: "302—306",
+          pmid: "15045190",
+        },
+        {
+          autoren: "Alireza Ghorbanibirgani, Ali Khalili, Laleh Zamani",
+          titel: "The efficacy of stinging nettle (Urtica dioica) in patients with benign prostatic hyperplasia: a randomized double-blind study in 100 patients",
+          journal: "Iranian Red Crescent Medical Journal",
+          vol: "Vol. 15, No. 1",
+          datum: "Januar 2013",
+          seiten: "9—10",
+          doi: "10.5812/ircmj.2386",
+          pmid: "23487561",
+        },
+        {
+          autoren: "Brent Roschek, Ryan Fink, Matthew McMichael, et al.",
+          titel: "Nettle extract (Urtica dioica) affects key receptors and enzymes associated with allergic rhinitis",
+          journal: "Phytotherapy Research",
+          vol: "Vol. 23, No. 7",
+          datum: "Juli 2009",
+          seiten: "920—926",
+          doi: "10.1002/ptr.2763",
+          pmid: "19140159",
+        },
+        {
+          autoren: "Sedigheh Kianbakht, Faraz Khalighi-Sigaroodi, Fatemeh Hashem Dabaghian",
+          titel: "Improved glycemic control in patients with advanced type 2 diabetes mellitus taking Urtica dioica leaf extract: a randomized double-blind placebo-controlled clinical trial",
+          journal: "Clinical Laboratory",
+          vol: "Vol. 59, No. 9—10",
+          datum: "2013",
+          seiten: "1071—1076",
+          pmid: "24273930",
+        },
+      ],
+    },
   ],
 };

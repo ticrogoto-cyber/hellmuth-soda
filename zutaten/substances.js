@@ -1293,7 +1293,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Blüte",
       werbung: "Uraltes Hustenkraut für die Atemwege. Huflattich als natürlicher Schleimlöser, traditionell bei Bronchitis und Reizhusten.",
       wirkung: "Tussilago, der lateinische Name, kommt von tussis, Husten. Die Pflanze definiert sich über ihre Indikation. Schleimstoffe und Flavonoide wirken expektorierend und antitussiv, die Anwendungstradition reicht über zweitausend Jahre.\n\nDas Problem sind Pyrrolizidinalkaloide. PA sind hepatotoxisch und genotoxisch, sie verursachen Lebervenenverschlusskrankheit und sind kanzerogen in Tiermodellen. Die Europäische Arzneimittelagentur hat die Tageshöchstdosis auf 1,0 Mikrogramm PA-Aufnahme begrenzt. Ältere Huflattich-Tees überschreiten diese Grenze regelmäßig.\n\nPA-freie Zuchtformen existieren, sind aber im Handelsmarkt nicht Standard. Wer Huflattich als Hustentee verwendet, muss die PA-Belastung des Produkts kennen. Diese Information steht selten auf der Packung.\n\nDas älteste Hustenkraut Europas hat eine Nebenwirkung, die jünger ist als seine Tradition.",
-      quellen: ["HMPC 2015"],
+      quellen: ["HMPC 2014"],
       related_article: null,
     },
     {
@@ -1410,7 +1410,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Kraut",
       werbung: "Kraut der Unsterblichkeit aus Südchina. Jiaogulan als adaptogener Tee für Langlebigkeit und Stoffwechsel.",
       wirkung: "Jiaogulan enthält über 170 Gypenoside, Triterpensaponine, die strukturell den Ginsenosiden ähneln. Die Pflanze aktiviert AMPK mit einer Potenz, die Metformin in Zellstudien übertrifft. AMPK ist der zentrale Energiesensor der Zelle und das pharmakologische Target hinter Metformin, dem weltweit meistverordneten Antidiabetikum.\n\nEine RCT zeigt unter Jiaogulan-Extrakt messbare Senkung von Nüchternblutzucker, HbA1c und Insulinresistenz bei Typ-2-Diabetes. Antioxidative und hepatoprotektive Effekte sind in Tiermodellen reproduzierbar. Adaptogene Wirkung über Modulation der HPA-Achse ist gemessen.\n\nIn der Provinz Guizhou, wo Jiaogulan traditionell als Tee getrunken wird, liegt die Zentenarierrate nachweislich über dem chinesischen Durchschnitt. Korrelation, keine Kausalität, aber die Konsistenz mit dem AMPK-Befund ist bemerkenswert.\n\nAMPK-Aktivierung stärker als Metformin, Preis niedriger als Metformin. Trotzdem kennt es niemand.",
-      quellen: ["Huyen 2010", "Li 2010"],
+      quellen: ["Huyen 2010", "Razmovski-Naumovski 2005"],
       related_article: null,
     },
     {
@@ -1875,7 +1875,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Öl",
       werbung: "Premium-Nuss für Herz und Genuss. Macadamia als Omega-7-Quelle und edle Zutat in der gesunden Küche.",
       wirkung: "Die Macadamia-Nuss hat das höchste Ölsäuregehalt aller Baumnüsse und enthält als einzige Nuss relevante Mengen Palmitoleinsäure, eine Omega-7-Fettsäure, die in der konventionellen Ernährungswissenschaft kaum vorkommt.\n\nVergleichsstudien zeigen nach vier Wochen Macadamia-Konsum robuste Senkung von LDL-Cholesterin und Triglyceriden bei moderatem Anstieg des HDL. Die Palmitoleinsäure fungiert als Lipokin, ein lipidbasiertes Signalmolekül, das die hepatische Lipogenese hemmt und die Insulinsensitivität in Muskelzellen verbessert.\n\nDas Fettsäureprofil enthält zusätzlich Vaccensäure und Gadoleinsäure, zwei langkettige einfach ungesättigte Fettsäuren, die in keinem anderen Lebensmittel in dieser Konzentration vorkommen. Die Macadamia ist weniger eine Nuss als ein Lipidom mit Signalmolekülen.\n\nDie teuerste Nuss der Welt enthält eine Fettsäure, die die Ernährungswissenschaft noch nicht in ihre Kategorien einordnen kann.",
-      quellen: ["Garg 2003", "Cao 2008"],
+      quellen: ["Garg 2003", "Griel 2008"],
       related_article: null,
     },
     {
@@ -2194,7 +2194,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Fettsäure",
       werbung: "Essentielle Fettsäuren für Herz, Gehirn und Entzündungsschutz. Omega-3 aus Fischöl oder Algenöl, das wichtigste Supplement der Welt.",
       wirkung: "EPA und DHA sind die beiden langkettigen Omega-3-Fettsäuren, die der Körper braucht und kaum selbst herstellt. DHA macht zwanzig Prozent der Fettsäuren im Gehirn und fünfzig Prozent in der Retina aus. Wer kein DHA hat, baut kein Gehirn und sieht schlecht. Das ist Strukturbiochemie, kein Supplement-Marketing.\n\nDie REDUCE-IT-Studie zeigt unter vier Gramm EPA täglich eine Reduktion kardiovaskulärer Ereignisse um fünfundzwanzig Prozent bei Hochrisikopatienten. Psychiatrisch reduziert EPA in Metaanalysen depressive Symptome mit Effektgrößen vergleichbar zu Antidepressiva. Bei rheumatoider Arthritis senken drei Gramm täglich Gelenkschmerzen und Morgensteifigkeit. In der Schwangerschaft ist DHA-Supplementierung mit reduziertem Frühgeburtsrisiko assoziiert.\n\nDas Omega-6-zu-Omega-3-Verhältnis in der westlichen Ernährung liegt bei fünfzehn zu eins bis zwanzig zu eins. Evolutionär lag es bei eins zu eins bis drei zu eins. Die Entzündungslast moderner Gesellschaften hat eine Fettsäure-Signatur, die niemand auf dem Etikett liest.\n\nDer häufigste Nährstoffmangel der westlichen Welt ist unsichtbar, weil ihn niemand misst.",
-      quellen: ["Bhatt 2019", "Liao 2019", "Middleton 2018"],
+      quellen: ["Bhatt 2019", "Hu 2019", "Middleton 2018"],
       related_article: null,
     },
     {
@@ -2502,7 +2502,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Kraut",
       werbung: "Mediteranes Küchenkraut für Gedächtnis und Durchblutung. Rosmarin als natürlicher Wachmacher und Konzentrationshilfe.",
       wirkung: "Rosmarin enthält Carnosinsäure und 1,8-Cineol, zwei Verbindungen mit belegter neuroprotektiver und kognitiver Wirkung. In einer Vergleichsstudie verbessert alleiniges Einatmen von Rosmarinöl die kognitive Leistung und Stimmung bei gesunden Erwachsenen. Der Wirkmechanismus läuft über Acetylcholinesterase-Hemmung durch 1,8-Cineol, das die Blut-Hirn-Schranke nach Inhalation passiert.\n\nCarnosinsäure schützt Neuronen vor oxidativem Stress über Nrf2-Aktivierung und hemmt die Neuroinflammation über NF-κB-Suppression. In Tiermodellen zeigt Rosmarin-Extrakt neuroprotektive Wirkung bei ischämischem Schlaganfall.\n\nBeim Grillen bildet Fleisch heterozyklische Amine. Rosmarinextrakt in der Marinade reduziert die HCA-Bildung um bis zu neunzig Prozent. Das macht Rosmarin beim Grillen zum Karzinogen-Blocker, nicht zum Gewürz.\n\nEin Küchenkraut, dessen Duft die Kognition verbessert und dessen Marinade Karzinogene im Fleisch hemmt.",
-      quellen: ["Moss 2003", "Smith 2011"],
+      quellen: ["Moss 2003", "Smith 2008"],
       related_article: null,
     },
     {
@@ -3175,7 +3175,7 @@ window.SUBSTANCES_DATA = {
       unterkategorie: "Kraut",
       werbung: "Mediterrane Heilpflanze für Immunsystem und Erkältungsschutz. Cistus-Tee als antiviraler Schutzschild.",
       wirkung: "Cistus incanus enthält Polyphenole, die virale Hüllproteine umhüllen und das Andocken an Wirtszellen sterisch blockieren. Der Mechanismus ist physikalisch, nicht biochemisch, was Resistenzentwicklung theoretisch ausschließt.\n\nEine Pilotstudie zeigt unter Cistus-Extrakt nachweisliche Reduktion von Erkältungssymptomen. In-vitro-Daten dokumentieren Hemmung von Influenza A, HIV und Ebola über denselben unspezifischen Umhüllungsmechanismus. Die klinische Evidenz am Menschen bleibt dünn, die präklinische Breite des antiviralen Spektrums ist bemerkenswert.\n\nDer Polyphenolgehalt in Cistus-Tee ist höher als in Grüntee und Rotwein. Die adstringierende Wirkung im Mund ist der sensorische Marker der Polyphenoldichte.\n\nEin antivirales Prinzip, gegen das Resistenz nicht funktioniert, wird als Erkältungstee vermarktet.",
-      quellen: ["Kalus 2009", "Rebensburg 2014"],
+      quellen: ["Kalus 2009", "Rebensburg 2016"],
       related_article: null,
     },
     {
