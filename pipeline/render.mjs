@@ -894,7 +894,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=13" />
   <link rel="stylesheet" href="../../../news/news.css?v=55" />
-  <link rel="stylesheet" href="../bildgebung.css?v=2" />
+  <link rel="stylesheet" href="../bildgebung.css?v=3" />
 </head>
 <body>
   <header class="top">

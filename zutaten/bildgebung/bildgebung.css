@@ -18,6 +18,20 @@
   --bildgebung-measure: calc(var(--news-measure) * 1.1);
 }
 
+/* ----------------------------------------------------------------------------
+   Detailseiten-Container ca. 1cm (~40px) breiter als News.
+   ----------------------------------------------------------------------------
+   News.css setzt `.news-detail { max-width: 720px; }`. Der Container ist
+   auf Desktop die tatsaechliche Textspiegel-Begrenzung; das innere
+   --news-measure (38rem) wird wegen des Container-Paddings nie erreicht.
+   Bildgebung-Detail erbt beide Klassen, ueberschreibt aber max-width:
+   720px + 2.5rem ≈ 760px → ~40px mehr Lauflaenge pro Zeile, sonst nichts.
+   Nur diese Seiten; News-Liste, News-Detail und Index bleiben unveraendert.
+---------------------------------------------------------------------------- */
+.bildgebung-detail {
+  max-width: calc(720px + 2.5rem);
+}
+
 /* Ueberschreibungen: ueberall dort, wo news.css var(--news-measure)
    verwendet, setzen wir auf der Detailseite das breitere Mass ein. */
 .bildgebung-detail h1,
