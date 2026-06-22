@@ -447,5 +447,106 @@ Im Reformhaus steht die Faltencreme. Im Labor liegt ein Anästhesiekandidat. Daz
         },
       ],
     },
+    {
+      slug: "adaptogene-ueberblick",
+      titel: "Der nützlichste Begriff, der nichts bedeutet",
+      lead: "Ein sowjetischer Toxikologe hat 1947 ein Wort erfunden, das heute auf jeder zweiten Supplement-Packung steht. Die Pflanzen dahinter sind interessant. Das Wort ist das Problem.",
+      filter: ["Ruhe"],
+      date: "2026-06-22",
+      body: `Nikolai Lazarev prägte den Begriff 1947 in Leningrad. Er suchte nach Substanzen, die den Organismus gegen unspezifischen Stress widerstandsfähiger machen, ohne ihn zu stimulieren oder zu sedieren. Sein Schüler Israel Brekhman formulierte 1969 drei Kriterien. Die Substanz muss ungiftig sein. Sie muss die Resistenz gegen verschiedene Stressoren unspezifisch erhöhen. Und sie muss normalisierend wirken, unabhängig von der Richtung der Störung. Wer zu hoch ist, soll runterkommen. Wer zu tief ist, soll hochkommen. Dieselbe Substanz.
+
+Dieses Versprechen ist pharmakologisch bemerkenswert, weil es in keinem Studiendesign versagen kann. Eine Substanz, die in beide Richtungen wirkt, ist nicht falsifizierbar. Das macht die Kategorie wissenschaftlich wertlos. Was es als Kategorie wertlos macht, entwertet die einzelnen Pflanzen allerdings nicht.
+
+Ashwagandha senkt Cortisol. Chandrasekhar 2012 misst nach sechzig Tagen KSM-66-Extrakt eine Reduktion um 27,9 Prozent gegenüber Placebo. Das ist ein harter Befund mit Effektgröße, Dosis und Rezeptorprofil. Es wäre sauberer, ihn als Cortisol-Modulator zu beschreiben, aber »Cortisol-Modulator« klingt nicht mystisch genug für die Packung. Also steht dort »Adaptogen«, und der Befund verschwindet hinter dem Etikett.
+
+Rhodiola rosea reduziert Fatigue. Darbinyan 2000 zeigt unter SHR-5-Extrakt bei jungen Ärzten im Nachtdienst verbesserte kognitive Leistung. Panossian 2010 beschreibt den molekularen Pfad über HSP70 und JNK-Signalwege, eine Stressantwort auf Proteinebene. Anti-Fatigue-Wirkstoff mit HSP70-Induktion wäre die richtige Beschreibung. Präzision verkauft sich schlecht.
+
+Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält Eleuteroside statt Ginsenoside und wirkt auf andere Rezeptoren als Panax Ginseng. Im Regal stehen beide unter »Adaptogen«, als wären sie austauschbar. In der Pharmakologie trennt sie alles außer dem Etikett. Wer Ashwagandha und Reishi in denselben Satz packt, weil beide »adaptogen« sind, versteht weder Withanolide noch Triterpene.
+
+Die sowjetische Forschung der fünfziger und sechziger Jahre produzierte über tausend Studien zu Eleutherococcus allein. Die meisten erschienen in russischsprachigen Journals, die westliche Datenbanken nicht indexieren. Die Replizierbarkeit ist offen, die Originale sind nicht lesbar. Wer die Adaptogen-Forschung unkritisch zitiert, zitiert ein Korpus, das er nicht gelesen hat und nicht lesen kann.
+
+Die EMA erkennt die Kategorie nicht an. Die FDA auch nicht. Beide bewerten Pflanzen einzeln nach Wirkstoff und Indikation. Das ist methodisch sauberer, aber weniger verkaufsfördernd. Der Supplement-Markt hat sich für Verkaufsförderung entschieden.
+
+Was bleibt, wenn man das Wort streicht und die Pflanzen einzeln betrachtet, sind sechs Gewächse mit messbarer Wirkung auf die Stressachse, auf Cortisol, auf Entzündungsmarker, auf kognitive Erschöpfung. Die Befunde tragen. Das Wort, das sie zusammenfasst, vernebelt sie. Es reduziert Pharmakologie auf eine Haltung. Haltungen kann man an jede Tinktur kleben.
+
+Auf Amazon heißen inzwischen auch Kurkuma, Ingwer und Spirulina »adaptogen«. Was Lazarev 1947 meinte und was 2026 auf dem Etikett steht, verbindet nur noch die Silbenfolge.`,
+      quellen: [
+        {
+          autoren: "Israel I. Brekhman, Igor V. Dardymov",
+          titel: "New Substances of Plant Origin which Increase Nonspecific Resistance",
+          journal: "Annual Review of Pharmacology",
+          vol: "Vol. 9",
+          datum: "1969",
+          seiten: "419—430",
+          doi: "10.1146/annurev.pa.09.040169.002223",
+        },
+        {
+          autoren: "Alexander Panossian, Georg Wikman",
+          titel: "Effects of Adaptogens on the Central Nervous System and the Molecular Mechanisms Associated with Their Stress-Protective Activity",
+          journal: "Pharmaceuticals",
+          vol: "Vol. 3, No. 1",
+          datum: "19.01.2010",
+          seiten: "188—224",
+          doi: "10.3390/ph3010188",
+        },
+        {
+          autoren: "Karuppiah Chandrasekhar, Jyoti Kapoor, Sridhar Anishetty",
+          titel: "A Prospective, Randomized Double-Blind, Placebo-Controlled Study of Safety and Efficacy of a High-Concentration Full-Spectrum Extract of Ashwagandha Root in Reducing Stress and Anxiety in Adults",
+          journal: "Indian Journal of Psychological Medicine",
+          vol: "Vol. 34, No. 3",
+          datum: "Juli—September 2012",
+          seiten: "255—262",
+          doi: "10.4103/0253-7176.106022",
+          pmid: "23439798",
+        },
+        {
+          autoren: "Vigen Darbinyan, Armen Kteyan, Alexander Panossian, et al.",
+          titel: "Rhodiola rosea in stress induced fatigue — a double blind cross-over study of a standardized extract SHR-5 with a repeated low-dose regimen on the mental performance of healthy physicians during night duty",
+          journal: "Phytomedicine",
+          vol: "Vol. 7, No. 5",
+          datum: "Oktober 2000",
+          seiten: "365—371",
+          doi: "10.1016/S0944-7113(00)80055-0",
+          pmid: "11081987",
+        },
+        {
+          autoren: "Alexander Panossian, Georg Wikman, Punit Kaur, et al.",
+          titel: "Adaptogens Stimulate Neuropeptide Y and Hsp72 Expression and Release in Neuroglia Cells",
+          journal: "Frontiers in Neuroscience",
+          vol: "Vol. 6",
+          datum: "01.02.2012",
+          seiten: "6",
+          doi: "10.3389/fnins.2012.00006",
+          pmid: "22347152",
+        },
+        {
+          autoren: "Velislava Todorova, Milena Ivanova",
+          titel: "Bibliometric Study of Adaptogens in Dermatology: Pharmacophylogeny, Phytochemistry, and Pharmacological Mechanisms",
+          journal: "Clinical, Cosmetic and Investigational Dermatology",
+          vol: "Vol. 14",
+          datum: "2021",
+          seiten: "1839—1862",
+          doi: "10.2147/CCID.S344533",
+        },
+        {
+          autoren: "Adrian Lopresti, Stephen Smith, Heather Malvi, et al.",
+          titel: "An investigation into the stress-relieving and pharmacological actions of an ashwagandha (Withania somnifera) extract",
+          journal: "Medicine",
+          vol: "Vol. 98, No. 37",
+          datum: "September 2019",
+          seiten: "e17186",
+          doi: "10.1097/MD.0000000000017186",
+          pmid: "31517876",
+        },
+        {
+          autoren: "Nikolai V. Lazarev",
+          titel: "General and Specific in the Action of Pharmacological Agents",
+          journal: "Farmakologiya i Toksikologiya",
+          vol: "Vol. 10",
+          datum: "1947",
+          seiten: "17—20",
+        },
+      ],
+    },
   ],
 };
