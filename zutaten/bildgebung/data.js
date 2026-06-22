@@ -7,7 +7,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die am besten erforschte Nervenpflanze Europas wird als Schlaftee verkauft. Was die Forschung weiß und das Regal verschweigt.",
       "date": "2026-06-21",
       "created": "2026-06-21",
-      "minutes": 3,
+      "minutes": 5,
       "filters": [
         "unterschaetzt"
       ]
@@ -18,7 +18,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die einzige bekannte Nahrungsquelle, die Nervenwachstumsfaktor im Gehirn stimuliert, steht im Asia-Markt neben den Shiitake.",
       "date": "2026-06-21",
       "created": "2026-06-21",
-      "minutes": 3,
+      "minutes": 5,
       "filters": [
         "unterschaetzt"
       ]
@@ -29,7 +29,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Spilanthol aktiviert Berührungsfasern im Gesicht mit einer messbaren Frequenz von fünfzig Hertz. Die Empfindung gehört weder zum Geschmack noch zum Schmerz. Sie gehört zum Tastsinn.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 3,
+      "minutes": 5,
       "filters": [
         "unterschaetzt"
       ]
@@ -40,7 +40,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Ein sowjetischer Toxikologe hat 1947 ein Wort erfunden, das heute auf jeder zweiten Supplement-Packung steht. Die Pflanzen dahinter sind interessant. Das Wort ist das Problem.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "ueberschaetzt"
       ]
@@ -51,7 +51,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Ashwagandha senkt Cortisol, verbessert Schlaf und stimuliert die Schilddrüse. Für die ersten beiden Wirkungen gibt es Etiketten. Für die dritte gibt es Fallberichte in der Notaufnahme.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unklar"
       ]
@@ -62,7 +62,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Honokiol aus Magnolienrinde bindet an GABA-A-Rezeptoren wie ein Benzodiazepin, ohne Abhängigkeit auszulösen. Das wäre eine Nachricht. Stattdessen steht es auf einer Diätpille.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unterschaetzt"
       ]
@@ -73,7 +73,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "GABA ist der wichtigste hemmende Neurotransmitter im Gehirn. Als Supplement geschluckt erreicht er es wahrscheinlich nicht. Die Supplement-Industrie verkauft ihn trotzdem.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "ueberschaetzt"
       ]
@@ -84,7 +84,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Jede positive Humanstudie zu Bacopa monnieri misst den Effekt nach zwölf Wochen. Vorher passiert nichts. Die Nootropic-Community will Ergebnisse nach einer Stunde. Das erklärt, warum die meisten aufgeben, bevor die Substanz anfängt zu wirken.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -95,7 +95,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "2003 hat eine Studie an 261 Alzheimer-Patienten gezeigt, dass Alpha-GPC die Kognition signifikant verbessert. Seitdem ist nichts passiert. Die Substanz lässt sich nicht patentieren.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unterschaetzt"
       ]
@@ -106,7 +106,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Sulforaphan aktiviert Nrf2, den Transkriptionsfaktor, der über zweihundert Schutzgene gleichzeitig hochfährt. Die beste Quelle wächst in drei Tagen auf der Fensterbank.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unterschaetzt"
       ]
@@ -117,7 +117,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "NAD+ ist der zentrale Redox-Cofaktor in jeder menschlichen Zelle. Sein Spiegel sinkt mit dem Alter um bis zu sechzig Prozent. Die Tierdaten zur Supplementierung sind spektakulär. Die Humandaten kommen gerade erst.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 3,
       "filters": [
         "unklar"
       ]
@@ -128,7 +128,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "DMSO durchdringt die Haut in Sekunden und nimmt mit, was darauf liegt. Stanley Jacob entdeckte das 1963, als er es verschüttete und Knoblauch schmeckte. Sechzig Jahre später hat die FDA eine einzige Indikation genehmigt. Zwölfhundert Publikationen sagen, es hätten mehr sein müssen.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unterschaetzt"
       ]
@@ -139,7 +139,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Kokoswasser enthält mehr Kalium als eine Banane, mehr Magnesium als die meisten Mineralwässer und null Farbstoffe. Die Sportgetränke-Industrie hat siebzig Jahre gebraucht, um synthetisch zu kopieren, was in einer Kokosnuss schon drin war.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unterschaetzt"
       ]
@@ -150,7 +150,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Chlorophyll und Hämoglobin teilen sich ein Molekülgerüst. Der Unterschied liegt im Zentralatom. Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -161,7 +161,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die Europäische Arzneimittelagentur stuft Ingwer als »well-established use« gegen Reiseübelkeit ein. Fast kein anderer Pflanzenextrakt erreicht diese Klassifikation. Das Regal behandelt ihn trotzdem wie ein Gewürz.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -172,7 +172,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Frisches Olivenöl enthält einen COX-Hemmer mit der Potenz von Ibuprofen. Man erkennt ihn am Kratzen im Hals. Wenn das Öl nicht kratzt, fehlt der Wirkstoff.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -183,7 +183,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Brennnessel hat sechs randomisierte Studien an über tausend Prostatapatienten. In Deutschland steht sie in der Pharmakopöe. Im Garten reißen die meisten sie raus.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -194,7 +194,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Kokosöl besteht zur Hälfte aus Laurinsäure, einem Antimikrobikum, das die Lipidhülle von Viren zerstört. Die American Heart Association behandelt es trotzdem wie Butter. Das sagt mehr über die AHA als über Kokosöl.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -205,7 +205,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Szechuanpfeffer enthält Hydroxy-alpha-Sanshool, eine Substanz, die Mechanorezeptoren der Haut aktiviert und ein messbares Vibrieren bei 50 Hertz erzeugt. Das Kribbeln im Mund ist physikalisch real.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 2,
+      "minutes": 4,
       "filters": [
         "unterschaetzt"
       ]
@@ -216,7 +216,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die WHO empfiehlt 3510 Milligramm Kalium am Tag. Westliche Bevölkerungen nehmen im Schnitt 2500 auf. Die Differenz verursacht Bluthochdruck, Schlaganfälle und Knochenverlust. Kein Arzt misst sie.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -227,7 +227,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Wacholder steht in der Europäischen Pharmakopöe und auf der Zutatenliste von Gin. Die Beere enthält über achtzig Monoterpene, ein kaliumsparendes Diuretikum und ein Breitband-Antimikrobikum. Das Regal verkauft sie als Gewürz.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -238,7 +238,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Petersilie enthält pro hundert Gramm mehr Vitamin C als Orangen, mehr Vitamin K als jedes Gemüse im Supermarkt und Apigenin, einen CD38-Hemmer, der den NAD+-Abbau bremst. Die Gastronomie schiebt sie an den Tellerrand.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -249,7 +249,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Jede lebende Zelle emittiert messbare Photonen. Die Physik ist reproduziert, die Messung steht. Die Esoterik hat das Phänomen vereinnahmt, die Wissenschaft hat aufgehört hinzusehen. Beide haben versagt.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unklar"
       ]
@@ -260,7 +260,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Hochdosiertes Vitamin C nach dem Sport kann die Trainingsanpassung blockieren. Zitronenverbene schützt die Muskeln, ohne die Adaptation zu stören. Das macht sie pharmakologisch einzigartig unter den Antioxidantien.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -271,7 +271,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die Supplement-Industrie verkauft Probiotika nach Milliarden und Stämmen. Mehr klingt nach besser. Die Evidenz sagt: weniger, aber geprüft. Nur einzelne Stämme haben Belege. Der Rest ist Arithmetik für Ahnungslose.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "ueberschaetzt"
       ]
@@ -282,7 +282,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Akkermansia muciniphila frisst die Schleimhaut des Darms und repariert sie dabei. Pasteurisiert wirkt besser als lebend. Beides widerspricht allem, was die Probiotika-Industrie über Darmbakterien erzählt.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -293,7 +293,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Die Supplement-Industrie verkauft Probiotika für dreißig Euro im Monat. Was die gekauften Keime am Leben hält, sind Ballaststoffe, die in Haferflocken, kalten Kartoffeln und Chicorée stecken. Niemand wirbt dafür, weil sich Hafer schlecht patentieren lässt.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -304,7 +304,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Alpha-Liponsäure ist das einzige Antioxidans, das sowohl in Wasser als auch in Fett arbeitet. Es regeneriert verbrauchtes Glutathion, Vitamin C und Vitamin E zurück in ihre aktive Form. Die Supplement-Industrie verkauft lieber die Einzelteile.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -315,7 +315,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Chlorella und Spirulina werden als Detox-Superfoods verkauft. Kontrollierte Humanstudien zur Schwermetall-Ausleitung existieren praktisch nicht. Dafür existieren Laboranalysen, in denen die Algen selbst mit Blei, Cadmium und Arsen kontaminiert sind.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "ueberschaetzt"
       ]
@@ -326,7 +326,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "L-Glutamin ist der Hauptenergieträger der Darmschleimhaut. Zink-Carnosin ist in Japan als Magenmedikament zugelassen. Im Westen wird das eine für den Bizeps verkauft und das andere kennt niemand.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unterschaetzt"
       ]
@@ -337,7 +337,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Chronische Übersäuerung durch moderne Ernährung klingt plausibel. Der Blut-pH ist durch drei Puffersysteme so eng reguliert, dass kein Lebensmittel ihn verschieben kann. Basenpulver behandeln eine Krankheit, die außerhalb pathologischer Stoffwechselzustände nicht existiert.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "ueberschaetzt"
       ]
@@ -348,7 +348,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Spermidin stößt Autophagie an, den zellulären Selbstreinigungsprozess, für dessen Aufklärung Ohsumi 2016 den Nobelpreis bekam. Tiermodelle zeigen Lebensverlängerung. Epidemiologie zeigt Korrelation. Was fehlt, sind große Interventionsstudien am Menschen. Die Supplement-Industrie wartet nicht.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 1,
+      "minutes": 3,
       "filters": [
         "unklar"
       ]
@@ -359,7 +359,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Resveratrol ist das meistverkaufte Anti-Aging-Polyphenol der Welt. Der menschliche Körper zerlegt es in Minuten. Sein methylierter Verwandter Pterostilben erreicht die Zielorgane vierfach besser. Verkauft wird trotzdem Resveratrol, weil es die bessere Geschichte hat.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 4,
+      "minutes": 6,
       "filters": [
         "unklar"
       ]
@@ -370,7 +370,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Zombiezellen sind kein Marketingbegriff. Sie existieren, sie akkumulieren, und sie vergiften alles, was sie umgibt. Die Frage ist, ob man sie loswerden kann. In Mäusen ja. Am Menschen weiß es niemand.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 4,
+      "minutes": 6,
       "filters": [
         "unklar"
       ]
@@ -381,7 +381,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Curcumin ist die meistuntersuchte Pflanzensubstanz der Welt. Über hundertzwanzig klinische Studien, Zehntausende In-vitro-Papers, ein eigenes Journal. 2017 veröffentlicht das Journal of Medicinal Chemistry eine Analyse, die das Fundament wegzieht. Das Molekül ist ein systematischer Falschspieler. Oder ein verkanntes Genie. Oder beides.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 4,
+      "minutes": 6,
       "filters": [
         "unklar"
       ]
@@ -392,7 +392,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Mitochondrien produzieren das ATP, von dem jede Zelle lebt. Ihre Kapazität sinkt mit dem Alter um zehn bis fünfzehn Prozent pro Dekade. Drei Substanzen greifen an verschiedenen Stellen ein. Die Supplement-Industrie verkauft sie einzeln und erklärt den Zusammenhang nie.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 4,
+      "minutes": 6,
       "filters": [
         "unterschaetzt"
       ]
@@ -403,7 +403,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Achtzig Prozent der Mitteleuropäer haben im Winter suboptimale Vitamin-D-Spiegel. Die Hälfte der Erwachsenen liegt unter der empfohlenen Magnesiumzufuhr. K2 misst niemand. Die drei Substanzen bilden ein System. Einzeln supplementiert können sie schaden.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 4,
+      "minutes": 6,
       "filters": [
         "unterschaetzt"
       ]
@@ -414,7 +414,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Liposomale Formulierung ist die wichtigste Technologie im Supplement-Regal, die kein Etikett erklärt. Bei Glutathion macht sie den Unterschied zwischen Wirkstoff und teurem Pulver. Bei Ashwagandha macht sie gar nichts. Die Industrie druckt »liposomal« auf die Packung wie einen Adelstitel und hofft, dass niemand fragt, wofür.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 3,
+      "minutes": 5,
       "filters": [
         "unterschaetzt"
       ]
@@ -425,7 +425,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "DHA macht zwanzig Prozent der Fettsäuren im Gehirn aus. Der Körper stellt es kaum selbst her. Das Omega-6-zu-Omega-3-Verhältnis in der westlichen Ernährung liegt bei fünfzehn zu eins. Evolutionär lag es bei eins zu eins. Die Entzündungslast moderner Gesellschaften hat eine Fettsäure-Signatur, die kein Arzt routinemäßig misst.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 3,
+      "minutes": 5,
       "filters": [
         "unterschaetzt"
       ]
@@ -436,7 +436,7 @@ window.BILDGEBUNG_DATA = {
       "lead": "Der Geschmack, den niemand mehr will, steuert Verdauung, Atmung und Immunabwehr gleichzeitig. Die Industrie hat ihn aus jeder Zutat gezüchtet. Die Pharmakologie gräbt ihn gerade wieder aus.",
       "date": "2026-06-22",
       "created": "2026-06-22",
-      "minutes": 3,
+      "minutes": 5,
       "filters": [
         "unterschaetzt"
       ]

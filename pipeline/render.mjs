@@ -51,7 +51,11 @@ const esc = (s) =>
 
 const WORDS_PER_MIN = 200;
 export function readingMinutes(body) {
-  const words = String(body || '').trim().split(/\s+/).filter(Boolean).length;
+  // Inline-SVG-Blöcke (Bildgebung-Diagramme) und sonstige HTML-Elemente
+  // duerfen die Lesezeit nicht aufblaehen — der Reader liest sie nicht.
+  // Erst alle <...> entfernen, dann zaehlen.
+  const text = String(body || '').replace(/<[\s\S]*?>/g, ' ');
+  const words = text.trim().split(/\s+/).filter(Boolean).length;
   return Math.round(words / WORDS_PER_MIN);
 }
 export function readingLabel(min) {
@@ -844,7 +848,16 @@ function mdToHtml(body, opts) {
   return blocks
     .filter((b) => !/^#{1,6}\s/.test(b.trim()))
     .map((b) => {
-      const escaped = esc(b.trim()).replace(/\n/g, '<br />');
+      const trimmed = b.trim();
+      // Roher HTML-Block (z. B. Diagramm-Wrapper `<div class="bildgebung-diagramm">...</div>`
+      // mit Inline-SVG): nicht escapen, nicht in <p> wrappen, sondern as-is durchreichen.
+      // Erkennung: erstes Zeichen ist '<' und der Inhalt sieht aus wie ein Element
+      // (NICHT bloss ein eingebettetes <sup> mitten im Fliesstext — das hat vor dem '<'
+      // immer Text). Heuristik ist defensiv: nur Bloecke, die mit '<' starten.
+      if (trimmed.startsWith('<')) {
+        return trimmed;
+      }
+      const escaped = esc(trimmed).replace(/\n/g, '<br />');
       // Marker [N] werden NACH dem Escapen ersetzt: esc(`[1]`) liefert `[1]`
       // (keine HTML-Sonderzeichen), also koennen wir gefahrlos auf eckige
       // Klammern matchen und durch sup-Elemente ersetzen. data-fn traegt
@@ -952,7 +965,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=14" />
   <link rel="stylesheet" href="../../../news/news.css?v=104" />
-  <link rel="stylesheet" href="../bildgebung.css?v=5" />
+  <link rel="stylesheet" href="../bildgebung.css?v=6" />
 </head>
 <body>
   <header class="top">

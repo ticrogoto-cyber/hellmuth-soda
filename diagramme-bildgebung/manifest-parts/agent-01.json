@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "adaptogene-ueberblick",
+    "essay_url": "/zutaten/bildgebung/adaptogene-ueberblick/",
+    "svg_file": "diagramm-adaptogene-ueberblick.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält",
+    "closer_text": "Es reduziert Pharmakologie auf eine Haltung.",
+    "notes": "Gabelung: das Wort »Adaptogen« teilt sich in ETIKETT (links, vernebelt, austauschbar) und PHARMAKOLOGIE (rechts, distinkte Wirkstoffe und Pfade). Sep-Wort: NEBEL — fasst den entwertenden Effekt der Kategorie zusammen."
+  },
+  {
+    "essay_slug": "ashwagandha-ksm66-schilddruese",
+    "essay_url": "/zutaten/bildgebung/ashwagandha-ksm66-schilddruese/",
+    "svg_file": "diagramm-ashwagandha-ksm66-schilddruese.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Wie gefährlich, beschreiben die Fallberichte.",
+    "closer_text": "Die Schilddrüsenstimulation ist genauso real.",
+    "notes": "Triade aus drei realen, RCT-belegten Wirkungen: Cortisol, Schlaf, Schilddrüse. Die dritte Spalte in Warn-Rot (#6B0F1A), weil sie in der Notaufnahme landet, während die ersten zwei aufs Etikett kommen. Sep-Wort: DRITTE WIRKUNG."
+  },
+  {
+    "essay_slug": "magnolia-phellodendron-relora",
+    "essay_url": "/zutaten/bildgebung/magnolia-phellodendron-relora/",
+    "svg_file": "diagramm-magnolia-phellodendron-relora.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil",
+    "closer_text": "Das Marketing folgt dem Geld, nicht der Pharmakologie.",
+    "notes": "Gabelung: Honokiol teilt sich in PHARMAKOLOGIE (links, GABA-A-Modulator ohne Abhängigkeit) und PATENT (rechts, Relora als Diätpille). Zwei legitime Wege existieren, aber nur einer wurde finanziert. Sep-Wort: UMWEG."
+  }
+]

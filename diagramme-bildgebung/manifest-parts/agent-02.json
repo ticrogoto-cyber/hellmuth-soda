@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "hopfen-jenseits-vom-bier",
+    "essay_url": "/zutaten/bildgebung/hopfen-jenseits-vom-bier/",
+    "svg_file": "diagramm-hopfen-jenseits-vom-bier.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Fünf RCTs testen Hopfen als Schlafmittel",
+    "closer_text": "Man hat ein Sedativum gesucht und eine Apotheke übersehen.",
+    "notes": "Gabelung: Humulus lupulus teilt sich in DAS REGAL (Marketing, Schlaftee, EMA-Etikett) und DIE APOTHEKE (COX-2, GABA-A, Anxiolyse ohne Sedierung). Sep-Wort APOTHEKE benennt das Übersehene. Rahmen um SCHLAFTEE markiert ihn als Endpunkt der Marketinglogik."
+  },
+  {
+    "essay_slug": "bacopa-monnieri-langsame-wirkung",
+    "essay_url": "/zutaten/bildgebung/bacopa-monnieri-langsame-wirkung/",
+    "svg_file": "diagramm-bacopa-monnieri-langsame-wirkung.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "Keine einzige Studie findet einen akuten Effekt.",
+    "closer_text": "Der Befund ist robust. Die Zeitachse ist das Problem.",
+    "notes": "Zeitstrahl von Tag 0 bis 12 Wochen mit Markierungen bei Tag 3 (Abbruch der Nootropic-Käufer), Einzeldosis (Nathan 2001), 6 Wochen (Bacoside-Wirkung beginnt) und 12 Wochen (Pase 2012). Gestrichelte Linien teilen den Strahl in ABBRUCHZONE und WIRKUNGSZONE. Sep-Wort ZEITPLAN."
+  },
+  {
+    "essay_slug": "gaba-glycin-magnesium-glycinat",
+    "essay_url": "/zutaten/bildgebung/gaba-glycin-magnesium-glycinat/",
+    "svg_file": "diagramm-gaba-glycin-magnesium-glycinat.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor",
+    "closer_text": "Drei Gramm Glycinpulver für dreißig Cent haben keine Marketingabteilung.",
+    "notes": "Triade aus drei Wegen zur GABAergen Bremse: GABA scheitert (warn-rot, X-Mark statt Pfeil, BBB STOPPT), Glycin kühlt über NMDA, Magnesium-Glycinat aktiviert die GAD und liefert beides. Sep-Wort UMWEG — die funktionierenden Wege sind beide indirekt."
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "essay_slug": "adaptogene-ueberblick",
+    "essay_url": "/zutaten/bildgebung/adaptogene-ueberblick/",
+    "svg_file": "diagramm-adaptogene-ueberblick.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Eleutherococcus senticosus, Brekhmans Lieblingsgewächs, enthält",
+    "closer_text": "Es reduziert Pharmakologie auf eine Haltung.",
+    "notes": "Gabelung: das Wort »Adaptogen« teilt sich in ETIKETT (links, vernebelt, austauschbar) und PHARMAKOLOGIE (rechts, distinkte Wirkstoffe und Pfade). Sep-Wort: NEBEL — fasst den entwertenden Effekt der Kategorie zusammen."
+  },
+  {
+    "essay_slug": "akkermansia-muciniphila-darmbarriere",
+    "essay_url": "/zutaten/bildgebung/akkermansia-muciniphila-darmbarriere/",
+    "svg_file": "diagramm-akkermansia-muciniphila-darmbarriere.svg",
+    "diagram_type": "F (Kreislauf)",
+    "insert_after_paragraph_starting_with": "Akkermansia muciniphila lebt in der Mukusschicht",
+    "closer_text": "Der Wirkstoff überlebt das Bakterium.",
+    "notes": "Kreislauf: Mukusschicht → Akkermansia frisst Muzin → Becherzellen → neue Barriere → wieder Mukusschicht. Zentrum: Amuc_1100 (hitzestabil · TLR2). Sep-Wort: KREISLAUF."
+  },
+  {
+    "essay_slug": "ala-nac-glutathion-recycling",
+    "essay_url": "/zutaten/bildgebung/ala-nac-glutathion-recycling/",
+    "svg_file": "diagramm-ala-nac-glutathion-recycling.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Alpha-Liponsäure hält das System zusammen",
+    "closer_text": "Drei Substanzen, ein System.",
+    "notes": "Klassische Triade: GLUTATHION (Ziel) · NAC (Baumaterial Cystein) · ALA (Mechaniker, recycelt). Feedback-Bogen unten. Sep-Wort: SYSTEM. Platzierung direkt vor dem Synthese-Absatz, der die Aussage konsolidiert."
+  },
+  {
+    "essay_slug": "ashwagandha-ksm66-schilddruese",
+    "essay_url": "/zutaten/bildgebung/ashwagandha-ksm66-schilddruese/",
+    "svg_file": "diagramm-ashwagandha-ksm66-schilddruese.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Wie gefährlich, beschreiben die Fallberichte.",
+    "closer_text": "Die Schilddrüsenstimulation ist genauso real.",
+    "notes": "Triade aus drei realen, RCT-belegten Wirkungen: Cortisol, Schlaf, Schilddrüse. Die dritte Spalte in Warn-Rot (#6B0F1A), weil sie in der Notaufnahme landet, während die ersten zwei aufs Etikett kommen. Sep-Wort: DRITTE WIRKUNG."
+  },
+  {
+    "essay_slug": "bacopa-monnieri-langsame-wirkung",
+    "essay_url": "/zutaten/bildgebung/bacopa-monnieri-langsame-wirkung/",
+    "svg_file": "diagramm-bacopa-monnieri-langsame-wirkung.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "Keine einzige Studie findet einen akuten Effekt.",
+    "closer_text": "Der Befund ist robust. Die Zeitachse ist das Problem.",
+    "notes": "Zeitstrahl von Tag 0 bis 12 Wochen mit Markierungen bei Tag 3 (Abbruch der Nootropic-Käufer), Einzeldosis (Nathan 2001), 6 Wochen (Bacoside-Wirkung beginnt) und 12 Wochen (Pase 2012). Gestrichelte Linien teilen den Strahl in ABBRUCHZONE und WIRKUNGSZONE. Sep-Wort ZEITPLAN."
+  },
+  {
+    "essay_slug": "biophotonen-ultraschwache-photonenemission",
+    "essay_url": "/zutaten/bildgebung/biophotonen-ultraschwache-photonenemission/",
+    "svg_file": "diagramm-biophotonen-ultraschwache-photonenemission.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Die Quellen sind identifiziert.",
+    "closer_text": "Es hat Fans und Feinde bekommen. Beide haben aufgehört zu lesen.",
+    "notes": "Gabelung: gemessene Emission als Ausgangspunkt, links Esoterik (warn-rot, »Lebensenergie« etc.), rechts Wissenschaft (zieht sich zurück). Sep-Wort: GABELUNG. Platzierung nach dem Absatz, der die Messung etabliert — dann visualisiert das Diagramm den Bruch in zwei Interpretationen."
+  },
+  {
+    "essay_slug": "bitter-tas2r-amara-geschmack",
+    "essay_url": "/zutaten/bildgebung/bitter-tas2r-amara-geschmack/",
+    "svg_file": "diagramm-bitter-tas2r-amara-geschmack.svg",
+    "diagram_type": "D (Körperkarte)",
+    "insert_after_paragraph_starting_with": "Auf Immunzellen modulieren TAS2R-Agonisten",
+    "closer_text": "Die Industrie verkauft einen Verdauungshelfer und verschweigt ein Signalsystem.",
+    "notes": "Körperkarte: TAS2R zentral, sechs Anker (Zunge, Bronchien, Darm links; Gehirn, Nase, Immunzellen rechts). Gestrichelte Linien strahlen vom zentralen Punkt (340,90) zu Anker-Kreisen, ohne Text-Bboxen zu kreuzen. Sep-Wort: SIGNAL. Diagramm steht nach Multi-Organ-Befund und vor der Amara-Tradition."
+  },
+  {
+    "essay_slug": "brennnessel-urtica-prostata",
+    "essay_url": "/zutaten/bildgebung/brennnessel-urtica-prostata/",
+    "svg_file": "diagramm-brennnessel-urtica-prostata.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Urtica dioica ist pharmakologisch zwei Pflanzen.",
+    "closer_text": "Wer eine Prostatawirkung erwartet und Blattextrakt kauft, kauft das Falsche.",
+    "notes": "Gabelung: Urtica dioica teilt sich in WURZEL (Lignane, Phytosterole → Prostata, sechs RCTs) und BLATT (Flavonoide, Caffeoylsäure → Allergie, Glukosestoffwechsel). Eine Pflanze, zwei pharmakologische Identitäten, ein Etikett. Sep-Wort: GABELUNG. Diagramm steht nach dem Mechanismus-Absatz und vor dem Studien-Beleg (Safarinejad 2005)."
+  },
+  {
+    "essay_slug": "chlorella-spirulina-detox-kontamination",
+    "essay_url": "/zutaten/bildgebung/chlorella-spirulina-detox-kontamination/",
+    "svg_file": "diagramm-chlorella-spirulina-detox-kontamination.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Spirulina teilt das Muster",
+    "closer_text": "Die Algen sind selbst das Problem, das sie lösen sollen.",
+    "notes": "Gabelung mit ironischer Doppel-Sackgasse: Marketing-Versprechen (links — keine Humanstudien) gegen biologische Realität (rechts, warn-Farbe — Kontamination mit Blei, Cadmium, Arsen, Mikrocystinen). Sep-Wort: IRONIE. Platzierung nach Einführung beider Algen, vor dem Nährstoff/Schlusssatz-Absatz."
+  },
+  {
+    "essay_slug": "chlorophyll-was-gruen-kann",
+    "essay_url": "/zutaten/bildgebung/chlorophyll-was-gruen-kann/",
+    "svg_file": "diagramm-chlorophyll-was-gruen-kann.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Die Geruchsbindung ist reproduzierbar und",
+    "closer_text": "Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.",
+    "notes": "Gabelung: CHLOROPHYLL teilt sich in TIKTOK (links, warn-Farbe #6B0F1A: Detox, Hautglow, Gewichtsverlust) und PHARMAKOLOGIE (rechts: Aflatoxin −55%, Wundheilung, Geruchsbindung). Sep-Wort: GABELUNG. Diagramm steht nach pharmakologischer Belege-Trias und vor dem TikTok-Absatz."
+  },
+  {
+    "essay_slug": "cholin-alpha-gpc-citicolin",
+    "essay_url": "/zutaten/bildgebung/cholin-alpha-gpc-citicolin/",
+    "svg_file": "diagramm-cholin-alpha-gpc-citicolin.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Citicolin geht einen doppelten Weg",
+    "closer_text": "Eine Studie. Signifikant. Vergessen.",
+    "notes": "Triade aus drei Cholinformen, die im Regal dasselbe Wort teilen: BITARTRAT (billig, bleibt im Blut), ALPHA-GPC (BHS-Passage, De Jesus Moreno 2003 n=261), CITICOLIN (doppelter Weg: Acetylcholin + Membranreparatur). Sep-Wort: FORM — was das Etikett verschweigt."
+  },
+  {
+    "essay_slug": "curcumin-pains-bioverfuegbarkeit",
+    "essay_url": "/zutaten/bildgebung/curcumin-pains-bioverfuegbarkeit/",
+    "svg_file": "diagramm-curcumin-pains-bioverfuegbarkeit.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Was funktioniert, sind die Formulierungen,",
+    "closer_text": "Die teuerste Form von Nichts ist immer noch Nichts.",
+    "notes": "Gabelung: dasselbe Molekül in zwei Pharmakokinetiken — Standard-Pulver (links, warn, PAINS und <1 % Resorption, endet im gerahmten NICHTS) und Phytosom (rechts, Meriva/BCM-95, 29-fache Bioverfügbarkeit, reproduzierte Klinik). Sep-Wort: NICHTS, weil das die Frucht der billigen Schiene ist."
+  },
+  {
+    "essay_slug": "dmso-loesungsmittel-heilmittel",
+    "essay_url": "/zutaten/bildgebung/dmso-loesungsmittel-heilmittel/",
+    "svg_file": "diagramm-dmso-loesungsmittel-heilmittel.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "In Europa und Lateinamerika wird",
+    "closer_text": "Die Substanz, für die er fünfzig Jahre kämpfte, ist in Amerika immer noch eine Blasenspülung.",
+    "notes": "Zeitstrahl mit fünf Marken: 1962 Entdeckung (Knoblauchgeschmack), 1964 Publikation, 1965 FDA-Blockade (Warn-Farbe, Hundeauge/Thalidomid), 1978 Rimso-50, heute (Veterinär, Europa). Horizontale Achse mit Ticks, Ereignis über der Linie, Jahr darunter. Sep-Wort: BLASENSPÜLUNG. Closer-Satz ist der wortgetreue Schlusssatz des Essays."
+  },
+  {
+    "essay_slug": "gaba-glycin-magnesium-glycinat",
+    "essay_url": "/zutaten/bildgebung/gaba-glycin-magnesium-glycinat/",
+    "svg_file": "diagramm-gaba-glycin-magnesium-glycinat.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Magnesium-Glycinat verbindet beides. Magnesium ist Cofaktor",
+    "closer_text": "Drei Gramm Glycinpulver für dreißig Cent haben keine Marketingabteilung.",
+    "notes": "Triade aus drei Wegen zur GABAergen Bremse: GABA scheitert (warn-rot, X-Mark statt Pfeil, BBB STOPPT), Glycin kühlt über NMDA, Magnesium-Glycinat aktiviert die GAD und liefert beides. Sep-Wort UMWEG — die funktionierenden Wege sind beide indirekt."
+  },
+  {
+    "essay_slug": "glutamin-zink-carnosin-schleimhaut",
+    "essay_url": "/zutaten/bildgebung/glutamin-zink-carnosin-schleimhaut/",
+    "svg_file": "diagramm-glutamin-zink-carnosin-schleimhaut.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Zink-Carnosin arbeitet auf der anderen",
+    "closer_text": "Die Darmschleimhaut fragt nicht nach Marketing.",
+    "notes": "Drei-Spalten-Triade: GLUTAMIN (nährt Enterozyten), ZINK (heilt Ulkus, Polaprezinc), CARNOSIN (trägt Zink, senkt Permeabilität). Sep-Wort: WAND. Diagramm steht zwischen Mechanismus-Erklärung und Schluss-Pointe."
+  },
+  {
+    "essay_slug": "hopfen-jenseits-vom-bier",
+    "essay_url": "/zutaten/bildgebung/hopfen-jenseits-vom-bier/",
+    "svg_file": "diagramm-hopfen-jenseits-vom-bier.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Fünf RCTs testen Hopfen als Schlafmittel",
+    "closer_text": "Man hat ein Sedativum gesucht und eine Apotheke übersehen.",
+    "notes": "Gabelung: Humulus lupulus teilt sich in DAS REGAL (Marketing, Schlaftee, EMA-Etikett) und DIE APOTHEKE (COX-2, GABA-A, Anxiolyse ohne Sedierung). Sep-Wort APOTHEKE benennt das Übersehene. Rahmen um SCHLAFTEE markiert ihn als Endpunkt der Marketinglogik."
+  },
+  {
+    "essay_slug": "igelstachelbart-nerven-wachsen",
+    "essay_url": "/zutaten/bildgebung/igelstachelbart-nerven-wachsen/",
+    "svg_file": "diagramm-igelstachelbart-nerven-wachsen.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Hericenone haben eine schlechtere Passage",
+    "closer_text": "Der Pilz liefert. Das Produktdesign versagt.",
+    "notes": "Gabelung: Hericium erinaceus teilt sich in FRUCHTKÖRPER (links, der Speisepilz, Hericenone, schwache BHS-Passage, in fast allen Produkten) und MYCEL (rechts, Erinacine, passieren die Blut-Hirn-Schranke, in kaum einem Produkt). Sep-Wort: LÜCKE — die zentralnervös wirksame Klasse fehlt im Regal."
+  },
+  {
+    "essay_slug": "ingwer-gingerol-pharmakologie",
+    "essay_url": "/zutaten/bildgebung/ingwer-gingerol-pharmakologie/",
+    "svg_file": "diagramm-ingwer-gingerol-pharmakologie.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Die Entzündungshemmung bestätigt sich am Menschen",
+    "closer_text": "Was drin ist, hätte einen Beipackzettel verdient.",
+    "notes": "Drei pharmakologische Achsen von Ingwer: Antiemese (5-HT3 wie Ondansetron), Magenmotilität (Wu 2008), COX-2-Hemmung (wie Ibuprofen). Sep-Wort: BEIPACKZETTEL. Diagramm sitzt zwischen Mechanismus-Beschreibung (Arthrose-Absatz) und der finalen Kritik an der Supplement-Industrie."
+  },
+  {
+    "essay_slug": "kalium-elektrolyt-blutdruck",
+    "essay_url": "/zutaten/bildgebung/kalium-elektrolyt-blutdruck/",
+    "svg_file": "diagramm-kalium-elektrolyt-blutdruck.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Aburto 2013 hat für die WHO",
+    "closer_text": "Die Lösung steht im Supermarkt, nicht in der Apotheke.",
+    "notes": "Triade der drei Kalium-Wirkungen: Blutdruck (Aburto 2013), Schlaganfall (-24%), Defizit (WHO 3510 vs IST 2500). Feedback-Bogen zeigt, dass Koffein/Natrium die Lücke vergrößert. Sep-Wort: LÜCKE."
+  },
+  {
+    "essay_slug": "kokosoel-mct-laurinsaeure",
+    "essay_url": "/zutaten/bildgebung/kokosoel-mct-laurinsaeure/",
+    "svg_file": "diagramm-kokosoel-mct-laurinsaeure.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "In Sri Lanka, den Philippinen",
+    "closer_text": "Wenn dein Werkzeug nur Cholesterin zählen kann, sieht jedes Fett aus wie ein Herzinfarkt.",
+    "notes": "Eine Substanz (Laurinsäure) verzweigt sich in drei Funktionen: ANTIMIKROBIKUM (Monolaurin lysiert Lipidhülle, Kabara 1972), KETOGENES (Pfortader → Leber → Ketonkörper, Hirn-Brennstoff), KOCHFETT (oxidationsstabil). Feedback-Bogen am Boden. Sep-Wort: DREI FUNKTIONEN. Closer ist der wortgetreue Schlusssatz des Essays."
+  },
+  {
+    "essay_slug": "kokoswasser-elektrolyte-hydration",
+    "essay_url": "/zutaten/bildgebung/kokoswasser-elektrolyte-hydration/",
+    "svg_file": "diagramm-kokoswasser-elektrolyte-hydration.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Saat 2002 vergleicht frisches Kokoswasser",
+    "closer_text": "Siebzig Jahre Forschung, um eine Kokosnuss nachzubauen.",
+    "notes": "Gabelung von REHYDRATION (Saat 2002, Kalman 2012) in Gatorade (links, warn, kein Kalium) vs. Kokoswasser (rechts, volles Profil). Sep-Wort: KOPIE."
+  },
+  {
+    "essay_slug": "liposomal-bioverfuegbarkeit-technologie",
+    "essay_url": "/zutaten/bildgebung/liposomal-bioverfuegbarkeit-technologie/",
+    "svg_file": "diagramm-liposomal-bioverfuegbarkeit-technologie.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Alpha-Liponsäure zeigt den Unterschied am deutlichsten.",
+    "closer_text": "Dazwischen liegt die Phospholipidmembran, und sonst nichts.",
+    "notes": "Gabelung: dasselbe Etikett »liposomal« teilt sich in PHARMAKOKINETIK (links, Glutathion/Curcumin/ALA, ohne Hülle scheitern sie an Peptidasen, First-Pass oder schneller Clearance) und TYPOGRAPHIE (rechts, warn, Ashwagandha und niedrigdosiertes Vitamin C, resorbieren auch ohne Hülle, der Aufpreis ist reines Marketing). Sep-Wort: HÜLLE."
+  },
+  {
+    "essay_slug": "magnolia-phellodendron-relora",
+    "essay_url": "/zutaten/bildgebung/magnolia-phellodendron-relora/",
+    "svg_file": "diagramm-magnolia-phellodendron-relora.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Ein pflanzlicher GABA-A-Modulator ohne Abhängigkeitsprofil",
+    "closer_text": "Das Marketing folgt dem Geld, nicht der Pharmakologie.",
+    "notes": "Gabelung: Honokiol teilt sich in PHARMAKOLOGIE (links, GABA-A-Modulator ohne Abhängigkeit) und PATENT (rechts, Relora als Diätpille). Zwei legitime Wege existieren, aber nur einer wurde finanziert. Sep-Wort: UMWEG."
+  },
+  {
+    "essay_slug": "mitochondrien-coq10-pqq-alcar",
+    "essay_url": "/zutaten/bildgebung/mitochondrien-coq10-pqq-alcar/",
+    "svg_file": "diagramm-mitochondrien-coq10-pqq-alcar.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Drei Substanzen, ein System. CoQ10",
+    "closer_text": "Vier Ärzte, vier Diagnosen, eine defekte Maschine.",
+    "notes": "Triade: CoQ10 (Elektronencarrier, Atmungskette) — PQQ (Aktivator von PGC-1α, baut neue Mitochondrien) — ALCAR (Fettsäure-Shuttle, Treibstoff durch die Membran). Drei Spalten, gestrichelter Feedback-Bogen unten. Sep-Wort: INFRASTRUKTUR — direkt aus dem Essay (»Sie sind Infrastruktur.«)."
+  },
+  {
+    "essay_slug": "nad-nmn-sirtuine-langlebigkeit",
+    "essay_url": "/zutaten/bildgebung/nad-nmn-sirtuine-langlebigkeit/",
+    "svg_file": "diagramm-nad-nmn-sirtuine-langlebigkeit.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "Ohne NAD+ stoppt die Glykolyse",
+    "closer_text": "Wer die Daten liest, hat Geduld.",
+    "notes": "Alterskurve auf horizontaler Zeitachse: NAD+ faellt von 100% auf 40-60% ueber Lebensjahre 30-75; SIRTUINE und PARP verhungern oben rechts; NMN-Vorstufe restauriert per Bogenpfeil zurueck zum Startpunkt. Sep-Wort: GEDULD."
+  },
+  {
+    "essay_slug": "olivenoel-oleocanthal-entzuendung",
+    "essay_url": "/zutaten/bildgebung/olivenoel-oleocanthal-entzuendung/",
+    "svg_file": "diagramm-olivenoel-oleocanthal-entzuendung.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Dann kam PREDIMED. Über 7400 Teilnehmer",
+    "closer_text": "Das Brennen ist der Qualitätstest. Ibuprofen kratzt auch.",
+    "notes": "Gabelung am Brennen im Hals: links frisch (kratzt, Pharmakologie aktiv, PREDIMED), rechts alt/raffiniert (kratzt nicht, Oleocanthal zerfallen — Warnfarbe). Sep-Wort: QUALITÄTSTEST. Diagramm steht zwischen PREDIMED-Absatz und Supermarkt-Problem-Absatz."
+  },
+  {
+    "essay_slug": "omega-3-hirnatrophie-b-vitamine",
+    "essay_url": "/zutaten/bildgebung/omega-3-hirnatrophie-b-vitamine/",
+    "svg_file": "diagramm-omega-3-hirnatrophie-b-vitamine.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Neben der Ernährung schrumpft das",
+    "closer_text": "Die Biologie hatte nie einen Plan B.",
+    "notes": "Drei Schrumpffaktoren als System-Triade: OMEGA-3 (DHA-Struktur, 20 % der Hirn-Fettsäuren), B-VITAMINE (Folsäure/B6/B12, Einbau in Membran, Homocystein), FEINSTAUB (Warn-Farbe, PM2,5, Neuroinflammation). Untertitel verweist auf Jernerén 2015 (B-Vitamine wirken nur bei hohem Omega-3-Spiegel). Sep-Wort: PLAN B. Closer wortgetreu aus dem letzten Absatz."
+  },
+  {
+    "essay_slug": "petersilie-apigenin-nad",
+    "essay_url": "/zutaten/bildgebung/petersilie-apigenin-nad/",
+    "svg_file": "diagramm-petersilie-apigenin-nad.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin",
+    "closer_text": "Ein Bund Petersilie hemmt es für neunundneunzig Cent.",
+    "notes": "Horizontale Kette PETERSILIE -> enthaelt -> APIGENIN -> hemmt (Block-Symbol) -> CD38; CD38 -> NAD+ FAELLT vertikal nach unten; Preiskontrast Kapsel/Bund als Sub-Annotation. Sep-Wort: HEMMUNG."
+  },
+  {
+    "essay_slug": "praebiotika-ballaststoffe-butyrat",
+    "essay_url": "/zutaten/bildgebung/praebiotika-ballaststoffe-butyrat/",
+    "svg_file": "diagramm-praebiotika-ballaststoffe-butyrat.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Resistente Stärke übertrifft beide in einem",
+    "closer_text": "Die Probiotika-Industrie verkauft den Gast. Das Futter erwähnt sie selten.",
+    "notes": "Triade mit Konvergenz: drei Ballaststoffe (Inulin, Akazienfaser, resistente Stärke) → drei Fermentationsprofile → konvergieren via gestrichelte Bögen zu Butyrat → Darmschleimhaut. Sep-Wort: FUTTER."
+  },
+  {
+    "essay_slug": "probiotika-staemme-evidenz",
+    "essay_url": "/zutaten/bildgebung/probiotika-staemme-evidenz/",
+    "svg_file": "diagramm-probiotika-staemme-evidenz.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "LGG hat über 1500 Publikationen",
+    "closer_text": "Die Zahl misst nichts außer Marketing.",
+    "notes": "Gabelung: Marketing-Schiene (Milliarden, vierzehn Stämme, Lotterie) links vs. Evidenz-Schiene (LGG, S. boulardii, B. coagulans — drei Stämme, drei Belege) rechts. Sep-Wort: ARITHMETIK."
+  },
+  {
+    "essay_slug": "resveratrol-pterostilben-bioverfuegbarkeit",
+    "essay_url": "/zutaten/bildgebung/resveratrol-pterostilben-bioverfuegbarkeit/",
+    "svg_file": "diagramm-resveratrol-pterostilben-bioverfuegbarkeit.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Pterostilben ist ein methyliertes",
+    "closer_text": "Der Markt belohnt Narrative, keine Bioverfügbarkeit.",
+    "notes": "Gabelung: identische In-vitro-Biologie (Polyphenol oral), links Resveratrol (warn-rot, Sulfatierung, <1% Plasma, Leber gewinnt), rechts Pterostilben (Methylgruppen, ~80% Bioverfügbarkeit, erreicht Zielorgan). Sep-Wort: SACKGASSE — Anspielung auf »Die Pharmakokinetik zeigt eine Sackgasse.« aus dem Schlussabsatz."
+  },
+  {
+    "essay_slug": "saeure-basen-basenpulver-ph",
+    "essay_url": "/zutaten/bildgebung/saeure-basen-basenpulver-ph/",
+    "svg_file": "diagramm-saeure-basen-basenpulver-ph.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Es gibt eine Ausnahme, und sie ist real.",
+    "closer_text": "Das Produkt behandelt ein Gefühl, keinen Befund.",
+    "notes": "Gabelung von BASENPULVER in Alltag (links, warn, EIN GEFÜHL im Rahmen als Endpunkt) vs. Fasten (rechts, FX-Mayr, realer Befund). Sep-Wort: MARGE."
+  },
+  {
+    "essay_slug": "senolytika-fisetin-quercetin-zombiezellen",
+    "essay_url": "/zutaten/bildgebung/senolytika-fisetin-quercetin-zombiezellen/",
+    "svg_file": "diagramm-senolytika-fisetin-quercetin-zombiezellen.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "Dann kam Fisetin. Yousefzadeh 2018 testet",
+    "closer_text": "Wer heute Senolytika nimmt, wettet darauf, dass Mäuse nicht lügen.",
+    "notes": "Zeitstrahl: SASP-Konzept → Mayo 2015 (genetische Ablation) → D+Q 2017 (Kirkland) → Fisetin 2018 (Yousefzadeh, EBioMedicine) → Mensch heute (AFFIRM pending, Pilotstudie n=14, drei Tage). Sep-Wort: MAUS, weil die ganze Trajektorie auf Mausdaten beruht."
+  },
+  {
+    "essay_slug": "spermidin-autophagie-longevity",
+    "essay_url": "/zutaten/bildgebung/spermidin-autophagie-longevity/",
+    "svg_file": "diagramm-spermidin-autophagie-longevity.svg",
+    "diagram_type": "F (Kreislauf)",
+    "insert_after_paragraph_starting_with": "Autophagie ist der Prozess",
+    "closer_text": "Die Marge wartet nicht auf Beweise.",
+    "notes": "Vier-Knoten-Kreislauf rechts (SCHADEN -> VERPACKEN -> ABBAU -> RECYCLING -> SCHADEN); SPERMIDIN als externer Trigger links, Bogenpfeil ins Cycle-Einganstor SCHADEN. Sep-Wort: KREISLAUF."
+  },
+  {
+    "essay_slug": "spilanthol-trigeminale-aktivierung",
+    "essay_url": "/zutaten/bildgebung/spilanthol-trigeminale-aktivierung/",
+    "svg_file": "diagramm-spilanthol-trigeminale-aktivierung.svg",
+    "diagram_type": "D (Körperkarte)",
+    "insert_after_paragraph_starting_with": "Spilanthol hemmt NF-kB, unterdrückt",
+    "closer_text": "Im Reformhaus steht die Faltencreme. Im Labor liegt ein Anästhesiekandidat.",
+    "notes": "Körperkarte mit sechs Wirkungsorten eines einzigen Moleküls: Meissner-Körperchen bei 50 Hz, TRPV1 partiell, Natriumkanal (Lidocain-Prinzip), GABA + Opioid, NF-kB/COX-2, Niere/cAMP/NKCC2. Sep-Wort: KARTE — sechs Pfade, ein Molekül, eine Faltencreme."
+  },
+  {
+    "essay_slug": "sulforaphan-nrf2-entgiftung",
+    "essay_url": "/zutaten/bildgebung/sulforaphan-nrf2-entgiftung/",
+    "svg_file": "diagramm-sulforaphan-nrf2-entgiftung.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Sulforaphan wirkt über einen einzigen",
+    "closer_text": "Was im Körper ankommt, ist Lotterie.",
+    "notes": "Gabelung: Sprosse (links, Myrosinase aktiv, Nrf2 fährt 200 Schutzgene hoch) gegen Kapsel (rechts, warn-Farbe — Vorstufe ohne Enzym, Bioverfügbarkeit schwankt um Faktor fünf). Sep-Wort: LOTTERIE. Platzierung nach dem Mechanismus-Absatz, vor der Industriekritik."
+  },
+  {
+    "essay_slug": "szechuanpfeffer-sanshool-vibration",
+    "essay_url": "/zutaten/bildgebung/szechuanpfeffer-sanshool-vibration/",
+    "svg_file": "diagramm-szechuanpfeffer-sanshool-vibration.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Hagura 2013 liefert die eleganteste Messung",
+    "closer_text": "Ein Gewürz, das die Lippen auf Netzfrequenz bringt.",
+    "notes": "Drei molekulare Targets von Hydroxy-alpha-Sanshool: TRPV1/TRPA1 (Koo 2007), KCNK3/KCNK9-Hemmung (Bautista 2008), RA1-Mechanorezeptor (Hagura 2013) — alle münden in 50 Hz. Sep-Wort: NETZFREQUENZ. Diagramm steht nach dem Hagura-Absatz und vor dem Spilanthol-Vergleich."
+  },
+  {
+    "essay_slug": "vitamin-d-k2-magnesium-triade",
+    "essay_url": "/zutaten/bildgebung/vitamin-d-k2-magnesium-triade/",
+    "svg_file": "diagramm-vitamin-d-k2-magnesium-triade.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Drei Substanzen, drei Defizite, ein System.",
+    "closer_text": "Die Triade funktioniert zusammen oder gar nicht.",
+    "notes": "Referenz-SVG. Drei Säulen (D / K2 / Mg) mit Funktionen + gestrichelter Feedback-Bogen, der die gegenseitige Abhängigkeit zeigt. Sep-Wort: TRIADE."
+  },
+  {
+    "essay_slug": "wacholder-juniperus-terpinen",
+    "essay_url": "/zutaten/bildgebung/wacholder-juniperus-terpinen/",
+    "svg_file": "diagramm-wacholder-juniperus-terpinen.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Die EMA führt Juniperus communis mit",
+    "closer_text": "Die Medizin hat drei davon vergessen und trinkt die vierte.",
+    "notes": "Vier-Wege-Fanout aus einer Beere: GEWÜRZ, DIURETIKUM (Terpinen-4-ol, kaliumsparend), ANTIMIKROBIKUM (gram+/-/Candida, Raina 2019), GIN-BASIS (EU 1576/89). Typ A erweitert um vierte Spalte — vier kongruente Karrieren statt drei. Sep-Wort: SPAGAT. Diagramm steht nach dem Regulatorik-Absatz und vor dem Closer-Absatz."
+  },
+  {
+    "essay_slug": "zitronenverbene-verbascoside-sport",
+    "essay_url": "/zutaten/bildgebung/zitronenverbene-verbascoside-sport/",
+    "svg_file": "diagramm-zitronenverbene-verbascoside-sport.svg",
+    "diagram_type": "B (Gabelung)",
+    "insert_after_paragraph_starting_with": "Hochdosiertes Vitamin C und Vitamin E",
+    "closer_text": "Zitronenverbene reduziert den Schaden, ohne die Botschaft zu unterdrücken.",
+    "notes": "Gabelung: ROS nach Sport teilen sich in VITAMIN C (warn-rot, Megadose löscht Signal mit, Adaptation blockiert) und VERBASCOSIDE (dämpft Schaden, lässt Signal stehen, Funes 2011 / Buchwald-Werner 2018). Sep-Wort: BOTSCHAFT. Diagramm steht nach dem Mechanismus-Absatz (ROS als Signal, Buchwald-Werner) und vor dem Schlaf-Absatz (Afrasiabian 2019)."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "essay_slug": "nad-nmn-sirtuine-langlebigkeit",
+    "essay_url": "/zutaten/bildgebung/nad-nmn-sirtuine-langlebigkeit/",
+    "svg_file": "diagramm-nad-nmn-sirtuine-langlebigkeit.svg",
+    "diagram_type": "C (Zeitstrahl)",
+    "insert_after_paragraph_starting_with": "Ohne NAD+ stoppt die Glykolyse",
+    "closer_text": "Wer die Daten liest, hat Geduld.",
+    "notes": "Alterskurve auf horizontaler Zeitachse: NAD+ faellt von 100% auf 40-60% ueber Lebensjahre 30-75; SIRTUINE und PARP verhungern oben rechts; NMN-Vorstufe restauriert per Bogenpfeil zurueck zum Startpunkt. Sep-Wort: GEDULD."
+  },
+  {
+    "essay_slug": "petersilie-apigenin-nad",
+    "essay_url": "/zutaten/bildgebung/petersilie-apigenin-nad/",
+    "svg_file": "diagramm-petersilie-apigenin-nad.svg",
+    "diagram_type": "A (System-Triade)",
+    "insert_after_paragraph_starting_with": "Der pharmakologisch relevanteste Inhaltsstoff heißt Apigenin",
+    "closer_text": "Ein Bund Petersilie hemmt es für neunundneunzig Cent.",
+    "notes": "Horizontale Kette PETERSILIE -> enthaelt -> APIGENIN -> hemmt (Block-Symbol) -> CD38; CD38 -> NAD+ FAELLT vertikal nach unten; Preiskontrast Kapsel/Bund als Sub-Annotation. Sep-Wort: HEMMUNG."
+  },
+  {
+    "essay_slug": "spermidin-autophagie-longevity",
+    "essay_url": "/zutaten/bildgebung/spermidin-autophagie-longevity/",
+    "svg_file": "diagramm-spermidin-autophagie-longevity.svg",
+    "diagram_type": "F (Kreislauf)",
+    "insert_after_paragraph_starting_with": "Autophagie ist der Prozess",
+    "closer_text": "Die Marge wartet nicht auf Beweise.",
+    "notes": "Vier-Knoten-Kreislauf rechts (SCHADEN -> VERPACKEN -> ABBAU -> RECYCLING -> SCHADEN); SPERMIDIN als externer Trigger links, Bogenpfeil ins Cycle-Einganstor SCHADEN. Sep-Wort: KREISLAUF."
+  }
+]
