@@ -623,6 +623,12 @@ function substanceDetailHtml(entry) {
   const quellenHtml = quellen.length
     ? `<p class="zutaten-line zutaten-quellen"><em class="zutaten-field-label">Quellen:</em> ${quellen.map(esc).join(', ')}</p>`
     : '';
+  // Vorkommen: nur fuer A/C/E gepflegt (B = Substanz ist selbst Nahrungsquelle,
+  // D = synthetisch). Feld ist im Datenobjekt schlicht nicht vorhanden, wenn
+  // nichts angezeigt werden soll — kein leerer String, kein null.
+  const vorkommenHtml = entry.nahrungsquellen
+    ? `<p class="zutaten-line vorkommen"><em class="zutaten-field-label">Vorkommen:</em> ${esc(entry.nahrungsquellen)}</p>`
+    : '';
   const relatedHtml = entry.related_article
     ? `<p class="zutaten-line zutaten-related"><a href="${esc(entry.related_article)}">→ Bildgebung lesen</a></p>`
     : '';
@@ -656,7 +662,7 @@ function substanceDetailHtml(entry) {
 ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=14" />
-  <link rel="stylesheet" href="../zutaten.css?v=27" />
+  <link rel="stylesheet" href="../zutaten.css?v=28" />
   <link rel="stylesheet" href="../../news/news.css?v=104" />
 </head>
 <body>
@@ -687,6 +693,7 @@ ${ldJson}
         ${werbungHtml}
         ${wirkungParas}
         ${quellenHtml}
+        ${vorkommenHtml}
         ${relatedHtml}
       </div>${actionsBarHtmlForSubstance(entry.slug)}
       <p class="news-back"><a href="../">← Alle Substanzen</a></p>
