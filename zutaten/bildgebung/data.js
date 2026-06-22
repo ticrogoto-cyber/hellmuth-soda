@@ -78,6 +78,17 @@ window.BILDGEBUNG_DATA = {
         "ruhe",
         "substanz"
       ]
+    },
+    {
+      "href": "bacopa-monnieri-langsame-wirkung/",
+      "title": "Die Pflanze, die erst nach zwölf Wochen wirkt",
+      "lead": "Jede positive Humanstudie zu Bacopa monnieri misst den Effekt nach zwölf Wochen. Vorher passiert nichts. Die Nootropic-Community will Ergebnisse nach einer Stunde. Das erklärt, warum die meisten aufgeben, bevor die Substanz anfängt zu wirken.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "klarheit"
+      ]
     }
   ]
 };
