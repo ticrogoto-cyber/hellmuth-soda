@@ -53,12 +53,12 @@
   </g>
 
   <g class="reveal" data-delay="320">
-    <line class="feedback" x1="332" y1="122" x2="115" y2="170"/>
-    <line class="feedback" x1="335" y1="124" x2="170" y2="222"/>
-    <line class="feedback" x1="338" y1="124" x2="265" y2="262"/>
-    <line class="feedback" x1="342" y1="124" x2="415" y2="262"/>
-    <line class="feedback" x1="345" y1="124" x2="510" y2="222"/>
-    <line class="feedback" x1="348" y1="122" x2="565" y2="170"/>
+    <line class="feedback" x1="338" y1="121" x2="115" y2="170"/>
+    <line class="feedback" x1="339" y1="121" x2="170" y2="222"/>
+    <line class="feedback" x1="339" y1="121" x2="265" y2="262"/>
+    <line class="feedback" x1="341" y1="121" x2="415" y2="262"/>
+    <line class="feedback" x1="341" y1="121" x2="510" y2="222"/>
+    <line class="feedback" x1="342" y1="121" x2="565" y2="170"/>
   </g>
 
   <g class="col-group" data-col="meissner">

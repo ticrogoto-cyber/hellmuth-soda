@@ -89,7 +89,7 @@
 
   <g class="col-group" data-col="t5">
     <g class="reveal lift" data-delay="280">
-      <text class="h-res" x="610" y="148" font-size="11" text-anchor="middle">HEUTE</text>
+      <text class="h-res" x="610" y="148" font-size="11" text-anchor="middle">STILLSTAND</text>
     </g>
     <g class="reveal lift" data-delay="320">
       <text class="sub" x="610" y="168" font-size="10.5" text-anchor="middle">Veterinärmedizin,</text>
@@ -103,35 +103,35 @@
   </g>
 
   <g class="reveal" data-delay="520">
-    <line class="arr" x1="100" y1="216" x2="100" y2="226"/>
+    <line class="arr" x1="90" y1="216" x2="90" y2="226"/>
   </g>
   <g class="reveal" data-delay="540">
-    <line class="arr" x1="240" y1="216" x2="240" y2="226"/>
+    <line class="arr" x1="225" y1="216" x2="225" y2="226"/>
   </g>
   <g class="reveal" data-delay="560">
-    <line class="arr warn" x1="380" y1="216" x2="380" y2="226"/>
+    <line class="arr warn" x1="360" y1="216" x2="360" y2="226"/>
   </g>
   <g class="reveal" data-delay="580">
-    <line class="arr" x1="520" y1="216" x2="520" y2="226"/>
+    <line class="arr" x1="490" y1="216" x2="490" y2="226"/>
   </g>
   <g class="reveal" data-delay="600">
-    <line class="arr" x1="630" y1="216" x2="630" y2="226"/>
+    <line class="arr" x1="610" y1="216" x2="610" y2="226"/>
   </g>
 
   <g class="reveal lift" data-delay="700">
-    <text class="h-col" x="100" y="248" font-size="13" text-anchor="middle">1962</text>
+    <text class="h-col" x="90" y="248" font-size="13" text-anchor="middle">1962</text>
   </g>
   <g class="reveal lift" data-delay="720">
-    <text class="h-col" x="240" y="248" font-size="13" text-anchor="middle">1964</text>
+    <text class="h-col" x="225" y="248" font-size="13" text-anchor="middle">1964</text>
   </g>
   <g class="reveal lift" data-delay="740">
-    <text class="h-col warn-fill" x="380" y="248" font-size="13" text-anchor="middle">1965</text>
+    <text class="h-col warn-fill" x="360" y="248" font-size="13" text-anchor="middle">1965</text>
   </g>
   <g class="reveal lift" data-delay="760">
-    <text class="h-col" x="520" y="248" font-size="13" text-anchor="middle">1978</text>
+    <text class="h-col" x="490" y="248" font-size="13" text-anchor="middle">1978</text>
   </g>
   <g class="reveal lift" data-delay="780">
-    <text class="h-col" x="608" y="248" font-size="13" text-anchor="middle">2025</text>
+    <text class="h-col" x="610" y="248" font-size="13" text-anchor="middle">HEUTE</text>
   </g>
 
   <g class="reveal lift" data-delay="900">
