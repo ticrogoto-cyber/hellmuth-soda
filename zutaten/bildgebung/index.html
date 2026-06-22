@@ -21,8 +21,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
   <link rel="stylesheet" href="../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news/news.css?v=41" />
-  <link rel="stylesheet" href="bildgebung.css" />
+  <link rel="stylesheet" href="../../news/news.css?v=67" />
+  <link rel="stylesheet" href="bildgebung.css?v=3" />
 </head>
 <body>
   <header class="top">
@@ -62,6 +62,11 @@
       <button data-filter="klarheit" aria-pressed="false">Klarheit</button>
       <button data-filter="substanz" aria-pressed="false">Substanz</button>
     </div>
+    <div class="sort-toggle" id="bildgebung-sort" aria-label="Sortierung">
+      <button type="button" class="sort-toggle__option" data-sort="neueste" aria-pressed="true">Neueste</button>
+      <span class="sort-toggle__sep" aria-hidden="true">·</span>
+      <button type="button" class="sort-toggle__option" data-sort="meistgelesen" aria-pressed="false">Meistgelesen</button>
+    </div>
     <ul class="news-list" id="bildgebung-list" aria-live="polite"></ul>
     <nav class="news-pagination" id="bildgebung-pagination" aria-label="Seiten"></nav>
   </main>
@@ -72,6 +77,7 @@
 
   <script src="../../site.js?v=7"></script>
   <script src="../../search.js?v=3"></script>
+  <script src="../../news/counters.js?v=1"></script>
   <script>
     // data.js wird (sobald vorhanden) Artikel-Liste liefern; ohne Cache-Buster
     // hält der Browser-Cache veraltete Daten fest. Date.now() erzwingt frische
