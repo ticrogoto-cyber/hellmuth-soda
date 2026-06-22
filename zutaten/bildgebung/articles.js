@@ -2224,5 +2224,71 @@ Wer heute Resveratrol kauft, bezahlt für ein Molekül, das seine eigene Leber i
         },
       ],
     },
+    {
+      slug: "senolytika-fisetin-quercetin-zombiezellen",
+      titel: "Die Jagd auf Zombiezellen läuft — ohne Humandaten",
+      lead: "Zombiezellen sind kein Marketingbegriff. Sie existieren, sie akkumulieren, und sie vergiften alles, was sie umgibt. Die Frage ist, ob man sie loswerden kann. In Mäusen ja. Am Menschen weiß es niemand.",
+      filter: ["Unklar"],
+      date: "2026-06-22",
+      body: `Jede Zelle im Körper hat zwei Optionen, wenn ihre DNA irreparabel beschädigt ist. Sie kann sich per Apoptose selbst eliminieren. Oder sie kann in Seneszenz gehen, aufhören sich zu teilen, aber am Leben bleiben. Seneszenz ist ein Tumorschutz, weil sie die Replikation beschädigter DNA verhindert. In jungen Körpern räumt das Immunsystem seneszente Zellen effizient ab. In alternden Körpern versagt diese Clearance, und die Zellen akkumulieren.
+
+Das wäre tolerierbar, wenn sie stumm blieben. Aber seneszente Zellen sezernieren einen Cocktail aus Entzündungszytokinen, Proteasen und Wachstumsfaktoren. Die Forschung nennt ihn SASP, Senescence-Associated Secretory Phenotype. Dieses Sekretom beschädigt die Nachbarzellen und treibt weitere Zellen in die Seneszenz. Es unterhält eine chronische niedriggradige Entzündung, Inflammaging, die treibende Kraft hinter Herzkreislauferkrankungen, Neurodegeneration und Arthrose. Die Zelle schützt sich selbst vor Krebs und beschädigt dabei alles um sich herum. Die Biologie nennt das Antagonistic Pleiotropy. Was in der Jugend Leben rettet, vergiftet im Alter das Gewebe.
+
+2015 veröffentlicht die Mayo Clinic den Beweis, dass die Eliminierung seneszenter Zellen die Gesundheitsspanne verlängert. Genetisch veränderte Mäuse, deren seneszente Zellen gezielt abliert werden, leben länger, bewegen sich besser, entwickeln weniger Katarakt, weniger Nierenschäden, weniger Herzhypertrophie. Der Befund war der Startschuss für die senolytische Forschung. Wenn genetische Ablation funktioniert, müsste ein Medikament, das denselben Effekt erzielt, ebenfalls funktionieren. Die Frage war nur, welches.
+
+Dasatinib ist ein Tyrosinkinase-Hemmer, zugelassen gegen Leukämie. Quercetin ist ein Flavonoid aus Zwiebeln und Äpfeln. Zusammen bilden sie D+Q, die erste senolytische Kombination, die Kirkland 2017 an der Mayo Clinic publiziert. In alten Mäusen verbessert D+Q die Gefäßfunktion, reduziert Frailty-Marker und verlängert die Restlebensspanne. Dasatinib trifft seneszente Fettzellvorläufer über Hemmung der Src-Kinasen. Quercetin trifft seneszente Endothelzellen über Hemmung der PI3K/AKT-Achse und der anti-apoptotischen Bcl-2-Proteine. Beide zusammen decken ein breiteres Spektrum ab als jede Substanz allein.
+
+Dann kam Fisetin. Yousefzadeh 2018 testet zehn Flavonoide auf senolytische Potenz. Fisetin, ein Polyphenol aus Erdbeeren und Persimonen, eliminiert seneszente Zellen wirksamer als alle anderen getesteten Verbindungen, einschließlich Quercetin. In alten Wildtyp-Mäusen verlängert chronische Fisetin-Gabe die mediane und die maximale Lebensspanne, reduziert altersassoziierte Pathologie und verbessert die Gewebshomöostase. Publiziert in EBioMedicine, unterstützt von der Mayo Clinic und der National Institutes of Health. Die Mausdaten sind so konsistent, wie Mausdaten sein können.
+
+Am Menschen ist fast nichts passiert.
+
+Die AFFIRM-Studie testet Fisetin an Nierentransplantat-Empfängern. Eine weitere testet es bei Arthrose. Ergebnisse beider Studien stehen aus. Für D+Q existiert eine Pilotstudie an Patienten mit diabetischer Nierenerkrankung, die nach drei Tagen senolytischer Behandlung einen Rückgang der seneszenten Zellen in Fettgewebe und Haut zeigt. Drei Tage, vierzehn Patienten, ein Gewebesignal. Das ist der gesamte klinische Bestand an Interventionsdaten für ein Feld, das die Altersforschung als das aufregendste Paradigma seit der Kalorienrestriktion behandelt.
+
+In jedem Biohacker-Forum werden senolytische Protokolle geteilt. Fisetin 20 Milligramm pro Kilogramm, zyklisch, zwei Tage on, Monate off, abgeleitet aus dem Mausdosierungsschema. Quercetin phytosomiert, weil Standard-Quercetin-Pulver kaum resorbiert wird. Dasatinib auf Rezept, off-label, ein Krebsmedikament als Anti-Aging-Supplement. Die Szene behandelt die Mausdaten wie klinische Empfehlungen. Das ist mutig oder fahrlässig, je nachdem wie das Ergebnis ausfällt.
+
+Das Grundproblem ist die Übersetzung. Mäuse leben zwei Jahre. Effekte, die in Wochen messbar werden, brauchen beim Menschen Jahrzehnte. Die Clearance seneszenter Zellen in der Maus ist proportional wuchtiger als beim Menschen, weil die Seneszenzlast relativ zum Gesamtgewebe höher liegt. Ob intermittierende Gabe von Fisetin oder D+Q beim Menschen über zwanzig Jahre dieselbe Trajektorie erzeugt wie beim Nagetier über zwanzig Wochen, kann heute niemand beantworten. Die Biologie ist plausibel, der Enthusiasmus überholt die Daten.
+
+Was bleibt, ist ein Mechanismus, der funktioniert, in Genetik-Modellen, in der Zellkultur, in Mäusen. Seneszente Zellen sind real. Ihre Eliminierung verbessert die Gesundheit in Tiermodellen robust. Fisetin und D+Q sind die vielversprechendsten Werkzeuge, die bisher identifiziert wurden. Und die klinische Evidenz am Menschen passt auf einen Bierdeckel.
+
+Die senolytische Forschung hat eine plausible Antwort auf eine der größten Fragen der Biologie. Die Supplement-Industrie verkauft die Antwort, bevor die Frage am Menschen gestellt wurde.
+
+Quercetin illustriert das Problem im Kleinen. Standard-Quercetin-Pulver wird kaum resorbiert. Der Großteil passiert den Darm, ohne ins Blut zu gelangen. Die Phytosom-Formulierung Quercefit erhöht die Bioverfügbarkeit um das Zwanzigfache, aber die meisten senolytischen Protokolle in den Foren empfehlen billiges Pulver. Wer Senolytika nach dem Mausprotokoll nimmt und gleichzeitig die Bioverfügbarkeit ignoriert, betreibt Longevity-Theater. Die Geste stimmt, die Pharmakokinetik fehlt.
+
+Dasatinib kann Menschen umbringen. Das steht in der Fachinformation. Pleuraergüsse, Zytopenien, pulmonale Hypertonie. In den Foren steht, wann man es am besten nüchtern nimmt. Off-label als Anti-Aging-Intervention, ohne ärztliche Begleitung, auf Basis von Mausdaten. Die Szene diskutiert Dosierungsprotokolle mit der Selbstverständlichkeit von Trainingsplänen.
+
+Die Frage hinter den Senolytika ist die richtige Frage. Seneszente Zellen akkumulieren, der SASP schädigt, Eliminierung verbessert Gesundheitsparameter in jedem getesteten Modell. Die Werkzeuge existieren. Was fehlt, ist der Beweis, dass sie am Menschen sicher und wirksam funktionieren, über Jahre, nicht über Tage. Wer heute Senolytika nimmt, wettet darauf, dass Mäuse nicht lügen. Vielleicht gewinnt er zwanzig Jahre. Vielleicht einen Pleuraerguss. Die Daten werden zeigen, welches.`,
+      quellen: [
+        {
+          autoren: "Matthew Yousefzadeh, Yi Zhu, Sara McGowan, et al.",
+          titel: "Fisetin is a senotherapeutic that extends health and lifespan",
+          journal: "EBioMedicine",
+          vol: "Vol. 36",
+          datum: "Oktober 2018",
+          seiten: "18—28",
+          doi: "10.1016/j.ebiom.2018.09.015",
+          pmid: "30279143",
+        },
+        {
+          autoren: "James Kirkland, Tamara Tchkonia, Yi Zhu, et al.",
+          titel: "The clinical potential of senolytic drugs",
+          journal: "Journal of the American Geriatrics Society",
+          vol: "Vol. 65, No. 10",
+          datum: "Oktober 2017",
+          seiten: "2297—2301",
+          doi: "10.1111/jgs.14969",
+          pmid: "28869295",
+        },
+        {
+          autoren: "Ming Xu, Tamar Pirtskhalava, Joshua Farr, et al.",
+          titel: "Senolytics improve physical function and increase lifespan in old age",
+          journal: "Nature Medicine",
+          vol: "Vol. 24, No. 8",
+          datum: "August 2018",
+          seiten: "1246—1256",
+          doi: "10.1038/s41591-018-0092-9",
+          pmid: "29988130",
+        },
+      ],
+    },
   ],
 };

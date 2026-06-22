@@ -363,6 +363,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "unklar"
       ]
+    },
+    {
+      "href": "senolytika-fisetin-quercetin-zombiezellen/",
+      "title": "Die Jagd auf Zombiezellen läuft — ohne Humandaten",
+      "lead": "Zombiezellen sind kein Marketingbegriff. Sie existieren, sie akkumulieren, und sie vergiften alles, was sie umgibt. Die Frage ist, ob man sie loswerden kann. In Mäusen ja. Am Menschen weiß es niemand.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 4,
+      "filters": [
+        "unklar"
+      ]
     }
   ]
 };
