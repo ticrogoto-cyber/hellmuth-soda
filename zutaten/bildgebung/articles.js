@@ -1228,5 +1228,68 @@ Gatorade gehört PepsiCo. Ein 38-Milliarden-Dollar-Konzern verkauft eine Mischun
         },
       ],
     },
+    {
+      slug: "chlorophyll-was-gruen-kann",
+      titel: "Pflanzenblut",
+      lead: "Chlorophyll und Hämoglobin teilen sich ein Molekülgerüst. Der Unterschied liegt im Zentralatom. Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Der Porphyrinring ist eine der ältesten molekularen Strukturen in der Biologie. In Pflanzen trägt er Magnesium im Zentrum und heißt Chlorophyll. In menschlichem Blut trägt er Eisen und heißt Häm. Die strukturelle Verwandtschaft ist publiziert. Die Influencer-Version davon, dass Chlorophyll »das Blut mit Sauerstoff anreichert«, verwechselt Photosynthese mit Physiologie. Der Körper hat dafür Lungen. Aber die Verwandtschaft ist mehr als eine Kuriosität.
+
+Egner 2001 publiziert in den Proceedings of the National Academy of Sciences die Ergebnisse einer Interventionsstudie in Qidong, China, einer Region mit hoher Aflatoxin-Belastung durch kontaminiertes Getreide. 180 Probanden erhielten über vier Monate dreimal täglich 100 mg Chlorophyllin. Die Aflatoxin-Biomarker im Urin sanken um 55 Prozent. Chlorophyllin bindet Aflatoxin im Darm, bevor es absorbiert wird. Ein Chelatbildner, der Karzinogene abfängt, bevor sie die Leber erreichen. 55 Prozent Reduktion. In einer Region, in der Leberkrebs endemisch ist, rettet das Menschenleben.
+
+Die Wundheilung kam zuerst. In den vierziger und fünfziger Jahren setzten amerikanische Chirurgen Chlorophyllin-Verbände bei Brandwunden, Operationswunden und Dekubitus ein. Antibakteriell, geweberegenerierend, geruchsbindend. Drei Wirkungen in einem Verband. Dann kamen Antibiotika, und niemand schaute zurück. Die Pharmakologie blieb liegen, weil die Industrie ein patentierbares Produkt vorzog.
+
+Die Geruchsbindung ist reproduzierbar und klinisch genutzt. Chlorophyllin reduziert Stuhl- und Körpergeruch bei Patienten mit Kolostomie und Inkontinenz. Young und Beregi dokumentierten das 1980 in einer kontrollierten Studie. Für Menschen, die wegen des Geruchs das Haus nicht mehr verlassen, ist das der Unterschied zwischen Isolation und Alltag.
+
+Was auf TikTok als »Chlorophyll-Wasser« kursiert, enthält meistens Chlorophyllin, die halbsynthetische Variante mit Kupfer statt Magnesium im Zentrum. Das Etikett sagt »Chlorophyll«. Die Chemie sagt etwas anderes. Und die versprochenen Effekte, Detox, Hautglow, Gewichtsverlust, haben mit der dokumentierten Pharmakologie nichts zu tun. TikTok hat aus einem Karzinogen-Chelator, der in Qidong Menschenleben rettet, einen Selfie-Filter für grünes Wasser gemacht.`,
+      quellen: [
+        {
+          autoren: "Patricia Egner, Jian-Bang Wang, Ya-Ru Zhu, et al.",
+          titel: "Chlorophyllin intervention reduces aflatoxin-DNA adducts in individuals at high risk for liver cancer",
+          journal: "Proceedings of the National Academy of Sciences",
+          vol: "Vol. 98, No. 25",
+          datum: "04.12.2001",
+          seiten: "14601—14606",
+          doi: "10.1073/pnas.251536898",
+          pmid: "11724948",
+        },
+        {
+          autoren: "Robert Young, Joseph Beregi",
+          titel: "Use of chlorophyllin in the care of geriatric patients",
+          journal: "Journal of the American Geriatrics Society",
+          vol: "Vol. 28, No. 1",
+          datum: "Januar 1980",
+          seiten: "46—47",
+          doi: "10.1111/j.1532-5415.1980.tb00124.x",
+          pmid: "7350246",
+        },
+        {
+          autoren: "Tumkur Suryanarayana, Mathala Krishnaswamy",
+          titel: "Effect of oral administration of chlorophyllin on unscheduled synthesis of DNA in rat hepatocytes following the treatment with aflatoxin B1",
+          journal: "Mutation Research",
+          vol: "Vol. 308, No. 2",
+          datum: "Juli 1994",
+          seiten: "113—119",
+          pmid: "7523928",
+        },
+        {
+          autoren: "Chandra Mohan Dashwood, Roderick Dashwood",
+          titel: "Dose-response analysis of chlorophyllin as an inhibitor of aflatoxin B1 mutagenesis in Salmonella typhimurium",
+          journal: "Environmental and Molecular Mutagenesis",
+          vol: "Vol. 31, No. 3",
+          datum: "1998",
+          seiten: "211—218",
+        },
+        {
+          autoren: "Lisa Kephart",
+          titel: "Applications for chlorophyll-derived compounds in wound healing and dermatology: A review",
+          journal: "Ostomy Wound Management",
+          vol: "Vol. 52, No. 6",
+          datum: "Juni 2006",
+          seiten: "34—42",
+        },
+      ],
+    },
   ],
 };

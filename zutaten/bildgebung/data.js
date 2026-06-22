@@ -144,6 +144,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "chlorophyll-was-gruen-kann/",
+      "title": "Pflanzenblut",
+      "lead": "Chlorophyll und Hämoglobin teilen sich ein Molekülgerüst. Der Unterschied liegt im Zentralatom. Was daraus folgt, ist Pharmakologie. Was TikTok daraus macht, ist Dekoration.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 1,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };
