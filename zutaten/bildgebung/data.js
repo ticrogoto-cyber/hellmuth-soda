@@ -133,6 +133,17 @@ window.BILDGEBUNG_DATA = {
       "filters": [
         "substanz"
       ]
+    },
+    {
+      "href": "kokoswasser-elektrolyte-hydration/",
+      "title": "Das Getränk, das Gatorade überflüssig macht",
+      "lead": "Kokoswasser enthält mehr Kalium als eine Banane, mehr Magnesium als die meisten Mineralwässer und null Farbstoffe. Die Sportgetränke-Industrie hat siebzig Jahre gebraucht, um synthetisch zu kopieren, was in einer Kokosnuss schon drin war.",
+      "date": "2026-06-22",
+      "created": "2026-06-22",
+      "minutes": 2,
+      "filters": [
+        "substanz"
+      ]
     }
   ]
 };

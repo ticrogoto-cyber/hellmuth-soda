@@ -316,7 +316,7 @@ function detailHtmlMono(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../news.css?v=71" />
+  <link rel="stylesheet" href="../../news.css?v=72" />
 </head>
 <body>
   <header class="top">
@@ -330,10 +330,10 @@ ${seoHead(rec)}
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true" aria-label="Hauptnavigation">
       <a href="../../../" class="is-active">Start</a>
-      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../../quiz/">Quiz</a></li><li><a href="../../../vokabular/">Vokabular</a></li><li><a href="../../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
       <a href="../../../zutaten/">Index</a>
       <a href="../../../zutaten/bildgebung/">Bildgebung</a>
       <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Hausbesuch<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../../quiz/">Quiz</a></li><li><a href="../../../vokabular/">Vokabular</a></li><li><a href="../../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
       <a href="../../../hellmuth/">Über</a>
     </nav>
   </header>
@@ -386,7 +386,7 @@ ${seoHead(rec)}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../../../styles.css" />
-  <link rel="stylesheet" href="../../news.css?v=71" />
+  <link rel="stylesheet" href="../../news.css?v=72" />
 </head>
 <body>
   <header class="nav">
@@ -657,7 +657,7 @@ ${ldJson}
   </script>
   <link rel="stylesheet" href="../../styles.css?v=13" />
   <link rel="stylesheet" href="../zutaten.css?v=27" />
-  <link rel="stylesheet" href="../../news/news.css?v=71" />
+  <link rel="stylesheet" href="../../news/news.css?v=72" />
 </head>
 <body>
   <header class="top">
@@ -671,10 +671,10 @@ ${ldJson}
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true" aria-label="Hauptnavigation">
       <a href="../../">Start</a>
-      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../quiz/">Quiz</a></li><li><a href="../../vokabular/">Vokabular</a></li><li><a href="../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
       <a href="../" class="is-active">Index</a>
       <a href="../bildgebung/">Bildgebung</a>
       <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Hausbesuch<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../quiz/">Quiz</a></li><li><a href="../../vokabular/">Vokabular</a></li><li><a href="../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
       <a href="../../hellmuth/">Über</a>
     </nav>
   </header>
@@ -909,7 +909,7 @@ function bildgebungDetailHtml(entry) {
   <meta property="og:site_name" content="Mut zur Klarheit" />
   <meta property="og:image" content="${LOGO_URL}" />
   <link rel="stylesheet" href="../../../styles.css?v=13" />
-  <link rel="stylesheet" href="../../../news/news.css?v=71" />
+  <link rel="stylesheet" href="../../../news/news.css?v=72" />
   <link rel="stylesheet" href="../bildgebung.css?v=3" />
 </head>
 <body>
@@ -924,10 +924,10 @@ function bildgebungDetailHtml(entry) {
     <button class="menu-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
     <nav class="menu" aria-hidden="true" aria-label="Hauptnavigation">
       <a href="../../../">Start</a>
-      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../../quiz/">Quiz</a></li><li><a href="../../../vokabular/">Vokabular</a></li><li><a href="../../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
       <a href="../../">Index</a>
       <a href="../" class="is-active">Bildgebung</a>
       <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Hausbesuch<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../../../quiz/">Quiz</a></li><li><a href="../../../vokabular/">Vokabular</a></li><li><a href="../../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
       <a href="../../../hellmuth/">Über</a>
     </nav>
   </header>

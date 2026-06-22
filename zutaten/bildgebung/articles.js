@@ -1161,5 +1161,72 @@ Stanley Jacob starb 2015. Die Substanz, für die er fünfzig Jahre kämpfte, ist
         },
       ],
     },
+    {
+      slug: "kokoswasser-elektrolyte-hydration",
+      titel: "Das Getränk, das Gatorade überflüssig macht",
+      lead: "Kokoswasser enthält mehr Kalium als eine Banane, mehr Magnesium als die meisten Mineralwässer und null Farbstoffe. Die Sportgetränke-Industrie hat siebzig Jahre gebraucht, um synthetisch zu kopieren, was in einer Kokosnuss schon drin war.",
+      filter: ["Substanz"],
+      date: "2026-06-22",
+      body: `Gatorade wurde 1965 erfunden. Die Kokosnuss hatte sechzig Millionen Jahre Vorsprung.
+
+Eine junge Kokosnuss enthält zwischen 200 und 700 Milliliter Wasser. Der Elektrolytgehalt pro 240 Milliliter liegt bei rund 600 Milligramm Kalium, 250 Milligramm Natrium, 60 Milligramm Magnesium und 58 Milligramm Calcium. Dazu kommen natürliche Zucker, Aminosäuren und Cytokinine. Das Profil liest sich wie eine Infusionslösung, die jemand aus dem Tropenwald mitgebracht hat. In Südostasien wird Kokoswasser seit Jahrhunderten als Rehydratationsmittel verwendet. Im Zweiten Weltkrieg wurde es in Feldlazaretten als Notfall-Infusion eingesetzt, intravenös, wenn isotonische Kochsalzlösung nicht verfügbar war.
+
+Saat 2002 vergleicht frisches Kokoswasser mit einem Kohlenhydrat-Elektrolyt-Sportgetränk und Wasser bei acht jungen Männern nach dehydrierendem Training. Kein signifikanter Unterschied in der Gesamtrehydration. Die Blutvolumenwiederherstellung war unter Kokoswasser tendenziell besser. Kalman 2012 wiederholt den Vergleich an zwölf trainierten Männern, vier Bedingungen, Crossover-Design. Kokoswasser rehydriert gleichwertig zum Sportgetränk. Kein Unterschied bei Hydratationsmarkern oder Leistung. Beide Studien führen zum selben Befund. Kokoswasser leistet, was Gatorade leistet. Ohne Farbstoff Gelb Nummer fünf.
+
+Der Natriumgehalt ist der einzige Punkt, an dem Sportgetränke überlegen sind. Bei extremem Schwitzen über mehrere Stunden verliert der Körper mehr Natrium als Kokoswasser liefert. Ismail 2007 zeigt, dass natriumangereichertes Kokoswasser diesen Nachteil ausgleicht und die Rehydration verbessert. Für den Freizeitsportler, der eine Stunde läuft, ist der Natriumunterschied irrelevant. Für den Marathonläufer bei dreißig Grad existiert er.
+
+Was Kokoswasser liefert und Sportgetränke nicht liefern, ist Kalium. 600 Milligramm pro Glas. Die meisten Menschen in westlichen Industrieländern nehmen zu wenig Kalium auf. Alleyne 2005 zeigt an Probanden mit Bluthochdruck eine Reduktion des systolischen Blutdrucks unter regelmäßigem Kokoswasserkonsum. Kalium reguliert den Flüssigkeitshaushalt, die Nervenleitgeschwindigkeit und den Blutdruck. Ein Sportgetränk enthält davon fast nichts. Es enthält Natrium, Zucker und Farbe.
+
+Gatorade gehört PepsiCo. Ein 38-Milliarden-Dollar-Konzern verkauft eine Mischung aus Wasser, Saccharose und Natriumchlorid mit Lebensmittelfarbe für drei Euro pro Flasche. Kokoswasser liefert dasselbe Hydrationsergebnis mit einem vollständigeren Elektrolytprofil, natürlichen Zuckern und dem Kalium, das die meisten Menschen brauchen und nirgendwo bekommen. Siebzig Jahre Forschung, um eine Kokosnuss nachzubauen. Mit Farbstoff.`,
+      quellen: [
+        {
+          autoren: "Mohamed Saat, Rabindarjeet Singh, Régis Sirisinghe, et al.",
+          titel: "Rehydration after exercise with fresh young coconut water, carbohydrate-electrolyte beverage and plain water",
+          journal: "Journal of Physiological Anthropology and Applied Human Science",
+          vol: "Vol. 21, No. 2",
+          datum: "März 2002",
+          seiten: "93—104",
+          doi: "10.2114/jpa.21.93",
+          pmid: "12056182",
+        },
+        {
+          autoren: "Douglas Kalman, Samantha Feldman, Diane Krieger, et al.",
+          titel: "Comparison of coconut water and a carbohydrate-electrolyte sport drink on measures of hydration and physical performance in exercise-trained men",
+          journal: "Journal of the International Society of Sports Nutrition",
+          vol: "Vol. 9, No. 1",
+          datum: "18.01.2012",
+          seiten: "1",
+          doi: "10.1186/1550-2783-9-1",
+          pmid: "22257640",
+        },
+        {
+          autoren: "Isma'il Ismail, Rabindarjeet Singh, Régis Sirisinghe",
+          titel: "Rehydration with sodium-enriched coconut water after exercise-induced dehydration",
+          journal: "Southeast Asian Journal of Tropical Medicine and Public Health",
+          vol: "Vol. 38, No. 4",
+          datum: "Juli 2007",
+          seiten: "769—785",
+          pmid: "17883020",
+        },
+        {
+          autoren: "Terry Alleyne, Sylvester Roache, Clive Thomas, et al.",
+          titel: "The control of hypertension by use of coconut water and mauby: two tropical food drinks",
+          journal: "West Indian Medical Journal",
+          vol: "Vol. 54, No. 1",
+          datum: "Januar 2005",
+          seiten: "3—8",
+          pmid: "15892382",
+        },
+        {
+          autoren: "Benja Chavalittamrong, Prapasri Pidatcha, Uruwan Thavisri",
+          titel: "Electrolytes, sugar, calories, osmolarity and pH of beverages and coconut water",
+          journal: "Southeast Asian Journal of Tropical Medicine and Public Health",
+          vol: "Vol. 13, No. 3",
+          datum: "September 1982",
+          seiten: "427—431",
+          pmid: "7163905",
+        },
+      ],
+    },
   ],
 };
