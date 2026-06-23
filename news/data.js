@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-22T23:51:45.497Z",
+  "generated": "2026-06-23T23:35:16.796Z",
   "hellmuth": [
+    {
+      "title": "Ein Drittel der Briten trinkt weniger",
+      "date": "2026-06-23",
+      "created": "2026-06-23T23:34:25.962Z",
+      "slug": "ein-drittel-der-briten-trinkt-weniger",
+      "rubrik": "hellmuth",
+      "lead": "Mäßigung ist in Großbritannien keine Nische mehr, sondern die Bewegungsrichtung des Mainstreams.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/one-in-three-brits-cut-back-on-booze/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ein-drittel-der-briten-trinkt-weniger/"
+    },
+    {
+      "title": "Protein-Soda als Whitespace",
+      "date": "2026-06-23",
+      "created": "2026-06-23T23:33:41.692Z",
+      "slug": "protein-soda-als-whitespace",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Getränkemarkt entdeckt eine Lücke zwischen Limonade und Functional Drink und nennt sie Protein-Soda.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/23/protein-sodas-are-the-new-whitespace-for-innovation-in-us-market/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/protein-soda-als-whitespace/"
+    },
+    {
+      "title": "Danone kauft sich in Asien-Pazifik ein",
+      "date": "2026-06-23",
+      "created": "2026-06-23T23:33:02.655Z",
+      "slug": "danone-kauft-sich-in-asien-pazifik-ein",
+      "rubrik": "hellmuth",
+      "lead": "Der französische Konzern stockt sein Getränkegeschäft jenseits von Wasser und Joghurt-Drinks auf.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/06/22/danone-strengthens-beverages-portfolio-with-asia-pacific-acquisition/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/danone-kauft-sich-in-asien-pazifik-ein/"
+    },
     {
       "title": "Lantenhammer übernimmt Rebels 0.0 in Deutschland",
       "date": "2026-06-22",
@@ -676,6 +718,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Serotonin und das starre Denken",
+      "date": "2026-06-23",
+      "created": "2026-06-23T23:35:16.771Z",
+      "slug": "serotonin-und-das-starre-denken",
+      "rubrik": "science",
+      "lead": "Eine Meta-Analyse sortiert, was drei Klassen serotonerger Eingriffe mit kognitiver Flexibilität und Grübeln anstellen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.18.26355974v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/serotonin-und-das-starre-denken/"
+    },
+    {
+      "title": "LASSO mit eingebautem Lehrbuch",
+      "date": "2026-06-23",
+      "created": "2026-06-23T23:35:04.385Z",
+      "slug": "lasso-mit-eingebautem-lehrbuch",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus Houston rüstet die statistische Variablenauswahl mit kuratiertem Vorwissen aus und sagt damit Suizidgedanken bei bipolaren Jugendlichen schärfer voraus als der Standardansatz.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.18.26355841v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/lasso-mit-eingebautem-lehrbuch/"
+    },
+    {
+      "title": "Achtsamkeit verändert die Richtung des Grübelns",
+      "date": "2026-06-23",
+      "created": "2026-06-23T23:34:40.976Z",
+      "slug": "achtsamkeit-verandert-die-richtung-des-grubelns",
+      "rubrik": "science",
+      "lead": "Eine fMRT-Studie misst, wie sich die hierarchische Hirndynamik depressiver Patienten unter Achtsamkeitstherapie verschiebt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.21.26356048v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/achtsamkeit-verandert-die-richtung-des-grubelns/"
+    },
     {
       "title": "Der Selbsteinschätzungs-Knick beim Alkohol",
       "date": "2026-06-22",
