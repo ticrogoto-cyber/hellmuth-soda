@@ -869,11 +869,9 @@
 
       const prose = document.createElement('div');
       prose.className = 'result-prose';
-      type.prose.forEach(p => {
-        const pp = document.createElement('p');
-        pp.textContent = p;
-        prose.appendChild(pp);
-      });
+      const proseP = document.createElement('p');
+      proseP.textContent = type.prose.join(' ');
+      prose.appendChild(proseP);
       content.appendChild(prose);
 
       // Buch-Closer
