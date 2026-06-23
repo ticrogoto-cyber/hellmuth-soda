@@ -198,60 +198,34 @@
 
     /* Buch-Closer */
     .book-closer {
-      margin: 3rem 0 2rem;
+      margin: 3rem 0 1rem;
       padding-top: 1.5rem;
       border-top: 0.5px solid var(--muted);
       text-align: center;
     }
-    .book-closer .book-line-label {
+    .book-closer .book-attribution {
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-style: italic;
+      font-size: 0.98rem;
+      color: var(--muted);
+      margin: 0 0 0.7rem;
+    }
+    .book-closer .book-title-link {
       font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
       letter-spacing: 0.22em;
       text-transform: uppercase;
-      font-size: 0.72rem;
-      color: var(--muted);
-      margin: 0 0 0.6rem;
-    }
-    .book-closer h2 {
-      font-family: 'Fournier Pro', Georgia, serif;
-      font-style: italic;
-      font-weight: 400;
-      font-size: clamp(1.1rem, 2vw, 1.25rem);
-      color: var(--ink);
-      margin: 0 0 0.4rem;
-      max-width: 30rem;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.35;
-    }
-    .book-closer .book-author {
-      font-family: 'Fournier Pro', Georgia, serif;
-      font-style: italic;
       font-size: 0.95rem;
-      color: var(--muted);
-      margin: 0 0 1.5rem;
-    }
-    .book-closer .book-link {
-      display: inline-block;
-      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      font-size: 0.85rem;
       color: var(--ink);
       text-decoration: none;
-      padding: 0.6rem 1.4rem;
-      border: 0.5px solid var(--ink);
-      transition: background-color 200ms ease, color 200ms ease;
+      border-bottom: 0.5px solid var(--ink);
+      padding-bottom: 2px;
+      transition: color 200ms ease, border-color 200ms ease;
     }
-    .book-closer .book-link:hover,
-    .book-closer .book-link:focus-visible {
-      background-color: var(--ink);
-      color: #fff;
+    .book-closer .book-title-link:hover,
+    .book-closer .book-title-link:focus-visible {
+      color: var(--warn);
+      border-color: var(--warn);
       outline: none;
-    }
-    .book-closer .book-link .ext-mark {
-      width: 0.78em; height: 0.78em;
-      margin-left: 0.4em;
-      vertical-align: -0.05em;
     }
 
     /* Replay */
@@ -373,7 +347,7 @@
       KONTROLL: {
         name: 'DER KONTROLL-LÜGNER',
         prose: [
-          '»Ich kann jederzeit aufhören« — und tust es nie. Wer süchtig ist, sagt diesen Satz. Wer nicht süchtig ist, braucht ihn nicht zu sagen.',
+          'Ich kann jederzeit aufhören — und tust es nie. Wer süchtig ist, sagt diesen Satz. Wer nicht süchtig ist, braucht ihn nicht zu sagen.',
           'Du verteidigst die Substanz mit der Vehemenz, mit der man eine Identität verteidigt, und merkst nicht, dass das schon die Antwort ist.',
           'Das Kontrollnetzwerk ist kompromittiert, bevor du den Satz beendest.',
           'Sucht kontrolliert den Süchtigen, nicht umgekehrt.'
@@ -452,97 +426,97 @@
       {
         q: 'Du nimmst was. Warum nimmst du es?',
         a: [
-          { t: '»Es macht ein Gefühl weg, das ich nicht mag.«', w: { BETAUBER: 2 } },
-          { t: '»Es macht aus mir, wer ich sein will.«', w: { KREATIV: 2 } },
-          { t: '»Es ist halt da. Wie Atmen.«', w: { BLIND: 2 } }
+          { t: 'Es macht ein Gefühl weg, das ich nicht mag.', w: { BETAUBER: 2 } },
+          { t: 'Es macht aus mir, wer ich sein will.', w: { KREATIV: 2 } },
+          { t: 'Es ist halt da. Wie Atmen.', w: { BLIND: 2 } }
         ]
       },
       {
         q: 'Du hast schon einmal aufgehört. Was kam danach?',
         a: [
-          { t: '»Es war stressig. Ich habe wieder angefangen.«', w: { KONTROLL: 2 } },
-          { t: '»Ich habe etwas anderes angefangen. Anderes Suchtmittel, ähnliches Loch.«', w: { NOTAUSGANG: 2 } },
-          { t: '»Ich habe nie ernsthaft aufgehört. Wozu auch.«', w: { BLIND: 1, KONTROLL: 1 } }
+          { t: 'Es war stressig. Ich habe wieder angefangen.', w: { KONTROLL: 2 } },
+          { t: 'Ich habe etwas anderes angefangen. Anderes Suchtmittel, ähnliches Loch.', w: { NOTAUSGANG: 2 } },
+          { t: 'Ich habe nie ernsthaft aufgehört. Wozu auch.', w: { BLIND: 1, KONTROLL: 1 } }
         ]
       },
       {
         q: 'Jemand fragt, wie viel du trinkst, rauchst, isst. Was machst du?',
         a: [
-          { t: '»Ich zähle Vergleichszahlen. Drei sind nicht viel, andere haben fünf.«', w: { NORMAL: 2 } },
-          { t: '»Ich erkläre, dass ich es im Griff habe.«', w: { KONTROLL: 2 } },
-          { t: '»Ich erkläre, dass ich es brauche. Wegen ADHS, Reizdarm, Burnout.«', w: { DIAGNOSE: 2 } }
+          { t: 'Ich zähle Vergleichszahlen. Drei sind nicht viel, andere haben fünf.', w: { NORMAL: 2 } },
+          { t: 'Ich erkläre, dass ich es im Griff habe.', w: { KONTROLL: 2 } },
+          { t: 'Ich erkläre, dass ich es brauche. Wegen ADHS, Reizdarm, Burnout.', w: { DIAGNOSE: 2 } }
         ]
       },
       {
         q: 'Du fühlst Trauer, Wut, Leere. Was passiert dann?',
         a: [
-          { t: '»Ich nehme was. Sofort. Wie ein Reflex.«', w: { BETAUBER: 2 } },
-          { t: '»Ich nehme das, von dem ich weiß, dass es mir schadet.«', w: { STRAFER: 2 } },
-          { t: '»Ich tracke Cortisol. Mache Atemübung. Ich habe Systeme.«', w: { OPTIMIERER: 2 } }
+          { t: 'Ich nehme was. Sofort. Wie ein Reflex.', w: { BETAUBER: 2 } },
+          { t: 'Ich nehme das, von dem ich weiß, dass es mir schadet.', w: { STRAFER: 2 } },
+          { t: 'Ich tracke Cortisol. Mache Atemübung. Ich habe Systeme.', w: { OPTIMIERER: 2 } }
         ]
       },
       {
         q: 'Eine Woche ohne deinen Stoff. Was geschieht?',
         a: [
-          { t: '»Ich werde traurig. Reizbar. Es wird leer.«', w: { BETAUBER: 1, BLIND: 1 } },
-          { t: '»Ich nehme an, das geht vorbei. Ist nicht passiert.«', w: { KONTROLL: 2 } },
-          { t: '»Ich nehme was anderes. Andere Substanz, gleiches Ziel.«', w: { NOTAUSGANG: 2 } }
+          { t: 'Ich werde traurig. Reizbar. Es wird leer.', w: { BETAUBER: 1, BLIND: 1 } },
+          { t: 'Ich nehme an, das geht vorbei. Ist nicht passiert.', w: { KONTROLL: 2 } },
+          { t: 'Ich nehme was anderes. Andere Substanz, gleiches Ziel.', w: { NOTAUSGANG: 2 } }
         ]
       },
       {
         q: 'Jemand sagt, du solltest ganz aufhören. Du denkst:',
         a: [
-          { t: '»Ohne wäre ich nicht mehr ich. Wäre langweilig. Wäre weniger.«', w: { KREATIV: 2 } },
-          { t: '»Soll ich. Aber nicht heute. Nächstes Jahr, nächstes Quartal.«', w: { KONTROLL: 1, BLIND: 1 } },
-          { t: '»Ich brauche es wegen meiner Diagnose, meiner Empfindsamkeit, meines Berufs.«', w: { DIAGNOSE: 2 } }
+          { t: 'Ohne wäre ich nicht mehr ich. Wäre langweilig. Wäre weniger.', w: { KREATIV: 2 } },
+          { t: 'Soll ich. Aber nicht heute. Nächstes Jahr, nächstes Quartal.', w: { KONTROLL: 1, BLIND: 1 } },
+          { t: 'Ich brauche es wegen meiner Diagnose, meiner Empfindsamkeit, meines Berufs.', w: { DIAGNOSE: 2 } }
         ]
       },
       {
         q: 'Du schreibst eine Woche lang auf, was du wirklich konsumierst. Die Zahl ist:',
         a: [
-          { t: '»Höher als gedacht. Aber das war eine Ausnahmewoche.«', w: { NORMAL: 2 } },
-          { t: '»Genau wie geschätzt. Ich tracke ohnehin alles.«', w: { OPTIMIERER: 2 } },
-          { t: '»Ich schreibe es nicht auf. Wozu denn.«', w: { KONTROLL: 1, BLIND: 1 } }
+          { t: 'Höher als gedacht. Aber das war eine Ausnahmewoche.', w: { NORMAL: 2 } },
+          { t: 'Genau wie geschätzt. Ich tracke ohnehin alles.', w: { OPTIMIERER: 2 } },
+          { t: 'Ich schreibe es nicht auf. Wozu denn.', w: { KONTROLL: 1, BLIND: 1 } }
         ]
       },
       {
         q: 'Du schaust auf dein Trinken, Rauchen, Essen und denkst:',
         a: [
-          { t: '»Es macht mich härter. Andere wären schon weg.«', w: { GRANDIOSE: 2 } },
-          { t: '»Ich verdiene es, dass mich was kostet.«', w: { STRAFER: 2 } },
-          { t: '»Drei Bier sind kein Drama. Schon gar nicht für meine Größe.«', w: { NORMAL: 2 } }
+          { t: 'Es macht mich härter. Andere wären schon weg.', w: { GRANDIOSE: 2 } },
+          { t: 'Ich verdiene es, dass mich was kostet.', w: { STRAFER: 2 } },
+          { t: 'Drei Bier sind kein Drama. Schon gar nicht für meine Größe.', w: { NORMAL: 2 } }
         ]
       },
       {
         q: 'Stell dir vor, du wärst jeden Tag ausgeruht, klar, ruhig. Das fühlt sich an wie:',
         a: [
-          { t: '»Kenne ich nicht. War nie so.«', w: { BLIND: 2 } },
-          { t: '»Wäre verdächtig. Hätte ich nicht verdient.«', w: { STRAFER: 1, GRANDIOSE: 1 } },
-          { t: '»Wäre Verlust. Hätte nichts zu schreiben, zu erzählen, zu sein.«', w: { KREATIV: 2 } }
+          { t: 'Kenne ich nicht. War nie so.', w: { BLIND: 2 } },
+          { t: 'Wäre verdächtig. Hätte ich nicht verdient.', w: { STRAFER: 1, GRANDIOSE: 1 } },
+          { t: 'Wäre Verlust. Hätte nichts zu schreiben, zu erzählen, zu sein.', w: { KREATIV: 2 } }
         ]
       },
       {
         q: 'Du beobachtest dich beim Konsum. Was tust du wirklich?',
         a: [
-          { t: '»Ich entziehe mir den Entzug.«', w: { BLIND: 1, OPTIMIERER: 1 } },
-          { t: '»Ich mache ein Gefühl weg.«', w: { BETAUBER: 2 } },
-          { t: '»Ich vollende, was jemand anderes mit mir angefangen hat.«', w: { STRAFER: 2 } }
+          { t: 'Ich entziehe mir den Entzug.', w: { BLIND: 1, OPTIMIERER: 1 } },
+          { t: 'Ich mache ein Gefühl weg.', w: { BETAUBER: 2 } },
+          { t: 'Ich vollende, was jemand anderes mit mir angefangen hat.', w: { STRAFER: 2 } }
         ]
       },
       {
         q: 'Du hast schon mal aufgehört. Wie lange?',
         a: [
-          { t: '»Drei Wochen, dann hatte ich einen Anlass.«', w: { KONTROLL: 1, NOTAUSGANG: 1 } },
-          { t: '»Mehrere Monate. Ich habe dafür mehr von etwas anderem gebraucht.«', w: { NOTAUSGANG: 2 } },
-          { t: '»Nie länger als ein Wochenende. Dann wird es medizinisch.«', w: { BLIND: 1, DIAGNOSE: 1 } }
+          { t: 'Drei Wochen, dann hatte ich einen Anlass.', w: { KONTROLL: 1, NOTAUSGANG: 1 } },
+          { t: 'Mehrere Monate. Ich habe dafür mehr von etwas anderem gebraucht.', w: { NOTAUSGANG: 2 } },
+          { t: 'Nie länger als ein Wochenende. Dann wird es medizinisch.', w: { BLIND: 1, DIAGNOSE: 1 } }
         ]
       },
       {
         q: 'Welcher Satz tut am meisten weh?',
         a: [
-          { t: '»Du trägst deinen Mörder spazieren und nennst ihn Persönlichkeit.«', w: { BLIND: 1, KREATIV: 1 } },
-          { t: '»Drei Bier sind nicht moderat, wenn die Vergleichsgruppe selbst krank ist.«', w: { NORMAL: 2 } },
-          { t: '»Du hältst deinen Schaden für Adelstitel.«', w: { GRANDIOSE: 2 } }
+          { t: 'Du trägst deinen Mörder spazieren und nennst ihn Persönlichkeit.', w: { BLIND: 1, KREATIV: 1 } },
+          { t: 'Drei Bier sind nicht moderat, wenn die Vergleichsgruppe selbst krank ist.', w: { NORMAL: 2 } },
+          { t: 'Du hältst deinen Schaden für Adelstitel.', w: { GRANDIOSE: 2 } }
         ]
       }
     ];
@@ -881,12 +855,8 @@
       const closer = document.createElement('div');
       closer.className = 'book-closer';
       closer.innerHTML = `
-        <p class="book-line-label">— DAS BUCH —</p>
-        <h2>»Kreativer Suizid. Rauchen, Hunger und die Lüge vom inneren Kind.«</h2>
-        <p class="book-author">Ticro Goto · Cum notis, Charlottenburg 2026 · ISBN 979-8-252624-61-7</p>
-        <a class="book-link" href="https://www.amazon.de/dp/9798252624617" target="_blank" rel="noopener noreferrer">
-          Auf Amazon ansehen<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
-        </a>
+        <p class="book-attribution">Die Diagnose kam aus diesem Buch.</p>
+        <a class="book-title-link" href="https://www.amazon.de/dp/9798252624617" target="_blank" rel="noopener noreferrer">Kreativer Suizid</a>
       `;
       content.appendChild(closer);
 
