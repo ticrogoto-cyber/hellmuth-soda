@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suchttypen — Welcher Suchttyp bist du?</title>
+  <meta name="description" content="Zwölf Fragen. Eine Diagnose. Welcher Suchttyp bist du? Aus »Kreativer Suizid« von Ticro Goto." />
+  <link rel="canonical" href="https://hellmuth-soda.de/diagnose/suchttypen/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Suchttypen — Welcher Suchttyp bist du?" />
+  <meta property="og:description" content="Zwölf Fragen. Eine Diagnose. Aus »Kreativer Suizid« von Ticro Goto." />
+  <meta property="og:url" content="https://hellmuth-soda.de/diagnose/suchttypen/" />
+  <meta property="og:site_name" content="Mut zur Klarheit" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Suchttypen — Welcher Suchttyp bist du?" />
+  <meta name="twitter:description" content="Zwölf Fragen. Eine Diagnose." />
+  <link rel="icon" href="/favicon.ico?v=9" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=9" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
+  <link rel="stylesheet" href="../../styles.css?v=14" />
+  <style>
+    /* ============================================================
+       Suchttypen-Spiel — Inline-Stile
+       ============================================================ */
+    :root {
+      --ink: #1a1a1a;
+      --muted: #888;
+      --warn: #6B0F1A;
+      --bg: #f8f8f8;
+    }
+
+    .suchttypen-main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(8rem, 14vh, 10rem) clamp(1.25rem, 4vw, 2rem) 4rem;
+      color: var(--ink);
+    }
+
+    .suchttypen-head {
+      text-align: center;
+      margin: 0 0 3rem;
+    }
+    .suchttypen-head h1 {
+      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      margin: 0 0 0.6em;
+      color: var(--ink);
+    }
+    .suchttypen-head .subtitle {
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-style: italic;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      margin: 0;
+    }
+
+    /* Tree container — alle Frage-Tiers leben hier drin */
+    .tree {
+      position: relative;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Eine Tier ist ein Frageknoten mit Antworten */
+    .tier {
+      position: relative;
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 0 12px;
+      padding: 0 0 1.5rem;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 500ms ease, transform 500ms ease;
+    }
+    .tier.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Linke Spalte: SVG mit Stamm + Verzweigungen */
+    .tier-spine {
+      position: relative;
+      grid-column: 1;
+      grid-row: 1 / span 5;
+      width: 28px;
+      align-self: stretch;
+    }
+    .tier-spine svg {
+      width: 28px;
+      height: 100%;
+      display: block;
+      overflow: visible;
+    }
+    .spine-line {
+      stroke: var(--ink);
+      stroke-width: 0.8;
+      fill: none;
+      stroke-linecap: butt;
+    }
+    .spine-line.is-drawing {
+      stroke-dasharray: var(--len, 200);
+      stroke-dashoffset: var(--len, 200);
+      transition: stroke-dashoffset 600ms ease;
+    }
+    .spine-line.is-drawing.is-drawn {
+      stroke-dashoffset: 0;
+    }
+    .spine-line.is-active { stroke: var(--warn); }
+    .spine-line.is-faded  { stroke: var(--muted); }
+    .spine-chevron {
+      stroke: var(--ink);
+      stroke-width: 0.8;
+      fill: none;
+    }
+    .spine-chevron.is-active { stroke: var(--warn); }
+
+    /* Rechte Spalte: Inhalt der Tier */
+    .tier-content { grid-column: 2; min-width: 0; }
+
+    .tier-num {
+      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin: 0 0 0.35rem;
+    }
+    .tier-question {
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-style: italic;
+      font-size: clamp(1.05rem, 1.9vw, 1.2rem);
+      line-height: 1.45;
+      color: var(--ink);
+      margin: 0 0 1.1rem;
+      max-width: 38rem;
+    }
+
+    .tier-options {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .tier-options li {
+      position: relative;
+      padding: 0.7rem 0 0.7rem 0;
+      margin: 0;
+      cursor: pointer;
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-size: clamp(0.98rem, 1.7vw, 1.05rem);
+      line-height: 1.45;
+      color: var(--ink);
+      min-height: 44px;
+      transition: color 200ms ease, opacity 200ms ease;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    .tier-options li:not(.is-disabled):hover,
+    .tier-options li:not(.is-disabled):focus-visible {
+      color: var(--warn);
+      outline: none;
+    }
+    .tier-options li.is-chosen { color: var(--warn); }
+    .tier-options li.is-faded { color: var(--muted); }
+    .tier-options.is-locked li { cursor: default; }
+    .tier-options.is-locked li:hover { color: inherit; }
+    .tier-options.is-locked li.is-chosen:hover { color: var(--warn); }
+    .tier-options.is-locked li.is-faded:hover { color: var(--muted); }
+
+    /* Ergebnis-Tier */
+    .result-tier {
+      padding-top: 1.5rem;
+    }
+    .result-tier .tier-num { color: var(--ink); }
+    .result-type {
+      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: clamp(1.4rem, 3.5vw, 1.9rem);
+      color: var(--ink);
+      margin: 0 0 1rem;
+      line-height: 1.2;
+    }
+    .result-prose {
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-size: clamp(1.05rem, 1.9vw, 1.15rem);
+      line-height: 1.6;
+      color: var(--ink);
+      max-width: 38rem;
+      margin: 0 0 1em;
+    }
+    .result-prose p { margin: 0 0 1em; }
+    .result-prose p:last-child { margin-bottom: 0; }
+
+    /* Buch-Closer */
+    .book-closer {
+      margin: 3rem 0 2rem;
+      padding-top: 1.5rem;
+      border-top: 0.5px solid var(--muted);
+      text-align: center;
+    }
+    .book-closer .book-line-label {
+      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin: 0 0 0.6rem;
+    }
+    .book-closer h2 {
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(1.1rem, 2vw, 1.25rem);
+      color: var(--ink);
+      margin: 0 0 0.4rem;
+      max-width: 30rem;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.35;
+    }
+    .book-closer .book-author {
+      font-family: 'Fournier Pro', Georgia, serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin: 0 0 1.5rem;
+    }
+    .book-closer .book-link {
+      display: inline-block;
+      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      color: var(--ink);
+      text-decoration: none;
+      padding: 0.6rem 1.4rem;
+      border: 0.5px solid var(--ink);
+      transition: background-color 200ms ease, color 200ms ease;
+    }
+    .book-closer .book-link:hover,
+    .book-closer .book-link:focus-visible {
+      background-color: var(--ink);
+      color: #fff;
+      outline: none;
+    }
+    .book-closer .book-link .ext-mark {
+      width: 0.78em; height: 0.78em;
+      margin-left: 0.4em;
+      vertical-align: -0.05em;
+    }
+
+    /* Replay */
+    .replay-row {
+      text-align: center;
+      margin: 1.5rem 0 0;
+    }
+    .replay-btn {
+      font-family: 'Printvetica', 'Helvetica Neue', sans-serif;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      color: var(--muted);
+      background: none;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: color 200ms ease;
+    }
+    .replay-btn:hover, .replay-btn:focus-visible {
+      color: var(--ink);
+      outline: none;
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      .tier,
+      .tier.is-visible,
+      .spine-line.is-drawing,
+      .spine-line.is-drawing.is-drawn {
+        opacity: 1 !important;
+        transform: none !important;
+        stroke-dashoffset: 0 !important;
+        transition: none !important;
+      }
+    }
+
+    /* Mobil-Anpassung */
+    @media (max-width: 480px) {
+      .tier { grid-template-columns: 22px 1fr; gap: 0 8px; }
+      .tier-spine { width: 22px; }
+      .tier-spine svg { width: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="title">
+      <span>Suchttypen</span>
+      <em data-tagline></em>
+    </div>
+    <a href="../../" class="brand" aria-label="Hellmuth — Startseite">
+      <img src="../../hellmuth.png" alt="Hellmuth" />
+    </a>
+    <form class="top-search" role="search" autocomplete="off">
+      <svg class="top-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/></svg>
+      <input type="search" placeholder="Suchen" aria-label="Site-Suche" />
+      <ul class="top-search-results" hidden></ul>
+    </form>
+    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" aria-hidden="true" aria-label="Hauptnavigation">
+      <a href="../../">Start</a>
+      <a href="../../zutaten/">Index</a>
+      <a href="../../zutaten/bildgebung/">Bildgebung</a>
+      <a href="https://kokos-und-zitrone.de" target="_blank" rel="noopener">Hausbesuch<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      <div class="menu-group" data-dropdown="diagnose"><button class="menu-trigger is-current" type="button" aria-haspopup="true" aria-expanded="false">Diagnose <svg class="menu-caret" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="m6 9 6 6 6-6"/></svg></button><ul class="menu-dropdown"><li><a href="../suchttypen/" class="is-active">Suchttypen</a></li><li><a href="../../quiz/">Quiz</a></li><li><a href="../../vokabular/">Vokabular</a></li><li><a href="../../klarheitskarten/">Klarheitskarten</a></li><li><a href="https://www.redbubble.com/de/people/kokos-u-zitrone/shop" target="_blank" rel="noopener noreferrer">Plakate<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:.78em;height:.78em;margin-left:.28em;vertical-align:-0.02em"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li></ul></div>
+      <a href="../../hellmuth/">Über</a>
+    </nav>
+  </header>
+
+  <main class="suchttypen-main">
+    <div class="suchttypen-head">
+      <h1>Suchttypen</h1>
+      <p class="subtitle">Zwölf Fragen. Eine Diagnose.</p>
+    </div>
+
+    <div id="tree" class="tree" aria-live="polite"></div>
+  </main>
+
+  <footer>
+    <a href="../../impressum/" class="footer-impressum">Impressum</a>
+  </footer>
+
+  <script src="../../site.js?v=7"></script>
+  <script src="../../search.js?v=3"></script>
+
+  <script>
+  /* ================================================================
+     Suchttypen-Spiel — Daten + Engine
+     Stil und Inhalte aus »Kreativer Suizid« (Ticro Goto, ISBN 979-8-252624-61-7)
+     ================================================================ */
+  (function(){
+    'use strict';
+
+    // -----------------------------------------------------------
+    // 10 Suchttypen
+    // -----------------------------------------------------------
+    const TYPES = {
+      BETAUBER: {
+        name: 'DER BETÄUBER',
+        prose: [
+          'Du trinkst nicht, weil es dir schmeckt. Du trinkst, weil dir etwas anderes nicht schmeckt — meistens du selbst.',
+          'Der Feierabend ist kein Ritual, sondern eine Fluchtroute, die du so oft benutzt hast, dass du sie für eine Straße hältst.',
+          'Jede Spannung bekommt eine Antwort, jede Antwort heißt: was nehmen.',
+          'Die Substanz ist nicht das Problem. Sie ist die Lösung, die du gewählt hast, statt zu fühlen.'
+        ]
+      },
+      NORMAL: {
+        name: 'DER NORMALISIERER',
+        prose: [
+          'Drei Bier am Abend sind moderat, wenn die Nachbarn vier trinken. Zehn Zigaretten sind wenig, solange jemand fünfzehn raucht.',
+          'Du hast deinen Maßstab an einer Population geeicht, die selbst krank ist, und nennst das Vergleich.',
+          'Niemand denkt: Ich saufe. Bier ist Alkohol mit Tarnkappe und Tempo.',
+          'Dein Trinkmuster ist nicht Genuss — es ist der Durchschnitt einer kranken Stichprobe.'
+        ]
+      },
+      KONTROLL: {
+        name: 'DER KONTROLL-LÜGNER',
+        prose: [
+          '»Ich kann jederzeit aufhören« — und tust es nie. Wer süchtig ist, sagt diesen Satz. Wer nicht süchtig ist, braucht ihn nicht zu sagen.',
+          'Du verteidigst die Substanz mit der Vehemenz, mit der man eine Identität verteidigt, und merkst nicht, dass das schon die Antwort ist.',
+          'Das Kontrollnetzwerk ist kompromittiert, bevor du den Satz beendest.',
+          'Sucht kontrolliert den Süchtigen, nicht umgekehrt.'
+        ]
+      },
+      NOTAUSGANG: {
+        name: 'DER NOTAUSGANGSSPRINGER',
+        prose: [
+          'Eine Sucht beenden, ohne das System neu aufzubauen — der Körper greift zur nächstbesten Substanz.',
+          'Rauchen aus, Bier rein. Bier aus, Zucker rein. Zucker aus, Kaffee rauf.',
+          'Du hast schon dreimal aufgehört und immer dasselbe Loch in eine andere Tasche gestopft.',
+          'Jeder Notausgang führt in dieselbe Zelle zurück. Es sind Drehtüren, keine Türen.'
+        ]
+      },
+      KREATIV: {
+        name: 'DER KREATIV-PRAHLER',
+        prose: [
+          'Du hältst die Linderung von Entzug für Inspiration. Die Krücke ist dein Werkzeug.',
+          'Die Zigarette ist Pose, das Glas ist Stil, das Pulver ist Recherche.',
+          'Was Substanz mit deinem Hirn macht, nennst du Persönlichkeit.',
+          'Du verteidigst nicht den Stoff. Du verteidigst die Identität, die du dir angeraucht, angetrunken oder angestopft hast.'
+        ]
+      },
+      DIAGNOSE: {
+        name: 'DER DIAGNOSEFLÜCHTLING',
+        prose: [
+          'Hochsensibel, ADHS, Reizdarm, Burnout. Du hast ein Etikett, und das Etikett hat dich entlastet.',
+          'Solange die Diagnose redet, schweigst du.',
+          'Die Substanz ist keine Schuld, sie ist Medikament — du nimmst sie gegen das, was die Diagnose sagt, dass du hast.',
+          'Die Diagnose löst dich vom Problem. Sie löst nicht das Problem.'
+        ]
+      },
+      OPTIMIERER: {
+        name: 'DER OPTIMIERER',
+        prose: [
+          'Du trackst Schlafphasen, Bloodwork, Schritte und Makros. Auf der Hand: die Smartwatch. Im Glas: der dritte Espresso. Im Hosenbund: das Pouch, das du als Upgrade verkauft hast.',
+          'Du nennst es Performance. Es ist Entzugsrücknahme mit Marketingabteilung.',
+          'Wer pharmakologisch nicht denken kann, hält Wachheit auf Kredit für Klarheit.'
+        ]
+      },
+      STRAFER: {
+        name: 'DER SELBSTBESTRAFER',
+        prose: [
+          'Du greifst zur Substanz, von der du weißt, dass sie dir wehtun wird. Salz wie eine essbare Rasierklinge. Alkohol gegen Alkohol.',
+          'Etwas in dir bezahlt mit Elend eine Schuldspannung ab, die nie quittiert wird.',
+          'Selbstregulation durch Selbstverletzung — der sozialverträgliche Bruder vom Ritzen, mit dem einzigen Unterschied im Ansehen.'
+        ]
+      },
+      GRANDIOSE: {
+        name: 'DER GRANDIOSE',
+        prose: [
+          'Du hältst deinen Schaden für Adelstitel. John Wick mit Bierdose: gebrochen, aber unbesiegbar.',
+          'Die Zerstörung ist Distinktionsmerkmal, die Wunde Zugehörigkeit.',
+          'Die Substanz hat dich beschädigt, und du trägst die Spur wie eine Uniform.',
+          'Du siehst nicht, was du dir angetan hast. Du siehst nur, was du überlebt hast.'
+        ]
+      },
+      BLIND: {
+        name: 'DER ZUSTANDSBLINDE',
+        prose: [
+          'Du kannst dir vieles vorstellen, was du nicht bist — andere Leben, andere Sprachen, andere Wetterlagen. Ein Leben ohne deinen Stoff gehört nicht dazu.',
+          'Du lebst auf zwanzig Prozent und hältst es für hundert, weil die Nachbarn auch auf zwanzig laufen.',
+          'Du hast vergessen, wie sich hundert anfühlt.',
+          'Das, was du Persönlichkeit nennst, trägst du spazieren. Es ist dein Mörder, in einer Form, die du wiedererkennst.'
+        ]
+      }
+    };
+
+    // Tiebreak-Reihenfolge (niedrigerer Index gewinnt bei Gleichstand)
+    const TYPE_ORDER = ['BETAUBER','NORMAL','KONTROLL','NOTAUSGANG','KREATIV','DIAGNOSE','OPTIMIERER','STRAFER','GRANDIOSE','BLIND'];
+
+    // -----------------------------------------------------------
+    // 12 Fragen mit Gewichten
+    // -----------------------------------------------------------
+    const QUESTIONS = [
+      {
+        q: 'Du nimmst was. Warum nimmst du es?',
+        a: [
+          { t: '»Es macht ein Gefühl weg, das ich nicht mag.«', w: { BETAUBER: 2 } },
+          { t: '»Es macht aus mir, wer ich sein will.«', w: { KREATIV: 2 } },
+          { t: '»Es ist halt da. Wie Atmen.«', w: { BLIND: 2 } }
+        ]
+      },
+      {
+        q: 'Du hast schon einmal aufgehört. Was kam danach?',
+        a: [
+          { t: '»Es war stressig. Ich habe wieder angefangen.«', w: { KONTROLL: 2 } },
+          { t: '»Ich habe etwas anderes angefangen. Anderes Suchtmittel, ähnliches Loch.«', w: { NOTAUSGANG: 2 } },
+          { t: '»Ich habe nie ernsthaft aufgehört. Wozu auch.«', w: { BLIND: 1, KONTROLL: 1 } }
+        ]
+      },
+      {
+        q: 'Jemand fragt, wie viel du trinkst, rauchst, isst. Was machst du?',
+        a: [
+          { t: '»Ich zähle Vergleichszahlen. Drei sind nicht viel, andere haben fünf.«', w: { NORMAL: 2 } },
+          { t: '»Ich erkläre, dass ich es im Griff habe.«', w: { KONTROLL: 2 } },
+          { t: '»Ich erkläre, dass ich es brauche. Wegen ADHS, Reizdarm, Burnout.«', w: { DIAGNOSE: 2 } }
+        ]
+      },
+      {
+        q: 'Du fühlst Trauer, Wut, Leere. Was passiert dann?',
+        a: [
+          { t: '»Ich nehme was. Sofort. Wie ein Reflex.«', w: { BETAUBER: 2 } },
+          { t: '»Ich nehme das, von dem ich weiß, dass es mir schadet.«', w: { STRAFER: 2 } },
+          { t: '»Ich tracke Cortisol. Mache Atemübung. Ich habe Systeme.«', w: { OPTIMIERER: 2 } }
+        ]
+      },
+      {
+        q: 'Eine Woche ohne deinen Stoff. Was geschieht?',
+        a: [
+          { t: '»Ich werde traurig. Reizbar. Es wird leer.«', w: { BETAUBER: 1, BLIND: 1 } },
+          { t: '»Ich nehme an, das geht vorbei. Ist nicht passiert.«', w: { KONTROLL: 2 } },
+          { t: '»Ich nehme was anderes. Andere Substanz, gleiches Ziel.«', w: { NOTAUSGANG: 2 } }
+        ]
+      },
+      {
+        q: 'Jemand sagt, du solltest ganz aufhören. Du denkst:',
+        a: [
+          { t: '»Ohne wäre ich nicht mehr ich. Wäre langweilig. Wäre weniger.«', w: { KREATIV: 2 } },
+          { t: '»Soll ich. Aber nicht heute. Nächstes Jahr, nächstes Quartal.«', w: { KONTROLL: 1, BLIND: 1 } },
+          { t: '»Ich brauche es wegen meiner Diagnose, meiner Empfindsamkeit, meines Berufs.«', w: { DIAGNOSE: 2 } }
+        ]
+      },
+      {
+        q: 'Du schreibst eine Woche lang auf, was du wirklich konsumierst. Die Zahl ist:',
+        a: [
+          { t: '»Höher als gedacht. Aber das war eine Ausnahmewoche.«', w: { NORMAL: 2 } },
+          { t: '»Genau wie geschätzt. Ich tracke ohnehin alles.«', w: { OPTIMIERER: 2 } },
+          { t: '»Ich schreibe es nicht auf. Wozu denn.«', w: { KONTROLL: 1, BLIND: 1 } }
+        ]
+      },
+      {
+        q: 'Du schaust auf dein Trinken, Rauchen, Essen und denkst:',
+        a: [
+          { t: '»Es macht mich härter. Andere wären schon weg.«', w: { GRANDIOSE: 2 } },
+          { t: '»Ich verdiene es, dass mich was kostet.«', w: { STRAFER: 2 } },
+          { t: '»Drei Bier sind kein Drama. Schon gar nicht für meine Größe.«', w: { NORMAL: 2 } }
+        ]
+      },
+      {
+        q: 'Stell dir vor, du wärst jeden Tag ausgeruht, klar, ruhig. Das fühlt sich an wie:',
+        a: [
+          { t: '»Kenne ich nicht. War nie so.«', w: { BLIND: 2 } },
+          { t: '»Wäre verdächtig. Hätte ich nicht verdient.«', w: { STRAFER: 1, GRANDIOSE: 1 } },
+          { t: '»Wäre Verlust. Hätte nichts zu schreiben, zu erzählen, zu sein.«', w: { KREATIV: 2 } }
+        ]
+      },
+      {
+        q: 'Du beobachtest dich beim Konsum. Was tust du wirklich?',
+        a: [
+          { t: '»Ich entziehe mir den Entzug.«', w: { BLIND: 1, OPTIMIERER: 1 } },
+          { t: '»Ich mache ein Gefühl weg.«', w: { BETAUBER: 2 } },
+          { t: '»Ich vollende, was jemand anderes mit mir angefangen hat.«', w: { STRAFER: 2 } }
+        ]
+      },
+      {
+        q: 'Du hast schon mal aufgehört. Wie lange?',
+        a: [
+          { t: '»Drei Wochen, dann hatte ich einen Anlass.«', w: { KONTROLL: 1, NOTAUSGANG: 1 } },
+          { t: '»Mehrere Monate. Ich habe dafür mehr von etwas anderem gebraucht.«', w: { NOTAUSGANG: 2 } },
+          { t: '»Nie länger als ein Wochenende. Dann wird es medizinisch.«', w: { BLIND: 1, DIAGNOSE: 1 } }
+        ]
+      },
+      {
+        q: 'Welcher Satz tut am meisten weh?',
+        a: [
+          { t: '»Du trägst deinen Mörder spazieren und nennst ihn Persönlichkeit.«', w: { BLIND: 1, KREATIV: 1 } },
+          { t: '»Drei Bier sind nicht moderat, wenn die Vergleichsgruppe selbst krank ist.«', w: { NORMAL: 2 } },
+          { t: '»Du hältst deinen Schaden für Adelstitel.«', w: { GRANDIOSE: 2 } }
+        ]
+      }
+    ];
+
+    // -----------------------------------------------------------
+    // Engine
+    // -----------------------------------------------------------
+    const REDUCED = window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+
+    let state = null;
+    let treeEl = null;
+
+    function reset() {
+      state = {
+        index: 0,
+        scores: Object.fromEntries(TYPE_ORDER.map(k => [k, 0])),
+        choices: [] // [{q: i, a: 0|1|2}]
+      };
+      treeEl.innerHTML = '';
+      renderQuestion(0);
+    }
+
+    function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+    function makeSvg(attrs, children) {
+      const el = document.createElementNS(SVG_NS, 'svg');
+      Object.entries(attrs || {}).forEach(([k,v]) => el.setAttribute(k, v));
+      (children || []).forEach(c => el.appendChild(c));
+      return el;
+    }
+
+    function makeLine(x1, y1, x2, y2, cls, len) {
+      const l = document.createElementNS(SVG_NS, 'line');
+      l.setAttribute('x1', x1); l.setAttribute('y1', y1);
+      l.setAttribute('x2', x2); l.setAttribute('y2', y2);
+      l.setAttribute('class', cls || 'spine-line');
+      if (len !== undefined) l.style.setProperty('--len', len);
+      return l;
+    }
+
+    function makePath(d, cls) {
+      const p = document.createElementNS(SVG_NS, 'path');
+      p.setAttribute('d', d);
+      p.setAttribute('class', cls);
+      return p;
+    }
+
+    function makePolyline(points, cls) {
+      const pl = document.createElementNS(SVG_NS, 'polyline');
+      pl.setAttribute('points', points);
+      pl.setAttribute('class', cls);
+      return pl;
+    }
+
+    /**
+     * Baut eine Frage-Tier:
+     *   [Stamm] | [Frage-Text]
+     *   [Stamm + Verzweigung] | [Option A]
+     *   [Stamm + Verzweigung] | [Option B]
+     *   [Stamm + Verzweigung] | [Option C]
+     *   [Stamm-Exit]
+     *
+     * Das interne Layout-Y des Stamms wird via JS gemessen, nachdem die Tier
+     * im DOM ist.
+     */
+    function renderQuestion(idx) {
+      const q = QUESTIONS[idx];
+      const tier = document.createElement('div');
+      tier.className = 'tier';
+      tier.dataset.idx = idx;
+
+      // Linke Spalte: Spine-SVG (Stamm + Verzweigungen)
+      const spine = document.createElement('div');
+      spine.className = 'tier-spine';
+      const spineSvg = document.createElementNS(SVG_NS, 'svg');
+      spineSvg.setAttribute('viewBox', '0 0 28 100');
+      spineSvg.setAttribute('preserveAspectRatio', 'none');
+      spine.appendChild(spineSvg);
+      tier.appendChild(spine);
+
+      // Rechte Spalte: Frage + Antworten
+      const content = document.createElement('div');
+      content.className = 'tier-content';
+
+      const num = document.createElement('p');
+      num.className = 'tier-num';
+      num.textContent = 'Frage ' + (idx + 1) + ' von ' + QUESTIONS.length;
+      content.appendChild(num);
+
+      const qEl = document.createElement('p');
+      qEl.className = 'tier-question';
+      qEl.textContent = q.q;
+      content.appendChild(qEl);
+
+      const ul = document.createElement('ul');
+      ul.className = 'tier-options';
+      ul.setAttribute('role', 'radiogroup');
+      ul.setAttribute('aria-label', q.q);
+
+      q.a.forEach((ans, ai) => {
+        const li = document.createElement('li');
+        li.textContent = ans.t;
+        li.setAttribute('role', 'radio');
+        li.setAttribute('tabindex', '0');
+        li.setAttribute('aria-checked', 'false');
+        li.dataset.ai = ai;
+
+        const handleChoose = () => {
+          if (ul.classList.contains('is-locked')) return;
+          chooseAnswer(tier, ul, li, idx, ai, q.a[ai]);
+        };
+        li.addEventListener('click', handleChoose);
+        li.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleChoose();
+          }
+        });
+        ul.appendChild(li);
+      });
+      content.appendChild(ul);
+
+      tier.appendChild(content);
+      treeEl.appendChild(tier);
+
+      // Nach DOM-Insert: spine layout berechnen
+      requestAnimationFrame(() => {
+        layoutSpine(tier);
+        // Tier sichtbar machen
+        requestAnimationFrame(() => {
+          tier.classList.add('is-visible');
+          // Auto-scroll
+          if (idx > 0) {
+            tier.scrollIntoView({
+              behavior: REDUCED ? 'auto' : 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+    }
+
+    function layoutSpine(tier) {
+      const spineSvg = tier.querySelector('.tier-spine svg');
+      if (!spineSvg) return;
+      // Verstecke alle Inhalte, baue neu
+      spineSvg.innerHTML = '';
+
+      const tierRect = tier.getBoundingClientRect();
+      const totalH = tierRect.height;
+      spineSvg.setAttribute('viewBox', `0 0 28 ${totalH}`);
+      spineSvg.setAttribute('height', totalH);
+
+      // Berechne y-Mitte jeder Option
+      const ul = tier.querySelector('.tier-options');
+      if (!ul) return;
+      const lis = Array.from(ul.querySelectorAll('li'));
+      const tierTop = tierRect.top;
+
+      const branchYs = lis.map(li => {
+        const r = li.getBoundingClientRect();
+        return r.top - tierTop + r.height / 2;
+      });
+
+      // Stamm-X
+      const X = 14;
+      // Stamm-Bereich: von y=0 (oben) bis zum letzten Branch
+      const yStart = 4;
+      const yEnd = branchYs[branchYs.length - 1] + 16;
+      const trunkLen = Math.max(yEnd - yStart, 10);
+
+      // Stamm-Linie (durchgezogen, schwarz)
+      const trunk = makeLine(X, yStart, X, yEnd, 'spine-line is-drawing');
+      trunk.style.setProperty('--len', trunkLen.toFixed(0));
+      trunk.dataset.role = 'trunk';
+      spineSvg.appendChild(trunk);
+
+      // Verzweigungen zu den Optionen
+      branchYs.forEach((y, i) => {
+        const len = 12; // x von 14 bis 26
+        const br = makeLine(X, y, X + 12, y, 'spine-line is-drawing');
+        br.style.setProperty('--len', len.toFixed(0));
+        br.dataset.role = 'branch';
+        br.dataset.ai = i;
+        spineSvg.appendChild(br);
+      });
+
+      // Wenn nach Auswahl: zeichne den Exit-Stamm und Chevron — passiert in chooseAnswer.
+
+      // Trigger Draw-Animation
+      requestAnimationFrame(() => {
+        const drawables = spineSvg.querySelectorAll('.is-drawing');
+        drawables.forEach((el, i) => {
+          const offset = REDUCED ? 0 : (i === 0 ? 60 : 200 + i * 80);
+          setTimeout(() => el.classList.add('is-drawn'), offset);
+        });
+      });
+    }
+
+    function chooseAnswer(tier, ul, li, qIdx, ai, ansData) {
+      ul.classList.add('is-locked');
+      // Visuell markieren
+      Array.from(ul.querySelectorAll('li')).forEach((other, oi) => {
+        if (oi === ai) {
+          other.classList.add('is-chosen');
+          other.setAttribute('aria-checked', 'true');
+        } else {
+          other.classList.add('is-faded');
+          other.setAttribute('aria-checked', 'false');
+        }
+      });
+
+      // Spine: aktive Branch + relevante Trunk-Segmente rot
+      const spineSvg = tier.querySelector('.tier-spine svg');
+      const branches = spineSvg.querySelectorAll('[data-role="branch"]');
+      const trunk = spineSvg.querySelector('[data-role="trunk"]');
+      branches.forEach((b, bi) => {
+        if (bi === ai) b.classList.add('is-active');
+        else b.classList.add('is-faded');
+      });
+      if (trunk) trunk.classList.add('is-active');
+
+      // Punkte addieren
+      Object.entries(ansData.w).forEach(([k, v]) => {
+        state.scores[k] += v;
+      });
+      state.choices.push({ q: qIdx, a: ai });
+
+      // Exit-Stamm und Chevron nach unten
+      const tierRect = tier.getBoundingClientRect();
+      const totalH = tierRect.height;
+      const X = 14;
+
+      // Exit-Linie zur nächsten Tier — wird durch das padding-bottom der tier sichtbar
+      // Wir verlängern den existierenden trunk virtuell, indem wir den exit als
+      // separate Linie ziehen
+      const exitTop = trunk ? Number(trunk.getAttribute('y2')) : 100;
+      const exitBottom = totalH - 4;
+      if (exitBottom > exitTop + 4) {
+        const exitLen = exitBottom - exitTop;
+        const exit = makeLine(X, exitTop, X, exitBottom, 'spine-line is-drawing is-active');
+        exit.style.setProperty('--len', exitLen.toFixed(0));
+        exit.dataset.role = 'exit';
+        spineSvg.appendChild(exit);
+
+        // Chevron — bei der letzten Frage zeigt der Pfeil ins Ergebnis
+        const chev = makePolyline(
+          (X - 4) + ',' + (exitBottom - 5) + ' ' + X + ',' + exitBottom + ' ' + (X + 4) + ',' + (exitBottom - 5),
+          'spine-chevron is-active'
+        );
+        spineSvg.appendChild(chev);
+
+        requestAnimationFrame(() => {
+          setTimeout(() => exit.classList.add('is-drawn'), 50);
+        });
+      }
+
+      // Nächste Tier oder Ergebnis
+      const next = qIdx + 1;
+      const wait = REDUCED ? 100 : 700;
+      setTimeout(() => {
+        if (next < QUESTIONS.length) {
+          renderQuestion(next);
+        } else {
+          renderResult();
+        }
+      }, wait);
+    }
+
+    function pickResultType() {
+      // Höchste Punkte, bei Gleichstand entscheidet TYPE_ORDER
+      let best = TYPE_ORDER[0];
+      let bestScore = state.scores[best];
+      for (const k of TYPE_ORDER) {
+        if (state.scores[k] > bestScore) {
+          best = k;
+          bestScore = state.scores[k];
+        }
+      }
+      return best;
+    }
+
+    function renderResult() {
+      const typeKey = pickResultType();
+      const type = TYPES[typeKey];
+
+      const tier = document.createElement('div');
+      tier.className = 'tier result-tier';
+      tier.dataset.idx = 'result';
+
+      // Spine: nur kurzer Eingang
+      const spine = document.createElement('div');
+      spine.className = 'tier-spine';
+      const spineSvg = document.createElementNS(SVG_NS, 'svg');
+      spineSvg.setAttribute('viewBox', '0 0 28 60');
+      spineSvg.setAttribute('preserveAspectRatio', 'none');
+      const inLine = makeLine(14, 0, 14, 28, 'spine-line is-drawing is-active');
+      inLine.style.setProperty('--len', 28);
+      spineSvg.appendChild(inLine);
+      const nodeCircle = document.createElementNS(SVG_NS, 'circle');
+      nodeCircle.setAttribute('cx', 14);
+      nodeCircle.setAttribute('cy', 32);
+      nodeCircle.setAttribute('r', 2);
+      nodeCircle.setAttribute('fill', '#6B0F1A');
+      nodeCircle.setAttribute('class', 'reveal');
+      spineSvg.appendChild(nodeCircle);
+      spine.appendChild(spineSvg);
+      tier.appendChild(spine);
+
+      const content = document.createElement('div');
+      content.className = 'tier-content';
+
+      const num = document.createElement('p');
+      num.className = 'tier-num';
+      num.textContent = 'Diagnose';
+      content.appendChild(num);
+
+      const h2 = document.createElement('h2');
+      h2.className = 'result-type';
+      h2.textContent = type.name;
+      content.appendChild(h2);
+
+      const prose = document.createElement('div');
+      prose.className = 'result-prose';
+      type.prose.forEach(p => {
+        const pp = document.createElement('p');
+        pp.textContent = p;
+        prose.appendChild(pp);
+      });
+      content.appendChild(prose);
+
+      // Buch-Closer
+      const closer = document.createElement('div');
+      closer.className = 'book-closer';
+      closer.innerHTML = `
+        <p class="book-line-label">— DAS BUCH —</p>
+        <h2>»Kreativer Suizid. Rauchen, Hunger und die Lüge vom inneren Kind.«</h2>
+        <p class="book-author">Ticro Goto · Cum notis, Charlottenburg 2026 · ISBN 979-8-252624-61-7</p>
+        <a class="book-link" href="https://www.amazon.de/dp/9798252624617" target="_blank" rel="noopener noreferrer">
+          Auf Amazon ansehen<svg class="ext-mark" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </a>
+      `;
+      content.appendChild(closer);
+
+      // Replay
+      const replayRow = document.createElement('div');
+      replayRow.className = 'replay-row';
+      const replayBtn = document.createElement('button');
+      replayBtn.className = 'replay-btn';
+      replayBtn.type = 'button';
+      replayBtn.textContent = 'Nochmal';
+      replayBtn.addEventListener('click', () => {
+        reset();
+        treeEl.scrollIntoView({
+          behavior: REDUCED ? 'auto' : 'smooth',
+          block: 'start'
+        });
+      });
+      replayRow.appendChild(replayBtn);
+      content.appendChild(replayRow);
+
+      tier.appendChild(content);
+      treeEl.appendChild(tier);
+
+      requestAnimationFrame(() => {
+        tier.classList.add('is-visible');
+        requestAnimationFrame(() => {
+          setTimeout(() => inLine.classList.add('is-drawn'), 30);
+          tier.scrollIntoView({
+            behavior: REDUCED ? 'auto' : 'smooth',
+            block: 'start'
+          });
+        });
+      });
+    }
+
+    // -----------------------------------------------------------
+    // Boot
+    // -----------------------------------------------------------
+    document.addEventListener('DOMContentLoaded', function() {
+      treeEl = document.getElementById('tree');
+      if (!treeEl) return;
+      reset();
+    });
+  })();
+  </script>
+</body>
+</html>
