@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Suchttypen — Welcher Suchttyp bist du?</title>
-  <meta name="description" content="Zwölf Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem. Welcher Suchttyp bist du? Aus »Kreativer Suizid« von Ticro Goto." />
+  <title>Suchttyp — Welcher bist du?</title>
+  <meta name="description" content="Fünfzehn Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem. Welcher Suchttyp bist du? Aus »Kreativer Suizid« von Ticro Goto." />
   <link rel="canonical" href="https://hellmuth-soda.de/diagnose/suchttypen/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Suchttypen — Welcher Suchttyp bist du?" />
-  <meta property="og:description" content="Zwölf Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem. Aus »Kreativer Suizid« von Ticro Goto." />
+  <meta property="og:title" content="Suchttyp — Welcher bist du?" />
+  <meta property="og:description" content="Fünfzehn Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem. Aus »Kreativer Suizid« von Ticro Goto." />
   <meta property="og:url" content="https://hellmuth-soda.de/diagnose/suchttypen/" />
   <meta property="og:site_name" content="Mut zur Klarheit" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Suchttypen — Welcher Suchttyp bist du?" />
-  <meta name="twitter:description" content="Zwölf Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem." />
+  <meta name="twitter:title" content="Suchttyp — Welcher bist du?" />
+  <meta name="twitter:description" content="Fünfzehn Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem." />
   <link rel="icon" href="/favicon.ico?v=9" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=9" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=9" />
@@ -274,7 +274,7 @@
 <body>
   <header class="top">
     <div class="title">
-      <span>Suchttypen</span>
+      <span>Suchttyp</span>
       <em data-tagline></em>
     </div>
     <a href="../../" class="brand" aria-label="Hellmuth — Startseite">
@@ -300,8 +300,8 @@
 
   <main class="suchttypen-main">
     <div class="suchttypen-head">
-      <h1>Suchttypen</h1>
-      <p class="subtitle">Zwölf Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem.</p>
+      <h1>Suchttyp</h1>
+      <p class="subtitle">Fünfzehn Fragen. Du wirst lügen. Das Ergebnis stimmt trotzdem.</p>
     </div>
 
     <div id="tree" class="tree" aria-live="polite"></div>
@@ -332,7 +332,7 @@
           'Du trinkst, weil dir etwas nicht schmeckt. Meistens du selbst.',
           'Der Feierabend ist eine Fluchtroute, die du so oft benutzt hast, dass du sie für eine Straße hältst.',
           'Jede Spannung bekommt eine Antwort, jede Antwort heißt: was nehmen.',
-          'Die Substanz ist die Lösung, die du gewählt hast, statt zu fühlen.'
+          'Fühlen wäre die Lösung. Du hast die Betäubung gewählt.'
         ]
       },
       NORMAL: {
@@ -429,7 +429,15 @@
         a: [
           { t: 'Weil vorher was war, das ich nicht fühlen will.', w: { BETAUBER: 2 } },
           { t: 'Weil ich so besser bin, witziger, erträglicher.', w: { KREATIV: 2 } },
-          { t: 'Ich weiß es nicht mehr. Es ist wie Atmen.', w: { BLIND: 2 } }
+          { t: 'Ich weiß es nicht. Ich wusste es mal. Jetzt ist es wie Atmen.', w: { BLIND: 2 } }
+        ]
+      },
+      {
+        q: 'Der Griff zum Glas, zur Schachtel, zum Kühlschrank. Was kommt davor?',
+        a: [
+          { t: 'Ein Gedanke. Ich hab es verdient.', w: { BETAUBER: 1, OPTIMIERER: 1 } },
+          { t: 'Ein Satz. Nur heute. Nur einmal. Nur noch dieses eine Mal.', w: { KONTROLL: 1, BLIND: 1 } },
+          { t: 'Nichts. Meine Hand ist schneller als mein Kopf.', w: { BLIND: 2 } }
         ]
       },
       {
@@ -449,15 +457,23 @@
         ]
       },
       {
+        q: 'Jemand sagt, du trinkst zu viel. Dein erster Gedanke:',
+        a: [
+          { t: 'Der hat keine Ahnung, was ich vertrage.', w: { GRANDIOSE: 2 } },
+          { t: 'Der hat keine Ahnung, was ich habe.', w: { DIAGNOSE: 2 } },
+          { t: 'Der hat keine Ahnung, was die anderen trinken.', w: { NORMAL: 2 } }
+        ]
+      },
+      {
         q: 'Du fühlst Trauer, Wut, Leere. Was passiert in den nächsten zehn Minuten?',
         a: [
           { t: 'Ich nehme was, sofort, wie ein Reflex.', w: { BETAUBER: 2 } },
           { t: 'Ich nehme das, von dem ich weiß, dass es mir schadet.', w: { STRAFER: 2 } },
-          { t: 'Ich öffne eine App, ich habe Systeme.', w: { OPTIMIERER: 2 } }
+          { t: 'Ich öffne eine App. Die App sagt mir, dass alles in Ordnung ist. Ich glaube der App.', w: { OPTIMIERER: 2 } }
         ]
       },
       {
-        q: 'Eine Woche ohne. Du hältst durch. Was passiert am achten Tag?',
+        q: 'Du hältst eine Woche durch. Am achten Tag passiert, was immer passiert. Was ist das?',
         a: [
           { t: 'Ich feiere, mit dem, wovon ich aufgehört habe.', w: { BETAUBER: 1, BLIND: 1 } },
           { t: 'Ich weiß es nicht, ich war nie beim achten Tag.', w: { KONTROLL: 2 } },
@@ -468,7 +484,7 @@
         q: 'Jemand sagt, du solltest ganz aufhören. Was denkst du?',
         a: [
           { t: 'Ohne wäre ich weniger, langweiliger, leerer.', w: { KREATIV: 2 } },
-          { t: 'Soll ich, nächstes Jahr, nächstes Quartal, nach dem Projekt.', w: { KONTROLL: 1, BLIND: 1 } },
+          { t: 'Bald. Nach dem Projekt. Nach dem Urlaub. Nach dem Leben.', w: { KONTROLL: 1, BLIND: 1 } },
           { t: 'Ich brauche es, die Diagnose sagt es, der Arzt weiß es.', w: { DIAGNOSE: 2 } }
         ]
       },
@@ -481,7 +497,7 @@
         ]
       },
       {
-        q: 'Du schaust auf dein Trinken, Rauchen, Essen. Was denkst du?',
+        q: 'Du schaust auf die letzten zehn Jahre. Was siehst du?',
         a: [
           { t: 'Andere wären schon weg, ich stehe noch.', w: { GRANDIOSE: 2 } },
           { t: 'Ich verdiene das, ich verdiene, dass mich was kostet.', w: { STRAFER: 2 } },
@@ -491,7 +507,7 @@
       {
         q: 'Stell dir vor, du wärst jeden Tag ausgeruht, klar, ruhig. Das fühlt sich an wie:',
         a: [
-          { t: 'Ich kenne das nicht, ich war nie so.', w: { BLIND: 2 } },
+          { t: 'Ich weiß nicht, wie sich das anfühlt. Ich war nie dort.', w: { BLIND: 2 } },
           { t: 'Verdächtig, das hätte ich nicht verdient.', w: { STRAFER: 1, GRANDIOSE: 1 } },
           { t: 'Verlust, dann hätte ich nichts zu erzählen.', w: { KREATIV: 2 } }
         ]
@@ -499,9 +515,17 @@
       {
         q: 'Du stehst vor dem Spiegel, das Glas in der Hand. Was siehst du?',
         a: [
-          { t: 'Jemanden, der gleich aufhört zu zittern.', w: { BLIND: 1, OPTIMIERER: 1 } },
+          { t: 'Jemanden, der das Zittern gleich abstellt. Bis morgen früh.', w: { BLIND: 1, OPTIMIERER: 1 } },
           { t: 'Jemanden, der gerade ein Gefühl begräbt.', w: { BETAUBER: 2 } },
           { t: 'Jemanden, der tut, was man ihm beigebracht hat.', w: { STRAFER: 2 } }
+        ]
+      },
+      {
+        q: 'Du wachst um vier Uhr nachts auf. Der Körper hat dich geweckt. Was tust du?',
+        a: [
+          { t: 'Ich liege da und warte, bis es vorbei ist. Morgen mache ich weiter.', w: { BLIND: 1, KONTROLL: 1 } },
+          { t: 'Ich stehe auf und hole mir was. Gegen das Gefühl.', w: { BETAUBER: 1, NOTAUSGANG: 1 } },
+          { t: 'Ich liege da und denke: Das ist der Preis. Den zahle ich.', w: { STRAFER: 1, GRANDIOSE: 1 } }
         ]
       },
       {
@@ -509,7 +533,7 @@
         a: [
           { t: 'Drei Wochen, dann hatte ich einen Grund weiterzumachen.', w: { KONTROLL: 1, NOTAUSGANG: 1 } },
           { t: 'Mehrere Monate, ich habe dafür mehr von etwas anderem gebraucht.', w: { NOTAUSGANG: 2 } },
-          { t: 'Nie länger als ein Wochenende, dann wird es medizinisch.', w: { BLIND: 1, DIAGNOSE: 1 } }
+          { t: 'Nie länger als ein Wochenende. Dann hat der Körper Recht bekommen.', w: { BLIND: 1, DIAGNOSE: 1 } }
         ]
       },
       {
