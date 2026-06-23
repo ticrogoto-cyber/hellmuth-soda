@@ -60,7 +60,7 @@ Vollständige Charakterisierungen (4–5 Sätze pro Typ) im Code (`TYPES`-Objekt
 
 ## Buch-Closer
 
-Nach der Diagnose: Trennlinie, dann das Closer-Modul mit Buchtitel, Verlag (Cum notis, Charlottenburg 2026), ISBN und Amazon-Link `https://www.amazon.de/dp/9798252624617`. Darunter der **Nochmal**-Button.
+Nach der Diagnose: Trennlinie, dann das Closer-Modul mit Buchtitel, Verlag (Cum notis, Charlottenburg 2026), ISBN und Amazon-Link `https://www.amazon.de/dp/B0GT4G61VX`. Darunter der **Nochmal**-Button.
 
 ## Navigation
 
