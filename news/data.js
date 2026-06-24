@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-23T23:35:16.796Z",
+  "generated": "2026-06-24T23:39:27.360Z",
   "hellmuth": [
+    {
+      "title": "Neutonic verkauft Produktivität in der Dose",
+      "date": "2026-06-24",
+      "created": "2026-06-24T23:38:31.850Z",
+      "slug": "neutonic-verkauft-produktivitat-in-der-dose",
+      "rubrik": "hellmuth",
+      "lead": "Der Functional-Drink-Markt hat seinen nächsten Versprechensraum gefunden, und er heißt Fokus.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-neutonic-packs-powerful-productivity",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/neutonic-verkauft-produktivitat-in-der-dose/"
+    },
+    {
+      "title": "Konsolidierung im alkoholfreien Segment",
+      "date": "2026-06-24",
+      "created": "2026-06-24T23:38:05.130Z",
+      "slug": "konsolidierung-im-alkoholfreien-segment",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für nüchterne Getränke verlässt die Pionierphase und beginnt, sich nach Plattformlogik zu ordnen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/the-zero-proof-acquires-the-new-bar-for-on-premise-reach",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/konsolidierung-im-alkoholfreien-segment/"
+    },
+    {
+      "title": "Owl's Brew dreht vom Hard Soda zurück in die Mixer-Nische",
+      "date": "2026-06-24",
+      "created": "2026-06-24T23:37:39.387Z",
+      "slug": "owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische",
+      "rubrik": "hellmuth",
+      "lead": "Eine Marke, die im Februar mit Spiked Pop ins Alkoholregal ging, kehrt neun Monate später ohne Alkohol zurück.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/owls-brew-follows-hard-soda-debut-with-functional-na-mixers",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische/"
+    },
     {
       "title": "Ein Drittel der Briten trinkt weniger",
       "date": "2026-06-23",
@@ -718,6 +760,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wenn Zwang das Abstrahieren frisst",
+      "date": "2026-06-24",
+      "created": "2026-06-24T23:39:27.327Z",
+      "slug": "wenn-zwang-das-abstrahieren-frisst",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt die Grenze zwischen psychiatrischen Kategorien dorthin, wo Denken sich selbst beobachtet.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.17.26354096v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/wenn-zwang-das-abstrahieren-frisst/"
+    },
+    {
+      "title": "Bluttest sagt voraus, wer mit Alzheimer-Psychose schneller abbaut",
+      "date": "2026-06-24",
+      "created": "2026-06-24T23:39:10.336Z",
+      "slug": "bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv koppelt Plasma-Biomarker an den Verlauf jener Alzheimer-Variante, die mit Wahn und Halluzinationen einhergeht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.18.26355956v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut/"
+    },
+    {
+      "title": "Streuung als Frühwarnsignal bei Alzheimer",
+      "date": "2026-06-24",
+      "created": "2026-06-24T23:38:49.937Z",
+      "slug": "streuung-als-fruhwarnsignal-bei-alzheimer",
+      "rubrik": "science",
+      "lead": "Nicht das Defizit verrät die beginnende Demenz, sondern die Ungleichmäßigkeit der Leistung.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.21.26356195v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/streuung-als-fruhwarnsignal-bei-alzheimer/"
+    },
     {
       "title": "Serotonin und das starre Denken",
       "date": "2026-06-23",
