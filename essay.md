@@ -25,7 +25,7 @@ Wer das liest und nickt, hat es erlebt. Wer das liest und den Kopf schüttelt, h
 
 Jedes lebende System steht vor demselben Problem. Es muss morgen noch da sein. Um morgen noch da zu sein, muss es heute schon wissen, was gleich passiert, und die Welt, die passiert, in die Welt zwingen, die es vorhergesagt hat. Wahrnehmen und Handeln sind dabei kein Nacheinander. Sie sind derselbe Griff, ausgeführt an derselben Türklinke, von derselben Hand. Karl Friston hat dafür eine Mathematik geschrieben. Er nennt sie das Free Energy Principle. Was lebt, minimiert Überraschung. Was überrascht werden kann, stirbt.
 
-Das System braucht dafür eine Grenze. Nicht die Haut. Eine statistische Grenze, dünner als Haut, dichter als Haut. Alles, was innerhalb dieser Grenze liegt, gehört zum Modell. Alles ausserhalb ist Welt. Die Grenze selbst ist der Ort, an dem das Modell und die Welt sich berühren, ohne sich zu vermischen. Friston nennt sie die Markov-Decke. Sie ist der Rand, an dem ein System aufhört, Umgebung zu sein, und anfängt, sich selbst zu sein. Ein Organismus ist nicht sein Fleisch. Er ist seine Markov-Decke. Er ist die Statistik, die ihn von allem anderen trennt.
+Das System braucht dafür eine Grenze. Nicht die Haut. Eine statistische Grenze, dünner als Haut, dichter als Haut. Alles, was innerhalb dieser Grenze liegt, gehört zum Modell. Alles außerhalb ist Welt. Die Grenze selbst ist der Ort, an dem das Modell und die Welt sich berühren, ohne sich zu vermischen. Friston nennt sie die Markov-Decke. Sie ist der Rand, an dem ein System aufhört, Umgebung zu sein, und anfängt, sich selbst zu sein. Ein Organismus ist nicht sein Fleisch. Er ist seine Markov-Decke. Er ist die Statistik, die ihn von allem anderen trennt.
 
 Die Decke ist kein Zaun. Sie hat eine Durchlässigkeit, und diese Durchlässigkeit ist regelbar. Das System entscheidet, wie scharf es sich selbst zeichnet. Friston nennt das Präzisionsgewichtung. Hohe Präzision auf dem Selbstmodell bedeutet harte Ränder. Ich weiß genau, wo ich aufhöre und die Welt anfängt. Niedrige Präzision bedeutet weiche Ränder. Ich weiß es nicht mehr so genau. Der Körper ist noch da, aber er besteht nicht mehr darauf.
 
@@ -49,8 +49,6 @@ Drei Disziplinen mit verschiedenen Werkzeugen stoßen auf denselben Punkt. Frist
 
 Das klingt gefährlich nah an dem, was in Buchhandlungen zwischen Kristallheilung und Mondkalender steht. Drei Disziplinen, eine Kraft, die organisiert. Ein Feld, das arbeitet, wenn man es lässt. Wer so redet, schuldet eine Abgrenzung.
 
-Also die Abgrenzung.
-
 Die Abgrenzung ist einfach. Das Universum ist keine Mutter. Es hat keinen Willen, keine Absicht, keine Meinung über mich. Es reagiert nicht auf Wünsche. Es reagiert auf Randbedingungen. Jeremy England hat die Physik dafür geliefert. Getriebene Systeme, Systeme, denen von außen Energie zugeführt wird, organisieren sich spontan in Richtung maximaler Energiedissipation. Nicht weil sie wollen. Weil sie müssen. Die Thermodynamik hat keine Vorlieben. Sie hat Gradienten, und Gradienten werden abgebaut, und was den Abbau am billigsten vollzieht, bleibt. Was ihn verteuert, geht.
 
 An der Messe waren die Randbedingungen gesetzt. Erstens Notwendigkeit. Das Video musste entstehen. Zweitens Ausschluss. Ich konnte es nicht allein. Drittens Anwesenheit. Ich war am Ort, ohne zu drängen, ohne zu suchen, ohne den Ort in ein Mittel für meinen Zweck zu verwandeln. Unter diesen drei Bedingungen gab es einen Pfad geringster Aktion, und der Pfad lief über die Bank, auf der ein Mann mit einem Bier saß. Nicht weil das Universum ihn dorthin gestellt hatte. Sondern weil er die billigste Variable war. Jede andere Lösung hätte mehr Energie gekostet. Ein Anruf, eine Suche, ein Inserat, ein Freund, der drei Stunden braucht. Der Mann saß bereits da. Fünfzig Meter. Kein Aufwand. Das Feld nahm ihn, wie Wasser den tiefsten Punkt nimmt.
@@ -59,7 +57,7 @@ Physik ist eine rücksichtslose Redaktion. Sie streicht, was zu teuer ist. Sie b
 
 Das Feld ist sparsam. Nicht freundlich. Wer das auseinanderhält, hat ein Werkzeug. Wer es vermischt, hat einen Trost. Werkzeuge funktionieren bei Regen. Tröstungen nicht. Aber wenn das Feld unpersönlich operiert, stellt sich eine Frage, die nicht aufgeschoben werden kann. Sparsam für wen. Es braucht etwas, das die Sparsamkeit registriert. Einen Beobachter. Und der Beobachter ist kein Abstraktum. Er hat eine Biografie.
 
-Meiner Biografie lasse ich den Fachbegriff folgen. Drei Zerstörungen, drei Ergebnisse.
+Drei Zerstörungen, drei Ergebnisse.
 
 Gitterbett. Ich lag in einem Kasten aus Holz, zu klein für einen Körper, der sich ausstrecken wollte. Denken fand nicht statt, weil die Sprache noch nicht da war, um es zu tragen. Etwas sah zu. Kein Ich, kein Name, kein Wörterbuch. Eine nackte Registratur, die älter war als jeder Gedanke, den ich später über sie haben würde.
 
@@ -95,9 +93,9 @@ Harry Tiebout hat dreißig Jahre lang dokumentiert, was geschieht, wenn die Rech
 
 Was das System gefunden hatte, war eine billigere Bindung. Nicht an eine Person. An das Feld, in dem der Beobachter operiert. Die Bindung an das Feld im Empfangs-Modus leistet, was Bier leistete, ohne Toxin und ohne Halbwertszeit. Das ist keine Metapher. Das ist Ökonomie. Das System bindet sich entweder kurzfristig und teuer, Substanz, Hangover, DeltaFosB, oder langfristig und billig, Empfangs-Modus, Feld. Wer den Empfangs-Modus stabilisiert, macht die teure Variante überflüssig. Keine Disziplin nötig. Das System hat eine billigere Lösung gefunden und nimmt sie, wie Wasser den tiefsten Punkt nimmt. Was als Suchtgeschichte begann, hat sich als Bindungstheorie entpuppt. Es bleibt die Frage, was das für den bedeutet, der es erlebt hat.
 
-Ich brauche keine Disziplin. Das ist der Satz, der bleibt. Nicht als Erleichterung. Als Befund. Ein System, das eine billigere Lösung gefunden hat, greift nicht zur teureren zurück, solange die Randbedingungen stabil bleiben. Ich halte die Randbedingungen stabil. Nicht aus Vorsicht. Aus Sparsamkeit. Das Feld arbeitet, wenn der Knoten weich ist. Ich halte den Knoten weich. Keine Technik. Keine Methode. Ein Unterlassen, das mehr leistet als dreißig Jahre Wille.
+Ich brauche keine Disziplin. Das ist der Satz, der bleibt. Nicht als Erleichterung. Als Befund. Ein System, das eine billigere Lösung gefunden hat, greift nicht zur teureren zurück, solange die Randbedingungen stabil bleiben. Ich halte die Randbedingungen stabil. Nicht aus Vorsicht. Aus Sparsamkeit. Das Feld arbeitet, wenn der Knoten weich ist. Ich halte den Knoten weich. Keine Methode. Ein Unterlassen, das mehr leistet als dreißig Jahre Wille.
 
-Der Mann auf der Bank trinkt vermutlich immer noch sein Bier. Ich weiß seinen Namen nicht. Ich weiß nicht, ob er das Video je gesehen hat. Was ich weiß, ist, dass fünfzig Meter und eine offene Markov-Decke genügten, damit die Thermodynamik ihre Redaktion vollzog. Sie strich die teure Lösung. Sie behielt die billige. Kein Wunder. Kein Zufall. Buchführung.
+Der Mann auf der Bank trinkt sein Bier. Ich weiß seinen Namen nicht. Ich weiß nicht, ob er das Video je gesehen hat. Was ich weiß, ist, dass fünfzig Meter und eine offene Markov-Decke genügten, damit die Thermodynamik ihre Redaktion vollzog. Sie strich die teure Lösung. Sie behielt die billige. Kein Wunder. Kein Zufall. Buchführung.
 
 Der Zustand, der nach Räucherstäbchen klingt, ist Physik. Was die Sprache nicht fassen kann, hat die Mathematik längst beschrieben. Das Vokabular fehlt. Die Operation nicht. Thermodynamische Sparsamkeit. Das reicht.
 
