@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-24T23:39:27.360Z",
+  "generated": "2026-06-25T23:54:09.310Z",
   "hellmuth": [
+    {
+      "title": "Dirty Shirley räumt auf",
+      "date": "2026-06-25",
+      "created": "2026-06-25T23:49:14.856Z",
+      "slug": "dirty-shirley-raumt-auf",
+      "rubrik": "hellmuth",
+      "lead": "Eine Kindergetränk-Parodie wird zur RTD-Marke, und das sagt mehr über die Spirituosenbranche als über den Drink.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/adam-kost-on-how-dirty-shirley-cleaned-up",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/dirty-shirley-raumt-auf/"
+    },
+    {
+      "title": "Suntory verlegt Lieferketten näher an den britischen Markt",
+      "date": "2026-06-25",
+      "created": "2026-06-25T23:48:26.848Z",
+      "slug": "suntory-verlegt-lieferketten-naher-an-den-britischen-markt",
+      "rubrik": "hellmuth",
+      "lead": "Der japanische Getränkekonzern bindet 14,5 Millionen Pfund in seine britische Infrastruktur, weil die alte Logik des billigen Imports nicht mehr trägt.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/06/25/suntory-invests-145m-to-strengthen-uk-supply-chain/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/suntory-verlegt-lieferketten-naher-an-den-britischen-markt/"
+    },
     {
       "title": "Neutonic verkauft Produktivität in der Dose",
       "date": "2026-06-24",
@@ -760,6 +788,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Depression im Haar lesbar",
+      "date": "2026-06-25",
+      "created": "2026-06-25T23:54:09.276Z",
+      "slug": "depression-im-haar-lesbar",
+      "rubrik": "science",
+      "lead": "Ein Preprint sucht den Marker für Major Depression nicht im Blut, sondern in den ersten drei Zentimetern Kopfhaar.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355692v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-im-haar-lesbar/"
+    },
+    {
+      "title": "Bewegung teilt Gene mit Schizophrenie und Parkinson",
+      "date": "2026-06-25",
+      "created": "2026-06-25T23:53:49.295Z",
+      "slug": "bewegung-teilt-gene-mit-schizophrenie-und-parkinson",
+      "rubrik": "science",
+      "lead": "Körperliche Aktivität ist keine reine Lebensstilfrage, sondern hängt genetisch mit denselben Schaltkreisen zusammen, die bei Schizophrenie und Parkinson entgleisen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356304v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/bewegung-teilt-gene-mit-schizophrenie-und-parkinson/"
+    },
+    {
+      "title": "Das zweite Trimester schreibt sich in die Stimmung ein",
+      "date": "2026-06-25",
+      "created": "2026-06-25T23:53:33.483Z",
+      "slug": "das-zweite-trimester-schreibt-sich-in-die-stimmung-ein",
+      "rubrik": "science",
+      "lead": "Eine britische Langzeitkohorte verortet das Risiko für depressive Verläufe im Kindes- und Jugendalter zeitlich genauer als bisher.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356366v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/das-zweite-trimester-schreibt-sich-in-die-stimmung-ein/"
+    },
     {
       "title": "Wenn Zwang das Abstrahieren frisst",
       "date": "2026-06-24",
