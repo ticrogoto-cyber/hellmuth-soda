@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-25T23:54:09.310Z",
+  "generated": "2026-06-26T23:39:07.058Z",
   "hellmuth": [
+    {
+      "title": "Rockstar macht Mocktails, Four Loko wird Hanf, HOP WTR rührt Gurke in Limonade",
+      "date": "2026-06-26",
+      "created": "2026-06-26T23:38:15.561Z",
+      "slug": "rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Regal-Slot ist kein Nischengeschäft mehr, sondern ein Verdrängungsmarkt, in den die alten Rauschmarken selbst hineindrängen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-products-rockstar-mocktails-hot-girl-pickle-lemonade-and-more-na-creations",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade/"
+    },
+    {
+      "title": "Non-Alc wächst, aber nur noch im Trippelschritt",
+      "date": "2026-06-26",
+      "created": "2026-06-26T23:37:58.750Z",
+      "slug": "non-alc-wachst-aber-nur-noch-im-trippelschritt",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für alkoholfreie Getränke stagniert auf hohem Niveau, und das ist die eigentliche Nachricht.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/non-alc-beverage-sales-stay-stable-in-early-june",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/non-alc-wachst-aber-nur-noch-im-trippelschritt/"
+    },
+    {
+      "title": "Alkoholfreie Spirituosen suchen Asien",
+      "date": "2026-06-26",
+      "created": "2026-06-26T23:37:30.731Z",
+      "slug": "alkoholfreie-spirituosen-suchen-asien",
+      "rubrik": "hellmuth",
+      "lead": "Die deutsche Marke Undone verlegt ihren Wachstumshorizont in den pazifischen Raum und macht damit eine Verschiebung sichtbar, die Europa längst hinter sich glaubt.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/undone-asia-represents-one-of-the-most-exciting-opportunities-for-the-future-of-no-and-low-alcohol-drinking/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/alkoholfreie-spirituosen-suchen-asien/"
+    },
     {
       "title": "Dirty Shirley räumt auf",
       "date": "2026-06-25",
@@ -788,6 +830,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "PTEN trennt Wachstum und Erregbarkeit der Nervenzelle",
+      "date": "2026-06-26",
+      "created": "2026-06-26T23:39:07.023Z",
+      "slug": "pten-trennt-wachstum-und-erregbarkeit-der-nervenzelle",
+      "rubrik": "science",
+      "lead": "Ein Preprint zerlegt einen lange verknoteten Schaltkreis in zwei Stränge, die sich getrennt steuern lassen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733785v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/pten-trennt-wachstum-und-erregbarkeit-der-nervenzelle/"
+    },
+    {
+      "title": "Ultraschall im Stirnhirn verschiebt die Stimmung",
+      "date": "2026-06-26",
+      "created": "2026-06-26T23:38:51.608Z",
+      "slug": "ultraschall-im-stirnhirn-verschiebt-die-stimmung",
+      "rubrik": "science",
+      "lead": "Ein fokussierter Ultraschallstrahl auf den anterioren cingulären Cortex kippt Gefühlslagen, bevor irgendein Medikament greifen könnte.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.22.26356085v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ultraschall-im-stirnhirn-verschiebt-die-stimmung/"
+    },
+    {
+      "title": "Bipolare Störung altert im Blut messbar schneller",
+      "date": "2026-06-26",
+      "created": "2026-06-26T23:38:31.110Z",
+      "slug": "bipolare-storung-altert-im-blut-messbar-schneller",
+      "rubrik": "science",
+      "lead": "Sieben alterungsrelevante lncRNAs im peripheren Blut trennen Erkrankte, gesunde Geschwister und Kontrollen entlang einer Risikoachse.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355706v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/bipolare-storung-altert-im-blut-messbar-schneller/"
+    },
     {
       "title": "Depression im Haar lesbar",
       "date": "2026-06-25",
