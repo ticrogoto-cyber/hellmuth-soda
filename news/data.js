@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-26T23:39:07.058Z",
+  "generated": "2026-06-27T23:36:15.541Z",
   "hellmuth": [
+    {
+      "title": "Rockstar Energy baut den Mocktail zur Koffeinkapsel um",
+      "date": "2026-06-27",
+      "created": "2026-06-27T23:33:38.431Z",
+      "slug": "rockstar-energy-baut-den-mocktail-zur-koffeinkapsel-um",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Cocktail wird zum Trägermedium für Stimulanzien, und Deutschland ist das Testlabor.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/neue-wachstumskategorie-rockstar-energy-launcht-mocktails/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/rockstar-energy-baut-den-mocktail-zur-koffeinkapsel-um/"
+    },
     {
       "title": "Rockstar macht Mocktails, Four Loko wird Hanf, HOP WTR rührt Gurke in Limonade",
       "date": "2026-06-26",
@@ -830,6 +844,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Acetylcholin in der Amygdala hat einen Chef",
+      "date": "2026-06-27",
+      "created": "2026-06-27T23:36:15.508Z",
+      "slug": "acetylcholin-in-der-amygdala-hat-einen-chef",
+      "rubrik": "science",
+      "lead": "Die Mandelkerne entscheiden nicht selbst, wann ein Reiz Bedeutung bekommt; sie werden befehligt.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02353-6",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/acetylcholin-in-der-amygdala-hat-einen-chef/"
+    },
+    {
+      "title": "Wenn die Mikroglia altert, schweigt das Neuron",
+      "date": "2026-06-27",
+      "created": "2026-06-27T23:36:02.762Z",
+      "slug": "wenn-die-mikroglia-altert-schweigt-das-neuron",
+      "rubrik": "science",
+      "lead": "Eine gestresste Energieantwort in menschlichen Mikroglia kappt die Kommunikation mit Nervenzellen und treibt die Hirn-Immunzellen in Seneszenz.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02320-1",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/wenn-die-mikroglia-altert-schweigt-das-neuron/"
+    },
+    {
+      "title": "Dopamin sagt voraus, wer süchtig wird",
+      "date": "2026-06-27",
+      "created": "2026-06-27T23:35:49.964Z",
+      "slug": "dopamin-sagt-voraus-wer-suchtig-wird",
+      "rubrik": "science",
+      "lead": "Die Größe der konditionierten Dopaminantwort im Nucleus accumbens trennt Tiere, die später Drogen der natürlichen Belohnung vorziehen, von denen, die es nicht tun.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02331-y",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/dopamin-sagt-voraus-wer-suchtig-wird/"
+    },
     {
       "title": "PTEN trennt Wachstum und Erregbarkeit der Nervenzelle",
       "date": "2026-06-26",
