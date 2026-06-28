@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-27T23:36:15.541Z",
+  "generated": "2026-06-28T23:34:59.413Z",
   "hellmuth": [
     {
       "title": "Rockstar Energy baut den Mocktail zur Koffeinkapsel um",
@@ -844,6 +844,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Der vergessene Serotonin-Rezeptor",
+      "date": "2026-06-28",
+      "created": "2026-06-28T23:34:59.375Z",
+      "slug": "der-vergessene-serotonin-rezeptor",
+      "rubrik": "science",
+      "lead": "Während Pharma jahrzehntelang auf 5-HT1A und 5-HT2A starrte, rückt nun der Rezeptor in den Blick, der Herzklappen vernarben lässt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/cpt.70344",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-vergessene-serotonin-rezeptor/"
+    },
+    {
+      "title": "Europas Cannabis ist nicht mehr das von 1995",
+      "date": "2026-06-28",
+      "created": "2026-06-28T23:34:44.737Z",
+      "slug": "europas-cannabis-ist-nicht-mehr-das-von-1995",
+      "rubrik": "science",
+      "lead": "Eine Übersichtsarbeit in Frontiers in Psychiatry verknüpft steigende THC-Gehalte mit der psychiatrischen Last in europäischen Versorgungssystemen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3389/fpsyt.2026.1778831",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/europas-cannabis-ist-nicht-mehr-das-von-1995/"
+    },
+    {
+      "title": "Alkohol schreibt ins Chromatin, je nach Geschlecht verschieden",
+      "date": "2026-06-28",
+      "created": "2026-06-28T23:34:29.352Z",
+      "slug": "alkohol-schreibt-ins-chromatin-je-nach-geschlecht-verschieden",
+      "rubrik": "science",
+      "lead": "Eine Übersichtsarbeit zur Acetylierung im Gehirn ordnet Alkoholwirkung dort ein, wo Pharmakologen sie lange nicht suchten.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3390/genes17060637",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/alkohol-schreibt-ins-chromatin-je-nach-geschlecht-verschieden/"
+    },
     {
       "title": "Acetylcholin in der Amygdala hat einen Chef",
       "date": "2026-06-27",
