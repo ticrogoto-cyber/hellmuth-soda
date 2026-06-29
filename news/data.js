@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-28T23:34:59.413Z",
+  "generated": "2026-06-29T23:23:28.650Z",
   "hellmuth": [
+    {
+      "title": "Ingwer-Shots wechseln den Eigentümer",
+      "date": "2026-06-29",
+      "created": "2026-06-29T23:22:31.973Z",
+      "slug": "ingwer-shots-wechseln-den-eigentumer",
+      "rubrik": "hellmuth",
+      "lead": "Der Markt für funktionale Getränke konsolidiert sich nach oben, sobald die ersten Lieblinge der Bio-Regale zahlungsunfähig werden.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/nach-insolvenz-rauch-uebernimmt-kloster-kitchen/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/ingwer-shots-wechseln-den-eigentumer/"
+    },
+    {
+      "title": "Tealive zieht aus dem Becher in den Kühlschrank",
+      "date": "2026-06-29",
+      "created": "2026-06-29T23:20:57.104Z",
+      "slug": "tealive-zieht-aus-dem-becher-in-den-kuhlschrank",
+      "rubrik": "hellmuth",
+      "lead": "Die malaysische Bubble-Tea-Kette koppelt sich an einen Molkereiriesen, um an der Theke vorbeizuziehen.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/06/29/tealive-and-dutch-lady-partner-to-bring-cafe-inspired-rtd-dairy-beverages-to-more-malaysians-nationwide/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/tealive-zieht-aus-dem-becher-in-den-kuhlschrank/"
+    },
+    {
+      "title": "Elton Johns alkoholfreier Schaumwein führt den UK-Premiummarkt",
+      "date": "2026-06-29",
+      "created": "2026-06-29T23:19:54.448Z",
+      "slug": "elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt",
+      "rubrik": "hellmuth",
+      "lead": "Der nüchterne Schaumwein des Sängers ist nach eigener Auskunft die meistverkaufte Premium-Null-Prozent-Marke Großbritanniens.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/06/elton-john-celebrates-his-best-selling-0-sparkling/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt/"
+    },
     {
       "title": "Rockstar Energy baut den Mocktail zur Koffeinkapsel um",
       "date": "2026-06-27",
@@ -844,6 +886,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Kognition als Struktur schlägt Kognition als Punktzahl",
+      "date": "2026-06-29",
+      "created": "2026-06-29T23:23:28.610Z",
+      "slug": "kognition-als-struktur-schlagt-kognition-als-punktzahl",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der COBRE-Kohorte deutet an, dass die Architektur kognitiver Defizite bei Schizophrenie mehr über Alltagsfunktion verrät als die Summe ihrer Testwerte.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356524v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kognition-als-struktur-schlagt-kognition-als-punktzahl/"
+    },
+    {
+      "title": "Selbstverletzung im EEG",
+      "date": "2026-06-29",
+      "created": "2026-06-29T23:23:11.851Z",
+      "slug": "selbstverletzung-im-eeg",
+      "rubrik": "science",
+      "lead": "Ein Preprint will adoleszente Selbstverletzung an Hirnstromsignaturen erkennen, bevor jemand danach fragt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356351v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/selbstverletzung-im-eeg/"
+    },
+    {
+      "title": "Tiefe Hirnstimulation bekommt ein Messgerät",
+      "date": "2026-06-29",
+      "created": "2026-06-29T23:22:50.243Z",
+      "slug": "tiefe-hirnstimulation-bekommt-ein-messgerat",
+      "rubrik": "science",
+      "lead": "Bei therapieresistenter Depression entscheidet bislang Versuch und Irrtum, wo die Elektrode optimal feuert; ein Preprint auf medRxiv schlägt vor, stattdessen das Echo des Gehirns selbst zu lesen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356607v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/tiefe-hirnstimulation-bekommt-ein-messgerat/"
+    },
     {
       "title": "Der vergessene Serotonin-Rezeptor",
       "date": "2026-06-28",
