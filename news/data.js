@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-29T23:23:28.650Z",
+  "generated": "2026-06-30T23:45:03.161Z",
   "hellmuth": [
+    {
+      "title": "Zwei Hersteller für Tokios Sommergetränk",
+      "date": "2026-06-30",
+      "created": "2026-06-30T23:44:12.720Z",
+      "slug": "zwei-hersteller-fur-tokios-sommergetrank",
+      "rubrik": "hellmuth",
+      "lead": "Mugicha, das ungesüßte Gerstengebräu, das Japan im Sommer literweise trinkt, wird in der Hauptstadt nur noch von zwei Betrieben produziert.",
+      "source_name": "SoraNews24 Food",
+      "source_url": "https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zwei-hersteller-fur-tokios-sommergetrank/"
+    },
+    {
+      "title": "Amass setzt auf Sparkling Protein und Hanf",
+      "date": "2026-06-30",
+      "created": "2026-06-30T23:42:16.580Z",
+      "slug": "amass-setzt-auf-sparkling-protein-und-hanf",
+      "rubrik": "hellmuth",
+      "lead": "Der kalifornische Nüchtern-Spezialist sortiert sein Portfolio neu und folgt damit der Bewegung des Marktes weg vom reinen Anti-Alkohol-Versprechen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/amass-brands-expands-taps-into-sparkling-protein-hemp-trends",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/amass-setzt-auf-sparkling-protein-und-hanf/"
+    },
+    {
+      "title": "Wie Mingle in die Whole-Foods-Regale kam",
+      "date": "2026-06-30",
+      "created": "2026-06-30T23:41:35.727Z",
+      "slug": "wie-mingle-in-die-whole-foods-regale-kam",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Cocktail ist im US-Naturkosthandel keine Nische mehr, sondern eine eigene Kategorie mit eigenem Einkäufer.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/how-mingle-mocktails-won-with-whole-foods",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/wie-mingle-in-die-whole-foods-regale-kam/"
+    },
     {
       "title": "Ingwer-Shots wechseln den Eigentümer",
       "date": "2026-06-29",
@@ -886,6 +928,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wenn das Gehirn die Welt für instabiler hält, als sie ist",
+      "date": "2026-06-30",
+      "created": "2026-06-30T23:45:03.121Z",
+      "slug": "wenn-das-gehirn-die-welt-fur-instabiler-halt-als-sie-ist",
+      "rubrik": "science",
+      "lead": "Junge Menschen mit psychotischen Symptomen verrechnen Umweltschwankungen anders, und zwar unabhängig vom Alter.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.24.26356447v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-das-gehirn-die-welt-fur-instabiler-halt-als-sie-ist/"
+    },
+    {
+      "title": "Wer forensisch sitzt, sitzt nicht wegen der Tat",
+      "date": "2026-06-30",
+      "created": "2026-06-30T23:44:46.920Z",
+      "slug": "wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat",
+      "rubrik": "science",
+      "lead": "Eine retrospektive Studie aus Nordisrael verschiebt das Gewicht von der Straftat auf die Biografie.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356525v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat/"
+    },
+    {
+      "title": "Ein Ionenkanal als Verdächtiger für das Arbeitsgedächtnis bei Schizophrenie",
+      "date": "2026-06-30",
+      "created": "2026-06-30T23:44:30.875Z",
+      "slug": "ein-ionenkanal-als-verdachtiger-fur-das-arbeitsgedachtnis-bei-schizophrenie",
+      "rubrik": "science",
+      "lead": "Ein Preprint legt nahe, dass spezifische Ionenkanal-Gene das Arbeitsgedächtnisdefizit bei Schizophrenie mechanistisch erklären könnten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.24.26356367v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-ionenkanal-als-verdachtiger-fur-das-arbeitsgedachtnis-bei-schizophrenie/"
+    },
     {
       "title": "Kognition als Struktur schlägt Kognition als Punktzahl",
       "date": "2026-06-29",
