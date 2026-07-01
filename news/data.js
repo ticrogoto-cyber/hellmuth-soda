@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-06-30T23:45:03.161Z",
+  "generated": "2026-07-01T23:53:30.335Z",
   "hellmuth": [
+    {
+      "title": "MiXery streicht Alkohol und Zucker aus dem Biermisch",
+      "date": "2026-07-01",
+      "created": "2026-07-01T23:52:22.801Z",
+      "slug": "mixery-streicht-alkohol-und-zucker-aus-dem-biermisch",
+      "rubrik": "hellmuth",
+      "lead": "Die Biermischmarke, die Cola und Energydrink ins Bier kippte, entfernt beides, was den Rausch trug.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/mixery-erweitert-sortiment-um-zwei-alkoholfreie-neuheiten-mit-00-alkohol-und-0-g-zucker/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/mixery-streicht-alkohol-und-zucker-aus-dem-biermisch/"
+    },
+    {
+      "title": "Chinese Elixir als Supermarkt-SKU",
+      "date": "2026-07-01",
+      "created": "2026-07-01T23:50:04.433Z",
+      "slug": "chinese-elixir-als-supermarkt-sku",
+      "rubrik": "hellmuth",
+      "lead": "Der TCM-Sud verlässt die Großmutterküche und landet als Limited Edition im Kühlregal.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/02/unlock-your-inner-radiance-with-nutriwells-limited-edition-freshly-brewed-longan-red-dates-with-wolfberry/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/chinese-elixir-als-supermarkt-sku/"
+    },
+    {
+      "title": "Zu viele Käufer, zu wenige RTD-Marken",
+      "date": "2026-07-01",
+      "created": "2026-07-01T23:49:13.287Z",
+      "slug": "zu-viele-kaufer-zu-wenige-rtd-marken",
+      "rubrik": "hellmuth",
+      "lead": "Der Markt für fertig gemixte Dosendrinks kippt vom Wachstumsspiel in ein Verteilungsspiel.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/ma-activity-for-scaled-rtd-brands-expected-to-ramp-up",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zu-viele-kaufer-zu-wenige-rtd-marken/"
+    },
     {
       "title": "Zwei Hersteller für Tokios Sommergetränk",
       "date": "2026-06-30",
@@ -928,6 +970,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Vier Kohorten, ein Datensatz, bescheidene Effekte",
+      "date": "2026-07-01",
+      "created": "2026-07-01T23:53:30.303Z",
+      "slug": "vier-kohorten-ein-datensatz-bescheidene-effekte",
+      "rubrik": "science",
+      "lead": "Ein Preprint bündelt vier Bildgebungs-Kohorten zu Angst und Depression und findet vor allem eines: dass die Signale klein bleiben, selbst wenn man die Stichprobe vergrößert.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.732748v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/vier-kohorten-ein-datensatz-bescheidene-effekte/"
+    },
+    {
+      "title": "Der Hippocampus zählt mit",
+      "date": "2026-07-01",
+      "created": "2026-07-01T23:53:14.187Z",
+      "slug": "der-hippocampus-zahlt-mit",
+      "rubrik": "science",
+      "lead": "Dopamin im Hippocampus reagiert nicht auf Süße, sondern auf Nährstoffe, und drosselt anschließend die Nahrungsaufnahme.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734911v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/der-hippocampus-zahlt-mit/"
+    },
+    {
+      "title": "Nach der Manie kippt jeder Vierte binnen vier Wochen",
+      "date": "2026-07-01",
+      "created": "2026-07-01T23:52:51.208Z",
+      "slug": "nach-der-manie-kippt-jeder-vierte-binnen-vier-wochen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der NeuroBlu-Kohorte datiert das Risikofenster für den Umschlag von Manie in Depression präziser, als es die klinische Faustregel bislang zuließ.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.29.26356830v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nach-der-manie-kippt-jeder-vierte-binnen-vier-wochen/"
+    },
     {
       "title": "Wenn das Gehirn die Welt für instabiler hält, als sie ist",
       "date": "2026-06-30",
