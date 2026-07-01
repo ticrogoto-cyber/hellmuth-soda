@@ -6,10 +6,22 @@ slug: "silvester-angriffe-auf-rettungskrafte-in-berlin-und-leipzig"
 rubrik: "nova"
 source_url: "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1517844.php"
 source_name: "Polizei Berlin"
-lead: "In der Silvesternacht 2024/2025 wurden in Berlin 430 Personen festgenommen und 37 Polizeibeamte verletzt — in Leipzig mussten Feuerwehr und Polizei vor massivem Pyrotechnik-Beschuss taktisch zurückweichen."
+lead: "Die koordinierte Gewalt gegen Rettungskräfte in der Silvesternacht erzwingt den taktischen Rückzug kombinierter Feuerwehr-Polizei-Einheiten — ein struktureller Bruch im staatlichen Gewaltmonopol, der durch seine jährliche Wiederkehr zur erwartbaren Anomalie geworden ist."
 relevance: 8
 ort: "Berlin und Leipzig"
 press_review: false
 ---
 
-Die Silvesternacht 2024/2025 markiert einen erneuten Eskalationspunkt gezielter Gewalt gegen Einsatzkräfte. In Berlin wurden 430 Personen festgenommen, 37 Polizeibeamte verletzt — 14 durch Pyrotechnik — und rund 670 Ermittlungsverfahren eingeleitet. In Leipzig-Grünau waren die Angriffe auf Feuerwehrleute mit Feuerwerkskörpern so massiv, dass Feuerwehr und Polizeiunterstützungskräfte taktisch zurückweichen mussten. In Leipzig-Connewitz wurden Barrikaden errichtet und ein Wasserwerfer eingesetzt. Die strukturelle Anomalie liegt in der systemischen, mehrstädtischen, zeitlich synchronisierten Gewalt gegen uniformierte Rettungskräfte. Die Verwendung von Feuerwerk als improvisierte Waffe gegen Einsatzkräfte bei lebensrettenden Tätigkeiten stellt ein jährlich wiederkehrendes Muster dar, das in dieser Nacht eine besondere Intensität erreichte. Der erzwungene taktische Rückzug kombinierter Feuerwehr-Polizei-Einheiten ist strukturell extrem.
+*Die Silvesternacht als wiederkehrendes Schlachtfeld, auf dem der Staat seine Ordnungsfunktion temporär verliert.*
+
+Die Silvesternacht 2024/2025 markiert einen Eskalationspunkt, dessen strukturelle Bedeutung nicht in der Gewalt selbst liegt, sondern in ihrer Vorhersehbarkeit. Berlin und Leipzig erlebten gleichzeitig — mehrstädtisch, zeitlich synchronisiert — massive Angriffe auf Rettungskräfte, die in ihrer Intensität das Muster der Vorjahre übertrafen, ohne von diesem Muster abzuweichen. Die Anomalie ist die Normalisierung.
+
+In Berlin wurden 430 Personen festgenommen, 37 Polizeibeamte verletzt — vierzehn davon durch Pyrotechnik — und rund 670 Ermittlungsverfahren eingeleitet. Die Zahlen dokumentieren eine Gewaltdichte, die den Rahmen individueller Delikte sprengt und auf ein kollektives Phänomen verweist, das weder durch Einzeltäterprofile noch durch situative Eskalationsmodelle hinreichend erklärt werden kann.
+
+In Leipzig-Grünau erreichten die Angriffe auf Feuerwehrleute mit Feuerwerkskörpern eine Intensität, die Feuerwehr und Polizeiunterstützungskräfte zum taktischen Rückzug zwang. Dieser Rückzug ist strukturell außergewöhnlich: Wenn staatliche Einsatzkräfte — ausgestattet mit Schutzausrüstung und Befehlsketten — vor improvisiertem Beschuss weichen müssen, offenbart sich ein temporärer Zusammenbruch des Gewaltmonopols, der über die bloße Gefährdung einzelner Beamter hinausgeht. In Leipzig-Connewitz wurden Barrikaden errichtet; der Einsatz eines Wasserwerfers wurde notwendig. Die Topografie der Gewalt erstreckte sich über zwei Stadtviertel mit unterschiedlichen sozialstrukturellen Profilen, was eine Reduktion auf milieuspezifische Erklärungen erschwert.
+
+Die Verwendung von Feuerwerk als improvisierte Waffe gegen Einsatzkräfte bei lebensrettenden Tätigkeiten stellt kriminologisch eine Zweckentfremdung dar, die den Charakter des Angriffs verändert: Der Angreifer zielt nicht auf einen Gegner, sondern auf denjenigen, der ihm im Notfall helfen würde. Diese Inversion der Rettungsbeziehung — der Retter als Ziel — untergräbt die Grundannahme des Rettungswesens, dass der Hilfeleistende zumindest nicht aktiv bekämpft wird.
+
+Die Tatsache, dass die Gewalt gegen Rettungskräfte an Silvester als »jährlich wiederkehrendes Muster« klassifiziert werden kann, ist die eigentliche diagnostische Aussage. Ein Phänomen, das sich kalenderfest reproduziert und sich zugleich weder als organisierte Kriminalität noch als politisch motivierte Gewalt noch als spontane Ausschreitung vollständig erfassen lässt, operiert in einer kriminologischen Grauzone — planvoll genug für Koordination, diffus genug gegen Prävention. Die 670 Ermittlungsverfahren allein in Berlin werden größtenteils im Sande verlaufen, nicht aus Nachlässigkeit, sondern weil die Beweislage bei nächtlichen Massenansammlungen strukturell gegen die Aufklärung arbeitet. Die einzige Institution, die an Silvester zuverlässig funktioniert, ist die Gewalt selbst.
+
+Der Staat räumt an Silvester Terrain, das er am Neujahrsmorgen zurückfordert — und nennt diesen Zyklus Normalität.
