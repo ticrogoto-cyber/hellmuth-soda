@@ -26,6 +26,10 @@ const MODELS = {
 };
 const TRANSFORM_EFFORT = process.env.TRANSFORM_EFFORT || 'medium'; // low|medium|high|xhigh|max
 
+// Nova-Pipeline: eigene Modellkette für die Stiltransformation.
+// Primär claude-opus-4-6, Fallback auf neuere Versionen falls nicht verfügbar.
+const NOVA_TRANSFORM_MODELS = ['claude-opus-4-6', 'claude-opus-4-7', 'claude-opus-4-8'];
+
 const client = new Anthropic({ maxRetries: 4 }); // SDK-Backoff für 429/5xx/Verbindungsfehler
 
 // House-Style einmalig laden: vollständige claude.md + Newsroom-Zusatzregel.
@@ -293,13 +297,36 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
     'Schreibe die Kurzmeldung in eigenen Worten gemäß Hausordnung und Newsroom-Regel. ' +
     'Gib nur das JSON-Objekt zurück.';
 
-  const msg = await client.messages.create({
-    model: MODELS.transform,
-    max_tokens: 2000,
-    system,
-    messages: [{ role: 'user', content: user }],
-    output_config: { effort: TRANSFORM_EFFORT },
-  });
+  let msg;
+  if (rubrik === 'nova') {
+    for (const model of NOVA_TRANSFORM_MODELS) {
+      try {
+        msg = await client.messages.create({
+          model,
+          max_tokens: 2000,
+          system,
+          messages: [{ role: 'user', content: user }],
+          output_config: { effort: TRANSFORM_EFFORT },
+        });
+        log.info(`Nova-Transform: Modell ${model} verwendet.`);
+        break;
+      } catch (err) {
+        const isModelError =
+          err.status === 404 ||
+          /not.found|deprecated|unavailable|does.not.exist|invalid.model/i.test(err.message);
+        if (!isModelError || model === NOVA_TRANSFORM_MODELS.at(-1)) throw err;
+        log.warn(`Nova-Transform: ${model} nicht verfügbar (${err.message}), Fallback auf nächstes Modell.`);
+      }
+    }
+  } else {
+    msg = await client.messages.create({
+      model: MODELS.transform,
+      max_tokens: 2000,
+      system,
+      messages: [{ role: 'user', content: user }],
+      output_config: { effort: TRANSFORM_EFFORT },
+    });
+  }
   logUsage(`transform(${rubrik})`, msg.usage);
   const out = parseJsonObject(firstText(msg));
   return {
@@ -309,4 +336,4 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
   };
 }
 
-export const modelInfo = { ...MODELS, transformEffort: TRANSFORM_EFFORT };
+export const modelInfo = { ...MODELS, transformEffort: TRANSFORM_EFFORT, novaTransformChain: NOVA_TRANSFORM_MODELS };
