@@ -143,10 +143,14 @@ function prevNextHtml(nav) {
   return `\n      <nav class="news-prevnext" aria-label="Weitere Einträge">\n        ${prev}\n        ${next}\n      </nav>`;
 }
 
+function inlineMarkdown(text) {
+  return esc(text).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+
 function detailHtml(rec, nav) {
   const bodyHtml = String(rec.body || '')
     .split(/\n{2,}/)
-    .map((p) => `<p>${esc(p)}</p>`)
+    .map((p) => `<p>${inlineMarkdown(p)}</p>`)
     .join('\n        ');
   const readTime = readingLabel(readingMinutes(rec.body));
   return `<!doctype html>
@@ -194,6 +198,7 @@ ${seoHead(rec)}
       <div class="news-body">
         ${bodyHtml}
       </div>
+      <hr class="nova-source-rule" />
       <p class="news-source">Quelle: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a></p>${prevNextHtml(nav)}
       <p class="news-back"><a href="../">← Alle Einträge</a></p>
     </article>

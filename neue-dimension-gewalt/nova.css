@@ -142,6 +142,13 @@
 .nova-detail .news-body p { margin: 0 0 0.9rem; }
 .nova-detail .news-lead { font-style: italic; }
 
+/* Source rule */
+hr.nova-source-rule {
+  border: none;
+  border-top: 1px solid #d0d0d0;
+  margin: 2rem 0 0.8rem;
+}
+
 /* Responsive: stack on small screens */
 @media (max-width: 640px) {
   .nova-main { padding: 1.2rem 1rem 3rem; }
