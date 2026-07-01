@@ -50,6 +50,14 @@ const THEME_VOCAB = {
     "Markenstrategien im Beverage-Sektor, biografisches Branding, Authentizität versus KI-generierte Marken, D2C-Modelle, Community-basierte Skalierung, Limited Editions, Collector's Culture, Chi Forest / Genki Forest, Liquid Death, Olipop.",
     'Wettbewerb: Energy Drinks (Red Bull, Monster), Bio-Limonaden (Bionade, Fritz-Kola, Lemonaid), Functional Sodas (Olipop, Poppi), Premium-Mixer (Fever-Tree, Three Cents, Thomas Henry), Vitaminwässer (Vitamin Well, HOLY).',
   ].join('\n\n'),
+  nova: [
+    'Strukturell anomale Gewaltkriminalität in Deutschland seit 2022/2023. Tötungsdelikte, schwere Körperverletzung, Messerangriffe, Gruppengewalt in öffentlichen Räumen.',
+    'Tatstrukturen: Gewalt an belebten Plätzen bei Tageslicht, Gewalt gegen Rettungskräfte/Einsatzkräfte, gratuitärer Exzess (Filmen, Wiederholung, Verstümmelung), Wahllosigkeit der Opferwahl, psychiatrische Unbegreiflichkeit.',
+    'Systemisches Versagen: behördenbekannte Täter, Bewährungsversagen, gescheiterte Abschiebungen mit Folgetaten, Unterbringungsversagen (Psychiatrie, Maßregelvollzug), Justizversagen, Polizeiversagen.',
+    'Kriminologische Kategorien: Anomie, Kontrollverlust im öffentlichen Raum, Verrohung, Schwellenverschiebung, Nachahmungseffekte, Desensibilisierung, Enthemmung.',
+    'Tatmittel: Messer, Machete, Axt, Schusswaffen, Fahrzeuge als Waffe, Brand, Säure. Tatorttypen: ÖPNV, Bahnhöfe, Volksfeste, Schulen, Krankenhäuser, Parks, Fußgängerzonen.',
+    'Polizeiliche Kriminalstatistik (PKS), Dunkelfeldbefragungen, Viktimisierungssurveys, kriminologische Lagebilder, BKA-Berichte.',
+  ].join('\n\n'),
   science: [
     'Substanzabhängigkeit, Nikotin, Alkohol, Cannabis, MDMA, Koffein, Zucker als Suchtmechanismus, Polytoxikomanie, Entzug, Toleranz, Kindling, Remission, Abstinenz.',
     'Pharmakologie, Dopamin, Serotonin, Nucleus accumbens, Acetylcholin, Adenosin, GABA, Glutamat, Opioidrezeptoren, Endocannabinoid-System.',
@@ -137,7 +145,24 @@ export async function scoreRelevance({ rubrik, title, summary, sourceName }) {
     'Gastronomie-Meldung ohne Produktdimension.\n' +
     '0-2: Themenfremd oder reines Marketing.';
 
-  const anchors = rubrik === 'hellmuth' ? anchorsHellmuth : anchorsScience;
+  const anchorsNova =
+    'Du bewertest eine Meldung für eine kriminologisch-phänomenologische Chronik ' +
+    'strukturell anomaler Gewaltkriminalität in Deutschland.\n\n' +
+    'Bewerte auf einer Skala von 0–10 den Grad der strukturellen Anomalie:\n' +
+    '10: Historisch ohne jedes Vorbild. Sprengt alle kriminologischen Kategorien.\n' +
+    '9: Extrem anomal. Kombination mehrerer Anomalie-Faktoren.\n' +
+    '8: Hochgradig anomal. Tatstruktur wäre vor 20 Jahren undenkbar gewesen.\n' +
+    '7: Deutlich anomal. Klare strukturelle Abweichung vom historischen Muster.\n' +
+    '6: Bemerkenswert ungewöhnlich, aber mit gewissen historischen Vorläufern.\n' +
+    '5 und darunter: Konventionelle Kriminalität, egal wie schwer. ABLEHNEN.\n\n' +
+    'Gewichte: Anomalie der Methode, Diskrepanz Täterprofil/Tat, Öffentlichkeit des Tatorts, ' +
+    'gratuitärer Exzess, historische Beispiellosigkeit, psychiatrische Unbegreiflichkeit, ' +
+    'systemisches Versagen.\n' +
+    'Gewichte NICHT: Opferzahl allein, Prominenz, Medienpräsenz, Herkunft des Täters.\n\n' +
+    'WICHTIG: Demographische Variablen (Herkunft, Nationalität, Ethnie) sind KEINE ' +
+    'Bewertungskriterien und werden NICHT erfasst.';
+
+  const anchors = rubrik === 'nova' ? anchorsNova : rubrik === 'hellmuth' ? anchorsHellmuth : anchorsScience;
 
   const system = [
     {
@@ -229,7 +254,22 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
   const lengthRule =
     rubrik === 'science'
       ? 'Rubrik Forschung: genau 5 Sätze im body.'
-      : 'Rubrik HELLMUTH: 5 bis 15 Sätze im body.';
+      : rubrik === 'nova'
+        ? 'Rubrik Nova (kriminologische Chronik): 5 bis 15 Sätze im body (500 Wörter ± 150, maximal 800).'
+        : 'Rubrik HELLMUTH: 5 bis 15 Sätze im body.';
+  const novaNote = rubrik === 'nova'
+    ? '\nKONTEXT: Kriminologisch-phänomenologische Chronik strukturell anomaler ' +
+      'Gewaltkriminalität in Deutschland. Der Ton ist analytisch-diagnostisch. ' +
+      'Die Einordnung erfolgt über die Tatstruktur, nicht über die Person.\n' +
+      'VERBOTEN: Angaben zur Herkunft, Nationalität oder Ethnie des Täters. ' +
+      'Klarnamen von Opfern. Klarnamen von Tätern (außer bei rechtskräftiger ' +
+      'Verurteilung UND breiter öffentlicher Bekanntheit). Gratuitäre Details ' +
+      'über die kriminologische Einordnung hinaus.\n' +
+      'ARTIKELAUFBAU: 1) Überschrift (kein Doppelpunkt). 2) Lead = ein Satz, ' +
+      'der die strukturelle Anomalie benennt. 3) Body = Sachverhalt + kriminologische ' +
+      'Einordnung + Kontextualisierung der strukturellen Anomalie, dann Aphorismus-Closer ' +
+      'als eigener Absatz. Der erste Satz des Body ist Diagnose: Was macht die Tatstruktur anomal?'
+    : '';
   const headlineNote = headlineOnly
     ? '\nPressespiegel: nur Titel und frei zugänglicher Anriss liegen vor. Keine Volltext-Rekonstruktion, keine erfundenen Details oder Zahlen, die Paywall NICHT erwähnen. Gleiche Mindestqualität und volle Rubrik-Länge wie sonst. Wenn Titel und Anriss keine fünf substanziellen Sätze mit eigener Einordnung tragen, gib einen leeren body zurück (das Item wird dann verworfen). Lieber nichts als ein dünner Zweisätzer.'
     : '';
@@ -245,7 +285,7 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
     },
   ];
   const user =
-    `Rubrik: ${rubrik}\n${lengthRule}${headlineNote}${preprintNote}\n\n` +
+    `Rubrik: ${rubrik}\n${lengthRule}${novaNote}${headlineNote}${preprintNote}\n\n` +
     `Quelle: ${sourceName || ''}\n` +
     `Original-URL (nur Kontext, nicht in den Text schreiben): ${sourceUrl || ''}\n` +
     `Original-Titel: ${title || ''}\n` +

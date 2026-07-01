@@ -1,0 +1,112 @@
+name: Nova-Pipeline (Kriminologische Chronik)
+
+on:
+  schedule:
+    - cron: "47 22 * * *"
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "Max. neue Items pro Lauf"
+        default: "5"
+      dry_run:
+        description: "Dry-Run (nichts schreiben)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nova-pipeline-write
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      - name: Cron-Gate
+        id: check
+        env:
+          ENABLED: ${{ vars.NOVA_CRON_ENABLED }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "${EVENT}" = "schedule" ] && [ "${ENABLED}" != "true" ]; then
+            MSG="Scheduled run SKIPPED — NOVA_CRON_ENABLED=${ENABLED:-unset} (set the repo variable NOVA_CRON_ENABLED=true to enable)"
+            echo "::warning::${MSG}"
+            {
+              echo "### Cron skipped"
+              echo ""
+              echo "${MSG}"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Run proceeds (event=${EVENT}, NOVA_CRON_ENABLED=${ENABLED:-unset})" >> "$GITHUB_STEP_SUMMARY"
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  nova:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Dependencies installieren
+        working-directory: pipeline
+        run: npm install --no-audit --no-fund
+
+      - name: Pipeline-Lauf
+        working-directory: pipeline
+        shell: bash
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
+          RELEVANCE_THRESHOLD: "7"
+          MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '5' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '0' }}
+        run: |
+          set -eo pipefail
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            MSG="ANTHROPIC_API_KEY missing — set the repo secret"
+            echo "::error::${MSG}"
+            {
+              echo "### Nova-Pipeline aborted"
+              echo ""
+              echo "${MSG}"
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          node run-nova.mjs | tee "$GITHUB_STEP_SUMMARY"
+
+      - name: Änderungen committen
+        shell: bash
+        run: |
+          set -eo pipefail
+          git config user.name "hellmuth-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/nova neue-dimension-gewalt pipeline/state/seen-nova.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git commit -m "Nova: automatischer Lauf ($(date -u +%F))"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:${{ github.ref_name }}; then
+              echo "Gepusht (Versuch $attempt)."
+              exit 0
+            fi
+            echo "Push abgelehnt, rebase und erneut (Versuch $attempt)."
+            git pull --rebase --autostash origin ${{ github.ref_name }}
+          done
+          echo "::error::Push nach 5 Versuchen fehlgeschlagen."
+          exit 1
