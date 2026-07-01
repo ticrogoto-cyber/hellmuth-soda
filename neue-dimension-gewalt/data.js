@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-01T21:39:05.110Z",
+  "generated": "2026-07-01T22:59:14.448Z",
   "items": [
     {
       "title": "Freibad-Räumung nach Eskalation in Bochum-Werne",

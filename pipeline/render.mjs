@@ -1070,6 +1070,12 @@ function buildBildgebung() {
  * Baut data.js und alle Detailseiten aus dem Markdown-Bestand neu.
  * @returns {{counts:{hellmuth:number, science:number}}}
  */
+export function rebuildSitemap() {
+  const all = readAll();
+  const substances = readSubstances();
+  writeFileSync(join(ROOT, 'sitemap.xml'), buildSitemapXml(all, substances), 'utf8');
+}
+
 export function build() {
   const all = readAll();
   for (const rubrik of RUBRIKEN) {

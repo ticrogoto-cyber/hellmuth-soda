@@ -7,6 +7,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { slug, isoDate } from './lib/util.mjs';
+import { rebuildSitemap } from './render.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -284,6 +285,8 @@ export function build() {
   mkdirSync(PAGE_DIR, { recursive: true });
   writeFileSync(join(PAGE_DIR, 'data.js'), dataJs(all), 'utf8');
   writeFileSync(join(PAGE_DIR, 'feed.xml'), rssFeed(all), 'utf8');
+
+  rebuildSitemap();
 
   return { count: all.length };
 }
