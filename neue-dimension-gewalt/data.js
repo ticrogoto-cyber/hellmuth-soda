@@ -1,7 +1,20 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-01T23:38:10.132Z",
+  "generated": "2026-07-01T23:54:58.811Z",
   "items": [
+    {
+      "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
+      "date": "2026-06-30",
+      "created": "2026-07-01T22:35:00.000Z",
+      "slug": "einzeltater-verletzt-dreizehn-polizisten-in-berlin-prenzlauer-berg",
+      "lead": "Ein Einzeltäter in Badehose verletzte bei einer Auseinandersetzung in Prenzlauer Berg dreizehn Polizisten und wurde in eine psychiatrische Einrichtung eingewiesen, womit der Fall die Schnittstelle zwischen Gefahrenabwehr und strafrechtlicher Folgenlosigkeit bei psychisch bedingter Gewalt exponiert.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/berlin/taser-angedroht-mann-randaliert-in-prenzlauer-berg-13-polizisten-verletzt-15778943.html",
+      "ort": "Berlin-Prenzlauer Berg",
+      "relevance": 7,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/einzeltater-verletzt-dreizehn-polizisten-in-berlin-prenzlauer-berg/"
+    },
     {
       "title": "Freibad-Räumung nach Eskalation in Bochum-Werne",
       "date": "2026-06-24",
@@ -92,6 +105,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/arzt-in-darmstadter-klinikum-bewusstlos-geschlagen/"
+    },
+    {
+      "title": "Dreizehnjähriger schlägt Rentner auf Essener Spielplatz tot",
+      "date": "2025-11-03",
+      "created": "2026-07-01T22:42:00.000Z",
+      "slug": "dreizehnjahriger-schlagt-rentner-auf-essener-spielplatz-tot",
+      "lead": "Die tödliche Gewalt eines Dreizehnjährigen gegen einen 80-jährigen Rentner auf einem Spielplatz, gefolgt von der Übergabe des Täters an die Eltern als maximaler staatlicher Reaktion, legt die absolute Grenze des Strafrechts bei Tötungsdelikten durch strafunmündige Kinder frei.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/polizei-ermittelt-81-jaehriger-stirbt-nach-mutmasslichem-angriff-durch-jugendliche-auf-spielplatz-15110459.html",
+      "ort": "Essen, Nordrhein-Westfalen",
+      "relevance": 8,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/dreizehnjahriger-schlagt-rentner-auf-essener-spielplatz-tot/"
     },
     {
       "title": "Fahrzeug-Angriff auf Kirmes-Besucher in Niederdorla",
@@ -833,6 +859,32 @@ window.NOVA_DATA =
       "relevance": 9,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-im-regionalzug-bei-brokstedt/"
+    },
+    {
+      "title": "Erschießung eines Tankstellenkassierers wegen Maskenpflicht in Idar-Oberstein",
+      "date": "2021-09-18",
+      "created": "2026-07-01T22:30:00.000Z",
+      "slug": "erschiessung-eines-tankstellenkassierers-wegen-maskenpflicht-in-idar-oberstein",
+      "lead": "Die gezielte Tötung eines 20-jährigen Kassierers, weil er auf die gesetzliche Maskenpflicht hinwies, markiert den einzigen dokumentierten Fall in Deutschland, in dem die Durchsetzung einer Pandemieverordnung zum Tatmotiv eines Tötungsdelikts wurde.",
+      "source_name": "Rhein-Zeitung",
+      "source_url": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/tankstellenmord-von-idar-oberstein-urteil-ist-nun-rechtskraeftig_arid-2491579.html",
+      "ort": "Idar-Oberstein, Rheinland-Pfalz",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/erschiessung-eines-tankstellenkassierers-wegen-maskenpflicht-in-idar-oberstein/"
+    },
+    {
+      "title": "Gruppenvergewaltigung im Hamburger Stadtpark",
+      "date": "2020-09-19",
+      "created": "2026-07-01T22:40:00.000Z",
+      "slug": "gruppenvergewaltigung-im-hamburger-stadtpark",
+      "lead": "Die Gruppenvergewaltigung einer 15-Jährigen durch neun jugendliche Täter, die das Geschehen filmten und die Aufnahmen anschließend löschten, exponiert den Systemkonflikt zwischen der Schwere sexualisierter Gruppengewalt und der erzieherischen Logik des Jugendstrafrechts.",
+      "source_name": "Bundesgerichtshof",
+      "source_url": "https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2025/2025093.html",
+      "ort": "Hamburg",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/gruppenvergewaltigung-im-hamburger-stadtpark/"
     }
   ]
 }
