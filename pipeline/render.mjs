@@ -35,6 +35,7 @@ const STATIC_PAGES = [
   { path: '/vokabular/', changefreq: 'monthly', priority: '0.8' },
   { path: '/zutaten/', changefreq: 'weekly', priority: '0.9' },
   { path: '/zutaten/bildgebung/', changefreq: 'weekly', priority: '0.9' },
+  { path: '/neue-dimension-gewalt/', changefreq: 'daily', priority: '0.7' },
 ];
 
 // Designvariante der generierten Detailseiten:
@@ -159,6 +160,18 @@ function readSubstances() {
 
 // ---- Sitemap (statische Seiten immer mit heutigem lastmod, News je Item) ---
 
+function readNovaItems() {
+  const novaDir = join(ROOT, 'content', 'nova');
+  if (!existsSync(novaDir)) return [];
+  const items = [];
+  for (const f of readdirSync(novaDir)) {
+    if (!f.endsWith('.md')) continue;
+    const rec = parse(readFileSync(join(novaDir, f), 'utf8'));
+    if (rec && rec.title && rec.slug) items.push(rec);
+  }
+  return items;
+}
+
 function buildSitemapXml(all, substances = []) {
   // Statische Seiten: bei jedem Lauf mit heutigem lastmod neu erzeugen, damit
   // Google ein frisches Crawl-Signal sieht und die Werte nicht eingefroren
@@ -185,7 +198,12 @@ function buildSitemapXml(all, substances = []) {
       );
     }
   }
-  const all2 = [...staticBlocks, ...substanceBlocks, ...newsBlocks].map((b) => '  ' + b).join('\n');
+  const novaItems = readNovaItems();
+  const novaBlocks = novaItems.map((rec) => {
+    const lastmod = String(rec.created || rec.date).slice(0, 10);
+    return `<url>\n    <loc>${SITE}/neue-dimension-gewalt/${rec.slug}/</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>`;
+  });
+  const all2 = [...staticBlocks, ...substanceBlocks, ...newsBlocks, ...novaBlocks].map((b) => '  ' + b).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${all2}\n</urlset>\n`;
 }
 
@@ -1052,6 +1070,12 @@ function buildBildgebung() {
  * Baut data.js und alle Detailseiten aus dem Markdown-Bestand neu.
  * @returns {{counts:{hellmuth:number, science:number}}}
  */
+export function rebuildSitemap() {
+  const all = readAll();
+  const substances = readSubstances();
+  writeFileSync(join(ROOT, 'sitemap.xml'), buildSitemapXml(all, substances), 'utf8');
+}
+
 export function build() {
   const all = readAll();
   for (const rubrik of RUBRIKEN) {

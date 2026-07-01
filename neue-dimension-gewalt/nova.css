@@ -1,0 +1,165 @@
+/* Nova — Kriminologische Chronik (tabellarisches Layout) */
+
+.nova-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.nova-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+/* Methodischer Vorspann */
+.nova-preface {
+  border-left: 3px solid #999;
+  padding: 0.8rem 1.2rem;
+  margin: 0 0 2rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: #555;
+}
+.nova-preface p { margin: 0; }
+
+.nova-count {
+  font-size: 0.78rem;
+  color: #888;
+  margin: 0 0 0.8rem;
+}
+
+/* Tabelle */
+.nova-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.nova-table thead {
+  border-bottom: 2px solid #222;
+}
+
+.nova-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.5rem 0.6rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+.nova-table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: top;
+}
+
+.nova-table tbody tr {
+  transition: background-color 0.12s;
+}
+
+.nova-table tbody tr:hover {
+  background: #f7f7f7;
+}
+
+.nova-th-date { width: 7rem; }
+.nova-th-ort { width: 8rem; }
+.nova-th-score { width: 3.5rem; text-align: center; }
+
+.nova-td-score {
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: #888;
+}
+
+.nova-td-title a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.nova-td-title a:hover {
+  border-bottom-color: #222;
+}
+
+.nova-td-date {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: #888;
+  font-size: 0.82rem;
+}
+
+.nova-td-ort {
+  color: #666;
+  font-size: 0.82rem;
+}
+
+/* Pagination */
+.nova-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  margin: 2rem 0 0;
+  flex-wrap: wrap;
+}
+
+.nova-pagination button {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #333;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.nova-pagination button:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+}
+
+.nova-pagination button[aria-current="page"] {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+  cursor: default;
+}
+
+.nova-pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* Detail page */
+.nova-detail .news-body p { margin: 0 0 0.9rem; }
+.nova-detail .news-lead { font-style: italic; }
+
+/* Source rule */
+hr.nova-source-rule {
+  border: none;
+  border-top: 1px solid #d0d0d0;
+  margin: 2rem 0 0.8rem;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 640px) {
+  .nova-main { padding: 1.2rem 1rem 3rem; }
+  .nova-title { font-size: 1.3rem; }
+  .nova-preface { font-size: 0.78rem; padding: 0.6rem 0.8rem; }
+
+  .nova-table { font-size: 0.8rem; }
+  .nova-th-ort,
+  .nova-td-ort { display: none; }
+  .nova-th-date { width: 5.5rem; }
+  .nova-th-score { width: 2.8rem; }
+  .nova-table th { font-size: 0.68rem; padding: 0.4rem; }
+  .nova-table td { padding: 0.45rem 0.4rem; }
+}
