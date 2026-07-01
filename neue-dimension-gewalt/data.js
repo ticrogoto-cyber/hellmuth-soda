@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-01T23:54:58.811Z",
+  "generated": "2026-07-01T23:56:53.608Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -105,6 +105,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/arzt-in-darmstadter-klinikum-bewusstlos-geschlagen/"
+    },
+    {
+      "title": "Machetenangriff auf Kioskbetreiber durch Dreizehnjährige in Dortmund",
+      "date": "2025-11-29",
+      "created": "2026-07-01T23:00:00.000Z",
+      "slug": "machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund",
+      "lead": "Zwei Dreizehnjährige überfielen einen Kioskbetreiber mit Machete, Pfefferspray und Schusswaffe, trennten ihm den Daumen ab und blieben strafrechtlich folgenlos, weil das Waffenarsenal das Strafmündigkeitsalter nicht verschiebt.",
+      "source_name": "t-online",
+      "source_url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html",
+      "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund/"
     },
     {
       "title": "Dreizehnjähriger schlägt Rentner auf Essener Spielplatz tot",
