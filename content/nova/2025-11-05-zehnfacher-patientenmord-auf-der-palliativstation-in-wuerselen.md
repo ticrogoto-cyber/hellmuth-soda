@@ -10,7 +10,7 @@ lead: "Ein Krankenpfleger tötete zwischen Dezember 2023 und Mai 2024 zehn Patie
 relevance: 10
 ort: "Würselen, Nordrhein-Westfalen"
 press_review: false
-merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Wiederholungsabsicht"]}
 ---
 
 *Die Todesfälle fielen erst auf, als der Pfleger in den Urlaub ging. Vorher galten sie als Palliativmedizin.*

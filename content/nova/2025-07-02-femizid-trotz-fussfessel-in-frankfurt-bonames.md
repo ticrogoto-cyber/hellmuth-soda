@@ -10,7 +10,7 @@ lead: "Die GPS-Fußfessel lief neun Tage vor dem Tötungsdelikt durch Erreichen 
 relevance: 8
 ort: "Frankfurt-Bonames, Hessen"
 press_review: false
-merkmale: {"tatmittel": "Messer", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "gescheiterte Unterbringung", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Messer", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Neun Tage zwischen dem Ablauf der GPS-Fußfessel und dem Tötungsdelikt. Ein Schutzinstrument, das sein eigenes Verfallsdatum nicht überlebt.*
