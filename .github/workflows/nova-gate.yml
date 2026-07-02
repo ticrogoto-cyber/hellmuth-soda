@@ -1,0 +1,49 @@
+name: Nova-Gate setzen
+
+# Verwaltungs-Workflow: setzt die Repo-Variable NOVA_CRON_ENABLED
+# (Cron-Gate der Nova-Pipeline) per API und verifiziert den Wert.
+
+on:
+  workflow_dispatch:
+    inputs:
+      enabled:
+        description: "Wert für NOVA_CRON_ENABLED"
+        default: "true"
+
+permissions:
+  actions: write
+
+jobs:
+  set:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Variable setzen und verifizieren
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALUE: ${{ inputs.enabled }}
+        run: |
+          set -e
+          api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/variables"
+          code=$(curl -s -o /tmp/resp -w '%{http_code}' -X PATCH \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "${api}/NOVA_CRON_ENABLED" \
+            -d "{\"name\":\"NOVA_CRON_ENABLED\",\"value\":\"${VALUE}\"}")
+          if [ "$code" = "404" ]; then
+            code=$(curl -s -o /tmp/resp -w '%{http_code}' -X POST \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "${api}" \
+              -d "{\"name\":\"NOVA_CRON_ENABLED\",\"value\":\"${VALUE}\"}")
+          fi
+          echo "Schreib-Status: HTTP ${code}"
+          cat /tmp/resp
+          if [ "$code" != "204" ] && [ "$code" != "201" ]; then
+            echo "::error::Variable konnte nicht gesetzt werden (HTTP ${code})"
+            exit 1
+          fi
+          echo "### NOVA_CRON_ENABLED" >> "$GITHUB_STEP_SUMMARY"
+          curl -s -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "${api}/NOVA_CRON_ENABLED" | tee -a "$GITHUB_STEP_SUMMARY"
