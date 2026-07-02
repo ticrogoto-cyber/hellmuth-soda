@@ -19,7 +19,7 @@ Am Abend des 27. Mai 2023, gegen 21:45 Uhr, feuerte ein 48-jähriger Mann mit ei
 
 Die Vorgeschichte war dokumentiert, aber nicht als das erkannt worden, was sie war. Über Monate hatte der Täter seine Nachbarn mit rassistischen Beschimpfungen und Drohungen belästigt. In einer WhatsApp-Gruppe schrieb er, gegen das »Ungeziefer« im Haus helfe nicht die Polizei, sondern »der Kammerjäger«. Mehrere Meldungen an die Polizei und die Wohnungsgesellschaft blieben ohne wirksame Konsequenz. Die Vorfälle wurden als Nachbarschaftsstreit kategorisiert.
 
-Die Durchsuchung der Wohnung des Täters nach dem Schuss offenbarte die ideologische Grundlage. Die Beamten fanden einen Dolch mit SS-Runen, ein Hitlerporträt, Material des Ku-Klux-Klan und der NPD sowie weitere Schusswaffen. Die Sammlung zeichnete das Bild eines Menschen, dessen Gewalthaltung keine spontane Eskalation war, sondern einem geschlossenen rechtsextremen Weltbild entsprang.
+Die Durchsuchung der Wohnung des Täters nach dem Schuss offenbarte die ideologische Grundlage. Die Beamten fanden einen Dolch mit SS-Runen, ein Hitlerporträt, Material des Ku-Klux-Klan und der NPD sowie weitere Schusswaffen. Die Sammlung zeichnete das Bild eines Menschen, dessen Gewalthaltung einem geschlossenen rechtsextremen Weltbild entsprang.
 
 Im Dezember 2023 verurteilte das Landgericht Hamburg den Angeklagten zu sieben Jahren Freiheitsstrafe wegen versuchten Mordes und Waffendelikten. Das Gericht erkannte ausdrücklich den antimuslimischen Rassismus als Tatmotiv an. Der Vorsitzende Richter kritisierte, dass der Angeklagte seine Tat und seine Ideologie bis zuletzt bagatellisiert habe. Der Bundesgerichtshof erklärte das Urteil für rechtskräftig.
 
