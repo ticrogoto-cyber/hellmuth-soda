@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T00:50:31.811Z",
+  "generated": "2026-07-02T00:56:48.359Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -510,6 +510,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/bewaffnete-massenschlagerei-in-mockrehna/"
     },
     {
+      "title": "Systematische Gefangenenmisshandlung in der JVA Augsburg-Gablingen",
+      "date": "2024-10-24",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "systematische-gefangenenmisshandlung-in-der-jva-augsburg-gablingen",
+      "lead": "Die stellvertretende Leiterin der JVA Augsburg-Gablingen etablierte über 22 Monate ein systematisches Misshandlungsregime mit 131 dokumentierten Fällen von rechtswidriger Isolierung, Körperverletzung und Nötigung durch die Sicherungsabteilung, wobei die Razzia am 24. Oktober 2024 den seltenen Fall einer Institution offenlegte, die selbst zum Tatort organisierter staatlicher Gewalt wurde.",
+      "source_name": "Bayerisches Staatsministerium der Justiz",
+      "source_url": "https://www.justiz.bayern.de/presse-und-medien/pressemitteilungen/archiv/2024/156.php",
+      "ort": "Augsburg-Gablingen, Bayern",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-in-der-jva-augsburg-gablingen/"
+    },
+    {
       "title": "Messerangriff mit Selbstjustiz-Verfolgung in Duisburg",
       "date": "2024-10-24",
       "created": "2026-07-01T20:14:30.528Z",
@@ -586,6 +599,19 @@ window.NOVA_DATA =
       "relevance": 9,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-dem-solinger-stadtfest/"
+    },
+    {
+      "title": "Geiselnahme und Massenausbruch aus der Forensik Straubing",
+      "date": "2024-08-17",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "geiselnahme-und-massenausbruch-aus-der-forensik-straubing",
+      "lead": "Vier Straftäter überwältigten und misshandelten einen Mitarbeiter des geschlossenen Bezirkskrankenhauses Straubing, bedrohten ihn mit einer Scherbe am Hals und flohen aus der forensischen Psychiatrie, wobei zwei erst Wochen später in Österreich und der Türkei gefasst wurden und der Fall die grundlegende Sicherheitsarchitektur forensischer Kliniken in Frage stellte.",
+      "source_name": "inFranken",
+      "source_url": "https://www.infranken.de/bayern/anklage-geiselnahme-bezirkskrankenhaus-flucht-psychatrie-straubing-sicherheitskonzepte-therapie-straftaeter-art-5910006",
+      "ort": "Straubing, Bayern",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/geiselnahme-und-massenausbruch-aus-der-forensik-straubing/"
     },
     {
       "title": "Massenschlägerei mit improvisierten Waffen bei Hochzeit in Schleswig",
@@ -822,6 +848,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/gewalt-in-der-notaufnahme-des-sana-klinikums-berlin/"
     },
     {
+      "title": "Koordinierte Anschlagsserie auf Synagogen in Nordrhein-Westfalen",
+      "date": "2023-11-17",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "koordinierte-anschlagsserie-auf-synagogen-in-nordrhein-westfalen",
+      "lead": "In einer einzigen Nacht wurden Synagogen und jüdische Einrichtungen in Essen, Bochum und Dortmund durch Schüsse und Brandanschläge attackiert, wobei die koordinierte Mehrstadt-Serie mit Hinweisen auf eine mögliche ausländische staatliche Steuerung eine neue Eskalationsstufe antisemitischer Gewalt in Deutschland nach dem 7. Oktober 2023 markierte.",
+      "source_name": "Jüdische Allgemeine",
+      "source_url": "https://www.juedische-allgemeine.de/juedische-welt/brandanschlag-synagoge-dortmund/",
+      "ort": "Essen, Bochum, Dortmund, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/koordinierte-anschlagsserie-auf-synagogen-in-nordrhein-westfalen/"
+    },
+    {
       "title": "Tötung eines Obdachlosen am Luisenplatz in Darmstadt",
       "date": "2023-11-15",
       "created": "2026-07-02T02:00:00.000Z",
@@ -1017,6 +1056,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/messerangriff-im-regionalzug-bei-brokstedt/"
     },
     {
+      "title": "Tötung einer Lehrerin am Berufskolleg in Ibbenbüren",
+      "date": "2023-01-10",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "toetung-einer-lehrerin-am-berufskolleg-in-ibbenbueren",
+      "lead": "Ein 17-jähriger Schüler erstach seine 55-jährige Klassenlehrerin am Tag eines disziplinarischen Schulverweises, wobei die Tat eine strukturelle Lücke offenlegte: Zwischen der Verhängung schulischer Disziplinarmaßnahmen und dem potenziellen Eskalationsrisiko bei vulnerablen Schülern existierte kein Sicherheitsprotokoll.",
+      "source_name": "News4Teachers",
+      "source_url": "https://www.news4teachers.de/2023/01/lehrerin-erstochen-richter-schickt-17-jaehrigen-schueler-wegen-des-verdachts-auf-totschlag-in-untersuchungshaft/",
+      "ort": "Ibbenbüren, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toetung-einer-lehrerin-am-berufskolleg-in-ibbenbueren/"
+    },
+    {
       "title": "Silvester-Hinterhalte auf Einsatzkräfte in Berlin",
       "date": "2022-12-31",
       "created": "2026-07-02T01:30:00.000Z",
@@ -1028,6 +1080,58 @@ window.NOVA_DATA =
       "relevance": 9,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-hinterhalte-auf-einsatzkraefte-in-berlin/"
+    },
+    {
+      "title": "Tödlicher Polizeieinsatz gegen suizidalen Sechzehnjährigen in Dortmund",
+      "date": "2022-08-08",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "toedlicher-polizeieinsatz-gegen-suizidalen-sechzehnjaehrigen-in-dortmund",
+      "lead": "Zwölf Polizeibeamte erschossen einen 16-Jährigen in einer psychischen Krise mit sechs Schüssen aus Maschinenpistolen, nachdem ein Taser-Einsatz wirkungslos geblieben war, wobei der Fall die strukturelle Abwesenheit spezialisierter Kriseninterventionsteams für psychisch erkrankte Personen im deutschen Polizeisystem offenlegte.",
+      "source_name": "ZDF heute",
+      "source_url": "https://www.zdf.de/nachrichten/panorama/kriminalitaet/dortmund-polizei-schuesse-jugendlicher-100.html",
+      "ort": "Dortmund, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toedlicher-polizeieinsatz-gegen-suizidalen-sechzehnjaehrigen-in-dortmund/"
+    },
+    {
+      "title": "Amokfahrt auf dem Kurfürstendamm in Berlin",
+      "date": "2022-06-08",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "amokfahrt-auf-dem-kurfuerstendamm-in-berlin",
+      "lead": "Ein 29-Jähriger steuerte seinen Kleinwagen am Berliner Kurfürstendamm mit hoher Geschwindigkeit in eine Gruppe von Schülern und Passanten, tötete eine Lehrerin und verletzte über 30 Menschen, wobei die Tat die prinzipielle Unabwehrbarkeit von Fahrzeugangriffen in nicht durch Poller geschützten Fußgängerbereichen demonstrierte.",
+      "source_name": "Der Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/berlin/tote-und-verletzte-am-ku-damm-in-berlin-auto-faehrt-in-menschengruppe-8321694.html",
+      "ort": "Berlin-Charlottenburg",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/amokfahrt-auf-dem-kurfuerstendamm-in-berlin/"
+    },
+    {
+      "title": "Doppeltötung zweier Polizeibeamter bei nächtlicher Kontrolle in Kusel",
+      "date": "2022-01-31",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "doppeltoetung-zweier-polizeibeamter-bei-naechtlicher-kontrolle-in-kusel",
+      "lead": "Ein Wilderer erschoss in der Nacht auf einer abgelegenen Kreisstraße im Landkreis Kusel zwei Polizeibeamte durch gezielte Kopfschüsse, um Wildereidelikte zu verbergen, wobei die Tat die systemischen Defizite bei nächtlichen Einzelkontrollen in ländlichen Gebieten und die fehlende Einsatzabsicherung für Zwei-Personen-Streifen offenlegte.",
+      "source_name": "Bundesgerichtshof",
+      "source_url": "https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2023/2023122.html",
+      "ort": "Kusel, Rheinland-Pfalz",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/doppeltoetung-zweier-polizeibeamter-bei-naechtlicher-kontrolle-in-kusel/"
+    },
+    {
+      "title": "Amoklauf im Hörsaal der Universität Heidelberg",
+      "date": "2022-01-24",
+      "created": "2026-07-02T02:30:00.000Z",
+      "slug": "amoklauf-im-hoersaal-der-universitaet-heidelberg",
+      "lead": "Ein 18-jähriger Student eröffnete mit zwei legal erworbenen Waffen das Feuer in einem Hörsaal der Universität Heidelberg, tötete eine Studentin und verletzte drei weitere Personen, wobei der legale Erwerb zweier Schusswaffen durch einen psychisch auffälligen jungen Mann ohne vorherige behördliche Intervention die Kontrollmechanismen des Waffenrechts in Frage stellte.",
+      "source_name": "SWR",
+      "source_url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/amoklauf-uni-heidelberg-100.html",
+      "ort": "Heidelberg, Baden-Württemberg",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/amoklauf-im-hoersaal-der-universitaet-heidelberg/"
     },
     {
       "title": "Erschießung eines Tankstellenkassierers wegen Maskenpflicht in Idar-Oberstein",
