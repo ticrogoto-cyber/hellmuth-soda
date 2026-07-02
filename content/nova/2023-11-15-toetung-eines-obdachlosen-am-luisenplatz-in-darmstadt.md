@@ -23,6 +23,6 @@ Die Tat selbst folgte einem Muster, das in der Kriminologie als obdachlosenfeind
 
 Darmstadt war in diesem Muster nicht der extremste Fall, aber der am gründlichsten dokumentierte. Die Überwachungskamera am Luisenplatz zeichnete jeden einzelnen Tritt auf. Die Bilder erlaubten dem Gericht eine Tatrekonstruktion von ungewöhnlicher Präzision. Was sie nicht erlaubten, war eine Intervention. Die Kamera überwachte, aber sie schützte nicht. Kein Passant griff ein. Kein Alarmprotokoll wurde ausgelöst. Die Bushaltestelle, an der ein Mensch schlief, weil er keine andere Option hatte, war technisch überwacht und physisch ungeschützt.
 
-Die Frage, die der Fall aufwirft, betrifft nicht den Täter allein. Sie betrifft die Distanz zwischen einer Mietvertragskündigung und einer Bushaltestelle um zwei Uhr nachts. In einem Sozialsystem, das diese Distanz in 14 Tagen überbrückt, ist der Schlafplatz unter freiem Himmel kein Versagen des Einzelnen, sondern eine Lücke im System, die der Gewalt den Raum gibt, den sie braucht.
+Die Frage, die der Fall aufwirft, betrifft nicht den Täter allein. Sie betrifft die Distanz zwischen einer Mietvertragskündigung und einer Bushaltestelle um zwei Uhr nachts. In einem Sozialsystem, das diese Distanz in 14 Tagen überbrückt, ist der Schlafplatz unter freiem Himmel eine Lücke im System, die der Gewalt den Raum gibt, den sie braucht.
 
 Eine Stadt, die ihre Bushaltestellen filmt, aber nicht sichert, dokumentiert Verbrechen. Sie verhindert sie nicht.
