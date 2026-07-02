@@ -13,7 +13,7 @@ press_review: false
 merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
-*Nicht Verzweiflung, nicht Fehlbehandlung, sondern Wartezeit löste den koordinierten Angriff auf medizinisches Personal aus. Ein Fall von Anspruchsgewalt im geschützten Behandlungsraum.*
+*Eine bloße Wartezeit, weder Verzweiflung noch Fehlbehandlung, löste den koordinierten Angriff auf medizinisches Personal aus. Ein Fall von Anspruchsgewalt im geschützten Behandlungsraum.*
 
 Die Attacke auf einen Arzt und eine Krankenschwester in der Notaufnahme des Sana-Klinikums in Berlin-Lichtenberg in der Silvesternacht stellt eine Eskalationsdynamik dar, die sich von der Mehrzahl dokumentierter Gewaltfälle in Notaufnahmen qualitativ unterscheidet. Zwei Brüder hatten die Notaufnahme aufgesucht, weil einer von ihnen eine Schnittwunde an der Hand erlitten hatte, eine Bagatellverletzung ohne Lebensgefahr. Als ihnen die Wartezeit zu lang erschien, attackierten sie den behandelnden Arzt und eine Krankenschwester. Der Arzt erlitt eine blutende Kopfwunde, die Krankenschwester wurde durch einen Faustschlag bewusstlos geschlagen und erlitt eine Gehirnerschütterung.
 

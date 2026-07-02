@@ -14,7 +14,7 @@ press_review: false
 merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Sonstiges", "betroffene": "Mehrere Gruppen", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
-*Ein Richter, der nicht schreiben kann, und ein Vergewaltiger, der gehen darf. Zwischen beiden liegt keine Lücke, sondern ein System.*
+*Ein Richter, der nicht schreiben kann, und ein Vergewaltiger, der gehen darf. Zwischen beiden liegt ein System.*
 
 Im November 2024 wurde ein Mann aus der Untersuchungshaft entlassen, der vom Berliner Landgericht wegen mehrfacher Vergewaltigung zu sieben Jahren und neun Monaten Freiheitsstrafe verurteilt worden war. Die Grundlage der Freilassung war keine Revision in der Sache, sondern ein Verfahrensfehler. Der vorsitzende Richter hatte das Hauptverhandlungsprotokoll und die schriftliche Urteilsbegründung nicht innerhalb der gesetzlich vorgeschriebenen Frist von vier Monaten fertiggestellt. Der Verteidiger legte Beschwerde ein, der Haftbefehl wurde aufgehoben.
 
@@ -22,8 +22,8 @@ Die Ursache des Fristversäumnisses war keine Überlastung im üblichen Sinne. D
 
 Das Opfer wurde nach der Freilassung unter Polizeischutz gestellt. Die Gewerkschaft der Polizei sprach von einem »Justizversagen, das kein Einzelfall ist«. Die DPolG verwies auf hohe Geschäftsbelastung, unbesetzte Richterstellen, lange Verfahrensdauern und unzureichend digitalisierte Abläufe als strukturelle Ursachen dafür, dass die Justiz ihre eigenen Fristen nicht einhalten kann. Berlin hatte zum Zeitpunkt des Vorfalls eine Vakanzquote bei Richterstellen, die über dem Bundesdurchschnitt lag.
 
-Das Problem ist nicht die Frist selbst. Die Viertmonatsfrist für die Urteilsfertigung dient dem Schutz des Angeklagten vor unverhältnismäßig langer Untersuchungshaft. Sie ist ein rechtsstaatliches Instrument, das in der Mehrheit der Fälle seine Funktion erfüllt. Das Problem entsteht, wenn die Justiz personell so ausgedünnt ist, dass sie rechtsstaatliche Fristen nicht einhalten kann und deren Nichteinhaltung zur Freilassung verurteilter Gewalttäter führt. Die Frist schützt dann nicht den Angeklagten vor dem Staat, sondern den Täter vor den Konsequenzen seiner Tat.
+Die Viertmonatsfrist für die Urteilsfertigung dient dem Schutz des Angeklagten vor unverhältnismäßig langer Untersuchungshaft. Sie ist ein rechtsstaatliches Instrument, das in der Mehrheit der Fälle seine Funktion erfüllt. Das Problem entsteht, wenn die Justiz personell so ausgedünnt ist, dass sie rechtsstaatliche Fristen nicht einhalten kann und deren Nichteinhaltung zur Freilassung verurteilter Gewalttäter führt. Aus dem Schutz des Angeklagten vor dem Staat wird dann der Schutz des Täters vor den Konsequenzen seiner Tat.
 
 Der Berliner Fall steht in einer Reihe mit dem Fuldaer Verständigungsdeal, bei dem vier Gruppenvergewaltiger Bewährungsstrafen erhielten, und dem Eiskeller-Freispruch, bei dem ein Angeklagter zwei Jahre unschuldig saß. Alle drei Fälle zeigen unterschiedliche Varianten desselben Grundproblems. Eine Justiz, die unter chronischem Ressourcenmangel operiert, produziert Ergebnisse, die das Vertrauen in ihre Schutzfunktion untergraben.
 
-Wenn ein Richter nicht schreiben kann und deshalb ein Vergewaltiger gehen muss, hat nicht der Richter versagt. Es hat das System versagt, das einen Richter allein ließ, bis sein Versagen zum Verfahrensfehler wurde.
+Wenn ein Richter nicht schreiben kann und deshalb ein Vergewaltiger gehen muss, hat das System versagt, das einen Richter allein ließ, bis sein Versagen zum Verfahrensfehler wurde.

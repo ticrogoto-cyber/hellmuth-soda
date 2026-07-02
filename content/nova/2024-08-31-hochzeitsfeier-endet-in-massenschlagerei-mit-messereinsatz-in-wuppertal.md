@@ -15,7 +15,7 @@ merkmale: {"tatmittel": "Messer", "tatkontext": "Sonstiges", "betroffene": "Eins
 
 *Eine Hochzeitsfeier, bei der die Polizei einen Taser gegen einen Messerangreifer einsetzen muss, hat die Grenze dessen überschritten, was Einsatzplanung als zivile Feierlichkeit kalkuliert.*
 
-Wenn fünf Polizeibeamte durch Schläge, Tritte und Bisse verletzt werden, während sie eine Hochzeitsfeier auflösen, liegt die Anomalie nicht in der Gewalt selbst, sondern in der Kontextverschiebung. Am 31. August 2024 eskalierte in einem Restaurant in der Elberfelder Blankstraße in Wuppertal eine Hochzeitsfeier zu einer Massenschlägerei mit rund 60 Beteiligten, an deren Ende ein 23-Jähriger Polizisten mit einem Messer bedrohte und erst durch den Einsatz eines Tasers entwaffnet werden konnte.
+Wenn fünf Polizeibeamte durch Schläge, Tritte und Bisse verletzt werden, während sie eine Hochzeitsfeier auflösen, liegt die Anomalie in der Kontextverschiebung, nicht in der Gewalt selbst. Am 31. August 2024 eskalierte in einem Restaurant in der Elberfelder Blankstraße in Wuppertal eine Hochzeitsfeier zu einer Massenschlägerei mit rund 60 Beteiligten, an deren Ende ein 23-Jähriger Polizisten mit einem Messer bedrohte und erst durch den Einsatz eines Tasers entwaffnet werden konnte.
 
 Die Dynamik dieses Falls beschreibt einen Eskalationspfad, der sich von vergleichbaren Einsatzlagen qualitativ unterscheidet. Die Polizei wurde zu einer Situation gerufen, die im Einsatzprotokoll als Ruhestörung oder allenfalls als Körperverletzung bei einer privaten Veranstaltung kategorisiert werden würde. Was sie vorfand, erforderte den Einsatz von Distanzelektroimpulsgeräten, eine Maßnahme, die üblicherweise Szenarien vorbehalten ist, in denen unmittelbare Gefahr für Leib und Leben besteht. Der Sprung von der Einsatzkategorie »Ruhestörung« zur Einsatzkategorie »bewaffneter Angriff auf Polizeibeamte« vollzog sich innerhalb desselben Vorfalls, ohne Vorwarnung und ohne die taktische Vorbereitung, die ein solches Szenario erfordern würde.
 
@@ -25,4 +25,4 @@ Während die Gewalt im Innenraum des Restaurants eskalierte, flohen Frauen und K
 
 Der Fall wirft eine Frage auf, die über den Einzelvorfall hinausreicht, nämlich wie man Einsatzprotokolle für Veranstaltungen kalibriert, deren Risikoeinschätzung bei der Anfahrt »niedrig« lautet und deren Realität beim Eintreffen nach dem Taser verlangt. Dass diese Frage sich im Rahmen einer Hochzeitsfeier stellt, gehört zu den stillen Verschiebungen, die sich in keiner Kriminalstatistik abbilden lassen.
 
-Ein Taser auf einer Hochzeitsfeier ist kein Zeichen übermäßiger Polizeigewalt, sondern das Eingeständnis, dass die Lage mit jedem milderen Mittel bereits verloren war.
+Ein Taser auf einer Hochzeitsfeier ist das Eingeständnis, dass die Lage mit jedem milderen Mittel bereits verloren war.

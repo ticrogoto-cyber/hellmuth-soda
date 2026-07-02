@@ -269,6 +269,17 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
       'Klarnamen von Opfern. Klarnamen von Tätern (außer bei rechtskräftiger ' +
       'Verurteilung UND breiter öffentlicher Bekanntheit). Gratuitäre Details ' +
       'über die kriminologische Einordnung hinaus.\n' +
+      'STIL, VERBOTENE MUSTER (Nova, strikt): 1) Der Geviertstrich (—) ist ' +
+      'überall verboten; der Halbgeviertstrich (–) nur in Zahlen- und ' +
+      'Datumsbereichen. 2) Doppelpunkte nur bei echten Aufzählungen, nie als ' +
+      'rhetorisches Mittel, nie im Titel. 3) »nicht X, sondern Y« und »kein X, ' +
+      'sondern Y« sind als rhetorische Figur verboten; zulässig nur bei ' +
+      'faktisch-taxonomischer Abgrenzung, wenn die Negation Information trägt ' +
+      '(Rechtskategorien, Faktenkorrektur). Ebenfalls verboten: gesplittete ' +
+      'Negation-Affirmation über Satzgrenzen (»ist kein X. Es ist ein Y.«) und ' +
+      'redundante Parallelen (»X hat kein A. X hat ein B.«). Stattdessen die ' +
+      'positive Aussage direkt setzen (»Das Instrument ist legitim. Die ' +
+      'Proportion ist es nicht.«).\n' +
       'ARTIKELAUFBAU: 1) Überschrift (kein Doppelpunkt). 2) Lead = ein Satz, ' +
       'der die strukturelle Anomalie benennt. 3) Body = Sachverhalt + kriminologische ' +
       'Einordnung + Kontextualisierung der strukturellen Anomalie, dann Aphorismus-Closer ' +

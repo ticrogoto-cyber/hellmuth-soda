@@ -188,10 +188,17 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       this.group = new THREE.Group();
       this.scene.add(this.group);
 
-      // Bounding-Sphere der Wolke für Kamera-Fit und Nebel-Distanzen.
-      const bs = new THREE.Sphere();
-      bs.setFromPoints(pts.map((p) => new THREE.Vector3(...p.coords)));
-      this.sphere = bs;
+      // Kamera-Fit-Sphäre: Die UMAP-Koordinaten sind bereits mittelwert-
+      // zentriert (Build-Schritt); der Ursprung ist der Dichteschwerpunkt
+      // und bleibt Blickpunkt, Orbit-Ziel und Rotationsachse. Radius =
+      // maximaler Abstand vom Ursprung (nicht Bounding-Box-Zentrum, das
+      // bei Ausreißern die dichte Masse aus der Bildmitte schöbe).
+      let maxR2 = 0;
+      for (const p of pts) {
+        const r2 = p.coords[0] ** 2 + p.coords[1] ** 2 + p.coords[2] ** 2;
+        if (r2 > maxR2) maxR2 = r2;
+      }
+      this.sphere = new THREE.Sphere(new THREE.Vector3(0, 0, 0), Math.sqrt(maxR2));
 
       // Punkte
       const n = pts.length;
@@ -250,21 +257,27 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       grid.material.opacity = 0.55;
       this.group.add(grid);
 
-      // Cluster-Labels: nur im Overlay sichtbar.
+      // Cluster-Labels: nur im Overlay sichtbar. Screen-Space-Kollisionen
+      // werden im Render-Loop aufgelöst (fernere Labels blenden aus).
+      this.labelSprites = [];
       if (this.opts.labels && clusters.length) {
         const lg = new THREE.Group();
         clusters.forEach((c) => {
           const s = makeLabelSprite(c.label);
           s.position.set(c.center[0], c.center[1], c.center[2]);
+          s.userData.targetOpacity = 0.9;
           lg.add(s);
+          this.labelSprites.push(s);
         });
         this.group.add(lg);
       }
+      this._lastLabelCheck = 0;
 
       // Kamera-Fit: Wolke füllt ~78 % des Fensters, Startwinkel leicht erhöht.
       this.fitCamera();
 
       this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+      if (this.fitTarget) this.controls.target.copy(this.fitTarget);
       this.controls.enableDamping = true;
       this.controls.dampingFactor = 0.08;
       this.controls.enablePan = false;
@@ -293,16 +306,58 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     }
 
     fitCamera() {
+      // Fit auf die PROJIZIERTE Bounding-Box der Punkte: Die Wolke füllt
+      // 75-80 % der begrenzenden Fensterdimension und ist im Bild
+      // zentriert. Ein reiner Kugel-Fit unterschätzt schmale, diagonale
+      // Wolken (Ausreißer-Radius) und zentriert nur den 3D-Ursprung,
+      // nicht die sichtbare Masse. Startwinkel leicht erhöht.
       const r = this.sphere.radius * 1.06;
       const fovY = (this.camera.fov * Math.PI) / 180;
       const aspect = Math.max(this.camera.aspect, 0.6);
       const fovX = 2 * Math.atan(Math.tan(fovY / 2) * aspect);
-      const dist = r / (Math.sin(Math.min(fovY, fovX) / 2) * 0.78);
-      // Leicht erhöhter Startwinkel statt frontal.
+      const halfFov = Math.min(fovY, fovX) / 2;
       const phi = THREE.MathUtils.degToRad(64);
       const theta = THREE.MathUtils.degToRad(-24);
-      this.camera.position.setFromSphericalCoords(dist, phi, theta);
-      this.camera.lookAt(0, 0, 0);
+      const FILL = 0.78;
+
+      let dist = r / (FILL * Math.tan(halfFov));
+      const target = new THREE.Vector3(0, 0, 0);
+      const offset = new THREE.Vector3();
+      const v = new THREE.Vector3();
+
+      // Zwei Korrektur-Iterationen: Kamera setzen, Punkt-BBox in NDC
+      // messen, Distanz auf Füllgrad skalieren, Ziel auf BBox-Zentrum.
+      for (let pass = 0; pass < 2; pass++) {
+        offset.setFromSphericalCoords(dist, phi, theta);
+        this.camera.position.copy(target).add(offset);
+        this.camera.lookAt(target);
+        this.camera.updateMatrixWorld(true);
+
+        let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+        for (const p of pts) {
+          v.set(p.coords[0], p.coords[1], p.coords[2]).project(this.camera);
+          if (v.x < minX) minX = v.x;
+          if (v.x > maxX) maxX = v.x;
+          if (v.y < minY) minY = v.y;
+          if (v.y > maxY) maxY = v.y;
+        }
+        const halfW = (maxX - minX) / 2;
+        const halfH = (maxY - minY) / 2;
+        dist *= Math.max(halfW / FILL, halfH / FILL, 0.05);
+
+        // BBox-Zentrum (NDC) in Weltkoordinaten auf Zieltiefe heben.
+        v.copy(target).project(this.camera);
+        const tz = v.z;
+        v.set((minX + maxX) / 2, (minY + maxY) / 2, tz).unproject(this.camera);
+        target.copy(v);
+      }
+
+      offset.setFromSphericalCoords(dist, phi, theta);
+      this.camera.position.copy(target).add(offset);
+      this.camera.lookAt(target);
+      if (this.controls) this.controls.target.copy(target);
+      this.fitTarget = target.clone();
+
       this.uniforms.uFogNear.value = Math.max(0.1, dist - r * 0.55);
       this.uniforms.uFogFar.value = dist + r * 1.25;
       this.uniforms.uScale.value = this.stage.clientHeight * 0.115;
@@ -384,6 +439,49 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       if (id >= 0) location.href = pts[id].href;
     }
 
+    // Screen-Space-Kollisionserkennung der Cluster-Labels: Bounding-Boxen
+    // projizieren, bei Überlappung blendet das kamerafernere Label aus;
+    // beim Weiterdrehen blendet es wieder ein. Gedrosselt aufgerufen.
+    checkLabelCollisions() {
+      const w = this.stage.clientWidth;
+      const h = this.stage.clientHeight;
+      if (!w || !h) return;
+      const fovY = (this.camera.fov * Math.PI) / 180;
+      const worldPos = new THREE.Vector3();
+      const ndc = new THREE.Vector3();
+      const boxes = [];
+      for (const s of this.labelSprites) {
+        s.getWorldPosition(worldPos);
+        const dist = this.camera.position.distanceTo(worldPos);
+        ndc.copy(worldPos).project(this.camera);
+        if (ndc.z > 1 || ndc.z < -1) {
+          s.userData.targetOpacity = 0;
+          continue;
+        }
+        // Bildschirmgröße eines Billboards der Welthöhe scale.y in Distanz dist
+        const pxPerWorld = (h / 2) / (Math.tan(fovY / 2) * dist);
+        const bw = s.scale.x * pxPerWorld;
+        const bh = s.scale.y * pxPerWorld;
+        boxes.push({
+          s,
+          dist,
+          x: ((ndc.x + 1) / 2) * w - bw / 2,
+          y: ((1 - ndc.y) / 2) * h - bh / 2,
+          w: bw,
+          h: bh,
+        });
+      }
+      boxes.sort((a, b) => a.dist - b.dist);
+      const visible = [];
+      for (const b of boxes) {
+        const collides = visible.some((v) =>
+          b.x < v.x + v.w && b.x + b.w > v.x && b.y < v.y + v.h && b.y + b.h > v.y
+        );
+        b.s.userData.targetOpacity = collides ? 0 : 0.9;
+        if (!collides) visible.push(b);
+      }
+    }
+
     pulsePoint(index) {
       this.pulse = index >= 0 ? { index, t0: performance.now() } : null;
       if (index < 0) {
@@ -427,6 +525,18 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         if (this.playT >= T_END) {
           this.playing = false;
           if (this.onPlayEnd) this.onPlayEnd();
+        }
+      }
+      // Label-Kollisionen: gedrosselte Prüfung, sanfte Ein-/Ausblendung.
+      if (this.labelSprites.length) {
+        if (now - this._lastLabelCheck > 120) {
+          this._lastLabelCheck = now;
+          this.checkLabelCollisions();
+        }
+        const k = Math.min(1, dt * 7);
+        for (const s of this.labelSprites) {
+          const target = s.userData.targetOpacity;
+          s.material.opacity += (target - s.material.opacity) * k;
         }
       }
       // Puls (Tabellen-Hover): zwei weiche Wellen, dann aus.

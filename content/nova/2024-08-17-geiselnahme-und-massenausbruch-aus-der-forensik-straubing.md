@@ -13,11 +13,11 @@ press_review: false
 merkmale: {"tatmittel": "Messer", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "gescheiterte Unterbringung", "exzess": ["Gruppenbegehung"]}
 ---
 
-*Vier Patienten, eine Scherbe, ein Mitarbeiter. Dass die Flucht gelang, ist nicht die Pointe. Dass sie geplant werden konnte, ist es.*
+*Vier Patienten, eine Scherbe, ein Mitarbeiter. Die Pointe liegt weniger darin, dass die Flucht gelang, als darin, dass sie geplant werden konnte.*
 
 Am 17. August 2024 überwältigten vier Straftäter im Alter zwischen 28 und 31 Jahren einen 54-jährigen Mitarbeiter des geschlossenen Bezirkskrankenhauses Lerchenhaid in Straubing. Sie fesselten ihn, misshandelten ihn und hielten ihm eine scharfkantige Scherbe an den Hals. Anschließend flohen alle vier aus der Einrichtung. Zwei wurden Tage später in Österreich nahe Graz festgenommen. Die beiden anderen wurden erst Wochen später in Migrationszentren in der Türkei aufgegriffen.
 
-Die forensische Psychiatrie ist die höchste Sicherungsstufe, die das deutsche Maßregelrecht kennt. Wer dort untergebracht ist, wurde gerichtlich als gefährlich eingestuft und zur Unterbringung gemäß § 63 StGB verurteilt. Die Einrichtung soll zwei Funktionen erfüllen: Therapie und Sicherung. Der Straubinger Fall zeigte, dass die zweite Funktion in einer Weise versagte, die nicht durch ein technisches Detail, sondern durch ein architektonisches Grundproblem erklärbar ist.
+Die forensische Psychiatrie ist die höchste Sicherungsstufe, die das deutsche Maßregelrecht kennt. Wer dort untergebracht ist, wurde gerichtlich als gefährlich eingestuft und zur Unterbringung gemäß § 63 StGB verurteilt. Die Einrichtung soll zwei Funktionen erfüllen: Therapie und Sicherung. Der Straubinger Fall zeigte, dass die zweite Funktion in einer Weise versagte, die auf ein architektonisches Grundproblem zurückgeht, nicht auf ein technisches Detail.
 
 Vier Personen planten und koordinierten eine Geiselnahme innerhalb einer geschlossenen Einrichtung. Sie beschafften sich ein Tatmittel (die Scherbe), identifizierten einen vulnerablen Mitarbeiter, überwältigten ihn und nutzten die Geiselnahme als Hebel für die Flucht. Diese Abfolge setzt voraus, dass die vier über einen Zeitraum hinweg kommunizieren konnten, ohne dass die Kommunikation erkannt wurde, und dass sie sich gemeinsam in einem Bereich befanden, in dem ein einzelner Mitarbeiter allein war.
 
@@ -25,4 +25,4 @@ Die Sicherheitskonzepte forensischer Kliniken in Deutschland variieren zwischen 
 
 Straubing war nicht der einzige Ausbruch aus einer forensischen Einrichtung im Jahr 2024. In Bremen flohen zwei als »äußerst gewalttätig« eingestufte Patienten während eines beaufsichtigten Ausgangs und wurden erst in Frankreich gestellt. In Hessen entwichen im selben Zeitraum 13 Patienten aus Vitos-Forensikkliniken. Das Muster ist konsistent. Die Lockerungspraxis und die Personalausstattung der forensischen Psychiatrie produzieren regelmäßig Sicherheitslücken, die von Patienten genutzt werden, für deren Gefährlichkeit genau diese Einrichtungen geschaffen wurden.
 
-Wer eine Institution für die Gefährlichsten baut und sie dann so betreibt, dass vier Gefährliche gemeinsam fliehen können, hat nicht die Patienten unterschätzt, sondern den eigenen Auftrag.
+Wer eine Institution für die Gefährlichsten baut und sie dann so betreibt, dass vier Gefährliche gemeinsam fliehen können, hat den eigenen Auftrag unterschätzt, nicht die Patienten.

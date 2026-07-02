@@ -14,7 +14,7 @@ press_review: false
 merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["Gruppenbegehung"]}
 ---
 
-*Er sagte gegen seine Auftraggeber aus. Er bekam keinen Schutz. Er bekam acht Messerstiche.*
+*Er sagte gegen seine Auftraggeber aus. Statt Schutz bekam er acht Messerstiche.*
 
 In der Nacht vom 9. auf den 10. März 2024 fingen vier Männer im Alter von 19 bis 27 Jahren einen 15-Jährigen vor einer Gaststätte an der Danzierstraße in Köln-Mülheim ab. Sie bedrohten ihn mit einer Waffe und zwangen ihn, mitzukommen. An einer abgelegenen Stelle am Mülheimer Hafen erstachen sie ihn mit acht Messerstichen, von denen drei die Lunge und einer die Leber durchdrangen. Sie traten ihm ins Gesicht und brachen ihm das Nasenbein. Am Sonntagmorgen wurde seine Leiche auf einer Landzunge gefunden.
 
