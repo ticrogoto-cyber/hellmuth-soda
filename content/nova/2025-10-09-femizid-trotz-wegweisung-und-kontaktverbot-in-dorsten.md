@@ -10,7 +10,7 @@ lead: "Ein Mann tötete seine Ex-Partnerin in Dorsten-Wulfen, obwohl gegen ihn s
 relevance: 9
 ort: "Dorsten-Wulfen, Nordrhein-Westfalen"
 press_review: false
-merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Wohnumfeld", "betroffene": "Privatpersonen-Beziehungsumfeld", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Ein Kontaktverbot schützt auf dem Papier. Zwischen dem Papier und der Tür liegt niemand.*

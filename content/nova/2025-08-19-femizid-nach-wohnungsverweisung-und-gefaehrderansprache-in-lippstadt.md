@@ -10,7 +10,7 @@ lead: "Ein 33-Jähriger erstach seine 36-jährige Partnerin in Lippstadt, obwohl
 relevance: 9
 ort: "Lippstadt, Nordrhein-Westfalen"
 press_review: false
-merkmale: {"tatmittel": "Messer", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Messer", "tatkontext": "Wohnumfeld", "betroffene": "Privatpersonen-Beziehungsumfeld", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Einen Tag nach der Gefährderansprache war das Opfer tot. Die Ansprache war vorschriftsgemäß verlaufen.*

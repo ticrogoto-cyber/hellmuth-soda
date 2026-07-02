@@ -11,7 +11,7 @@ lead: "Säure als Tatmittel in einem Nachbarschaftskonflikt markiert eine qualit
 relevance: 7
 ort: "Stralsund, Mecklenburg-Vorpommern"
 press_review: false
-merkmale: {"tatmittel": "Säure", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Säure", "tatkontext": "Wohnumfeld", "betroffene": "Privatpersonen-Beziehungsumfeld", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *In Stralsund wurde Säure zur Waffe in einem Nachbarschaftsstreit. Die Wahl des Tatmittels verrät mehr über die Tatstruktur als der Anlass.*

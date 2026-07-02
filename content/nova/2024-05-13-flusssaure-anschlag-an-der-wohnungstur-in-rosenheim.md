@@ -10,7 +10,7 @@ lead: "Ein maskierter Angreifer setzt Flusssäure als Waffe ein, einen industrie
 relevance: 8
 ort: "Rosenheim, Bayern"
 press_review: false
-merkmale: {"tatmittel": "Säure", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Säure", "tatkontext": "Wohnumfeld", "betroffene": "Privatpersonen-Beziehungsumfeld", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Flusssäure als Waffe an der Wohnungstür ist ein Tatmittel, das die Grenze zwischen Gewaltkriminalität und Gefahrstoffanschlag auflöst.*
