@@ -299,7 +299,9 @@ function dataJs(all) {
   const payload = {
     generated: new Date().toISOString(),
     items: all.map(trim),
-    clusters: computeClusters(all, coords),
+    // indices sind ein internes Prüffeld; das Frontend braucht nur
+    // label/center/count.
+    clusters: computeClusters(all, coords).map(({ label, center, count }) => ({ label, center, count })),
   };
   return 'window.NOVA_DATA =\n' + JSON.stringify(payload, null, 2) + '\n;\n';
 }

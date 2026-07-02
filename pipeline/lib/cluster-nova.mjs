@@ -180,16 +180,25 @@ export function computeClusters(records, coords) {
     const members = [];
     best.assign.forEach((a, v) => { if (a === c) members.push(v); });
     if (members.length < 3) continue; // Splitter nicht beschriften
-    const center = [0, 0, 0];
+    // Label-Position: 3D-Medoid der Mitglieder (Punkt mit minimaler
+    // Distanzsumme). Robust gegen mehrlappige Projektionen, bei denen der
+    // Mittelwert in fremdes Gebiet fiele.
+    let medoid = null;
+    let bestSum = Infinity;
     for (const v of members) {
       const p = coords[idx[v]];
-      center[0] += p[0]; center[1] += p[1]; center[2] += p[2];
+      let sum = 0;
+      for (const w of members) {
+        const q = coords[idx[w]];
+        sum += Math.hypot(p[0] - q[0], p[1] - q[1], p[2] - q[2]);
+      }
+      if (sum < bestSum) { bestSum = sum; medoid = p; }
     }
-    center[0] /= members.length; center[1] /= members.length; center[2] /= members.length;
     clusters.push({
       label: clusterLabel(members.map((v) => allMerkmale[v]), allMerkmale),
-      center: center.map((v) => Number(v.toFixed(4))),
+      center: medoid.map((v) => Number(v.toFixed(4))),
       count: members.length,
+      indices: members.map((v) => idx[v]),
     });
   }
   return clusters;

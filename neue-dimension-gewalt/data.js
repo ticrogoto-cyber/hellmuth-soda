@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T12:06:46.018Z",
+  "generated": "2026-07-02T12:10:32.444Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -3582,54 +3582,54 @@ window.NOVA_DATA =
     {
       "label": "Systemversagen · Straßenraum",
       "center": [
-        -0.3218,
-        0.3273,
-        -0.1255
+        -0.5046,
+        0.4456,
+        -0.0362
       ],
       "count": 22
     },
     {
       "label": "Minderjährige · Straßenraum",
       "center": [
-        -0.3019,
-        0.3114,
-        -0.0209
+        -0.5834,
+        0.5857,
+        0.0169
       ],
       "count": 15
     },
     {
       "label": "Wohnumfeld · Beziehungsumfeld",
       "center": [
-        -0.2767,
-        0.3963,
-        -0.508
+        -0.3758,
+        0.5455,
+        -0.7158
       ],
       "count": 12
     },
     {
       "label": "Gruppengewalt · Straßenraum",
       "center": [
-        0.1067,
-        0.1234,
-        0.1488
+        0.0361,
+        0.1969,
+        0.2076
       ],
       "count": 13
     },
     {
       "label": "Körpergewalt · Gruppengewalt",
       "center": [
-        0.1699,
-        -0.0993,
-        0.2323
+        0.2098,
+        -0.007,
+        0.2086
       ],
       "count": 16
     },
     {
       "label": "Passanten · ÖPNV",
       "center": [
-        0.4009,
-        -0.6164,
-        0.1303
+        0.59,
+        -0.8591,
+        0.0886
       ],
       "count": 27
     }
