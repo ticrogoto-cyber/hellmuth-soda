@@ -6,6 +6,7 @@ slug: "fahrzeugangriff-auf-fastnachtsmarkt-in-mannheim"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html"},{"name":"LTO","url":"https://www.lto.de/recht/nachrichten/n/landgericht-mannheim-amokfahrt-rosenmontag-lebenslange-haft-unterbringung-psychiatrie"}]
 lead: "Der Anschlag demonstriert, dass die nach 2016 entwickelten Schutzkonzepte für Weihnachtsmärkte nicht auf andere saisonale Großveranstaltungen übertragen wurden. Die Fastnacht fiel durch das Raster einer Sicherheitsarchitektur, die nur den Anlass des letzten Anschlags schützt."
 relevance: 8
 ort: "Mannheim, Baden-Württemberg"

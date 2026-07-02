@@ -12,7 +12,7 @@ ort: "Rosenheim, Bayern"
 press_review: false
 ---
 
-*Flusssäure als Waffe an der Wohnungstür: ein Tatmittel, das die Grenze zwischen Gewaltkriminalität und Gefahrstoffanschlag auflöst.*
+*Flusssäure als Waffe an der Wohnungstür ist ein Tatmittel, das die Grenze zwischen Gewaltkriminalität und Gefahrstoffanschlag auflöst.*
 
 Das Tatmittel definiert die Tat. Wo ein Messer auf Impuls schließen lässt, deutet Flusssäure auf Planung, Beschaffung und eine Entschlossenheit, die über den Moment hinausreicht. Am 13. Mai 2024 klingelte ein maskierter Angreifer an der Wohnungstür eines 31-Jährigen in Rosenheim und schüttete ihm beim Öffnen Flusssäure ins Gesicht. Das Opfer erlitt schwerste Verätzungen und musste notärztlich versorgt werden. Ein Tatverdächtiger wurde später wegen versuchten Mordes festgenommen.
 

@@ -6,6 +6,7 @@ slug: "terroranschlag-auf-kundgebung-am-mannheimer-marktplatz"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/politik/staatsschutzverfahren-lebenslang-fur-mannheimer-messerangriff-richter-emotional-14334902.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/politik/staatsschutzverfahren-lebenslang-fur-mannheimer-messerangriff-richter-emotional-14334902.html"},{"name":"LTO","url":"https://www.lto.de/recht/nachrichten/n/5st2bjs23124-olg-stuttgart-mannheim-marktplatz-messer-attentat-polizist-rouven-sulaiman-a"}]
 lead: "Die doppelte Strukturanomalie aus einem fünf Jahre lang nicht vollstreckten Haftbefehl und einer ungeschützten politischen Kundgebung im öffentlichen Raum ermöglicht einen islamistisch motivierten Terroranschlag, der institutionell vermeidbar gewesen wäre."
 relevance: 9
 ort: "Mannheim, Baden-Württemberg"
@@ -22,7 +23,7 @@ Das Oberlandesgericht Stuttgart verurteilte den Täter im September 2025 zu lebe
 
 Die zweite Anomalie betrifft den Tatort selbst. Politische Kundgebungen im öffentlichen Raum sind in Deutschland grundsätzlich ungeschützt. Weder Absperrungen noch Sicherheitskontrollen noch systematische Polizeipräsenz gehören zum Standardkonzept kommunaler Veranstaltungsgenehmigungen. Diese Schutzlosigkeit ist Ausdruck eines demokratischen Selbstverständnisses, das den öffentlichen Raum als Ort freier Versammlung begreift und Sicherheitsmaßnahmen als Einschränkung dieser Freiheit. In Mannheim wurde dieses Selbstverständnis zur Angriffsfläche.
 
-Der getötete Polizeibeamte intervenierte individuell. Seine Tötung verweist auf ein Paradox, das dem Polizeidienst bei Versammlungslagen inhärent ist: Der einzelne Beamte, der eingreift, wird zum nächstliegenden Ziel des Angreifers, den er zu stoppen versucht. Dass er in Ausübung seiner Schutzfunktion starb, macht seinen Tod zur schärfsten denkbaren Demonstration des Defizits, das er mit seinem Eingreifen zu überbrücken versuchte.
+Der getötete Polizeibeamte intervenierte individuell. Seine Tötung verweist auf ein Paradox, das dem Polizeidienst bei Versammlungslagen inhärent ist. Der einzelne Beamte, der eingreift, wird zum nächstliegenden Ziel des Angreifers, den er zu stoppen versucht. Dass er in Ausübung seiner Schutzfunktion starb, macht seinen Tod zur schärfsten denkbaren Demonstration des Defizits, das er mit seinem Eingreifen zu überbrücken versuchte.
 
 Mannheim ist seitdem zum Referenzpunkt einer Debatte geworden, die zwischen Abschiebepolitik, Extremismusprävention und Versammlungssicherheit oszilliert, ohne einen Fixpunkt zu finden. Die Debatte selbst wechselt ihre Schwerpunkte so häufig, dass die einzelnen Defizite (der nicht vollstreckte Haftbefehl, die nicht gesicherte Kundgebung, die nicht vollzogene Abschiebung) sich gegenseitig verdecken statt erhellen.
 

@@ -6,6 +6,7 @@ slug: "islamistischer-anschlag-mit-verkleideter-stockwaffe-in-bielefeld"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html"},{"name":"ZDFheute","url":"https://www.zdfheute.de/politik/deutschland/bielefeld-terroranschlag-fussballfans-urteil-oberlandesgericht-duesseldorf-100.html"}]
 lead: "Die Kombination aus getarnter Waffe und simulierter Gehbehinderung als Annäherungstaktik markiert einen Innovationssprung in der islamistischen Tatbegehung, der in der deutschen Kriminalgeschichte ohne Vorbild ist."
 relevance: 9
 ort: "Bielefeld, Nordrhein-Westfalen"

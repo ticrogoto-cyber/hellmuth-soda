@@ -12,9 +12,9 @@ ort: "Berlin-Charlottenburg"
 press_review: false
 ---
 
-*Ein als akut fremdgefährdend eingestufter Mann ersticht einen 29-Jährigen. Der Grund: Ein Haftbefehl war drei Monate zwischen Chemnitz und Berlin unterwegs.*
+*Ein als akut fremdgefährdend eingestufter Mann ersticht einen 29-Jährigen, weil ein Haftbefehl drei Monate zwischen Chemnitz und Berlin unterwegs war.*
 
-Was diesen Fall von einem gewöhnlichen Tötungsdelikt unterscheidet, ist seine Vermeidbarkeit. Am 12. April 2025 erstach ein 43-Jähriger einen 29-Jährigen am Berliner U-Bahnhof Sophie-Charlotte-Platz. Der Täter war dem Justizsystem bekannt: Mehrere Vorverurteilungen wegen Körperverletzung, Bedrohung und Widerstands gegen Vollstreckungsbeamte lagen vor. 2022 hatte er seine Schwester mit einem Messer attackiert und einen Polizisten angegriffen; das Gericht verhängte eine Bewährungsstrafe.
+Was diesen Fall von einem gewöhnlichen Tötungsdelikt unterscheidet, ist seine Vermeidbarkeit. Am 12. April 2025 erstach ein 43-Jähriger einen 29-Jährigen am Berliner U-Bahnhof Sophie-Charlotte-Platz. Der Täter war dem Justizsystem bekannt. Mehrere Vorverurteilungen wegen Körperverletzung, Bedrohung und Widerstands gegen Vollstreckungsbeamte lagen vor. 2022 hatte er seine Schwester mit einem Messer attackiert und einen Polizisten angegriffen; das Gericht verhängte eine Bewährungsstrafe.
 
 Im Dezember 2024 beantragte die Chemnitzer Staatsanwaltschaft den Bewährungswiderruf und einen Haftbefehl. Der Antrag erreichte das Berliner Landgericht erst am 18. März 2025, also über drei Monate nach Antragstellung und weniger als vier Wochen vor der tödlichen Tat. Parallel existierte seit Mai 2024 eine polizeiliche Gefährdungseinschätzung mit »konkreten Anhaltspunkten für eine akute Fremdgefährdung«. Am Tag der Tat war der 43-Jährige behördlich als gefährlich klassifiziert, juristisch zur Inhaftierung vorgesehen und faktisch frei.
 

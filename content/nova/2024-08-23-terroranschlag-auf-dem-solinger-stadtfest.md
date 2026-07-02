@@ -6,6 +6,7 @@ slug: "terroranschlag-auf-dem-solinger-stadtfest"
 rubrik: "nova"
 source_url: "https://taz.de/Islamistischer-Angriff-2024/!6113174/"
 source_name: "taz"
+sources: [{"name":"taz","url":"https://taz.de/Islamistischer-Angriff-2024/!6113174/"},{"name":"ZDFheute","url":"https://www.zdfheute.de/panorama/kriminalitaet/urteil-solingen-issa-al-hasan-100.html"}]
 lead: "Ein kommunales Stadtfest als islamistisches Anschlagsziel offenbart eine doppelte Systemlücke, in der Bedrohungsanalyse für Soft Targets und im Dublin-Überstellungsverfahren, dessen bürokratisches Versagen die Tat erst ermöglichte."
 relevance: 9
 ort: "Solingen, Nordrhein-Westfalen"

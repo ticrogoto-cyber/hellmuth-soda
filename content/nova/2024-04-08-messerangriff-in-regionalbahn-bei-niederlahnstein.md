@@ -12,7 +12,7 @@ ort: "Niederlahnstein, Rheinland-Pfalz"
 press_review: false
 ---
 
-*Der Regionalzug als geschlossener Gewaltraum: ein Muster, das sich von der Ausnahme zur Serie verdichtet.*
+*Der Regionalzug als geschlossener Gewaltraum ist ein Muster, das sich von der Ausnahme zur Serie verdichtet.*
 
 Wenn sich ein Tatmuster innerhalb weniger Jahre mehrfach wiederholt, ohne dass die Wiederholung selbst zum Gegenstand struktureller Prävention wird, hat das Muster die Ebene des Zufalls verlassen. Am 8. April 2024 wurde in einem Regionalzug der Rheingaulinie zwischen Koblenz und Lahnstein ein 20-jähriger Fahrgast durch einen Messerangriff schwer verletzt. Der Zug musste am Bahnhof Niederlahnstein nothalten und wurde gesperrt. Bundespolizei, Landespolizei und Kriminalpolizei rückten zum Großeinsatz an.
 

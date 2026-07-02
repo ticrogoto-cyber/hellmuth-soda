@@ -6,6 +6,7 @@ slug: "messerangriff-im-regionalzug-bei-brokstedt"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html"},{"name":"ZDFheute","url":"https://www.zdfheute.de/panorama/kriminalitaet/brokstedt-zug-attentat-messer-ibrahim-100.html"}]
 lead: "24 Ermittlungsverfahren, vier Verurteilungen wegen schwerer Körperverletzung und ein Kommunikationsbruch zwischen zwei Bundesländern erzeugten den sechstägigen Korridor zwischen Haftentlassung und tödlichem Messerangriff in einem geschlossenen Zugraum."
 relevance: 9
 ort: "Brokstedt, Schleswig-Holstein"

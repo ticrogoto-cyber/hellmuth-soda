@@ -6,6 +6,7 @@ slug: "massenangriff-am-hamburger-hauptbahnhof"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html"},{"name":"ZDFheute","url":"https://www.zdfheute.de/politik/deutschland/hamburg-hauptbahnhof-messerangriff-verletzte-100.html"}]
 lead: "32 stationäre psychiatrische Aufnahmen in drei Jahren ohne dauerhafte Unterbringung verwandelten die Akutversorgung in ein Drehtür-System, dessen Entlasslogik die Gewalteskalation am Hauptbahnhof zur dokumentierten Konsequenz machte."
 relevance: 9
 ort: "Hamburg"

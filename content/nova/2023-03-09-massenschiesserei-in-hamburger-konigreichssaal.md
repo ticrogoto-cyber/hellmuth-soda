@@ -6,6 +6,7 @@ slug: "massenschiesserei-in-hamburger-konigreichssaal"
 rubrik: "nova"
 source_url: "https://taz.de/Amoktat-gegen-Zeugen-Jehovas-in-Hamburg/!5999298/"
 source_name: "taz"
+sources: [{"name":"taz","url":"https://taz.de/Amoktat-gegen-Zeugen-Jehovas-in-Hamburg/!5999298/"},{"name":"t-online","url":"https://hamburg.t-online.de/region/hamburg/id_100348696/amoklauf-in-alsterdorf-so-verhinderte-die-polizei-hamburg-noch-mehr-tote.html"}]
 lead: "Das Waffenrecht stellte die Tatwaffe bereit. Trotz dokumentierter Hinweise auf die mangelnde Eignung des Schützen zum Waffenbesitz blieb die Erlaubnis bestehen, und sämtliche Dienstaufsichtsverfahren gegen die zuständigen Beamten wurden eingestellt."
 relevance: 10
 ort: "Hamburg-Alsterdorf"

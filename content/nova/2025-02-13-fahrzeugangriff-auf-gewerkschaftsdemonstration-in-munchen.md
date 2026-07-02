@@ -6,6 +6,7 @@ slug: "fahrzeugangriff-auf-gewerkschaftsdemonstration-in-munchen"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html"},{"name":"LTO","url":"https://www.lto.de/recht/nachrichten/n/generalbundesanwalt-olg-muenchen-anklage-auto-menschengruppe-verdi-mord"}]
 lead: "Der Angriff auf einen sich bewegenden Demonstrationszug offenbart eine prinzipielle Schutzlücke. Dynamische Versammlungen auf Straßen lassen sich nicht durch Fahrzeugbarrieren sichern, was das Versammlungsrecht in seiner physischen Dimension ungeschützt lässt."
 relevance: 9
 ort: "München, Bayern"
@@ -22,7 +23,7 @@ Diese Schutzlücke ist nicht das Ergebnis eines Versäumnisses, sondern eine Kon
 
 Demonstrationen genießen in Deutschland keine systematische physische Infrastrukturprotektion. Die polizeiliche Begleitung von Aufzügen ist taktisch auf Ordnung ausgerichtet, nicht auf den Schutz der Teilnehmenden vor Fahrzeugangriffen. Selbst wo an einzelnen Kreuzungspunkten Einsatzfahrzeuge stehen, bleibt die Gesamtstrecke eines sich bewegenden Zuges offen, denn seine Länge übersteigt systematisch die Kapazität punktueller Absicherungen.
 
-Kriminologisch markiert die Tat eine Erweiterung des Zielspektrums von Fahrzeuganschlägen. Nach dem Breitscheidplatz (Weihnachtsmarkt, 2016) und Magdeburg (Weihnachtsmarkt, 2024) zielt der Münchner Anschlag erstmals auf eine Versammlung, die weder saisonal noch ortsfest ist. Die taktische Logik dieser Entwicklung ist nachvollziehbar: Je besser stationäre Versammlungsorte geschützt werden, desto attraktiver werden mobile Ziele, deren Schutz systematisch schwieriger ist. Die Verhärtung der leichten Ziele verschiebt das Risiko auf die noch leichteren. Eine Gewerkschaftsdemonstration an einem Donnerstagvormittag, mitten in der Arbeitswoche, mitten in der Stadt. Der Anschlag traf nicht ein Sonderereignis, sondern den demokratischen Alltag in seiner gewöhnlichsten Form.
+Kriminologisch markiert die Tat eine Erweiterung des Zielspektrums von Fahrzeuganschlägen. Nach dem Breitscheidplatz (Weihnachtsmarkt, 2016) und Magdeburg (Weihnachtsmarkt, 2024) zielt der Münchner Anschlag erstmals auf eine Versammlung, die weder saisonal noch ortsfest ist. Die taktische Logik dieser Entwicklung ist nachvollziehbar. Je besser stationäre Versammlungsorte geschützt werden, desto attraktiver werden mobile Ziele, deren Schutz systematisch schwieriger ist. Die Verhärtung der leichten Ziele verschiebt das Risiko auf die noch leichteren. Eine Gewerkschaftsdemonstration an einem Donnerstagvormittag, mitten in der Arbeitswoche, mitten in der Stadt. Der Anschlag traf nicht ein Sonderereignis, sondern den demokratischen Alltag in seiner gewöhnlichsten Form.
 
 Der Prozess begann im Januar 2026 vor dem Oberlandesgericht München. Dass zwischen Tat und Prozessauftakt weniger als ein Jahr verging, ist im Kontext der deutschen Justizgeschwindigkeit ungewöhnlich. Ob diese Beschleunigung Modellcharakter hat, wird sich zeigen.
 

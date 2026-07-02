@@ -6,6 +6,7 @@ slug: "amokfahrt-in-der-leipziger-grimmaischen-strasse"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/gesellschaft/panorama/verbrechen-in-leipzig-mutmasslicher-amokfahrer-totet-und-verletzt-mehrere-menschen-15554950.html"
 source_name: "Tagesspiegel"
+sources: [{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/verbrechen-in-leipzig-mutmasslicher-amokfahrer-totet-und-verletzt-mehrere-menschen-15554950.html"},{"name":"Leipziger Zeitung","url":"https://www.l-iz.de/leben/faelle-unfaelle/2026/05/was-gerade-geschieht-auto-rast-in-leipzig-durch-fussgaengerzone-zwei-tote-taeter-gefasst-656126"}]
 lead: "Die ungehinderte Durchfahrt über 450 Meter Fußgängerzone bis zum ersten Poller offenbart die Diskrepanz zwischen dem Sicherheitsversprechen autofreier Zonen und ihrer tatsächlichen physischen Schutzinfrastruktur."
 relevance: 8
 ort: "Leipzig, Sachsen"
