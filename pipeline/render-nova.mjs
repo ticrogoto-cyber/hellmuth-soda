@@ -9,7 +9,9 @@ import { dirname, join } from 'node:path';
 import { slug, isoDate } from './lib/util.mjs';
 import { rebuildSitemap } from './render.mjs';
 import { computeLatentCoords } from './lib/umap-nova.mjs';
+import { computeClusters } from './lib/cluster-nova.mjs';
 import { normalizeMerkmale } from './lib/classify-nova.mjs';
+import { isBlacklistedSource, sortSourcesByRank } from './lib/source-policy.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -18,7 +20,6 @@ const PAGE_DIR = join(ROOT, 'neue-dimension-gewalt');
 
 const MAX_ITEMS = 500;
 const MAX_DAILY_ITEMS = 10;
-const SOURCE_BLACKLIST = ['wikipedia.org'];
 
 const SITE = 'https://hellmuth-soda.de';
 const SITE_NAME = 'Hellmuth';
@@ -41,15 +42,8 @@ function readingLabel(min) {
   return min < 1 ? 'unter 1 Min.' : `${min} Min.`;
 }
 
-function isBlacklistedSource(url) {
-  try {
-    const host = new URL(url).hostname;
-    return SOURCE_BLACKLIST.some(b => host === b || host.endsWith('.' + b));
-  } catch { return false; }
-}
-
 function getSources(rec) {
-  if (Array.isArray(rec.sources) && rec.sources.length) return rec.sources;
+  if (Array.isArray(rec.sources) && rec.sources.length) return sortSourcesByRank(rec.sources);
   if (rec.source_url && rec.source_name) return [{ name: rec.source_name, url: rec.source_url }];
   return [];
 }
@@ -172,6 +166,8 @@ function detailHtml(rec, nav) {
   const readTime = readingLabel(readingMinutes(rec.body));
   const sources = getSources(rec);
   const sourceLinks = sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a>`).join(', ');
+  // Metazeile einzeilig: Ort ohne Bundesland (bleibt in den Daten erhalten).
+  const ortKurz = rec.ort ? String(rec.ort).split(',')[0].trim() : '';
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -187,7 +183,7 @@ function detailHtml(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../styles.css?v=14" />
-  <link rel="stylesheet" href="../nova.css?v=2" />
+  <link rel="stylesheet" href="../nova.css?v=5" />
 </head>
 <body>
   <header class="top">
@@ -211,7 +207,7 @@ ${seoHead(rec)}
 
   <main class="news-detail nova-detail">
     <article>
-      <p class="news-eyebrow">Kriminologische Nova · ${esc(rec.date)}${rec.ort ? ' · ' + esc(rec.ort) : ''} · ${esc(readTime)}</p>
+      <p class="news-eyebrow">Kriminologische Nova · ${esc(rec.date)}${ortKurz ? ' · ' + esc(ortKurz) : ''} · ${esc(readTime)}</p>
       <h1>${esc(rec.title)}</h1>
       <p class="news-lead">${esc(rec.lead)}</p>
       <div class="news-body">
@@ -298,6 +294,9 @@ function dataJs(all) {
   const payload = {
     generated: new Date().toISOString(),
     items: all.map(trim),
+    // indices sind ein internes Prüffeld; das Frontend braucht nur
+    // label/center/count.
+    clusters: computeClusters(all, coords).map(({ label, center, count }) => ({ label, center, count })),
   };
   return 'window.NOVA_DATA =\n' + JSON.stringify(payload, null, 2) + '\n;\n';
 }

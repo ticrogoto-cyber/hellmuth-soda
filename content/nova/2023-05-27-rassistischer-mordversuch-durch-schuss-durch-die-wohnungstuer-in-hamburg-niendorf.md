@@ -10,7 +10,7 @@ lead: "Ein 48-Jähriger schoss am Abend des 27. Mai 2023 mit einem Winchestergew
 relevance: 9
 ort: "Hamburg-Niendorf, Hamburg"
 press_review: false
-merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Wohnumfeld", "betroffene": "Privatpersonen-Beziehungsumfeld", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Er schoss durch die Wohnungstür seiner schwangeren Nachbarin. Die Polizei hatte seine Drohungen als Nachbarschaftsstreit abgelegt.*

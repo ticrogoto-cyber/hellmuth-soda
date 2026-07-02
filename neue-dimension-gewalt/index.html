@@ -19,12 +19,12 @@
   <meta property="og:site_name" content="Hellmuth" />
   <link rel="alternate" type="application/rss+xml" title="Kriminologische Nova" href="https://hellmuth-soda.de/neue-dimension-gewalt/feed.xml" />
   <link rel="stylesheet" href="../styles.css?v=14" />
-  <link rel="stylesheet" href="nova.css?v=3" />
+  <link rel="stylesheet" href="nova.css?v=5" />
   <script type="importmap">
   {
     "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      "three": "./vendor/three.module.js?v=160",
+      "three/addons/controls/OrbitControls.js": "./vendor/OrbitControls.js?v=160"
     }
   }
   </script>
@@ -58,58 +58,70 @@
     </div>
 
     <section class="nova-space" id="nova-space" hidden aria-label="Latent-Space-Projektion der Fälle">
-      <div class="nova-space-head">
-        <span class="nova-space-title">Latent Space · Merkmalsprojektion</span>
-        <button type="button" class="nova-space-expand" id="nova-space-expand" aria-label="Vergrößern">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>
-        </button>
-      </div>
+      <button type="button" class="nova-space-expand" id="nova-space-expand" aria-label="Vergrößern">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg>
+      </button>
       <div class="nova-space-stage" id="nova-space-stage"></div>
       <div class="nova-space-legend" id="nova-space-legend" role="group" aria-label="Fallarten (Tatmittel)"></div>
     </section>
+    <p class="nova-space-note" id="nova-space-note" hidden>Jeder Punkt ein Fall. Räumliche Nähe bedeutet strukturelle Ähnlichkeit der Tatmerkmale.</p>
 
     <div class="nova-filter" id="nova-filter" role="group" aria-label="Einträge filtern">
       <div class="nova-filter-row">
-        <button type="button" class="nova-filter-reset" data-reset aria-pressed="true">Alle</button>
+        <span class="nova-filter-label" aria-hidden="true"></span>
+        <div class="nova-filter-chips">
+          <button type="button" class="nova-filter-reset" data-reset aria-pressed="true">Alle</button>
+        </div>
       </div>
       <div class="nova-filter-row" data-dim="tatmittel">
         <span class="nova-filter-label">Tatmittel</span>
-        <button type="button" data-dim="tatmittel" data-val="Fahrzeug" aria-pressed="false">Fahrzeug</button>
-        <button type="button" data-dim="tatmittel" data-val="Messer" aria-pressed="false">Messer</button>
-        <button type="button" data-dim="tatmittel" data-val="Machete-Hiebwaffe" aria-pressed="false">Machete / Hiebwaffe</button>
-        <button type="button" data-dim="tatmittel" data-val="Schusswaffe" aria-pressed="false">Schusswaffe</button>
-        <button type="button" data-dim="tatmittel" data-val="Körpergewalt" aria-pressed="false">Körpergewalt</button>
-        <button type="button" data-dim="tatmittel" data-val="Sprengsatz" aria-pressed="false">Sprengsatz</button>
-        <button type="button" data-dim="tatmittel" data-val="Säure" aria-pressed="false">Säure</button>
-        <button type="button" data-dim="tatmittel" data-val="Sonstiges" aria-pressed="false">Sonstiges</button>
+        <div class="nova-filter-chips">
+          <button type="button" data-dim="tatmittel" data-val="Fahrzeug" aria-pressed="false">Fahrzeug</button>
+          <button type="button" data-dim="tatmittel" data-val="Messer" aria-pressed="false">Messer</button>
+          <button type="button" data-dim="tatmittel" data-val="Machete-Hiebwaffe" aria-pressed="false">Machete / Hiebwaffe</button>
+          <button type="button" data-dim="tatmittel" data-val="Schusswaffe" aria-pressed="false">Schusswaffe</button>
+          <button type="button" data-dim="tatmittel" data-val="Körpergewalt" aria-pressed="false">Körpergewalt</button>
+          <button type="button" data-dim="tatmittel" data-val="Sprengsatz" aria-pressed="false">Sprengsatz</button>
+          <button type="button" data-dim="tatmittel" data-val="Säure" aria-pressed="false">Säure</button>
+          <button type="button" data-dim="tatmittel" data-val="Sonstiges" aria-pressed="false">Sonstiges</button>
+        </div>
       </div>
       <div class="nova-filter-row" data-dim="tatkontext">
         <span class="nova-filter-label">Tatkontext</span>
-        <button type="button" data-dim="tatkontext" data-val="ÖPNV-Bahn" aria-pressed="false">ÖPNV / Bahn</button>
-        <button type="button" data-dim="tatkontext" data-val="Volksfest-Veranstaltung" aria-pressed="false">Volksfest / Veranstaltung</button>
-        <button type="button" data-dim="tatkontext" data-val="öffentlicher Straßenraum" aria-pressed="false">Öffentlicher Straßenraum</button>
-        <button type="button" data-dim="tatkontext" data-val="Klinik-Rettungsdienst" aria-pressed="false">Klinik / Rettungsdienst</button>
-        <button type="button" data-dim="tatkontext" data-val="Bildungseinrichtung" aria-pressed="false">Bildungseinrichtung</button>
-        <button type="button" data-dim="tatkontext" data-val="Wohnumfeld" aria-pressed="false">Wohnumfeld</button>
-        <button type="button" data-dim="tatkontext" data-val="Sonstiges" aria-pressed="false">Sonstiges</button>
+        <div class="nova-filter-chips">
+          <button type="button" data-dim="tatkontext" data-val="ÖPNV-Bahn" aria-pressed="false">ÖPNV / Bahn</button>
+          <button type="button" data-dim="tatkontext" data-val="Volksfest-Veranstaltung" aria-pressed="false">Volksfest / Veranstaltung</button>
+          <button type="button" data-dim="tatkontext" data-val="öffentlicher Straßenraum" aria-pressed="false">Öffentlicher Straßenraum</button>
+          <button type="button" data-dim="tatkontext" data-val="Klinik-Rettungsdienst" aria-pressed="false">Klinik / Rettungsdienst</button>
+          <button type="button" data-dim="tatkontext" data-val="Bildungseinrichtung" aria-pressed="false">Bildungseinrichtung</button>
+          <button type="button" data-dim="tatkontext" data-val="Wohnumfeld" aria-pressed="false">Wohnumfeld</button>
+          <button type="button" data-dim="tatkontext" data-val="Sonstiges" aria-pressed="false">Sonstiges</button>
+        </div>
       </div>
       <div class="nova-filter-row" data-dim="betroffene">
         <span class="nova-filter-label">Betroffene</span>
-        <button type="button" data-dim="betroffene" data-val="Einsatzkräfte" aria-pressed="false">Einsatzkräfte</button>
-        <button type="button" data-dim="betroffene" data-val="Kinder-Jugendliche" aria-pressed="false">Kinder / Jugendliche</button>
-        <button type="button" data-dim="betroffene" data-val="Passanten" aria-pressed="false">Passanten</button>
-        <button type="button" data-dim="betroffene" data-val="Personal-Beschäftigte" aria-pressed="false">Personal / Beschäftigte</button>
-        <button type="button" data-dim="betroffene" data-val="Mehrere Gruppen" aria-pressed="false">Mehrere Gruppen</button>
+        <div class="nova-filter-chips">
+          <button type="button" data-dim="betroffene" data-val="Einsatzkräfte" aria-pressed="false">Einsatzkräfte</button>
+          <button type="button" data-dim="betroffene" data-val="Kinder-Jugendliche" aria-pressed="false">Kinder / Jugendliche</button>
+          <button type="button" data-dim="betroffene" data-val="Passanten" aria-pressed="false">Passanten</button>
+          <button type="button" data-dim="betroffene" data-val="Personal-Beschäftigte" aria-pressed="false">Personal / Beschäftigte</button>
+          <button type="button" data-dim="betroffene" data-val="Privatpersonen-Beziehungsumfeld" aria-pressed="false">Privatpersonen / Beziehungsumfeld</button>
+          <button type="button" data-dim="betroffene" data-val="Mehrere Gruppen" aria-pressed="false">Mehrere Gruppen</button>
+        </div>
       </div>
       <div class="nova-filter-row" data-dim="systemversagen">
         <span class="nova-filter-label">Systemversagen</span>
-        <button type="button" data-dim="systemversagen" data-val="keines" aria-pressed="false">Keines</button>
-        <button type="button" data-dim="systemversagen" data-val="Freispruch-Verfahrenseinstellung" aria-pressed="false">Freispruch / Verfahrenseinstellung</button>
-        <button type="button" data-dim="systemversagen" data-val="gescheiterte Unterbringung" aria-pressed="false">Gescheiterte Unterbringung</button>
-        <button type="button" data-dim="systemversagen" data-val="behördenbekannter Gefährder" aria-pressed="false">Behördenbekannter Gefährder</button>
-        <button type="button" data-dim="systemversagen" data-val="gescheiterte Abschiebung-Vollstreckung" aria-pressed="false">Gescheiterte Abschiebung / Vollstreckung</button>
+        <div class="nova-filter-chips">
+          <button type="button" data-dim="systemversagen" data-val="keines" aria-pressed="false">Keines</button>
+          <button type="button" data-dim="systemversagen" data-val="Freispruch-Verfahrenseinstellung" aria-pressed="false">Freispruch / Verfahrenseinstellung</button>
+          <button type="button" data-dim="systemversagen" data-val="gescheiterte Unterbringung" aria-pressed="false">Gescheiterte Unterbringung</button>
+          <button type="button" data-dim="systemversagen" data-val="behördenbekannter Gefährder" aria-pressed="false">Behördenbekannter Gefährder</button>
+          <button type="button" data-dim="systemversagen" data-val="gescheiterte Abschiebung-Vollstreckung" aria-pressed="false">Gescheiterte Abschiebung / Vollstreckung</button>
+        </div>
       </div>
     </div>
+
+    <p class="nova-legend"><span class="nova-mark">!</span> Fälle maximaler historischer Beispiellosigkeit</p>
 
     <div class="nova-count" id="nova-count"></div>
 
@@ -119,19 +131,27 @@
           <th class="nova-th-date">Datum</th>
           <th class="nova-th-ort">Ort</th>
           <th class="nova-th-title">Vorfall</th>
+          <th class="nova-th-mark"><span class="visually-hidden">Markierung</span></th>
         </tr>
       </thead>
       <tbody id="nova-tbody"></tbody>
     </table>
 
     <nav class="nova-pagination" id="nova-pagination" aria-label="Seitennavigation"></nav>
-    <p class="nova-legend">‡ Fälle maximaler historischer Beispiellosigkeit</p>
   </main>
 
   <div class="nova-space-modal" id="nova-space-modal" hidden role="dialog" aria-modal="true" aria-label="Latent Space in voller Größe">
     <div class="nova-space-modal-frame">
       <button class="nova-space-close" aria-label="Schließen">×</button>
       <div class="nova-space-stage nova-space-stage-full" id="nova-space-stage-full"></div>
+      <div class="nova-time" id="nova-time">
+        <button type="button" class="nova-time-play" id="nova-time-play" aria-label="Zeitachse abspielen" aria-pressed="false">
+          <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" hidden><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+        </button>
+        <input type="range" class="nova-time-slider" id="nova-time-slider" min="0" max="1000" value="1000" aria-label="Zeitachse" />
+        <span class="nova-time-year" id="nova-time-year"></span>
+      </div>
       <div class="nova-space-legend" id="nova-space-legend-full" role="group" aria-label="Fallarten (Tatmittel)"></div>
     </div>
   </div>
@@ -140,8 +160,8 @@
   <footer><a href="../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../site.js?v=7"></script>
   <script src="../search.js?v=3"></script>
-  <script src="data.js?v=3"></script>
-  <script src="nova.js?v=3"></script>
-  <script type="module" src="nova-space.js?v=1"></script>
+  <script src="data.js?v=5"></script>
+  <script src="nova.js?v=5"></script>
+  <script type="module" src="nova-space.js?v=3"></script>
 </body>
 </html>

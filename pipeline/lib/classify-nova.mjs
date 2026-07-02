@@ -35,6 +35,7 @@ export const MERKMALE_ENUMS = {
     'Kinder-Jugendliche',
     'Passanten',
     'Personal-Beschäftigte',
+    'Privatpersonen-Beziehungsumfeld',
     'Mehrere Gruppen',
   ],
   systemversagen: [
@@ -92,10 +93,13 @@ export const CLASSIFY_SYSTEM_PROMPT =
   'Wohnumfeld. Gerichtssäle und abstrakte Verfahrenskontexte: Sonstiges.\n' +
   '- betroffene: Die primär betroffene Gruppe. Polizei, Feuerwehr, ' +
   'Rettungskräfte im Einsatz: Einsatzkräfte. Minderjährige Opfer: Kinder-' +
-  'Jugendliche. Zufällig anwesende Unbeteiligte: Passanten. Angegriffene in ' +
-  'ihrer beruflichen Funktion (Klinikpersonal, Lehrer, Kontrolleure, ' +
-  'Zugbegleiter, Kassierer): Personal-Beschäftigte. Mehrere der genannten ' +
-  'Gruppen gleichrangig: Mehrere Gruppen.\n' +
+  'Jugendliche. Zufällig anwesende Unbeteiligte, wahllos getroffene Fremde: ' +
+  'Passanten. Angegriffene in ihrer beruflichen Funktion (Klinikpersonal, ' +
+  'Lehrer, Kontrolleure, Zugbegleiter, Kassierer): Personal-Beschäftigte. ' +
+  'Opfer aus dem privaten Nahfeld des Täters mit Vorbeziehung ((Ex-)Partner, ' +
+  'Angehörige, Nachbarn) sowie Schutzbefohlene in Obhutsverhältnissen ' +
+  '(Patienten, Gefangene, Betreute): Privatpersonen-Beziehungsumfeld. ' +
+  'Mehrere der genannten Gruppen gleichrangig: Mehrere Gruppen.\n' +
   '- systemversagen: Das im Text dokumentierte institutionelle Versagen. ' +
   'Freispruch, Verfahrenseinstellung, Verfahrensfehler, geplatzte Prozesse: ' +
   'Freispruch-Verfahrenseinstellung. Entlassung trotz Gefährlichkeit, ' +

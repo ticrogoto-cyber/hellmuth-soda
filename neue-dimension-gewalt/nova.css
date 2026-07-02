@@ -1,9 +1,20 @@
 /* Nova — Kriminologische Chronik (tabellarisches Layout) */
 
+:root {
+  /* Designrot: tiefes, gedecktes Karminrot Richtung dunkles Weinrot,
+     abgestimmt auf die Creme/Gold-Palette. Kein Signalrot. */
+  --nova-rot: #7b1f2a;
+}
+
 .nova-main {
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  /* Top-Padding kompensiert den fixierten .top-Header (wie auf den
+     übrigen Seiten). Ohne diesen Offset überdeckt der Header H1 und
+     Vorspann-Anfang: der Text scheint mitten im Satz zu beginnen.
+     Der Header ist auf Desktop bis zu 120px hoch (zwei Zeilen:
+     Titel + Menü); das Minimum muss darüber liegen. */
+  padding: clamp(8.5rem, 13vh, 11rem) 1.5rem 4rem;
   justify-content: flex-start;
   align-items: stretch;
 }
@@ -33,24 +44,58 @@
   margin: 0 0 0.8rem;
 }
 
-/* ── Filter (Chip-Stil der Zutaten-Indexseite) ────────────────────── */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Score-10-Symbol: Ausrufezeichen der Serifenschrift im Designrot,
+   leicht größer als der Tabellentext. Identisch in Tabelle und Legende. */
+.nova-mark {
+  font-family: 'Fournier Pro', serif;
+  color: var(--nova-rot);
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* Legende: oberhalb der Tabelle, zwischen Filterblock und Zähler. */
+.nova-legend {
+  font-size: 0.78rem;
+  color: #888;
+  margin: 0 0 0.8rem;
+}
+.nova-legend .nova-mark { margin-right: 0.35em; }
+
+/* ── Filter: zweispaltiges Grid, Labels links, Chips rechts ───────── */
 .nova-filter {
   margin: 0 0 2rem;
 }
 .nova-filter-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin: 0 0 10px;
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 0 12px;
+  align-items: start;
+  margin: 0 0 12px;
 }
+.nova-filter-row:last-child { margin-bottom: 0; }
 .nova-filter-label {
   font-family: 'Printvetica', sans-serif;
   font-size: 0.6rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
-  min-width: 8.5rem;
+  padding-top: 8px;
+}
+.nova-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
 }
 .nova-filter button {
   box-sizing: border-box;
@@ -80,37 +125,148 @@
   border-color: hsl(40, 18%, 22%);
   color: hsl(40, 22%, 96%);
 }
+
+/* ── Tabelle: strikt einzeilig, Symbol-Spalte rechts ─────────────── */
+.nova-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  /* Sanftes Scrollziel der Pagination unterhalb des fixierten Headers
+     (Headerhöhe bis 120px; Minimum liegt mit Luft darüber). */
+  scroll-margin-top: clamp(8.5rem, 13vh, 11rem);
+}
+
+.nova-table thead {
+  border-bottom: 2px solid #222;
+}
+
+.nova-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.5rem 0.6rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+.nova-table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: middle;
+}
+
+.nova-table tbody tr {
+  transition: background-color 0.12s;
+}
+
+.nova-table tbody tr:hover {
+  background: #f7f7f7;
+}
+
+.nova-th-date { width: 7rem; }
+.nova-th-ort { width: 9rem; }
+.nova-th-mark { width: 1.9rem; }
+
+.nova-td-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nova-td-title a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+.nova-td-title a:hover {
+  border-bottom-color: #222;
+}
+
+.nova-td-date {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: #888;
+  font-size: 0.82rem;
+}
+
+.nova-td-ort {
+  color: #666;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nova-td-mark {
+  text-align: center;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
 .nova-td-empty {
   text-align: center;
   font-style: italic;
   color: var(--muted);
   padding: 2.5rem 0.6rem !important;
+  white-space: normal;
+}
+
+/* Pagination */
+.nova-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  margin: 2rem 0 0;
+  flex-wrap: wrap;
+}
+
+.nova-pagination button {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #333;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.nova-pagination button:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+}
+
+.nova-pagination button[aria-current="page"] {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+  cursor: default;
+}
+
+.nova-pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
 }
 
 /* ── Latent Space (kompaktes Fenster) ─────────────────────────────── */
 .nova-space {
+  position: relative;
   border: 1px solid var(--line);
   background: var(--page-bg);
   margin: 0 0 2rem;
 }
-.nova-space-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.55rem 0.8rem;
-  border-bottom: 1px solid #e5e5e5;
-}
-.nova-space-title {
-  font-family: 'Printvetica', sans-serif;
-  font-size: 0.6rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
 .nova-space-expand {
-  background: none;
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  z-index: 3;
+  background: rgba(248, 248, 248, 0.85);
   border: none;
-  padding: 0.2rem;
+  padding: 0.3rem;
   cursor: pointer;
   color: var(--ink);
   display: flex;
@@ -153,16 +309,83 @@
 }
 .nova-space-legend button:hover { color: var(--ink); }
 .nova-space-legend button[aria-pressed="true"] {
-  color: var(--ink);
+  color: var(--nova-rot);
   text-decoration: underline;
   text-underline-offset: 0.25em;
   text-decoration-thickness: 1px;
 }
-.nova-space-dot {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
+
+/* Einzeilige Erklärung unter dem Kompaktfenster */
+.nova-space-note {
+  font-family: 'Printvetica', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #888;
+  margin: -1.4rem 0 2rem;
+}
+.nova-space-note[hidden] { display: none; }
+
+/* Zeitachse (nur im Overlay) */
+.nova-time {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  border-top: 1px solid #e5e5e5;
+}
+.nova-time-play {
+  background: none;
+  border: 1px solid var(--ink);
+  width: 1.9rem;
+  height: 1.9rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--ink);
   flex: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.nova-time-play:hover { background: var(--ink); color: var(--paper); }
+.nova-time-play svg { width: 0.85rem; height: 0.85rem; }
+/* [hidden] wirkt per UA-Stylesheet nicht auf SVG-Elemente */
+.nova-time-play svg[hidden] { display: none; }
+.nova-time-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  background: #d9d9d9;
+  outline: none;
+}
+.nova-time-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--ink);
+  border: none;
+  cursor: pointer;
+}
+.nova-time-slider::-moz-range-thumb {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--ink);
+  border: none;
+  cursor: pointer;
+}
+.nova-time-year {
+  font-family: 'Printvetica', sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+  min-width: 3.2em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Tooltip */
@@ -255,125 +478,15 @@
 }
 body.modal-open { overflow: hidden; }
 
-/* Tabelle */
-.nova-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.88rem;
-  line-height: 1.4;
-}
-
-.nova-table thead {
-  border-bottom: 2px solid #222;
-}
-
-.nova-table th {
-  text-align: left;
-  font-weight: 600;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0.5rem 0.6rem;
-  color: #666;
-  white-space: nowrap;
-}
-
-.nova-table td {
-  padding: 0.6rem;
-  border-bottom: 1px solid #e5e5e5;
-  vertical-align: top;
-}
-
-.nova-table tbody tr {
-  transition: background-color 0.12s;
-}
-
-.nova-table tbody tr:hover {
-  background: #f7f7f7;
-}
-
-.nova-th-date { width: 7rem; }
-.nova-th-ort { width: 8rem; }
-
-.nova-td-title a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.15s;
-}
-
-.nova-td-title a:hover {
-  border-bottom-color: #222;
-}
-
-.nova-td-date {
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-  color: #888;
-  font-size: 0.82rem;
-}
-
-.nova-td-ort {
-  color: #666;
-  font-size: 0.82rem;
-}
-
-.nova-dagger {
-  color: #888;
-  margin-left: 0.3em;
-}
-
-.nova-legend {
-  font-family: 'Printvetica', sans-serif;
-  font-size: 0.68rem;
-  color: #888;
-  letter-spacing: 0.06em;
-  margin: 1.5rem 0 0;
-  text-align: left;
-}
-
-/* Pagination */
-.nova-pagination {
-  display: flex;
-  justify-content: center;
-  gap: 0.3rem;
-  margin: 2rem 0 0;
-  flex-wrap: wrap;
-}
-
-.nova-pagination button {
-  background: none;
-  border: 1px solid #ddd;
-  padding: 0.35rem 0.65rem;
-  font-size: 0.82rem;
-  cursor: pointer;
-  border-radius: 3px;
-  color: #333;
-  transition: background 0.12s, border-color 0.12s;
-}
-
-.nova-pagination button:hover {
-  background: #f0f0f0;
-  border-color: #bbb;
-}
-
-.nova-pagination button[aria-current="page"] {
-  background: #222;
-  color: #fff;
-  border-color: #222;
-  cursor: default;
-}
-
-.nova-pagination button:disabled {
-  opacity: 0.4;
-  cursor: default;
-}
-
-/* ── Detailseite ─────────────────────────────────────────────────── */
+/* ── Detailseite: Nova-eigener Textsatz ───────────────────────────
+   Kleinere Schrift, großzügigerer Zeilenabstand, breiterer Spiegel
+   als bei den News. Übernommen aus dem News-Layout bleiben nur:
+   Quellen-Sektion, Mehrfachquellen, Prev/Next, Back-Link, Eyebrow-
+   Typografie (einzeilig). */
 .nova-detail {
-  --news-measure: 38rem;
+  --nova-measure: 46rem;
   width: 100%;
-  max-width: 720px;
+  max-width: 820px;
   margin: 0 auto;
   padding: clamp(8rem, 13vh, 11rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
   justify-content: flex-start;
@@ -381,37 +494,41 @@ body.modal-open { overflow: hidden; }
 }
 .nova-detail .news-eyebrow {
   font-family: 'Printvetica', sans-serif;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  font-size: 0.62rem;
+  font-size: 0.6rem;
   color: var(--muted);
   margin: 0 0 1.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 .nova-detail h1 {
   font-family: 'Fournier Pro', serif;
   font-weight: 400;
   letter-spacing: 0;
   text-transform: none;
-  font-size: clamp(1.6rem, 3.2vw, 2.3rem);
-  line-height: 1.18;
-  margin: 0 0 1.5rem;
-  max-width: var(--news-measure);
+  font-size: clamp(1.3rem, 2.3vw, 1.7rem);
+  line-height: 1.25;
+  margin: 0 0 1.4rem;
+  max-width: var(--nova-measure);
 }
 .nova-detail .news-lead {
   font-family: 'Fournier Pro', serif;
   font-style: italic;
-  font-size: clamp(1.05rem, 1.55vw, 1.2rem);
-  line-height: 1.5;
+  font-size: clamp(0.98rem, 1.3vw, 1.08rem);
+  line-height: 1.6;
   color: var(--ink);
-  margin: 0 0 2.25rem;
-  max-width: var(--news-measure);
+  margin: 0 0 2rem;
+  max-width: var(--nova-measure);
 }
 .nova-detail .news-body p {
   font-family: 'Fournier Pro', serif;
-  font-size: clamp(1rem, 1.4vw, 1.125rem);
-  line-height: 1.65;
-  margin: 0 0 1.4rem;
-  max-width: var(--news-measure);
+  font-size: clamp(0.9rem, 1.15vw, 0.98rem);
+  line-height: 1.78;
+  margin: 0 0 1.3rem;
+  max-width: var(--nova-measure);
 }
 .nova-detail .news-body p:last-child {
   margin-bottom: 0;
@@ -425,7 +542,7 @@ body.modal-open { overflow: hidden; }
   border-top: 1px solid var(--line);
   padding-top: 2rem;
   margin-top: 3rem;
-  max-width: var(--news-measure);
+  max-width: var(--nova-measure);
 }
 .nova-detail .news-source a {
   color: var(--ink);
@@ -451,7 +568,7 @@ body.modal-open { overflow: hidden; }
   margin-top: 2.25rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--line);
-  max-width: var(--news-measure);
+  max-width: var(--nova-measure);
 }
 .nova-detail .news-pn {
   display: flex;
@@ -483,7 +600,7 @@ body.modal-open { overflow: hidden; }
 
 /* Responsive */
 @media (max-width: 640px) {
-  .nova-main { padding: 1.2rem 1rem 3rem; }
+  .nova-main { padding: 6.5rem 1rem 3rem; }
   .nova-title { font-size: 1.3rem; }
   .nova-preface { font-size: 0.78rem; padding: 0.6rem 0.8rem; }
 
@@ -491,10 +608,19 @@ body.modal-open { overflow: hidden; }
   .nova-th-ort,
   .nova-td-ort { display: none; }
   .nova-th-date { width: 5.5rem; }
+  .nova-th-mark { width: 1.5rem; }
   .nova-table th { font-size: 0.68rem; padding: 0.4rem; }
   .nova-table td { padding: 0.45rem 0.4rem; }
 
-  .nova-filter-label { min-width: 100%; }
+  /* Filter: Labels über den Chips, gleiche Bündigkeit */
+  .nova-filter-row {
+    grid-template-columns: 1fr;
+    gap: 4px 0;
+    margin-bottom: 14px;
+  }
+  .nova-filter-label { padding-top: 0; }
+
+  .nova-detail .news-eyebrow { font-size: 0.52rem; letter-spacing: 0.18em; }
   .nova-space-stage { height: clamp(200px, 34vh, 280px); }
   .nova-space-stage-full { height: min(62vh, 34rem); }
 }
