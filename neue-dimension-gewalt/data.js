@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-01T23:56:53.608Z",
+  "generated": "2026-07-02T00:45:09.851Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -120,6 +120,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund/"
     },
     {
+      "title": "Freispruch im Eiskeller-Fall nach fatalen Ermittlungsfehlern in Aschau",
+      "date": "2025-11-25",
+      "created": "2026-07-02T01:30:00.000Z",
+      "slug": "freispruch-im-eiskeller-fall-nach-fatalen-ermittlungsfehlern-in-aschau",
+      "lead": "Der zweite Freispruch im Aschauer Eiskeller-Verfahren, bei dem die Staatsanwaltschaft selbst die Freisprechung beantragte, weil die Ermittlungsarbeit 'zahlreiche fatale Fehler' aufwies, dokumentiert den seltenen Fall einer Justiz, die ihr eigenes Versagen einräumt, nachdem ein Angeklagter zwei Jahre unschuldig in Haft saß.",
+      "source_name": "Legal Tribune Online",
+      "source_url": "https://www.lto.de/recht/nachrichten/n/402js4027622jug-lg-traunstein-eiskeller-mord-hanna",
+      "ort": "Aschau im Chiemgau, Bayern",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/freispruch-im-eiskeller-fall-nach-fatalen-ermittlungsfehlern-in-aschau/"
+    },
+    {
       "title": "Dreizehnjähriger schlägt Rentner auf Essener Spielplatz tot",
       "date": "2025-11-03",
       "created": "2026-07-01T22:42:00.000Z",
@@ -131,6 +144,19 @@ window.NOVA_DATA =
       "relevance": 8,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreizehnjahriger-schlagt-rentner-auf-essener-spielplatz-tot/"
+    },
+    {
+      "title": "Systematische Gefangenenmisshandlung im Frankfurter Polizeirevier",
+      "date": "2025-10-10",
+      "created": "2026-07-02T01:30:00.000Z",
+      "slug": "systematische-gefangenenmisshandlung-im-frankfurter-polizeirevier",
+      "lead": "Im selben Frankfurter Polizeirevier, das zuvor durch eine jahrelang betriebene rechtsextreme Chatgruppe auffiel, werden nun 20 Beamte wegen systematischer Misshandlung von mindestens sechs Festgenommenen ermittelt, wobei die institutionelle Wiederholung die Frage aufwirft, warum der erste Skandal keine strukturellen Reformen auslöste.",
+      "source_name": "hessenschau",
+      "source_url": "https://www.hessenschau.de/panorama/ermittlungen-gegen-17-polizisten-in-frankfurt-wegen-polizeigewalt-v11,durchsuchung-polizisten-100.html",
+      "ort": "Frankfurt am Main, Hessen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-im-frankfurter-polizeirevier/"
     },
     {
       "title": "Fahrzeug-Angriff auf Kirmes-Besucher in Niederdorla",
@@ -222,6 +248,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/soziale-medien-getriggerte-messerattacke-am-frankfurter-hauptbahnhof/"
+    },
+    {
+      "title": "Bewährungsstrafen für Gruppenvergewaltigung durch Verständigungsdeal in Fulda",
+      "date": "2025-06-15",
+      "created": "2026-07-02T01:30:00.000Z",
+      "slug": "bewaehrungsstrafen-fuer-gruppenvergewaltigung-durch-verstaendigungsdeal-in-fulda",
+      "lead": "Vier Täter wurden sechs Jahre nach der mehrfachen Vergewaltigung einer bewusstlosen Frau durch einen Verständigungsdeal zu Bewährungsstrafen verurteilt, wobei der Deal den Geständnissen einen Strafrahmen gegenüberstellte, der das Tatunrecht auf das Niveau eines schweren Diebstahls reduzierte.",
+      "source_name": "hessenschau",
+      "source_url": "https://www.hessenschau.de/panorama/frau-mehrfach-vergewaltigt-vier-maenner-zu-bewaehrungsstrafe-verurteilt-v1,urteil-vergewaltigungen-100.html",
+      "ort": "Fulda, Hessen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/bewaehrungsstrafen-fuer-gruppenvergewaltigung-durch-verstaendigungsdeal-in-fulda/"
     },
     {
       "title": "Massenconfrontation mit Waffenarsenal in Dortmund-Nordstadt",
@@ -872,6 +911,19 @@ window.NOVA_DATA =
       "relevance": 9,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-im-regionalzug-bei-brokstedt/"
+    },
+    {
+      "title": "Silvester-Hinterhalte auf Einsatzkräfte in Berlin",
+      "date": "2022-12-31",
+      "created": "2026-07-02T01:30:00.000Z",
+      "slug": "silvester-hinterhalte-auf-einsatzkraefte-in-berlin",
+      "lead": "Die taktische Struktur der Silvester-Angriffe 2022/23 in Berlin, bei denen Feuerwehrfahrzeuge durch brennende Barrikaden angelockt und von maskierten Gruppen systematisch geplündert und beschossen wurden, markiert den Übergang von spontaner Silvester-Aggression zu operativ geplanter Sabotage der Rettungsinfrastruktur.",
+      "source_name": "t-online",
+      "source_url": "https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html",
+      "ort": "Berlin-Neukölln",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/silvester-hinterhalte-auf-einsatzkraefte-in-berlin/"
     },
     {
       "title": "Erschießung eines Tankstellenkassierers wegen Maskenpflicht in Idar-Oberstein",
