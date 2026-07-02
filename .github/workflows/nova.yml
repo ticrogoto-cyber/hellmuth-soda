@@ -32,14 +32,24 @@ jobs:
     outputs:
       proceed: ${{ steps.check.outputs.proceed }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/triggers
+          sparse-checkout-cone-mode: false
+      # Gate-Quellen (ODER-verknüpft): Repo-Variable NOVA_CRON_ENABLED
+      # oder die eingecheckte Gate-Datei .github/triggers/nova-cron-enabled.
+      # Die Datei existiert, weil Workflow-Tokens (MCP wie GITHUB_TOKEN)
+      # die Variables-API nicht schreiben dürfen (403); die Variable
+      # bleibt als UI-Override vollwertig wirksam.
       - name: Cron-Gate
         id: check
         env:
           ENABLED: ${{ vars.NOVA_CRON_ENABLED }}
           EVENT: ${{ github.event_name }}
         run: |
-          if [ "${EVENT}" = "schedule" ] && [ "${ENABLED}" != "true" ]; then
-            MSG="Scheduled run SKIPPED — NOVA_CRON_ENABLED=${ENABLED:-unset} (set the repo variable NOVA_CRON_ENABLED=true to enable)"
+          FILE_ENABLED=$(tr -d '[:space:]' < .github/triggers/nova-cron-enabled 2>/dev/null || true)
+          if [ "${EVENT}" = "schedule" ] && [ "${ENABLED}" != "true" ] && [ "${FILE_ENABLED}" != "true" ]; then
+            MSG="Scheduled run SKIPPED — NOVA_CRON_ENABLED=${ENABLED:-unset}, Gate-Datei=${FILE_ENABLED:-unset} (Variable auf true setzen oder .github/triggers/nova-cron-enabled auf true)"
             echo "::warning::${MSG}"
             {
               echo "### Cron skipped"
@@ -48,7 +58,7 @@ jobs:
             } >> "$GITHUB_STEP_SUMMARY"
             echo "proceed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "Run proceeds (event=${EVENT}, NOVA_CRON_ENABLED=${ENABLED:-unset})" >> "$GITHUB_STEP_SUMMARY"
+            echo "Run proceeds (event=${EVENT}, NOVA_CRON_ENABLED=${ENABLED:-unset}, Gate-Datei=${FILE_ENABLED:-unset})" >> "$GITHUB_STEP_SUMMARY"
             echo "proceed=true" >> "$GITHUB_OUTPUT"
           fi
 
