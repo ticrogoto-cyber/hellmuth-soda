@@ -11,8 +11,10 @@
   margin: 0 auto;
   /* Top-Padding kompensiert den fixierten .top-Header (wie auf den
      übrigen Seiten). Ohne diesen Offset überdeckt der Header H1 und
-     Vorspann-Anfang: der Text scheint mitten im Satz zu beginnen. */
-  padding: clamp(7rem, 12vh, 10rem) 1.5rem 4rem;
+     Vorspann-Anfang: der Text scheint mitten im Satz zu beginnen.
+     Der Header ist auf Desktop bis zu 120px hoch (zwei Zeilen:
+     Titel + Menü); das Minimum muss darüber liegen. */
+  padding: clamp(8.5rem, 13vh, 11rem) 1.5rem 4rem;
   justify-content: flex-start;
   align-items: stretch;
 }
@@ -131,8 +133,9 @@
   border-collapse: collapse;
   font-size: 0.88rem;
   line-height: 1.4;
-  /* Sanftes Scrollziel der Pagination unterhalb des fixierten Headers */
-  scroll-margin-top: clamp(6rem, 10vh, 8rem);
+  /* Sanftes Scrollziel der Pagination unterhalb des fixierten Headers
+     (Headerhöhe bis 120px; Minimum liegt mit Luft darüber). */
+  scroll-margin-top: clamp(8.5rem, 13vh, 11rem);
 }
 
 .nova-table thead {
