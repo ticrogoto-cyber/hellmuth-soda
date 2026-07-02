@@ -4,9 +4,8 @@ date: "2025-02-02"
 created: "2026-07-01T21:39:05.021Z"
 slug: "messerangriff-auf-jugendlichen-an-bushaltestelle-in-erfurt"
 rubrik: "nova"
-source_url: "https://www.nius.de/kriminalitaet/news/erfurt-messerattacke-14-jaehriger-16-jaehriger-not-operation-bushaltestelle-vieselbach/1dba3f91-fa84-4af0-a23a-c00e098a892b"
-source_name: "NIUS"
-sources: [{"name":"NIUS","url":"https://www.nius.de/kriminalitaet/news/erfurt-messerattacke-14-jaehriger-16-jaehriger-not-operation-bushaltestelle-vieselbach/1dba3f91-fa84-4af0-a23a-c00e098a892b"},{"name":"Berliner Zeitung","url":"https://www.berliner-zeitung.de/news/erfurt-14-jaehriger-mit-messer-schwer-verletzt-notoperation-li.2292935"}]
+source_url: "https://www.berliner-zeitung.de/news/erfurt-14-jaehriger-mit-messer-schwer-verletzt-notoperation-li.2292935"
+source_name: "Berliner Zeitung"
 lead: "Die Tat markiert die Verschiebung lebensbedrohlicher Messergewalt in ein Alter, in dem das Strafrecht kaum Instrumente zur Gefahrenabwehr bereithält. Die Freilassung des Tatverdächtigen trotz beinahe tödlicher Verletzungen dokumentiert die Grenzen des Jugendstrafrechts."
 relevance: 7
 ort: "Erfurt-Vieselbach, Thüringen"

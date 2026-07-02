@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T12:10:32.444Z",
+  "generated": "2026-07-02T12:25:45.257Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -152,12 +152,12 @@ window.NOVA_DATA =
       "source_url": "https://aachen.t-online.de/region/aachen/id_101198490/ice-von-aachen-nach-frankfurt-mann-zuendet-sprengstoff-zwoelf-verletzte.html",
       "sources": [
         {
-          "name": "t-online Aachen",
-          "url": "https://aachen.t-online.de/region/aachen/id_101198490/ice-von-aachen-nach-frankfurt-mann-zuendet-sprengstoff-zwoelf-verletzte.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/mann-soll-vorher-mails-an-medien-geschickt-haben-20-jahriger-zundet-pyrotechnik-in-ice-und-droht-mit-anschlag-15433113.html"
+        },
+        {
+          "name": "t-online Aachen",
+          "url": "https://aachen.t-online.de/region/aachen/id_101198490/ice-von-aachen-nach-frankfurt-mann-zuendet-sprengstoff-zwoelf-verletzte.html"
         }
       ],
       "ort": "Siegburg, Nordrhein-Westfalen",
@@ -255,12 +255,12 @@ window.NOVA_DATA =
       "source_url": "https://homburg1.de/eskalation-bei-fahrkartenkontrolle-zugbegleiter-in-lebensgefahr-237815/",
       "sources": [
         {
-          "name": "Homburg1",
-          "url": "https://homburg1.de/eskalation-bei-fahrkartenkontrolle-zugbegleiter-in-lebensgefahr-237815/"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/reanimation-nach-fahrkartenkontrolle-26-jahriger-verprugelt-zugbegleiter-und-verletzt-ihn-lebensbedrohlich-15214595.html"
+        },
+        {
+          "name": "Homburg1",
+          "url": "https://homburg1.de/eskalation-bei-fahrkartenkontrolle-zugbegleiter-in-lebensgefahr-237815/"
         }
       ],
       "ort": "Landstuhl / Homburg, Rheinland-Pfalz",
@@ -292,12 +292,12 @@ window.NOVA_DATA =
       "source_url": "https://frankfurt.t-online.de/region/frankfurt-am-main/id_101064410/frankfurt-sanitaeter-in-silvesternacht-angegriffen-und-verletzt.html",
       "sources": [
         {
-          "name": "t-online / Tagesspiegel / komba NRW",
-          "url": "https://frankfurt.t-online.de/region/frankfurt-am-main/id_101064410/frankfurt-sanitaeter-in-silvesternacht-angegriffen-und-verletzt.html"
-        },
-        {
           "name": "hessenschau",
           "url": "https://www.hessenschau.de/panorama/silvester-bilanz-feuerwerk-angriffe-auf-einsatzkraefte-und-braende-v13,silvester-bilanz-106.html"
+        },
+        {
+          "name": "t-online / Tagesspiegel / komba NRW",
+          "url": "https://frankfurt.t-online.de/region/frankfurt-am-main/id_101064410/frankfurt-sanitaeter-in-silvesternacht-angegriffen-und-verletzt.html"
         }
       ],
       "ort": "Frankfurt, Berlin, Duisburg, Leipzig",
@@ -362,12 +362,12 @@ window.NOVA_DATA =
       "source_url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html",
       "sources": [
         {
-          "name": "t-online",
-          "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/strafunmundige-tatverdachtige-daumenstuck-mit-machete-abgetrennt-13-jahrige-im-verdacht-15008435.html"
+        },
+        {
+          "name": "t-online",
+          "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html"
         }
       ],
       "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
@@ -597,12 +597,12 @@ window.NOVA_DATA =
       "source_url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100923892/niederdorla-in-thueringen-mann-faehrt-mit-pick-up-truck-in-kirmes-verletzte.html",
       "sources": [
         {
-          "name": "t-online.de",
-          "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100923892/niederdorla-in-thueringen-mann-faehrt-mit-pick-up-truck-in-kirmes-verletzte.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/ermittlungen-mann-fahrt-bei-kirmes-auf-menschengruppe-zu--funf-verletzte-14363780.html"
+        },
+        {
+          "name": "t-online.de",
+          "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100923892/niederdorla-in-thueringen-mann-faehrt-mit-pick-up-truck-in-kirmes-verletzte.html"
         }
       ],
       "ort": "Niederdorla, Thüringen",
@@ -968,12 +968,12 @@ window.NOVA_DATA =
       "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html",
       "sources": [
         {
-          "name": "Tagesspiegel",
-          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html"
-        },
-        {
           "name": "ZDFheute",
           "url": "https://www.zdfheute.de/politik/deutschland/hamburg-hauptbahnhof-messerangriff-verletzte-100.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html"
         }
       ],
       "ort": "Hamburg",
@@ -1038,12 +1038,12 @@ window.NOVA_DATA =
       "source_url": "https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html",
       "sources": [
         {
-          "name": "Tagesspiegel",
-          "url": "https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html"
-        },
-        {
           "name": "ZDFheute",
           "url": "https://www.zdfheute.de/politik/deutschland/bielefeld-terroranschlag-fussballfans-urteil-oberlandesgericht-duesseldorf-100.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html"
         }
       ],
       "ort": "Bielefeld, Nordrhein-Westfalen",
@@ -1273,12 +1273,12 @@ window.NOVA_DATA =
       "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html",
       "sources": [
         {
-          "name": "Tagesspiegel",
-          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html"
-        },
-        {
           "name": "LTO",
           "url": "https://www.lto.de/recht/nachrichten/n/landgericht-mannheim-amokfahrt-rosenmontag-lebenslange-haft-unterbringung-psychiatrie"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html"
         }
       ],
       "ort": "Mannheim, Baden-Württemberg",
@@ -1343,12 +1343,12 @@ window.NOVA_DATA =
       "source_url": "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html",
       "sources": [
         {
-          "name": "Tagesspiegel",
-          "url": "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html"
-        },
-        {
           "name": "LTO",
           "url": "https://www.lto.de/recht/nachrichten/n/generalbundesanwalt-olg-muenchen-anklage-auto-menschengruppe-verdi-mord"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html"
         }
       ],
       "ort": "München, Bayern",
@@ -1376,13 +1376,9 @@ window.NOVA_DATA =
       "created": "2026-07-01T21:39:05.021Z",
       "slug": "messerangriff-auf-jugendlichen-an-bushaltestelle-in-erfurt",
       "lead": "Die Tat markiert die Verschiebung lebensbedrohlicher Messergewalt in ein Alter, in dem das Strafrecht kaum Instrumente zur Gefahrenabwehr bereithält. Die Freilassung des Tatverdächtigen trotz beinahe tödlicher Verletzungen dokumentiert die Grenzen des Jugendstrafrechts.",
-      "source_name": "NIUS",
-      "source_url": "https://www.nius.de/kriminalitaet/news/erfurt-messerattacke-14-jaehriger-16-jaehriger-not-operation-bushaltestelle-vieselbach/1dba3f91-fa84-4af0-a23a-c00e098a892b",
+      "source_name": "Berliner Zeitung",
+      "source_url": "https://www.berliner-zeitung.de/news/erfurt-14-jaehriger-mit-messer-schwer-verletzt-notoperation-li.2292935",
       "sources": [
-        {
-          "name": "NIUS",
-          "url": "https://www.nius.de/kriminalitaet/news/erfurt-messerattacke-14-jaehriger-16-jaehriger-not-operation-bushaltestelle-vieselbach/1dba3f91-fa84-4af0-a23a-c00e098a892b"
-        },
         {
           "name": "Berliner Zeitung",
           "url": "https://www.berliner-zeitung.de/news/erfurt-14-jaehriger-mit-messer-schwer-verletzt-notoperation-li.2292935"
@@ -1516,12 +1512,12 @@ window.NOVA_DATA =
       "source_url": "https://www.tagesspiegel.de/politik/hochststrafe-fur-anschlag-auf-weihnachtsmarkt-todesfahrer-von-magdeburg-zu-lebenslanger-haft-verurteilt-15761119.html",
       "sources": [
         {
-          "name": "Tagesspiegel",
-          "url": "https://www.tagesspiegel.de/politik/hochststrafe-fur-anschlag-auf-weihnachtsmarkt-todesfahrer-von-magdeburg-zu-lebenslanger-haft-verurteilt-15761119.html"
-        },
-        {
           "name": "ZDFheute",
           "url": "https://www.zdfheute.de/politik/deutschland/anschlag-magdeburger-weihnachtsmarkt-urteil-100.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/hochststrafe-fur-anschlag-auf-weihnachtsmarkt-todesfahrer-von-magdeburg-zu-lebenslanger-haft-verurteilt-15761119.html"
         }
       ],
       "ort": "Magdeburg, Sachsen-Anhalt",
@@ -1553,12 +1549,12 @@ window.NOVA_DATA =
       "source_url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html",
       "sources": [
         {
-          "name": "t-online",
-          "url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/berlin/justizpanne-um-gefahrlichen-vergewaltiger-in-berlin-verurteilter-kommt-trotz-hohem-hafturteil-frei--weil-ein-richter-akten-verschleppte-15237980.html"
+        },
+        {
+          "name": "t-online",
+          "url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html"
         }
       ],
       "ort": "Berlin",
@@ -1726,12 +1722,12 @@ window.NOVA_DATA =
       "source_url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100493332/thueringen-park-in-erfurt-einkaufszentrum-nach-angriff-evakuiert.html",
       "sources": [
         {
-          "name": "t-online",
-          "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100493332/thueringen-park-in-erfurt-einkaufszentrum-nach-angriff-evakuiert.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/grosseinsatz-in-erfurt-polizei-raumt-einkaufszentrum-nach-messer-streit-12403604.html"
+        },
+        {
+          "name": "t-online",
+          "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100493332/thueringen-park-in-erfurt-einkaufszentrum-nach-angriff-evakuiert.html"
         }
       ],
       "ort": "Erfurt, Thüringen",
@@ -1866,12 +1862,12 @@ window.NOVA_DATA =
       "source_url": "https://taz.de/Islamistischer-Angriff-2024/!6113174/",
       "sources": [
         {
-          "name": "taz",
-          "url": "https://taz.de/Islamistischer-Angriff-2024/!6113174/"
-        },
-        {
           "name": "ZDFheute",
           "url": "https://www.zdfheute.de/panorama/kriminalitaet/urteil-solingen-issa-al-hasan-100.html"
+        },
+        {
+          "name": "taz",
+          "url": "https://taz.de/Islamistischer-Angriff-2024/!6113174/"
         }
       ],
       "ort": "Solingen, Nordrhein-Westfalen",
@@ -1936,12 +1932,12 @@ window.NOVA_DATA =
       "source_url": "https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html",
       "sources": [
         {
-          "name": "foerde.news",
-          "url": "https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html"
-        },
-        {
           "name": "Presseportal / Polizeidirektion Flensburg",
           "url": "https://www.presseportal.de/blaulicht/pm/6313/5842709"
+        },
+        {
+          "name": "foerde.news",
+          "url": "https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html"
         }
       ],
       "ort": "Schleswig, Schleswig-Holstein",
@@ -2443,12 +2439,12 @@ window.NOVA_DATA =
       "source_url": "https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html",
       "sources": [
         {
-          "name": "t-online",
-          "url": "https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/aus-wut-und-rache-vier-manner-sollen-15-jahrigen-in-koln-entfuhrt-und-getotet-haben-12611945.html"
+        },
+        {
+          "name": "t-online",
+          "url": "https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html"
         }
       ],
       "ort": "Köln-Mülheim, Nordrhein-Westfalen",
@@ -2909,12 +2905,12 @@ window.NOVA_DATA =
       "source_url": "https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html",
       "sources": [
         {
-          "name": "t-online",
-          "url": "https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/gesellschaft/panorama/hintergrund-der-tat-unklar-todliche-messer-attacke-in-dresdner-strassenbahn-10115758.html"
+        },
+        {
+          "name": "t-online",
+          "url": "https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html"
         }
       ],
       "ort": "Dresden, Sachsen",
@@ -3280,12 +3276,12 @@ window.NOVA_DATA =
       "source_url": "https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html",
       "sources": [
         {
-          "name": "Tagesspiegel",
-          "url": "https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html"
-        },
-        {
           "name": "ZDFheute",
           "url": "https://www.zdfheute.de/panorama/kriminalitaet/brokstedt-zug-attentat-messer-ibrahim-100.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html"
         }
       ],
       "ort": "Brokstedt, Schleswig-Holstein",
@@ -3350,12 +3346,12 @@ window.NOVA_DATA =
       "source_url": "https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html",
       "sources": [
         {
-          "name": "t-online",
-          "url": "https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html"
-        },
-        {
           "name": "Tagesspiegel",
           "url": "https://www.tagesspiegel.de/berlin/ausschreitungen-an-silvester-in-berlin-neukolln-brennende-barrikaden-und-bollerwurfe-feuerwehrmann-schildert-angriffe-10430875.html"
+        },
+        {
+          "name": "t-online",
+          "url": "https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html"
         }
       ],
       "ort": "Berlin-Neukölln",

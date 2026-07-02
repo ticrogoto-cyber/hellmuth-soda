@@ -48,6 +48,12 @@
     return String(iso).slice(0, 10);
   }
 
+  // Ort in der Tabelle: nur Stadt/Stadtteil, kein Bundesland. Das
+  // Bundesland bleibt in den Daten und auf der Detailseite erhalten.
+  function ortShort(ort) {
+    return String(ort || '').split(',')[0].trim();
+  }
+
   // Filterzustand für die Latent-Space-Wolke publizieren: Tabelle und
   // Wolke zeigen dieselbe Menge (matched = null heißt: kein Filter aktiv).
   function publishFilterState() {
@@ -67,7 +73,11 @@
     renderPage(1);
   }
 
-  function renderPage(page) {
+  // Scroll-Verhalten: Filter-Interaktion verändert die Scroll-Position
+  // NICHT. Pagination scrollt maximal sanft zur Tabellen-Oberkante,
+  // nie zum Seitenanfang.
+  function renderPage(page, opts) {
+    opts = opts || {};
     currentPage = page;
     var start = (page - 1) * PER_PAGE;
     var slice = data.slice(start, start + PER_PAGE);
@@ -81,29 +91,35 @@
       tdDate.textContent = formatDate(item.date);
       var tdOrt = document.createElement('td');
       tdOrt.className = 'nova-td-ort';
-      tdOrt.textContent = item.ort || '';
+      tdOrt.textContent = ortShort(item.ort);
+      tdOrt.title = item.ort || '';
       var tdTitle = document.createElement('td');
       tdTitle.className = 'nova-td-title';
       var a = document.createElement('a');
       a.href = item.href;
       a.textContent = item.title;
+      a.title = item.title;
       tdTitle.appendChild(a);
+      var tdMark = document.createElement('td');
+      tdMark.className = 'nova-td-mark';
       if (item.relevance === 10) {
-        var dagger = document.createElement('span');
-        dagger.className = 'nova-dagger';
-        dagger.textContent = ' ‡';
-        tdTitle.appendChild(dagger);
+        var mark = document.createElement('span');
+        mark.className = 'nova-mark';
+        mark.textContent = '!';
+        mark.setAttribute('aria-label', 'Fall maximaler historischer Beispiellosigkeit');
+        tdMark.appendChild(mark);
       }
       tr.appendChild(tdDate);
       tr.appendChild(tdOrt);
       tr.appendChild(tdTitle);
+      tr.appendChild(tdMark);
       tbody.appendChild(tr);
     }
 
     if (!slice.length) {
       var trEmpty = document.createElement('tr');
       var tdEmpty = document.createElement('td');
-      tdEmpty.colSpan = 3;
+      tdEmpty.colSpan = 4;
       tdEmpty.className = 'nova-td-empty';
       tdEmpty.textContent = 'Keine Einträge mit dieser Merkmalskombination.';
       trEmpty.appendChild(tdEmpty);
@@ -119,12 +135,11 @@
     }
 
     renderPagination();
-    if (page > 1) {
-      location.hash = 'seite-' + page;
-    } else if (location.hash) {
-      history.replaceState(null, '', location.pathname + location.search);
+    history.replaceState(null, '', location.pathname + location.search + (page > 1 ? '#seite-' + page : ''));
+    if (opts.scroll === 'table') {
+      var table = document.getElementById('nova-table');
+      if (table) table.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function renderPagination() {
@@ -134,7 +149,7 @@
     var prev = document.createElement('button');
     prev.textContent = '←';
     prev.disabled = currentPage <= 1;
-    prev.addEventListener('click', function () { renderPage(currentPage - 1); });
+    prev.addEventListener('click', function () { renderPage(currentPage - 1, { scroll: 'table' }); });
     pagination.appendChild(prev);
 
     for (var p = 1; p <= totalPages; p++) {
@@ -142,7 +157,7 @@
       btn.textContent = p;
       if (p === currentPage) btn.setAttribute('aria-current', 'page');
       (function (pg) {
-        btn.addEventListener('click', function () { renderPage(pg); });
+        btn.addEventListener('click', function () { renderPage(pg, { scroll: 'table' }); });
       })(p);
       pagination.appendChild(btn);
     }
@@ -150,7 +165,7 @@
     var next = document.createElement('button');
     next.textContent = '→';
     next.disabled = currentPage >= totalPages;
-    next.addEventListener('click', function () { renderPage(currentPage + 1); });
+    next.addEventListener('click', function () { renderPage(currentPage + 1, { scroll: 'table' }); });
     pagination.appendChild(next);
   }
 

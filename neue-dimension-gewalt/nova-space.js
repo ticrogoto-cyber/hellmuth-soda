@@ -27,6 +27,9 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   };
   const FOG_COLOR = new THREE.Color('#f8f8f8');
   const INK = new THREE.Color('#1c1c1c');
+  // Designrot aus der CSS-Variable (Hervorhebung aktiver Auswahl).
+  const rotVar = getComputedStyle(document.documentElement).getPropertyValue('--nova-rot').trim();
+  const ROT = new THREE.Color(rotVar || '#7b1f2a');
   const DIM_FILTER = 0.08;
   const DIM_LEGEND = 0.12;
 
@@ -50,11 +53,16 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     return st && st.matched instanceof Set ? st.matched : null;
   };
 
-  function currentAlpha(p) {
+  // Zustand eines Punkts: Opazität plus Rot-Markierung. Bei aktiver
+  // Auswahl (Filter oder Legende) färben sich betroffene Punkte im
+  // Designrot, nicht betroffene bleiben abgeblendet grau.
+  function currentState(p) {
     const matched = filterMatched();
-    const fA = matched === null || matched.has(p.slug) ? 1 : DIM_FILTER;
-    const lA = highlighted === null || (p.merkmale && p.merkmale.tatmittel === highlighted) ? 1 : DIM_LEGEND;
-    return Math.min(fA, lA);
+    const fOk = matched === null || matched.has(p.slug);
+    const lOk = highlighted === null || (p.merkmale && p.merkmale.tatmittel === highlighted);
+    const selectionActive = matched !== null || highlighted !== null;
+    const alpha = Math.min(fOk ? 1 : DIM_FILTER, lOk ? 1 : DIM_LEGEND);
+    return { alpha, hot: selectionActive && fOk && lOk ? 1 : 0 };
   }
 
   function setHighlight(cat) {
@@ -79,6 +87,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
   const VERT = `
     attribute float aSize;
     attribute float aAlpha;
+    attribute float aHot;
     attribute float aBirth;
     attribute float aIndex;
     uniform float uScale;
@@ -88,6 +97,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     uniform float uPulseIndex;
     uniform float uPulseAmp;
     varying float vAlpha;
+    varying float vHot;
     varying float vFogDepth;
     void main() {
       vec4 mv = modelViewMatrix * vec4(position, 1.0);
@@ -96,23 +106,27 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       float size = aSize * (1.0 + isPulse * uPulseAmp);
       gl_PointSize = size * uScale * uPixelRatio / max(0.12, -mv.z);
       vAlpha = aAlpha * fadeIn;
+      vHot = aHot;
       vFogDepth = -mv.z;
       gl_Position = projectionMatrix * mv;
     }`;
   const FRAG = `
     precision mediump float;
     uniform vec3 uColor;
+    uniform vec3 uHotColor;
     uniform vec3 uFogColor;
     uniform float uFogNear;
     uniform float uFogFar;
     varying float vAlpha;
+    varying float vHot;
     varying float vFogDepth;
     void main() {
       float d = distance(gl_PointCoord, vec2(0.5));
       float disc = smoothstep(0.5, 0.16, d);
       if (disc * vAlpha < 0.01) discard;
       float fogF = smoothstep(uFogNear, uFogFar, vFogDepth);
-      vec3 col = mix(uColor, uFogColor, fogF * 0.72);
+      vec3 base = mix(uColor, uHotColor, vHot);
+      vec3 col = mix(base, uFogColor, fogF * 0.72 * (1.0 - vHot * 0.5));
       gl_FragColor = vec4(col, disc * vAlpha * 0.9);
     }`;
 
@@ -185,23 +199,27 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       const pos = new Float32Array(n * 3);
       const size = new Float32Array(n);
       const alpha = new Float32Array(n);
+      const hot = new Float32Array(n);
       const birthA = new Float32Array(n);
       const indexA = new Float32Array(n);
       pts.forEach((p, i) => {
         pos.set(p.coords, i * 3);
         size[i] = p.relevance === 10 ? 1.75 : 1.0;
         alpha[i] = 1.0;
+        hot[i] = 0.0;
         birthA[i] = birth[i];
         indexA[i] = i;
       });
       geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
       geo.setAttribute('aSize', new THREE.BufferAttribute(size, 1));
       geo.setAttribute('aAlpha', new THREE.BufferAttribute(alpha, 1));
+      geo.setAttribute('aHot', new THREE.BufferAttribute(hot, 1));
       geo.setAttribute('aBirth', new THREE.BufferAttribute(birthA, 1));
       geo.setAttribute('aIndex', new THREE.BufferAttribute(indexA, 1));
 
       this.uniforms = {
         uColor: { value: INK },
+        uHotColor: { value: ROT },
         uFogColor: { value: FOG_COLOR },
         uFogNear: { value: 1 },
         uFogFar: { value: 6 },
@@ -223,6 +241,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       this.points.renderOrder = 1;
       this.group.add(this.points);
       this.alphaAttr = geo.getAttribute('aAlpha');
+      this.hotAttr = geo.getAttribute('aHot');
 
       // Bodengitter als räumlicher Anker, kaum sichtbar.
       const grid = new THREE.GridHelper(3.4, 17, 0xe7e7e7, 0xeeeeee);
@@ -300,8 +319,13 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     }
 
     updateAlphas() {
-      pts.forEach((p, i) => { this.alphaAttr.array[i] = currentAlpha(p); });
+      pts.forEach((p, i) => {
+        const st = currentState(p);
+        this.alphaAttr.array[i] = st.alpha;
+        this.hotAttr.array[i] = st.hot;
+      });
       this.alphaAttr.needsUpdate = true;
+      this.hotAttr.needsUpdate = true;
     }
 
     syncLegend() {
