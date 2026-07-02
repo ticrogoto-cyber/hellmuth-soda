@@ -25,4 +25,4 @@ Der Kurfürstendamm, eine der meistfrequentierten Einkaufsstraßen Berlins, war 
 
 Die Berliner Innenverwaltung kündigte nach der Tat eine Ausweitung des Pollerprogramms an. Die Umsetzung verlief schleppend. Sechs Jahre nach dem Breitscheidplatz und im selben Jahr wie der Kurfürstendamm-Angriff verfügten die meisten Berliner Fußgängerzonen und Flaniermeilen weiterhin über keinen physischen Schutz gegen Fahrzeugeinbrüche. Die Kosten pro Polleranlage und die Zuständigkeitsfragen zwischen Bezirken und Senat verlangsamten ein Programm, das nach jedem Angriff als dringend bezeichnet wurde.
 
-Ein Gehsteig ohne Poller ist kein Versäumnis, sondern eine Einladung, die nur deshalb nicht als solche gilt, weil der nächste Angriff noch nicht stattgefunden hat.
+Ein Gehsteig ohne Poller ist eine Einladung, die nur deshalb nicht als solche gilt, weil der nächste Angriff noch nicht stattgefunden hat.

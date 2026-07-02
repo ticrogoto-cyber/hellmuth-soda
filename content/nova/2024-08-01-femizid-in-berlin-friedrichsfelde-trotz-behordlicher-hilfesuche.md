@@ -15,7 +15,7 @@ merkmale: {"tatmittel": "Messer", "tatkontext": "Wohnumfeld", "betroffene": "Pri
 
 *Die Frau suchte Hilfe bei den Institutionen, die sie schützen sollten. Sie fand sie nicht.*
 
-Der Femizid von Berlin-Friedrichsfelde ist kriminologisch anomal, weil er die gesamte Kette institutioneller Schutzinstrumente als wirkungslos dokumentiert, nicht in der Theorie, sondern am konkreten Fall einer Frau, die aktiv um Hilfe nachgesucht hatte. Am 1. August 2024 wurde eine 28-Jährige mit einem Messer vor ihrer Wohnung von ihrem ehemaligen Partner getötet. Das Opfer hatte sich zuvor an die Behörden gewandt und Schutz erbeten.
+Der Femizid von Berlin-Friedrichsfelde ist kriminologisch anomal, weil er die gesamte Kette institutioneller Schutzinstrumente am konkreten Fall einer Frau, die aktiv um Hilfe nachgesucht hatte, als wirkungslos dokumentiert. Am 1. August 2024 wurde eine 28-Jährige mit einem Messer vor ihrer Wohnung von ihrem ehemaligen Partner getötet. Das Opfer hatte sich zuvor an die Behörden gewandt und Schutz erbeten.
 
 Der Fall wurde zu einem prominenten Beispiel in der bundesweiten Femizid-Debatte, weil er das zentrale Argument der Interventionsforschung in seiner schärfsten Form bestätigt. Die Gefährdung war bekannt, die Betroffene war kooperativ, die Instrumente waren verfügbar. Dennoch starb sie. Das deutsche Recht hält für solche Konstellationen ein abgestuftes Arsenal an Schutzmaßnahmen bereit: das Gewaltschutzgesetz mit seiner Möglichkeit der Wohnungszuweisung und des Kontaktverbots, die polizeiliche Gefährdungsansprache gegenüber dem potenziellen Täter, Beratungsangebote und in Extremfällen die Unterbringung in einem Frauenhaus. Im Fall Friedrichsfelde griffen diese Instrumente nicht oder nicht rechtzeitig.
 

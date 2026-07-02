@@ -13,7 +13,7 @@ press_review: false
 merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["Verstümmelung"]}
 ---
 
-*74 Messerstiche und keine Anklage. Nicht weil Beweise fehlen, sondern weil das Recht die Frage nicht stellt.*
+*74 Messerstiche und keine Anklage. An Beweisen fehlt es nicht. Das Recht stellt die Frage nicht.*
 
 Am 11. März 2023 wurde ein zwölfjähriges Mädchen in Freudenberg als vermisst gemeldet. Am Folgetag fand die Polizei ihren Leichnam an einem Hang in einem Waldstück nahe der Stadt. Die Obduktion ergab 74 Stichverletzungen. Zwei Mädchen, zwölf und dreizehn Jahre alt, gestanden die Tat. Chat-Protokolle belegten, dass der Angriff geplant war. Das Ermittlungsverfahren wurde eingestellt, weil beide Beschuldigte unter der Strafmündigkeitsgrenze des § 19 StGB lagen.
 
@@ -25,4 +25,4 @@ Der Fall löste eine bundesweite Debatte über die Absenkung der Strafmündigkei
 
 Das deutsche Jugendstrafrecht kennt für Kinder unter 14 Jahren, die schwerste Gewalttaten begehen, weder eine strafrechtliche noch eine ausreichend verbindliche präventiv-therapeutische Antwort. Die familienrechtliche Unterbringung, das einzige verfügbare Instrument, ist in ihrer Dauer nicht an die Schwere der Tat gekoppelt, sondern an den therapeutischen Fortschritt der Betroffenen. Sie kann enden, sobald ein Gutachter die Rückkehr in die Regelbetreuung empfiehlt.
 
-Freudenberg zeigte nicht, dass das Strafmündigkeitsalter falsch ist. Es zeigte, dass das System für den Fall, dass es richtig ist und trotzdem eine geplante Tötung geschieht, keine Antwort bereithält.
+Freudenberg zeigte, dass das System selbst dann keine Antwort bereithält, wenn das Strafmündigkeitsalter richtig ist und trotzdem eine geplante Tötung geschieht.

@@ -25,4 +25,4 @@ Das Jugendstrafrecht steht bei solchen Taten vor einem strukturellen Dilemma. Es
 
 Hinzu kommt die Tatwaffe. Das Messer hat sich in der deutschen Gewaltkriminalität zum dominanten Instrument entwickelt, doch seine Verwendung durch 14-Jährige in einem letalen Gruppenkontext verschiebt die Parameter. Die Hemmschwelle, die ein Minderjähriger überwinden muss, um einem Menschen ein Messer in den Rücken zu stoßen, ist entwicklungspsychologisch kaum zu modellieren, weil die empirische Basis fehlt. Was bleibt, ist die Feststellung eines Phänomens, für das weder die Kriminologie noch das Strafrecht eine fertige Sprache haben.
 
-Die Oberhausener Tat steht nicht für einen Trend, dessen Kurve man extrapolieren könnte. Sie steht für einen Punkt, an dem die Kategorien selbst versagen. Es ist ein Doppelmord, zu jung für die Statistik und zu schwer für das Gesetz, das seine Urheber richten soll.
+Die Oberhausener Tat steht für einen Punkt, an dem die Kategorien selbst versagen, nicht für einen Trend, dessen Kurve man extrapolieren könnte. Es ist ein Doppelmord, zu jung für die Statistik und zu schwer für das Gesetz, das seine Urheber richten soll.
