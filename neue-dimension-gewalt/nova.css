@@ -4,6 +4,8 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 .nova-title {
@@ -23,6 +25,7 @@
   color: #555;
 }
 .nova-preface p { margin: 0; }
+.nova-preface p + p { margin-top: 0.6rem; }
 
 .nova-count {
   font-size: 0.78rem;
@@ -69,14 +72,6 @@
 
 .nova-th-date { width: 7rem; }
 .nova-th-ort { width: 8rem; }
-.nova-th-score { width: 3.5rem; text-align: center; }
-
-.nova-td-score {
-  text-align: center;
-  font-variant-numeric: tabular-nums;
-  font-weight: 500;
-  color: #888;
-}
 
 .nova-td-title a {
   color: inherit;
@@ -99,6 +94,20 @@
 .nova-td-ort {
   color: #666;
   font-size: 0.82rem;
+}
+
+.nova-dagger {
+  color: #888;
+  margin-left: 0.3em;
+}
+
+.nova-legend {
+  font-family: 'Printvetica', sans-serif;
+  font-size: 0.68rem;
+  color: #888;
+  letter-spacing: 0.06em;
+  margin: 1.5rem 0 0;
+  text-align: left;
 }
 
 /* Pagination */
@@ -138,18 +147,119 @@
   cursor: default;
 }
 
-/* Detail page */
-.nova-detail .news-body p { margin: 0 0 0.9rem; }
-.nova-detail .news-lead { font-style: italic; }
-
-/* Source rule */
-hr.nova-source-rule {
-  border: none;
-  border-top: 1px solid #d0d0d0;
-  margin: 2rem 0 0.8rem;
+/* ── Detailseite ─────────────────────────────────────────────────── */
+.nova-detail {
+  --news-measure: 38rem;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(8rem, 13vh, 11rem) clamp(1.5rem, 6vw, 4rem) clamp(2rem, 6vw, 5rem);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.nova-detail .news-eyebrow {
+  font-family: 'Printvetica', sans-serif;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  color: var(--muted);
+  margin: 0 0 1.25rem;
+}
+.nova-detail h1 {
+  font-family: 'Fournier Pro', serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+  line-height: 1.18;
+  margin: 0 0 1.5rem;
+  max-width: var(--news-measure);
+}
+.nova-detail .news-lead {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.55vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 2.25rem;
+  max-width: var(--news-measure);
+}
+.nova-detail .news-body p {
+  font-family: 'Fournier Pro', serif;
+  font-size: clamp(1rem, 1.4vw, 1.125rem);
+  line-height: 1.65;
+  margin: 0 0 1.4rem;
+  max-width: var(--news-measure);
+}
+.nova-detail .news-body p:last-child {
+  margin-bottom: 0;
+}
+.nova-detail .news-source {
+  font-family: 'Printvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 2rem;
+  margin-top: 3rem;
+  max-width: var(--news-measure);
+}
+.nova-detail .news-source a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+.nova-detail .news-back {
+  margin-top: 2.5rem;
+}
+.nova-detail .news-back a {
+  font-family: 'Fournier Pro', serif;
+  font-style: italic;
+  color: var(--muted);
+  text-decoration: none;
+}
+.nova-detail .news-back a:hover {
+  color: var(--ink);
+}
+.nova-detail .news-prevnext {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 2.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  max-width: var(--news-measure);
+}
+.nova-detail .news-pn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: var(--ink);
+  max-width: 47%;
+}
+.nova-detail .news-pn-next { text-align: right; margin-left: auto; }
+.nova-detail .news-pn-empty { visibility: hidden; }
+.nova-detail .news-pn-dir {
+  font-family: 'Printvetica', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.62rem;
+  color: var(--muted);
+}
+.nova-detail .news-pn-title {
+  font-family: 'Fournier Pro', serif;
+  font-size: 0.98rem;
+  line-height: 1.25;
+}
+.nova-detail .news-pn:hover .news-pn-title {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
 }
 
-/* Responsive: stack on small screens */
+/* Responsive */
 @media (max-width: 640px) {
   .nova-main { padding: 1.2rem 1rem 3rem; }
   .nova-title { font-size: 1.3rem; }
@@ -159,7 +269,6 @@ hr.nova-source-rule {
   .nova-th-ort,
   .nova-td-ort { display: none; }
   .nova-th-date { width: 5.5rem; }
-  .nova-th-score { width: 2.8rem; }
   .nova-table th { font-size: 0.68rem; padding: 0.4rem; }
   .nova-table td { padding: 0.45rem 0.4rem; }
 }

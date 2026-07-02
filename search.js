@@ -95,7 +95,8 @@
           });
         }
       }
-      return items;
+      // Nova-Inhalte sind von der internen Suche dauerhaft ausgeschlossen.
+      return items.filter(it => !it.url || !String(it.url).startsWith('/neue-dimension-gewalt/'));
     })();
     return indexPromise;
   }

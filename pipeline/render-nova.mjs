@@ -15,6 +15,8 @@ const CONTENT = join(ROOT, 'content', 'nova');
 const PAGE_DIR = join(ROOT, 'neue-dimension-gewalt');
 
 const MAX_ITEMS = 500;
+const MAX_DAILY_ITEMS = 10;
+const SOURCE_BLACKLIST = ['wikipedia.org'];
 
 const SITE = 'https://hellmuth-soda.de';
 const SITE_NAME = 'Hellmuth';
@@ -37,7 +39,20 @@ function readingLabel(min) {
   return min < 1 ? 'unter 1 Min.' : `${min} Min.`;
 }
 
-const FM_KEYS = ['title', 'date', 'created', 'slug', 'rubrik', 'source_url', 'source_name', 'lead', 'relevance', 'ort', 'press_review'];
+function isBlacklistedSource(url) {
+  try {
+    const host = new URL(url).hostname;
+    return SOURCE_BLACKLIST.some(b => host === b || host.endsWith('.' + b));
+  } catch { return false; }
+}
+
+function getSources(rec) {
+  if (Array.isArray(rec.sources) && rec.sources.length) return rec.sources;
+  if (rec.source_url && rec.source_name) return [{ name: rec.source_name, url: rec.source_url }];
+  return [];
+}
+
+const FM_KEYS = ['title', 'date', 'created', 'slug', 'rubrik', 'source_url', 'source_name', 'sources', 'lead', 'relevance', 'ort', 'press_review'];
 
 function serialize(rec) {
   const lines = ['---'];
@@ -123,7 +138,7 @@ function rssFeed(items) {
     <title>Kriminologische Nova in Deutschland</title>
     <link>${SITE}/neue-dimension-gewalt/</link>
     <atom:link href="${SITE}/neue-dimension-gewalt/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Strukturelle Anomalien in der Gewaltkriminalität seit 2023.</description>
+    <description>Strukturelle Anomalien in der Gewaltkriminalität seit 2020.</description>
     <language>de</language>
     <lastBuildDate>${now}</lastBuildDate>
 ${body}
@@ -153,6 +168,8 @@ function detailHtml(rec, nav) {
     .map((p) => `<p>${inlineMarkdown(p)}</p>`)
     .join('\n        ');
   const readTime = readingLabel(readingMinutes(rec.body));
+  const sources = getSources(rec);
+  const sourceLinks = sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a>`).join(', ');
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -168,7 +185,7 @@ function detailHtml(rec, nav) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=9" />
 ${seoHead(rec)}
   <link rel="stylesheet" href="../../styles.css?v=14" />
-  <link rel="stylesheet" href="../nova.css?v=1" />
+  <link rel="stylesheet" href="../nova.css?v=2" />
 </head>
 <body>
   <header class="top">
@@ -198,8 +215,7 @@ ${seoHead(rec)}
       <div class="news-body">
         ${bodyHtml}
       </div>
-      <hr class="nova-source-rule" />
-      <p class="news-source">Quelle: <a href="${esc(rec.source_url)}" target="_blank" rel="noopener nofollow">${esc(rec.source_name)}</a></p>${prevNextHtml(nav)}
+      <p class="news-source">Quelle: ${sourceLinks}</p>${prevNextHtml(nav)}
       <p class="news-back"><a href="../">← Alle Einträge</a></p>
     </article>
   </main>
@@ -228,7 +244,12 @@ function readAll() {
   return out.slice(0, MAX_ITEMS);
 }
 
-export function writeItem({ title, lead, body, sourceUrl, sourceName, relevance = null, date, ort = null, pressReview = false }) {
+let _runWriteCount = 0;
+
+export function writeItem({ title, lead, body, sourceUrl, sourceName, sources = null, relevance = null, date, ort = null, pressReview = false }) {
+  if (isBlacklistedSource(sourceUrl)) throw new Error(`Blacklisted source: ${sourceUrl}`);
+  if (sources) for (const src of sources) if (isBlacklistedSource(src.url)) throw new Error(`Blacklisted source: ${src.url}`);
+  if (++_runWriteCount > MAX_DAILY_ITEMS) throw new Error(`Run cap of ${MAX_DAILY_ITEMS} entries reached`);
   const d = date || isoDate();
   const s = slug(title) || slug(sourceName + '-' + d);
   const rec = {
@@ -239,6 +260,7 @@ export function writeItem({ title, lead, body, sourceUrl, sourceName, relevance 
     rubrik: 'nova',
     source_url: sourceUrl,
     source_name: sourceName,
+    sources: sources || null,
     lead,
     relevance,
     ort,
@@ -259,6 +281,7 @@ function dataJs(all) {
     lead: rec.lead,
     source_name: rec.source_name,
     source_url: rec.source_url,
+    sources: getSources(rec),
     ort: rec.ort || null,
     relevance: rec.relevance || null,
     minutes: readingMinutes(rec.body),

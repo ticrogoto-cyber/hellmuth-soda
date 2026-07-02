@@ -1,5 +1,3 @@
-// Client-side rendering for Nova (Kriminologische Chronik).
-// Reads window.NOVA_DATA, renders the table with pagination (40 per page).
 (function () {
   'use strict';
   var PER_PAGE = 40;
@@ -14,7 +12,6 @@
   var totalPages = Math.ceil(data.length / PER_PAGE);
   var currentPage = 1;
 
-  // Parse page from URL hash
   var hashPage = parseInt(location.hash.replace('#seite-', ''), 10);
   if (hashPage > 0 && hashPage <= totalPages) currentPage = hashPage;
 
@@ -43,13 +40,15 @@
       a.href = item.href;
       a.textContent = item.title;
       tdTitle.appendChild(a);
-      var tdScore = document.createElement('td');
-      tdScore.className = 'nova-td-score';
-      tdScore.textContent = item.relevance != null ? item.relevance : '';
+      if (item.relevance === 10) {
+        var dagger = document.createElement('span');
+        dagger.className = 'nova-dagger';
+        dagger.textContent = ' ‡';
+        tdTitle.appendChild(dagger);
+      }
       tr.appendChild(tdDate);
       tr.appendChild(tdOrt);
       tr.appendChild(tdTitle);
-      tr.appendChild(tdScore);
       tbody.appendChild(tr);
     }
 

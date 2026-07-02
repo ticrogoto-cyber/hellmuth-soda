@@ -1,8 +1,8 @@
 ---
-title: "Massenconfrontation mit Waffenarsenal in Dortmund-Nordstadt"
+title: "Massenkonfrontation mit Waffenarsenal in Dortmund-Nordstadt"
 date: "2025-05-26"
 created: "2026-07-01T20:14:30.530Z"
-slug: "massenconfrontation-mit-waffenarsenal-in-dortmund-nordstadt"
+slug: "massenkonfrontation-mit-waffenarsenal-in-dortmund-nordstadt"
 rubrik: "nova"
 source_url: "https://rundblick-unna.de/2026/05/27/gewalteskalation-in-do-nord-mit-messern-machete-axt-schusswaffe-sieben-beteiligte-mehrere-hundert-gaffer/"
 source_name: "Rundblick Unna"
