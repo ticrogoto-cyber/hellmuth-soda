@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T01:12:48.165Z",
+  "generated": "2026-07-02T01:39:53.961Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -146,6 +146,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund/"
     },
     {
+      "title": "Notwehr-Freispruch nach 38 Messerstichen im Mainzer Hartenbergpark",
+      "date": "2025-11-27",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "notwehr-freispruch-nach-38-messerstichen-im-mainzer-hartenbergpark",
+      "lead": "Das Landgericht Mainz sprach einen 29-Jährigen vom Vorwurf des Totschlags frei, der im Hartenbergpark einen Mann mit 38 Messerstichen getötet hatte, wobei das Gericht Notwehr nach § 32 StGB anerkannte und der Fall die Grenzfrage aufwarf, ob das deutsche Notwehrrecht eine quantitative Obergrenze tödlicher Gewalt kennt oder ob die Zahl der Stiche irrelevant ist, solange die subjektive Gefahrenlage fortbesteht.",
+      "source_name": "Rhein-Zeitung",
+      "source_url": "https://www.rhein-zeitung.de/rheinland-pfalz/38-messerstiche-in-mainzer-park-angeklagter-freigesprochen_arid-4086249.html",
+      "ort": "Mainz, Rheinland-Pfalz",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/notwehr-freispruch-nach-38-messerstichen-im-mainzer-hartenbergpark/"
+    },
+    {
       "title": "Freispruch im Eiskeller-Fall nach fatalen Ermittlungsfehlern in Aschau",
       "date": "2025-11-25",
       "created": "2026-07-02T01:30:00.000Z",
@@ -222,6 +235,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeug-angriff-auf-kirmes-besucher-in-niederdorla/"
+    },
+    {
+      "title": "Islamistischer Messerangriff in Essen nach Ausspähung der Alten Synagoge",
+      "date": "2025-09-05",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "islamistischer-messerangriff-in-essen-nach-ausspaehung-der-alten-synagoge",
+      "lead": "Ein 17-jähriger Schüler verletzte am 5. September 2025 an einem Berufskolleg in Essen eine Lehrerin mit einem Messer und stach auf der Flucht auf einen Mann ein, wobei der Generalbundesanwalt eine islamistisch-jihadistische Motivation feststellte und die Ermittlungen ergaben, dass der Angreifer die Alte Synagoge in Essen zuvor zweimal aufgesucht hatte, um dort nach jüdischen Opfern zu suchen, was den Angriff auf die Schule als Ausweichziel eines gescheiterten antisemitischen Anschlags qualifizierte.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/politik/nach-messerangriff-auf-lehrerin-in-essen-generalbundesanwalt-ubernimmt-ermittlungen--tat-aus-radikal-islamistischer-uberzeugung-14313485.html",
+      "ort": "Essen, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/islamistischer-messerangriff-in-essen-nach-ausspaehung-der-alten-synagoge/"
     },
     {
       "title": "Messerattacke an Leipziger Zentralhaltestelle",
@@ -653,6 +679,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/saureattacke-auf-nachbarn-in-stralsund/"
     },
     {
+      "title": "Islamistischer Anschlag auf das israelische Generalkonsulat in München",
+      "date": "2024-09-05",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "islamistischer-anschlag-auf-das-israelische-generalkonsulat-in-muenchen",
+      "lead": "Ein 18-Jähriger schoss am 52. Jahrestag des Olympia-Attentats von 1972 mit einem historischen Repetiergewehr auf das israelische Generalkonsulat und das NS-Dokumentationszentrum in München, wurde von der Polizei erschossen und hatte zuvor ein Waffenverbot durch den Erwerb einer altersbedingt weniger regulierten Waffe umgangen, wobei der Fall die Grenzen der grenzüberschreitenden Gefahrenabwehr bei radikalisierten Einzeltätern offenlegte.",
+      "source_name": "Bayerische Polizei",
+      "source_url": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/081776/index.html",
+      "ort": "München, Bayern",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/islamistischer-anschlag-auf-das-israelische-generalkonsulat-in-muenchen/"
+    },
+    {
       "title": "Hochzeitsfeier endet in Massenschlägerei mit Messereinsatz in Wuppertal",
       "date": "2024-08-31",
       "created": "2026-07-01T21:39:05.020Z",
@@ -887,6 +926,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/messerangriff-in-regionalbahn-bei-niederlahnstein/"
     },
     {
+      "title": "Tötung eines minderjährigen Zeugen nach Aussage gegen Drogenhandel in Köln-Mülheim",
+      "date": "2024-03-10",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "toetung-eines-minderjaehrigen-zeugen-nach-aussage-gegen-drogenhandel-in-koeln-muelheim",
+      "lead": "Vier Männer töteten einen 15-Jährigen am Mülheimer Hafen in Köln, der als Drogenkurier für sie gearbeitet und nach seiner Festnahme gegen zwei der Täter ausgesagt hatte, wobei der Jugendliche trotz seiner Zeugenaussage in einem laufenden Strafverfahren keinerlei Zeugenschutzmaßnahmen erhalten hatte und der Fall die systematische Schutzlücke für minderjährige Zeugen in der deutschen Strafjustiz dokumentierte.",
+      "source_name": "t-online",
+      "source_url": "https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html",
+      "ort": "Köln-Mülheim, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toetung-eines-minderjaehrigen-zeugen-nach-aussage-gegen-drogenhandel-in-koeln-muelheim/"
+    },
+    {
       "title": "Schulattacke am Wilhelm-Dörpfeld-Gymnasium in Wuppertal",
       "date": "2024-02-22",
       "created": "2026-07-01T20:14:30.528Z",
@@ -913,6 +965,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/doppelmord-am-oberhausener-hauptbahnhof-durch-minderjahrige/"
     },
     {
+      "title": "Femizid an einer Schülerin am Löwenrot-Gymnasium in St. Leon-Rot",
+      "date": "2024-01-25",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "femizid-an-einer-schuelerin-am-loewenrot-gymnasium-in-st-leon-rot",
+      "lead": "Ein 18-Jähriger erstach am 25. Januar 2024 seine ehemalige Freundin am Löwenrot-Gymnasium in St. Leon-Rot, obwohl die Polizei nach einer Anzeige im November 2023 eine Gefährderansprache durchgeführt, das Jugendamt interveniert und die Schule Kontaktbeschränkungen verhängt hatte, wobei der Fall die strukturelle Unmöglichkeit offenlegte, Opfer und Täter innerhalb derselben Institution gleichzeitig zu unterrichten und zu schützen.",
+      "source_name": "ka-news",
+      "source_url": "https://www.ka-news.de/region/karlsruhe/toedlicher-messerangriff-schuelerin-in-st-leon-rot-getoetet-das-ist-zur-tat-bekannt-18-4-24-art-3080300",
+      "ort": "St. Leon-Rot, Baden-Württemberg",
+      "relevance": 8,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/femizid-an-einer-schuelerin-am-loewenrot-gymnasium-in-st-leon-rot/"
+    },
+    {
       "title": "Gewalt in der Notaufnahme des Sana-Klinikums Berlin",
       "date": "2024-01-01",
       "created": "2026-07-01T21:39:05.016Z",
@@ -924,6 +989,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gewalt-in-der-notaufnahme-des-sana-klinikums-berlin/"
+    },
+    {
+      "title": "Aufdeckung eines Hamas-Waffennetzwerks mit Anschlagszielen in Berlin und Ramstein",
+      "date": "2023-12-14",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "aufdeckung-eines-hamas-waffennetzwerks-mit-anschlagszielen-in-berlin-und-ramstein",
+      "lead": "Die Bundesanwaltschaft ließ am 14. Dezember 2023 in Berlin und Rotterdam vier Mitglieder der Hamas festnehmen, die über Waffendepots in Bulgarien, Polen und Dänemark verfügten und Anschläge auf die israelische Botschaft in Berlin sowie den US-Militärstützpunkt Ramstein geplant hatten, wobei das Berliner Kammergericht im März 2026 erstmals in der deutschen Rechtsgeschichte die Zugehörigkeit zur Hamas als strafbare Mitgliedschaft in einer terroristischen Vereinigung nach § 129b StGB einstufte.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/berlin/hamas-waffenlager-in-europa-berliner-kammergericht-verurteilt-vier-mitglieder-der-terrormiliz-zu-haftstrafen-15397776.html",
+      "ort": "Berlin",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/aufdeckung-eines-hamas-waffennetzwerks-mit-anschlagszielen-in-berlin-und-ramstein/"
     },
     {
       "title": "Koordinierte Anschlagsserie auf Synagogen in Nordrhein-Westfalen",
@@ -1017,6 +1095,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/freispruch-trotz-gestandnis-vor-us-militargericht-in-wittlich/"
     },
     {
+      "title": "Maskierter Überfall auf jugendliche Geflüchtete in einer Unterkunft in Sebnitz",
+      "date": "2023-07-22",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "maskierter-ueberfall-auf-jugendliche-gefluechtete-in-einer-unterkunft-in-sebnitz",
+      "lead": "Vier Maskierte überfielen am 22. Juli 2023 zwei jugendliche Bewohner einer Geflüchtetenunterkunft in Sebnitz mit Metallrohr, Hammer und Schlagring, wobei einer der Angreifer ein T-Shirt mit Reichsflagge trug und die Anklage am Amtsgericht Pirna auf gefährliche Körperverletzung und Volksverhetzung lautete, während die Opferberatung RAA Sachsen für 2023 insgesamt 248 rechtsmotivierte Angriffe im Freistaat dokumentierte.",
+      "source_name": "taz",
+      "source_url": "https://taz.de/Ueberfall-auf-Migranten-in-Sachsen/!5946384/",
+      "ort": "Sebnitz, Sachsen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/maskierter-ueberfall-auf-jugendliche-gefluechtete-in-einer-unterkunft-in-sebnitz/"
+    },
+    {
       "title": "Tödlicher Messerangriff in Dresdner Straßenbahn",
       "date": "2023-07-08",
       "created": "2026-07-02T03:00:00.000Z",
@@ -1067,6 +1158,19 @@ window.NOVA_DATA =
       "relevance": 10,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/handgranatenwurf-auf-trauerfeier-in-altbach/"
+    },
+    {
+      "title": "Rassistischer Mordversuch durch Schuss durch die Wohnungstür in Hamburg-Niendorf",
+      "date": "2023-05-27",
+      "created": "2026-07-02T04:00:00.000Z",
+      "slug": "rassistischer-mordversuch-durch-schuss-durch-die-wohnungstuer-in-hamburg-niendorf",
+      "lead": "Ein 48-Jähriger schoss am Abend des 27. Mai 2023 mit einem Winchestergewehr durch die geschlossene Wohnungstür seiner schwangeren Nachbarin in Hamburg-Niendorf, wobei die Kugel die Tür durchschlug und nur durch Zufall niemanden traf, und bei der Wohnungsdurchsuchung SS-Runen, ein Hitlerporträt sowie Material des Ku-Klux-Klan gefunden wurden, während Polizei und Wohnungsgesellschaft die monatelangen rassistischen Drohungen des Täters zuvor als Nachbarschaftsstreit eingeordnet hatten.",
+      "source_name": "taz",
+      "source_url": "https://taz.de/Prozess-wegen-versuchten-Mordes/!5971205/",
+      "ort": "Hamburg-Niendorf, Hamburg",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/rassistischer-mordversuch-durch-schuss-durch-die-wohnungstuer-in-hamburg-niendorf/"
     },
     {
       "title": "Benzin-Brandanschlag auf neun Einsatzkräfte bei Wohnungskontrolle in Ratingen",
