@@ -12,7 +12,7 @@ ort: "Würselen, Nordrhein-Westfalen"
 press_review: false
 ---
 
-*Die Tode fielen erst auf, als der Pfleger in den Urlaub ging. Vorher galten sie als Palliativmedizin.*
+*Die Todesfälle fielen erst auf, als der Pfleger in den Urlaub ging. Vorher galten sie als Palliativmedizin.*
 
 Am 5. November 2025 verurteilte das Landgericht Aachen einen 44-jährigen Krankenpfleger zu lebenslanger Freiheitsstrafe wegen zehnfachen Mordes und 27-fachen Mordversuchs. Das Gericht stellte die besondere Schwere der Schuld fest und verhängte ein lebenslanges Berufsverbot. Die Taten ereigneten sich zwischen Dezember 2023 und Mai 2024 auf der Palliativstation des Rhein-Maas-Klinikums in Würselen bei Aachen.
 
