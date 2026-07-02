@@ -6,6 +6,7 @@ slug: "silvester-hinterhalte-auf-einsatzkraefte-in-berlin"
 rubrik: "nova"
 source_url: "https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/berlin/ausschreitungen-an-silvester-in-berlin-neukolln-brennende-barrikaden-und-bollerwurfe-feuerwehrmann-schildert-angriffe-10430875.html"}]
 lead: "Die taktische Struktur der Silvester-Angriffe 2022/23 in Berlin, bei denen Feuerwehrfahrzeuge durch brennende Barrikaden angelockt und von maskierten Gruppen systematisch geplündert und beschossen wurden, markiert den Übergang von spontaner Silvester-Aggression zu operativ geplanter Sabotage der Rettungsinfrastruktur."
 relevance: 9
 ort: "Berlin-Neukölln"

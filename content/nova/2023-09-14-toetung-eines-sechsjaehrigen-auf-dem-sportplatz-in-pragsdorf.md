@@ -22,6 +22,6 @@ Kommunale Frühwarnsysteme für jugendliche Gewalttäter existieren in Deutschla
 
 Die Verhaftung des Tatverdächtigen erst zwölf Tage nach der Tat warf zusätzliche Fragen auf. Die Ermittlungsbehörden begründeten die Verzögerung mit dem Stand der Beweissicherung. Für die Bewohner des Ortes, die den Jugendlichen kannten und die Tat einem begrenzten Personenkreis zuordnen konnten, war die Zeitspanne zwischen Tat und Festnahme eine eigene Form der Unsicherheit.
 
-Der Fall Pragsdorf gehört zu einer Reihe von Tötungsdelikten durch Jugendliche in Deutschland, die ein gemeinsames Defizit teilen. Die Warnsignale waren vorhanden. Sie waren sogar sichtbar. Aber sie lagen in einem Raum, den keine Institution systematisch erfasst: unterhalb der strafrechtlichen Schwelle, außerhalb der schulischen Zuständigkeit, jenseits der aktiven Fallerkennung des Jugendamts.
+Der Fall Pragsdorf gehört zu einer Reihe von Tötungsdelikten durch Jugendliche in Deutschland, die ein gemeinsames Defizit teilen. Die Warnsignale waren vorhanden. Sie waren sogar sichtbar. Aber sie lagen in einem Raum, den keine Institution systematisch erfasst. Sie fielen unterhalb der strafrechtlichen Schwelle, außerhalb der schulischen Zuständigkeit, jenseits der aktiven Fallerkennung des Jugendamts.
 
 Was ein Dorf weiß und was ein Amt weiß, sind zwei Wissensstände, die sich in Pragsdorf nicht berührten. Die Lücke dazwischen hatte die Größe eines Kinderlebens.
