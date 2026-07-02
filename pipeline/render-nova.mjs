@@ -242,6 +242,19 @@ function readAll() {
   return out.slice(0, MAX_ITEMS);
 }
 
+/**
+ * Leichte Bestandsliste für den Fall-Dedup: Titel, Ort, Datum, Slug aller
+ * dokumentierten Einträge (neueste zuerst).
+ */
+export function listExisting() {
+  return readAll().map((r) => ({
+    title: r.title,
+    ort: r.ort || null,
+    date: r.date || null,
+    slug: r.slug,
+  }));
+}
+
 let _runWriteCount = 0;
 
 export function writeItem({ title, lead, body, sourceUrl, sourceName, sources = null, relevance = null, date, ort = null, pressReview = false, merkmale = null }) {

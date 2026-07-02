@@ -4,7 +4,10 @@ on:
   schedule:
     - cron: "17 22 * * *"
   # Manueller Anstoß ohne UI-Zugriff: Commit auf die Marker-Datei
-  # .github/triggers/nova-run (z. B. Zeitstempel ändern) startet den Lauf.
+  # .github/triggers/nova-run startet den Lauf. Beginnt ihr Inhalt mit
+  # "dry", läuft der Push-Trigger als Dry-Run (nichts wird geschrieben,
+  # seen-State bleibt unberührt); jeder andere Inhalt = echter Lauf.
+  # Cron-Läufe sind davon unabhängig immer echte Läufe.
   push:
     branches: [main]
     paths: [".github/triggers/nova-run"]
@@ -80,6 +83,24 @@ jobs:
         working-directory: pipeline
         run: npm install --no-audit --no-fund
 
+      # Dry-Run-Quellen: workflow_dispatch-Input oder (bei Push-Triggern)
+      # Marker-Datei-Inhalt, der mit "dry" beginnt. Cron läuft immer echt.
+      - name: Lauf-Modus bestimmen
+        id: mode
+        shell: bash
+        env:
+          EVENT: ${{ github.event_name }}
+          INPUT_DRY: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '0' }}
+        run: |
+          DRY=0
+          if [ "${EVENT}" = "workflow_dispatch" ]; then
+            DRY="${INPUT_DRY}"
+          elif [ "${EVENT}" = "push" ] && head -c 16 .github/triggers/nova-run 2>/dev/null | grep -qi '^dry'; then
+            DRY=1
+          fi
+          echo "dry=${DRY}" >> "$GITHUB_OUTPUT"
+          echo "Lauf-Modus: DRY_RUN=${DRY} (event=${EVENT})"
+
       - name: Pipeline-Lauf
         working-directory: pipeline
         shell: bash
@@ -88,7 +109,7 @@ jobs:
           NEWS_USER_AGENT: "hellmuth-news-bot/1.0 (+https://hellmuth-soda.de)"
           RELEVANCE_THRESHOLD: "7"
           MAX_NEW_PER_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.max_new || '5' }}
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true && '1' || '0' }}
+          DRY_RUN: ${{ steps.mode.outputs.dry }}
         run: |
           set -eo pipefail
           if [ -z "${ANTHROPIC_API_KEY}" ]; then
