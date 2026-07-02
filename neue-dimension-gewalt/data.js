@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T14:52:07.145Z",
+  "generated": "2026-07-02T23:37:03.971Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
