@@ -4978,6 +4978,240 @@
       "rubrik": "science",
       "score": 8,
       "published": true
+    },
+    "eb31626ea12bf042cf027ac579ba9892e4ce415861f735306b1b5d23940f54b7": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/07/01/how-nestle-calbee-and-kfc-turned-crises-into-marketing-wins/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:22.302Z"
+    },
+    "e7e3d230648b2b7fc4ee22bd7651b38a9f33cf6fb83a7e27b36f9109d916a29b": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/02/bone-broth-breaks-out-of-the-soup-bowl/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:32.979Z"
+    },
+    "33b2eac0e997108528b86c7a3306b9b6f396855a4a375a81bcf85c841a64804d": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/02/us-reclassification-of-cannabis-opens-new-opportunities-for-beverage-innovation/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:35.725Z"
+    },
+    "68c0c5c90804efc38722b3b30bda653bf2b2b8fba925b573b3ada26846015593": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/01/brewdog-ceo-james-taylor-exits-following-tilray-takeover-last-year/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:38.657Z"
+    },
+    "ae3ac795187f3134f723c5cfc2a36224c8a6fe9a8707b737ea6ff544cce30872": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/the-big-interview-costcos-chad-sokol/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:44.070Z"
+    },
+    "6247ecad0c7d4eafae16e3077d2ffe57637b868b31ad39c222bb825374f6cf48": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/top-10-oldest-wineries-and-distilleries-in-us/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:45.896Z"
+    },
+    "f7254dba77b66b9ad1970aa12a8cca46378ba15c36da17fac134a27f91688837": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/jacobs-creek-launches-new-campaign-for-modern-relevance/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:47.616Z"
+    },
+    "5137ce64ae0e6aa5b670c7fbf45aa5eac7f688e42d27a5ec94e0e8535cf9f76c": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/former-bakewell-bank-reopens-as-restaurant-after-2-6m-revamp/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:49.956Z"
+    },
+    "e6280372f5d2879ec25d9e1a4093d262126af2350537467dd72042f50c0d7d96": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/beer-considered-to-be-most-american-of-drinks/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:51.867Z"
+    },
+    "a32ced8743d334ad9c6895d63d09c4231594a1bf40258a45db75f9121c4a6df9": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/beer-hour-lotte-peplow/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:53.743Z"
+    },
+    "c6ebc7db2e98706a98b750e7878935a87227f8348788068d6f65b85735169f0f": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/champagne-on-course-for-earliest-harvest-start-date-in-regions-history/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:56.154Z"
+    },
+    "559f910dd5cbf84c69ac3b8376b286618829344c58f5164f03704f7ca14b93b2": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/aldi-launches-its-chicken-wine-dupe-in-magnum/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:32:58.369Z"
+    },
+    "72ff59ceecea3ef152cdf0e9d4b003ad44929e846949239a153f80865f434dab": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/digital-id-to-be-accepted-for-uk-alcohol-sales/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:00.539Z"
+    },
+    "2f9ab25f97c7cbea9e4dadca934c5d0d70449630be937e21b4b0cfcf5b481769": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/relighting-a-passion-wine-and-america-on-a-milestone-anniversary/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:02.478Z"
+    },
+    "e40b55703bdadd6d3532347f7fb897c492e678a084ada7ff94690d7842a22bba": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/diageo-sale-of-east-african-breweries-is-on-the-rocks/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:04.699Z"
+    },
+    "847dd293d2d5f4b1724547a2cd298e0bff12f2d930e5300f9012a99a774a3c88": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/lcbs-jane-renwick-on-empowering-women-in-drinks-logistics/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:06.943Z"
+    },
+    "cd0593730a2a8a30aa03e4e93ed5e718af7f1ced9f208cb5ece551cc2eb09d5c": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/valdo-celebrates-100-years-as-a-prosecco-superiore-pioneer/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:08.816Z"
+    },
+    "2accf2ec626ca75f7c2cafcbdd8643c58dcf90520c355fdfc39308e0ebc7c4f8": {
+      "url": "https://www.fooddive.com/news/caffeine-labeling-fda-guidance-celsius-alani-nu/824355/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:11.539Z"
+    },
+    "99bedd7218aac928f18d955afab2134346ea68bdbadac93010a9bc7c7a72b14b": {
+      "url": "https://www.fooddive.com/news/general-mills-3b-cost-cuts-consumer-inflation/824321/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:13.671Z"
+    },
+    "489f73cfd00cb3fbc45514ea3b7648841ecbb98f252e32d895edf9b47a1d2c76": {
+      "url": "https://www.fooddive.com/news/consumer-sentiment-record-low-prospect-lower-inflation-fed/824316/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:15.847Z"
+    },
+    "21ff6de8023543b35679eb03df6f0ded48926212b4c22c31ad9c697a5b0d578a": {
+      "url": "https://www.fooddive.com/news/food-beverage-america-250-product-launches/824333/",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:18.007Z"
+    },
+    "b93964aad9ef6a17c328b260c0cba0c43e416c9078d9ca5add365071827ccc80": {
+      "url": "https://www.bevnet.com/news/2026/new-non-alc-bevs-bfy-soda-and-pickle-lemonade-at-summer-fancy-food-show",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "8942012294ab049c468640a47e09a722c163cf6fab07dc3c9512e37bb020d50e": {
+      "url": "https://www.bevnet.com/news/2026/inside-trips-breakout-brand-channel-strategy",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "078d8d46bd9d63fb308a19d02a6693a111a4b43657663c8a8e30b09a3508a199": {
+      "url": "https://www.bevnet.com/news/2026/new-beverages-huel-grows-daily-greens-stumptowns-sky-brew-red-bull-x-nascar",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:33:55.300Z"
+    },
+    "cc3ebf872173d5155c15cb5157d33bcd6e794569a8ef71f11bdc628574735edc": {
+      "url": "https://www.bevnet.com/spirits/2026/zero-proof-playbook-soft-bar-on-what-sustains-a-non-alc-third-space",
+      "date": "2026-07-02",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "441ee8c300a65761ad888aeb547dd3f36bdc2e3445630ea480619232b81b8c25": {
+      "url": "https://doi.org/10.4103/npmj.npmj_272_25",
+      "date": "2026-07-02",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:34:20.006Z"
+    },
+    "2729b3faff2b8f91b0190b22781679ee2c922fee047ec73aa5a7fb4c5a7aeffa": {
+      "url": "https://doi.org/10.1111/adb.70174",
+      "date": "2026-07-02",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "5fe10f5550cfa7d2cfd375e393e7c828d83e45269fde929d4ada6cedfcde7d25": {
+      "url": "https://doi.org/10.4103/indianjpsychiatry_765_25",
+      "date": "2026-07-02",
+      "rubrik": "science",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-07-09T23:34:33.214Z"
+    },
+    "111039d60c2e3661ac7d6b0a79d20b78a3023b7837869a12f712aa1570be9dbd": {
+      "url": "https://doi.org/10.1038/s41398-026-04069-4",
+      "date": "2026-07-02",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "651a8bb992928eba8a99d257e4fa704ef6b8c53a24f93ef7e97c87786bc8863b": {
+      "url": "https://doi.org/10.12740/PP/202518",
+      "date": "2026-07-02",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
     }
   }
 }

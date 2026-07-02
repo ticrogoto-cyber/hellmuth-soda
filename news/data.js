@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-01T23:53:30.335Z",
+  "generated": "2026-07-02T23:35:05.895Z",
   "hellmuth": [
+    {
+      "title": "Was eine alkoholfreie Bar am Leben hält",
+      "date": "2026-07-02",
+      "created": "2026-07-02T23:34:11.460Z",
+      "slug": "was-eine-alkoholfreie-bar-am-leben-halt",
+      "rubrik": "hellmuth",
+      "lead": "Die alkoholfreie Bar ist kein Konzept mehr, sondern ein Betrieb mit eigener Ökonomie.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/zero-proof-playbook-soft-bar-on-what-sustains-a-non-alc-third-space",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/"
+    },
+    {
+      "title": "Trip verlässt den Wellness-Sammeltopf",
+      "date": "2026-07-02",
+      "created": "2026-07-02T23:33:52.850Z",
+      "slug": "trip-verlasst-den-wellness-sammeltopf",
+      "rubrik": "hellmuth",
+      "lead": "Die britische CBD-Marke Trip ordnet sich neu, weg vom diffusen »Better-for-you«, hin zu funktionaler Entspannung als eigener Kategorie.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/inside-trips-breakout-brand-channel-strategy",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/trip-verlasst-den-wellness-sammeltopf/"
+    },
+    {
+      "title": "Fancy Food Show, das Ende der Nische",
+      "date": "2026-07-02",
+      "created": "2026-07-02T23:33:35.873Z",
+      "slug": "fancy-food-show-das-ende-der-nische",
+      "rubrik": "hellmuth",
+      "lead": "Alkoholfreie Getränke sind auf der Summer Fancy Food Show in New York keine Kuriosität mehr, sondern eine eigene Halle.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-non-alc-bevs-bfy-soda-and-pickle-lemonade-at-summer-fancy-food-show",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/fancy-food-show-das-ende-der-nische/"
+    },
     {
       "title": "MiXery streicht Alkohol und Zucker aus dem Biermisch",
       "date": "2026-07-01",
@@ -970,6 +1012,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Bupropion gegen Mephedron-Craving",
+      "date": "2026-07-02",
+      "created": "2026-07-02T23:35:05.857Z",
+      "slug": "bupropion-gegen-mephedron-craving",
+      "rubrik": "science",
+      "lead": "Ein Fallbericht aus Polen dockt eine synthetische Cathinon-Sucht an ein Antidepressivum an, das für Nikotin gebaut wurde.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.12740/PP/202518",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/bupropion-gegen-mephedron-craving/"
+    },
+    {
+      "title": "Zwei Wege ins Tryptophan",
+      "date": "2026-07-02",
+      "created": "2026-07-02T23:34:51.472Z",
+      "slug": "zwei-wege-ins-tryptophan",
+      "rubrik": "science",
+      "lead": "Methamphetamin und MDMA teilen sich das Stimulanzien-Etikett, aber nicht die Biochemie ihrer Schäden.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s41398-026-04069-4",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/zwei-wege-ins-tryptophan/"
+    },
+    {
+      "title": "Kognition nach dem letzten Glas",
+      "date": "2026-07-02",
+      "created": "2026-07-02T23:34:31.077Z",
+      "slug": "kognition-nach-dem-letzten-glas",
+      "rubrik": "science",
+      "lead": "Wer aufhört zu trinken, bekommt sein Gehirn nicht automatisch zurück.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/adb.70174",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/kognition-nach-dem-letzten-glas/"
+    },
     {
       "title": "Vier Kohorten, ein Datensatz, bescheidene Effekte",
       "date": "2026-07-01",
