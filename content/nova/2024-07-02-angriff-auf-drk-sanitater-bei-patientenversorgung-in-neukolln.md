@@ -6,7 +6,7 @@ slug: "angriff-auf-drk-sanitater-bei-patientenversorgung-in-neukolln"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/berlin/sanitater-musste-ins-krankenhaus-rettungskrafte-bei-einsatz-in-berlin-neukolln-angegriffen-11952593.html"
 source_name: "Der Tagesspiegel"
-lead: "Unbeteiligte Umstehende transformierten sich bei sichtbar benigner Notfallversorgung zu Angreifern gegen einen erkennbar gekennzeichneten Rettungssanitäter — die Hilfeleistung selbst wurde zum Auslöser der Gewalt."
+lead: "Unbeteiligte Umstehende transformierten sich bei sichtbar benigner Notfallversorgung zu Angreifern gegen einen erkennbar gekennzeichneten Rettungssanitäter. Die Hilfeleistung selbst wurde zum Auslöser der Gewalt."
 relevance: 7
 ort: "Berlin-Neukölln"
 press_review: false
@@ -14,7 +14,7 @@ press_review: false
 
 *Wenn die Rettung selbst zum Angriffsziel wird, kollabiert die Grundvoraussetzung jeder Notfallversorgung.*
 
-Die Attacke in der Neuköllner Fuldastraße ist kriminologisch anomal, weil sie keine nachvollziehbare Interessenkollision zwischen Angreifern und Opfer aufweist. Gegen Mitternacht am 2. Juli 2024 untersuchte ein DRK-Sanitäter eine am Boden liegende, bewusstlose Frau auf offener Straße. Der Sanitäter trug erkennbare Dienstkleidung, die ihn eindeutig als Rettungskraft kennzeichnete. Die Hilfeleistung war sichtbar benign, keine Festnahme, kein Eingriff in private Sphären, keine hoheitliche Maßnahme, sondern medizinische Versorgung einer hilflosen Person. Dennoch griffen unbeteiligte Umstehende den Sanitäter an und verletzten ihn am Kopf und am Ohr so schwer, dass er selbst im Krankenhaus behandelt werden musste. Er fiel für den Rest seiner Schicht aus. Die Polizei nahm Ermittlungen wegen möglicher Hasskriminalität auf.
+Die Attacke in der Neuköllner Fuldastraße ist kriminologisch anomal, weil sie keine nachvollziehbare Interessenkollision zwischen Angreifern und Opfer aufweist. Gegen Mitternacht am 2. Juli 2024 untersuchte ein DRK-Sanitäter eine am Boden liegende, bewusstlose Frau auf offener Straße. Der Sanitäter trug erkennbare Dienstkleidung, die ihn eindeutig als Rettungskraft kennzeichnete. Die Hilfeleistung war sichtbar benign und umfasste keine Festnahme, keinen Eingriff in private Sphären und keine hoheitliche Maßnahme, sondern ausschließlich medizinische Versorgung einer hilflosen Person. Dennoch griffen unbeteiligte Umstehende den Sanitäter an und verletzten ihn am Kopf und am Ohr so schwer, dass er selbst im Krankenhaus behandelt werden musste. Er fiel für den Rest seiner Schicht aus. Die Polizei nahm Ermittlungen wegen möglicher Hasskriminalität auf.
 
 Die strukturelle Anomalie liegt in der Transformation unbeteiligter Dritter zu Angreifern gegen eine Person, deren Tätigkeit im unmittelbaren Interesse aller Anwesenden liegt. In der konventionellen Kriminologie setzt Gewalt einen Interessenkonflikt voraus, sei es ein Streit, eine Provokation, eine rivalisierende Zugehörigkeit oder ein wirtschaftliches Motiv. Im Neuköllner Fall existiert keines dieser Elemente, soweit sich dies aus den dokumentierten Umständen rekonstruieren lässt. Die Angreifer standen in keiner erkennbaren Beziehung zur Patientin, hatten keinen Anlass zur Intervention und keine Veranlassung, die Hilfeleistung als Bedrohung zu interpretieren. Die Gewalt entlud sich nicht trotz der sichtbaren Hilfeleistung, sondern nach allem, was die Ermittlungslage hergibt, wegen ihr.
 

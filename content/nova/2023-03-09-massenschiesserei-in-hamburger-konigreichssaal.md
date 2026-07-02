@@ -6,7 +6,7 @@ slug: "massenschiesserei-in-hamburger-konigreichssaal"
 rubrik: "nova"
 source_url: "https://taz.de/Amoktat-gegen-Zeugen-Jehovas-in-Hamburg/!5999298/"
 source_name: "taz"
-lead: "Das Waffenrecht stellte die Tatwaffe bereit — trotz dokumentierter Hinweise auf die mangelnde Eignung des Schützen zum Waffenbesitz blieb die Erlaubnis bestehen, und sämtliche Dienstaufsichtsverfahren gegen die zuständigen Beamten wurden eingestellt."
+lead: "Das Waffenrecht stellte die Tatwaffe bereit. Trotz dokumentierter Hinweise auf die mangelnde Eignung des Schützen zum Waffenbesitz blieb die Erlaubnis bestehen, und sämtliche Dienstaufsichtsverfahren gegen die zuständigen Beamten wurden eingestellt."
 relevance: 10
 ort: "Hamburg-Alsterdorf"
 press_review: false
@@ -14,7 +14,7 @@ press_review: false
 
 *Die Kontrolle legalen Waffenbesitzes sollte als Barriere wirken. Sie existierte nur auf dem Papier.*
 
-Der Angriff auf den Königreichssaal der Zeugen Jehovas in Hamburg-Alsterdorf während eines Abendgottesdienstes am 9. März 2023 verbindet zwei Anomalien, die in der deutschen Kriminalstatistik selten zusammentreffen: den gezielten Angriff auf eine religiöse Minderheit während ihrer Kultusausübung und das vollständige Versagen der behördlichen Waffenkontrolle als Präventionsmechanismus. Sechs Gemeindemitglieder und ein ungeborenes Kind starben, neun weitere Personen erlitten schwere Verletzungen. Der Schütze tötete sich anschließend selbst.
+Der Angriff auf den Königreichssaal der Zeugen Jehovas in Hamburg-Alsterdorf während eines Abendgottesdienstes am 9. März 2023 verbindet zwei Anomalien, die in der deutschen Kriminalstatistik selten zusammentreffen. Er war zugleich ein gezielter Angriff auf eine religiöse Minderheit während ihrer Kultusausübung und ein Beleg für das vollständige Versagen der behördlichen Waffenkontrolle als Präventionsmechanismus. Sechs Gemeindemitglieder und ein ungeborenes Kind starben, neun weitere Personen erlitten schwere Verletzungen. Der Schütze tötete sich anschließend selbst.
 
 Die religiöse Dimension der Tat erfordert kriminologische Beachtung. Gewalt gegen Versammlungen religiöser Minderheiten bildet in Deutschland einen seltenen, aber symbolisch aufgeladenen Tattyp. Sie trifft Menschen in einem Zustand ritueller Aufmerksamkeitsbindung. Ihre Konzentration gilt dem Wort, nicht der Umgebung. Diese Verletzlichkeit ist der religiösen Handlung inhärent und wird durch den geschlossenen Raum eines Versammlungssaals verstärkt, der weder Fluchtachsen noch Deckung bietet. Ein Abendgottesdienst ist, von seiner sozialen Grammatik her, das Gegenteil einer Gefahrensituation. Gerade darin liegt die Wehrlosigkeit, die der Schütze ausnutzte.
 

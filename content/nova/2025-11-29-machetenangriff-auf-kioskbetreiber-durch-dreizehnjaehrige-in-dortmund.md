@@ -12,7 +12,7 @@ ort: "Dortmund-Nordstadt, Nordrhein-Westfalen"
 press_review: false
 ---
 
-*Das Waffenarsenal — Machete, Pfefferspray, Schusswaffe — hätte in einer Erwachsenentat für eine Anklage wegen schwerer räuberischer Erpressung gereicht. Die Täter waren dreizehn.*
+*Das Waffenarsenal (Machete, Pfefferspray, Schusswaffe) hätte in einer Erwachsenentat für eine Anklage wegen schwerer räuberischer Erpressung gereicht. Die Täter waren dreizehn.*
 
 Die Verstümmelung eines Kioskbetreibers durch zwei Dreizehnjährige in der Nacht vom 28. auf den 29. November 2025 verbindet zwei strukturelle Anomalien, die einzeln bereits kriminologische Aufmerksamkeit erzwingen und in Kombination eine neue Qualität erreichen: den Einsatz von Konfliktwaffenklassen durch Kinder und die vollständige Immunität dieser Kinder gegenüber dem Strafrecht. Gegen 23:53 Uhr stürmten zwei Jugendliche den Kiosk an der Brackeler Straße nahe dem Borsigplatz in Dortmund-Nordstadt. Sie sprühten dem 37-jährigen Betreiber Pfefferspray ins Gesicht und griffen ihn mit einer Machete an. Als das Opfer die Hände schützend hob, trennte die Klinge den linken Daumen vollständig ab und verletzte mehrere Finger der rechten Hand so schwer, dass sie beinahe durchtrennt wurden. Zusätzlich erlitt er Schnitt- und Stichverletzungen an Brust und Bein.
 

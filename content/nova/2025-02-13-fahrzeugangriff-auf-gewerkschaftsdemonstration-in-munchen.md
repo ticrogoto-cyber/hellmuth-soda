@@ -6,7 +6,7 @@ slug: "fahrzeugangriff-auf-gewerkschaftsdemonstration-in-munchen"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html"
 source_name: "Tagesspiegel"
-lead: "Der Angriff auf einen sich bewegenden Demonstrationszug offenbart eine prinzipielle Schutzlücke — dynamische Versammlungen auf Straßen lassen sich nicht durch Fahrzeugbarrieren sichern, was das Versammlungsrecht in seiner physischen Dimension ungeschützt lässt."
+lead: "Der Angriff auf einen sich bewegenden Demonstrationszug offenbart eine prinzipielle Schutzlücke. Dynamische Versammlungen auf Straßen lassen sich nicht durch Fahrzeugbarrieren sichern, was das Versammlungsrecht in seiner physischen Dimension ungeschützt lässt."
 relevance: 9
 ort: "München, Bayern"
 press_review: false
@@ -16,7 +16,7 @@ press_review: false
 
 Am 13. Februar 2025, um 10:31 Uhr, wurde ein Pkw gezielt in einen Demonstrationszug der Gewerkschaft ver.di auf der Seidlstraße in München gesteuert. 44 Menschen wurden verletzt. Eine Mutter und ihr zweijähriges Kind erlagen zwei Tage später ihren Verletzungen. Der Fahrer wurde unmittelbar am Tatort festgenommen; die Bundesanwaltschaft klassifizierte das Tatmotiv als islamistisch.
 
-Die strukturelle Anomalie dieses Anschlags liegt im Zieltyp. Ein sich bewegender Demonstrationszug ist eine dynamische, lineare Formation auf einer Straße — und als solche grundsätzlich nicht durch die physischen Schutzmaßnahmen absicherbar, die nach dem Breitscheidplatz-Anschlag von 2016 für stationäre Versammlungsorte entwickelt wurden. Betonpoller und Fahrzeugbarrieren schützen abgegrenzte Flächen: Weihnachtsmärkte, Plätze, Fußgängerzonen. Ein Demonstrationszug durchquert den öffentlichen Raum; sein Schutzperimeter müsste sich mit ihm bewegen, was physisch und organisatorisch nicht umsetzbar ist.
+Die strukturelle Anomalie dieses Anschlags liegt im Zieltyp. Ein sich bewegender Demonstrationszug ist eine dynamische, lineare Formation auf einer Straße und als solche grundsätzlich nicht durch die physischen Schutzmaßnahmen absicherbar, die nach dem Breitscheidplatz-Anschlag von 2016 für stationäre Versammlungsorte entwickelt wurden. Betonpoller und Fahrzeugbarrieren schützen abgegrenzte Flächen: Weihnachtsmärkte, Plätze, Fußgängerzonen. Ein Demonstrationszug durchquert den öffentlichen Raum; sein Schutzperimeter müsste sich mit ihm bewegen, was physisch und organisatorisch nicht umsetzbar ist.
 
 Diese Schutzlücke ist nicht das Ergebnis eines Versäumnisses, sondern eine Konsequenz des Versammlungsrechts selbst. Artikel 8 des Grundgesetzes garantiert das Recht, sich unter freiem Himmel zu versammeln. Dieses Recht knüpft seine Ausübung an die physische Präsenz im öffentlichen Raum. Die Freiheit zur politischen Demonstration setzt voraus, dass Teilnehmende sich auf Straßen bewegen, die konstruktionsbedingt für den Fahrzeugverkehr gebaut sind. Die Verwundbarkeit ist dem Grundrecht inhärent, nicht seiner mangelhaften Umsetzung geschuldet.
 

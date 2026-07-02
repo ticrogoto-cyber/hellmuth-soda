@@ -6,7 +6,7 @@ slug: "fahrzeuganschlag-auf-den-magdeburger-weihnachtsmarkt"
 rubrik: "nova"
 source_url: "https://www.tagesspiegel.de/politik/hochststrafe-fur-anschlag-auf-weihnachtsmarkt-todesfahrer-von-magdeburg-zu-lebenslanger-haft-verurteilt-15761119.html"
 source_name: "Tagesspiegel"
-lead: "Der Anschlag offenbart das Paradox einer Sicherheitsarchitektur, die auf dem Papier vollständig existierte und an zwei banalen Implementierungsfehlern — einer nicht gespannten Kette und einem falsch positionierten Polizeifahrzeug — in der physischen Realität scheiterte."
+lead: "Der Anschlag offenbart das Paradox einer Sicherheitsarchitektur, die auf dem Papier vollständig existierte und an zwei banalen Implementierungsfehlern in der physischen Realität scheiterte, einer nicht gespannten Kette und einem falsch positionierten Polizeifahrzeug."
 relevance: 10
 ort: "Magdeburg, Sachsen-Anhalt"
 press_review: false

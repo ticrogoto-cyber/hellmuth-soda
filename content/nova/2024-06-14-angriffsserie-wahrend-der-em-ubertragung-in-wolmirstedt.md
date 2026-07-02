@@ -6,7 +6,7 @@ slug: "angriffsserie-wahrend-der-em-ubertragung-in-wolmirstedt"
 rubrik: "nova"
 source_url: "https://www.zdf.de/nachrichten/panorama/em-party-tote-polizei-100.html"
 source_name: "ZDF"
-lead: "Die Verknüpfung zweier Tatorte — Wohngebäude und private Gartenparty — zu einer sequenziellen Gewalthandlung während eines medialen Großereignisses erzeugt ein Tatmuster, das konventionelle Sicherheitsarchitekturen kategorial unterläuft."
+lead: "Die Verknüpfung der zwei Tatorte Wohngebäude und private Gartenparty zu einer sequenziellen Gewalthandlung während eines medialen Großereignisses erzeugt ein Tatmuster, das konventionelle Sicherheitsarchitekturen kategorial unterläuft."
 relevance: 8
 ort: "Wolmirstedt, Sachsen-Anhalt"
 press_review: false

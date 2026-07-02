@@ -6,7 +6,7 @@ slug: "messerattacke-im-regionalzug-bei-saarbrucken"
 rubrik: "nova"
 source_url: "https://www.presseportal.de/blaulicht/pm/70138/5798275"
 source_name: "Presseportal / Bundespolizei Trier"
-lead: "Die vollständige Grundlosigkeit eines Messerangriffs im Regionalzug — kein Streit, kein Blickkontakt, kein erkennbares Motiv — verbindet sich mit einer kalkulierten Flucht beim nächsten Halt zu einem Tatmuster, das konventionelle Gewaltlogiken unterläuft."
+lead: "Die vollständige Grundlosigkeit eines Messerangriffs im Regionalzug, ohne Streit, ohne Blickkontakt, ohne erkennbares Motiv, verbindet sich mit einer kalkulierten Flucht beim nächsten Halt zu einem Tatmuster, das konventionelle Gewaltlogiken unterläuft."
 relevance: 7
 ort: "Saarbrücken"
 press_review: false

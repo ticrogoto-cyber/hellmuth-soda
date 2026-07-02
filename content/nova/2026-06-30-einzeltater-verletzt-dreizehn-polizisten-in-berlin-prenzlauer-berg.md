@@ -12,7 +12,7 @@ ort: "Berlin-Prenzlauer Berg"
 press_review: false
 ---
 
-*Ein Mann in roter Badehose bedrohte Kinder, schlug Polizisten, sprang auf Streifenwagen — und die wahrscheinlichste juristische Konsequenz ist keine.*
+*Ein Mann in roter Badehose bedrohte Kinder, schlug Polizisten, sprang auf Streifenwagen. Die wahrscheinlichste juristische Konsequenz ist keine.*
 
 Die strukturelle Anomalie dieses Falls lässt sich in einer Zahl verdichten: dreizehn. So viele Polizisten wurden am Nachmittag des 30. Juni 2026 an der Kreuzung Malmöer Straße / Czarnikauer Straße in Berlin-Prenzlauer Berg bei einem einzigen Einsatz verletzt. Der Verursacher war ein 38-jähriger Mann, der nur mit einer roten Badehose bekleidet zunächst Kinder auf der Straße mit den Fäusten bedrohte. Als die alarmierten Streifenwagen eintrafen, begann eine Eskalationssequenz, die in der Polizeistatistik für Einzeltäter-Einsätze ihresgleichen sucht.
 
@@ -22,6 +22,6 @@ Der Festgenommene wurde nicht in eine Justizvollzugsanstalt, sondern in eine psy
 
 Für die dreizehn verletzten Beamten ändert diese juristische Einordnung nichts an den physischen Folgen, aber alles an der institutionellen Verarbeitung. Kein Strafverfahren, das den Übergriff als das benennt, was er war. Kein Urteil, das die Schwere der Tat dokumentiert. Stattdessen eine psychiatrische Diagnose, die den Täter dem Strafrecht entzieht und den Vorfall in die Zuständigkeit des Maßregelrechts verschiebt, wo er statistisch anders erfasst, gesellschaftlich anders diskutiert und politisch anders bewertet wird. Die Verletzungen der Beamten werden zu Dienstunfällen, nicht zu Opfern einer Straftat.
 
-Der Fall illustriert eine systemische Asymmetrie, die sich mit jedem ähnlichen Vorfall vertieft. Die Gefahrenabwehr funktionierte: der Mann wurde gestoppt, festgenommen, der Psychiatrie zugeführt. Die strafrechtliche Aufarbeitung hingegen wird mit hoher Wahrscheinlichkeit an der Schuldfähigkeitsschwelle scheitern, weil das Strafrecht nicht zwischen dem Schaden und seiner subjektiven Zurechenbarkeit unterscheidet, sondern diese Unterscheidung als sein tragendes Prinzip betrachtet. Was verfassungsrechtlich geboten ist — kein Schuldspruch ohne Schuld —, produziert in der Praxis eine Leerstelle, die für die betroffenen Beamten als Folgenlosigkeit erfahrbar wird.
+Der Fall illustriert eine systemische Asymmetrie, die sich mit jedem ähnlichen Vorfall vertieft. Die Gefahrenabwehr funktionierte: der Mann wurde gestoppt, festgenommen, der Psychiatrie zugeführt. Die strafrechtliche Aufarbeitung hingegen wird mit hoher Wahrscheinlichkeit an der Schuldfähigkeitsschwelle scheitern, weil das Strafrecht nicht zwischen dem Schaden und seiner subjektiven Zurechenbarkeit unterscheidet, sondern diese Unterscheidung als sein tragendes Prinzip betrachtet. Was verfassungsrechtlich geboten ist (kein Schuldspruch ohne Schuld), produziert in der Praxis eine Leerstelle, die für die betroffenen Beamten als Folgenlosigkeit erfahrbar wird.
 
 Dreizehn verletzte Beamte sind ein Einsatzbericht. Null Verurteilungen wären ein Systemprotokoll. Die Differenz zwischen beiden ist der Raum, in dem das Vertrauen der Einsatzkräfte in den Rechtsstaat verhandelt wird.

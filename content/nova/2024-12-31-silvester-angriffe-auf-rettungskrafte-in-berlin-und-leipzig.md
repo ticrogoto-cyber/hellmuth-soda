@@ -6,7 +6,7 @@ slug: "silvester-angriffe-auf-rettungskrafte-in-berlin-und-leipzig"
 rubrik: "nova"
 source_url: "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1517844.php"
 source_name: "Polizei Berlin"
-lead: "Die koordinierte Gewalt gegen Rettungskräfte in der Silvesternacht erzwingt den taktischen Rückzug kombinierter Feuerwehr-Polizei-Einheiten — ein struktureller Bruch im staatlichen Gewaltmonopol, der durch seine jährliche Wiederkehr zur erwartbaren Anomalie geworden ist."
+lead: "Die koordinierte Gewalt gegen Rettungskräfte in der Silvesternacht erzwingt den taktischen Rückzug kombinierter Feuerwehr-Polizei-Einheiten. Dieser strukturelle Bruch im staatlichen Gewaltmonopol ist durch seine jährliche Wiederkehr zur erwartbaren Anomalie geworden."
 relevance: 8
 ort: "Berlin und Leipzig"
 press_review: false

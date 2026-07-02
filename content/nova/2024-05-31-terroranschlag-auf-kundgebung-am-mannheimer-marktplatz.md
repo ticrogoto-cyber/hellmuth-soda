@@ -12,7 +12,7 @@ ort: "Mannheim, Baden-Württemberg"
 press_review: false
 ---
 
-*Doppeltes Systemversagen: Ein nicht vollstreckter Haftbefehl und ein ungeschützter Marktplatz bilden die Voraussetzungen für einen Terroranschlag, der vermeidbar gewesen wäre.*
+*Doppeltes Systemversagen. Ein nicht vollstreckter Haftbefehl und ein ungeschützter Marktplatz bilden die Voraussetzungen für einen Terroranschlag, der vermeidbar gewesen wäre.*
 
 Die Tat vom 31. Mai 2024 auf dem Mannheimer Marktplatz vereint zwei strukturelle Anomalien, die sich gegenseitig verschärfen: den gezielten Angriff auf eine politische Veranstaltung im öffentlichen Raum und das dokumentierte Versagen staatlicher Vollstreckungsmechanismen im Vorfeld. Bei einem Messerangriff auf eine Kundgebung des Bürgervereins Pax Europa wurde ein Polizeibeamter getötet, der versuchte einzugreifen. Fünf weitere Personen wurden schwer verletzt. Die Bundesanwaltschaft übernahm die Ermittlungen und qualifizierte die Tat als islamistisch motivierten Terroranschlag.
 

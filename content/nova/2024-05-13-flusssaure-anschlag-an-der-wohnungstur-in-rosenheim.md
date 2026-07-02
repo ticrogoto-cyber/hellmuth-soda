@@ -6,7 +6,7 @@ slug: "flusssaure-anschlag-an-der-wohnungstur-in-rosenheim"
 rubrik: "nova"
 source_url: "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/067783/index.html"
 source_name: "Bayerische Polizei"
-lead: "Ein maskierter Angreifer setzt Flusssäure als Waffe ein — ein industrieller Gefahrstoff, dessen Beschaffung und zielgerichtete Verwendung an einer Wohnungstür ein in der deutschen Kriminalstatistik nahezu präzedenzloses Tatmuster ergibt."
+lead: "Ein maskierter Angreifer setzt Flusssäure als Waffe ein, einen industriellen Gefahrstoff, dessen Beschaffung und zielgerichtete Verwendung an einer Wohnungstür ein in der deutschen Kriminalstatistik nahezu präzedenzloses Tatmuster ergibt."
 relevance: 8
 ort: "Rosenheim, Bayern"
 press_review: false
@@ -22,6 +22,6 @@ Die Tatausführung selbst folgt einem Muster, das in der deutschen Kriminalstati
 
 Kriminologisch liegt der Fall im Grenzgebiet zwischen persönlich motivierter Gewalt und Auftragskriminalität. Die Kombination aus Maskierung, spezialisiertem Tatmittel und Türschwellen-Methode weist Merkmale auf, die in der Forschung zu Vergeltungsdelikten und organisierter Gewalt beschrieben werden. Ob ein persönliches Motiv oder ein Auftrag hinter der Tat stand, war zum Zeitpunkt der Berichterstattung nicht öffentlich bekannt. Die Methode selbst ist jedoch, unabhängig vom Motiv, ein Indikator für ein Maß an Vorbereitung und Brutalität, das den Rahmen der üblichen Gewaltkriminalität sprengt.
 
-Säureangriffe sind als Gewaltform international dokumentiert, vor allem in Regionen, in denen sie überwiegend als geschlechtsbezogene Gewalt auftreten. In Deutschland sind sie nahezu ohne Beispiel. Der Rosenheimer Fall markiert daher weniger einen Trend als einen Einzelpunkt — aber einen, der die Frage aufwirft, ob die Kategorien der deutschen Kriminalistik für neuartige Tatmittel gerüstet sind. Dass eine Substanz, die in der Industrie als Ätzmittel für Glas und Halbleiter dient, als Waffe gegen ein menschliches Gesicht eingesetzt wird, verschiebt die Vorstellung davon, was als Tatmittel denkbar ist.
+Säureangriffe sind als Gewaltform international dokumentiert, vor allem in Regionen, in denen sie überwiegend als geschlechtsbezogene Gewalt auftreten. In Deutschland sind sie nahezu ohne Beispiel. Der Rosenheimer Fall markiert daher weniger einen Trend als einen Einzelpunkt, doch einen, der die Frage aufwirft, ob die Kategorien der deutschen Kriminalistik für neuartige Tatmittel gerüstet sind. Dass eine Substanz, die in der Industrie als Ätzmittel für Glas und Halbleiter dient, als Waffe gegen ein menschliches Gesicht eingesetzt wird, verschiebt die Vorstellung davon, was als Tatmittel denkbar ist.
 
 Manche Türen öffnet man, ohne zu wissen, was dahinter wartet. Dass dieser Satz, der sonst als Metapher taugt, in Rosenheim zur wörtlichen Beschreibung eines Mordversuchs wurde, ist die eigentliche Verstörung des Falls.

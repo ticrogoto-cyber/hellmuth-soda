@@ -6,7 +6,7 @@ slug: "messerangriff-auf-kindergartengruppe-im-aschaffenburger-schontal-park"
 rubrik: "nova"
 source_url: "https://www.zdf.de/nachrichten/panorama/kriminalitaet/aschaffenburg-messerangriff-chronologie-behoerden-100.html"
 source_name: "ZDF"
-lead: "Trotz abgelehntem Asylantrag, gescheiterter Abschiebung, dokumentierter Gewaltbereitschaft und psychiatrischer Diagnose fiel der Angreifer durch sämtliche institutionellen Sicherungsnetze — der Fall dokumentiert kumulatives Behördenversagen über mindestens drei Zuständigkeitsbereiche."
+lead: "Trotz abgelehntem Asylantrag, gescheiterter Abschiebung, dokumentierter Gewaltbereitschaft und psychiatrischer Diagnose fiel der Angreifer durch sämtliche institutionellen Sicherungsnetze. Der Fall dokumentiert kumulatives Behördenversagen über mindestens drei Zuständigkeitsbereiche."
 relevance: 9
 ort: "Aschaffenburg, Bayern"
 press_review: false
