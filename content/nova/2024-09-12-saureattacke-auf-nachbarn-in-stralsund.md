@@ -6,6 +6,7 @@ slug: "saureattacke-auf-nachbarn-in-stralsund"
 rubrik: "nova"
 source_url: "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100488522/stralsund-saeure-attacke-opfer-schwebt-in-lebensgefahr.html"
 source_name: "t-online.de"
+sources: [{"name":"t-online.de","url":"https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100488522/stralsund-saeure-attacke-opfer-schwebt-in-lebensgefahr.html"},{"name":"Nordkurier","url":"https://www.nordkurier.de/regional/mecklenburg-vorpommern/saeure-attacke-in-stralsund-haftbefehl-wegen-versuchten-mords-im-krankenbett-2891539"}]
 lead: "Säure als Tatmittel in einem Nachbarschaftskonflikt markiert eine qualitative Eskalation, die konventionelle Gewaltkategorien verlässt und in die Logik chemischer Kampfstoffe eintritt."
 relevance: 7
 ort: "Stralsund, Mecklenburg-Vorpommern"

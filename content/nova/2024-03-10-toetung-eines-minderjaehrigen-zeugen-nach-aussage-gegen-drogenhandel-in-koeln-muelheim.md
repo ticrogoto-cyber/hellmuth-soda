@@ -6,6 +6,7 @@ slug: "toetung-eines-minderjaehrigen-zeugen-nach-aussage-gegen-drogenhandel-in-k
 rubrik: "nova"
 source_url: "https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/aus-wut-und-rache-vier-manner-sollen-15-jahrigen-in-koln-entfuhrt-und-getotet-haben-12611945.html"}]
 lead: "Vier Männer töteten einen 15-Jährigen am Mülheimer Hafen in Köln, der als Drogenkurier für sie gearbeitet und nach seiner Festnahme gegen zwei der Täter ausgesagt hatte, wobei der Jugendliche trotz seiner Zeugenaussage in einem laufenden Strafverfahren keinerlei Zeugenschutzmaßnahmen erhalten hatte und der Fall die systematische Schutzlücke für minderjährige Zeugen in der deutschen Strafjustiz dokumentierte."
 relevance: 9
 ort: "Köln-Mülheim, Nordrhein-Westfalen"

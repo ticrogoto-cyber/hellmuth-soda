@@ -6,6 +6,7 @@ slug: "freibad-raumung-nach-eskalation-in-bochum-werne"
 rubrik: "nova"
 source_url: "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101312784/freibad-pruegelei-in-bochum-sorgt-fuer-raeumung-grosser-polizei-einsatz.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101312784/freibad-pruegelei-in-bochum-sorgt-fuer-raeumung-grosser-polizei-einsatz.html"},{"name":"Ruhr Nachrichten","url":"https://www.ruhrnachrichten.de/regionales/nrw-ruhrgebiet-freibad-bochum-werne-pruegelei-geraeumt-30-badegaeste-geraten-aneinander-polizeieinsatz-w1212275-2002119172/"}]
 lead: "Die Evakuierung von 4.000 Badegästen nach einem Streit zwischen zwei Personen dokumentiert die akkumulierte institutionelle Angst vor der Wiederholung vergangener Freibad-Eskalationen, deren Reaktionsschwelle den Einzelvorfall längst übersteigt."
 relevance: 7
 ort: "Bochum-Werne, Nordrhein-Westfalen"

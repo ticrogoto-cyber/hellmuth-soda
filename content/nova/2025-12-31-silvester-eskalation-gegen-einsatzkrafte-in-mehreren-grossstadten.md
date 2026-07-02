@@ -6,6 +6,7 @@ slug: "silvester-eskalation-gegen-einsatzkrafte-in-mehreren-grossstadten"
 rubrik: "nova"
 source_url: "https://frankfurt.t-online.de/region/frankfurt-am-main/id_101064410/frankfurt-sanitaeter-in-silvesternacht-angegriffen-und-verletzt.html"
 source_name: "t-online / Tagesspiegel / komba NRW"
+sources: [{"name":"t-online / Tagesspiegel / komba NRW","url":"https://frankfurt.t-online.de/region/frankfurt-am-main/id_101064410/frankfurt-sanitaeter-in-silvesternacht-angegriffen-und-verletzt.html"},{"name":"hessenschau","url":"https://www.hessenschau.de/panorama/silvester-bilanz-feuerwerk-angriffe-auf-einsatzkraefte-und-braende-v13,silvester-bilanz-106.html"}]
 lead: "Die gleichzeitige Attacke auf Rettungsmittel und deren erzwungene Nutzung durch dieselbe Gruppe beschreibt eine Eskalationsstufe, in der Rettungsinfrastruktur simultan bekämpft und instrumentalisiert wird."
 relevance: 8
 ort: "Frankfurt, Berlin, Duisburg, Leipzig"

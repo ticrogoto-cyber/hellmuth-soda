@@ -6,6 +6,7 @@ slug: "messerattacke-an-leipziger-zentralhaltestelle"
 rubrik: "nova"
 source_url: "https://www.blaulicht-ticker.de/leipzig/messerangriff-an-zentralhaltestelle-in-leipzig-am-samstagmorgen-3050290"
 source_name: "Blaulicht-Ticker"
+sources: [{"name":"Blaulicht-Ticker","url":"https://www.blaulicht-ticker.de/leipzig/messerangriff-an-zentralhaltestelle-in-leipzig-am-samstagmorgen-3050290"},{"name":"Blick.de","url":"https://www.blick.de/leipzig/messerattacke-in-leipzig-polizei-stellt-tatverdaechtigen-am-hauptbahnhof-artikel13939132"}]
 lead: "Die Verlagerung der Messergewalt vom Leipziger Hauptbahnhof, 2025 mit 859 Gewaltdelikten der belastetste Bahnhof Deutschlands, an die vorgelagerte Straßenbahnhaltestelle zeigt die räumliche Ausstrahlung eines Gewalthotspots über Gebäudegrenzen hinaus."
 relevance: 7
 ort: "Leipzig, Sachsen"

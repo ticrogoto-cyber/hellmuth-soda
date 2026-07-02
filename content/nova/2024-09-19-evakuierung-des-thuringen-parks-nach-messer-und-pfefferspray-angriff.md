@@ -6,6 +6,7 @@ slug: "evakuierung-des-thuringen-parks-nach-messer-und-pfefferspray-angriff"
 rubrik: "nova"
 source_url: "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100493332/thueringen-park-in-erfurt-einkaufszentrum-nach-angriff-evakuiert.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100493332/thueringen-park-in-erfurt-einkaufszentrum-nach-angriff-evakuiert.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/grosseinsatz-in-erfurt-polizei-raumt-einkaufszentrum-nach-messer-streit-12403604.html"}]
 lead: "Der kombinierte Einsatz von Messer und Pfefferspray in einem geschlossenen Einkaufszentrum erzeugt aus einer gezielten Einzeltat ein Flächenereignis, das die Evakuierung des gesamten Gebäudekomplexes erzwingt."
 relevance: 7
 ort: "Erfurt, Thüringen"

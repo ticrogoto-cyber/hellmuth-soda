@@ -6,6 +6,7 @@ slug: "bewaffnete-massenschlagerei-in-mockrehna"
 rubrik: "nova"
 source_url: "https://ms-aktuell.de/welt/massenschlaegerei-mockrehna-polizeieinsatz-verletzte/"
 source_name: "MS Aktuell"
+sources: [{"name":"MS Aktuell","url":"https://ms-aktuell.de/welt/massenschlaegerei-mockrehna-polizeieinsatz-verletzte/"},{"name":"Berliner Zeitung","url":"https://www.berliner-zeitung.de/article/massenschlaegerei-in-sachsen-40-personen-pruegeln-sich-mit-schaufeln-und-stoecken-10038167"}]
 lead: "Die Vorausrüstung zweier Gruppen mit improvisierten Waffen in einer Gemeinde mit weniger als 5.000 Einwohnern erzeugt eine Gewaltkonzentration, die lokale Sicherheitsstrukturen überfordert und eine behördenübergreifende Polizeioperation erzwingt."
 relevance: 7
 ort: "Mockrehna, Nordsachsen"

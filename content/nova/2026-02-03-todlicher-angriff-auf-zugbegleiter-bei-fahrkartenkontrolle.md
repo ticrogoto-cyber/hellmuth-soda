@@ -6,6 +6,7 @@ slug: "todlicher-angriff-auf-zugbegleiter-bei-fahrkartenkontrolle"
 rubrik: "nova"
 source_url: "https://homburg1.de/eskalation-bei-fahrkartenkontrolle-zugbegleiter-in-lebensgefahr-237815/"
 source_name: "Homburg1"
+sources: [{"name":"Homburg1","url":"https://homburg1.de/eskalation-bei-fahrkartenkontrolle-zugbegleiter-in-lebensgefahr-237815/"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/reanimation-nach-fahrkartenkontrolle-26-jahriger-verprugelt-zugbegleiter-und-verletzt-ihn-lebensbedrohlich-15214595.html"}]
 lead: "Die Tötung eines Zugbegleiters durch Faustschläge bei einer routinemäßigen Fahrkartenkontrolle verschiebt die Gewaltschwelle im Schienenverkehr von der Verletzung zur Tötung im banalsten denkbaren Anlasskontext."
 relevance: 9
 ort: "Landstuhl / Homburg, Rheinland-Pfalz"

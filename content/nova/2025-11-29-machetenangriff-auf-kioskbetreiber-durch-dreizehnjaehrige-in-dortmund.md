@@ -6,6 +6,7 @@ slug: "machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund"
 rubrik: "nova"
 source_url: "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/strafunmundige-tatverdachtige-daumenstuck-mit-machete-abgetrennt-13-jahrige-im-verdacht-15008435.html"}]
 lead: "Zwei Dreizehnjährige überfielen einen Kioskbetreiber mit Machete, Pfefferspray und Schusswaffe, trennten ihm den Daumen ab und blieben strafrechtlich folgenlos, weil das Waffenarsenal das Strafmündigkeitsalter nicht verschiebt."
 relevance: 9
 ort: "Dortmund-Nordstadt, Nordrhein-Westfalen"

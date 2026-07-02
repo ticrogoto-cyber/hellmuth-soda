@@ -6,6 +6,7 @@ slug: "toedlicher-messerangriff-in-dresdner-strassenbahn"
 rubrik: "nova"
 source_url: "https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/hintergrund-der-tat-unklar-todliche-messer-attacke-in-dresdner-strassenbahn-10115758.html"}]
 lead: "Ein schuldunfähiger Täter erstach einen 40-jährigen Fahrgast in der Straßenbahnlinie 7 in Dresden von hinten, wobei die Tat das wiederkehrende Muster wahnhafter Gewalt im öffentlichen Nahverkehr reproduzierte und die systemische Lücke zwischen psychiatrischer Versorgung und der Sicherheit des ÖPNV sichtbar machte."
 relevance: 8
 ort: "Dresden, Sachsen"

@@ -6,6 +6,7 @@ slug: "massenschlagerei-mit-improvisierten-waffen-bei-hochzeit-in-schleswig"
 rubrik: "nova"
 source_url: "https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html"
 source_name: "foerde.news"
+sources: [{"name":"foerde.news","url":"https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html"},{"name":"Presseportal / Polizeidirektion Flensburg","url":"https://www.presseportal.de/blaulicht/pm/6313/5842709"}]
 lead: "Die Bandbreite der improvisierten Bewaffnung von Schaufeln über Fahrradschläuche bis zu Baseballschlägern bei einer Hochzeitsfeier mit 60 Kombattanten verschiebt das Tatmuster von spontaner Eskalation zu koordinierter Gruppenkonfrontation."
 relevance: 7
 ort: "Schleswig, Schleswig-Holstein"

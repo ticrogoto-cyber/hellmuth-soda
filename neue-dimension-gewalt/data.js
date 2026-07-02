@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T01:57:22.390Z",
+  "generated": "2026-07-02T02:59:50.824Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -52,6 +52,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101312784/freibad-pruegelei-in-bochum-sorgt-fuer-raeumung-grosser-polizei-einsatz.html"
+        },
+        {
+          "name": "Ruhr Nachrichten",
+          "url": "https://www.ruhrnachrichten.de/regionales/nrw-ruhrgebiet-freibad-bochum-werne-pruegelei-geraeumt-30-badegaeste-geraten-aneinander-polizeieinsatz-w1212275-2002119172/"
         }
       ],
       "ort": "Bochum-Werne, Nordrhein-Westfalen",
@@ -65,12 +69,16 @@ window.NOVA_DATA =
       "created": "2026-07-01T20:14:30.531Z",
       "slug": "amokfahrt-in-der-leipziger-grimmaischen-strasse",
       "lead": "Die ungehinderte Durchfahrt über 450 Meter Fußgängerzone bis zum ersten Poller offenbart die Diskrepanz zwischen dem Sicherheitsversprechen autofreier Zonen und ihrer tatsächlichen physischen Schutzinfrastruktur.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Amokfahrt_von_Leipzig",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/verbrechen-in-leipzig-mutmasslicher-amokfahrer-totet-und-verletzt-mehrere-menschen-15554950.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Amokfahrt_von_Leipzig"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/verbrechen-in-leipzig-mutmasslicher-amokfahrer-totet-und-verletzt-mehrere-menschen-15554950.html"
+        },
+        {
+          "name": "Leipziger Zeitung",
+          "url": "https://www.l-iz.de/leben/faelle-unfaelle/2026/05/was-gerade-geschieht-auto-rast-in-leipzig-durch-fussgaengerzone-zwei-tote-taeter-gefasst-656126"
         }
       ],
       "ort": "Leipzig, Sachsen",
@@ -90,6 +98,10 @@ window.NOVA_DATA =
         {
           "name": "t-online Aachen",
           "url": "https://aachen.t-online.de/region/aachen/id_101198490/ice-von-aachen-nach-frankfurt-mann-zuendet-sprengstoff-zwoelf-verletzte.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/mann-soll-vorher-mails-an-medien-geschickt-haben-20-jahriger-zundet-pyrotechnik-in-ice-und-droht-mit-anschlag-15433113.html"
         }
       ],
       "ort": "Siegburg, Nordrhein-Westfalen",
@@ -147,6 +159,10 @@ window.NOVA_DATA =
         {
           "name": "Homburg1",
           "url": "https://homburg1.de/eskalation-bei-fahrkartenkontrolle-zugbegleiter-in-lebensgefahr-237815/"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/reanimation-nach-fahrkartenkontrolle-26-jahriger-verprugelt-zugbegleiter-und-verletzt-ihn-lebensbedrohlich-15214595.html"
         }
       ],
       "ort": "Landstuhl / Homburg, Rheinland-Pfalz",
@@ -166,6 +182,10 @@ window.NOVA_DATA =
         {
           "name": "t-online / Tagesspiegel / komba NRW",
           "url": "https://frankfurt.t-online.de/region/frankfurt-am-main/id_101064410/frankfurt-sanitaeter-in-silvesternacht-angegriffen-und-verletzt.html"
+        },
+        {
+          "name": "hessenschau",
+          "url": "https://www.hessenschau.de/panorama/silvester-bilanz-feuerwerk-angriffe-auf-einsatzkraefte-und-braende-v13,silvester-bilanz-106.html"
         }
       ],
       "ort": "Frankfurt, Berlin, Duisburg, Leipzig",
@@ -204,6 +224,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101025958/dortmund-13-jaehrige-hat-wohl-kioskbetreiber-mit-machete-daumen-abgehackt-.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/strafunmundige-tatverdachtige-daumenstuck-mit-machete-abgetrennt-13-jahrige-im-verdacht-15008435.html"
         }
       ],
       "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
@@ -337,6 +361,10 @@ window.NOVA_DATA =
         {
           "name": "t-online.de",
           "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100923892/niederdorla-in-thueringen-mann-faehrt-mit-pick-up-truck-in-kirmes-verletzte.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/ermittlungen-mann-fahrt-bei-kirmes-auf-menschengruppe-zu--funf-verletzte-14363780.html"
         }
       ],
       "ort": "Niederdorla, Thüringen",
@@ -368,13 +396,17 @@ window.NOVA_DATA =
       "date": "2025-09-01",
       "created": "2026-07-01T20:14:30.531Z",
       "slug": "messerattacke-an-leipziger-zentralhaltestelle",
-      "lead": "Die Verlagerung der Messergewalt vom Leipziger Hauptbahnhof — 2025 mit 859 Gewaltdelikten der belastetste Bahnhof Deutschlands — an die vorgelagerte Straßenbahnhaltestelle zeigt die räumliche Ausstrahlung eines Gewalthotspots über Gebäudegrenzen hinaus.",
+      "lead": "Die Verlagerung der Messergewalt vom Leipziger Hauptbahnhof, 2025 mit 859 Gewaltdelikten der belastetste Bahnhof Deutschlands, an die vorgelagerte Straßenbahnhaltestelle zeigt die räumliche Ausstrahlung eines Gewalthotspots über Gebäudegrenzen hinaus.",
       "source_name": "Blaulicht-Ticker",
       "source_url": "https://www.blaulicht-ticker.de/leipzig/messerangriff-an-zentralhaltestelle-in-leipzig-am-samstagmorgen-3050290",
       "sources": [
         {
           "name": "Blaulicht-Ticker",
           "url": "https://www.blaulicht-ticker.de/leipzig/messerangriff-an-zentralhaltestelle-in-leipzig-am-samstagmorgen-3050290"
+        },
+        {
+          "name": "Blick.de",
+          "url": "https://www.blick.de/leipzig/messerattacke-in-leipzig-polizei-stellt-tatverdaechtigen-am-hauptbahnhof-artikel13939132"
         }
       ],
       "ort": "Leipzig, Sachsen",
@@ -387,7 +419,7 @@ window.NOVA_DATA =
       "date": "2025-08-24",
       "created": "2026-07-01T21:39:05.026Z",
       "slug": "messerangriff-auf-zivilcourage-helfer-in-dresdner-strassenbahn",
-      "lead": "Der Messerangriff auf einen 20-Jährigen, der belästigte Frauen in einer Straßenbahn verteidigte, und die sofortige Freilassung des Tatverdächtigen dokumentieren eine doppelte Sanktionierung der Zivilcourage — durch die Tat und durch die institutionelle Reaktion.",
+      "lead": "Der Messerangriff auf einen 20-Jährigen, der belästigte Frauen in einer Straßenbahn verteidigte, und die sofortige Freilassung des Tatverdächtigen dokumentieren eine doppelte Sanktionierung der Zivilcourage, durch die Tat und durch die institutionelle Reaktion.",
       "source_name": "ZDF heute",
       "source_url": "https://www.zdfheute.de/panorama/messerattacke-dresden-strassenbahn-opfer-jonathan-rudat-spricht-100.html",
       "sources": [
@@ -444,7 +476,7 @@ window.NOVA_DATA =
       "date": "2025-07-02",
       "created": "2026-07-01T21:39:05.026Z",
       "slug": "femizid-trotz-fussfessel-in-frankfurt-bonames",
-      "lead": "Die GPS-Fußfessel lief neun Tage vor dem Tötungsdelikt durch Erreichen der gesetzlichen Höchstfrist aus — das Schutzinstrument wurde durch sein eigenes Verfallsdatum wirkungslos, während die Gefährdung fortbestand.",
+      "lead": "Die GPS-Fußfessel lief neun Tage vor dem Tötungsdelikt durch Erreichen der gesetzlichen Höchstfrist aus. Das Schutzinstrument wurde durch sein eigenes Verfallsdatum wirkungslos, während die Gefährdung fortbestand.",
       "source_name": "hessenschau.de",
       "source_url": "https://www.hessenschau.de/panorama/messerangriff-in-frankfurt-mutmasslicher-moerder-trug-bis-vor-kurzem-fussfessel-v2,mann-stirbt-frankfurt-mordverdacht-100.html",
       "sources": [
@@ -463,7 +495,7 @@ window.NOVA_DATA =
       "date": "2025-06-28",
       "created": "2026-07-01T20:14:30.531Z",
       "slug": "sanitater-im-rettungswagen-angegriffen-in-karlsruhe",
-      "lead": "Das Innere eines fahrenden Rettungswagens exponiert Sanitäter in einem Raum, der konstruktionsbedingt für Versorgung, nicht für Sicherheit ausgelegt ist — eine systemische Verwundbarkeit ohne Flucht- oder Fixierungsoption.",
+      "lead": "Das Innere eines fahrenden Rettungswagens exponiert Sanitäter in einem Raum, der konstruktionsbedingt für Versorgung, nicht für Sicherheit ausgelegt ist. Es ist eine systemische Verwundbarkeit ohne Flucht- oder Fixierungsoption.",
       "source_name": "ka-news.de",
       "source_url": "https://www.ka-news.de/karlsruhe/polizeibericht-angriff-im-rettungswagen-verletzt-sanitaeter-und-polizist-in-karlsruhe-114589670",
       "sources": [
@@ -540,12 +572,16 @@ window.NOVA_DATA =
       "created": "2026-07-01T20:14:30.530Z",
       "slug": "massenangriff-am-hamburger-hauptbahnhof",
       "lead": "32 stationäre psychiatrische Aufnahmen in drei Jahren ohne dauerhafte Unterbringung verwandelten die Akutversorgung in ein Drehtür-System, dessen Entlasslogik die Gewalteskalation am Hauptbahnhof zur dokumentierten Konsequenz machte.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Messerangriff_am_Hamburger_Hauptbahnhof_2025",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Messerangriff_am_Hamburger_Hauptbahnhof_2025"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/messerangriff-im-hamburger-hauptbahnhof--tatverdachtige-frau-festgenommen-13747303.html"
+        },
+        {
+          "name": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/hamburg-hauptbahnhof-messerangriff-verletzte-100.html"
         }
       ],
       "ort": "Hamburg",
@@ -558,7 +594,7 @@ window.NOVA_DATA =
       "date": "2025-05-22",
       "created": "2026-07-01T20:14:30.530Z",
       "slug": "elfjahrige-schulerin-ersticht-mitschuler-in-remscheid",
-      "lead": "Das extreme Alter des Angreifers — elf Jahre, drei Jahre unterhalb der Strafmündigkeitsgrenze — exponiert eine systemische Lücke, die das deutsche Strafrecht für Gewaltdelikte durch Kinder ohne strafrechtliche Konsequenz lässt.",
+      "lead": "Das extreme Alter der Angreiferin von elf Jahren, drei Jahre unterhalb der Strafmündigkeitsgrenze, exponiert eine systemische Lücke, die das deutsche Strafrecht für Gewaltdelikte durch Kinder ohne strafrechtliche Konsequenz lässt.",
       "source_name": "Tagesspiegel",
       "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/nach-messerangriff-auf-13-jahrigen-polizei-in-remscheid-ubergibt-11-jahrigen-wieder-den-eltern-13740730.html",
       "sources": [
@@ -578,12 +614,16 @@ window.NOVA_DATA =
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "islamistischer-anschlag-mit-verkleideter-stockwaffe-in-bielefeld",
       "lead": "Die Kombination aus getarnter Waffe und simulierter Gehbehinderung als Annäherungstaktik markiert einen Innovationssprung in der islamistischen Tatbegehung, der in der deutschen Kriminalgeschichte ohne Vorbild ist.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Messerangriff_in_Bielefeld_2025",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Messerangriff_in_Bielefeld_2025"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/berlin-brandenburg-hochststrafe-fur-terroranschlag-von-bielefeld-15661148.html"
+        },
+        {
+          "name": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/bielefeld-terroranschlag-fussballfans-urteil-oberlandesgericht-duesseldorf-100.html"
         }
       ],
       "ort": "Bielefeld, Nordrhein-Westfalen",
@@ -596,7 +636,7 @@ window.NOVA_DATA =
       "date": "2025-04-17",
       "created": "2026-07-01T21:39:05.026Z",
       "slug": "messerangriff-auf-supermarkt-kundin-nach-hausverbot-in-rochlitz",
-      "lead": "Die Zielverschiebung — nicht das Personal, das das Hausverbot erteilte, wird attackiert, sondern eine unbeteiligte Kundin — dokumentiert ein Muster verschobener Aggression, bei dem Frustrations-Auslöser und Gewalt-Ziel auseinanderfallen.",
+      "lead": "Attackiert wird nicht das Personal, das das Hausverbot erteilte, sondern eine unbeteiligte Kundin. Diese Zielverschiebung dokumentiert ein Muster verschobener Aggression, bei dem Frustrations-Auslöser und Gewalt-Ziel auseinanderfallen.",
       "source_name": "Tagesspiegel",
       "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/vorfall-im-sachsischen-rochlitz-zwei-menschen-bei-messerangriff-vor-supermarkt-schwer-verletzt-13561288.html",
       "sources": [
@@ -634,7 +674,7 @@ window.NOVA_DATA =
       "date": "2025-04-10",
       "created": "2026-07-01T21:39:05.022Z",
       "slug": "messerattacke-in-berliner-strassenbahn-am-alexanderplatz",
-      "lead": "Das Verweilzeitenmuster des Angreifers — Zustieg an einer vorherigen Haltestelle, Verzögerung, Angriff im Moment des Ausstiegs — verwandelt die Transitsequenz des öffentlichen Nahverkehrs in eine taktische Angriffsstruktur.",
+      "lead": "Das Verweilzeitenmuster des Angreifers aus Zustieg an einer vorherigen Haltestelle, Verzögerung und Angriff im Moment des Ausstiegs verwandelt die Transitsequenz des öffentlichen Nahverkehrs in eine taktische Angriffsstruktur.",
       "source_name": "Polizei Berlin",
       "source_url": "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1550558.php",
       "sources": [
@@ -672,7 +712,7 @@ window.NOVA_DATA =
       "date": "2025-03-12",
       "created": "2026-07-01T21:39:05.022Z",
       "slug": "messerangriff-auf-lebensmittelkontrolleure-in-gelsenkirchen",
-      "lead": "Die Opferkategorie — kommunale Verwaltungsangestellte bei einer administrativen Routinehandlung — verschiebt die Messergewalt in den Bereich systemischer Aggression gegen niedrigstufige staatliche Kontrollfunktionen.",
+      "lead": "Die Opferkategorie der kommunalen Verwaltungsangestellten bei einer administrativen Routinehandlung verschiebt die Messergewalt in den Bereich systemischer Aggression gegen niedrigstufige staatliche Kontrollfunktionen.",
       "source_name": "Polizei Gelsenkirchen / Staatsanwaltschaft Essen",
       "source_url": "https://gelsenkirchen.polizei.nrw/presse/gemeinsame-pressemitteilung-der-staatsanwaltschaft-essen-und-der-polizei-gelsenkirchen-versuchtes-toetungsdelikt-bei-lebensmittelkontrolle-in-horst",
       "sources": [
@@ -710,13 +750,17 @@ window.NOVA_DATA =
       "date": "2025-03-03",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "fahrzeugangriff-auf-fastnachtsmarkt-in-mannheim",
-      "lead": "Der Anschlag demonstriert, dass die nach 2016 entwickelten Schutzkonzepte für Weihnachtsmärkte nicht auf andere saisonale Großveranstaltungen übertragen wurden — die Fastnacht fiel durch das Raster einer Sicherheitsarchitektur, die nur den Anlass des letzten Anschlags schützt.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Amokfahrt_in_Mannheim_2025",
+      "lead": "Der Anschlag demonstriert, dass die nach 2016 entwickelten Schutzkonzepte für Weihnachtsmärkte nicht auf andere saisonale Großveranstaltungen übertragen wurden. Die Fastnacht fiel durch das Raster einer Sicherheitsarchitektur, die nur den Anlass des letzten Anschlags schützt.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Amokfahrt_in_Mannheim_2025"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/amokfahrt-am-rosenmontag-in-mannheim-tater-wegen-mordes-verurteilt-und-in-psychiatrie-eingewiesen-15061903.html"
+        },
+        {
+          "name": "LTO",
+          "url": "https://www.lto.de/recht/nachrichten/n/landgericht-mannheim-amokfahrt-rosenmontag-lebenslange-haft-unterbringung-psychiatrie"
         }
       ],
       "ort": "Mannheim, Baden-Württemberg",
@@ -729,7 +773,7 @@ window.NOVA_DATA =
       "date": "2025-02-28",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "messerangriff-auf-grundschulkinder-in-duisburg-marxloh",
-      "lead": "Die familieninterne Überwältigung des Angreifers durch seinen eigenen Vater wirft die Frage auf, welches Wissen über die Gefährlichkeit innerhalb des familiären Umfelds existierte — und warum es nicht vor der Tat zu einer Intervention führte.",
+      "lead": "Die familieninterne Überwältigung des Angreifers durch seinen eigenen Vater wirft die Frage auf, welches Wissen über die Gefährlichkeit innerhalb des familiären Umfelds existierte und warum es nicht vor der Tat zu einer Intervention führte.",
       "source_name": "Ruhr Nachrichten",
       "source_url": "https://www.ruhrnachrichten.de/regionales/messerangriff-in-duisburg-zwei-kinder-schwer-verletzt-21-jaehriger-festgenommen-w849734-2001123189/",
       "sources": [
@@ -748,13 +792,17 @@ window.NOVA_DATA =
       "date": "2025-02-13",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "fahrzeugangriff-auf-gewerkschaftsdemonstration-in-munchen",
-      "lead": "Der Angriff auf einen sich bewegenden Demonstrationszug offenbart eine prinzipielle Schutzlücke — dynamische Versammlungen auf Straßen lassen sich nicht durch Fahrzeugbarrieren sichern, was das Versammlungsrecht in seiner physischen Dimension ungeschützt lässt.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Anschlag_in_M%C3%BCnchen_2025",
+      "lead": "Der Angriff auf einen sich bewegenden Demonstrationszug offenbart eine prinzipielle Schutzlücke. Dynamische Versammlungen auf Straßen lassen sich nicht durch Fahrzeugbarrieren sichern, was das Versammlungsrecht in seiner physischen Dimension ungeschützt lässt.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Anschlag_in_M%C3%BCnchen_2025"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/bundesanwaltschaft-mordanklage-nach-auto-anschlag-auf-verdi-demo-in-munchen-14230208.html"
+        },
+        {
+          "name": "LTO",
+          "url": "https://www.lto.de/recht/nachrichten/n/generalbundesanwalt-olg-muenchen-anklage-auto-menschengruppe-verdi-mord"
         }
       ],
       "ort": "München, Bayern",
@@ -767,13 +815,17 @@ window.NOVA_DATA =
       "date": "2025-02-02",
       "created": "2026-07-01T21:39:05.021Z",
       "slug": "messerangriff-auf-jugendlichen-an-bushaltestelle-in-erfurt",
-      "lead": "Die Tat markiert die Verschiebung lebensbedrohlicher Messergewalt in ein Alter, in dem das Strafrecht kaum Instrumente zur Gefahrenabwehr bereithält — und die Freilassung des Tatverdächtigen trotz beinahe tödlicher Verletzungen dokumentiert die Grenzen des Jugendstrafrechts.",
+      "lead": "Die Tat markiert die Verschiebung lebensbedrohlicher Messergewalt in ein Alter, in dem das Strafrecht kaum Instrumente zur Gefahrenabwehr bereithält. Die Freilassung des Tatverdächtigen trotz beinahe tödlicher Verletzungen dokumentiert die Grenzen des Jugendstrafrechts.",
       "source_name": "NIUS",
       "source_url": "https://www.nius.de/kriminalitaet/news/erfurt-messerattacke-14-jaehriger-16-jaehriger-not-operation-bushaltestelle-vieselbach/1dba3f91-fa84-4af0-a23a-c00e098a892b",
       "sources": [
         {
           "name": "NIUS",
           "url": "https://www.nius.de/kriminalitaet/news/erfurt-messerattacke-14-jaehriger-16-jaehriger-not-operation-bushaltestelle-vieselbach/1dba3f91-fa84-4af0-a23a-c00e098a892b"
+        },
+        {
+          "name": "Berliner Zeitung",
+          "url": "https://www.berliner-zeitung.de/news/erfurt-14-jaehriger-mit-messer-schwer-verletzt-notoperation-li.2292935"
         }
       ],
       "ort": "Erfurt-Vieselbach, Thüringen",
@@ -786,7 +838,7 @@ window.NOVA_DATA =
       "date": "2025-01-30",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "messerattacke-am-leipziger-hauptbahnhof",
-      "lead": "Nicht die Einzeltat, sondern ihr Ort definiert die Anomalie — der Leipziger Hauptbahnhof, 2025 der gewaltbelastetste Bahnhof Deutschlands, in dem Messergewalt zur statistischen Erwartbarkeit geworden ist.",
+      "lead": "Nicht die Einzeltat, sondern ihr Ort definiert die Anomalie: der Leipziger Hauptbahnhof, 2025 der gewaltbelastetste Bahnhof Deutschlands, in dem Messergewalt zur statistischen Erwartbarkeit geworden ist.",
       "source_name": "Presseportal / Bundespolizei",
       "source_url": "https://www.presseportal.de/blaulicht/pm/74165/5979744",
       "sources": [
@@ -805,7 +857,7 @@ window.NOVA_DATA =
       "date": "2025-01-22",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "messerangriff-auf-kindergartengruppe-im-aschaffenburger-schontal-park",
-      "lead": "Trotz abgelehntem Asylantrag, gescheiterter Abschiebung, dokumentierter Gewaltbereitschaft und psychiatrischer Diagnose fiel der Angreifer durch sämtliche institutionellen Sicherungsnetze — der Fall dokumentiert kumulatives Behördenversagen über mindestens drei Zuständigkeitsbereiche.",
+      "lead": "Trotz abgelehntem Asylantrag, gescheiterter Abschiebung, dokumentierter Gewaltbereitschaft und psychiatrischer Diagnose fiel der Angreifer durch sämtliche institutionellen Sicherungsnetze. Der Fall dokumentiert kumulatives Behördenversagen über mindestens drei Zuständigkeitsbereiche.",
       "source_name": "ZDF",
       "source_url": "https://www.zdf.de/nachrichten/panorama/kriminalitaet/aschaffenburg-messerangriff-chronologie-behoerden-100.html",
       "sources": [
@@ -824,7 +876,7 @@ window.NOVA_DATA =
       "date": "2024-12-31",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "silvester-angriffe-auf-rettungskrafte-in-berlin-und-leipzig",
-      "lead": "Die koordinierte Gewalt gegen Rettungskräfte in der Silvesternacht erzwingt den taktischen Rückzug kombinierter Feuerwehr-Polizei-Einheiten — ein struktureller Bruch im staatlichen Gewaltmonopol, der durch seine jährliche Wiederkehr zur erwartbaren Anomalie geworden ist.",
+      "lead": "Die koordinierte Gewalt gegen Rettungskräfte in der Silvesternacht erzwingt den taktischen Rückzug kombinierter Feuerwehr-Polizei-Einheiten. Dieser strukturelle Bruch im staatlichen Gewaltmonopol ist durch seine jährliche Wiederkehr zur erwartbaren Anomalie geworden.",
       "source_name": "Polizei Berlin",
       "source_url": "https://www.berlin.de/polizei/polizeimeldungen/2025/pressemitteilung.1517844.php",
       "sources": [
@@ -843,13 +895,17 @@ window.NOVA_DATA =
       "date": "2024-12-20",
       "created": "2026-07-01T20:14:30.529Z",
       "slug": "fahrzeuganschlag-auf-den-magdeburger-weihnachtsmarkt",
-      "lead": "Der Anschlag offenbart das Paradox einer Sicherheitsarchitektur, die auf dem Papier vollständig existierte und an zwei banalen Implementierungsfehlern — einer nicht gespannten Kette und einem falsch positionierten Polizeifahrzeug — in der physischen Realität scheiterte.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Anschlag_auf_den_Magdeburger_Weihnachtsmarkt",
+      "lead": "Der Anschlag offenbart das Paradox einer Sicherheitsarchitektur, die auf dem Papier vollständig existierte und an zwei banalen Implementierungsfehlern in der physischen Realität scheiterte, einer nicht gespannten Kette und einem falsch positionierten Polizeifahrzeug.",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/politik/hochststrafe-fur-anschlag-auf-weihnachtsmarkt-todesfahrer-von-magdeburg-zu-lebenslanger-haft-verurteilt-15761119.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Anschlag_auf_den_Magdeburger_Weihnachtsmarkt"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/hochststrafe-fur-anschlag-auf-weihnachtsmarkt-todesfahrer-von-magdeburg-zu-lebenslanger-haft-verurteilt-15761119.html"
+        },
+        {
+          "name": "ZDFheute",
+          "url": "https://www.zdfheute.de/politik/deutschland/anschlag-magdeburger-weihnachtsmarkt-urteil-100.html"
         }
       ],
       "ort": "Magdeburg, Sachsen-Anhalt",
@@ -869,6 +925,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/berlin/justizpanne-um-gefahrlichen-vergewaltiger-in-berlin-verurteilter-kommt-trotz-hohem-hafturteil-frei--weil-ein-richter-akten-verschleppte-15237980.html"
         }
       ],
       "ort": "Berlin",
@@ -888,6 +948,10 @@ window.NOVA_DATA =
         {
           "name": "MS Aktuell",
           "url": "https://ms-aktuell.de/welt/massenschlaegerei-mockrehna-polizeieinsatz-verletzte/"
+        },
+        {
+          "name": "Berliner Zeitung",
+          "url": "https://www.berliner-zeitung.de/article/massenschlaegerei-in-sachsen-40-personen-pruegeln-sich-mit-schaufeln-und-stoecken-10038167"
         }
       ],
       "ort": "Mockrehna, Nordsachsen",
@@ -964,6 +1028,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100493332/thueringen-park-in-erfurt-einkaufszentrum-nach-angriff-evakuiert.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/grosseinsatz-in-erfurt-polizei-raumt-einkaufszentrum-nach-messer-streit-12403604.html"
         }
       ],
       "ort": "Erfurt, Thüringen",
@@ -983,6 +1051,10 @@ window.NOVA_DATA =
         {
           "name": "t-online.de",
           "url": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100488522/stralsund-saeure-attacke-opfer-schwebt-in-lebensgefahr.html"
+        },
+        {
+          "name": "Nordkurier",
+          "url": "https://www.nordkurier.de/regional/mecklenburg-vorpommern/saeure-attacke-in-stralsund-haftbefehl-wegen-versuchten-mords-im-krankenbett-2891539"
         }
       ],
       "ort": "Stralsund, Mecklenburg-Vorpommern",
@@ -1033,13 +1105,17 @@ window.NOVA_DATA =
       "date": "2024-08-23",
       "created": "2026-07-01T20:14:30.528Z",
       "slug": "terroranschlag-auf-dem-solinger-stadtfest",
-      "lead": "Ein kommunales Stadtfest als islamistisches Anschlagsziel offenbart eine doppelte Systemlücke — in der Bedrohungsanalyse für Soft Targets und im Dublin-Überstellungsverfahren, dessen bürokratisches Versagen die Tat erst ermöglichte.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Messeranschlag_in_Solingen",
+      "lead": "Ein kommunales Stadtfest als islamistisches Anschlagsziel offenbart eine doppelte Systemlücke, in der Bedrohungsanalyse für Soft Targets und im Dublin-Überstellungsverfahren, dessen bürokratisches Versagen die Tat erst ermöglichte.",
+      "source_name": "taz",
+      "source_url": "https://taz.de/Islamistischer-Angriff-2024/!6113174/",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Messeranschlag_in_Solingen"
+          "name": "taz",
+          "url": "https://taz.de/Islamistischer-Angriff-2024/!6113174/"
+        },
+        {
+          "name": "ZDFheute",
+          "url": "https://www.zdfheute.de/panorama/kriminalitaet/urteil-solingen-issa-al-hasan-100.html"
         }
       ],
       "ort": "Solingen, Nordrhein-Westfalen",
@@ -1071,13 +1147,17 @@ window.NOVA_DATA =
       "date": "2024-08-12",
       "created": "2026-07-01T21:39:05.019Z",
       "slug": "massenschlagerei-mit-improvisierten-waffen-bei-hochzeit-in-schleswig",
-      "lead": "Die Bandbreite der improvisierten Bewaffnung — Schaufeln, Fahrradschläuche, Baseballschläger — bei einer Hochzeitsfeier mit 60 Kombattanten verschiebt das Tatmuster von spontaner Eskalation zu koordinierter Gruppenkonfrontation.",
+      "lead": "Die Bandbreite der improvisierten Bewaffnung von Schaufeln über Fahrradschläuche bis zu Baseballschlägern bei einer Hochzeitsfeier mit 60 Kombattanten verschiebt das Tatmuster von spontaner Eskalation zu koordinierter Gruppenkonfrontation.",
       "source_name": "foerde.news",
       "source_url": "https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html",
       "sources": [
         {
           "name": "foerde.news",
           "url": "https://www.foerde.news/blaulicht/nach-massenschlaegerei-mit-rund-60-beteiligten-personen-im-kattenhunder-weg-polizei-ermittelt.html"
+        },
+        {
+          "name": "Presseportal / Polizeidirektion Flensburg",
+          "url": "https://www.presseportal.de/blaulicht/pm/6313/5842709"
         }
       ],
       "ort": "Schleswig, Schleswig-Holstein",
@@ -1109,7 +1189,7 @@ window.NOVA_DATA =
       "date": "2024-08-06",
       "created": "2026-07-01T21:39:05.018Z",
       "slug": "kaskadierende-gewalt-im-dortmunder-freibad-volkspark",
-      "lead": "Vier räumlich und deliktisch getrennte Gewaltakte — Schlägerei, sexuelle Nötigung, Familiengewalt, Straßenschlacht — verketten sich über einen Sommerabend hinweg zu einer sich selbst verstärkenden Eskalationskaskade vom Freibad in den Stadtraum.",
+      "lead": "Vier räumlich und deliktisch getrennte Gewaltakte, Schlägerei, sexuelle Nötigung, Familiengewalt und Straßenschlacht, verketten sich über einen Sommerabend hinweg zu einer sich selbst verstärkenden Eskalationskaskade vom Freibad in den Stadtraum.",
       "source_name": "Ruhr Nachrichten",
       "source_url": "https://www.ruhrnachrichten.de/dortmund/polizeieinsatz-im-freibad-am-bvb-stadion-notruf-wegen-schlaegerei-w919892-2001318169/",
       "sources": [
@@ -1185,7 +1265,7 @@ window.NOVA_DATA =
       "date": "2024-07-02",
       "created": "2026-07-01T21:39:05.018Z",
       "slug": "angriff-auf-drk-sanitater-bei-patientenversorgung-in-neukolln",
-      "lead": "Unbeteiligte Umstehende transformierten sich bei sichtbar benigner Notfallversorgung zu Angreifern gegen einen erkennbar gekennzeichneten Rettungssanitäter — die Hilfeleistung selbst wurde zum Auslöser der Gewalt.",
+      "lead": "Unbeteiligte Umstehende transformierten sich bei sichtbar benigner Notfallversorgung zu Angreifern gegen einen erkennbar gekennzeichneten Rettungssanitäter. Die Hilfeleistung selbst wurde zum Auslöser der Gewalt.",
       "source_name": "Der Tagesspiegel",
       "source_url": "https://www.tagesspiegel.de/berlin/sanitater-musste-ins-krankenhaus-rettungskrafte-bei-einsatz-in-berlin-neukolln-angegriffen-11952593.html",
       "sources": [
@@ -1223,7 +1303,7 @@ window.NOVA_DATA =
       "date": "2024-06-14",
       "created": "2026-07-01T20:14:30.528Z",
       "slug": "angriffsserie-wahrend-der-em-ubertragung-in-wolmirstedt",
-      "lead": "Die Verknüpfung zweier Tatorte — Wohngebäude und private Gartenparty — zu einer sequenziellen Gewalthandlung während eines medialen Großereignisses erzeugt ein Tatmuster, das konventionelle Sicherheitsarchitekturen kategorial unterläuft.",
+      "lead": "Die Verknüpfung der zwei Tatorte Wohngebäude und private Gartenparty zu einer sequenziellen Gewalthandlung während eines medialen Großereignisses erzeugt ein Tatmuster, das konventionelle Sicherheitsarchitekturen kategorial unterläuft.",
       "source_name": "ZDF",
       "source_url": "https://www.zdf.de/nachrichten/panorama/em-party-tote-polizei-100.html",
       "sources": [
@@ -1242,7 +1322,7 @@ window.NOVA_DATA =
       "date": "2024-06-10",
       "created": "2026-07-01T21:39:05.017Z",
       "slug": "messerattacke-im-regionalzug-bei-saarbrucken",
-      "lead": "Die vollständige Grundlosigkeit eines Messerangriffs im Regionalzug — kein Streit, kein Blickkontakt, kein erkennbares Motiv — verbindet sich mit einer kalkulierten Flucht beim nächsten Halt zu einem Tatmuster, das konventionelle Gewaltlogiken unterläuft.",
+      "lead": "Die vollständige Grundlosigkeit eines Messerangriffs im Regionalzug, ohne Streit, ohne Blickkontakt, ohne erkennbares Motiv, verbindet sich mit einer kalkulierten Flucht beim nächsten Halt zu einem Tatmuster, das konventionelle Gewaltlogiken unterläuft.",
       "source_name": "Presseportal / Bundespolizei Trier",
       "source_url": "https://www.presseportal.de/blaulicht/pm/70138/5798275",
       "sources": [
@@ -1262,12 +1342,16 @@ window.NOVA_DATA =
       "created": "2026-07-01T20:14:30.528Z",
       "slug": "terroranschlag-auf-kundgebung-am-mannheimer-marktplatz",
       "lead": "Die doppelte Strukturanomalie aus einem fünf Jahre lang nicht vollstreckten Haftbefehl und einer ungeschützten politischen Kundgebung im öffentlichen Raum ermöglicht einen islamistisch motivierten Terroranschlag, der institutionell vermeidbar gewesen wäre.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Messerangriff_in_Mannheim_am_31._Mai_2024",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/politik/staatsschutzverfahren-lebenslang-fur-mannheimer-messerangriff-richter-emotional-14334902.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Messerangriff_in_Mannheim_am_31._Mai_2024"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/politik/staatsschutzverfahren-lebenslang-fur-mannheimer-messerangriff-richter-emotional-14334902.html"
+        },
+        {
+          "name": "LTO",
+          "url": "https://www.lto.de/recht/nachrichten/n/5st2bjs23124-olg-stuttgart-mannheim-marktplatz-messer-attentat-polizist-rouven-sulaiman-a"
         }
       ],
       "ort": "Mannheim, Baden-Württemberg",
@@ -1280,7 +1364,7 @@ window.NOVA_DATA =
       "date": "2024-05-13",
       "created": "2026-07-01T21:39:05.017Z",
       "slug": "flusssaure-anschlag-an-der-wohnungstur-in-rosenheim",
-      "lead": "Ein maskierter Angreifer setzt Flusssäure als Waffe ein — ein industrieller Gefahrstoff, dessen Beschaffung und zielgerichtete Verwendung an einer Wohnungstür ein in der deutschen Kriminalstatistik nahezu präzedenzloses Tatmuster ergibt.",
+      "lead": "Ein maskierter Angreifer setzt Flusssäure als Waffe ein, einen industriellen Gefahrstoff, dessen Beschaffung und zielgerichtete Verwendung an einer Wohnungstür ein in der deutschen Kriminalstatistik nahezu präzedenzloses Tatmuster ergibt.",
       "source_name": "Bayerische Polizei",
       "source_url": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/067783/index.html",
       "sources": [
@@ -1344,6 +1428,10 @@ window.NOVA_DATA =
         {
           "name": "56aktuell.de",
           "url": "https://56aktuell.de/grosseinsatz-in-lahnstein-messerattacke-in-der-regionalbahn-ein-schwerverletzter/"
+        },
+        {
+          "name": "Rhein-Zeitung",
+          "url": "https://www.rhein-zeitung.de/rheinland-pfalz/prozessbeginn-in-koblenz-nach-messerangriff-im-zug-grund-fuer-zwischenfall-scheint-banal_arid-2692496.html"
         }
       ],
       "ort": "Niederlahnstein, Rheinland-Pfalz",
@@ -1363,6 +1451,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://www.t-online.de/region/koeln/id_100362054/koeln-muelheim-15-jaehriger-tot-aufgefunden-polizei-fasst-zwei-verdaechtige.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/aus-wut-und-rache-vier-manner-sollen-15-jahrigen-in-koln-entfuhrt-und-getotet-haben-12611945.html"
         }
       ],
       "ort": "Köln-Mülheim, Nordrhein-Westfalen",
@@ -1432,7 +1524,7 @@ window.NOVA_DATA =
       "date": "2024-01-01",
       "created": "2026-07-01T21:39:05.016Z",
       "slug": "gewalt-in-der-notaufnahme-des-sana-klinikums-berlin",
-      "lead": "Zwei Brüder attackierten in der Notaufnahme einen Arzt und eine Krankenschwester, weil die Wartezeit bei einer Schnittwunde zu lang erschien — ein Fall von Anspruchsgewalt, der die Funktion der Notaufnahme als geschützten Behandlungsraum strukturell infrage stellt.",
+      "lead": "Zwei Brüder attackierten in der Notaufnahme einen Arzt und eine Krankenschwester, weil die Wartezeit bei einer Schnittwunde zu lang erschien. Dieser Fall von Anspruchsgewalt stellt die Funktion der Notaufnahme als geschützten Behandlungsraum strukturell infrage.",
       "source_name": "Amtsgericht Tiergarten Berlin",
       "source_url": "https://www.berlin.de/gerichte/presse/pressemitteilungen-der-ordentlichen-gerichtsbarkeit/2025/pressemitteilung.1539774.php",
       "sources": [
@@ -1527,7 +1619,7 @@ window.NOVA_DATA =
       "date": "2023-09-16",
       "created": "2026-07-01T21:39:05.015Z",
       "slug": "strassenschlacht-bei-eritreischer-veranstaltung-in-stuttgart",
-      "lead": "Zwei Monate nach Gießen reproduzierte sich das Muster transnationaler Stellvertretergewalt in Stuttgart mit gesteigerter Intensität — 39 verletzte Polizeibeamte und der Einsatz vorbereiteter Waffen markieren den Übergang von spontaner Versammlungsgewalt zu organisierter Konfrontation.",
+      "lead": "Zwei Monate nach Gießen reproduzierte sich das Muster transnationaler Stellvertretergewalt in Stuttgart mit gesteigerter Intensität. 39 verletzte Polizeibeamte und der Einsatz vorbereiteter Waffen markieren den Übergang von spontaner Versammlungsgewalt zu organisierter Konfrontation.",
       "source_name": "Stuttgarter Zeitung",
       "source_url": "https://www.stuttgarter-zeitung.de/inhalt.prozess-nach-randale-in-stuttgart-hallschlag-drei-jahre-und-neun-monate-haft-fuer-angriff-auf-polizisten.3e634b4e-5356-492e-8cad-e9e67c323013.html",
       "sources": [
@@ -1584,7 +1676,7 @@ window.NOVA_DATA =
       "date": "2023-08-01",
       "created": "2026-07-01T20:14:30.528Z",
       "slug": "freispruch-trotz-gestandnis-vor-us-militargericht-in-wittlich",
-      "lead": "Ein US-Militärgericht sprach einen geständigen Soldaten frei, weil die Anklagepunkte nicht ins Englische übersetzt worden waren — der Fall offenbart die operative Bruchstelle des NATO-Truppenstatuts, die bei Straftaten alliierter Soldaten auf deutschem Boden den wirksamen Rechtsschutz der Opfer aushebelt.",
+      "lead": "Ein US-Militärgericht sprach einen geständigen Soldaten frei, weil die Anklagepunkte nicht ins Englische übersetzt worden waren. Der Fall offenbart die operative Bruchstelle des NATO-Truppenstatuts, die bei Straftaten alliierter Soldaten auf deutschem Boden den wirksamen Rechtsschutz der Opfer aushebelt.",
       "source_name": "Legal Tribune Online",
       "source_url": "https://www.lto.de/recht/hintergruende/h/freispruch-trotz-gestaendnis-wittlich-us-militaergericht-justice",
       "sources": [
@@ -1629,6 +1721,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/panorama/hintergrund-der-tat-unklar-todliche-messer-attacke-in-dresdner-strassenbahn-10115758.html"
         }
       ],
       "ort": "Dresden, Sachsen",
@@ -1641,7 +1737,7 @@ window.NOVA_DATA =
       "date": "2023-07-08",
       "created": "2026-07-01T21:39:04.999Z",
       "slug": "ausschreitungen-beim-eritrea-festival-in-giessen",
-      "lead": "Ein transnationaler politischer Konflikt materialisierte sich als Straßengewalt in einer hessischen Mittelstadt — die kommunale Gefahrenabwehr war für ein Szenario, das sich weder verbieten noch beherrschen ließ, weder konzeptionell noch personell ausgelegt.",
+      "lead": "Ein transnationaler politischer Konflikt materialisierte sich als Straßengewalt in einer hessischen Mittelstadt. Die kommunale Gefahrenabwehr war für ein Szenario, das sich weder verbieten noch beherrschen ließ, weder konzeptionell noch personell ausgelegt.",
       "source_name": "hessenschau.de",
       "source_url": "https://www.hessenschau.de/gesellschaft/eritrea-festival-in-giessen-2023-weitere-bewaehrungsstrafen-nach-ausschreitungen-v1,eritrea-festival-urteil-100.html",
       "sources": [
@@ -1660,7 +1756,7 @@ window.NOVA_DATA =
       "date": "2023-06-18",
       "created": "2026-07-01T20:14:30.528Z",
       "slug": "massenschlagerei-im-mannheimer-herzogenriedbad",
-      "lead": "Ein Kinderstreit im Schwimmbecken eskalierte über drei Stufen zur bewaffneten Massenschlägerei mit über 40 Beteiligten — die Kaskadendynamik vom Familienkonflikt zur Messerkonfrontation markiert ein strukturell neuartiges Muster in offenen Freizeiteinrichtungen.",
+      "lead": "Ein Kinderstreit im Schwimmbecken eskalierte über drei Stufen zur bewaffneten Massenschlägerei mit über 40 Beteiligten. Die Kaskadendynamik vom Familienkonflikt zur Messerkonfrontation markiert ein strukturell neuartiges Muster in offenen Freizeiteinrichtungen.",
       "source_name": "RNF",
       "source_url": "https://www.rnf.de/mannheim-verletzte-bei-schlaegerei-von-rund-40-personen-im-herzogenriedbad-mann-mit-messer-verletzt-353899/",
       "sources": [
@@ -1755,7 +1851,7 @@ window.NOVA_DATA =
       "date": "2023-04-03",
       "created": "2026-07-01T20:14:30.528Z",
       "slug": "totungsdelikt-in-frankischem-kinderheim",
-      "lead": "Eine Kinderschutzeinrichtung wurde zum Tatort eines Tötungsdelikts durch einen strafunmündigen Elfjährigen, nachdem ein Erwachsener unbemerkt durch ein Fenster eingedrungen war — das doppelte Versagen der Institution dokumentiert eine Schutzarchitektur, die auf keiner Ebene funktionierte.",
+      "lead": "Eine Kinderschutzeinrichtung wurde zum Tatort eines Tötungsdelikts durch einen strafunmündigen Elfjährigen, nachdem ein Erwachsener unbemerkt durch ein Fenster eingedrungen war. Das doppelte Versagen der Institution dokumentiert eine Schutzarchitektur, die auf keiner Ebene funktionierte.",
       "source_name": "Frankenpost",
       "source_url": "https://www.frankenpost.de/inhalt.wunsiedel-mord-an-maedchen-40-koepfige-soko-ermittelt.25af368f-79c4-4439-a675-0bbf6c266d6e.html",
       "sources": [
@@ -1812,13 +1908,17 @@ window.NOVA_DATA =
       "date": "2023-03-09",
       "created": "2026-07-01T20:14:30.527Z",
       "slug": "massenschiesserei-in-hamburger-konigreichssaal",
-      "lead": "Das Waffenrecht stellte die Tatwaffe bereit — trotz dokumentierter Hinweise auf die mangelnde Eignung des Schützen zum Waffenbesitz blieb die Erlaubnis bestehen, und sämtliche Dienstaufsichtsverfahren gegen die zuständigen Beamten wurden eingestellt.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Amoktat_in_Hamburg-Alsterdorf_2023",
+      "lead": "Das Waffenrecht stellte die Tatwaffe bereit. Trotz dokumentierter Hinweise auf die mangelnde Eignung des Schützen zum Waffenbesitz blieb die Erlaubnis bestehen, und sämtliche Dienstaufsichtsverfahren gegen die zuständigen Beamten wurden eingestellt.",
+      "source_name": "taz",
+      "source_url": "https://taz.de/Amoktat-gegen-Zeugen-Jehovas-in-Hamburg/!5999298/",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Amoktat_in_Hamburg-Alsterdorf_2023"
+          "name": "taz",
+          "url": "https://taz.de/Amoktat-gegen-Zeugen-Jehovas-in-Hamburg/!5999298/"
+        },
+        {
+          "name": "t-online",
+          "url": "https://hamburg.t-online.de/region/hamburg/id_100348696/amoklauf-in-alsterdorf-so-verhinderte-die-polizei-hamburg-noch-mehr-tote.html"
         }
       ],
       "ort": "Hamburg-Alsterdorf",
@@ -1832,12 +1932,16 @@ window.NOVA_DATA =
       "created": "2026-07-01T20:14:30.527Z",
       "slug": "messerangriff-im-regionalzug-bei-brokstedt",
       "lead": "24 Ermittlungsverfahren, vier Verurteilungen wegen schwerer Körperverletzung und ein Kommunikationsbruch zwischen zwei Bundesländern erzeugten den sechstägigen Korridor zwischen Haftentlassung und tödlichem Messerangriff in einem geschlossenen Zugraum.",
-      "source_name": "Wikipedia",
-      "source_url": "https://de.wikipedia.org/wiki/Messerattacke_in_Brokstedt_am_25._Januar_2023",
+      "source_name": "Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html",
       "sources": [
         {
-          "name": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Messerattacke_in_Brokstedt_am_25._Januar_2023"
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/gesellschaft/lebenslange-haft-fur-todliche-messerattacke-in-zug-bei-brokstedt-11662634.html"
+        },
+        {
+          "name": "ZDFheute",
+          "url": "https://www.zdfheute.de/panorama/kriminalitaet/brokstedt-zug-attentat-messer-ibrahim-100.html"
         }
       ],
       "ort": "Brokstedt, Schleswig-Holstein",
@@ -1876,6 +1980,10 @@ window.NOVA_DATA =
         {
           "name": "t-online",
           "url": "https://berlin.t-online.de/region/berlin/id_100104656/schwere-eskalation-an-silvester-25-maenner-locken-feuerwehr-in-hinterhalt.html"
+        },
+        {
+          "name": "Tagesspiegel",
+          "url": "https://www.tagesspiegel.de/berlin/ausschreitungen-an-silvester-in-berlin-neukolln-brennende-barrikaden-und-bollerwurfe-feuerwehrmann-schildert-angriffe-10430875.html"
         }
       ],
       "ort": "Berlin-Neukölln",

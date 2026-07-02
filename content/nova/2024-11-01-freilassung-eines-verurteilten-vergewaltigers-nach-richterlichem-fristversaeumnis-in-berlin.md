@@ -6,6 +6,7 @@ slug: "freilassung-eines-verurteilten-vergewaltigers-nach-richterlichem-fristver
 rubrik: "nova"
 source_url: "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html"
 source_name: "t-online"
+sources: [{"name":"t-online","url":"https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/berlin/justizpanne-um-gefahrlichen-vergewaltiger-in-berlin-verurteilter-kommt-trotz-hohem-hafturteil-frei--weil-ein-richter-akten-verschleppte-15237980.html"}]
 lead: "Ein zu sieben Jahren und neun Monaten verurteilter Mehrfachvergewaltiger kam frei, weil der zuständige Richter aufgrund einer Suchterkrankung das Verhandlungsprotokoll nicht fristgerecht fertigstellte, wobei der Fall ein strukturelles Personalrisiko in der Justiz offenlegte, das über das individuelle Versagen hinausweist."
 relevance: 10
 ort: "Berlin"

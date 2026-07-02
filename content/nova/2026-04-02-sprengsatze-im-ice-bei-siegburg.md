@@ -6,6 +6,7 @@ slug: "sprengsatze-im-ice-bei-siegburg"
 rubrik: "nova"
 source_url: "https://aachen.t-online.de/region/aachen/id_101198490/ice-von-aachen-nach-frankfurt-mann-zuendet-sprengstoff-zwoelf-verletzte.html"
 source_name: "t-online Aachen"
+sources: [{"name":"t-online Aachen","url":"https://aachen.t-online.de/region/aachen/id_101198490/ice-von-aachen-nach-frankfurt-mann-zuendet-sprengstoff-zwoelf-verletzte.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/mann-soll-vorher-mails-an-medien-geschickt-haben-20-jahriger-zundet-pyrotechnik-in-ice-und-droht-mit-anschlag-15433113.html"}]
 lead: "Der Einsatz zweier improvisierter Sprengsätze im ICE markiert die Eskalation der Schienengewalt vom Nahkampfmittel zum Flächenwirkungsmittel im geschlossenen Hochgeschwindigkeitsraum."
 relevance: 9
 ort: "Siegburg, Nordrhein-Westfalen"

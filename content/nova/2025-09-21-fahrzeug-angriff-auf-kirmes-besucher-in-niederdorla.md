@@ -6,6 +6,7 @@ slug: "fahrzeug-angriff-auf-kirmes-besucher-in-niederdorla"
 rubrik: "nova"
 source_url: "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100923892/niederdorla-in-thueringen-mann-faehrt-mit-pick-up-truck-in-kirmes-verletzte.html"
 source_name: "t-online.de"
+sources: [{"name":"t-online.de","url":"https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100923892/niederdorla-in-thueringen-mann-faehrt-mit-pick-up-truck-in-kirmes-verletzte.html"},{"name":"Tagesspiegel","url":"https://www.tagesspiegel.de/gesellschaft/panorama/ermittlungen-mann-fahrt-bei-kirmes-auf-menschengruppe-zu--funf-verletzte-14363780.html"}]
 lead: "Die Übertragung des terroristisch codierten Fahrzeugangriff-Musters auf ein ungesichertes Dorffest offenbart die räumliche Entgrenzung einer Tatform, die bislang urbane Hochsicherheitsereignisse definierte."
 relevance: 7
 ort: "Niederdorla, Thüringen"

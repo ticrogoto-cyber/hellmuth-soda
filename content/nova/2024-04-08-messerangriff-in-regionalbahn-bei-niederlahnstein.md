@@ -6,6 +6,7 @@ slug: "messerangriff-in-regionalbahn-bei-niederlahnstein"
 rubrik: "nova"
 source_url: "https://56aktuell.de/grosseinsatz-in-lahnstein-messerattacke-in-der-regionalbahn-ein-schwerverletzter/"
 source_name: "56aktuell.de"
+sources: [{"name":"56aktuell.de","url":"https://56aktuell.de/grosseinsatz-in-lahnstein-messerattacke-in-der-regionalbahn-ein-schwerverletzter/"},{"name":"Rhein-Zeitung","url":"https://www.rhein-zeitung.de/rheinland-pfalz/prozessbeginn-in-koblenz-nach-messerangriff-im-zug-grund-fuer-zwischenfall-scheint-banal_arid-2692496.html"}]
 lead: "Ein Messerangriff in einem fahrenden Regionalzug bei Niederlahnstein reproduziert das Brokstedt-Muster und verdichtet die Serie von Gewalttaten im Nahverkehr zu einem eigenständigen kriminologischen Phänomen."
 relevance: 7
 ort: "Niederlahnstein, Rheinland-Pfalz"
