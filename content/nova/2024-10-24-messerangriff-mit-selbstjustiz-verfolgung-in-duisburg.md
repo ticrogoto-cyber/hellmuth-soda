@@ -12,7 +12,7 @@ ort: "Duisburg, Nordrhein-Westfalen"
 press_review: false
 ---
 
-*Ein Messerangriff eskaliert zur Kfz-Verfolgungsjagd und endet in gruppenbasierter Vergeltung — das gesamte Szenario verdichtet den Zerfall des wahrgenommenen Gewaltmonopols auf wenige Minuten.*
+*Ein Messerangriff eskaliert zur Kfz-Verfolgungsjagd und endet in gruppenbasierter Vergeltung. Das gesamte Szenario verdichtet den Zerfall des wahrgenommenen Gewaltmonopols auf wenige Minuten.*
 
 Die strukturelle Anomalie des Duisburger Falls vom 24. Oktober 2024 liegt nicht im Messerangriff — ein 19-Jähriger stach einem 25-Jährigen auf offener Straße in den Rücken —, sondern in der unmittelbaren Gegenbewegung. Verwandte des Opfers erkannten den Flüchtenden im Straßenverkehr, verfolgten sein Fahrzeug und schlugen, nachdem sie es gestellt hatten, mit Holzlatten auf den Wagen ein. Die Polizei intervenierte und nahm den ursprünglichen Angreifer fest.
 

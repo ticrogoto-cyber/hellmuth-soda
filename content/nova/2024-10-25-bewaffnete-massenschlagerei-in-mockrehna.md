@@ -12,7 +12,7 @@ ort: "Mockrehna, Nordsachsen"
 press_review: false
 ---
 
-*Zwei Gruppen mit jeweils zwanzig Bewaffneten auf der Hauptstraße einer sächsischen Kleingemeinde — die Disproportion zwischen Ortsgröße und Gewaltausmaß überfordert jede lokale Sicherheitsstruktur.*
+*Zwei Gruppen mit jeweils zwanzig Bewaffneten auf der Hauptstraße einer sächsischen Kleingemeinde. Die Disproportion zwischen Ortsgröße und Gewaltausmaß überfordert jede lokale Sicherheitsstruktur.*
 
 Die Konfrontation auf der Reichsstraße in Mockrehna an einem Freitagabend im Oktober 2024 beschreibt ein Gewaltmuster, das in keiner Statistik für ländliche Räume vorgesehen ist. Zwei Gruppen von jeweils etwa zwanzig Personen gingen mit Schaufeln, Baseballschlägern und Stöcken aufeinander los. Sieben Personen wurden verletzt, vier davon so schwer, dass sie stationär behandelt werden mussten. Die Polizei musste Verstärkung aus umliegenden Landkreisen, von der Bundespolizei und aus Dresden anfordern.
 

@@ -12,7 +12,7 @@ ort: "Leipzig, Sachsen"
 press_review: false
 ---
 
-*Ein einzelner Messerstich in einem Bahnhof, der 2025 täglich mehr als zwei Gewaltdelikte verzeichnete — die Tat als Symptom einer systemischen Verwahrlosung.*
+*Ein einzelner Messerstich in einem Bahnhof, der 2025 täglich mehr als zwei Gewaltdelikte verzeichnete. Die Tat als Symptom einer systemischen Verwahrlosung.*
 
 Die strukturelle Bedeutung der Messerattacke am Leipziger Hauptbahnhof vom 30. Januar 2025 erschließt sich nicht aus dem Tatgeschehen, sondern aus dem Ort, an dem es sich ereignete. Ein Mann wurde durch Messerstiche verletzt. Der Tatverdächtige konnte durch die Auswertung von Videoüberwachungsaufnahmen identifiziert und später bei einer Routinekontrolle in Chemnitz festgenommen werden — in einer anderen Stadt, in einem anderen Bundesland. Die Tat selbst folgt dem Muster der Bahnhofskriminalität: anonym, schnell, schwer zuordenbar.
 
