@@ -252,9 +252,13 @@ export async function translateToGerman({ title, summary, lang }) {
 /**
  * Stil-Transformation (Opus). System-Prompt = vollständige House-Style + Newsroom-Regel,
  * gecacht. Output: {title, lead, body}. Leerer body => Item verwerfen.
+ * Optional (Nova-Härtung): `folgeberichtKontext` verankert ein Justizereignis
+ * am dokumentierten Ursprungsfall; `korrekturHinweis` trägt die Verstöße des
+ * vorherigen Entwurfs in die Regeneration (beide nur in der User-Nachricht,
+ * der gecachte System-Block bleibt stabil).
  * @returns {Promise<{title:string, lead:string, body:string}>}
  */
-export async function transformToHouseStyle({ rubrik, title, summary, sourceName, sourceUrl, isPreprint, headlineOnly }) {
+export async function transformToHouseStyle({ rubrik, title, summary, sourceName, sourceUrl, isPreprint, headlineOnly, folgeberichtKontext = null, korrekturHinweis = null }) {
   const lengthRule =
     rubrik === 'science'
       ? 'Rubrik Forschung: genau 5 Sätze im body.'
@@ -291,6 +295,23 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
   const preprintNote = isPreprint
     ? '\nHinweis: Dies ist ein Preprint (nicht peer-reviewed). Das im Text kenntlich machen.'
     : '';
+  const folgeNote = folgeberichtKontext
+    ? '\nJUSTIZEREIGNIS ZU DOKUMENTIERTEM FALL: Die Chronik dokumentiert den ' +
+      `zugrunde liegenden Fall bereits (»${folgeberichtKontext.titel}«` +
+      `${folgeberichtKontext.ort ? ', ' + folgeberichtKontext.ort : ''}` +
+      `${folgeberichtKontext.datum ? ', ' + folgeberichtKontext.datum : ''}). ` +
+      'Dieser Eintrag behandelt das justizielle bzw. behördliche Ergebnis als ' +
+      'eigenständiges Systemversagen, nicht die ursprüngliche Tat. Beziehe dich ' +
+      'im Text in Worten auf den dokumentierten Ursprungsfall und analysiere ' +
+      'die strukturelle Anomalie des Justiz- bzw. Behördenereignisses.'
+    : '';
+  const korrekturNote = korrekturHinweis
+    ? '\n\nKORREKTUR: Ein vorheriger Entwurf dieses Eintrags hat gegen folgende ' +
+      'verbindliche Regeln verstoßen:\n' +
+      korrekturHinweis +
+      '\nSchreibe den Eintrag vollständig neu. Die genannten Verstöße dürfen im ' +
+      'neuen Text in keiner Form mehr auftreten, auch nicht umformuliert.'
+    : '';
 
   const system = [
     {
@@ -300,13 +321,14 @@ export async function transformToHouseStyle({ rubrik, title, summary, sourceName
     },
   ];
   const user =
-    `Rubrik: ${rubrik}\n${lengthRule}${novaNote}${headlineNote}${preprintNote}\n\n` +
+    `Rubrik: ${rubrik}\n${lengthRule}${novaNote}${headlineNote}${preprintNote}${folgeNote}\n\n` +
     `Quelle: ${sourceName || ''}\n` +
     `Original-URL (nur Kontext, nicht in den Text schreiben): ${sourceUrl || ''}\n` +
     `Original-Titel: ${title || ''}\n` +
     `Original-Anriss: ${summary || ''}\n\n` +
     'Schreibe die Kurzmeldung in eigenen Worten gemäß Hausordnung und Newsroom-Regel. ' +
-    'Gib nur das JSON-Objekt zurück.';
+    'Gib nur das JSON-Objekt zurück.' +
+    korrekturNote;
 
   let msg;
   if (rubrik === 'nova') {
