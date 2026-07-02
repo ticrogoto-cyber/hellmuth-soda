@@ -10,6 +10,7 @@ lead: "Ein US-Militärgericht sprach einen geständigen Soldaten frei, weil die 
 relevance: 8
 ort: "Wittlich, Rheinland-Pfalz"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
 *Die Paralleljustiz auf deutschem Boden entzog ein Tötungsdelikt der deutschen Gerichtsbarkeit. Dann scheiterte sie an einer fehlenden Übersetzung.*

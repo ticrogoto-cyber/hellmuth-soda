@@ -10,6 +10,7 @@ lead: "Vier Täter wurden sechs Jahre nach der mehrfachen Vergewaltigung einer b
 relevance: 9
 ort: "Fulda, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Ein Geständnis, das der Zeugin die Aussage erspart, beendet das Verfahren. Es beendet nicht, was geschah.*

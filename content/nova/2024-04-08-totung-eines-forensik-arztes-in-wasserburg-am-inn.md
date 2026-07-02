@@ -10,6 +10,7 @@ lead: "Die Tötung eines forensischen Psychiaters durch einen ehemaligen Patient
 relevance: 8
 ort: "Wasserburg am Inn, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Wenn der Therapeut zugleich der Gutachter ist, wird die Behandlungsbeziehung zum Sicherheitsrisiko.*

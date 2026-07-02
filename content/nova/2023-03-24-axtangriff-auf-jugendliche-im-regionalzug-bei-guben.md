@@ -10,6 +10,7 @@ lead: "Ein 37-Jähriger schlug einer 17-Jährigen im Regionalzug Cottbus-Frankfu
 relevance: 8
 ort: "Guben, Brandenburg"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "ÖPNV-Bahn", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Eine Axt im Regionalzug. Wenige Millimeter trennten eine Kopfwunde von einem Todesfall.*

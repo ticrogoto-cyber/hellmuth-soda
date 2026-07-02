@@ -10,6 +10,7 @@ lead: "Zwei Mädchen im Alter von 12 und 13 Jahren töteten eine Gleichaltrige m
 relevance: 10
 ort: "Freudenberg, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["Verstümmelung"]}
 ---
 
 *74 Messerstiche und keine Anklage. Nicht weil Beweise fehlen, sondern weil das Recht die Frage nicht stellt.*

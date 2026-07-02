@@ -10,6 +10,7 @@ lead: "Der Angriff auf drei Bundespolizisten durch einen ausreisepflichtigen, po
 relevance: 7
 ort: "Lauf an der Pegnitz, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Einsatzkräfte", "systemversagen": "gescheiterte Abschiebung-Vollstreckung", "exzess": ["keines"]}
 ---
 
 *Ein abgelehnter Asylantrag erzeugt eine Rechtspflicht, die ohne administrativen Vollzug zur Formalität verkümmert.*

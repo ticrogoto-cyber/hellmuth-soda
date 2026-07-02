@@ -10,6 +10,7 @@ lead: "Vier Straftäter überwältigten und misshandelten einen Mitarbeiter des 
 relevance: 10
 ort: "Straubing, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "gescheiterte Unterbringung", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Vier Patienten, eine Scherbe, ein Mitarbeiter. Dass die Flucht gelang, ist nicht die Pointe. Dass sie geplant werden konnte, ist es.*

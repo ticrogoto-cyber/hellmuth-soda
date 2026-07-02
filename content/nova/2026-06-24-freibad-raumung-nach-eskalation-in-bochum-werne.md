@@ -11,6 +11,7 @@ lead: "Die Evakuierung von 4.000 Badegästen nach einem Streit zwischen zwei Per
 relevance: 7
 ort: "Bochum-Werne, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die institutionelle Reaktion auf einen Streit zwischen zwei Badegästen verrät mehr über den Zustand der Freibadkultur als der Streit selbst.*

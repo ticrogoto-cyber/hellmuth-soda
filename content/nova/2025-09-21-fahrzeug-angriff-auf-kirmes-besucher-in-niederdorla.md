@@ -11,6 +11,7 @@ lead: "Die Übertragung des terroristisch codierten Fahrzeugangriff-Musters auf 
 relevance: 7
 ort: "Niederdorla, Thüringen"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein Tatmuster, das mit Großstadt-Terrorismus assoziiert wird, materialisiert sich auf einer thüringischen Dorf-Kirmes.*

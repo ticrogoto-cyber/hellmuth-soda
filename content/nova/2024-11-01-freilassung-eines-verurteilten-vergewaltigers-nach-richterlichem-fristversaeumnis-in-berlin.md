@@ -11,6 +11,7 @@ lead: "Ein zu sieben Jahren und neun Monaten verurteilter Mehrfachvergewaltiger 
 relevance: 10
 ort: "Berlin"
 press_review: false
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Sonstiges", "betroffene": "Mehrere Gruppen", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
 *Ein Richter, der nicht schreiben kann, und ein Vergewaltiger, der gehen darf. Zwischen beiden liegt keine Lücke, sondern ein System.*

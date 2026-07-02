@@ -10,6 +10,7 @@ lead: "Das Verweilzeitenmuster des Angreifers aus Zustieg an einer vorherigen Ha
 relevance: 7
 ort: "Berlin-Mitte"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Angreifer steigt zu, wartet ab und schlägt beim Ausstieg des Opfers zu. Die Transitsequenz des öffentlichen Nahverkehrs wird zur taktischen Angriffsstruktur.*

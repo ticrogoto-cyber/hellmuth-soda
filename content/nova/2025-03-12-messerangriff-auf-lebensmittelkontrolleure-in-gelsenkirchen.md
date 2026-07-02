@@ -10,6 +10,7 @@ lead: "Die Opferkategorie der kommunalen Verwaltungsangestellten bei einer admin
 relevance: 8
 ort: "Gelsenkirchen-Horst, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Sonstiges", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Zwei Lebensmittelkontrolleure werden bei einer Routineinspektion in einer Eisdiele angegriffen. Die Gewalt trifft das unterste Glied der behördlichen Kontrollkette.*

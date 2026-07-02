@@ -11,6 +11,7 @@ lead: "Der Anschlag offenbart das Paradox einer Sicherheitsarchitektur, die auf 
 relevance: 10
 ort: "Magdeburg, Sachsen-Anhalt"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die gesamte Sicherheitsinfrastruktur war vorhanden, dokumentiert und genehmigt. Nur in der physischen Welt war sie nicht umgesetzt.*

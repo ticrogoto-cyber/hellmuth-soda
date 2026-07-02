@@ -11,6 +11,7 @@ lead: "Ein kommunales Stadtfest als islamistisches Anschlagsziel offenbart eine 
 relevance: 9
 ort: "Solingen, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "gescheiterte Abschiebung-Vollstreckung", "exzess": ["keines"]}
 ---
 
 *Ein Jubiläumsfest, das sich »Festival der Vielfalt« nannte, wurde zum Schauplatz eines islamistischen Anschlags, dessen Täter das Asylsystem bereits hätte ausschleusen müssen.*

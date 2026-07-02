@@ -11,6 +11,7 @@ lead: "Die Tötung eines Zugbegleiters durch Faustschläge bei einer routinemä�
 relevance: 9
 ort: "Landstuhl / Homburg, Rheinland-Pfalz"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "ÖPNV-Bahn", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die Fahrkartenkontrolle, elementarste Diensthandlung des Bahnpersonals, endet mit dem Tod des Kontrolleurs.*

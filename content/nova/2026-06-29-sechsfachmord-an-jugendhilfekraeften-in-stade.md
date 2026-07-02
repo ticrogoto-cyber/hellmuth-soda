@@ -10,6 +10,7 @@ lead: "Ein 45-Jähriger erschoss sechs Fachkräfte der Jugendhilfe in einer Mutt
 relevance: 10
 ort: "Stade, Niedersachsen"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Wohnumfeld", "betroffene": "Personal-Beschäftigte", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Das Gespräch sollte seine Aggressivität klären. Stattdessen bewies er sie.*

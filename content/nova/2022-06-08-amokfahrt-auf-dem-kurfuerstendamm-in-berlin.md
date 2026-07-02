@@ -10,6 +10,7 @@ lead: "Ein 29-Jähriger steuerte seinen Kleinwagen am Berliner Kurfürstendamm m
 relevance: 9
 ort: "Berlin-Charlottenburg"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein Auto, ein Gehsteig, dreißig Verletzte. Gegen dieses Tatmittel gibt es keine Waffenbehörde.*

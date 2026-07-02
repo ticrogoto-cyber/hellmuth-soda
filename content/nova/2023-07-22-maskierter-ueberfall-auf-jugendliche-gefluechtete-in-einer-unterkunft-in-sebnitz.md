@@ -10,6 +10,7 @@ lead: "Vier Maskierte überfielen am 22. Juli 2023 zwei jugendliche Bewohner ein
 relevance: 9
 ort: "Sebnitz, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "Wohnumfeld", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Vier Maskierte, ein Hammer, ein Schlagring. Die Anklage lautete auf gefährliche Körperverletzung.*

@@ -10,6 +10,7 @@ lead: "Die Kaskade vom interpersonellen Streit zweier Gruppen zur Massenkonfront
 relevance: 8
 ort: "Dortmund-Nordstadt, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Vom Streit zweier Gruppen zur Massenkonfrontation mit 300 Beteiligten in Minuten. Eine Kaskadendynamik ohne Bremse.*

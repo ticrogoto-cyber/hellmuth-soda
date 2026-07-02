@@ -10,6 +10,7 @@ lead: "Trotz abgelehntem Asylantrag, gescheiterter Abschiebung, dokumentierter G
 relevance: 9
 ort: "Aschaffenburg, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Drei Behörden, eine psychiatrische Diagnose und null wirksame Sicherungsmaßnahmen. Das Porträt eines Systems, das seinen eigenen Alarmsignalen nicht folgt.*

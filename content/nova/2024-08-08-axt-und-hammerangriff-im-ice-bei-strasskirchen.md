@@ -10,6 +10,7 @@ lead: "Der Einsatz von Hammer und Axt in einem voll besetzten Hochgeschwindigkei
 relevance: 8
 ort: "Straßkirchen, Niederbayern"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der ICE bei 200 km/h ist ein versiegelter Raum, das Gegenteil eines Fluchtwegs.*

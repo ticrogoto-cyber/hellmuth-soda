@@ -10,6 +10,7 @@ lead: "Das Innere eines fahrenden Rettungswagens exponiert Sanitäter in einem R
 relevance: 7
 ort: "Karlsruhe, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Rettungswagen als geschlossener Raum ohne Rückzugsoption. Die Architektur der Hilfe kann zur Falle für den Helfer werden.*

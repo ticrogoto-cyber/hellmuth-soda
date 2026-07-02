@@ -10,6 +10,7 @@ lead: "Ein transnationaler politischer Konflikt materialisierte sich als Straße
 relevance: 8
 ort: "Gießen, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Ein geopolitischer Konflikt des Herkunftslands wird als Stellvertreterkonflikt auf deutschem Boden ausgetragen. Die kommunale Sicherheitsarchitektur ist für dieses Szenario nicht kalibriert.*

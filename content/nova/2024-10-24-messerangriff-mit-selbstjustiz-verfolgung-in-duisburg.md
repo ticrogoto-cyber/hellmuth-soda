@@ -10,6 +10,7 @@ lead: "Die unmittelbare Abfolge von Messerangriff, Kfz-Verfolgungsjagd und grupp
 relevance: 7
 ort: "Duisburg, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein Messerangriff eskaliert zur Kfz-Verfolgungsjagd und endet in gruppenbasierter Vergeltung. Das gesamte Szenario verdichtet den Zerfall des wahrgenommenen Gewaltmonopols auf wenige Minuten.*

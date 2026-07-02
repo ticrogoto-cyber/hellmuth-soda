@@ -10,6 +10,7 @@ lead: "Ein Kinderstreit im Schwimmbecken eskalierte über drei Stufen zur bewaff
 relevance: 7
 ort: "Mannheim, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Eine Kinderstreitigkeit mutierte in Minuten zur bewaffneten Konfrontation. Der Freibad-Tatort bietet weder Fluchtdistanz noch institutionelle Deeskalationsressourcen.*

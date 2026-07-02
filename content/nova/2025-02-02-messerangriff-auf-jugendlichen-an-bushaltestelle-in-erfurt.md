@@ -11,6 +11,7 @@ lead: "Die Tat markiert die Verschiebung lebensbedrohlicher Messergewalt in ein 
 relevance: 7
 ort: "Erfurt-Vieselbach, Thüringen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Kinder-Jugendliche", "systemversagen": "gescheiterte Unterbringung", "exzess": ["keines"]}
 ---
 
 *Ein 16-Jähriger sticht einen 14-Jährigen beinahe tot und wird anschließend freigelassen. Das Jugendstrafrecht stößt an die Grenzen seiner eigenen Logik.*

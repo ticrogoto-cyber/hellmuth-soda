@@ -10,6 +10,7 @@ lead: "Die koordinierte Gewalt gegen Rettungskräfte in der Silvesternacht erzwi
 relevance: 8
 ort: "Berlin und Leipzig"
 press_review: false
+merkmale: {"tatmittel": "Sprengsatz", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Die Silvesternacht als wiederkehrendes Schlachtfeld, auf dem der Staat seine Ordnungsfunktion temporär verliert.*

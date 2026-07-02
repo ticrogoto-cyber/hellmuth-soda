@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T04:35:54.739Z",
+  "generated": "2026-07-02T05:07:37.991Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -18,8 +18,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Prenzlauer Berg",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.1187,
+        0.1242,
+        0.2749
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/einzeltater-verletzt-dreizehn-polizisten-in-berlin-prenzlauer-berg/"
     },
@@ -39,8 +51,20 @@ window.NOVA_DATA =
       ],
       "ort": "Stade, Niedersachsen",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.3608,
+        -0.1944,
+        0.4027
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sechsfachmord-an-jugendhilfekraeften-in-stade/"
     },
@@ -64,8 +88,20 @@ window.NOVA_DATA =
       ],
       "ort": "Bochum-Werne, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.4389,
+        -0.2398,
+        0.0044
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freibad-raumung-nach-eskalation-in-bochum-werne/"
     },
@@ -89,8 +125,20 @@ window.NOVA_DATA =
       ],
       "ort": "Leipzig, Sachsen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.3723,
+        -0.0486,
+        0.1151
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amokfahrt-in-der-leipziger-grimmaischen-strasse/"
     },
@@ -114,8 +162,20 @@ window.NOVA_DATA =
       ],
       "ort": "Siegburg, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sprengsatz",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7916,
+        -0.1201,
+        -0.1971
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sprengsatze-im-ice-bei-siegburg/"
     },
@@ -135,8 +195,20 @@ window.NOVA_DATA =
       ],
       "ort": "Völklingen, Saarland",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "Wiederholungsabsicht"
+        ]
+      },
+      "coords": [
+        0.2074,
+        0.0796,
+        0.1843
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-wegen-schuldunfaehigkeit-nach-toetung-eines-polizisten-in-voelklingen/"
     },
@@ -156,8 +228,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wuppertal, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.8565,
+        -0.4259,
+        -0.3138
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/mehrfach-messerangriff-im-schienenersatzverkehr-in-wuppertal/"
     },
@@ -181,8 +265,20 @@ window.NOVA_DATA =
       ],
       "ort": "Landstuhl / Homburg, Rheinland-Pfalz",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4263,
+        -0.2091,
+        -0.3969
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/todlicher-angriff-auf-zugbegleiter-bei-fahrkartenkontrolle/"
     },
@@ -206,8 +302,20 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt, Berlin, Duisburg, Leipzig",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sprengsatz",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.1184,
+        0.1428,
+        -0.1639
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-eskalation-gegen-einsatzkrafte-in-mehreren-grossstadten/"
     },
@@ -227,8 +335,20 @@ window.NOVA_DATA =
       ],
       "ort": "Darmstadt, Hessen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4531,
+        -0.0891,
+        -0.3639
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/arzt-in-darmstadter-klinikum-bewusstlos-geschlagen/"
     },
@@ -252,8 +372,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Verstümmelung"
+        ]
+      },
+      "coords": [
+        0.0346,
+        0.3642,
+        -0.1719
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund/"
     },
@@ -273,8 +405,20 @@ window.NOVA_DATA =
       ],
       "ort": "Mainz, Rheinland-Pfalz",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "Verstümmelung"
+        ]
+      },
+      "coords": [
+        0.2314,
+        0.3298,
+        0.4025
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/notwehr-freispruch-nach-38-messerstichen-im-mainzer-hartenbergpark/"
     },
@@ -294,8 +438,20 @@ window.NOVA_DATA =
       ],
       "ort": "Aschau im Chiemgau, Bayern",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.0488,
+        0.0903,
+        0.2796
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-im-eiskeller-fall-nach-fatalen-ermittlungsfehlern-in-aschau/"
     },
@@ -315,8 +471,20 @@ window.NOVA_DATA =
       ],
       "ort": "Würselen, Nordrhein-Westfalen",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7031,
+        -0.224,
+        -0.1154
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/zehnfacher-patientenmord-auf-der-palliativstation-in-wuerselen/"
     },
@@ -336,8 +504,20 @@ window.NOVA_DATA =
       ],
       "ort": "Essen, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "Filmen"
+        ]
+      },
+      "coords": [
+        0.0837,
+        0.2634,
+        0.2905
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreizehnjahriger-schlagt-rentner-auf-essener-spielplatz-tot/"
     },
@@ -357,8 +537,20 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt am Main, Hessen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4206,
+        -0.2572,
+        0.5505
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-im-frankfurter-polizeirevier/"
     },
@@ -378,8 +570,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dorsten-Wulfen, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.2397,
+        -0.2643,
+        0.4301
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-trotz-wegweisung-und-kontaktverbot-in-dorsten/"
     },
@@ -403,8 +607,20 @@ window.NOVA_DATA =
       ],
       "ort": "Niederdorla, Thüringen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.4486,
+        -0.236,
+        0.0941
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeug-angriff-auf-kirmes-besucher-in-niederdorla/"
     },
@@ -424,8 +640,20 @@ window.NOVA_DATA =
       ],
       "ort": "Essen, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.7265,
+        0.3182,
+        0.0966
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-messerangriff-in-essen-nach-ausspaehung-der-alten-synagoge/"
     },
@@ -449,8 +677,20 @@ window.NOVA_DATA =
       ],
       "ort": "Leipzig, Sachsen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.8943,
+        -0.4233,
+        -0.2283
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-an-leipziger-zentralhaltestelle/"
     },
@@ -470,8 +710,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dresden, Sachsen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7123,
+        -0.4598,
+        -0.2766
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-zivilcourage-helfer-in-dresdner-strassenbahn/"
     },
@@ -491,8 +743,20 @@ window.NOVA_DATA =
       ],
       "ort": "Lippstadt, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.108,
+        -0.3563,
+        0.4058
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-nach-wohnungsverweisung-und-gefaehrderansprache-in-lippstadt/"
     },
@@ -512,8 +776,20 @@ window.NOVA_DATA =
       ],
       "ort": "Ense, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.1054,
+        0.4536,
+        -0.4412
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-bei-kampfsportveranstaltung-in-ense/"
     },
@@ -533,8 +809,20 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt-Bonames, Hessen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "gescheiterte Unterbringung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.0759,
+        -0.3848,
+        0.2828
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-trotz-fussfessel-in-frankfurt-bonames/"
     },
@@ -554,8 +842,20 @@ window.NOVA_DATA =
       ],
       "ort": "Karlsruhe, Baden-Württemberg",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4796,
+        0.0366,
+        -0.2427
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sanitater-im-rettungswagen-angegriffen-in-karlsruhe/"
     },
@@ -575,8 +875,20 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt am Main, Hessen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.9235,
+        -0.3836,
+        -0.2981
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/soziale-medien-getriggerte-messerattacke-am-frankfurter-hauptbahnhof/"
     },
@@ -596,8 +908,20 @@ window.NOVA_DATA =
       ],
       "ort": "Fulda, Hessen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.0866,
+        0.4728,
+        -0.3757
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/bewaehrungsstrafen-fuer-gruppenvergewaltigung-durch-verstaendigungsdeal-in-fulda/"
     },
@@ -617,8 +941,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.1043,
+        0.352,
+        -0.0593
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenkonfrontation-mit-waffenarsenal-in-dortmund-nordstadt/"
     },
@@ -642,8 +978,20 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "gescheiterte Unterbringung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7696,
+        -0.5417,
+        -0.1792
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenangriff-am-hamburger-hauptbahnhof/"
     },
@@ -663,8 +1011,20 @@ window.NOVA_DATA =
       ],
       "ort": "Remscheid, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.8129,
+        0.4337,
+        0.4723
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/elfjahrige-schulerin-ersticht-mitschuler-in-remscheid/"
     },
@@ -688,8 +1048,20 @@ window.NOVA_DATA =
       ],
       "ort": "Bielefeld, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.6397,
+        -0.2949,
+        -0.3282
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-anschlag-mit-verkleideter-stockwaffe-in-bielefeld/"
     },
@@ -709,8 +1081,20 @@ window.NOVA_DATA =
       ],
       "ort": "Rochlitz, Sachsen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.5708,
+        0.3,
+        0.0924
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-supermarkt-kundin-nach-hausverbot-in-rochlitz/"
     },
@@ -730,8 +1114,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Charlottenburg",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "gescheiterte Abschiebung-Vollstreckung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.703,
+        -0.5161,
+        -0.1101
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/todliche-messerattacke-an-u-bahnhof-sophie-charlotte-platz/"
     },
@@ -751,8 +1147,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Mitte",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.872,
+        -0.3116,
+        -0.1879
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-in-berliner-strassenbahn-am-alexanderplatz/"
     },
@@ -772,8 +1180,20 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt am Main, Hessen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7694,
+        -0.2607,
+        -0.2152
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-auf-bahnsteig-des-frankfurter-hauptbahnhofs/"
     },
@@ -793,8 +1213,20 @@ window.NOVA_DATA =
       ],
       "ort": "Gelsenkirchen-Horst, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.0657,
+        -0.1748,
+        -0.3545
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-lebensmittelkontrolleure-in-gelsenkirchen/"
     },
@@ -814,8 +1246,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Wiederholungsabsicht"
+        ]
+      },
+      "coords": [
+        -0.7843,
+        -0.3972,
+        -0.4032
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-db-mitarbeiter-am-dortmunder-hauptbahnhof/"
     },
@@ -839,8 +1283,20 @@ window.NOVA_DATA =
       ],
       "ort": "Mannheim, Baden-Württemberg",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.423,
+        -0.2014,
+        0.0774
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeugangriff-auf-fastnachtsmarkt-in-mannheim/"
     },
@@ -860,8 +1316,20 @@ window.NOVA_DATA =
       ],
       "ort": "Duisburg-Marxloh, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.7297,
+        0.4686,
+        0.3916
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-in-duisburg-marxloh/"
     },
@@ -885,8 +1353,20 @@ window.NOVA_DATA =
       ],
       "ort": "München, Bayern",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4775,
+        0.2158,
+        0.0139
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeugangriff-auf-gewerkschaftsdemonstration-in-munchen/"
     },
@@ -910,8 +1390,20 @@ window.NOVA_DATA =
       ],
       "ort": "Erfurt-Vieselbach, Thüringen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "gescheiterte Unterbringung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.5738,
+        -0.6026,
+        -0.1559
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-jugendlichen-an-bushaltestelle-in-erfurt/"
     },
@@ -931,8 +1423,20 @@ window.NOVA_DATA =
       ],
       "ort": "Leipzig, Sachsen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7215,
+        -0.2487,
+        -0.3262
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-am-leipziger-hauptbahnhof/"
     },
@@ -952,8 +1456,20 @@ window.NOVA_DATA =
       ],
       "ort": "Aschaffenburg, Bayern",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.7229,
+        0.2953,
+        0.2893
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-kindergartengruppe-im-aschaffenburger-schontal-park/"
     },
@@ -973,8 +1489,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin und Leipzig",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sprengsatz",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.0841,
+        0.1407,
+        -0.1911
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-angriffe-auf-rettungskrafte-in-berlin-und-leipzig/"
     },
@@ -998,8 +1526,20 @@ window.NOVA_DATA =
       ],
       "ort": "Magdeburg, Sachsen-Anhalt",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.3578,
+        -0.1947,
+        0.1373
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeuganschlag-auf-den-magdeburger-weihnachtsmarkt/"
     },
@@ -1023,8 +1563,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.5073,
+        0.0517,
+        0.2794
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freilassung-eines-verurteilten-vergewaltigers-nach-richterlichem-fristversaeumnis-in-berlin/"
     },
@@ -1048,8 +1600,20 @@ window.NOVA_DATA =
       ],
       "ort": "Mockrehna, Nordsachsen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.0754,
+        0.4147,
+        -0.1536
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/bewaffnete-massenschlagerei-in-mockrehna/"
     },
@@ -1069,8 +1633,20 @@ window.NOVA_DATA =
       ],
       "ort": "Augsburg-Gablingen, Bayern",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.1862,
+        0.0459,
+        -0.3687
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-in-der-jva-augsburg-gablingen/"
     },
@@ -1090,8 +1666,20 @@ window.NOVA_DATA =
       ],
       "ort": "Duisburg, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.619,
+        -0.1867,
+        -0.1748
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-mit-selbstjustiz-verfolgung-in-duisburg/"
     },
@@ -1111,8 +1699,20 @@ window.NOVA_DATA =
       ],
       "ort": "Essen-Huttrop, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.3409,
+        0.01,
+        -0.4159
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenangriff-auf-klinikpersonal-nach-todesfall-in-essener-notaufnahme/"
     },
@@ -1136,8 +1736,20 @@ window.NOVA_DATA =
       ],
       "ort": "Erfurt, Thüringen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.607,
+        -0.3385,
+        -0.2706
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/evakuierung-des-thuringen-parks-nach-messer-und-pfefferspray-angriff/"
     },
@@ -1161,8 +1773,20 @@ window.NOVA_DATA =
       ],
       "ort": "Stralsund, Mecklenburg-Vorpommern",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Säure",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.5173,
+        -0.1505,
+        0.0053
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/saureattacke-auf-nachbarn-in-stralsund/"
     },
@@ -1182,8 +1806,20 @@ window.NOVA_DATA =
       ],
       "ort": "München, Bayern",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.2586,
+        0.0361,
+        0.2807
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-anschlag-auf-das-israelische-generalkonsulat-in-muenchen/"
     },
@@ -1203,8 +1839,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wuppertal, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.0116,
+        0.0655,
+        -0.3375
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/hochzeitsfeier-endet-in-massenschlagerei-mit-messereinsatz-in-wuppertal/"
     },
@@ -1228,8 +1876,20 @@ window.NOVA_DATA =
       ],
       "ort": "Solingen, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "gescheiterte Abschiebung-Vollstreckung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.396,
+        -0.4481,
+        0.0842
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-dem-solinger-stadtfest/"
     },
@@ -1249,8 +1909,20 @@ window.NOVA_DATA =
       ],
       "ort": "Straubing, Bayern",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "gescheiterte Unterbringung",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.2878,
+        -0.0632,
+        -0.4344
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/geiselnahme-und-massenausbruch-aus-der-forensik-straubing/"
     },
@@ -1274,8 +1946,20 @@ window.NOVA_DATA =
       ],
       "ort": "Schleswig, Schleswig-Holstein",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.004,
+        0.3797,
+        -0.2288
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-mit-improvisierten-waffen-bei-hochzeit-in-schleswig/"
     },
@@ -1295,8 +1979,20 @@ window.NOVA_DATA =
       ],
       "ort": "Straßkirchen, Niederbayern",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.826,
+        -0.2253,
+        -0.2722
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/axt-und-hammerangriff-im-ice-bei-strasskirchen/"
     },
@@ -1316,8 +2012,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund, Nordrhein-Westfalen",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.2206,
+        0.3679,
+        -0.4348
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/kaskadierende-gewalt-im-dortmunder-freibad-volkspark/"
     },
@@ -1337,8 +2045,20 @@ window.NOVA_DATA =
       ],
       "ort": "Essen und Köln, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Wiederholungsabsicht"
+        ]
+      },
+      "coords": [
+        -0.2791,
+        -0.0532,
+        0.1229
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/serielle-fahrzeugangriffe-auf-frauen-in-essen-und-koln/"
     },
@@ -1358,8 +2078,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Friedrichsfelde",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.1649,
+        -0.341,
+        0.4423
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-in-berlin-friedrichsfelde-trotz-behordlicher-hilfesuche/"
     },
@@ -1379,8 +2111,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.162,
+        0.4022,
+        -0.4076
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppengewalt-gegen-jugendliche-im-berliner-sommerbad/"
     },
@@ -1400,8 +2144,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.1412,
+        0.1931,
+        -0.4111
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/angriff-auf-drk-sanitater-bei-patientenversorgung-in-neukolln/"
     },
@@ -1421,8 +2177,20 @@ window.NOVA_DATA =
       ],
       "ort": "Lauf an der Pegnitz, Bayern",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "gescheiterte Abschiebung-Vollstreckung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.6814,
+        -0.5588,
+        -0.1344
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-bundespolizisten-am-bahnhof-lauf/"
     },
@@ -1442,8 +2210,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wolmirstedt, Sachsen-Anhalt",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "Wiederholungsabsicht"
+        ]
+      },
+      "coords": [
+        0.3935,
+        0.1542,
+        -0.1033
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/angriffsserie-wahrend-der-em-ubertragung-in-wolmirstedt/"
     },
@@ -1463,8 +2243,20 @@ window.NOVA_DATA =
       ],
       "ort": "Saarbrücken",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.8224,
+        -0.3473,
+        -0.1529
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-im-regionalzug-bei-saarbrucken/"
     },
@@ -1488,8 +2280,20 @@ window.NOVA_DATA =
       ],
       "ort": "Mannheim, Baden-Württemberg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "gescheiterte Abschiebung-Vollstreckung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.6522,
+        0.3261,
+        0.2118
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-kundgebung-am-mannheimer-marktplatz/"
     },
@@ -1509,8 +2313,20 @@ window.NOVA_DATA =
       ],
       "ort": "Rosenheim, Bayern",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Säure",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.4637,
+        -0.2472,
+        -0.1074
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/flusssaure-anschlag-an-der-wohnungstur-in-rosenheim/"
     },
@@ -1530,8 +2346,20 @@ window.NOVA_DATA =
       ],
       "ort": "Neubrandenburg, Mecklenburg-Vorpommern",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.0389,
+        0.4989,
+        -0.1239
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreistundige-massenschlagerei-am-tollensesee/"
     },
@@ -1551,8 +2379,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wasserburg am Inn, Bayern",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.3125,
+        -0.1536,
+        -0.3983
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totung-eines-forensik-arztes-in-wasserburg-am-inn/"
     },
@@ -1576,8 +2416,20 @@ window.NOVA_DATA =
       ],
       "ort": "Niederlahnstein, Rheinland-Pfalz",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7294,
+        -0.3533,
+        -0.3193
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-in-regionalbahn-bei-niederlahnstein/"
     },
@@ -1601,8 +2453,20 @@ window.NOVA_DATA =
       ],
       "ort": "Köln-Mülheim, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.548,
+        0.4463,
+        0.4411
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-minderjaehrigen-zeugen-nach-aussage-gegen-drogenhandel-in-koeln-muelheim/"
     },
@@ -1622,8 +2486,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wuppertal, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.9217,
+        0.4632,
+        0.5604
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/schulattacke-am-wilhelm-dorpfeld-gymnasium-in-wuppertal/"
     },
@@ -1643,8 +2519,20 @@ window.NOVA_DATA =
       ],
       "ort": "Oberhausen, Nordrhein-Westfalen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.8586,
+        -0.3049,
+        -0.4103
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/doppelmord-am-oberhausener-hauptbahnhof-durch-minderjahrige/"
     },
@@ -1664,8 +2552,20 @@ window.NOVA_DATA =
       ],
       "ort": "St. Leon-Rot, Baden-Württemberg",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.8654,
+        0.3413,
+        0.6243
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-an-einer-schuelerin-am-loewenrot-gymnasium-in-st-leon-rot/"
     },
@@ -1685,8 +2585,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Lichtenberg",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Klinik-Rettungsdienst",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4169,
+        -0.1023,
+        -0.3796
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gewalt-in-der-notaufnahme-des-sana-klinikums-berlin/"
     },
@@ -1706,8 +2618,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4847,
+        -0.1041,
+        0.4139
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/aufdeckung-eines-hamas-waffennetzwerks-mit-anschlagszielen-in-berlin-und-ramstein/"
     },
@@ -1727,8 +2651,20 @@ window.NOVA_DATA =
       ],
       "ort": "Essen, Bochum, Dortmund, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.1624,
+        0.0411,
+        -0.2577
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/koordinierte-anschlagsserie-auf-synagogen-in-nordrhein-westfalen/"
     },
@@ -1748,8 +2684,20 @@ window.NOVA_DATA =
       ],
       "ort": "Darmstadt, Hessen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "Verstümmelung"
+        ]
+      },
+      "coords": [
+        -0.8093,
+        -0.1812,
+        -0.376
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-obdachlosen-am-luisenplatz-in-darmstadt/"
     },
@@ -1769,8 +2717,20 @@ window.NOVA_DATA =
       ],
       "ort": "Offenburg, Baden-Württemberg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.9772,
+        0.4627,
+        0.6958
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amoklauf-mit-familienerbwaffe-an-der-waldbachschule-in-offenburg/"
     },
@@ -1790,8 +2750,20 @@ window.NOVA_DATA =
       ],
       "ort": "Stuttgart-Hallschlag, Baden-Württemberg",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.0301,
+        0.2809,
+        -0.3539
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/strassenschlacht-bei-eritreischer-veranstaltung-in-stuttgart/"
     },
@@ -1811,8 +2783,20 @@ window.NOVA_DATA =
       ],
       "ort": "Pragsdorf, Mecklenburg-Vorpommern",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.7843,
+        0.3436,
+        0.4713
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-sechsjaehrigen-auf-dem-sportplatz-in-pragsdorf/"
     },
@@ -1832,8 +2816,20 @@ window.NOVA_DATA =
       ],
       "ort": "Lohr am Main, Bayern",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.9753,
+        0.4203,
+        0.6915
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/kopfschuss-auf-schulhof-mit-nachbarwaffe-in-lohr-am-main/"
     },
@@ -1853,8 +2849,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wittlich, Rheinland-Pfalz",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Passanten",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.2636,
+        -0.3691,
+        0.1621
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-trotz-gestandnis-vor-us-militargericht-in-wittlich/"
     },
@@ -1874,8 +2882,20 @@ window.NOVA_DATA =
       ],
       "ort": "Sebnitz, Sachsen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        -0.001,
+        0.3731,
+        -0.3125
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/maskierter-ueberfall-auf-jugendliche-gefluechtete-in-einer-unterkunft-in-sebnitz/"
     },
@@ -1899,8 +2919,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dresden, Sachsen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7095,
+        -0.3472,
+        -0.1988
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toedlicher-messerangriff-in-dresdner-strassenbahn/"
     },
@@ -1920,8 +2952,20 @@ window.NOVA_DATA =
       ],
       "ort": "Gießen, Hessen",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.1482,
+        0.3165,
+        -0.4486
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/ausschreitungen-beim-eritrea-festival-in-giessen/"
     },
@@ -1941,8 +2985,20 @@ window.NOVA_DATA =
       ],
       "ort": "Mannheim, Baden-Württemberg",
       "relevance": 7,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Volksfest-Veranstaltung",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.2703,
+        0.2911,
+        -0.2872
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-im-mannheimer-herzogenriedbad/"
     },
@@ -1962,8 +3018,20 @@ window.NOVA_DATA =
       ],
       "ort": "Altbach, Baden-Württemberg",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sprengsatz",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.4383,
+        0.0095,
+        -0.0412
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/handgranatenwurf-auf-trauerfeier-in-altbach/"
     },
@@ -1983,8 +3051,20 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg-Niendorf, Hamburg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.2974,
+        -0.253,
+        0.4714
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/rassistischer-mordversuch-durch-schuss-durch-die-wohnungstuer-in-hamburg-niendorf/"
     },
@@ -2004,8 +3084,20 @@ window.NOVA_DATA =
       ],
       "ort": "Ratingen, Nordrhein-Westfalen",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sprengsatz",
+        "tatkontext": "Wohnumfeld",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.3301,
+        0.0038,
+        -0.1108
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/benzin-brandanschlag-auf-neun-einsatzkraefte-bei-wohnungskontrolle-in-ratingen/"
     },
@@ -2025,8 +3117,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.8801,
+        0.3177,
+        0.5824
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-auf-neukoellner-schulhof/"
     },
@@ -2046,8 +3150,20 @@ window.NOVA_DATA =
       ],
       "ort": "Wunsiedel, Bayern",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Sonstiges",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.9111,
+        0.4207,
+        0.7295
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totungsdelikt-in-frankischem-kinderheim/"
     },
@@ -2067,8 +3183,20 @@ window.NOVA_DATA =
       ],
       "ort": "Guben, Brandenburg",
       "relevance": 8,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Machete-Hiebwaffe",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.4357,
+        -0.3112,
+        -0.3222
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/axtangriff-auf-jugendliche-im-regionalzug-bei-guben/"
     },
@@ -2088,8 +3216,20 @@ window.NOVA_DATA =
       ],
       "ort": "Freudenberg, Nordrhein-Westfalen",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "Freispruch-Verfahrenseinstellung",
+        "exzess": [
+          "Verstümmelung"
+        ]
+      },
+      "coords": [
+        0.561,
+        0.4239,
+        0.4581
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-einer-zwoelfjaehrigen-durch-strafunmuendige-kinder-in-freudenberg/"
     },
@@ -2113,8 +3253,20 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg-Alsterdorf",
       "relevance": 10,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4204,
+        -0.2143,
+        0.4819
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschiesserei-in-hamburger-konigreichssaal/"
     },
@@ -2138,8 +3290,20 @@ window.NOVA_DATA =
       ],
       "ort": "Brokstedt, Schleswig-Holstein",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.7941,
+        -0.4517,
+        -0.1365
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-im-regionalzug-bei-brokstedt/"
     },
@@ -2159,8 +3323,20 @@ window.NOVA_DATA =
       ],
       "ort": "Ibbenbüren, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.8503,
+        0.2259,
+        0.5559
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-einer-lehrerin-am-berufskolleg-in-ibbenbueren/"
     },
@@ -2184,8 +3360,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.0118,
+        0.1315,
+        -0.0863
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-hinterhalte-auf-einsatzkraefte-in-berlin/"
     },
@@ -2205,8 +3393,20 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund, Nordrhein-Westfalen",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        1,
+        0.5137,
+        0.7548
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toedlicher-polizeieinsatz-gegen-suizidalen-sechzehnjaehrigen-in-dortmund/"
     },
@@ -2226,8 +3426,20 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Charlottenburg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Fahrzeug",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Mehrere Gruppen",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.445,
+        0.2576,
+        0.0597
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amokfahrt-auf-dem-kurfuerstendamm-in-berlin/"
     },
@@ -2247,8 +3459,20 @@ window.NOVA_DATA =
       ],
       "ort": "Kusel, Rheinland-Pfalz",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Einsatzkräfte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.1689,
+        0.0804,
+        0.1247
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/doppeltoetung-zweier-polizeibeamter-bei-naechtlicher-kontrolle-in-kusel/"
     },
@@ -2268,8 +3492,20 @@ window.NOVA_DATA =
       ],
       "ort": "Heidelberg, Baden-Württemberg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Bildungseinrichtung",
+        "betroffene": "Passanten",
+        "systemversagen": "behördenbekannter Gefährder",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.4708,
+        -0.166,
+        0.554
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amoklauf-im-hoersaal-der-universitaet-heidelberg/"
     },
@@ -2289,8 +3525,20 @@ window.NOVA_DATA =
       ],
       "ort": "Idar-Oberstein, Rheinland-Pfalz",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "Sonstiges",
+        "betroffene": "Personal-Beschäftigte",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.2411,
+        -0.1404,
+        -0.2358
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/erschiessung-eines-tankstellenkassierers-wegen-maskenpflicht-in-idar-oberstein/"
     },
@@ -2310,8 +3558,22 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg",
       "relevance": 9,
-      "merkmale": null,
-      "coords": null,
+      "merkmale": {
+        "tatmittel": "Körpergewalt",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Kinder-Jugendliche",
+        "systemversagen": "keines",
+        "exzess": [
+          "Filmen",
+          "Wiederholungsabsicht",
+          "Gruppenbegehung"
+        ]
+      },
+      "coords": [
+        0.1317,
+        0.4801,
+        -0.2444
+      ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenvergewaltigung-im-hamburger-stadtpark/"
     }

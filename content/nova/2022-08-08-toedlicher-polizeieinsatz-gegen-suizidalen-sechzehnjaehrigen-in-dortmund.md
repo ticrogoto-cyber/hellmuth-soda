@@ -10,6 +10,7 @@ lead: "Zwölf Polizeibeamte erschossen einen 16-Jährigen in einer psychischen K
 relevance: 9
 ort: "Dortmund, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Zwölf Beamte gegen einen Jungen mit Messer. Der Taser versagte. Was blieb, war die Maschinenpistole.*

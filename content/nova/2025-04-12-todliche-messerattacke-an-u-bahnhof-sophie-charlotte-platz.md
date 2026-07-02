@@ -10,6 +10,7 @@ lead: "Ein nicht vollstreckter Haftbefehl, der über drei Monate zwischen zwei B
 relevance: 8
 ort: "Berlin-Charlottenburg"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "gescheiterte Abschiebung-Vollstreckung", "exzess": ["keines"]}
 ---
 
 *Ein als akut fremdgefährdend eingestufter Mann ersticht einen 29-Jährigen, weil ein Haftbefehl drei Monate zwischen Chemnitz und Berlin unterwegs war.*

@@ -10,6 +10,7 @@ lead: "Die Übernahme des klassischen Tatvorlaufs durch ein TikTok-Video beschre
 relevance: 7
 ort: "Frankfurt am Main, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Ein Gewaltauslöser ohne physische Vorgeschichte. Die digitale Sphäre ersetzt den klassischen Tatvorlauf.*

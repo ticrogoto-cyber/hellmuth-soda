@@ -10,6 +10,7 @@ lead: "Die stellvertretende Leiterin der JVA Augsburg-Gablingen etablierte über
 relevance: 10
 ort: "Augsburg-Gablingen, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Sonstiges", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Eine Justizvollzugsanstalt, die Gewalt vollzieht statt Strafe. Der Unterschied zwischen beiden ist die Rechtsgrundlage, und die fehlte.*

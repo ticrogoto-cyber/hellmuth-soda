@@ -10,6 +10,7 @@ lead: "Das Landgericht Mainz sprach einen 29-Jährigen vom Vorwurf des Totschlag
 relevance: 9
 ort: "Mainz, Rheinland-Pfalz"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["Verstümmelung"]}
 ---
 
 *38 Messerstiche. Das Gericht nannte es Notwehr.*

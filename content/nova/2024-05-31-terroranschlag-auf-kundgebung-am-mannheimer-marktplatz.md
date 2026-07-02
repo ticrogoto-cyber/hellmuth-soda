@@ -11,6 +11,7 @@ lead: "Die doppelte Strukturanomalie aus einem fünf Jahre lang nicht vollstreck
 relevance: 9
 ort: "Mannheim, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "gescheiterte Abschiebung-Vollstreckung", "exzess": ["keines"]}
 ---
 
 *Doppeltes Systemversagen. Ein nicht vollstreckter Haftbefehl und ein ungeschützter Marktplatz bilden die Voraussetzungen für einen Terroranschlag, der vermeidbar gewesen wäre.*

@@ -11,6 +11,7 @@ lead: "Der Einsatz zweier improvisierter Sprengsätze im ICE markiert die Eskala
 relevance: 9
 ort: "Siegburg, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Sprengsatz", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die Gewalt im Schienenverkehr eskaliert vom Messer zum Sprengsatz. Diese kategoriale Grenze rückt den ICE in die Nähe eines Flugzeugs.*

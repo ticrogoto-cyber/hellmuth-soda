@@ -10,6 +10,7 @@ lead: "Ein Einzeltäter in Badehose verletzte bei einer Auseinandersetzung in Pr
 relevance: 7
 ort: "Berlin-Prenzlauer Berg"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
 *Ein Mann in roter Badehose bedrohte Kinder, schlug Polizisten, sprang auf Streifenwagen. Die wahrscheinlichste juristische Konsequenz ist keine.*

@@ -11,6 +11,7 @@ lead: "32 stationäre psychiatrische Aufnahmen in drei Jahren ohne dauerhafte Un
 relevance: 9
 ort: "Hamburg"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "gescheiterte Unterbringung", "exzess": ["keines"]}
 ---
 
 *Wenn 32 Hospitalisierungen keine dauerhafte Unterbringung bewirken, wird die psychiatrische Versorgung selbst zum Risikofaktor.*

@@ -11,6 +11,7 @@ lead: "Die gleichzeitige Attacke auf Rettungsmittel und deren erzwungene Nutzung
 relevance: 8
 ort: "Frankfurt, Berlin, Duisburg, Leipzig"
 press_review: false
+merkmale: {"tatmittel": "Sprengsatz", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Die Silvesternacht 2025/26 überschreitet die Schwelle, an der urbane Einsatzkräfte den Schutz des Raums benötigen, den sie selbst schützen sollen.*

@@ -10,6 +10,7 @@ lead: "Ein letales Gruppendelikt mit Messern, verübt durch vier 14- bis 16-Jäh
 relevance: 8
 ort: "Oberhausen, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Wenn die Altersgrenze der Strafmündigkeit zur Systemfrage wird, hat ein Doppelmord seine diagnostische Schwelle erreicht.*

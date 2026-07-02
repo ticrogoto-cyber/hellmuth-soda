@@ -10,6 +10,7 @@ lead: "Attackiert wird nicht das Personal, das das Hausverbot erteilte, sondern 
 relevance: 7
 ort: "Rochlitz, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Angreifer kehrt nach einem Hausverbot zum Supermarkt zurück und sticht auf eine unbeteiligte Kundin ein. Das Ziel der Gewalt hat mit ihrem Auslöser nichts zu tun.*

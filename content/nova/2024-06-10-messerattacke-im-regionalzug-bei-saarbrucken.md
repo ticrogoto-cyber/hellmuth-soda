@@ -10,6 +10,7 @@ lead: "Die vollständige Grundlosigkeit eines Messerangriffs im Regionalzug, ohn
 relevance: 7
 ort: "Saarbrücken"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Gewalt ohne Vorgeschichte, ohne Wort, ohne Blick. Der Angriff im Saarbrücker Regionalzug reduziert die Tat auf ihren mechanischen Kern.*

@@ -10,6 +10,7 @@ lead: "Das extreme Alter der Angreiferin von elf Jahren, drei Jahre unterhalb de
 relevance: 7
 ort: "Remscheid, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein elfjähriges Kind sticht mit einem von zu Hause mitgebrachten Küchenmesser auf einen Mitschüler ein. Am selben Abend wird es den Eltern übergeben, weil das Strafrecht für diesen Fall keine Zuständigkeit kennt.*

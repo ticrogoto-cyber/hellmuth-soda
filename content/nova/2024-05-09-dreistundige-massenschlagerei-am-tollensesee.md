@@ -10,6 +10,7 @@ lead: "Eine Massenschlägerei mit rund 40 Beteiligten dauert trotz Einsatzes von
 relevance: 7
 ort: "Neubrandenburg, Mecklenburg-Vorpommern"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Drei Stunden Gewalt trotz 60 Polizeibeamter. Was geschieht, wenn die Dauer einer Schlägerei die Einsatzlogik der Polizei übersteigt.*

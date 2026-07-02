@@ -10,6 +10,7 @@ lead: "Ein 15-Jähriger erschoss seinen 14-jährigen Mitschüler auf dem Schulho
 relevance: 9
 ort: "Lohr am Main, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die Waffe war legal. Der Zugang war es nicht. Zwischen beiden lag nur ein Tresorschloss, das niemand kontrollierte.*

@@ -11,6 +11,7 @@ lead: "Die taktische Struktur der Silvester-Angriffe 2022/23 in Berlin, bei dene
 relevance: 9
 ort: "Berlin-Neukölln"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Wer Barrikaden errichtet, um Löschfahrzeuge anzulocken, und dann deren Ausrüstung plündert, betreibt keine Randale, sondern Logistik.*

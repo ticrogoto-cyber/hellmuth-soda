@@ -10,6 +10,7 @@ lead: "Ein asymmetrisches Zahlenverhältnis von zwanzig gegen zwei Minderjährig
 relevance: 7
 ort: "Berlin-Neukölln"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Die wiederkehrende Gewalt im Freibad erzwingt eine Sicherheitsarchitektur, die das Freibad als öffentlichen Ort verändert, noch bevor der nächste Vorfall eintritt.*
