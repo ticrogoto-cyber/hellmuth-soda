@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T00:56:48.359Z",
+  "generated": "2026-07-02T01:12:48.165Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -14,6 +14,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/einzeltater-verletzt-dreizehn-polizisten-in-berlin-prenzlauer-berg/"
+    },
+    {
+      "title": "Sechsfachmord an Jugendhilfekräften in Stade",
+      "date": "2026-06-29",
+      "created": "2026-07-02T03:30:00.000Z",
+      "slug": "sechsfachmord-an-jugendhilfekraeften-in-stade",
+      "lead": "Ein 45-Jähriger erschoss sechs Fachkräfte der Jugendhilfe in einer Mutter-Kind-Wohngruppe in Stade während eines Hilfeplanungsgesprächs, das wegen seines aggressiven Verhaltens im Sorgerechtsstreit um seine drei Monate alte Tochter angesetzt worden war, wobei der Fall die vollständige Abwesenheit physischer Sicherheitsinfrastruktur für hochkonfliktige Begegnungen in der Kinder- und Jugendhilfe offenlegte.",
+      "source_name": "ZDF heute",
+      "source_url": "https://www.zdfheute.de/panorama/stade-tote-festnahmen-100.html",
+      "ort": "Stade, Niedersachsen",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/sechsfachmord-an-jugendhilfekraeften-in-stade/"
     },
     {
       "title": "Freibad-Räumung nach Eskalation in Bochum-Werne",
@@ -53,6 +66,19 @@ window.NOVA_DATA =
       "relevance": 9,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sprengsatze-im-ice-bei-siegburg/"
+    },
+    {
+      "title": "Freispruch wegen Schuldunfähigkeit nach Tötung eines Polizisten in Völklingen",
+      "date": "2026-04-01",
+      "created": "2026-07-02T03:30:00.000Z",
+      "slug": "freispruch-wegen-schuldunfaehigkeit-nach-toetung-eines-polizisten-in-voelklingen",
+      "lead": "Ein 18-Jähriger entwand bei einer Festnahme in Völklingen einem Kommissaranwärter die Dienstwaffe und erschoss einen 29-jährigen Polizeioberkommissar mit sechs Schüssen, drei davon auf den bereits am Boden Liegenden, doch das Landgericht Saarbrücken sprach den Angeklagten wegen akuter Schizophrenie vom Mordvorwurf frei und ordnete die psychiatrische Unterbringung an, wobei der Fall die Grenzfrage des § 20 StGB zwischen Schuldunfähigkeit und strafrechtlicher Verantwortung für schwerste Gewalt gegen Polizeibeamte aufwarf.",
+      "source_name": "ZDF heute",
+      "source_url": "https://www.zdfheute.de/panorama/voelklingen-polizist-getoetet-urteil-100.html",
+      "ort": "Völklingen, Saarland",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/freispruch-wegen-schuldunfaehigkeit-nach-toetung-eines-polizisten-in-voelklingen/"
     },
     {
       "title": "Mehrfach-Messerangriff im Schienenersatzverkehr in Wuppertal",
@@ -133,6 +159,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/freispruch-im-eiskeller-fall-nach-fatalen-ermittlungsfehlern-in-aschau/"
     },
     {
+      "title": "Zehnfacher Patientenmord auf der Palliativstation in Würselen",
+      "date": "2025-11-05",
+      "created": "2026-07-02T03:30:00.000Z",
+      "slug": "zehnfacher-patientenmord-auf-der-palliativstation-in-wuerselen",
+      "lead": "Ein Krankenpfleger tötete zwischen Dezember 2023 und Mai 2024 zehn Patienten auf der Palliativstation des Rhein-Maas-Klinikums in Würselen durch überdosierte Sedativa und Schmerzmittel, wobei das Landgericht Aachen neben der lebenslangen Freiheitsstrafe mit besonderer Schwere der Schuld feststellte, dass die organisatorische Kultur der Klinik ein Klima geschaffen hatte, das die Taten begünstigte, und die Entdeckung erst erfolgte, als die Todesfälle während des Urlaubs des Pflegers zurückgingen.",
+      "source_name": "Aachener Zeitung",
+      "source_url": "https://www.aachener-zeitung.de/lokales/region-aachen/aachen/nach-dem-deutlichen-urteil-rueckschau-auf-mordprozess-gegen-pfleger/101280684.html",
+      "ort": "Würselen, Nordrhein-Westfalen",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/zehnfacher-patientenmord-auf-der-palliativstation-in-wuerselen/"
+    },
+    {
       "title": "Dreizehnjähriger schlägt Rentner auf Essener Spielplatz tot",
       "date": "2025-11-03",
       "created": "2026-07-01T22:42:00.000Z",
@@ -157,6 +196,19 @@ window.NOVA_DATA =
       "relevance": 9,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-im-frankfurter-polizeirevier/"
+    },
+    {
+      "title": "Femizid trotz Wegweisung und Kontaktverbot in Dorsten",
+      "date": "2025-10-09",
+      "created": "2026-07-02T03:00:00.000Z",
+      "slug": "femizid-trotz-wegweisung-und-kontaktverbot-in-dorsten",
+      "lead": "Ein Mann tötete seine Ex-Partnerin in Dorsten-Wulfen, obwohl gegen ihn sowohl eine polizeiliche Wegweisung als auch ein gerichtliches Kontaktverbot bestanden, wobei der Fall das systemische Durchsetzungsdefizit deutscher Gewaltschutzanordnungen als tödliche Lücke dokumentierte.",
+      "source_name": "One Billion Rising",
+      "source_url": "https://www.onebillionrising.de/femizid-opfer-meldungen-2025/",
+      "ort": "Dorsten-Wulfen, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/femizid-trotz-wegweisung-und-kontaktverbot-in-dorsten/"
     },
     {
       "title": "Fahrzeug-Angriff auf Kirmes-Besucher in Niederdorla",
@@ -196,6 +248,19 @@ window.NOVA_DATA =
       "relevance": 7,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-zivilcourage-helfer-in-dresdner-strassenbahn/"
+    },
+    {
+      "title": "Femizid nach Wohnungsverweisung und Gefährderansprache in Lippstadt",
+      "date": "2025-08-19",
+      "created": "2026-07-02T03:30:00.000Z",
+      "slug": "femizid-nach-wohnungsverweisung-und-gefaehrderansprache-in-lippstadt",
+      "lead": "Ein 33-Jähriger erstach seine 36-jährige Partnerin in Lippstadt, obwohl die Polizei ihn am Vortag aus der Wohnung verwiesen, eine Gefährderansprache durchgeführt und seinen Wohnungsschlüssel eingezogen hatte, wobei das Versagen aller drei Schutzmaßnahmen innerhalb von 24 Stunden die funktionale Leere polizeilicher Gewaltschutzinstrumente bei entschlossenen Tätern dokumentierte.",
+      "source_name": "Soester Anzeiger",
+      "source_url": "https://www.soester-anzeiger.de/lokales/kreis-soest/mann-toetet-seine-partnerin-und-geht-blutverschmiert-zur-polizei-93891639.html",
+      "ort": "Lippstadt, Nordrhein-Westfalen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/femizid-nach-wohnungsverweisung-und-gefaehrderansprache-in-lippstadt/"
     },
     {
       "title": "Massenschlägerei bei Kampfsportveranstaltung in Ense",
@@ -495,6 +560,19 @@ window.NOVA_DATA =
       "relevance": 10,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeuganschlag-auf-den-magdeburger-weihnachtsmarkt/"
+    },
+    {
+      "title": "Freilassung eines verurteilten Vergewaltigers nach richterlichem Fristversäumnis in Berlin",
+      "date": "2024-11-01",
+      "created": "2026-07-02T03:00:00.000Z",
+      "slug": "freilassung-eines-verurteilten-vergewaltigers-nach-richterlichem-fristversaeumnis-in-berlin",
+      "lead": "Ein zu sieben Jahren und neun Monaten verurteilter Mehrfachvergewaltiger kam frei, weil der zuständige Richter aufgrund einer Suchterkrankung das Verhandlungsprotokoll nicht fristgerecht fertigstellte, wobei der Fall ein strukturelles Personalrisiko in der Justiz offenlegte, das über das individuelle Versagen hinausweist.",
+      "source_name": "t-online",
+      "source_url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101124316/schwere-justizpanne-in-berlin-gefaehrlicher-vergewaltiger-frei.html",
+      "ort": "Berlin",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/freilassung-eines-verurteilten-vergewaltigers-nach-richterlichem-fristversaeumnis-in-berlin/"
     },
     {
       "title": "Bewaffnete Massenschlägerei in Mockrehna",
@@ -939,6 +1017,19 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/freispruch-trotz-gestandnis-vor-us-militargericht-in-wittlich/"
     },
     {
+      "title": "Tödlicher Messerangriff in Dresdner Straßenbahn",
+      "date": "2023-07-08",
+      "created": "2026-07-02T03:00:00.000Z",
+      "slug": "toedlicher-messerangriff-in-dresdner-strassenbahn",
+      "lead": "Ein schuldunfähiger Täter erstach einen 40-jährigen Fahrgast in der Straßenbahnlinie 7 in Dresden von hinten, wobei die Tat das wiederkehrende Muster wahnhafter Gewalt im öffentlichen Nahverkehr reproduzierte und die systemische Lücke zwischen psychiatrischer Versorgung und der Sicherheit des ÖPNV sichtbar machte.",
+      "source_name": "t-online",
+      "source_url": "https://www.t-online.de/region/dresden/id_100288594/dresden-toedliche-messerattacke-in-strassenbahn-mann-soll-in-psychiatrie.html",
+      "ort": "Dresden, Sachsen",
+      "relevance": 8,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toedlicher-messerangriff-in-dresdner-strassenbahn/"
+    },
+    {
       "title": "Ausschreitungen beim Eritrea-Festival in Gießen",
       "date": "2023-07-08",
       "created": "2026-07-01T21:39:04.999Z",
@@ -1015,6 +1106,19 @@ window.NOVA_DATA =
       "relevance": 8,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totungsdelikt-in-frankischem-kinderheim/"
+    },
+    {
+      "title": "Axtangriff auf Jugendliche im Regionalzug bei Guben",
+      "date": "2023-03-24",
+      "created": "2026-07-02T03:00:00.000Z",
+      "slug": "axtangriff-auf-jugendliche-im-regionalzug-bei-guben",
+      "lead": "Ein 37-Jähriger schlug einer 17-Jährigen im Regionalzug Cottbus-Frankfurt (Oder) mit einer Axt auf den Kopf und verursachte ein schweres Schädel-Hirn-Trauma, wobei nur wenige Millimeter über Tod oder Dauerschädigung entschieden und der Fall das wiederkehrende Muster wahnhafter Gewalt im Schienenverkehr um die Dimension der Kriegswaffe erweiterte.",
+      "source_name": "Der Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/potsdam/brandenburg/nach-axt-angriff-im-regionalzug-in-guben-beschuldigter-muss-in-psychiatrische-einrichtung-10785022.html",
+      "ort": "Guben, Brandenburg",
+      "relevance": 8,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/axtangriff-auf-jugendliche-im-regionalzug-bei-guben/"
     },
     {
       "title": "Tötung einer Zwölfjährigen durch strafunmündige Kinder in Freudenberg",
