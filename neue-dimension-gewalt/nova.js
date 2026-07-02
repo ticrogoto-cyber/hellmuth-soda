@@ -48,9 +48,22 @@
     return String(iso).slice(0, 10);
   }
 
+  // Filterzustand für die Latent-Space-Wolke publizieren: Tabelle und
+  // Wolke zeigen dieselbe Menge (matched = null heißt: kein Filter aktiv).
+  function publishFilterState() {
+    var matched = null;
+    if (anyFilterActive()) {
+      matched = new Set();
+      for (var i = 0; i < data.length; i++) matched.add(data[i].slug);
+    }
+    window.NOVA_FILTER = { matched: matched };
+    document.dispatchEvent(new CustomEvent('nova:filterchange'));
+  }
+
   function applyFilters() {
     data = allData.filter(matches);
     totalPages = Math.max(1, Math.ceil(data.length / PER_PAGE));
+    publishFilterState();
     renderPage(1);
   }
 
@@ -62,6 +75,7 @@
     for (var i = 0; i < slice.length; i++) {
       var item = slice[i];
       var tr = document.createElement('tr');
+      tr.dataset.slug = item.slug;
       var tdDate = document.createElement('td');
       tdDate.className = 'nova-td-date';
       tdDate.textContent = formatDate(item.date);
@@ -170,5 +184,16 @@
     });
   }
 
+  // Zeilen-Hover an die Wolke melden (Punkt pulsiert kurz auf).
+  tbody.addEventListener('mouseover', function (ev) {
+    var tr = ev.target.closest('tr[data-slug]');
+    if (!tr) return;
+    document.dispatchEvent(new CustomEvent('nova:rowhover', { detail: { slug: tr.dataset.slug } }));
+  });
+  tbody.addEventListener('mouseleave', function () {
+    document.dispatchEvent(new CustomEvent('nova:rowhover', { detail: { slug: null } }));
+  });
+
+  window.NOVA_FILTER = { matched: null };
   renderPage(currentPage);
 })();

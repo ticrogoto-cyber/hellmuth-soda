@@ -158,11 +158,76 @@
   text-underline-offset: 0.25em;
   text-decoration-thickness: 1px;
 }
-.nova-space-dot {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
+
+/* Einzeilige Erklärung unter dem Kompaktfenster */
+.nova-space-note {
+  font-family: 'Printvetica', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #888;
+  margin: -1.4rem 0 2rem;
+}
+.nova-space-note[hidden] { display: none; }
+
+/* Zeitachse (nur im Overlay) */
+.nova-time {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  border-top: 1px solid #e5e5e5;
+}
+.nova-time-play {
+  background: none;
+  border: 1px solid var(--ink);
+  width: 1.9rem;
+  height: 1.9rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--ink);
   flex: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.nova-time-play:hover { background: var(--ink); color: var(--paper); }
+.nova-time-play svg { width: 0.85rem; height: 0.85rem; }
+.nova-time-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  background: #d9d9d9;
+  outline: none;
+}
+.nova-time-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--ink);
+  border: none;
+  cursor: pointer;
+}
+.nova-time-slider::-moz-range-thumb {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--ink);
+  border: none;
+  cursor: pointer;
+}
+.nova-time-year {
+  font-family: 'Printvetica', sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+  min-width: 3.2em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Tooltip */

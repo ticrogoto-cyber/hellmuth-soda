@@ -9,6 +9,7 @@ import { dirname, join } from 'node:path';
 import { slug, isoDate } from './lib/util.mjs';
 import { rebuildSitemap } from './render.mjs';
 import { computeLatentCoords } from './lib/umap-nova.mjs';
+import { computeClusters } from './lib/cluster-nova.mjs';
 import { normalizeMerkmale } from './lib/classify-nova.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -298,6 +299,7 @@ function dataJs(all) {
   const payload = {
     generated: new Date().toISOString(),
     items: all.map(trim),
+    clusters: computeClusters(all, coords),
   };
   return 'window.NOVA_DATA =\n' + JSON.stringify(payload, null, 2) + '\n;\n';
 }

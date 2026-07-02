@@ -19,12 +19,12 @@
   <meta property="og:site_name" content="Hellmuth" />
   <link rel="alternate" type="application/rss+xml" title="Kriminologische Nova" href="https://hellmuth-soda.de/neue-dimension-gewalt/feed.xml" />
   <link rel="stylesheet" href="../styles.css?v=14" />
-  <link rel="stylesheet" href="nova.css?v=3" />
+  <link rel="stylesheet" href="nova.css?v=4" />
   <script type="importmap">
   {
     "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      "three": "./vendor/three.module.js?v=160",
+      "three/addons/controls/OrbitControls.js": "./vendor/OrbitControls.js?v=160"
     }
   }
   </script>
@@ -67,6 +67,7 @@
       <div class="nova-space-stage" id="nova-space-stage"></div>
       <div class="nova-space-legend" id="nova-space-legend" role="group" aria-label="Fallarten (Tatmittel)"></div>
     </section>
+    <p class="nova-space-note" id="nova-space-note" hidden>Jeder Punkt ein Fall. Räumliche Nähe bedeutet strukturelle Ähnlichkeit der Tatmerkmale.</p>
 
     <div class="nova-filter" id="nova-filter" role="group" aria-label="Einträge filtern">
       <div class="nova-filter-row">
@@ -99,6 +100,7 @@
         <button type="button" data-dim="betroffene" data-val="Kinder-Jugendliche" aria-pressed="false">Kinder / Jugendliche</button>
         <button type="button" data-dim="betroffene" data-val="Passanten" aria-pressed="false">Passanten</button>
         <button type="button" data-dim="betroffene" data-val="Personal-Beschäftigte" aria-pressed="false">Personal / Beschäftigte</button>
+        <button type="button" data-dim="betroffene" data-val="Privatpersonen-Beziehungsumfeld" aria-pressed="false">Privatpersonen / Beziehungsumfeld</button>
         <button type="button" data-dim="betroffene" data-val="Mehrere Gruppen" aria-pressed="false">Mehrere Gruppen</button>
       </div>
       <div class="nova-filter-row" data-dim="systemversagen">
@@ -132,6 +134,14 @@
     <div class="nova-space-modal-frame">
       <button class="nova-space-close" aria-label="Schließen">×</button>
       <div class="nova-space-stage nova-space-stage-full" id="nova-space-stage-full"></div>
+      <div class="nova-time" id="nova-time">
+        <button type="button" class="nova-time-play" id="nova-time-play" aria-label="Zeitachse abspielen" aria-pressed="false">
+          <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" hidden><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+        </button>
+        <input type="range" class="nova-time-slider" id="nova-time-slider" min="0" max="1000" value="1000" aria-label="Zeitachse" />
+        <span class="nova-time-year" id="nova-time-year"></span>
+      </div>
       <div class="nova-space-legend" id="nova-space-legend-full" role="group" aria-label="Fallarten (Tatmittel)"></div>
     </div>
   </div>
@@ -140,8 +150,8 @@
   <footer><a href="../impressum/" class="footer-impressum">Impressum</a></footer>
   <script src="../site.js?v=7"></script>
   <script src="../search.js?v=3"></script>
-  <script src="data.js?v=3"></script>
-  <script src="nova.js?v=3"></script>
-  <script type="module" src="nova-space.js?v=1"></script>
+  <script src="data.js?v=4"></script>
+  <script src="nova.js?v=4"></script>
+  <script type="module" src="nova-space.js?v=2"></script>
 </body>
 </html>

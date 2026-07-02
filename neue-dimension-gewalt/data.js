@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T05:15:21.802Z",
+  "generated": "2026-07-02T12:02:56.356Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -3576,6 +3576,44 @@ window.NOVA_DATA =
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenvergewaltigung-im-hamburger-stadtpark/"
+    }
+  ],
+  "clusters": [
+    {
+      "label": "ÖPNV · Messer",
+      "center": [
+        -0.2225,
+        -0.2493,
+        -0.7001
+      ],
+      "count": 24
+    },
+    {
+      "label": "Straßenraum · Messer",
+      "center": [
+        0.1841,
+        0.2354,
+        0.3303
+      ],
+      "count": 39
+    },
+    {
+      "label": "Gruppengewalt · Körpergewalt",
+      "center": [
+        -0.1718,
+        -0.2353,
+        0.2757
+      ],
+      "count": 29
+    },
+    {
+      "label": "Wohnumfeld · Systemversagen",
+      "center": [
+        0.2415,
+        0.2792,
+        -0.3135
+      ],
+      "count": 13
     }
   ]
 }
