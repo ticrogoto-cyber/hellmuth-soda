@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T03:06:15.240Z",
+  "generated": "2026-07-02T04:35:54.739Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -18,6 +18,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Prenzlauer Berg",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/einzeltater-verletzt-dreizehn-polizisten-in-berlin-prenzlauer-berg/"
     },
@@ -37,6 +39,8 @@ window.NOVA_DATA =
       ],
       "ort": "Stade, Niedersachsen",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sechsfachmord-an-jugendhilfekraeften-in-stade/"
     },
@@ -60,6 +64,8 @@ window.NOVA_DATA =
       ],
       "ort": "Bochum-Werne, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freibad-raumung-nach-eskalation-in-bochum-werne/"
     },
@@ -83,6 +89,8 @@ window.NOVA_DATA =
       ],
       "ort": "Leipzig, Sachsen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amokfahrt-in-der-leipziger-grimmaischen-strasse/"
     },
@@ -106,6 +114,8 @@ window.NOVA_DATA =
       ],
       "ort": "Siegburg, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sprengsatze-im-ice-bei-siegburg/"
     },
@@ -125,6 +135,8 @@ window.NOVA_DATA =
       ],
       "ort": "Völklingen, Saarland",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-wegen-schuldunfaehigkeit-nach-toetung-eines-polizisten-in-voelklingen/"
     },
@@ -144,6 +156,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wuppertal, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/mehrfach-messerangriff-im-schienenersatzverkehr-in-wuppertal/"
     },
@@ -167,6 +181,8 @@ window.NOVA_DATA =
       ],
       "ort": "Landstuhl / Homburg, Rheinland-Pfalz",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/todlicher-angriff-auf-zugbegleiter-bei-fahrkartenkontrolle/"
     },
@@ -190,6 +206,8 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt, Berlin, Duisburg, Leipzig",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-eskalation-gegen-einsatzkrafte-in-mehreren-grossstadten/"
     },
@@ -209,6 +227,8 @@ window.NOVA_DATA =
       ],
       "ort": "Darmstadt, Hessen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/arzt-in-darmstadter-klinikum-bewusstlos-geschlagen/"
     },
@@ -232,6 +252,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund/"
     },
@@ -251,6 +273,8 @@ window.NOVA_DATA =
       ],
       "ort": "Mainz, Rheinland-Pfalz",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/notwehr-freispruch-nach-38-messerstichen-im-mainzer-hartenbergpark/"
     },
@@ -270,6 +294,8 @@ window.NOVA_DATA =
       ],
       "ort": "Aschau im Chiemgau, Bayern",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-im-eiskeller-fall-nach-fatalen-ermittlungsfehlern-in-aschau/"
     },
@@ -289,6 +315,8 @@ window.NOVA_DATA =
       ],
       "ort": "Würselen, Nordrhein-Westfalen",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/zehnfacher-patientenmord-auf-der-palliativstation-in-wuerselen/"
     },
@@ -308,6 +336,8 @@ window.NOVA_DATA =
       ],
       "ort": "Essen, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreizehnjahriger-schlagt-rentner-auf-essener-spielplatz-tot/"
     },
@@ -327,6 +357,8 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt am Main, Hessen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-im-frankfurter-polizeirevier/"
     },
@@ -346,6 +378,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dorsten-Wulfen, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-trotz-wegweisung-und-kontaktverbot-in-dorsten/"
     },
@@ -369,6 +403,8 @@ window.NOVA_DATA =
       ],
       "ort": "Niederdorla, Thüringen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeug-angriff-auf-kirmes-besucher-in-niederdorla/"
     },
@@ -388,6 +424,8 @@ window.NOVA_DATA =
       ],
       "ort": "Essen, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-messerangriff-in-essen-nach-ausspaehung-der-alten-synagoge/"
     },
@@ -411,6 +449,8 @@ window.NOVA_DATA =
       ],
       "ort": "Leipzig, Sachsen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-an-leipziger-zentralhaltestelle/"
     },
@@ -430,6 +470,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dresden, Sachsen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-zivilcourage-helfer-in-dresdner-strassenbahn/"
     },
@@ -449,6 +491,8 @@ window.NOVA_DATA =
       ],
       "ort": "Lippstadt, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-nach-wohnungsverweisung-und-gefaehrderansprache-in-lippstadt/"
     },
@@ -468,6 +512,8 @@ window.NOVA_DATA =
       ],
       "ort": "Ense, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-bei-kampfsportveranstaltung-in-ense/"
     },
@@ -487,6 +533,8 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt-Bonames, Hessen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-trotz-fussfessel-in-frankfurt-bonames/"
     },
@@ -506,6 +554,8 @@ window.NOVA_DATA =
       ],
       "ort": "Karlsruhe, Baden-Württemberg",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sanitater-im-rettungswagen-angegriffen-in-karlsruhe/"
     },
@@ -525,6 +575,8 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt am Main, Hessen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/soziale-medien-getriggerte-messerattacke-am-frankfurter-hauptbahnhof/"
     },
@@ -544,6 +596,8 @@ window.NOVA_DATA =
       ],
       "ort": "Fulda, Hessen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/bewaehrungsstrafen-fuer-gruppenvergewaltigung-durch-verstaendigungsdeal-in-fulda/"
     },
@@ -563,6 +617,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund-Nordstadt, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenkonfrontation-mit-waffenarsenal-in-dortmund-nordstadt/"
     },
@@ -586,6 +642,8 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenangriff-am-hamburger-hauptbahnhof/"
     },
@@ -605,6 +663,8 @@ window.NOVA_DATA =
       ],
       "ort": "Remscheid, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/elfjahrige-schulerin-ersticht-mitschuler-in-remscheid/"
     },
@@ -628,6 +688,8 @@ window.NOVA_DATA =
       ],
       "ort": "Bielefeld, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-anschlag-mit-verkleideter-stockwaffe-in-bielefeld/"
     },
@@ -647,6 +709,8 @@ window.NOVA_DATA =
       ],
       "ort": "Rochlitz, Sachsen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-supermarkt-kundin-nach-hausverbot-in-rochlitz/"
     },
@@ -666,6 +730,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Charlottenburg",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/todliche-messerattacke-an-u-bahnhof-sophie-charlotte-platz/"
     },
@@ -685,6 +751,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Mitte",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-in-berliner-strassenbahn-am-alexanderplatz/"
     },
@@ -704,6 +772,8 @@ window.NOVA_DATA =
       ],
       "ort": "Frankfurt am Main, Hessen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-auf-bahnsteig-des-frankfurter-hauptbahnhofs/"
     },
@@ -723,6 +793,8 @@ window.NOVA_DATA =
       ],
       "ort": "Gelsenkirchen-Horst, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-lebensmittelkontrolleure-in-gelsenkirchen/"
     },
@@ -742,6 +814,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-db-mitarbeiter-am-dortmunder-hauptbahnhof/"
     },
@@ -765,6 +839,8 @@ window.NOVA_DATA =
       ],
       "ort": "Mannheim, Baden-Württemberg",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeugangriff-auf-fastnachtsmarkt-in-mannheim/"
     },
@@ -784,6 +860,8 @@ window.NOVA_DATA =
       ],
       "ort": "Duisburg-Marxloh, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-in-duisburg-marxloh/"
     },
@@ -807,6 +885,8 @@ window.NOVA_DATA =
       ],
       "ort": "München, Bayern",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeugangriff-auf-gewerkschaftsdemonstration-in-munchen/"
     },
@@ -830,6 +910,8 @@ window.NOVA_DATA =
       ],
       "ort": "Erfurt-Vieselbach, Thüringen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-jugendlichen-an-bushaltestelle-in-erfurt/"
     },
@@ -849,6 +931,8 @@ window.NOVA_DATA =
       ],
       "ort": "Leipzig, Sachsen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-am-leipziger-hauptbahnhof/"
     },
@@ -868,6 +952,8 @@ window.NOVA_DATA =
       ],
       "ort": "Aschaffenburg, Bayern",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-kindergartengruppe-im-aschaffenburger-schontal-park/"
     },
@@ -887,6 +973,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin und Leipzig",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-angriffe-auf-rettungskrafte-in-berlin-und-leipzig/"
     },
@@ -910,6 +998,8 @@ window.NOVA_DATA =
       ],
       "ort": "Magdeburg, Sachsen-Anhalt",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeuganschlag-auf-den-magdeburger-weihnachtsmarkt/"
     },
@@ -933,6 +1023,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freilassung-eines-verurteilten-vergewaltigers-nach-richterlichem-fristversaeumnis-in-berlin/"
     },
@@ -956,6 +1048,8 @@ window.NOVA_DATA =
       ],
       "ort": "Mockrehna, Nordsachsen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/bewaffnete-massenschlagerei-in-mockrehna/"
     },
@@ -975,6 +1069,8 @@ window.NOVA_DATA =
       ],
       "ort": "Augsburg-Gablingen, Bayern",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-in-der-jva-augsburg-gablingen/"
     },
@@ -994,6 +1090,8 @@ window.NOVA_DATA =
       ],
       "ort": "Duisburg, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-mit-selbstjustiz-verfolgung-in-duisburg/"
     },
@@ -1013,6 +1111,8 @@ window.NOVA_DATA =
       ],
       "ort": "Essen-Huttrop, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenangriff-auf-klinikpersonal-nach-todesfall-in-essener-notaufnahme/"
     },
@@ -1036,6 +1136,8 @@ window.NOVA_DATA =
       ],
       "ort": "Erfurt, Thüringen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/evakuierung-des-thuringen-parks-nach-messer-und-pfefferspray-angriff/"
     },
@@ -1059,6 +1161,8 @@ window.NOVA_DATA =
       ],
       "ort": "Stralsund, Mecklenburg-Vorpommern",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/saureattacke-auf-nachbarn-in-stralsund/"
     },
@@ -1078,6 +1182,8 @@ window.NOVA_DATA =
       ],
       "ort": "München, Bayern",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-anschlag-auf-das-israelische-generalkonsulat-in-muenchen/"
     },
@@ -1097,6 +1203,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wuppertal, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/hochzeitsfeier-endet-in-massenschlagerei-mit-messereinsatz-in-wuppertal/"
     },
@@ -1120,6 +1228,8 @@ window.NOVA_DATA =
       ],
       "ort": "Solingen, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-dem-solinger-stadtfest/"
     },
@@ -1139,6 +1249,8 @@ window.NOVA_DATA =
       ],
       "ort": "Straubing, Bayern",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/geiselnahme-und-massenausbruch-aus-der-forensik-straubing/"
     },
@@ -1162,6 +1274,8 @@ window.NOVA_DATA =
       ],
       "ort": "Schleswig, Schleswig-Holstein",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-mit-improvisierten-waffen-bei-hochzeit-in-schleswig/"
     },
@@ -1181,6 +1295,8 @@ window.NOVA_DATA =
       ],
       "ort": "Straßkirchen, Niederbayern",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/axt-und-hammerangriff-im-ice-bei-strasskirchen/"
     },
@@ -1200,6 +1316,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund, Nordrhein-Westfalen",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/kaskadierende-gewalt-im-dortmunder-freibad-volkspark/"
     },
@@ -1219,6 +1337,8 @@ window.NOVA_DATA =
       ],
       "ort": "Essen und Köln, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/serielle-fahrzeugangriffe-auf-frauen-in-essen-und-koln/"
     },
@@ -1238,6 +1358,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Friedrichsfelde",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-in-berlin-friedrichsfelde-trotz-behordlicher-hilfesuche/"
     },
@@ -1257,6 +1379,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppengewalt-gegen-jugendliche-im-berliner-sommerbad/"
     },
@@ -1276,6 +1400,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/angriff-auf-drk-sanitater-bei-patientenversorgung-in-neukolln/"
     },
@@ -1295,6 +1421,8 @@ window.NOVA_DATA =
       ],
       "ort": "Lauf an der Pegnitz, Bayern",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-bundespolizisten-am-bahnhof-lauf/"
     },
@@ -1314,6 +1442,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wolmirstedt, Sachsen-Anhalt",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/angriffsserie-wahrend-der-em-ubertragung-in-wolmirstedt/"
     },
@@ -1333,6 +1463,8 @@ window.NOVA_DATA =
       ],
       "ort": "Saarbrücken",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-im-regionalzug-bei-saarbrucken/"
     },
@@ -1356,6 +1488,8 @@ window.NOVA_DATA =
       ],
       "ort": "Mannheim, Baden-Württemberg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-kundgebung-am-mannheimer-marktplatz/"
     },
@@ -1375,6 +1509,8 @@ window.NOVA_DATA =
       ],
       "ort": "Rosenheim, Bayern",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/flusssaure-anschlag-an-der-wohnungstur-in-rosenheim/"
     },
@@ -1394,6 +1530,8 @@ window.NOVA_DATA =
       ],
       "ort": "Neubrandenburg, Mecklenburg-Vorpommern",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreistundige-massenschlagerei-am-tollensesee/"
     },
@@ -1413,6 +1551,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wasserburg am Inn, Bayern",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totung-eines-forensik-arztes-in-wasserburg-am-inn/"
     },
@@ -1436,6 +1576,8 @@ window.NOVA_DATA =
       ],
       "ort": "Niederlahnstein, Rheinland-Pfalz",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-in-regionalbahn-bei-niederlahnstein/"
     },
@@ -1459,6 +1601,8 @@ window.NOVA_DATA =
       ],
       "ort": "Köln-Mülheim, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-minderjaehrigen-zeugen-nach-aussage-gegen-drogenhandel-in-koeln-muelheim/"
     },
@@ -1478,6 +1622,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wuppertal, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/schulattacke-am-wilhelm-dorpfeld-gymnasium-in-wuppertal/"
     },
@@ -1497,6 +1643,8 @@ window.NOVA_DATA =
       ],
       "ort": "Oberhausen, Nordrhein-Westfalen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/doppelmord-am-oberhausener-hauptbahnhof-durch-minderjahrige/"
     },
@@ -1516,6 +1664,8 @@ window.NOVA_DATA =
       ],
       "ort": "St. Leon-Rot, Baden-Württemberg",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-an-einer-schuelerin-am-loewenrot-gymnasium-in-st-leon-rot/"
     },
@@ -1535,6 +1685,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Lichtenberg",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gewalt-in-der-notaufnahme-des-sana-klinikums-berlin/"
     },
@@ -1554,6 +1706,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/aufdeckung-eines-hamas-waffennetzwerks-mit-anschlagszielen-in-berlin-und-ramstein/"
     },
@@ -1573,6 +1727,8 @@ window.NOVA_DATA =
       ],
       "ort": "Essen, Bochum, Dortmund, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/koordinierte-anschlagsserie-auf-synagogen-in-nordrhein-westfalen/"
     },
@@ -1592,6 +1748,8 @@ window.NOVA_DATA =
       ],
       "ort": "Darmstadt, Hessen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-obdachlosen-am-luisenplatz-in-darmstadt/"
     },
@@ -1611,6 +1769,8 @@ window.NOVA_DATA =
       ],
       "ort": "Offenburg, Baden-Württemberg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amoklauf-mit-familienerbwaffe-an-der-waldbachschule-in-offenburg/"
     },
@@ -1630,6 +1790,8 @@ window.NOVA_DATA =
       ],
       "ort": "Stuttgart-Hallschlag, Baden-Württemberg",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/strassenschlacht-bei-eritreischer-veranstaltung-in-stuttgart/"
     },
@@ -1649,6 +1811,8 @@ window.NOVA_DATA =
       ],
       "ort": "Pragsdorf, Mecklenburg-Vorpommern",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-sechsjaehrigen-auf-dem-sportplatz-in-pragsdorf/"
     },
@@ -1668,6 +1832,8 @@ window.NOVA_DATA =
       ],
       "ort": "Lohr am Main, Bayern",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/kopfschuss-auf-schulhof-mit-nachbarwaffe-in-lohr-am-main/"
     },
@@ -1687,6 +1853,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wittlich, Rheinland-Pfalz",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-trotz-gestandnis-vor-us-militargericht-in-wittlich/"
     },
@@ -1706,6 +1874,8 @@ window.NOVA_DATA =
       ],
       "ort": "Sebnitz, Sachsen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/maskierter-ueberfall-auf-jugendliche-gefluechtete-in-einer-unterkunft-in-sebnitz/"
     },
@@ -1729,6 +1899,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dresden, Sachsen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toedlicher-messerangriff-in-dresdner-strassenbahn/"
     },
@@ -1748,6 +1920,8 @@ window.NOVA_DATA =
       ],
       "ort": "Gießen, Hessen",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/ausschreitungen-beim-eritrea-festival-in-giessen/"
     },
@@ -1767,6 +1941,8 @@ window.NOVA_DATA =
       ],
       "ort": "Mannheim, Baden-Württemberg",
       "relevance": 7,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-im-mannheimer-herzogenriedbad/"
     },
@@ -1786,6 +1962,8 @@ window.NOVA_DATA =
       ],
       "ort": "Altbach, Baden-Württemberg",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/handgranatenwurf-auf-trauerfeier-in-altbach/"
     },
@@ -1805,6 +1983,8 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg-Niendorf, Hamburg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/rassistischer-mordversuch-durch-schuss-durch-die-wohnungstuer-in-hamburg-niendorf/"
     },
@@ -1824,6 +2004,8 @@ window.NOVA_DATA =
       ],
       "ort": "Ratingen, Nordrhein-Westfalen",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/benzin-brandanschlag-auf-neun-einsatzkraefte-bei-wohnungskontrolle-in-ratingen/"
     },
@@ -1843,6 +2025,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-auf-neukoellner-schulhof/"
     },
@@ -1862,6 +2046,8 @@ window.NOVA_DATA =
       ],
       "ort": "Wunsiedel, Bayern",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totungsdelikt-in-frankischem-kinderheim/"
     },
@@ -1881,6 +2067,8 @@ window.NOVA_DATA =
       ],
       "ort": "Guben, Brandenburg",
       "relevance": 8,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/axtangriff-auf-jugendliche-im-regionalzug-bei-guben/"
     },
@@ -1900,6 +2088,8 @@ window.NOVA_DATA =
       ],
       "ort": "Freudenberg, Nordrhein-Westfalen",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-einer-zwoelfjaehrigen-durch-strafunmuendige-kinder-in-freudenberg/"
     },
@@ -1923,6 +2113,8 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg-Alsterdorf",
       "relevance": 10,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschiesserei-in-hamburger-konigreichssaal/"
     },
@@ -1946,6 +2138,8 @@ window.NOVA_DATA =
       ],
       "ort": "Brokstedt, Schleswig-Holstein",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-im-regionalzug-bei-brokstedt/"
     },
@@ -1965,6 +2159,8 @@ window.NOVA_DATA =
       ],
       "ort": "Ibbenbüren, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-einer-lehrerin-am-berufskolleg-in-ibbenbueren/"
     },
@@ -1988,6 +2184,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Neukölln",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-hinterhalte-auf-einsatzkraefte-in-berlin/"
     },
@@ -2007,6 +2205,8 @@ window.NOVA_DATA =
       ],
       "ort": "Dortmund, Nordrhein-Westfalen",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toedlicher-polizeieinsatz-gegen-suizidalen-sechzehnjaehrigen-in-dortmund/"
     },
@@ -2026,6 +2226,8 @@ window.NOVA_DATA =
       ],
       "ort": "Berlin-Charlottenburg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amokfahrt-auf-dem-kurfuerstendamm-in-berlin/"
     },
@@ -2045,6 +2247,8 @@ window.NOVA_DATA =
       ],
       "ort": "Kusel, Rheinland-Pfalz",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/doppeltoetung-zweier-polizeibeamter-bei-naechtlicher-kontrolle-in-kusel/"
     },
@@ -2064,6 +2268,8 @@ window.NOVA_DATA =
       ],
       "ort": "Heidelberg, Baden-Württemberg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amoklauf-im-hoersaal-der-universitaet-heidelberg/"
     },
@@ -2083,6 +2289,8 @@ window.NOVA_DATA =
       ],
       "ort": "Idar-Oberstein, Rheinland-Pfalz",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/erschiessung-eines-tankstellenkassierers-wegen-maskenpflicht-in-idar-oberstein/"
     },
@@ -2102,6 +2310,8 @@ window.NOVA_DATA =
       ],
       "ort": "Hamburg",
       "relevance": 9,
+      "merkmale": null,
+      "coords": null,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenvergewaltigung-im-hamburger-stadtpark/"
     }
