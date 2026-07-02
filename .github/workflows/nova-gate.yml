@@ -4,6 +4,11 @@ name: Nova-Gate setzen
 # (Cron-Gate der Nova-Pipeline) per API und verifiziert den Wert.
 
 on:
+  # Manueller Anstoß ohne UI-Zugriff: Commit auf die Marker-Datei
+  # .github/triggers/nova-gate setzt das Gate (Standardwert true).
+  push:
+    branches: [main]
+    paths: [".github/triggers/nova-gate"]
   workflow_dispatch:
     inputs:
       enabled:
@@ -21,9 +26,10 @@ jobs:
       - name: Variable setzen und verifizieren
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALUE: ${{ inputs.enabled }}
+          VALUE: ${{ inputs.enabled || 'true' }}
         run: |
           set -e
+          VALUE="${VALUE:-true}"
           api="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/actions/variables"
           code=$(curl -s -o /tmp/resp -w '%{http_code}' -X PATCH \
             -H "Authorization: Bearer ${GH_TOKEN}" \

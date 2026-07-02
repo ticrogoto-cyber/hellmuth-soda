@@ -3,6 +3,11 @@ name: Nova-Pipeline (Kriminologische Chronik)
 on:
   schedule:
     - cron: "17 22 * * *"
+  # Manueller Anstoß ohne UI-Zugriff: Commit auf die Marker-Datei
+  # .github/triggers/nova-run (z. B. Zeitstempel ändern) startet den Lauf.
+  push:
+    branches: [main]
+    paths: [".github/triggers/nova-run"]
   workflow_dispatch:
     inputs:
       max_new:
