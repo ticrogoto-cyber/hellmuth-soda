@@ -10,6 +10,7 @@ lead: "Der Messerangriff auf einen 20-Jährigen, der belästigte Frauen in einer
 relevance: 7
 ort: "Dresden, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Messerstich ins Gesicht für die Verteidigung belästigter Frauen. Dazu ein Justizsystem, das den Tatverdächtigen schneller freilässt als das Opfer die Notaufnahme verlässt.*

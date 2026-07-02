@@ -11,6 +11,7 @@ lead: "Zwei Dreizehnjährige überfielen einen Kioskbetreiber mit Machete, Pfeff
 relevance: 9
 ort: "Dortmund-Nordstadt, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["Verstümmelung"]}
 ---
 
 *Das Waffenarsenal (Machete, Pfefferspray, Schusswaffe) hätte in einer Erwachsenentat für eine Anklage wegen schwerer räuberischer Erpressung gereicht. Die Täter waren dreizehn.*

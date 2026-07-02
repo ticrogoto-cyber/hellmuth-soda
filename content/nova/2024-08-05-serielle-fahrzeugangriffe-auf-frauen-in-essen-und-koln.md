@@ -10,6 +10,7 @@ lead: "Ein lizenziertes Taxi als Tatwaffe gegen ausschließlich weibliche Opfer 
 relevance: 8
 ort: "Essen und Köln, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Wiederholungsabsicht"]}
 ---
 
 *Das Vertrauensfahrzeug wird zur Waffe. Die Lizenz wird zur Tarnung.*

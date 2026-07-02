@@ -10,6 +10,7 @@ lead: "Zwei Brüder attackierten in der Notaufnahme einen Arzt und eine Krankens
 relevance: 7
 ort: "Berlin-Lichtenberg"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Nicht Verzweiflung, nicht Fehlbehandlung, sondern Wartezeit löste den koordinierten Angriff auf medizinisches Personal aus. Ein Fall von Anspruchsgewalt im geschützten Behandlungsraum.*

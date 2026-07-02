@@ -11,6 +11,7 @@ lead: "Ein schuldunfähiger Täter erstach einen 40-jährigen Fahrgast in der St
 relevance: 8
 ort: "Dresden, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Eine Straßenbahn hat keine Sicherheitsschleuse. Sie hat auch keine, weil sie keine haben kann.*

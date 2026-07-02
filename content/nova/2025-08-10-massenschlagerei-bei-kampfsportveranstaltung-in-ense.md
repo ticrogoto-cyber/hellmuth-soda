@@ -10,6 +10,7 @@ lead: "Eine Kampfsportveranstaltung in einer Industriehalle ohne formale Crowd-C
 relevance: 7
 ort: "Ense, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Rund 100 Beteiligte bei einer Zuschauerschlägerei in einer Industriehalle. Die sanktionierte Gewalt im Ring hegte die unkontrollierte auf den Rängen nicht mehr ein.*

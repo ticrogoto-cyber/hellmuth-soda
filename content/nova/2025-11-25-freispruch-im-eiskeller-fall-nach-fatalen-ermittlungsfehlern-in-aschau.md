@@ -10,6 +10,7 @@ lead: "Der zweite Freispruch im Aschauer Eiskeller-Verfahren, bei dem die Staats
 relevance: 9
 ort: "Aschau im Chiemgau, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
 *Eine Justiz, die selbst den Freispruch beantragt, hat nicht Gnade walten lassen, sondern ihr Material verloren.*

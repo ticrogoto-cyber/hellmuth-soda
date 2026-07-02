@@ -11,6 +11,7 @@ lead: "Die Vorausrüstung zweier Gruppen mit improvisierten Waffen in einer Geme
 relevance: 7
 ort: "Mockrehna, Nordsachsen"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Zwei Gruppen mit jeweils zwanzig Bewaffneten auf der Hauptstraße einer sächsischen Kleingemeinde. Die Disproportion zwischen Ortsgröße und Gewaltausmaß überfordert jede lokale Sicherheitsstruktur.*

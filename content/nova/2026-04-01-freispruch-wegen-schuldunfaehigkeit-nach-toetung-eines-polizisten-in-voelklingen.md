@@ -10,6 +10,7 @@ lead: "Ein 18-Jähriger entwand bei einer Festnahme in Völklingen einem Kommiss
 relevance: 10
 ort: "Völklingen, Saarland"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
 *Sechs Schüsse, drei davon auf einen Wehrlosen. Das Urteil lautete auf Freispruch.*

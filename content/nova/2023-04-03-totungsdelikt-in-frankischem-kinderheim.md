@@ -10,6 +10,7 @@ lead: "Eine Kinderschutzeinrichtung wurde zum Tatort eines Tötungsdelikts durch
 relevance: 8
 ort: "Wunsiedel, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["keines"]}
 ---
 
 *Die Institution, die Kinder vor der Außenwelt schützen sollte, konnte weder das Eindringen eines Erwachsenen verhindern noch die Gewalt unter dem eigenen Dach erkennen.*

@@ -10,6 +10,7 @@ lead: "Ein 57-Jähriger schleuderte neun Einsatzkräften von Polizei, Feuerwehr 
 relevance: 10
 ort: "Ratingen, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Sprengsatz", "tatkontext": "Wohnumfeld", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Neun Retter klingelten an einer Tür, hinter der jemand auf sie wartete. Das Protokoll sah das nicht vor.*

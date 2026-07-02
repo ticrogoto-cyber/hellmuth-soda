@@ -10,6 +10,7 @@ lead: "Zwei Monate nach Gießen reproduzierte sich das Muster transnationaler St
 relevance: 8
 ort: "Stuttgart-Hallschlag, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Die Gewalttopographie von Gießen wiederholte sich in Stuttgart, diesmal mit höherem Bewaffnungsgrad und einem Verletzungsbild, das an Straßenkampf erinnert.*

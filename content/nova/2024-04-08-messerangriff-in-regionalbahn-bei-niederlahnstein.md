@@ -11,6 +11,7 @@ lead: "Ein Messerangriff in einem fahrenden Regionalzug bei Niederlahnstein repr
 relevance: 7
 ort: "Niederlahnstein, Rheinland-Pfalz"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Regionalzug als geschlossener Gewaltraum ist ein Muster, das sich von der Ausnahme zur Serie verdichtet.*

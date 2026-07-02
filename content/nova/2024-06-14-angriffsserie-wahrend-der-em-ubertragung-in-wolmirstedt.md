@@ -10,6 +10,7 @@ lead: "Die Verknüpfung der zwei Tatorte Wohngebäude und private Gartenparty zu
 relevance: 8
 ort: "Wolmirstedt, Sachsen-Anhalt"
 press_review: false
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Wohnumfeld", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["Wiederholungsabsicht"]}
 ---
 
 *Wenn ein Großereignis die Aufmerksamkeit bündelt, entstehen vorhersehbare Verwundbarkeiten an unvorhersehbaren Orten.*

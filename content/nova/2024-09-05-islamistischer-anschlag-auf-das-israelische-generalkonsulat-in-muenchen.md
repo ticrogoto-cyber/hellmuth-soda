@@ -10,6 +10,7 @@ lead: "Ein 18-Jähriger schoss am 52. Jahrestag des Olympia-Attentats von 1972 m
 relevance: 9
 ort: "München, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Am 52. Jahrestag des Olympia-Attentats von 1972 schoss ein 18-Jähriger auf das israelische Generalkonsulat. Das Datum war kein Zufall.*

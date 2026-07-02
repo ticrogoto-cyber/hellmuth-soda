@@ -10,6 +10,7 @@ lead: "Der Übergang von einer Hochzeitsfeier zu einer bewaffneten Konfrontation
 relevance: 7
 ort: "Wuppertal, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Sonstiges", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Eine Hochzeitsfeier, bei der die Polizei einen Taser gegen einen Messerangreifer einsetzen muss, hat die Grenze dessen überschritten, was Einsatzplanung als zivile Feierlichkeit kalkuliert.*

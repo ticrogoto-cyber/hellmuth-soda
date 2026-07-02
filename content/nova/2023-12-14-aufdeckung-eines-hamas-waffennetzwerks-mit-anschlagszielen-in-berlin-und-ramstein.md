@@ -10,6 +10,7 @@ lead: "Die Bundesanwaltschaft ließ am 14. Dezember 2023 in Berlin und Rotterdam
 relevance: 9
 ort: "Berlin"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Sonstiges", "betroffene": "Mehrere Gruppen", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Die Waffen lagen in drei Ländern, die Ziele in Deutschland. Verurteilt wurde erstmals die Mitgliedschaft selbst.*

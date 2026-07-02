@@ -10,6 +10,7 @@ lead: "Der gezielte Wurf einer militärischen Handgranate auf eine Trauergemeind
 relevance: 10
 ort: "Altbach, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Sprengsatz", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Wer eine Handgranate auf einen Friedhof wirft, hat die Kategorie gewechselt. Nicht den Gegner, sondern die Grammatik der Gewalt.*

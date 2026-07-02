@@ -10,6 +10,7 @@ lead: "Ein Messerangriff im Oberstufenraum eines Gymnasiums trifft auf ein Schul
 relevance: 8
 ort: "Wuppertal, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Deutsche Schulen sind architektonisch auf Vertrauen gebaut. Der Angriff in Wuppertal zeigt, was geschieht, wenn dieses Vertrauen zur Sicherheitslücke wird.*

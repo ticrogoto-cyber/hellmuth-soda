@@ -10,6 +10,7 @@ lead: "Ein 17-jähriger Schüler erstach seine 55-jährige Klassenlehrerin am Ta
 relevance: 9
 ort: "Ibbenbüren, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Bildungseinrichtung", "betroffene": "Personal-Beschäftigte", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Der Verweis kam am Morgen. Das Messer kam am selben Tag. Dazwischen lag kein Protokoll.*

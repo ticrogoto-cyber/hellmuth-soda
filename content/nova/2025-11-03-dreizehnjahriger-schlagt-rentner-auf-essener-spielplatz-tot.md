@@ -10,6 +10,7 @@ lead: "Die tödliche Gewalt eines Dreizehnjährigen gegen einen 80-jährigen Ren
 relevance: 8
 ort: "Essen, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["Filmen"]}
 ---
 
 *Ein Kind schlug einen Greis tot, prahlte damit in der Schule und wurde den Eltern übergeben, weil das Strafrecht für diesen Fall nicht existiert.*

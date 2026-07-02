@@ -11,6 +11,7 @@ lead: "24 Ermittlungsverfahren, vier Verurteilungen wegen schwerer Körperverlet
 relevance: 9
 ort: "Brokstedt, Schleswig-Holstein"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Ein föderales Informationsvakuum zwischen Justizvollzug, Ausländerbehörde und Polizei verwandelte einen Regionalzug in einen Tatort ohne Fluchtweg.*

@@ -10,6 +10,7 @@ lead: "Trotz abgelehntem Asylantrag, gescheiterter Abschiebung, dokumentierter G
 relevance: 9
 ort: "Aschaffenburg, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Drei Behörden, eine psychiatrische Diagnose und null wirksame Sicherungsmaßnahmen. Das Porträt eines Systems, das seinen eigenen Alarmsignalen nicht folgt.*
@@ -20,7 +21,7 @@ Die strukturelle Anomalie liegt im kumulativen Versagen der institutionellen Sic
 
 Was diese Fallkonstellation von anderen unterscheidet, ist die Gleichzeitigkeit mehrerer institutioneller Zuständigkeiten, die allesamt nicht zu einer Sicherungsmaßnahme führten. Die Ausländerbehörde, die Psychiatrie, die Polizei und die Betreuungsinstanz verfügten jeweils über Teilinformationen, die für sich genommen eine Intervention hätten begründen können. Kein Haftbefehl wurde erlassen, keine vorläufige psychiatrische Unterbringung angeordnet, keine Abschiebung durchgesetzt. Die Fragmentierung der Zuständigkeiten erzeugte eine Situation, in der das Gesamtbild (dokumentierte Gewaltbereitschaft eines psychisch schwer erkrankten Mannes ohne gesicherten Aufenthaltsstatus) in keiner einzelnen Akte vollständig sichtbar wurde. Jede Behörde sah einen Ausschnitt; keine sah die Summe. Und wo niemand die Summe sieht, zieht auch niemand die Konsequenz.
 
-Der 41-Jährige, der eingriff und dabei sein Leben verlor, handelte in einer Situation, in der staatliche Schutzmechanismen bereits versagt hatten. Sein Tod ist das Ergebnis einer Gewalttat, die zugleich das Ergebnis einer institutionellen Kette von Unterlassungen ist, welche einen bekanntermaßen gefährlichen Menschen ohne wirksame Aufsicht ließ. Das Gericht verfügte nach der Tat die dauerhafte Unterbringung in der Psychiatrie. Es war genau jene Maßnahme, die vor der Tat hätte angeordnet werden können und deren Unterbleiben den Kern des systemischen Versagens bildet.
+Der 41-Jährige, der eingriff und dabei sein Leben verlor, handelte in einer Situation, in der staatliche Schutzmechanismen bereits versagt hatten. Sein Tod ist das Ergebnis einer Gewalttat, die ihrerseits aus einer institutionellen Kette von Unterlassungen hervorging. Diese Kette ließ einen bekanntermaßen gefährlichen Menschen ohne wirksame Aufsicht. Das Gericht verfügte nach der Tat die dauerhafte Unterbringung in der Psychiatrie. Es war genau jene Maßnahme, die vor der Tat hätte angeordnet werden können und deren Unterbleiben den Kern des systemischen Versagens bildet.
 
 Der Fall löste eine bundesweite Debatte über Lücken an den Schnittstellen zwischen Asylrecht, Psychiatrie und Gefahrenabwehr aus. Diese Debatte folgt ihrerseits einem Muster. Nach jeder Tat werden die gleichen Schnittstellen benannt, die gleichen Reformen gefordert, und die gleiche institutionelle Trägheit setzt ein, sobald die mediale Aufmerksamkeit nachlässt. Was in Aschaffenburg geschah, hätte verhindert werden können. Nicht neue Gesetze fehlten, sondern die Anwendung bestehender.
 

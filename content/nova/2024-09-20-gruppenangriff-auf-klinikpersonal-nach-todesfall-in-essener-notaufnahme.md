@@ -10,6 +10,7 @@ lead: "Die koordinierte Erstürmung eines Behandlungsraums durch Angehörige, au
 relevance: 8
 ort: "Essen-Huttrop, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Wenn der Tod einer Patientin nicht als medizinische Realität akzeptiert, sondern als Anlass zur Gewalt gegen das Klinikpersonal genommen wird, hat die Notaufnahme ein Problem, das keine medizinische Lösung kennt.*

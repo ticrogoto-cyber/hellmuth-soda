@@ -10,6 +10,7 @@ lead: "Die Eskalation einer korrekt ausgeführten Triage-Entscheidung zur Schwer
 relevance: 7
 ort: "Darmstadt, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die Triage-Entscheidung, die ärztliches Handeln definiert, wird zum Auslöser schwerer Gewalt gegen den Entscheidenden.*

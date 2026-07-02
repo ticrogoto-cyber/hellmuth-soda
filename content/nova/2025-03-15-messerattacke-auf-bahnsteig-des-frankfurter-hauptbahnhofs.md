@@ -10,6 +10,7 @@ lead: "Die Konzentration mehrerer Messervorfälle am selben Verkehrsknoten inner
 relevance: 7
 ort: "Frankfurt am Main, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Eine einzelne Messerattacke am Frankfurter Hauptbahnhof wäre eine Polizeimeldung. Die Cluster-Bildung von mindestens drei Vorfällen am selben Ort im selben Jahr erzwingt eine systemische Antwort.*

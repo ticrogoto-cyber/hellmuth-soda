@@ -10,6 +10,7 @@ lead: "Die einstündige Verzögerung zwischen Bagatellkonflikt und gezielter Rü
 relevance: 8
 ort: "Dortmund, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["Wiederholungsabsicht"]}
 ---
 
 *Ein Busticket-Streit am Fahrkartenschalter eskaliert nicht spontan, sondern durch kalkulierte Rückkehr. Die Zeitverzögerung dokumentiert den Übergang von Frustration zu Vorsatz.*

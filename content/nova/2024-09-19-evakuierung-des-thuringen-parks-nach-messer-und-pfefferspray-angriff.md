@@ -11,6 +11,7 @@ lead: "Der kombinierte Einsatz von Messer und Pfefferspray in einem geschlossene
 relevance: 7
 ort: "Erfurt, Thüringen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Sonstiges", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein Messerangriff, der allein eine Einzeltat bliebe, wird durch gleichzeitigen Pfeffersprayeinsatz in einem geschlossenen Gebäude zum Massenstörungsereignis.*

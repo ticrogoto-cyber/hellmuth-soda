@@ -11,6 +11,7 @@ lead: "Die Kombination aus getarnter Waffe und simulierter Gehbehinderung als An
 relevance: 9
 ort: "Bielefeld, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Sonstiges", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein als Gehbehinderter getarnter Mann greift mit einem zu einer Stichwaffe umgebauten Gehstock Gaststättengäste an. Die taktische Täuschung hat in der deutschen Terrorismusgeschichte kein Präzedens.*

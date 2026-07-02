@@ -10,6 +10,7 @@ lead: "Ein 18-jähriger Student eröffnete mit zwei legal erworbenen Waffen das 
 relevance: 9
 ort: "Heidelberg, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Bildungseinrichtung", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Er kaufte die Waffen legal, kündigte die Tat an und tötete in einem Hörsaal. Drei Systeme versagten, keines wusste vom anderen.*

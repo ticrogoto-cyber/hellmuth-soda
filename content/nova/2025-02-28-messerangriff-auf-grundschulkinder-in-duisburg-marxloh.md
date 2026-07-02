@@ -10,6 +10,7 @@ lead: "Die familieninterne Überwältigung des Angreifers durch seinen eigenen V
 relevance: 8
 ort: "Duisburg-Marxloh, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Vater entwaffnet den Sohn. Eine familieninterne Intervention, die zugleich die Frage aufwirft, warum sie nicht vor der Tat stattfand.*

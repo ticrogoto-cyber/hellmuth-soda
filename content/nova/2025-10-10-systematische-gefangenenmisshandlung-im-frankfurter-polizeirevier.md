@@ -10,6 +10,7 @@ lead: "Im selben Frankfurter Polizeirevier, das zuvor durch eine jahrelang betri
 relevance: 9
 ort: "Frankfurt am Main, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Sonstiges", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Wenn dasselbe Revier zweimal fällt, liegt der Fehler nicht im Personal, sondern im Organigramm.*

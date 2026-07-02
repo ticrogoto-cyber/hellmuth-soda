@@ -7,6 +7,7 @@ import { dirname, join } from 'node:path';
 import { fetchSource } from './fetch.mjs';
 import { loadSeen, isSeen, markSeen, saveSeen } from './dedup-nova.mjs';
 import { scoreRelevance, translateToGerman, transformToHouseStyle, modelInfo } from './lib/anthropic.mjs';
+import { classifyMerkmale } from './lib/classify-nova.mjs';
 import { build, writeItem } from './render-nova.mjs';
 import { log } from './lib/log.mjs';
 
@@ -94,6 +95,16 @@ async function main() {
           continue;
         }
 
+        // Merkmalsklassifikation (Haiku, ein Call pro Eintrag). Ein Fehler
+        // hier blockiert die Veröffentlichung nicht; der Eintrag erscheint
+        // dann ohne Merkmale und wird beim nächsten Backfill nachgeholt.
+        let merkmale = null;
+        try {
+          merkmale = await classifyMerkmale({ title: out.title, lead: out.lead, body: out.body });
+        } catch (err) {
+          log.warn(`  Klassifikation fehlgeschlagen: ${err.message}`);
+        }
+
         if (!DRY_RUN) {
           writeItem({
             title: out.title,
@@ -103,6 +114,7 @@ async function main() {
             sourceName: item.sourceName,
             relevance: score,
             pressReview: item.headlineOnly,
+            merkmale,
           });
         }
         markSeen(state, item.url, { score, published: true });

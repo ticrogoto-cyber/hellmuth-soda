@@ -10,6 +10,7 @@ lead: "Ein 15-Jähriger betrat die Offenburger Waldbachschule über einen unbewa
 relevance: 9
 ort: "Offenburg, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Rucksack enthielt alles, was ein Amoklauf braucht. Die Schule enthielt nichts, was ihn verhindert.*

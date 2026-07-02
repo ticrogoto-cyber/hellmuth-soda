@@ -10,6 +10,7 @@ lead: "In einer einzigen Nacht wurden Synagogen und jüdische Einrichtungen in E
 relevance: 9
 ort: "Essen, Bochum, Dortmund, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Sonstiges", "tatkontext": "Sonstiges", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Drei Städte, eine Nacht, ein Muster. Was als Einzeltat erscheint, wird als Serie zur Infrastruktur.*

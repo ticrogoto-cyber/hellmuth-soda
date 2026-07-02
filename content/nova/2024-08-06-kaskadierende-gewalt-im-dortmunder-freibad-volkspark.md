@@ -10,6 +10,7 @@ lead: "Vier räumlich und deliktisch getrennte Gewaltakte, Schlägerei, sexuelle
 relevance: 7
 ort: "Dortmund, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Die erste Schlägerei löst die zweite aus, die zweite die dritte. Irgendwann verlässt die Gewalt den Tatort und erreicht die Stadt.*

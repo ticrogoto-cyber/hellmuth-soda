@@ -10,6 +10,7 @@ lead: "Ein seit mindestens zehn Jahren unbehandelt an paranoider Schizophrenie l
 relevance: 9
 ort: "Berlin-Neukölln"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Zehn Jahre hörte er Stimmen. Zehn Jahre hörte niemand zu.*

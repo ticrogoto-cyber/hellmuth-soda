@@ -11,6 +11,7 @@ lead: "Die Verlagerung der Messergewalt vom Leipziger Hauptbahnhof, 2025 mit 859
 relevance: 7
 ort: "Leipzig, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *859 Gewaltdelikte am Leipziger Hauptbahnhof in einem Jahr. Die Messergewalt strahlt über die Bahnhofsgrenzen hinaus an die vorgelagerte Haltestelle.*

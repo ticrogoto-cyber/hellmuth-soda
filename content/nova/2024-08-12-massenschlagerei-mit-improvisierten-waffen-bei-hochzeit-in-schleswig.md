@@ -11,6 +11,7 @@ lead: "Die Bandbreite der improvisierten Bewaffnung von Schaufeln über Fahrrads
 relevance: 7
 ort: "Schleswig, Schleswig-Holstein"
 press_review: false
+merkmale: {"tatmittel": "Machete-Hiebwaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Wenn eine Festgesellschaft sich systematisch bewaffnet, verlässt die Gewalt den Rahmen einer Schlägerei.*

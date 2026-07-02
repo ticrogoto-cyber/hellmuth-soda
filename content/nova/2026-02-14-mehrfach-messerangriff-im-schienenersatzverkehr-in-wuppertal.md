@@ -10,6 +10,7 @@ lead: "Der Mehrfach-Messerangriff in einem provisorischen Schienenersatzverkehr-
 relevance: 7
 ort: "Wuppertal, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein provisorischer Ersatzbus ohne Sicherheitsinfrastruktur wird zum Tatort eines Mehrfach-Messerangriffs.*

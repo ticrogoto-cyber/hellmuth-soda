@@ -10,6 +10,7 @@ lead: "Die gezielte Tötung eines 20-jährigen Kassierers, weil er auf die geset
 relevance: 9
 ort: "Idar-Oberstein, Rheinland-Pfalz"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Sonstiges", "betroffene": "Personal-Beschäftigte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein Mindestlohn-Kassierer setzte geltendes Recht durch. Er bezahlte mit dem Leben, weil ein Kunde die Pandemie als persönliche Kränkung verstand.*

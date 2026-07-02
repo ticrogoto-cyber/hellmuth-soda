@@ -10,6 +10,7 @@ lead: "Ein Wilderer erschoss in der Nacht auf einer abgelegenen Kreisstraße im 
 relevance: 9
 ort: "Kusel, Rheinland-Pfalz"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Zwei Beamte, eine Landstraße, kein Funkkontakt. Die Lücke war so groß wie die Nacht, in der sie starben.*

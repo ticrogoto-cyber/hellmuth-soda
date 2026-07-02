@@ -10,6 +10,7 @@ lead: "Ein 18-Jähriger erstach am 25. Januar 2024 seine ehemalige Freundin am L
 relevance: 8
 ort: "St. Leon-Rot, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Bildungseinrichtung", "betroffene": "Kinder-Jugendliche", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Anzeige, Gefährderansprache, Kontaktverbot, Jugendamt. Vier Maßnahmen, eine Schule, kein Schutz.*

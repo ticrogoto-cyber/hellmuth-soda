@@ -10,6 +10,7 @@ lead: "Die Gruppenvergewaltigung einer 15-Jährigen durch neun jugendliche Täte
 relevance: 9
 ort: "Hamburg"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "keines", "exzess": ["Filmen", "Wiederholungsabsicht", "Gruppenbegehung"]}
 ---
 
 *Neun Täter filmten die Tat, löschten die Aufnahmen und wurden nach 68 Verhandlungstagen zu Strafen verurteilt, die keiner der Verurteilten vollständig absitzen wird.*

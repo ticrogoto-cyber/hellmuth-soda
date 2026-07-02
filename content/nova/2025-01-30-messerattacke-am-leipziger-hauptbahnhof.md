@@ -10,6 +10,7 @@ lead: "Nicht die Einzeltat, sondern ihr Ort definiert die Anomalie: der Leipzige
 relevance: 7
 ort: "Leipzig, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Ein einzelner Messerstich in einem Bahnhof, der 2025 täglich mehr als zwei Gewaltdelikte verzeichnete. Die Tat als Symptom einer systemischen Verwahrlosung.*

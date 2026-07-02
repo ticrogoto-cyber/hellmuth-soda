@@ -10,6 +10,7 @@ lead: "Ein 15-Jähriger trat einen erst seit 14 Tagen obdachlosen Mann an einer 
 relevance: 9
 ort: "Darmstadt, Hessen"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "ÖPNV-Bahn", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["Verstümmelung"]}
 ---
 
 *87 Tritte in vier Minuten, gezählt von einer Kamera, die keine Alarmfunktion hat.*

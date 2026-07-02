@@ -11,6 +11,7 @@ lead: "Der Anschlag demonstriert, dass die nach 2016 entwickelten Schutzkonzepte
 relevance: 8
 ort: "Mannheim, Baden-Württemberg"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "Volksfest-Veranstaltung", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Die Sicherheitsarchitektur schützt den Weihnachtsmarkt, nicht die Veranstaltung. Ein Kategoriefehler mit tödlichen Konsequenzen.*

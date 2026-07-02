@@ -10,6 +10,7 @@ lead: "Ein 14-Jähriger, der zuvor bereits durch wiederholte Aggression gegen Ki
 relevance: 9
 ort: "Pragsdorf, Mecklenburg-Vorpommern"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Ein Ort, in dem jeder den Jungen kannte, der auf Kinder losging. Und in dem niemand zuständig war, bevor es zu spät war.*

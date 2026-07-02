@@ -11,6 +11,7 @@ lead: "Der Angriff auf einen sich bewegenden Demonstrationszug offenbart eine pr
 relevance: 9
 ort: "München, Bayern"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Der Demonstrationszug als unschützbares Ziel. Eine Verwundbarkeit, die in der Architektur des Versammlungsrechts selbst angelegt ist.*

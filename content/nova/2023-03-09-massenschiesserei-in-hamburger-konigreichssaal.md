@@ -11,6 +11,7 @@ lead: "Das Waffenrecht stellte die Tatwaffe bereit. Trotz dokumentierter Hinweis
 relevance: 10
 ort: "Hamburg-Alsterdorf"
 press_review: false
+merkmale: {"tatmittel": "Schusswaffe", "tatkontext": "Sonstiges", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Die Kontrolle legalen Waffenbesitzes sollte als Barriere wirken. Sie existierte nur auf dem Papier.*

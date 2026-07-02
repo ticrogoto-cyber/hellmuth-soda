@@ -11,6 +11,7 @@ lead: "Die ungehinderte Durchfahrt über 450 Meter Fußgängerzone bis zum erste
 relevance: 8
 ort: "Leipzig, Sachsen"
 press_review: false
+merkmale: {"tatmittel": "Fahrzeug", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Passanten", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Zwischen dem Einfahrtspunkt und dem ersten Poller liegen 450 Meter ungeschützter Fußgängerzone. Die Stadtplanung hatte diesen Korridor als sicher deklariert.*

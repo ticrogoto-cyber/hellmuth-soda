@@ -8,6 +8,8 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { slug, isoDate } from './lib/util.mjs';
 import { rebuildSitemap } from './render.mjs';
+import { computeLatentCoords } from './lib/umap-nova.mjs';
+import { normalizeMerkmale } from './lib/classify-nova.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -52,7 +54,7 @@ function getSources(rec) {
   return [];
 }
 
-const FM_KEYS = ['title', 'date', 'created', 'slug', 'rubrik', 'source_url', 'source_name', 'sources', 'lead', 'relevance', 'ort', 'press_review'];
+const FM_KEYS = ['title', 'date', 'created', 'slug', 'rubrik', 'source_url', 'source_name', 'sources', 'lead', 'relevance', 'ort', 'press_review', 'merkmale'];
 
 function serialize(rec) {
   const lines = ['---'];
@@ -246,7 +248,7 @@ function readAll() {
 
 let _runWriteCount = 0;
 
-export function writeItem({ title, lead, body, sourceUrl, sourceName, sources = null, relevance = null, date, ort = null, pressReview = false }) {
+export function writeItem({ title, lead, body, sourceUrl, sourceName, sources = null, relevance = null, date, ort = null, pressReview = false, merkmale = null }) {
   if (isBlacklistedSource(sourceUrl)) throw new Error(`Blacklisted source: ${sourceUrl}`);
   if (sources) for (const src of sources) if (isBlacklistedSource(src.url)) throw new Error(`Blacklisted source: ${src.url}`);
   if (++_runWriteCount > MAX_DAILY_ITEMS) throw new Error(`Run cap of ${MAX_DAILY_ITEMS} entries reached`);
@@ -265,6 +267,7 @@ export function writeItem({ title, lead, body, sourceUrl, sourceName, sources = 
     relevance,
     ort,
     press_review: !!pressReview,
+    merkmale: merkmale ? normalizeMerkmale(merkmale) : null,
     body,
   };
   mkdirSync(CONTENT, { recursive: true });
@@ -273,7 +276,10 @@ export function writeItem({ title, lead, body, sourceUrl, sourceName, sources = 
 }
 
 function dataJs(all) {
-  const trim = (rec) => ({
+  // Latent-Space-Koordinaten aus den Merkmalsvektoren (UMAP auf 3D);
+  // null für Einträge ohne Merkmale.
+  const coords = computeLatentCoords(all);
+  const trim = (rec, i) => ({
     title: rec.title,
     date: rec.date,
     created: rec.created || null,
@@ -284,6 +290,8 @@ function dataJs(all) {
     sources: getSources(rec),
     ort: rec.ort || null,
     relevance: rec.relevance || null,
+    merkmale: rec.merkmale || null,
+    coords: coords[i],
     minutes: readingMinutes(rec.body),
     href: `/neue-dimension-gewalt/${rec.slug}/`,
   });

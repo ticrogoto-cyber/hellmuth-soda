@@ -10,6 +10,7 @@ lead: "Ein 17-jähriger Schüler verletzte am 5. September 2025 an einem Berufsk
 relevance: 9
 ort: "Essen, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Bildungseinrichtung", "betroffene": "Mehrere Gruppen", "systemversagen": "keines", "exzess": ["keines"]}
 ---
 
 *Er suchte die Synagoge zweimal auf, bevor er an seiner Schule zustach.*

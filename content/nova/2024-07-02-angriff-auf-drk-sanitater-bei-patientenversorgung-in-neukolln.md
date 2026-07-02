@@ -10,6 +10,7 @@ lead: "Unbeteiligte Umstehende transformierten sich bei sichtbar benigner Notfal
 relevance: 7
 ort: "Berlin-Neukölln"
 press_review: false
+merkmale: {"tatmittel": "Körpergewalt", "tatkontext": "Klinik-Rettungsdienst", "betroffene": "Einsatzkräfte", "systemversagen": "keines", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Wenn die Rettung selbst zum Angriffsziel wird, kollabiert die Grundvoraussetzung jeder Notfallversorgung.*

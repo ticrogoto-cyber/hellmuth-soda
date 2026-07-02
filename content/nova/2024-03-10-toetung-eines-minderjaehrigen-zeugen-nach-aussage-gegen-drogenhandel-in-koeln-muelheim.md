@@ -11,6 +11,7 @@ lead: "Vier Männer töteten einen 15-Jährigen am Mülheimer Hafen in Köln, de
 relevance: 9
 ort: "Köln-Mülheim, Nordrhein-Westfalen"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "öffentlicher Straßenraum", "betroffene": "Kinder-Jugendliche", "systemversagen": "Freispruch-Verfahrenseinstellung", "exzess": ["Gruppenbegehung"]}
 ---
 
 *Er sagte gegen seine Auftraggeber aus. Er bekam keinen Schutz. Er bekam acht Messerstiche.*

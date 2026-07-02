@@ -10,6 +10,7 @@ lead: "Die Tötung einer 28-jährigen Frau, die zuvor behördlichen Schutz gesuc
 relevance: 7
 ort: "Berlin-Friedrichsfelde"
 press_review: false
+merkmale: {"tatmittel": "Messer", "tatkontext": "Wohnumfeld", "betroffene": "Passanten", "systemversagen": "behördenbekannter Gefährder", "exzess": ["keines"]}
 ---
 
 *Die Frau suchte Hilfe bei den Institutionen, die sie schützen sollten. Sie fand sie nicht.*
