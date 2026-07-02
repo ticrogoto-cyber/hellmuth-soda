@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-02T00:45:09.851Z",
+  "generated": "2026-07-02T00:50:31.811Z",
   "items": [
     {
       "title": "Einzeltäter verletzt dreizehn Polizisten in Berlin-Prenzlauer Berg",
@@ -822,6 +822,32 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/gewalt-in-der-notaufnahme-des-sana-klinikums-berlin/"
     },
     {
+      "title": "Tötung eines Obdachlosen am Luisenplatz in Darmstadt",
+      "date": "2023-11-15",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "toetung-eines-obdachlosen-am-luisenplatz-in-darmstadt",
+      "lead": "Ein 15-Jähriger trat einen erst seit 14 Tagen obdachlosen Mann an einer Bushaltestelle am Darmstädter Luisenplatz über vier Minuten lang 87 Mal gegen Kopf und Oberkörper, wobei das Gericht von »absolutem Vernichtungswillen« sprach und die Tat ein doppeltes Systemversagen offenlegte: den fehlenden Schutz Obdachloser an öffentlichen Schlafplätzen und die unzureichende Abfederung bei Wohnungsverlust.",
+      "source_name": "hessenschau",
+      "source_url": "https://www.hessenschau.de/panorama/jugendlicher-mit-absolutem-vernichtungswillen-v8,prozess-obdachloser-darmstadt-100.html",
+      "ort": "Darmstadt, Hessen",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toetung-eines-obdachlosen-am-luisenplatz-in-darmstadt/"
+    },
+    {
+      "title": "Amoklauf mit Familienerbwaffe an der Waldbachschule in Offenburg",
+      "date": "2023-11-09",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "amoklauf-mit-familienerbwaffe-an-der-waldbachschule-in-offenburg",
+      "lead": "Ein 15-Jähriger betrat die Offenburger Waldbachschule über einen unbewachten Hintereingang mit einer geladenen Beretta, zusätzlicher Munition, einem Brandsatz, einem selbst erstellten Gebäudeplan und einer Namensliste, erschoss einen Mitschüler und offenbarte damit ein Bündel struktureller Versäumnisse von der Waffenaufbewahrung bis zur Gebäudesicherung.",
+      "source_name": "Der Tagesspiegel",
+      "source_url": "https://www.tagesspiegel.de/gesellschaft/panorama/toter-nach-schiesserei-an-schule-in-offenburg-tatwaffe-war-moglicherweise-ein-erbstuck-10761646.html",
+      "ort": "Offenburg, Baden-Württemberg",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/amoklauf-mit-familienerbwaffe-an-der-waldbachschule-in-offenburg/"
+    },
+    {
       "title": "Straßenschlacht bei eritreischer Veranstaltung in Stuttgart",
       "date": "2023-09-16",
       "created": "2026-07-01T21:39:05.015Z",
@@ -833,6 +859,32 @@ window.NOVA_DATA =
       "relevance": 8,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/strassenschlacht-bei-eritreischer-veranstaltung-in-stuttgart/"
+    },
+    {
+      "title": "Tötung eines Sechsjährigen auf dem Sportplatz in Pragsdorf",
+      "date": "2023-09-14",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "toetung-eines-sechsjaehrigen-auf-dem-sportplatz-in-pragsdorf",
+      "lead": "Ein 14-Jähriger, der zuvor bereits durch wiederholte Aggression gegen Kinder im Ort aufgefallen war, tötete einen Sechsjährigen auf einem Sportplatz mit Faustschlägen und Messerstichen, wobei die Tat das Versagen kommunaler Frühwarnsysteme bei jugendlicher Gewalteskalation dokumentierte.",
+      "source_name": "Nordkurier",
+      "source_url": "https://www.nordkurier.de/regional/neubrandenburg/joel-6-in-pragsdorf-erstochen-prozess-gegen-14-jaehrigen-beginnt-2261942",
+      "ort": "Pragsdorf, Mecklenburg-Vorpommern",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toetung-eines-sechsjaehrigen-auf-dem-sportplatz-in-pragsdorf/"
+    },
+    {
+      "title": "Kopfschuss auf Schulhof mit Nachbarwaffe in Lohr am Main",
+      "date": "2023-09-08",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "kopfschuss-auf-schulhof-mit-nachbarwaffe-in-lohr-am-main",
+      "lead": "Ein 15-Jähriger erschoss seinen 14-jährigen Mitschüler auf dem Schulhof in Lohr am Main von hinten mit einem Kopfschuss aus einer 9-mm-Pistole, die legal einem Nachbarn gehörte, wobei der Fall die fatale Lücke zwischen Waffenaufbewahrungsvorschriften und deren Kontrolle sichtbar machte.",
+      "source_name": "ZDF heute",
+      "source_url": "https://www.zdf.de/nachrichten/panorama/kriminalitaet/bayern-lohr-mord-kopfschuss-schulhof-jugendstrafe-100.html",
+      "ort": "Lohr am Main, Bayern",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/kopfschuss-auf-schulhof-mit-nachbarwaffe-in-lohr-am-main/"
     },
     {
       "title": "Freispruch trotz Geständnis vor US-Militärgericht in Wittlich",
@@ -874,6 +926,45 @@ window.NOVA_DATA =
       "href": "/neue-dimension-gewalt/massenschlagerei-im-mannheimer-herzogenriedbad/"
     },
     {
+      "title": "Handgranatenwurf auf Trauerfeier in Altbach",
+      "date": "2023-06-09",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "handgranatenwurf-auf-trauerfeier-in-altbach",
+      "lead": "Der gezielte Wurf einer militärischen Handgranate auf eine Trauergemeinde in Altbach, bei dem 15 Personen durch Stahlkugeln verletzt wurden, markierte die Eskalation des Stuttgarter Bandenkriegs von Schusswaffen zu Kriegswaffen und stellte die bisherige kriminologische Kategorisierung organisierter Gewalt in Deutschland in Frage.",
+      "source_name": "Stuttgarter Nachrichten",
+      "source_url": "https://www.stuttgarter-nachrichten.de/inhalt/nach-handgranatenwurf-bei-beerdigung-in-altbach-anklage-gegen-tatverdaechtigen.baf2e3ac-ff70-484e-a4a8-5daa44fd6e03.html",
+      "ort": "Altbach, Baden-Württemberg",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/handgranatenwurf-auf-trauerfeier-in-altbach/"
+    },
+    {
+      "title": "Benzin-Brandanschlag auf neun Einsatzkräfte bei Wohnungskontrolle in Ratingen",
+      "date": "2023-05-11",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "benzin-brandanschlag-auf-neun-einsatzkraefte-bei-wohnungskontrolle-in-ratingen",
+      "lead": "Ein 57-Jähriger schleuderte neun Einsatzkräften von Polizei, Feuerwehr und DRK bei einer routinemäßigen Wohnungskontrolle eine große Menge Benzin entgegen und entzündete sie, wobei drei Retter lebensgefährliche Verbrennungen erlitten und die Tat eine strukturelle Schutzlücke bei sogenannten Welfare-Checks offenlegte.",
+      "source_name": "Feuerwehr Magazin",
+      "source_url": "https://www.feuerwehrmagazin.de/nachrichten/news/explosion-ratingen-zwei-einsatzkraefte-aus-koma-geholt-121988",
+      "ort": "Ratingen, Nordrhein-Westfalen",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/benzin-brandanschlag-auf-neun-einsatzkraefte-bei-wohnungskontrolle-in-ratingen/"
+    },
+    {
+      "title": "Messerangriff auf Grundschulkinder auf Neuköllner Schulhof",
+      "date": "2023-05-03",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "messerangriff-auf-grundschulkinder-auf-neukoellner-schulhof",
+      "lead": "Ein seit mindestens zehn Jahren unbehandelt an paranoider Schizophrenie leidender Mann griff auf dem Schulhof einer Neuköllner Grundschule zwei Mädchen im Alter von sieben und acht Jahren mit einem Küchenmesser an und verletzte beide lebensgefährlich, wobei die Tat das Totalversagen der ambulanten psychiatrischen Versorgung als Sicherheitsrisiko sichtbar machte.",
+      "source_name": "Landgericht Berlin",
+      "source_url": "https://www.berlin.de/gerichte/presse/pressemitteilungen-der-ordentlichen-gerichtsbarkeit/2024/pressemitteilung.1407008.php",
+      "ort": "Berlin-Neukölln",
+      "relevance": 9,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-auf-neukoellner-schulhof/"
+    },
+    {
       "title": "Tötungsdelikt in fränkischem Kinderheim",
       "date": "2023-04-03",
       "created": "2026-07-01T20:14:30.528Z",
@@ -885,6 +976,19 @@ window.NOVA_DATA =
       "relevance": 8,
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totungsdelikt-in-frankischem-kinderheim/"
+    },
+    {
+      "title": "Tötung einer Zwölfjährigen durch strafunmündige Kinder in Freudenberg",
+      "date": "2023-03-11",
+      "created": "2026-07-02T02:00:00.000Z",
+      "slug": "toetung-einer-zwoelfjaehrigen-durch-strafunmuendige-kinder-in-freudenberg",
+      "lead": "Zwei Mädchen im Alter von 12 und 13 Jahren töteten eine Gleichaltrige mit 74 Messerstichen in einem geplanten Angriff, den das deutsche Strafrechtssystem mangels Strafmündigkeit unter 14 Jahren weder ahnden noch institutionell beantworten konnte.",
+      "source_name": "ZDF heute",
+      "source_url": "https://www.zdfheute.de/panorama/kriminalitaet/luise-freudenberg-toetung-maedchen-100.html",
+      "ort": "Freudenberg, Nordrhein-Westfalen",
+      "relevance": 10,
+      "minutes": 2,
+      "href": "/neue-dimension-gewalt/toetung-einer-zwoelfjaehrigen-durch-strafunmuendige-kinder-in-freudenberg/"
     },
     {
       "title": "Massenschießerei in Hamburger Königreichssaal",
