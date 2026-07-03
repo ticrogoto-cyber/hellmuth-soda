@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-02T23:35:05.895Z",
+  "generated": "2026-07-03T23:35:28.043Z",
   "hellmuth": [
+    {
+      "title": "Indonesiens alkoholfreier Getränkemarkt lahmt trotz demografischer Rückenlage",
+      "date": "2026-07-03",
+      "created": "2026-07-03T23:31:47.953Z",
+      "slug": "indonesiens-alkoholfreier-getrankemarkt-lahmt-trotz-demografischer-ruckenlage",
+      "rubrik": "hellmuth",
+      "lead": "Ein Land mit 280 Millionen Einwohnern und wachsender Mittelschicht produziert weniger Softdrinks, als seine Fabriken könnten.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/02/indonesias-non-alcoholic-beverage-market-between-cyclical-boosts-and-structural-challenges/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/indonesiens-alkoholfreier-getrankemarkt-lahmt-trotz-demografischer-ruckenlage/"
+    },
+    {
+      "title": "Barkeeper gegen Fokusgruppe",
+      "date": "2026-07-03",
+      "created": "2026-07-03T23:30:59.555Z",
+      "slug": "barkeeper-gegen-fokusgruppe",
+      "rubrik": "hellmuth",
+      "lead": "Der amerikanische RTD-Markt entdeckt, dass Rezepturen aus der Schicht überzeugender sind als solche aus dem Konferenzraum.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/hugos-cocktails-takes-its-bartender-crafted-rtds-to-new-markets",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/barkeeper-gegen-fokusgruppe/"
+    },
     {
       "title": "Was eine alkoholfreie Bar am Leben hält",
       "date": "2026-07-02",
@@ -1012,6 +1040,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wenn der Tastsinn früher kippt als das Gedächtnis",
+      "date": "2026-07-03",
+      "created": "2026-07-03T23:35:28.001Z",
+      "slug": "wenn-der-tastsinn-fruher-kippt-als-das-gedachtnis",
+      "rubrik": "science",
+      "lead": "Ein Preprint deutet an, dass sensorische Filter im Gehirn nachlassen, bevor kognitive Tests Alarm schlagen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735283v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-der-tastsinn-fruher-kippt-als-das-gedachtnis/"
+    },
+    {
+      "title": "Alkohol vor der Zeugung schreibt sich in die Nachkommen ein",
+      "date": "2026-07-03",
+      "created": "2026-07-03T23:35:05.254Z",
+      "slug": "alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein",
+      "rubrik": "science",
+      "lead": "Ein Preprint an Mäusen legt nahe, dass elterlicher Alkoholkonsum vor der Zeugung die Genaktivität der Nachkommen umschreibt, geschlechts- und gewebespezifisch.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735337v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein/"
+    },
+    {
+      "title": "Zwei Achsen, ein Spektrum",
+      "date": "2026-07-03",
+      "created": "2026-07-03T23:34:47.216Z",
+      "slug": "zwei-achsen-ein-spektrum",
+      "rubrik": "science",
+      "lead": "Ein Preprint zieht Schizophrenie und bipolare Störung auf dieselbe kortikale Landkarte.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.30.26356921v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-achsen-ein-spektrum/"
+    },
     {
       "title": "Bupropion gegen Mephedron-Craving",
       "date": "2026-07-02",
