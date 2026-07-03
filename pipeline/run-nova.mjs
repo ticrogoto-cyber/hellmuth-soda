@@ -17,6 +17,8 @@ import { classifyMerkmale } from './lib/classify-nova.mjs';
 import { classifyFallDedup, dedupModelInfo } from './lib/dedup-fall.mjs';
 import { validateEntry, formatViolations, violationSummary, validateModelInfo } from './lib/validate-nova.mjs';
 import { isBlacklistedSource } from './lib/source-policy.mjs';
+import { isBroadcastContainer } from './lib/broadcast-filter.mjs';
+import { maskNames } from './lib/mask-names.mjs';
 import { build, writeItem, listExisting } from './render-nova.mjs';
 import { log } from './lib/log.mjs';
 
@@ -55,7 +57,7 @@ async function main() {
   const fehler = []; // { title, message } — Items bleiben ungesehen, nächster Lauf prüft erneut
   const quellenFehler = [];
   let capReached = false;
-  const stats = { fetched: 0, ohneUrl: 0, afterDedup: 0, scored: 0, gePass: 0, mid: 0, ltLow: 0, nearMiss: [] };
+  const stats = { fetched: 0, ohneUrl: 0, container: 0, afterDedup: 0, scored: 0, gePass: 0, mid: 0, ltLow: 0, nearMiss: [] };
 
   log.step(`Nova — ${sources.length} aktive Quellen`);
 
@@ -86,6 +88,15 @@ async function main() {
         continue;
       }
       if (isSeen(state, item.url)) continue;
+
+      // Sendungscontainer (ganze Nachrichtensendungen als Episoden-Items)
+      // sind Programmhinweise, keine Einzelvorfälle; sie werden vor dem
+      // Scoring aussortiert und zählen nicht in die Prüfkette.
+      if (isBroadcastContainer(item.title)) {
+        stats.container += 1;
+        log.info(`  drop (Sendungscontainer) ${item.title?.slice(0, 70)}`);
+        continue;
+      }
       stats.afterDedup += 1;
 
       // Quellen-Ausschlussliste greift vor jeder Modellstufe: Items von
@@ -299,6 +310,7 @@ async function main() {
     );
   }
   if (stats.ohneUrl) md.push('', `Items ohne URL übersprungen: ${stats.ohneUrl}`);
+  if (stats.container) md.push('', `Sendungscontainer übersprungen: ${stats.container}`);
   if (quellenFehler.length) {
     md.push('', `**Quellen ohne Lieferung (${quellenFehler.length}):**`);
     for (const q of quellenFehler) md.push(`- ${q}`);
@@ -309,8 +321,10 @@ async function main() {
       md.push(`- (${n.score}) ${n.title}`);
     }
   }
-  console.log(md.join('\n'));
-  console.log('\n```json\n' + JSON.stringify({ published, items: publishedItems }, null, 2) + '\n```');
+  // Die Summary (stdout) wird namensmaskiert ausgegeben, weil sie bei
+  // öffentlichem Repo öffentlich ist; das Lauf-Log (stderr) bleibt vollständig.
+  console.log(maskNames(md.join('\n')));
+  console.log(maskNames('\n```json\n' + JSON.stringify({ published, items: publishedItems }, null, 2) + '\n```'));
 }
 
 main()
