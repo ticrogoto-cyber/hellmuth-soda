@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-03T23:35:28.043Z",
+  "generated": "2026-07-04T23:18:53.735Z",
   "hellmuth": [
     {
       "title": "Indonesiens alkoholfreier Getränkemarkt lahmt trotz demografischer Rückenlage",
@@ -1040,6 +1040,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Alzheimer sitzt im falschen Fach",
+      "date": "2026-07-04",
+      "created": "2026-07-04T23:18:53.690Z",
+      "slug": "alzheimer-sitzt-im-falschen-fach",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlagert die Alzheimer-Frage von der Menge der Proteine auf ihren Ort in der Zelle.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735694v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-sitzt-im-falschen-fach/"
+    },
+    {
+      "title": "Locus coeruleus, stillgelegt, Ratten spielen riskanter",
+      "date": "2026-07-04",
+      "created": "2026-07-04T23:18:39.594Z",
+      "slug": "locus-coeruleus-stillgelegt-ratten-spielen-riskanter",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft koppelt Noradrenalin-Drosselung an die Ausbildung riskanter Entscheidungsmuster, bei Weibchen zusätzlich an motorische Impulsivität.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736138v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/locus-coeruleus-stillgelegt-ratten-spielen-riskanter/"
+    },
+    {
+      "title": "Oxytocin plus Achtsamkeit gegen Negativsymptome",
+      "date": "2026-07-04",
+      "created": "2026-07-04T23:18:22.641Z",
+      "slug": "oxytocin-plus-achtsamkeit-gegen-negativsymptome",
+      "rubrik": "science",
+      "lead": "Ein Berliner Pilotversuch koppelt das Bindungshormon an Gruppentherapie, weil Oxytocin allein je nach sozialem Kontext hilft oder schadet.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26356996v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/oxytocin-plus-achtsamkeit-gegen-negativsymptome/"
+    },
     {
       "title": "Wenn der Tastsinn früher kippt als das Gedächtnis",
       "date": "2026-07-03",
