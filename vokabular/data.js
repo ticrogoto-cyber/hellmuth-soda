@@ -257,6 +257,12 @@ window.VOKABULAR_DATA =
       "ref": "Kap. 8"
     },
     {
+      "term": "PFLANZENÖL",
+      "as_called": "Gesunde Fette. Mediterrane Küche. Natives Olivenöl extra.",
+      "what_it_is": "Ranzig, bevor die Flasche im Regal steht. Braunglas schützt nur bis 440 nm, Grünglas erst unterhalb 400. Chlorophyll absorbiert genau diese Wellenlängen, hebt Sauerstoff in den Singulett-Zustand, zerlegt die Fettsäuren. Der Deckenfluter in der Küche reicht. Olivenöl verliert unter Supermarktbedingungen die Klassifizierung Natives Olivenöl extra. Bioladen statt Supermarkt beruhigt nur das Gewissen.",
+      "ref": "Kap. 9"
+    },
+    {
       "term": "PHARMAZEUTISCHE MATROSCHKA",
       "as_called": "Differenzierte medikamentöse Therapie.",
       "what_it_is": "Eine Pille, die das Symptom behandelt, das die andere Pille verursacht hat. Antidepressiva gegen die Depression, die der Alkohol auslöst, den der Patient gegen die Angst trinkt, die das Koffein aufrechterhält. Schlafmittel gegen die Schlafstörung, die das Schlafmittel von gestern erzeugt hat. Die innerste Puppe ist immer der Patient.",

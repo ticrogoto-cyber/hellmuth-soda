@@ -1,25 +1,45 @@
+/* Impressum: unauffaellige Fussnoten-Typografie. Body-Schrift, linksbuendig,
+   schmale Spalte. Keine Versalien, keine Fettung, keine Zentrierung. */
 .impressum-main {
   flex: 1;
-  max-width: 32rem;
+  max-width: 40rem;
   margin: 0 auto;
-  padding: 8rem clamp(1.5rem, 5vw, 3rem) 4rem;
-  text-align: center;
+  padding: clamp(7rem, 12vh, 10rem) clamp(1.5rem, 5vw, 3rem) 4rem;
+  text-align: left;
+  font-family: 'Fournier Pro', 'Times New Roman', serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
 }
 
+/* Paragraphen-Einleitung (§ 5 TMG, § 18 MStV): kursiv, sonst unverändert. */
 .impressum-line {
   font-family: 'Fournier Pro', serif;
   font-style: italic;
+  font-weight: 400;
+  font-size: inherit;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--muted);
-  font-size: clamp(1rem, 1.6vw, 1.2rem);
-  margin: 0 0 1.5rem;
-  line-height: 1.55;
+  margin: 1.75rem 0 0.4rem;
+}
+.impressum-line:first-of-type { margin-top: 0; }
+
+/* Adress- und Angabenblöcke: schlichter Fließtext. */
+.impressum-block {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: inherit;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
 }
 
-.impressum-block {
-  font-family: 'Printvetica', sans-serif;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  font-size: clamp(1rem, 1.6vw, 1.2rem);
-  line-height: 2;
-  margin: 0;
+.impressum-block a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
 }
+.impressum-block a:hover { color: var(--ink); }
