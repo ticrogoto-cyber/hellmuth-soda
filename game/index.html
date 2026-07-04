@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>HELLMUTH</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #000; }
+    #game-container { width: 100%; height: 100%; }
+    canvas { display: block; }
+    #dev-overlay {
+      display: none;
+      position: fixed;
+      top: 8px;
+      left: 8px;
+      color: #0f0;
+      font: 14px/1.4 monospace;
+      background: rgba(0,0,0,0.6);
+      padding: 4px 8px;
+      border-radius: 4px;
+      pointer-events: none;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+  <div id="dev-overlay"></div>
+
+  <!-- Phaser 3 UMD — sets global `Phaser` -->
+  <script src="vendor/phaser.min.js"></script>
+
+  <!-- Game bootstrap (ES module) -->
+  <script type="module" src="src/main.js"></script>
+
+  <script>
+    /* --- Dev overlay: FPS counter toggled by ?dev=1 --- */
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('dev') === '1') {
+      const overlay = document.getElementById('dev-overlay');
+      overlay.style.display = 'block';
+      let frames = 0;
+      let lastTime = performance.now();
+      function tick() {
+        frames++;
+        const now = performance.now();
+        if (now - lastTime >= 1000) {
+          overlay.textContent = 'FPS: ' + frames;
+          frames = 0;
+          lastTime = now;
+        }
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+  </script>
+</body>
+</html>

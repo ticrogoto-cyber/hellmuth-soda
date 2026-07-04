@@ -1,0 +1,53 @@
+{
+  "engine": "Unity",
+  "source": "iso_master_rig.py",
+  "proof_level": "spec_test_only",
+  "proof_note": "math/projection spec test, NOT a production proof; real proof is blender_master_rig.py render imported into Unity",
+  "tilemap": {
+    "grid_type": "Isometric",
+    "cell_size_units": [
+      1.0,
+      0.5,
+      1.0
+    ]
+  },
+  "screen_tile_angle_deg": 26.565,
+  "camera": {
+    "projection": "orthographic",
+    "mode": "look_at_pivot",
+    "yaw_deg": 45.0,
+    "elevation_deg": 30.0,
+    "note": "elevation is the look-at angle above the ground plane, not a Blender Euler pitch; 30 deg yields a 2:1 tile, distinct from the 26.565 screen-edge angle"
+  },
+  "measured_tile_ratio": 2.0,
+  "light_world_dir": [
+    -0.4506,
+    -0.3505,
+    0.8211
+  ],
+  "ambient": 0.38,
+  "tile_px_width": 128,
+  "tile_px_height": 64,
+  "pixels_per_world_unit": 90.5097,
+  "footprint_tiles": [
+    2,
+    2
+  ],
+  "directions": 8,
+  "canvas_px": 512,
+  "pivot_px": [
+    256.0,
+    256.0
+  ],
+  "pivot_normalized": [
+    0.5,
+    0.5
+  ],
+  "unity_ppu_recommended": 128,
+  "channels": [
+    "albedo_rgba",
+    "contact_shadow",
+    "team_color_mask"
+  ],
+  "ai_role": "concept/paintover/textures/variants only; geometry+camera+light deterministic"
+}

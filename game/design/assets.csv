@@ -1,0 +1,13 @@
+id,role,type,description,size_ratio,style_ref,source
+terrain_grass,ground tile,tile,lush isometric grass,128x64,block1,procedural
+terrain_water,ground tile,tile,dark teal water,128x64,block1,procedural
+terrain_path,ground tile,tile,dirt path,128x64,block1,procedural
+apo_unit_apothekerin,player unit,sprite,apothecary healer,64x96,block3_apo,generate
+apo_bld_destillerie,HQ building,sprite,distillery headquarters,256x256,block3_apo,generate
+apo_bld_apothekenhaus,production,sprite,pharmacy cottage,192x192,block3_apo,generate
+apo_bld_sodabrunnen,resource,sprite,soda fountain,128x128,block3_apo,generate
+apo_bld_hopfengarten,resource,sprite,hop garden,192x128,block3_apo,generate
+kor_unit_bierhefe,enemy unit,sprite,yeast drone,48x48,block3_kor,generate
+ui_icon_soda,resource icon,ui,blue droplet,64x64,ui,procedural
+ui_icon_heilkraut,resource icon,ui,green leaf,64x64,ui,procedural
+ui_icon_klarheit,resource icon,ui,gold rune,64x64,ui,procedural

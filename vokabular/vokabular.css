@@ -74,8 +74,7 @@
 .entry-modal {
   position: fixed;
   inset: 0;
-  /* Backdrop-Veil: gleicher Ton wie --page-bg (#f8f8f8), translucent. */
-  background: rgba(248, 248, 248, 0.88);
+  background: rgba(255, 255, 255, 0.88);
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -93,7 +92,7 @@
 }
 
 .entry-modal-frame {
-  background: var(--page-bg);
+  background: var(--paper);
   border: 1px solid var(--ink);
   max-width: 38rem;
   width: 100%;
@@ -197,11 +196,11 @@ body.modal-open {
   color: var(--paper);
 }
 .btn-cta:hover {
-  background: var(--page-bg);
+  background: var(--paper);
   color: var(--ink);
 }
 .btn-cta-alt {
-  background: var(--page-bg);
+  background: var(--paper);
   color: var(--ink);
 }
 .btn-cta-alt:hover {
@@ -233,7 +232,7 @@ body.modal-open {
   position: fixed;
   z-index: 200;
   max-width: 22rem;
-  background: var(--page-bg);
+  background: var(--paper);
   border: 1px solid var(--ink);
   padding: 0.7rem 0.9rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
