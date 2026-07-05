@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-04T23:18:53.735Z",
+  "generated": "2026-07-05T23:32:50.159Z",
   "hellmuth": [
+    {
+      "title": "Kaubares Getränk mit Fitnessversprechen",
+      "date": "2026-07-05",
+      "created": "2026-07-05T23:31:40.683Z",
+      "slug": "kaubares-getrank-mit-fitnessversprechen",
+      "rubrik": "hellmuth",
+      "lead": "Der thailändische Getränkehersteller Sappe verlagert das Snacken in die Flasche.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/05/sappe-launches-preaw-xs-with-chewy-konjac-pearls-and-functional-benefits/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/kaubares-getrank-mit-fitnessversprechen/"
+    },
+    {
+      "title": "B'lue verkauft Kaugummi als Vitaminwasser",
+      "date": "2026-07-05",
+      "created": "2026-07-05T23:31:28.046Z",
+      "slug": "b-lue-verkauft-kaugummi-als-vitaminwasser",
+      "rubrik": "hellmuth",
+      "lead": "Danone Sappe erklärt Süßwarenaromen zur Wellness-Kategorie.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/05/blue-introduces-dessert-inspired-flavours-for-a-new-indulgent-twist/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/b-lue-verkauft-kaugummi-als-vitaminwasser/"
+    },
+    {
+      "title": "Chagee greift nach der englischen Teekultur",
+      "date": "2026-07-05",
+      "created": "2026-07-05T23:31:12.192Z",
+      "slug": "chagee-greift-nach-der-englischen-teekultur",
+      "rubrik": "hellmuth",
+      "lead": "Die chinesische Teekette Chagee verschiebt ihre Referenzachse von Fujian nach London.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/05/chagee-bridges-east-and-west-through-artful-tea-collaborations/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/chagee-greift-nach-der-englischen-teekultur/"
+    },
     {
       "title": "Indonesiens alkoholfreier Getränkemarkt lahmt trotz demografischer Rückenlage",
       "date": "2026-07-03",
@@ -1040,6 +1082,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Butyrat wirkt anders im männlichen Mikrogliom",
+      "date": "2026-07-05",
+      "created": "2026-07-05T23:32:50.120Z",
+      "slug": "butyrat-wirkt-anders-im-mannlichen-mikrogliom",
+      "rubrik": "science",
+      "lead": "Kurzkettige Fettsäuren aus dem Darm modulieren die Immunzellen des Gehirns geschlechtsspezifisch, und Butyrat schlägt am härtesten aus.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735602v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/butyrat-wirkt-anders-im-mannlichen-mikrogliom/"
+    },
+    {
+      "title": "Warum der Hippocampus nicht im Chor singt",
+      "date": "2026-07-05",
+      "created": "2026-07-05T23:32:33.220Z",
+      "slug": "warum-der-hippocampus-nicht-im-chor-singt",
+      "rubrik": "science",
+      "lead": "Ein Preprint erklärt, warum Gedächtniswellen im Hippocampus lokal bleiben, obwohl sie zu den synchronsten Ereignissen des Gehirns zählen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735500v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/warum-der-hippocampus-nicht-im-chor-singt/"
+    },
+    {
+      "title": "Wenn Oxytocin im Säuglingshirn fehlt, bleibt der Schmerz",
+      "date": "2026-07-05",
+      "created": "2026-07-05T23:32:15.806Z",
+      "slug": "wenn-oxytocin-im-sauglingshirn-fehlt-bleibt-der-schmerz",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft verlegt die Wurzel früher Traumafolgen von der Mutter-Kind-Trennung auf ein einzelnes Rezeptorsystem.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736474v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-oxytocin-im-sauglingshirn-fehlt-bleibt-der-schmerz/"
+    },
     {
       "title": "Alzheimer sitzt im falschen Fach",
       "date": "2026-07-04",
