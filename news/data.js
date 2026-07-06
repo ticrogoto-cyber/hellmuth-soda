@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-05T23:32:50.159Z",
+  "generated": "2026-07-06T23:38:07.080Z",
   "hellmuth": [
+    {
+      "title": "Getränkeverbände gegen die Zuckersteuer",
+      "date": "2026-07-06",
+      "created": "2026-07-06T23:37:15.378Z",
+      "slug": "getrankeverbande-gegen-die-zuckersteuer",
+      "rubrik": "hellmuth",
+      "lead": "Die deutsche Getränkewirtschaft läuft Sturm gegen ein früheres Inkrafttreten der Zuckersteuer, weil sie ahnt, dass jede Verzögerung ihr letztes Argument ist.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/spitzenverbaende-vorziehen-der-zuckersteuer-auf-2027-waere-ein-affront-gegen-den-mittelstand/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/getrankeverbande-gegen-die-zuckersteuer/"
+    },
+    {
+      "title": "Kirin schickt einen Milchsäurebakterien-Stamm nach Südostasien",
+      "date": "2026-07-06",
+      "created": "2026-07-06T23:35:30.427Z",
+      "slug": "kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien",
+      "rubrik": "hellmuth",
+      "lead": "Ein japanischer Getränkekonzern verlagert seinen Immunmarkt in Länder, in denen Funktionsversprechen weniger streng geprüft werden.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/05/kirin-imuse-relaunches-in-vietnam-with-new-lemon-yogurt-drink-expands-overseas-to-taiwan/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien/"
+    },
+    {
+      "title": "Cheeky verlässt die Sirupflasche",
+      "date": "2026-07-06",
+      "created": "2026-07-06T23:34:48.034Z",
+      "slug": "cheeky-verlasst-die-sirupflasche",
+      "rubrik": "hellmuth",
+      "lead": "Der New Yorker Cocktailzutaten-Anbieter Cheeky zieht in die Dose, und damit in ein Regal, das längst überfüllt ist.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/cheeky-branches-into-canned-mixers-with-botanical-tonic-launch",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/cheeky-verlasst-die-sirupflasche/"
+    },
     {
       "title": "Kaubares Getränk mit Fitnessversprechen",
       "date": "2026-07-05",
@@ -1082,6 +1124,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wenn Angst mitaltert",
+      "date": "2026-07-06",
+      "created": "2026-07-06T23:38:07.029Z",
+      "slug": "wenn-angst-mitaltert",
+      "rubrik": "science",
+      "lead": "Soziale Angststörung allein lässt das Gehirn nicht schneller altern, die Komorbidität schon.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357108v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-angst-mitaltert/"
+    },
+    {
+      "title": "Individualisierte Magnetstimulation gegen therapieresistente Depression",
+      "date": "2026-07-06",
+      "created": "2026-07-06T23:37:52.400Z",
+      "slug": "individualisierte-magnetstimulation-gegen-therapieresistente-depression",
+      "rubrik": "science",
+      "lead": "Die Klinik als letzter Ort für Patienten, bei denen Medikamente versagen, bekommt ein zusätzliches Werkzeug getestet.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356553v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/individualisierte-magnetstimulation-gegen-therapieresistente-depression/"
+    },
+    {
+      "title": "Schizophrenie lernt auch im Kopf schlechter",
+      "date": "2026-07-06",
+      "created": "2026-07-06T23:37:37.827Z",
+      "slug": "schizophrenie-lernt-auch-im-kopf-schlechter",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt die Grenze des kognitiven Defizits von der Hand ins vorgestellte Bewegen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357176v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-lernt-auch-im-kopf-schlechter/"
+    },
     {
       "title": "Butyrat wirkt anders im männlichen Mikrogliom",
       "date": "2026-07-05",
