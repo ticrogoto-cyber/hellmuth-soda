@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-06T23:42:13.511Z",
+  "generated": "2026-07-07T23:26:07.991Z",
   "items": [
     {
       "title": "Tötungsdelikt in geschlossener Psychiatrie, Vivantes Neukölln",
