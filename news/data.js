@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-06T23:38:07.080Z",
+  "generated": "2026-07-07T23:22:58.496Z",
   "hellmuth": [
     {
       "title": "Getränkeverbände gegen die Zuckersteuer",
@@ -1124,6 +1124,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Schlechter Schlaf altert nicht, er begleitet das Altern",
+      "date": "2026-07-07",
+      "created": "2026-07-07T23:22:58.455Z",
+      "slug": "schlechter-schlaf-altert-nicht-er-begleitet-das-altern",
+      "rubrik": "science",
+      "lead": "Die Korrelation zwischen schlechtem Schlaf und beschleunigter Alterung ist massiv, die Kausalität wackelt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357135v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schlechter-schlaf-altert-nicht-er-begleitet-das-altern/"
+    },
+    {
+      "title": "Wie teuer darf der Rausch sein",
+      "date": "2026-07-07",
+      "created": "2026-07-07T23:22:44.767Z",
+      "slug": "wie-teuer-darf-der-rausch-sein",
+      "rubrik": "science",
+      "lead": "Verhaltensökonomen messen Alkoholverlangen, indem sie Menschen fiktive Bierpreise vorlegen, und haben das Verfahren jetzt halbiert.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357139v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wie-teuer-darf-der-rausch-sein/"
+    },
+    {
+      "title": "NAC dämpft Kynurensäure-Anstieg bei Schizophrenie",
+      "date": "2026-07-07",
+      "created": "2026-07-07T23:22:30.398Z",
+      "slug": "nac-dampft-kynurensaure-anstieg-bei-schizophrenie",
+      "rubrik": "science",
+      "lead": "Ein antioxidatives Aminosäure-Derivat greift dort ein, wo klassische Antipsychotika stumpf bleiben.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356572v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nac-dampft-kynurensaure-anstieg-bei-schizophrenie/"
+    },
     {
       "title": "Wenn Angst mitaltert",
       "date": "2026-07-06",
