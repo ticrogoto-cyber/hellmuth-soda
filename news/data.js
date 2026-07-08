@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-07T23:22:58.496Z",
+  "generated": "2026-07-08T23:37:03.258Z",
   "hellmuth": [
+    {
+      "title": "Kombucha an der Zapfsäule",
+      "date": "2026-07-08",
+      "created": "2026-07-08T23:35:56.794Z",
+      "slug": "kombucha-an-der-zapfsaule",
+      "rubrik": "hellmuth",
+      "lead": "Der fermentierte Teepilz erreicht die Tankstelle, und damit den Ort, an dem sich Getränkekarrieren entscheiden.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/premium-kombucha-spraga-jetzt-auch-an-25-aral-bft-tankstellen/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kombucha-an-der-zapfsaule/"
+    },
+    {
+      "title": "Getränkemarkt 2026, erste Halbzeit",
+      "date": "2026-07-08",
+      "created": "2026-07-08T23:34:09.772Z",
+      "slug": "getrankemarkt-2026-erste-halbzeit",
+      "rubrik": "hellmuth",
+      "lead": "Die Zahlen aus dem ersten Halbjahr 2026 zeigen weniger einen Boom als eine Umschichtung.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/ytd-2026-beverage-performance-and-trends-3tier-beverages-via-niq",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/getrankemarkt-2026-erste-halbzeit/"
+    },
+    {
+      "title": "Functional Beverages, der Regalplatz schlägt die Rezeptur",
+      "date": "2026-07-08",
+      "created": "2026-07-08T23:33:44.237Z",
+      "slug": "functional-beverages-der-regalplatz-schlagt-die-rezeptur",
+      "rubrik": "hellmuth",
+      "lead": "Der Wettbewerb um funktionale Getränke entscheidet sich nicht mehr in der Formulierung, sondern im Vertriebsweg.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/distribution-playbook-where-functional-beverage-growth-is-really-happening-calebrate-june-2026",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/functional-beverages-der-regalplatz-schlagt-die-rezeptur/"
+    },
     {
       "title": "Getränkeverbände gegen die Zuckersteuer",
       "date": "2026-07-06",
@@ -1124,6 +1166,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Warum manche Hirnareale leichter krampfen",
+      "date": "2026-07-08",
+      "created": "2026-07-08T23:37:03.215Z",
+      "slug": "warum-manche-hirnareale-leichter-krampfen",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlagert die Frage der Anfallsanfälligkeit von der Anatomie zur Rechenarchitektur.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.735135v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/warum-manche-hirnareale-leichter-krampfen/"
+    },
+    {
+      "title": "Zwei Depressionen, ein Etikett",
+      "date": "2026-07-08",
+      "created": "2026-07-08T23:36:27.119Z",
+      "slug": "zwei-depressionen-ein-etikett",
+      "rubrik": "science",
+      "lead": "Ein Preprint zerlegt die Diagnose Major Depression anhand kortikaler Dicke in zwei reproduzierbare Untertypen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356577v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-depressionen-ein-etikett/"
+    },
+    {
+      "title": "Achtsamkeitstherapie und die Geometrie der Grübelei",
+      "date": "2026-07-08",
+      "created": "2026-07-08T23:36:13.553Z",
+      "slug": "achtsamkeitstherapie-und-die-geometrie-der-grubelei",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der medRxiv-Psychiatrie versucht, den Effekt achtsamkeitsbasierter Therapie auf Depressionen in Hirnbild-Geometrie zu übersetzen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.26.26356643v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/achtsamkeitstherapie-und-die-geometrie-der-grubelei/"
+    },
     {
       "title": "Schlechter Schlaf altert nicht, er begleitet das Altern",
       "date": "2026-07-07",
