@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-08T23:37:03.258Z",
+  "generated": "2026-07-09T23:44:55.509Z",
   "hellmuth": [
+    {
+      "title": "Bee Pop und die Lücke zwischen Sprudel und Soda",
+      "date": "2026-07-09",
+      "created": "2026-07-09T23:41:38.220Z",
+      "slug": "bee-pop-und-die-lucke-zwischen-sprudel-und-soda",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Getränkemarkt entdeckt ein Zwischenfach, das eigentlich niemand vermisst hat.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-bee-pop-has-us-buzzing",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/bee-pop-und-die-lucke-zwischen-sprudel-und-soda/"
+    },
     {
       "title": "Kombucha an der Zapfsäule",
       "date": "2026-07-08",
@@ -1166,6 +1180,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Chronischer Schmerz schreibt sich bei Männern und Frauen in unterschiedliche Gene",
+      "date": "2026-07-09",
+      "created": "2026-07-09T23:44:55.461Z",
+      "slug": "chronischer-schmerz-schreibt-sich-bei-mannern-und-frauen-in-unterschiedliche-gen",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv legt nahe, dass die Depression, die aus chronischem Schmerz erwächst, auf molekularer Ebene zwei verschiedene Krankheiten ist.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736250v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/chronischer-schmerz-schreibt-sich-bei-mannern-und-frauen-in-unterschiedliche-gen/"
+    },
+    {
+      "title": "Nerven im Mesenterium sprechen mit dem Darm",
+      "date": "2026-07-09",
+      "created": "2026-07-09T23:44:37.887Z",
+      "slug": "nerven-im-mesenterium-sprechen-mit-dem-darm",
+      "rubrik": "science",
+      "lead": "Das Mesenterium ist nicht nur Fettdepot und Aufhängung, sondern beherbergt ein eigenes neuronales Netzwerk, das direkt in die Darmwand hineinreicht.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736073v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nerven-im-mesenterium-sprechen-mit-dem-darm/"
+    },
+    {
+      "title": "Blutproteine adoleszenter Depression",
+      "date": "2026-07-09",
+      "created": "2026-07-09T23:44:21.013Z",
+      "slug": "blutproteine-adoleszenter-depression",
+      "rubrik": "science",
+      "lead": "Ein finnisches Preprint sucht die Depression Jugendlicher nicht im Fragebogen, sondern im Plasma.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.06.26356404v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/blutproteine-adoleszenter-depression/"
+    },
     {
       "title": "Warum manche Hirnareale leichter krampfen",
       "date": "2026-07-08",
