@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-09T23:44:55.509Z",
+  "generated": "2026-07-10T23:18:34.889Z",
   "hellmuth": [
+    {
+      "title": "Naked Life bringt alkoholfreien Italian Spritz in die USA",
+      "date": "2026-07-10",
+      "created": "2026-07-10T23:17:50.630Z",
+      "slug": "naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie RTD-Markt in den USA reift von Nische zu Sortimentspflicht.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/07/italian-spritz-hitting-the-us-amplifies-the-non-alcoholic-rtd-trend/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa/"
+    },
+    {
+      "title": "Ornithin-Hefe aus Osaka",
+      "date": "2026-07-10",
+      "created": "2026-07-10T23:17:25.752Z",
+      "slug": "ornithin-hefe-aus-osaka",
+      "rubrik": "hellmuth",
+      "lead": "Craft-Bier soll jetzt auch als Nahrungsergänzung durchgehen.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/07/osaka-scientists-develop-wild-yeast-that-boosts-ornithine-in-craft-beer/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ornithin-hefe-aus-osaka/"
+    },
+    {
+      "title": "Zwei Wege aus der Flasche",
+      "date": "2026-07-10",
+      "created": "2026-07-10T23:16:46.426Z",
+      "slug": "zwei-wege-aus-der-flasche",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Markt spaltet sich in Kopisten und Konstrukteure.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/07/10/emerging-brands-reshape-the-non-alcoholic-category/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zwei-wege-aus-der-flasche/"
+    },
     {
       "title": "Bee Pop und die Lücke zwischen Sprudel und Soda",
       "date": "2026-07-09",
@@ -1180,6 +1222,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Alkoholabhängigkeit als Stoffwechselkrankheit des Gehirns",
+      "date": "2026-07-10",
+      "created": "2026-07-10T23:18:34.837Z",
+      "slug": "alkoholabhangigkeit-als-stoffwechselkrankheit-des-gehirns",
+      "rubrik": "science",
+      "lead": "Die Sucht sitzt nicht im Willen, sondern in der Energieversorgung der Nervenzelle.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1134/S0006297925604149",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alkoholabhangigkeit-als-stoffwechselkrankheit-des-gehirns/"
+    },
+    {
+      "title": "Der Blick verrät den Rausch",
+      "date": "2026-07-10",
+      "created": "2026-07-10T23:18:21.132Z",
+      "slug": "der-blick-verrat-den-rausch",
+      "rubrik": "science",
+      "lead": "Was der Blick sekundenschnell fixiert, prognostiziert, wie viel am selben Abend getrunken wird.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70327",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/der-blick-verrat-den-rausch/"
+    },
+    {
+      "title": "Ein Enzym entscheidet mit, ob Nikotin wirkt",
+      "date": "2026-07-10",
+      "created": "2026-07-10T23:18:10.461Z",
+      "slug": "ein-enzym-entscheidet-mit-ob-nikotin-wirkt",
+      "rubrik": "science",
+      "lead": "Zebrafische ohne Neu1 reagieren schwächer auf Nikotin, weil ihnen ein Dopaminrezeptor fehlt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1007/s10695-026-01735-8",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-enzym-entscheidet-mit-ob-nikotin-wirkt/"
+    },
     {
       "title": "Chronischer Schmerz schreibt sich bei Männern und Frauen in unterschiedliche Gene",
       "date": "2026-07-09",
