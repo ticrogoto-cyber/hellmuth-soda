@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-10T23:18:34.889Z",
+  "generated": "2026-07-11T23:17:33.625Z",
   "hellmuth": [
+    {
+      "title": "Kirin verkauft Immunsystem im Joghurtbecher",
+      "date": "2026-07-11",
+      "created": "2026-07-11T23:16:36.426Z",
+      "slug": "kirin-verkauft-immunsystem-im-joghurtbecher",
+      "rubrik": "hellmuth",
+      "lead": "Was in Japan als Funktionsgetränk etabliert ist, wird jetzt regional zur Rollout-Kampagne.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/11/kirin-immuse-yoghurt-flavour-to-debut-in-singapore-as-part-of-region-wide-push/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kirin-verkauft-immunsystem-im-joghurtbecher/"
+    },
+    {
+      "title": "Osmanthus, Pu'er und Kokoswasser in Thailand",
+      "date": "2026-07-11",
+      "created": "2026-07-11T23:16:20.982Z",
+      "slug": "osmanthus-pu-er-und-kokoswasser-in-thailand",
+      "rubrik": "hellmuth",
+      "lead": "Ready-to-Drink-Tee in Südostasien verlässt die Zuckerbrause-Logik und rückt in Richtung Parfüm.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/11/cha-jing-x-if-osmanthus-coconut-tea-innovation-in-thailand/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/osmanthus-pu-er-und-kokoswasser-in-thailand/"
+    },
+    {
+      "title": "Coca-Cola entdeckt die Nacht",
+      "date": "2026-07-11",
+      "created": "2026-07-11T23:16:03.828Z",
+      "slug": "coca-cola-entdeckt-die-nacht",
+      "rubrik": "hellmuth",
+      "lead": "Thailand ist Testmarkt für eine Cola ohne Zucker und ohne Koffein, gebaut für den Konsum nach Sonnenuntergang.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/11/coke-zero-zero-unlocks-nighttime-refreshment-in-thailand/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-entdeckt-die-nacht/"
+    },
     {
       "title": "Naked Life bringt alkoholfreien Italian Spritz in die USA",
       "date": "2026-07-10",
@@ -1222,6 +1264,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Alzheimer bekommt eine Struktur",
+      "date": "2026-07-11",
+      "created": "2026-07-11T23:17:33.589Z",
+      "slug": "alzheimer-bekommt-eine-struktur",
+      "rubrik": "science",
+      "lead": "Erstmals ist sichtbar, wie das Immunsystem ein Alzheimer-Fragment präsentiert.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736863v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-bekommt-eine-struktur/"
+    },
+    {
+      "title": "Sauerstoffmangel als Nootropikum scheitert im Kontrolldesign",
+      "date": "2026-07-11",
+      "created": "2026-07-11T23:17:18.243Z",
+      "slug": "sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign",
+      "rubrik": "science",
+      "lead": "Moderate Hypoxie sollte kognitives Training verstärken, im Preprint einer randomisierten Vier-Arm-Studie tut sie es nicht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.28.26356414v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/"
+    },
+    {
+      "title": "Frontales Theta-Beta-Verhältnis trennt Schizophrenie und Kontrollgruppe",
+      "date": "2026-07-11",
+      "created": "2026-07-11T23:16:55.401Z",
+      "slug": "frontales-theta-beta-verhaltnis-trennt-schizophrenie-und-kontrollgruppe",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv misst kognitive Kontrolle in Schizophrenie nicht am Schreibtisch, sondern in Augmented Reality und mobiler Alltagsaufgabe.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.08.26357605v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/frontales-theta-beta-verhaltnis-trennt-schizophrenie-und-kontrollgruppe/"
+    },
     {
       "title": "Alkoholabhängigkeit als Stoffwechselkrankheit des Gehirns",
       "date": "2026-07-10",
