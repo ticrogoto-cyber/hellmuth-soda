@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-11T23:17:33.625Z",
+  "generated": "2026-07-12T23:15:35.183Z",
   "hellmuth": [
+    {
+      "title": "Popping Boba wird ölgefüllt",
+      "date": "2026-07-12",
+      "created": "2026-07-12T23:12:58.228Z",
+      "slug": "popping-boba-wird-olgefullt",
+      "rubrik": "hellmuth",
+      "lead": "Bubble Tea verlässt seinen Zuckerkern und wandert in die Fettphase.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/11/tachiz-pushes-popping-boba-boundaries-with-oil-filled-innovation-and-cocopop-minis-at-food-taipei-mega-shows-2026/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/popping-boba-wird-olgefullt/"
+    },
+    {
+      "title": "ChaPanda dockt in Kuala Lumpur an den Durian an",
+      "date": "2026-07-12",
+      "created": "2026-07-12T23:12:36.833Z",
+      "slug": "chapanda-dockt-in-kuala-lumpur-an-den-durian-an",
+      "rubrik": "hellmuth",
+      "lead": "Chinesische Bubble-Tea-Ketten expandieren nach Südostasien nicht mehr mit dem Heimatsortiment, sondern mit lokaler Frucht als Eintrittsticket.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/12/chapanda-malaysia-innovates-with-local-favourite-durian/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/chapanda-dockt-in-kuala-lumpur-an-den-durian-an/"
+    },
     {
       "title": "Kirin verkauft Immunsystem im Joghurtbecher",
       "date": "2026-07-11",
@@ -1264,6 +1292,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Zwei Dopamin-Theorien vertragen sich im Schwanz des Striatums",
+      "date": "2026-07-12",
+      "created": "2026-07-12T23:15:35.128Z",
+      "slug": "zwei-dopamin-theorien-vertragen-sich-im-schwanz-des-striatums",
+      "rubrik": "science",
+      "lead": "Der hintere Teil des Striatums bekommt Dopaminsignale, die zwei rivalisierende Lehren gleichzeitig zu widerlegen schienen; ein Preprint zeigt, dass beide recht haben.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737461v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-dopamin-theorien-vertragen-sich-im-schwanz-des-striatums/"
+    },
+    {
+      "title": "Die Epilepsie-Mutation, die nicht das tut, was ihr nachgesagt wird",
+      "date": "2026-07-12",
+      "created": "2026-07-12T23:15:21.960Z",
+      "slug": "die-epilepsie-mutation-die-nicht-das-tut-was-ihr-nachgesagt-wird",
+      "rubrik": "science",
+      "lead": "Die häufigste EEF1A2-Mutation bremst nicht die Proteinsynthese der Zelle, sondern trifft gezielt einzelne Transkripte.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737232v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/die-epilepsie-mutation-die-nicht-das-tut-was-ihr-nachgesagt-wird/"
+    },
+    {
+      "title": "Der Thalamus zerfällt bei Temporallappenepilepsie",
+      "date": "2026-07-12",
+      "created": "2026-07-12T23:15:07.198Z",
+      "slug": "der-thalamus-zerfallt-bei-temporallappenepilepsie",
+      "rubrik": "science",
+      "lead": "Die Störung sitzt nicht im Herd, sondern im Verteiler.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.07.737072v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/"
+    },
     {
       "title": "Alzheimer bekommt eine Struktur",
       "date": "2026-07-11",

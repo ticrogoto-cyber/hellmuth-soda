@@ -1352,94 +1352,6 @@
       "score": 9,
       "published": true
     },
-    "12ae183091c4d07db82c27219fadd8edec6a6f2813f6acab6068c7e071dd1bed": {
-      "url": "https://www.japantimes.co.jp/news/2026/07/03/japan/imperial-family-princess-focus/",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:34.872Z"
-    },
-    "d091a641e2457406898a014a53abdf7ad76bb5e697f0e490ccc5ecd8b68a2984": {
-      "url": "https://www.japantimes.co.jp/news/2026/07/02/japan/crime-legal/nine-arrest-sierra-leone-fraud/",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:36.410Z"
-    },
-    "e5ea60f7c950dd5da1d05189e586d39ad46b25085f9ea6f5498de531f7628def": {
-      "url": "https://www.japantimes.co.jp/sports/2026/07/03/more-sports/x-games-japan-teams-chiba/",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:37.782Z"
-    },
-    "64bbbcd973dbd0e91b4fff30ea034a7eb40ca2597d672d6e81f468a383f1e9ab": {
-      "url": "https://www.japantimes.co.jp/culture/2026/07/04/music/nu-festival-tokyo-takanawa-gateway/",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:39.994Z"
-    },
-    "e0d68b3c06975314a75105cc77d06743dd5d22c468f8e66076459626c6c284ed": {
-      "url": "https://www.japantimes.co.jp/news/2026/07/03/japan/society/solar-wind-iran/",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:41.425Z"
-    },
-    "ec0b5cf9c6f4089d40d169655267c145c2368b11631a37ea833437868129e3a8": {
-      "url": "https://jingdaily.com/posts/louis-vuitton-unveils-star-studded-rebonds-book-for-unicef-partnership",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:45.787Z"
-    },
-    "bb98713457ea820501bc77b77dc70178542f14eef03de32c67cf3da93967b31a": {
-      "url": "https://jingdaily.com/posts/are-local-handbag-brands-set-to-dominate-accessible-luxury",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:47.222Z"
-    },
-    "cbcc4b2778dd983dd2078d1c8e011335076a11e65d5e5941468dcb10e8a41b26": {
-      "url": "https://jingdaily.com/posts/asia-s-next-gen-collectors-quietly-turn-region-into-a-private-museum-powerhouse",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:49.021Z"
-    },
-    "24cf666fe91959d860d8c849c22837e06c6770cde21a0f787c7d1df6d6ebaaf8": {
-      "url": "https://jingdaily.com/posts/chanel-buys-charvet-maker-of-usd750-shirts-favored-by-churchill",
-      "date": "2026-07-04",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:17:50.750Z"
-    },
-    "2e8e7ef25bc2f6797ad837f6d5b815f375cd6f8de32b4d3b312d4a8c04d38602": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26357063v1?rss=1",
-      "date": "2026-07-04",
-      "rubrik": "science",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:18:06.896Z"
-    },
-    "69cdf1d1d01a607a00afc7b0ea22dd0bfdde7b01f8b749858e26b987f1b231a5": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26357066v1?rss=1",
-      "date": "2026-07-04",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:18:08.759Z"
-    },
     "937b796158898b518aa7baf12962ef9e8c67f81c4ec3865e3e049241de8e3da3": {
       "url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26356996v1?rss=1",
       "date": "2026-07-04",
@@ -1447,28 +1359,12 @@
       "score": 9,
       "published": true
     },
-    "c9873cf4ffc0510cc6b6a8673ad798658ecdb4b81d45a3073890b18e5c40c287": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356338v1?rss=1",
-      "date": "2026-07-04",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:18:24.559Z"
-    },
     "17bcb88a055ba8ead3c798bc639681c24535da50ad43506902423a6b8f59c95a": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736138v1?rss=1",
       "date": "2026-07-04",
       "rubrik": "science",
       "score": 9,
       "published": true
-    },
-    "08bca681388ddba9e0ef84e164f34254aacfc9d5abe974be41a44f8aef4a50b8": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.734238v1?rss=1",
-      "date": "2026-07-04",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-11T23:18:41.591Z"
     },
     "b42663edb94be65388a21d0a3283056a3d7a82ce1107fa4d7b2a189a2173fdee": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735694v1?rss=1",
@@ -4414,6 +4310,441 @@
       "date": "2026-07-11",
       "rubrik": "science",
       "score": 9,
+      "published": true
+    },
+    "8353092c7f5e6a486850770b99527926a16125359e896ada10c31415f62c309e": {
+      "url": "https://foodbeverageasia.com/prinova-to-share-expertise-on-clear-protein-innovation-at-ift-first/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:12:11.008Z"
+    },
+    "14fd3cffb22fcdda95dce26f656905e6f45af9162f11cd081e80ffa921825098": {
+      "url": "https://foodbeverageasia.com/fricy-food-trend-needs-reliable-processing-equipment/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:12:13.022Z"
+    },
+    "6c1dd1561341ae775cfc9e3e0d50090c2377397dda1c3b37bf458016727b1edb": {
+      "url": "https://www.minimeinsights.com/2026/07/12/gin-d-project-by-chula-a-living-lab-for-urban-well-being-and-sustainability/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:12:19.707Z"
+    },
+    "17737efba8b66ed9f6943b8b38bbd14e9d80750bee1cef39596049c081f2ab7b": {
+      "url": "https://www.minimeinsights.com/2026/07/12/chapanda-malaysia-innovates-with-local-favourite-durian/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "4f7e25efb26880d461152d074ad020a6821539180cadc15eaa20ffd900408002": {
+      "url": "https://www.minimeinsights.com/2026/07/12/nowwa-coffee-expands-into-malaysia-with-strategic-partnership-and-regional-growth-ambitions/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:12:39.144Z"
+    },
+    "1d409af342541644c4a0b3db7f55a6c5da1f5e46d6201af4071ec8a7e89f5f44": {
+      "url": "https://www.minimeinsights.com/2026/07/12/malaysians-say-being-good-neighbors-when-travelling-is-common-sense-je-new-airbnb-survey-shows/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:12:40.888Z"
+    },
+    "dfe960e541f23e0c7bdaa6da9f75866bfc48ca7edd60b269b3c68a2a6d9fea2c": {
+      "url": "https://www.minimeinsights.com/2026/07/11/tachiz-pushes-popping-boba-boundaries-with-oil-filled-innovation-and-cocopop-minis-at-food-taipei-mega-shows-2026/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "062568dffa99deb8d10142a1abffd2986920e970aac786d4542343a27e884268": {
+      "url": "https://www.minimeinsights.com/2026/07/10/nestle-to-invest-thb-23-billion-in-state-of-the-art-coffee-manufacturing-facility-in-thailand/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:01.680Z"
+    },
+    "474b8b3793e69baad67f6a30d6045f0f924d1dd09ae6a5a4b379f4220d8a36ff": {
+      "url": "https://soranews24.com/2026/07/13/japanese-recipe-for-tempura-twinkies-takes-americas-favourite-snack-to-a-whole-new-level/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:09.155Z"
+    },
+    "20f64f4c3ff06a9074bca764de6f6afb193817d642607d633e88d973f16f69ea": {
+      "url": "https://soranews24.com/2026/07/13/studio-ghibli-calendar-figures-are-back-look-amazing-whether-you-check-the-date-or-notphotos/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:10.832Z"
+    },
+    "3d68fb57763edb2160b6e1583ac852ecba851959e85f4613705cc69fe6ed8a9a": {
+      "url": "https://soranews24.com/2026/07/12/enoshimas-magical-night-lantern-festival-is-back-this-summer-with-spectacular-views/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:12.776Z"
+    },
+    "5adbeb5c63197d4724cfa508e2c002d34a8650e06de91f92eec1db05909361ae": {
+      "url": "https://soranews24.com/2026/07/12/hatsune-miku-crosses-over-into-the-real-world-in-coolish-videos-with-hoshimachi-suiseivideos/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:15.020Z"
+    },
+    "67e5be1327bf3dcd00f497ecc061fe7cfa72b85343d6c348d1425a661961165b": {
+      "url": "https://soranews24.com/2026/07/12/japans-pokemon-hot-spring-reinstalls-all-damaged-statues-adds-no-touching-rule/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:17.450Z"
+    },
+    "530178bd1df9138c5c863ed38a3a03a9b2529b8c4d949e4fad7c829f54ea2051": {
+      "url": "https://soranews24.com/2026/07/12/suntanned-hello-kitty-steals-the-show-in-japanese-magazines-sanrio-freebies/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:19.110Z"
+    },
+    "5be09e1ab9f7dac38ecc557eaf7fcb10b49dc1401afb88be69bc70ff8f2893e8": {
+      "url": "https://soranews24.com/2026/07/12/piko-taro-is-back-to-rock-your-world-with-bizarre-new-super-cup-ice-cream-video/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:21.728Z"
+    },
+    "4a86b85f51accb30aebe1ec357960674cacabe72dfa69e9aacaec3ddc2ae764b": {
+      "url": "https://soranews24.com/2026/07/11/survey-shows-foreigners-desire-to-work-in-japan-long-term-dropping-but-its-not-the-whole-story/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:23.519Z"
+    },
+    "2dafafeb9c6ea57d1f8ea0d46d3143a25e1806df09ac56e6b25a9a67f4f63a60": {
+      "url": "https://soranews24.com/2026/07/11/furby-is-now-a-sexy-anime-girl-figurephotos/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:25.770Z"
+    },
+    "5a1cb9c64139b281114958598554b24d994db3134f39cdfbf0968164b2d22bf7": {
+      "url": "https://soranews24.com/2026/07/11/family-mart-changes-its-famichiki-packaging-for-the-first-time-in-nine-years/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:28.087Z"
+    },
+    "7d4a303ef3e5b1a677b8f69efa51b9dc193b25fbd4d047626f1f1b3ccebe53c4": {
+      "url": "https://soranews24.com/2026/07/11/3-second-salt-company-jingle-becomes-1-karaoke-song-in-japan-across-all-genres/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:30.193Z"
+    },
+    "4c8076dc9c25faaca1c57a88bbc6207c257f2dc9198e9dc379ddc10918694db2": {
+      "url": "https://soranews24.com/2026/07/11/japans-hormuz-triggered-black-and-white-potato-chip-bags-regain-some-but-not-all-color/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:32.427Z"
+    },
+    "11eb850d2a9640c114b7552e0b6e785931f0596f4d57ef444ada38c4a3faca68": {
+      "url": "https://soranews24.com/2026/07/11/three-new-starter-pokemon-jets-to-fly-in-japan-first-begins-carrying-passengers-this-month/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:34.043Z"
+    },
+    "ee84d0b609e4200c7a3f154825ef27d97eaff0e952e5fdb5d8927fb883bd2c23": {
+      "url": "https://soranews24.com/2026/07/11/mcdonalds-japan-reveals-new-pokemon-collaboration-range-covering-mcnuggets-and-lucky-bags/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:36.348Z"
+    },
+    "5813740b02e9b292e8d8b78ffd54c98e72ab5988e495a89d2c1c51be564079cf": {
+      "url": "https://soranews24.com/2026/07/11/solid-gold-hedorah-kaiju-from-the-godzilla-series-is-now-available-to-pre-order/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:38.136Z"
+    },
+    "d1a53031a1b88af87ffd71d6c7877d043d8a704f6c5699827498fb05f39db539": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/11-must-see-art-events-singapore-q3-q4-2026",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:40.957Z"
+    },
+    "81ccb7e2354cdf899a66908b8ba5bea95678a8ec40a392417734af98aa9ce28d": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/founder-japanese-apparel-brand-huis-uses-enshu-orimono-everyday-wear",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:42.429Z"
+    },
+    "a4b1cd90573ffc73c3db38855029422f1b41e866eda2f7a2e85288b0c346a0f2": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/trend-duck-having-its-moment-restaurant-menus-singapore",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:44.343Z"
+    },
+    "5c89c5b70ae3021bdb10c7e9031a81332faed52048420263d8786933f7d5df35": {
+      "url": "https://robbreport.com.sg/flexjet-formula-1/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:50.027Z"
+    },
+    "3f22a298689e74c134f3ea295adb4a665900beca2e2bcdfe816e33665b47c34e": {
+      "url": "https://robbreport.com.sg/luxury-news-84/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:51.805Z"
+    },
+    "c432f1bd15453c2e99880bc5a7e48bb866f68631675b0bc4df14d5bfc1845833": {
+      "url": "https://robbreport.com.sg/lamborghini-esperienza/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:53.550Z"
+    },
+    "b76c005a0248d4823a0fe9814f98ce6f81c132fe5eddc4d9fe544dd9f420c8f6": {
+      "url": "https://robbreport.com.sg/iwc-ingenieur-automatic-35-pool/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:55.181Z"
+    },
+    "99d275c5b1370b6d9121a737857718dce48e2feb10786dffddfcc303c545721e": {
+      "url": "https://robbreport.com.sg/bvlgari-divas-dream/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:13:58.141Z"
+    },
+    "3c570507a7d33ee40ccd1ffca5a6ca9e388340a74755f07783c063365bfa1dca": {
+      "url": "https://www.japantimes.co.jp/news/2026/07/10/japan/science-health/dislike-mouse-research/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:00.337Z"
+    },
+    "4ab1f1c579ed62abcc5feacdbb6b0825e755bca4c2506fced16bc885f9329630": {
+      "url": "https://www.japantimes.co.jp/business/2026/07/09/markets/china-demand-soviet-apartments-revival/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:01.702Z"
+    },
+    "7f2947682e4fc7d6e56e7f209ac6b8da726e1115b256a7e36c6d6a5511ecdda4": {
+      "url": "https://www.japantimes.co.jp/news/2026/07/11/japan/science-health/japan-launches-lands-reusable-rocket/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:03.186Z"
+    },
+    "9da7384c9e6528e773356b7f3b31980bce58098b6ce37858608e104e5dd854f9": {
+      "url": "https://www.japantimes.co.jp/culture/2026/07/10/art/japanese-female-photographers-exhibition/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:05.177Z"
+    },
+    "be1c3387eecb54ce2d8b5e59e22c87de728ac8ae6b0f494d26c48be28d94f0d3": {
+      "url": "https://www.japantimes.co.jp/news/2026/07/10/japan/japan-accommodations-staff-shortage/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:06.811Z"
+    },
+    "b156d6d25d97b71aba2bce9be34579e4db3b524469979170c16d3218901267dc": {
+      "url": "https://www.japantimes.co.jp/culture/2026/07/09/stage/ghibli-mononoke-kabuki-show/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:08.761Z"
+    },
+    "f2be42fd6d917a0e1ebe3cd2efe2eb0cefbfb186bfe1054bf3bb6f9018c1767c": {
+      "url": "https://www.japantimes.co.jp/news/2026/07/13/japan/society/japan-utility-telephone-poles/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:10.106Z"
+    },
+    "3904512a292f17b25edf147993938e78737eea77e3aff1c8dc1a006db6e6a34a": {
+      "url": "https://sustainable.japantimes.com/magazine/vol56/56-07?utm_source=jto&utm_medium=sidebanner&utm_campaign=jto_sidebanner&f=1",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:13.014Z"
+    },
+    "f1bb2b742bcb79d7d21a3bef6ff9a7469e389f7bbadf47047759c1ca6f2bf338": {
+      "url": "https://www.scmp.com/lifestyle/health-wellness/article/3359832/why-losing-weight-about-more-counting-calories-quality-beats-quantity?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:21.113Z"
+    },
+    "e22d0371e0ef821ed5a0fa300d1ebaf8c3f5a4d5721be8d33bb249f8a5b08320": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3359914/granola-breakfast-make-it-chinese-american-digs-deep-her-heritage?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:22.927Z"
+    },
+    "bf57a4ed75ccee5a6731fce52ea1562ccdd411ef7c81a71c0b540bc54841ae80": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3360082/what-walovi-erling-haaland-promoted-chinese-herbal-drink-200-years-history?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:25.303Z"
+    },
+    "b4a5c64c7eb3e6788946f02acb08b52621ef5bf8fc703e4d3107b2c24e8292a4": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3359682/one-barbecue-stove-can-support-family-why-people-are-joining-chinas-barbecue-academy?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:27.509Z"
+    },
+    "399ad85de9709952cf76c38ca8841a90f73c40285972e21fbbad8ec056499e6c": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3359983/hong-kongs-dot-cod-restaurant-scores-big-world-cup-screenings?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:29.919Z"
+    },
+    "712d2c51faac67d1e6ffc301d236fd722275a9df93ca4e4d20f0b56f910ec372": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3360044/7-best-places-watch-2026-fifa-world-cup-hong-kong?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:31.768Z"
+    },
+    "6cf37488cc7961a17e5d4d3d4cff2fbde881cd7b1ad38c813d78772775fa5aa8": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3359940/these-asian-owned-la-restaurants-paid-influencers-promote-them-they-failed-deliver?utm_source=rss_feed",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:33.422Z"
+    },
+    "2fb8c379438a11075d5ba15b79fcb60e8f4977847a203ccd6be5226c5a184369": {
+      "url": "https://www.about-drinks.com/parookaville-2026-warsteiner-verlost-festival-tickets-limitierte-editionsdose/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:39.804Z"
+    },
+    "482d63f2a6560f62ff77b66ee2af504367700c5663a3a56ef7e3ffdcb58ba8c5": {
+      "url": "https://www.about-drinks.com/bonifatius-das-grosse-finale-der-kiliani-edition-von-st-kilian/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:42.059Z"
+    },
+    "af3c0739782b1697c5882097bf3a703525dcce30418e83fccabc346a9f5c1783": {
+      "url": "https://www.about-drinks.com/veltins-setzt-wachstumskurs-im-ersten-halbjahr-fort/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:44.394Z"
+    },
+    "da441ca7b140265f0b7e3037b5f01607f9e6182fc22bc2e7a224750ee9e1c47d": {
+      "url": "https://www.about-drinks.com/voller-erfolg-fuer-pfand-aktion-beim-csd-fast-14-000-glasflaschen-gesammelt/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:47.417Z"
+    },
+    "d8a0383dfc6b3d5b0379585dbbf0c8cca7eabe6db4407e17f7772857f0651a58": {
+      "url": "https://www.about-drinks.com/neuer-tanduay-rum-mit-sauternes-cask-finish-jetzt-in-deutschland-erhaeltlich/",
+      "date": "2026-07-12",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:14:49.347Z"
+    },
+    "2078e5878977c71b7326d5eff86d3116576c020ddf7e47db46477b203f328f17": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.737072v1?rss=1",
+      "date": "2026-07-12",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "e86c27b29d8c5738009c5227fab5d630ee976256fddda140191d94bfdea80a5d": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.737050v1?rss=1",
+      "date": "2026-07-12",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-19T23:15:10.325Z"
+    },
+    "71832aca3e6433b4aa196b238e5ac72488edffbebb0ccac544989a3d377d9fe4": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737232v1?rss=1",
+      "date": "2026-07-12",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "734607aeaf96324f499a1bf9793563aa49334cd0f81446ff7c0bae08d5bb8b57": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737461v1?rss=1",
+      "date": "2026-07-12",
+      "rubrik": "science",
+      "score": 8,
       "published": true
     }
   }
