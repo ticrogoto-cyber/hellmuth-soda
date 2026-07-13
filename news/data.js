@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-12T23:15:35.183Z",
+  "generated": "2026-07-13T23:18:56.736Z",
   "hellmuth": [
+    {
+      "title": "Something & Nothing landet bei H-E-B",
+      "date": "2026-07-13",
+      "created": "2026-07-13T23:17:40.921Z",
+      "slug": "something-nothing-landet-bei-h-e-b",
+      "rubrik": "hellmuth",
+      "lead": "Der britische Premium-Soda-Newcomer erweitert seinen US-Vertrieb um über zweihundert Filialen einer texanischen Regionalkette.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/distribution-something-nothing-adds-h-e-b-to-u-s-footprint",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/something-nothing-landet-bei-h-e-b/"
+    },
+    {
+      "title": "Sake sucht die Enkel",
+      "date": "2026-07-13",
+      "created": "2026-07-13T23:17:11.797Z",
+      "slug": "sake-sucht-die-enkel",
+      "rubrik": "hellmuth",
+      "lead": "Die weltgrößte Sake-Messe hat im vergangenen Monat weniger ihre Gegenwart gefeiert als ihre demografische Lücke bearbeitet.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/07/sake-fair-builds-bridge-with-younger-drinkers/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sake-sucht-die-enkel/"
+    },
+    {
+      "title": "RTDs übernehmen den Handel",
+      "date": "2026-07-13",
+      "created": "2026-07-13T23:16:28.301Z",
+      "slug": "rtds-ubernehmen-den-handel",
+      "rubrik": "hellmuth",
+      "lead": "Der globale Getränkemarkt kippt, und die vorgemischten Dosen führen die Verschiebung an.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/13/global-beverage-market-in-transition-with-rtds-spearheading-off-trade-growth/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/rtds-ubernehmen-den-handel/"
+    },
     {
       "title": "Popping Boba wird ölgefüllt",
       "date": "2026-07-12",
@@ -1292,6 +1334,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Der Taktgeber im Hypothalamus reagiert auf Opioide",
+      "date": "2026-07-13",
+      "created": "2026-07-13T23:18:56.695Z",
+      "slug": "der-taktgeber-im-hypothalamus-reagiert-auf-opioide",
+      "rubrik": "science",
+      "lead": "Die A11-Region liefert dem Rückenmark seinen einzigen Dopaminstrom, und dieser Strom lässt sich durch Mu-Opioid-Rezeptoren drosseln.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737263v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-taktgeber-im-hypothalamus-reagiert-auf-opioide/"
+    },
+    {
+      "title": "Vitamin B5 hebt Coenzym A im Wurm",
+      "date": "2026-07-13",
+      "created": "2026-07-13T23:18:34.019Z",
+      "slug": "vitamin-b5-hebt-coenzym-a-im-wurm",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Alternsforschung verlagert den Blick von der Lebensspanne zur Stressresistenz.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737381v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/vitamin-b5-hebt-coenzym-a-im-wurm/"
+    },
+    {
+      "title": "Sauerstoffmangel gegen den kognitiven Nebel affektiver Störungen",
+      "date": "2026-07-13",
+      "created": "2026-07-13T23:18:05.778Z",
+      "slug": "sauerstoffmangel-gegen-den-kognitiven-nebel-affektiver-storungen",
+      "rubrik": "science",
+      "lead": "Eine dänische Studie testet dünne Höhenluft als Neuroplastizitäts-Verstärker bei kognitiv beeinträchtigten Patienten mit remittierten Stimmungsstörungen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357722v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sauerstoffmangel-gegen-den-kognitiven-nebel-affektiver-storungen/"
+    },
     {
       "title": "Zwei Dopamin-Theorien vertragen sich im Schwanz des Striatums",
       "date": "2026-07-12",

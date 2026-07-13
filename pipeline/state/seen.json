@@ -931,86 +931,6 @@
       "score": 7,
       "published": true
     },
-    "54ed6ee40c079883a391dc7aec5e6aa8411b702cb7ad7b081a2d234b6afcf45a": {
-      "url": "https://www.medrxiv.org/content/authors",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:48.066Z"
-    },
-    "baf2635c011b029c79c71ec6e5f187a923edb6e4547914abe1899b5c5407f54c": {
-      "url": "https://www.medrxiv.org/content/reviewers",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:49.365Z"
-    },
-    "7291451eef73c73e186d2ca89eca32c2d2532750362346a6b738a3c7b571c8d7": {
-      "url": "https://www.medrxiv.org/content/subscribers",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:50.822Z"
-    },
-    "7d383fcec46f9481a0b0eed7491e39962e0da6d72e9b5a4e875961d27416caf2": {
-      "url": "https://www.medrxiv.org/content/institutions",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:51.844Z"
-    },
-    "6db0289e0e3a5b8d5a474110c81f7237f4c22b6ebfc41b22108be7b098fffc90": {
-      "url": "https://www.medrxiv.org/content/advertisers",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:53.264Z"
-    },
-    "ca210b67b8373ce38da05351706753bd9adeaa7dce49adad0659a34911c466ac": {
-      "url": "https://www.medrxiv.org/content/patients",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:54.546Z"
-    },
-    "21a73f94d7cfc73a44ba323784005d5e0b102f81b5dcdb0aa0487e9bc3135b2a": {
-      "url": "https://www.medrxiv.org/content/about-us",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:55.821Z"
-    },
-    "f1f680a60a1bdaa5a6c0f662a0532e4adab0c6bb9f882c727e6e8a9c48e0a9a9": {
-      "url": "https://www.medrxiv.org/content/editorial-board",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:57.069Z"
-    },
-    "e08c38204b0f8e4ac3473b0fff5ff3c73780cf1cef138964f704699bfe345689": {
-      "url": "https://www.medrxiv.org/content/advertising",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:31:58.455Z"
-    },
-    "89d043b3e357da289bffd74d17776966cd2dd7451c6fe0bf1aa07b45549b8b4f": {
-      "url": "https://www.medrxiv.org/content/help",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:32:00.116Z"
-    },
     "36ed192f92a8551987da8e97b203e4a9698e78f7dd4cb09ee6a88a435ed89bcb": {
       "url": "https://www.nature.com/articles/s41593-026-02331-y",
       "date": "2026-06-27",
@@ -1373,30 +1293,6 @@
       "score": 9,
       "published": true
     },
-    "41b6f6e849b564be6c93e6cade6c153fcdddc86e62a477b867260001e50a732a": {
-      "url": "https://www.minimeinsights.com/2026/07/05/kapal-api-dicelup-redefines-coffee-rituals-with-affordable-luxury/",
-      "date": "2026-07-05",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:30:52.587Z"
-    },
-    "83d336a8606c83d576f8cb5d22681793564044b151f83195c7713075831adba3": {
-      "url": "https://www.minimeinsights.com/2026/07/05/wyeth-nutrition-s-26-gold-progress-celebrates-over-50-years-of-brain-research-with-interactive-experiences-to-help-parents-better-understand-brain-development-in-children/",
-      "date": "2026-07-05",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:30:54.258Z"
-    },
-    "cced3e7164f0bcdacffc82d4f6deb81982e98ee56a3e20698f280b01e405ae7f": {
-      "url": "https://www.minimeinsights.com/2026/07/05/sunshine-bakeries-malaysia-elevates-dorayaki-with-local-flavour-innovation/",
-      "date": "2026-07-05",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:30:55.948Z"
-    },
     "99b183512b0de6d2f5bfdbb53eb9d4291f176dd8f74f156270d834a7f279705b": {
       "url": "https://www.minimeinsights.com/2026/07/05/chagee-bridges-east-and-west-through-artful-tea-collaborations/",
       "date": "2026-07-05",
@@ -1425,44 +1321,12 @@
       "score": 7,
       "published": true
     },
-    "85b60d999da7f327e6a87d9089ddd4683355702b6ea1bc51b677608aae31c6e0": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736476v1?rss=1",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:32:17.510Z"
-    },
-    "df27779c585a89e058a437926539f3ee26f99dea88d4d6d304bdca173d7c8537": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736397v1?rss=1",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:32:19.936Z"
-    },
     "49cc8b2621eb982056061a2b95317a2846562c158ad3da156740fb9f3c6a75d6": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735500v1?rss=1",
       "date": "2026-07-05",
       "rubrik": "science",
       "score": 7,
       "published": true
-    },
-    "571a41731f2a63187e1cbec3cfac49f59c30e09a9bbc921ab2d2cacebc56accb": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735414v1?rss=1",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:32:35.072Z"
-    },
-    "381f917b3d0b1467ad99462283944fbdcace041191722b7f2b33571b106d638d": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735576v1?rss=1",
-      "date": "2026-07-05",
-      "rubrik": "science",
-      "score": 5,
-      "dropped": "low-relevance",
-      "expires": "2026-07-12T23:32:36.593Z"
     },
     "16a5a50dd82144b154bf99b81a433329c3136d6dcc183a7170d32ae6b2fd1f55": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735602v1?rss=1",
@@ -4745,6 +4609,328 @@
       "date": "2026-07-12",
       "rubrik": "science",
       "score": 8,
+      "published": true
+    },
+    "28eb9ed98252c84db030285c631ba4a36c047c18a6587c0187bc236f3e40ba4f": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/07/13/how-gen-alpha-and-gen-beta-are-transforming-confectionery-innovation/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:15:49.697Z"
+    },
+    "7447624b067ac184d9e775c0d184ef301af1331c0d6e05f686421b3d1f03e3a2": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/07/13/why-ai-overviews-hit-differently-in-food-and-drink/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:15:51.501Z"
+    },
+    "a3ea884b313764d93ad1a9b87a754924d1dca3b0b7a4ac0aafadf56d498f5641": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/07/13/nestle-launches-aero-milkybar-as-confectionery-brand-collaborations-surge/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:15:53.620Z"
+    },
+    "ce933af0bba264be2e8c0b731367340995ddcd365bbacfd118de87b4436e438b": {
+      "url": "https://www.foodnavigator-asia.com/Article/2026/07/13/novo-nordisk-backs-glp-1-implant-to-fix-patient-drop-out/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:15:55.095Z"
+    },
+    "a35d9f07b997f0cfc27847253034b0fa9195f3b3072e1d5d57f1c30ed371cae5": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/10/four-leaves-cos-lullaa-pushes-functional-dairy-beyond-protein/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:06.770Z"
+    },
+    "d6e44c7c07b18d15b1efb383e1b843ceac4810a4bea829016bf9733c4cb6e3be": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/10/high-protein-dairy-emerges-as-dairys-key-growth-driver/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:08.877Z"
+    },
+    "95319a24b9fcc2913c6c2edca98423165c3a146b05eda1aaac2b8f9d20c4971b": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/13/us-tequila-volumes-slow-but-emerging-markets-drive-growth/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:10.905Z"
+    },
+    "a65bdf1dbcb1cc628127b6d650318f35637856895de1fb3efccab07172279553": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/13/what-are-the-six-top-innovations-driving-beverage-development/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 9,
+      "dropped": "empty-transform",
+      "expires": "2026-07-20T23:16:16.753Z"
+    },
+    "0423a7027a9cc56e5a66d3d763b6d3a816dbb5072475ca652281b9e9af5175ec": {
+      "url": "https://www.beveragedaily.com/Article/2026/07/13/global-beverage-market-in-transition-with-rtds-spearheading-off-trade-growth/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "75ee7db9777c9ebe2cd8dba7a9e287bd785285258410a29eae39feba980f0ae8": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/find-out-what-to-drink-if-its-pink/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:31.967Z"
+    },
+    "8135fbf3d94ed8e56568d51e298a960e91318735684b98b8992577fdc598ec5c": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/is-a-new-boom-for-collectible-tequila-on-the-cards/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:33.562Z"
+    },
+    "0293a5180427c3d1ae7b6f6e0bd5a93e52813c7a7187bccb4f70c7f498c973fd": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/could-the-canada-act-deepen-the-us-canada-drinks-trade-war/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:35.671Z"
+    },
+    "b77355f58b43aaa0019fb3f46a02aba3837553ac37b79ae78929e18d38603d06": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/breaky-bottom-one-of-englands-oldest-and-most-revered-vineyards-goes-on-sale-for-first-time/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:37.632Z"
+    },
+    "9edf2078963c5a2c7622f5a7a54a996d1efe0ac5e86c5e3a153061c8fab8247b": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/china-alcohol-industry-group-urges-tougher-regulation-of-online-spirits-sales/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:40.749Z"
+    },
+    "214fc447ded1fc230710c1ec8f0787c3b7c7a04adde0d564a079d147b1f6e351": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/tourism-and-gastronomy-stamp-chinese-whisky-on-the-global-map/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:44.244Z"
+    },
+    "76d1d090061dfda044cec3ffd788d968183329af8bef2f5a61144c19d679e8cb": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/tasting-pol-roger-champagne-from-truly-remarkable-vintage/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:46.335Z"
+    },
+    "a45c286a7aa53b9979aeaca2fa0e600709fd962d1566944c82c3f37f50473aa4": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/sam-neill-founder-of-two-paddocks-and-jurassic-park-star-dies-aged-78/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:48.521Z"
+    },
+    "c60f9640fa727266350546a813b3c0d105108c2588f1a9b22e12052aa52b1115": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/international-breweries-proposes-plan-to-clear-losses/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:50.900Z"
+    },
+    "af6974bb4bb9c9f15fb4286d32a8b2f1b7e8600ff38d709297b61236663f75a0": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/us-beer-sales-skyrocket-during-the-world-cup/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:52.854Z"
+    },
+    "c4f26f8a0323ff34d0257a05302644e84112a0f26fd73e51650c685adda48ba7": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/are-rare-spirits-back-in-favour-in-hong-kongs-secondary-market/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:54.672Z"
+    },
+    "e4b02f0bb91857213a7c3f810e3314ba0aa30a60af97a5446259c45a7df9b58d": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/top-wineries-of-great-britain-2026-announced/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:16:56.289Z"
+    },
+    "5e11edbedba953a7ec2d8093935184a26c11d3f34ace64d482b352e175cffbef": {
+      "url": "https://www.thedrinksbusiness.com/2026/07/sake-fair-builds-bridge-with-younger-drinkers/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "bffa65fe657128e4e56071b5bcc8c393df1ad2384aeaf3e24f571bb185976e77": {
+      "url": "https://www.fooddive.com/news/aak-savor-butter-carbon-fats-ingredients-bakery/825054/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:14.254Z"
+    },
+    "bc44aaf36bec1d979f1d53080f2a3f49479a76f52cdcc090a35697bb10481df8": {
+      "url": "https://www.fooddive.com/news/bellring-brands-premier-protein-ceo-michael-axelrod/825037/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:16.389Z"
+    },
+    "9db5313b879ab685221cf179903fd13c52317ac3b13568b4d0b6e384a2a4fc6d": {
+      "url": "https://www.fooddive.com/news/jbs-axes-2040-net-zero-goal-citing-immense-execution-challenges/825036/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:18.537Z"
+    },
+    "d28101dbc0fc03b34990d9f10545f6dab7f1bbc54743acadca6e3bd22a9774cc": {
+      "url": "https://www.fooddive.com/spons/how-boxed-water-and-2-other-manufacturers-solved-end-of-line-palletizing-wi/824303/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:22.312Z"
+    },
+    "8c50cb01301e39ad321074b6357c9bef9db5924368ded727f4cca39f30145af2": {
+      "url": "https://www.fooddive.com/spons/for-producers-for-the-planet-why-we-need-conservation-on-farmland/824661/",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:24.132Z"
+    },
+    "914ec5a6d345b3f145c9e5563ceab4ca5d918e210c81e2f1a9be0c548323fd52": {
+      "url": "https://www.bevnet.com/spirits/2026/brown-forman-ceo-lawson-whiting-to-retire-as-successor-search-begins",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:27.521Z"
+    },
+    "d3e0cf2269cf424a5be26caaa872bf51e025f0e658acf51692a29d4e528ae938": {
+      "url": "https://www.bevnet.com/news/2026/distribution-something-nothing-adds-h-e-b-to-u-s-footprint",
+      "date": "2026-07-13",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "3841469551eb2411aa34542438ede710f0dbdbc619e9e1e63aa6d91a5bb9478f": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.12.26357854v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:47.477Z"
+    },
+    "295edeee4d454e9ab5ec067bd5b729d1378cbef402fd09ddaf390c555bba5e98": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.11.26357816v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:17:49.593Z"
+    },
+    "43eb6ec94758eb20b7662faf80e8828e89b6263b4f229ce969bb9d6aad38f162": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357722v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "3b2d7b3f2251c558d0c08aad2abcc95b73885604ec33c42bdc5028cfcaea1df2": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.09.26357627v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:08.334Z"
+    },
+    "e873020c7f42b2234722b0bce02724559eeb6fab39b7b9c658e732f78f2f0c79": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.07.09.26357685v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:12.552Z"
+    },
+    "d2df2c28133c385902ec0c7871ff270510ef9b79b7dc032cfc966bf49225248c": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737182v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:16.077Z"
+    },
+    "abea312fb3c1d1919f8f57f7b45f8abae1d9440be47aae23a1209a95bfc256e1": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737350v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:18.801Z"
+    },
+    "42dbf8cdf4a5cfffb2ce020b1b21144ec9725a82ae40c180bc063780721a2bcc": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737374v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:20.708Z"
+    },
+    "0f76d90052be6990e77c78372d64adc3c29ef8f3ec3594c0497258a84b4ff621": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737381v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "567f8b91a36280547076ba711489abc2549579a3ef54e13be6dad2816d1f5db5": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737094v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:38.993Z"
+    },
+    "f1a0db07eae4fd4217c6bcb693db47283fffdce8e2b01fda59bc94f80d7d7da0": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737330v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-07-20T23:18:41.005Z"
+    },
+    "8c1c67f9313119b0d77282f1762a8d70e10ee2c3f55ef813420e7afe032e495c": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737263v1?rss=1",
+      "date": "2026-07-13",
+      "rubrik": "science",
+      "score": 9,
       "published": true
     }
   }
