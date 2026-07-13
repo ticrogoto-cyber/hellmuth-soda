@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-12T23:18:57.813Z",
+  "generated": "2026-07-13T23:23:07.376Z",
   "items": [
     {
       "title": "Sabotage auf der Schiene zwischen Düsseldorf und Köln",
