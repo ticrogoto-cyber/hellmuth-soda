@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-13T23:18:56.736Z",
+  "generated": "2026-07-14T23:16:09.085Z",
   "hellmuth": [
+    {
+      "title": "Asiens Getränkebranche inszeniert sich im Juni",
+      "date": "2026-07-14",
+      "created": "2026-07-14T23:15:23.017Z",
+      "slug": "asiens-getrankebranche-inszeniert-sich-im-juni",
+      "rubrik": "hellmuth",
+      "lead": "Der Monat zeigt, wo die Industrie ihre Aufmerksamkeit bündelt, und wo sie sie verweigert.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/07/db-asia-june-in-pictures-2/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/asiens-getrankebranche-inszeniert-sich-im-juni/"
+    },
+    {
+      "title": "Südkorea nüchtert aus",
+      "date": "2026-07-14",
+      "created": "2026-07-14T23:15:10.201Z",
+      "slug": "sudkorea-nuchtert-aus",
+      "rubrik": "hellmuth",
+      "lead": "Das Land des Soju entdeckt die Abwesenheit von Alkohol als Sozialform.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/07/sober-raves-booze-free-beer-why-south-koreans-are-shunning-alcohol/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sudkorea-nuchtert-aus/"
+    },
+    {
+      "title": "Der Funktionsversprechens-Markt kippt zurück zum Geschmack",
+      "date": "2026-07-14",
+      "created": "2026-07-14T23:14:10.759Z",
+      "slug": "der-funktionsversprechens-markt-kippt-zuruck-zum-geschmack",
+      "rubrik": "hellmuth",
+      "lead": "Nach Jahren, in denen jedes neue Soda mit Adaptogenen, Nootropika oder Darmflora warb, sortiert sich das Regal neu.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/07/14/flavor-first-soda-challenges-functional-beverage-marketing/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-funktionsversprechens-markt-kippt-zuruck-zum-geschmack/"
+    },
     {
       "title": "Something & Nothing landet bei H-E-B",
       "date": "2026-07-13",
@@ -1334,6 +1376,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Fünf Proteine als Angriffspunkte für die Psychiatrie",
+      "date": "2026-07-14",
+      "created": "2026-07-14T23:16:09.030Z",
+      "slug": "funf-proteine-als-angriffspunkte-fur-die-psychiatrie",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der UK Biobank sortiert das Blutplasma nach kausalen Kandidaten für Depression, Angst, Bipolarität und Psychose.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357744v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/funf-proteine-als-angriffspunkte-fur-die-psychiatrie/"
+    },
+    {
+      "title": "Drei Klassen statt drei Diagnosen",
+      "date": "2026-07-14",
+      "created": "2026-07-14T23:15:51.682Z",
+      "slug": "drei-klassen-statt-drei-diagnosen",
+      "rubrik": "science",
+      "lead": "Eine britische Kohortenanalyse ordnet Psychosen jenseits der Lehrbuchgrenzen neu.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357470v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/drei-klassen-statt-drei-diagnosen/"
+    },
+    {
+      "title": "Epilepsie in Westkenia, die halbe Kohorte psychisch krank",
+      "date": "2026-07-14",
+      "created": "2026-07-14T23:15:35.730Z",
+      "slug": "epilepsie-in-westkenia-die-halbe-kohorte-psychisch-krank",
+      "rubrik": "science",
+      "lead": "Eine Querschnittserhebung an einem Referenzkrankenhaus in Westkenia findet bei 52,2 Prozent der Epilepsiepatienten eine psychiatrische Komorbidität.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.11.26357815v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/epilepsie-in-westkenia-die-halbe-kohorte-psychisch-krank/"
+    },
     {
       "title": "Der Taktgeber im Hypothalamus reagiert auf Opioide",
       "date": "2026-07-13",
