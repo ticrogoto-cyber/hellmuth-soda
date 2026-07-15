@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-14T23:25:02.104Z",
+  "generated": "2026-07-15T23:21:43.734Z",
   "items": [
     {
       "title": "Gleisbett als Tatmittel",
