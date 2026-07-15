@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-14T23:16:09.085Z",
+  "generated": "2026-07-15T23:18:21.100Z",
   "hellmuth": [
+    {
+      "title": "Simply Push zielt in die Lücke zwischen Wasser und Limonade",
+      "date": "2026-07-15",
+      "created": "2026-07-15T23:17:29.548Z",
+      "slug": "simply-push-zielt-in-die-lucke-zwischen-wasser-und-limonade",
+      "rubrik": "hellmuth",
+      "lead": "Coca-Colas Saft-Marke Simply testet eine Soda-Linie, die sich als leichte Zwischenstufe zwischen Sparkling Water und klassischer Limo positioniert.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-can-simply-push-build-a-better-soda",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/simply-push-zielt-in-die-lucke-zwischen-wasser-und-limonade/"
+    },
+    {
+      "title": "Coca-Cola sichert sich »Spricy«",
+      "date": "2026-07-15",
+      "created": "2026-07-15T23:17:04.165Z",
+      "slug": "coca-cola-sichert-sich-spricy",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern meldet eine Wortmarke an, die auf ein zweites Anlaufversuch mit scharfer Cola hindeutet.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/coca-cola-trademarks-spricy-spicy-soda/825164/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-sichert-sich-spricy/"
+    },
+    {
+      "title": "Alkoholfrei wird zur Leitkategorie",
+      "date": "2026-07-15",
+      "created": "2026-07-15T23:16:05.816Z",
+      "slug": "alkoholfrei-wird-zur-leitkategorie",
+      "rubrik": "hellmuth",
+      "lead": "Was als Verzichtsnische begann, sortiert inzwischen die Regale um.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/15/how-alcohol-free-drinks-are-reshaping-beverage-markets/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfrei-wird-zur-leitkategorie/"
+    },
     {
       "title": "Asiens Getränkebranche inszeniert sich im Juni",
       "date": "2026-07-14",
@@ -1376,6 +1418,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Neue Stimulanzien am Monoamin-Transporter durchleuchtet",
+      "date": "2026-07-15",
+      "created": "2026-07-15T23:18:21.043Z",
+      "slug": "neue-stimulanzien-am-monoamin-transporter-durchleuchtet",
+      "rubrik": "science",
+      "lead": "Der Designer-Drogenmarkt lässt sich pharmakologisch vermessen, sobald jemand die Geduld dafür aufbringt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/bph.70587",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/"
+    },
+    {
+      "title": "Cannabis-Psychose trifft Männer und Frauen ungleich",
+      "date": "2026-07-15",
+      "created": "2026-07-15T23:18:09.329Z",
+      "slug": "cannabis-psychose-trifft-manner-und-frauen-ungleich",
+      "rubrik": "science",
+      "lead": "Ein Scoping Review im Asian Journal of Psychiatry sortiert, was bislang als geschlechtsneutrales Risiko galt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.ajp.2026.105086",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/"
+    },
+    {
+      "title": "Neonicotinoide docken an menschliche Astrozyten",
+      "date": "2026-07-15",
+      "created": "2026-07-15T23:17:54.120Z",
+      "slug": "neonicotinoide-docken-an-menschliche-astrozyten",
+      "rubrik": "science",
+      "lead": "Insektengifte, die auf Nikotinrezeptoren zielen, wirken auch auf menschliche Gehirnzellen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3390/ijms27135902",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/neonicotinoide-docken-an-menschliche-astrozyten/"
+    },
     {
       "title": "Fünf Proteine als Angriffspunkte für die Psychiatrie",
       "date": "2026-07-14",
