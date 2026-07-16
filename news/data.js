@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-15T23:18:21.100Z",
+  "generated": "2026-07-16T23:16:49.014Z",
   "hellmuth": [
+    {
+      "title": "Free Spirits verlässt die Wellness-Ecke",
+      "date": "2026-07-16",
+      "created": "2026-07-16T23:15:47.148Z",
+      "slug": "free-spirits-verlasst-die-wellness-ecke",
+      "rubrik": "hellmuth",
+      "lead": "Der Zero-Proof-Markt hat seine Gesundheitsrhetorik erschöpft, und einer der ersten Anbieter zieht die Konsequenz.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/in-rebrand-free-spirits-ditches-the-wellness-pitch-for-cocktail-culture",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/free-spirits-verlasst-die-wellness-ecke/"
+    },
+    {
+      "title": "Curious Elixirs, achtstellig, ohne Investoren",
+      "date": "2026-07-16",
+      "created": "2026-07-16T23:15:33.824Z",
+      "slug": "curious-elixirs-achtstellig-ohne-investoren",
+      "rubrik": "hellmuth",
+      "lead": "Eine alkoholfreie Cocktailmarke erreicht achtstellige Umsätze, ohne je fremdes Kapital genommen zu haben.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/taste-radio-how-curious-elixirs-built-an-eight-figure-brand-without-outside-investors",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/curious-elixirs-achtstellig-ohne-investoren/"
+    },
+    {
+      "title": "Der Non-Alc-Markt braucht andere Regeln als der Alkohol",
+      "date": "2026-07-16",
+      "created": "2026-07-16T23:15:12.816Z",
+      "slug": "der-non-alc-markt-braucht-andere-regeln-als-der-alkohol",
+      "rubrik": "hellmuth",
+      "lead": "Wer erwachsene alkoholfreie Getränke wie klassische Spirituosen vertreibt, bremst sie aus.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/zero-proof-playbook-jill-sites-on-how-to-find-growth-in-adult-non-alc",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-non-alc-markt-braucht-andere-regeln-als-der-alkohol/"
+    },
     {
       "title": "Simply Push zielt in die Lücke zwischen Wasser und Limonade",
       "date": "2026-07-15",
@@ -1418,6 +1460,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Das Diagnosesystem der Jugendpsychiatrie zerfällt an den eigenen Grenzen",
+      "date": "2026-07-16",
+      "created": "2026-07-16T23:16:48.955Z",
+      "slug": "das-diagnosesystem-der-jugendpsychiatrie-zerfallt-an-den-eigenen-grenzen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der ABCD-Kohorte behandelt jugendliche Psychopathologie nicht mehr als Katalog abgrenzbarer Störungen, sondern als überlappende Landschaft.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.13.26357465v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/das-diagnosesystem-der-jugendpsychiatrie-zerfallt-an-den-eigenen-grenzen/"
+    },
+    {
+      "title": "Kognitionstest mit Tonfiguren und EEG-Brille",
+      "date": "2026-07-16",
+      "created": "2026-07-16T23:16:22.246Z",
+      "slug": "kognitionstest-mit-tonfiguren-und-eeg-brille",
+      "rubrik": "science",
+      "lead": "Ein thailändisches Preprint versucht, exekutive Dysfunktion bei Schizophrenie aus dem Testlabor herauszuholen und in eine vertraute Handbewegung zu verlegen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.14.26358053v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kognitionstest-mit-tonfiguren-und-eeg-brille/"
+    },
+    {
+      "title": "Entzündung sortiert Depression neu",
+      "date": "2026-07-16",
+      "created": "2026-07-16T23:16:04.014Z",
+      "slug": "entzundung-sortiert-depression-neu",
+      "rubrik": "science",
+      "lead": "Die kategoriale Depressionsdiagnose zerfällt, sobald man Immunmarker daneben legt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.15.26358135v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/entzundung-sortiert-depression-neu/"
+    },
     {
       "title": "Neue Stimulanzien am Monoamin-Transporter durchleuchtet",
       "date": "2026-07-15",
