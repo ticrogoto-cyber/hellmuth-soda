@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-16T23:21:32.765Z",
+  "generated": "2026-07-17T23:21:54.626Z",
   "items": [
     {
       "title": "Finsterwalde, Brandanschlag auf Kreisverwaltung",
