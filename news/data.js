@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-16T23:16:49.014Z",
+  "generated": "2026-07-17T23:15:31.964Z",
   "hellmuth": [
+    {
+      "title": "Bubble Tea sucht die nächste Textur",
+      "date": "2026-07-17",
+      "created": "2026-07-17T23:14:25.843Z",
+      "slug": "bubble-tea-sucht-die-nachste-textur",
+      "rubrik": "hellmuth",
+      "lead": "Der Boba-Markt ist an einem Punkt, an dem Neuheit nur noch über die Kugel selbst kommt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/15/leamaxx-international-sparks-the-next-boba-wave/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/bubble-tea-sucht-die-nachste-textur/"
+    },
+    {
+      "title": "FAVE bei Sprouts",
+      "date": "2026-07-17",
+      "created": "2026-07-17T23:13:05.659Z",
+      "slug": "fave-bei-sprouts",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Einzelhandel entscheidet zunehmend, welche Getränkemarken überhaupt sichtbar werden, bevor Konsumenten sie kennen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/exclusive-fave-lands-1m-seed-round-debuts-at-500-sprouts-stores",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/fave-bei-sprouts/"
+    },
+    {
+      "title": "GT's verlässt die Glasflasche",
+      "date": "2026-07-17",
+      "created": "2026-07-17T23:12:51.059Z",
+      "slug": "gt-s-verlasst-die-glasflasche",
+      "rubrik": "hellmuth",
+      "lead": "Der Kombucha-Marktführer bringt seine Kernkategorie erstmals in die Dose, und das ist mehr als ein Packaging-Update.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-beverages-gts-brings-kombucha-to-cans-silk-pumps-up-the-protein",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/gt-s-verlasst-die-glasflasche/"
+    },
     {
       "title": "Free Spirits verlässt die Wellness-Ecke",
       "date": "2026-07-16",
@@ -1460,6 +1502,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Der diastolische Druck sitzt im inneren Auge",
+      "date": "2026-07-17",
+      "created": "2026-07-17T23:15:31.911Z",
+      "slug": "der-diastolische-druck-sitzt-im-inneren-auge",
+      "rubrik": "science",
+      "lead": "Wie lebhaft jemand vor dem inneren Auge sieht, hängt messbar am Blutdruck.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.12.738020v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/der-diastolische-druck-sitzt-im-inneren-auge/"
+    },
+    {
+      "title": "Gliazellen antworten in ihren Ausläufern, nicht im Zellkörper",
+      "date": "2026-07-17",
+      "created": "2026-07-17T23:15:15.373Z",
+      "slug": "gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft verschiebt den Ort, an dem Alzheimer-Pathologie molekular sichtbar wird.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.12.737168v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper/"
+    },
+    {
+      "title": "Rhythmus-Schwankung als Biomarker, oder nur ein Rechenfehler",
+      "date": "2026-07-17",
+      "created": "2026-07-17T23:14:56.470Z",
+      "slug": "rhythmus-schwankung-als-biomarker-oder-nur-ein-rechenfehler",
+      "rubrik": "science",
+      "lead": "Ein Preprint prüft, ob die Streuung von Ruhe-Aktivitäts-Rhythmen bei bipolarer Störung wirklich eigenständige Information über Krankheitsphasen trägt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.15.26358139v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/rhythmus-schwankung-als-biomarker-oder-nur-ein-rechenfehler/"
+    },
     {
       "title": "Das Diagnosesystem der Jugendpsychiatrie zerfällt an den eigenen Grenzen",
       "date": "2026-07-16",
