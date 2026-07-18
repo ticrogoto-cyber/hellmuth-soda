@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-17T23:15:31.964Z",
+  "generated": "2026-07-18T23:18:54.270Z",
   "hellmuth": [
+    {
+      "title": "Protein trifft Bubble Tea",
+      "date": "2026-07-18",
+      "created": "2026-07-18T23:15:11.811Z",
+      "slug": "protein-trifft-bubble-tea",
+      "rubrik": "hellmuth",
+      "lead": "Der Funktionsdrink wandert ins Café und tarnt sich als Nachtisch.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/18/yendrink-and-nose-tea-elevate-protein-drinks-with-taro-milk-tea-cream-cheese/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/protein-trifft-bubble-tea/"
+    },
+    {
+      "title": "Kopi Kenangan zieht Bananenmilch in die Dose",
+      "date": "2026-07-18",
+      "created": "2026-07-18T23:14:47.494Z",
+      "slug": "kopi-kenangan-zieht-bananenmilch-in-die-dose",
+      "rubrik": "hellmuth",
+      "lead": "Indonesiens größte Kaffeekette baut ihre Fertiggetränke-Linie um einen koreanischen Nostalgie-Import aus.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/18/kopi-kenangan-expands-rtd-line-with-korean-inspired-banana-milk-latte/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kopi-kenangan-zieht-bananenmilch-in-die-dose/"
+    },
     {
       "title": "Bubble Tea sucht die nächste Textur",
       "date": "2026-07-17",
@@ -1502,6 +1530,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Oxytocin gegen Alkoholsucht scheitert im Multisite-Trial",
+      "date": "2026-07-18",
+      "created": "2026-07-18T23:18:54.211Z",
+      "slug": "oxytocin-gegen-alkoholsucht-scheitert-im-multisite-trial",
+      "rubrik": "science",
+      "lead": "Der Traum vom Kuschelhormon als Suchtmedikament kollidiert mit einer randomisierten, placebokontrollierten Studie.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70326",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/oxytocin-gegen-alkoholsucht-scheitert-im-multisite-trial/"
+    },
+    {
+      "title": "Reelin, Immunaktivierung, Cannabis",
+      "date": "2026-07-18",
+      "created": "2026-07-18T23:18:36.474Z",
+      "slug": "reelin-immunaktivierung-cannabis",
+      "rubrik": "science",
+      "lead": "Ein Mausmodell verknüpft pränatalen Immunstress und pubertäres THC zu einem messbaren Schaden im Reelin-System.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s41398-026-04282-1",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/reelin-immunaktivierung-cannabis/"
+    },
+    {
+      "title": "Suizidalität wird zum eigenen Wirkstoffziel",
+      "date": "2026-07-18",
+      "created": "2026-07-18T23:18:25.723Z",
+      "slug": "suizidalitat-wird-zum-eigenen-wirkstoffziel",
+      "rubrik": "science",
+      "lead": "Was jahrzehntelang Nebenschauplatz der Depressionsbehandlung war, wird zur eigenen Indikation.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.euroneuro.2026.112888",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/suizidalitat-wird-zum-eigenen-wirkstoffziel/"
+    },
     {
       "title": "Der diastolische Druck sitzt im inneren Auge",
       "date": "2026-07-17",
