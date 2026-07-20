@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-18T23:18:54.270Z",
+  "generated": "2026-07-20T03:01:28.587Z",
   "hellmuth": [
+    {
+      "title": "Funktionspilze wandern ins Alltagsgetränk",
+      "date": "2026-07-20",
+      "created": "2026-07-20T03:00:25.925Z",
+      "slug": "funktionspilze-wandern-ins-alltagsgetrank",
+      "rubrik": "hellmuth",
+      "lead": "Der Pilz verlässt die Kapsel und zieht in Kaffee, Kakao und Matcha ein.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/19/organic-seeds-brings-functional-mushrooms-to-daily-drinks/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/funktionspilze-wandern-ins-alltagsgetrank/"
+    },
+    {
+      "title": "Kirin schiebt Wonderfarm eine Zitronentee-Linie unter",
+      "date": "2026-07-20",
+      "created": "2026-07-20T03:00:11.356Z",
+      "slug": "kirin-schiebt-wonderfarm-eine-zitronentee-linie-unter",
+      "rubrik": "hellmuth",
+      "lead": "Vietnams RTD-Markt bekommt eine weitere Zitronentee-SKU, diesmal aus einem japanischen Konzernportfolio.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/19/vietnams-wonderfarm-refreshes-with-lemon-tea/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kirin-schiebt-wonderfarm-eine-zitronentee-linie-unter/"
+    },
+    {
+      "title": "Protein-Soda als Schlafmittel",
+      "date": "2026-07-20",
+      "created": "2026-07-20T02:59:48.593Z",
+      "slug": "protein-soda-als-schlafmittel",
+      "rubrik": "hellmuth",
+      "lead": "Thailand testet, ob sich der Nachtschlaf pharmakologisieren lässt, ohne dass es nach Pharma aussieht.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/19/calx-protein-sleep-recovery/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/protein-soda-als-schlafmittel/"
+    },
     {
       "title": "Protein trifft Bubble Tea",
       "date": "2026-07-18",
@@ -1530,6 +1572,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wer trinkt, dessen Striatum reifte anders",
+      "date": "2026-07-20",
+      "created": "2026-07-20T03:01:28.530Z",
+      "slug": "wer-trinkt-dessen-striatum-reifte-anders",
+      "rubrik": "science",
+      "lead": "Ein bioRxiv-Preprint verortet den Übergang vom jugendlichen Probierkonsum zum problematischen Trinken in der Reifung kortikostriataler Schaltkreise.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738690v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-trinkt-dessen-striatum-reifte-anders/"
+    },
+    {
+      "title": "Psilocybin ohne Trip",
+      "date": "2026-07-20",
+      "created": "2026-07-20T03:01:01.927Z",
+      "slug": "psilocybin-ohne-trip",
+      "rubrik": "science",
+      "lead": "Ein Phase-1-Preprint testet, ob die therapeutische Pharmakologie von Psilocybin unterhalb der Halluzinationsschwelle beginnt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.16.26358273v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psilocybin-ohne-trip/"
+    },
+    {
+      "title": "Kindheitstrauma und Hirnvolumen bei Psychose und bipolarer Störung",
+      "date": "2026-07-20",
+      "created": "2026-07-20T03:00:48.473Z",
+      "slug": "kindheitstrauma-und-hirnvolumen-bei-psychose-und-bipolarer-storung",
+      "rubrik": "science",
+      "lead": "Eine Meta-Analyse zieht die vermeintlich klare Linie zwischen früher Belastung und geschrumpften Stressregionen neu und dünner nach.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.17.26358306v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kindheitstrauma-und-hirnvolumen-bei-psychose-und-bipolarer-storung/"
+    },
     {
       "title": "Oxytocin gegen Alkoholsucht scheitert im Multisite-Trial",
       "date": "2026-07-18",
