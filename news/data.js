@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-20T03:01:28.587Z",
+  "generated": "2026-07-20T23:23:01.499Z",
   "hellmuth": [
     {
       "title": "Funktionspilze wandern ins Alltagsgetränk",
@@ -1572,6 +1572,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Ein Muskelbotenstoff puffert die Maus gegen den nächsten Stress",
+      "date": "2026-07-20",
+      "created": "2026-07-20T23:23:01.437Z",
+      "slug": "ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress",
+      "rubrik": "science",
+      "lead": "Sport wirkt gegen Angst nicht nur über den Kopf, sondern über einen Botenstoff aus dem Muskel.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.737482v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress/"
+    },
+    {
+      "title": "Der Reiz macht das Trinken bitterfest",
+      "date": "2026-07-20",
+      "created": "2026-07-20T23:22:46.734Z",
+      "slug": "der-reiz-macht-das-trinken-bitterfest",
+      "rubrik": "science",
+      "lead": "Ratten trinken Alkohol trotz Bitterstoff hartnäckiger, wenn ein gelernter Reiz im Raum ist.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738545v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/der-reiz-macht-das-trinken-bitterfest/"
+    },
+    {
+      "title": "Sucht hat eine gemeinsame Anatomie",
+      "date": "2026-07-20",
+      "created": "2026-07-20T23:22:11.660Z",
+      "slug": "sucht-hat-eine-gemeinsame-anatomie",
+      "rubrik": "science",
+      "lead": "Eine transdiagnostische Metaanalyse findet über Substanzen hinweg dieselben strukturellen Hirnveränderungen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/hbm.70551",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sucht-hat-eine-gemeinsame-anatomie/"
+    },
     {
       "title": "Wer trinkt, dessen Striatum reifte anders",
       "date": "2026-07-20",
