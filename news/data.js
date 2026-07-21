@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-20T23:23:01.499Z",
+  "generated": "2026-07-21T23:17:59.914Z",
   "hellmuth": [
+    {
+      "title": "Prebiotic Soda erreicht Südostasien",
+      "date": "2026-07-21",
+      "created": "2026-07-21T23:17:03.286Z",
+      "slug": "prebiotic-soda-erreicht-sudostasien",
+      "rubrik": "hellmuth",
+      "lead": "Der Funktionalgetränke-Trend, der in Nordamerika die Limonadenregale umgebaut hat, landet nun im malaysischen Handel.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/21/curated-culture-debuts-refresh-prebiotic-soda-at-food-drinks-malaysia-by-sial-2026/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/prebiotic-soda-erreicht-sudostasien/"
+    },
+    {
+      "title": "Yerba Madre wechselt an der Spitze",
+      "date": "2026-07-21",
+      "created": "2026-07-21T23:16:18.250Z",
+      "slug": "yerba-madre-wechselt-an-der-spitze",
+      "rubrik": "hellmuth",
+      "lead": "Der Mate-Pionier tauscht die Führung, während funktionale Getränke zum Mainstream werden.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/yerba-madre-names-new-ceo-yesly-co-founder-joins-board",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/yerba-madre-wechselt-an-der-spitze/"
+    },
+    {
+      "title": "Kolostrum kommt in die Dose",
+      "date": "2026-07-21",
+      "created": "2026-07-21T23:16:00.310Z",
+      "slug": "kolostrum-kommt-in-die-dose",
+      "rubrik": "hellmuth",
+      "lead": "Der Functional-Soda-Markt hat eine neue Zutat gefunden, und sie stammt aus dem Euter.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-armra-impresses-with-colostrum-soda",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kolostrum-kommt-in-die-dose/"
+    },
     {
       "title": "Funktionspilze wandern ins Alltagsgetränk",
       "date": "2026-07-20",
@@ -1572,6 +1614,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Ein Zentromer-Protein arbeitet nebenbei im Gedächtnis",
+      "date": "2026-07-21",
+      "created": "2026-07-21T23:17:59.854Z",
+      "slug": "ein-zentromer-protein-arbeitet-nebenbei-im-gedachtnis",
+      "rubrik": "science",
+      "lead": "CENP-A galt als Spezialist für Zellteilung, taucht aber im ruhenden Neuron als Regler synaptischer Plastizität auf.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738894v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-zentromer-protein-arbeitet-nebenbei-im-gedachtnis/"
+    },
+    {
+      "title": "Ein Enzym bremst das Gedächtnis, ein Hemmstoff löst die Bremse",
+      "date": "2026-07-21",
+      "created": "2026-07-21T23:17:44.267Z",
+      "slug": "ein-enzym-bremst-das-gedachtnis-ein-hemmstoff-lost-die-bremse",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Maus-Neurobiologie verknüpft epigenetische Bremse und Entzündungsschaltkreis im Hippocampus.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738883v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-enzym-bremst-das-gedachtnis-ein-hemmstoff-lost-die-bremse/"
+    },
+    {
+      "title": "Kindheitstrauma und Psychose, die Zwischenglieder werden sichtbar",
+      "date": "2026-07-21",
+      "created": "2026-07-21T23:17:17.750Z",
+      "slug": "kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar",
+      "rubrik": "science",
+      "lead": "Eine Meta-Analyse benennt, worüber frühe Belastung ins Psychotische kippt, und macht daraus behandelbare Ziele.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.19.26358426v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar/"
+    },
     {
       "title": "Ein Muskelbotenstoff puffert die Maus gegen den nächsten Stress",
       "date": "2026-07-20",
