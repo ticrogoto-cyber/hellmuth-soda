@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-21T23:17:59.914Z",
+  "generated": "2026-07-22T23:20:30.641Z",
   "hellmuth": [
+    {
+      "title": "IFF trennt sich vom Natürlichkeitsversprechen",
+      "date": "2026-07-22",
+      "created": "2026-07-22T23:19:38.140Z",
+      "slug": "iff-trennt-sich-vom-naturlichkeitsversprechen",
+      "rubrik": "hellmuth",
+      "lead": "Der Aroma- und Duftstoffkonzern IFF verkauft sein Geschäft mit Naturfarben und funktionalen Zutaten an den Nahrungsergänzungshersteller SuanNutra.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/iff-sells-natural-ingredients-business/825841/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/iff-trennt-sich-vom-naturlichkeitsversprechen/"
+    },
+    {
+      "title": "Was alkoholfrei bedeutet, ist Verhandlungssache",
+      "date": "2026-07-22",
+      "created": "2026-07-22T23:18:52.801Z",
+      "slug": "was-alkoholfrei-bedeutet-ist-verhandlungssache",
+      "rubrik": "hellmuth",
+      "lead": "Der Nolo-Boom zwingt die Getränkeindustrie zu einer Debatte, die sie jahrelang vertagt hat.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/22/nolo-beer-boom-fuels-labelling-debate/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/was-alkoholfrei-bedeutet-ist-verhandlungssache/"
+    },
+    {
+      "title": "Was alkoholfrei bedeutet, entscheidet die Sprache, nicht das Glas",
+      "date": "2026-07-22",
+      "created": "2026-07-22T23:18:25.513Z",
+      "slug": "was-alkoholfrei-bedeutet-entscheidet-die-sprache-nicht-das-glas",
+      "rubrik": "hellmuth",
+      "lead": "Der Boom der Nolo-Biere zwingt die Branche, ein Wort zu definieren, das sie jahrelang bewusst offen gelassen hat.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/07/22/nolo-beer-boom-fuels-labelling-debate/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/was-alkoholfrei-bedeutet-entscheidet-die-sprache-nicht-das-glas/"
+    },
     {
       "title": "Prebiotic Soda erreicht Südostasien",
       "date": "2026-07-21",
@@ -1614,6 +1656,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Fettige Fresszellen nach neonataler Hirnischämie",
+      "date": "2026-07-22",
+      "created": "2026-07-22T23:20:30.584Z",
+      "slug": "fettige-fresszellen-nach-neonataler-hirnischamie",
+      "rubrik": "science",
+      "lead": "Nach Sauerstoffmangel im Neugeborenenhirn verwandelt sich die Immunabwehr selbst in eine Lastträgerin.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.18.739219v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/fettige-fresszellen-nach-neonataler-hirnischamie/"
+    },
+    {
+      "title": "Räumliche Nähe hilft dem alternden Gedächtnis, aber nur bis zur Hälfte",
+      "date": "2026-07-22",
+      "created": "2026-07-22T23:20:17.604Z",
+      "slug": "raumliche-nahe-hilft-dem-alternden-gedachtnis-aber-nur-bis-zur-halfte",
+      "rubrik": "science",
+      "lead": "Assoziatives Erinnern lässt im Alter überproportional nach, und ein oft empfohlener Trick zieht die Grenze früher als gedacht.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.17.739184v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/raumliche-nahe-hilft-dem-alternden-gedachtnis-aber-nur-bis-zur-halfte/"
+    },
+    {
+      "title": "Anhedonie als Zustand oder Zug",
+      "date": "2026-07-22",
+      "created": "2026-07-22T23:20:01.175Z",
+      "slug": "anhedonie-als-zustand-oder-zug",
+      "rubrik": "science",
+      "lead": "Die Frage, ob Belohnungslernen bei Depression dauerhaft gestört ist oder mit der Episode kommt und geht, entscheidet über die Therapielogik.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1159/000553592",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/anhedonie-als-zustand-oder-zug/"
+    },
     {
       "title": "Ein Zentromer-Protein arbeitet nebenbei im Gedächtnis",
       "date": "2026-07-21",
