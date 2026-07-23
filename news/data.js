@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-22T23:20:30.641Z",
+  "generated": "2026-07-23T23:17:46.395Z",
   "hellmuth": [
+    {
+      "title": "Alkoholfreie Getränke ziehen im Juli an",
+      "date": "2026-07-23",
+      "created": "2026-07-23T23:16:50.260Z",
+      "slug": "alkoholfreie-getranke-ziehen-im-juli-an",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für alkoholfreie Getränke wächst wieder, moderat, aber messbar.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/non-alc-beverage-volumes-rebound-in-early-july-sales-up-5-2",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfreie-getranke-ziehen-im-juli-an/"
+    },
+    {
+      "title": "Vita Coco kauft sich in die Oberklasse",
+      "date": "2026-07-23",
+      "created": "2026-07-23T23:16:36.032Z",
+      "slug": "vita-coco-kauft-sich-in-die-oberklasse",
+      "rubrik": "hellmuth",
+      "lead": "Der Marktführer im Kokoswasser holt sich mit Copra einen thailändischen Bio-Spezialisten, um ein Segment zu besetzen, das er selbst nicht bedient.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/vita-coco-takes-aim-at-super-premium-buys-copra-for-175m",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/vita-coco-kauft-sich-in-die-oberklasse/"
+    },
+    {
+      "title": "Taiwanesischer Sparkling Tea als Kategoriekandidat",
+      "date": "2026-07-23",
+      "created": "2026-07-23T23:16:16.003Z",
+      "slug": "taiwanesischer-sparkling-tea-als-kategoriekandidat",
+      "rubrik": "hellmuth",
+      "lead": "AUMA versucht, gebrühten Tee mit Kohlensäure aus der Nische in den amerikanischen Kühlregal-Mainstream zu heben.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-auma-takes-on-sparkling-taiwanese-tea",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/taiwanesischer-sparkling-tea-als-kategoriekandidat/"
+    },
     {
       "title": "IFF trennt sich vom Natürlichkeitsversprechen",
       "date": "2026-07-22",
@@ -1656,6 +1698,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Ibogain verschiebt das Default Mode Network der Veteranen",
+      "date": "2026-07-23",
+      "created": "2026-07-23T23:17:46.334Z",
+      "slug": "ibogain-verschiebt-das-default-mode-network-der-veteranen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus medRxiv verortet die Wirkung von Magnesium-Ibogain bei hirnverletzten US-Veteranen nicht in der ruhenden Verschaltung, sondern in deren Zeitverlauf.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.20.26358512v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ibogain-verschiebt-das-default-mode-network-der-veteranen/"
+    },
+    {
+      "title": "Rauchen als eigenständiger Risikofaktor für psychische Erkrankungen",
+      "date": "2026-07-23",
+      "created": "2026-07-23T23:17:19.043Z",
+      "slug": "rauchen-als-eigenstandiger-risikofaktor-fur-psychische-erkrankungen",
+      "rubrik": "science",
+      "lead": "Eine genetische Kausalanalyse trennt den Rauch-Effekt sauber von Sucht- und Sozialfaktoren und findet ihn trotzdem.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358653v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/rauchen-als-eigenstandiger-risikofaktor-fur-psychische-erkrankungen/"
+    },
+    {
+      "title": "Elektroden gegen therapieresistente Schizophrenie",
+      "date": "2026-07-23",
+      "created": "2026-07-23T23:17:04.657Z",
+      "slug": "elektroden-gegen-therapieresistente-schizophrenie",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der medRxiv-Psychiatrie testet Tiefe Hirnstimulation bei drei Menschen, denen keine Medikation mehr hilft.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.21.26358402v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/elektroden-gegen-therapieresistente-schizophrenie/"
+    },
     {
       "title": "Fettige Fresszellen nach neonataler Hirnischämie",
       "date": "2026-07-22",
