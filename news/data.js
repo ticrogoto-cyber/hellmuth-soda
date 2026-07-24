@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-23T23:17:46.395Z",
+  "generated": "2026-07-24T23:33:37.939Z",
   "hellmuth": [
+    {
+      "title": "Soda Libre bespielt zwei Trends mit einer Flasche",
+      "date": "2026-07-24",
+      "created": "2026-07-24T23:32:48.088Z",
+      "slug": "soda-libre-bespielt-zwei-trends-mit-einer-flasche",
+      "rubrik": "hellmuth",
+      "lead": "Der Bar-Alltag zerfranst zwischen Cocktailkarte und alkoholfreier Nische, und ein Filler-Sortiment aus vier Sorten setzt genau in diese Lücke.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/wie-soda-libre-filler-und-pur-genuss-in-der-gastronomie-vereint/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/soda-libre-bespielt-zwei-trends-mit-einer-flasche/"
+    },
+    {
+      "title": "Adult Non-Alc erreicht die Bar",
+      "date": "2026-07-24",
+      "created": "2026-07-24T23:28:51.276Z",
+      "slug": "adult-non-alc-erreicht-die-bar",
+      "rubrik": "hellmuth",
+      "lead": "Alkoholfreie Erwachsenengetränke sind auf der wichtigsten Barkonferenz der Branche angekommen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/as-adult-non-alc-goes-mainstream-brands-rethink-on-premise-playbooks",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/adult-non-alc-erreicht-die-bar/"
+    },
+    {
+      "title": "Der Convenience Store trägt sich selbst",
+      "date": "2026-07-24",
+      "created": "2026-07-24T23:28:36.020Z",
+      "slug": "der-convenience-store-tragt-sich-selbst",
+      "rubrik": "hellmuth",
+      "lead": "US-Tankstellenshops verkaufen mehr Getränke, obwohl weniger Kunden kommen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/emerging-drinks-keep-c-store-growth-charging-ahead-despite-slower-traffic",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-convenience-store-tragt-sich-selbst/"
+    },
     {
       "title": "Alkoholfreie Getränke ziehen im Juli an",
       "date": "2026-07-23",
@@ -1698,6 +1740,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Koffein am ischämischen Frettchenhirn",
+      "date": "2026-07-24",
+      "created": "2026-07-24T23:33:37.893Z",
+      "slug": "koffein-am-ischamischen-frettchenhirn",
+      "rubrik": "science",
+      "lead": "Ein Laborbefund verschiebt die Erzählung vom harmlosen Muntermacher in Richtung Wirkstoff mit Nebenrollen im geschädigten Gewebe.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3390/neurosci7040079",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/koffein-am-ischamischen-frettchenhirn/"
+    },
+    {
+      "title": "Strom gegen Durst",
+      "date": "2026-07-24",
+      "created": "2026-07-24T23:33:23.513Z",
+      "slug": "strom-gegen-durst",
+      "rubrik": "science",
+      "lead": "Eine Pilotstudie testet, ob elektrische Reizung des Stirnhirns den Sog nach Alkohol dämpft.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.addbeh.2026.108798",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/strom-gegen-durst/"
+    },
+    {
+      "title": "Gaming, Gras, Psychose",
+      "date": "2026-07-24",
+      "created": "2026-07-24T23:33:10.754Z",
+      "slug": "gaming-gras-psychose",
+      "rubrik": "science",
+      "lead": "Ein Fallbericht aus den BMJ Case Reports koppelt Internet Gaming Disorder und chronischen Cannabiskonsum an eine psychotische Depression mit Suizidalität.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1136/bcr-2026-272917",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/gaming-gras-psychose/"
+    },
     {
       "title": "Ibogain verschiebt das Default Mode Network der Veteranen",
       "date": "2026-07-23",

@@ -1681,6 +1681,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/soda-libre-bespielt-zwei-trends-mit-einer-flasche/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/adult-non-alc-erreicht-die-bar/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/der-convenience-store-tragt-sich-selbst/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/alkoholfreie-getranke-ziehen-im-juli-an/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -2403,6 +2421,24 @@
   <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</loc>
     <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/koffein-am-ischamischen-frettchenhirn/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/strom-gegen-durst/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/gaming-gras-psychose/</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
