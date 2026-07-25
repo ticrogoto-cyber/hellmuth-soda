@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-24T23:33:37.939Z",
+  "generated": "2026-07-25T23:18:30.329Z",
   "hellmuth": [
+    {
+      "title": "River kehrt zurück, und Aldi Nord ist leergekauft",
+      "date": "2026-07-25",
+      "created": "2026-07-25T23:17:34.592Z",
+      "slug": "river-kehrt-zuruck-und-aldi-nord-ist-leergekauft",
+      "rubrik": "hellmuth",
+      "lead": "Ein Discounter-Eistee aus den Neunzigern verkauft sich 2024 schneller als jedes gegenwärtige Getränkekonzept im selben Regal.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/comeback-des-kult-eistees-river-loest-ansturm-bei-aldi-nord-aus/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/river-kehrt-zuruck-und-aldi-nord-ist-leergekauft/"
+    },
     {
       "title": "Soda Libre bespielt zwei Trends mit einer Flasche",
       "date": "2026-07-24",
@@ -1740,6 +1754,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Der Hippocampus schickt seine Fiktionen ins Sehzentrum",
+      "date": "2026-07-25",
+      "created": "2026-07-25T23:18:30.258Z",
+      "slug": "der-hippocampus-schickt-seine-fiktionen-ins-sehzentrum",
+      "rubrik": "science",
+      "lead": "Generative Replay, bislang als Hippocampus-Signatur verstanden, zeigt sich einem Preprint zufolge auch im primären visuellen Cortex.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740539v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-hippocampus-schickt-seine-fiktionen-ins-sehzentrum/"
+    },
+    {
+      "title": "Stimmung folgt einem Takt, den die Uhr am Handgelenk verrät",
+      "date": "2026-07-25",
+      "created": "2026-07-25T23:18:15.095Z",
+      "slug": "stimmung-folgt-einem-takt-den-die-uhr-am-handgelenk-verrat",
+      "rubrik": "science",
+      "lead": "Depressive Symptome schwanken bei jungen Erwachsenen entlang eines mehrtägigen Herzfrequenzrhythmus, den nur Wearables sichtbar machen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358741v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/stimmung-folgt-einem-takt-den-die-uhr-am-handgelenk-verrat/"
+    },
+    {
+      "title": "Methylierung im Nabelschnurblut als psychiatrischer Frühindex",
+      "date": "2026-07-25",
+      "created": "2026-07-25T23:17:58.963Z",
+      "slug": "methylierung-im-nabelschnurblut-als-psychiatrischer-fruhindex",
+      "rubrik": "science",
+      "lead": "Ein medRxiv-Preprint versucht, prä- und perinatale Risikofaktoren für kindliche Psychiatrie in einem einzigen molekularen Score zu bündeln.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358558v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/methylierung-im-nabelschnurblut-als-psychiatrischer-fruhindex/"
+    },
     {
       "title": "Koffein am ischämischen Frettchenhirn",
       "date": "2026-07-24",
