@@ -26953,6 +26953,809 @@
       "date": "2026-07-24",
       "score": 0,
       "dropped": "low-relevance"
+    },
+    "1a5c04ce72d42bda3d9059d66d9ed8123296c670de3afbc857d15a8a334c25a7": {
+      "url": "https://www.presseportal.de/blaulicht/pm/110975/6321286",
+      "date": "2026-07-25",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "6b56c697d39e2ed390e1b20192785df5a542af7548b416c82f7feca19ff3921a": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126726/6321285",
+      "date": "2026-07-25",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "2e6e58c07213cca81f8936689b92afb82c77aa595ec62de6d0399938600f7909": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126726/6321284",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "97dce1136ffb809849032d3be754de91e0045e79c6ffcecb0574dd1bc5d8d82e": {
+      "url": "https://www.presseportal.de/blaulicht/pm/117711/6321283",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a99884e579300aad62bdeccb6b040d22a6a5c71cb017e578db3c18e0d8c0c7d0": {
+      "url": "https://www.presseportal.de/blaulicht/pm/172811/6321281",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "48b64c3f63fc60af29e7ecb982774a8d42f6ce0388e46088e1300b8426e5421a": {
+      "url": "https://www.presseportal.de/blaulicht/pm/108747/6321280",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "44257dc4430c1584e87f703c7f1644d318c7f3ab3158e7e4b14e9d70cc401825": {
+      "url": "https://www.presseportal.de/blaulicht/pm/110969/6321279",
+      "date": "2026-07-25",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "dd1e29e00227c5e43cefb8db2e77ee4570a31e64eeb6fdc14635874f412555a1": {
+      "url": "https://www.presseportal.de/blaulicht/pm/57929/6321278",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2d313a4f0f3802fc6ec94ade8b6cdd69144fe68fd43b41f56944a455d5f2dd6f": {
+      "url": "https://www.presseportal.de/blaulicht/pm/117698/6321277",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ea6777cf893249699e168b1ce462175034376b6094db719f7d3c45e84d3dc126": {
+      "url": "https://www.presseportal.de/blaulicht/pm/43558/6321276",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4bf4f227ef021a324ee5f9b17f15e7085c95b459e3f5b7696f62de8458eb54ec": {
+      "url": "https://www.presseportal.de/blaulicht/pm/4969/6321275",
+      "date": "2026-07-25",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "bc4480b8f7fc6b00724a3c367829a67cd0524ed7073c21d2d3b77d9c6acdfc8c": {
+      "url": "https://www.presseportal.de/blaulicht/pm/57929/6321274",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3d3789ef3bb959c7de015a50ab461ff92546b089736442f8b393f23068f6c480": {
+      "url": "https://www.presseportal.de/blaulicht/pm/57929/6321273",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "463eb1a55d35d03245ad4da83eb20553dbe2277efd87375330475c7f22b759f0": {
+      "url": "https://www.presseportal.de/blaulicht/pm/117703/6321272",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0b27750197ed2a5ba6520be84c5c5e7ac88325065308967ac010ce04ff40453f": {
+      "url": "https://www.presseportal.de/blaulicht/pm/108747/6321271",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7b3cd81df956e66faec90055f1298bb1c6bd1941eea77840d6dbfd5069e69377": {
+      "url": "https://www.tagesschau.de/newsticker/liveblog-berlin-csd-sonntag-100.html",
+      "date": "2026-07-25",
+      "score": 7,
+      "published": true
+    },
+    "4b856b5c82061cd99802093e25feb9a33c97fec087688de1bac379bb2560e773": {
+      "url": "https://www.tagesschau.de/inland/gesellschaft/csd-berlin-verletzte-100.html",
+      "date": "2026-07-25",
+      "score": 7,
+      "dropped": "folgebericht",
+      "match": "Fahrzeugeinschlag am Berliner CSD | Berlin"
+    },
+    "01d1d6e7e79b85853001e3dc3502f26c2aaafe5df931362554153615cb62cf37": {
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-waldbraende-102.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3a6eb7d2759ff95fe058dfc61017fbb17df9aafa207d886e95d538557c9ddde5": {
+      "url": "https://www.tagesschau.de/inland/regional/bayern/bayreuther-festspiele-116.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5d6af904095333780a107b8145878d5708bf6d9f3d3dff299ca57e476ebbab90": {
+      "url": "https://www.tagesschau.de/ausland/asien/guterres-besuch-syrien-102.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e9ef9bd0b67d87e46301512e41962674687e47a9acb8ea90667db72f90f3a4d3": {
+      "url": "https://www.tagesschau.de/ausland/europa/waldbraende-frankreich-110.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f29a22e15a566162c20622afaf6ddd0855aff2ee84099cf1ef3ac767b7a88c71": {
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/steuererklaerung-abgabefrist-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "79743dd805a21493de9158b27fcd4a9266bf69a6784508f0cbba8993915358e3": {
+      "url": "https://www.tagesschau.de/inland/innenpolitik/linnemann-gesundheitsminister-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ef0c30155c539be113483e5cc751ccdfd787eef9bc888a79bf5d9c9732edfd6d": {
+      "url": "https://www.tagesschau.de/inland/gesellschaft/gefaengnisse-kapazitaeten-strafvollzug-100.html",
+      "date": "2026-07-25",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "dcb9cc4c74fef5d975acadabf414937acd6ca588291164904363731d422d5162": {
+      "url": "https://www.tagesschau.de/ausland/asien/indien-ruecktritt-bildungsminister-kakerlaken-proteste-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0c248e816ba98fcdf332efab9cb6c01a58bf71fca19e08302394b4f0fff39025": {
+      "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-240.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "44bee4dbdd7145010e8c9434219b3102f22e898977a49e302e2ddf49a81afa79": {
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/sparen-geldanlage-campervan-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "852c3524f16a3edf7307bf6d9391b7d49b8b268d59f9ed81367d1c8a21b83765": {
+      "url": "https://www.tagesschau.de/ausland/amerika/trump-presse-nyt-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f73b0bea7e263362722d8316308dfafd7d1a274e0fbe3c8d5b5219e080e9ea5c": {
+      "url": "https://www.tagesschau.de/ausland/waldbraende-spanien-122.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "11b429a5d9d4b70d7da58259b7e4c2fb5f5c11d7135043f51843b9b9f3a9ef1b": {
+      "url": "https://www.tagesschau.de/ausland/europa/albanien-flamingo-revolution-kushner-luxus-resort-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e5c25de10981e817c5d7d3bfa2110207d216cf70d3b331ae4ff6b36ebc412fd0": {
+      "url": "https://polizei.brandenburg.de/pressemeldung/ermittlungen-nach-toetungsdelikt/5709051",
+      "date": "2026-07-25",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "e82c2350b001881bb63408f8b008e3dc79f3c2621762df1c5a0c647adaace994": {
+      "url": "https://www.bdk.de/der-bdk/was-wir-tun/aktuelles/neu-urban-sports-club-angebot",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d3230f5b8e6248eb05a6cb608c51a5aab1f5b0dc6ed3d35338ad23a6850a695c": {
+      "url": "https://www.lto.de/recht/feuilleton/f/salz-mindesthaltbarkeitsdatum-verfallsdatum-lebensmittelrecht-selbstexperiment",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d6069c6fed5911923655da0a582c836ff9cb85b3939489397d3872342ee0750c": {
+      "url": "https://www.lto.de/karriere/stellenmarkt/job/11115-vice-chair-appeals-committee-of-the-european-patent-office-ext-22619-epa-epo-muenchen",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "07b2f89c6523c289efc2171695ecaf01ae31a92f88f3a522d1ff85e93fb41bf8": {
+      "url": "https://www.lto.de/karriere/stellenmarkt/job/11206-legal-counsel-bitkom-e-v-berlin",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7d97b46af897b7688570da97221b49ea3b2789488415464207a859dc5e58b0d2": {
+      "url": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/umwelt-aktivisten-lassen-luft-aus-suv-reifen-accg-201064812.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0eea891645f102576960937273de7b38326fba324fb6f27b93bf873fab98bf1e": {
+      "url": "https://www.spiegel.de/panorama/justiz/brandenburg-polizei-ermittelt-nach-fund-von-zwei-toten-a-9b53182c-c96d-4edc-9c69-d7648e8bfbb7#ref=rss",
+      "date": "2026-07-25",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "b91e5299bf06a066bf59d129c80b19dcb620332c4e72096b72cbfa551540d10c": {
+      "url": "https://www.spiegel.de/panorama/justiz/prozess-gegen-christina-block-das-drama-um-die-unternehmerfamilie-a-2d502e7e-60a4-41a1-ba80-801cd78c2259#ref=rss",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "169a1abdb680b223ce32a2f1b81520a1dff0ecc9e4a6957a2f28a95660622bf2": {
+      "url": "https://www.zdfheute.de/panorama/csd-berlin-abschlusskundgebung-evakuierung-100.html",
+      "date": "2026-07-25",
+      "score": 7,
+      "dropped": "folgebericht",
+      "match": "Fahrzeugeinschlag am Berliner CSD"
+    },
+    "4f7ec71aed99820243f460bd4191fb06434ae95547ce65825c9e77e33622c073": {
+      "url": "https://www.zdfheute.de/panorama/csd-berlin-2026-abgebrochen-polizei-verletzte-liveticker-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7bf98239387d3a54e4b9ada7945fc723b844b8a9b99931b6e2ae0813f08b6121": {
+      "url": "https://www.zdfheute.de/politik/linnemann-gesundheitsminister-eignung-aussage-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "55439ee52b8912e76ae31bed2b95966564f4b5f591d28b727fd43f01a6529368": {
+      "url": "https://www.zdfheute.de/panorama/klima-waldbraende-feuer-frankreich-spanien-notstand-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a876dd538dfdcf9555ce76aaedc044dc6edd58a31205824dc0047e061a14d62d": {
+      "url": "https://www.zdfheute.de/video/aufzucht-lemuren-baby-diana-reel-video-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "771bc8ab0fc2a1e1c4372bf182259c1d5d727e0199187b4599f6d670d55a7e57": {
+      "url": "https://www.zdfheute.de/video/heute-nachrichten/trockenheit-rhein-donau-niedrigwasser-video-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "11453703cb1fd44e3e662052ec77bd69eff61b34e3e994461569e16eb516e353": {
+      "url": "https://www.zdfheute.de/video/heute-nachrichten/csd-parade-berlin-video-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fb2e017091a27b6091060a1b04842dd5bf89bc10ba0ee0ae3f04cd2618abc257": {
+      "url": "https://www.zdfheute.de/video/zdfheute-xpress/reibebusunfall-verletzte-a8-video-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a4fc146470cba62bed32e4fd0f58b7fb31c2f9c28879f4c9b29e5f23f3ff197b": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/flugzeugabsturz-in-ganderkesee-zweite-person-tot-aufgefunden,ganderkesee-148.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f99ed43fe1364b963307fa1158c2c55f627a3f60cdc9b35abe0746155dafa147": {
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/tag-der-seenotretter-veranstaltungen-und-programm-im-ueberblick,seenotretter-198.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4c65650027bd9f508637d514dd690d031530f2579c5328ef8e0910ce6492d254": {
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/fit-fuer-whatsapp-und-co-digitale-gesandte-helfen-senioren,digitalegesandte-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b5ff1364eae0c50190692c4521c047f16d672078547312de047d864361b316b7": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/waldbraende-in-frankreich-asche-vom-himmel-feuer-in-der-luft,waldbraende-234.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a120adc347eadc1fd5fe3f5a2086eaa62216df0759be05f4872f074c40769735": {
+      "url": "https://www.ndr.de/nachrichten/info/dgzrs-seenotretter-in-nord-und-ostsee-sind-auf-spenden-angewiesen,audio-3378752.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "306e54feab2e999b465c4e72f4578d9ec55c54ebe1747a6a55c01d34447f32b0": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/wohl-weltraumschrott-feuerball-verglueht-ueber-niedersachsen,satellit-126.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "260b1ee528852a0c47de6cdb5010d4696effbbd9e83ca8256db5980be3caddd6": {
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/radtourismus-in-schleswig-holstein-trotzt-regen-und-sommerhitze,fahrradtourismus-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7087e99d47f68977208ade64be7be2e14465b0aaadd5ce2317b93eb9961eb2bb": {
+      "url": "https://www.ndr.de/nachrichten/info/sendungen/mikado/kindernachrichten-aus-dem-klassenzimmer-in-mecklenburg-vorpommern,kindernachrichtenvorort-102.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e5d7c5f2da60d030be693c5a6db48455893f3303a593e6e7e4ab469114d4136c": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/nordenham-15-jaehriger-erleidet-stromschlag-durch-oberleitung,aktuelloldenburg-3822.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "74c223b62694b576ed63e8ea10e9d14c6cdd5f5827a26fd5c5acd15523a4970f": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/fregatte-sachsen-kehrt-nach-sieben-monaten-einsatz-zurueck,fregatte-190.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8305d496746e631cef5f642a762e6a421fae4e532e0f1222f5fc240089e8ec96": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/hunderte-menschen-nehmen-in-landstuhl-abschied-vom-in-trier-getoeteten-studenten-marius-dick-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2c2b81165eb153a34952d8f0e16a557e6d2e416acdedd5d2d64cfd1e530ff987": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/brand-in-reutlingen-zwoelfjaehriger-soll-hecke-entzuendet-haben-100.html",
+      "date": "2026-07-25",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "3d2f7fb1a5b61961fc6d08346d9bbbccb43783d5d611488b2855e9ea52afc15b": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/csd-in-stuttgart-tausende-menschen-ziehen-durch-die-innenstadt-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f7a9a96f29a71cbebe355a6aa70fc2aa1ed15d3f5bf10da4951f39c5c8fae141": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/immer-mehr-e-scooter-unfaelle-jugendliche-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6de7b07279df5c8929aa269f347bff79723bd78a069cc43757955ceebdf74e13": {
+      "url": "https://www.swr.de/swraktuell/leihmutterschaft-vater-und-ethikrat-fordern-klare-regeln-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fac573d67ac0cebcacec9feb7ba810de2a66ba4677509d5275203fd0b66ee1a6": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/polizei-stoppt-transporter-auf-flucht-a6-satteldorf-schuesse-100.html",
+      "date": "2026-07-25",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "107c22f4f963cceec0036a44bbf90e2eb06d65dd85db136efa596bedfaf2cb1e": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/christopher-street-day-csd-demo-in-mainz-2026-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3971fd2c728be4efee33eb04c12ffce169b2c759af2fa8b7e766ab0c5efc0e49": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/strassentheaterfestival-in-ludwigshafen-gestartet-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "64113761e9db682ce42cd83566523a757f1fe4abf5b7243ff0f62696c0ff1b17": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/viele-negative-google-bewertungen-rezensionen-geloescht-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "408741b229dc05f2e90d7937e06515c7c35591c5797438d74533ac2d925ba6cc": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/windpark-dirmstein-ovg-lehnt-eilantrag-gegen-baustart-ab-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ebe12d56670c0f0813b76c60aa734c62ba4099be75d1b979f2c093be00d4607b": {
+      "url": "https://www.swr.de/swraktuell-radio/weniger-alkohol-mehr-realitaet-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "75979f5eca532069108d71ffa7c9129fc0025ad84ad0293807778987794c5f35": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/07/berlin-christopher-street-day-samstag-demo.html",
+      "date": "2026-07-25",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "de3c78524a3ac3d17bfc27e180c9285767f0c7cc3602404bf8f7012a2252a5c4": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/07/brandenburg-teltow-flaeming-waldbrand-militaer-feuer.html",
+      "date": "2026-07-25",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "c0f3dd134ff0f500ce8a4ac1f3f9e132f8bc17a1267aaf598f4e0134af11a447": {
+      "url": "https://www.rbb24.de/panorama/thema/an-der-tanke/brandenburg-an-der-tanke-barnim-forst-schmetterlinge.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a28a7fa2f3245f844af7b2ac61c813502d18390c53347c35953a143e29656837": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/07/brandenburg-ortrand-oberspreewald-lausitz-tote-verletzter.html",
+      "date": "2026-07-25",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "97c751e8d5f77e15f5427dfcea085e935f5bf358148e72c76d0cedbfd149e56b": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/07/brandenburg-kiefernprozessionsspiner-raupen-ostprignitz-ruppin.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "89819257b77dc96a49a633750e14c7e80da88f243694e27ef4b3330e5e25a94d": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/07/brandenburg-dahme-spreewald-kreblitz-calau-haus-brand-verletzte.html",
+      "date": "2026-07-25",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "3c222c092be16b7c3403f351d46e7cb6d6820c6b4a99381533151bf54e9a8f92": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Macron-verspricht-Waldbrand-Gebieten-Wiederaufbau",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e66316e8aa91c8cb27f7a4a2d82d17d222d4ea73d65839805d8bba38ef52caf0": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Ein-Toter-bei-Waldbrand-nahe-Valencia",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "523fc51a28680a9ca904949ba40627799657481cc36bd6bde600b45d8e6957cf": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Bolsonaros-Sohn-tritt-bei-Praesidentenwahl-an",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2afd7963c211d11c50c4a7bc0c293520588eea624cc812ffb0cba4076c196250": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#CDU-Politiker-wirft-Merz-Willkuer-im-Umgang-mit-Schnieder-vor",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "79d65cdf13bea7ebaba9f99466103fb71e5b8a36e5329cc0629c41e6ef8d3358": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Zweiter-Toter-nach-Absturz-von-Kleinflugzeug-gefunden",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5f3e91656547df95b821be31b0407cefaf7c99a07393a99c20d004b80f1b6e06": {
+      "url": "https://www1.wdr.de/nrw/rohde-hund-trauer-koelner-treff-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "dc601832a592c6565e609fd634cf1e29c36688c256b83237b39594d4c3aab95f": {
+      "url": "https://www1.wdr.de/nrw/linnemann-video-warum-wird-der-gesundheitsminister-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c29d2838fa66b4484dbe1ce20a6880a3505ba32903c6384ddaf13c846f04629e": {
+      "url": "https://www1.wdr.de/nrw/verkehr/verkehrsthemen/super-benzin-diesel-spritpreise-autobahn-verkehr-analyse-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ceb245e1ff124b6745aa2c285b550e169daffdbdc6e84cfe8a37061657042a1b": {
+      "url": "https://www1.wdr.de/nrw/rheinland/bonn/kontrollen-e-scooter-unfaelle-bonn-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7bad1ab1c8ad5f1f39d02e3bcd80b40d8af6c46beec1c105bfa7454fa6c5e03b": {
+      "url": "https://www1.wdr.de/nrw/ruhrgebiet/herne/grubenwasser-pumpe-bergbau-herne-110.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "09ace6505bd0886091e94e6bbeb24ac03390b102d66c3db5430131c68c0d8aa2": {
+      "url": "https://www1.wdr.de/nrw/ruhrgebiet/duisburg/wdr-sommerparty-duisburg-ruhrort-sendung-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d8adc970e468703594606354c9cb2cf3c96fafbc74c94cb23832670baad528db": {
+      "url": "https://www.hessenschau.de/panorama/hitzewelle-in-hessen-40-grad-am-donnerstag-moeglich-v1,neue-hitzewelle-hessen-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4cfd124c17b1f6fb2fb607ec53f319c10cb23cb1bee97a3b86b3bfe77a6f5ae6": {
+      "url": "https://www.hessenschau.de/kultur/historisches-handwerk-boomt-archaeologie-kurse-in-hessen-v1,historisches-handwerk-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7910823bd58bb9ce77425833d60672ba31b182114846f34d660e65efb4d53b02": {
+      "url": "https://www.hessenschau.de/sport/fussball/regionalliga/kickers-offenbach-feiert-sich-selbst-und-verliert-gegen-bayer-leverkusen-v1,kickers-offenbach-leverkusen-testspiel-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e89d248e66b7cacd8cab8c29395bd28baf22c0a8619b1788625da03f3ad8ec19": {
+      "url": "https://www.hessenschau.de/sport/fussball/wehen-wiesbaden/sv-wehen-wiesbaden-besiegt-c-elf-des-fc-bayern-muenchen-v1,svww-bayern-test-102.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "cbc8295bbe5469080f116566dc9feb288df20dd3060d64e5a72a3324f3ee1bae": {
+      "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-frankfurt-routinier-mario-goetze-bereit-fuer-zentrale-rolle-v2,eintracht-goetze-zentrale-figur-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0637604dd8927fc50b42980ba6e18cd065e8cf7fa4a58961b89eefd46c4b47df": {
+      "url": "https://www.hessenschau.de/panorama/gefahrgut-alarm-bei-giessen-bahnstrecke-wieder-freigegeben-v3,bahn-strecke-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "843996de510f2c47bec350f2471fbd2a5a52bd0e817310eab009d488d6488205": {
+      "url": "https://www.hessenschau.de/gesellschaft/fall-jette-mahnwachen-fuer-bessere-tierschutz-von-kassel-bis-fulda-v2,proteste-tierquaelerei-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "27400eca06fb43fc980a01c5d3084cf3a9b57e7ec6d0d2a08bc3243b532ff132": {
+      "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-frankfurt-news-ticker-brasilianischer-verteidiger-zur-sge,bundesliga-ticker-104.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3672ff9d97cd60855596b09605df1e4275356e2fe71d866ece35cb4344c9cd6d": {
+      "url": "https://www.hessenschau.de/sport/fussball/darmstadt-98/testspielsieg-im-trainingslager-darmstadt-98-ueberzeugt-gegen-grossaspach-v1,lilien-test-126.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9b6bf41482dc1c6c446f97e65c96865e82b537f043f6d60eaabc7347aa26f3a9": {
+      "url": "https://www.hessenschau.de/sport/fussball/darmstadt-98/darmstadt-98-patric-pfeiffer-will-vom-leistungstraeger-zum-anfuehrer-werden-v1,pfeiffer-lilien-108.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d412554633847b5c6431d720a81817db6e7cf5b9ebf58376be00d590410870fd": {
+      "url": "https://www.hessenschau.de/panorama/nidderau-feuer-zerstoert-haus---hoher-schaden-im-ortsteil-eichen-v1,brand-nidderau-104.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6b4cbf067e54827f5bfef23527ab2230a0fc147fb1aea61dd7be6ce6fb7558ab": {
+      "url": "https://www.hessenschau.de/panorama/bauarbeiten-a4-bei-bad-hersfeld-komplett-gesperrt-v5,autobahnsperrung-bad-hersfeld-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "122c7d03ddeee60f26f5ae981cb0c60d7165b56fae0023d54c8dc16e0199b723": {
+      "url": "https://www.hessenschau.de/verkehr/das-sind-die-badesee-wassertemperaturen-in-hessen---taeglich-aktuell-v76,wassertemperaturen-badeseen-100.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "91667e0fc557fa05655f3174d182d255641231c0a56699e58baba8fa2b3b1e34": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/csd-in-berlin-mutmasslich-auto-in-menschenmenge-gefahren,VQQ8vN2",
+      "date": "2026-07-25",
+      "score": 8,
+      "dropped": "folgebericht",
+      "match": "Fahrzeugeinschlag am Berliner CSD"
+    },
+    "614e32de4c9aebe0f73a4c7a10042090a868d750639cac695f27c83a8741409d": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/bayreuther-festspiele-starten-mit-viel-polit-prominenz,VQODdFA",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "51d40ce3bedaf11f1da024d39fdd62daa53c2a3c488483d6deb22922c7192f26": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/verkehrsminister-gesucht-unmut-in-cdu-ueber-umgang-mit-schnieder,VQOFcU7",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "aa49cd864e60be77042ee96f1d0660ba805cb9a9f1c767b6f86b76c755351a8f": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/merz-baut-kabinett-um-neue-posten-fuer-warken-und-linnemann,VQGhM0I",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b4aeb48d4b05d25f16bfa43b2d44c6e0cde68c9e552ea9d20a6a1d61c7060366": {
+      "url": "https://www.br.de/nachrichten/sport/nach-fussball-testspiel-in-wiesbaden-fc-bayern-muenchen-zu-michael-olise-real-madrid-transfergeruechte,VQPbmer",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "608e73b620004ac9030cb9273ae42156fdb86cc84701e8b77339d7e42f0e4cab": {
+      "url": "https://www.br.de/nachrichten/sport/fussball-testspiel-sv-wehen-wiesbaden-fc-bayern-muenchen-blutjunger-fcb-verliert-trotz-bischof-tor,VQO3Mcf",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8f6feade9734d9512c77874d548f567154a96098a75e7d067d9abd3cf9e5d247": {
+      "url": "https://www.br.de/nachrichten/bayern/pure-leidenschaft-tausende-beim-fischertag-in-memmingen,VQOsMmr",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "07ce7a44a0cdc27c4aa70db0f550d5dd7afb331568bcb8b1daded1a4d56854f1": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/experten-warnen-vor-einbau-neuer-gasheizungen,VQNbmcA",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9df6e2e5ec41ee9fc57b35b0b31fc4b1765d3a1c1e3e331aeae19816362353b4": {
+      "url": "https://www.focus.de/panorama/welt/csd-in-berlin-aufgrund-einer-schwierigen-situation-vorzeitig-beendet_a95ea546-b502-4eeb-9c15-860d82261108.html",
+      "date": "2026-07-25",
+      "score": 7,
+      "dropped": "folgebericht",
+      "match": "Fahrzeugeinschlag am Berliner CSD"
+    },
+    "06ebe81e820adbe06408cdb68b92b842582c15d3253e49b09a08bf8e23e1e69d": {
+      "url": "https://www.focus.de/panorama/welt/es-ist-ein-aussergewoehnlicher-fund-skelette-von-120-maennern-auf-baustelle-freigelegt_7d6dd003-e625-4099-886f-db908370b867.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "253d97349fbd0353197a3d4e50d64ba3860f0d492c4a7db60e701fc4ea38ba68": {
+      "url": "https://www.focus.de/panorama/welt/unertraegliche-hitze-und-staendiges-summen-anwohner-beschweren-sich-ueber-mega-rechenzentrum_70ca1f9c-cae4-43b2-87e6-b9df428382b2.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5ac32e94d091d11ade31e584f63e35b6bc335193928e6bd3b6271a715c3b6eea": {
+      "url": "https://www.focus.de/panorama/welt/dorf-buergermeister-sperrt-jeden-abend-ab-21-30-uhr-die-hauptstrasse-fuer-kinder_4e79c683-cccc-448f-a18c-0a55c8dc7008.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3f4f64de9df6480160bc196aac3614f892220f190059a1d6f80dadc87c884889": {
+      "url": "https://www.focus.de/panorama/welt/leute-kommen-tagsueber-nicht-so-schnell-her-marieke-41-bietet-einen-kostenlosen-supermarkt-an_e02b749a-d3ca-4cc5-accc-6f84b92c5a1b.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "84294e15b04a354ef9aa9251ea4719796b4235c50b20e3d2d990a6465ac48625": {
+      "url": "https://www.focus.de/panorama/welt/bin-ich-meinem-papa-schuldig-89-jaehriger-rentner-verschenkt-haus-in-muenchen_4dfb4c48-84b0-4607-9d37-d0b1a594a793.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a959ae48000e946725ac6a9d6fa4a49b3efea8ab3fd683ecc655b235b5540e5f": {
+      "url": "https://www.focus.de/panorama/welt/127-euro-strafe-trotz-erlaubnis-taxi-unternehmer-geht-gegen-busspur-bussgeld-vor_67aaed8a-a916-45d3-954f-6eac53ba2d19.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "791fee1e56da8c46f1bbba0c57c56e554c223b5899ac50632a397330f6c727c2": {
+      "url": "https://www.focus.de/panorama/welt/ohne-meine-eltern-waere-ich-arbeitslos-monika-lebt-von-400-euro-im-monat-und-ist-seit-5-jahren-auf-jobsuche_bdeab16d-65ba-4017-9582-44912ca5fa5a.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b0c85d65b814ea2d467f29d5b740b50add6e8db6babee527fd977978be86b281": {
+      "url": "https://www.focus.de/panorama/welt/haaland-feiert-bei-hochzeitsparty-von-italien-torwart_66777437-0ab7-4109-8c7a-4954387a4a8f.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f8a7baeabdfa4e4c0041a14404578d96229a822121a277f387bfaa5f8f654cdb": {
+      "url": "https://www.focus.de/panorama/welt/kleinflugzeug-kracht-in-niedersachsen-in-wohnhaus_e3869ab6-6daf-47a0-9bb2-8e17bc712d53.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "242ff77127d3cc1b6a65a39cb3b2e2a292406c88899b7315eab9848a7780aa2a": {
+      "url": "https://www.focus.de/panorama/welt/wir-bezahlen-am-monatsende-keine-einzige-rechnung-ehepaar-lebt-in-einem-oeko-haus_b2831592-b3c5-487c-b023-2f59ba7ad149.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2571ad704915e9921af93c1ab8331ef30d4976f1f9e02220069e367ad2c95321": {
+      "url": "https://www.focus.de/panorama/welt/us-gericht-hebt-mordurteil-gegen-deutschen-auf_31688387-7961-43bc-abfa-d8d764a7083f.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "cf5b00912205d17f65ca2dbe22859ef3128a7aefbe51ec30f823303328a7ddc4": {
+      "url": "https://www.focus.de/panorama/welt/voellig-verrueckt-eltern-erhalten-beschwerde-weil-sie-ihre-kinder-zum-essen-rufen_6dbd9480-3f31-40bd-9d29-7ed6b5662e30.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0a6c3dc21c33db4cb94a507cf0a7c7ed84f659064d3fb3be0130291f76720717": {
+      "url": "https://www.n-tv.de/panorama/Auto-faehrt-in-Menschenmenge-bei-Berliner-CSD-ein-Toter-id31125254.html",
+      "date": "2026-07-25",
+      "score": 8,
+      "dropped": "folgebericht",
+      "match": "Fahrzeugeinschlag am Berliner CSD"
+    },
+    "ee945976070b789a1c1d6e4eea7886bbfe0e5004d15352cd4803094e0f371cee": {
+      "url": "https://www.n-tv.de/panorama/Hunderttausende-feiern-bei-Berliner-CSD-id31125313.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c5ce89077199923bfb7e5a50ada818617549c9a4977199dd374b946cb3a63b1e": {
+      "url": "https://www.n-tv.de/panorama/Rauchwolken-der-Braende-in-Madrid-und-Bordeaux-verbinden-sich-id31124960.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "89c3ef1912675de273c333884b9a50c85d9b10e1a9b0a1ef24c739b405df387c": {
+      "url": "https://www.n-tv.de/wirtschaft/US-Milliardaere-kaufen-statt-Haeusern-ganze-Viertel-auf-id31122216.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3b5fd4dc126f06cd56a9e068accffef430769577f43e4b4f152023608a8615a1": {
+      "url": "https://www.n-tv.de/politik/Mullahs-planten-wohl-Raketenangriff-auf-Trump-Flieger-id31124961.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "031449cacb3ae648b5ea3424f7d0e381295fa0c5091674c2d972f4df1c7b5cf4": {
+      "url": "https://www.n-tv.de/politik/Bolsonaros-Sohn-fordert-Praesident-Lula-heraus-id31125136.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "41fea684a9d2e1cd09f2d27987439cfed9ab745291132100d6c7b7bace3143d1": {
+      "url": "https://www.n-tv.de/politik/Eric-Trumps-humanoide-Kampfroboter-kommen-naeher-id31119505.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3e45eabe931bf9c909dd5e07ace680ca90b96155076e63f9fa0aa1e9169eeac4": {
+      "url": "https://www.n-tv.de/panorama/Rettungskraefte-bergen-zweiten-Toten-nach-Flugzeugabsturz-id31125070.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f1a0150c364fb0c4a13ddf31f48311fd399bd438d39ebe51e36ef0a9306dfd9c": {
+      "url": "https://www.n-tv.de/politik/CDU-Politiker-kritisieren-Merz-scharf-wegen-der-Personalie-Schnieder-id31124799.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "12626c455e4fd7d6396715ea94757d622d7fbcaadbde8d48fe06fe86503c321d": {
+      "url": "https://www.n-tv.de/panorama/Wie-geht-gutes-Sterben-id31087269.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "32d5bd8e64b315edefb95b0617e0d9e68bc0c24c559214948306625479245bf3": {
+      "url": "https://www.n-tv.de/sport/Radsport/Tour_de_France/Zaun-rettet-Profi-vor-dem-Abgrund-id31125051.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5bcda3e7850238012f5973672bf7136759dfeafa5c79aded2260be5c06e0dbf0": {
+      "url": "https://www.n-tv.de/panorama/Wal-in-argentinischem-Fluss-gestrandet-id31125246.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4e54c9e77325429c0ff2f0dcfa84859bbdd0517ade4523572bd033f0dadc9b69": {
+      "url": "https://www.n-tv.de/wirtschaft/In-zwei-Jahren-ist-Strom-guenstiger-als-im-alten-fossilen-System-id31116681.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "53d9633560dbb173ba013e3d9b8d741747b1150b167e20f8522fc07b6a60d5e9": {
+      "url": "https://www.n-tv.de/politik/Kasachischer-Praesident-fordert-von-Putin-Stopp-der-Kaempfe-id31124970.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7f5993ea71270992aa0be232e1f7c3cca27f8d97f5e69a8a68d69e31c6e78e5f": {
+      "url": "https://www.n-tv.de/politik/Toedliche-Waffenschau-bei-Kiew-Organisator-festgenommen-id31124901.html",
+      "date": "2026-07-25",
+      "score": 0,
+      "dropped": "low-relevance"
     }
   }
 }
