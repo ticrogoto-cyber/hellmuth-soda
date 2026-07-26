@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-25T23:18:30.329Z",
+  "generated": "2026-07-26T23:17:33.714Z",
   "hellmuth": [
     {
       "title": "River kehrt zurück, und Aldi Nord ist leergekauft",
@@ -1754,6 +1754,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Rauschtrinken hat eine Adresse im Gehirn",
+      "date": "2026-07-26",
+      "created": "2026-07-26T23:17:33.660Z",
+      "slug": "rauschtrinken-hat-eine-adresse-im-gehirn",
+      "rubrik": "science",
+      "lead": "Häufiges Binge Drinking korreliert mit der Verschaltung zwischen Hippocampus und ventralem Striatum.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/hipo.70113",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/rauschtrinken-hat-eine-adresse-im-gehirn/"
+    },
+    {
+      "title": "MDMA gegen frisches Trauma",
+      "date": "2026-07-26",
+      "created": "2026-07-26T23:17:21.370Z",
+      "slug": "mdma-gegen-frisches-trauma",
+      "rubrik": "science",
+      "lead": "Die Substanz, die als Therapiehoffnung für chronisches PTBS gehandelt wird, wird im Tiermodell als Akutintervention getestet.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.pnpbp.2026.111853",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/mdma-gegen-frisches-trauma/"
+    },
+    {
+      "title": "EEG-Signaturen bei Mädchen sagen späteren Substanzkonsum voraus",
+      "date": "2026-07-26",
+      "created": "2026-07-26T23:17:09.075Z",
+      "slug": "eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus",
+      "rubrik": "science",
+      "lead": "Das Suchtrisiko lässt sich im Kortex ablesen, bevor der erste Zug, das erste Glas fällt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.jpsychires.2026.07.021",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus/"
+    },
     {
       "title": "Der Hippocampus schickt seine Fiktionen ins Sehzentrum",
       "date": "2026-07-25",
