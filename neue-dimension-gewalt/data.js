@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-07-26T23:22:07.507Z",
+  "generated": "2026-07-27T23:37:24.771Z",
   "items": [
     {
       "title": "Deradikalisierung ohne Risikobewertung",
