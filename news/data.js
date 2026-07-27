@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-26T23:17:33.714Z",
+  "generated": "2026-07-27T23:36:10.414Z",
   "hellmuth": [
+    {
+      "title": "Zwanzig Komma acht Prozent weniger Zucker, und trotzdem trinkt Deutschland weiter",
+      "date": "2026-07-27",
+      "created": "2026-07-27T23:34:58.558Z",
+      "slug": "zwanzig-komma-acht-prozent-weniger-zucker-und-trotzdem-trinkt-deutschland-weiter",
+      "rubrik": "hellmuth",
+      "lead": "Die Erfrischungsgetränkebranche hat ihre Selbstverpflichtung zur Kalorienreduktion übererfüllt und zeigt damit vor allem, wie wenig davon abhängt.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/erfolgreiche-zuckerreduktion-branche-uebertrifft-zusage-an-bundesregierung/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zwanzig-komma-acht-prozent-weniger-zucker-und-trotzdem-trinkt-deutschland-weiter/"
+    },
+    {
+      "title": "Matcha verlässt das Café und zieht in den Tetrapak",
+      "date": "2026-07-27",
+      "created": "2026-07-27T23:33:29.296Z",
+      "slug": "matcha-verlasst-das-caf-und-zieht-in-den-tetrapak",
+      "rubrik": "hellmuth",
+      "lead": "Ein Getränk, das seine Herkunft als Ritual verkauft, wird in Singapur ab dieser Woche im Kühlregal ausgeschenkt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/27/enjoy-the-authentic-taste-of-green-tea-and-naturally-smooth-soya-milk-with-every-glass-of-plant-based-matcha-latte/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/matcha-verlasst-das-caf-und-zieht-in-den-tetrapak/"
+    },
     {
       "title": "River kehrt zurück, und Aldi Nord ist leergekauft",
       "date": "2026-07-25",
@@ -1754,6 +1782,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Ein Ionenkanal als Angriffspunkt gegen Depression",
+      "date": "2026-07-27",
+      "created": "2026-07-27T23:36:10.349Z",
+      "slug": "ein-ionenkanal-als-angriffspunkt-gegen-depression",
+      "rubrik": "science",
+      "lead": "Die Depressionsforschung sucht seit Jahrzehnten jenseits der Monoamin-Hypothese, und ein Zebrafisch-Preprint zeigt jetzt einen Kandidaten außerhalb des klassischen Neurotransmitter-Kanons.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740018v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-ionenkanal-als-angriffspunkt-gegen-depression/"
+    },
+    {
+      "title": "Escitalopram bewegt den Motor, nicht das Empfinden",
+      "date": "2026-07-27",
+      "created": "2026-07-27T23:35:40.419Z",
+      "slug": "escitalopram-bewegt-den-motor-nicht-das-empfinden",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der medRxiv-Psychiatrie zerlegt die Antidepressivum-Wirkung in zwei Etagen, die nicht zusammenlaufen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.24.26358864v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/escitalopram-bewegt-den-motor-nicht-das-empfinden/"
+    },
+    {
+      "title": "Ein EEG-Klick reicht dem Netz",
+      "date": "2026-07-27",
+      "created": "2026-07-27T23:35:24.221Z",
+      "slug": "ein-eeg-klick-reicht-dem-netz",
+      "rubrik": "science",
+      "lead": "Ein Deep-Learning-Modell trennt Schizophrenie-Patienten von Gesunden anhand roher Hirnstromkurven besser als jede etablierte Kennzahl.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.24.26358816v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-eeg-klick-reicht-dem-netz/"
+    },
     {
       "title": "Rauschtrinken hat eine Adresse im Gehirn",
       "date": "2026-07-26",
