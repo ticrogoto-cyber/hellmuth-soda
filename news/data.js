@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-27T23:36:10.414Z",
+  "generated": "2026-07-28T23:21:05.040Z",
   "hellmuth": [
+    {
+      "title": "Coca-Cola erklärt Funktionalität zur Wachstumsstrategie",
+      "date": "2026-07-28",
+      "created": "2026-07-28T23:20:00.939Z",
+      "slug": "coca-cola-erklart-funktionalitat-zur-wachstumsstrategie",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern, der jahrzehntelang Zucker als Lifestyle verkaufte, verkauft jetzt Verzicht als Innovation.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/coke-projects-confidence-in-innovation-strategy-amid-strong-q2-earnings",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-erklart-funktionalitat-zur-wachstumsstrategie/"
+    },
+    {
+      "title": "Poppi verliert Fahrt",
+      "date": "2026-07-28",
+      "created": "2026-07-28T23:19:39.168Z",
+      "slug": "poppi-verliert-fahrt",
+      "rubrik": "hellmuth",
+      "lead": "Pepsis Milliardenwette auf die Prebiotic-Soda-Marke Poppi kühlt messbar ab.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/is-poppi-slowing-down-analysts-suggest-outlook-looking-less-optimistic",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/poppi-verliert-fahrt/"
+    },
+    {
+      "title": "Getränke werden zu Funktionen",
+      "date": "2026-07-28",
+      "created": "2026-07-28T23:19:21.493Z",
+      "slug": "getranke-werden-zu-funktionen",
+      "rubrik": "hellmuth",
+      "lead": "Die Kategorie verliert an das Versprechen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/consumers-are-shopping-beverages-by-benefit-not-category-says-new-fmi-report",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/getranke-werden-zu-funktionen/"
+    },
     {
       "title": "Zwanzig Komma acht Prozent weniger Zucker, und trotzdem trinkt Deutschland weiter",
       "date": "2026-07-27",
@@ -1782,6 +1824,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Dopamin unterscheidet nicht zwischen Peer und Pellet",
+      "date": "2026-07-28",
+      "created": "2026-07-28T23:21:04.994Z",
+      "slug": "dopamin-unterscheidet-nicht-zwischen-peer-und-pellet",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Ratte zeigt, dass der Nucleus accumbens sozialen Zugang und Zuckerfutter mit fast identischen Dopamin-Signaturen quittiert.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740421v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/dopamin-unterscheidet-nicht-zwischen-peer-und-pellet/"
+    },
+    {
+      "title": "TMS trifft Rückenmark im Scanner",
+      "date": "2026-07-28",
+      "created": "2026-07-28T23:20:43.857Z",
+      "slug": "tms-trifft-ruckenmark-im-scanner",
+      "rubrik": "science",
+      "lead": "Die Wirkung transkranieller Magnetstimulation lässt sich erstmals im Rückenmark selbst messen, nicht nur an der Muskelzuckung.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740278v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/tms-trifft-ruckenmark-im-scanner/"
+    },
+    {
+      "title": "OCD-Remission als Kippunkt",
+      "date": "2026-07-28",
+      "created": "2026-07-28T23:20:28.042Z",
+      "slug": "ocd-remission-als-kippunkt",
+      "rubrik": "science",
+      "lead": "Ein Preprint modelliert SSRI-Wirkung bei Zwangsstörungen als geometrischen Übergang zwischen zwei stabilen Zuständen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.24.26358842v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ocd-remission-als-kippunkt/"
+    },
     {
       "title": "Ein Ionenkanal als Angriffspunkt gegen Depression",
       "date": "2026-07-27",
