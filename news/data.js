@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-28T23:21:05.040Z",
+  "generated": "2026-07-29T23:20:25.096Z",
   "hellmuth": [
+    {
+      "title": "Fellr verlässt den Strand",
+      "date": "2026-07-29",
+      "created": "2026-07-29T23:19:07.904Z",
+      "slug": "fellr-verlasst-den-strand",
+      "rubrik": "hellmuth",
+      "lead": "Eine australische Seltzer-Marke aus Bondi rückt in die nationale Distribution und findet dafür einen Weinkonzern als Vehikel.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/07/bondi-beach-brew-fellr-goes-national/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/fellr-verlasst-den-strand/"
+    },
+    {
+      "title": "Damm steigt bei Dalston's Soda ein",
+      "date": "2026-07-29",
+      "created": "2026-07-29T23:18:36.885Z",
+      "slug": "damm-steigt-bei-dalston-s-soda-ein",
+      "rubrik": "hellmuth",
+      "lead": "Ein spanischer Bierkonzern kauft sich in eine britische Craft-Limonade ein, und das ist kein Zufall der Portfoliopflege.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/29/damm-uk-takes-stake-in-dalstons-soda-co/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/damm-steigt-bei-dalston-s-soda-ein/"
+    },
+    {
+      "title": "Stressabbau als nächste Getränkekategorie",
+      "date": "2026-07-29",
+      "created": "2026-07-29T23:18:17.796Z",
+      "slug": "stressabbau-als-nachste-getrankekategorie",
+      "rubrik": "hellmuth",
+      "lead": "Der Functional-Drink-Markt verschiebt sich von Wachheit zu Beruhigung.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/29/stress-relief-drinks-drive-next-wave-of-functional-beverage-growth/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/stressabbau-als-nachste-getrankekategorie/"
+    },
     {
       "title": "Coca-Cola erklärt Funktionalität zur Wachstumsstrategie",
       "date": "2026-07-28",
@@ -1824,6 +1866,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Alzheimer beginnt im Netzwerk, nicht in der Zelle",
+      "date": "2026-07-29",
+      "created": "2026-07-29T23:20:25.032Z",
+      "slug": "alzheimer-beginnt-im-netzwerk-nicht-in-der-zelle",
+      "rubrik": "science",
+      "lead": "Ein Preprint an Fadenwürmern verschiebt die Frage vom sterbenden Neuron zur brechenden Verbindung.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740981v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-beginnt-im-netzwerk-nicht-in-der-zelle/"
+    },
+    {
+      "title": "Ein Reparatur-Hotspot verrät Huntington früher",
+      "date": "2026-07-29",
+      "created": "2026-07-29T23:20:02.062Z",
+      "slug": "ein-reparatur-hotspot-verrat-huntington-fruher",
+      "rubrik": "science",
+      "lead": "Die kranke DNA an der Huntington-Stelle wird ununterbrochen repariert, und genau dieses Reparieren treibt die Krankheit voran.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741355v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-reparatur-hotspot-verrat-huntington-fruher/"
+    },
+    {
+      "title": "Halluzinationen bekommen einen Lautstärkeregler",
+      "date": "2026-07-29",
+      "created": "2026-07-29T23:19:32.425Z",
+      "slug": "halluzinationen-bekommen-einen-lautstarkeregler",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Psychiatrie testet, ob Betroffene die Lautstärke ihrer Stimmen an einer Audiospur einstellen können, statt sie auf einer Skala anzukreuzen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.27.26359058v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/halluzinationen-bekommen-einen-lautstarkeregler/"
+    },
     {
       "title": "Dopamin unterscheidet nicht zwischen Peer und Pellet",
       "date": "2026-07-28",
