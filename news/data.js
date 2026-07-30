@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-29T23:20:25.096Z",
+  "generated": "2026-07-30T23:32:56.893Z",
   "hellmuth": [
+    {
+      "title": "Präbiotisches Tee-Soda erreicht Südostasien",
+      "date": "2026-07-30",
+      "created": "2026-07-30T23:31:37.085Z",
+      "slug": "prabiotisches-tee-soda-erreicht-sudostasien",
+      "rubrik": "hellmuth",
+      "lead": "Was in Los Angeles als Wellness-Nische begann, wird in Kuala Lumpur zum Massenmarkt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/07/29/tealive-sparks-a-healthier-soda-trend-with-prebiotic-tea-innovation/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/prabiotisches-tee-soda-erreicht-sudostasien/"
+    },
+    {
+      "title": "Juni rollt bei Albertsons in Kalifornien aus",
+      "date": "2026-07-30",
+      "created": "2026-07-30T23:30:24.605Z",
+      "slug": "juni-rollt-bei-albertsons-in-kalifornien-aus",
+      "rubrik": "hellmuth",
+      "lead": "Adaptogen-Tee verlässt die Wellness-Nische und landet im Standardregal.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/distribution-juni-makes-albertsons-debut-kate-farms-grows-high-protein-footprint",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/juni-rollt-bei-albertsons-in-kalifornien-aus/"
+    },
+    {
+      "title": "Mundgefühl wird zur Kategorie",
+      "date": "2026-07-30",
+      "created": "2026-07-30T23:28:45.913Z",
+      "slug": "mundgefuhl-wird-zur-kategorie",
+      "rubrik": "hellmuth",
+      "lead": "Textur rückt aus der Fußnote der Sensorik in die erste Reihe der Produktentwicklung.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/News/Promotional-features/2026-food-and-beverage-trends-for-brand-success/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/mundgefuhl-wird-zur-kategorie/"
+    },
     {
       "title": "Fellr verlässt den Strand",
       "date": "2026-07-29",
@@ -1866,6 +1908,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Beta-Wellen im Nucleus subthalamicus wandern",
+      "date": "2026-07-30",
+      "created": "2026-07-30T23:32:56.828Z",
+      "slug": "beta-wellen-im-nucleus-subthalamicus-wandern",
+      "rubrik": "science",
+      "lead": "Die pathologische Beta-Aktivität im Parkinson-Hirn ist keine stehende Schwingung, sondern läuft als räumliche Welle durch den Kern.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740919v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/beta-wellen-im-nucleus-subthalamicus-wandern/"
+    },
+    {
+      "title": "Der motorische Kortex bei Parkinson ist kein Opfer, sondern Mittäter",
+      "date": "2026-07-30",
+      "created": "2026-07-30T23:32:38.195Z",
+      "slug": "der-motorische-kortex-bei-parkinson-ist-kein-opfer-sondern-mittater",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlagert den Tatort der Parkinson-Motorik weg von den Basalganglien hin zur Großhirnrinde selbst.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741031v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-motorische-kortex-bei-parkinson-ist-kein-opfer-sondern-mittater/"
+    },
+    {
+      "title": "Ein Alkaloid aus dem Boldo-Baum bremst den Selbstzerstörungsschalter der Nerven",
+      "date": "2026-07-30",
+      "created": "2026-07-30T23:32:19.772Z",
+      "slug": "ein-alkaloid-aus-dem-boldo-baum-bremst-den-selbstzerstorungsschalter-der-nerven",
+      "rubrik": "science",
+      "lead": "Wenn ein Axon durchtrennt wird, richtet es sich selbst hin, und dieser Mechanismus hat einen Namen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741059v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-alkaloid-aus-dem-boldo-baum-bremst-den-selbstzerstorungsschalter-der-nerven/"
+    },
     {
       "title": "Alzheimer beginnt im Netzwerk, nicht in der Zelle",
       "date": "2026-07-29",
