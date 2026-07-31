@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-30T23:32:56.893Z",
+  "generated": "2026-07-31T23:22:22.046Z",
   "hellmuth": [
+    {
+      "title": "Kalte Suppe aus dem Automaten",
+      "date": "2026-07-31",
+      "created": "2026-07-31T23:21:18.480Z",
+      "slug": "kalte-suppe-aus-dem-automaten",
+      "rubrik": "hellmuth",
+      "lead": "Der Convenience Store wird zur Saftbar für Fermentiertes und Gemüse, und das ist keine Marketinglaune, sondern eine Verschiebung im Verständnis von Grundversorgung.",
+      "source_name": "SoraNews24 Food",
+      "source_url": "https://soranews24.com/2026/07/31/7-eleven-japan-adds-new-cold-soup-smoothies-to-its-convenience-store-drinks-range/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/kalte-suppe-aus-dem-automaten/"
+    },
+    {
+      "title": "Sechs Konzerne entdecken den Wirkstoff",
+      "date": "2026-07-31",
+      "created": "2026-07-31T23:19:28.138Z",
+      "slug": "sechs-konzerne-entdecken-den-wirkstoff",
+      "rubrik": "hellmuth",
+      "lead": "Der funktionale Drink war Nischenware kleiner Startups. Die großen Marken drängen jetzt in dieselben Regale.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/how-6-big-beverage-brands-are-embracing-functional-ingredients/826643/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sechs-konzerne-entdecken-den-wirkstoff/"
+    },
+    {
+      "title": "Funktionaler Alkohol als Kategorie",
+      "date": "2026-07-31",
+      "created": "2026-07-31T23:18:43.408Z",
+      "slug": "funktionaler-alkohol-als-kategorie",
+      "rubrik": "hellmuth",
+      "lead": "Die Getränkeindustrie testet, ob sich Wirkstoffversprechen und Ethanol im selben Glas verkaufen lassen.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/31/new-drinks-launches-functional-rtd-and-no-alcohol-trends/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/funktionaler-alkohol-als-kategorie/"
+    },
     {
       "title": "Präbiotisches Tee-Soda erreicht Südostasien",
       "date": "2026-07-30",
@@ -1908,6 +1950,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Ein Alzheimer-Risikogen wird zum Stoffwechselverdacht",
+      "date": "2026-07-31",
+      "created": "2026-07-31T23:22:21.972Z",
+      "slug": "ein-alzheimer-risikogen-wird-zum-stoffwechselverdacht",
+      "rubrik": "science",
+      "lead": "Das Gen ABCA7 zählt zu den stärksten genetischen Risikofaktoren für spät auftretende Alzheimer-Erkrankung, doch wie es wirkt, blieb unscharf.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741021v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-alzheimer-risikogen-wird-zum-stoffwechselverdacht/"
+    },
+    {
+      "title": "Netzwerk-Metaanalyse zu Negativsymptomen der Schizophrenie",
+      "date": "2026-07-31",
+      "created": "2026-07-31T23:21:56.062Z",
+      "slug": "netzwerk-metaanalyse-zu-negativsymptomen-der-schizophrenie",
+      "rubrik": "science",
+      "lead": "Was Antipsychotika liegenlassen, sollen Add-ons richten, und die Bilanz dieser Zusatztherapien ist jetzt sortiert.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.29.26359223v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/netzwerk-metaanalyse-zu-negativsymptomen-der-schizophrenie/"
+    },
+    {
+      "title": "ECT ordnet das Gehirn um, nicht die Stimmung",
+      "date": "2026-07-31",
+      "created": "2026-07-31T23:21:36.439Z",
+      "slug": "ect-ordnet-das-gehirn-um-nicht-die-stimmung",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Bildgebungsforschung deutet Elektrokrampftherapie als topologischen Eingriff in die funktionale Netzwerkarchitektur schwer depressiver Patienten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.29.26358453v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ect-ordnet-das-gehirn-um-nicht-die-stimmung/"
+    },
     {
       "title": "Beta-Wellen im Nucleus subthalamicus wandern",
       "date": "2026-07-30",
