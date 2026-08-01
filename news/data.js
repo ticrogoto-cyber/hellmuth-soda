@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-07-31T23:22:22.046Z",
+  "generated": "2026-08-01T23:20:22.909Z",
   "hellmuth": [
+    {
+      "title": "Ein Festival ohne Alkohol wird zum Marktsignal",
+      "date": "2026-08-01",
+      "created": "2026-08-01T23:18:39.987Z",
+      "slug": "ein-festival-ohne-alkohol-wird-zum-marktsignal",
+      "rubrik": "hellmuth",
+      "lead": "Nüchternheit wird in Berlin zum Eventformat, und das ist keine Nische mehr.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/oksoberfest-deutschlands-groesstes-alkoholfreies-festival-startet-in-der-kulturbrauerei-berlin/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ein-festival-ohne-alkohol-wird-zum-marktsignal/"
+    },
+    {
+      "title": "Coca-Cola markiert jede Mehrwegflasche einzeln",
+      "date": "2026-08-01",
+      "created": "2026-08-01T23:17:57.023Z",
+      "slug": "coca-cola-markiert-jede-mehrwegflasche-einzeln",
+      "rubrik": "hellmuth",
+      "lead": "Die Mehrwegflasche war bislang ein anonymes Kollektiv. Das ändert sich.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/deutscher-verpackungspreis-mehrweg-glasflaschen-bei-coca-cola-digital-auf-der-spur/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-markiert-jede-mehrwegflasche-einzeln/"
+    },
+    {
+      "title": "Singapurs Barszene sortiert sich nach Absicht, nicht nach Umsatz",
+      "date": "2026-08-01",
+      "created": "2026-08-01T23:15:56.302Z",
+      "slug": "singapurs-barszene-sortiert-sich-nach-absicht-nicht-nach-umsatz",
+      "rubrik": "hellmuth",
+      "lead": "Eine neue Generation von Betreibern in Singapur baut Cocktailbars als Argumente, nicht als Franchise.",
+      "source_name": "The Peak Singapore",
+      "source_url": "https://www.thepeakmagazine.com.sg/lifestyle/inspired-tong-shui-sake-and-martinis-new-wave-singapore-cocktail-bars-crafting-more-intentional",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/singapurs-barszene-sortiert-sich-nach-absicht-nicht-nach-umsatz/"
+    },
     {
       "title": "Kalte Suppe aus dem Automaten",
       "date": "2026-07-31",
@@ -1950,6 +1992,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Alzheimer war nie eine Plaque-Krankheit",
+      "date": "2026-08-01",
+      "created": "2026-08-01T23:20:22.832Z",
+      "slug": "alzheimer-war-nie-eine-plaque-krankheit",
+      "rubrik": "science",
+      "lead": "Die Ablagerungen im Alzheimer-Hirn bestehen offenbar nicht nur aus Eiweiß, sondern aus verendeten Mitochondrien.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02390-1",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-war-nie-eine-plaque-krankheit/"
+    },
+    {
+      "title": "Wenn das Gehirn eine neue Wirklichkeit erfindet",
+      "date": "2026-08-01",
+      "created": "2026-08-01T23:19:37.818Z",
+      "slug": "wenn-das-gehirn-eine-neue-wirklichkeit-erfindet",
+      "rubrik": "science",
+      "lead": "Ein Preprint verortet Acetylcholin im Striatum als das Signal, das entscheidet, ob eine ausbleibende Belohnung Pech ist oder ein Regimewechsel.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741321v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-das-gehirn-eine-neue-wirklichkeit-erfindet/"
+    },
+    {
+      "title": "Warum das jugendliche Gehirn anders lernt",
+      "date": "2026-08-01",
+      "created": "2026-08-01T23:19:20.657Z",
+      "slug": "warum-das-jugendliche-gehirn-anders-lernt",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft zeigt, wie sich die Lernmaschinerie des Hippocampus zwischen Entwöhnung und Erwachsenenalter umbaut.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741885v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/warum-das-jugendliche-gehirn-anders-lernt/"
+    },
     {
       "title": "Ein Alzheimer-Risikogen wird zum Stoffwechselverdacht",
       "date": "2026-07-31",
