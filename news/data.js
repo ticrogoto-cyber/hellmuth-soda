@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-01T23:20:22.909Z",
+  "generated": "2026-08-02T23:17:35.995Z",
   "hellmuth": [
+    {
+      "title": "Ein Pharmakonzern bringt Kombucha",
+      "date": "2026-08-02",
+      "created": "2026-08-02T23:16:58.701Z",
+      "slug": "ein-pharmakonzern-bringt-kombucha",
+      "rubrik": "hellmuth",
+      "lead": "Vietnams traditionelle Kräutermedizin dockt an eine westliche Fermentationsmode an, und der Absender ist ein Arzneihersteller.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/02/gen-z-kombucha-fusing-kombucha-culture-with-vietnamese-herbal-wisdom/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ein-pharmakonzern-bringt-kombucha/"
+    },
+    {
+      "title": "TH true TEA streicht den Zucker",
+      "date": "2026-08-02",
+      "created": "2026-08-02T23:16:44.560Z",
+      "slug": "th-true-tea-streicht-den-zucker",
+      "rubrik": "hellmuth",
+      "lead": "Vietnams größter Molkerei-Konzern zieht die Zuckerkante durch seine Teeserie und markiert damit, wohin sich der südostasiatische RTD-Markt bewegt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/03/th-introduces-first-sugar-free-line-in-th-true-tea-range/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/th-true-tea-streicht-den-zucker/"
+    },
+    {
+      "title": "Postbiotika als Kindermarketing",
+      "date": "2026-08-02",
+      "created": "2026-08-02T23:16:28.608Z",
+      "slug": "postbiotika-als-kindermarketing",
+      "rubrik": "hellmuth",
+      "lead": "Vietnams Nutricare bringt einen Joghurtdrink mit ausgelobten hundert Milliarden Postbiotika für Kinder auf den Markt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/03/spotlight-on-nutricares-bioyo-yogurt-drink-with-100-billion-postbiotics/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/postbiotika-als-kindermarketing/"
+    },
     {
       "title": "Ein Festival ohne Alkohol wird zum Marktsignal",
       "date": "2026-08-01",
@@ -1992,6 +2034,20 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Wenn die Muskeln schweigen, verirrt sich die Maus",
+      "date": "2026-08-02",
+      "created": "2026-08-02T23:17:31.477Z",
+      "slug": "wenn-die-muskeln-schweigen-verirrt-sich-die-maus",
+      "rubrik": "science",
+      "lead": "Räumliches Gedächtnis hängt nicht nur am Hippocampus, sondern an den Signalen der Muskelspindeln, zeigt ein neues Preprint.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.740838v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-die-muskeln-schweigen-verirrt-sich-die-maus/"
+    },
     {
       "title": "Alzheimer war nie eine Plaque-Krankheit",
       "date": "2026-08-01",
