@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-01T23:19:30.700Z",
+  "generated": "2026-08-02T23:20:30.620Z",
   "items": [
     {
       "title": "Cottbus, Karl-Liebknecht-Straße, Messerangriff bei Tageslicht",
