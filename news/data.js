@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-02T23:17:35.995Z",
+  "generated": "2026-08-03T23:34:47.675Z",
   "hellmuth": [
+    {
+      "title": "Der deutsche Softdrink wird zuckerärmer, während er schrumpft",
+      "date": "2026-08-03",
+      "created": "2026-08-03T23:33:44.479Z",
+      "slug": "der-deutsche-softdrink-wird-zuckerarmer-wahrend-er-schrumpft",
+      "rubrik": "hellmuth",
+      "lead": "Der Gesamtmarkt für Erfrischungsgetränke gibt nach, die kalorienreduzierte Sparte wächst weiter.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/kalorienreduzierte-erfrischungsgetraenke-weiter-im-plus/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-deutsche-softdrink-wird-zuckerarmer-wahrend-er-schrumpft/"
+    },
     {
       "title": "Ein Pharmakonzern bringt Kombucha",
       "date": "2026-08-02",
@@ -2034,6 +2048,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Dopamin fährt runter, bevor die Belohnung kommt",
+      "date": "2026-08-03",
+      "created": "2026-08-03T23:34:47.364Z",
+      "slug": "dopamin-fahrt-runter-bevor-die-belohnung-kommt",
+      "rubrik": "science",
+      "lead": "Ein Preprint stellt das Bild vom Dopamin als schlichtem Belohnungssignal weiter in Frage.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.01.742215v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/dopamin-fahrt-runter-bevor-die-belohnung-kommt/"
+    },
+    {
+      "title": "Der jugendliche Stress schreibt sich in die Belohnungsschaltung",
+      "date": "2026-08-03",
+      "created": "2026-08-03T23:34:33.627Z",
+      "slug": "der-jugendliche-stress-schreibt-sich-in-die-belohnungsschaltung",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Mausneurowissenschaft benennt eine Schaltung, die erklärt, warum frühe Belastung das Suchtrisiko lebenslang hebt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741478v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-jugendliche-stress-schreibt-sich-in-die-belohnungsschaltung/"
+    },
+    {
+      "title": "Depression zerfällt in immunologische Untertypen",
+      "date": "2026-08-03",
+      "created": "2026-08-03T23:34:07.190Z",
+      "slug": "depression-zerfallt-in-immunologische-untertypen",
+      "rubrik": "science",
+      "lead": "Ein Preprint kartiert peripheres Zytokinmuster gegen Hirnmikrostruktur und findet geschlechtsspezifische Signaturen der Depression.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.01.26359430v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-zerfallt-in-immunologische-untertypen/"
+    },
     {
       "title": "Wenn die Muskeln schweigen, verirrt sich die Maus",
       "date": "2026-08-02",
