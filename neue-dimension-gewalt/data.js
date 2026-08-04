@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-03T23:36:29.263Z",
+  "generated": "2026-08-04T23:28:21.476Z",
   "items": [
     {
       "title": "Offenbach, Marktplatz, Sonntagmorgen",
