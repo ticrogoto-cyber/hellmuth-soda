@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-03T23:34:47.675Z",
+  "generated": "2026-08-04T23:34:34.573Z",
   "hellmuth": [
+    {
+      "title": "Arabischer Kaffee in der Dose",
+      "date": "2026-08-04",
+      "created": "2026-08-04T23:29:59.918Z",
+      "slug": "arabischer-kaffee-in-der-dose",
+      "rubrik": "hellmuth",
+      "lead": "Der RTD-Kaffeeregal war lange eine Monokultur aus Vanille, Karamell und Mocha.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-its-a-yes-for-arabic-coffee-rtd-yah-yah-yah",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/arabischer-kaffee-in-der-dose/"
+    },
     {
       "title": "Der deutsche Softdrink wird zuckerärmer, während er schrumpft",
       "date": "2026-08-03",
@@ -2048,6 +2062,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Cannabis-App gegen Psychose, ein Pilot ohne Publikum",
+      "date": "2026-08-04",
+      "created": "2026-08-04T23:34:34.414Z",
+      "slug": "cannabis-app-gegen-psychose-ein-pilot-ohne-publikum",
+      "rubrik": "science",
+      "lead": "Eine kanadische Harm-Reduction-App für junge Ersterkrankte mit Psychose sucht in ihren eigenen Nutzungsdaten nach Wirksamkeit.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.2196/84836",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabis-app-gegen-psychose-ein-pilot-ohne-publikum/"
+    },
+    {
+      "title": "Emotionsregulation gegen Alkohol",
+      "date": "2026-08-04",
+      "created": "2026-08-04T23:34:22.182Z",
+      "slug": "emotionsregulation-gegen-alkohol",
+      "rubrik": "science",
+      "lead": "Ein randomisierter Wirksamkeitstest der zweiten Stufe stellt eine Therapie in den Ring, die nicht am Trinken ansetzt, sondern an dem, was davor kommt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70350",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/emotionsregulation-gegen-alkohol/"
+    },
+    {
+      "title": "Nikotin als Medikament, wieder einmal",
+      "date": "2026-08-04",
+      "created": "2026-08-04T23:34:01.605Z",
+      "slug": "nikotin-als-medikament-wieder-einmal",
+      "rubrik": "science",
+      "lead": "Eine Übersichtsarbeit sortiert die Belege für Nikotin bei Parkinson, Alzheimer, Schizophrenie und Depression.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1007/s11064-026-04845-0",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nikotin-als-medikament-wieder-einmal/"
+    },
     {
       "title": "Dopamin fährt runter, bevor die Belohnung kommt",
       "date": "2026-08-03",
