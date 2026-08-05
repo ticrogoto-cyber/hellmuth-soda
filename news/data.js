@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-04T23:34:34.573Z",
+  "generated": "2026-08-05T23:30:11.637Z",
   "hellmuth": [
+    {
+      "title": "Rotkäppchen zieht den Alkohol aus der Secconade",
+      "date": "2026-08-05",
+      "created": "2026-08-05T23:29:18.317Z",
+      "slug": "rotkappchen-zieht-den-alkohol-aus-der-secconade",
+      "rubrik": "hellmuth",
+      "lead": "Die Sekt-Limonade bekommt eine Nullvariante ohne Zucker, und der Zeitpunkt ist keine Laune der Produktentwicklung.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/rotkaeppchen-secconade-jetzt-auch-als-00-alkohol-variante-ohne-zucker/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/rotkappchen-zieht-den-alkohol-aus-der-secconade/"
+    },
+    {
+      "title": "BRAND'S packt Ginseng in Honig-Gelee-Sachets",
+      "date": "2026-08-05",
+      "created": "2026-08-05T23:27:59.067Z",
+      "slug": "brand-s-packt-ginseng-in-honig-gelee-sachets",
+      "rubrik": "hellmuth",
+      "lead": "Der klassische Tonic-Hersteller verlegt seine bitterste Zutat in ein Format, das aussieht wie ein Kinderquetschie.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/05/brands-reinvents-ginseng-for-modern-lifestyles-with-new-ginseng-essence-honey-jelly-strip/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/brand-s-packt-ginseng-in-honig-gelee-sachets/"
+    },
+    {
+      "title": "Walmart listet Kava neben Kaffee",
+      "date": "2026-08-05",
+      "created": "2026-08-05T23:27:17.036Z",
+      "slug": "walmart-listet-kava-neben-kaffee",
+      "rubrik": "hellmuth",
+      "lead": "Der größte US-Händler nimmt gleichzeitig Kava-Drinks und Funktionskaffees ins Regal, zwei Kategorien, die sich vor kurzem noch gegenseitig ausgeschlossen hätten.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/distribution-walmart-brings-mitra9-kava-drinks-online-javvy-laird-functional-coffees-to-stores",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/walmart-listet-kava-neben-kaffee/"
+    },
     {
       "title": "Arabischer Kaffee in der Dose",
       "date": "2026-08-04",
@@ -2062,6 +2104,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Suizidgedanken altern das Teenagerhirn messbar",
+      "date": "2026-08-05",
+      "created": "2026-08-05T23:30:11.567Z",
+      "slug": "suizidgedanken-altern-das-teenagerhirn-messbar",
+      "rubrik": "science",
+      "lead": "Ein australisches Preprint verknüpft Suizidalität bei Jugendlichen mit einem strukturell älter wirkenden Gehirn.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.31.741956v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/suizidgedanken-altern-das-teenagerhirn-messbar/"
+    },
+    {
+      "title": "Apathie in der Schizophrenie beginnt vor der Entscheidung",
+      "date": "2026-08-05",
+      "created": "2026-08-05T23:29:55.426Z",
+      "slug": "apathie-in-der-schizophrenie-beginnt-vor-der-entscheidung",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt das Modell der Schizophrenie-Apathie von der Kosten-Nutzen-Rechnung auf die Phase davor, in der Handlungsoptionen überhaupt erst entstehen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.03.26359552v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/apathie-in-der-schizophrenie-beginnt-vor-der-entscheidung/"
+    },
+    {
+      "title": "Vagusnerv-Stimulation gegen therapieresistente Depression, drei Jahre später",
+      "date": "2026-08-05",
+      "created": "2026-08-05T23:29:42.999Z",
+      "slug": "vagusnerv-stimulation-gegen-therapieresistente-depression-drei-jahre-spater",
+      "rubrik": "science",
+      "lead": "Ein implantierter Nervenstimulator zeigt in einer Preprint-Auswertung anhaltende Wirkung, wo Medikamente und Gespräche längst kapituliert haben.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.31.26358854v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/vagusnerv-stimulation-gegen-therapieresistente-depression-drei-jahre-spater/"
+    },
     {
       "title": "Cannabis-App gegen Psychose, ein Pilot ohne Publikum",
       "date": "2026-08-04",
