@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-07T01:39:35.534Z",
+  "generated": "2026-08-07T23:01:20.546Z",
   "hellmuth": [
+    {
+      "title": "7-Eleven verkauft gegrillten Mais als Smoothie",
+      "date": "2026-08-07",
+      "created": "2026-08-07T22:59:50.095Z",
+      "slug": "7-eleven-verkauft-gegrillten-mais-als-smoothie",
+      "rubrik": "hellmuth",
+      "lead": "Japans Kombinis verschieben die Grenze zwischen Getränk und Mahlzeit erneut, diesmal über die Suppe.",
+      "source_name": "SoraNews24 Food",
+      "source_url": "https://soranews24.com/2026/08/07/7-eleven-japan-rethinks-convenience-store-drinks-with-new-grilled-corn-chilled-soup-smoothie/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/7-eleven-verkauft-gegrillten-mais-als-smoothie/"
+    },
+    {
+      "title": "Suntory verkauft -196 über Kakigori",
+      "date": "2026-08-07",
+      "created": "2026-08-07T22:58:50.794Z",
+      "slug": "suntory-verkauft-196-uber-kakigori",
+      "rubrik": "hellmuth",
+      "lead": "Ein japanischer RTD gewinnt den US-Markt nicht mit Werbung, sondern mit Rasiereis.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/suntory-rtd-196-sales-soaring-behind-culturally-rooted-activations",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/suntory-verkauft-196-uber-kakigori/"
+    },
     {
       "title": "Gen Z trinkt Saft statt Bier",
       "date": "2026-08-07",
@@ -2146,6 +2174,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Depression hat eine Signatur im Ruhezustand",
+      "date": "2026-08-07",
+      "created": "2026-08-07T23:01:20.473Z",
+      "slug": "depression-hat-eine-signatur-im-ruhezustand",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Psychiatrie kartiert Depression als Netzwerkstörung, messbar bevor jemand eine Aufgabe löst.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.04.26359708v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-hat-eine-signatur-im-ruhezustand/"
+    },
+    {
+      "title": "Estnische Biobank rekonstruiert Psychose-Verläufe aus Rezeptdaten",
+      "date": "2026-08-07",
+      "created": "2026-08-07T23:01:03.315Z",
+      "slug": "estnische-biobank-rekonstruiert-psychose-verlaufe-aus-rezeptdaten",
+      "rubrik": "science",
+      "lead": "Register statt randomisierter Studie: eine Kohorte von 212.000 Esten dient als Testfeld dafür, ob genetische Last den Krankheitsverlauf bei Psychosen und bipolarer Störung mitschreibt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.05.26359763v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/estnische-biobank-rekonstruiert-psychose-verlaufe-aus-rezeptdaten/"
+    },
+    {
+      "title": "Ein Genort, zwei Diagnosen",
+      "date": "2026-08-07",
+      "created": "2026-08-07T23:00:47.781Z",
+      "slug": "ein-genort-zwei-diagnosen",
+      "rubrik": "science",
+      "lead": "Bipolare Störung und Zwangsstörung teilen mehr Erbgut, als die Klassifikationssysteme nahelegen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.05.26359738v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/ein-genort-zwei-diagnosen/"
+    },
     {
       "title": "Cannabis in der Schwangerschaft hinterlässt Spuren im fötalen Gehirn",
       "date": "2026-08-07",
