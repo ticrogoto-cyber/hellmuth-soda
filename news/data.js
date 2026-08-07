@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-05T23:30:11.637Z",
+  "generated": "2026-08-07T01:39:35.534Z",
   "hellmuth": [
+    {
+      "title": "Gen Z trinkt Saft statt Bier",
+      "date": "2026-08-07",
+      "created": "2026-08-07T01:38:50.754Z",
+      "slug": "gen-z-trinkt-saft-statt-bier",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Griff junger Erwachsener wird zur Marktrealität, nicht mehr zur Randnotiz.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/gen-z-trinkt-deutlich-mehr-mocktails-und-fruchtsaft/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/gen-z-trinkt-saft-statt-bier/"
+    },
+    {
+      "title": "Feldschlösschen nimmt Freikopf in die Schweizer Gastronomie",
+      "date": "2026-08-07",
+      "created": "2026-08-07T01:38:31.689Z",
+      "slug": "feldschlosschen-nimmt-freikopf-in-die-schweizer-gastronomie",
+      "rubrik": "hellmuth",
+      "lead": "Ein Brauereikonzern übernimmt den Vertrieb einer alkoholfreien Marke, und das ist der eigentliche Vorgang.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/freikopf-und-feldschloesschen-starten-partnerschaft-fuer-schweizer-gastronomie/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/feldschlosschen-nimmt-freikopf-in-die-schweizer-gastronomie/"
+    },
+    {
+      "title": "Zevia setzt auf Marketing statt Produkt",
+      "date": "2026-08-07",
+      "created": "2026-08-07T01:36:26.533Z",
+      "slug": "zevia-setzt-auf-marketing-statt-produkt",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Stevia-Softdrink-Pionier tauscht Führung und Etat, nicht Rezeptur.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/zevia-bets-on-brand-reset-single-cans-under-new-ceo-as-pricing-drives-q2-sales",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zevia-setzt-auf-marketing-statt-produkt/"
+    },
     {
       "title": "Rotkäppchen zieht den Alkohol aus der Secconade",
       "date": "2026-08-05",
@@ -2104,6 +2146,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Cannabis in der Schwangerschaft hinterlässt Spuren im fötalen Gehirn",
+      "date": "2026-08-07",
+      "created": "2026-08-07T01:39:35.462Z",
+      "slug": "cannabis-in-der-schwangerschaft-hinterlasst-spuren-im-fotalen-gehirn",
+      "rubrik": "science",
+      "lead": "Eine Multi-Omics-Analyse an menschlichem fötalem Gewebe findet Veränderungen der neuronalen Entwicklung nach pränataler Cannabisexposition.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.64898/2026.07.15.738779",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/cannabis-in-der-schwangerschaft-hinterlasst-spuren-im-fotalen-gehirn/"
+    },
+    {
+      "title": "Die Leber trinkt mit",
+      "date": "2026-08-07",
+      "created": "2026-08-07T01:39:24.320Z",
+      "slug": "die-leber-trinkt-mit",
+      "rubrik": "science",
+      "lead": "Alkoholbedingter Leberschaden ist nicht bloß Folge des Trinkens, sondern Treiber weiteren Trinkens.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70391",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/die-leber-trinkt-mit/"
+    },
+    {
+      "title": "Digitale Verhaltenstherapie gegen Trinkmenge",
+      "date": "2026-08-07",
+      "created": "2026-08-07T01:39:13.415Z",
+      "slug": "digitale-verhaltenstherapie-gegen-trinkmenge",
+      "rubrik": "science",
+      "lead": "Alkoholabhängige, die keine Behandlung suchen, sind die größte und am schlechtesten erreichte Gruppe der Suchtversorgung.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70383",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/digitale-verhaltenstherapie-gegen-trinkmenge/"
+    },
     {
       "title": "Suizidgedanken altern das Teenagerhirn messbar",
       "date": "2026-08-05",
