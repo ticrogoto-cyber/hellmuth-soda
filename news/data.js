@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-07T23:01:20.546Z",
+  "generated": "2026-08-08T22:52:53.911Z",
   "hellmuth": [
     {
       "title": "7-Eleven verkauft gegrillten Mais als Smoothie",
@@ -2174,6 +2174,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Astrozyten ziehen sich zusammen, wenn Muskeln arbeiten",
+      "date": "2026-08-08",
+      "created": "2026-08-08T22:52:53.825Z",
+      "slug": "astrozyten-ziehen-sich-zusammen-wenn-muskeln-arbeiten",
+      "rubrik": "science",
+      "lead": "Bewegung wirkt im Hippocampus nicht nur chemisch, sondern mechanisch.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.06.742872v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/astrozyten-ziehen-sich-zusammen-wenn-muskeln-arbeiten/"
+    },
+    {
+      "title": "Wenn Geometrie das Gehirn schreibt",
+      "date": "2026-08-08",
+      "created": "2026-08-08T22:52:41.646Z",
+      "slug": "wenn-geometrie-das-gehirn-schreibt",
+      "rubrik": "science",
+      "lead": "Ein Preprint zeigt, dass neuronale Netze nur dann Hirnaktivität vorhersagen, wenn ihre Verdrahtung an räumliche Distanz gebunden ist.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.07.742341v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/wenn-geometrie-das-gehirn-schreibt/"
+    },
+    {
+      "title": "Sicherheitslernen ist keine leise Variante von Furchtlöschung",
+      "date": "2026-08-08",
+      "created": "2026-08-08T22:52:29.144Z",
+      "slug": "sicherheitslernen-ist-keine-leise-variante-von-furchtloschung",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Rattenforschung trennt zwei neuronale Programme, die in der Angstforschung oft in einen Topf geworfen werden.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743388v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/sicherheitslernen-ist-keine-leise-variante-von-furchtloschung/"
+    },
     {
       "title": "Depression hat eine Signatur im Ruhezustand",
       "date": "2026-08-07",
