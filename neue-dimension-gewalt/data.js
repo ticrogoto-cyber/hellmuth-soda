@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-07T23:05:15.883Z",
+  "generated": "2026-08-08T22:55:39.711Z",
   "items": [
     {
       "title": "Tatort Dienststelle",
