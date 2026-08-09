@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-08T22:52:53.911Z",
+  "generated": "2026-08-09T22:55:33.302Z",
   "hellmuth": [
+    {
+      "title": "Chagee koppelt Muttertag an Litschi und Rose",
+      "date": "2026-08-09",
+      "created": "2026-08-09T22:54:50.571Z",
+      "slug": "chagee-koppelt-muttertag-an-litschi-und-rose",
+      "rubrik": "hellmuth",
+      "lead": "Die chinesische Teekette Chagee bindet ihre Thailand-Expansion an einen westlich importierten Feiertag.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/09/chagee-thailand-unveils-lychee-rose-black-tea-series-for-mothers-day/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/chagee-koppelt-muttertag-an-litschi-und-rose/"
+    },
+    {
+      "title": "Yeo's mischt Hibiskus in den Chrysanthementee",
+      "date": "2026-08-09",
+      "created": "2026-08-09T22:54:30.552Z",
+      "slug": "yeo-s-mischt-hibiskus-in-den-chrysanthementee",
+      "rubrik": "hellmuth",
+      "lead": "Ein malaysischer Getränkeriese verwandelt Nationalsymbolik in eine Sonderedition.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/09/yeos-celebrates-malaysias-independence-with-hibiscus-chrysanthemum-tea/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/yeo-s-mischt-hibiskus-in-den-chrysanthementee/"
+    },
+    {
+      "title": "Laufen wird zur Getränkekategorie",
+      "date": "2026-08-09",
+      "created": "2026-08-09T22:54:11.500Z",
+      "slug": "laufen-wird-zur-getrankekategorie",
+      "rubrik": "hellmuth",
+      "lead": "Südkorea hat das Läuferpublikum in ein Sortiment übersetzt, und Südostasien zieht nach.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/09/running-culture-fuels-next-gen-performance-drinks-lessons-from-south-korea-and-opportunities-in-southeast-asia/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/laufen-wird-zur-getrankekategorie/"
+    },
     {
       "title": "7-Eleven verkauft gegrillten Mais als Smoothie",
       "date": "2026-08-07",
@@ -2174,6 +2216,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Was der Entzug im Gehirn hinterlässt",
+      "date": "2026-08-09",
+      "created": "2026-08-09T22:55:33.231Z",
+      "slug": "was-der-entzug-im-gehirn-hinterlasst",
+      "rubrik": "science",
+      "lead": "Sechs Wochen ohne Oxycodon reichen nicht, um das Belohnungssystem zurückzusetzen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.7554/eLife.102189",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/was-der-entzug-im-gehirn-hinterlasst/"
+    },
+    {
+      "title": "Belohnung fürs Cleansein, per App",
+      "date": "2026-08-09",
+      "created": "2026-08-09T22:55:21.923Z",
+      "slug": "belohnung-furs-cleansein-per-app",
+      "rubrik": "science",
+      "lead": "Contingency Management, die Konditionierung durch Geldprämie für negative Drogentests, wandert vom Klinikflur aufs Smartphone.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/dar.70219",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/belohnung-furs-cleansein-per-app/"
+    },
+    {
+      "title": "Die Dosis, an der Angst sich löst",
+      "date": "2026-08-09",
+      "created": "2026-08-09T22:55:08.920Z",
+      "slug": "die-dosis-an-der-angst-sich-lost",
+      "rubrik": "science",
+      "lead": "Nagermodelle zeigen, dass Psychedelika die Furchtlöschung nur in einem schmalen Dosisfenster verstärken.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1177/02698811261464979",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/die-dosis-an-der-angst-sich-lost/"
+    },
     {
       "title": "Astrozyten ziehen sich zusammen, wenn Muskeln arbeiten",
       "date": "2026-08-08",
