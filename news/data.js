@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-09T22:55:33.302Z",
+  "generated": "2026-08-10T23:04:33.661Z",
   "hellmuth": [
+    {
+      "title": "Nichols kauft VITHIT",
+      "date": "2026-08-10",
+      "created": "2026-08-10T23:00:06.165Z",
+      "slug": "nichols-kauft-vithit",
+      "rubrik": "hellmuth",
+      "lead": "Der britische Getränkekonzern Nichols übernimmt die irische Marke VITHIT für 64 Millionen Pfund und dokumentiert damit, wo im Regal noch Wachstum vermutet wird.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/10/nichols-eyes-functional-drinks-growth-with-64m-purchase-of-vithit/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/nichols-kauft-vithit/"
+    },
     {
       "title": "Chagee koppelt Muttertag an Litschi und Rose",
       "date": "2026-08-09",
@@ -2216,6 +2230,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "PTSD hat zwei Achsen, nicht eine",
+      "date": "2026-08-10",
+      "created": "2026-08-10T23:04:33.574Z",
+      "slug": "ptsd-hat-zwei-achsen-nicht-eine",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv verschiebt die Grammatik der Traumafolgestörung von der Schwere zur Balance.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.05.26359316v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ptsd-hat-zwei-achsen-nicht-eine/"
+    },
+    {
+      "title": "Ohrclip gegen Angst",
+      "date": "2026-08-10",
+      "created": "2026-08-10T23:04:19.345Z",
+      "slug": "ohrclip-gegen-angst",
+      "rubrik": "science",
+      "lead": "Ein Preprint testet Vagusnerv-Stimulation über die Ohrmuschel als Regler subjektiver Furcht und findet ein neuronales Korrelat im Stirnhirn.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.07.26359962v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ohrclip-gegen-angst/"
+    },
+    {
+      "title": "Koffein, Schlaf, Depression: die Schleife wird vermessen",
+      "date": "2026-08-10",
+      "created": "2026-08-10T23:04:01.948Z",
+      "slug": "koffein-schlaf-depression-die-schleife-wird-vermessen",
+      "rubrik": "science",
+      "lead": "Koffeinkonsum als klinisches Muster rückt näher an die Suchtnosologie heran, wenn Schlaf und Stimmung ins Modell einziehen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.abrep.2026.100729",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/koffein-schlaf-depression-die-schleife-wird-vermessen/"
+    },
     {
       "title": "Was der Entzug im Gehirn hinterlässt",
       "date": "2026-08-09",
