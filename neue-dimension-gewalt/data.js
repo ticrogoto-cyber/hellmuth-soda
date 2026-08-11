@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-10T23:05:49.317Z",
+  "generated": "2026-08-11T23:12:28.839Z",
   "items": [
     {
       "title": "Heusenstamm und die rituelle Rahmung",
