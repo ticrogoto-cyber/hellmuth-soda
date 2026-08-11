@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-10T23:04:33.661Z",
+  "generated": "2026-08-11T23:09:46.636Z",
   "hellmuth": [
+    {
+      "title": "Olipop tauscht den Gründer gegen einen Elektrolyt-Manager",
+      "date": "2026-08-11",
+      "created": "2026-08-11T23:08:44.598Z",
+      "slug": "olipop-tauscht-den-grunder-gegen-einen-elektrolyt-manager",
+      "rubrik": "hellmuth",
+      "lead": "Die Prebiotic-Soda-Marke Olipop holt Christian Patiño Webb an die Spitze und schiebt Mitgründer Ben Goodwin auf einen Innovationsposten.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/olipop-announces-new-ceo-founder-goodwin-set-for-innovation-role",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/olipop-tauscht-den-grunder-gegen-einen-elektrolyt-manager/"
+    },
+    {
+      "title": "Asiens Cocktailkarte, neu gezeichnet",
+      "date": "2026-08-11",
+      "created": "2026-08-11T23:08:08.704Z",
+      "slug": "asiens-cocktailkarte-neu-gezeichnet",
+      "rubrik": "hellmuth",
+      "lead": "Die Rangordnung asiatischer Barmetropolen verschiebt sich, und diesmal nicht kosmetisch.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/08/comment-asias-cocktail-map-has-been-redrawn-again/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/asiens-cocktailkarte-neu-gezeichnet/"
+    },
+    {
+      "title": "Funktionale Eiswürfel",
+      "date": "2026-08-11",
+      "created": "2026-08-11T23:07:08.270Z",
+      "slug": "funktionale-eiswurfel",
+      "rubrik": "hellmuth",
+      "lead": "Die Getränkeindustrie sucht die nächste Trägersubstanz für Wirkversprechen und landet im Gefrierfach.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/08/11/functional-ice-cubes-aim-to-bring-personalized-nutrition-to-frozen/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/funktionale-eiswurfel/"
+    },
     {
       "title": "Nichols kauft VITHIT",
       "date": "2026-08-10",
@@ -2230,6 +2272,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Therapieresistente Schizophrenie hat eine eigene Genetik",
+      "date": "2026-08-11",
+      "created": "2026-08-11T23:09:46.561Z",
+      "slug": "therapieresistente-schizophrenie-hat-eine-eigene-genetik",
+      "rubrik": "science",
+      "lead": "Ein Viertel der Schizophrenie-Patienten spricht nicht auf Antipsychotika an, und die Ursache liegt offenbar jenseits des Dopaminsystems.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.06.26359853v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/therapieresistente-schizophrenie-hat-eine-eigene-genetik/"
+    },
+    {
+      "title": "Wenn Rauchen der Mutter im Blut des Kindes weiterschreibt",
+      "date": "2026-08-11",
+      "created": "2026-08-11T23:09:24.407Z",
+      "slug": "wenn-rauchen-der-mutter-im-blut-des-kindes-weiterschreibt",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Studie verortet den Weg von perinatalen Risiken zu späterem ADHS im epigenetischen Profil des Nabelschnurbluts.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.10.26360078v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-rauchen-der-mutter-im-blut-des-kindes-weiterschreibt/"
+    },
+    {
+      "title": "Cannabis, Psychose, Gewalt",
+      "date": "2026-08-11",
+      "created": "2026-08-11T23:09:04.743Z",
+      "slug": "cannabis-psychose-gewalt",
+      "rubrik": "science",
+      "lead": "Ein Review in Frontiers in Psychiatry sortiert Kasuistiken und Evidenz zum Dreieck aus THC, Psychose und aggressivem Verhalten neu.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3389/fpsyt.2026.1824748",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabis-psychose-gewalt/"
+    },
     {
       "title": "PTSD hat zwei Achsen, nicht eine",
       "date": "2026-08-10",
@@ -4987,34 +5071,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/"
-    },
-    {
-      "title": "Zwei Depressionen im Hirn",
-      "date": "2026-06-07",
-      "created": "2026-06-07T14:02:09.547Z",
-      "slug": "zwei-depressionen-im-hirn",
-      "rubrik": "science",
-      "lead": "Ein Preprint findet zwei neuroanatomische Muster bei jungen Depressiven, und nur eines davon trägt eine Entzündungssignatur.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.01.26354320v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwei-depressionen-im-hirn/"
-    },
-    {
-      "title": "Wenn das Belohnungszentrum vor Nähe warnt",
-      "date": "2026-06-07",
-      "created": "2026-06-07T12:52:57.683Z",
-      "slug": "wenn-das-belohnungszentrum-vor-nahe-warnt",
-      "rubrik": "science",
-      "lead": "Im Mausmodell für Autismus codiert der Nucleus accumbens soziale Begegnung als Bedrohung statt als Belohnung.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730003v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/wenn-das-belohnungszentrum-vor-nahe-warnt/"
     }
   ]
 }
