@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-11T23:09:46.636Z",
+  "generated": "2026-08-12T23:08:19.559Z",
   "hellmuth": [
+    {
+      "title": "Clean Label ist keine Subtraktionsübung mehr",
+      "date": "2026-08-12",
+      "created": "2026-08-12T23:06:09.448Z",
+      "slug": "clean-label-ist-keine-subtraktionsubung-mehr",
+      "rubrik": "hellmuth",
+      "lead": "Die Getränkeindustrie merkt, dass Weglassen allein keine Marke trägt.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/07/30/plus-and-minus-why-clean-label-success-goes-beyond-removing-ingredients/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/clean-label-ist-keine-subtraktionsubung-mehr/"
+    },
+    {
+      "title": "Yakult und die Grenzen der Darmerzählung",
+      "date": "2026-08-12",
+      "created": "2026-08-12T23:05:53.750Z",
+      "slug": "yakult-und-die-grenzen-der-darmerzahlung",
+      "rubrik": "hellmuth",
+      "lead": "Der japanische Fermentkonzern hat die Darmgesundheit als Massenmarkt erfunden und muss nun ein Feld verteidigen, das ihm entwächst.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/11/how-yakult-is-leading-the-gut-health-discussion/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/yakult-und-die-grenzen-der-darmerzahlung/"
+    },
+    {
+      "title": "Der Gründer räumt den Chefsessel bei Olipop",
+      "date": "2026-08-12",
+      "created": "2026-08-12T23:05:33.351Z",
+      "slug": "der-grunder-raumt-den-chefsessel-bei-olipop",
+      "rubrik": "hellmuth",
+      "lead": "Die Präbiotik-Limo, die den US-Getränkemarkt gegen die klassischen Braunen aufstellte, wechselt an der Spitze.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/12/olipop-founder-ben-goodwin-steps-into-innovation-role-as-christian-patino-webb-named-ceo/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-grunder-raumt-den-chefsessel-bei-olipop/"
+    },
     {
       "title": "Olipop tauscht den Gründer gegen einen Elektrolyt-Manager",
       "date": "2026-08-11",
@@ -2272,6 +2314,34 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Werkzeugkasten für die Psychedelika-Forschung",
+      "date": "2026-08-12",
+      "created": "2026-08-12T23:08:19.485Z",
+      "slug": "werkzeugkasten-fur-die-psychedelika-forschung",
+      "rubrik": "science",
+      "lead": "Die Debatte um Halluzinogene bekommt endlich das Instrumentarium, das ihr bislang fehlte.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02375-0",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/werkzeugkasten-fur-die-psychedelika-forschung/"
+    },
+    {
+      "title": "Ein Ereignis, eine Prägung",
+      "date": "2026-08-12",
+      "created": "2026-08-12T23:08:02.387Z",
+      "slug": "ein-ereignis-eine-pragung",
+      "rubrik": "science",
+      "lead": "Das Striatum lernt nicht durch Wiederholung, sondern durch chemische Markierung im ersten Anlauf.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02392-z",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/ein-ereignis-eine-pragung/"
+    },
     {
       "title": "Therapieresistente Schizophrenie hat eine eigene Genetik",
       "date": "2026-08-11",
@@ -5043,34 +5113,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni/"
-    },
-    {
-      "title": "Widrigkeit schreibt sich in die Mitochondrien der Immunzellen",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:20:59.327Z",
-      "slug": "widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der MiSBIE-Studie verknüpft Lebensbelastung, depressive Symptome und die Energieproduktion einzelner Immunzelltypen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.02.26354718v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/"
-    },
-    {
-      "title": "Hirnscans sagen psychotische Erfahrungen bei Jugendlichen voraus",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:20:37.089Z",
-      "slug": "hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus",
-      "rubrik": "science",
-      "lead": "Ein Preprint koppelt MRT-Daten von Neunjährigen an die Bahn, auf der psychosenahe Erlebnisse über Jahre verlaufen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.03.26354754v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/"
     }
   ]
 }

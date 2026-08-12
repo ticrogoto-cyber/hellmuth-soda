@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 11 Aug 2026 23:09:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:08:19 GMT</lastBuildDate>
+    <item>
+      <title>Werkzeugkasten für die Psychedelika-Forschung</title>
+      <link>https://hellmuth-soda.de/news/science/werkzeugkasten-fur-die-psychedelika-forschung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/werkzeugkasten-fur-die-psychedelika-forschung/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:08:19 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Debatte um Halluzinogene bekommt endlich das Instrumentarium, das ihr bislang fehlte.</description>
+    </item>
+    <item>
+      <title>Ein Ereignis, eine Prägung</title>
+      <link>https://hellmuth-soda.de/news/science/ein-ereignis-eine-pragung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-ereignis-eine-pragung/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:08:02 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Das Striatum lernt nicht durch Wiederholung, sondern durch chemische Markierung im ersten Anlauf.</description>
+    </item>
+    <item>
+      <title>Clean Label ist keine Subtraktionsübung mehr</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/clean-label-ist-keine-subtraktionsubung-mehr/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/clean-label-ist-keine-subtraktionsubung-mehr/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:06:09 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die Getränkeindustrie merkt, dass Weglassen allein keine Marke trägt.</description>
+    </item>
+    <item>
+      <title>Yakult und die Grenzen der Darmerzählung</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/yakult-und-die-grenzen-der-darmerzahlung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/yakult-und-die-grenzen-der-darmerzahlung/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:05:53 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der japanische Fermentkonzern hat die Darmgesundheit als Massenmarkt erfunden und muss nun ein Feld verteidigen, das ihm entwächst.</description>
+    </item>
+    <item>
+      <title>Der Gründer räumt den Chefsessel bei Olipop</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/der-grunder-raumt-den-chefsessel-bei-olipop/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/der-grunder-raumt-den-chefsessel-bei-olipop/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:05:33 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die Präbiotik-Limo, die den US-Getränkemarkt gegen die klassischen Braunen aufstellte, wechselt an der Spitze.</description>
+    </item>
     <item>
       <title>Therapieresistente Schizophrenie hat eine eigene Genetik</title>
       <link>https://hellmuth-soda.de/news/science/therapieresistente-schizophrenie-hat-eine-eigene-genetik/</link>
@@ -2846,22 +2886,6 @@
       <pubDate>Sun, 07 Jun 2026 16:21:15 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint findet in ostasiatischen Kohorten dieselbe paradoxe Überlappung zwischen Schizophrenie- und Bildungsgenen, die aus europäischen Daten bekannt ist.</description>
-    </item>
-    <item>
-      <title>Widrigkeit schreibt sich in die Mitochondrien der Immunzellen</title>
-      <link>https://hellmuth-soda.de/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:20:59 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der MiSBIE-Studie verknüpft Lebensbelastung, depressive Symptome und die Energieproduktion einzelner Immunzelltypen.</description>
-    </item>
-    <item>
-      <title>Hirnscans sagen psychotische Erfahrungen bei Jugendlichen voraus</title>
-      <link>https://hellmuth-soda.de/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:20:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint koppelt MRT-Daten von Neunjährigen an die Bahn, auf der psychosenahe Erlebnisse über Jahre verlaufen.</description>
     </item>
     <item>
       <title>Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet</title>

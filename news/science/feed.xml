@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 11 Aug 2026 23:09:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:08:19 GMT</lastBuildDate>
+    <item>
+      <title>Werkzeugkasten für die Psychedelika-Forschung</title>
+      <link>https://hellmuth-soda.de/news/science/werkzeugkasten-fur-die-psychedelika-forschung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/werkzeugkasten-fur-die-psychedelika-forschung/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:08:19 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Debatte um Halluzinogene bekommt endlich das Instrumentarium, das ihr bislang fehlte.</description>
+    </item>
+    <item>
+      <title>Ein Ereignis, eine Prägung</title>
+      <link>https://hellmuth-soda.de/news/science/ein-ereignis-eine-pragung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-ereignis-eine-pragung/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:08:02 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Das Striatum lernt nicht durch Wiederholung, sondern durch chemische Markierung im ersten Anlauf.</description>
+    </item>
     <item>
       <title>Therapieresistente Schizophrenie hat eine eigene Genetik</title>
       <link>https://hellmuth-soda.de/news/science/therapieresistente-schizophrenie-hat-eine-eigene-genetik/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Sun, 07 Jun 2026 16:21:15 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint findet in ostasiatischen Kohorten dieselbe paradoxe Überlappung zwischen Schizophrenie- und Bildungsgenen, die aus europäischen Daten bekannt ist.</description>
-    </item>
-    <item>
-      <title>Widrigkeit schreibt sich in die Mitochondrien der Immunzellen</title>
-      <link>https://hellmuth-soda.de/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/widrigkeit-schreibt-sich-in-die-mitochondrien-der-immunzellen/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:20:59 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der MiSBIE-Studie verknüpft Lebensbelastung, depressive Symptome und die Energieproduktion einzelner Immunzelltypen.</description>
-    </item>
-    <item>
-      <title>Hirnscans sagen psychotische Erfahrungen bei Jugendlichen voraus</title>
-      <link>https://hellmuth-soda.de/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hirnscans-sagen-psychotische-erfahrungen-bei-jugendlichen-voraus/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:20:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint koppelt MRT-Daten von Neunjährigen an die Bahn, auf der psychosenahe Erlebnisse über Jahre verlaufen.</description>
     </item>
   </channel>
 </rss>
