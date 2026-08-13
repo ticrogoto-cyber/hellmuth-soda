@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-12T23:08:19.559Z",
+  "generated": "2026-08-13T23:08:33.935Z",
   "hellmuth": [
+    {
+      "title": "Alkoholfrei für Erwachsene erreicht die Milliarde und verliert das Momentum",
+      "date": "2026-08-13",
+      "created": "2026-08-13T23:07:39.036Z",
+      "slug": "alkoholfrei-fur-erwachsene-erreicht-die-milliarde-und-verliert-das-momentum",
+      "rubrik": "hellmuth",
+      "lead": "Die Kategorie Adult Non-Alc hat in den USA erstmals eine Milliardenmarke geknackt und beginnt genau dort zu bröckeln, wo sie eben noch expandierte.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/adult-non-alc-in-2026-a-1-billion-category-with-a-splitting-playbook",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfrei-fur-erwachsene-erreicht-die-milliarde-und-verliert-das-momentum/"
+    },
+    {
+      "title": "Olipop wechselt an der Spitze",
+      "date": "2026-08-13",
+      "created": "2026-08-13T23:07:11.625Z",
+      "slug": "olipop-wechselt-an-der-spitze",
+      "rubrik": "hellmuth",
+      "lead": "Der Prebiotic-Soda-Spezialist Olipop übergibt die operative Führung an einen Manager aus dem Sportgetränke-Segment.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/olipop-new-ceo-ben-goodwin-Christian-Patino-Webb/827716/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/olipop-wechselt-an-der-spitze/"
+    },
+    {
+      "title": "Sake sucht Lateinamerika",
+      "date": "2026-08-13",
+      "created": "2026-08-13T23:06:47.803Z",
+      "slug": "sake-sucht-lateinamerika",
+      "rubrik": "hellmuth",
+      "lead": "Japans Nationalgetränk hat einen neuen Zielmarkt entdeckt, weil die alten saturiert sind.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/08/sakes-blue-ocean-latin-america-encounters-japans-national-drink/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/sake-sucht-lateinamerika/"
+    },
     {
       "title": "Clean Label ist keine Subtraktionsübung mehr",
       "date": "2026-08-12",
@@ -2314,6 +2356,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Oxytocin dämpft Angst, aber nur bei hoher Dosis Horror",
+      "date": "2026-08-13",
+      "created": "2026-08-13T23:08:33.857Z",
+      "slug": "oxytocin-dampft-angst-aber-nur-bei-hoher-dosis-horror",
+      "rubrik": "science",
+      "lead": "Ein Preprint deutet an, dass das Bindungshormon Oxytocin die präfrontale Angstregulation gerade dann umbaut, wenn die Bedrohung intensiv wird.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.11.26360155v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/oxytocin-dampft-angst-aber-nur-bei-hoher-dosis-horror/"
+    },
+    {
+      "title": "Kognitives Training gegen Depression, verkürzt",
+      "date": "2026-08-13",
+      "created": "2026-08-13T23:08:17.434Z",
+      "slug": "kognitives-training-gegen-depression-verkurzt",
+      "rubrik": "science",
+      "lead": "Ein fünfstündiges Trainingsprotokoll will leisten, wofür bisherige Programme Wochen brauchten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.12.26360264v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kognitives-training-gegen-depression-verkurzt/"
+    },
+    {
+      "title": "Nova-Protokoll dokumentiert das Trauma vom 7. Oktober prospektiv",
+      "date": "2026-08-13",
+      "created": "2026-08-13T23:07:59.749Z",
+      "slug": "nova-protokoll-dokumentiert-das-trauma-vom-7-oktober-prospektiv",
+      "rubrik": "science",
+      "lead": "Ein israelisches Preprint kartiert Überlebende des Nova-Festival-Angriffs über 24 Monate, viele davon während des Massakers unter Psychedelika.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.09.26359968v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nova-protokoll-dokumentiert-das-trauma-vom-7-oktober-prospektiv/"
+    },
     {
       "title": "Werkzeugkasten für die Psychedelika-Forschung",
       "date": "2026-08-12",
@@ -5071,48 +5155,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/hebbs-regel-bekommt-eine-ableitung/"
-    },
-    {
-      "title": "Darmflora und Innenwelt teilen sich Gene",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:21:44.453Z",
-      "slug": "darmflora-und-innenwelt-teilen-sich-gene",
-      "rubrik": "science",
-      "lead": "Eine Mendel-Randomisierung verschiebt die Darm-Hirn-Achse von der Korrelation in Richtung gemeinsamer genetischer Architektur, allerdings nur für eine Achse der Psyche.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.05.31.26354553v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/darmflora-und-innenwelt-teilen-sich-gene/"
-    },
-    {
-      "title": "Erstpsychose ohne Hirnalterung",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:21:31.747Z",
-      "slug": "erstpsychose-ohne-hirnalterung",
-      "rubrik": "science",
-      "lead": "Ein Preprint stellt eine zentrale Annahme der biologischen Psychiatrie infrage.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.05.25.26353865v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/erstpsychose-ohne-hirnalterung/"
-    },
-    {
-      "title": "Psychose, Stimmung, Bildung: ostasiatische Genetik bricht das europäische Muster nicht",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:21:15.379Z",
-      "slug": "psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni",
-      "rubrik": "science",
-      "lead": "Ein Preprint findet in ostasiatischen Kohorten dieselbe paradoxe Überlappung zwischen Schizophrenie- und Bildungsgenen, die aus europäischen Daten bekannt ist.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.01.26354666v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/psychose-stimmung-bildung-ostasiatische-genetik-bricht-das-europaische-muster-ni/"
     }
   ]
 }
