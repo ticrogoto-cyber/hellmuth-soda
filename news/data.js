@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-13T23:08:33.935Z",
+  "generated": "2026-08-14T22:46:36.458Z",
   "hellmuth": [
+    {
+      "title": "Vier Neuheiten aus dem US-Getränkeregal",
+      "date": "2026-08-14",
+      "created": "2026-08-14T22:45:42.007Z",
+      "slug": "vier-neuheiten-aus-dem-us-getrankeregal",
+      "rubrik": "hellmuth",
+      "lead": "Der amerikanische Beverage-Markt kadenziert im Wochenrhythmus neue SKUs, und die Novemberrunde zeigt, wohin die Nerven der Kategorie zucken.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-beverages-poppi-sour-apple-malk-milonga-5-hour-energy",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/vier-neuheiten-aus-dem-us-getrankeregal/"
+    },
+    {
+      "title": "PPWR zwingt die Getränkeindustrie zum Umbau",
+      "date": "2026-08-14",
+      "created": "2026-08-14T22:44:25.731Z",
+      "slug": "ppwr-zwingt-die-getrankeindustrie-zum-umbau",
+      "rubrik": "hellmuth",
+      "lead": "Die europäische Verpackungsverordnung wird 2026 verbindlich, und die Getränkebranche gehört zu den am härtesten getroffenen Sektoren.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/12/ppwr-6-things-manufacturers-need-to-know/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ppwr-zwingt-die-getrankeindustrie-zum-umbau/"
+    },
+    {
+      "title": "Olipop wechselt an der Spitze",
+      "date": "2026-08-14",
+      "created": "2026-08-14T22:43:48.874Z",
+      "slug": "olipop-wechselt-an-der-spitze",
+      "rubrik": "hellmuth",
+      "lead": "Der Gründer räumt den Chefsessel, sobald das Produkt zur Kategorie geworden ist.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/08/12/olipop-founder-ben-goodwin-steps-into-innovation-role-as-christian-patino-webb-named-ceo/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/olipop-wechselt-an-der-spitze/"
+    },
     {
       "title": "Alkoholfrei für Erwachsene erreicht die Milliarde und verliert das Momentum",
       "date": "2026-08-13",
@@ -2356,6 +2398,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Ein Bluttropfen liest das antidepressive Gehirn",
+      "date": "2026-08-14",
+      "created": "2026-08-14T22:46:36.373Z",
+      "slug": "ein-bluttropfen-liest-das-antidepressive-gehirn",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Psychiatrie behauptet, was der Depressionsdiagnostik seit Jahrzehnten fehlt: einen molekularen Marker, der die Wirkung eines Antidepressivums im Blut sichtbar macht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.11.26360193v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-bluttropfen-liest-das-antidepressive-gehirn/"
+    },
+    {
+      "title": "Wer der Stimme widerspricht, verliert sie",
+      "date": "2026-08-14",
+      "created": "2026-08-14T22:46:15.943Z",
+      "slug": "wer-der-stimme-widerspricht-verliert-sie",
+      "rubrik": "science",
+      "lead": "Psychosen-Therapie wirkt nicht, indem sie Stimmen zum Schweigen bringt, sondern indem sie das Machtgefälle kippt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.11.26360172v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-der-stimme-widerspricht-verliert-sie/"
+    },
+    {
+      "title": "Ketamin senkt genau die Marker, die als Heilung galten",
+      "date": "2026-08-14",
+      "created": "2026-08-14T22:46:04.256Z",
+      "slug": "ketamin-senkt-genau-die-marker-die-als-heilung-galten",
+      "rubrik": "science",
+      "lead": "Ein australisches Preprint findet nach niedrigdosiertem oralem Ketamin sinkende BDNF- und VEGF-A-Spiegel, während Depression und PTBS-Symptome nachlassen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.12.26360216v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ketamin-senkt-genau-die-marker-die-als-heilung-galten/"
+    },
     {
       "title": "Oxytocin dämpft Angst, aber nur bei hoher Dosis Horror",
       "date": "2026-08-13",
@@ -5113,48 +5197,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/mikroglia-entscheiden-uber-demenz-oder-resilienz/"
-    },
-    {
-      "title": "Astrozyten aus der Schublade",
-      "date": "2026-06-08",
-      "created": "2026-06-08T07:37:17.163Z",
-      "slug": "astrozyten-aus-der-schublade",
-      "rubrik": "science",
-      "lead": "Die Sternzellen des Gehirns lassen sich in Tagen statt Monaten herstellen, und das verschiebt den Zugriff auf das Immunsystem im Kopf.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730242v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/astrozyten-aus-der-schublade/"
-    },
-    {
-      "title": "Wie das Gehirn mehr Botenstoffe unterscheidet als Schaltkreise",
-      "date": "2026-06-08",
-      "created": "2026-06-08T07:36:59.920Z",
-      "slug": "wie-das-gehirn-mehr-botenstoffe-unterscheidet-als-schaltkreise",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Neurowissenschaft liefert eine Antwort auf ein altes Bottleneck-Problem der Hirnchemie.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729927v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wie-das-gehirn-mehr-botenstoffe-unterscheidet-als-schaltkreise/"
-    },
-    {
-      "title": "Hebbs Regel bekommt eine Ableitung",
-      "date": "2026-06-08",
-      "created": "2026-06-08T07:36:31.730Z",
-      "slug": "hebbs-regel-bekommt-eine-ableitung",
-      "rubrik": "science",
-      "lead": "Im Hippocampus richtet sich die Richtung synaptischer Plastizität nach der zeitlichen Änderung der Aktivität, nicht nach ihrem Niveau.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730489v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/hebbs-regel-bekommt-eine-ableitung/"
     }
   ]
 }
