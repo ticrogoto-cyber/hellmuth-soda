@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-13T23:12:30.792Z",
+  "generated": "2026-08-14T22:49:12.639Z",
   "items": [
     {
       "title": "Kollektive Gewalt im öffentlichen Raum als Justizvakuum",
