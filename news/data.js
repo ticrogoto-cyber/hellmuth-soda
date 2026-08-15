@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-14T22:46:36.458Z",
+  "generated": "2026-08-15T22:45:00.045Z",
   "hellmuth": [
+    {
+      "title": "Bubble Tea wird botanisch",
+      "date": "2026-08-15",
+      "created": "2026-08-15T22:44:10.168Z",
+      "slug": "bubble-tea-wird-botanisch",
+      "rubrik": "hellmuth",
+      "lead": "Malaysias größte Teekette rüstet auf Litschi, Osmanthus und Oolong um und verabschiedet sich stillschweigend vom Zuckersirup-Register.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/15/tealive-malaysia-elevates-tea-experience-with-lychee-osmanthus-jelly-series/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/bubble-tea-wird-botanisch/"
+    },
+    {
+      "title": "Chagee tarnt sich als indonesisch",
+      "date": "2026-08-15",
+      "created": "2026-08-15T22:43:48.355Z",
+      "slug": "chagee-tarnt-sich-als-indonesisch",
+      "rubrik": "hellmuth",
+      "lead": "Eine chinesische Teekette zum Nationalfeiertag mit Pandan und Kokos, das ist keine Hommage, sondern eine Marktzugangsstrategie.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/15/chagee-indonesia-marks-merdeka-with-pandan-inspired-milk-tea/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/chagee-tarnt-sich-als-indonesisch/"
+    },
+    {
+      "title": "Mountaintop baut die Rückseite des Functional-Booms",
+      "date": "2026-08-15",
+      "created": "2026-08-15T22:42:47.751Z",
+      "slug": "mountaintop-baut-die-ruckseite-des-functional-booms",
+      "rubrik": "hellmuth",
+      "lead": "Der Kapazitätsengpass der Functional-Beverage-Welle sitzt nicht im Marketing, sondern in der Abfüllhalle.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/mountaintop-beverage-plots-major-manufacturing-expansion-with-fresh-capital",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/mountaintop-baut-die-ruckseite-des-functional-booms/"
+    },
     {
       "title": "Vier Neuheiten aus dem US-Getränkeregal",
       "date": "2026-08-14",
@@ -2398,6 +2440,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Der Hippocampus tritt ab, aber nicht allein",
+      "date": "2026-08-15",
+      "created": "2026-08-15T22:44:59.967Z",
+      "slug": "der-hippocampus-tritt-ab-aber-nicht-allein",
+      "rubrik": "science",
+      "lead": "Ein Preprint verschiebt die Landkarte der Erinnerung und macht den entorhinalen Cortex zum eigentlichen Schaltmeister alter Gedächtnisinhalte.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743925v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-hippocampus-tritt-ab-aber-nicht-allein/"
+    },
+    {
+      "title": "Wachheit spült das Gehirn",
+      "date": "2026-08-15",
+      "created": "2026-08-15T22:44:42.809Z",
+      "slug": "wachheit-spult-das-gehirn",
+      "rubrik": "science",
+      "lead": "Die Reinigung des Hirns hängt nicht nur am Schlaf, sondern auch daran, wie lange und zu welcher Tageszeit man wach ist.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743907v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wachheit-spult-das-gehirn/"
+    },
+    {
+      "title": "Stimme und Sinn als Doppelmesser",
+      "date": "2026-08-15",
+      "created": "2026-08-15T22:44:28.432Z",
+      "slug": "stimme-und-sinn-als-doppelmesser",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv baut zwei getrennte Sprachindizes für Psychose und zeigt, dass Klang und Bedeutung verschiedene Symptome verraten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.11.26360092v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/stimme-und-sinn-als-doppelmesser/"
+    },
     {
       "title": "Ein Bluttropfen liest das antidepressive Gehirn",
       "date": "2026-08-14",
@@ -5155,48 +5239,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/zwei-krankheiten-ein-mitochondrialer-bruch/"
-    },
-    {
-      "title": "Polygenes Risiko vererbt sich auch an die Gesunden",
-      "date": "2026-06-08",
-      "created": "2026-06-08T23:42:54.731Z",
-      "slug": "polygenes-risiko-vererbt-sich-auch-an-die-gesunden",
-      "rubrik": "science",
-      "lead": "Eine kanadische Familienstudie als Preprint findet erhöhte Schizophrenie- und Bipolar-Risikoscores nicht nur bei Erkrankten, sondern auch bei deren symptomfreien erwachsenen Verwandten.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26354912v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/polygenes-risiko-vererbt-sich-auch-an-die-gesunden/"
-    },
-    {
-      "title": "Darmbakterien greifen in den Hormonhaushalt ein",
-      "date": "2026-06-08",
-      "created": "2026-06-08T07:38:01.534Z",
-      "slug": "darmbakterien-greifen-in-den-hormonhaushalt-ein",
-      "rubrik": "science",
-      "lead": "Die Mikrobiota verstoffwechselt Sexualhormone und steuert darüber die Motorik des Darms.",
-      "source_name": "Nature Neuroscience",
-      "source_url": "https://www.nature.com/articles/s41593-026-02338-5",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/darmbakterien-greifen-in-den-hormonhaushalt-ein/"
-    },
-    {
-      "title": "Mikroglia entscheiden über Demenz oder Resilienz",
-      "date": "2026-06-08",
-      "created": "2026-06-08T07:37:46.019Z",
-      "slug": "mikroglia-entscheiden-uber-demenz-oder-resilienz",
-      "rubrik": "science",
-      "lead": "Der Kipppunkt zwischen Amyloid und Tau liegt nicht in den Plaques, sondern in den Immunzellen des Gehirns.",
-      "source_name": "Nature Medicine",
-      "source_url": "https://www.nature.com/articles/s41591-026-04393-8",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/mikroglia-entscheiden-uber-demenz-oder-resilienz/"
     }
   ]
 }
