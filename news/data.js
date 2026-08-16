@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-15T22:45:00.045Z",
+  "generated": "2026-08-16T22:43:01.097Z",
   "hellmuth": [
+    {
+      "title": "Milo verlässt das Kinderzimmer",
+      "date": "2026-08-16",
+      "created": "2026-08-16T22:42:09.729Z",
+      "slug": "milo-verlasst-das-kinderzimmer",
+      "rubrik": "hellmuth",
+      "lead": "Nestlé Vietnam zieht die malzige Kakaomarke in zwei Erwachsenensegmente, in denen sie bislang nichts zu suchen hatte.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/14/nestle-vietnam-unveils-milo-pro-and-milo-with-coffee-in-220ml-cans/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/milo-verlasst-das-kinderzimmer/"
+    },
+    {
+      "title": "Pu'er als Plattform in der thailändischen Kühltheke",
+      "date": "2026-08-16",
+      "created": "2026-08-16T22:41:49.759Z",
+      "slug": "pu-er-als-plattform-in-der-thailandischen-kuhltheke",
+      "rubrik": "hellmuth",
+      "lead": "Cha Jing verlängert seine Ready-to-drink-Linie um zwei Sorten und behandelt Yunnan-Pu'er wie eine Basisspirituose.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/15/cha-jing-expands-with-two-new-flavours-floral-and-fruity/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/pu-er-als-plattform-in-der-thailandischen-kuhltheke/"
+    },
+    {
+      "title": "Masan poliert Bupnon Tea 365 nach",
+      "date": "2026-08-16",
+      "created": "2026-08-16T22:41:31.992Z",
+      "slug": "masan-poliert-bupnon-tea-365-nach",
+      "rubrik": "hellmuth",
+      "lead": "Vietnams RTD-Teemarkt wird enger, und Masan reagiert mit Verpackung statt mit Rezeptur.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/16/masans-bupnon-tea-365-refreshes-with-new-packaging/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/masan-poliert-bupnon-tea-365-nach/"
+    },
     {
       "title": "Bubble Tea wird botanisch",
       "date": "2026-08-15",
@@ -2440,6 +2482,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Parkinson schläft anders",
+      "date": "2026-08-16",
+      "created": "2026-08-16T22:43:01.012Z",
+      "slug": "parkinson-schlaft-anders",
+      "rubrik": "science",
+      "lead": "Die Bewegungsstarre der Parkinson-Patienten ist keine Konstante, sondern eine Frage des Hirnzustands.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743926v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/parkinson-schlaft-anders/"
+    },
+    {
+      "title": "Alzheimer trifft Männer- und Frauenhirne unterschiedlich, und ein Adapterprotein zeigt warum",
+      "date": "2026-08-16",
+      "created": "2026-08-16T22:42:44.403Z",
+      "slug": "alzheimer-trifft-manner-und-frauenhirne-unterschiedlich-und-ein-adapterprotein-z",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft legt offen, warß-Arrestin2 im Alzheimer-Modell je nach Geschlecht gegenläufig wirkt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743981v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-trifft-manner-und-frauenhirne-unterschiedlich-und-ein-adapterprotein-z/"
+    },
+    {
+      "title": "Warum epileptische Synapsen das Vergessen verlernen",
+      "date": "2026-08-16",
+      "created": "2026-08-16T22:42:27.760Z",
+      "slug": "warum-epileptische-synapsen-das-vergessen-verlernen",
+      "rubrik": "science",
+      "lead": "Ein Preprint modelliert, warum in epileptischen Synapsen die Langzeit-Depression kippt und stattdessen Potenzierung entsteht.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743452v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/warum-epileptische-synapsen-das-vergessen-verlernen/"
+    },
     {
       "title": "Der Hippocampus tritt ab, aber nicht allein",
       "date": "2026-08-15",
@@ -5197,48 +5281,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/was-raucher-sehen-wenn-sie-eine-zigarette-sehen/"
-    },
-    {
-      "title": "Pränatale Substanzexposition senkt das Geburtsgewicht",
-      "date": "2026-06-09",
-      "created": "2026-06-09T23:47:52.664Z",
-      "slug": "pranatale-substanzexposition-senkt-das-geburtsgewicht",
-      "rubrik": "science",
-      "lead": "Eine US-Kohortenstudie verknüpft Drogenkonsum in der Schwangerschaft mit messbar leichteren Neugeborenen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1542/peds.2025-074604",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/pranatale-substanzexposition-senkt-das-geburtsgewicht/"
-    },
-    {
-      "title": "Hirnstamm in Hochauflösung",
-      "date": "2026-06-08",
-      "created": "2026-06-08T23:44:02.974Z",
-      "slug": "hirnstamm-in-hochauflosung",
-      "rubrik": "science",
-      "lead": "Ein neuer Atlas kartiert die unterste Etage des Gehirns über drei Lebensalter hinweg, in einer Tiefe, die bisher fehlte.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.727794v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/hirnstamm-in-hochauflosung/"
-    },
-    {
-      "title": "Zwei Krankheiten, ein mitochondrialer Bruch",
-      "date": "2026-06-08",
-      "created": "2026-06-08T23:43:16.784Z",
-      "slug": "zwei-krankheiten-ein-mitochondrialer-bruch",
-      "rubrik": "science",
-      "lead": "Leigh-Syndrom und Chorea Huntington haben nichts gemeinsam, außer dem Punkt, an dem die Zelle aufhört zu funktionieren.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.08.730157v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwei-krankheiten-ein-mitochondrialer-bruch/"
     }
   ]
 }

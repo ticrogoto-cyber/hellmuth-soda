@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 15 Aug 2026 22:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 22:43:01 GMT</lastBuildDate>
+    <item>
+      <title>Parkinson schläft anders</title>
+      <link>https://hellmuth-soda.de/news/science/parkinson-schlaft-anders/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/parkinson-schlaft-anders/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:43:01 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Bewegungsstarre der Parkinson-Patienten ist keine Konstante, sondern eine Frage des Hirnzustands.</description>
+    </item>
+    <item>
+      <title>Alzheimer trifft Männer- und Frauenhirne unterschiedlich, und ein Adapterprotein zeigt warum</title>
+      <link>https://hellmuth-soda.de/news/science/alzheimer-trifft-manner-und-frauenhirne-unterschiedlich-und-ein-adapterprotein-z/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-trifft-manner-und-frauenhirne-unterschiedlich-und-ein-adapterprotein-z/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:42:44 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Neurowissenschaft legt offen, warß-Arrestin2 im Alzheimer-Modell je nach Geschlecht gegenläufig wirkt.</description>
+    </item>
+    <item>
+      <title>Warum epileptische Synapsen das Vergessen verlernen</title>
+      <link>https://hellmuth-soda.de/news/science/warum-epileptische-synapsen-das-vergessen-verlernen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-epileptische-synapsen-das-vergessen-verlernen/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:42:27 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint modelliert, warum in epileptischen Synapsen die Langzeit-Depression kippt und stattdessen Potenzierung entsteht.</description>
+    </item>
+    <item>
+      <title>Milo verlässt das Kinderzimmer</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/milo-verlasst-das-kinderzimmer/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/milo-verlasst-das-kinderzimmer/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:42:09 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Nestlé Vietnam zieht die malzige Kakaomarke in zwei Erwachsenensegmente, in denen sie bislang nichts zu suchen hatte.</description>
+    </item>
+    <item>
+      <title>Pu'er als Plattform in der thailändischen Kühltheke</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/pu-er-als-plattform-in-der-thailandischen-kuhltheke/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/pu-er-als-plattform-in-der-thailandischen-kuhltheke/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:41:49 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Cha Jing verlängert seine Ready-to-drink-Linie um zwei Sorten und behandelt Yunnan-Pu'er wie eine Basisspirituose.</description>
+    </item>
+    <item>
+      <title>Masan poliert Bupnon Tea 365 nach</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/masan-poliert-bupnon-tea-365-nach/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/masan-poliert-bupnon-tea-365-nach/</guid>
+      <pubDate>Sun, 16 Aug 2026 22:41:31 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Vietnams RTD-Teemarkt wird enger, und Masan reagiert mit Verpackung statt mit Rezeptur.</description>
+    </item>
     <item>
       <title>Der Hippocampus tritt ab, aber nicht allein</title>
       <link>https://hellmuth-soda.de/news/science/der-hippocampus-tritt-ab-aber-nicht-allein/</link>
@@ -2848,14 +2896,6 @@
       <description>Bei Tabakabhängigkeit verschiebt sich nicht der Geschmack, sondern die Aufmerksamkeit.</description>
     </item>
     <item>
-      <title>Pränatale Substanzexposition senkt das Geburtsgewicht</title>
-      <link>https://hellmuth-soda.de/news/science/pranatale-substanzexposition-senkt-das-geburtsgewicht/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/pranatale-substanzexposition-senkt-das-geburtsgewicht/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:47:52 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine US-Kohortenstudie verknüpft Drogenkonsum in der Schwangerschaft mit messbar leichteren Neugeborenen.</description>
-    </item>
-    <item>
       <title>Hoplark poliert die Marke</title>
       <link>https://hellmuth-soda.de/news/hellmuth/hoplark-poliert-die-marke/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/hoplark-poliert-die-marke/</guid>
@@ -2878,22 +2918,6 @@
       <pubDate>Tue, 09 Jun 2026 23:46:06 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Was als Ernährungspflicht galt, wird zur Geschmacksrichtung.</description>
-    </item>
-    <item>
-      <title>Hirnstamm in Hochauflösung</title>
-      <link>https://hellmuth-soda.de/news/science/hirnstamm-in-hochauflosung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hirnstamm-in-hochauflosung/</guid>
-      <pubDate>Mon, 08 Jun 2026 23:44:02 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein neuer Atlas kartiert die unterste Etage des Gehirns über drei Lebensalter hinweg, in einer Tiefe, die bisher fehlte.</description>
-    </item>
-    <item>
-      <title>Zwei Krankheiten, ein mitochondrialer Bruch</title>
-      <link>https://hellmuth-soda.de/news/science/zwei-krankheiten-ein-mitochondrialer-bruch/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-krankheiten-ein-mitochondrialer-bruch/</guid>
-      <pubDate>Mon, 08 Jun 2026 23:43:16 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Leigh-Syndrom und Chorea Huntington haben nichts gemeinsam, außer dem Punkt, an dem die Zelle aufhört zu funktionieren.</description>
     </item>
     <item>
       <title>Eistee als Pulverstift</title>
