@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 16 Aug 2026 22:43:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 22:47:07 GMT</lastBuildDate>
+    <item>
+      <title>NOP-Rezeptoren reagieren auf Alkohol geschlechtsspezifisch</title>
+      <link>https://hellmuth-soda.de/news/science/nop-rezeptoren-reagieren-auf-alkohol-geschlechtsspezifisch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nop-rezeptoren-reagieren-auf-alkohol-geschlechtsspezifisch/</guid>
+      <pubDate>Mon, 17 Aug 2026 22:47:07 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Der Nozizeptin-Rezeptor gilt als Kandidat für Anti-Craving-Medikamente, verhält sich im Primatenhirn aber je nach Geschlecht anders.</description>
+    </item>
+    <item>
+      <title>Was heißt eigentlich psychedelisch</title>
+      <link>https://hellmuth-soda.de/news/science/was-heisst-eigentlich-psychedelisch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/was-heisst-eigentlich-psychedelisch/</guid>
+      <pubDate>Mon, 17 Aug 2026 22:46:55 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein neues Papier im Journal of Psychopharmacology unternimmt den Versuch, den Begriff »psychedelisch« sauber zu definieren.</description>
+    </item>
+    <item>
+      <title>Cannabis-App gegen Psychose</title>
+      <link>https://hellmuth-soda.de/news/science/cannabis-app-gegen-psychose/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-app-gegen-psychose/</guid>
+      <pubDate>Mon, 17 Aug 2026 22:46:44 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Frühintervention bei Psychosen sucht digitale Krücken, weil das Gespräch mit dem Behandler das Kernproblem umgeht.</description>
+    </item>
     <item>
       <title>Parkinson schläft anders</title>
       <link>https://hellmuth-soda.de/news/science/parkinson-schlaft-anders/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Wed, 10 Jun 2026 23:53:27 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein erhöhter Entzündungsmarker im Blut älterer Menschen erhöht das Risiko späterer depressiver Symptome, doch niedrig dosiertes Aspirin bricht diesen Zusammenhang nicht.</description>
-    </item>
-    <item>
-      <title>Ein MRT, ein Jahr Vorlauf</title>
-      <link>https://hellmuth-soda.de/news/science/ein-mrt-ein-jahr-vorlauf/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-mrt-ein-jahr-vorlauf/</guid>
-      <pubDate>Wed, 10 Jun 2026 23:53:12 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Adoleszente Depression und Angst lassen sich aus einem einzigen Ruhe-MRT vorhersagen, bevor Symptome sich verfestigen.</description>
-    </item>
-    <item>
-      <title>BDNF zwischen Leber und Hirn</title>
-      <link>https://hellmuth-soda.de/news/science/bdnf-zwischen-leber-und-hirn/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/bdnf-zwischen-leber-und-hirn/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:48:18 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Alkoholabhängigkeit wird zunehmend als Stoffwechselkrankheit gelesen, die im Kopf endet.</description>
-    </item>
-    <item>
-      <title>Was Raucher sehen, wenn sie eine Zigarette sehen</title>
-      <link>https://hellmuth-soda.de/news/science/was-raucher-sehen-wenn-sie-eine-zigarette-sehen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/was-raucher-sehen-wenn-sie-eine-zigarette-sehen/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:48:06 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Bei Tabakabhängigkeit verschiebt sich nicht der Geschmack, sondern die Aufmerksamkeit.</description>
     </item>
   </channel>
 </rss>

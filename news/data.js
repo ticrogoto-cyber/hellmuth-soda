@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-16T22:43:01.097Z",
+  "generated": "2026-08-17T22:47:07.681Z",
   "hellmuth": [
+    {
+      "title": "Jones Soda lebt von fremden Logos",
+      "date": "2026-08-17",
+      "created": "2026-08-17T22:46:24.749Z",
+      "slug": "jones-soda-lebt-von-fremden-logos",
+      "rubrik": "hellmuth",
+      "lead": "Der Nostalgie-Getränkehersteller hält sich im zweiten Quartal über Wasser, weil andere Marken ihn buchen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/jones-soda-revenue-rebounds-in-q2-as-branded-collabs-offset-modern-soda-adult-bev-declines",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/jones-soda-lebt-von-fremden-logos/"
+    },
+    {
+      "title": "Zevia soll sich verkaufen",
+      "date": "2026-08-17",
+      "created": "2026-08-17T22:46:12.140Z",
+      "slug": "zevia-soll-sich-verkaufen",
+      "rubrik": "hellmuth",
+      "lead": "Der Pionier der zuckerfreien Limo hat die Kategorie verloren, die er selbst eröffnet hat.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/zevia-shareholder-calls-for-sale-as-brand-missed-the-category-it-helped-create",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zevia-soll-sich-verkaufen/"
+    },
+    {
+      "title": "Functional Drinks vor der Beweispflicht",
+      "date": "2026-08-17",
+      "created": "2026-08-17T22:44:59.820Z",
+      "slug": "functional-drinks-vor-der-beweispflicht",
+      "rubrik": "hellmuth",
+      "lead": "Der Markt für funktionale Getränke wächst schneller als die Evidenz, die ihn tragen soll.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/10/can-functional-drinks-deliver-on-their-health-claims/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/functional-drinks-vor-der-beweispflicht/"
+    },
     {
       "title": "Milo verlässt das Kinderzimmer",
       "date": "2026-08-16",
@@ -2482,6 +2524,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "NOP-Rezeptoren reagieren auf Alkohol geschlechtsspezifisch",
+      "date": "2026-08-17",
+      "created": "2026-08-17T22:47:07.610Z",
+      "slug": "nop-rezeptoren-reagieren-auf-alkohol-geschlechtsspezifisch",
+      "rubrik": "science",
+      "lead": "Der Nozizeptin-Rezeptor gilt als Kandidat für Anti-Craving-Medikamente, verhält sich im Primatenhirn aber je nach Geschlecht anders.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/bcpt.70282",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/nop-rezeptoren-reagieren-auf-alkohol-geschlechtsspezifisch/"
+    },
+    {
+      "title": "Was heißt eigentlich psychedelisch",
+      "date": "2026-08-17",
+      "created": "2026-08-17T22:46:55.490Z",
+      "slug": "was-heisst-eigentlich-psychedelisch",
+      "rubrik": "science",
+      "lead": "Ein neues Papier im Journal of Psychopharmacology unternimmt den Versuch, den Begriff »psychedelisch« sauber zu definieren.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1177/02698811261464986",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/was-heisst-eigentlich-psychedelisch/"
+    },
+    {
+      "title": "Cannabis-App gegen Psychose",
+      "date": "2026-08-17",
+      "created": "2026-08-17T22:46:44.361Z",
+      "slug": "cannabis-app-gegen-psychose",
+      "rubrik": "science",
+      "lead": "Die Frühintervention bei Psychosen sucht digitale Krücken, weil das Gespräch mit dem Behandler das Kernproblem umgeht.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/add.70581",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabis-app-gegen-psychose/"
+    },
     {
       "title": "Parkinson schläft anders",
       "date": "2026-08-16",
@@ -5239,48 +5323,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/entzundung-sagt-altersdepression-voraus-aspirin-andert-daran-nichts/"
-    },
-    {
-      "title": "Ein MRT, ein Jahr Vorlauf",
-      "date": "2026-06-10",
-      "created": "2026-06-10T23:53:12.423Z",
-      "slug": "ein-mrt-ein-jahr-vorlauf",
-      "rubrik": "science",
-      "lead": "Adoleszente Depression und Angst lassen sich aus einem einzigen Ruhe-MRT vorhersagen, bevor Symptome sich verfestigen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.08.26355206v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-mrt-ein-jahr-vorlauf/"
-    },
-    {
-      "title": "BDNF zwischen Leber und Hirn",
-      "date": "2026-06-09",
-      "created": "2026-06-09T23:48:18.199Z",
-      "slug": "bdnf-zwischen-leber-und-hirn",
-      "rubrik": "science",
-      "lead": "Alkoholabhängigkeit wird zunehmend als Stoffwechselkrankheit gelesen, die im Kopf endet.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1134/S000629792660078X",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/bdnf-zwischen-leber-und-hirn/"
-    },
-    {
-      "title": "Was Raucher sehen, wenn sie eine Zigarette sehen",
-      "date": "2026-06-09",
-      "created": "2026-06-09T23:48:06.380Z",
-      "slug": "was-raucher-sehen-wenn-sie-eine-zigarette-sehen",
-      "rubrik": "science",
-      "lead": "Bei Tabakabhängigkeit verschiebt sich nicht der Geschmack, sondern die Aufmerksamkeit.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1111/adb.70151",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/was-raucher-sehen-wenn-sie-eine-zigarette-sehen/"
     }
   ]
 }
