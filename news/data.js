@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-17T22:47:07.681Z",
+  "generated": "2026-08-18T22:46:58.596Z",
   "hellmuth": [
+    {
+      "title": "Calaveras setzt auf Zucker als Feature",
+      "date": "2026-08-18",
+      "created": "2026-08-18T22:46:12.366Z",
+      "slug": "calaveras-setzt-auf-zucker-als-feature",
+      "rubrik": "hellmuth",
+      "lead": "Ein neuer Energy-Drink versucht, den Zuckerverzicht nicht als Tugend zu inszenieren, sondern als Option unter zweien.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-calaveras-is-giving-energy-with-soul",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/calaveras-setzt-auf-zucker-als-feature/"
+    },
+    {
+      "title": "Matcha will der neue Espresso an der Bar werden",
+      "date": "2026-08-18",
+      "created": "2026-08-18T22:45:58.553Z",
+      "slug": "matcha-will-der-neue-espresso-an-der-bar-werden",
+      "rubrik": "hellmuth",
+      "lead": "Ein US-Likör verwettet die eigene Expansion darauf, dass sich der Erfolg des Espresso Martini mit grünem Tee wiederholen lässt.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/yoshi-is-betting-matchatinis-can-repeat-espressos-cocktail-success",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/matcha-will-der-neue-espresso-an-der-bar-werden/"
+    },
+    {
+      "title": "Sazerac kauft Au Vodka",
+      "date": "2026-08-18",
+      "created": "2026-08-18T22:45:29.340Z",
+      "slug": "sazerac-kauft-au-vodka",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Spirituosenkonzern Sazerac übernimmt die britische Dosencocktail-Marke Au Vodka und rüstet sein RTD-Portfolio auf.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/sazerac-buys-au-vodka-rtd-cocktail-expansion/828122/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sazerac-kauft-au-vodka/"
+    },
     {
       "title": "Jones Soda lebt von fremden Logos",
       "date": "2026-08-17",
@@ -2524,6 +2566,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Zwischen den Episoden bleibt der Schaden",
+      "date": "2026-08-18",
+      "created": "2026-08-18T22:46:58.502Z",
+      "slug": "zwischen-den-episoden-bleibt-der-schaden",
+      "rubrik": "science",
+      "lead": "Depression und bipolare Störung hinterlassen dieselben kognitiven Löcher, auch wenn die Episode vorbei ist.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.16.26360541v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwischen-den-episoden-bleibt-der-schaden/"
+    },
+    {
+      "title": "Wer nach der Schläfenlappen-OP was verliert, steht vorher in den Testergebnissen",
+      "date": "2026-08-18",
+      "created": "2026-08-18T22:46:46.115Z",
+      "slug": "wer-nach-der-schlafenlappen-op-was-verliert-steht-vorher-in-den-testergebnissen",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv sortiert Epilepsie-Patienten vor dem Eingriff in drei kognitive Subtypen und sagt damit präziser voraus, welche Funktion nach der Resektion kippt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360571v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-nach-der-schlafenlappen-op-was-verliert-steht-vorher-in-den-testergebnissen/"
+    },
+    {
+      "title": "Resilienz als Forschungsgegenstand nach dem 7. Oktober",
+      "date": "2026-08-18",
+      "created": "2026-08-18T22:46:28.771Z",
+      "slug": "resilienz-als-forschungsgegenstand-nach-dem-7-oktober",
+      "rubrik": "science",
+      "lead": "Die Psychiatrie hat jahrzehntelang das Scheitern nach Trauma vermessen und das Standhalten übersehen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360579v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/resilienz-als-forschungsgegenstand-nach-dem-7-oktober/"
+    },
     {
       "title": "NOP-Rezeptoren reagieren auf Alkohol geschlechtsspezifisch",
       "date": "2026-08-17",
@@ -5281,48 +5365,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt/"
-    },
-    {
-      "title": "Trauma, Cannabis und das Methylom des Teenagers",
-      "date": "2026-06-11",
-      "created": "2026-06-11T23:58:55.157Z",
-      "slug": "trauma-cannabis-und-das-methylom-des-teenagers",
-      "rubrik": "science",
-      "lead": "Eine Preprint-Studie aus der ALSPAC-Kohorte sucht die biologische Spur früher Gewalt im Blut Siebzehnjähriger.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355257v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/trauma-cannabis-und-das-methylom-des-teenagers/"
-    },
-    {
-      "title": "Bewusstlosigkeit zieht das Gehirn zurück auf seine Anatomie",
-      "date": "2026-06-10",
-      "created": "2026-06-10T23:53:44.495Z",
-      "slug": "bewusstlosigkeit-zieht-das-gehirn-zuruck-auf-seine-anatomie",
-      "rubrik": "science",
-      "lead": "Wenn das Bewusstsein wegbricht, folgt die funktionelle Architektur des Gehirns nicht mehr der Kognition, sondern der Hardware.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730661v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/bewusstlosigkeit-zieht-das-gehirn-zuruck-auf-seine-anatomie/"
-    },
-    {
-      "title": "Entzündung sagt Altersdepression voraus, Aspirin ändert daran nichts",
-      "date": "2026-06-10",
-      "created": "2026-06-10T23:53:27.352Z",
-      "slug": "entzundung-sagt-altersdepression-voraus-aspirin-andert-daran-nichts",
-      "rubrik": "science",
-      "lead": "Ein erhöhter Entzündungsmarker im Blut älterer Menschen erhöht das Risiko späterer depressiver Symptome, doch niedrig dosiertes Aspirin bricht diesen Zusammenhang nicht.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.05.26354416v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/entzundung-sagt-altersdepression-voraus-aspirin-andert-daran-nichts/"
     }
   ]
 }
