@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-18T22:51:22.110Z",
+  "generated": "2026-08-19T22:51:40.429Z",
   "items": [
     {
       "title": "Rüthen, Kreis Soest. Feuerwehrmänner als Brandstifter",
