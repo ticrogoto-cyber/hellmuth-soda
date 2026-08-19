@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-18T22:46:58.596Z",
+  "generated": "2026-08-19T22:46:56.315Z",
   "hellmuth": [
+    {
+      "title": "Matcha verliert sein Ritual",
+      "date": "2026-08-19",
+      "created": "2026-08-19T22:46:15.195Z",
+      "slug": "matcha-verliert-sein-ritual",
+      "rubrik": "hellmuth",
+      "lead": "Der Aufstieg des Pulvertees zur Alltagsware kappt genau jene Zeremonie, die ihn erst zur Premium-Marke gemacht hat.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/19/matchas-cpg-boom-from-cafe-ritual-to-convenience/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/matcha-verliert-sein-ritual/"
+    },
+    {
+      "title": "Getränke werden zu Sammelobjekten",
+      "date": "2026-08-19",
+      "created": "2026-08-19T22:46:00.138Z",
+      "slug": "getranke-werden-zu-sammelobjekten",
+      "rubrik": "hellmuth",
+      "lead": "Die Grenze zwischen Flasche und Merchandise verschwimmt, und das ist kein Marketingtrick, sondern eine Verschiebung der Kategorie.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/19/from-collectibles-to-drop-culture-the-trends-transforming-beverages/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/getranke-werden-zu-sammelobjekten/"
+    },
+    {
+      "title": "Kirin verdient an Bakterien",
+      "date": "2026-08-19",
+      "created": "2026-08-19T22:45:34.780Z",
+      "slug": "kirin-verdient-an-bakterien",
+      "rubrik": "hellmuth",
+      "lead": "Der japanische Getränkekonzern Kirin baut das Geschäft mit fermentierten und probiotischen Drinks in Asien systematisch aus, und die Wette geht auf.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/08/19/kirins-big-biotic-drinks-bet-pays-off-in-asia/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kirin-verdient-an-bakterien/"
+    },
     {
       "title": "Calaveras setzt auf Zucker als Feature",
       "date": "2026-08-18",
@@ -2566,6 +2608,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Zwischen den Episoden ist die Krankheit nicht weg",
+      "date": "2026-08-19",
+      "created": "2026-08-19T22:46:56.234Z",
+      "slug": "zwischen-den-episoden-ist-die-krankheit-nicht-weg",
+      "rubrik": "science",
+      "lead": "Ein medRxiv-Preprint zeigt, dass affektive Störungen den Körper auch dann prägen, wenn die Symptome pausieren.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.16.26360544v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwischen-den-episoden-ist-die-krankheit-nicht-weg/"
+    },
+    {
+      "title": "Diagnosen zerfallen, die Karte bleibt",
+      "date": "2026-08-19",
+      "created": "2026-08-19T22:46:43.600Z",
+      "slug": "diagnosen-zerfallen-die-karte-bleibt",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem ENIGMA-Konsortium ordnet sechs psychiatrische Diagnosen entlang derselben anatomischen Achsen im Gehirn.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.13.26360304v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/diagnosen-zerfallen-die-karte-bleibt/"
+    },
+    {
+      "title": "Wer sich in Oregon auf Psilocybin vorbereiten lässt",
+      "date": "2026-08-19",
+      "created": "2026-08-19T22:46:30.504Z",
+      "slug": "wer-sich-in-oregon-auf-psilocybin-vorbereiten-lasst",
+      "rubrik": "science",
+      "lead": "Die erste US-Bundesstaatsstudie zu einem Beratungsdienst für psychedelische Risikominderung zeigt ein Klientel, das der Legalisierungserzählung widerspricht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.17.26360633v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-sich-in-oregon-auf-psilocybin-vorbereiten-lasst/"
+    },
     {
       "title": "Zwischen den Episoden bleibt der Schaden",
       "date": "2026-08-18",
@@ -5323,48 +5407,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/ligustrazin-gegen-alkohol-hirn/"
-    },
-    {
-      "title": "Nikotin-Review räumt die Werkstatt auf",
-      "date": "2026-06-12",
-      "created": "2026-06-12T23:58:55.945Z",
-      "slug": "nikotin-review-raumt-die-werkstatt-auf",
-      "rubrik": "science",
-      "lead": "Ein neues Übersichtspapier sortiert, was Nikotin im Nervensystem tatsächlich anrichtet.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.cbi.2026.112148",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/nikotin-review-raumt-die-werkstatt-auf/"
-    },
-    {
-      "title": "Wert kommt nicht mehr an",
-      "date": "2026-06-11",
-      "created": "2026-06-11T23:59:29.748Z",
-      "slug": "wert-kommt-nicht-mehr-an",
-      "rubrik": "science",
-      "lead": "Angst und Depression verzerren Entscheidungen nicht durch übertriebene Vorsicht, sondern durch eine geschwächte Übersetzung von Wert in Evidenz.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.09.731091v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wert-kommt-nicht-mehr-an/"
-    },
-    {
-      "title": "Clozapin frisst Hirnsubstanz dort, wo Serotonin sitzt",
-      "date": "2026-06-11",
-      "created": "2026-06-11T23:59:10.098Z",
-      "slug": "clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt",
-      "rubrik": "science",
-      "lead": "Ein Preprint kartiert, wo das letzte Mittel gegen therapieresistente Schizophrenie strukturell zugreift, und findet das Muster nicht im Dopamin-, sondern im Serotoninsystem.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.06.26354980v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt/"
     }
   ]
 }

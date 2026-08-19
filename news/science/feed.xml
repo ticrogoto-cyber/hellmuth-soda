@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 18 Aug 2026 22:46:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 22:46:56 GMT</lastBuildDate>
+    <item>
+      <title>Zwischen den Episoden ist die Krankheit nicht weg</title>
+      <link>https://hellmuth-soda.de/news/science/zwischen-den-episoden-ist-die-krankheit-nicht-weg/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwischen-den-episoden-ist-die-krankheit-nicht-weg/</guid>
+      <pubDate>Wed, 19 Aug 2026 22:46:56 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein medRxiv-Preprint zeigt, dass affektive Störungen den Körper auch dann prägen, wenn die Symptome pausieren.</description>
+    </item>
+    <item>
+      <title>Diagnosen zerfallen, die Karte bleibt</title>
+      <link>https://hellmuth-soda.de/news/science/diagnosen-zerfallen-die-karte-bleibt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/diagnosen-zerfallen-die-karte-bleibt/</guid>
+      <pubDate>Wed, 19 Aug 2026 22:46:43 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem ENIGMA-Konsortium ordnet sechs psychiatrische Diagnosen entlang derselben anatomischen Achsen im Gehirn.</description>
+    </item>
+    <item>
+      <title>Wer sich in Oregon auf Psilocybin vorbereiten lässt</title>
+      <link>https://hellmuth-soda.de/news/science/wer-sich-in-oregon-auf-psilocybin-vorbereiten-lasst/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wer-sich-in-oregon-auf-psilocybin-vorbereiten-lasst/</guid>
+      <pubDate>Wed, 19 Aug 2026 22:46:30 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die erste US-Bundesstaatsstudie zu einem Beratungsdienst für psychedelische Risikominderung zeigt ein Klientel, das der Legalisierungserzählung widerspricht.</description>
+    </item>
     <item>
       <title>Zwischen den Episoden bleibt der Schaden</title>
       <link>https://hellmuth-soda.de/news/science/zwischen-den-episoden-bleibt-der-schaden/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Fri, 12 Jun 2026 23:59:08 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein chinesisches Pflanzenalkaloid soll die neurologischen Folgen alkoholischer Lebererkrankung über fünf Signalwege gleichzeitig dämpfen.</description>
-    </item>
-    <item>
-      <title>Nikotin-Review räumt die Werkstatt auf</title>
-      <link>https://hellmuth-soda.de/news/science/nikotin-review-raumt-die-werkstatt-auf/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nikotin-review-raumt-die-werkstatt-auf/</guid>
-      <pubDate>Fri, 12 Jun 2026 23:58:55 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein neues Übersichtspapier sortiert, was Nikotin im Nervensystem tatsächlich anrichtet.</description>
-    </item>
-    <item>
-      <title>Wert kommt nicht mehr an</title>
-      <link>https://hellmuth-soda.de/news/science/wert-kommt-nicht-mehr-an/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wert-kommt-nicht-mehr-an/</guid>
-      <pubDate>Thu, 11 Jun 2026 23:59:29 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Angst und Depression verzerren Entscheidungen nicht durch übertriebene Vorsicht, sondern durch eine geschwächte Übersetzung von Wert in Evidenz.</description>
-    </item>
-    <item>
-      <title>Clozapin frisst Hirnsubstanz dort, wo Serotonin sitzt</title>
-      <link>https://hellmuth-soda.de/news/science/clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/clozapin-frisst-hirnsubstanz-dort-wo-serotonin-sitzt/</guid>
-      <pubDate>Thu, 11 Jun 2026 23:59:10 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint kartiert, wo das letzte Mittel gegen therapieresistente Schizophrenie strukturell zugreift, und findet das Muster nicht im Dopamin-, sondern im Serotoninsystem.</description>
     </item>
   </channel>
 </rss>
