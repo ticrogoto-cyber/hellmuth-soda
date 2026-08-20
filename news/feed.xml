@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 19 Aug 2026 22:46:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 22:50:45 GMT</lastBuildDate>
+    <item>
+      <title>Naloxon wirkt geschlechtsspezifisch auf Angstlernen</title>
+      <link>https://hellmuth-soda.de/news/science/naloxon-wirkt-geschlechtsspezifisch-auf-angstlernen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/naloxon-wirkt-geschlechtsspezifisch-auf-angstlernen/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:50:44 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Das körpereigene Opioidsystem moduliert Furchtkonditionierung bei Männchen und Weibchen unterschiedlich, wenn man über Erstarren hinausschaut.</description>
+    </item>
+    <item>
+      <title>Träume im Tiefschlaf haben eine EEG-Signatur</title>
+      <link>https://hellmuth-soda.de/news/science/traume-im-tiefschlaf-haben-eine-eeg-signatur/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/traume-im-tiefschlaf-haben-eine-eeg-signatur/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:50:26 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Bewusstes Erleben im NREM-Schlaf lässt sich am Hinterkopf ablesen, bevor der Schläfer davon weiß.</description>
+    </item>
+    <item>
+      <title>Die Blut-Hirn-Schranke sortiert falsch</title>
+      <link>https://hellmuth-soda.de/news/science/die-blut-hirn-schranke-sortiert-falsch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/die-blut-hirn-schranke-sortiert-falsch/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:50:11 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv verknüpft metabolisches Syndrom mit dem Transportregime an der Blut-Hirn-Schranke und liefert damit einen Mechanismus, der bislang postuliert, aber nicht gezeigt war.</description>
+    </item>
+    <item>
+      <title>Zevia soll sich verkaufen lassen</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/zevia-soll-sich-verkaufen-lassen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zevia-soll-sich-verkaufen-lassen/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:49:47 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Pionier der Better-for-you-Sodas wird von seinem eigenen Aktivistenaktionär zum Exit gedrängt.</description>
+    </item>
+    <item>
+      <title>PepsiCo baut die eigenen Marken um</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/pepsico-baut-die-eigenen-marken-um/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/pepsico-baut-die-eigenen-marken-um/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:48:40 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Konzern, der Zucker groß gemacht hat, verkauft jetzt dessen Abwesenheit.</description>
+    </item>
+    <item>
+      <title>Unilever behält den Eistee</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/unilever-behalt-den-eistee/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/unilever-behalt-den-eistee/</guid>
+      <pubDate>Thu, 20 Aug 2026 22:48:18 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Konzern trennt sich von seiner Lebensmittelsparte, hält aber an Lipton Ice Tea fest.</description>
+    </item>
     <item>
       <title>Zwischen den Episoden ist die Krankheit nicht weg</title>
       <link>https://hellmuth-soda.de/news/science/zwischen-den-episoden-ist-die-krankheit-nicht-weg/</link>
@@ -2848,14 +2896,6 @@
       <description>Tiefe Hirnstimulation im subgenualen Cingulum hilft manchen schwer Depressiven und anderen nicht, und ein Preprint legt nahe, dass die individuelle Verschaltung das entscheidet.</description>
     </item>
     <item>
-      <title>Angststörungen zeigen sich im Blutfluss der Stirnhirnrinde</title>
-      <link>https://hellmuth-soda.de/news/science/angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde/</guid>
-      <pubDate>Sat, 13 Jun 2026 23:40:26 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein medRxiv-Preprint kartiert Angsterkrankungen nicht über Symptome, sondern über die Durchblutung kortikaler Areale während einer Sprachaufgabe.</description>
-    </item>
-    <item>
       <title>Goldberg setzt auf Lavendel</title>
       <link>https://hellmuth-soda.de/news/hellmuth/goldberg-setzt-auf-lavendel/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/goldberg-setzt-auf-lavendel/</guid>
@@ -2878,22 +2918,6 @@
       <pubDate>Sat, 13 Jun 2026 23:35:52 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Zucker raus heißt nicht Geschmack rein, und die Getränkebranche hat das verstanden.</description>
-    </item>
-    <item>
-      <title>Legalisierung ohne Aufklärung</title>
-      <link>https://hellmuth-soda.de/news/science/legalisierung-ohne-aufklarung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/legalisierung-ohne-aufklarung/</guid>
-      <pubDate>Fri, 12 Jun 2026 23:59:19 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Kanada hat Cannabis 2018 legalisiert, aber das Wissen der Bevölkerung über die gesundheitlichen Folgen ist seither nicht gewachsen.</description>
-    </item>
-    <item>
-      <title>Ligustrazin gegen Alkohol-Hirn</title>
-      <link>https://hellmuth-soda.de/news/science/ligustrazin-gegen-alkohol-hirn/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ligustrazin-gegen-alkohol-hirn/</guid>
-      <pubDate>Fri, 12 Jun 2026 23:59:08 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein chinesisches Pflanzenalkaloid soll die neurologischen Folgen alkoholischer Lebererkrankung über fünf Signalwege gleichzeitig dämpfen.</description>
     </item>
     <item>
       <title>Tealive und Dutch Lady füllen den Bubble-Tea-Hype in Tetra Pak</title>

@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-19T22:46:56.315Z",
+  "generated": "2026-08-20T22:50:45.051Z",
   "hellmuth": [
+    {
+      "title": "Zevia soll sich verkaufen lassen",
+      "date": "2026-08-20",
+      "created": "2026-08-20T22:49:47.926Z",
+      "slug": "zevia-soll-sich-verkaufen-lassen",
+      "rubrik": "hellmuth",
+      "lead": "Der Pionier der Better-for-you-Sodas wird von seinem eigenen Aktivistenaktionär zum Exit gedrängt.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/zevia-activist-investor-pressure-to-sell/828316/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zevia-soll-sich-verkaufen-lassen/"
+    },
+    {
+      "title": "PepsiCo baut die eigenen Marken um",
+      "date": "2026-08-20",
+      "created": "2026-08-20T22:48:40.563Z",
+      "slug": "pepsico-baut-die-eigenen-marken-um",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern, der Zucker groß gemacht hat, verkauft jetzt dessen Abwesenheit.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/20/pepsico-expands-lower-sugar-high-protein-and-fiber-offerings/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/pepsico-baut-die-eigenen-marken-um/"
+    },
+    {
+      "title": "Unilever behält den Eistee",
+      "date": "2026-08-20",
+      "created": "2026-08-20T22:48:18.566Z",
+      "slug": "unilever-behalt-den-eistee",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern trennt sich von seiner Lebensmittelsparte, hält aber an Lipton Ice Tea fest.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/08/20/lipton-ice-tea-to-remain-co-owned-by-unilever/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/unilever-behalt-den-eistee/"
+    },
     {
       "title": "Matcha verliert sein Ritual",
       "date": "2026-08-19",
@@ -2608,6 +2650,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Naloxon wirkt geschlechtsspezifisch auf Angstlernen",
+      "date": "2026-08-20",
+      "created": "2026-08-20T22:50:44.972Z",
+      "slug": "naloxon-wirkt-geschlechtsspezifisch-auf-angstlernen",
+      "rubrik": "science",
+      "lead": "Das körpereigene Opioidsystem moduliert Furchtkonditionierung bei Männchen und Weibchen unterschiedlich, wenn man über Erstarren hinausschaut.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745978v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/naloxon-wirkt-geschlechtsspezifisch-auf-angstlernen/"
+    },
+    {
+      "title": "Träume im Tiefschlaf haben eine EEG-Signatur",
+      "date": "2026-08-20",
+      "created": "2026-08-20T22:50:26.866Z",
+      "slug": "traume-im-tiefschlaf-haben-eine-eeg-signatur",
+      "rubrik": "science",
+      "lead": "Bewusstes Erleben im NREM-Schlaf lässt sich am Hinterkopf ablesen, bevor der Schläfer davon weiß.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.16.745040v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/traume-im-tiefschlaf-haben-eine-eeg-signatur/"
+    },
+    {
+      "title": "Die Blut-Hirn-Schranke sortiert falsch",
+      "date": "2026-08-20",
+      "created": "2026-08-20T22:50:11.404Z",
+      "slug": "die-blut-hirn-schranke-sortiert-falsch",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv verknüpft metabolisches Syndrom mit dem Transportregime an der Blut-Hirn-Schranke und liefert damit einen Mechanismus, der bislang postuliert, aber nicht gezeigt war.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.15.741912v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/die-blut-hirn-schranke-sortiert-falsch/"
+    },
     {
       "title": "Zwischen den Episoden ist die Krankheit nicht weg",
       "date": "2026-08-19",
@@ -5365,48 +5449,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/"
-    },
-    {
-      "title": "Angststörungen zeigen sich im Blutfluss der Stirnhirnrinde",
-      "date": "2026-06-13",
-      "created": "2026-06-13T23:40:26.990Z",
-      "slug": "angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde",
-      "rubrik": "science",
-      "lead": "Ein medRxiv-Preprint kartiert Angsterkrankungen nicht über Symptome, sondern über die Durchblutung kortikaler Areale während einer Sprachaufgabe.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.11.26355427v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/angststorungen-zeigen-sich-im-blutfluss-der-stirnhirnrinde/"
-    },
-    {
-      "title": "Legalisierung ohne Aufklärung",
-      "date": "2026-06-12",
-      "created": "2026-06-12T23:59:19.143Z",
-      "slug": "legalisierung-ohne-aufklarung",
-      "rubrik": "science",
-      "lead": "Kanada hat Cannabis 2018 legalisiert, aber das Wissen der Bevölkerung über die gesundheitlichen Folgen ist seither nicht gewachsen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1186/s42238-026-00428-6",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/legalisierung-ohne-aufklarung/"
-    },
-    {
-      "title": "Ligustrazin gegen Alkohol-Hirn",
-      "date": "2026-06-12",
-      "created": "2026-06-12T23:59:08.941Z",
-      "slug": "ligustrazin-gegen-alkohol-hirn",
-      "rubrik": "science",
-      "lead": "Ein chinesisches Pflanzenalkaloid soll die neurologischen Folgen alkoholischer Lebererkrankung über fünf Signalwege gleichzeitig dämpfen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1002/jbt.70960",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ligustrazin-gegen-alkohol-hirn/"
     }
   ]
 }
