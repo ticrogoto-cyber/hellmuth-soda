@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 20 Aug 2026 22:50:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 22:47:48 GMT</lastBuildDate>
+    <item>
+      <title>Substanzinduzierte Psychosen in einkommensschwachen Ländern</title>
+      <link>https://hellmuth-soda.de/news/science/substanzinduzierte-psychosen-in-einkommensschwachen-landern/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/substanzinduzierte-psychosen-in-einkommensschwachen-landern/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:47 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die psychiatrische Kartografie der Psychose verschiebt sich dorthin, wo die Versorgung fehlt.</description>
+    </item>
+    <item>
+      <title>FASD wird als ADHS fehldiagnostiziert</title>
+      <link>https://hellmuth-soda.de/news/science/fasd-wird-als-adhs-fehldiagnostiziert/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/fasd-wird-als-adhs-fehldiagnostiziert/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:36 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Fetale Alkoholspektrumstörungen und ADHS überlappen im Symptomprofil so vollständig, dass die häufigere Diagnose die seltenere frisst.</description>
+    </item>
+    <item>
+      <title>Kühlstoffe als Suchtverstärker</title>
+      <link>https://hellmuth-soda.de/news/science/kuhlstoffe-als-suchtverstarker/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kuhlstoffe-als-suchtverstarker/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:24 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Menthol-Debatte war bislang eine über Aromen. Sie ist eine über Pharmakologie.</description>
+    </item>
     <item>
       <title>Naloxon wirkt geschlechtsspezifisch auf Angstlernen</title>
       <link>https://hellmuth-soda.de/news/science/naloxon-wirkt-geschlechtsspezifisch-auf-angstlernen/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sun, 14 Jun 2026 23:41:32 GMT</pubDate>
       <category>Forschung</category>
       <description>Nicht welche Proteine im Gehirn liegen, sondern wie sie chemisch beschriftet sind, korreliert mit Plaques, Tangles und kognitivem Verfall.</description>
-    </item>
-    <item>
-      <title>Halsableitung gegen Alzheimer</title>
-      <link>https://hellmuth-soda.de/news/science/halsableitung-gegen-alzheimer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/halsableitung-gegen-alzheimer/</guid>
-      <pubDate>Sun, 14 Jun 2026 23:41:17 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Wer Lymphe aus dem Schädel abzieht, verändert offenbar, was im Gehirn an Plaques liegen bleibt.</description>
-    </item>
-    <item>
-      <title>Zwei Suizidalitäts-Regime statt einer Symptomliste</title>
-      <link>https://hellmuth-soda.de/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/</guid>
-      <pubDate>Sat, 13 Jun 2026 23:41:00 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint sortiert Suizidalität nicht nach Symptomen, sondern nach der Art, wie Betroffene auf Bestrafung reagieren.</description>
-    </item>
-    <item>
-      <title>Wenn Hirnstimulation gegen Depression nicht wirkt, liegt es an der Verkabelung</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/</guid>
-      <pubDate>Sat, 13 Jun 2026 23:40:45 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Tiefe Hirnstimulation im subgenualen Cingulum hilft manchen schwer Depressiven und anderen nicht, und ein Preprint legt nahe, dass die individuelle Verschaltung das entscheidet.</description>
     </item>
   </channel>
 </rss>

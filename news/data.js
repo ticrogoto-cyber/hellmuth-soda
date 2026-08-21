@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-20T22:50:45.051Z",
+  "generated": "2026-08-21T22:47:48.070Z",
   "hellmuth": [
+    {
+      "title": "Pilze und Kollagen erobern die Getränkeregale",
+      "date": "2026-08-21",
+      "created": "2026-08-21T22:47:04.928Z",
+      "slug": "pilze-und-kollagen-erobern-die-getrankeregale",
+      "rubrik": "hellmuth",
+      "lead": "Funktionale Zutaten sind aus der Nische in den Mainstream der Getränkeinnovation gerückt.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/newtopia-now-mushrooms-and-collagen-headline-beverage-innovation",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/pilze-und-kollagen-erobern-die-getrankeregale/"
+    },
+    {
+      "title": "Gallup meldet Stillstand beim Alkoholkonsum, alkoholfrei wächst am Rand",
+      "date": "2026-08-21",
+      "created": "2026-08-21T22:46:47.830Z",
+      "slug": "gallup-meldet-stillstand-beim-alkoholkonsum-alkoholfrei-wachst-am-rand",
+      "rubrik": "hellmuth",
+      "lead": "Die Zahl der Trinker in den USA bleibt gegenüber 2025 unverändert, doch die Zuwächse liegen woanders.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/gallup-total-alcohol-drinkers-unchanged-from-2025-adult-non-alc-trial-picks-up",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/gallup-meldet-stillstand-beim-alkoholkonsum-alkoholfrei-wachst-am-rand/"
+    },
+    {
+      "title": "Allulose sucht ihren Platz im Zuckerregal",
+      "date": "2026-08-21",
+      "created": "2026-08-21T22:45:14.621Z",
+      "slug": "allulose-sucht-ihren-platz-im-zuckerregal",
+      "rubrik": "hellmuth",
+      "lead": "Der Süßstoff, der wie Zucker schmeckt und kaum welcher ist, wird zum Testfall für das Clean-Label-Versprechen.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/08/21/why-allulose-is-gaining-industry-attention/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/allulose-sucht-ihren-platz-im-zuckerregal/"
+    },
     {
       "title": "Zevia soll sich verkaufen lassen",
       "date": "2026-08-20",
@@ -2650,6 +2692,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Substanzinduzierte Psychosen in einkommensschwachen Ländern",
+      "date": "2026-08-21",
+      "created": "2026-08-21T22:47:47.985Z",
+      "slug": "substanzinduzierte-psychosen-in-einkommensschwachen-landern",
+      "rubrik": "science",
+      "lead": "Die psychiatrische Kartografie der Psychose verschiebt sich dorthin, wo die Versorgung fehlt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1177/20451253261473921",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/substanzinduzierte-psychosen-in-einkommensschwachen-landern/"
+    },
+    {
+      "title": "FASD wird als ADHS fehldiagnostiziert",
+      "date": "2026-08-21",
+      "created": "2026-08-21T22:47:36.943Z",
+      "slug": "fasd-wird-als-adhs-fehldiagnostiziert",
+      "rubrik": "science",
+      "lead": "Fetale Alkoholspektrumstörungen und ADHS überlappen im Symptomprofil so vollständig, dass die häufigere Diagnose die seltenere frisst.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/nyas.70343",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/fasd-wird-als-adhs-fehldiagnostiziert/"
+    },
+    {
+      "title": "Kühlstoffe als Suchtverstärker",
+      "date": "2026-08-21",
+      "created": "2026-08-21T22:47:24.019Z",
+      "slug": "kuhlstoffe-als-suchtverstarker",
+      "rubrik": "science",
+      "lead": "Die Menthol-Debatte war bislang eine über Aromen. Sie ist eine über Pharmakologie.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s41386-026-02485-0",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/kuhlstoffe-als-suchtverstarker/"
+    },
     {
       "title": "Naloxon wirkt geschlechtsspezifisch auf Angstlernen",
       "date": "2026-08-20",
@@ -5407,48 +5491,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/alzheimer-hat-eine-zweite-schrift/"
-    },
-    {
-      "title": "Halsableitung gegen Alzheimer",
-      "date": "2026-06-14",
-      "created": "2026-06-14T23:41:17.657Z",
-      "slug": "halsableitung-gegen-alzheimer",
-      "rubrik": "science",
-      "lead": "Wer Lymphe aus dem Schädel abzieht, verändert offenbar, was im Gehirn an Plaques liegen bleibt.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731621v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/halsableitung-gegen-alzheimer/"
-    },
-    {
-      "title": "Zwei Suizidalitäts-Regime statt einer Symptomliste",
-      "date": "2026-06-13",
-      "created": "2026-06-13T23:41:00.993Z",
-      "slug": "zwei-suizidalitats-regime-statt-einer-symptomliste",
-      "rubrik": "science",
-      "lead": "Ein Preprint sortiert Suizidalität nicht nach Symptomen, sondern nach der Art, wie Betroffene auf Bestrafung reagieren.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355278v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/"
-    },
-    {
-      "title": "Wenn Hirnstimulation gegen Depression nicht wirkt, liegt es an der Verkabelung",
-      "date": "2026-06-13",
-      "created": "2026-06-13T23:40:45.544Z",
-      "slug": "wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung",
-      "rubrik": "science",
-      "lead": "Tiefe Hirnstimulation im subgenualen Cingulum hilft manchen schwer Depressiven und anderen nicht, und ein Preprint legt nahe, dass die individuelle Verschaltung das entscheidet.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355288v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/"
     }
   ]
 }

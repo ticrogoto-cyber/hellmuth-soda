@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 20 Aug 2026 22:50:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 22:47:48 GMT</lastBuildDate>
+    <item>
+      <title>Substanzinduzierte Psychosen in einkommensschwachen Ländern</title>
+      <link>https://hellmuth-soda.de/news/science/substanzinduzierte-psychosen-in-einkommensschwachen-landern/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/substanzinduzierte-psychosen-in-einkommensschwachen-landern/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:47 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die psychiatrische Kartografie der Psychose verschiebt sich dorthin, wo die Versorgung fehlt.</description>
+    </item>
+    <item>
+      <title>FASD wird als ADHS fehldiagnostiziert</title>
+      <link>https://hellmuth-soda.de/news/science/fasd-wird-als-adhs-fehldiagnostiziert/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/fasd-wird-als-adhs-fehldiagnostiziert/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:36 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Fetale Alkoholspektrumstörungen und ADHS überlappen im Symptomprofil so vollständig, dass die häufigere Diagnose die seltenere frisst.</description>
+    </item>
+    <item>
+      <title>Kühlstoffe als Suchtverstärker</title>
+      <link>https://hellmuth-soda.de/news/science/kuhlstoffe-als-suchtverstarker/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kuhlstoffe-als-suchtverstarker/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:24 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Menthol-Debatte war bislang eine über Aromen. Sie ist eine über Pharmakologie.</description>
+    </item>
+    <item>
+      <title>Pilze und Kollagen erobern die Getränkeregale</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/pilze-und-kollagen-erobern-die-getrankeregale/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/pilze-und-kollagen-erobern-die-getrankeregale/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:47:04 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Funktionale Zutaten sind aus der Nische in den Mainstream der Getränkeinnovation gerückt.</description>
+    </item>
+    <item>
+      <title>Gallup meldet Stillstand beim Alkoholkonsum, alkoholfrei wächst am Rand</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/gallup-meldet-stillstand-beim-alkoholkonsum-alkoholfrei-wachst-am-rand/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/gallup-meldet-stillstand-beim-alkoholkonsum-alkoholfrei-wachst-am-rand/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:46:47 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die Zahl der Trinker in den USA bleibt gegenüber 2025 unverändert, doch die Zuwächse liegen woanders.</description>
+    </item>
+    <item>
+      <title>Allulose sucht ihren Platz im Zuckerregal</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/allulose-sucht-ihren-platz-im-zuckerregal/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/allulose-sucht-ihren-platz-im-zuckerregal/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:45:14 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Süßstoff, der wie Zucker schmeckt und kaum welcher ist, wird zum Testfall für das Clean-Label-Versprechen.</description>
+    </item>
     <item>
       <title>Naloxon wirkt geschlechtsspezifisch auf Angstlernen</title>
       <link>https://hellmuth-soda.de/news/science/naloxon-wirkt-geschlechtsspezifisch-auf-angstlernen/</link>
@@ -2848,14 +2896,6 @@
       <description>Nicht welche Proteine im Gehirn liegen, sondern wie sie chemisch beschriftet sind, korreliert mit Plaques, Tangles und kognitivem Verfall.</description>
     </item>
     <item>
-      <title>Halsableitung gegen Alzheimer</title>
-      <link>https://hellmuth-soda.de/news/science/halsableitung-gegen-alzheimer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/halsableitung-gegen-alzheimer/</guid>
-      <pubDate>Sun, 14 Jun 2026 23:41:17 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Wer Lymphe aus dem Schädel abzieht, verändert offenbar, was im Gehirn an Plaques liegen bleibt.</description>
-    </item>
-    <item>
       <title>Reis als Getränk, weil ihn keiner mehr isst</title>
       <link>https://hellmuth-soda.de/news/hellmuth/reis-als-getrank-weil-ihn-keiner-mehr-isst/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/reis-als-getrank-weil-ihn-keiner-mehr-isst/</guid>
@@ -2878,22 +2918,6 @@
       <pubDate>Sun, 14 Jun 2026 23:40:10 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die europäische Getränkebranche stimmt sich auf ein Jahr ein, in dem Funktion und Aroma nicht mehr getrennt verhandelt werden.</description>
-    </item>
-    <item>
-      <title>Zwei Suizidalitäts-Regime statt einer Symptomliste</title>
-      <link>https://hellmuth-soda.de/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-suizidalitats-regime-statt-einer-symptomliste/</guid>
-      <pubDate>Sat, 13 Jun 2026 23:41:00 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint sortiert Suizidalität nicht nach Symptomen, sondern nach der Art, wie Betroffene auf Bestrafung reagieren.</description>
-    </item>
-    <item>
-      <title>Wenn Hirnstimulation gegen Depression nicht wirkt, liegt es an der Verkabelung</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-hirnstimulation-gegen-depression-nicht-wirkt-liegt-es-an-der-verkabelung/</guid>
-      <pubDate>Sat, 13 Jun 2026 23:40:45 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Tiefe Hirnstimulation im subgenualen Cingulum hilft manchen schwer Depressiven und anderen nicht, und ein Preprint legt nahe, dass die individuelle Verschaltung das entscheidet.</description>
     </item>
     <item>
       <title>Goldberg setzt auf Lavendel</title>
