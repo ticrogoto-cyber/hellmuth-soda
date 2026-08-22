@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-21T22:47:48.070Z",
+  "generated": "2026-08-22T22:44:01.524Z",
   "hellmuth": [
+    {
+      "title": "Non-Alc verliert das Momentum",
+      "date": "2026-08-22",
+      "created": "2026-08-22T22:43:16.690Z",
+      "slug": "non-alc-verliert-das-momentum",
+      "rubrik": "hellmuth",
+      "lead": "Der Markt für alkoholfreie Getränke wächst noch, aber die Kurve knickt sichtbar ab.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/soft-pricing-leads-to-non-alc-beverage-deceleration",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/non-alc-verliert-das-momentum/"
+    },
+    {
+      "title": "O'kra bringt Okra ins Sprudelwasser",
+      "date": "2026-08-22",
+      "created": "2026-08-22T22:43:01.214Z",
+      "slug": "o-kra-bringt-okra-ins-sprudelwasser",
+      "rubrik": "hellmuth",
+      "lead": "Okra verlässt den Suppentopf und landet in der Getränkedose.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-okra-sparkling-okra-water-offers-truly-different-take-on-hydration",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/o-kra-bringt-okra-ins-sprudelwasser/"
+    },
+    {
+      "title": "Kollagen-Tee erobert die US-Regalflächen",
+      "date": "2026-08-22",
+      "created": "2026-08-22T22:42:40.242Z",
+      "slug": "kollagen-tee-erobert-die-us-regalflachen",
+      "rubrik": "hellmuth",
+      "lead": "Der Massenmarkt für Functional Beverages verschiebt sich von Vitaminen zu Bindegewebe.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/distribution-pretty-tasty-goes-national-with-target-real-coco-expands-aldi-set",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kollagen-tee-erobert-die-us-regalflachen/"
+    },
     {
       "title": "Pilze und Kollagen erobern die Getränkeregale",
       "date": "2026-08-21",
@@ -2692,6 +2734,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Koffein im Modell, Adenosin am Hebel",
+      "date": "2026-08-22",
+      "created": "2026-08-22T22:44:01.390Z",
+      "slug": "koffein-im-modell-adenosin-am-hebel",
+      "rubrik": "science",
+      "lead": "Ein neues Rechenmodell der glutamatergen Synapse rückt Adenosin und Koffein als eigentliche Regler in den Vordergrund.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/syn.70055",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/koffein-im-modell-adenosin-am-hebel/"
+    },
+    {
+      "title": "Psychedelika als Molekülklasse, nicht als Kulturware",
+      "date": "2026-08-22",
+      "created": "2026-08-22T22:43:48.365Z",
+      "slug": "psychedelika-als-molekulklasse-nicht-als-kulturware",
+      "rubrik": "science",
+      "lead": "Ein Review in CNS & Neurological Disorders Drug Targets sortiert Halluzinogene und Entaktogene neu, nicht nach Szene, sondern nach Rezeptor.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.2174/0118715273452468260729080541",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/psychedelika-als-molekulklasse-nicht-als-kulturware/"
+    },
+    {
+      "title": "Schizophrenie kommt selten allein",
+      "date": "2026-08-22",
+      "created": "2026-08-22T22:43:36.369Z",
+      "slug": "schizophrenie-kommt-selten-allein",
+      "rubrik": "science",
+      "lead": "Die Diagnose Schizophrenie beschreibt in der Versorgungsrealität fast nie einen sauberen Einzelbefund.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.4088/PCC.26m04210",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-kommt-selten-allein/"
+    },
     {
       "title": "Substanzinduzierte Psychosen in einkommensschwachen Ländern",
       "date": "2026-08-21",
@@ -5449,48 +5533,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/gruppentherapie-unterm-scanner/"
-    },
-    {
-      "title": "Adoleszentes Nikotin hinterlässt eine Microglia-Spur",
-      "date": "2026-06-16",
-      "created": "2026-06-16T00:08:18.569Z",
-      "slug": "adoleszentes-nikotin-hinterlasst-eine-microglia-spur",
-      "rubrik": "science",
-      "lead": "Eine Mausstudie verortet die Depression nach jugendlicher Nikotinexposition in einer einzigen Signalkaskade.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1007/s11064-026-04811-w",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/adoleszentes-nikotin-hinterlasst-eine-microglia-spur/"
-    },
-    {
-      "title": "Die Angstschaltung hat ein viertes Zimmer",
-      "date": "2026-06-14",
-      "created": "2026-06-14T23:41:48.065Z",
-      "slug": "die-angstschaltung-hat-ein-viertes-zimmer",
-      "rubrik": "science",
-      "lead": "Ein Preprint verschiebt das Standardmodell der Furchtkonditionierung um eine Hirnregion, die im Lehrbuch bislang als Nebenschauplatz galt.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731865v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/die-angstschaltung-hat-ein-viertes-zimmer/"
-    },
-    {
-      "title": "Alzheimer hat eine zweite Schrift",
-      "date": "2026-06-14",
-      "created": "2026-06-14T23:41:32.032Z",
-      "slug": "alzheimer-hat-eine-zweite-schrift",
-      "rubrik": "science",
-      "lead": "Nicht welche Proteine im Gehirn liegen, sondern wie sie chemisch beschriftet sind, korreliert mit Plaques, Tangles und kognitivem Verfall.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732018v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alzheimer-hat-eine-zweite-schrift/"
     }
   ]
 }

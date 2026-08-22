@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 21 Aug 2026 22:47:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 22:44:01 GMT</lastBuildDate>
+    <item>
+      <title>Koffein im Modell, Adenosin am Hebel</title>
+      <link>https://hellmuth-soda.de/news/science/koffein-im-modell-adenosin-am-hebel/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/koffein-im-modell-adenosin-am-hebel/</guid>
+      <pubDate>Sat, 22 Aug 2026 22:44:01 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein neues Rechenmodell der glutamatergen Synapse rückt Adenosin und Koffein als eigentliche Regler in den Vordergrund.</description>
+    </item>
+    <item>
+      <title>Psychedelika als Molekülklasse, nicht als Kulturware</title>
+      <link>https://hellmuth-soda.de/news/science/psychedelika-als-molekulklasse-nicht-als-kulturware/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychedelika-als-molekulklasse-nicht-als-kulturware/</guid>
+      <pubDate>Sat, 22 Aug 2026 22:43:48 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Review in CNS &amp; Neurological Disorders Drug Targets sortiert Halluzinogene und Entaktogene neu, nicht nach Szene, sondern nach Rezeptor.</description>
+    </item>
+    <item>
+      <title>Schizophrenie kommt selten allein</title>
+      <link>https://hellmuth-soda.de/news/science/schizophrenie-kommt-selten-allein/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-kommt-selten-allein/</guid>
+      <pubDate>Sat, 22 Aug 2026 22:43:36 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Diagnose Schizophrenie beschreibt in der Versorgungsrealität fast nie einen sauberen Einzelbefund.</description>
+    </item>
     <item>
       <title>Substanzinduzierte Psychosen in einkommensschwachen Ländern</title>
       <link>https://hellmuth-soda.de/news/science/substanzinduzierte-psychosen-in-einkommensschwachen-landern/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Tue, 16 Jun 2026 00:08:34 GMT</pubDate>
       <category>Forschung</category>
       <description>Eine Studie will messen, ob junge Trinker gemeinsam nüchterner werden, indem ihre Gehirne im fMRT synchronisieren.</description>
-    </item>
-    <item>
-      <title>Adoleszentes Nikotin hinterlässt eine Microglia-Spur</title>
-      <link>https://hellmuth-soda.de/news/science/adoleszentes-nikotin-hinterlasst-eine-microglia-spur/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/adoleszentes-nikotin-hinterlasst-eine-microglia-spur/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:08:18 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Mausstudie verortet die Depression nach jugendlicher Nikotinexposition in einer einzigen Signalkaskade.</description>
-    </item>
-    <item>
-      <title>Die Angstschaltung hat ein viertes Zimmer</title>
-      <link>https://hellmuth-soda.de/news/science/die-angstschaltung-hat-ein-viertes-zimmer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/die-angstschaltung-hat-ein-viertes-zimmer/</guid>
-      <pubDate>Sun, 14 Jun 2026 23:41:48 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt das Standardmodell der Furchtkonditionierung um eine Hirnregion, die im Lehrbuch bislang als Nebenschauplatz galt.</description>
-    </item>
-    <item>
-      <title>Alzheimer hat eine zweite Schrift</title>
-      <link>https://hellmuth-soda.de/news/science/alzheimer-hat-eine-zweite-schrift/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-hat-eine-zweite-schrift/</guid>
-      <pubDate>Sun, 14 Jun 2026 23:41:32 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Nicht welche Proteine im Gehirn liegen, sondern wie sie chemisch beschriftet sind, korreliert mit Plaques, Tangles und kognitivem Verfall.</description>
     </item>
   </channel>
 </rss>
