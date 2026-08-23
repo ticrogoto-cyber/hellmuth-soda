@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 22 Aug 2026 22:44:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 22:44:37 GMT</lastBuildDate>
+    <item>
+      <title>Jugendlicher Suizidalität geht ein Lebensstil voraus</title>
+      <link>https://hellmuth-soda.de/news/science/jugendlicher-suizidalitat-geht-ein-lebensstil-voraus/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/jugendlicher-suizidalitat-geht-ein-lebensstil-voraus/</guid>
+      <pubDate>Sun, 23 Aug 2026 22:44:37 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein australisches Preprint verfolgt Teenager über Jahre und findet, dass sich Risikoprofile lange vor der Krise abzeichnen.</description>
+    </item>
+    <item>
+      <title>REM-Schlaf sagt voraus, wer aus der Angst herausfindet</title>
+      <link>https://hellmuth-soda.de/news/science/rem-schlaf-sagt-voraus-wer-aus-der-angst-herausfindet/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/rem-schlaf-sagt-voraus-wer-aus-der-angst-herausfindet/</guid>
+      <pubDate>Sun, 23 Aug 2026 22:44:24 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die individuelle Fähigkeit, emotionalen Stress über Nacht abzubauen, prognostiziert den Genesungsverlauf bei Angstsymptomen.</description>
+    </item>
+    <item>
+      <title>Was eine Depression in die Länge zieht</title>
+      <link>https://hellmuth-soda.de/news/science/was-eine-depression-in-die-lange-zieht/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/was-eine-depression-in-die-lange-zieht/</guid>
+      <pubDate>Sun, 23 Aug 2026 22:44:11 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Nicht die Gene entscheiden, wie lange eine depressive Episode dauert, sondern die Biografie.</description>
+    </item>
+    <item>
+      <title>Matcha mit Erdbeerpulpe bei 7-Eleven Thailand</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/matcha-mit-erdbeerpulpe-bei-7-eleven-thailand/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/matcha-mit-erdbeerpulpe-bei-7-eleven-thailand/</guid>
+      <pubDate>Sun, 23 Aug 2026 22:43:53 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Matcha verlässt die Teezeremonie und landet als Convenience-Layer in der Kühltheke.</description>
+    </item>
+    <item>
+      <title>UNO Coffee testet Matcha in Bangkok</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/uno-coffee-testet-matcha-in-bangkok/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/uno-coffee-testet-matcha-in-bangkok/</guid>
+      <pubDate>Sun, 23 Aug 2026 22:43:29 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein thailändischer Specialty-Coffee-Betrieb prüft, ob sein Publikum mitwandert, wenn die Bohne durch das Pulver ersetzt wird.</description>
+    </item>
+    <item>
+      <title>Safflor drängt in die US-Regale</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/safflor-drangt-in-die-us-regale/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/safflor-drangt-in-die-us-regale/</guid>
+      <pubDate>Sun, 23 Aug 2026 22:42:52 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Farbstoffmarkt sortiert sich neu, weil synthetische Gelbtöne in den USA politisch angezählt sind.</description>
+    </item>
     <item>
       <title>Koffein im Modell, Adenosin am Hebel</title>
       <link>https://hellmuth-soda.de/news/science/koffein-im-modell-adenosin-am-hebel/</link>
@@ -2848,14 +2896,6 @@
       <description>Eine genetische Last für psychiatrische Diagnosen verschiebt das Stoffwechselprofil, bevor irgendjemand Diagnose oder Medikament gesehen hat.</description>
     </item>
     <item>
-      <title>Schizophrenie verschiebt das EEG, nicht den Metabolitenspiegel</title>
-      <link>https://hellmuth-soda.de/news/science/schizophrenie-verschiebt-das-eeg-nicht-den-metabolitenspiegel/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-verschiebt-das-eeg-nicht-den-metabolitenspiegel/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:52:54 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Schizophrenieforschung trennt zwei Messebenen, die bislang als ein Befund galten.</description>
-    </item>
-    <item>
       <title>Kombucha lernt Kindergeburtstag</title>
       <link>https://hellmuth-soda.de/news/hellmuth/kombucha-lernt-kindergeburtstag/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/kombucha-lernt-kindergeburtstag/</guid>
@@ -2878,22 +2918,6 @@
       <pubDate>Tue, 16 Jun 2026 23:51:17 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Was als Verbraucherschutz inszeniert wird, ist Vorgriff auf eine absehbare Regulierung.</description>
-    </item>
-    <item>
-      <title>Cannabis und Tabak zusammen kippen die Psychose-Statistik</title>
-      <link>https://hellmuth-soda.de/news/science/cannabis-und-tabak-zusammen-kippen-die-psychose-statistik/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-und-tabak-zusammen-kippen-die-psychose-statistik/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:08:46 GMT</pubDate>
-      <category>Forschung</category>
-      <description>In klinischen Hochrisikokohorten sagt der gleichzeitige Konsum von Cannabis und Tabak den Übergang in die Psychose voraus.</description>
-    </item>
-    <item>
-      <title>Gruppentherapie unterm Scanner</title>
-      <link>https://hellmuth-soda.de/news/science/gruppentherapie-unterm-scanner/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/gruppentherapie-unterm-scanner/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:08:34 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Studie will messen, ob junge Trinker gemeinsam nüchterner werden, indem ihre Gehirne im fMRT synchronisieren.</description>
     </item>
     <item>
       <title>Niigata bekommt einen Newcomer, der gleich Preise sammelt</title>

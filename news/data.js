@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-22T22:44:01.524Z",
+  "generated": "2026-08-23T22:44:37.961Z",
   "hellmuth": [
+    {
+      "title": "Matcha mit Erdbeerpulpe bei 7-Eleven Thailand",
+      "date": "2026-08-23",
+      "created": "2026-08-23T22:43:53.826Z",
+      "slug": "matcha-mit-erdbeerpulpe-bei-7-eleven-thailand",
+      "rubrik": "hellmuth",
+      "lead": "Matcha verlässt die Teezeremonie und landet als Convenience-Layer in der Kühltheke.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/23/jiancha-matcha-green-tea-flavor-drink-with-strawberry-pulp-at-7-eleven/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/matcha-mit-erdbeerpulpe-bei-7-eleven-thailand/"
+    },
+    {
+      "title": "UNO Coffee testet Matcha in Bangkok",
+      "date": "2026-08-23",
+      "created": "2026-08-23T22:43:29.104Z",
+      "slug": "uno-coffee-testet-matcha-in-bangkok",
+      "rubrik": "hellmuth",
+      "lead": "Ein thailändischer Specialty-Coffee-Betrieb prüft, ob sein Publikum mitwandert, wenn die Bohne durch das Pulver ersetzt wird.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/23/dos-matcha-uno-coffees-bold-pop-up-experiment-in-thailands-matcha-market/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/uno-coffee-testet-matcha-in-bangkok/"
+    },
+    {
+      "title": "Safflor drängt in die US-Regale",
+      "date": "2026-08-23",
+      "created": "2026-08-23T22:42:52.176Z",
+      "slug": "safflor-drangt-in-die-us-regale",
+      "rubrik": "hellmuth",
+      "lead": "Der Farbstoffmarkt sortiert sich neu, weil synthetische Gelbtöne in den USA politisch angezählt sind.",
+      "source_name": "Food & Beverage Asia",
+      "source_url": "https://foodbeverageasia.com/gnt-seeks-u-s-fda-approval-for-safflower-concentrate-to-expand-plant-based-yellow-color-options/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/safflor-drangt-in-die-us-regale/"
+    },
     {
       "title": "Non-Alc verliert das Momentum",
       "date": "2026-08-22",
@@ -2734,6 +2776,48 @@ window.NEWS_DATA =
     }
   ],
   "science": [
+    {
+      "title": "Jugendlicher Suizidalität geht ein Lebensstil voraus",
+      "date": "2026-08-23",
+      "created": "2026-08-23T22:44:37.879Z",
+      "slug": "jugendlicher-suizidalitat-geht-ein-lebensstil-voraus",
+      "rubrik": "science",
+      "lead": "Ein australisches Preprint verfolgt Teenager über Jahre und findet, dass sich Risikoprofile lange vor der Krise abzeichnen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360854v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/jugendlicher-suizidalitat-geht-ein-lebensstil-voraus/"
+    },
+    {
+      "title": "REM-Schlaf sagt voraus, wer aus der Angst herausfindet",
+      "date": "2026-08-23",
+      "created": "2026-08-23T22:44:24.023Z",
+      "slug": "rem-schlaf-sagt-voraus-wer-aus-der-angst-herausfindet",
+      "rubrik": "science",
+      "lead": "Die individuelle Fähigkeit, emotionalen Stress über Nacht abzubauen, prognostiziert den Genesungsverlauf bei Angstsymptomen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360781v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/rem-schlaf-sagt-voraus-wer-aus-der-angst-herausfindet/"
+    },
+    {
+      "title": "Was eine Depression in die Länge zieht",
+      "date": "2026-08-23",
+      "created": "2026-08-23T22:44:11.231Z",
+      "slug": "was-eine-depression-in-die-lange-zieht",
+      "rubrik": "science",
+      "lead": "Nicht die Gene entscheiden, wie lange eine depressive Episode dauert, sondern die Biografie.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360769v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/was-eine-depression-in-die-lange-zieht/"
+    },
     {
       "title": "Koffein im Modell, Adenosin am Hebel",
       "date": "2026-08-22",
@@ -5491,48 +5575,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/psychiatrische-gene-schreiben-sich-ins-blut/"
-    },
-    {
-      "title": "Schizophrenie verschiebt das EEG, nicht den Metabolitenspiegel",
-      "date": "2026-06-16",
-      "created": "2026-06-16T23:52:54.260Z",
-      "slug": "schizophrenie-verschiebt-das-eeg-nicht-den-metabolitenspiegel",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Schizophrenieforschung trennt zwei Messebenen, die bislang als ein Befund galten.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.12.26354984v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/schizophrenie-verschiebt-das-eeg-nicht-den-metabolitenspiegel/"
-    },
-    {
-      "title": "Cannabis und Tabak zusammen kippen die Psychose-Statistik",
-      "date": "2026-06-16",
-      "created": "2026-06-16T00:08:46.283Z",
-      "slug": "cannabis-und-tabak-zusammen-kippen-die-psychose-statistik",
-      "rubrik": "science",
-      "lead": "In klinischen Hochrisikokohorten sagt der gleichzeitige Konsum von Cannabis und Tabak den Übergang in die Psychose voraus.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1038/s44220-026-00648-y",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/cannabis-und-tabak-zusammen-kippen-die-psychose-statistik/"
-    },
-    {
-      "title": "Gruppentherapie unterm Scanner",
-      "date": "2026-06-16",
-      "created": "2026-06-16T00:08:34.988Z",
-      "slug": "gruppentherapie-unterm-scanner",
-      "rubrik": "science",
-      "lead": "Eine Studie will messen, ob junge Trinker gemeinsam nüchterner werden, indem ihre Gehirne im fMRT synchronisieren.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1371/journal.pone.0349575",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/gruppentherapie-unterm-scanner/"
     }
   ]
 }
