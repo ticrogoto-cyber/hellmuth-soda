@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-23T22:44:37.961Z",
+  "generated": "2026-08-24T22:49:46.884Z",
   "hellmuth": [
+    {
+      "title": "Der Preis der Dose wird politisch",
+      "date": "2026-08-24",
+      "created": "2026-08-24T22:48:50.085Z",
+      "slug": "der-preis-der-dose-wird-politisch",
+      "rubrik": "hellmuth",
+      "lead": "Fast sechzig Abgeordnete verlangen eine Untersuchung, wie in den USA der Aluminiumpreis für Getränkedosen zustande kommt.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/house-representatives-commerce-investigation-aluminum-pricing-midwest-premium/828595/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-preis-der-dose-wird-politisch/"
+    },
+    {
+      "title": "Allulose sucht den Ausweg aus dem Süßstoff-Dilemma",
+      "date": "2026-08-24",
+      "created": "2026-08-24T22:47:56.338Z",
+      "slug": "allulose-sucht-den-ausweg-aus-dem-sussstoff-dilemma",
+      "rubrik": "hellmuth",
+      "lead": "Der seltene Zucker Allulose wird als Kompromiss zwischen Kalorienlast und Chemiebaukasten gehandelt.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/21/why-allulose-is-gaining-industry-attention/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/allulose-sucht-den-ausweg-aus-dem-sussstoff-dilemma/"
+    },
+    {
+      "title": "Premium heißt jetzt Erlebnis",
+      "date": "2026-08-24",
+      "created": "2026-08-24T22:47:38.853Z",
+      "slug": "premium-heisst-jetzt-erlebnis",
+      "rubrik": "hellmuth",
+      "lead": "Der Preis allein macht ein Getränk nicht mehr hochwertig, die Inszenierung schon.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/24/consumers-redefine-beverage-premiumisation-as-experience-overtakes-price/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/premium-heisst-jetzt-erlebnis/"
+    },
     {
       "title": "Matcha mit Erdbeerpulpe bei 7-Eleven Thailand",
       "date": "2026-08-23",
@@ -2759,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/"
-    },
-    {
-      "title": "Koreanischer Reiswein drängt nach Süden",
-      "date": "2026-06-07",
-      "created": "2026-06-07T12:55:35.667Z",
-      "slug": "koreanischer-reiswein-drangt-nach-suden",
-      "rubrik": "hellmuth",
-      "lead": "Was in Seoul Handwerk ist, wird in Shenzhen langsam zur Karte.",
-      "source_name": "SCMP Food & Drink",
-      "source_url": "https://www.scmp.com/lifestyle/food-drink/article/3355137/why-korean-rice-wine-could-be-next-big-drink-hong-kong-and-mainland-china?utm_source=rss_feed",
-      "preprint": false,
-      "press_review": true,
-      "minutes": 1,
-      "href": "/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/"
     }
   ],
   "science": [
+    {
+      "title": "Psilocybin wirkt im autistischen Gehirn anders",
+      "date": "2026-08-24",
+      "created": "2026-08-24T22:49:46.797Z",
+      "slug": "psilocybin-wirkt-im-autistischen-gehirn-anders",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Studie am King's College London findet gegenläufige Konnektivitätsmuster bei Autisten und Nicht-Autisten unter Psilocybin.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.19.26360794v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psilocybin-wirkt-im-autistischen-gehirn-anders/"
+    },
+    {
+      "title": "Kindheitsstress schreibt sich in die Amygdala ein",
+      "date": "2026-08-24",
+      "created": "2026-08-24T22:49:29.720Z",
+      "slug": "kindheitsstress-schreibt-sich-in-die-amygdala-ein",
+      "rubrik": "science",
+      "lead": "Frühe Bedrohung und ökonomische Entbehrung hinterlassen im Stressnetzwerk des Gehirns entgegengesetzte Spuren, sichtbar noch Jahrzehnte später.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.20.26360904v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kindheitsstress-schreibt-sich-in-die-amygdala-ein/"
+    },
+    {
+      "title": "Phenobarbital drängt Benzodiazepine aus dem Alkoholentzug",
+      "date": "2026-08-24",
+      "created": "2026-08-24T22:49:07.791Z",
+      "slug": "phenobarbital-drangt-benzodiazepine-aus-dem-alkoholentzug",
+      "rubrik": "science",
+      "lead": "Die Standardtherapie beim schweren Alkoholentzug verliert ihre Alleinstellung.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/phar.70197",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/phenobarbital-drangt-benzodiazepine-aus-dem-alkoholentzug/"
+    },
     {
       "title": "Jugendlicher Suizidalität geht ein Lebensstil voraus",
       "date": "2026-08-23",
@@ -5533,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose/"
-    },
-    {
-      "title": "Schizophrenie und bipolare Störung im fMRT",
-      "date": "2026-06-17",
-      "created": "2026-06-17T23:54:43.240Z",
-      "slug": "schizophrenie-und-bipolare-storung-im-fmrt",
-      "rubrik": "science",
-      "lead": "Ein Preprint testet, ob Ruhezustands-Hirnscans zwei Diagnosen trennen können, die klinisch ineinanderfließen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.16.26355608v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/schizophrenie-und-bipolare-storung-im-fmrt/"
-    },
-    {
-      "title": "Genie und Psychose teilen sich die Schaltung",
-      "date": "2026-06-16",
-      "created": "2026-06-16T23:53:26.926Z",
-      "slug": "genie-und-psychose-teilen-sich-die-schaltung",
-      "rubrik": "science",
-      "lead": "Ein bioRxiv-Preprint liest schizophrene Risikogene als unterversorgte Hochleistungsarchitektur.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.14.732123v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/genie-und-psychose-teilen-sich-die-schaltung/"
-    },
-    {
-      "title": "Psychiatrische Gene schreiben sich ins Blut",
-      "date": "2026-06-16",
-      "created": "2026-06-16T23:53:13.113Z",
-      "slug": "psychiatrische-gene-schreiben-sich-ins-blut",
-      "rubrik": "science",
-      "lead": "Eine genetische Last für psychiatrische Diagnosen verschiebt das Stoffwechselprofil, bevor irgendjemand Diagnose oder Medikament gesehen hat.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.06.26354927v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/psychiatrische-gene-schreiben-sich-ins-blut/"
     }
   ]
 }

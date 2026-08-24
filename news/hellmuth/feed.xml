@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 23 Aug 2026 22:44:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:49:46 GMT</lastBuildDate>
+    <item>
+      <title>Der Preis der Dose wird politisch</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/der-preis-der-dose-wird-politisch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/der-preis-der-dose-wird-politisch/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:48:50 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Fast sechzig Abgeordnete verlangen eine Untersuchung, wie in den USA der Aluminiumpreis für Getränkedosen zustande kommt.</description>
+    </item>
+    <item>
+      <title>Allulose sucht den Ausweg aus dem Süßstoff-Dilemma</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/allulose-sucht-den-ausweg-aus-dem-sussstoff-dilemma/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/allulose-sucht-den-ausweg-aus-dem-sussstoff-dilemma/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:47:56 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der seltene Zucker Allulose wird als Kompromiss zwischen Kalorienlast und Chemiebaukasten gehandelt.</description>
+    </item>
+    <item>
+      <title>Premium heißt jetzt Erlebnis</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/premium-heisst-jetzt-erlebnis/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/premium-heisst-jetzt-erlebnis/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:47:38 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Preis allein macht ein Getränk nicht mehr hochwertig, die Inszenierung schon.</description>
+    </item>
     <item>
       <title>Matcha mit Erdbeerpulpe bei 7-Eleven Thailand</title>
       <link>https://hellmuth-soda.de/news/hellmuth/matcha-mit-erdbeerpulpe-bei-7-eleven-thailand/</link>
@@ -1582,14 +1606,6 @@
       <pubDate>Sun, 07 Jun 2026 13:57:51 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.</description>
-    </item>
-    <item>
-      <title>Koreanischer Reiswein drängt nach Süden</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</guid>
-      <pubDate>Sun, 07 Jun 2026 12:55:35 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was in Seoul Handwerk ist, wird in Shenzhen langsam zur Karte.</description>
     </item>
   </channel>
 </rss>

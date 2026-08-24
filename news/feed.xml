@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 23 Aug 2026 22:44:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:49:46 GMT</lastBuildDate>
+    <item>
+      <title>Psilocybin wirkt im autistischen Gehirn anders</title>
+      <link>https://hellmuth-soda.de/news/science/psilocybin-wirkt-im-autistischen-gehirn-anders/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psilocybin-wirkt-im-autistischen-gehirn-anders/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:49:46 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Studie am King's College London findet gegenläufige Konnektivitätsmuster bei Autisten und Nicht-Autisten unter Psilocybin.</description>
+    </item>
+    <item>
+      <title>Kindheitsstress schreibt sich in die Amygdala ein</title>
+      <link>https://hellmuth-soda.de/news/science/kindheitsstress-schreibt-sich-in-die-amygdala-ein/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kindheitsstress-schreibt-sich-in-die-amygdala-ein/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:49:29 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Frühe Bedrohung und ökonomische Entbehrung hinterlassen im Stressnetzwerk des Gehirns entgegengesetzte Spuren, sichtbar noch Jahrzehnte später.</description>
+    </item>
+    <item>
+      <title>Phenobarbital drängt Benzodiazepine aus dem Alkoholentzug</title>
+      <link>https://hellmuth-soda.de/news/science/phenobarbital-drangt-benzodiazepine-aus-dem-alkoholentzug/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/phenobarbital-drangt-benzodiazepine-aus-dem-alkoholentzug/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:49:07 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Standardtherapie beim schweren Alkoholentzug verliert ihre Alleinstellung.</description>
+    </item>
+    <item>
+      <title>Der Preis der Dose wird politisch</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/der-preis-der-dose-wird-politisch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/der-preis-der-dose-wird-politisch/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:48:50 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Fast sechzig Abgeordnete verlangen eine Untersuchung, wie in den USA der Aluminiumpreis für Getränkedosen zustande kommt.</description>
+    </item>
+    <item>
+      <title>Allulose sucht den Ausweg aus dem Süßstoff-Dilemma</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/allulose-sucht-den-ausweg-aus-dem-sussstoff-dilemma/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/allulose-sucht-den-ausweg-aus-dem-sussstoff-dilemma/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:47:56 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der seltene Zucker Allulose wird als Kompromiss zwischen Kalorienlast und Chemiebaukasten gehandelt.</description>
+    </item>
+    <item>
+      <title>Premium heißt jetzt Erlebnis</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/premium-heisst-jetzt-erlebnis/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/premium-heisst-jetzt-erlebnis/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:47:38 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Preis allein macht ein Getränk nicht mehr hochwertig, die Inszenierung schon.</description>
+    </item>
     <item>
       <title>Jugendlicher Suizidalität geht ein Lebensstil voraus</title>
       <link>https://hellmuth-soda.de/news/science/jugendlicher-suizidalitat-geht-ein-lebensstil-voraus/</link>
@@ -2848,14 +2896,6 @@
       <description>Ein Preprint aus medRxiv koppelt neurophysiologische Profile aus dem siebten Lebensmonat an Temperament und psychische Auffälligkeiten mit sieben.</description>
     </item>
     <item>
-      <title>Schizophrenie und bipolare Störung im fMRT</title>
-      <link>https://hellmuth-soda.de/news/science/schizophrenie-und-bipolare-storung-im-fmrt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-und-bipolare-storung-im-fmrt/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:54:43 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint testet, ob Ruhezustands-Hirnscans zwei Diagnosen trennen können, die klinisch ineinanderfließen.</description>
-    </item>
-    <item>
       <title>Alkoholfreies Bier ist kein Ausstieg</title>
       <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</guid>
@@ -2878,22 +2918,6 @@
       <pubDate>Wed, 17 Jun 2026 23:53:34 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Funktionsgetränke mit Whey-Protein-Isolat treiben eine Nachfrage, der die Rohstoffbasis nicht mehr hinterherkommt.</description>
-    </item>
-    <item>
-      <title>Genie und Psychose teilen sich die Schaltung</title>
-      <link>https://hellmuth-soda.de/news/science/genie-und-psychose-teilen-sich-die-schaltung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/genie-und-psychose-teilen-sich-die-schaltung/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:53:26 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein bioRxiv-Preprint liest schizophrene Risikogene als unterversorgte Hochleistungsarchitektur.</description>
-    </item>
-    <item>
-      <title>Psychiatrische Gene schreiben sich ins Blut</title>
-      <link>https://hellmuth-soda.de/news/science/psychiatrische-gene-schreiben-sich-ins-blut/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychiatrische-gene-schreiben-sich-ins-blut/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:53:13 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine genetische Last für psychiatrische Diagnosen verschiebt das Stoffwechselprofil, bevor irgendjemand Diagnose oder Medikament gesehen hat.</description>
     </item>
     <item>
       <title>Kombucha lernt Kindergeburtstag</title>
@@ -3182,14 +3206,6 @@
       <pubDate>Sun, 07 Jun 2026 13:57:51 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.</description>
-    </item>
-    <item>
-      <title>Koreanischer Reiswein drängt nach Süden</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/koreanischer-reiswein-drangt-nach-suden/</guid>
-      <pubDate>Sun, 07 Jun 2026 12:55:35 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was in Seoul Handwerk ist, wird in Shenzhen langsam zur Karte.</description>
     </item>
   </channel>
 </rss>

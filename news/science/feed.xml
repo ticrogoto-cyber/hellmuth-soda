@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 23 Aug 2026 22:44:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:49:46 GMT</lastBuildDate>
+    <item>
+      <title>Psilocybin wirkt im autistischen Gehirn anders</title>
+      <link>https://hellmuth-soda.de/news/science/psilocybin-wirkt-im-autistischen-gehirn-anders/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psilocybin-wirkt-im-autistischen-gehirn-anders/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:49:46 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Studie am King's College London findet gegenläufige Konnektivitätsmuster bei Autisten und Nicht-Autisten unter Psilocybin.</description>
+    </item>
+    <item>
+      <title>Kindheitsstress schreibt sich in die Amygdala ein</title>
+      <link>https://hellmuth-soda.de/news/science/kindheitsstress-schreibt-sich-in-die-amygdala-ein/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kindheitsstress-schreibt-sich-in-die-amygdala-ein/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:49:29 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Frühe Bedrohung und ökonomische Entbehrung hinterlassen im Stressnetzwerk des Gehirns entgegengesetzte Spuren, sichtbar noch Jahrzehnte später.</description>
+    </item>
+    <item>
+      <title>Phenobarbital drängt Benzodiazepine aus dem Alkoholentzug</title>
+      <link>https://hellmuth-soda.de/news/science/phenobarbital-drangt-benzodiazepine-aus-dem-alkoholentzug/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/phenobarbital-drangt-benzodiazepine-aus-dem-alkoholentzug/</guid>
+      <pubDate>Mon, 24 Aug 2026 22:49:07 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Standardtherapie beim schweren Alkoholentzug verliert ihre Alleinstellung.</description>
+    </item>
     <item>
       <title>Jugendlicher Suizidalität geht ein Lebensstil voraus</title>
       <link>https://hellmuth-soda.de/news/science/jugendlicher-suizidalitat-geht-ein-lebensstil-voraus/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Wed, 17 Jun 2026 23:54:56 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint aus medRxiv koppelt neurophysiologische Profile aus dem siebten Lebensmonat an Temperament und psychische Auffälligkeiten mit sieben.</description>
-    </item>
-    <item>
-      <title>Schizophrenie und bipolare Störung im fMRT</title>
-      <link>https://hellmuth-soda.de/news/science/schizophrenie-und-bipolare-storung-im-fmrt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-und-bipolare-storung-im-fmrt/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:54:43 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint testet, ob Ruhezustands-Hirnscans zwei Diagnosen trennen können, die klinisch ineinanderfließen.</description>
-    </item>
-    <item>
-      <title>Genie und Psychose teilen sich die Schaltung</title>
-      <link>https://hellmuth-soda.de/news/science/genie-und-psychose-teilen-sich-die-schaltung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/genie-und-psychose-teilen-sich-die-schaltung/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:53:26 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein bioRxiv-Preprint liest schizophrene Risikogene als unterversorgte Hochleistungsarchitektur.</description>
-    </item>
-    <item>
-      <title>Psychiatrische Gene schreiben sich ins Blut</title>
-      <link>https://hellmuth-soda.de/news/science/psychiatrische-gene-schreiben-sich-ins-blut/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychiatrische-gene-schreiben-sich-ins-blut/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:53:13 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine genetische Last für psychiatrische Diagnosen verschiebt das Stoffwechselprofil, bevor irgendjemand Diagnose oder Medikament gesehen hat.</description>
     </item>
   </channel>
 </rss>
