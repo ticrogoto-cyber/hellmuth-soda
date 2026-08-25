@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 24 Aug 2026 22:49:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 22:51:29 GMT</lastBuildDate>
+    <item>
+      <title>ALS beginnt am Vesikel, nicht am Neuron</title>
+      <link>https://hellmuth-soda.de/news/science/als-beginnt-am-vesikel-nicht-am-neuron/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/als-beginnt-am-vesikel-nicht-am-neuron/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:51:29 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint verlegt den Anfang der Amyotrophen Lateralsklerose in eine Phase, in der die Nervenzelle noch steht.</description>
+    </item>
+    <item>
+      <title>Psilocybin verschaltet Wiederholung zu Neuheit</title>
+      <link>https://hellmuth-soda.de/news/science/psilocybin-verschaltet-wiederholung-zu-neuheit/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psilocybin-verschaltet-wiederholung-zu-neuheit/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:51:16 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv zeigt an Mäusen, wie Psilocybin das Sehsystem in einen Dauerzustand der Überraschung zwingt.</description>
+    </item>
+    <item>
+      <title>Zwei von drei Hochrisikokindern zeigen bis 15 eine psychische Diagnose</title>
+      <link>https://hellmuth-soda.de/news/science/zwei-von-drei-hochrisikokindern-zeigen-bis-15-eine-psychische-diagnose/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-von-drei-hochrisikokindern-zeigen-bis-15-eine-psychische-diagnose/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:50:56 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine dänische Langzeitkohorte zeichnet nach, was Familienpsychiatrie lange nur vermutete.</description>
+    </item>
+    <item>
+      <title>RTDs kippen die Premiumisierungslogik</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/rtds-kippen-die-premiumisierungslogik/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/rtds-kippen-die-premiumisierungslogik/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:50:31 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der teuerste Drink pro Portion wächst am schnellsten, und das ausgerechnet in der Dose.</description>
+    </item>
+    <item>
+      <title>Die Recovery-Lücke im Getränkeregal</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/die-recovery-lucke-im-getrankeregal/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/die-recovery-lucke-im-getrankeregal/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:50:14 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Sportgetränke waren jahrzehntelang ein Vorspiel. Jetzt entdeckt die Branche das Danach.</description>
+    </item>
+    <item>
+      <title>Saint James wechselt vom Tee ins Mate-Regal</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/saint-james-wechselt-vom-tee-ins-mate-regal/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/saint-james-wechselt-vom-tee-ins-mate-regal/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:49:57 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein Eistee-Hersteller sucht Wachstum dort, wo Koffein als Lifestyle verkauft wird.</description>
+    </item>
     <item>
       <title>Psilocybin wirkt im autistischen Gehirn anders</title>
       <link>https://hellmuth-soda.de/news/science/psilocybin-wirkt-im-autistischen-gehirn-anders/</link>
@@ -2872,30 +2920,6 @@
       <description>Ein medRxiv-Preprint rechnet vor, dass die Kurve, an der sich das schonende Absetzen von SSRI ausrichtet, nicht die entscheidende ist.</description>
     </item>
     <item>
-      <title>Predictive Processing zerfällt unter dem Faktoranalyse-Skalpell</title>
-      <link>https://hellmuth-soda.de/news/science/predictive-processing-zerfallt-unter-dem-faktoranalyse-skalpell/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/predictive-processing-zerfallt-unter-dem-faktoranalyse-skalpell/</guid>
-      <pubDate>Fri, 19 Jun 2026 00:07:34 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Annahme, dass eine einzige Größe »Vorhersageverarbeitung« über Aufgaben hinweg messbar sei, hält der ersten ernsthaften Prüfung nicht stand.</description>
-    </item>
-    <item>
-      <title>Im Thalamus liegt die Rückfallstelle</title>
-      <link>https://hellmuth-soda.de/news/science/im-thalamus-liegt-die-ruckfallstelle/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/im-thalamus-liegt-die-ruckfallstelle/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:55:12 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Wenn die Expositionstherapie versagt, liegt der Fehler tiefer als bislang adressiert.</description>
-    </item>
-    <item>
-      <title>Säuglings-EEG sortiert Kinder Jahre vor der Diagnose</title>
-      <link>https://hellmuth-soda.de/news/science/sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:54:56 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus medRxiv koppelt neurophysiologische Profile aus dem siebten Lebensmonat an Temperament und psychische Auffälligkeiten mit sieben.</description>
-    </item>
-    <item>
       <title>Alkoholfreies Bier ist kein Ausstieg</title>
       <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</guid>
@@ -3182,30 +3206,6 @@
       <pubDate>Sun, 07 Jun 2026 16:17:06 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Siebzig bis achtzig Prozent des weltweit verbrauchten Gummi arabicum stammen aus dem Sudan, wo seit 2023 Krieg herrscht.</description>
-    </item>
-    <item>
-      <title>Refresher verlassen die Theke</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/refresher-verlassen-die-theke/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/refresher-verlassen-die-theke/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:14:57 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was Starbucks und Dunkin' als koffeinierte Fruchtgetränke etabliert haben, wandert ins Supermarktregal.</description>
-    </item>
-    <item>
-      <title>Ginseng als Alltagsware</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/ginseng-als-alltagsware/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ginseng-als-alltagsware/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:12:32 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was Apotheke war, soll Snack werden.</description>
-    </item>
-    <item>
-      <title>Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/</guid>
-      <pubDate>Sun, 07 Jun 2026 13:57:51 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.</description>
     </item>
   </channel>
 </rss>

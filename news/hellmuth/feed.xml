@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 24 Aug 2026 22:49:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 22:51:29 GMT</lastBuildDate>
+    <item>
+      <title>RTDs kippen die Premiumisierungslogik</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/rtds-kippen-die-premiumisierungslogik/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/rtds-kippen-die-premiumisierungslogik/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:50:31 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der teuerste Drink pro Portion wächst am schnellsten, und das ausgerechnet in der Dose.</description>
+    </item>
+    <item>
+      <title>Die Recovery-Lücke im Getränkeregal</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/die-recovery-lucke-im-getrankeregal/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/die-recovery-lucke-im-getrankeregal/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:50:14 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Sportgetränke waren jahrzehntelang ein Vorspiel. Jetzt entdeckt die Branche das Danach.</description>
+    </item>
+    <item>
+      <title>Saint James wechselt vom Tee ins Mate-Regal</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/saint-james-wechselt-vom-tee-ins-mate-regal/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/saint-james-wechselt-vom-tee-ins-mate-regal/</guid>
+      <pubDate>Tue, 25 Aug 2026 22:49:57 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein Eistee-Hersteller sucht Wachstum dort, wo Koffein als Lifestyle verkauft wird.</description>
+    </item>
     <item>
       <title>Der Preis der Dose wird politisch</title>
       <link>https://hellmuth-soda.de/news/hellmuth/der-preis-der-dose-wird-politisch/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sun, 07 Jun 2026 16:17:06 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Siebzig bis achtzig Prozent des weltweit verbrauchten Gummi arabicum stammen aus dem Sudan, wo seit 2023 Krieg herrscht.</description>
-    </item>
-    <item>
-      <title>Refresher verlassen die Theke</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/refresher-verlassen-die-theke/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/refresher-verlassen-die-theke/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:14:57 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was Starbucks und Dunkin' als koffeinierte Fruchtgetränke etabliert haben, wandert ins Supermarktregal.</description>
-    </item>
-    <item>
-      <title>Ginseng als Alltagsware</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/ginseng-als-alltagsware/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ginseng-als-alltagsware/</guid>
-      <pubDate>Sun, 07 Jun 2026 16:12:32 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was Apotheke war, soll Snack werden.</description>
-    </item>
-    <item>
-      <title>Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/</guid>
-      <pubDate>Sun, 07 Jun 2026 13:57:51 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.</description>
     </item>
   </channel>
 </rss>

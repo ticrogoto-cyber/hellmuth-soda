@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-24T22:49:46.884Z",
+  "generated": "2026-08-25T22:51:29.606Z",
   "hellmuth": [
+    {
+      "title": "RTDs kippen die Premiumisierungslogik",
+      "date": "2026-08-25",
+      "created": "2026-08-25T22:50:31.054Z",
+      "slug": "rtds-kippen-die-premiumisierungslogik",
+      "rubrik": "hellmuth",
+      "lead": "Der teuerste Drink pro Portion wächst am schnellsten, und das ausgerechnet in der Dose.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/the-death-of-traditional-trading-up-rtds-lead-new-premiumization-wave",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/rtds-kippen-die-premiumisierungslogik/"
+    },
+    {
+      "title": "Die Recovery-Lücke im Getränkeregal",
+      "date": "2026-08-25",
+      "created": "2026-08-25T22:50:14.386Z",
+      "slug": "die-recovery-lucke-im-getrankeregal",
+      "rubrik": "hellmuth",
+      "lead": "Sportgetränke waren jahrzehntelang ein Vorspiel. Jetzt entdeckt die Branche das Danach.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/after-the-workout-where-the-recovery-occasion-is-going-brightfield-group-august-2026",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/die-recovery-lucke-im-getrankeregal/"
+    },
+    {
+      "title": "Saint James wechselt vom Tee ins Mate-Regal",
+      "date": "2026-08-25",
+      "created": "2026-08-25T22:49:57.874Z",
+      "slug": "saint-james-wechselt-vom-tee-ins-mate-regal",
+      "rubrik": "hellmuth",
+      "lead": "Ein Eistee-Hersteller sucht Wachstum dort, wo Koffein als Lifestyle verkauft wird.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/saint-james-targets-energy-c-stores-with-yerba-mate-launch",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/saint-james-wechselt-vom-tee-ins-mate-regal/"
+    },
     {
       "title": "Der Preis der Dose wird politisch",
       "date": "2026-08-24",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet/"
-    },
-    {
-      "title": "Refresher verlassen die Theke",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:14:57.978Z",
-      "slug": "refresher-verlassen-die-theke",
-      "rubrik": "hellmuth",
-      "lead": "Was Starbucks und Dunkin' als koffeinierte Fruchtgetränke etabliert haben, wandert ins Supermarktregal.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/the-energy-refreshers-wave-is-moving-from-qsrs-to-cpg",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/refresher-verlassen-die-theke/"
-    },
-    {
-      "title": "Ginseng als Alltagsware",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:12:32.319Z",
-      "slug": "ginseng-als-alltagsware",
-      "rubrik": "hellmuth",
-      "lead": "Was Apotheke war, soll Snack werden.",
-      "source_name": "FoodNavigator Asia",
-      "source_url": "https://www.foodnavigator-asia.com/Article/2026/05/12/ginseng-democratisation-advancing-food-as-medicine/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/ginseng-als-alltagsware/"
-    },
-    {
-      "title": "Sake-RTD im US-Massenmarkt, europäischer Cocktail bei Total Wine",
-      "date": "2026-06-07",
-      "created": "2026-06-07T13:57:51.230Z",
-      "slug": "sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine",
-      "rubrik": "hellmuth",
-      "lead": "Die US-Spirituosen-Distribution sortiert sich nach dem Rückzug von RNDC neu, und die Lücken füllen Außenseiter.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/spirits-distribution-punch-club-lands-at-total-wine-oishii-signs-with-sgws",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/sake-rtd-im-us-massenmarkt-europaischer-cocktail-bei-total-wine/"
     }
   ],
   "science": [
+    {
+      "title": "ALS beginnt am Vesikel, nicht am Neuron",
+      "date": "2026-08-25",
+      "created": "2026-08-25T22:51:29.543Z",
+      "slug": "als-beginnt-am-vesikel-nicht-am-neuron",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlegt den Anfang der Amyotrophen Lateralsklerose in eine Phase, in der die Nervenzelle noch steht.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746168v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/als-beginnt-am-vesikel-nicht-am-neuron/"
+    },
+    {
+      "title": "Psilocybin verschaltet Wiederholung zu Neuheit",
+      "date": "2026-08-25",
+      "created": "2026-08-25T22:51:16.853Z",
+      "slug": "psilocybin-verschaltet-wiederholung-zu-neuheit",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv zeigt an Mäusen, wie Psilocybin das Sehsystem in einen Dauerzustand der Überraschung zwingt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.21.745777v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psilocybin-verschaltet-wiederholung-zu-neuheit/"
+    },
+    {
+      "title": "Zwei von drei Hochrisikokindern zeigen bis 15 eine psychische Diagnose",
+      "date": "2026-08-25",
+      "created": "2026-08-25T22:50:56.510Z",
+      "slug": "zwei-von-drei-hochrisikokindern-zeigen-bis-15-eine-psychische-diagnose",
+      "rubrik": "science",
+      "lead": "Eine dänische Langzeitkohorte zeichnet nach, was Familienpsychiatrie lange nur vermutete.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.22.26360313v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-von-drei-hochrisikokindern-zeigen-bis-15-eine-psychische-diagnose/"
+    },
     {
       "title": "Psilocybin wirkt im autistischen Gehirn anders",
       "date": "2026-08-24",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht/"
-    },
-    {
-      "title": "Predictive Processing zerfällt unter dem Faktoranalyse-Skalpell",
-      "date": "2026-06-19",
-      "created": "2026-06-19T00:07:34.779Z",
-      "slug": "predictive-processing-zerfallt-unter-dem-faktoranalyse-skalpell",
-      "rubrik": "science",
-      "lead": "Die Annahme, dass eine einzige Größe »Vorhersageverarbeitung« über Aufgaben hinweg messbar sei, hält der ersten ernsthaften Prüfung nicht stand.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26354804v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/predictive-processing-zerfallt-unter-dem-faktoranalyse-skalpell/"
-    },
-    {
-      "title": "Im Thalamus liegt die Rückfallstelle",
-      "date": "2026-06-17",
-      "created": "2026-06-17T23:55:12.012Z",
-      "slug": "im-thalamus-liegt-die-ruckfallstelle",
-      "rubrik": "science",
-      "lead": "Wenn die Expositionstherapie versagt, liegt der Fehler tiefer als bislang adressiert.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355743v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/im-thalamus-liegt-die-ruckfallstelle/"
-    },
-    {
-      "title": "Säuglings-EEG sortiert Kinder Jahre vor der Diagnose",
-      "date": "2026-06-17",
-      "created": "2026-06-17T23:54:56.247Z",
-      "slug": "sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus medRxiv koppelt neurophysiologische Profile aus dem siebten Lebensmonat an Temperament und psychische Auffälligkeiten mit sieben.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355713v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/sauglings-eeg-sortiert-kinder-jahre-vor-der-diagnose/"
     }
   ]
 }
