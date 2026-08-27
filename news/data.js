@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-25T22:51:29.606Z",
+  "generated": "2026-08-27T03:26:08.913Z",
   "hellmuth": [
+    {
+      "title": "Prebiotischer Twist auf Malaysias Ikat-Tepi-Klassiker",
+      "date": "2026-08-27",
+      "created": "2026-08-27T03:24:44.589Z",
+      "slug": "prebiotischer-twist-auf-malaysias-ikat-tepi-klassiker",
+      "rubrik": "hellmuth",
+      "lead": "Teh Ais Limau war Straßengetränk im Plastikbeutel, jetzt wandert es in die Better-for-you-Regale.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/24/the-tapping-tapir-reimagines-teh-ais-limau-with-prebiotic/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/prebiotischer-twist-auf-malaysias-ikat-tepi-klassiker/"
+    },
+    {
+      "title": "Allulose als Zucker, der keiner sein darf",
+      "date": "2026-08-27",
+      "created": "2026-08-27T03:23:45.233Z",
+      "slug": "allulose-als-zucker-der-keiner-sein-darf",
+      "rubrik": "hellmuth",
+      "lead": "Zwei Sammelklagen gegen Liquid Death und David Protein hebeln die »Zero Sugar«-Rhetorik der US-Getränkeindustrie aus.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/liquid-death-david-protein-facing-lawsuits-claiming-allulose-contradicts-zero-sugar-claims",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/allulose-als-zucker-der-keiner-sein-darf/"
+    },
+    {
+      "title": "US-Alkoholkonsum verharrt auf Tiefstand seit 1939",
+      "date": "2026-08-27",
+      "created": "2026-08-27T03:23:25.462Z",
+      "slug": "us-alkoholkonsum-verharrt-auf-tiefstand-seit-1939",
+      "rubrik": "hellmuth",
+      "lead": "Der langjährige Rückzug der Amerikaner vom Alkohol ist keine Delle mehr, sondern eine neue Grundlinie.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/gallup-poll-us-alcohol-drinking-rate-remains-all-time-low/828821/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/us-alkoholkonsum-verharrt-auf-tiefstand-seit-1939/"
+    },
     {
       "title": "RTDs kippen die Premiumisierungslogik",
       "date": "2026-08-25",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/apfelessig-wird-zur-sussen-limonade/"
-    },
-    {
-      "title": "Joony's nennt sein Wasser mit Saftschuss eine neue Kategorie",
-      "date": "2026-06-07",
-      "created": "2026-06-07T21:39:02.938Z",
-      "slug": "joony-s-nennt-sein-wasser-mit-saftschuss-eine-neue-kategorie",
-      "rubrik": "hellmuth",
-      "lead": "Ein Hersteller erklärt sein Produkt zur Gattung und hofft, dass der Handel mitspielt.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/neue-kategorie-im-getraenkeregal-joonys-launcht-natural-soda/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/joony-s-nennt-sein-wasser-mit-saftschuss-eine-neue-kategorie/"
-    },
-    {
-      "title": "Knut Hansen baut eine Elf aus Gin-Cocktails",
-      "date": "2026-06-07",
-      "created": "2026-06-07T21:38:30.888Z",
-      "slug": "knut-hansen-baut-eine-elf-aus-gin-cocktails",
-      "rubrik": "hellmuth",
-      "lead": "Eine Hamburger Destillerie inszeniert ihre Cocktailkarte zur Fußball-WM 2026 als Mannschaftsaufstellung.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/knut-hansen-startelf-drinks-zur-fussball-wm-2026/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/knut-hansen-baut-eine-elf-aus-gin-cocktails/"
-    },
-    {
-      "title": "Gummi arabicum: Der Rohstoff, der Cola homogen hält, kommt aus einem Kriegsgebiet",
-      "date": "2026-06-07",
-      "created": "2026-06-07T16:17:06.492Z",
-      "slug": "gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet",
-      "rubrik": "hellmuth",
-      "lead": "Siebzig bis achtzig Prozent des weltweit verbrauchten Gummi arabicum stammen aus dem Sudan, wo seit 2023 Krieg herrscht.",
-      "source_name": "AP Food Online",
-      "source_url": "https://www.apfoodonline.com/sudan-conflict-affects-gum-arabic-supply/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/gummi-arabicum-der-rohstoff-der-cola-homogen-halt-kommt-aus-einem-kriegsgebiet/"
     }
   ],
   "science": [
+    {
+      "title": "Der alternde Denkapparat verliert seine Isolierung",
+      "date": "2026-08-27",
+      "created": "2026-08-27T03:26:08.833Z",
+      "slug": "der-alternde-denkapparat-verliert-seine-isolierung",
+      "rubrik": "science",
+      "lead": "Kognitiver Abbau im Alter beginnt nicht bei den Nervenzellen, sondern bei ihren Verpackern.",
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04608-y",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-alternde-denkapparat-verliert-seine-isolierung/"
+    },
+    {
+      "title": "Warum autistische Mäuse nicht müde werden",
+      "date": "2026-08-27",
+      "created": "2026-08-27T03:25:41.996Z",
+      "slug": "warum-autistische-mause-nicht-mude-werden",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlegt die Schlafstörung bei Autismus von der Verhaltensebene in die Genexpression des Kortex.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746326v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/warum-autistische-mause-nicht-mude-werden/"
+    },
+    {
+      "title": "Vision Transformer sagen epileptische Anfälle vorher",
+      "date": "2026-08-27",
+      "created": "2026-08-27T03:25:06.122Z",
+      "slug": "vision-transformer-sagen-epileptische-anfalle-vorher",
+      "rubrik": "science",
+      "lead": "Ein Preprint kombiniert vortrainierte Bild-KIs mit EEG-Daten, um Anfälle Minuten vor ihrem Beginn zu erkennen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.21.746341v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/vision-transformer-sagen-epileptische-anfalle-vorher/"
+    },
     {
       "title": "ALS beginnt am Vesikel, nicht am Neuron",
       "date": "2026-08-25",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/die-pille-greift-in-die-stressachse-ein-regional-getrennt/"
-    },
-    {
-      "title": "Hemmung als Statik des Gehirns",
-      "date": "2026-06-19",
-      "created": "2026-06-19T23:21:06.677Z",
-      "slug": "hemmung-als-statik-des-gehirns",
-      "rubrik": "science",
-      "lead": "Resilienz neuronaler Schaltkreise gegen Degeneration hängt nicht an der Menge erhaltener Verbindungen, sondern an der Position der hemmenden Neuronen.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732346v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/hemmung-als-statik-des-gehirns/"
-    },
-    {
-      "title": "Kindheitstrauma verkabelt das Gehirn neu",
-      "date": "2026-06-19",
-      "created": "2026-06-19T00:08:04.703Z",
-      "slug": "kindheitstrauma-verkabelt-das-gehirn-neu",
-      "rubrik": "science",
-      "lead": "Frühe Gewalt verschiebt die Schaltzentrale der Persönlichkeit von der Kognition in die Limbik.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26354444v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/kindheitstrauma-verkabelt-das-gehirn-neu/"
-    },
-    {
-      "title": "Hyperbolisches Ausschleichen ruht auf weicherem Boden als gedacht",
-      "date": "2026-06-19",
-      "created": "2026-06-19T00:07:49.928Z",
-      "slug": "hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht",
-      "rubrik": "science",
-      "lead": "Ein medRxiv-Preprint rechnet vor, dass die Kurve, an der sich das schonende Absetzen von SSRI ausrichtet, nicht die entscheidende ist.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.09.26355019v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht/"
     }
   ]
 }

@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 25 Aug 2026 22:51:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 03:26:08 GMT</lastBuildDate>
+    <item>
+      <title>Der alternde Denkapparat verliert seine Isolierung</title>
+      <link>https://hellmuth-soda.de/news/science/der-alternde-denkapparat-verliert-seine-isolierung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-alternde-denkapparat-verliert-seine-isolierung/</guid>
+      <pubDate>Thu, 27 Aug 2026 03:26:08 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Kognitiver Abbau im Alter beginnt nicht bei den Nervenzellen, sondern bei ihren Verpackern.</description>
+    </item>
+    <item>
+      <title>Warum autistische Mäuse nicht müde werden</title>
+      <link>https://hellmuth-soda.de/news/science/warum-autistische-mause-nicht-mude-werden/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-autistische-mause-nicht-mude-werden/</guid>
+      <pubDate>Thu, 27 Aug 2026 03:25:41 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint verlegt die Schlafstörung bei Autismus von der Verhaltensebene in die Genexpression des Kortex.</description>
+    </item>
+    <item>
+      <title>Vision Transformer sagen epileptische Anfälle vorher</title>
+      <link>https://hellmuth-soda.de/news/science/vision-transformer-sagen-epileptische-anfalle-vorher/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/vision-transformer-sagen-epileptische-anfalle-vorher/</guid>
+      <pubDate>Thu, 27 Aug 2026 03:25:06 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint kombiniert vortrainierte Bild-KIs mit EEG-Daten, um Anfälle Minuten vor ihrem Beginn zu erkennen.</description>
+    </item>
     <item>
       <title>ALS beginnt am Vesikel, nicht am Neuron</title>
       <link>https://hellmuth-soda.de/news/science/als-beginnt-am-vesikel-nicht-am-neuron/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Fri, 19 Jun 2026 23:21:25 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Mausmodell zur kombinierten oralen Kontrazeption zeigt, dass synthetisches Östrogen plus Levonorgestrel die Glucocorticoid-Rückkopplung im Gehirn umbaut.</description>
-    </item>
-    <item>
-      <title>Hemmung als Statik des Gehirns</title>
-      <link>https://hellmuth-soda.de/news/science/hemmung-als-statik-des-gehirns/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hemmung-als-statik-des-gehirns/</guid>
-      <pubDate>Fri, 19 Jun 2026 23:21:06 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Resilienz neuronaler Schaltkreise gegen Degeneration hängt nicht an der Menge erhaltener Verbindungen, sondern an der Position der hemmenden Neuronen.</description>
-    </item>
-    <item>
-      <title>Kindheitstrauma verkabelt das Gehirn neu</title>
-      <link>https://hellmuth-soda.de/news/science/kindheitstrauma-verkabelt-das-gehirn-neu/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kindheitstrauma-verkabelt-das-gehirn-neu/</guid>
-      <pubDate>Fri, 19 Jun 2026 00:08:04 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Frühe Gewalt verschiebt die Schaltzentrale der Persönlichkeit von der Kognition in die Limbik.</description>
-    </item>
-    <item>
-      <title>Hyperbolisches Ausschleichen ruht auf weicherem Boden als gedacht</title>
-      <link>https://hellmuth-soda.de/news/science/hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hyperbolisches-ausschleichen-ruht-auf-weicherem-boden-als-gedacht/</guid>
-      <pubDate>Fri, 19 Jun 2026 00:07:49 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein medRxiv-Preprint rechnet vor, dass die Kurve, an der sich das schonende Absetzen von SSRI ausrichtet, nicht die entscheidende ist.</description>
     </item>
   </channel>
 </rss>
