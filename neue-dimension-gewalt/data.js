@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-25T22:54:43.122Z",
+  "generated": "2026-08-27T03:28:21.417Z",
   "items": [
     {
       "title": "Limburg und das gestohlene Auto als Tatmittel",
