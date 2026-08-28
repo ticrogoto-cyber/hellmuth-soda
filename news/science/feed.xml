@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:26:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 06:17:23 GMT</lastBuildDate>
+    <item>
+      <title>Oxytocin-Spray verschiebt Netzwerke, nicht Symptome</title>
+      <link>https://hellmuth-soda.de/news/science/oxytocin-spray-verschiebt-netzwerke-nicht-symptome/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/oxytocin-spray-verschiebt-netzwerke-nicht-symptome/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:17:23 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf medRxiv testet, ob intranasales Oxytocin bei autistischen Männern jenes Hirnnetz moduliert, das im Tiermodell für soziales Verhalten zuständig ist.</description>
+    </item>
+    <item>
+      <title>Sprachliche Angleichung als Psychose-Marker</title>
+      <link>https://hellmuth-soda.de/news/science/sprachliche-angleichung-als-psychose-marker/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sprachliche-angleichung-als-psychose-marker/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:17:10 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Psychiatrie versucht, gestörte zwischenmenschliche Abstimmung bei Schizophrenie messbar zu machen, indem es zählt, wie zwei Sprecher ihre Funktionswörter aneinander anpassen.</description>
+    </item>
+    <item>
+      <title>Ayahuasca in Las Vegas senkt Depressionswerte über 90 Tage</title>
+      <link>https://hellmuth-soda.de/news/science/ayahuasca-in-las-vegas-senkt-depressionswerte-uber-90-tage/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ayahuasca-in-las-vegas-senkt-depressionswerte-uber-90-tage/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:16:57 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine prospektive Kohorte außerhalb des klinischen Settings zeigt anhaltend niedrigere Depressionsscores nach ritueller Ayahuasca-Einnahme.</description>
+    </item>
     <item>
       <title>Der alternde Denkapparat verliert seine Isolierung</title>
       <link>https://hellmuth-soda.de/news/science/der-alternde-denkapparat-verliert-seine-isolierung/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sat, 20 Jun 2026 23:41:44 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint verschiebt die Diagnostik früher Schizophrenie von der klinischen Beobachtung in die räumlichen Randbereiche der Hirnscans.</description>
-    </item>
-    <item>
-      <title>Huntington beginnt im Fötus</title>
-      <link>https://hellmuth-soda.de/news/science/huntington-beginnt-im-fotus/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/huntington-beginnt-im-fotus/</guid>
-      <pubDate>Sat, 20 Jun 2026 23:41:18 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Krankheit, die typischerweise erst in der Lebensmitte ausbricht, hinterlässt bereits im fetalen Striatum eine eigene Signatur.</description>
-    </item>
-    <item>
-      <title>Zwangsstörung als Attraktorfalle im Rattenhirn</title>
-      <link>https://hellmuth-soda.de/news/science/zwangsstorung-als-attraktorfalle-im-rattenhirn/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwangsstorung-als-attraktorfalle-im-rattenhirn/</guid>
-      <pubDate>Fri, 19 Jun 2026 23:21:41 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint bringt die Zwangsstörung von der Symptomebene in die Schaltungsebene und liest sie als Verlust neuronaler Beweglichkeit.</description>
-    </item>
-    <item>
-      <title>Die Pille greift in die Stressachse ein, regional getrennt</title>
-      <link>https://hellmuth-soda.de/news/science/die-pille-greift-in-die-stressachse-ein-regional-getrennt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/die-pille-greift-in-die-stressachse-ein-regional-getrennt/</guid>
-      <pubDate>Fri, 19 Jun 2026 23:21:25 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Mausmodell zur kombinierten oralen Kontrazeption zeigt, dass synthetisches Östrogen plus Levonorgestrel die Glucocorticoid-Rückkopplung im Gehirn umbaut.</description>
     </item>
   </channel>
 </rss>

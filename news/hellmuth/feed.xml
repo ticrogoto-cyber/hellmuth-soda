@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:26:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 06:17:23 GMT</lastBuildDate>
+    <item>
+      <title>Weihenstephan setzt auf alkoholfrei</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/weihenstephan-setzt-auf-alkoholfrei/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/weihenstephan-setzt-auf-alkoholfrei/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:16:25 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die älteste Brauerei der Welt richtet ihr Sortiment am Rückzug der Trinker aus.</description>
+    </item>
+    <item>
+      <title>Monster verdient schneller, als seine Brauerei verlieren kann</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/monster-verdient-schneller-als-seine-brauerei-verlieren-kann/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/monster-verdient-schneller-als-seine-brauerei-verlieren-kann/</guid>
+      <pubDate>Fri, 28 Aug 2026 06:11:55 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Energy-Drink-Riese wächst so kräftig, dass die eigene Alkoholsparte zum tolerierten Verlustposten verkommt.</description>
+    </item>
     <item>
       <title>Prebiotischer Twist auf Malaysias Ikat-Tepi-Klassiker</title>
       <link>https://hellmuth-soda.de/news/hellmuth/prebiotischer-twist-auf-malaysias-ikat-tepi-klassiker/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Mon, 08 Jun 2026 08:07:24 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Das US-Startup PHX fusioniert zwei gesättigte Kategorien zu einer dritten und nennt das Innovation.</description>
-    </item>
-    <item>
-      <title>Texas nimmt sich Celsius vor</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/texas-nimmt-sich-celsius-vor/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/texas-nimmt-sich-celsius-vor/</guid>
-      <pubDate>Mon, 08 Jun 2026 08:06:52 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der texanische Generalstaatsanwalt prüft, ob Celsius und die Schwestermarke Alani Nu ihre Koffeinbomben gezielt an Minderjährige vermarkten.</description>
-    </item>
-    <item>
-      <title>Apfelessig wird zur süßen Limonade</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/apfelessig-wird-zur-sussen-limonade/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/apfelessig-wird-zur-sussen-limonade/</guid>
-      <pubDate>Mon, 08 Jun 2026 08:05:42 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Ein chinesischer Hersteller verschiebt Apfelessig aus dem Wellness-Regal in die Kühltheke der Erfrischungsgetränke.</description>
     </item>
   </channel>
 </rss>

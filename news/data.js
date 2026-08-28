@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-27T03:26:08.913Z",
+  "generated": "2026-08-28T06:17:23.563Z",
   "hellmuth": [
+    {
+      "title": "Weihenstephan setzt auf alkoholfrei",
+      "date": "2026-08-28",
+      "created": "2026-08-28T06:16:25.621Z",
+      "slug": "weihenstephan-setzt-auf-alkoholfrei",
+      "rubrik": "hellmuth",
+      "lead": "Die älteste Brauerei der Welt richtet ihr Sortiment am Rückzug der Trinker aus.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/bewusster-biergenuss-weihenstephan-mit-no-low-spezialitaeten-breit-aufgestellt/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/weihenstephan-setzt-auf-alkoholfrei/"
+    },
+    {
+      "title": "Monster verdient schneller, als seine Brauerei verlieren kann",
+      "date": "2026-08-28",
+      "created": "2026-08-28T06:11:55.981Z",
+      "slug": "monster-verdient-schneller-als-seine-brauerei-verlieren-kann",
+      "rubrik": "hellmuth",
+      "lead": "Der Energy-Drink-Riese wächst so kräftig, dass die eigene Alkoholsparte zum tolerierten Verlustposten verkommt.",
+      "source_name": "VinePair",
+      "source_url": "https://vinepair.com/articles/hop-take-monsters-growth-excludes-alcohol-segment/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/monster-verdient-schneller-als-seine-brauerei-verlieren-kann/"
+    },
     {
       "title": "Prebiotischer Twist auf Malaysias Ikat-Tepi-Klassiker",
       "date": "2026-08-27",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/hydration-trifft-koffein-der-nachste-etikettentrick/"
-    },
-    {
-      "title": "Texas nimmt sich Celsius vor",
-      "date": "2026-06-08",
-      "created": "2026-06-08T08:06:52.465Z",
-      "slug": "texas-nimmt-sich-celsius-vor",
-      "rubrik": "hellmuth",
-      "lead": "Der texanische Generalstaatsanwalt prüft, ob Celsius und die Schwestermarke Alani Nu ihre Koffeinbomben gezielt an Minderjährige vermarkten.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/05/texas-ag-investigates-celsius-alani-nu-over-caffeine-and-youth-marketing/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/texas-nimmt-sich-celsius-vor/"
-    },
-    {
-      "title": "Apfelessig wird zur süßen Limonade",
-      "date": "2026-06-08",
-      "created": "2026-06-08T08:05:42.338Z",
-      "slug": "apfelessig-wird-zur-sussen-limonade",
-      "rubrik": "hellmuth",
-      "lead": "Ein chinesischer Hersteller verschiebt Apfelessig aus dem Wellness-Regal in die Kühltheke der Erfrischungsgetränke.",
-      "source_name": "FoodNavigator Asia",
-      "source_url": "https://www.foodnavigator-asia.com/Article/2026/05/28/china-firm-reinvents-apple-cider-vinegar-for-rtd/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/apfelessig-wird-zur-sussen-limonade/"
     }
   ],
   "science": [
+    {
+      "title": "Oxytocin-Spray verschiebt Netzwerke, nicht Symptome",
+      "date": "2026-08-28",
+      "created": "2026-08-28T06:17:23.475Z",
+      "slug": "oxytocin-spray-verschiebt-netzwerke-nicht-symptome",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv testet, ob intranasales Oxytocin bei autistischen Männern jenes Hirnnetz moduliert, das im Tiermodell für soziales Verhalten zuständig ist.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26361211v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/oxytocin-spray-verschiebt-netzwerke-nicht-symptome/"
+    },
+    {
+      "title": "Sprachliche Angleichung als Psychose-Marker",
+      "date": "2026-08-28",
+      "created": "2026-08-28T06:17:10.442Z",
+      "slug": "sprachliche-angleichung-als-psychose-marker",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Psychiatrie versucht, gestörte zwischenmenschliche Abstimmung bei Schizophrenie messbar zu machen, indem es zählt, wie zwei Sprecher ihre Funktionswörter aneinander anpassen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26361227v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sprachliche-angleichung-als-psychose-marker/"
+    },
+    {
+      "title": "Ayahuasca in Las Vegas senkt Depressionswerte über 90 Tage",
+      "date": "2026-08-28",
+      "created": "2026-08-28T06:16:57.275Z",
+      "slug": "ayahuasca-in-las-vegas-senkt-depressionswerte-uber-90-tage",
+      "rubrik": "science",
+      "lead": "Eine prospektive Kohorte außerhalb des klinischen Settings zeigt anhaltend niedrigere Depressionsscores nach ritueller Ayahuasca-Einnahme.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.24.26361280v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ayahuasca-in-las-vegas-senkt-depressionswerte-uber-90-tage/"
+    },
     {
       "title": "Der alternde Denkapparat verliert seine Isolierung",
       "date": "2026-08-27",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/"
-    },
-    {
-      "title": "Huntington beginnt im Fötus",
-      "date": "2026-06-20",
-      "created": "2026-06-20T23:41:18.575Z",
-      "slug": "huntington-beginnt-im-fotus",
-      "rubrik": "science",
-      "lead": "Die Krankheit, die typischerweise erst in der Lebensmitte ausbricht, hinterlässt bereits im fetalen Striatum eine eigene Signatur.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733377v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/huntington-beginnt-im-fotus/"
-    },
-    {
-      "title": "Zwangsstörung als Attraktorfalle im Rattenhirn",
-      "date": "2026-06-19",
-      "created": "2026-06-19T23:21:41.047Z",
-      "slug": "zwangsstorung-als-attraktorfalle-im-rattenhirn",
-      "rubrik": "science",
-      "lead": "Ein Preprint bringt die Zwangsstörung von der Symptomebene in die Schaltungsebene und liest sie als Verlust neuronaler Beweglichkeit.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.730877v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwangsstorung-als-attraktorfalle-im-rattenhirn/"
-    },
-    {
-      "title": "Die Pille greift in die Stressachse ein, regional getrennt",
-      "date": "2026-06-19",
-      "created": "2026-06-19T23:21:25.885Z",
-      "slug": "die-pille-greift-in-die-stressachse-ein-regional-getrennt",
-      "rubrik": "science",
-      "lead": "Ein Mausmodell zur kombinierten oralen Kontrazeption zeigt, dass synthetisches Östrogen plus Levonorgestrel die Glucocorticoid-Rückkopplung im Gehirn umbaut.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.731933v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/die-pille-greift-in-die-stressachse-ein-regional-getrennt/"
     }
   ]
 }
