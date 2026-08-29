@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-28T06:17:23.563Z",
+  "generated": "2026-08-29T03:48:17.131Z",
   "hellmuth": [
+    {
+      "title": "Finnish Long Drink entlässt den eigenen Vertrieb",
+      "date": "2026-08-29",
+      "created": "2026-08-29T03:45:57.416Z",
+      "slug": "finnish-long-drink-entlasst-den-eigenen-vertrieb",
+      "rubrik": "hellmuth",
+      "lead": "Nach der Übernahme durch Mark Anthony Brands verliert die finnische RTD-Marke ihre eigene Verkaufsmannschaft.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/finnish-long-drink-cuts-sales-roles-after-mark-anthony-acquisition",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/finnish-long-drink-entlasst-den-eigenen-vertrieb/"
+    },
+    {
+      "title": "Ewigkeitschemikalien verlassen die Verpackung",
+      "date": "2026-08-29",
+      "created": "2026-08-29T03:44:57.225Z",
+      "slug": "ewigkeitschemikalien-verlassen-die-verpackung",
+      "rubrik": "hellmuth",
+      "lead": "Die neue EU-Verpackungsverordnung zieht eine Linie, die die Getränkeindustrie seit Jahrzehnten umgangen hat.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/27/how-to-comply-with-ppwr-pfas-limits/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ewigkeitschemikalien-verlassen-die-verpackung/"
+    },
     {
       "title": "Weihenstephan setzt auf alkoholfrei",
       "date": "2026-08-28",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/hellmuth/rtd-markt-sortiert-sich-die-marken-stellen-sich-in-die-auslage/"
-    },
-    {
-      "title": "Saint Spritz gegen die RTD-Doktrin",
-      "date": "2026-06-08",
-      "created": "2026-06-08T23:42:12.796Z",
-      "slug": "saint-spritz-gegen-die-rtd-doktrin",
-      "rubrik": "hellmuth",
-      "lead": "Die Gründerregel für Ready-to-Drink-Marken lautet seit Jahren: ein Format, eine Geschmacksrichtung, eine Vertriebsschiene, erst Tempo beweisen, dann erweitern.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/why-saint-spritz-broke-the-rules",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/saint-spritz-gegen-die-rtd-doktrin/"
-    },
-    {
-      "title": "Hydration trifft Koffein, der nächste Etikettentrick",
-      "date": "2026-06-08",
-      "created": "2026-06-08T08:07:24.250Z",
-      "slug": "hydration-trifft-koffein-der-nachste-etikettentrick",
-      "rubrik": "hellmuth",
-      "lead": "Das US-Startup PHX fusioniert zwei gesättigte Kategorien zu einer dritten und nennt das Innovation.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/05/28/phx-blends-hydration-and-energy/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/hydration-trifft-koffein-der-nachste-etikettentrick/"
     }
   ],
   "science": [
+    {
+      "title": "Autophagie als Gehirnhygiene",
+      "date": "2026-08-29",
+      "created": "2026-08-29T03:48:17.026Z",
+      "slug": "autophagie-als-gehirnhygiene",
+      "rubrik": "science",
+      "lead": "Das Gehirn räumt sich selbst aus, und wenn es das nicht tut, wird es zur Deponie.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02426-6",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/autophagie-als-gehirnhygiene/"
+    },
+    {
+      "title": "Isolierte Mäuse trinken mehr, und die Schaltung ist bekannt",
+      "date": "2026-08-29",
+      "created": "2026-08-29T03:48:04.764Z",
+      "slug": "isolierte-mause-trinken-mehr-und-die-schaltung-ist-bekannt",
+      "rubrik": "science",
+      "lead": "Sozial isolierte männliche Mäuse eskalieren ihren Alkoholkonsum über eine spezifische Projektion von der Amygdala zum medialen präfrontalen Kortex.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02413-x",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/isolierte-mause-trinken-mehr-und-die-schaltung-ist-bekannt/"
+    },
+    {
+      "title": "Eine Minute Sprache plus Kognitionstest trennt Demenz von Nichtdemenz",
+      "date": "2026-08-29",
+      "created": "2026-08-29T03:47:41.847Z",
+      "slug": "eine-minute-sprache-plus-kognitionstest-trennt-demenz-von-nichtdemenz",
+      "rubrik": "science",
+      "lead": "Ein Preprint kombiniert akustische, linguistische und kognitive Merkmale und erreicht damit Klassifikationsgüten, die keiner der drei Kanäle allein liefert.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.25.26361344v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/eine-minute-sprache-plus-kognitionstest-trennt-demenz-von-nichtdemenz/"
+    },
     {
       "title": "Oxytocin-Spray verschiebt Netzwerke, nicht Symptome",
       "date": "2026-08-28",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/stressfolgen-zerfallen-in-subtypen/"
-    },
-    {
-      "title": "Abnehmspritze dämpft Nikotinbelohnung",
-      "date": "2026-06-22",
-      "created": "2026-06-22T23:51:17.644Z",
-      "slug": "abnehmspritze-dampft-nikotinbelohnung",
-      "rubrik": "science",
-      "lead": "GLP-1-Agonisten greifen in jene Hirnschaltung, die Rauchen am Laufen hält.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1155/bn/1193259",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/abnehmspritze-dampft-nikotinbelohnung/"
-    },
-    {
-      "title": "Wenn die Glia den Strom nicht mehr abführt",
-      "date": "2026-06-20",
-      "created": "2026-06-20T23:42:00.350Z",
-      "slug": "wenn-die-glia-den-strom-nicht-mehr-abfuhrt",
-      "rubrik": "science",
-      "lead": "Ein Preprint verschiebt die Schuldfrage bei Epilepsie weg vom Neuron, hin zur Stützzelle.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732359v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/"
-    },
-    {
-      "title": "Schizophrenie-Erkennung wandert in die Hochfrequenz",
-      "date": "2026-06-20",
-      "created": "2026-06-20T23:41:44.206Z",
-      "slug": "schizophrenie-erkennung-wandert-in-die-hochfrequenz",
-      "rubrik": "science",
-      "lead": "Ein Preprint verschiebt die Diagnostik früher Schizophrenie von der klinischen Beobachtung in die räumlichen Randbereiche der Hirnscans.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732490v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/"
     }
   ]
 }

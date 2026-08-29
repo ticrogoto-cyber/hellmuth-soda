@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 28 Aug 2026 06:17:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 03:48:17 GMT</lastBuildDate>
+    <item>
+      <title>Autophagie als Gehirnhygiene</title>
+      <link>https://hellmuth-soda.de/news/science/autophagie-als-gehirnhygiene/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/autophagie-als-gehirnhygiene/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:48:17 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Das Gehirn räumt sich selbst aus, und wenn es das nicht tut, wird es zur Deponie.</description>
+    </item>
+    <item>
+      <title>Isolierte Mäuse trinken mehr, und die Schaltung ist bekannt</title>
+      <link>https://hellmuth-soda.de/news/science/isolierte-mause-trinken-mehr-und-die-schaltung-ist-bekannt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/isolierte-mause-trinken-mehr-und-die-schaltung-ist-bekannt/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:48:04 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Sozial isolierte männliche Mäuse eskalieren ihren Alkoholkonsum über eine spezifische Projektion von der Amygdala zum medialen präfrontalen Kortex.</description>
+    </item>
+    <item>
+      <title>Eine Minute Sprache plus Kognitionstest trennt Demenz von Nichtdemenz</title>
+      <link>https://hellmuth-soda.de/news/science/eine-minute-sprache-plus-kognitionstest-trennt-demenz-von-nichtdemenz/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/eine-minute-sprache-plus-kognitionstest-trennt-demenz-von-nichtdemenz/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:47:41 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint kombiniert akustische, linguistische und kognitive Merkmale und erreicht damit Klassifikationsgüten, die keiner der drei Kanäle allein liefert.</description>
+    </item>
     <item>
       <title>Oxytocin-Spray verschiebt Netzwerke, nicht Symptome</title>
       <link>https://hellmuth-soda.de/news/science/oxytocin-spray-verschiebt-netzwerke-nicht-symptome/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Mon, 22 Jun 2026 23:51:29 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Forschungsteam zerlegt »stressexponiert« in unterscheidbare klinische Phänotypen mit eigenen neurobiologischen Signaturen.</description>
-    </item>
-    <item>
-      <title>Abnehmspritze dämpft Nikotinbelohnung</title>
-      <link>https://hellmuth-soda.de/news/science/abnehmspritze-dampft-nikotinbelohnung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/abnehmspritze-dampft-nikotinbelohnung/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:51:17 GMT</pubDate>
-      <category>Forschung</category>
-      <description>GLP-1-Agonisten greifen in jene Hirnschaltung, die Rauchen am Laufen hält.</description>
-    </item>
-    <item>
-      <title>Wenn die Glia den Strom nicht mehr abführt</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/</guid>
-      <pubDate>Sat, 20 Jun 2026 23:42:00 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt die Schuldfrage bei Epilepsie weg vom Neuron, hin zur Stützzelle.</description>
-    </item>
-    <item>
-      <title>Schizophrenie-Erkennung wandert in die Hochfrequenz</title>
-      <link>https://hellmuth-soda.de/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/</guid>
-      <pubDate>Sat, 20 Jun 2026 23:41:44 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt die Diagnostik früher Schizophrenie von der klinischen Beobachtung in die räumlichen Randbereiche der Hirnscans.</description>
     </item>
   </channel>
 </rss>

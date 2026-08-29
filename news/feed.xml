@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 28 Aug 2026 06:17:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 03:48:17 GMT</lastBuildDate>
+    <item>
+      <title>Autophagie als Gehirnhygiene</title>
+      <link>https://hellmuth-soda.de/news/science/autophagie-als-gehirnhygiene/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/autophagie-als-gehirnhygiene/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:48:17 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Das Gehirn räumt sich selbst aus, und wenn es das nicht tut, wird es zur Deponie.</description>
+    </item>
+    <item>
+      <title>Isolierte Mäuse trinken mehr, und die Schaltung ist bekannt</title>
+      <link>https://hellmuth-soda.de/news/science/isolierte-mause-trinken-mehr-und-die-schaltung-ist-bekannt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/isolierte-mause-trinken-mehr-und-die-schaltung-ist-bekannt/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:48:04 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Sozial isolierte männliche Mäuse eskalieren ihren Alkoholkonsum über eine spezifische Projektion von der Amygdala zum medialen präfrontalen Kortex.</description>
+    </item>
+    <item>
+      <title>Eine Minute Sprache plus Kognitionstest trennt Demenz von Nichtdemenz</title>
+      <link>https://hellmuth-soda.de/news/science/eine-minute-sprache-plus-kognitionstest-trennt-demenz-von-nichtdemenz/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/eine-minute-sprache-plus-kognitionstest-trennt-demenz-von-nichtdemenz/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:47:41 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint kombiniert akustische, linguistische und kognitive Merkmale und erreicht damit Klassifikationsgüten, die keiner der drei Kanäle allein liefert.</description>
+    </item>
+    <item>
+      <title>Finnish Long Drink entlässt den eigenen Vertrieb</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/finnish-long-drink-entlasst-den-eigenen-vertrieb/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/finnish-long-drink-entlasst-den-eigenen-vertrieb/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:45:57 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Nach der Übernahme durch Mark Anthony Brands verliert die finnische RTD-Marke ihre eigene Verkaufsmannschaft.</description>
+    </item>
+    <item>
+      <title>Ewigkeitschemikalien verlassen die Verpackung</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/ewigkeitschemikalien-verlassen-die-verpackung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ewigkeitschemikalien-verlassen-die-verpackung/</guid>
+      <pubDate>Sat, 29 Aug 2026 03:44:57 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die neue EU-Verpackungsverordnung zieht eine Linie, die die Getränkeindustrie seit Jahrzehnten umgangen hat.</description>
+    </item>
     <item>
       <title>Oxytocin-Spray verschiebt Netzwerke, nicht Symptome</title>
       <link>https://hellmuth-soda.de/news/science/oxytocin-spray-verschiebt-netzwerke-nicht-symptome/</link>
@@ -2872,14 +2912,6 @@
       <description>Ein Forschungsteam zerlegt »stressexponiert« in unterscheidbare klinische Phänotypen mit eigenen neurobiologischen Signaturen.</description>
     </item>
     <item>
-      <title>Abnehmspritze dämpft Nikotinbelohnung</title>
-      <link>https://hellmuth-soda.de/news/science/abnehmspritze-dampft-nikotinbelohnung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/abnehmspritze-dampft-nikotinbelohnung/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:51:17 GMT</pubDate>
-      <category>Forschung</category>
-      <description>GLP-1-Agonisten greifen in jene Hirnschaltung, die Rauchen am Laufen hält.</description>
-    </item>
-    <item>
       <title>Lantenhammer übernimmt Rebels 0.0 in Deutschland</title>
       <link>https://hellmuth-soda.de/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/</guid>
@@ -2926,22 +2958,6 @@
       <pubDate>Sun, 21 Jun 2026 23:48:49 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Functional Nutrition verlässt den Apothekenkontext und landet zwischen Onigiri und Cola.</description>
-    </item>
-    <item>
-      <title>Wenn die Glia den Strom nicht mehr abführt</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-die-glia-den-strom-nicht-mehr-abfuhrt/</guid>
-      <pubDate>Sat, 20 Jun 2026 23:42:00 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt die Schuldfrage bei Epilepsie weg vom Neuron, hin zur Stützzelle.</description>
-    </item>
-    <item>
-      <title>Schizophrenie-Erkennung wandert in die Hochfrequenz</title>
-      <link>https://hellmuth-soda.de/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-erkennung-wandert-in-die-hochfrequenz/</guid>
-      <pubDate>Sat, 20 Jun 2026 23:41:44 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt die Diagnostik früher Schizophrenie von der klinischen Beobachtung in die räumlichen Randbereiche der Hirnscans.</description>
     </item>
     <item>
       <title>Hautcreme als Smoothie</title>
@@ -3190,22 +3206,6 @@
       <pubDate>Mon, 08 Jun 2026 23:42:24 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der US-Markt für trinkfertige Alkoholmischungen hat die Wachstumsphase hinter sich und beginnt die Konsolidierungsphase.</description>
-    </item>
-    <item>
-      <title>Saint Spritz gegen die RTD-Doktrin</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/saint-spritz-gegen-die-rtd-doktrin/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/saint-spritz-gegen-die-rtd-doktrin/</guid>
-      <pubDate>Mon, 08 Jun 2026 23:42:12 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die Gründerregel für Ready-to-Drink-Marken lautet seit Jahren: ein Format, eine Geschmacksrichtung, eine Vertriebsschiene, erst Tempo beweisen, dann erweitern.</description>
-    </item>
-    <item>
-      <title>Hydration trifft Koffein, der nächste Etikettentrick</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/hydration-trifft-koffein-der-nachste-etikettentrick/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/hydration-trifft-koffein-der-nachste-etikettentrick/</guid>
-      <pubDate>Mon, 08 Jun 2026 08:07:24 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Das US-Startup PHX fusioniert zwei gesättigte Kategorien zu einer dritten und nennt das Innovation.</description>
     </item>
   </channel>
 </rss>
