@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 29 Aug 2026 03:48:17 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 00:27:14 GMT</lastBuildDate>
+    <item>
+      <title>Wenn CA2 schweigt, verstummt das soziale Netzwerk</title>
+      <link>https://hellmuth-soda.de/news/science/wenn-ca2-schweigt-verstummt-das-soziale-netzwerk/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-ca2-schweigt-verstummt-das-soziale-netzwerk/</guid>
+      <pubDate>Sun, 30 Aug 2026 00:27:13 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Neurowissenschaft verortet die Steuerung sozialen Verhaltens präziser, als es die bisherige Hippocampus-Literatur nahelegt.</description>
+    </item>
+    <item>
+      <title>Ein Mausmodell für die häufigste Alzheimer-Form</title>
+      <link>https://hellmuth-soda.de/news/science/ein-mausmodell-fur-die-haufigste-alzheimer-form/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-mausmodell-fur-die-haufigste-alzheimer-form/</guid>
+      <pubDate>Sun, 30 Aug 2026 00:27:01 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem MODEL-AD-Konsortium meldet eine neue Mauslinie, die spät einsetzendes Alzheimer genetisch realistischer nachbildet als bisherige Überexpressionsmodelle.</description>
+    </item>
+    <item>
+      <title>Der Herzschlag lenkt das Abschweifen</title>
+      <link>https://hellmuth-soda.de/news/science/der-herzschlag-lenkt-das-abschweifen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-herzschlag-lenkt-das-abschweifen/</guid>
+      <pubDate>Sun, 30 Aug 2026 00:26:37 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Interozeptionsforschung koppelt die Richtung spontaner Gedanken an kardiale Signale unterhalb der bewussten Wahrnehmung.</description>
+    </item>
     <item>
       <title>Autophagie als Gehirnhygiene</title>
       <link>https://hellmuth-soda.de/news/science/autophagie-als-gehirnhygiene/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Tue, 23 Jun 2026 23:35:04 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint aus Houston rüstet die statistische Variablenauswahl mit kuratiertem Vorwissen aus und sagt damit Suizidgedanken bei bipolaren Jugendlichen schärfer voraus als der Standardansatz.</description>
-    </item>
-    <item>
-      <title>Achtsamkeit verändert die Richtung des Grübelns</title>
-      <link>https://hellmuth-soda.de/news/science/achtsamkeit-verandert-die-richtung-des-grubelns/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/achtsamkeit-verandert-die-richtung-des-grubelns/</guid>
-      <pubDate>Tue, 23 Jun 2026 23:34:40 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine fMRT-Studie misst, wie sich die hierarchische Hirndynamik depressiver Patienten unter Achtsamkeitstherapie verschiebt.</description>
-    </item>
-    <item>
-      <title>Der Selbsteinschätzungs-Knick beim Alkohol</title>
-      <link>https://hellmuth-soda.de/news/science/der-selbsteinschatzungs-knick-beim-alkohol/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-selbsteinschatzungs-knick-beim-alkohol/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:51:45 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Niedrigrisiko-Trinker halten sich im Abstieg der Promillekurve für nüchterner, als sie sind.</description>
-    </item>
-    <item>
-      <title>Stressfolgen zerfallen in Subtypen</title>
-      <link>https://hellmuth-soda.de/news/science/stressfolgen-zerfallen-in-subtypen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/stressfolgen-zerfallen-in-subtypen/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:51:29 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Forschungsteam zerlegt »stressexponiert« in unterscheidbare klinische Phänotypen mit eigenen neurobiologischen Signaturen.</description>
     </item>
   </channel>
 </rss>

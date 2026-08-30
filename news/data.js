@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-29T03:48:17.131Z",
+  "generated": "2026-08-30T00:27:14.184Z",
   "hellmuth": [
+    {
+      "title": "Ichitan bringt alkalisches Aloe-Wasser",
+      "date": "2026-08-30",
+      "created": "2026-08-30T00:26:20.301Z",
+      "slug": "ichitan-bringt-alkalisches-aloe-wasser",
+      "rubrik": "hellmuth",
+      "lead": "Der thailändische Getränkekonzern Ichitan verpackt Wellness-Vokabular in eine PET-Flasche und nennt es Innovation.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/29/ichitan-launches-ph-plus-aloe-vera-in-thailand/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ichitan-bringt-alkalisches-aloe-wasser/"
+    },
+    {
+      "title": "Vitamilk zieht auf 30 Gramm Protein",
+      "date": "2026-08-30",
+      "created": "2026-08-30T00:26:06.758Z",
+      "slug": "vitamilk-zieht-auf-30-gramm-protein",
+      "rubrik": "hellmuth",
+      "lead": "Sojamilch wird in Thailand zum Fitnessprodukt umgewidmet, ohne den Preis anzuheben.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/29/vitamilk-upgrades-protein-content-to-30g/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/vitamilk-zieht-auf-30-gramm-protein/"
+    },
+    {
+      "title": "Café Amazon bringt Sparkling Coffee nach Thailand",
+      "date": "2026-08-30",
+      "created": "2026-08-30T00:25:53.389Z",
+      "slug": "caf-amazon-bringt-sparkling-coffee-nach-thailand",
+      "rubrik": "hellmuth",
+      "lead": "Kaffee mit Kohlensäure verlässt die Nische und wird zum Kettenprodukt.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/08/29/cafe-amazon-fizzpresso-has-the-potential-to-popularise-sparkling-coffee-in-thailand/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/caf-amazon-bringt-sparkling-coffee-nach-thailand/"
+    },
     {
       "title": "Finnish Long Drink entlässt den eigenen Vertrieb",
       "date": "2026-08-29",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/"
-    },
-    {
-      "title": "Ballaststoffe als Limonade",
-      "date": "2026-06-09",
-      "created": "2026-06-09T23:46:06.926Z",
-      "slug": "ballaststoffe-als-limonade",
-      "rubrik": "hellmuth",
-      "lead": "Was als Ernährungspflicht galt, wird zur Geschmacksrichtung.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/09/fibremaxxing-drives-rise-of-fibre-soda/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/ballaststoffe-als-limonade/"
-    },
-    {
-      "title": "Eistee als Pulverstift",
-      "date": "2026-06-08",
-      "created": "2026-06-08T23:42:38.875Z",
-      "slug": "eistee-als-pulverstift",
-      "rubrik": "hellmuth",
-      "lead": "Der Eistee verliert seine Flasche und damit sein Format.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/review-summer-camp-puts-craft-iced-tea-in-your-pocket",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/eistee-als-pulverstift/"
-    },
-    {
-      "title": "RTD-Markt sortiert sich, die Marken stellen sich in die Auslage",
-      "date": "2026-06-08",
-      "created": "2026-06-08T23:42:24.853Z",
-      "slug": "rtd-markt-sortiert-sich-die-marken-stellen-sich-in-die-auslage",
-      "rubrik": "hellmuth",
-      "lead": "Der US-Markt für trinkfertige Alkoholmischungen hat die Wachstumsphase hinter sich und beginnt die Konsolidierungsphase.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/inside-the-rtd-ma-frenzy-carbliss-spikedade-and-happy-dad-talk-different-strategies",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/rtd-markt-sortiert-sich-die-marken-stellen-sich-in-die-auslage/"
     }
   ],
   "science": [
+    {
+      "title": "Wenn CA2 schweigt, verstummt das soziale Netzwerk",
+      "date": "2026-08-30",
+      "created": "2026-08-30T00:27:13.948Z",
+      "slug": "wenn-ca2-schweigt-verstummt-das-soziale-netzwerk",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft verortet die Steuerung sozialen Verhaltens präziser, als es die bisherige Hippocampus-Literatur nahelegt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746953v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/wenn-ca2-schweigt-verstummt-das-soziale-netzwerk/"
+    },
+    {
+      "title": "Ein Mausmodell für die häufigste Alzheimer-Form",
+      "date": "2026-08-30",
+      "created": "2026-08-30T00:27:01.509Z",
+      "slug": "ein-mausmodell-fur-die-haufigste-alzheimer-form",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem MODEL-AD-Konsortium meldet eine neue Mauslinie, die spät einsetzendes Alzheimer genetisch realistischer nachbildet als bisherige Überexpressionsmodelle.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746973v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-mausmodell-fur-die-haufigste-alzheimer-form/"
+    },
+    {
+      "title": "Der Herzschlag lenkt das Abschweifen",
+      "date": "2026-08-30",
+      "created": "2026-08-30T00:26:37.108Z",
+      "slug": "der-herzschlag-lenkt-das-abschweifen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Interozeptionsforschung koppelt die Richtung spontaner Gedanken an kardiale Signale unterhalb der bewussten Wahrnehmung.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747022v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/der-herzschlag-lenkt-das-abschweifen/"
+    },
     {
       "title": "Autophagie als Gehirnhygiene",
       "date": "2026-08-29",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/lasso-mit-eingebautem-lehrbuch/"
-    },
-    {
-      "title": "Achtsamkeit verändert die Richtung des Grübelns",
-      "date": "2026-06-23",
-      "created": "2026-06-23T23:34:40.976Z",
-      "slug": "achtsamkeit-verandert-die-richtung-des-grubelns",
-      "rubrik": "science",
-      "lead": "Eine fMRT-Studie misst, wie sich die hierarchische Hirndynamik depressiver Patienten unter Achtsamkeitstherapie verschiebt.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.21.26356048v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/achtsamkeit-verandert-die-richtung-des-grubelns/"
-    },
-    {
-      "title": "Der Selbsteinschätzungs-Knick beim Alkohol",
-      "date": "2026-06-22",
-      "created": "2026-06-22T23:51:45.467Z",
-      "slug": "der-selbsteinschatzungs-knick-beim-alkohol",
-      "rubrik": "science",
-      "lead": "Niedrigrisiko-Trinker halten sich im Abstieg der Promillekurve für nüchterner, als sie sind.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.jsr.2026.05.009",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-selbsteinschatzungs-knick-beim-alkohol/"
-    },
-    {
-      "title": "Stressfolgen zerfallen in Subtypen",
-      "date": "2026-06-22",
-      "created": "2026-06-22T23:51:29.047Z",
-      "slug": "stressfolgen-zerfallen-in-subtypen",
-      "rubrik": "science",
-      "lead": "Ein Forschungsteam zerlegt »stressexponiert« in unterscheidbare klinische Phänotypen mit eigenen neurobiologischen Signaturen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1192/j.eurpsy.2026.12225",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/stressfolgen-zerfallen-in-subtypen/"
     }
   ]
 }

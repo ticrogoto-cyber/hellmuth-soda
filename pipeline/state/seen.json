@@ -3050,22 +3050,6 @@
       "score": 7,
       "published": true
     },
-    "d1d87e943e5dc13be48c3f1900f26af372e50263545bced74c9bb3ed621a7362": {
-      "url": "https://www.bevnet.com/news/2026/new-beverages-creatine-protein-caffeine-and-everything-in-between",
-      "date": "2026-08-22",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:42:22.286Z"
-    },
-    "2be60adcc2d432c7ed0bde9337900377c27bd8e72ca63d20b6795a1e44770b0a": {
-      "url": "https://www.bevnet.com/news/2026/calm-markets-loud-headlines-agrowgate-q3-2026-supply-chain-update",
-      "date": "2026-08-22",
-      "rubrik": "hellmuth",
-      "score": 5,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:42:24.620Z"
-    },
     "7d160e3dc693f6027f74b685f6bae381e72f35ee22ec318f14ff93eacea9fbcd": {
       "url": "https://www.bevnet.com/news/2026/distribution-pretty-tasty-goes-national-with-target-real-coco-expands-aldi-set",
       "date": "2026-08-22",
@@ -3075,27 +3059,11 @@
     },
     "868f48db0b419d07a97360274ace53bd43dd44d5592d556941581940810ca8cb": {
       "url": "https://www.bevnet.com/news/2026/dive-into-innovation-with-bevnet-cpg-medias-interactive-launch-explorer",
-      "date": "2026-08-22",
+      "date": "2026-08-30",
       "rubrik": "hellmuth",
-      "score": 2,
+      "score": 4,
       "dropped": "low-relevance",
-      "expires": "2026-08-29T22:42:42.590Z"
-    },
-    "53df302872ed87b5f757704c5bb7a8a2ea9c38da0349b7e4a25e2a60ee0dc623": {
-      "url": "https://www.bevnet.com/spirits/2026/rtds-deliver-38-of-bev-alc-innovation-dollars-from-just-22-of-items",
-      "date": "2026-08-22",
-      "rubrik": "hellmuth",
-      "score": 5,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:42:44.524Z"
-    },
-    "5a3d6e1619f0574cbbf3ad891e2862560b3189d90910efd0d0d41bf204195e71": {
-      "url": "https://www.bevnet.com/news/2026/everyday-dose-names-new-ceo-expands-into-sams-club",
-      "date": "2026-08-22",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:42:47.138Z"
+      "expires": "2026-09-06T00:25:33.841Z"
     },
     "36e059c1886c9126766fe41eea76bbeb8e7a336375bb623669a8be8320d05f56": {
       "url": "https://www.bevnet.com/news/2026/review-okra-sparkling-okra-water-offers-truly-different-take-on-hydration",
@@ -3103,14 +3071,6 @@
       "rubrik": "hellmuth",
       "score": 7,
       "published": true
-    },
-    "2103cae455654769c6c3ff98b2a48022e857b9a0179b166b898d786358fba13d": {
-      "url": "https://www.bevnet.com/spirits/2026/mission-craft-cocktails-rides-the-pickle-wave-from-prank-to-new-sku",
-      "date": "2026-08-22",
-      "rubrik": "hellmuth",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:43:03.591Z"
     },
     "8b12658760c2c4bddfabb160d8517d27a4cf318a551d90c1a562d674d155aeb1": {
       "url": "https://www.bevnet.com/news/2026/soft-pricing-leads-to-non-alc-beverage-deceleration",
@@ -3132,22 +3092,6 @@
       "rubrik": "science",
       "score": 9,
       "published": true
-    },
-    "3aba93959657e690e9f1c56ec59f31e879d1fc7f1474a765132ac286a63f587c": {
-      "url": "https://doi.org/10.1177/23247096261479684",
-      "date": "2026-08-22",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:43:49.631Z"
-    },
-    "e65da0a2d1c41352b90dc5fd6a7796d422eced3b58858d7545bec2f1f102765d": {
-      "url": "https://doi.org/10.1021/acsomega.6c06250",
-      "date": "2026-08-22",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-08-29T22:43:51.288Z"
     },
     "a6d7ffdffdda461d6e3f30202137708ba57f6d707b12d93a79962f2e7ba75e48": {
       "url": "https://doi.org/10.1002/syn.70055",
@@ -6214,6 +6158,112 @@
     "3f4691fc4c14fd77ba6b39ecbea6e2f9ffc0178ca6020e18e9ee08ea358827e6": {
       "url": "https://www.nature.com/articles/s41593-026-02426-6",
       "date": "2026-08-29",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "23635c8bee5364ab599b8bf1467c1b8f3baa6c321c1d62e4688d69cc25c39c2e": {
+      "url": "https://www.foodnavigator-asia.com/News/Promotional-features/ancient-grains-reflect-europes-call-for-authentic-conscious-baking/",
+      "date": "2026-08-30",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:25:08.348Z"
+    },
+    "61bbdb818d5b9f10e16c9b8706d862308215b2063d571b5ae50b2cbb767785f2": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/Bio-based-sustainable-beverage-innovations/",
+      "date": "2026-08-30",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:25:18.139Z"
+    },
+    "830268f5bec37c389d3fdd120bfc9c67027cb6a6ccba3facd05911bc022a4f95": {
+      "url": "https://www.minimeinsights.com/2026/08/29/cafe-amazon-fizzpresso-has-the-potential-to-popularise-sparkling-coffee-in-thailand/",
+      "date": "2026-08-30",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "c4c205d9d8d7ed216f99f9e853c3fe315e9cc382384e4387188f0dc7f8bcb25b": {
+      "url": "https://www.minimeinsights.com/2026/08/29/vitamilk-upgrades-protein-content-to-30g/",
+      "date": "2026-08-30",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "f30b4b4530a4563a7fc8167b29f517b87d07636cb3c351fb9713a9a97e9c036c": {
+      "url": "https://www.minimeinsights.com/2026/08/29/ichitan-launches-ph-plus-aloe-vera-in-thailand/",
+      "date": "2026-08-30",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "295d913181c42498546106637c541d563e79e0289ed7e2f20ddd1e458e54ba5c": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747140v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:26:23.789Z"
+    },
+    "6f4ea644250b43c677176e5ad9a84ae5933ab8bd1ac08f18f8a9ce0799f217aa": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747046v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:26:25.603Z"
+    },
+    "bf1f58b8c0d444cd160ed38dc1b2096475c2a03495dc20ae66df7e795d49edab": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747022v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 7,
+      "published": true
+    },
+    "79efde7939f663b8d71308274e0f739bbf266dae76bf57b615ba5b9f6c3e0668": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747023v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:26:39.525Z"
+    },
+    "962785a98417ffd026703e6299f27eb8aa1a0e898d1dcf59e52f901d0034527f": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747005v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:26:41.287Z"
+    },
+    "27e551a1113cb0cb693cb411ce25771620589f5efe4c5ad72a0ceb27adac0542": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747007v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:26:43.376Z"
+    },
+    "d0c95e63c070f7c904f4f3b0364f440044a28382b9eba0f06e3161fda7248500": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747006v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 3,
+      "dropped": "low-relevance",
+      "expires": "2026-09-06T00:26:45.174Z"
+    },
+    "5bb10b7286a092379c7dd591e969ab396d0d0bb6f65dc79eed9b07d7229b62c8": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746973v1?rss=1",
+      "date": "2026-08-30",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "e2689b59e806504880d2f1d52d4eb262fd94d1148c9986ecea541b40ec60e71d": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746953v1?rss=1",
+      "date": "2026-08-30",
       "rubrik": "science",
       "score": 7,
       "published": true
