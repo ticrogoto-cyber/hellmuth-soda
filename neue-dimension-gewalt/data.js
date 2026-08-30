@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-29T03:51:25.554Z",
+  "generated": "2026-08-30T00:28:51.700Z",
   "items": [
     {
       "title": "Tödlicher Angriff auf Schulcampus in Gosen-Neu Zittau",
