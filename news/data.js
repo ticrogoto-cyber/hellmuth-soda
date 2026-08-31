@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-30T00:27:14.184Z",
+  "generated": "2026-08-31T00:42:19.285Z",
   "hellmuth": [
     {
       "title": "Ichitan bringt alkalisches Aloe-Wasser",
@@ -2805,6 +2805,48 @@ window.NEWS_DATA =
   ],
   "science": [
     {
+      "title": "Ein cerebello-präfrontaler Fingerabdruck der Schizophrenie",
+      "date": "2026-08-31",
+      "created": "2026-08-31T00:42:19.203Z",
+      "slug": "ein-cerebello-prafrontaler-fingerabdruck-der-schizophrenie",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv verlagert die Suche nach dem Substrat psychotischer Symptome vom auditorischen Kortex ins Kleinhirn.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746991v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-cerebello-prafrontaler-fingerabdruck-der-schizophrenie/"
+    },
+    {
+      "title": "Ein Enzym gegen den Sehnerv-Infarkt",
+      "date": "2026-08-31",
+      "created": "2026-08-31T00:42:04.112Z",
+      "slug": "ein-enzym-gegen-den-sehnerv-infarkt",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlagert die Therapie der ischämischen Optikusneuropathie vom Gefäß in die Membran.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747113v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-enzym-gegen-den-sehnerv-infarkt/"
+    },
+    {
+      "title": "Mitochondrien-DNA als Biomarker wackelt",
+      "date": "2026-08-31",
+      "created": "2026-08-31T00:41:48.161Z",
+      "slug": "mitochondrien-dna-als-biomarker-wackelt",
+      "rubrik": "science",
+      "lead": "Eine Meta-Analyse zur mitochondrialen DNA-Kopienzahl bei Neurodegeneration liefert kein einheitliches Signal, sondern ein Zerrbild.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747144v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/mitochondrien-dna-als-biomarker-wackelt/"
+    },
+    {
       "title": "Wenn CA2 schweigt, verstummt das soziale Netzwerk",
       "date": "2026-08-30",
       "created": "2026-08-30T00:27:13.948Z",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut/"
-    },
-    {
-      "title": "Streuung als Frühwarnsignal bei Alzheimer",
-      "date": "2026-06-24",
-      "created": "2026-06-24T23:38:49.937Z",
-      "slug": "streuung-als-fruhwarnsignal-bei-alzheimer",
-      "rubrik": "science",
-      "lead": "Nicht das Defizit verrät die beginnende Demenz, sondern die Ungleichmäßigkeit der Leistung.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.21.26356195v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/streuung-als-fruhwarnsignal-bei-alzheimer/"
-    },
-    {
-      "title": "Serotonin und das starre Denken",
-      "date": "2026-06-23",
-      "created": "2026-06-23T23:35:16.771Z",
-      "slug": "serotonin-und-das-starre-denken",
-      "rubrik": "science",
-      "lead": "Eine Meta-Analyse sortiert, was drei Klassen serotonerger Eingriffe mit kognitiver Flexibilität und Grübeln anstellen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.18.26355974v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/serotonin-und-das-starre-denken/"
-    },
-    {
-      "title": "LASSO mit eingebautem Lehrbuch",
-      "date": "2026-06-23",
-      "created": "2026-06-23T23:35:04.385Z",
-      "slug": "lasso-mit-eingebautem-lehrbuch",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus Houston rüstet die statistische Variablenauswahl mit kuratiertem Vorwissen aus und sagt damit Suizidgedanken bei bipolaren Jugendlichen schärfer voraus als der Standardansatz.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.18.26355841v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/lasso-mit-eingebautem-lehrbuch/"
     }
   ]
 }
