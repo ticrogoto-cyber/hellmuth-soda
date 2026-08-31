@@ -1,7 +1,73 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-08-30T00:28:51.700Z",
+  "generated": "2026-08-31T00:45:22.135Z",
   "items": [
+    {
+      "title": "Schüsse in Berliner Fußgängerzone",
+      "date": "2026-08-31",
+      "created": "2026-08-31T00:40:35.976Z",
+      "slug": "schusse-in-berliner-fussgangerzone",
+      "lead": "Eine Schussabgabe in einer belebten Fußgängerzone verschiebt die Tatstruktur vom Milieu- in den Zufallsraum.",
+      "source_name": "Polizei Berlin",
+      "source_url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1708392.php",
+      "sources": [
+        {
+          "name": "Polizei Berlin",
+          "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1708392.php"
+        }
+      ],
+      "ort": null,
+      "relevance": 7,
+      "merkmale": {
+        "tatmittel": "Schusswaffe",
+        "tatkontext": "öffentlicher Straßenraum",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        -0.113,
+        0.0613,
+        0.3524
+      ],
+      "minutes": 1,
+      "href": "/neue-dimension-gewalt/schusse-in-berliner-fussgangerzone/"
+    },
+    {
+      "title": "Rosenheimer Bahnhof, offener Vorplatz, Mittag",
+      "date": "2026-08-31",
+      "created": "2026-08-31T00:44:34.457Z",
+      "slug": "rosenheimer-bahnhof-offener-vorplatz-mittag",
+      "lead": "Ein tödlicher Messerangriff auf einem bayerischen Bahnhofsvorplatz wiederholt das Muster öffentlicher Messergewalt an Verkehrsknotenpunkten.",
+      "source_name": "BR Nachrichten",
+      "source_url": "https://www.br.de/nachrichten/bayern/frau-stirbt-nach-messerangriff-in-rosenheimer-bahnhof,VTlHurj",
+      "sources": [
+        {
+          "name": "BR Nachrichten",
+          "url": "https://www.br.de/nachrichten/bayern/frau-stirbt-nach-messerangriff-in-rosenheimer-bahnhof,VTlHurj"
+        }
+      ],
+      "ort": "Rosenheim, Bayern",
+      "relevance": 7,
+      "merkmale": {
+        "tatmittel": "Messer",
+        "tatkontext": "ÖPNV-Bahn",
+        "betroffene": "Passanten",
+        "systemversagen": "keines",
+        "exzess": [
+          "keines"
+        ]
+      },
+      "coords": [
+        0.3387,
+        0.2808,
+        0.6149
+      ],
+      "minutes": 1,
+      "href": "/neue-dimension-gewalt/rosenheimer-bahnhof-offener-vorplatz-mittag/"
+    },
     {
       "title": "Tödlicher Angriff auf Schulcampus in Gosen-Neu Zittau",
       "date": "2026-08-28",
@@ -28,9 +94,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1178,
-        -0.1487,
-        0.3367
+        -0.2776,
+        -0.2982,
+        -0.4771
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/todlicher-angriff-auf-schulcampus-in-gosen-neu-zittau/"
@@ -61,9 +127,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2746,
-        -0.1393,
-        -0.1135
+        -0.2244,
+        0.0787,
+        0.3145
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/limburg-und-das-gestohlene-auto-als-tatmittel/"
@@ -94,9 +160,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1553,
-        -0.2123,
-        -0.2442
+        -0.1521,
+        0.001,
+        0.4265
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/hofgeismar-fussgangerzone-freitagmittag/"
@@ -127,9 +193,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.3219,
-        -0.064,
-        -0.0379
+        -0.199,
+        0.1691,
+        0.2355
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/ruthen-kreis-soest-feuerwehrmanner-als-brandstifter/"
@@ -160,9 +226,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.182,
-        0.2591,
-        -0.1092
+        0.0828,
+        0.4157,
+        0.0979
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/kollektive-gewalt-im-offentlichen-raum-als-justizvakuum/"
@@ -193,9 +259,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0639,
-        0.0364,
-        0.6602
+        -0.0866,
+        -0.2316,
+        -0.7742
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/heusenstamm-und-die-rituelle-rahmung/"
@@ -226,9 +292,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1339,
-        0.0866,
-        0.3311
+        0.2036,
+        0.0631,
+        -0.0251
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/tatort-dienststelle/"
@@ -259,9 +325,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1383,
-        0.2432,
-        -0.1665
+        0.1227,
+        0.3296,
+        0.1683
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/offenbach-marktplatz-sonntagmorgen/"
@@ -292,9 +358,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1735,
-        -0.1715,
-        -0.2942
+        -0.1131,
+        -0.2089,
+        0.1932
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/cottbus-karl-liebknecht-strasse-messerangriff-bei-tageslicht/"
@@ -325,9 +391,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0044,
-        -0.1589,
-        -0.2572
+        -0.1314,
+        -0.1247,
+        0.2796
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/deradikalisierung-ohne-risikobewertung/"
@@ -358,9 +424,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2045,
-        -0.2583,
-        -0.3191
+        -0.1894,
+        0.0118,
+        0.5188
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/fahrzeugeinschlag-am-berliner-csd/"
@@ -391,9 +457,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2242,
-        -0.2052,
-        -0.1798
+        -0.181,
+        -0.2943,
+        0.0977
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/regensburg-die-lucke-zwischen-gewahrsam-und-tat/"
@@ -424,9 +490,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2265,
-        -0.209,
-        -0.3638
+        -0.0534,
+        -0.1697,
+        0.2809
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/freigabe-vor-dem-zugriff/"
@@ -457,9 +523,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1063,
-        0.0744,
-        -0.2781
+        0.0149,
+        0.2293,
+        0.2293
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/stuttgarter-milaneo-kombinierter-angriff-in-offentlichem-raum/"
@@ -490,9 +556,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.121,
-        0.4517,
-        0.4753
+        0.2156,
+        0.1012,
+        -0.4615
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/ettlingen-fahrende-regionalbahn-ein-schubser/"
@@ -523,9 +589,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0894,
-        0.1868,
-        0.9426
+        0.0429,
+        -0.4377,
+        -0.6989
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/munchen-zehn-jahre-danach/"
@@ -556,9 +622,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1334,
-        0.098,
-        0.835
+        -0.0419,
+        -0.2951,
+        -0.9726
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/messerangriff-und-brandstiftung-am-lebenden-korper-in-mariendorf/"
@@ -589,9 +655,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0413,
-        0.0267,
-        0.6128
+        -0.0822,
+        -0.2849,
+        -0.782
       ],
       "minutes": 0,
       "href": "/neue-dimension-gewalt/doppelmord-auf-korfu-koordiniert-aus-giessen/"
@@ -622,9 +688,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2254,
-        -0.213,
-        -0.2882
+        -0.1077,
+        -0.2283,
+        0.2213
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/trier-und-die-lucke-zwischen-befund-und-konsequenz/"
@@ -655,9 +721,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1296,
-        0.4116,
-        0.4863
+        0.1778,
+        0.1136,
+        -0.4091
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/sturz-aus-fahrendem-zug-zweifel-am-tatablauf/"
@@ -688,9 +754,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2673,
-        -0.0844,
-        -0.1577
+        -0.1046,
+        0.1159,
+        0.3221
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/kelkheim-marktplatz-dienstagnachmittag/"
@@ -721,9 +787,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1187,
-        0.448,
-        0.4594
+        0.1941,
+        0.1076,
+        -0.4407
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/bewahrung-als-strukturelle-einladung/"
@@ -754,9 +820,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1068,
-        0.1369,
-        0.4391
+        0.204,
+        0.0006,
+        -0.1877
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/finsterwalde-brandanschlag-auf-kreisverwaltung/"
@@ -787,9 +853,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2501,
-        0.3344,
-        -0.0716
+        0.157,
+        0.4039,
+        0.0089
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/gleisbett-als-tatmittel/"
@@ -820,9 +886,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2817,
-        -0.1267,
-        -0.8114
+        0.215,
+        0.1982,
+        0.5685
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/sabotage-auf-der-schiene-zwischen-dusseldorf-und-koln/"
@@ -853,9 +919,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0866,
-        -0.0002,
-        0.7389
+        -0.1227,
+        -0.26,
+        -0.8698
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/hunfelden-kirberg-totungsdelikt-mit-anschliessender-brandlegung/"
@@ -886,9 +952,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.181,
-        -0.2256,
-        0.1414
+        -0.3586,
+        -0.2883,
+        -0.2426
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/schongau-gymnasium-messer/"
@@ -919,9 +985,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0986,
-        0.103,
-        0.9514
+        0.0713,
+        -0.3459,
+        -0.9909
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/offenburg-dokumentierte-eskalation/"
@@ -952,9 +1018,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1854,
-        0.2265,
-        0.8265
+        0.0869,
+        -0.1481,
+        -0.46
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/totungsdelikt-in-geschlossener-psychiatrie-vivantes-neukolln/"
@@ -985,9 +1051,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0981,
-        0.2037,
-        -0.2661
+        0.1405,
+        0.2775,
+        0.2592
       ],
       "minutes": 1,
       "href": "/neue-dimension-gewalt/essen-massenschlagerei-mit-todesfolge/"
@@ -1018,9 +1084,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1241,
-        -0.03,
-        -0.0843
+        -0.2071,
+        0.01,
+        0.1302
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/einzeltater-verletzt-dreizehn-polizisten-in-berlin-prenzlauer-berg/"
@@ -1051,9 +1117,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0658,
-        0.1655,
-        0.9929
+        0.0777,
+        -0.3909,
+        -0.9245
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sechsfachmord-an-jugendhilfekraeften-in-stade/"
@@ -1088,9 +1154,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2198,
-        -0.2866,
-        -0.374
+        -0.2151,
+        -0.0076,
+        0.5592
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freibad-raumung-nach-eskalation-in-bochum-werne/"
@@ -1125,9 +1191,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1444,
-        -0.1805,
-        -0.2897
+        -0.1815,
+        0.0352,
+        0.4158
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amokfahrt-in-der-leipziger-grimmaischen-strasse/"
@@ -1162,9 +1228,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3386,
-        -0.122,
-        -0.8684
+        0.2276,
+        0.2256,
+        0.6634
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sprengsatze-im-ice-bei-siegburg/"
@@ -1195,9 +1261,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.183,
-        -0.084,
-        -0.0263
+        -0.2403,
+        0.0419,
+        0.1688
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-wegen-schuldunfaehigkeit-nach-toetung-eines-polizisten-in-voelklingen/"
@@ -1228,9 +1294,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.4156,
-        -0.241,
-        -0.8252
+        0.2662,
+        0.1377,
+        0.5756
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/mehrfach-messerangriff-im-schienenersatzverkehr-in-wuppertal/"
@@ -1265,9 +1331,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1676,
-        0.4498,
-        0.4869
+        0.1884,
+        0.1016,
+        -0.4247
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/todlicher-angriff-auf-zugbegleiter-bei-fahrkartenkontrolle/"
@@ -1302,9 +1368,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.3365,
-        0.0334,
-        0.0216
+        -0.2011,
+        0.1979,
+        0.132
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-eskalation-gegen-einsatzkrafte-in-mehreren-grossstadten/"
@@ -1335,9 +1401,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1719,
-        0.3738,
-        0.4523
+        0.1326,
+        0.0561,
+        -0.3734
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/arzt-in-darmstadter-klinikum-bewusstlos-geschlagen/"
@@ -1372,9 +1438,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2299,
-        0.1261,
-        -0.1914
+        0.0009,
+        0.2826,
+        0.2018
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/machetenangriff-auf-kioskbetreiber-durch-dreizehnjaehrige-in-dortmund/"
@@ -1405,9 +1471,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0353,
-        -0.0252,
-        -0.2033
+        -0.1,
+        -0.0981,
+        0.1675
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/notwehr-freispruch-nach-38-messerstichen-im-mainzer-hartenbergpark/"
@@ -1438,9 +1504,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0366,
-        -0.0562,
-        -0.2615
+        -0.0658,
+        -0.0434,
+        0.2695
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-im-eiskeller-fall-nach-fatalen-ermittlungsfehlern-in-aschau/"
@@ -1471,9 +1537,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0492,
-        -0.0096,
-        0.668
+        -0.1215,
+        -0.2551,
+        -0.8071
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/zehnfacher-patientenmord-auf-der-palliativstation-in-wuerselen/"
@@ -1504,9 +1570,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0682,
-        0.0668,
-        -0.1789
+        -0.09,
+        -0.0075,
+        0.162
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreizehnjahriger-schlagt-rentner-auf-essener-spielplatz-tot/"
@@ -1537,9 +1603,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0959,
-        0.125,
-        0.9544
+        0.0402,
+        -0.3304,
+        -0.8725
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-im-frankfurter-polizeirevier/"
@@ -1570,9 +1636,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1461,
-        0.1208,
-        0.9824
+        0.0454,
+        -0.2956,
+        -0.9422
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-trotz-wegweisung-und-kontaktverbot-in-dorsten/"
@@ -1607,9 +1673,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1813,
-        -0.2681,
-        -0.3279
+        -0.2186,
+        -0.0072,
+        0.4965
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeug-angriff-auf-kirmes-besucher-in-niederdorla/"
@@ -1640,9 +1706,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0998,
-        -0.2138,
-        0.1739
+        -0.3246,
+        -0.2589,
+        -0.3008
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-messerangriff-in-essen-nach-ausspaehung-der-alten-synagoge/"
@@ -1677,9 +1743,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3964,
-        -0.1021,
-        -0.7805
+        0.2193,
+        0.2131,
+        0.6266
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-an-leipziger-zentralhaltestelle/"
@@ -1710,9 +1776,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3428,
-        -0.2291,
-        -0.7878
+        0.3426,
+        0.2098,
+        0.6875
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-zivilcourage-helfer-in-dresdner-strassenbahn/"
@@ -1743,9 +1809,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1536,
-        0.1649,
-        0.9272
+        0.0621,
+        -0.31,
+        -0.9456
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-nach-wohnungsverweisung-und-gefaehrderansprache-in-lippstadt/"
@@ -1776,9 +1842,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1703,
-        0.334,
-        -0.017
+        0.1642,
+        0.3439,
+        0.0268
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-bei-kampfsportveranstaltung-in-ense/"
@@ -1809,9 +1875,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1695,
-        0.1686,
-        0.9548
+        0.0212,
+        -0.3152,
+        -1
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-trotz-fussfessel-in-frankfurt-bonames/"
@@ -1842,9 +1908,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1699,
-        0.3493,
-        0.4038
+        0.0729,
+        0.0699,
+        -0.3669
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/sanitater-im-rettungswagen-angegriffen-in-karlsruhe/"
@@ -1875,9 +1941,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3634,
-        -0.1581,
-        -0.8726
+        0.3493,
+        0.2309,
+        0.5359
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/soziale-medien-getriggerte-messerattacke-am-frankfurter-hauptbahnhof/"
@@ -1908,9 +1974,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1515,
-        0.2997,
-        -0.0523
+        0.1838,
+        0.3391,
+        0.1098
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/bewaehrungsstrafen-fuer-gruppenvergewaltigung-durch-verstaendigungsdeal-in-fulda/"
@@ -1941,9 +2007,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1208,
-        0.1728,
-        -0.2443
+        0.0937,
+        0.2786,
+        0.2052
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenkonfrontation-mit-waffenarsenal-in-dortmund-nordstadt/"
@@ -1978,9 +2044,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3661,
-        -0.2166,
-        -0.6971
+        0.2648,
+        0.19,
+        0.7022
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenangriff-am-hamburger-hauptbahnhof/"
@@ -2011,9 +2077,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1577,
-        -0.2136,
-        -0.023
+        -0.34,
+        -0.2585,
+        -0.0135
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/elfjahrige-schulerin-ersticht-mitschuler-in-remscheid/"
@@ -2048,9 +2114,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.4808,
-        -0.1402,
-        -0.7493
+        0.3929,
+        0.2094,
+        0.6543
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-anschlag-mit-verkleideter-stockwaffe-in-bielefeld/"
@@ -2081,9 +2147,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0713,
-        -0.2363,
-        -0.0908
+        -0.3125,
+        -0.2011,
+        0.093
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-supermarkt-kundin-nach-hausverbot-in-rochlitz/"
@@ -2114,9 +2180,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3742,
-        -0.1466,
-        -0.6872
+        0.2567,
+        0.0868,
+        0.6661
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/todliche-messerattacke-an-u-bahnhof-sophie-charlotte-platz/"
@@ -2147,9 +2213,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3277,
-        -0.1421,
-        -0.7804
+        0.3495,
+        0.1337,
+        0.652
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-in-berliner-strassenbahn-am-alexanderplatz/"
@@ -2180,9 +2246,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.4127,
-        -0.1287,
-        -0.8241
+        0.2739,
+        0.2357,
+        0.6121
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-auf-bahnsteig-des-frankfurter-hauptbahnhofs/"
@@ -2213,9 +2279,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.097,
-        0.1092,
-        0.4086
+        0.2145,
+        -0.0131,
+        -0.1239
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-lebensmittelkontrolleure-in-gelsenkirchen/"
@@ -2246,9 +2312,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3774,
-        -0.2284,
-        -0.8598
+        0.3368,
+        0.1381,
+        0.5223
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-db-mitarbeiter-am-dortmunder-hauptbahnhof/"
@@ -2283,9 +2349,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.185,
-        -0.2634,
-        -0.3116
+        -0.223,
+        0.0311,
+        0.5056
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeugangriff-auf-fastnachtsmarkt-in-mannheim/"
@@ -2316,9 +2382,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1377,
-        -0.2219,
-        -0.0076
+        -0.2863,
+        -0.2377,
+        -0.0534
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-in-duisburg-marxloh/"
@@ -2353,9 +2419,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2087,
-        -0.1749,
-        -0.1511
+        -0.2532,
+        -0.007,
+        0.3326
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeugangriff-auf-gewerkschaftsdemonstration-in-munchen/"
@@ -2386,9 +2452,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.314,
-        -0.1299,
-        -0.5659
+        -0.1895,
+        -0.2323,
+        -0.1368
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-jugendlichen-an-bushaltestelle-in-erfurt/"
@@ -2419,9 +2485,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.373,
-        -0.0871,
-        -0.8049
+        0.3304,
+        0.2187,
+        0.6137
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-am-leipziger-hauptbahnhof/"
@@ -2452,9 +2518,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1897,
-        -0.2181,
-        -0.2018
+        -0.2009,
+        -0.2663,
+        0.1354
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-kindergartengruppe-im-aschaffenburger-schontal-park/"
@@ -2485,9 +2551,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.3268,
-        0.0276,
-        0.0354
+        -0.1703,
+        0.2268,
+        0.0939
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-angriffe-auf-rettungskrafte-in-berlin-und-leipzig/"
@@ -2522,9 +2588,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1749,
-        -0.2449,
-        -0.3432
+        -0.1737,
+        -0.0096,
+        0.5033
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/fahrzeuganschlag-auf-den-magdeburger-weihnachtsmarkt/"
@@ -2559,9 +2625,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1076,
-        -0.0933,
-        0.4181
+        -0.2082,
+        -0.3151,
+        -0.5719
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freilassung-eines-verurteilten-vergewaltigers-nach-richterlichem-fristversaeumnis-in-berlin/"
@@ -2596,9 +2662,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1971,
-        0.1969,
-        -0.1969
+        0.0657,
+        0.3147,
+        0.1795
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/bewaffnete-massenschlagerei-in-mockrehna/"
@@ -2629,9 +2695,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1904,
-        0.2522,
-        0.3864
+        0.1544,
+        0.1505,
+        -0.2144
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/systematische-gefangenenmisshandlung-in-der-jva-augsburg-gablingen/"
@@ -2662,9 +2728,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2205,
-        -0.1742,
-        -0.5218
+        0.0981,
+        0.0763,
+        0.4636
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-mit-selbstjustiz-verfolgung-in-duisburg/"
@@ -2695,9 +2761,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2376,
-        0.2992,
-        0.4318
+        0.1051,
+        0.1069,
+        -0.2817
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenangriff-auf-klinikpersonal-nach-todesfall-in-essener-notaufnahme/"
@@ -2732,9 +2798,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.457,
-        -0.1695,
-        -0.7306
+        0.3796,
+        0.1585,
+        0.6
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/evakuierung-des-thuringen-parks-nach-messer-und-pfefferspray-angriff/"
@@ -2769,9 +2835,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.134,
-        0.0292,
-        0.7887
+        -0.0746,
+        -0.2794,
+        -0.9662
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/saureattacke-auf-nachbarn-in-stralsund/"
@@ -2802,9 +2868,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2056,
-        -0.115,
-        0.0352
+        -0.2916,
+        0.0562,
+        0.1309
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/islamistischer-anschlag-auf-das-israelische-generalkonsulat-in-muenchen/"
@@ -2835,9 +2901,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2153,
-        0.1562,
-        0.2475
+        0.1286,
+        0.1627,
+        -0.0621
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/hochzeitsfeier-endet-in-massenschlagerei-mit-messereinsatz-in-wuppertal/"
@@ -2872,9 +2938,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2011,
-        -0.172,
-        -0.4311
+        0.0728,
+        -0.0723,
+        0.4213
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-dem-solinger-stadtfest/"
@@ -2905,9 +2971,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2176,
-        0.2596,
-        0.5557
+        0.1123,
+        -0.0563,
+        -0.3536
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/geiselnahme-und-massenausbruch-aus-der-forensik-straubing/"
@@ -2942,9 +3008,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.244,
-        0.1908,
-        -0.1233
+        0.024,
+        0.3351,
+        0.1355
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-mit-improvisierten-waffen-bei-hochzeit-in-schleswig/"
@@ -2975,9 +3041,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3068,
-        -0.1343,
-        -0.8165
+        0.1944,
+        0.1585,
+        0.6244
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/axt-und-hammerangriff-im-ice-bei-strasskirchen/"
@@ -3008,9 +3074,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2326,
-        0.2986,
-        0.0295
+        0.1015,
+        0.38,
+        -0.0641
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/kaskadierende-gewalt-im-dortmunder-freibad-volkspark/"
@@ -3041,9 +3107,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1775,
-        -0.1742,
-        -0.2555
+        -0.182,
+        -0.0257,
+        0.3974
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/serielle-fahrzeugangriffe-auf-frauen-in-essen-und-koln/"
@@ -3074,9 +3140,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1754,
-        0.1452,
-        0.9642
+        0.0287,
+        -0.3079,
+        -0.9637
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-in-berlin-friedrichsfelde-trotz-behordlicher-hilfesuche/"
@@ -3107,9 +3173,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2483,
-        0.3241,
-        0.0144
+        0.0815,
+        0.4105,
+        -0.0254
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppengewalt-gegen-jugendliche-im-berliner-sommerbad/"
@@ -3140,9 +3206,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2647,
-        0.2897,
-        0.1506
+        0.0656,
+        0.2869,
+        -0.1312
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/angriff-auf-drk-sanitater-bei-patientenversorgung-in-neukolln/"
@@ -3173,9 +3239,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3831,
-        -0.121,
-        -0.6528
+        0.215,
+        0.0554,
+        0.5981
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-bundespolizisten-am-bahnhof-lauf/"
@@ -3206,9 +3272,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0375,
-        -0.0507,
-        0.6619
+        -0.1692,
+        -0.2582,
+        -0.8027
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/angriffsserie-wahrend-der-em-ubertragung-in-wolmirstedt/"
@@ -3239,9 +3305,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.4287,
-        -0.1637,
-        -0.777
+        0.2911,
+        0.2077,
+        0.6512
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerattacke-im-regionalzug-bei-saarbrucken/"
@@ -3276,9 +3342,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1339,
-        -0.2479,
-        -0.2162
+        -0.2329,
+        -0.2256,
+        0.1754
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/terroranschlag-auf-kundgebung-am-mannheimer-marktplatz/"
@@ -3309,9 +3375,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1371,
-        0.0585,
-        0.8014
+        -0.0992,
+        -0.2841,
+        -0.9495
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/flusssaure-anschlag-an-der-wohnungstur-in-rosenheim/"
@@ -3342,9 +3408,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1165,
-        0.2464,
-        -0.1956
+        0.1416,
+        0.3666,
+        0.1685
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/dreistundige-massenschlagerei-am-tollensesee/"
@@ -3375,9 +3441,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1666,
-        0.2796,
-        0.5374
+        0.1501,
+        -0.0458,
+        -0.3189
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totung-eines-forensik-arztes-in-wasserburg-am-inn/"
@@ -3412,9 +3478,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3231,
-        -0.1876,
-        -0.7896
+        0.2745,
+        0.1399,
+        0.6224
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-in-regionalbahn-bei-niederlahnstein/"
@@ -3449,9 +3515,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0554,
-        -0.0313,
-        -0.0715
+        -0.2078,
+        -0.1734,
+        0.028
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-minderjaehrigen-zeugen-nach-aussage-gegen-drogenhandel-in-koeln-muelheim/"
@@ -3482,9 +3548,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1895,
-        -0.2293,
-        0.164
+        -0.3251,
+        -0.3304,
+        -0.254
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/schulattacke-am-wilhelm-dorpfeld-gymnasium-in-wuppertal/"
@@ -3515,9 +3581,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3956,
-        -0.1912,
-        -0.85
+        0.3132,
+        0.2799,
+        0.5774
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/doppelmord-am-oberhausener-hauptbahnhof-durch-minderjahrige/"
@@ -3548,9 +3614,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2581,
-        -0.2189,
-        0.1021
+        -0.2957,
+        -0.323,
+        -0.2075
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/femizid-an-einer-schuelerin-am-loewenrot-gymnasium-in-st-leon-rot/"
@@ -3581,9 +3647,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1968,
-        0.351,
-        0.4832
+        0.1341,
+        0.0568,
+        -0.3876
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gewalt-in-der-notaufnahme-des-sana-klinikums-berlin/"
@@ -3614,9 +3680,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0083,
-        0.1259,
-        0.9128
+        0.0177,
+        -0.374,
+        -0.8059
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/aufdeckung-eines-hamas-waffennetzwerks-mit-anschlagszielen-in-berlin-und-ramstein/"
@@ -3647,9 +3713,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.17,
-        0.1955,
-        0.4151
+        0.1477,
+        0.1008,
+        -0.1931
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/koordinierte-anschlagsserie-auf-synagogen-in-nordrhein-westfalen/"
@@ -3680,9 +3746,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3144,
-        -0.0584,
-        -0.8005
+        0.2057,
+        0.2483,
+        0.564
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-obdachlosen-am-luisenplatz-in-darmstadt/"
@@ -3713,9 +3779,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1877,
-        -0.2222,
-        0.2392
+        -0.3541,
+        -0.3554,
+        -0.3377
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amoklauf-mit-familienerbwaffe-an-der-waldbachschule-in-offenburg/"
@@ -3746,9 +3812,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.3061,
-        0.2415,
-        0.0239
+        0.033,
+        0.3107,
+        -0.0249
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/strassenschlacht-bei-eritreischer-veranstaltung-in-stuttgart/"
@@ -3779,9 +3845,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1982,
-        -0.201,
-        -0.0934
+        -0.2403,
+        -0.2883,
+        0.0001
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-eines-sechsjaehrigen-auf-dem-sportplatz-in-pragsdorf/"
@@ -3812,9 +3878,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1865,
-        -0.2104,
-        0.2343
+        -0.3385,
+        -0.3585,
+        -0.3536
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/kopfschuss-auf-schulhof-mit-nachbarwaffe-in-lohr-am-main/"
@@ -3845,9 +3911,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1208,
-        -0.1408,
-        -0.4044
+        0.012,
+        -0.0652,
+        0.3692
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/freispruch-trotz-gestandnis-vor-us-militargericht-in-wittlich/"
@@ -3878,9 +3944,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2701,
-        0.2819,
-        -0.0751
+        0.067,
+        0.33,
+        0.0744
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/maskierter-ueberfall-auf-jugendliche-gefluechtete-in-einer-unterkunft-in-sebnitz/"
@@ -3915,9 +3981,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.3684,
-        -0.1794,
-        -0.757
+        0.3044,
+        0.1874,
+        0.5693
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toedlicher-messerangriff-in-dresdner-strassenbahn/"
@@ -3948,9 +4014,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2839,
-        0.3076,
-        0.0599
+        0.0766,
+        0.337,
+        -0.0889
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/ausschreitungen-beim-eritrea-festival-in-giessen/"
@@ -3981,9 +4047,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2262,
-        0.2386,
-        0.0336
+        0.0522,
+        0.3386,
+        -0.0178
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschlagerei-im-mannheimer-herzogenriedbad/"
@@ -4014,9 +4080,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.072,
-        -0.1145,
-        -0.3616
+        -0.0554,
+        0.0972,
+        0.3922
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/handgranatenwurf-auf-trauerfeier-in-altbach/"
@@ -4047,9 +4113,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1098,
-        0.1604,
-        1
+        0.0684,
+        -0.3651,
+        -0.9489
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/rassistischer-mordversuch-durch-schuss-durch-die-wohnungstuer-in-hamburg-niendorf/"
@@ -4080,9 +4146,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.3466,
-        -0.0816,
-        0.045
+        -0.1764,
+        0.2039,
+        0.1898
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/benzin-brandanschlag-auf-neun-einsatzkraefte-bei-wohnungskontrolle-in-ratingen/"
@@ -4113,9 +4179,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2535,
-        -0.1856,
-        0.1113
+        -0.3045,
+        -0.3228,
+        -0.2133
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-auf-grundschulkinder-auf-neukoellner-schulhof/"
@@ -4146,9 +4212,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1925,
-        -0.1715,
-        0.1967
+        -0.3247,
+        -0.344,
+        -0.3392
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/totungsdelikt-in-frankischem-kinderheim/"
@@ -4179,9 +4245,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2572,
-        -0.0816,
-        -0.6964
+        0.0474,
+        0.1229,
+        0.2683
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/axtangriff-auf-jugendliche-im-regionalzug-bei-guben/"
@@ -4212,9 +4278,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0865,
-        -0.0751,
-        -0.102
+        -0.2001,
+        -0.161,
+        0.0487
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-einer-zwoelfjaehrigen-durch-strafunmuendige-kinder-in-freudenberg/"
@@ -4249,9 +4315,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0386,
-        0.1544,
-        0.9298
+        0.0558,
+        -0.4118,
+        -0.7735
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/massenschiesserei-in-hamburger-konigreichssaal/"
@@ -4286,9 +4352,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2897,
-        -0.1995,
-        -0.7182
+        0.2865,
+        0.1542,
+        0.6816
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/messerangriff-im-regionalzug-bei-brokstedt/"
@@ -4319,9 +4385,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.2725,
-        -0.1916,
-        0.0773
+        -0.2378,
+        -0.3291,
+        -0.1476
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toetung-einer-lehrerin-am-berufskolleg-in-ibbenbueren/"
@@ -4356,9 +4422,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.3035,
-        0.008,
-        0.0356
+        -0.2183,
+        0.1715,
+        0.1291
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/silvester-hinterhalte-auf-einsatzkraefte-in-berlin/"
@@ -4389,9 +4455,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.1824,
-        -0.2288,
-        0.2251
+        -0.3788,
+        -0.3225,
+        -0.3103
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/toedlicher-polizeieinsatz-gegen-suizidalen-sechzehnjaehrigen-in-dortmund/"
@@ -4422,9 +4488,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1907,
-        -0.1919,
-        -0.1691
+        -0.2371,
+        0.0018,
+        0.349
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amokfahrt-auf-dem-kurfuerstendamm-in-berlin/"
@@ -4455,9 +4521,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.2767,
-        -0.0778,
-        -0.0164
+        -0.2294,
+        0.1126,
+        0.2233
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/doppeltoetung-zweier-polizeibeamter-bei-naechtlicher-kontrolle-in-kusel/"
@@ -4488,9 +4554,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        0.0708,
-        0.1681,
-        0.9159
+        0.0576,
+        -0.4531,
+        -0.7266
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/amoklauf-im-hoersaal-der-universitaet-heidelberg/"
@@ -4521,9 +4587,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.0898,
-        0.1301,
-        0.4644
+        0.1799,
+        -0.0264,
+        -0.1937
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/erschiessung-eines-tankstellenkassierers-wegen-maskenpflicht-in-idar-oberstein/"
@@ -4556,9 +4622,9 @@ window.NOVA_DATA =
         ]
       },
       "coords": [
-        -0.1808,
-        0.2982,
-        -0.1266
+        0.116,
+        0.4125,
+        0.0641
       ],
       "minutes": 2,
       "href": "/neue-dimension-gewalt/gruppenvergewaltigung-im-hamburger-stadtpark/"
@@ -4566,40 +4632,58 @@ window.NOVA_DATA =
   ],
   "clusters": [
     {
-      "label": "Mischcluster",
+      "label": "Körpergewalt · Gruppengewalt",
       "center": [
-        -0.1068,
-        0.1369,
-        0.4391
+        0.0766,
+        0.337,
+        -0.0889
       ],
-      "count": 26
+      "count": 32
     },
     {
-      "label": "ÖPNV · Passanten",
+      "label": "Systemversagen · Schule",
       "center": [
-        0.2205,
-        -0.1742,
-        -0.5218
-      ],
-      "count": 49
-    },
-    {
-      "label": "Gruppengewalt · Körpergewalt",
-      "center": [
-        -0.2262,
-        0.2386,
-        0.0336
+        0.0177,
+        -0.374,
+        -0.8059
       ],
       "count": 28
     },
     {
-      "label": "Systemversagen · Messer",
+      "label": "ÖPNV · Passanten",
       "center": [
-        0.1925,
-        -0.1715,
-        0.1967
+        0.2745,
+        0.1399,
+        0.6224
       ],
-      "count": 32
+      "count": 25
+    },
+    {
+      "label": "Fahrzeug · Passanten",
+      "center": [
+        -0.1815,
+        0.0352,
+        0.4158
+      ],
+      "count": 15
+    },
+    {
+      "label": "Straßenraum · Systemversagen",
+      "center": [
+        -0.1,
+        -0.0981,
+        0.1675
+      ],
+      "count": 20
+    },
+    {
+      "label": "Einsatzkräfte",
+      "center": [
+        0.1286,
+        0.1627,
+        -0.0621
+      ],
+      "count": 17
     }
   ]
 }
