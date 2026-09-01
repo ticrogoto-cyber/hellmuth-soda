@@ -6,7 +6,39 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 31 Aug 2026 00:42:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:22:45 GMT</lastBuildDate>
+    <item>
+      <title>Fett und Alkohol im Rattenhirn</title>
+      <link>https://hellmuth-soda.de/news/science/fett-und-alkohol-im-rattenhirn/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/fett-und-alkohol-im-rattenhirn/</guid>
+      <pubDate>Tue, 01 Sep 2026 01:22:45 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine kombinierte Belastung aus Alkohol und Hochfettkost hinterlässt im Rattenhirn ein spezifisches molekulares Muster.</description>
+    </item>
+    <item>
+      <title>Rückfallquoten überleben jede Therapieschule</title>
+      <link>https://hellmuth-soda.de/news/science/ruckfallquoten-uberleben-jede-therapieschule/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ruckfallquoten-uberleben-jede-therapieschule/</guid>
+      <pubDate>Tue, 01 Sep 2026 01:22:34 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Fünfzehn Monate nach Behandlungsende gleichen sich kognitive Verhaltenstherapie und Achtsamkeitsbasierte Rückfallprävention einander an, und beide der Vergleichsgruppe ohne Behandlung.</description>
+    </item>
+    <item>
+      <title>Ein Rattenmodell für die Mikroglia im Nikotinhirn</title>
+      <link>https://hellmuth-soda.de/news/science/ein-rattenmodell-fur-die-mikroglia-im-nikotinhirn/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-rattenmodell-fur-die-mikroglia-im-nikotinhirn/</guid>
+      <pubDate>Tue, 01 Sep 2026 01:22:21 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Wer Nikotinsucht auf Zellebene sezieren will, braucht Werkzeug, das bislang fehlte.</description>
+    </item>
+    <item>
+      <title>Crooked Pop holt Zevia-Veteran</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/crooked-pop-holt-zevia-veteran/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/crooked-pop-holt-zevia-veteran/</guid>
+      <pubDate>Tue, 01 Sep 2026 01:19:50 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein Hard-Soda-Startup rüstet den Vertrieb auf, bevor die Regale es dazu zwingen.</description>
+    </item>
     <item>
       <title>Ein cerebello-präfrontaler Fingerabdruck der Schizophrenie</title>
       <link>https://hellmuth-soda.de/news/science/ein-cerebello-prafrontaler-fingerabdruck-der-schizophrenie/</link>
@@ -2848,14 +2880,6 @@
       <description>Körperliche Aktivität ist keine reine Lebensstilfrage, sondern hängt genetisch mit denselben Schaltkreisen zusammen, die bei Schizophrenie und Parkinson entgleisen.</description>
     </item>
     <item>
-      <title>Das zweite Trimester schreibt sich in die Stimmung ein</title>
-      <link>https://hellmuth-soda.de/news/science/das-zweite-trimester-schreibt-sich-in-die-stimmung-ein/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/das-zweite-trimester-schreibt-sich-in-die-stimmung-ein/</guid>
-      <pubDate>Thu, 25 Jun 2026 23:53:33 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine britische Langzeitkohorte verortet das Risiko für depressive Verläufe im Kindes- und Jugendalter zeitlich genauer als bisher.</description>
-    </item>
-    <item>
       <title>Dirty Shirley räumt auf</title>
       <link>https://hellmuth-soda.de/news/hellmuth/dirty-shirley-raumt-auf/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/dirty-shirley-raumt-auf/</guid>
@@ -2870,22 +2894,6 @@
       <pubDate>Thu, 25 Jun 2026 23:48:26 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der japanische Getränkekonzern bindet 14,5 Millionen Pfund in seine britische Infrastruktur, weil die alte Logik des billigen Imports nicht mehr trägt.</description>
-    </item>
-    <item>
-      <title>Wenn Zwang das Abstrahieren frisst</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-zwang-das-abstrahieren-frisst/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-zwang-das-abstrahieren-frisst/</guid>
-      <pubDate>Wed, 24 Jun 2026 23:39:27 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt die Grenze zwischen psychiatrischen Kategorien dorthin, wo Denken sich selbst beobachtet.</description>
-    </item>
-    <item>
-      <title>Bluttest sagt voraus, wer mit Alzheimer-Psychose schneller abbaut</title>
-      <link>https://hellmuth-soda.de/news/science/bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut/</guid>
-      <pubDate>Wed, 24 Jun 2026 23:39:10 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint auf medRxiv koppelt Plasma-Biomarker an den Verlauf jener Alzheimer-Variante, die mit Wahn und Halluzinationen einhergeht.</description>
     </item>
     <item>
       <title>Neutonic verkauft Produktivität in der Dose</title>
@@ -3198,14 +3206,6 @@
       <pubDate>Tue, 09 Jun 2026 23:47:33 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Hopfen ohne Alkohol wird ein Regalproblem, kein Konzeptproblem.</description>
-    </item>
-    <item>
-      <title>Präbiotik-Soda sucht europäischen Gaumen</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:46:31 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was in den USA als Funktionsgetränk durchmarschiert, stößt in Europa auf einen Geschmack, der Süße misstraut.</description>
     </item>
   </channel>
 </rss>

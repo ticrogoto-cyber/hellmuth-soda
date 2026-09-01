@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-08-31T00:42:19.285Z",
+  "generated": "2026-09-01T01:22:45.613Z",
   "hellmuth": [
+    {
+      "title": "Crooked Pop holt Zevia-Veteran",
+      "date": "2026-09-01",
+      "created": "2026-09-01T01:19:50.054Z",
+      "slug": "crooked-pop-holt-zevia-veteran",
+      "rubrik": "hellmuth",
+      "lead": "Ein Hard-Soda-Startup rüstet den Vertrieb auf, bevor die Regale es dazu zwingen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/crooked-pop-taps-former-zevia-exec-lee-schill-as-cco",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/crooked-pop-holt-zevia-veteran/"
+    },
     {
       "title": "Ichitan bringt alkalisches Aloe-Wasser",
       "date": "2026-08-30",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/hellmuth/hoplark-poliert-die-marke/"
-    },
-    {
-      "title": "Präbiotik-Soda sucht europäischen Gaumen",
-      "date": "2026-06-09",
-      "created": "2026-06-09T23:46:31.565Z",
-      "slug": "prabiotik-soda-sucht-europaischen-gaumen",
-      "rubrik": "hellmuth",
-      "lead": "Was in den USA als Funktionsgetränk durchmarschiert, stößt in Europa auf einen Geschmack, der Süße misstraut.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/News/Promotional-features/prebiotic-fibre-soda-reaching-eu-market/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/"
     }
   ],
   "science": [
+    {
+      "title": "Fett und Alkohol im Rattenhirn",
+      "date": "2026-09-01",
+      "created": "2026-09-01T01:22:45.525Z",
+      "slug": "fett-und-alkohol-im-rattenhirn",
+      "rubrik": "science",
+      "lead": "Eine kombinierte Belastung aus Alkohol und Hochfettkost hinterlässt im Rattenhirn ein spezifisches molekulares Muster.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1007/s11064-026-04856-x",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/fett-und-alkohol-im-rattenhirn/"
+    },
+    {
+      "title": "Rückfallquoten überleben jede Therapieschule",
+      "date": "2026-09-01",
+      "created": "2026-09-01T01:22:34.652Z",
+      "slug": "ruckfallquoten-uberleben-jede-therapieschule",
+      "rubrik": "science",
+      "lead": "Fünfzehn Monate nach Behandlungsende gleichen sich kognitive Verhaltenstherapie und Achtsamkeitsbasierte Rückfallprävention einander an, und beide der Vergleichsgruppe ohne Behandlung.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1037/ccp0001025",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/ruckfallquoten-uberleben-jede-therapieschule/"
+    },
+    {
+      "title": "Ein Rattenmodell für die Mikroglia im Nikotinhirn",
+      "date": "2026-09-01",
+      "created": "2026-09-01T01:22:21.025Z",
+      "slug": "ein-rattenmodell-fur-die-mikroglia-im-nikotinhirn",
+      "rubrik": "science",
+      "lead": "Wer Nikotinsucht auf Zellebene sezieren will, braucht Werkzeug, das bislang fehlte.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3390/cells15161445",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-rattenmodell-fur-die-mikroglia-im-nikotinhirn/"
+    },
     {
       "title": "Ein cerebello-präfrontaler Fingerabdruck der Schizophrenie",
       "date": "2026-08-31",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/bewegung-teilt-gene-mit-schizophrenie-und-parkinson/"
-    },
-    {
-      "title": "Das zweite Trimester schreibt sich in die Stimmung ein",
-      "date": "2026-06-25",
-      "created": "2026-06-25T23:53:33.483Z",
-      "slug": "das-zweite-trimester-schreibt-sich-in-die-stimmung-ein",
-      "rubrik": "science",
-      "lead": "Eine britische Langzeitkohorte verortet das Risiko für depressive Verläufe im Kindes- und Jugendalter zeitlich genauer als bisher.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356366v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/das-zweite-trimester-schreibt-sich-in-die-stimmung-ein/"
-    },
-    {
-      "title": "Wenn Zwang das Abstrahieren frisst",
-      "date": "2026-06-24",
-      "created": "2026-06-24T23:39:27.327Z",
-      "slug": "wenn-zwang-das-abstrahieren-frisst",
-      "rubrik": "science",
-      "lead": "Ein Preprint verschiebt die Grenze zwischen psychiatrischen Kategorien dorthin, wo Denken sich selbst beobachtet.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.17.26354096v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/wenn-zwang-das-abstrahieren-frisst/"
-    },
-    {
-      "title": "Bluttest sagt voraus, wer mit Alzheimer-Psychose schneller abbaut",
-      "date": "2026-06-24",
-      "created": "2026-06-24T23:39:10.336Z",
-      "slug": "bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut",
-      "rubrik": "science",
-      "lead": "Ein Preprint auf medRxiv koppelt Plasma-Biomarker an den Verlauf jener Alzheimer-Variante, die mit Wahn und Halluzinationen einhergeht.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.18.26355956v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/bluttest-sagt-voraus-wer-mit-alzheimer-psychose-schneller-abbaut/"
     }
   ]
 }

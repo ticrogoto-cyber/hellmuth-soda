@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 31 Aug 2026 00:42:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:22:45 GMT</lastBuildDate>
+    <item>
+      <title>Crooked Pop holt Zevia-Veteran</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/crooked-pop-holt-zevia-veteran/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/crooked-pop-holt-zevia-veteran/</guid>
+      <pubDate>Tue, 01 Sep 2026 01:19:50 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein Hard-Soda-Startup rüstet den Vertrieb auf, bevor die Regale es dazu zwingen.</description>
+    </item>
     <item>
       <title>Ichitan bringt alkalisches Aloe-Wasser</title>
       <link>https://hellmuth-soda.de/news/hellmuth/ichitan-bringt-alkalisches-aloe-wasser/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Tue, 09 Jun 2026 23:47:33 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Hopfen ohne Alkohol wird ein Regalproblem, kein Konzeptproblem.</description>
-    </item>
-    <item>
-      <title>Präbiotik-Soda sucht europäischen Gaumen</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/prabiotik-soda-sucht-europaischen-gaumen/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:46:31 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was in den USA als Funktionsgetränk durchmarschiert, stößt in Europa auf einen Geschmack, der Süße misstraut.</description>
     </item>
   </channel>
 </rss>
