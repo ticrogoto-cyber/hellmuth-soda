@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-01T01:26:48.820Z",
+  "generated": "2026-09-02T00:24:51.230Z",
   "items": [
     {
       "title": "Schüsse in Berliner Fußgängerzone",
