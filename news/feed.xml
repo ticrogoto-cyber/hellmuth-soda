@@ -6,7 +6,39 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 01 Sep 2026 01:22:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 00:24:05 GMT</lastBuildDate>
+    <item>
+      <title>Psychedelika, sortiert nach Dosierungsmuster</title>
+      <link>https://hellmuth-soda.de/news/science/psychedelika-sortiert-nach-dosierungsmuster/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychedelika-sortiert-nach-dosierungsmuster/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:24:05 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein neues Review sortiert Sicherheit und Wirkung von Psychedelika nicht nach Substanz, sondern nach Einnahmemuster.</description>
+    </item>
+    <item>
+      <title>CBD gegen Psychose, ein serotonerger Umweg</title>
+      <link>https://hellmuth-soda.de/news/science/cbd-gegen-psychose-ein-serotonerger-umweg/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cbd-gegen-psychose-ein-serotonerger-umweg/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:23:53 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Übersichtsarbeit ordnet Cannabidiol nicht mehr primär als Cannabinoid ein, sondern als Modulator serotonerger Rezeptoren.</description>
+    </item>
+    <item>
+      <title>Dampf, Beutel, und was danach kommt</title>
+      <link>https://hellmuth-soda.de/news/science/dampf-beutel-und-was-danach-kommt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/dampf-beutel-und-was-danach-kommt/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:23:40 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Dänische Ärzte fragen, ob E-Zigaretten und rauchfreies Nikotin bei Jugendlichen Vorläufer von späterer Psychopathologie sind.</description>
+    </item>
+    <item>
+      <title>Der Functional-Drink wird spezifisch</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/der-functional-drink-wird-spezifisch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/der-functional-drink-wird-spezifisch/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:20:00 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Markt für funktionale Getränke verlässt die Phase der vagen Wellness-Versprechen und beginnt, Wirkziele zu benennen.</description>
+    </item>
     <item>
       <title>Fett und Alkohol im Rattenhirn</title>
       <link>https://hellmuth-soda.de/news/science/fett-und-alkohol-im-rattenhirn/</link>
@@ -2832,14 +2864,6 @@
       <description>Ein fokussierter Ultraschallstrahl auf den anterioren cingulären Cortex kippt Gefühlslagen, bevor irgendein Medikament greifen könnte.</description>
     </item>
     <item>
-      <title>Bipolare Störung altert im Blut messbar schneller</title>
-      <link>https://hellmuth-soda.de/news/science/bipolare-storung-altert-im-blut-messbar-schneller/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/bipolare-storung-altert-im-blut-messbar-schneller/</guid>
-      <pubDate>Fri, 26 Jun 2026 23:38:31 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Sieben alterungsrelevante lncRNAs im peripheren Blut trennen Erkrankte, gesunde Geschwister und Kontrollen entlang einer Risikoachse.</description>
-    </item>
-    <item>
       <title>Rockstar macht Mocktails, Four Loko wird Hanf, HOP WTR rührt Gurke in Limonade</title>
       <link>https://hellmuth-soda.de/news/hellmuth/rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade/</guid>
@@ -2862,22 +2886,6 @@
       <pubDate>Fri, 26 Jun 2026 23:37:30 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die deutsche Marke Undone verlegt ihren Wachstumshorizont in den pazifischen Raum und macht damit eine Verschiebung sichtbar, die Europa längst hinter sich glaubt.</description>
-    </item>
-    <item>
-      <title>Depression im Haar lesbar</title>
-      <link>https://hellmuth-soda.de/news/science/depression-im-haar-lesbar/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-im-haar-lesbar/</guid>
-      <pubDate>Thu, 25 Jun 2026 23:54:09 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint sucht den Marker für Major Depression nicht im Blut, sondern in den ersten drei Zentimetern Kopfhaar.</description>
-    </item>
-    <item>
-      <title>Bewegung teilt Gene mit Schizophrenie und Parkinson</title>
-      <link>https://hellmuth-soda.de/news/science/bewegung-teilt-gene-mit-schizophrenie-und-parkinson/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/bewegung-teilt-gene-mit-schizophrenie-und-parkinson/</guid>
-      <pubDate>Thu, 25 Jun 2026 23:53:49 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Körperliche Aktivität ist keine reine Lebensstilfrage, sondern hängt genetisch mit denselben Schaltkreisen zusammen, die bei Schizophrenie und Parkinson entgleisen.</description>
     </item>
     <item>
       <title>Dirty Shirley räumt auf</title>
@@ -3198,14 +3206,6 @@
       <pubDate>Wed, 10 Jun 2026 23:52:19 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die Getränkeindustrie tauscht synthetische Farbstoffe gegen Pflanzenextrakte, weil der Regulator und der Regalverkäufer es verlangen.</description>
-    </item>
-    <item>
-      <title>Hoplark poliert die Marke</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/hoplark-poliert-die-marke/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/hoplark-poliert-die-marke/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:47:33 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Hopfen ohne Alkohol wird ein Regalproblem, kein Konzeptproblem.</description>
     </item>
   </channel>
 </rss>

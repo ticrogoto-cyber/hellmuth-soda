@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-01T01:22:45.613Z",
+  "generated": "2026-09-02T00:24:05.511Z",
   "hellmuth": [
+    {
+      "title": "Der Functional-Drink wird spezifisch",
+      "date": "2026-09-02",
+      "created": "2026-09-02T00:20:00.527Z",
+      "slug": "der-functional-drink-wird-spezifisch",
+      "rubrik": "hellmuth",
+      "lead": "Der Markt für funktionale Getränke verlässt die Phase der vagen Wellness-Versprechen und beginnt, Wirkziele zu benennen.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/08/31/soup-to-nuts-podcast-what-consumers-want-from-functional-beverages-now/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-functional-drink-wird-spezifisch/"
+    },
     {
       "title": "Crooked Pop holt Zevia-Veteran",
       "date": "2026-09-01",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/pflanzenfarben-im-glas/"
-    },
-    {
-      "title": "Hoplark poliert die Marke",
-      "date": "2026-06-09",
-      "created": "2026-06-09T23:47:33.332Z",
-      "slug": "hoplark-poliert-die-marke",
-      "rubrik": "hellmuth",
-      "lead": "Hopfen ohne Alkohol wird ein Regalproblem, kein Konzeptproblem.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/hoplarks-refresh-aims-to-boost-discovery-across-channels",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/hoplark-poliert-die-marke/"
     }
   ],
   "science": [
+    {
+      "title": "Psychedelika, sortiert nach Dosierungsmuster",
+      "date": "2026-09-02",
+      "created": "2026-09-02T00:24:05.422Z",
+      "slug": "psychedelika-sortiert-nach-dosierungsmuster",
+      "rubrik": "science",
+      "lead": "Ein neues Review sortiert Sicherheit und Wirkung von Psychedelika nicht nach Substanz, sondern nach Einnahmemuster.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3390/life16081338",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psychedelika-sortiert-nach-dosierungsmuster/"
+    },
+    {
+      "title": "CBD gegen Psychose, ein serotonerger Umweg",
+      "date": "2026-09-02",
+      "created": "2026-09-02T00:23:53.598Z",
+      "slug": "cbd-gegen-psychose-ein-serotonerger-umweg",
+      "rubrik": "science",
+      "lead": "Eine Übersichtsarbeit ordnet Cannabidiol nicht mehr primär als Cannabinoid ein, sondern als Modulator serotonerger Rezeptoren.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1007/s11064-026-04860-1",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/cbd-gegen-psychose-ein-serotonerger-umweg/"
+    },
+    {
+      "title": "Dampf, Beutel, und was danach kommt",
+      "date": "2026-09-02",
+      "created": "2026-09-02T00:23:40.503Z",
+      "slug": "dampf-beutel-und-was-danach-kommt",
+      "rubrik": "science",
+      "lead": "Dänische Ärzte fragen, ob E-Zigaretten und rauchfreies Nikotin bei Jugendlichen Vorläufer von späterer Psychopathologie sind.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.61409/V06250522",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/dampf-beutel-und-was-danach-kommt/"
+    },
     {
       "title": "Fett und Alkohol im Rattenhirn",
       "date": "2026-09-01",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/ultraschall-im-stirnhirn-verschiebt-die-stimmung/"
-    },
-    {
-      "title": "Bipolare Störung altert im Blut messbar schneller",
-      "date": "2026-06-26",
-      "created": "2026-06-26T23:38:31.110Z",
-      "slug": "bipolare-storung-altert-im-blut-messbar-schneller",
-      "rubrik": "science",
-      "lead": "Sieben alterungsrelevante lncRNAs im peripheren Blut trennen Erkrankte, gesunde Geschwister und Kontrollen entlang einer Risikoachse.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355706v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/bipolare-storung-altert-im-blut-messbar-schneller/"
-    },
-    {
-      "title": "Depression im Haar lesbar",
-      "date": "2026-06-25",
-      "created": "2026-06-25T23:54:09.276Z",
-      "slug": "depression-im-haar-lesbar",
-      "rubrik": "science",
-      "lead": "Ein Preprint sucht den Marker für Major Depression nicht im Blut, sondern in den ersten drei Zentimetern Kopfhaar.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.15.26355692v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/depression-im-haar-lesbar/"
-    },
-    {
-      "title": "Bewegung teilt Gene mit Schizophrenie und Parkinson",
-      "date": "2026-06-25",
-      "created": "2026-06-25T23:53:49.295Z",
-      "slug": "bewegung-teilt-gene-mit-schizophrenie-und-parkinson",
-      "rubrik": "science",
-      "lead": "Körperliche Aktivität ist keine reine Lebensstilfrage, sondern hängt genetisch mit denselben Schaltkreisen zusammen, die bei Schizophrenie und Parkinson entgleisen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356304v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/bewegung-teilt-gene-mit-schizophrenie-und-parkinson/"
     }
   ]
 }

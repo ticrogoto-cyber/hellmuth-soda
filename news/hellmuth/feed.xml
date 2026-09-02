@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 01 Sep 2026 01:22:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 00:24:05 GMT</lastBuildDate>
+    <item>
+      <title>Der Functional-Drink wird spezifisch</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/der-functional-drink-wird-spezifisch/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/der-functional-drink-wird-spezifisch/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:20:00 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Markt für funktionale Getränke verlässt die Phase der vagen Wellness-Versprechen und beginnt, Wirkziele zu benennen.</description>
+    </item>
     <item>
       <title>Crooked Pop holt Zevia-Veteran</title>
       <link>https://hellmuth-soda.de/news/hellmuth/crooked-pop-holt-zevia-veteran/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Wed, 10 Jun 2026 23:52:19 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die Getränkeindustrie tauscht synthetische Farbstoffe gegen Pflanzenextrakte, weil der Regulator und der Regalverkäufer es verlangen.</description>
-    </item>
-    <item>
-      <title>Hoplark poliert die Marke</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/hoplark-poliert-die-marke/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/hoplark-poliert-die-marke/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:47:33 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Hopfen ohne Alkohol wird ein Regalproblem, kein Konzeptproblem.</description>
     </item>
   </channel>
 </rss>
