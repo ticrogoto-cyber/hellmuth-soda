@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 02 Sep 2026 00:24:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:25:56 GMT</lastBuildDate>
+    <item>
+      <title>Ketamin dämpft Immunentzündung bei Depression im Reagenzglas</title>
+      <link>https://hellmuth-soda.de/news/science/ketamin-dampft-immunentzundung-bei-depression-im-reagenzglas/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ketamin-dampft-immunentzundung-bei-depression-im-reagenzglas/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:25:56 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem medRxiv-Psychiatriearchiv verortet die antidepressive Wirkung von Ketamin nicht im Neurotransmitter, sondern im Blut.</description>
+    </item>
+    <item>
+      <title>Passivrauch aus Cannabis bremst jugendliche Kognition</title>
+      <link>https://hellmuth-soda.de/news/science/passivrauch-aus-cannabis-bremst-jugendliche-kognition/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/passivrauch-aus-cannabis-bremst-jugendliche-kognition/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:25:40 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der ABCD-Kohorte findet messbare kognitive Nachteile bei Jugendlichen, die zu Hause Cannabis-Passivrauch ausgesetzt sind, ohne selbst zu konsumieren.</description>
+    </item>
+    <item>
+      <title>Das Ich im EEG der Bipolaren</title>
+      <link>https://hellmuth-soda.de/news/science/das-ich-im-eeg-der-bipolaren/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/das-ich-im-eeg-der-bipolaren/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:25:28 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf medRxiv misst, wie das Gehirn zwischen »mir« und »nicht mir« unterscheidet, und findet bei bipolaren Patienten eine flachere Grenze.</description>
+    </item>
     <item>
       <title>Psychedelika, sortiert nach Dosierungsmuster</title>
       <link>https://hellmuth-soda.de/news/science/psychedelika-sortiert-nach-dosierungsmuster/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sat, 27 Jun 2026 23:36:02 GMT</pubDate>
       <category>Forschung</category>
       <description>Eine gestresste Energieantwort in menschlichen Mikroglia kappt die Kommunikation mit Nervenzellen und treibt die Hirn-Immunzellen in Seneszenz.</description>
-    </item>
-    <item>
-      <title>Dopamin sagt voraus, wer süchtig wird</title>
-      <link>https://hellmuth-soda.de/news/science/dopamin-sagt-voraus-wer-suchtig-wird/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/dopamin-sagt-voraus-wer-suchtig-wird/</guid>
-      <pubDate>Sat, 27 Jun 2026 23:35:49 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Größe der konditionierten Dopaminantwort im Nucleus accumbens trennt Tiere, die später Drogen der natürlichen Belohnung vorziehen, von denen, die es nicht tun.</description>
-    </item>
-    <item>
-      <title>PTEN trennt Wachstum und Erregbarkeit der Nervenzelle</title>
-      <link>https://hellmuth-soda.de/news/science/pten-trennt-wachstum-und-erregbarkeit-der-nervenzelle/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/pten-trennt-wachstum-und-erregbarkeit-der-nervenzelle/</guid>
-      <pubDate>Fri, 26 Jun 2026 23:39:07 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint zerlegt einen lange verknoteten Schaltkreis in zwei Stränge, die sich getrennt steuern lassen.</description>
-    </item>
-    <item>
-      <title>Ultraschall im Stirnhirn verschiebt die Stimmung</title>
-      <link>https://hellmuth-soda.de/news/science/ultraschall-im-stirnhirn-verschiebt-die-stimmung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ultraschall-im-stirnhirn-verschiebt-die-stimmung/</guid>
-      <pubDate>Fri, 26 Jun 2026 23:38:51 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein fokussierter Ultraschallstrahl auf den anterioren cingulären Cortex kippt Gefühlslagen, bevor irgendein Medikament greifen könnte.</description>
     </item>
   </channel>
 </rss>

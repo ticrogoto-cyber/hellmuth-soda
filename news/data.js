@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-02T00:24:05.511Z",
+  "generated": "2026-09-03T00:25:56.666Z",
   "hellmuth": [
+    {
+      "title": "Shampoo trinkt Kaffee",
+      "date": "2026-09-03",
+      "created": "2026-09-03T00:25:12.416Z",
+      "slug": "shampoo-trinkt-kaffee",
+      "rubrik": "hellmuth",
+      "lead": "Ein chinesischer Haarpflegeableger von Proya verbündet sich mit der Kaffeekette Manner für einen Osmanthus-Latte.",
+      "source_name": "Jing Daily",
+      "source_url": "https://jingdaily.com/intels/2026-09/02#proya-s-off-and-relax-taps-manner-for-osmanthus-latte-drop",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/shampoo-trinkt-kaffee/"
+    },
+    {
+      "title": "Cielo bekommt Honig-Zitrone",
+      "date": "2026-09-03",
+      "created": "2026-09-03T00:23:58.590Z",
+      "slug": "cielo-bekommt-honig-zitrone",
+      "rubrik": "hellmuth",
+      "lead": "AJE Thai schiebt eine sechste Sorte in seine Vitamin-Soda-Reihe und dokumentiert damit, wie schnell funktionale Limonaden in Südostasien zur Standardkategorie werden.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/02/aje-thai-expands-cielo-vitamin-active-soda-with-honey-lemon/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/cielo-bekommt-honig-zitrone/"
+    },
+    {
+      "title": "Nestlé trennt sich von Nuun",
+      "date": "2026-09-03",
+      "created": "2026-09-03T00:21:46.562Z",
+      "slug": "nestl-trennt-sich-von-nuun",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern verkauft sein Vitamin- und Supplement-Geschäft samt Nuun Hydration für eine Milliarde Dollar an Yellow Wood Partners.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/nestle-offloads-nuun-amid-supplement-divestment",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/nestl-trennt-sich-von-nuun/"
+    },
     {
       "title": "Der Functional-Drink wird spezifisch",
       "date": "2026-09-02",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/baijiu-zwischen-heimmarkt-und-weltanspruch/"
-    },
-    {
-      "title": "Impossibrew sammelt wieder ein",
-      "date": "2026-06-10",
-      "created": "2026-06-10T23:52:55.813Z",
-      "slug": "impossibrew-sammelt-wieder-ein",
-      "rubrik": "hellmuth",
-      "lead": "Eine alkoholfreie Funktionsbier-Marke geht zurück an die Crowd, und das sagt mehr über die Kategorie als über die Marke.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/whats-next-for-impossibrew/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/impossibrew-sammelt-wieder-ein/"
-    },
-    {
-      "title": "Südkorea trinkt sich nüchtern",
-      "date": "2026-06-10",
-      "created": "2026-06-10T23:52:40.228Z",
-      "slug": "sudkorea-trinkt-sich-nuchtern",
-      "rubrik": "hellmuth",
-      "lead": "Der koreanische Alkoholmarkt erlebt im ersten Quartal 2026 den steilsten Rückgang seit sieben Jahren.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/alcohol-spending-in-south-korea-posts-sharpest-drop-in-seven-years/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/sudkorea-trinkt-sich-nuchtern/"
-    },
-    {
-      "title": "Pflanzenfarben im Glas",
-      "date": "2026-06-10",
-      "created": "2026-06-10T23:52:19.068Z",
-      "slug": "pflanzenfarben-im-glas",
-      "rubrik": "hellmuth",
-      "lead": "Die Getränkeindustrie tauscht synthetische Farbstoffe gegen Pflanzenextrakte, weil der Regulator und der Regalverkäufer es verlangen.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/News/Promotional-features/Plant-based-natural-colors-in-soft-drinks-and-alcoholic-beverages/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/pflanzenfarben-im-glas/"
     }
   ],
   "science": [
+    {
+      "title": "Ketamin dämpft Immunentzündung bei Depression im Reagenzglas",
+      "date": "2026-09-03",
+      "created": "2026-09-03T00:25:56.572Z",
+      "slug": "ketamin-dampft-immunentzundung-bei-depression-im-reagenzglas",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem medRxiv-Psychiatriearchiv verortet die antidepressive Wirkung von Ketamin nicht im Neurotransmitter, sondern im Blut.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361493v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ketamin-dampft-immunentzundung-bei-depression-im-reagenzglas/"
+    },
+    {
+      "title": "Passivrauch aus Cannabis bremst jugendliche Kognition",
+      "date": "2026-09-03",
+      "created": "2026-09-03T00:25:40.830Z",
+      "slug": "passivrauch-aus-cannabis-bremst-jugendliche-kognition",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der ABCD-Kohorte findet messbare kognitive Nachteile bei Jugendlichen, die zu Hause Cannabis-Passivrauch ausgesetzt sind, ohne selbst zu konsumieren.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.31.26361835v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/passivrauch-aus-cannabis-bremst-jugendliche-kognition/"
+    },
+    {
+      "title": "Das Ich im EEG der Bipolaren",
+      "date": "2026-09-03",
+      "created": "2026-09-03T00:25:28.302Z",
+      "slug": "das-ich-im-eeg-der-bipolaren",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv misst, wie das Gehirn zwischen »mir« und »nicht mir« unterscheidet, und findet bei bipolaren Patienten eine flachere Grenze.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.30.26361790v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/das-ich-im-eeg-der-bipolaren/"
+    },
     {
       "title": "Psychedelika, sortiert nach Dosierungsmuster",
       "date": "2026-09-02",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/wenn-die-mikroglia-altert-schweigt-das-neuron/"
-    },
-    {
-      "title": "Dopamin sagt voraus, wer süchtig wird",
-      "date": "2026-06-27",
-      "created": "2026-06-27T23:35:49.964Z",
-      "slug": "dopamin-sagt-voraus-wer-suchtig-wird",
-      "rubrik": "science",
-      "lead": "Die Größe der konditionierten Dopaminantwort im Nucleus accumbens trennt Tiere, die später Drogen der natürlichen Belohnung vorziehen, von denen, die es nicht tun.",
-      "source_name": "Nature Neuroscience",
-      "source_url": "https://www.nature.com/articles/s41593-026-02331-y",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/dopamin-sagt-voraus-wer-suchtig-wird/"
-    },
-    {
-      "title": "PTEN trennt Wachstum und Erregbarkeit der Nervenzelle",
-      "date": "2026-06-26",
-      "created": "2026-06-26T23:39:07.023Z",
-      "slug": "pten-trennt-wachstum-und-erregbarkeit-der-nervenzelle",
-      "rubrik": "science",
-      "lead": "Ein Preprint zerlegt einen lange verknoteten Schaltkreis in zwei Stränge, die sich getrennt steuern lassen.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733785v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/pten-trennt-wachstum-und-erregbarkeit-der-nervenzelle/"
-    },
-    {
-      "title": "Ultraschall im Stirnhirn verschiebt die Stimmung",
-      "date": "2026-06-26",
-      "created": "2026-06-26T23:38:51.608Z",
-      "slug": "ultraschall-im-stirnhirn-verschiebt-die-stimmung",
-      "rubrik": "science",
-      "lead": "Ein fokussierter Ultraschallstrahl auf den anterioren cingulären Cortex kippt Gefühlslagen, bevor irgendein Medikament greifen könnte.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.22.26356085v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ultraschall-im-stirnhirn-verschiebt-die-stimmung/"
     }
   ]
 }
