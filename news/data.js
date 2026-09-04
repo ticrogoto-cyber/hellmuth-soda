@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-03T00:25:56.666Z",
+  "generated": "2026-09-04T00:12:48.827Z",
   "hellmuth": [
+    {
+      "title": "Mike Cessario dosenweise, jetzt mit Schaumwein",
+      "date": "2026-09-04",
+      "created": "2026-09-04T00:11:21.165Z",
+      "slug": "mike-cessario-dosenweise-jetzt-mit-schaumwein",
+      "rubrik": "hellmuth",
+      "lead": "Der Liquid-Death-Gründer holt sich Sazerac ins Boot und packt Sekt in die Alu-Dose.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/liquid-death-founder-and-sazerac-launch-mr-fancy-canned-american-bubbly",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/mike-cessario-dosenweise-jetzt-mit-schaumwein/"
+    },
+    {
+      "title": "Kava und Kanna rücken nach",
+      "date": "2026-09-04",
+      "created": "2026-09-04T00:11:02.972Z",
+      "slug": "kava-und-kanna-rucken-nach",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für funktionale Alkohol-Alternativen sortiert sich neu, weil Hanf-THC regulatorisch wackelt.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/the-next-high-kava-kanna-eye-opportunity-amid-hemp-thc-uncertainty",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kava-und-kanna-rucken-nach/"
+    },
+    {
+      "title": "Athletic Brewing rüstet die Marketingabteilung auf",
+      "date": "2026-09-04",
+      "created": "2026-09-04T00:10:38.464Z",
+      "slug": "athletic-brewing-rustet-die-marketingabteilung-auf",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Marktführer für alkoholfreies Bier holt einen neuen Chief Marketing Officer, während Sportsponsoring und nationale Werbeausgaben weiter hochgefahren werden.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/athletic-brewing-appoints-new-cmo-amid-marketing-push/829461/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/athletic-brewing-rustet-die-marketingabteilung-auf/"
+    },
     {
       "title": "Shampoo trinkt Kaffee",
       "date": "2026-09-03",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/klarheit-schlagt-story/"
-    },
-    {
-      "title": "Die Sober-Curious-Bühne wird zur Hauptbühne",
-      "date": "2026-06-11",
-      "created": "2026-06-11T23:58:34.512Z",
-      "slug": "die-sober-curious-buhne-wird-zur-hauptbuhne",
-      "rubrik": "hellmuth",
-      "lead": "Was vor drei Jahren als Nischenpanel lief, eröffnet jetzt die Branchenkonferenz.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/bevnet-live-day-one-recap-sober-curious-founders-take-the-stage",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/die-sober-curious-buhne-wird-zur-hauptbuhne/"
-    },
-    {
-      "title": "Nüchterne Getränke treiben den M&A-Markt",
-      "date": "2026-06-11",
-      "created": "2026-06-11T23:57:57.457Z",
-      "slug": "nuchterne-getranke-treiben-den-m-a-markt",
-      "rubrik": "hellmuth",
-      "lead": "Funktionale und alkoholfreie Drinks sind zur Übernahmewährung im globalen Lebensmittelsektor geworden.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/low-and-no-drinks-fuel-food-and-beverage-dealmaking-as-asia-pacific-leads-global-ma-market/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/nuchterne-getranke-treiben-den-m-a-markt/"
-    },
-    {
-      "title": "Baijiu zwischen Heimmarkt und Weltanspruch",
-      "date": "2026-06-11",
-      "created": "2026-06-11T23:57:20.736Z",
-      "slug": "baijiu-zwischen-heimmarkt-und-weltanspruch",
-      "rubrik": "hellmuth",
-      "lead": "Die größte Spirituose der Welt ist außerhalb Chinas fast unsichtbar, und genau das wird zum Verkaufsargument der Branche.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/10/baijiu-top-brands-and-their-global-opportunity/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/baijiu-zwischen-heimmarkt-und-weltanspruch/"
     }
   ],
   "science": [
+    {
+      "title": "Immunzellen greifen das Tau-Hirn an",
+      "date": "2026-09-04",
+      "created": "2026-09-04T00:12:48.739Z",
+      "slug": "immunzellen-greifen-das-tau-hirn-an",
+      "rubrik": "science",
+      "lead": "Neurodegeneration bei Tauopathien ist nicht nur Zerfall im Kopf, sondern ein Angriff von außen.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02427-5",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/immunzellen-greifen-das-tau-hirn-an/"
+    },
+    {
+      "title": "Die Myelinscheide verrät das alternde Gehirn",
+      "date": "2026-09-04",
+      "created": "2026-09-04T00:12:35.087Z",
+      "slug": "die-myelinscheide-verrat-das-alternde-gehirn",
+      "rubrik": "science",
+      "lead": "Kognitiver Abbau im Alter beginnt nicht an den Nervenzellen, sondern an den Zellen, die sie umhüllen.",
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04630-0",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/die-myelinscheide-verrat-das-alternde-gehirn/"
+    },
+    {
+      "title": "Depression, im Gewebe lesbar",
+      "date": "2026-09-04",
+      "created": "2026-09-04T00:12:15.990Z",
+      "slug": "depression-im-gewebe-lesbar",
+      "rubrik": "science",
+      "lead": "Eine Nature-Medicine-Arbeit verortet Major Depression in messbaren Veränderungen menschlicher Hirnzellen.",
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04682-2",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/depression-im-gewebe-lesbar/"
+    },
     {
       "title": "Ketamin dämpft Immunentzündung bei Depression im Reagenzglas",
       "date": "2026-09-03",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/europas-cannabis-ist-nicht-mehr-das-von-1995/"
-    },
-    {
-      "title": "Alkohol schreibt ins Chromatin, je nach Geschlecht verschieden",
-      "date": "2026-06-28",
-      "created": "2026-06-28T23:34:29.352Z",
-      "slug": "alkohol-schreibt-ins-chromatin-je-nach-geschlecht-verschieden",
-      "rubrik": "science",
-      "lead": "Eine Übersichtsarbeit zur Acetylierung im Gehirn ordnet Alkoholwirkung dort ein, wo Pharmakologen sie lange nicht suchten.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.3390/genes17060637",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/alkohol-schreibt-ins-chromatin-je-nach-geschlecht-verschieden/"
-    },
-    {
-      "title": "Acetylcholin in der Amygdala hat einen Chef",
-      "date": "2026-06-27",
-      "created": "2026-06-27T23:36:15.508Z",
-      "slug": "acetylcholin-in-der-amygdala-hat-einen-chef",
-      "rubrik": "science",
-      "lead": "Die Mandelkerne entscheiden nicht selbst, wann ein Reiz Bedeutung bekommt; sie werden befehligt.",
-      "source_name": "Nature Neuroscience",
-      "source_url": "https://www.nature.com/articles/s41593-026-02353-6",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/acetylcholin-in-der-amygdala-hat-einen-chef/"
-    },
-    {
-      "title": "Wenn die Mikroglia altert, schweigt das Neuron",
-      "date": "2026-06-27",
-      "created": "2026-06-27T23:36:02.762Z",
-      "slug": "wenn-die-mikroglia-altert-schweigt-das-neuron",
-      "rubrik": "science",
-      "lead": "Eine gestresste Energieantwort in menschlichen Mikroglia kappt die Kommunikation mit Nervenzellen und treibt die Hirn-Immunzellen in Seneszenz.",
-      "source_name": "Nature Neuroscience",
-      "source_url": "https://www.nature.com/articles/s41593-026-02320-1",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/wenn-die-mikroglia-altert-schweigt-das-neuron/"
     }
   ]
 }

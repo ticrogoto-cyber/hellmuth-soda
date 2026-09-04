@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:25:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 00:12:48 GMT</lastBuildDate>
+    <item>
+      <title>Immunzellen greifen das Tau-Hirn an</title>
+      <link>https://hellmuth-soda.de/news/science/immunzellen-greifen-das-tau-hirn-an/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/immunzellen-greifen-das-tau-hirn-an/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:12:48 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Neurodegeneration bei Tauopathien ist nicht nur Zerfall im Kopf, sondern ein Angriff von außen.</description>
+    </item>
+    <item>
+      <title>Die Myelinscheide verrät das alternde Gehirn</title>
+      <link>https://hellmuth-soda.de/news/science/die-myelinscheide-verrat-das-alternde-gehirn/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/die-myelinscheide-verrat-das-alternde-gehirn/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:12:35 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Kognitiver Abbau im Alter beginnt nicht an den Nervenzellen, sondern an den Zellen, die sie umhüllen.</description>
+    </item>
+    <item>
+      <title>Depression, im Gewebe lesbar</title>
+      <link>https://hellmuth-soda.de/news/science/depression-im-gewebe-lesbar/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-im-gewebe-lesbar/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:12:15 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Nature-Medicine-Arbeit verortet Major Depression in messbaren Veränderungen menschlicher Hirnzellen.</description>
+    </item>
     <item>
       <title>Ketamin dämpft Immunentzündung bei Depression im Reagenzglas</title>
       <link>https://hellmuth-soda.de/news/science/ketamin-dampft-immunentzundung-bei-depression-im-reagenzglas/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sun, 28 Jun 2026 23:34:44 GMT</pubDate>
       <category>Forschung</category>
       <description>Eine Übersichtsarbeit in Frontiers in Psychiatry verknüpft steigende THC-Gehalte mit der psychiatrischen Last in europäischen Versorgungssystemen.</description>
-    </item>
-    <item>
-      <title>Alkohol schreibt ins Chromatin, je nach Geschlecht verschieden</title>
-      <link>https://hellmuth-soda.de/news/science/alkohol-schreibt-ins-chromatin-je-nach-geschlecht-verschieden/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alkohol-schreibt-ins-chromatin-je-nach-geschlecht-verschieden/</guid>
-      <pubDate>Sun, 28 Jun 2026 23:34:29 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Übersichtsarbeit zur Acetylierung im Gehirn ordnet Alkoholwirkung dort ein, wo Pharmakologen sie lange nicht suchten.</description>
-    </item>
-    <item>
-      <title>Acetylcholin in der Amygdala hat einen Chef</title>
-      <link>https://hellmuth-soda.de/news/science/acetylcholin-in-der-amygdala-hat-einen-chef/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/acetylcholin-in-der-amygdala-hat-einen-chef/</guid>
-      <pubDate>Sat, 27 Jun 2026 23:36:15 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Mandelkerne entscheiden nicht selbst, wann ein Reiz Bedeutung bekommt; sie werden befehligt.</description>
-    </item>
-    <item>
-      <title>Wenn die Mikroglia altert, schweigt das Neuron</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-die-mikroglia-altert-schweigt-das-neuron/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-die-mikroglia-altert-schweigt-das-neuron/</guid>
-      <pubDate>Sat, 27 Jun 2026 23:36:02 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine gestresste Energieantwort in menschlichen Mikroglia kappt die Kommunikation mit Nervenzellen und treibt die Hirn-Immunzellen in Seneszenz.</description>
     </item>
   </channel>
 </rss>
