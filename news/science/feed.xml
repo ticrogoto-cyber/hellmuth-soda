@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 04 Sep 2026 00:12:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:14:08 GMT</lastBuildDate>
+    <item>
+      <title>TMS wirkt bei Depression auch, wenn nebenbei getrunken wird</title>
+      <link>https://hellmuth-soda.de/news/science/tms-wirkt-bei-depression-auch-wenn-nebenbei-getrunken-wird/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/tms-wirkt-bei-depression-auch-wenn-nebenbei-getrunken-wird/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:14:07 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint zerlegt die Leitlinienempfehlung, transkranielle Magnetstimulation bei Substanzgebrauch zurückzuhalten.</description>
+    </item>
+    <item>
+      <title>Licht auf die Stirn gegen ADHS</title>
+      <link>https://hellmuth-soda.de/news/science/licht-auf-die-stirn-gegen-adhs/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/licht-auf-die-stirn-gegen-adhs/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:13:53 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem medRxiv testet, ob Nahinfrarotlicht durch die Schädeldecke die neuronale Balance bei ADHS verschiebt.</description>
+    </item>
+    <item>
+      <title>Zehn Prozent der Ersterkrankten haben eine andere Krankheit</title>
+      <link>https://hellmuth-soda.de/news/science/zehn-prozent-der-ersterkrankten-haben-eine-andere-krankheit/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zehn-prozent-der-ersterkrankten-haben-eine-andere-krankheit/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:13:31 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Auswertung aus Hongkong zeigt, wie oft eine erste Psychose in Wahrheit auf eine körperliche Ursache verweist.</description>
+    </item>
     <item>
       <title>Immunzellen greifen das Tau-Hirn an</title>
       <link>https://hellmuth-soda.de/news/science/immunzellen-greifen-das-tau-hirn-an/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Mon, 29 Jun 2026 23:23:11 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint will adoleszente Selbstverletzung an Hirnstromsignaturen erkennen, bevor jemand danach fragt.</description>
-    </item>
-    <item>
-      <title>Tiefe Hirnstimulation bekommt ein Messgerät</title>
-      <link>https://hellmuth-soda.de/news/science/tiefe-hirnstimulation-bekommt-ein-messgerat/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/tiefe-hirnstimulation-bekommt-ein-messgerat/</guid>
-      <pubDate>Mon, 29 Jun 2026 23:22:50 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Bei therapieresistenter Depression entscheidet bislang Versuch und Irrtum, wo die Elektrode optimal feuert; ein Preprint auf medRxiv schlägt vor, stattdessen das Echo des Gehirns selbst zu lesen.</description>
-    </item>
-    <item>
-      <title>Der vergessene Serotonin-Rezeptor</title>
-      <link>https://hellmuth-soda.de/news/science/der-vergessene-serotonin-rezeptor/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-vergessene-serotonin-rezeptor/</guid>
-      <pubDate>Sun, 28 Jun 2026 23:34:59 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Während Pharma jahrzehntelang auf 5-HT1A und 5-HT2A starrte, rückt nun der Rezeptor in den Blick, der Herzklappen vernarben lässt.</description>
-    </item>
-    <item>
-      <title>Europas Cannabis ist nicht mehr das von 1995</title>
-      <link>https://hellmuth-soda.de/news/science/europas-cannabis-ist-nicht-mehr-das-von-1995/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/europas-cannabis-ist-nicht-mehr-das-von-1995/</guid>
-      <pubDate>Sun, 28 Jun 2026 23:34:44 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Übersichtsarbeit in Frontiers in Psychiatry verknüpft steigende THC-Gehalte mit der psychiatrischen Last in europäischen Versorgungssystemen.</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-04T00:12:48.827Z",
+  "generated": "2026-09-05T00:14:08.208Z",
   "hellmuth": [
+    {
+      "title": "Dirty Coffee kommt in die Dose",
+      "date": "2026-09-05",
+      "created": "2026-09-05T00:13:09.969Z",
+      "slug": "dirty-coffee-kommt-in-die-dose",
+      "rubrik": "hellmuth",
+      "lead": "Ein japanisch-thailändischer Getränkekonzern übersetzt einen taiwanischen Café-Trend in industrielle Fließbandware.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/03/birdy-barista-creamy-latte-riding-the-dirty-coffee-wave/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/dirty-coffee-kommt-in-die-dose/"
+    },
+    {
+      "title": "Clean Label als Messe-Ritual",
+      "date": "2026-09-05",
+      "created": "2026-09-05T00:12:20.691Z",
+      "slug": "clean-label-als-messe-ritual",
+      "rubrik": "hellmuth",
+      "lead": "Der Konservierungsstoff-Hersteller reist mit einer Botschaft nach Bangkok, die längst zum Pflichtprogramm der Branche geworden ist.",
+      "source_name": "Food & Beverage Asia",
+      "source_url": "https://foodbeverageasia.com/prosur-showcases-clean-label-solutionsfor-asias-new-food-rules/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/clean-label-als-messe-ritual/"
+    },
+    {
+      "title": "Protein-Soda skaliert über Geschmack, nicht über Health Claims",
+      "date": "2026-09-05",
+      "created": "2026-09-05T00:11:33.390Z",
+      "slug": "protein-soda-skaliert-uber-geschmack-nicht-uber-health-claims",
+      "rubrik": "hellmuth",
+      "lead": "SkyPop erreicht acht Monate nach dem Rebranding von Don't Quit 10.000 US-Verkaufsstellen und begründet das Tempo mit sensorischer Priorität.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/skypops-rides-superior-taste-as-brand-hits-10000-doors-in-first-eight-months",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/protein-soda-skaliert-uber-geschmack-nicht-uber-health-claims/"
+    },
     {
       "title": "Mike Cessario dosenweise, jetzt mit Schaumwein",
       "date": "2026-09-04",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/sussstoff-allein-reicht-der-industrie-nicht-mehr/"
-    },
-    {
-      "title": "Tealive und Dutch Lady füllen den Bubble-Tea-Hype in Tetra Pak",
-      "date": "2026-06-12",
-      "created": "2026-06-12T23:58:35.187Z",
-      "slug": "tealive-und-dutch-lady-fullen-den-bubble-tea-hype-in-tetra-pak",
-      "rubrik": "hellmuth",
-      "lead": "Was als Kassenschlange vor dem Tresen begann, landet jetzt im Kühlregal des Supermarkts.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/12/tealive-and-dutch-lady-unveil-new-rtd-dairy-milk-teas/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/tealive-und-dutch-lady-fullen-den-bubble-tea-hype-in-tetra-pak/"
-    },
-    {
-      "title": "Ooso Sparkling Tea, dritte Sorte",
-      "date": "2026-06-12",
-      "created": "2026-06-12T23:56:57.534Z",
-      "slug": "ooso-sparkling-tea-dritte-sorte",
-      "rubrik": "hellmuth",
-      "lead": "Der Premium-Tee ohne Alkohol verlässt die Nische der frommen Absicht und wird zur eigenen Kategorie.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/review-ooso-sparkling-tea-impresses-again",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/ooso-sparkling-tea-dritte-sorte/"
-    },
-    {
-      "title": "Klarheit schlägt Story",
-      "date": "2026-06-12",
-      "created": "2026-06-12T23:56:42.565Z",
-      "slug": "klarheit-schlagt-story",
-      "rubrik": "hellmuth",
-      "lead": "Auf der BevNET Live NYC 2026 einigten sich Gründer, Händler und Investoren auf eine gemeinsame Diagnose des Getränkemarktes.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/taste-radio-a-live-take-in-a-crowded-market-clarity-wins",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/klarheit-schlagt-story/"
     }
   ],
   "science": [
+    {
+      "title": "TMS wirkt bei Depression auch, wenn nebenbei getrunken wird",
+      "date": "2026-09-05",
+      "created": "2026-09-05T00:14:07.824Z",
+      "slug": "tms-wirkt-bei-depression-auch-wenn-nebenbei-getrunken-wird",
+      "rubrik": "science",
+      "lead": "Ein Preprint zerlegt die Leitlinienempfehlung, transkranielle Magnetstimulation bei Substanzgebrauch zurückzuhalten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361949v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/tms-wirkt-bei-depression-auch-wenn-nebenbei-getrunken-wird/"
+    },
+    {
+      "title": "Licht auf die Stirn gegen ADHS",
+      "date": "2026-09-05",
+      "created": "2026-09-05T00:13:53.464Z",
+      "slug": "licht-auf-die-stirn-gegen-adhs",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem medRxiv testet, ob Nahinfrarotlicht durch die Schädeldecke die neuronale Balance bei ADHS verschiebt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361884v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/licht-auf-die-stirn-gegen-adhs/"
+    },
+    {
+      "title": "Zehn Prozent der Ersterkrankten haben eine andere Krankheit",
+      "date": "2026-09-05",
+      "created": "2026-09-05T00:13:31.842Z",
+      "slug": "zehn-prozent-der-ersterkrankten-haben-eine-andere-krankheit",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Auswertung aus Hongkong zeigt, wie oft eine erste Psychose in Wahrheit auf eine körperliche Ursache verweist.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.02.26362044v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zehn-prozent-der-ersterkrankten-haben-eine-andere-krankheit/"
+    },
     {
       "title": "Immunzellen greifen das Tau-Hirn an",
       "date": "2026-09-04",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/selbstverletzung-im-eeg/"
-    },
-    {
-      "title": "Tiefe Hirnstimulation bekommt ein Messgerät",
-      "date": "2026-06-29",
-      "created": "2026-06-29T23:22:50.243Z",
-      "slug": "tiefe-hirnstimulation-bekommt-ein-messgerat",
-      "rubrik": "science",
-      "lead": "Bei therapieresistenter Depression entscheidet bislang Versuch und Irrtum, wo die Elektrode optimal feuert; ein Preprint auf medRxiv schlägt vor, stattdessen das Echo des Gehirns selbst zu lesen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356607v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/tiefe-hirnstimulation-bekommt-ein-messgerat/"
-    },
-    {
-      "title": "Der vergessene Serotonin-Rezeptor",
-      "date": "2026-06-28",
-      "created": "2026-06-28T23:34:59.375Z",
-      "slug": "der-vergessene-serotonin-rezeptor",
-      "rubrik": "science",
-      "lead": "Während Pharma jahrzehntelang auf 5-HT1A und 5-HT2A starrte, rückt nun der Rezeptor in den Blick, der Herzklappen vernarben lässt.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1002/cpt.70344",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-vergessene-serotonin-rezeptor/"
-    },
-    {
-      "title": "Europas Cannabis ist nicht mehr das von 1995",
-      "date": "2026-06-28",
-      "created": "2026-06-28T23:34:44.737Z",
-      "slug": "europas-cannabis-ist-nicht-mehr-das-von-1995",
-      "rubrik": "science",
-      "lead": "Eine Übersichtsarbeit in Frontiers in Psychiatry verknüpft steigende THC-Gehalte mit der psychiatrischen Last in europäischen Versorgungssystemen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.3389/fpsyt.2026.1778831",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/europas-cannabis-ist-nicht-mehr-das-von-1995/"
     }
   ]
 }
