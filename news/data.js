@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-05T00:14:08.208Z",
+  "generated": "2026-09-06T00:04:57.840Z",
   "hellmuth": [
+    {
+      "title": "Junge Deutsche trinken weniger, und die Industrie weiß es längst",
+      "date": "2026-09-06",
+      "created": "2026-09-06T00:04:02.238Z",
+      "slug": "junge-deutsche-trinken-weniger-und-die-industrie-weiss-es-langst",
+      "rubrik": "hellmuth",
+      "lead": "Der Rückzug der Jugend vom Alkohol ist keine Momentaufnahme mehr, sondern eine Kurve.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/bioeg-studie-weniger-junge-menschen-konsumieren-alkohol/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/junge-deutsche-trinken-weniger-und-die-industrie-weiss-es-langst/"
+    },
+    {
+      "title": "Beautea verlässt den Becher",
+      "date": "2026-09-06",
+      "created": "2026-09-06T00:00:01.349Z",
+      "slug": "beautea-verlasst-den-becher",
+      "rubrik": "hellmuth",
+      "lead": "Eine Teekette aus dem Foodservice packt ihre Blätter in Tüten und tritt damit in ein anderes Geschäft ein.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/05/beautea-extends-foodservice-heritage-into-packaged-retail-through-premium-whole-tea-leaves-and-grab-signatures-collaboration/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/beautea-verlasst-den-becher/"
+    },
+    {
+      "title": "Fuze Tea streicht in Singapur den Zucker",
+      "date": "2026-09-05",
+      "created": "2026-09-05T23:59:42.963Z",
+      "slug": "fuze-tea-streicht-in-singapur-den-zucker",
+      "rubrik": "hellmuth",
+      "lead": "Coca-Cola bringt eine zuckerfreie Jasmin-Honig-Variante von Fuze Tea auf den Stadtstaat-Markt und reagiert damit auf eine regulatorisch erzwungene Marktverschiebung.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/05/fuze-tea-goes-sugar-free-with-jasmine-honey-rtd-tea-in-singapore/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/fuze-tea-streicht-in-singapur-den-zucker/"
+    },
     {
       "title": "Dirty Coffee kommt in die Dose",
       "date": "2026-09-05",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/funktionsgetranke-2026-der-geschmack-als-alibi/"
-    },
-    {
-      "title": "Goldberg setzt auf Lavendel",
-      "date": "2026-06-13",
-      "created": "2026-06-13T23:40:05.160Z",
-      "slug": "goldberg-setzt-auf-lavendel",
-      "rubrik": "hellmuth",
-      "lead": "Der Premium-Mixer-Markt sucht nach Differenzierung jenseits von Tonic und Ginger, und florale Noten sollen die Lücke schließen.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/fuer-moderne-aperitivo-drinks-goldberg-launcht-die-limited-edition-lavender/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/goldberg-setzt-auf-lavendel/"
-    },
-    {
-      "title": "Fuze Tea tanzt nüchtern",
-      "date": "2026-06-13",
-      "created": "2026-06-13T23:36:29.913Z",
-      "slug": "fuze-tea-tanzt-nuchtern",
-      "rubrik": "hellmuth",
-      "lead": "Coca-Colas RTD-Teemarke veranstaltet in Singapur und Malaysia alkoholfreie Tagesraves, um die Generation Z zu erreichen.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/13/fuze-tea-new-campaign-involves-tea-raves-and-pack-update-to-win-over-gen-z/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/fuze-tea-tanzt-nuchtern/"
-    },
-    {
-      "title": "Süßstoff allein reicht der Industrie nicht mehr",
-      "date": "2026-06-13",
-      "created": "2026-06-13T23:35:52.814Z",
-      "slug": "sussstoff-allein-reicht-der-industrie-nicht-mehr",
-      "rubrik": "hellmuth",
-      "lead": "Zucker raus heißt nicht Geschmack rein, und die Getränkebranche hat das verstanden.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/News/Promotional-features/Low-and-no-sugar-soft-drinks-with-FMPs-for-improved-sweetness-and-mouthfeel/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/sussstoff-allein-reicht-der-industrie-nicht-mehr/"
     }
   ],
   "science": [
+    {
+      "title": "Koffein wirkt anders im alternden Hirn",
+      "date": "2026-09-06",
+      "created": "2026-09-06T00:04:57.652Z",
+      "slug": "koffein-wirkt-anders-im-alternden-hirn",
+      "rubrik": "science",
+      "lead": "Die gleiche Tasse trifft mit fünfzig ein anderes Tier als mit zwanzig.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.31083/JIN46140",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/koffein-wirkt-anders-im-alternden-hirn/"
+    },
+    {
+      "title": "Bipolare Jugendliche und die zweite Diagnose",
+      "date": "2026-09-06",
+      "created": "2026-09-06T00:04:46.068Z",
+      "slug": "bipolare-jugendliche-und-die-zweite-diagnose",
+      "rubrik": "science",
+      "lead": "Ein Übersichtsartikel in den Child and Adolescent Psychiatric Clinics of North America ordnet Substanzstörungen bei bipolaren Jugendlichen neu.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.chc.2026.05.007",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/bipolare-jugendliche-und-die-zweite-diagnose/"
+    },
+    {
+      "title": "Cannabigerol gegen psychotomimetische Effekte",
+      "date": "2026-09-06",
+      "created": "2026-09-06T00:04:24.416Z",
+      "slug": "cannabigerol-gegen-psychotomimetische-effekte",
+      "rubrik": "science",
+      "lead": "Ein Nebencannabinoid rückt ins Zentrum präklinischer Antipsychotika-Forschung.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.pnpbp.2026.111903",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabigerol-gegen-psychotomimetische-effekte/"
+    },
     {
       "title": "TMS wirkt bei Depression auch, wenn nebenbei getrunken wird",
       "date": "2026-09-05",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat/"
-    },
-    {
-      "title": "Ein Ionenkanal als Verdächtiger für das Arbeitsgedächtnis bei Schizophrenie",
-      "date": "2026-06-30",
-      "created": "2026-06-30T23:44:30.875Z",
-      "slug": "ein-ionenkanal-als-verdachtiger-fur-das-arbeitsgedachtnis-bei-schizophrenie",
-      "rubrik": "science",
-      "lead": "Ein Preprint legt nahe, dass spezifische Ionenkanal-Gene das Arbeitsgedächtnisdefizit bei Schizophrenie mechanistisch erklären könnten.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.24.26356367v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-ionenkanal-als-verdachtiger-fur-das-arbeitsgedachtnis-bei-schizophrenie/"
-    },
-    {
-      "title": "Kognition als Struktur schlägt Kognition als Punktzahl",
-      "date": "2026-06-29",
-      "created": "2026-06-29T23:23:28.610Z",
-      "slug": "kognition-als-struktur-schlagt-kognition-als-punktzahl",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der COBRE-Kohorte deutet an, dass die Architektur kognitiver Defizite bei Schizophrenie mehr über Alltagsfunktion verrät als die Summe ihrer Testwerte.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356524v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/kognition-als-struktur-schlagt-kognition-als-punktzahl/"
-    },
-    {
-      "title": "Selbstverletzung im EEG",
-      "date": "2026-06-29",
-      "created": "2026-06-29T23:23:11.851Z",
-      "slug": "selbstverletzung-im-eeg",
-      "rubrik": "science",
-      "lead": "Ein Preprint will adoleszente Selbstverletzung an Hirnstromsignaturen erkennen, bevor jemand danach fragt.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.23.26356351v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/selbstverletzung-im-eeg/"
     }
   ]
 }

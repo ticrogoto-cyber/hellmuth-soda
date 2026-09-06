@@ -1681,6 +1681,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/junge-deutsche-trinken-weniger-und-die-industrie-weiss-es-langst/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/beautea-verlasst-den-becher/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/fuze-tea-streicht-in-singapur-den-zucker/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/dirty-coffee-kommt-in-die-dose/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -2863,20 +2881,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/goldberg-setzt-auf-lavendel/</loc>
-    <lastmod>2026-06-13</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/koffein-wirkt-anders-im-alternden-hirn/</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/fuze-tea-tanzt-nuchtern/</loc>
-    <lastmod>2026-06-13</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/bipolare-jugendliche-und-die-zweite-diagnose/</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/sussstoff-allein-reicht-der-industrie-nicht-mehr/</loc>
-    <lastmod>2026-06-13</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/cannabigerol-gegen-psychotomimetische-effekte/</loc>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4059,24 +4077,6 @@
   <url>
     <loc>https://hellmuth-soda.de/news/science/wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat/</loc>
     <lastmod>2026-06-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/ein-ionenkanal-als-verdachtiger-fur-das-arbeitsgedachtnis-bei-schizophrenie/</loc>
-    <lastmod>2026-06-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/kognition-als-struktur-schlagt-kognition-als-punktzahl/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/selbstverletzung-im-eeg/</loc>
-    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
