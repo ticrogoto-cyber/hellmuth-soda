@@ -72337,6 +72337,894 @@
       "date": "2026-09-05",
       "score": 0,
       "dropped": "low-relevance"
+    },
+    "90addb96a3d5235949bc4eb78cb32af597ecfb85fcd790756c6dc2d41191b720": {
+      "url": "https://www.presseportal.de/blaulicht/pm/131675/6346171",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c21da7b49a1faba798abe2a77ab10f939e2c7241c87f10151eda0bf93e304204": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126719/6346170",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c7c042f588d2d571e9a6afa98540e79095a82a87daec1d6813578816f51ad5d4": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126719/6346169",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "83a7c5a4e397dcdf9220cb07c0d557f311c8c71a5dc3f2f0ef28b99741d277cc": {
+      "url": "https://www.presseportal.de/blaulicht/pm/65852/6346168",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a15c8ec1630904eb229f2dceb69921504fc26ad207c30536d283e4c88510f5c5": {
+      "url": "https://www.presseportal.de/blaulicht/pm/56518/6346167",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "36ed8006eb49ba23df3b65afb23f720839b993513a99472a5daa49ec4f2036fa": {
+      "url": "https://www.presseportal.de/blaulicht/pm/12415/6346166",
+      "date": "2026-09-05",
+      "score": 3,
+      "dropped": "low-relevance"
+    },
+    "f4308e3d46fb2bfd52bc9ccd48bcffa742807fe61e3ed89f14a61a1b750b37a4": {
+      "url": "https://www.presseportal.de/blaulicht/pm/110977/6346165",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3f299d60b82084ba45afb94c38bf4d2b5473eb79981653dab60351edd0c7cdad": {
+      "url": "https://www.presseportal.de/blaulicht/pm/181741/6346164",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c48f8d346ecfa51d1faba80765343ef0b820ea2b38cbefbdd5b8f755b9f4eb17": {
+      "url": "https://www.presseportal.de/blaulicht/pm/11815/6346163",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7c65a7f8318605d4a91ad7616c79cefba86be883630830c4a90a721d8709196c": {
+      "url": "https://www.presseportal.de/blaulicht/pm/104233/6346162",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "88f989fbdd7d4213e2b7dae4d44cd80b6575a3dd1fb1808efc28b345186c836e": {
+      "url": "https://www.presseportal.de/blaulicht/pm/14915/6346161",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "5dbb23d3df91323b83fc783d371d4fa3ce86d9efefdf21c751ac585d3d3d6b46": {
+      "url": "https://www.presseportal.de/blaulicht/pm/135052/6346160",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "614375038a1614a5b932061212969ab4e798354dd2ed433c38e149f0d60c9b0c": {
+      "url": "https://www.presseportal.de/blaulicht/pm/65849/6346158",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3dbb39690492f2d27279104b7333ae13d6c30ac101075939d630df3c2a5954f5": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126719/6346157",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c8c2a3f5a6dbd88ab3e7e22348a684bf8f3c02fa3f6770303a2a661bdee8ac8e": {
+      "url": "https://www.presseportal.de/blaulicht/pm/51056/6346156",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "47b5b22b23838725abe288a2a4e2344f5a20a4449c74bf4791f422036e0eb55e": {
+      "url": "https://www.tagesschau.de/wissen/isar-aerospace-rakete-102.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "94e3ce8628219fad670ec251de9fd4161e140178b0ec05449ed0a8ab76a74bc6": {
+      "url": "https://www.tagesschau.de/ausland/europa/witkoff-kushner-treffen-putin-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "13331c04c8b8000dbb7c8af59737f9047b3d3b2202bb0dc6e48808dcdd8ab57e": {
+      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-schulden-haushalt-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b347c617211506da62767181b47fb29c0a77a09a516b496a920fa019136e380a": {
+      "url": "https://www.tagesschau.de/inland/gesellschaft/fahndung-sabotage-stromnetz-102.html",
+      "date": "2026-09-05",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "968e2c021d7c6fbb653d33367c3b0e94da0adf337d2669ec9b9e003c5d8112b8": {
+      "url": "https://www.tagesschau.de/inland/faq-hackerangriff-berlin-folgen-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d62b9042d84aa8f50a12d8831e79d15432b20a026ae0ba0c37fd34bc605116e2": {
+      "url": "https://www.tagesschau.de/ausland/asien/usa-iran-angriffe-tanker-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "be263bad33ba56ae884c27b6164dbd34affa64aeb3f2b2f0b7ed0fa16a46f1b8": {
+      "url": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-sachsen-anhalt-koalition-optionen-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3278d09431fc0ec9e4c2ce94cbe43b5e8f38142be58f7145b08b170387a52ce2": {
+      "url": "https://www.tagesschau.de/ausland/europa/blockade-hafen-dover-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7b2c42f7ec54c43e211679bc4da7a007928bdc06e1c3a44c871caa8b57a5e228": {
+      "url": "https://www.tagesschau.de/inland/innenpolitik/wahlen-osten-stimmung-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "18ce2e08f2247b9901035dd37adb40362bb638727c7d60b1a46ad8ee847c9ca4": {
+      "url": "https://www.tagesschau.de/kultur/muppet-show-geburtstag-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "99d3e297b3c4564ad64775e1a6fffd5a2a1843b347d94965d342b087becd9f1d": {
+      "url": "https://www.tagesschau.de/ausland/amerika/kolumbien-gewalt-104.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "697adedad43d5ddcb5f7bd80911b9f2b4db90202e75e6cb2f4427847f6969e8f": {
+      "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-polizeieinsatz-schuesse-auf-tuerkische-bar-in-koeln-100.html",
+      "date": "2026-09-05",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "dcc8d8bdb531ed94bf702de8d10060d8f39b865ad2fea388460e0f6055105671": {
+      "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-witkoff-kushner-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8bf5a44a33e89660d4ff378bd403cf0c4e589bff16c05dff71f4286f170b45ef": {
+      "url": "https://www.tagesschau.de/ausland/asien/nepal-china-sturzflut-ueberlebende-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "223f6c9d24411c386e7b16e57279088573cb34802e6ed703e534ab5d3a349732": {
+      "url": "https://www.tagesschau.de/kultur/tod-michael-mendl-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bd0e2872616052ebe9a8943202d1d061ef911ec3208c5f7edcfa1dd8dc6f4b03": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710758.php",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a216f84be35158c21e65c7e527ff353df7b4d612db4883fab3a3ae3faa284e19": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710755.php",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "be4aeeac8d7f2c9d3373f656010ab735bac918aebec6c9ba1284496bb39325ab": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710753.php",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "22d78a85688d5e4f72d2d3fac5ef2735a9f1ef9b9da009fd25f3af6d0457bbd0": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710745.php",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "4c8fe5b31c0fa07dfb2589d9a64e7fd7cef0393e0c326094357d10c3510b526d": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710743.php",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "a9521c6142fae4853a695b0bd19fa8a0ef3d467b318bfd413e30c80597328fa8": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710741.php",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "5a3f24f424dad699f31aa2bed234d0e45f30868835360b43af77a13f4f57a603": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1710739.php",
+      "date": "2026-09-05",
+      "score": 3,
+      "dropped": "low-relevance"
+    },
+    "5764cb7c8476359abca8b46683e745c96f62930c45555562d3b980739192dc7c": {
+      "url": "https://polizei.brandenburg.de/fahndung/polizei-sucht-tatverdaechtigen-nach-angr/5711943",
+      "date": "2026-09-05",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "66e70f55e36e2ec547e987309a08663848b69a23b1e6f8e58e3db193ed0fa9a6": {
+      "url": "https://www.lto.de/karriere/im-job/stories/detail/victor-justus-messerschmidt-wiener-saengerknabe-anwalt-kunst-art-advisory",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "39292243034e374ece3e62fbd52f38264ef3000ede793a5b63fc4c7cdc1c030e": {
+      "url": "https://www.lto.de/karriere/stellenmarkt/job/12043-volljurist-in-im-personalmanagement-der-technischen-universitaet-muenchen-tum-muenchen",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0841aca512c597c92696a67d9ceb1052a205e2a98d79584783340f33b7e85c13": {
+      "url": "https://www.spiegel.de/panorama/justiz/angriff-auf-stromversorgung-das-ist-der-mutmassliche-strom-saboteur-a-61e8aa5d-0def-437a-95fb-13ed996af7bc#ref=rss",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "4b5fcedf8c709c5058f048e7f4df93926ebee77213805f9bd3a6c657914253a6": {
+      "url": "https://www.spiegel.de/panorama/justiz/sabotageaktionen-gegen-stromnetze-polizei-fahndet-nach-einzeltaeter-a-0d414ffd-e32a-4124-83c1-6afb2cd0aa5d#ref=rss",
+      "date": "2026-09-05",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "d5f9fbe84e9c685f434a2557707e7745b163af82c5a9537e2e59b47327548503": {
+      "url": "https://www.spiegel.de/panorama/justiz/koeln-schuesse-auf-bar-in-ostheim-wenige-tage-nach-aehnlichem-vorfall-a-32f52e3c-f0b6-4cb5-91df-003aafc2bb91#ref=rss",
+      "date": "2026-09-05",
+      "score": 6,
+      "dropped": "low-relevance"
+    },
+    "cc228d96602d8cd3f2f2d94dda306a14682e70151487ab54217675bdce7a764a": {
+      "url": "https://www.zdfheute.de/politik/deutschland/hacker-berlin-cybersicherheit-atug-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2a464c2875cf6f6a00c855550f7d5bac5041c2a38320b9e733e29d88cccc5bed": {
+      "url": "https://www.zdfheute.de/politik/deutschland/strategie-kanzler-brandmauer-afd-sachsen-anhalt-wahl-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8e0e8de8af85d94a7997b5d96f44daa28f0cf242ba8827b7c1f63671ea1e74fc": {
+      "url": "https://www.zdfheute.de/panorama/prominente/michael-mendl-tot-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "22b5d55e860992c4b1bc456da118b59a95b61f7c4a236088c08fbe42e27da7dd": {
+      "url": "https://www.zdfheute.de/video/zdfheute-xpress/wikinger-silberschatz-daenemark-video-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2d6107dcf74511447ced39c17cd9790a8e4858c11c006379b6270d81313515b5": {
+      "url": "https://www.zdfheute.de/video/laenderspiegel/hammer-der-woche-aus-ettlingen-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "799e334dc91f7c328b4c93a3bcbbf9759a675c4dbbd127bcf77c91833e8cfafb": {
+      "url": "https://www.zdfheute.de/video/heute-nachrichten/ahrtal-erinnerung-an-flutkatastrophe-video-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c2071cb268dea32a4a1fb73717878f29d5685f735d4bf1dcd8a26ca358c5d4f8": {
+      "url": "https://www.zdfheute.de/video/laenderspiegel/reise-zu-berlins-industriedenkmaelern-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a97050e2aa550d297d5581f764d5791b6960b8f1216a95ca4d44ff70dfc99156": {
+      "url": "https://www.zdfheute.de/video/heute-in-europa/fahrerlose-taxis-starten-in-london-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f90a2da4cf5bc7fcad344f6ac6e20707808a028c10e826e55be67feb110f88d4": {
+      "url": "https://www.zdfheute.de/video/heute-in-europa/heissluftballonfestival-in-tschechien-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "641a5c01f4f21cbe720eb751486df4eebc804fad0920c5fa234c52580a31129b": {
+      "url": "https://www.zdfheute.de/video/heute-in-europa/perpignan-foto-festival-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "908b43d703151777dc9cf709ff779e795892230f01daaecff2a7d8def09b8fba": {
+      "url": "https://www.zdfheute.de/politik/ausland/landwirtschaft-versorgung-getreide-gemuese-ukraine-krieg-russland-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ac649ea23fdd5125b5470656db142db75cda64f074be2e1d68bb8ae489bc47ad": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/kalmare-statt-krabben-tintenfischboom-in-der-nordsee,tintenfische-100.html",
+      "date": "2026-09-05",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "01bf6cfed5b1d3b952ac2644b4ff0d8b8584228a5f91386682da7a8e5ef7e4bd": {
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/sicher-bei-sturm-und-flut-deichschauen-an-der-nordsee-starten,deichschauen-nordsee-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "52d0ad06d1f7ab073b926904b582dfd207d29f780abd4278a33f3e8784afce52": {
+      "url": "https://www.ndr.de/nachrichten/hamburg/rotwein-vom-stintfang-in-hamburg-eine-knappe-nummer,weinlese-hamburg-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4e5d707a3f31ae7b62bdbdbb2a37b40dfad739d35143c28ca51b6620d780c8dd": {
+      "url": "https://www.ndr.de/fernsehen/sendungen/nordmagazin/vor-landtagswahl-ganz-deutschland-schaut-auf-sachsen-anhalt,nordmagazin-13810.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "426ada87cb347f786074fe3a7a2a9a3263b7fb0deeb4caca8e095ecaae8a0dbf": {
+      "url": "https://www.tagesschau.de/inland/bsi-hackerangriff-berlin-verwaltung-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "17ff23112d259f4746cbf1fbbb7a1c7e3b62764b92af2d0351447e9cde4eda83": {
+      "url": "https://www.ndr.de/nachrichten/info/landtagswahl-in-mv-die-lage-der-fdp,audio-3459670.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d41a419f422dcd24eca3cc70a744da4ce0dffe571ea29ce7cec49ce188969edf": {
+      "url": "https://www.ndr.de/nachrichten/info/sendungen/mikado/mikado_am_morgen/kindernachrichten-bevoelkerungszahlen-in-deutschland,kindernachrichtenndrinfo124.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d210d3c46ec0d97e40c53460eaa247ab4893839a75bbb1efc2573d3d6f7cae9e": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/kanzler-merz-in-hannover-deutschland-muss-industrieland-bleiben,merz-1518.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "22a53e530842318c69af9817d42e1bc31306c86b28edd1b9299e059ccc50c076": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/autofahrer-demolieren-auto-in-heidelberg-wegen-hupens-100.html",
+      "date": "2026-09-06",
+      "score": 3,
+      "dropped": "low-relevance"
+    },
+    "e4c7fd4f3daa5d89ddcd3385eefc49969a62cede1da9ff34ae00ec1873173414": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/finale-festival-des-deutschen-films-preisverleihung-in-ludwigshafen-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "22ab4ce5af7016573e827b08208941ffa48b941e88f494858f80d97e8de636ff": {
+      "url": "https://www.swr.de/sport/fussball/dfb-pokal-auslosung-2-runde-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "507ca69f3b9b0e49700d98fc4b259a279a9a0b2c86cba1ff6d807373ff65e9b4": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/protest-in-brautkleidern-gegen-gewalt-an-frauen-femizide-stoppen-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fc4662fa623888542794366bb6db155e89b1dea90b79790e080a36c45b3aa000": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/megamarsch-100-kilometer-wandern-in-24-stunden-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c540d2d36bea3be97179f2cd2ddaf8430f3db664cace22716dfc9c9d5c6ca53f": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/ehrenamtliche-regionalbahn-bodensee-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "042cf1a15a2b9924b1202e99a4a408916ad072dd36bbb9a5c3bfe755623415e4": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/zursachebw-immer-mehr-weinberge-ohne-reben-warum-viele-winzer-aufgeben-und-andere-nicht-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d2525c702a29fd3fab5064c2f7a1f3782df3992fef0c541d98c50b6385dd5002": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/fahrgastschiff-prallt-gegen-moselbruecke-kapitaen-schwer-verletzt-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c76175dd01b327d073bca3181f4a6456e1c1f4b59040b13b01fdc511b6044d76": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/freiwillige-feuerwehr-zwischen-familie-job-und-notruf-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2e24fc82bc295f3b66a553a842521fa975223f8f08c55594ad1e2d6fe08f3fb0": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/abschlussveranstaltung-gedenkstelen-an-der-ahr-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "589976386e4a859bb1729e1c4af7bbd507356634a23c8822629ff6d51844c98c": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/mit-dem-klapprad-auf-die-kalmit-radrennen-kultrennen-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bb3a0da56bf9aaba17fca971b9f669f36c53213a566dde4d6129042a452075e0": {
+      "url": "https://www.swr.de/swraktuell-radio/der-osten-tickt-anders-wie-denn-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f2de5577f746a9e7ba553490750858785fc95fb7103b0a9cbf7e8f79b2a23ec2": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/berlin-brandenburg-re2-einschraenkungen-zugverkehr-sev-cottbus.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bcfe761711b7d5d348f74143b4f32dfbc3716d10db7f6e7ca59b33d48d1b83a0": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/fliegenfischer-verein-brandenburger-naturschutzpreis-fario-umwelt.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6841b27d31463f9792bf39770dffdb9d024bf6b1116f5510e14fc3318e08aebb": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/unfall-verkehr-lichterfelde.html",
+      "date": "2026-09-06",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "fbaf839965ce3b3ac8e815e3e45f60426e4c7b315a54e53fcc9ab75de9747624": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/interview-frauke-brosius-gersdorf-bundesverfassungsgericht-buch.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bb74baecc9714d335df4a8478c840e5d95f4c65c85fd5b64f3db7fc84b948c10": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Ukraine-Krieg-Putin-beginnt-Gespraeche-mit-US-Unterhaendlern",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "853533b99bbee7bd868f860331876b458acfff6605a043ffbff40c38e80bc550": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Fahndungsaufruf-zu-Sabotage-am-Stromnetz",
+      "date": "2026-09-06",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "ffbe18f38bb462d2c6051dc2b0d94d269fedc15146a680e2e9b32086b95daab1": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Tausende-bei-Demokratiefesten-in-Sachsen-Anhalt",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "67f4e5fde1f5972dac4875eeac7af0a407f1fb35e4e5e61eeff161fe1a9033f4": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Hackerangriff-Auch-Bundesdaten-oeffentlich",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bd8244dc530c95b863ff03b2ac8b0ed7375b4edade5d13d9beeff2da253ac2e2": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Rund-52500-Antraege-fuer-E-Auto-Praemie-bewilligt",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "72f28242e8bc07aeebb6760ae50a9eb942b0f4554f2e5a5a1e12d561bcfe4237": {
+      "url": "https://www1.wdr.de/nrw/koeln/rheinmetall-entwaffnen-protestcamp-ruestung-krieg-demonstration-koeln-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "70e945da0b89d5e0a56fd3f2244d1229f9610e983546582da23fd1b2077ca299": {
+      "url": "https://www1.wdr.de/sport/schalke/nachdreher-schalke-bayern-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d50d13e5dc8f47b08dd93906b2c787cea533b792efe457484ec019da49dea9a7": {
+      "url": "https://www1.wdr.de/nrw/koeln/schuesse-koeln-bar-100.html",
+      "date": "2026-09-06",
+      "score": 3,
+      "dropped": "low-relevance"
+    },
+    "cd80e8c0596b0f46e46f36b0dc94d129ac6fff14e04fdcb166902b3c058323f7": {
+      "url": "https://www1.wdr.de/nrw/dortmund/kraemer-demo-fans-dortmund-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f726959fbf812448aa77ea17c4d6abb21d5a70b6c71a9cd26a355e76f0ac3d98": {
+      "url": "https://www1.wdr.de/politik/wahl-sachsen-anhalt-joerg-schoenenborn-interview-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "17ff30221487091c1a193d9017a8644537151fb0c486e7c666f40eb560cf9bad": {
+      "url": "https://www1.wdr.de/sport/handball/bergischer-hc-rhein-neckar-loewen-bericht-handball-bundesliga-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a3c227cdaec372ecbd99ac5eb11e1f43462bacabd15419682d0cb9c8b27f02a1": {
+      "url": "https://www1.wdr.de/nrw/dortmund/massenschlaegerei-dortmund-verletzte-messerangriff-100.html",
+      "date": "2026-09-06",
+      "score": 5,
+      "dropped": "low-relevance"
+    },
+    "4b6ed0790293381368563387f0dd18b7b47757c5ffb6d9d62f4014f6f9a56dc4": {
+      "url": "https://www1.wdr.de/nrw/ruhrgebiet/gelsenkirchen/schalke-bayern-fan-pruegelei-verletzte-100.html",
+      "date": "2026-09-06",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "954c82dd61c17c60d0de56401895e87e0cacc21349c6d95dd55bfab437624552": {
+      "url": "https://www1.wdr.de/sport/mehr-sport/kabayel-guertel-in-bochum-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f9a7f53eec2a0a6da4b97d158c84a7359802691005e7e56cc552e3d9ff1a9705": {
+      "url": "https://www1.wdr.de/nrw/duesseldorf/duesseldorf-brand-unterbilk-feuerwehreinsatz-toter-100.html",
+      "date": "2026-09-06",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "e256845df25828ac13ae61d68f8a05f65a858d8e54b18622591e1f30f3c10a93": {
+      "url": "https://www1.wdr.de/sport/handball/frauen-cl-borussia-dortmund-team-esbjerg-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e91f423206788390acc035050a4d3325e19df7350fbf7fa63a5caba8200c56ab": {
+      "url": "https://www1.wdr.de/nrw/sabotage-umspannwerke-nrw-brandenburg-chronik-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c1edee115b718021f558ec1958e09e9a13c5b8b6e2e71afa219ac7f1dde38dc4": {
+      "url": "https://www1.wdr.de/nrw/sabotage-umspannwerke-ermittlungen-nrw-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9f4bb937de432b192d6dbbf9ccf108b0548d2d6b6567755188931d354a41efac": {
+      "url": "https://www.hessenschau.de/gesellschaft/waldbraende-wie-die-flugsicherung-in-langen-der-feuerwehr-aus-der-luft-hilft-v1,flugsicherung-braende-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "eee14111933ee649bde8f17ad7f4256b025e3c613173ca3a716b4f07501f91cc": {
+      "url": "https://www.hessenschau.de/sport/handball/mt-melsungen/simic-haelt-der-mt-melsungen-einen-punkt-in-gummersbach-fest-v1,gummersbach-melsungen-102.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "55e89282337a36befba14e254f0f9fece0f584999e5a0aae5624e588f40bb89d": {
+      "url": "https://www.hessenschau.de/sport/fussball/dfb-pokal-eintracht-frankfurt-reist-zum-hsv-die-lilien-nach-elversberg-v2,dfb-pokalauslosung-zweite-runde-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1b855bf11afad2b7147a2d41f313883232f95ec99283b3f2b5bde4f64f7e7555": {
+      "url": "https://www.hessenschau.de/panorama/wanderung-mit-familie-in-tirol-75-jaehrige-stuerzt-60-meter-in-den-tod-v1,alpen-wanderung-absturz-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c489ed1f825dab52f5e0471a7b1623062c6c8758f2266d4be117e20b67f9283a": {
+      "url": "https://www.hessenschau.de/kultur/fruechteteppich-in-huenfeld-wie-aus-kleinen-teilen-ein-grosses-meisterwerk-entsteht-v1,fruechteteppich-104.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "865c54ef8b74789851aa05959b78e88f957b1e18d9ebdfc0278a9e5e151ea1e1": {
+      "url": "https://www.hessenschau.de/panorama/neues-tierhaltungslogo-fuer-gaststaetten-geplant---kritik-aus-hessen-v1,tierlogo-gastronomie-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "103e8e8fe3dfeb71b977a54ba6b085834cd5f1e00567f4304ab339ef5a746892": {
+      "url": "https://www.hessenschau.de/panorama/sechs-verletzte-bei-unfall-in-seligenstadt---darunter-ein-kind-v1,unfall-seligenstadt-120.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "979c272f1da1e3dd61453ddf5655c7121488272683ae33a67234d8c2dc1d1c4d": {
+      "url": "https://www.hessenschau.de/panorama/verkehr-und-oepnv-umgeleitet-herrenloser-koffer-stoert-samstagsshopping-in-darmstadt-v1,darmstadt-koffer-102.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "638f56baf73caaa4cbde6c4e0d6f1b3b5ad6f63cf22e4aff29d2e758282e0ce1": {
+      "url": "https://www.hessenschau.de/kultur/halt-fuer-chronisch-kranke-kunst-gegen-das-unsichtbarwerden--v1,kuenstlerinnen-mit-mecfs-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4d0b0a9905584b009148f18a85f88849d293185ef3e2650eda735ab2cf550491": {
+      "url": "https://www.hessenschau.de/sport/fussball/darmstadt-98/vier-spiele-kein-sieg-lilien-fehlstart-ist-perfekt-v1,lilien-lautern-140.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "492312a59ab4d05163ffef5b048005f4d1dac8d0fc770e67fd4f29546dd47c9b": {
+      "url": "https://www.hessenschau.de/sport/fussball/regionalliga/regionalliga-hitziges-derby-zwischen-fsv-frankfurt-und-kickers-offenbach-endet-ohne-sieger-v1,regionalliga-fsv-ofc-102.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "480e547771d4ef1a1f905e19603228de2816bd3101375f380da6de96f11ee88f": {
+      "url": "https://www.hessenschau.de/politik/buergermeisterwahlen-in-fuenf-hessischen-kommunen-v1,buergermeisterwahlen-158.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b2091b097c06c9e4b9d846df53ecbcefd3a82eb5c745641a57de675f48a49bc9": {
+      "url": "https://www.hessenschau.de/freizeit/ausfluege-maerkte-feste-tipps-fuer-einen-schoenen-herbst-in-hessen-v1,herbst-feste-hessen-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8f6665d8a594ef149d9c30abdcc6d53299b5cd2c0440fd6950d9113f34a284de": {
+      "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-vor-dem-augsburg-spiel-der-prozess-hin-zum-huetter-fussball--v1,eintracht-vor-fca-100.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "48acf57aedbf6a9ec495c053b21c5c1347404e43ae82b721fb48ca949d3e82d4": {
+      "url": "https://www.hessenschau.de/sport/fussball/wehen-wiesbaden/svww-entfuehrt-punkt-aus-rostock---und-ist-tabellenletzter-v1,svww-rostock-112.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "05ebfd89a7d2d01bc3f1588148891e55b303b1e7836524f59591317478301a6a": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/rakete-von-isar-aerospace-zu-zweitem-testflug-abgehoben,VMciB3N",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "28abe8e1813714033069fe979800264e6ce6bc1e36cc4752ee4ba9f431b92598": {
+      "url": "https://www.br.de/nachrichten/bayern/isar-aerospace-startet-neuen-versuch-fuer-spectrum-testflug,VULZrNT",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "af5e101926adff0cac3fa81ddead7ed1c4df07913c2fe4df7acdedb3ffabc48c": {
+      "url": "https://www.br.de/nachrichten/sport/fussball-bundesliga-spielbericht-schalke-04-gegen-fc-bayern-muenchen-ueberraschendes-0-0,VUMyZkp",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "018bbfd9843d973db11c7af7fb01e22b770160c84422800c9528f8d6e8942056": {
+      "url": "https://www.br.de/nachrichten/sport/dfb-pokal-auslosung-2-runde-das-sind-die-gegner-von-fc-bayern-muenchen-fc-augsburg-1-fc-nuernberg,VUMKEll",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fb54dc8a75a6f4b70ee43d9cb1f9d2378d02fa337551a6d650f361d622e3261d": {
+      "url": "https://www.br.de/nachrichten/bayern/automassen-am-walchensee-helfen-schaerfere-abschleppregeln,VU8rAhh",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "436bf3d43b67f25e09395458ac28d76b0c1addd727ed7b97e12b0c4bcb336d88": {
+      "url": "https://www.br.de/nachrichten/bayern/eibsee-and-co-was-macht-der-overtourism-mit-bayern-br24-live-um-16-uhr,UuOjfNT",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "83d37983c8911f12e4628c3dd215a72bb4511cf26935f2c0bd7bb32c61495625": {
+      "url": "https://www.br.de/nachrichten/bayern/merz-an-russland-fest-entschlossen-uns-zu-verteidigen,VUML496",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "54d3e0c0deb913c2f9690bf2823aa90382bbe973044a9e81711254592e38c5e4": {
+      "url": "https://www.br.de/nachrichten/bayern/kreuzfahrtschiff-pumpt-wasser-diesel-gemisch-in-die-donau,VUMO6vH",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5d8aabc573f00591e9e1d23ebc3adf0b22e87270d0901804a4b63dc6f7ecef73": {
+      "url": "https://www.br.de/nachrichten/bayern/niedrigwasser-minister-will-donau-ausbau-experte-widerspricht,VS5eOMO",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ba5d8a885acb579582d6dd31a1dfd496df1f6b0a3dcff76002f024db4c68cd95": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/sabotageversuche-gegen-stromnetz-suche-nach-verdaechtigem,VUJblGy",
+      "date": "2026-09-06",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "14aa1e5fa8a7441a391ea173d92391b21864ffe2ca1800d43b69000584316412": {
+      "url": "https://www.focus.de/panorama/welt/durchmesser-30-zentimeter-mario-findet-im-wald-1-5-kilo-steinpilz_2b00da3e-2869-4bbb-b95c-d93cc80e1a03.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d1c80a4a67ee7e6269ccd454a88f5010e1c30fba498da04bf74b59d02b8e67e7": {
+      "url": "https://www.focus.de/panorama/welt/bauarbeiter-asphaltieren-aus-versehen-falsche-strasse-gemeinde-muss-30-000-euro-extra-zahlen_49616902-ec98-492f-9a5d-1f58bfaed346.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1edd0902449d4f136dc77356918a066a09d025b5c7d5042d76f4d2370409cc2a": {
+      "url": "https://www.focus.de/panorama/welt/weltrekord-auf-dem-3500-kilometer-wanderweg-91-jaehriger-bewaeltigt-appalachian-trail_eeef66ce-ec75-4c76-b467-cac6b20b0600.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "efb0dbfcdcacad86bd7ad6bfccc71b7dc5761b4d2a1a2eef998121d605485ad5": {
+      "url": "https://www.focus.de/panorama/welt/schaupieler-michael-mendl-ist-im-alter-von-82-jahren-gestorben_1dd6aca1-4e70-41c1-9ee7-6c2452f64de9.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b60cf7aea4b0539fc4363efe7f191adb951f60c1fecc00935c21ce96b2f80e33": {
+      "url": "https://www.focus.de/panorama/welt/obdachloser-findet-geldkoffer-und-verteilt-50-euro-scheine-an-passanten_0d21e93d-bce8-4b62-8aef-c1d907682f2e.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5c7f8f6827928465e2dbffc5e39525695bc8f23b7d46ce4abeecec4a655de756": {
+      "url": "https://www.focus.de/panorama/welt/500-seelen-dorf-kaempft-gegen-luxusprojekte-kein-spielplatz-der-reichen_5a7c6403-3499-45e7-8546-0cea6651a0d7.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "916ea3b99db22fa73b6c4dd67a2142da163dd84a34a0529e11a90d18707dc22f": {
+      "url": "https://www.focus.de/panorama/welt/wusste-immer-dass-ich-nicht-in-deutschland-leben-wollte-kerstin-31-wohnt-in-amsterdam_d16eaaf0-b1b6-4154-9c74-c882ad214d44.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9afb03a64aae66da18b56a25c43f8be4f0d8cfe68dee97dbf266ef76dda65c52": {
+      "url": "https://www.focus.de/panorama/welt/neugeborenes-oder-direkt-in-den-kindergarten-klinik-staunt-ueber-schweres-baby_25425173-22c7-404e-a15b-9153021647eb.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1e19c4372ba4e161aedc521f095d808eea6ad285a377684b1d78369439cc02ad": {
+      "url": "https://www.focus.de/panorama/welt/paar-finanziert-kantine-und-renovierung-der-dorfschule-mit-lottogewinn_2a37ec79-47b4-49ad-8e76-9b580356b327.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3808363b18aadc94ae5e81f6435e496e92364bf39196952aa6129bb218964ce1": {
+      "url": "https://www.focus.de/panorama/welt/ich-verteidige-nur-meine-rechte-jean-pierre-51-will-gebuehren-fuer-den-zugang-zur-tiefgarage_d103c34f-c0f8-4545-939c-47a8b3717697.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "70614493b777e860d4f119f593e74c12ae251c534de4fb0b705cbd8efbeee35a": {
+      "url": "https://www.focus.de/panorama/welt/deutsche-touristin-ertrinkt-in-polen-in-der-ostsee_b1992ac0-8a31-458b-ba3d-80fd438c9acc.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6451caad180221bf73ca661bc8916f778cecd738b2e9364d45d32f0ef9b2cdda": {
+      "url": "https://www.focus.de/panorama/welt/kampfjet-stuerzt-in-griechenland-ab-pilotenschicksal-unklar_3b2f0001-dc58-46a0-8d09-a9a8b3dde731.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3954c5eb52b18a8d6478b68217b0376d0ded6479177c69ce85d8368732218c83": {
+      "url": "https://www.n-tv.de/politik/Putin-spricht-mit-US-Gesandten-ueber-eigentliche-Ursachen-des-Konflikts-id31273719.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fd78c77760aeef8dd167509c7480f7f2bc95071776f16f0da115c855943feaa1": {
+      "url": "https://www.n-tv.de/wirtschaft/Deutsche-Traegerrakete-Spectrum-startet-erfolgreich-ins-All-id31273674.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a1111786e4f021c10e9a2fc8c89b1b33fcc5daadb2fb3ee609c09b37e3a03e92": {
+      "url": "https://www.n-tv.de/politik/Wir-machen-ein-Vermoegen-Venezuela-ist-eine-koloniale-Autokratie-nach-Trumps-Geschmack-id31271064.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e39f889100f5ce29632399af2ae36e55e3d946d6972eefd06af99d3bfc016f41": {
+      "url": "https://www.n-tv.de/panorama/Polizei-veroeffentlicht-Fahndungsfotos-nach-Stromnetz-Sabotage-id31273533.html",
+      "date": "2026-09-06",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "d0f920ebe32c1c8be643a56da6263950056396c3043c22eb52a1e741075d1948": {
+      "url": "https://www.n-tv.de/politik/Merz-verabschiedet-sich-vom-Credo-Wohlstand-fuer-alle-id31273161.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "25097e78db84bfa43f6e1f3091b558ef1497b072e515bcc10e815eabf8796f4e": {
+      "url": "https://www.n-tv.de/politik/Die-Fuehrungskader-der-AfD-werden-laengst-geschult-id31266835.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6f088f47985848c887fb0d25c1465ac7942625a008ed14c98437fa60af9bf284": {
+      "url": "https://www.n-tv.de/sport/fussball/Bundesliga-Comeback-Laestiger-FC-Schalke-04-geht-dem-FC-Bayern-tierisch-auf-den-Sack-id31273708.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "84c1f8844b776a180a699b182cee26c249937b1cb78b1c85f3967c76aa3d37e0": {
+      "url": "https://www.n-tv.de/sport/Boris-Becker-knoepft-sich-freidrehende-Influencer-vor-id31273745.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4773407648bfa15b174bc03699475b074cfe1058607a2524bf110e41696fc02f": {
+      "url": "https://www.n-tv.de/sport/fussball/Schiri-gesteht-Fehlentscheidung-Elversbergs-Trainer-Vincent-Wagner-sieht-Gelb-Rot-und-ist-fassungslos-id31273736.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d4c9ef2229d429088a63cace9bc5995ed522d3ec29603c77d26dc04364a46155": {
+      "url": "https://www.n-tv.de/politik/Pentagon-ordnet-Luegendetektortests-fuer-hochrangige-Militaers-an-id31273606.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bb8218939757428ce4d58204b38fbbc402d018af6bc8c8bd23442d1fa0a99b11": {
+      "url": "https://www.n-tv.de/sport/fussball/Pokal-Kracher-Werder-muss-zum-BVB-Frankfurt-zum-HSV-id31273412.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "dac70d9acd54aa9181c7ed0a6fcf8f6c46ed96526d62e343502003832c8a6874": {
+      "url": "https://www.n-tv.de/sport/fussball/Katastrophaler-Dynamo-Fehler-leitet-Bochums-Sieg-ein-id31273655.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f18525465ef69bb8ae4546e0797d7424770c1340f4e1b57923fea6e348a6df96": {
+      "url": "https://www.n-tv.de/panorama/Fluggaeste-kleben-randalierenden-Passagier-an-Sitz-fest-id31273172.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8d3a987cb61445ac1f4440ad252fd7f7a6f8ca7733c40e2cf3925d9e36400799": {
+      "url": "https://www.n-tv.de/politik/Merz-stuft-die-Drohnen-Beweise-gegen-Russland-als-gerichtsfest-ein-id31273492.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6ff4461aaba45448f2b3450404f8ee5a003d47c00bc87c6bfd7e56396c997a5b": {
+      "url": "https://www.n-tv.de/sport/Radsport/Deutscher-Jungstar-sprintet-zu-ueberragendem-Vuelta-Sieg-id31273448.html",
+      "date": "2026-09-06",
+      "score": 0,
+      "dropped": "low-relevance"
     }
   }
 }
