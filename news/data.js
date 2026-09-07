@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-06T00:04:57.840Z",
+  "generated": "2026-09-07T00:04:46.483Z",
   "hellmuth": [
+    {
+      "title": "Thai Tea trifft Hafer im 7-Eleven",
+      "date": "2026-09-07",
+      "created": "2026-09-07T00:03:02.640Z",
+      "slug": "thai-tea-trifft-hafer-im-7-eleven",
+      "rubrik": "hellmuth",
+      "lead": "Pflanzendrinks brauchen in Südostasien keine Missionierung mehr, sondern eine bekannte Geschmacksbrücke.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/06/goodmate-x-karun-launch-thai-tea-oatmilk/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/thai-tea-trifft-hafer-im-7-eleven/"
+    },
+    {
+      "title": "Kräutertee trifft Kokoswasser in Thailand",
+      "date": "2026-09-07",
+      "created": "2026-09-07T00:02:45.346Z",
+      "slug": "krautertee-trifft-kokoswasser-in-thailand",
+      "rubrik": "hellmuth",
+      "lead": "Ichitan koppelt seine Kräutertee-Marke Yen Yen an Thai Coco und verkauft die Fusion als Kühlgetränk.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/06/ichitan-yen-yen-herbal-drink-with-coconut-water-a-cooling-and-refreshing-collaboration-with-thai-coco/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/krautertee-trifft-kokoswasser-in-thailand/"
+    },
+    {
+      "title": "Singha bewirtschaftet den Kater",
+      "date": "2026-09-07",
+      "created": "2026-09-07T00:02:30.242Z",
+      "slug": "singha-bewirtschaftet-den-kater",
+      "rubrik": "hellmuth",
+      "lead": "Eine Brauerei verdient künftig auch am Morgen danach.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/06/singha-surrounds-the-drinking-occasion-from-lemon-soda-to-new-hangover-solution/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/singha-bewirtschaftet-den-kater/"
+    },
     {
       "title": "Junge Deutsche trinken weniger, und die Industrie weiß es längst",
       "date": "2026-09-06",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/was-die-getrankebranche-unter-aufbruch-versteht/"
-    },
-    {
-      "title": "Reis als Getränk, weil ihn keiner mehr isst",
-      "date": "2026-06-14",
-      "created": "2026-06-14T23:40:54.955Z",
-      "slug": "reis-als-getrank-weil-ihn-keiner-mehr-isst",
-      "rubrik": "hellmuth",
-      "lead": "Thailands Reisindustrie sucht einen Ausweg aus dem Tellerrückgang und findet ihn im Tetrapak.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/14/clp-transforms-thai-rice-into-a-wellness-drink-with-sisod-rice-milk/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/reis-als-getrank-weil-ihn-keiner-mehr-isst/"
-    },
-    {
-      "title": "Malaysias Modern-Soda-Markt bekommt eine Marke",
-      "date": "2026-06-14",
-      "created": "2026-06-14T23:40:35.210Z",
-      "slug": "malaysias-modern-soda-markt-bekommt-eine-marke",
-      "rubrik": "hellmuth",
-      "lead": "Was in den USA längst Regal füllt, kommt nun nach Südostasien.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/14/70254/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/malaysias-modern-soda-markt-bekommt-eine-marke/"
-    },
-    {
-      "title": "Funktionsgetränke 2026, der Geschmack als Alibi",
-      "date": "2026-06-14",
-      "created": "2026-06-14T23:40:10.516Z",
-      "slug": "funktionsgetranke-2026-der-geschmack-als-alibi",
-      "rubrik": "hellmuth",
-      "lead": "Die europäische Getränkebranche stimmt sich auf ein Jahr ein, in dem Funktion und Aroma nicht mehr getrennt verhandelt werden.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/News/Promotional-features/functional-beverage-trends-in-2026/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/funktionsgetranke-2026-der-geschmack-als-alibi/"
     }
   ],
   "science": [
+    {
+      "title": "Astrozyten, die sich Anfälle merken",
+      "date": "2026-09-07",
+      "created": "2026-09-07T00:04:46.402Z",
+      "slug": "astrozyten-die-sich-anfalle-merken",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv beschreibt eine Sternzellen-Subpopulation, die nach epileptischen Anfällen aktiv wird und weitere Anfälle bremst.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748637v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/astrozyten-die-sich-anfalle-merken/"
+    },
+    {
+      "title": "Psychotische Erfahrungen im Kindesalter, die bleiben, sagen die Diagnose voraus",
+      "date": "2026-09-07",
+      "created": "2026-09-07T00:04:02.794Z",
+      "slug": "psychotische-erfahrungen-im-kindesalter-die-bleiben-sagen-die-diagnose-voraus",
+      "rubrik": "science",
+      "lead": "Ein dänisches Preprint quantifiziert, was Kinderpsychiater ahnen und selten belegen: Persistenz schlägt Prävalenz.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.27.26361507v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psychotische-erfahrungen-im-kindesalter-die-bleiben-sagen-die-diagnose-voraus/"
+    },
+    {
+      "title": "Kortikale Hierarchie kippt vor der ersten Psychose",
+      "date": "2026-09-07",
+      "created": "2026-09-07T00:03:32.669Z",
+      "slug": "kortikale-hierarchie-kippt-vor-der-ersten-psychose",
+      "rubrik": "science",
+      "lead": "Bevor die Symptome kommen, ist die Landkarte der Rinde schon verschoben.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.30.26361747v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/kortikale-hierarchie-kippt-vor-der-ersten-psychose/"
+    },
     {
       "title": "Koffein wirkt anders im alternden Hirn",
       "date": "2026-09-06",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/der-hippocampus-zahlt-mit/"
-    },
-    {
-      "title": "Nach der Manie kippt jeder Vierte binnen vier Wochen",
-      "date": "2026-07-01",
-      "created": "2026-07-01T23:52:51.208Z",
-      "slug": "nach-der-manie-kippt-jeder-vierte-binnen-vier-wochen",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der NeuroBlu-Kohorte datiert das Risikofenster für den Umschlag von Manie in Depression präziser, als es die klinische Faustregel bislang zuließ.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.29.26356830v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/nach-der-manie-kippt-jeder-vierte-binnen-vier-wochen/"
-    },
-    {
-      "title": "Wenn das Gehirn die Welt für instabiler hält, als sie ist",
-      "date": "2026-06-30",
-      "created": "2026-06-30T23:45:03.121Z",
-      "slug": "wenn-das-gehirn-die-welt-fur-instabiler-halt-als-sie-ist",
-      "rubrik": "science",
-      "lead": "Junge Menschen mit psychotischen Symptomen verrechnen Umweltschwankungen anders, und zwar unabhängig vom Alter.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.24.26356447v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-das-gehirn-die-welt-fur-instabiler-halt-als-sie-ist/"
-    },
-    {
-      "title": "Wer forensisch sitzt, sitzt nicht wegen der Tat",
-      "date": "2026-06-30",
-      "created": "2026-06-30T23:44:46.920Z",
-      "slug": "wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat",
-      "rubrik": "science",
-      "lead": "Eine retrospektive Studie aus Nordisrael verschiebt das Gewicht von der Straftat auf die Biografie.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356525v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat/"
     }
   ]
 }

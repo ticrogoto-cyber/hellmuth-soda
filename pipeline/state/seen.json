@@ -3025,14 +3025,6 @@
       "score": 7,
       "published": true
     },
-    "868f48db0b419d07a97360274ace53bd43dd44d5592d556941581940810ca8cb": {
-      "url": "https://www.bevnet.com/news/2026/dive-into-innovation-with-bevnet-cpg-medias-interactive-launch-explorer",
-      "date": "2026-08-30",
-      "rubrik": "hellmuth",
-      "score": 4,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:25:33.841Z"
-    },
     "36e059c1886c9126766fe41eea76bbeb8e7a336375bb623669a8be8320d05f56": {
       "url": "https://www.bevnet.com/news/2026/review-okra-sparkling-okra-water-offers-truly-different-take-on-hydration",
       "date": "2026-08-22",
@@ -3474,22 +3466,6 @@
       "score": 7,
       "published": true
     },
-    "23635c8bee5364ab599b8bf1467c1b8f3baa6c321c1d62e4688d69cc25c39c2e": {
-      "url": "https://www.foodnavigator-asia.com/News/Promotional-features/ancient-grains-reflect-europes-call-for-authentic-conscious-baking/",
-      "date": "2026-08-30",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:25:08.348Z"
-    },
-    "61bbdb818d5b9f10e16c9b8706d862308215b2063d571b5ae50b2cbb767785f2": {
-      "url": "https://www.beveragedaily.com/News/Promotional-features/Bio-based-sustainable-beverage-innovations/",
-      "date": "2026-08-30",
-      "rubrik": "hellmuth",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:25:18.139Z"
-    },
     "830268f5bec37c389d3fdd120bfc9c67027cb6a6ccba3facd05911bc022a4f95": {
       "url": "https://www.minimeinsights.com/2026/08/29/cafe-amazon-fizzpresso-has-the-potential-to-popularise-sparkling-coffee-in-thailand/",
       "date": "2026-08-30",
@@ -3511,60 +3487,12 @@
       "score": 7,
       "published": true
     },
-    "295d913181c42498546106637c541d563e79e0289ed7e2f20ddd1e458e54ba5c": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747140v1?rss=1",
-      "date": "2026-08-30",
-      "rubrik": "science",
-      "score": 4,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:26:23.789Z"
-    },
-    "6f4ea644250b43c677176e5ad9a84ae5933ab8bd1ac08f18f8a9ce0799f217aa": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747046v1?rss=1",
-      "date": "2026-08-30",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:26:25.603Z"
-    },
     "bf1f58b8c0d444cd160ed38dc1b2096475c2a03495dc20ae66df7e795d49edab": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747022v1?rss=1",
       "date": "2026-08-30",
       "rubrik": "science",
       "score": 7,
       "published": true
-    },
-    "79efde7939f663b8d71308274e0f739bbf266dae76bf57b615ba5b9f6c3e0668": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747023v1?rss=1",
-      "date": "2026-08-30",
-      "rubrik": "science",
-      "score": 4,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:26:39.525Z"
-    },
-    "962785a98417ffd026703e6299f27eb8aa1a0e898d1dcf59e52f901d0034527f": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747005v1?rss=1",
-      "date": "2026-08-30",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:26:41.287Z"
-    },
-    "27e551a1113cb0cb693cb411ce25771620589f5efe4c5ad72a0ceb27adac0542": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747007v1?rss=1",
-      "date": "2026-08-30",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:26:43.376Z"
-    },
-    "d0c95e63c070f7c904f4f3b0364f440044a28382b9eba0f06e3161fda7248500": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747006v1?rss=1",
-      "date": "2026-08-30",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-09-06T00:26:45.174Z"
     },
     "5bb10b7286a092379c7dd591e969ab396d0d0bb6f65dc79eed9b07d7229b62c8": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.746973v1?rss=1",
@@ -6693,6 +6621,120 @@
     "24159aea3a1d887e113723c42f939c0ecaeb7f66f4e204e6efd73646cf026048": {
       "url": "https://doi.org/10.31083/JIN46140",
       "date": "2026-09-06",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "493f2cb5929d102daabb85e7175df16073c5f9a322c280fb2e9606b4b135d154": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/2026-beverage-trends-show-pineapple-flavours-align-with-consumer-preference/",
+      "date": "2026-09-07",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:00:09.357Z"
+    },
+    "4901aec4ea226da2777f80153240b045d8f021890e28772b17858617336f4022": {
+      "url": "https://www.minimeinsights.com/2026/09/06/singha-surrounds-the-drinking-occasion-from-lemon-soda-to-new-hangover-solution/",
+      "date": "2026-09-07",
+      "rubrik": "hellmuth",
+      "score": 9,
+      "published": true
+    },
+    "b1fbb833058a5b3217b69e22b48383706405e1ac3cd4368b14d68a55fbe75810": {
+      "url": "https://www.minimeinsights.com/2026/09/06/ichitan-yen-yen-herbal-drink-with-coconut-water-a-cooling-and-refreshing-collaboration-with-thai-coco/",
+      "date": "2026-09-07",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "7585b2298391fa668e95d35c418c7ec0e073777e2730e690c35c8c51260c1ccb": {
+      "url": "https://www.minimeinsights.com/2026/09/06/eng-bee-tin-reinvents-mooncake-tradition-with-global-flavour-twists-from-pistachio-craze-to-ube-matcha-fusion/",
+      "date": "2026-09-07",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:02:49.654Z"
+    },
+    "f0a407f8d16efc02d4530a76ae871f81c263f40183c56f106be7a729ebc314d8": {
+      "url": "https://www.minimeinsights.com/2026/09/06/goodmate-x-karun-launch-thai-tea-oatmilk/",
+      "date": "2026-09-07",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "published": true
+    },
+    "6ffb9ffd4e0c323971d15e228a637912f4c8ae6f6e892582b5e5653d79a4c375": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.30.26361747v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "9471bf6a9b75f2ee207900e4c47fba9e83e0403d5ca2a8d74acb4d38327f5651": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361970v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:03:35.798Z"
+    },
+    "0fde48dc7fd4b5250f6975dfaadae8ef694252aa54173629d6f63afd36e34ae9": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361909v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:03:40.270Z"
+    },
+    "809b6b10717ee2e9de365a7e587e931fd3b29b1f0a50ed36d73c645102868469": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361990v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:03:44.109Z"
+    },
+    "844effd2a9fe4bf25cbf2fe9dfde374f9a3e9e27e27a7dab9001c7ca1845b44a": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.28.26361673v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:03:47.163Z"
+    },
+    "af09ec44a8cedb7689fe621989e4d556c49781f22282ef5ce9e5bbfb828819ec": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.08.27.26361507v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "a645b13629bdca5a85af1d54d49de92e7f357ab2eb236108ce8d802d89c3ca5e": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748526v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:04:24.847Z"
+    },
+    "0ef8d124246832e69eca876e73d9f533144d442a41b1b6a65a8201cd0858775b": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748523v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:04:28.239Z"
+    },
+    "2c3dc2385120c9c779e97f2b85f2c499f268d0b22f08a47658dfacf05acd0919": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748680v1?rss=1",
+      "date": "2026-09-07",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-09-14T00:04:30.611Z"
+    },
+    "6561653f5353845e32dfc818922f3ceab9258de28e815962104250873bc5996b": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748637v1?rss=1",
+      "date": "2026-09-07",
       "rubrik": "science",
       "score": 9,
       "published": true

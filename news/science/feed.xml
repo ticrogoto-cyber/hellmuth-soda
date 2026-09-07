@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 06 Sep 2026 00:04:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 00:04:46 GMT</lastBuildDate>
+    <item>
+      <title>Astrozyten, die sich Anfälle merken</title>
+      <link>https://hellmuth-soda.de/news/science/astrozyten-die-sich-anfalle-merken/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/astrozyten-die-sich-anfalle-merken/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:04:46 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv beschreibt eine Sternzellen-Subpopulation, die nach epileptischen Anfällen aktiv wird und weitere Anfälle bremst.</description>
+    </item>
+    <item>
+      <title>Psychotische Erfahrungen im Kindesalter, die bleiben, sagen die Diagnose voraus</title>
+      <link>https://hellmuth-soda.de/news/science/psychotische-erfahrungen-im-kindesalter-die-bleiben-sagen-die-diagnose-voraus/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychotische-erfahrungen-im-kindesalter-die-bleiben-sagen-die-diagnose-voraus/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:04:02 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein dänisches Preprint quantifiziert, was Kinderpsychiater ahnen und selten belegen: Persistenz schlägt Prävalenz.</description>
+    </item>
+    <item>
+      <title>Kortikale Hierarchie kippt vor der ersten Psychose</title>
+      <link>https://hellmuth-soda.de/news/science/kortikale-hierarchie-kippt-vor-der-ersten-psychose/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kortikale-hierarchie-kippt-vor-der-ersten-psychose/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:03:32 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Bevor die Symptome kommen, ist die Landkarte der Rinde schon verschoben.</description>
+    </item>
     <item>
       <title>Koffein wirkt anders im alternden Hirn</title>
       <link>https://hellmuth-soda.de/news/science/koffein-wirkt-anders-im-alternden-hirn/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Wed, 01 Jul 2026 23:53:14 GMT</pubDate>
       <category>Forschung</category>
       <description>Dopamin im Hippocampus reagiert nicht auf Süße, sondern auf Nährstoffe, und drosselt anschließend die Nahrungsaufnahme.</description>
-    </item>
-    <item>
-      <title>Nach der Manie kippt jeder Vierte binnen vier Wochen</title>
-      <link>https://hellmuth-soda.de/news/science/nach-der-manie-kippt-jeder-vierte-binnen-vier-wochen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nach-der-manie-kippt-jeder-vierte-binnen-vier-wochen/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:52:51 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der NeuroBlu-Kohorte datiert das Risikofenster für den Umschlag von Manie in Depression präziser, als es die klinische Faustregel bislang zuließ.</description>
-    </item>
-    <item>
-      <title>Wenn das Gehirn die Welt für instabiler hält, als sie ist</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-das-gehirn-die-welt-fur-instabiler-halt-als-sie-ist/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-das-gehirn-die-welt-fur-instabiler-halt-als-sie-ist/</guid>
-      <pubDate>Tue, 30 Jun 2026 23:45:03 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Junge Menschen mit psychotischen Symptomen verrechnen Umweltschwankungen anders, und zwar unabhängig vom Alter.</description>
-    </item>
-    <item>
-      <title>Wer forensisch sitzt, sitzt nicht wegen der Tat</title>
-      <link>https://hellmuth-soda.de/news/science/wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wer-forensisch-sitzt-sitzt-nicht-wegen-der-tat/</guid>
-      <pubDate>Tue, 30 Jun 2026 23:44:46 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine retrospektive Studie aus Nordisrael verschiebt das Gewicht von der Straftat auf die Biografie.</description>
     </item>
   </channel>
 </rss>
