@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 07 Sep 2026 00:04:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 00:32:20 GMT</lastBuildDate>
+    <item>
+      <title>Cannabis-Legalisierung in Deutschland, gemessen im Alltag</title>
+      <link>https://hellmuth-soda.de/news/science/cannabis-legalisierung-in-deutschland-gemessen-im-alltag/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-legalisierung-in-deutschland-gemessen-im-alltag/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:32:20 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine deutsche Studie hat Konsumierende vor und nach der Teillegalisierung per Smartphone in Echtzeit befragt.</description>
+    </item>
+    <item>
+      <title>CBD gegen Alkoholabhängigkeit, ein Review sortiert die Datenlage</title>
+      <link>https://hellmuth-soda.de/news/science/cbd-gegen-alkoholabhangigkeit-ein-review-sortiert-die-datenlage/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cbd-gegen-alkoholabhangigkeit-ein-review-sortiert-die-datenlage/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:32:07 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Cannabidiol wird seit Jahren als sanfte Option gegen Trinkverlangen gehandelt, ohne dass die Evidenz mitgewachsen wäre.</description>
+    </item>
+    <item>
+      <title>Promillewert sagt wenig über den Entzug</title>
+      <link>https://hellmuth-soda.de/news/science/promillewert-sagt-wenig-uber-den-entzug/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/promillewert-sagt-wenig-uber-den-entzug/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:31:55 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Der Blutalkohol bei Aufnahme prognostiziert den komplizierten Entzug schlechter als lange angenommen.</description>
+    </item>
+    <item>
+      <title>Chagee, Der kleine Prinz und die App</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/chagee-der-kleine-prinz-und-die-app/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/chagee-der-kleine-prinz-und-die-app/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:31:34 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein chinesischer Teeriese verkauft Antoine de Saint-Exupéry als Matcha-Merch, ausgeliefert von einer Lieferplattform.</description>
+    </item>
+    <item>
+      <title>Walovi baut Singapur zur Kräutertee-Zentrale</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/walovi-baut-singapur-zur-krautertee-zentrale/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/walovi-baut-singapur-zur-krautertee-zentrale/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:31:05 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein Guangzhouer Staatskonzern verlegt die Kommandobrücke seiner Kräutertee-Marke nach Südostasien.</description>
+    </item>
+    <item>
+      <title>Europas Bierproduktion schrumpft, alkoholfreie Volumen wachsen</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/europas-bierproduktion-schrumpft-alkoholfreie-volumen-wachsen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/europas-bierproduktion-schrumpft-alkoholfreie-volumen-wachsen/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:29:56 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der europäische Biermarkt verliert Masse an genau der Stelle, an der er sich jahrzehntelang definiert hat.</description>
+    </item>
     <item>
       <title>Astrozyten, die sich Anfälle merken</title>
       <link>https://hellmuth-soda.de/news/science/astrozyten-die-sich-anfalle-merken/</link>
@@ -2856,14 +2904,6 @@
       <description>Methamphetamin und MDMA teilen sich das Stimulanzien-Etikett, aber nicht die Biochemie ihrer Schäden.</description>
     </item>
     <item>
-      <title>Kognition nach dem letzten Glas</title>
-      <link>https://hellmuth-soda.de/news/science/kognition-nach-dem-letzten-glas/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kognition-nach-dem-letzten-glas/</guid>
-      <pubDate>Thu, 02 Jul 2026 23:34:31 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Wer aufhört zu trinken, bekommt sein Gehirn nicht automatisch zurück.</description>
-    </item>
-    <item>
       <title>Was eine alkoholfreie Bar am Leben hält</title>
       <link>https://hellmuth-soda.de/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/</guid>
@@ -2886,22 +2926,6 @@
       <pubDate>Thu, 02 Jul 2026 23:33:35 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Alkoholfreie Getränke sind auf der Summer Fancy Food Show in New York keine Kuriosität mehr, sondern eine eigene Halle.</description>
-    </item>
-    <item>
-      <title>Vier Kohorten, ein Datensatz, bescheidene Effekte</title>
-      <link>https://hellmuth-soda.de/news/science/vier-kohorten-ein-datensatz-bescheidene-effekte/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/vier-kohorten-ein-datensatz-bescheidene-effekte/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:53:30 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint bündelt vier Bildgebungs-Kohorten zu Angst und Depression und findet vor allem eines: dass die Signale klein bleiben, selbst wenn man die Stichprobe vergrößert.</description>
-    </item>
-    <item>
-      <title>Der Hippocampus zählt mit</title>
-      <link>https://hellmuth-soda.de/news/science/der-hippocampus-zahlt-mit/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-hippocampus-zahlt-mit/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:53:14 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Dopamin im Hippocampus reagiert nicht auf Süße, sondern auf Nährstoffe, und drosselt anschließend die Nahrungsaufnahme.</description>
     </item>
     <item>
       <title>MiXery streicht Alkohol und Zucker aus dem Biermisch</title>
@@ -3182,30 +3206,6 @@
       <pubDate>Tue, 16 Jun 2026 23:51:17 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Was als Verbraucherschutz inszeniert wird, ist Vorgriff auf eine absehbare Regulierung.</description>
-    </item>
-    <item>
-      <title>Niigata bekommt einen Newcomer, der gleich Preise sammelt</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/niigata-bekommt-einen-newcomer-der-gleich-preise-sammelt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/niigata-bekommt-einen-newcomer-der-gleich-preise-sammelt/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:08:00 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Eine der ältesten Sake-Regionen Japans öffnet sich für einen Quereinsteiger, der die Hierarchie nicht respektiert.</description>
-    </item>
-    <item>
-      <title>Mangostan rückt in Thailands Kaffeeketten auf</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/mangostan-ruckt-in-thailands-kaffeeketten-auf/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/mangostan-ruckt-in-thailands-kaffeeketten-auf/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:06:17 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was als regionale Saisonfrucht galt, wird zur Sommerwährung der thailändischen Kaffeeketten.</description>
-    </item>
-    <item>
-      <title>Was die Getränkebranche unter Aufbruch versteht</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/was-die-getrankebranche-unter-aufbruch-versteht/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/was-die-getrankebranche-unter-aufbruch-versteht/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:05:33 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der Mittelstand der neuen Marken steckt fest, und die Branche redet sich das schön.</description>
     </item>
   </channel>
 </rss>

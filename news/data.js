@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-07T00:04:46.483Z",
+  "generated": "2026-09-08T00:32:20.692Z",
   "hellmuth": [
+    {
+      "title": "Chagee, Der kleine Prinz und die App",
+      "date": "2026-09-08",
+      "created": "2026-09-08T00:31:34.761Z",
+      "slug": "chagee-der-kleine-prinz-und-die-app",
+      "rubrik": "hellmuth",
+      "lead": "Ein chinesischer Teeriese verkauft Antoine de Saint-Exupéry als Matcha-Merch, ausgeliefert von einer Lieferplattform.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/06/a-little-matcha-magic-delivered-foodpanda-brings-chagee-the-little-prince-to-malaysians/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/chagee-der-kleine-prinz-und-die-app/"
+    },
+    {
+      "title": "Walovi baut Singapur zur Kräutertee-Zentrale",
+      "date": "2026-09-08",
+      "created": "2026-09-08T00:31:05.425Z",
+      "slug": "walovi-baut-singapur-zur-krautertee-zentrale",
+      "rubrik": "hellmuth",
+      "lead": "Ein Guangzhouer Staatskonzern verlegt die Kommandobrücke seiner Kräutertee-Marke nach Südostasien.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/06/walovi-ramps-up-southeast-asia-growth-with-singapore-hq-and-x-hero-global-can-launches/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/walovi-baut-singapur-zur-krautertee-zentrale/"
+    },
+    {
+      "title": "Europas Bierproduktion schrumpft, alkoholfreie Volumen wachsen",
+      "date": "2026-09-08",
+      "created": "2026-09-08T00:29:56.771Z",
+      "slug": "europas-bierproduktion-schrumpft-alkoholfreie-volumen-wachsen",
+      "rubrik": "hellmuth",
+      "lead": "Der europäische Biermarkt verliert Masse an genau der Stelle, an der er sich jahrzehntelang definiert hat.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/09/eu-beer-production-slips-as-alcohol-free-volumes-rise/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/europas-bierproduktion-schrumpft-alkoholfreie-volumen-wachsen/"
+    },
     {
       "title": "Thai Tea trifft Hafer im 7-Eleven",
       "date": "2026-09-07",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/nestl-usa-streicht-kunstliche-farbstoffe/"
-    },
-    {
-      "title": "Niigata bekommt einen Newcomer, der gleich Preise sammelt",
-      "date": "2026-06-16",
-      "created": "2026-06-16T00:08:00.114Z",
-      "slug": "niigata-bekommt-einen-newcomer-der-gleich-preise-sammelt",
-      "rubrik": "hellmuth",
-      "lead": "Eine der ältesten Sake-Regionen Japans öffnet sich für einen Quereinsteiger, der die Hierarchie nicht respektiert.",
-      "source_name": "Japan Times Food & Drink",
-      "source_url": "https://www.japantimes.co.jp/life/2026/06/14/food-drink/snow-satoyama-sake/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/niigata-bekommt-einen-newcomer-der-gleich-preise-sammelt/"
-    },
-    {
-      "title": "Mangostan rückt in Thailands Kaffeeketten auf",
-      "date": "2026-06-16",
-      "created": "2026-06-16T00:06:17.388Z",
-      "slug": "mangostan-ruckt-in-thailands-kaffeeketten-auf",
-      "rubrik": "hellmuth",
-      "lead": "Was als regionale Saisonfrucht galt, wird zur Sommerwährung der thailändischen Kaffeeketten.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/14/mangosteen-fever-punthai-and-starbucks-elevate-thailands-queen-of-fruits/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/mangostan-ruckt-in-thailands-kaffeeketten-auf/"
-    },
-    {
-      "title": "Was die Getränkebranche unter Aufbruch versteht",
-      "date": "2026-06-16",
-      "created": "2026-06-16T00:05:33.795Z",
-      "slug": "was-die-getrankebranche-unter-aufbruch-versteht",
-      "rubrik": "hellmuth",
-      "lead": "Der Mittelstand der neuen Marken steckt fest, und die Branche redet sich das schön.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/state-of-the-market-emerging-brands-at-mid-year",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/was-die-getrankebranche-unter-aufbruch-versteht/"
     }
   ],
   "science": [
+    {
+      "title": "Cannabis-Legalisierung in Deutschland, gemessen im Alltag",
+      "date": "2026-09-08",
+      "created": "2026-09-08T00:32:20.600Z",
+      "slug": "cannabis-legalisierung-in-deutschland-gemessen-im-alltag",
+      "rubrik": "science",
+      "lead": "Eine deutsche Studie hat Konsumierende vor und nach der Teillegalisierung per Smartphone in Echtzeit befragt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s41598-026-70148-7",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabis-legalisierung-in-deutschland-gemessen-im-alltag/"
+    },
+    {
+      "title": "CBD gegen Alkoholabhängigkeit, ein Review sortiert die Datenlage",
+      "date": "2026-09-08",
+      "created": "2026-09-08T00:32:07.321Z",
+      "slug": "cbd-gegen-alkoholabhangigkeit-ein-review-sortiert-die-datenlage",
+      "rubrik": "science",
+      "lead": "Cannabidiol wird seit Jahren als sanfte Option gegen Trinkverlangen gehandelt, ohne dass die Evidenz mitgewachsen wäre.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70377",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/cbd-gegen-alkoholabhangigkeit-ein-review-sortiert-die-datenlage/"
+    },
+    {
+      "title": "Promillewert sagt wenig über den Entzug",
+      "date": "2026-09-08",
+      "created": "2026-09-08T00:31:55.208Z",
+      "slug": "promillewert-sagt-wenig-uber-den-entzug",
+      "rubrik": "science",
+      "lead": "Der Blutalkohol bei Aufnahme prognostiziert den komplizierten Entzug schlechter als lange angenommen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1093/alcalc/agag058",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/promillewert-sagt-wenig-uber-den-entzug/"
+    },
     {
       "title": "Astrozyten, die sich Anfälle merken",
       "date": "2026-09-07",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/zwei-wege-ins-tryptophan/"
-    },
-    {
-      "title": "Kognition nach dem letzten Glas",
-      "date": "2026-07-02",
-      "created": "2026-07-02T23:34:31.077Z",
-      "slug": "kognition-nach-dem-letzten-glas",
-      "rubrik": "science",
-      "lead": "Wer aufhört zu trinken, bekommt sein Gehirn nicht automatisch zurück.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1111/adb.70174",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/kognition-nach-dem-letzten-glas/"
-    },
-    {
-      "title": "Vier Kohorten, ein Datensatz, bescheidene Effekte",
-      "date": "2026-07-01",
-      "created": "2026-07-01T23:53:30.303Z",
-      "slug": "vier-kohorten-ein-datensatz-bescheidene-effekte",
-      "rubrik": "science",
-      "lead": "Ein Preprint bündelt vier Bildgebungs-Kohorten zu Angst und Depression und findet vor allem eines: dass die Signale klein bleiben, selbst wenn man die Stichprobe vergrößert.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.732748v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/vier-kohorten-ein-datensatz-bescheidene-effekte/"
-    },
-    {
-      "title": "Der Hippocampus zählt mit",
-      "date": "2026-07-01",
-      "created": "2026-07-01T23:53:14.187Z",
-      "slug": "der-hippocampus-zahlt-mit",
-      "rubrik": "science",
-      "lead": "Dopamin im Hippocampus reagiert nicht auf Süße, sondern auf Nährstoffe, und drosselt anschließend die Nahrungsaufnahme.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734911v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/der-hippocampus-zahlt-mit/"
     }
   ]
 }

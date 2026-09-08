@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 07 Sep 2026 00:04:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 00:32:20 GMT</lastBuildDate>
+    <item>
+      <title>Cannabis-Legalisierung in Deutschland, gemessen im Alltag</title>
+      <link>https://hellmuth-soda.de/news/science/cannabis-legalisierung-in-deutschland-gemessen-im-alltag/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-legalisierung-in-deutschland-gemessen-im-alltag/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:32:20 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine deutsche Studie hat Konsumierende vor und nach der Teillegalisierung per Smartphone in Echtzeit befragt.</description>
+    </item>
+    <item>
+      <title>CBD gegen Alkoholabhängigkeit, ein Review sortiert die Datenlage</title>
+      <link>https://hellmuth-soda.de/news/science/cbd-gegen-alkoholabhangigkeit-ein-review-sortiert-die-datenlage/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cbd-gegen-alkoholabhangigkeit-ein-review-sortiert-die-datenlage/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:32:07 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Cannabidiol wird seit Jahren als sanfte Option gegen Trinkverlangen gehandelt, ohne dass die Evidenz mitgewachsen wäre.</description>
+    </item>
+    <item>
+      <title>Promillewert sagt wenig über den Entzug</title>
+      <link>https://hellmuth-soda.de/news/science/promillewert-sagt-wenig-uber-den-entzug/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/promillewert-sagt-wenig-uber-den-entzug/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:31:55 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Der Blutalkohol bei Aufnahme prognostiziert den komplizierten Entzug schlechter als lange angenommen.</description>
+    </item>
     <item>
       <title>Astrozyten, die sich Anfälle merken</title>
       <link>https://hellmuth-soda.de/news/science/astrozyten-die-sich-anfalle-merken/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Thu, 02 Jul 2026 23:34:51 GMT</pubDate>
       <category>Forschung</category>
       <description>Methamphetamin und MDMA teilen sich das Stimulanzien-Etikett, aber nicht die Biochemie ihrer Schäden.</description>
-    </item>
-    <item>
-      <title>Kognition nach dem letzten Glas</title>
-      <link>https://hellmuth-soda.de/news/science/kognition-nach-dem-letzten-glas/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kognition-nach-dem-letzten-glas/</guid>
-      <pubDate>Thu, 02 Jul 2026 23:34:31 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Wer aufhört zu trinken, bekommt sein Gehirn nicht automatisch zurück.</description>
-    </item>
-    <item>
-      <title>Vier Kohorten, ein Datensatz, bescheidene Effekte</title>
-      <link>https://hellmuth-soda.de/news/science/vier-kohorten-ein-datensatz-bescheidene-effekte/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/vier-kohorten-ein-datensatz-bescheidene-effekte/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:53:30 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint bündelt vier Bildgebungs-Kohorten zu Angst und Depression und findet vor allem eines: dass die Signale klein bleiben, selbst wenn man die Stichprobe vergrößert.</description>
-    </item>
-    <item>
-      <title>Der Hippocampus zählt mit</title>
-      <link>https://hellmuth-soda.de/news/science/der-hippocampus-zahlt-mit/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-hippocampus-zahlt-mit/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:53:14 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Dopamin im Hippocampus reagiert nicht auf Süße, sondern auf Nährstoffe, und drosselt anschließend die Nahrungsaufnahme.</description>
     </item>
   </channel>
 </rss>
