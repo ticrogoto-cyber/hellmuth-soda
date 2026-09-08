@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-07T00:05:57.461Z",
+  "generated": "2026-09-08T00:38:08.093Z",
   "items": [
     {
       "title": "Supermarkt als Parcours",
