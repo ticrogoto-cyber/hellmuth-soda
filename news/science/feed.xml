@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 08 Sep 2026 00:32:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 00:30:30 GMT</lastBuildDate>
+    <item>
+      <title>Ein Thalamus-Rezeptor verlängert das Arbeitsgedächtnis, wenn Anandamid andockt</title>
+      <link>https://hellmuth-soda.de/news/science/ein-thalamus-rezeptor-verlangert-das-arbeitsgedachtnis-wenn-anandamid-andockt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-thalamus-rezeptor-verlangert-das-arbeitsgedachtnis-wenn-anandamid-andockt/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:30:30 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Arbeitsgedächtnis galt lange als Kapazitätsproblem; ein Preprint auf bioRxiv verschiebt es zur Frage der biochemischen Haltedauer.</description>
+    </item>
+    <item>
+      <title>Sozialer Stress schärft den Reiz zur Flasche</title>
+      <link>https://hellmuth-soda.de/news/science/sozialer-stress-scharft-den-reiz-zur-flasche/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sozialer-stress-scharft-den-reiz-zur-flasche/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:30:08 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem Verbund TRR265 misst, was Rückfallberichte seit Jahrzehnten behaupten: unter akutem Stress gewinnen konditionierte Trinkreize an Zugkraft.</description>
+    </item>
+    <item>
+      <title>Anatomischer Kompass für die Magnetspule</title>
+      <link>https://hellmuth-soda.de/news/science/anatomischer-kompass-fur-die-magnetspule/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/anatomischer-kompass-fur-die-magnetspule/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:29:47 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Depressionsforschung tauscht die statistische Zielsuche gegen individuelle Hirnkartografie.</description>
+    </item>
     <item>
       <title>Cannabis-Legalisierung in Deutschland, gemessen im Alltag</title>
       <link>https://hellmuth-soda.de/news/science/cannabis-legalisierung-in-deutschland-gemessen-im-alltag/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Fri, 03 Jul 2026 23:35:05 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint an Mäusen legt nahe, dass elterlicher Alkoholkonsum vor der Zeugung die Genaktivität der Nachkommen umschreibt, geschlechts- und gewebespezifisch.</description>
-    </item>
-    <item>
-      <title>Zwei Achsen, ein Spektrum</title>
-      <link>https://hellmuth-soda.de/news/science/zwei-achsen-ein-spektrum/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-achsen-ein-spektrum/</guid>
-      <pubDate>Fri, 03 Jul 2026 23:34:47 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint zieht Schizophrenie und bipolare Störung auf dieselbe kortikale Landkarte.</description>
-    </item>
-    <item>
-      <title>Bupropion gegen Mephedron-Craving</title>
-      <link>https://hellmuth-soda.de/news/science/bupropion-gegen-mephedron-craving/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/bupropion-gegen-mephedron-craving/</guid>
-      <pubDate>Thu, 02 Jul 2026 23:35:05 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Fallbericht aus Polen dockt eine synthetische Cathinon-Sucht an ein Antidepressivum an, das für Nikotin gebaut wurde.</description>
-    </item>
-    <item>
-      <title>Zwei Wege ins Tryptophan</title>
-      <link>https://hellmuth-soda.de/news/science/zwei-wege-ins-tryptophan/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-wege-ins-tryptophan/</guid>
-      <pubDate>Thu, 02 Jul 2026 23:34:51 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Methamphetamin und MDMA teilen sich das Stimulanzien-Etikett, aber nicht die Biochemie ihrer Schäden.</description>
     </item>
   </channel>
 </rss>

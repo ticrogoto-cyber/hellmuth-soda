@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-08T00:32:20.692Z",
+  "generated": "2026-09-09T00:30:30.077Z",
   "hellmuth": [
+    {
+      "title": "Zweiter Anlauf ins Mittelfeld",
+      "date": "2026-09-09",
+      "created": "2026-09-09T00:22:51.445Z",
+      "slug": "zweiter-anlauf-ins-mittelfeld",
+      "rubrik": "hellmuth",
+      "lead": "Der Versuch, zwischen Wasser und Wodka eine eigene Kategorie zu etablieren, geht in die Verlängerung.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/quarter-proof-founders-return-to-low-alc-with-half-cocktail-strength-demi-vodka",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zweiter-anlauf-ins-mittelfeld/"
+    },
+    {
+      "title": "Alkoholfreie Getränke ziehen im US-Handel an",
+      "date": "2026-09-09",
+      "created": "2026-09-09T00:22:35.791Z",
+      "slug": "alkoholfreie-getranke-ziehen-im-us-handel-an",
+      "rubrik": "hellmuth",
+      "lead": "Der amerikanische Getränkemarkt verschiebt sein Wachstum in die nüchterne Spalte.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/non-alc-beverages-accelerate-in-late-summer-retail-sales",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfreie-getranke-ziehen-im-us-handel-an/"
+    },
     {
       "title": "Chagee, Der kleine Prinz und die App",
       "date": "2026-09-08",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/kombucha-lernt-kindergeburtstag/"
-    },
-    {
-      "title": "Zevia holt einen Red-Bull-Mann",
-      "date": "2026-06-16",
-      "created": "2026-06-16T23:52:12.355Z",
-      "slug": "zevia-holt-einen-red-bull-mann",
-      "rubrik": "hellmuth",
-      "lead": "Die Stevia-Limonade Zevia sucht ihren Ausweg aus der Stagnation ausgerechnet bei einem Veteranen der Energydrink-Industrie.",
-      "source_name": "Food Dive",
-      "source_url": "https://www.fooddive.com/news/red-bull-coca-cola-celsius-executive-CEO-zevia/822996/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/zevia-holt-einen-red-bull-mann/"
-    },
-    {
-      "title": "Nestlé USA streicht künstliche Farbstoffe",
-      "date": "2026-06-16",
-      "created": "2026-06-16T23:51:17.495Z",
-      "slug": "nestl-usa-streicht-kunstliche-farbstoffe",
-      "rubrik": "hellmuth",
-      "lead": "Was als Verbraucherschutz inszeniert wird, ist Vorgriff auf eine absehbare Regulierung.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/15/nestle-usa-eliminates-artificial-colors-as-part-of-broader-reformulation-overhaul/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/nestl-usa-streicht-kunstliche-farbstoffe/"
     }
   ],
   "science": [
+    {
+      "title": "Ein Thalamus-Rezeptor verlängert das Arbeitsgedächtnis, wenn Anandamid andockt",
+      "date": "2026-09-09",
+      "created": "2026-09-09T00:30:30.006Z",
+      "slug": "ein-thalamus-rezeptor-verlangert-das-arbeitsgedachtnis-wenn-anandamid-andockt",
+      "rubrik": "science",
+      "lead": "Arbeitsgedächtnis galt lange als Kapazitätsproblem; ein Preprint auf bioRxiv verschiebt es zur Frage der biochemischen Haltedauer.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.03.749183v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-thalamus-rezeptor-verlangert-das-arbeitsgedachtnis-wenn-anandamid-andockt/"
+    },
+    {
+      "title": "Sozialer Stress schärft den Reiz zur Flasche",
+      "date": "2026-09-09",
+      "created": "2026-09-09T00:30:08.272Z",
+      "slug": "sozialer-stress-scharft-den-reiz-zur-flasche",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem Verbund TRR265 misst, was Rückfallberichte seit Jahrzehnten behaupten: unter akutem Stress gewinnen konditionierte Trinkreize an Zugkraft.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.01.26361915v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sozialer-stress-scharft-den-reiz-zur-flasche/"
+    },
+    {
+      "title": "Anatomischer Kompass für die Magnetspule",
+      "date": "2026-09-09",
+      "created": "2026-09-09T00:29:47.130Z",
+      "slug": "anatomischer-kompass-fur-die-magnetspule",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Depressionsforschung tauscht die statistische Zielsuche gegen individuelle Hirnkartografie.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.03.26362155v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/anatomischer-kompass-fur-die-magnetspule/"
+    },
     {
       "title": "Cannabis-Legalisierung in Deutschland, gemessen im Alltag",
       "date": "2026-09-08",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein/"
-    },
-    {
-      "title": "Zwei Achsen, ein Spektrum",
-      "date": "2026-07-03",
-      "created": "2026-07-03T23:34:47.216Z",
-      "slug": "zwei-achsen-ein-spektrum",
-      "rubrik": "science",
-      "lead": "Ein Preprint zieht Schizophrenie und bipolare Störung auf dieselbe kortikale Landkarte.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.30.26356921v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwei-achsen-ein-spektrum/"
-    },
-    {
-      "title": "Bupropion gegen Mephedron-Craving",
-      "date": "2026-07-02",
-      "created": "2026-07-02T23:35:05.857Z",
-      "slug": "bupropion-gegen-mephedron-craving",
-      "rubrik": "science",
-      "lead": "Ein Fallbericht aus Polen dockt eine synthetische Cathinon-Sucht an ein Antidepressivum an, das für Nikotin gebaut wurde.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.12740/PP/202518",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/bupropion-gegen-mephedron-craving/"
-    },
-    {
-      "title": "Zwei Wege ins Tryptophan",
-      "date": "2026-07-02",
-      "created": "2026-07-02T23:34:51.472Z",
-      "slug": "zwei-wege-ins-tryptophan",
-      "rubrik": "science",
-      "lead": "Methamphetamin und MDMA teilen sich das Stimulanzien-Etikett, aber nicht die Biochemie ihrer Schäden.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1038/s41398-026-04069-4",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/zwei-wege-ins-tryptophan/"
     }
   ]
 }

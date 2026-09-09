@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 08 Sep 2026 00:32:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 00:30:30 GMT</lastBuildDate>
+    <item>
+      <title>Zweiter Anlauf ins Mittelfeld</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/zweiter-anlauf-ins-mittelfeld/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zweiter-anlauf-ins-mittelfeld/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:22:51 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Versuch, zwischen Wasser und Wodka eine eigene Kategorie zu etablieren, geht in die Verlängerung.</description>
+    </item>
+    <item>
+      <title>Alkoholfreie Getränke ziehen im US-Handel an</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreie-getranke-ziehen-im-us-handel-an/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreie-getranke-ziehen-im-us-handel-an/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:22:35 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der amerikanische Getränkemarkt verschiebt sein Wachstum in die nüchterne Spalte.</description>
+    </item>
     <item>
       <title>Chagee, Der kleine Prinz und die App</title>
       <link>https://hellmuth-soda.de/news/hellmuth/chagee-der-kleine-prinz-und-die-app/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Tue, 16 Jun 2026 23:52:35 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der Kombucha-Marktführer GT's koppelt sich an einen Sauerkirschsaft-Spezialisten und nennt das Ergebnis Shirley Temple.</description>
-    </item>
-    <item>
-      <title>Zevia holt einen Red-Bull-Mann</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/zevia-holt-einen-red-bull-mann/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zevia-holt-einen-red-bull-mann/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:52:12 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die Stevia-Limonade Zevia sucht ihren Ausweg aus der Stagnation ausgerechnet bei einem Veteranen der Energydrink-Industrie.</description>
-    </item>
-    <item>
-      <title>Nestlé USA streicht künstliche Farbstoffe</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/nestl-usa-streicht-kunstliche-farbstoffe/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/nestl-usa-streicht-kunstliche-farbstoffe/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:51:17 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was als Verbraucherschutz inszeniert wird, ist Vorgriff auf eine absehbare Regulierung.</description>
     </item>
   </channel>
 </rss>

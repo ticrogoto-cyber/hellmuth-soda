@@ -1681,6 +1681,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/zweiter-anlauf-ins-mittelfeld/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/alkoholfreie-getranke-ziehen-im-us-handel-an/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/chagee-der-kleine-prinz-und-die-app/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -2869,14 +2881,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/zevia-holt-einen-red-bull-mann/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/ein-thalamus-rezeptor-verlangert-das-arbeitsgedachtnis-wenn-anandamid-andockt/</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/nestl-usa-streicht-kunstliche-farbstoffe/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/sozialer-stress-scharft-den-reiz-zur-flasche/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/anatomischer-kompass-fur-die-magnetspule/</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4059,24 +4077,6 @@
   <url>
     <loc>https://hellmuth-soda.de/news/science/alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein/</loc>
     <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/zwei-achsen-ein-spektrum/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/bupropion-gegen-mephedron-craving/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/zwei-wege-ins-tryptophan/</loc>
-    <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
