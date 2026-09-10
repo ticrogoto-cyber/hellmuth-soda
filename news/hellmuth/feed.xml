@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:25:09 GMT</lastBuildDate>
+    <item>
+      <title>Zuckerfrei kippt vom Nischenlabel zur Default-Bestellung</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:24:17 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Was in deutschen Gastronomiebestellungen als Diät-Variante begann, wird zum Regelfall.</description>
+    </item>
+    <item>
+      <title>Pandan zieht nach Norden</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/pandan-zieht-nach-norden/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/pandan-zieht-nach-norden/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:21:00 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein südostasiatisches Aromablatt drängt in Chinas Kaffeetassen und markiert die nächste Welle exotischer Geschmäcker.</description>
+    </item>
     <item>
       <title>Zweiter Anlauf ins Mittelfeld</title>
       <link>https://hellmuth-soda.de/news/hellmuth/zweiter-anlauf-ins-mittelfeld/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Wed, 17 Jun 2026 23:53:51 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Was die Branche als technologische Raffinesse feiert, ist die Industrialisierung der Abkürzung.</description>
-    </item>
-    <item>
-      <title>Klares Whey frisst den Markt leer</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/klares-whey-frisst-den-markt-leer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/klares-whey-frisst-den-markt-leer/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:53:34 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Funktionsgetränke mit Whey-Protein-Isolat treiben eine Nachfrage, der die Rohstoffbasis nicht mehr hinterherkommt.</description>
-    </item>
-    <item>
-      <title>Kombucha lernt Kindergeburtstag</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/kombucha-lernt-kindergeburtstag/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/kombucha-lernt-kindergeburtstag/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:52:35 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der Kombucha-Marktführer GT's koppelt sich an einen Sauerkirschsaft-Spezialisten und nennt das Ergebnis Shirley Temple.</description>
     </item>
   </channel>
 </rss>

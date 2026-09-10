@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:25:09 GMT</lastBuildDate>
+    <item>
+      <title>Cannabis frei, Nikotin verboten</title>
+      <link>https://hellmuth-soda.de/news/science/cannabis-frei-nikotin-verboten/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-frei-nikotin-verboten/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:25:09 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Zwei Substanzen, zwei Gesetzgebungen, ein Widerspruch, den die Politik nicht mehr verdeckt.</description>
+    </item>
+    <item>
+      <title>Selen und Vitamin D3 als Marker für Alkoholabhängigkeit</title>
+      <link>https://hellmuth-soda.de/news/science/selen-und-vitamin-d3-als-marker-fur-alkoholabhangigkeit/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/selen-und-vitamin-d3-als-marker-fur-alkoholabhangigkeit/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:24:56 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Zwei Blutwerte sollen künftig anzeigen, wie schwer eine Alkoholabhängigkeit verläuft.</description>
+    </item>
+    <item>
+      <title>Psychosoziale Interventionen bei Alkoholabhängigkeit auf dem Prüfstand</title>
+      <link>https://hellmuth-soda.de/news/science/psychosoziale-interventionen-bei-alkoholabhangigkeit-auf-dem-prufstand/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychosoziale-interventionen-bei-alkoholabhangigkeit-auf-dem-prufstand/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:24:44 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Review in Medical Science Monitor sortiert die Wirksamkeit psychosozialer Verfahren gegen Alkoholabhängigkeit neu.</description>
+    </item>
+    <item>
+      <title>Zuckerfrei kippt vom Nischenlabel zur Default-Bestellung</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:24:17 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Was in deutschen Gastronomiebestellungen als Diät-Variante begann, wird zum Regelfall.</description>
+    </item>
+    <item>
+      <title>Pandan zieht nach Norden</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/pandan-zieht-nach-norden/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/pandan-zieht-nach-norden/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:21:00 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein südostasiatisches Aromablatt drängt in Chinas Kaffeetassen und markiert die nächste Welle exotischer Geschmäcker.</description>
+    </item>
     <item>
       <title>Ein Thalamus-Rezeptor verlängert das Arbeitsgedächtnis, wenn Anandamid andockt</title>
       <link>https://hellmuth-soda.de/news/science/ein-thalamus-rezeptor-verlangert-das-arbeitsgedachtnis-wenn-anandamid-andockt/</link>
@@ -2880,30 +2920,6 @@
       <description>Ein Preprint aus der Neurowissenschaft koppelt Noradrenalin-Drosselung an die Ausbildung riskanter Entscheidungsmuster, bei Weibchen zusätzlich an motorische Impulsivität.</description>
     </item>
     <item>
-      <title>Oxytocin plus Achtsamkeit gegen Negativsymptome</title>
-      <link>https://hellmuth-soda.de/news/science/oxytocin-plus-achtsamkeit-gegen-negativsymptome/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/oxytocin-plus-achtsamkeit-gegen-negativsymptome/</guid>
-      <pubDate>Sat, 04 Jul 2026 23:18:22 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Berliner Pilotversuch koppelt das Bindungshormon an Gruppentherapie, weil Oxytocin allein je nach sozialem Kontext hilft oder schadet.</description>
-    </item>
-    <item>
-      <title>Wenn der Tastsinn früher kippt als das Gedächtnis</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-der-tastsinn-fruher-kippt-als-das-gedachtnis/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-der-tastsinn-fruher-kippt-als-das-gedachtnis/</guid>
-      <pubDate>Fri, 03 Jul 2026 23:35:28 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint deutet an, dass sensorische Filter im Gehirn nachlassen, bevor kognitive Tests Alarm schlagen.</description>
-    </item>
-    <item>
-      <title>Alkohol vor der Zeugung schreibt sich in die Nachkommen ein</title>
-      <link>https://hellmuth-soda.de/news/science/alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein/</guid>
-      <pubDate>Fri, 03 Jul 2026 23:35:05 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint an Mäusen legt nahe, dass elterlicher Alkoholkonsum vor der Zeugung die Genaktivität der Nachkommen umschreibt, geschlechts- und gewebespezifisch.</description>
-    </item>
-    <item>
       <title>Indonesiens alkoholfreier Getränkemarkt lahmt trotz demografischer Rückenlage</title>
       <link>https://hellmuth-soda.de/news/hellmuth/indonesiens-alkoholfreier-getrankemarkt-lahmt-trotz-demografischer-ruckenlage/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/indonesiens-alkoholfreier-getrankemarkt-lahmt-trotz-demografischer-ruckenlage/</guid>
@@ -3190,22 +3206,6 @@
       <pubDate>Wed, 17 Jun 2026 23:53:51 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Was die Branche als technologische Raffinesse feiert, ist die Industrialisierung der Abkürzung.</description>
-    </item>
-    <item>
-      <title>Klares Whey frisst den Markt leer</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/klares-whey-frisst-den-markt-leer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/klares-whey-frisst-den-markt-leer/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:53:34 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Funktionsgetränke mit Whey-Protein-Isolat treiben eine Nachfrage, der die Rohstoffbasis nicht mehr hinterherkommt.</description>
-    </item>
-    <item>
-      <title>Kombucha lernt Kindergeburtstag</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/kombucha-lernt-kindergeburtstag/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/kombucha-lernt-kindergeburtstag/</guid>
-      <pubDate>Tue, 16 Jun 2026 23:52:35 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der Kombucha-Marktführer GT's koppelt sich an einen Sauerkirschsaft-Spezialisten und nennt das Ergebnis Shirley Temple.</description>
     </item>
   </channel>
 </rss>

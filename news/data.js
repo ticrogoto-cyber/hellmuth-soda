@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-09T00:30:30.077Z",
+  "generated": "2026-09-10T00:25:09.246Z",
   "hellmuth": [
+    {
+      "title": "Zuckerfrei kippt vom Nischenlabel zur Default-Bestellung",
+      "date": "2026-09-10",
+      "created": "2026-09-10T00:24:17.255Z",
+      "slug": "zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung",
+      "rubrik": "hellmuth",
+      "lead": "Was in deutschen Gastronomiebestellungen als Diät-Variante begann, wird zum Regelfall.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/immer-weniger-zucker-wie-sich-deutschlands-getraenkegeschmack-veraendert/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung/"
+    },
+    {
+      "title": "Pandan zieht nach Norden",
+      "date": "2026-09-10",
+      "created": "2026-09-10T00:21:00.717Z",
+      "slug": "pandan-zieht-nach-norden",
+      "rubrik": "hellmuth",
+      "lead": "Ein südostasiatisches Aromablatt drängt in Chinas Kaffeetassen und markiert die nächste Welle exotischer Geschmäcker.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/09/ah-huat-signals-pandan-as-chinas-next-exotic-flavour-wave/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/pandan-zieht-nach-norden/"
+    },
     {
       "title": "Zweiter Anlauf ins Mittelfeld",
       "date": "2026-09-09",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/"
-    },
-    {
-      "title": "Klares Whey frisst den Markt leer",
-      "date": "2026-06-17",
-      "created": "2026-06-17T23:53:34.748Z",
-      "slug": "klares-whey-frisst-den-markt-leer",
-      "rubrik": "hellmuth",
-      "lead": "Funktionsgetränke mit Whey-Protein-Isolat treiben eine Nachfrage, der die Rohstoffbasis nicht mehr hinterherkommt.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/17/clear-whey-drives-functional-drinks-as-wpi-supply-tightens/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/klares-whey-frisst-den-markt-leer/"
-    },
-    {
-      "title": "Kombucha lernt Kindergeburtstag",
-      "date": "2026-06-16",
-      "created": "2026-06-16T23:52:35.486Z",
-      "slug": "kombucha-lernt-kindergeburtstag",
-      "rubrik": "hellmuth",
-      "lead": "Der Kombucha-Marktführer GT's koppelt sich an einen Sauerkirschsaft-Spezialisten und nennt das Ergebnis Shirley Temple.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/gts-cheribundi-team-up-for-shirley-temple-flavored-lto",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/kombucha-lernt-kindergeburtstag/"
     }
   ],
   "science": [
+    {
+      "title": "Cannabis frei, Nikotin verboten",
+      "date": "2026-09-10",
+      "created": "2026-09-10T00:25:09.158Z",
+      "slug": "cannabis-frei-nikotin-verboten",
+      "rubrik": "science",
+      "lead": "Zwei Substanzen, zwei Gesetzgebungen, ein Widerspruch, den die Politik nicht mehr verdeckt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1186/s12954-026-01517-8",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabis-frei-nikotin-verboten/"
+    },
+    {
+      "title": "Selen und Vitamin D3 als Marker für Alkoholabhängigkeit",
+      "date": "2026-09-10",
+      "created": "2026-09-10T00:24:56.533Z",
+      "slug": "selen-und-vitamin-d3-als-marker-fur-alkoholabhangigkeit",
+      "rubrik": "science",
+      "lead": "Zwei Blutwerte sollen künftig anzeigen, wie schwer eine Alkoholabhängigkeit verläuft.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.18097/PBMCR1689",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/selen-und-vitamin-d3-als-marker-fur-alkoholabhangigkeit/"
+    },
+    {
+      "title": "Psychosoziale Interventionen bei Alkoholabhängigkeit auf dem Prüfstand",
+      "date": "2026-09-10",
+      "created": "2026-09-10T00:24:44.376Z",
+      "slug": "psychosoziale-interventionen-bei-alkoholabhangigkeit-auf-dem-prufstand",
+      "rubrik": "science",
+      "lead": "Ein Review in Medical Science Monitor sortiert die Wirksamkeit psychosozialer Verfahren gegen Alkoholabhängigkeit neu.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.12659/MSM.952777",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/psychosoziale-interventionen-bei-alkoholabhangigkeit-auf-dem-prufstand/"
+    },
     {
       "title": "Ein Thalamus-Rezeptor verlängert das Arbeitsgedächtnis, wenn Anandamid andockt",
       "date": "2026-09-09",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/locus-coeruleus-stillgelegt-ratten-spielen-riskanter/"
-    },
-    {
-      "title": "Oxytocin plus Achtsamkeit gegen Negativsymptome",
-      "date": "2026-07-04",
-      "created": "2026-07-04T23:18:22.641Z",
-      "slug": "oxytocin-plus-achtsamkeit-gegen-negativsymptome",
-      "rubrik": "science",
-      "lead": "Ein Berliner Pilotversuch koppelt das Bindungshormon an Gruppentherapie, weil Oxytocin allein je nach sozialem Kontext hilft oder schadet.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.01.26356996v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/oxytocin-plus-achtsamkeit-gegen-negativsymptome/"
-    },
-    {
-      "title": "Wenn der Tastsinn früher kippt als das Gedächtnis",
-      "date": "2026-07-03",
-      "created": "2026-07-03T23:35:28.001Z",
-      "slug": "wenn-der-tastsinn-fruher-kippt-als-das-gedachtnis",
-      "rubrik": "science",
-      "lead": "Ein Preprint deutet an, dass sensorische Filter im Gehirn nachlassen, bevor kognitive Tests Alarm schlagen.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735283v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-der-tastsinn-fruher-kippt-als-das-gedachtnis/"
-    },
-    {
-      "title": "Alkohol vor der Zeugung schreibt sich in die Nachkommen ein",
-      "date": "2026-07-03",
-      "created": "2026-07-03T23:35:05.254Z",
-      "slug": "alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein",
-      "rubrik": "science",
-      "lead": "Ein Preprint an Mäusen legt nahe, dass elterlicher Alkoholkonsum vor der Zeugung die Genaktivität der Nachkommen umschreibt, geschlechts- und gewebespezifisch.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735337v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alkohol-vor-der-zeugung-schreibt-sich-in-die-nachkommen-ein/"
     }
   ]
 }
