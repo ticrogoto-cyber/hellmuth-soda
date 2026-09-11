@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-10T00:28:45.229Z",
+  "generated": "2026-09-11T00:22:14.254Z",
   "items": [
     {
       "title": "Freiburg, zwei Messerangriffe, ein Verdächtiger",
