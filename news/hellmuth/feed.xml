@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 10 Sep 2026 00:25:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:20:37 GMT</lastBuildDate>
+    <item>
+      <title>Alkoholfrei als Ausgang, nicht als Einstieg</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfrei-als-ausgang-nicht-als-einstieg/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfrei-als-ausgang-nicht-als-einstieg/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:16:15 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die Gateway-These gegen alkoholfreie Getränke bekommt in der Branchenpresse ihren Widerruf.</description>
+    </item>
+    <item>
+      <title>Carlsberg und Sapporo verbünden sich</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/carlsberg-und-sapporo-verbunden-sich/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/carlsberg-und-sapporo-verbunden-sich/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:15:15 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Zwei Braukonzerne teilen sich künftig Regale in Asien und Großbritannien, statt sich darin zu bekämpfen.</description>
+    </item>
     <item>
       <title>Zuckerfrei kippt vom Nischenlabel zur Default-Bestellung</title>
       <link>https://hellmuth-soda.de/news/hellmuth/zuckerfrei-kippt-vom-nischenlabel-zur-default-bestellung/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Fri, 19 Jun 2026 23:18:55 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Suntory PepsiCo verschiebt seine Kaffeemarke in das Regal, in dem Koffein nicht mehr getrunken, sondern dosiert wird.</description>
-    </item>
-    <item>
-      <title>Alkoholfreies Bier ist kein Ausstieg</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:54:26 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>94 Prozent der Konsumenten alkoholfreier Biere trinken weiterhin Alkohol.</description>
-    </item>
-    <item>
-      <title>Enzyme als Stillschweigevereinbarung der Getränkeindustrie</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:53:51 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was die Branche als technologische Raffinesse feiert, ist die Industrialisierung der Abkürzung.</description>
     </item>
   </channel>
 </rss>

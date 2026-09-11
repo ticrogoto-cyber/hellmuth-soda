@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 10 Sep 2026 00:25:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:20:37 GMT</lastBuildDate>
+    <item>
+      <title>Nach der ersten Psychose kippt Mischkonsum die Remission</title>
+      <link>https://hellmuth-soda.de/news/science/nach-der-ersten-psychose-kippt-mischkonsum-die-remission/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nach-der-ersten-psychose-kippt-mischkonsum-die-remission/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:20:37 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Wer nach einer ersten psychotischen Episode mehrere Substanzen parallel konsumiert, verliert die Remission an zwei Fronten gleichzeitig.</description>
+    </item>
+    <item>
+      <title>Wischen gegen den Reflex</title>
+      <link>https://hellmuth-soda.de/news/science/wischen-gegen-den-reflex/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wischen-gegen-den-reflex/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:20:26 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Smartphone soll umtrainieren, was der Griff zum Glas automatisch tut.</description>
+    </item>
+    <item>
+      <title>Rauchstopp tut weh, und das ist Programm</title>
+      <link>https://hellmuth-soda.de/news/science/rauchstopp-tut-weh-und-das-ist-programm/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/rauchstopp-tut-weh-und-das-ist-programm/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:20:14 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Der Schmerz nach der letzten Zigarette ist keine Nebenwirkung des Entzugs, sondern dessen zentrale Waffe.</description>
+    </item>
+    <item>
+      <title>Alkoholfrei als Ausgang, nicht als Einstieg</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfrei-als-ausgang-nicht-als-einstieg/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfrei-als-ausgang-nicht-als-einstieg/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:16:15 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die Gateway-These gegen alkoholfreie Getränke bekommt in der Branchenpresse ihren Widerruf.</description>
+    </item>
+    <item>
+      <title>Carlsberg und Sapporo verbünden sich</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/carlsberg-und-sapporo-verbunden-sich/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/carlsberg-und-sapporo-verbunden-sich/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:15:15 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Zwei Braukonzerne teilen sich künftig Regale in Asien und Großbritannien, statt sich darin zu bekämpfen.</description>
+    </item>
     <item>
       <title>Cannabis frei, Nikotin verboten</title>
       <link>https://hellmuth-soda.de/news/science/cannabis-frei-nikotin-verboten/</link>
@@ -2872,14 +2912,6 @@
       <description>Ein Preprint erklärt, warum Gedächtniswellen im Hippocampus lokal bleiben, obwohl sie zu den synchronsten Ereignissen des Gehirns zählen.</description>
     </item>
     <item>
-      <title>Wenn Oxytocin im Säuglingshirn fehlt, bleibt der Schmerz</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-oxytocin-im-sauglingshirn-fehlt-bleibt-der-schmerz/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-oxytocin-im-sauglingshirn-fehlt-bleibt-der-schmerz/</guid>
-      <pubDate>Sun, 05 Jul 2026 23:32:15 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Neurowissenschaft verlegt die Wurzel früher Traumafolgen von der Mutter-Kind-Trennung auf ein einzelnes Rezeptorsystem.</description>
-    </item>
-    <item>
       <title>Kaubares Getränk mit Fitnessversprechen</title>
       <link>https://hellmuth-soda.de/news/hellmuth/kaubares-getrank-mit-fitnessversprechen/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/kaubares-getrank-mit-fitnessversprechen/</guid>
@@ -2902,22 +2934,6 @@
       <pubDate>Sun, 05 Jul 2026 23:31:12 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die chinesische Teekette Chagee verschiebt ihre Referenzachse von Fujian nach London.</description>
-    </item>
-    <item>
-      <title>Alzheimer sitzt im falschen Fach</title>
-      <link>https://hellmuth-soda.de/news/science/alzheimer-sitzt-im-falschen-fach/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-sitzt-im-falschen-fach/</guid>
-      <pubDate>Sat, 04 Jul 2026 23:18:53 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verlagert die Alzheimer-Frage von der Menge der Proteine auf ihren Ort in der Zelle.</description>
-    </item>
-    <item>
-      <title>Locus coeruleus, stillgelegt, Ratten spielen riskanter</title>
-      <link>https://hellmuth-soda.de/news/science/locus-coeruleus-stillgelegt-ratten-spielen-riskanter/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/locus-coeruleus-stillgelegt-ratten-spielen-riskanter/</guid>
-      <pubDate>Sat, 04 Jul 2026 23:18:39 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Neurowissenschaft koppelt Noradrenalin-Drosselung an die Ausbildung riskanter Entscheidungsmuster, bei Weibchen zusätzlich an motorische Impulsivität.</description>
     </item>
     <item>
       <title>Indonesiens alkoholfreier Getränkemarkt lahmt trotz demografischer Rückenlage</title>
@@ -3190,22 +3206,6 @@
       <pubDate>Fri, 19 Jun 2026 23:18:55 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Suntory PepsiCo verschiebt seine Kaffeemarke in das Regal, in dem Koffein nicht mehr getrunken, sondern dosiert wird.</description>
-    </item>
-    <item>
-      <title>Alkoholfreies Bier ist kein Ausstieg</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:54:26 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>94 Prozent der Konsumenten alkoholfreier Biere trinken weiterhin Alkohol.</description>
-    </item>
-    <item>
-      <title>Enzyme als Stillschweigevereinbarung der Getränkeindustrie</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/</guid>
-      <pubDate>Wed, 17 Jun 2026 23:53:51 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was die Branche als technologische Raffinesse feiert, ist die Industrialisierung der Abkürzung.</description>
     </item>
   </channel>
 </rss>

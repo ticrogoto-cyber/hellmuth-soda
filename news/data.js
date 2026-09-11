@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-10T00:25:09.246Z",
+  "generated": "2026-09-11T00:20:37.950Z",
   "hellmuth": [
+    {
+      "title": "Alkoholfrei als Ausgang, nicht als Einstieg",
+      "date": "2026-09-11",
+      "created": "2026-09-11T00:16:15.834Z",
+      "slug": "alkoholfrei-als-ausgang-nicht-als-einstieg",
+      "rubrik": "hellmuth",
+      "lead": "Die Gateway-These gegen alkoholfreie Getränke bekommt in der Branchenpresse ihren Widerruf.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/09/why-alcohol-free-drinks-arent-a-gateway-to-booze-but-a-path-to-moderation/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfrei-als-ausgang-nicht-als-einstieg/"
+    },
+    {
+      "title": "Carlsberg und Sapporo verbünden sich",
+      "date": "2026-09-11",
+      "created": "2026-09-11T00:15:15.364Z",
+      "slug": "carlsberg-und-sapporo-verbunden-sich",
+      "rubrik": "hellmuth",
+      "lead": "Zwei Braukonzerne teilen sich künftig Regale in Asien und Großbritannien, statt sich darin zu bekämpfen.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/09/01/carlsberg-and-sapporo-go-in-big-on-alliance-in-asia-uk/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/carlsberg-und-sapporo-verbunden-sich/"
+    },
     {
       "title": "Zuckerfrei kippt vom Nischenlabel zur Default-Bestellung",
       "date": "2026-09-10",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/boss-coffee-dockt-in-vietnam-an-den-energy-drink-markt-an/"
-    },
-    {
-      "title": "Alkoholfreies Bier ist kein Ausstieg",
-      "date": "2026-06-17",
-      "created": "2026-06-17T23:54:26.360Z",
-      "slug": "alkoholfreies-bier-ist-kein-ausstieg",
-      "rubrik": "hellmuth",
-      "lead": "94 Prozent der Konsumenten alkoholfreier Biere trinken weiterhin Alkohol.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/94-of-alcohol-free-beer-drinkers-also-consume-booze/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/alkoholfreies-bier-ist-kein-ausstieg/"
-    },
-    {
-      "title": "Enzyme als Stillschweigevereinbarung der Getränkeindustrie",
-      "date": "2026-06-17",
-      "created": "2026-06-17T23:53:51.105Z",
-      "slug": "enzyme-als-stillschweigevereinbarung-der-getrankeindustrie",
-      "rubrik": "hellmuth",
-      "lead": "Was die Branche als technologische Raffinesse feiert, ist die Industrialisierung der Abkürzung.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/16/enzyme-solutions-to-upfs-in-beer-brewing-alcohol-free-coffee/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/enzyme-als-stillschweigevereinbarung-der-getrankeindustrie/"
     }
   ],
   "science": [
+    {
+      "title": "Nach der ersten Psychose kippt Mischkonsum die Remission",
+      "date": "2026-09-11",
+      "created": "2026-09-11T00:20:37.860Z",
+      "slug": "nach-der-ersten-psychose-kippt-mischkonsum-die-remission",
+      "rubrik": "science",
+      "lead": "Wer nach einer ersten psychotischen Episode mehrere Substanzen parallel konsumiert, verliert die Remission an zwei Fronten gleichzeitig.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.schres.2026.09.004",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nach-der-ersten-psychose-kippt-mischkonsum-die-remission/"
+    },
+    {
+      "title": "Wischen gegen den Reflex",
+      "date": "2026-09-11",
+      "created": "2026-09-11T00:20:26.819Z",
+      "slug": "wischen-gegen-den-reflex",
+      "rubrik": "science",
+      "lead": "Ein Smartphone soll umtrainieren, was der Griff zum Glas automatisch tut.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.2196/89635",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/wischen-gegen-den-reflex/"
+    },
+    {
+      "title": "Rauchstopp tut weh, und das ist Programm",
+      "date": "2026-09-11",
+      "created": "2026-09-11T00:20:14.946Z",
+      "slug": "rauchstopp-tut-weh-und-das-ist-programm",
+      "rubrik": "science",
+      "lead": "Der Schmerz nach der letzten Zigarette ist keine Nebenwirkung des Entzugs, sondern dessen zentrale Waffe.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/cns.71132",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/rauchstopp-tut-weh-und-das-ist-programm/"
+    },
     {
       "title": "Cannabis frei, Nikotin verboten",
       "date": "2026-09-10",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/warum-der-hippocampus-nicht-im-chor-singt/"
-    },
-    {
-      "title": "Wenn Oxytocin im Säuglingshirn fehlt, bleibt der Schmerz",
-      "date": "2026-07-05",
-      "created": "2026-07-05T23:32:15.806Z",
-      "slug": "wenn-oxytocin-im-sauglingshirn-fehlt-bleibt-der-schmerz",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Neurowissenschaft verlegt die Wurzel früher Traumafolgen von der Mutter-Kind-Trennung auf ein einzelnes Rezeptorsystem.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736474v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-oxytocin-im-sauglingshirn-fehlt-bleibt-der-schmerz/"
-    },
-    {
-      "title": "Alzheimer sitzt im falschen Fach",
-      "date": "2026-07-04",
-      "created": "2026-07-04T23:18:53.690Z",
-      "slug": "alzheimer-sitzt-im-falschen-fach",
-      "rubrik": "science",
-      "lead": "Ein Preprint verlagert die Alzheimer-Frage von der Menge der Proteine auf ihren Ort in der Zelle.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735694v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alzheimer-sitzt-im-falschen-fach/"
-    },
-    {
-      "title": "Locus coeruleus, stillgelegt, Ratten spielen riskanter",
-      "date": "2026-07-04",
-      "created": "2026-07-04T23:18:39.594Z",
-      "slug": "locus-coeruleus-stillgelegt-ratten-spielen-riskanter",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Neurowissenschaft koppelt Noradrenalin-Drosselung an die Ausbildung riskanter Entscheidungsmuster, bei Weibchen zusätzlich an motorische Impulsivität.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736138v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/locus-coeruleus-stillgelegt-ratten-spielen-riskanter/"
     }
   ]
 }
