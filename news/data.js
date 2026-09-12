@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-11T00:20:37.950Z",
+  "generated": "2026-09-12T00:27:20.736Z",
   "hellmuth": [
+    {
+      "title": "EFSA winkt Aspartam-Acesulfam-Salz erneut durch",
+      "date": "2026-09-12",
+      "created": "2026-09-12T00:26:15.118Z",
+      "slug": "efsa-winkt-aspartam-acesulfam-salz-erneut-durch",
+      "rubrik": "hellmuth",
+      "lead": "Die europäische Lebensmittelbehörde bestätigt die Sicherheit eines Süßstoffgemischs, dessen Einzelbestandteile international längst umstritten sind.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/efsa-bestaetigt-sicherheit-von-suessstoffen-in-getraenken/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/efsa-winkt-aspartam-acesulfam-salz-erneut-durch/"
+    },
+    {
+      "title": "Der Apfel wird zur Leitfrucht der Better-for-you-Sodas",
+      "date": "2026-09-12",
+      "created": "2026-09-12T00:24:19.585Z",
+      "slug": "der-apfel-wird-zur-leitfrucht-der-better-for-you-sodas",
+      "rubrik": "hellmuth",
+      "lead": "Was einmal Cola-Territorium war, gehört jetzt der Ballaststoff-Fraktion.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-products-apple-soda-for-olipop-proda-culture-pop",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-apfel-wird-zur-leitfrucht-der-better-for-you-sodas/"
+    },
+    {
+      "title": "MOTH sammelt 15 Millionen Dollar für die US-Expansion",
+      "date": "2026-09-12",
+      "created": "2026-09-12T00:24:04.866Z",
+      "slug": "moth-sammelt-15-millionen-dollar-fur-die-us-expansion",
+      "rubrik": "hellmuth",
+      "lead": "Die Dosen-Cocktail-Kategorie hat ihre Beweisphase hinter sich und tritt in die Kapitalphase ein.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/u-k-based-moth-bets-15m-on-u-s-growth-as-premium-rtds-surge",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/moth-sammelt-15-millionen-dollar-fur-die-us-expansion/"
+    },
     {
       "title": "Alkoholfrei als Ausgang, nicht als Einstieg",
       "date": "2026-09-11",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/matcha-als-diatpulver/"
-    },
-    {
-      "title": "Plantaé zieht ins 7-Eleven-Regal",
-      "date": "2026-06-21",
-      "created": "2026-06-21T23:48:49.012Z",
-      "slug": "planta-zieht-ins-7-eleven-regal",
-      "rubrik": "hellmuth",
-      "lead": "Functional Nutrition verlässt den Apothekenkontext und landet zwischen Onigiri und Cola.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/21/plantae-brings-lab-inspired-nutrition-to-7-eleven-with-on-the-go-range/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/planta-zieht-ins-7-eleven-regal/"
-    },
-    {
-      "title": "Hautcreme als Smoothie",
-      "date": "2026-06-20",
-      "created": "2026-06-20T23:39:18.633Z",
-      "slug": "hautcreme-als-smoothie",
-      "rubrik": "hellmuth",
-      "lead": "Kosmetikmarken besetzen die Saftbar als neuen Verkaufsregalplatz.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/20/oh-juice-and-cerave-develop-smoothie-that-promote-glow-from-within/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/hautcreme-als-smoothie/"
-    },
-    {
-      "title": "BOSS Coffee dockt in Vietnam an den Energy-Drink-Markt an",
-      "date": "2026-06-19",
-      "created": "2026-06-19T23:18:55.841Z",
-      "slug": "boss-coffee-dockt-in-vietnam-an-den-energy-drink-markt-an",
-      "rubrik": "hellmuth",
-      "lead": "Suntory PepsiCo verschiebt seine Kaffeemarke in das Regal, in dem Koffein nicht mehr getrunken, sondern dosiert wird.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/20/boss-coffee-expands-into-energy-drink-in-vietnam/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/boss-coffee-dockt-in-vietnam-an-den-energy-drink-markt-an/"
     }
   ],
   "science": [
+    {
+      "title": "Depression koppelt sich an Hirndynamik, aber nur individuell",
+      "date": "2026-09-12",
+      "created": "2026-09-12T00:27:20.669Z",
+      "slug": "depression-koppelt-sich-an-hirndynamik-aber-nur-individuell",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der niederländischen NESDA-Kohorte trennt, was Gruppenstatistik jahrelang vermengt hat.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362586v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/depression-koppelt-sich-an-hirndynamik-aber-nur-individuell/"
+    },
+    {
+      "title": "MAO-B im präfrontalen Kortex, deutlich erhöht bei therapieresistenter Depression",
+      "date": "2026-09-12",
+      "created": "2026-09-12T00:27:06.341Z",
+      "slug": "mao-b-im-prafrontalen-kortex-deutlich-erhoht-bei-therapieresistenter-depression",
+      "rubrik": "science",
+      "lead": "Ein Toronto-Preprint auf medRxiv verschiebt die Frage, warum manche Depressionen jeder Pharmakologie standhalten, vom Serotonin weg in die Astrozyten.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362462v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/mao-b-im-prafrontalen-kortex-deutlich-erhoht-bei-therapieresistenter-depression/"
+    },
+    {
+      "title": "Depression sitzt im motorischen Kortex",
+      "date": "2026-09-12",
+      "created": "2026-09-12T00:26:33.176Z",
+      "slug": "depression-sitzt-im-motorischen-kortex",
+      "rubrik": "science",
+      "lead": "Ein Preprint verortet das genetische Risiko für Major Depression nicht im Emotionszentrum, sondern im primären Bewegungsareal.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362568v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-sitzt-im-motorischen-kortex/"
+    },
     {
       "title": "Nach der ersten Psychose kippt Mischkonsum die Remission",
       "date": "2026-09-11",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/individualisierte-magnetstimulation-gegen-therapieresistente-depression/"
-    },
-    {
-      "title": "Schizophrenie lernt auch im Kopf schlechter",
-      "date": "2026-07-06",
-      "created": "2026-07-06T23:37:37.827Z",
-      "slug": "schizophrenie-lernt-auch-im-kopf-schlechter",
-      "rubrik": "science",
-      "lead": "Ein Preprint verschiebt die Grenze des kognitiven Defizits von der Hand ins vorgestellte Bewegen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357176v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/schizophrenie-lernt-auch-im-kopf-schlechter/"
-    },
-    {
-      "title": "Butyrat wirkt anders im männlichen Mikrogliom",
-      "date": "2026-07-05",
-      "created": "2026-07-05T23:32:50.120Z",
-      "slug": "butyrat-wirkt-anders-im-mannlichen-mikrogliom",
-      "rubrik": "science",
-      "lead": "Kurzkettige Fettsäuren aus dem Darm modulieren die Immunzellen des Gehirns geschlechtsspezifisch, und Butyrat schlägt am härtesten aus.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735602v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/butyrat-wirkt-anders-im-mannlichen-mikrogliom/"
-    },
-    {
-      "title": "Warum der Hippocampus nicht im Chor singt",
-      "date": "2026-07-05",
-      "created": "2026-07-05T23:32:33.220Z",
-      "slug": "warum-der-hippocampus-nicht-im-chor-singt",
-      "rubrik": "science",
-      "lead": "Ein Preprint erklärt, warum Gedächtniswellen im Hippocampus lokal bleiben, obwohl sie zu den synchronsten Ereignissen des Gehirns zählen.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.30.735500v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/warum-der-hippocampus-nicht-im-chor-singt/"
     }
   ]
 }

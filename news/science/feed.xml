@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 11 Sep 2026 00:20:37 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 00:27:20 GMT</lastBuildDate>
+    <item>
+      <title>Depression koppelt sich an Hirndynamik, aber nur individuell</title>
+      <link>https://hellmuth-soda.de/news/science/depression-koppelt-sich-an-hirndynamik-aber-nur-individuell/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-koppelt-sich-an-hirndynamik-aber-nur-individuell/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:27:20 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der niederländischen NESDA-Kohorte trennt, was Gruppenstatistik jahrelang vermengt hat.</description>
+    </item>
+    <item>
+      <title>MAO-B im präfrontalen Kortex, deutlich erhöht bei therapieresistenter Depression</title>
+      <link>https://hellmuth-soda.de/news/science/mao-b-im-prafrontalen-kortex-deutlich-erhoht-bei-therapieresistenter-depression/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/mao-b-im-prafrontalen-kortex-deutlich-erhoht-bei-therapieresistenter-depression/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:27:06 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Toronto-Preprint auf medRxiv verschiebt die Frage, warum manche Depressionen jeder Pharmakologie standhalten, vom Serotonin weg in die Astrozyten.</description>
+    </item>
+    <item>
+      <title>Depression sitzt im motorischen Kortex</title>
+      <link>https://hellmuth-soda.de/news/science/depression-sitzt-im-motorischen-kortex/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-sitzt-im-motorischen-kortex/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:26:33 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint verortet das genetische Risiko für Major Depression nicht im Emotionszentrum, sondern im primären Bewegungsareal.</description>
+    </item>
     <item>
       <title>Nach der ersten Psychose kippt Mischkonsum die Remission</title>
       <link>https://hellmuth-soda.de/news/science/nach-der-ersten-psychose-kippt-mischkonsum-die-remission/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Mon, 06 Jul 2026 23:37:52 GMT</pubDate>
       <category>Forschung</category>
       <description>Die Klinik als letzter Ort für Patienten, bei denen Medikamente versagen, bekommt ein zusätzliches Werkzeug getestet.</description>
-    </item>
-    <item>
-      <title>Schizophrenie lernt auch im Kopf schlechter</title>
-      <link>https://hellmuth-soda.de/news/science/schizophrenie-lernt-auch-im-kopf-schlechter/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-lernt-auch-im-kopf-schlechter/</guid>
-      <pubDate>Mon, 06 Jul 2026 23:37:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verschiebt die Grenze des kognitiven Defizits von der Hand ins vorgestellte Bewegen.</description>
-    </item>
-    <item>
-      <title>Butyrat wirkt anders im männlichen Mikrogliom</title>
-      <link>https://hellmuth-soda.de/news/science/butyrat-wirkt-anders-im-mannlichen-mikrogliom/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/butyrat-wirkt-anders-im-mannlichen-mikrogliom/</guid>
-      <pubDate>Sun, 05 Jul 2026 23:32:50 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Kurzkettige Fettsäuren aus dem Darm modulieren die Immunzellen des Gehirns geschlechtsspezifisch, und Butyrat schlägt am härtesten aus.</description>
-    </item>
-    <item>
-      <title>Warum der Hippocampus nicht im Chor singt</title>
-      <link>https://hellmuth-soda.de/news/science/warum-der-hippocampus-nicht-im-chor-singt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-der-hippocampus-nicht-im-chor-singt/</guid>
-      <pubDate>Sun, 05 Jul 2026 23:32:33 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint erklärt, warum Gedächtniswellen im Hippocampus lokal bleiben, obwohl sie zu den synchronsten Ereignissen des Gehirns zählen.</description>
     </item>
   </channel>
 </rss>
