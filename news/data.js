@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-12T00:27:20.736Z",
+  "generated": "2026-09-13T00:06:48.860Z",
   "hellmuth": [
     {
       "title": "EFSA winkt Aspartam-Acesulfam-Salz erneut durch",
@@ -2805,6 +2805,48 @@ window.NEWS_DATA =
   ],
   "science": [
     {
+      "title": "Blutfette als Kontextsignal für Hirnbefunde bei Depression und Schizophrenie",
+      "date": "2026-09-13",
+      "created": "2026-09-13T00:06:48.792Z",
+      "slug": "blutfette-als-kontextsignal-fur-hirnbefunde-bei-depression-und-schizophrenie",
+      "rubrik": "science",
+      "lead": "Ein medRxiv-Preprint sortiert periphere Lipid- und Antioxidansmarker in ein systemisches Modell psychiatrischer Hirnveränderungen ein.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362608v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/blutfette-als-kontextsignal-fur-hirnbefunde-bei-depression-und-schizophrenie/"
+    },
+    {
+      "title": "Psychose als Spektrum, genetisch zerlegt",
+      "date": "2026-09-13",
+      "created": "2026-09-13T00:06:31.186Z",
+      "slug": "psychose-als-spektrum-genetisch-zerlegt",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv sortiert Schizophrenie, bipolare Störung und Depression neu, nicht nach Diagnose, sondern nach geteilten genetischen Achsen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362224v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psychose-als-spektrum-genetisch-zerlegt/"
+    },
+    {
+      "title": "Schizophrenie hat ein Geschlecht in der Genregulation",
+      "date": "2026-09-13",
+      "created": "2026-09-13T00:06:17.525Z",
+      "slug": "schizophrenie-hat-ein-geschlecht-in-der-genregulation",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Studie auf medRxiv koppelt genetisch regulierte Genexpression mit funktionellen Hirnnetzwerken und findet, dass das Bindeglied bei Männern und Frauen unterschiedlich verläuft.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362641v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-hat-ein-geschlecht-in-der-genregulation/"
+    },
+    {
       "title": "Depression koppelt sich an Hirndynamik, aber nur individuell",
       "date": "2026-09-12",
       "created": "2026-09-12T00:27:20.669Z",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/wie-teuer-darf-der-rausch-sein/"
-    },
-    {
-      "title": "NAC dämpft Kynurensäure-Anstieg bei Schizophrenie",
-      "date": "2026-07-07",
-      "created": "2026-07-07T23:22:30.398Z",
-      "slug": "nac-dampft-kynurensaure-anstieg-bei-schizophrenie",
-      "rubrik": "science",
-      "lead": "Ein antioxidatives Aminosäure-Derivat greift dort ein, wo klassische Antipsychotika stumpf bleiben.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356572v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/nac-dampft-kynurensaure-anstieg-bei-schizophrenie/"
-    },
-    {
-      "title": "Wenn Angst mitaltert",
-      "date": "2026-07-06",
-      "created": "2026-07-06T23:38:07.029Z",
-      "slug": "wenn-angst-mitaltert",
-      "rubrik": "science",
-      "lead": "Soziale Angststörung allein lässt das Gehirn nicht schneller altern, die Komorbidität schon.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357108v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-angst-mitaltert/"
-    },
-    {
-      "title": "Individualisierte Magnetstimulation gegen therapieresistente Depression",
-      "date": "2026-07-06",
-      "created": "2026-07-06T23:37:52.400Z",
-      "slug": "individualisierte-magnetstimulation-gegen-therapieresistente-depression",
-      "rubrik": "science",
-      "lead": "Die Klinik als letzter Ort für Patienten, bei denen Medikamente versagen, bekommt ein zusätzliches Werkzeug getestet.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356553v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/individualisierte-magnetstimulation-gegen-therapieresistente-depression/"
     }
   ]
 }

@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 12 Sep 2026 00:27:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 00:06:48 GMT</lastBuildDate>
+    <item>
+      <title>Blutfette als Kontextsignal für Hirnbefunde bei Depression und Schizophrenie</title>
+      <link>https://hellmuth-soda.de/news/science/blutfette-als-kontextsignal-fur-hirnbefunde-bei-depression-und-schizophrenie/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/blutfette-als-kontextsignal-fur-hirnbefunde-bei-depression-und-schizophrenie/</guid>
+      <pubDate>Sun, 13 Sep 2026 00:06:48 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein medRxiv-Preprint sortiert periphere Lipid- und Antioxidansmarker in ein systemisches Modell psychiatrischer Hirnveränderungen ein.</description>
+    </item>
+    <item>
+      <title>Psychose als Spektrum, genetisch zerlegt</title>
+      <link>https://hellmuth-soda.de/news/science/psychose-als-spektrum-genetisch-zerlegt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psychose-als-spektrum-genetisch-zerlegt/</guid>
+      <pubDate>Sun, 13 Sep 2026 00:06:31 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf medRxiv sortiert Schizophrenie, bipolare Störung und Depression neu, nicht nach Diagnose, sondern nach geteilten genetischen Achsen.</description>
+    </item>
+    <item>
+      <title>Schizophrenie hat ein Geschlecht in der Genregulation</title>
+      <link>https://hellmuth-soda.de/news/science/schizophrenie-hat-ein-geschlecht-in-der-genregulation/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-hat-ein-geschlecht-in-der-genregulation/</guid>
+      <pubDate>Sun, 13 Sep 2026 00:06:17 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Studie auf medRxiv koppelt genetisch regulierte Genexpression mit funktionellen Hirnnetzwerken und findet, dass das Bindeglied bei Männern und Frauen unterschiedlich verläuft.</description>
+    </item>
     <item>
       <title>Depression koppelt sich an Hirndynamik, aber nur individuell</title>
       <link>https://hellmuth-soda.de/news/science/depression-koppelt-sich-an-hirndynamik-aber-nur-individuell/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Tue, 07 Jul 2026 23:22:44 GMT</pubDate>
       <category>Forschung</category>
       <description>Verhaltensökonomen messen Alkoholverlangen, indem sie Menschen fiktive Bierpreise vorlegen, und haben das Verfahren jetzt halbiert.</description>
-    </item>
-    <item>
-      <title>NAC dämpft Kynurensäure-Anstieg bei Schizophrenie</title>
-      <link>https://hellmuth-soda.de/news/science/nac-dampft-kynurensaure-anstieg-bei-schizophrenie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nac-dampft-kynurensaure-anstieg-bei-schizophrenie/</guid>
-      <pubDate>Tue, 07 Jul 2026 23:22:30 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein antioxidatives Aminosäure-Derivat greift dort ein, wo klassische Antipsychotika stumpf bleiben.</description>
-    </item>
-    <item>
-      <title>Wenn Angst mitaltert</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-angst-mitaltert/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-angst-mitaltert/</guid>
-      <pubDate>Mon, 06 Jul 2026 23:38:07 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Soziale Angststörung allein lässt das Gehirn nicht schneller altern, die Komorbidität schon.</description>
-    </item>
-    <item>
-      <title>Individualisierte Magnetstimulation gegen therapieresistente Depression</title>
-      <link>https://hellmuth-soda.de/news/science/individualisierte-magnetstimulation-gegen-therapieresistente-depression/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/individualisierte-magnetstimulation-gegen-therapieresistente-depression/</guid>
-      <pubDate>Mon, 06 Jul 2026 23:37:52 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Klinik als letzter Ort für Patienten, bei denen Medikamente versagen, bekommt ein zusätzliches Werkzeug getestet.</description>
     </item>
   </channel>
 </rss>
