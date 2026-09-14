@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-13T00:10:35.961Z",
+  "generated": "2026-09-14T00:21:52.861Z",
   "items": [
     {
       "title": "Schusswaffe gegen Linienbus in Hamburg-Neugraben",
