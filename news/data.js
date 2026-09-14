@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-13T00:06:48.860Z",
+  "generated": "2026-09-14T00:19:08.221Z",
   "hellmuth": [
+    {
+      "title": "Tealive baut Cham mit Da Hong Pao um",
+      "date": "2026-09-14",
+      "created": "2026-09-14T00:16:30.589Z",
+      "slug": "tealive-baut-cham-mit-da-hong-pao-um",
+      "rubrik": "hellmuth",
+      "lead": "Malaysias Kaffee-Tee-Mischgetränk bekommt eine Aufwertung, die weniger Handwerk als Positionierung ist.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/13/tealive-elevates-cham-tradition-with-layan-coffee-series/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/tealive-baut-cham-mit-da-hong-pao-um/"
+    },
     {
       "title": "EFSA winkt Aspartam-Acesulfam-Salz erneut durch",
       "date": "2026-09-12",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/ginseng-im-elektrolytwasser/"
-    },
-    {
-      "title": "Matcha als Diätpulver",
-      "date": "2026-06-21",
-      "created": "2026-06-21T23:49:10.329Z",
-      "slug": "matcha-als-diatpulver",
-      "rubrik": "hellmuth",
-      "lead": "Die thailändische Marke Chame stellt mit Uchi Matcha Latte ein Getränkepulver vor, das Antioxidantien-Romantik mit Fettverbrennungsversprechen koppelt.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/21/chame-uchi-matcha-latte-tradition-meets-modern-weight-management/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/matcha-als-diatpulver/"
     }
   ],
   "science": [
+    {
+      "title": "Der einsame Wellenschlag",
+      "date": "2026-09-14",
+      "created": "2026-09-14T00:19:08.142Z",
+      "slug": "der-einsame-wellenschlag",
+      "rubrik": "science",
+      "lead": "Im schlafenden Kortex reisen langsame Wellen normalerweise durchs Gewebe, doch bei Tau-Pathologie bleiben sie stehen.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02415-9",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/der-einsame-wellenschlag/"
+    },
+    {
+      "title": "Reserve gegen Plaques",
+      "date": "2026-09-14",
+      "created": "2026-09-14T00:18:50.073Z",
+      "slug": "reserve-gegen-plaques",
+      "rubrik": "science",
+      "lead": "Alzheimer-Risiko entsteht nicht allein aus pathologischer Last, sondern aus deren Verhältnis zur kognitiven Reserve.",
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04635-9",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/reserve-gegen-plaques/"
+    },
+    {
+      "title": "Ketamin und Hirnstimulation greifen in dieselbe Frequenz",
+      "date": "2026-09-14",
+      "created": "2026-09-14T00:18:06.321Z",
+      "slug": "ketamin-und-hirnstimulation-greifen-in-dieselbe-frequenz",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus medRxiv Psychiatry zeigt, dass Ketamin bei tiefer Hirnstimulation im subcallosalen Cingulum genau jenes Frequenzband verschiebt, das auch affektive Zustände markiert.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362080v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ketamin-und-hirnstimulation-greifen-in-dieselbe-frequenz/"
+    },
     {
       "title": "Blutfette als Kontextsignal für Hirnbefunde bei Depression und Schizophrenie",
       "date": "2026-09-13",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/zwei-depressionen-ein-etikett/"
-    },
-    {
-      "title": "Achtsamkeitstherapie und die Geometrie der Grübelei",
-      "date": "2026-07-08",
-      "created": "2026-07-08T23:36:13.553Z",
-      "slug": "achtsamkeitstherapie-und-die-geometrie-der-grubelei",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der medRxiv-Psychiatrie versucht, den Effekt achtsamkeitsbasierter Therapie auf Depressionen in Hirnbild-Geometrie zu übersetzen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.26.26356643v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/achtsamkeitstherapie-und-die-geometrie-der-grubelei/"
-    },
-    {
-      "title": "Schlechter Schlaf altert nicht, er begleitet das Altern",
-      "date": "2026-07-07",
-      "created": "2026-07-07T23:22:58.455Z",
-      "slug": "schlechter-schlaf-altert-nicht-er-begleitet-das-altern",
-      "rubrik": "science",
-      "lead": "Die Korrelation zwischen schlechtem Schlaf und beschleunigter Alterung ist massiv, die Kausalität wackelt.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357135v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/schlechter-schlaf-altert-nicht-er-begleitet-das-altern/"
-    },
-    {
-      "title": "Wie teuer darf der Rausch sein",
-      "date": "2026-07-07",
-      "created": "2026-07-07T23:22:44.767Z",
-      "slug": "wie-teuer-darf-der-rausch-sein",
-      "rubrik": "science",
-      "lead": "Verhaltensökonomen messen Alkoholverlangen, indem sie Menschen fiktive Bierpreise vorlegen, und haben das Verfahren jetzt halbiert.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.02.26357139v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wie-teuer-darf-der-rausch-sein/"
     }
   ]
 }

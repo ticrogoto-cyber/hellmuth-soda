@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 13 Sep 2026 00:06:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 00:19:08 GMT</lastBuildDate>
+    <item>
+      <title>Tealive baut Cham mit Da Hong Pao um</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/tealive-baut-cham-mit-da-hong-pao-um/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/tealive-baut-cham-mit-da-hong-pao-um/</guid>
+      <pubDate>Mon, 14 Sep 2026 00:16:30 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Malaysias Kaffee-Tee-Mischgetränk bekommt eine Aufwertung, die weniger Handwerk als Positionierung ist.</description>
+    </item>
     <item>
       <title>EFSA winkt Aspartam-Acesulfam-Salz erneut durch</title>
       <link>https://hellmuth-soda.de/news/hellmuth/efsa-winkt-aspartam-acesulfam-salz-erneut-durch/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Sun, 21 Jun 2026 23:49:25 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der chinesische Sportdrink emanzipiert sich vom westlichen Pulver-Paradigma und greift in die Apotheke der Tradition.</description>
-    </item>
-    <item>
-      <title>Matcha als Diätpulver</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/matcha-als-diatpulver/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/matcha-als-diatpulver/</guid>
-      <pubDate>Sun, 21 Jun 2026 23:49:10 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die thailändische Marke Chame stellt mit Uchi Matcha Latte ein Getränkepulver vor, das Antioxidantien-Romantik mit Fettverbrennungsversprechen koppelt.</description>
     </item>
   </channel>
 </rss>
