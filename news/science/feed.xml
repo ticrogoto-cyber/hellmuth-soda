@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 14 Sep 2026 00:19:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:45:51 GMT</lastBuildDate>
+    <item>
+      <title>Semaglutid dreht die Reizreaktion, je nach Dauer in die Gegenrichtung</title>
+      <link>https://hellmuth-soda.de/news/science/semaglutid-dreht-die-reizreaktion-je-nach-dauer-in-die-gegenrichtung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/semaglutid-dreht-die-reizreaktion-je-nach-dauer-in-die-gegenrichtung/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:45:51 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint an Ratten zeigt, dass akute und chronische Gabe des Abnehmwirkstoffs entgegengesetzt auf belohnungsassoziierte Reize wirken.</description>
+    </item>
+    <item>
+      <title>Alzheimer trennt sich vom Altern früher als gedacht</title>
+      <link>https://hellmuth-soda.de/news/science/alzheimer-trennt-sich-vom-altern-fruher-als-gedacht/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-trennt-sich-vom-altern-fruher-als-gedacht/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:45:35 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint modelliert Alzheimer nicht als beschleunigtes Altern, sondern als eigenen Ast, der sich früh vom normalen Verlauf abspaltet.</description>
+    </item>
+    <item>
+      <title>Alzheimer sitzt in den Zelltypen, nicht im Durchschnittshirn</title>
+      <link>https://hellmuth-soda.de/news/science/alzheimer-sitzt-in-den-zelltypen-nicht-im-durchschnittshirn/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-sitzt-in-den-zelltypen-nicht-im-durchschnittshirn/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:45:22 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint kartiert Histon-Acetylierung getrennt nach Zelltyp und verschiebt damit, wo Alzheimer eigentlich lesbar wird.</description>
+    </item>
     <item>
       <title>Der einsame Wellenschlag</title>
       <link>https://hellmuth-soda.de/news/science/der-einsame-wellenschlag/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Thu, 09 Jul 2026 23:44:37 GMT</pubDate>
       <category>Forschung</category>
       <description>Das Mesenterium ist nicht nur Fettdepot und Aufhängung, sondern beherbergt ein eigenes neuronales Netzwerk, das direkt in die Darmwand hineinreicht.</description>
-    </item>
-    <item>
-      <title>Blutproteine adoleszenter Depression</title>
-      <link>https://hellmuth-soda.de/news/science/blutproteine-adoleszenter-depression/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/blutproteine-adoleszenter-depression/</guid>
-      <pubDate>Thu, 09 Jul 2026 23:44:21 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein finnisches Preprint sucht die Depression Jugendlicher nicht im Fragebogen, sondern im Plasma.</description>
-    </item>
-    <item>
-      <title>Warum manche Hirnareale leichter krampfen</title>
-      <link>https://hellmuth-soda.de/news/science/warum-manche-hirnareale-leichter-krampfen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-manche-hirnareale-leichter-krampfen/</guid>
-      <pubDate>Wed, 08 Jul 2026 23:37:03 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verlagert die Frage der Anfallsanfälligkeit von der Anatomie zur Rechenarchitektur.</description>
-    </item>
-    <item>
-      <title>Zwei Depressionen, ein Etikett</title>
-      <link>https://hellmuth-soda.de/news/science/zwei-depressionen-ein-etikett/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-depressionen-ein-etikett/</guid>
-      <pubDate>Wed, 08 Jul 2026 23:36:27 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint zerlegt die Diagnose Major Depression anhand kortikaler Dicke in zwei reproduzierbare Untertypen.</description>
     </item>
   </channel>
 </rss>

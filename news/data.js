@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-14T00:19:08.221Z",
+  "generated": "2026-09-15T00:45:51.966Z",
   "hellmuth": [
+    {
+      "title": "Präbiotisches Soda mit Schuss",
+      "date": "2026-09-15",
+      "created": "2026-09-15T00:43:22.464Z",
+      "slug": "prabiotisches-soda-mit-schuss",
+      "rubrik": "hellmuth",
+      "lead": "Die Wellness-Grammatik der Darm-Limonade wandert in die Alkoholabteilung.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-popsips-soars-with-spiked-prebiotic-soda",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/prabiotisches-soda-mit-schuss/"
+    },
+    {
+      "title": "PepsiCo industrialisiert die Dirty Soda",
+      "date": "2026-09-15",
+      "created": "2026-09-15T00:43:02.575Z",
+      "slug": "pepsico-industrialisiert-die-dirty-soda",
+      "rubrik": "hellmuth",
+      "lead": "Was in Utah als mormonische Kaffee-Ersatzhandlung begann, zieht als Fertigprodukt in die nationalen Regale.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/pepsico-ready-to-drink-dirty-soda-mountain-dew-mug-root-beer/828427/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/pepsico-industrialisiert-die-dirty-soda/"
+    },
     {
       "title": "Tealive baut Cham mit Da Hong Pao um",
       "date": "2026-09-14",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/"
-    },
-    {
-      "title": "Kreatin verlässt das Eiweißregal",
-      "date": "2026-06-22",
-      "created": "2026-06-22T23:46:22.087Z",
-      "slug": "kreatin-verlasst-das-eiweissregal",
-      "rubrik": "hellmuth",
-      "lead": "Was jahrzehntelang in Plastikdosen für Hantelträger lag, drängt jetzt in Dosen für alle anderen.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/22/creatine-drinks-gain-ground-as-stability-hurdles-fall/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/kreatin-verlasst-das-eiweissregal/"
-    },
-    {
-      "title": "Ginseng im Elektrolytwasser",
-      "date": "2026-06-21",
-      "created": "2026-06-21T23:49:25.159Z",
-      "slug": "ginseng-im-elektrolytwasser",
-      "rubrik": "hellmuth",
-      "lead": "Der chinesische Sportdrink emanzipiert sich vom westlichen Pulver-Paradigma und greift in die Apotheke der Tradition.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/21/new-hope-water-brings-fmh-herbs-into-sports-drinks-in-china/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/ginseng-im-elektrolytwasser/"
     }
   ],
   "science": [
+    {
+      "title": "Semaglutid dreht die Reizreaktion, je nach Dauer in die Gegenrichtung",
+      "date": "2026-09-15",
+      "created": "2026-09-15T00:45:51.896Z",
+      "slug": "semaglutid-dreht-die-reizreaktion-je-nach-dauer-in-die-gegenrichtung",
+      "rubrik": "science",
+      "lead": "Ein Preprint an Ratten zeigt, dass akute und chronische Gabe des Abnehmwirkstoffs entgegengesetzt auf belohnungsassoziierte Reize wirken.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750149v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/semaglutid-dreht-die-reizreaktion-je-nach-dauer-in-die-gegenrichtung/"
+    },
+    {
+      "title": "Alzheimer trennt sich vom Altern früher als gedacht",
+      "date": "2026-09-15",
+      "created": "2026-09-15T00:45:35.901Z",
+      "slug": "alzheimer-trennt-sich-vom-altern-fruher-als-gedacht",
+      "rubrik": "science",
+      "lead": "Ein Preprint modelliert Alzheimer nicht als beschleunigtes Altern, sondern als eigenen Ast, der sich früh vom normalen Verlauf abspaltet.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.08.748727v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-trennt-sich-vom-altern-fruher-als-gedacht/"
+    },
+    {
+      "title": "Alzheimer sitzt in den Zelltypen, nicht im Durchschnittshirn",
+      "date": "2026-09-15",
+      "created": "2026-09-15T00:45:22.599Z",
+      "slug": "alzheimer-sitzt-in-den-zelltypen-nicht-im-durchschnittshirn",
+      "rubrik": "science",
+      "lead": "Ein Preprint kartiert Histon-Acetylierung getrennt nach Zelltyp und verschiebt damit, wo Alzheimer eigentlich lesbar wird.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750356v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-sitzt-in-den-zelltypen-nicht-im-durchschnittshirn/"
+    },
     {
       "title": "Der einsame Wellenschlag",
       "date": "2026-09-14",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/nerven-im-mesenterium-sprechen-mit-dem-darm/"
-    },
-    {
-      "title": "Blutproteine adoleszenter Depression",
-      "date": "2026-07-09",
-      "created": "2026-07-09T23:44:21.013Z",
-      "slug": "blutproteine-adoleszenter-depression",
-      "rubrik": "science",
-      "lead": "Ein finnisches Preprint sucht die Depression Jugendlicher nicht im Fragebogen, sondern im Plasma.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.06.26356404v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/blutproteine-adoleszenter-depression/"
-    },
-    {
-      "title": "Warum manche Hirnareale leichter krampfen",
-      "date": "2026-07-08",
-      "created": "2026-07-08T23:37:03.215Z",
-      "slug": "warum-manche-hirnareale-leichter-krampfen",
-      "rubrik": "science",
-      "lead": "Ein Preprint verlagert die Frage der Anfallsanfälligkeit von der Anatomie zur Rechenarchitektur.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.735135v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/warum-manche-hirnareale-leichter-krampfen/"
-    },
-    {
-      "title": "Zwei Depressionen, ein Etikett",
-      "date": "2026-07-08",
-      "created": "2026-07-08T23:36:27.119Z",
-      "slug": "zwei-depressionen-ein-etikett",
-      "rubrik": "science",
-      "lead": "Ein Preprint zerlegt die Diagnose Major Depression anhand kortikaler Dicke in zwei reproduzierbare Untertypen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.25.26356577v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwei-depressionen-ein-etikett/"
     }
   ]
 }
