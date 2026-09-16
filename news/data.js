@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-15T00:45:51.966Z",
+  "generated": "2026-09-16T00:32:49.916Z",
   "hellmuth": [
+    {
+      "title": "Süßstoff-Markt sortiert sich neu",
+      "date": "2026-09-16",
+      "created": "2026-09-16T00:28:25.805Z",
+      "slug": "sussstoff-markt-sortiert-sich-neu",
+      "rubrik": "hellmuth",
+      "lead": "Aspartam verliert Rückhalt, Allulose rückt in die Lücke.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/09/15/from-aspartame-to-allulose-the-future-of-sweeteners-takes-shape/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sussstoff-markt-sortiert-sich-neu/"
+    },
+    {
+      "title": "Die Süßstoff-Industrie wechselt das Pferd",
+      "date": "2026-09-16",
+      "created": "2026-09-16T00:27:48.977Z",
+      "slug": "die-sussstoff-industrie-wechselt-das-pferd",
+      "rubrik": "hellmuth",
+      "lead": "Aspartam ist verbrannt, Allulose übernimmt.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/09/15/from-aspartame-to-allulose-the-future-of-sweeteners-takes-shape/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/die-sussstoff-industrie-wechselt-das-pferd/"
+    },
     {
       "title": "Präbiotisches Soda mit Schuss",
       "date": "2026-09-15",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/danone-kauft-sich-in-asien-pazifik-ein/"
-    },
-    {
-      "title": "Lantenhammer übernimmt Rebels 0.0 in Deutschland",
-      "date": "2026-06-22",
-      "created": "2026-06-22T23:50:59.189Z",
-      "slug": "lantenhammer-ubernimmt-rebels-0-0-in-deutschland",
-      "rubrik": "hellmuth",
-      "lead": "Ein bayerischer Edelbrenner verkauft ab Juni 2026 alkoholfreie Schweizer Spirits, und das ist keine Marotte, sondern Marktlogik.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/lantenhammer-startet-vertrieb-von-rebels-0-0-in-deutschland/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/"
-    },
-    {
-      "title": "Impossibrew und die funktionale Nüchternheit",
-      "date": "2026-06-22",
-      "created": "2026-06-22T23:46:43.883Z",
-      "slug": "impossibrew-und-die-funktionale-nuchternheit",
-      "rubrik": "hellmuth",
-      "lead": "Der alkoholfreie Markt segmentiert sich, und die Wirkung wird zum Verkaufsargument.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/22/impossibrew-taps-into-growing-demand-for-functional-alcohol-free-drinks/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/"
     }
   ],
   "science": [
+    {
+      "title": "Ein Atlas der Psychose-Risiken",
+      "date": "2026-09-16",
+      "created": "2026-09-16T00:32:49.840Z",
+      "slug": "ein-atlas-der-psychose-risiken",
+      "rubrik": "science",
+      "lead": "Die Weltpsychiatrie versucht, aus Hunderten Einzelstudien eine Landkarte zu bauen, auf der sich Prognose und Prävention verorten lassen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/wps.70093",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/ein-atlas-der-psychose-risiken/"
+    },
+    {
+      "title": "Wer soziale Kränkung im Kopf verrechnet, trinkt später mehr",
+      "date": "2026-09-16",
+      "created": "2026-09-16T00:32:39.638Z",
+      "slug": "wer-soziale-krankung-im-kopf-verrechnet-trinkt-spater-mehr",
+      "rubrik": "science",
+      "lead": "Ein subkortikales Fehlersignal entscheidet mit, ob aus erlebter Herabwürdigung ein Alkoholproblem wird.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/adb.70187",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-soziale-krankung-im-kopf-verrechnet-trinkt-spater-mehr/"
+    },
+    {
+      "title": "Alkoholabhängige spielen aggressiver",
+      "date": "2026-09-16",
+      "created": "2026-09-16T00:32:26.538Z",
+      "slug": "alkoholabhangige-spielen-aggressiver",
+      "rubrik": "science",
+      "lead": "Eine französische Studie testet schwere Alkoholabhängigkeit am Gefangenendilemma und findet einen systematischen Zug zur Konfrontation.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/acer.70410",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alkoholabhangige-spielen-aggressiver/"
+    },
     {
       "title": "Semaglutid dreht die Reizreaktion, je nach Dauer in die Gegenrichtung",
       "date": "2026-09-15",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/der-blick-verrat-den-rausch/"
-    },
-    {
-      "title": "Ein Enzym entscheidet mit, ob Nikotin wirkt",
-      "date": "2026-07-10",
-      "created": "2026-07-10T23:18:10.461Z",
-      "slug": "ein-enzym-entscheidet-mit-ob-nikotin-wirkt",
-      "rubrik": "science",
-      "lead": "Zebrafische ohne Neu1 reagieren schwächer auf Nikotin, weil ihnen ein Dopaminrezeptor fehlt.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1007/s10695-026-01735-8",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-enzym-entscheidet-mit-ob-nikotin-wirkt/"
-    },
-    {
-      "title": "Chronischer Schmerz schreibt sich bei Männern und Frauen in unterschiedliche Gene",
-      "date": "2026-07-09",
-      "created": "2026-07-09T23:44:55.461Z",
-      "slug": "chronischer-schmerz-schreibt-sich-bei-mannern-und-frauen-in-unterschiedliche-gen",
-      "rubrik": "science",
-      "lead": "Ein Preprint auf bioRxiv legt nahe, dass die Depression, die aus chronischem Schmerz erwächst, auf molekularer Ebene zwei verschiedene Krankheiten ist.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736250v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/chronischer-schmerz-schreibt-sich-bei-mannern-und-frauen-in-unterschiedliche-gen/"
-    },
-    {
-      "title": "Nerven im Mesenterium sprechen mit dem Darm",
-      "date": "2026-07-09",
-      "created": "2026-07-09T23:44:37.887Z",
-      "slug": "nerven-im-mesenterium-sprechen-mit-dem-darm",
-      "rubrik": "science",
-      "lead": "Das Mesenterium ist nicht nur Fettdepot und Aufhängung, sondern beherbergt ein eigenes neuronales Netzwerk, das direkt in die Darmwand hineinreicht.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736073v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/nerven-im-mesenterium-sprechen-mit-dem-darm/"
     }
   ]
 }

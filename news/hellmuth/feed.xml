@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:32:49 GMT</lastBuildDate>
+    <item>
+      <title>Süßstoff-Markt sortiert sich neu</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/sussstoff-markt-sortiert-sich-neu/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/sussstoff-markt-sortiert-sich-neu/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:28:25 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Aspartam verliert Rückhalt, Allulose rückt in die Lücke.</description>
+    </item>
+    <item>
+      <title>Die Süßstoff-Industrie wechselt das Pferd</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/die-sussstoff-industrie-wechselt-das-pferd/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/die-sussstoff-industrie-wechselt-das-pferd/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:27:48 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Aspartam ist verbrannt, Allulose übernimmt.</description>
+    </item>
     <item>
       <title>Präbiotisches Soda mit Schuss</title>
       <link>https://hellmuth-soda.de/news/hellmuth/prabiotisches-soda-mit-schuss/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Tue, 23 Jun 2026 23:33:02 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der französische Konzern stockt sein Getränkegeschäft jenseits von Wasser und Joghurt-Drinks auf.</description>
-    </item>
-    <item>
-      <title>Lantenhammer übernimmt Rebels 0.0 in Deutschland</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:50:59 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Ein bayerischer Edelbrenner verkauft ab Juni 2026 alkoholfreie Schweizer Spirits, und das ist keine Marotte, sondern Marktlogik.</description>
-    </item>
-    <item>
-      <title>Impossibrew und die funktionale Nüchternheit</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:46:43 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der alkoholfreie Markt segmentiert sich, und die Wirkung wird zum Verkaufsargument.</description>
     </item>
   </channel>
 </rss>

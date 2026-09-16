@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:32:49 GMT</lastBuildDate>
+    <item>
+      <title>Ein Atlas der Psychose-Risiken</title>
+      <link>https://hellmuth-soda.de/news/science/ein-atlas-der-psychose-risiken/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-atlas-der-psychose-risiken/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:32:49 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Weltpsychiatrie versucht, aus Hunderten Einzelstudien eine Landkarte zu bauen, auf der sich Prognose und Prävention verorten lassen.</description>
+    </item>
+    <item>
+      <title>Wer soziale Kränkung im Kopf verrechnet, trinkt später mehr</title>
+      <link>https://hellmuth-soda.de/news/science/wer-soziale-krankung-im-kopf-verrechnet-trinkt-spater-mehr/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wer-soziale-krankung-im-kopf-verrechnet-trinkt-spater-mehr/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:32:39 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein subkortikales Fehlersignal entscheidet mit, ob aus erlebter Herabwürdigung ein Alkoholproblem wird.</description>
+    </item>
+    <item>
+      <title>Alkoholabhängige spielen aggressiver</title>
+      <link>https://hellmuth-soda.de/news/science/alkoholabhangige-spielen-aggressiver/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alkoholabhangige-spielen-aggressiver/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:32:26 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine französische Studie testet schwere Alkoholabhängigkeit am Gefangenendilemma und findet einen systematischen Zug zur Konfrontation.</description>
+    </item>
+    <item>
+      <title>Süßstoff-Markt sortiert sich neu</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/sussstoff-markt-sortiert-sich-neu/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/sussstoff-markt-sortiert-sich-neu/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:28:25 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Aspartam verliert Rückhalt, Allulose rückt in die Lücke.</description>
+    </item>
+    <item>
+      <title>Die Süßstoff-Industrie wechselt das Pferd</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/die-sussstoff-industrie-wechselt-das-pferd/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/die-sussstoff-industrie-wechselt-das-pferd/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:27:48 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Aspartam ist verbrannt, Allulose übernimmt.</description>
+    </item>
     <item>
       <title>Semaglutid dreht die Reizreaktion, je nach Dauer in die Gegenrichtung</title>
       <link>https://hellmuth-soda.de/news/science/semaglutid-dreht-die-reizreaktion-je-nach-dauer-in-die-gegenrichtung/</link>
@@ -2856,14 +2896,6 @@
       <description>Was der Blick sekundenschnell fixiert, prognostiziert, wie viel am selben Abend getrunken wird.</description>
     </item>
     <item>
-      <title>Ein Enzym entscheidet mit, ob Nikotin wirkt</title>
-      <link>https://hellmuth-soda.de/news/science/ein-enzym-entscheidet-mit-ob-nikotin-wirkt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-enzym-entscheidet-mit-ob-nikotin-wirkt/</guid>
-      <pubDate>Fri, 10 Jul 2026 23:18:10 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Zebrafische ohne Neu1 reagieren schwächer auf Nikotin, weil ihnen ein Dopaminrezeptor fehlt.</description>
-    </item>
-    <item>
       <title>Naked Life bringt alkoholfreien Italian Spritz in die USA</title>
       <link>https://hellmuth-soda.de/news/hellmuth/naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa/</guid>
@@ -2886,22 +2918,6 @@
       <pubDate>Fri, 10 Jul 2026 23:16:46 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der alkoholfreie Markt spaltet sich in Kopisten und Konstrukteure.</description>
-    </item>
-    <item>
-      <title>Chronischer Schmerz schreibt sich bei Männern und Frauen in unterschiedliche Gene</title>
-      <link>https://hellmuth-soda.de/news/science/chronischer-schmerz-schreibt-sich-bei-mannern-und-frauen-in-unterschiedliche-gen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/chronischer-schmerz-schreibt-sich-bei-mannern-und-frauen-in-unterschiedliche-gen/</guid>
-      <pubDate>Thu, 09 Jul 2026 23:44:55 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint auf bioRxiv legt nahe, dass die Depression, die aus chronischem Schmerz erwächst, auf molekularer Ebene zwei verschiedene Krankheiten ist.</description>
-    </item>
-    <item>
-      <title>Nerven im Mesenterium sprechen mit dem Darm</title>
-      <link>https://hellmuth-soda.de/news/science/nerven-im-mesenterium-sprechen-mit-dem-darm/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nerven-im-mesenterium-sprechen-mit-dem-darm/</guid>
-      <pubDate>Thu, 09 Jul 2026 23:44:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Das Mesenterium ist nicht nur Fettdepot und Aufhängung, sondern beherbergt ein eigenes neuronales Netzwerk, das direkt in die Darmwand hineinreicht.</description>
     </item>
     <item>
       <title>Bee Pop und die Lücke zwischen Sprudel und Soda</title>
@@ -3190,22 +3206,6 @@
       <pubDate>Tue, 23 Jun 2026 23:33:02 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der französische Konzern stockt sein Getränkegeschäft jenseits von Wasser und Joghurt-Drinks auf.</description>
-    </item>
-    <item>
-      <title>Lantenhammer übernimmt Rebels 0.0 in Deutschland</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/lantenhammer-ubernimmt-rebels-0-0-in-deutschland/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:50:59 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Ein bayerischer Edelbrenner verkauft ab Juni 2026 alkoholfreie Schweizer Spirits, und das ist keine Marotte, sondern Marktlogik.</description>
-    </item>
-    <item>
-      <title>Impossibrew und die funktionale Nüchternheit</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/impossibrew-und-die-funktionale-nuchternheit/</guid>
-      <pubDate>Mon, 22 Jun 2026 23:46:43 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der alkoholfreie Markt segmentiert sich, und die Wirkung wird zum Verkaufsargument.</description>
     </item>
   </channel>
 </rss>
