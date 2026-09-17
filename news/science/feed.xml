@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 16 Sep 2026 00:32:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:40:16 GMT</lastBuildDate>
+    <item>
+      <title>Fast jeder Zweite trägt eine circadiane Störung</title>
+      <link>https://hellmuth-soda.de/news/science/fast-jeder-zweite-tragt-eine-circadiane-storung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/fast-jeder-zweite-tragt-eine-circadiane-storung/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:40:16 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine australische Zwillingsstudie kartiert, wie tief zirkadiane Verschiebungen im jungen Erwachsenenalter sitzen und wie eng sie mit psychischer Belastung verknüpft sind.</description>
+    </item>
+    <item>
+      <title>Geruch im Schlaf verstärkt Traumatherapie</title>
+      <link>https://hellmuth-soda.de/news/science/geruch-im-schlaf-verstarkt-traumatherapie/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/geruch-im-schlaf-verstarkt-traumatherapie/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:40:03 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf medRxiv koppelt PTBS-Behandlung an olfaktorische Reaktivierung im Tiefschlaf und meldet beschleunigte Remission.</description>
+    </item>
+    <item>
+      <title>Weibliche Sorge zeigt sich im Kleinhirn</title>
+      <link>https://hellmuth-soda.de/news/science/weibliche-sorge-zeigt-sich-im-kleinhirn/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/weibliche-sorge-zeigt-sich-im-kleinhirn/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:39:43 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein fMRT-Preprint verortet die geschlechtsspezifische Anfälligkeit für schwere Sorgen bei älteren Menschen in konkreten Hirnregionen.</description>
+    </item>
     <item>
       <title>Ein Atlas der Psychose-Risiken</title>
       <link>https://hellmuth-soda.de/news/science/ein-atlas-der-psychose-risiken/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sat, 11 Jul 2026 23:17:18 GMT</pubDate>
       <category>Forschung</category>
       <description>Moderate Hypoxie sollte kognitives Training verstärken, im Preprint einer randomisierten Vier-Arm-Studie tut sie es nicht.</description>
-    </item>
-    <item>
-      <title>Frontales Theta-Beta-Verhältnis trennt Schizophrenie und Kontrollgruppe</title>
-      <link>https://hellmuth-soda.de/news/science/frontales-theta-beta-verhaltnis-trennt-schizophrenie-und-kontrollgruppe/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/frontales-theta-beta-verhaltnis-trennt-schizophrenie-und-kontrollgruppe/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:16:55 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint auf medRxiv misst kognitive Kontrolle in Schizophrenie nicht am Schreibtisch, sondern in Augmented Reality und mobiler Alltagsaufgabe.</description>
-    </item>
-    <item>
-      <title>Alkoholabhängigkeit als Stoffwechselkrankheit des Gehirns</title>
-      <link>https://hellmuth-soda.de/news/science/alkoholabhangigkeit-als-stoffwechselkrankheit-des-gehirns/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alkoholabhangigkeit-als-stoffwechselkrankheit-des-gehirns/</guid>
-      <pubDate>Fri, 10 Jul 2026 23:18:34 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Sucht sitzt nicht im Willen, sondern in der Energieversorgung der Nervenzelle.</description>
-    </item>
-    <item>
-      <title>Der Blick verrät den Rausch</title>
-      <link>https://hellmuth-soda.de/news/science/der-blick-verrat-den-rausch/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-blick-verrat-den-rausch/</guid>
-      <pubDate>Fri, 10 Jul 2026 23:18:21 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Was der Blick sekundenschnell fixiert, prognostiziert, wie viel am selben Abend getrunken wird.</description>
     </item>
   </channel>
 </rss>

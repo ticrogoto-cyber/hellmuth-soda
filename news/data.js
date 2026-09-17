@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-16T00:32:49.916Z",
+  "generated": "2026-09-17T00:40:16.553Z",
   "hellmuth": [
+    {
+      "title": "Dreißig Millionen für den Wellness-Shot",
+      "date": "2026-09-17",
+      "created": "2026-09-17T00:39:17.931Z",
+      "slug": "dreissig-millionen-fur-den-wellness-shot",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für Funktionsshots im Glasfläschchen bekommt frisches Kapital, während die eigentliche Kategorie ihre Rechtfertigung noch sucht.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/sol-ti-raises-30m-deepens-positions-in-functional-shots",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/dreissig-millionen-fur-den-wellness-shot/"
+    },
+    {
+      "title": "Alkoholfreier Agavenbrand landet auf dem Vegas Strip",
+      "date": "2026-09-17",
+      "created": "2026-09-17T00:39:02.496Z",
+      "slug": "alkoholfreier-agavenbrand-landet-auf-dem-vegas-strip",
+      "rubrik": "hellmuth",
+      "lead": "Zero-Proof-Agave hat den Sprung von der Nischenbar in die Volumengastronomie geschafft.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/from-oaxaca-to-sin-city-how-a-craft-zero-proof-agave-spirit-found-volume-on-the-strip",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfreier-agavenbrand-landet-auf-dem-vegas-strip/"
+    },
+    {
+      "title": "Kokoswasser bei Albertsons, Cannabis-Drinks in New York",
+      "date": "2026-09-17",
+      "created": "2026-09-17T00:38:44.636Z",
+      "slug": "kokoswasser-bei-albertsons-cannabis-drinks-in-new-york",
+      "rubrik": "hellmuth",
+      "lead": "Zwei Distributionsdeals markieren, wo der Getränkemarkt gerade seine Bruchkanten hat.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/distribution-once-upon-a-coconut-cracks-open-albertsons-uncle-arnies-hits-ny",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kokoswasser-bei-albertsons-cannabis-drinks-in-new-york/"
+    },
     {
       "title": "Süßstoff-Markt sortiert sich neu",
       "date": "2026-09-16",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische/"
-    },
-    {
-      "title": "Ein Drittel der Briten trinkt weniger",
-      "date": "2026-06-23",
-      "created": "2026-06-23T23:34:25.962Z",
-      "slug": "ein-drittel-der-briten-trinkt-weniger",
-      "rubrik": "hellmuth",
-      "lead": "Mäßigung ist in Großbritannien keine Nische mehr, sondern die Bewegungsrichtung des Mainstreams.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/one-in-three-brits-cut-back-on-booze/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/ein-drittel-der-briten-trinkt-weniger/"
-    },
-    {
-      "title": "Protein-Soda als Whitespace",
-      "date": "2026-06-23",
-      "created": "2026-06-23T23:33:41.692Z",
-      "slug": "protein-soda-als-whitespace",
-      "rubrik": "hellmuth",
-      "lead": "Der US-Getränkemarkt entdeckt eine Lücke zwischen Limonade und Functional Drink und nennt sie Protein-Soda.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/23/protein-sodas-are-the-new-whitespace-for-innovation-in-us-market/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/protein-soda-als-whitespace/"
-    },
-    {
-      "title": "Danone kauft sich in Asien-Pazifik ein",
-      "date": "2026-06-23",
-      "created": "2026-06-23T23:33:02.655Z",
-      "slug": "danone-kauft-sich-in-asien-pazifik-ein",
-      "rubrik": "hellmuth",
-      "lead": "Der französische Konzern stockt sein Getränkegeschäft jenseits von Wasser und Joghurt-Drinks auf.",
-      "source_name": "FoodNavigator Asia",
-      "source_url": "https://www.foodnavigator-asia.com/Article/2026/06/22/danone-strengthens-beverages-portfolio-with-asia-pacific-acquisition/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/danone-kauft-sich-in-asien-pazifik-ein/"
     }
   ],
   "science": [
+    {
+      "title": "Fast jeder Zweite trägt eine circadiane Störung",
+      "date": "2026-09-17",
+      "created": "2026-09-17T00:40:16.469Z",
+      "slug": "fast-jeder-zweite-tragt-eine-circadiane-storung",
+      "rubrik": "science",
+      "lead": "Eine australische Zwillingsstudie kartiert, wie tief zirkadiane Verschiebungen im jungen Erwachsenenalter sitzen und wie eng sie mit psychischer Belastung verknüpft sind.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.13.26362400v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/fast-jeder-zweite-tragt-eine-circadiane-storung/"
+    },
+    {
+      "title": "Geruch im Schlaf verstärkt Traumatherapie",
+      "date": "2026-09-17",
+      "created": "2026-09-17T00:40:03.948Z",
+      "slug": "geruch-im-schlaf-verstarkt-traumatherapie",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf medRxiv koppelt PTBS-Behandlung an olfaktorische Reaktivierung im Tiefschlaf und meldet beschleunigte Remission.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26362979v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/geruch-im-schlaf-verstarkt-traumatherapie/"
+    },
+    {
+      "title": "Weibliche Sorge zeigt sich im Kleinhirn",
+      "date": "2026-09-17",
+      "created": "2026-09-17T00:39:43.463Z",
+      "slug": "weibliche-sorge-zeigt-sich-im-kleinhirn",
+      "rubrik": "science",
+      "lead": "Ein fMRT-Preprint verortet die geschlechtsspezifische Anfälligkeit für schwere Sorgen bei älteren Menschen in konkreten Hirnregionen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.10.26362647v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/weibliche-sorge-zeigt-sich-im-kleinhirn/"
+    },
     {
       "title": "Ein Atlas der Psychose-Risiken",
       "date": "2026-09-16",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/"
-    },
-    {
-      "title": "Frontales Theta-Beta-Verhältnis trennt Schizophrenie und Kontrollgruppe",
-      "date": "2026-07-11",
-      "created": "2026-07-11T23:16:55.401Z",
-      "slug": "frontales-theta-beta-verhaltnis-trennt-schizophrenie-und-kontrollgruppe",
-      "rubrik": "science",
-      "lead": "Ein Preprint auf medRxiv misst kognitive Kontrolle in Schizophrenie nicht am Schreibtisch, sondern in Augmented Reality und mobiler Alltagsaufgabe.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.08.26357605v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/frontales-theta-beta-verhaltnis-trennt-schizophrenie-und-kontrollgruppe/"
-    },
-    {
-      "title": "Alkoholabhängigkeit als Stoffwechselkrankheit des Gehirns",
-      "date": "2026-07-10",
-      "created": "2026-07-10T23:18:34.837Z",
-      "slug": "alkoholabhangigkeit-als-stoffwechselkrankheit-des-gehirns",
-      "rubrik": "science",
-      "lead": "Die Sucht sitzt nicht im Willen, sondern in der Energieversorgung der Nervenzelle.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1134/S0006297925604149",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alkoholabhangigkeit-als-stoffwechselkrankheit-des-gehirns/"
-    },
-    {
-      "title": "Der Blick verrät den Rausch",
-      "date": "2026-07-10",
-      "created": "2026-07-10T23:18:21.132Z",
-      "slug": "der-blick-verrat-den-rausch",
-      "rubrik": "science",
-      "lead": "Was der Blick sekundenschnell fixiert, prognostiziert, wie viel am selben Abend getrunken wird.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1111/acer.70327",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/der-blick-verrat-den-rausch/"
     }
   ]
 }
