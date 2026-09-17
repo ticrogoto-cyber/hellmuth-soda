@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-16T00:33:05.288Z",
+  "generated": "2026-09-17T00:43:34.495Z",
   "items": [
     {
       "title": "Axtangriff auf Polizisten im Görlitzer Park",
