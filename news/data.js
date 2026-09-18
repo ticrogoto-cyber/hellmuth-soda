@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-17T00:40:16.553Z",
+  "generated": "2026-09-18T00:31:14.190Z",
   "hellmuth": [
+    {
+      "title": "Lemonaid holt sich einen Kaffeemann",
+      "date": "2026-09-18",
+      "created": "2026-09-18T00:30:33.884Z",
+      "slug": "lemonaid-holt-sich-einen-kaffeemann",
+      "rubrik": "hellmuth",
+      "lead": "Der Hamburger Limonadenhersteller verstärkt seinen internationalen Vertrieb mit einem Manager aus dem Espresso-Segment.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/ingo-swoboda-ist-neuer-global-sales-director-bei-lemonaid/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/lemonaid-holt-sich-einen-kaffeemann/"
+    },
+    {
+      "title": "Zembrin im Dosengetränk",
+      "date": "2026-09-18",
+      "created": "2026-09-18T00:27:55.488Z",
+      "slug": "zembrin-im-dosengetrank",
+      "rubrik": "hellmuth",
+      "lead": "Funktionale Limonade rückt vom Adaptogen-Nebel zur Wirkstoffdeklaration.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/review-feel-good-soda-on-the-brightside-shines",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/zembrin-im-dosengetrank/"
+    },
+    {
+      "title": "Das Gesundheitsversprechen verliert seine Zugkraft",
+      "date": "2026-09-18",
+      "created": "2026-09-18T00:27:40.105Z",
+      "slug": "das-gesundheitsversprechen-verliert-seine-zugkraft",
+      "rubrik": "hellmuth",
+      "lead": "Der belehrende Ton der Wellness-Vermarktung kippt ins Gegenteil und wird zum Verkaufshemmnis.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/health-promises-fading-agentic-appeal-rising-in-2027-trends-report",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/das-gesundheitsversprechen-verliert-seine-zugkraft/"
+    },
     {
       "title": "Dreißig Millionen für den Wellness-Shot",
       "date": "2026-09-17",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/suntory-verlegt-lieferketten-naher-an-den-britischen-markt/"
-    },
-    {
-      "title": "Neutonic verkauft Produktivität in der Dose",
-      "date": "2026-06-24",
-      "created": "2026-06-24T23:38:31.850Z",
-      "slug": "neutonic-verkauft-produktivitat-in-der-dose",
-      "rubrik": "hellmuth",
-      "lead": "Der Functional-Drink-Markt hat seinen nächsten Versprechensraum gefunden, und er heißt Fokus.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/review-neutonic-packs-powerful-productivity",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/neutonic-verkauft-produktivitat-in-der-dose/"
-    },
-    {
-      "title": "Konsolidierung im alkoholfreien Segment",
-      "date": "2026-06-24",
-      "created": "2026-06-24T23:38:05.130Z",
-      "slug": "konsolidierung-im-alkoholfreien-segment",
-      "rubrik": "hellmuth",
-      "lead": "Der US-Markt für nüchterne Getränke verlässt die Pionierphase und beginnt, sich nach Plattformlogik zu ordnen.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/the-zero-proof-acquires-the-new-bar-for-on-premise-reach",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/konsolidierung-im-alkoholfreien-segment/"
-    },
-    {
-      "title": "Owl's Brew dreht vom Hard Soda zurück in die Mixer-Nische",
-      "date": "2026-06-24",
-      "created": "2026-06-24T23:37:39.387Z",
-      "slug": "owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische",
-      "rubrik": "hellmuth",
-      "lead": "Eine Marke, die im Februar mit Spiked Pop ins Alkoholregal ging, kehrt neun Monate später ohne Alkohol zurück.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/owls-brew-follows-hard-soda-debut-with-functional-na-mixers",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische/"
     }
   ],
   "science": [
+    {
+      "title": "Cannabis-Legalisierung und die Notaufnahme",
+      "date": "2026-09-18",
+      "created": "2026-09-18T00:31:14.105Z",
+      "slug": "cannabis-legalisierung-und-die-notaufnahme",
+      "rubrik": "science",
+      "lead": "Eine Studie in Nature Mental Health prüft, ob Legalisierung und Kommerzialisierung von Cannabis die Notaufnahmen unter Druck setzen, getrennt nach Menschen mit und ohne Psychose.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s44220-026-00673-x",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cannabis-legalisierung-und-die-notaufnahme/"
+    },
+    {
+      "title": "Neurofilamente verraten den Kater",
+      "date": "2026-09-18",
+      "created": "2026-09-18T00:31:02.753Z",
+      "slug": "neurofilamente-verraten-den-kater",
+      "rubrik": "science",
+      "lead": "Ein Blutmarker, der sonst bei ALS und Multipler Sklerose gemessen wird, taucht nun im Kontext des Wochenendrauschs auf.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1111/adb.70183",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/neurofilamente-verraten-den-kater/"
+    },
+    {
+      "title": "Ein Avatar gegen die Flasche",
+      "date": "2026-09-18",
+      "created": "2026-09-18T00:30:52.377Z",
+      "slug": "ein-avatar-gegen-die-flasche",
+      "rubrik": "science",
+      "lead": "Digitale Alkoholtherapie bekommt ein Gesicht, und die Studienlage soll das Gesicht rechtfertigen.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.2196/91065",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-avatar-gegen-die-flasche/"
+    },
     {
       "title": "Fast jeder Zweite trägt eine circadiane Störung",
       "date": "2026-09-17",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/die-epilepsie-mutation-die-nicht-das-tut-was-ihr-nachgesagt-wird/"
-    },
-    {
-      "title": "Der Thalamus zerfällt bei Temporallappenepilepsie",
-      "date": "2026-07-12",
-      "created": "2026-07-12T23:15:07.198Z",
-      "slug": "der-thalamus-zerfallt-bei-temporallappenepilepsie",
-      "rubrik": "science",
-      "lead": "Die Störung sitzt nicht im Herd, sondern im Verteiler.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.07.737072v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/"
-    },
-    {
-      "title": "Alzheimer bekommt eine Struktur",
-      "date": "2026-07-11",
-      "created": "2026-07-11T23:17:33.589Z",
-      "slug": "alzheimer-bekommt-eine-struktur",
-      "rubrik": "science",
-      "lead": "Erstmals ist sichtbar, wie das Immunsystem ein Alzheimer-Fragment präsentiert.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736863v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alzheimer-bekommt-eine-struktur/"
-    },
-    {
-      "title": "Sauerstoffmangel als Nootropikum scheitert im Kontrolldesign",
-      "date": "2026-07-11",
-      "created": "2026-07-11T23:17:18.243Z",
-      "slug": "sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign",
-      "rubrik": "science",
-      "lead": "Moderate Hypoxie sollte kognitives Training verstärken, im Preprint einer randomisierten Vier-Arm-Studie tut sie es nicht.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.28.26356414v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/"
     }
   ]
 }

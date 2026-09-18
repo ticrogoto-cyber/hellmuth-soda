@@ -1681,6 +1681,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/lemonaid-holt-sich-einen-kaffeemann/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/zembrin-im-dosengetrank/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/das-gesundheitsversprechen-verliert-seine-zugkraft/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/dreissig-millionen-fur-den-wellness-shot/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -2863,20 +2881,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/neutonic-verkauft-produktivitat-in-der-dose/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/cannabis-legalisierung-und-die-notaufnahme/</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/konsolidierung-im-alkoholfreien-segment/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/neurofilamente-verraten-den-kater/</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/ein-avatar-gegen-die-flasche/</loc>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4059,24 +4077,6 @@
   <url>
     <loc>https://hellmuth-soda.de/news/science/die-epilepsie-mutation-die-nicht-das-tut-was-ihr-nachgesagt-wird/</loc>
     <lastmod>2026-07-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/alzheimer-bekommt-eine-struktur/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/</loc>
-    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

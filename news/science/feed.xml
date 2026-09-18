@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:40:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 00:31:14 GMT</lastBuildDate>
+    <item>
+      <title>Cannabis-Legalisierung und die Notaufnahme</title>
+      <link>https://hellmuth-soda.de/news/science/cannabis-legalisierung-und-die-notaufnahme/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-legalisierung-und-die-notaufnahme/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:31:14 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Studie in Nature Mental Health prüft, ob Legalisierung und Kommerzialisierung von Cannabis die Notaufnahmen unter Druck setzen, getrennt nach Menschen mit und ohne Psychose.</description>
+    </item>
+    <item>
+      <title>Neurofilamente verraten den Kater</title>
+      <link>https://hellmuth-soda.de/news/science/neurofilamente-verraten-den-kater/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/neurofilamente-verraten-den-kater/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:31:02 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Blutmarker, der sonst bei ALS und Multipler Sklerose gemessen wird, taucht nun im Kontext des Wochenendrauschs auf.</description>
+    </item>
+    <item>
+      <title>Ein Avatar gegen die Flasche</title>
+      <link>https://hellmuth-soda.de/news/science/ein-avatar-gegen-die-flasche/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-avatar-gegen-die-flasche/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:30:52 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Digitale Alkoholtherapie bekommt ein Gesicht, und die Studienlage soll das Gesicht rechtfertigen.</description>
+    </item>
     <item>
       <title>Fast jeder Zweite trägt eine circadiane Störung</title>
       <link>https://hellmuth-soda.de/news/science/fast-jeder-zweite-tragt-eine-circadiane-storung/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sun, 12 Jul 2026 23:15:21 GMT</pubDate>
       <category>Forschung</category>
       <description>Die häufigste EEF1A2-Mutation bremst nicht die Proteinsynthese der Zelle, sondern trifft gezielt einzelne Transkripte.</description>
-    </item>
-    <item>
-      <title>Der Thalamus zerfällt bei Temporallappenepilepsie</title>
-      <link>https://hellmuth-soda.de/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/</guid>
-      <pubDate>Sun, 12 Jul 2026 23:15:07 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Störung sitzt nicht im Herd, sondern im Verteiler.</description>
-    </item>
-    <item>
-      <title>Alzheimer bekommt eine Struktur</title>
-      <link>https://hellmuth-soda.de/news/science/alzheimer-bekommt-eine-struktur/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-bekommt-eine-struktur/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:17:33 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Erstmals ist sichtbar, wie das Immunsystem ein Alzheimer-Fragment präsentiert.</description>
-    </item>
-    <item>
-      <title>Sauerstoffmangel als Nootropikum scheitert im Kontrolldesign</title>
-      <link>https://hellmuth-soda.de/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:17:18 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Moderate Hypoxie sollte kognitives Training verstärken, im Preprint einer randomisierten Vier-Arm-Studie tut sie es nicht.</description>
     </item>
   </channel>
 </rss>

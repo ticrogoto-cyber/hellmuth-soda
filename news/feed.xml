@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:40:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 00:31:14 GMT</lastBuildDate>
+    <item>
+      <title>Cannabis-Legalisierung und die Notaufnahme</title>
+      <link>https://hellmuth-soda.de/news/science/cannabis-legalisierung-und-die-notaufnahme/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-legalisierung-und-die-notaufnahme/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:31:14 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Studie in Nature Mental Health prüft, ob Legalisierung und Kommerzialisierung von Cannabis die Notaufnahmen unter Druck setzen, getrennt nach Menschen mit und ohne Psychose.</description>
+    </item>
+    <item>
+      <title>Neurofilamente verraten den Kater</title>
+      <link>https://hellmuth-soda.de/news/science/neurofilamente-verraten-den-kater/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/neurofilamente-verraten-den-kater/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:31:02 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Blutmarker, der sonst bei ALS und Multipler Sklerose gemessen wird, taucht nun im Kontext des Wochenendrauschs auf.</description>
+    </item>
+    <item>
+      <title>Ein Avatar gegen die Flasche</title>
+      <link>https://hellmuth-soda.de/news/science/ein-avatar-gegen-die-flasche/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-avatar-gegen-die-flasche/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:30:52 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Digitale Alkoholtherapie bekommt ein Gesicht, und die Studienlage soll das Gesicht rechtfertigen.</description>
+    </item>
+    <item>
+      <title>Lemonaid holt sich einen Kaffeemann</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/lemonaid-holt-sich-einen-kaffeemann/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/lemonaid-holt-sich-einen-kaffeemann/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:30:33 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Hamburger Limonadenhersteller verstärkt seinen internationalen Vertrieb mit einem Manager aus dem Espresso-Segment.</description>
+    </item>
+    <item>
+      <title>Zembrin im Dosengetränk</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/zembrin-im-dosengetrank/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zembrin-im-dosengetrank/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:27:55 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Funktionale Limonade rückt vom Adaptogen-Nebel zur Wirkstoffdeklaration.</description>
+    </item>
+    <item>
+      <title>Das Gesundheitsversprechen verliert seine Zugkraft</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/das-gesundheitsversprechen-verliert-seine-zugkraft/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/das-gesundheitsversprechen-verliert-seine-zugkraft/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:27:40 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der belehrende Ton der Wellness-Vermarktung kippt ins Gegenteil und wird zum Verkaufshemmnis.</description>
+    </item>
     <item>
       <title>Fast jeder Zweite trägt eine circadiane Störung</title>
       <link>https://hellmuth-soda.de/news/science/fast-jeder-zweite-tragt-eine-circadiane-storung/</link>
@@ -2856,14 +2904,6 @@
       <description>Die häufigste EEF1A2-Mutation bremst nicht die Proteinsynthese der Zelle, sondern trifft gezielt einzelne Transkripte.</description>
     </item>
     <item>
-      <title>Der Thalamus zerfällt bei Temporallappenepilepsie</title>
-      <link>https://hellmuth-soda.de/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-thalamus-zerfallt-bei-temporallappenepilepsie/</guid>
-      <pubDate>Sun, 12 Jul 2026 23:15:07 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Störung sitzt nicht im Herd, sondern im Verteiler.</description>
-    </item>
-    <item>
       <title>Popping Boba wird ölgefüllt</title>
       <link>https://hellmuth-soda.de/news/hellmuth/popping-boba-wird-olgefullt/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/popping-boba-wird-olgefullt/</guid>
@@ -2878,22 +2918,6 @@
       <pubDate>Sun, 12 Jul 2026 23:12:36 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Chinesische Bubble-Tea-Ketten expandieren nach Südostasien nicht mehr mit dem Heimatsortiment, sondern mit lokaler Frucht als Eintrittsticket.</description>
-    </item>
-    <item>
-      <title>Alzheimer bekommt eine Struktur</title>
-      <link>https://hellmuth-soda.de/news/science/alzheimer-bekommt-eine-struktur/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-bekommt-eine-struktur/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:17:33 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Erstmals ist sichtbar, wie das Immunsystem ein Alzheimer-Fragment präsentiert.</description>
-    </item>
-    <item>
-      <title>Sauerstoffmangel als Nootropikum scheitert im Kontrolldesign</title>
-      <link>https://hellmuth-soda.de/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sauerstoffmangel-als-nootropikum-scheitert-im-kontrolldesign/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:17:18 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Moderate Hypoxie sollte kognitives Training verstärken, im Preprint einer randomisierten Vier-Arm-Studie tut sie es nicht.</description>
     </item>
     <item>
       <title>Kirin verkauft Immunsystem im Joghurtbecher</title>
@@ -3182,30 +3206,6 @@
       <pubDate>Thu, 25 Jun 2026 23:48:26 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der japanische Getränkekonzern bindet 14,5 Millionen Pfund in seine britische Infrastruktur, weil die alte Logik des billigen Imports nicht mehr trägt.</description>
-    </item>
-    <item>
-      <title>Neutonic verkauft Produktivität in der Dose</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/neutonic-verkauft-produktivitat-in-der-dose/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/neutonic-verkauft-produktivitat-in-der-dose/</guid>
-      <pubDate>Wed, 24 Jun 2026 23:38:31 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der Functional-Drink-Markt hat seinen nächsten Versprechensraum gefunden, und er heißt Fokus.</description>
-    </item>
-    <item>
-      <title>Konsolidierung im alkoholfreien Segment</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/konsolidierung-im-alkoholfreien-segment/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/konsolidierung-im-alkoholfreien-segment/</guid>
-      <pubDate>Wed, 24 Jun 2026 23:38:05 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der US-Markt für nüchterne Getränke verlässt die Pionierphase und beginnt, sich nach Plattformlogik zu ordnen.</description>
-    </item>
-    <item>
-      <title>Owl's Brew dreht vom Hard Soda zurück in die Mixer-Nische</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/owl-s-brew-dreht-vom-hard-soda-zuruck-in-die-mixer-nische/</guid>
-      <pubDate>Wed, 24 Jun 2026 23:37:39 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Eine Marke, die im Februar mit Spiked Pop ins Alkoholregal ging, kehrt neun Monate später ohne Alkohol zurück.</description>
     </item>
   </channel>
 </rss>
