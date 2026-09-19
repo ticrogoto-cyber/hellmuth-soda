@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-18T00:31:14.190Z",
+  "generated": "2026-09-19T00:28:46.351Z",
   "hellmuth": [
+    {
+      "title": "Nello wechselt vom Pulver in die Dose",
+      "date": "2026-09-19",
+      "created": "2026-09-19T00:26:09.033Z",
+      "slug": "nello-wechselt-vom-pulver-in-die-dose",
+      "rubrik": "hellmuth",
+      "lead": "Ein US-Anbieter funktionaler Pulvermischungen steigt exklusiv über Target in den Energy-Drink-Markt ein.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/nello-leaps-from-functional-powders-to-rtd-energy-with-exclusive-target-deal",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/nello-wechselt-vom-pulver-in-die-dose/"
+    },
     {
       "title": "Lemonaid holt sich einen Kaffeemann",
       "date": "2026-09-18",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/dirty-shirley-raumt-auf/"
-    },
-    {
-      "title": "Suntory verlegt Lieferketten näher an den britischen Markt",
-      "date": "2026-06-25",
-      "created": "2026-06-25T23:48:26.848Z",
-      "slug": "suntory-verlegt-lieferketten-naher-an-den-britischen-markt",
-      "rubrik": "hellmuth",
-      "lead": "Der japanische Getränkekonzern bindet 14,5 Millionen Pfund in seine britische Infrastruktur, weil die alte Logik des billigen Imports nicht mehr trägt.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/06/25/suntory-invests-145m-to-strengthen-uk-supply-chain/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/suntory-verlegt-lieferketten-naher-an-den-britischen-markt/"
     }
   ],
   "science": [
+    {
+      "title": "Warum Antimuskarinika bei Dystonie wirken, wird im Mausmodell zerlegt",
+      "date": "2026-09-19",
+      "created": "2026-09-19T00:28:46.262Z",
+      "slug": "warum-antimuskarinika-bei-dystonie-wirken-wird-im-mausmodell-zerlegt",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv trennt zwei Mechanismen, die bislang in einen Topf geworfen wurden.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751056v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/warum-antimuskarinika-bei-dystonie-wirken-wird-im-mausmodell-zerlegt/"
+    },
+    {
+      "title": "TMS gegen Nikotinsucht bei Schizophrenie zielt neu",
+      "date": "2026-09-19",
+      "created": "2026-09-19T00:28:35.113Z",
+      "slug": "tms-gegen-nikotinsucht-bei-schizophrenie-zielt-neu",
+      "rubrik": "science",
+      "lead": "Ein Preprint verlegt den Stimulationspunkt vom präfrontalen Kortex ins Default Mode Network und meldet dort die Wirkung, die am alten Ziel ausblieb.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.15.26363162v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/tms-gegen-nikotinsucht-bei-schizophrenie-zielt-neu/"
+    },
+    {
+      "title": "Grübeln hinterlässt Spuren im Blut",
+      "date": "2026-09-19",
+      "created": "2026-09-19T00:28:11.180Z",
+      "slug": "grubeln-hinterlasst-spuren-im-blut",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus Pittsburgh verknüpft Angstphänotypen älterer Erwachsener mit Proteinsignaturen, die sonst Alzheimer-Risiko markieren.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26363134v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/grubeln-hinterlasst-spuren-im-blut/"
+    },
     {
       "title": "Cannabis-Legalisierung und die Notaufnahme",
       "date": "2026-09-18",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/vitamin-b5-hebt-coenzym-a-im-wurm/"
-    },
-    {
-      "title": "Sauerstoffmangel gegen den kognitiven Nebel affektiver Störungen",
-      "date": "2026-07-13",
-      "created": "2026-07-13T23:18:05.778Z",
-      "slug": "sauerstoffmangel-gegen-den-kognitiven-nebel-affektiver-storungen",
-      "rubrik": "science",
-      "lead": "Eine dänische Studie testet dünne Höhenluft als Neuroplastizitäts-Verstärker bei kognitiv beeinträchtigten Patienten mit remittierten Stimmungsstörungen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357722v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/sauerstoffmangel-gegen-den-kognitiven-nebel-affektiver-storungen/"
-    },
-    {
-      "title": "Zwei Dopamin-Theorien vertragen sich im Schwanz des Striatums",
-      "date": "2026-07-12",
-      "created": "2026-07-12T23:15:35.128Z",
-      "slug": "zwei-dopamin-theorien-vertragen-sich-im-schwanz-des-striatums",
-      "rubrik": "science",
-      "lead": "Der hintere Teil des Striatums bekommt Dopaminsignale, die zwei rivalisierende Lehren gleichzeitig zu widerlegen schienen; ein Preprint zeigt, dass beide recht haben.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737461v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/zwei-dopamin-theorien-vertragen-sich-im-schwanz-des-striatums/"
-    },
-    {
-      "title": "Die Epilepsie-Mutation, die nicht das tut, was ihr nachgesagt wird",
-      "date": "2026-07-12",
-      "created": "2026-07-12T23:15:21.960Z",
-      "slug": "die-epilepsie-mutation-die-nicht-das-tut-was-ihr-nachgesagt-wird",
-      "rubrik": "science",
-      "lead": "Die häufigste EEF1A2-Mutation bremst nicht die Proteinsynthese der Zelle, sondern trifft gezielt einzelne Transkripte.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737232v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/die-epilepsie-mutation-die-nicht-das-tut-was-ihr-nachgesagt-wird/"
     }
   ]
 }

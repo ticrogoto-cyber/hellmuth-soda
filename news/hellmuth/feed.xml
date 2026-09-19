@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 18 Sep 2026 00:31:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 00:28:46 GMT</lastBuildDate>
+    <item>
+      <title>Nello wechselt vom Pulver in die Dose</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/nello-wechselt-vom-pulver-in-die-dose/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/nello-wechselt-vom-pulver-in-die-dose/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:26:09 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein US-Anbieter funktionaler Pulvermischungen steigt exklusiv über Target in den Energy-Drink-Markt ein.</description>
+    </item>
     <item>
       <title>Lemonaid holt sich einen Kaffeemann</title>
       <link>https://hellmuth-soda.de/news/hellmuth/lemonaid-holt-sich-einen-kaffeemann/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Thu, 25 Jun 2026 23:49:14 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Eine Kindergetränk-Parodie wird zur RTD-Marke, und das sagt mehr über die Spirituosenbranche als über den Drink.</description>
-    </item>
-    <item>
-      <title>Suntory verlegt Lieferketten näher an den britischen Markt</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/suntory-verlegt-lieferketten-naher-an-den-britischen-markt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/suntory-verlegt-lieferketten-naher-an-den-britischen-markt/</guid>
-      <pubDate>Thu, 25 Jun 2026 23:48:26 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der japanische Getränkekonzern bindet 14,5 Millionen Pfund in seine britische Infrastruktur, weil die alte Logik des billigen Imports nicht mehr trägt.</description>
     </item>
   </channel>
 </rss>
