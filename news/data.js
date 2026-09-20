@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-19T00:28:46.351Z",
+  "generated": "2026-09-20T00:13:52.109Z",
   "hellmuth": [
     {
       "title": "Nello wechselt vom Pulver in die Dose",
@@ -2805,6 +2805,48 @@ window.NEWS_DATA =
   ],
   "science": [
     {
+      "title": "Das Kleinhirn schüttet Dopamin aus",
+      "date": "2026-09-20",
+      "created": "2026-09-20T00:13:52.025Z",
+      "slug": "das-kleinhirn-schuttet-dopamin-aus",
+      "rubrik": "science",
+      "lead": "Belohnungslernen war lange Sache des Mittelhirns. Das Kleinhirn galt als Motorik-Rechner.",
+      "source_name": "Nature Neuroscience",
+      "source_url": "https://www.nature.com/articles/s41593-026-02449-z",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/das-kleinhirn-schuttet-dopamin-aus/"
+    },
+    {
+      "title": "Ein Epilepsie-Medikament greift Hirntumore an",
+      "date": "2026-09-20",
+      "created": "2026-09-20T00:13:28.826Z",
+      "slug": "ein-epilepsie-medikament-greift-hirntumore-an",
+      "rubrik": "science",
+      "lead": "Levetiracetam, seit Jahrzehnten als Antiepileptikum verordnet, zeigt in einer neuen Nature-Medicine-Arbeit direkte Wirkung gegen diffuse Mittellinien-Gliome.",
+      "source_name": "Nature Medicine",
+      "source_url": "https://www.nature.com/articles/s41591-026-04646-6",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/ein-epilepsie-medikament-greift-hirntumore-an/"
+    },
+    {
+      "title": "Warum das Angelman-Gehirn ins Krampfen kippt",
+      "date": "2026-09-20",
+      "created": "2026-09-20T00:12:53.530Z",
+      "slug": "warum-das-angelman-gehirn-ins-krampfen-kippt",
+      "rubrik": "science",
+      "lead": "Ein Preprint lokalisiert die Schwachstelle beim Übergang von anfallsresistent zu anfallsanfällig auf einen bestimmten Hemmzelltyp.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752419v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/warum-das-angelman-gehirn-ins-krampfen-kippt/"
+    },
+    {
       "title": "Warum Antimuskarinika bei Dystonie wirken, wird im Mausmodell zerlegt",
       "date": "2026-09-19",
       "created": "2026-09-19T00:28:46.262Z",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/drei-klassen-statt-drei-diagnosen/"
-    },
-    {
-      "title": "Epilepsie in Westkenia, die halbe Kohorte psychisch krank",
-      "date": "2026-07-14",
-      "created": "2026-07-14T23:15:35.730Z",
-      "slug": "epilepsie-in-westkenia-die-halbe-kohorte-psychisch-krank",
-      "rubrik": "science",
-      "lead": "Eine Querschnittserhebung an einem Referenzkrankenhaus in Westkenia findet bei 52,2 Prozent der Epilepsiepatienten eine psychiatrische Komorbidität.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.11.26357815v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/epilepsie-in-westkenia-die-halbe-kohorte-psychisch-krank/"
-    },
-    {
-      "title": "Der Taktgeber im Hypothalamus reagiert auf Opioide",
-      "date": "2026-07-13",
-      "created": "2026-07-13T23:18:56.695Z",
-      "slug": "der-taktgeber-im-hypothalamus-reagiert-auf-opioide",
-      "rubrik": "science",
-      "lead": "Die A11-Region liefert dem Rückenmark seinen einzigen Dopaminstrom, und dieser Strom lässt sich durch Mu-Opioid-Rezeptoren drosseln.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737263v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-taktgeber-im-hypothalamus-reagiert-auf-opioide/"
-    },
-    {
-      "title": "Vitamin B5 hebt Coenzym A im Wurm",
-      "date": "2026-07-13",
-      "created": "2026-07-13T23:18:34.019Z",
-      "slug": "vitamin-b5-hebt-coenzym-a-im-wurm",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Alternsforschung verlagert den Blick von der Lebensspanne zur Stressresistenz.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737381v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/vitamin-b5-hebt-coenzym-a-im-wurm/"
     }
   ]
 }

@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:28:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:13:52 GMT</lastBuildDate>
+    <item>
+      <title>Das Kleinhirn schüttet Dopamin aus</title>
+      <link>https://hellmuth-soda.de/news/science/das-kleinhirn-schuttet-dopamin-aus/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/das-kleinhirn-schuttet-dopamin-aus/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:13:52 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Belohnungslernen war lange Sache des Mittelhirns. Das Kleinhirn galt als Motorik-Rechner.</description>
+    </item>
+    <item>
+      <title>Ein Epilepsie-Medikament greift Hirntumore an</title>
+      <link>https://hellmuth-soda.de/news/science/ein-epilepsie-medikament-greift-hirntumore-an/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-epilepsie-medikament-greift-hirntumore-an/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:13:28 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Levetiracetam, seit Jahrzehnten als Antiepileptikum verordnet, zeigt in einer neuen Nature-Medicine-Arbeit direkte Wirkung gegen diffuse Mittellinien-Gliome.</description>
+    </item>
+    <item>
+      <title>Warum das Angelman-Gehirn ins Krampfen kippt</title>
+      <link>https://hellmuth-soda.de/news/science/warum-das-angelman-gehirn-ins-krampfen-kippt/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-das-angelman-gehirn-ins-krampfen-kippt/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:12:53 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint lokalisiert die Schwachstelle beim Übergang von anfallsresistent zu anfallsanfällig auf einen bestimmten Hemmzelltyp.</description>
+    </item>
     <item>
       <title>Warum Antimuskarinika bei Dystonie wirken, wird im Mausmodell zerlegt</title>
       <link>https://hellmuth-soda.de/news/science/warum-antimuskarinika-bei-dystonie-wirken-wird-im-mausmodell-zerlegt/</link>
@@ -2840,14 +2864,6 @@
       <description>Eine britische Kohortenanalyse ordnet Psychosen jenseits der Lehrbuchgrenzen neu.</description>
     </item>
     <item>
-      <title>Epilepsie in Westkenia, die halbe Kohorte psychisch krank</title>
-      <link>https://hellmuth-soda.de/news/science/epilepsie-in-westkenia-die-halbe-kohorte-psychisch-krank/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/epilepsie-in-westkenia-die-halbe-kohorte-psychisch-krank/</guid>
-      <pubDate>Tue, 14 Jul 2026 23:15:35 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Querschnittserhebung an einem Referenzkrankenhaus in Westkenia findet bei 52,2 Prozent der Epilepsiepatienten eine psychiatrische Komorbidität.</description>
-    </item>
-    <item>
       <title>Asiens Getränkebranche inszeniert sich im Juni</title>
       <link>https://hellmuth-soda.de/news/hellmuth/asiens-getrankebranche-inszeniert-sich-im-juni/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/asiens-getrankebranche-inszeniert-sich-im-juni/</guid>
@@ -2870,22 +2886,6 @@
       <pubDate>Tue, 14 Jul 2026 23:14:10 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Nach Jahren, in denen jedes neue Soda mit Adaptogenen, Nootropika oder Darmflora warb, sortiert sich das Regal neu.</description>
-    </item>
-    <item>
-      <title>Der Taktgeber im Hypothalamus reagiert auf Opioide</title>
-      <link>https://hellmuth-soda.de/news/science/der-taktgeber-im-hypothalamus-reagiert-auf-opioide/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-taktgeber-im-hypothalamus-reagiert-auf-opioide/</guid>
-      <pubDate>Mon, 13 Jul 2026 23:18:56 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die A11-Region liefert dem Rückenmark seinen einzigen Dopaminstrom, und dieser Strom lässt sich durch Mu-Opioid-Rezeptoren drosseln.</description>
-    </item>
-    <item>
-      <title>Vitamin B5 hebt Coenzym A im Wurm</title>
-      <link>https://hellmuth-soda.de/news/science/vitamin-b5-hebt-coenzym-a-im-wurm/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/vitamin-b5-hebt-coenzym-a-im-wurm/</guid>
-      <pubDate>Mon, 13 Jul 2026 23:18:34 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Alternsforschung verlagert den Blick von der Lebensspanne zur Stressresistenz.</description>
     </item>
     <item>
       <title>Something &amp; Nothing landet bei H-E-B</title>
