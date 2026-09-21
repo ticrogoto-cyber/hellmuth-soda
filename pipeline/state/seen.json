@@ -4039,19 +4039,19 @@
     },
     "797fe942b44bbad5288a25b71c0faf1b748f10dc42a54ac24c5496eb9bc7d58f": {
       "url": "https://www.foodnavigator-asia.com/News/Promotional-features/start-ups-tackling-ai-precision-fermentation-and-microbiome-innovation/",
-      "date": "2026-09-14",
+      "date": "2026-09-21",
       "rubrik": "hellmuth",
-      "score": 7,
-      "dropped": "empty-transform",
-      "expires": "2026-09-21T00:15:47.761Z"
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:18:45.427Z"
     },
     "a035e1dc7d6519e03bdc002b574f3fba8814baed1c481a11c271c2f41d69f84d": {
       "url": "https://www.minimeinsights.com/2026/09/13/lemonilo-expands-brownies-range-with-affordable-cruunchy-shoor/",
-      "date": "2026-09-14",
+      "date": "2026-09-21",
       "rubrik": "hellmuth",
       "score": 1,
       "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:14.462Z"
+      "expires": "2026-09-28T00:19:23.729Z"
     },
     "7eb911fe6687c1bb80e64268b2b8e4600af0688321160e872f543293db133904": {
       "url": "https://www.minimeinsights.com/2026/09/13/tealive-elevates-cham-tradition-with-layan-coffee-series/",
@@ -4060,125 +4060,21 @@
       "score": 8,
       "published": true
     },
-    "ac940cac272187e8608407ee480ba844894ff790bc787113e470ac5605d0805c": {
-      "url": "https://soranews24.com/2026/09/14/7-eleven-japans-ramen-machine-is-a-viral-hit-but-theres-one-glaring-problem/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:38.094Z"
-    },
-    "bcd111e81a9e83df5c95f08ca17919144f2c758fc3c7651a9f120692d67ba8aa": {
-      "url": "https://soranews24.com/2026/09/14/burger-king-goes-viral-in-japan-for-opening-new-store-in-a-japanese-style-building/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:41.417Z"
-    },
-    "2f0a58ae298fffd36832b5681d2a703421f8a345f03667a8fb7917960b08ab9a": {
-      "url": "https://soranews24.com/2026/09/13/japanese-pudding-gets-a-massive-big-eats-upgrade-at-this-tokyo-cafe/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:44.441Z"
-    },
-    "352b924e0d1a637eab190d7f62b4a0de6ffced7830bad3d252d81a59903584d2": {
-      "url": "https://soranews24.com/2026/09/13/visiting-fukui-can-teach-travelers-how-to-make-and-smash-japanese-kawara-tiles-photos/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:47.405Z"
-    },
-    "a1b6408f942f9c9134ece4d16c65771be0263c20a63c48e2aff941a59669c293": {
-      "url": "https://soranews24.com/2026/09/13/japans-middle-aged-fairy-man-character-stole-our-reporters-heart-in-a-hot-spring-town/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:50.225Z"
-    },
-    "730b192127a40e31dd8aed1dcf920fcc2bb27b92d5143f36a281be15275f9b21": {
-      "url": "https://www.thepeakmagazine.com.sg/lifestyle/10-upscale-spots-best-coffee-singapore",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:54.108Z"
-    },
-    "df09a7bb8c6e5e25d39f6c6dc6583e6091b57d4dfeed673b28c9885647f6ed7c": {
-      "url": "https://robbreport.com.sg/apples-first-foldable-iphone/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:16:59.395Z"
-    },
-    "45906b229029e4c418e78fb7902eaa38a89bf0283306b6b8c206713bfeda2315": {
-      "url": "https://robbreport.com.sg/luxury-news-93/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:01.202Z"
-    },
-    "5b0bfa3c2d46c23ff3d1cf8d1a2e89192d9c9f11ec890cd2378c915e9c61945b": {
-      "url": "https://www.japantimes.co.jp/news/2026/09/12/japan/politics/china-threat-okinawa-vote/",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:04.625Z"
-    },
     "c761167c9a023e57c4353d9a7fdc9c95db28f5bb1eefd3241dab1cd44709fe7a": {
       "url": "https://sustainable.japantimes.com/unraveling/50?utm_source=jto&utm_medium=sidebanner&utm_campaign=jto_sidebanner&f=1",
-      "date": "2026-09-14",
+      "date": "2026-09-21",
       "rubrik": "hellmuth",
       "score": 0,
       "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:07.979Z"
-    },
-    "dae2f21441c2e3ae00538e805ac3076f3cc72438f29e19be37a8742828bc2a08": {
-      "url": "https://jingdaily.com/posts/xi-pitches-his-ai-vision-at-brics-summit-as-china-duels-with-us",
-      "date": "2026-09-14",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:12.263Z"
+      "expires": "2026-09-28T00:19:54.480Z"
     },
     "16ec3ef2d7c6d7cec3189970923b2056175c7c98f4163329f065e6c5fa9d1a64": {
       "url": "https://www.scmp.com/lifestyle/food-drink/article/3367151/how-hong-kong-gen-z-coffee-entrepreneur-filling-market-gap-her-can-do-attitude?utm_source=rss_feed",
-      "date": "2026-09-14",
+      "date": "2026-09-21",
       "rubrik": "hellmuth",
       "score": 7,
       "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:20.838Z"
-    },
-    "ea8297ea322ba0dc2ebbac3eba71e0937bbb494cf26070c597b398d1e6f55102": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.09.11.26362836v1?rss=1",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:46.367Z"
-    },
-    "6796ae457b73ed49d5d718518e34da37151b7f84d618c5e4062e1adba5717521": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362319v1?rss=1",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:49.991Z"
-    },
-    "e103c59ca9fed2d64f93a8a402344de5bad09cc99462c0db0c06e7acd528c044": {
-      "url": "https://www.medrxiv.org/content/10.64898/2026.09.09.26362635v1?rss=1",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:17:52.469Z"
+      "expires": "2026-09-28T00:20:09.243Z"
     },
     "3a9079ee8f311aa60337553bdb509e4ba1ffcf987f3b9a95f628bdfef587bc1d": {
       "url": "https://www.medrxiv.org/content/10.64898/2026.09.08.26362080v1?rss=1",
@@ -4187,68 +4083,12 @@
       "score": 9,
       "published": true
     },
-    "3847bc672cbb787116631300f34c773ff2ca7eca2decf7c9eaf675bb95ef0e29": {
-      "url": "https://www.nature.com/articles/s41591-026-04587-0",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:30.567Z"
-    },
-    "4937e38f73cde778d0d29629cb16c809dd122c1d466dc53971eb4549648d2b2f": {
-      "url": "https://www.nature.com/articles/s41591-026-04488-2",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:33.309Z"
-    },
-    "94efcce513a9391634ebcdb6ae11be3a13eae113fb203ac23e507bb63c99774e": {
-      "url": "https://www.nature.com/articles/s41591-026-04621-1",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:36.126Z"
-    },
-    "7778c5403ea0f5fc11866a96ee750b01b46269a87db503a7e62142cfa3743fca": {
-      "url": "https://www.nature.com/articles/s41591-026-04642-w",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:38.852Z"
-    },
     "641eb98f18703a07d8692b9188e097d01ecf6e26d7221b14204a339590705aff": {
       "url": "https://www.nature.com/articles/s41591-026-04635-9",
       "date": "2026-09-14",
       "rubrik": "science",
       "score": 9,
       "published": true
-    },
-    "dd612015f8fd10ff767eefa8f625667d58a7ce29a2bd5564e209839192427f54": {
-      "url": "https://www.nature.com/articles/s41591-026-04703-0",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:51.474Z"
-    },
-    "5509a80c96ea2a75a6c3988c6a6e7ca8d4a8b19378f2f7c35dbe31aa423c97cc": {
-      "url": "https://www.nature.com/articles/s41591-026-04695-x",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:54.095Z"
-    },
-    "44c8971b9fb52a06aa334a223587c8a8f2e151cd0249bea75c6045320bc182bd": {
-      "url": "https://www.nature.com/articles/s41591-026-04596-z",
-      "date": "2026-09-14",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-09-21T00:18:56.557Z"
     },
     "cfc23aee4982f51fc906e98573cf0ea2f621eb66c526413168beaf8af7487d01": {
       "url": "https://www.nature.com/articles/s41593-026-02415-9",
@@ -7432,6 +7272,203 @@
     "3cb32ac81b963fd9aac3c7c573f12a24fe2a92b42d38045f690a0ac6d7c9dcf3": {
       "url": "https://www.nature.com/articles/s41593-026-02449-z",
       "date": "2026-09-20",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "5e21cd09c00d1f736b3858a14d004e12527fbcccfc0cd5ee7e989572e49fee21": {
+      "url": "https://www.foodnavigator-asia.com/News/Promotional-features/harnessing-satellite-technology-to-navigate-agricultural-supply-chains/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:18:47.565Z"
+    },
+    "87512bf50fb012ddcf205f64628a573d972287da0712a50df0f5b560350f8765": {
+      "url": "https://www.beveragedaily.com/News/Promotional-features/consumer-trends-in-indulgent-flavor-beverages-nata-de-coco/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 4,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:18:56.669Z"
+    },
+    "83eef89d20b423ae061be9d81a7f8bec0f01408e10d1b136df01f27417768440": {
+      "url": "https://www.globalwinemasters.com/the-global-grenache-masters",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:10.444Z"
+    },
+    "69fe3186ac88a1df0cc2aa24d394e2c13970bdfa61bd19ebe50f58d5410678f7": {
+      "url": "https://www.globalwinemasters.com/sweet-wine",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:12.111Z"
+    },
+    "929a38baee8beb622bd0596eaa0284894b6fc65c11687901b37687fc24ce0db8": {
+      "url": "https://soranews24.com/2026/09/21/only-two-yoshinoya-branches-in-all-of-japan-are-on-a-train-platform-and-this-is-one-of-them/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:29.885Z"
+    },
+    "1cab518da83d60af652897755630231edc5d98765ee53be646edb2271948b7ef": {
+      "url": "https://soranews24.com/2026/09/21/japanese-sweet-potato-ice-cream-season-haagen-dazs-and-muji-take-different-paths-to-our-hearts/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:32.118Z"
+    },
+    "a09a8435499cac132c8a81f7dd227cfc58ea8e3eeea44e4bf6093afd3a229793": {
+      "url": "https://soranews24.com/2026/09/20/japanese-convenience-store-is-very-focused-with-its-new-bento-maybe-too-focused/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:33.797Z"
+    },
+    "10c1a86674f97f3b502526d1d48e8ceb0b7b2430f787c5bc60634cb5a2a1e6f4": {
+      "url": "https://soranews24.com/2026/09/20/studio-ghibli-releases-new-anime-socks-that-pay-tribute-to-characters-from-four-different-movies/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:35.417Z"
+    },
+    "3007aad65f0b7301dd554b213b0956d18e608c27b115219a8914c394d53891e4": {
+      "url": "https://www.thepeakmagazine.com.sg/people/simon-mchendry-interview-upper-house",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:37.957Z"
+    },
+    "2c44f169e88f5f05770c59f74b27cbc20c7575a716ef2ba93b3aca5ff09c159d": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/porsche-has-made-its-most-powerful-production-car-yet-and-its-cayenne",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:39.124Z"
+    },
+    "01ae3699dbcd22187a2abaaeb32a068080d5bb45334ec0cad03416220df48c48": {
+      "url": "https://robbreport.com.sg/mclaren-suv/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:43.055Z"
+    },
+    "8785e9af1a57b7767c2d3b762e732b49ead9d13acd9ea113288571feb3639193": {
+      "url": "https://robbreport.com.sg/luxury-news-94/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:44.895Z"
+    },
+    "f055d77db0995a127b1aee7fc07b1f24fe9e602536000e7e0ae7e10cbba656df": {
+      "url": "https://www.japantimes.co.jp/news/2026/09/19/japan/municipalities-septic-tanks/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:47.088Z"
+    },
+    "71f729dbee7095dba317fc8ee51aee7b8a47e48db61704afbe210dddb25ef9b6": {
+      "url": "https://www.japantimes.co.jp/news/2026/09/20/japan/typhoon-dujuan-silver-week/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:48.424Z"
+    },
+    "41a5d02af5f96ebe32b5e99bc3a43452af16d7f36c70a127d9992209d85a2e2c": {
+      "url": "https://www.japantimes.co.jp/news/2026/09/20/japan/north-korea-missiles-september-20/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:49.608Z"
+    },
+    "067c04547b3b6ed6ee0f1af99cf8224da1af641219d4e52f1d5b25c60c7c817d": {
+      "url": "https://www.japantimes.co.jp/news/2026/09/20/japan/foreign-ministry-costumes-drill/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:51.098Z"
+    },
+    "7d1e2eef6595a54d3ea2c4d598db8f569683d8cd9a9cd65d7a0457c6778f3919": {
+      "url": "https://www.japantimes.co.jp/life/2026/09/20/food-drink/inari-zushi-new-rice-open-faced-recipe/",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:52.885Z"
+    },
+    "04b9d0149ff22648d6ad04336a4c2c4e524c06e43ec811feb2dd9e470f9fdfcc": {
+      "url": "https://jingdaily.com/posts/us-china-begin-trade-talks-in-new-york-ahead-of-trump-xi-summit",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:19:57.953Z"
+    },
+    "7b0e198df89b5adae0e0ee9675ca5c68fa681e2fa093576c47ad1486e194abc9": {
+      "url": "https://www.scmp.com/lifestyle/health-wellness/article/3367808/guide-hong-kongs-bitter-herbal-teas-and-how-gen-z-reviving-health-tradition?utm_source=rss_feed",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 7,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:20:04.693Z"
+    },
+    "c44c861b81729815df17a034aef410f76054176787cef83c2d62bf9b69c040e8": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3368002/what-expect-masterchef-asia-2026-judges-open-series-comeback?utm_source=rss_feed",
+      "date": "2026-09-21",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:20:06.973Z"
+    },
+    "4fc5c492999105b997bd2f5d36930dd3e265c7f52443e2acb807eef4480f113c": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363314v1?rss=1",
+      "date": "2026-09-21",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "0cde6658bec1a5902a681333ea3e579046da607ed22d2d639beec36e5e98d9cd": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363348v1?rss=1",
+      "date": "2026-09-21",
+      "rubrik": "science",
+      "score": 5,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:20:47.153Z"
+    },
+    "57e84f7e12263126d97e4467b7672ece52a40c91642dbe9644cd4e5b594f9636": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.18.26363360v1?rss=1",
+      "date": "2026-09-21",
+      "rubrik": "science",
+      "score": 8,
+      "published": true
+    },
+    "5df80e486e4e49a92ae9f9427ebd2b0dd9603f30df8171853d266e8f67944da0": {
+      "url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363131v1?rss=1",
+      "date": "2026-09-21",
+      "rubrik": "science",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-09-28T00:21:02.558Z"
+    },
+    "9db219714379097e160581cbc015e51da8a8710c55288f521ec30151b7f744ba": {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752336v1?rss=1",
+      "date": "2026-09-21",
       "rubrik": "science",
       "score": 9,
       "published": true

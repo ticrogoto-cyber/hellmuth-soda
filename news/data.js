@@ -1,6 +1,6 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-20T00:13:52.109Z",
+  "generated": "2026-09-21T00:21:23.011Z",
   "hellmuth": [
     {
       "title": "Nello wechselt vom Pulver in die Dose",
@@ -2805,6 +2805,48 @@ window.NEWS_DATA =
   ],
   "science": [
     {
+      "title": "Alzheimer als Weitergabefehler",
+      "date": "2026-09-21",
+      "created": "2026-09-21T00:21:22.916Z",
+      "slug": "alzheimer-als-weitergabefehler",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus Drosophila-Zellen verschiebt den Fokus vom Plaque zur Paketverwechslung im Zellinneren.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752336v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/alzheimer-als-weitergabefehler/"
+    },
+    {
+      "title": "Ultraschall zielt auf die Amygdala",
+      "date": "2026-09-21",
+      "created": "2026-09-21T00:21:00.319Z",
+      "slug": "ultraschall-zielt-auf-die-amygdala",
+      "rubrik": "science",
+      "lead": "Ein Preprint meldet, dass fokussierter Ultraschall tief im Hirn wirken kann, ohne Skalpell und ohne Elektrode.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.18.26363360v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ultraschall-zielt-auf-die-amygdala/"
+    },
+    {
+      "title": "Sprachmodelle hören Kinderpsychosen im Halbsatz",
+      "date": "2026-09-21",
+      "created": "2026-09-21T00:20:45.072Z",
+      "slug": "sprachmodelle-horen-kinderpsychosen-im-halbsatz",
+      "rubrik": "science",
+      "lead": "Ein medRxiv-Preprint testet, ob die Wortvorhersage großer Sprachmodelle die formale Denkstörung bei früh beginnender Psychose messbar macht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363314v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sprachmodelle-horen-kinderpsychosen-im-halbsatz/"
+    },
+    {
       "title": "Das Kleinhirn schüttet Dopamin aus",
       "date": "2026-09-20",
       "created": "2026-09-20T00:13:52.025Z",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/"
-    },
-    {
-      "title": "Neonicotinoide docken an menschliche Astrozyten",
-      "date": "2026-07-15",
-      "created": "2026-07-15T23:17:54.120Z",
-      "slug": "neonicotinoide-docken-an-menschliche-astrozyten",
-      "rubrik": "science",
-      "lead": "Insektengifte, die auf Nikotinrezeptoren zielen, wirken auch auf menschliche Gehirnzellen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.3390/ijms27135902",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/neonicotinoide-docken-an-menschliche-astrozyten/"
-    },
-    {
-      "title": "Fünf Proteine als Angriffspunkte für die Psychiatrie",
-      "date": "2026-07-14",
-      "created": "2026-07-14T23:16:09.030Z",
-      "slug": "funf-proteine-als-angriffspunkte-fur-die-psychiatrie",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der UK Biobank sortiert das Blutplasma nach kausalen Kandidaten für Depression, Angst, Bipolarität und Psychose.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357744v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/funf-proteine-als-angriffspunkte-fur-die-psychiatrie/"
-    },
-    {
-      "title": "Drei Klassen statt drei Diagnosen",
-      "date": "2026-07-14",
-      "created": "2026-07-14T23:15:51.682Z",
-      "slug": "drei-klassen-statt-drei-diagnosen",
-      "rubrik": "science",
-      "lead": "Eine britische Kohortenanalyse ordnet Psychosen jenseits der Lehrbuchgrenzen neu.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.10.26357470v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/drei-klassen-statt-drei-diagnosen/"
     }
   ]
 }

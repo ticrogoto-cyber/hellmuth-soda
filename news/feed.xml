@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 20 Sep 2026 00:13:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 00:21:23 GMT</lastBuildDate>
+    <item>
+      <title>Alzheimer als Weitergabefehler</title>
+      <link>https://hellmuth-soda.de/news/science/alzheimer-als-weitergabefehler/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-als-weitergabefehler/</guid>
+      <pubDate>Mon, 21 Sep 2026 00:21:22 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus Drosophila-Zellen verschiebt den Fokus vom Plaque zur Paketverwechslung im Zellinneren.</description>
+    </item>
+    <item>
+      <title>Ultraschall zielt auf die Amygdala</title>
+      <link>https://hellmuth-soda.de/news/science/ultraschall-zielt-auf-die-amygdala/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ultraschall-zielt-auf-die-amygdala/</guid>
+      <pubDate>Mon, 21 Sep 2026 00:21:00 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint meldet, dass fokussierter Ultraschall tief im Hirn wirken kann, ohne Skalpell und ohne Elektrode.</description>
+    </item>
+    <item>
+      <title>Sprachmodelle hören Kinderpsychosen im Halbsatz</title>
+      <link>https://hellmuth-soda.de/news/science/sprachmodelle-horen-kinderpsychosen-im-halbsatz/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sprachmodelle-horen-kinderpsychosen-im-halbsatz/</guid>
+      <pubDate>Mon, 21 Sep 2026 00:20:45 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein medRxiv-Preprint testet, ob die Wortvorhersage großer Sprachmodelle die formale Denkstörung bei früh beginnender Psychose messbar macht.</description>
+    </item>
     <item>
       <title>Das Kleinhirn schüttet Dopamin aus</title>
       <link>https://hellmuth-soda.de/news/science/das-kleinhirn-schuttet-dopamin-aus/</link>
@@ -2816,14 +2840,6 @@
       <description>Ein Scoping Review im Asian Journal of Psychiatry sortiert, was bislang als geschlechtsneutrales Risiko galt.</description>
     </item>
     <item>
-      <title>Neonicotinoide docken an menschliche Astrozyten</title>
-      <link>https://hellmuth-soda.de/news/science/neonicotinoide-docken-an-menschliche-astrozyten/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/neonicotinoide-docken-an-menschliche-astrozyten/</guid>
-      <pubDate>Wed, 15 Jul 2026 23:17:54 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Insektengifte, die auf Nikotinrezeptoren zielen, wirken auch auf menschliche Gehirnzellen.</description>
-    </item>
-    <item>
       <title>Simply Push zielt in die Lücke zwischen Wasser und Limonade</title>
       <link>https://hellmuth-soda.de/news/hellmuth/simply-push-zielt-in-die-lucke-zwischen-wasser-und-limonade/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/simply-push-zielt-in-die-lucke-zwischen-wasser-und-limonade/</guid>
@@ -2846,22 +2862,6 @@
       <pubDate>Wed, 15 Jul 2026 23:16:05 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Was als Verzichtsnische begann, sortiert inzwischen die Regale um.</description>
-    </item>
-    <item>
-      <title>Fünf Proteine als Angriffspunkte für die Psychiatrie</title>
-      <link>https://hellmuth-soda.de/news/science/funf-proteine-als-angriffspunkte-fur-die-psychiatrie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/funf-proteine-als-angriffspunkte-fur-die-psychiatrie/</guid>
-      <pubDate>Tue, 14 Jul 2026 23:16:09 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der UK Biobank sortiert das Blutplasma nach kausalen Kandidaten für Depression, Angst, Bipolarität und Psychose.</description>
-    </item>
-    <item>
-      <title>Drei Klassen statt drei Diagnosen</title>
-      <link>https://hellmuth-soda.de/news/science/drei-klassen-statt-drei-diagnosen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/drei-klassen-statt-drei-diagnosen/</guid>
-      <pubDate>Tue, 14 Jul 2026 23:15:51 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine britische Kohortenanalyse ordnet Psychosen jenseits der Lehrbuchgrenzen neu.</description>
     </item>
     <item>
       <title>Asiens Getränkebranche inszeniert sich im Juni</title>
