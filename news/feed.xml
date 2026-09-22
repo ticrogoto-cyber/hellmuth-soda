@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 21 Sep 2026 00:21:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 00:59:10 GMT</lastBuildDate>
+    <item>
+      <title>Erinnern hat keine sauberen Grenzen</title>
+      <link>https://hellmuth-soda.de/news/science/erinnern-hat-keine-sauberen-grenzen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/erinnern-hat-keine-sauberen-grenzen/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:59:10 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Neurowissenschaft misst, was ein Gehirn tut, wenn Wiedererkennen gelingt, und findet das Gegenteil sauberer Arbeitsteilung.</description>
+    </item>
+    <item>
+      <title>Der präfrontale Kortex überschreibt die Hippocampus-Karte im Schlaf</title>
+      <link>https://hellmuth-soda.de/news/science/der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:58:51 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv kippt die Richtung der Gedächtniskonsolidierung um.</description>
+    </item>
+    <item>
+      <title>Hirnrhythmen sagen voraus, wer auf Zwangs-DBS anspricht</title>
+      <link>https://hellmuth-soda.de/news/science/hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:58:24 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Bei tiefer Hirnstimulation gegen therapieresistente Zwangsstörung zeichnet sich der Erfolg im neuronalen Signal ab, lange bevor die Klinik ihn sieht.</description>
+    </item>
+    <item>
+      <title>NGG stellt sich vor die Zuckerlobby</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/ngg-stellt-sich-vor-die-zuckerlobby/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ngg-stellt-sich-vor-die-zuckerlobby/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:57:41 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Eine Gewerkschaft verteidigt das Produkt, an dem ihre Mitglieder erkranken, und nennt das Beschäftigtenschutz.</description>
+    </item>
+    <item>
+      <title>Funktionale Nahrung entdeckt, dass sie schmecken muss</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/funktionale-nahrung-entdeckt-dass-sie-schmecken-muss/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/funktionale-nahrung-entdeckt-dass-sie-schmecken-muss/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:55:23 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Wellness-Markt lernt gerade, dass Wirkstoffe einen Träger brauchen, und dieser Träger heißt Geschmack.</description>
+    </item>
     <item>
       <title>Alzheimer als Weitergabefehler</title>
       <link>https://hellmuth-soda.de/news/science/alzheimer-als-weitergabefehler/</link>
@@ -2792,14 +2832,6 @@
       <description>Ein thailändisches Preprint versucht, exekutive Dysfunktion bei Schizophrenie aus dem Testlabor herauszuholen und in eine vertraute Handbewegung zu verlegen.</description>
     </item>
     <item>
-      <title>Entzündung sortiert Depression neu</title>
-      <link>https://hellmuth-soda.de/news/science/entzundung-sortiert-depression-neu/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/entzundung-sortiert-depression-neu/</guid>
-      <pubDate>Thu, 16 Jul 2026 23:16:04 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die kategoriale Depressionsdiagnose zerfällt, sobald man Immunmarker daneben legt.</description>
-    </item>
-    <item>
       <title>Free Spirits verlässt die Wellness-Ecke</title>
       <link>https://hellmuth-soda.de/news/hellmuth/free-spirits-verlasst-die-wellness-ecke/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/free-spirits-verlasst-die-wellness-ecke/</guid>
@@ -2822,22 +2854,6 @@
       <pubDate>Thu, 16 Jul 2026 23:15:12 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Wer erwachsene alkoholfreie Getränke wie klassische Spirituosen vertreibt, bremst sie aus.</description>
-    </item>
-    <item>
-      <title>Neue Stimulanzien am Monoamin-Transporter durchleuchtet</title>
-      <link>https://hellmuth-soda.de/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/</guid>
-      <pubDate>Wed, 15 Jul 2026 23:18:21 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Der Designer-Drogenmarkt lässt sich pharmakologisch vermessen, sobald jemand die Geduld dafür aufbringt.</description>
-    </item>
-    <item>
-      <title>Cannabis-Psychose trifft Männer und Frauen ungleich</title>
-      <link>https://hellmuth-soda.de/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/</guid>
-      <pubDate>Wed, 15 Jul 2026 23:18:09 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Scoping Review im Asian Journal of Psychiatry sortiert, was bislang als geschlechtsneutrales Risiko galt.</description>
     </item>
     <item>
       <title>Simply Push zielt in die Lücke zwischen Wasser und Limonade</title>
@@ -3190,22 +3206,6 @@
       <pubDate>Fri, 26 Jun 2026 23:37:58 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der US-Markt für alkoholfreie Getränke stagniert auf hohem Niveau, und das ist die eigentliche Nachricht.</description>
-    </item>
-    <item>
-      <title>Alkoholfreie Spirituosen suchen Asien</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreie-spirituosen-suchen-asien/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreie-spirituosen-suchen-asien/</guid>
-      <pubDate>Fri, 26 Jun 2026 23:37:30 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die deutsche Marke Undone verlegt ihren Wachstumshorizont in den pazifischen Raum und macht damit eine Verschiebung sichtbar, die Europa längst hinter sich glaubt.</description>
-    </item>
-    <item>
-      <title>Dirty Shirley räumt auf</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/dirty-shirley-raumt-auf/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/dirty-shirley-raumt-auf/</guid>
-      <pubDate>Thu, 25 Jun 2026 23:49:14 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Eine Kindergetränk-Parodie wird zur RTD-Marke, und das sagt mehr über die Spirituosenbranche als über den Drink.</description>
     </item>
   </channel>
 </rss>

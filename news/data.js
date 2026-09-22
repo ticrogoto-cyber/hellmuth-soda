@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-21T00:21:23.011Z",
+  "generated": "2026-09-22T00:59:10.430Z",
   "hellmuth": [
+    {
+      "title": "NGG stellt sich vor die Zuckerlobby",
+      "date": "2026-09-22",
+      "created": "2026-09-22T00:57:41.984Z",
+      "slug": "ngg-stellt-sich-vor-die-zuckerlobby",
+      "rubrik": "hellmuth",
+      "lead": "Eine Gewerkschaft verteidigt das Produkt, an dem ihre Mitglieder erkranken, und nennt das Beschäftigtenschutz.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/mehr-kosten-mehr-druck-ngg-kritisiert-zuckersteuer-plaene/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/ngg-stellt-sich-vor-die-zuckerlobby/"
+    },
+    {
+      "title": "Funktionale Nahrung entdeckt, dass sie schmecken muss",
+      "date": "2026-09-22",
+      "created": "2026-09-22T00:55:23.713Z",
+      "slug": "funktionale-nahrung-entdeckt-dass-sie-schmecken-muss",
+      "rubrik": "hellmuth",
+      "lead": "Der Wellness-Markt lernt gerade, dass Wirkstoffe einen Träger brauchen, und dieser Träger heißt Geschmack.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/spons/why-functional-nutrition-calls-for-a-closer-look-at-flavor/830241/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/funktionale-nahrung-entdeckt-dass-sie-schmecken-muss/"
+    },
     {
       "title": "Nello wechselt vom Pulver in die Dose",
       "date": "2026-09-19",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/non-alc-wachst-aber-nur-noch-im-trippelschritt/"
-    },
-    {
-      "title": "Alkoholfreie Spirituosen suchen Asien",
-      "date": "2026-06-26",
-      "created": "2026-06-26T23:37:30.731Z",
-      "slug": "alkoholfreie-spirituosen-suchen-asien",
-      "rubrik": "hellmuth",
-      "lead": "Die deutsche Marke Undone verlegt ihren Wachstumshorizont in den pazifischen Raum und macht damit eine Verschiebung sichtbar, die Europa längst hinter sich glaubt.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/undone-asia-represents-one-of-the-most-exciting-opportunities-for-the-future-of-no-and-low-alcohol-drinking/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/alkoholfreie-spirituosen-suchen-asien/"
-    },
-    {
-      "title": "Dirty Shirley räumt auf",
-      "date": "2026-06-25",
-      "created": "2026-06-25T23:49:14.856Z",
-      "slug": "dirty-shirley-raumt-auf",
-      "rubrik": "hellmuth",
-      "lead": "Eine Kindergetränk-Parodie wird zur RTD-Marke, und das sagt mehr über die Spirituosenbranche als über den Drink.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/adam-kost-on-how-dirty-shirley-cleaned-up",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/dirty-shirley-raumt-auf/"
     }
   ],
   "science": [
+    {
+      "title": "Erinnern hat keine sauberen Grenzen",
+      "date": "2026-09-22",
+      "created": "2026-09-22T00:59:10.335Z",
+      "slug": "erinnern-hat-keine-sauberen-grenzen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft misst, was ein Gehirn tut, wenn Wiedererkennen gelingt, und findet das Gegenteil sauberer Arbeitsteilung.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.19.752867v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/erinnern-hat-keine-sauberen-grenzen/"
+    },
+    {
+      "title": "Der präfrontale Kortex überschreibt die Hippocampus-Karte im Schlaf",
+      "date": "2026-09-22",
+      "created": "2026-09-22T00:58:51.933Z",
+      "slug": "der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv kippt die Richtung der Gedächtniskonsolidierung um.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751737v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf/"
+    },
+    {
+      "title": "Hirnrhythmen sagen voraus, wer auf Zwangs-DBS anspricht",
+      "date": "2026-09-22",
+      "created": "2026-09-22T00:58:24.603Z",
+      "slug": "hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht",
+      "rubrik": "science",
+      "lead": "Bei tiefer Hirnstimulation gegen therapieresistente Zwangsstörung zeichnet sich der Erfolg im neuronalen Signal ab, lange bevor die Klinik ihn sieht.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.18.26363320v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht/"
+    },
     {
       "title": "Alzheimer als Weitergabefehler",
       "date": "2026-09-21",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/kognitionstest-mit-tonfiguren-und-eeg-brille/"
-    },
-    {
-      "title": "Entzündung sortiert Depression neu",
-      "date": "2026-07-16",
-      "created": "2026-07-16T23:16:04.014Z",
-      "slug": "entzundung-sortiert-depression-neu",
-      "rubrik": "science",
-      "lead": "Die kategoriale Depressionsdiagnose zerfällt, sobald man Immunmarker daneben legt.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.15.26358135v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/entzundung-sortiert-depression-neu/"
-    },
-    {
-      "title": "Neue Stimulanzien am Monoamin-Transporter durchleuchtet",
-      "date": "2026-07-15",
-      "created": "2026-07-15T23:18:21.043Z",
-      "slug": "neue-stimulanzien-am-monoamin-transporter-durchleuchtet",
-      "rubrik": "science",
-      "lead": "Der Designer-Drogenmarkt lässt sich pharmakologisch vermessen, sobald jemand die Geduld dafür aufbringt.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1111/bph.70587",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/"
-    },
-    {
-      "title": "Cannabis-Psychose trifft Männer und Frauen ungleich",
-      "date": "2026-07-15",
-      "created": "2026-07-15T23:18:09.329Z",
-      "slug": "cannabis-psychose-trifft-manner-und-frauen-ungleich",
-      "rubrik": "science",
-      "lead": "Ein Scoping Review im Asian Journal of Psychiatry sortiert, was bislang als geschlechtsneutrales Risiko galt.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.ajp.2026.105086",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/"
     }
   ]
 }

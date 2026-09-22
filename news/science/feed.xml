@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Mon, 21 Sep 2026 00:21:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 00:59:10 GMT</lastBuildDate>
+    <item>
+      <title>Erinnern hat keine sauberen Grenzen</title>
+      <link>https://hellmuth-soda.de/news/science/erinnern-hat-keine-sauberen-grenzen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/erinnern-hat-keine-sauberen-grenzen/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:59:10 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Neurowissenschaft misst, was ein Gehirn tut, wenn Wiedererkennen gelingt, und findet das Gegenteil sauberer Arbeitsteilung.</description>
+    </item>
+    <item>
+      <title>Der präfrontale Kortex überschreibt die Hippocampus-Karte im Schlaf</title>
+      <link>https://hellmuth-soda.de/news/science/der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:58:51 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv kippt die Richtung der Gedächtniskonsolidierung um.</description>
+    </item>
+    <item>
+      <title>Hirnrhythmen sagen voraus, wer auf Zwangs-DBS anspricht</title>
+      <link>https://hellmuth-soda.de/news/science/hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:58:24 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Bei tiefer Hirnstimulation gegen therapieresistente Zwangsstörung zeichnet sich der Erfolg im neuronalen Signal ab, lange bevor die Klinik ihn sieht.</description>
+    </item>
     <item>
       <title>Alzheimer als Weitergabefehler</title>
       <link>https://hellmuth-soda.de/news/science/alzheimer-als-weitergabefehler/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Thu, 16 Jul 2026 23:16:22 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein thailändisches Preprint versucht, exekutive Dysfunktion bei Schizophrenie aus dem Testlabor herauszuholen und in eine vertraute Handbewegung zu verlegen.</description>
-    </item>
-    <item>
-      <title>Entzündung sortiert Depression neu</title>
-      <link>https://hellmuth-soda.de/news/science/entzundung-sortiert-depression-neu/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/entzundung-sortiert-depression-neu/</guid>
-      <pubDate>Thu, 16 Jul 2026 23:16:04 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die kategoriale Depressionsdiagnose zerfällt, sobald man Immunmarker daneben legt.</description>
-    </item>
-    <item>
-      <title>Neue Stimulanzien am Monoamin-Transporter durchleuchtet</title>
-      <link>https://hellmuth-soda.de/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/</guid>
-      <pubDate>Wed, 15 Jul 2026 23:18:21 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Der Designer-Drogenmarkt lässt sich pharmakologisch vermessen, sobald jemand die Geduld dafür aufbringt.</description>
-    </item>
-    <item>
-      <title>Cannabis-Psychose trifft Männer und Frauen ungleich</title>
-      <link>https://hellmuth-soda.de/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/</guid>
-      <pubDate>Wed, 15 Jul 2026 23:18:09 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Scoping Review im Asian Journal of Psychiatry sortiert, was bislang als geschlechtsneutrales Risiko galt.</description>
     </item>
   </channel>
 </rss>

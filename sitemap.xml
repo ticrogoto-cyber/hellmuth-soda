@@ -1681,6 +1681,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/ngg-stellt-sich-vor-die-zuckerlobby/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/funktionale-nahrung-entdeckt-dass-sie-schmecken-muss/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/nello-wechselt-vom-pulver-in-die-dose/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -2869,14 +2881,20 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/alkoholfreie-spirituosen-suchen-asien/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/erinnern-hat-keine-sauberen-grenzen/</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/dirty-shirley-raumt-auf/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/der-prafrontale-kortex-uberschreibt-die-hippocampus-karte-im-schlaf/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/science/hirnrhythmen-sagen-voraus-wer-auf-zwangs-dbs-anspricht/</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4059,24 +4077,6 @@
   <url>
     <loc>https://hellmuth-soda.de/news/science/kognitionstest-mit-tonfiguren-und-eeg-brille/</loc>
     <lastmod>2026-07-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/entzundung-sortiert-depression-neu/</loc>
-    <lastmod>2026-07-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/neue-stimulanzien-am-monoamin-transporter-durchleuchtet/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/cannabis-psychose-trifft-manner-und-frauen-ungleich/</loc>
-    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
