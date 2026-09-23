@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-22T00:58:55.690Z",
+  "generated": "2026-09-23T00:45:06.377Z",
   "items": [
     {
       "title": "Sprengstoff als Dienstleistung erreicht Frankfurts Einkaufsstraßen",
