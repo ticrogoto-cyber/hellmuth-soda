@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-22T00:59:10.430Z",
+  "generated": "2026-09-23T00:44:49.306Z",
   "hellmuth": [
+    {
+      "title": "Der Cashewapfel kommt aus dem Abfall zurück",
+      "date": "2026-09-23",
+      "created": "2026-09-23T00:44:05.920Z",
+      "slug": "der-cashewapfel-kommt-aus-dem-abfall-zuruck",
+      "rubrik": "hellmuth",
+      "lead": "Neunzig Prozent der Cashewfrucht landen bislang auf dem Boden, weil die Industrie nur die Nuss bezahlt.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/der-cashewapfel-unentdecktes-potenzial-fuer-die-getraenkeindustrie/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/der-cashewapfel-kommt-aus-dem-abfall-zuruck/"
+    },
+    {
+      "title": "Hohes C entdeckt den Ingwer-Shot",
+      "date": "2026-09-23",
+      "created": "2026-09-23T00:43:38.938Z",
+      "slug": "hohes-c-entdeckt-den-ingwer-shot",
+      "rubrik": "hellmuth",
+      "lead": "Ein Saft-Konzern springt auf einen Markt, den kleine Kaltpressereien seit Jahren beackern.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/hohes-c-bringt-neue-bio-ingwer-shots-auf-den-markt/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/hohes-c-entdeckt-den-ingwer-shot/"
+    },
+    {
+      "title": "Wärmetauscher, die Schlüsseltechnik hinter alkoholfreiem Bier",
+      "date": "2026-09-23",
+      "created": "2026-09-23T00:41:47.205Z",
+      "slug": "warmetauscher-die-schlusseltechnik-hinter-alkoholfreiem-bier",
+      "rubrik": "hellmuth",
+      "lead": "Der Boom alkoholfreier Biere und Cider verschiebt die Aufmerksamkeit von der Rezeptur zur Anlage.",
+      "source_name": "Food & Beverage Asia",
+      "source_url": "https://foodbeverageasia.com/keep-the-taste-cut-the-alcohol-the-role-of-heat-exchangers-in-af-brewing/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/warmetauscher-die-schlusseltechnik-hinter-alkoholfreiem-bier/"
+    },
     {
       "title": "NGG stellt sich vor die Zuckerlobby",
       "date": "2026-09-22",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt/"
-    },
-    {
-      "title": "Rockstar Energy baut den Mocktail zur Koffeinkapsel um",
-      "date": "2026-06-27",
-      "created": "2026-06-27T23:33:38.431Z",
-      "slug": "rockstar-energy-baut-den-mocktail-zur-koffeinkapsel-um",
-      "rubrik": "hellmuth",
-      "lead": "Der alkoholfreie Cocktail wird zum Trägermedium für Stimulanzien, und Deutschland ist das Testlabor.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/neue-wachstumskategorie-rockstar-energy-launcht-mocktails/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/rockstar-energy-baut-den-mocktail-zur-koffeinkapsel-um/"
-    },
-    {
-      "title": "Rockstar macht Mocktails, Four Loko wird Hanf, HOP WTR rührt Gurke in Limonade",
-      "date": "2026-06-26",
-      "created": "2026-06-26T23:38:15.561Z",
-      "slug": "rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade",
-      "rubrik": "hellmuth",
-      "lead": "Der alkoholfreie Regal-Slot ist kein Nischengeschäft mehr, sondern ein Verdrängungsmarkt, in den die alten Rauschmarken selbst hineindrängen.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/new-products-rockstar-mocktails-hot-girl-pickle-lemonade-and-more-na-creations",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade/"
-    },
-    {
-      "title": "Non-Alc wächst, aber nur noch im Trippelschritt",
-      "date": "2026-06-26",
-      "created": "2026-06-26T23:37:58.750Z",
-      "slug": "non-alc-wachst-aber-nur-noch-im-trippelschritt",
-      "rubrik": "hellmuth",
-      "lead": "Der US-Markt für alkoholfreie Getränke stagniert auf hohem Niveau, und das ist die eigentliche Nachricht.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/non-alc-beverage-sales-stay-stable-in-early-june",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/non-alc-wachst-aber-nur-noch-im-trippelschritt/"
     }
   ],
   "science": [
+    {
+      "title": "Schizophrenie schrumpft dort, wo Dopamin und Serotonin dicht sitzen",
+      "date": "2026-09-23",
+      "created": "2026-09-23T00:44:49.191Z",
+      "slug": "schizophrenie-schrumpft-dort-wo-dopamin-und-serotonin-dicht-sitzen",
+      "rubrik": "science",
+      "lead": "Eine Langzeitstudie ordnet subkortikalen Gewebeschwund bei Schizophrenie den Karten der Neurotransmitter zu, und die Deckung ist auffällig eng.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.21.26363537v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/schizophrenie-schrumpft-dort-wo-dopamin-und-serotonin-dicht-sitzen/"
+    },
+    {
+      "title": "Wenn geteilte Wirklichkeit im Gehirn auseinanderbricht",
+      "date": "2026-09-23",
+      "created": "2026-09-23T00:44:36.927Z",
+      "slug": "wenn-geteilte-wirklichkeit-im-gehirn-auseinanderbricht",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Bildgebung deutet Schizophrenie weniger als kognitives Defizit denn als Zerfall geteilter Deutung.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.16.26362988v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wenn-geteilte-wirklichkeit-im-gehirn-auseinanderbricht/"
+    },
+    {
+      "title": "Schlaf und Symptomlast teilen sich ein Netzwerk",
+      "date": "2026-09-23",
+      "created": "2026-09-23T00:44:20.708Z",
+      "slug": "schlaf-und-symptomlast-teilen-sich-ein-netzwerk",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus Yale rechnet vor, dass subjektive Schlafstörung und allgemeine psychiatrische Belastung nicht nebeneinander liegen, sondern auf derselben Schaltung sitzen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.20.26363508v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schlaf-und-symptomlast-teilen-sich-ein-netzwerk/"
+    },
     {
       "title": "Erinnern hat keine sauberen Grenzen",
       "date": "2026-09-22",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper/"
-    },
-    {
-      "title": "Rhythmus-Schwankung als Biomarker, oder nur ein Rechenfehler",
-      "date": "2026-07-17",
-      "created": "2026-07-17T23:14:56.470Z",
-      "slug": "rhythmus-schwankung-als-biomarker-oder-nur-ein-rechenfehler",
-      "rubrik": "science",
-      "lead": "Ein Preprint prüft, ob die Streuung von Ruhe-Aktivitäts-Rhythmen bei bipolarer Störung wirklich eigenständige Information über Krankheitsphasen trägt.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.15.26358139v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/rhythmus-schwankung-als-biomarker-oder-nur-ein-rechenfehler/"
-    },
-    {
-      "title": "Das Diagnosesystem der Jugendpsychiatrie zerfällt an den eigenen Grenzen",
-      "date": "2026-07-16",
-      "created": "2026-07-16T23:16:48.955Z",
-      "slug": "das-diagnosesystem-der-jugendpsychiatrie-zerfallt-an-den-eigenen-grenzen",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der ABCD-Kohorte behandelt jugendliche Psychopathologie nicht mehr als Katalog abgrenzbarer Störungen, sondern als überlappende Landschaft.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.13.26357465v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/das-diagnosesystem-der-jugendpsychiatrie-zerfallt-an-den-eigenen-grenzen/"
-    },
-    {
-      "title": "Kognitionstest mit Tonfiguren und EEG-Brille",
-      "date": "2026-07-16",
-      "created": "2026-07-16T23:16:22.246Z",
-      "slug": "kognitionstest-mit-tonfiguren-und-eeg-brille",
-      "rubrik": "science",
-      "lead": "Ein thailändisches Preprint versucht, exekutive Dysfunktion bei Schizophrenie aus dem Testlabor herauszuholen und in eine vertraute Handbewegung zu verlegen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.14.26358053v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/kognitionstest-mit-tonfiguren-und-eeg-brille/"
     }
   ]
 }

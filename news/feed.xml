@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:59:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:44:49 GMT</lastBuildDate>
+    <item>
+      <title>Schizophrenie schrumpft dort, wo Dopamin und Serotonin dicht sitzen</title>
+      <link>https://hellmuth-soda.de/news/science/schizophrenie-schrumpft-dort-wo-dopamin-und-serotonin-dicht-sitzen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schizophrenie-schrumpft-dort-wo-dopamin-und-serotonin-dicht-sitzen/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:44:49 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Langzeitstudie ordnet subkortikalen Gewebeschwund bei Schizophrenie den Karten der Neurotransmitter zu, und die Deckung ist auffällig eng.</description>
+    </item>
+    <item>
+      <title>Wenn geteilte Wirklichkeit im Gehirn auseinanderbricht</title>
+      <link>https://hellmuth-soda.de/news/science/wenn-geteilte-wirklichkeit-im-gehirn-auseinanderbricht/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-geteilte-wirklichkeit-im-gehirn-auseinanderbricht/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:44:36 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Bildgebung deutet Schizophrenie weniger als kognitives Defizit denn als Zerfall geteilter Deutung.</description>
+    </item>
+    <item>
+      <title>Schlaf und Symptomlast teilen sich ein Netzwerk</title>
+      <link>https://hellmuth-soda.de/news/science/schlaf-und-symptomlast-teilen-sich-ein-netzwerk/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schlaf-und-symptomlast-teilen-sich-ein-netzwerk/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:44:20 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus Yale rechnet vor, dass subjektive Schlafstörung und allgemeine psychiatrische Belastung nicht nebeneinander liegen, sondern auf derselben Schaltung sitzen.</description>
+    </item>
+    <item>
+      <title>Der Cashewapfel kommt aus dem Abfall zurück</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/der-cashewapfel-kommt-aus-dem-abfall-zuruck/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/der-cashewapfel-kommt-aus-dem-abfall-zuruck/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:44:05 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Neunzig Prozent der Cashewfrucht landen bislang auf dem Boden, weil die Industrie nur die Nuss bezahlt.</description>
+    </item>
+    <item>
+      <title>Hohes C entdeckt den Ingwer-Shot</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/hohes-c-entdeckt-den-ingwer-shot/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/hohes-c-entdeckt-den-ingwer-shot/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:43:38 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ein Saft-Konzern springt auf einen Markt, den kleine Kaltpressereien seit Jahren beackern.</description>
+    </item>
+    <item>
+      <title>Wärmetauscher, die Schlüsseltechnik hinter alkoholfreiem Bier</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/warmetauscher-die-schlusseltechnik-hinter-alkoholfreiem-bier/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/warmetauscher-die-schlusseltechnik-hinter-alkoholfreiem-bier/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:41:47 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Boom alkoholfreier Biere und Cider verschiebt die Aufmerksamkeit von der Rezeptur zur Anlage.</description>
+    </item>
     <item>
       <title>Erinnern hat keine sauberen Grenzen</title>
       <link>https://hellmuth-soda.de/news/science/erinnern-hat-keine-sauberen-grenzen/</link>
@@ -2784,14 +2832,6 @@
       <description>Ein Preprint aus der Neurowissenschaft verschiebt den Ort, an dem Alzheimer-Pathologie molekular sichtbar wird.</description>
     </item>
     <item>
-      <title>Rhythmus-Schwankung als Biomarker, oder nur ein Rechenfehler</title>
-      <link>https://hellmuth-soda.de/news/science/rhythmus-schwankung-als-biomarker-oder-nur-ein-rechenfehler/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/rhythmus-schwankung-als-biomarker-oder-nur-ein-rechenfehler/</guid>
-      <pubDate>Fri, 17 Jul 2026 23:14:56 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint prüft, ob die Streuung von Ruhe-Aktivitäts-Rhythmen bei bipolarer Störung wirklich eigenständige Information über Krankheitsphasen trägt.</description>
-    </item>
-    <item>
       <title>Bubble Tea sucht die nächste Textur</title>
       <link>https://hellmuth-soda.de/news/hellmuth/bubble-tea-sucht-die-nachste-textur/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/bubble-tea-sucht-die-nachste-textur/</guid>
@@ -2814,22 +2854,6 @@
       <pubDate>Fri, 17 Jul 2026 23:12:51 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der Kombucha-Marktführer bringt seine Kernkategorie erstmals in die Dose, und das ist mehr als ein Packaging-Update.</description>
-    </item>
-    <item>
-      <title>Das Diagnosesystem der Jugendpsychiatrie zerfällt an den eigenen Grenzen</title>
-      <link>https://hellmuth-soda.de/news/science/das-diagnosesystem-der-jugendpsychiatrie-zerfallt-an-den-eigenen-grenzen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/das-diagnosesystem-der-jugendpsychiatrie-zerfallt-an-den-eigenen-grenzen/</guid>
-      <pubDate>Thu, 16 Jul 2026 23:16:48 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der ABCD-Kohorte behandelt jugendliche Psychopathologie nicht mehr als Katalog abgrenzbarer Störungen, sondern als überlappende Landschaft.</description>
-    </item>
-    <item>
-      <title>Kognitionstest mit Tonfiguren und EEG-Brille</title>
-      <link>https://hellmuth-soda.de/news/science/kognitionstest-mit-tonfiguren-und-eeg-brille/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kognitionstest-mit-tonfiguren-und-eeg-brille/</guid>
-      <pubDate>Thu, 16 Jul 2026 23:16:22 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein thailändisches Preprint versucht, exekutive Dysfunktion bei Schizophrenie aus dem Testlabor herauszuholen und in eine vertraute Handbewegung zu verlegen.</description>
     </item>
     <item>
       <title>Free Spirits verlässt die Wellness-Ecke</title>
@@ -3182,30 +3206,6 @@
       <pubDate>Mon, 29 Jun 2026 23:19:54 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der nüchterne Schaumwein des Sängers ist nach eigener Auskunft die meistverkaufte Premium-Null-Prozent-Marke Großbritanniens.</description>
-    </item>
-    <item>
-      <title>Rockstar Energy baut den Mocktail zur Koffeinkapsel um</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/rockstar-energy-baut-den-mocktail-zur-koffeinkapsel-um/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/rockstar-energy-baut-den-mocktail-zur-koffeinkapsel-um/</guid>
-      <pubDate>Sat, 27 Jun 2026 23:33:38 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der alkoholfreie Cocktail wird zum Trägermedium für Stimulanzien, und Deutschland ist das Testlabor.</description>
-    </item>
-    <item>
-      <title>Rockstar macht Mocktails, Four Loko wird Hanf, HOP WTR rührt Gurke in Limonade</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/rockstar-macht-mocktails-four-loko-wird-hanf-hop-wtr-ruhrt-gurke-in-limonade/</guid>
-      <pubDate>Fri, 26 Jun 2026 23:38:15 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der alkoholfreie Regal-Slot ist kein Nischengeschäft mehr, sondern ein Verdrängungsmarkt, in den die alten Rauschmarken selbst hineindrängen.</description>
-    </item>
-    <item>
-      <title>Non-Alc wächst, aber nur noch im Trippelschritt</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/non-alc-wachst-aber-nur-noch-im-trippelschritt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/non-alc-wachst-aber-nur-noch-im-trippelschritt/</guid>
-      <pubDate>Fri, 26 Jun 2026 23:37:58 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der US-Markt für alkoholfreie Getränke stagniert auf hohem Niveau, und das ist die eigentliche Nachricht.</description>
     </item>
   </channel>
 </rss>
