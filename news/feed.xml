@@ -6,7 +6,39 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:44:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:37:40 GMT</lastBuildDate>
+    <item>
+      <title>Immunrezeptor formt Mausverhalten außerhalb der Entzündung</title>
+      <link>https://hellmuth-soda.de/news/science/immunrezeptor-formt-mausverhalten-ausserhalb-der-entzundung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/immunrezeptor-formt-mausverhalten-ausserhalb-der-entzundung/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:37:40 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Rezeptor, den die Immunologie unter Sepsis abheftet, greift in gesundes Hirngewebe ein.</description>
+    </item>
+    <item>
+      <title>Morphin verschiebt das Lipidprofil in Hirn und Körper</title>
+      <link>https://hellmuth-soda.de/news/science/morphin-verschiebt-das-lipidprofil-in-hirn-und-korper/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/morphin-verschiebt-das-lipidprofil-in-hirn-und-korper/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:37:22 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint kartiert, wie akuter und chronischer Morphinkonsum die Signalfette im Organismus umbaut.</description>
+    </item>
+    <item>
+      <title>Zwei Genetiken der Schizophrenie greifen nebeneinander, nicht ineinander</title>
+      <link>https://hellmuth-soda.de/news/science/zwei-genetiken-der-schizophrenie-greifen-nebeneinander-nicht-ineinander/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/zwei-genetiken-der-schizophrenie-greifen-nebeneinander-nicht-ineinander/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:36:57 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem All-of-Us-Programm trennt häufige Risikovarianten von seltenen strukturellen Umbauten und findet: Beide wirken, aber nicht miteinander.</description>
+    </item>
+    <item>
+      <title>Recess baut die Chefetage um</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/recess-baut-die-chefetage-um/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/recess-baut-die-chefetage-um/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:34:39 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Functional-Drinks-Hersteller sortiert seine Führung neu und signalisiert, dass die Nische Erwachsenwerden übt.</description>
+    </item>
     <item>
       <title>Schizophrenie schrumpft dort, wo Dopamin und Serotonin dicht sitzen</title>
       <link>https://hellmuth-soda.de/news/science/schizophrenie-schrumpft-dort-wo-dopamin-und-serotonin-dicht-sitzen/</link>
@@ -2792,14 +2824,6 @@
       <description>Ein Mausmodell verknüpft pränatalen Immunstress und pubertäres THC zu einem messbaren Schaden im Reelin-System.</description>
     </item>
     <item>
-      <title>Suizidalität wird zum eigenen Wirkstoffziel</title>
-      <link>https://hellmuth-soda.de/news/science/suizidalitat-wird-zum-eigenen-wirkstoffziel/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/suizidalitat-wird-zum-eigenen-wirkstoffziel/</guid>
-      <pubDate>Sat, 18 Jul 2026 23:18:25 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Was jahrzehntelang Nebenschauplatz der Depressionsbehandlung war, wird zur eigenen Indikation.</description>
-    </item>
-    <item>
       <title>Protein trifft Bubble Tea</title>
       <link>https://hellmuth-soda.de/news/hellmuth/protein-trifft-bubble-tea/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/protein-trifft-bubble-tea/</guid>
@@ -2814,22 +2838,6 @@
       <pubDate>Sat, 18 Jul 2026 23:14:47 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Indonesiens größte Kaffeekette baut ihre Fertiggetränke-Linie um einen koreanischen Nostalgie-Import aus.</description>
-    </item>
-    <item>
-      <title>Der diastolische Druck sitzt im inneren Auge</title>
-      <link>https://hellmuth-soda.de/news/science/der-diastolische-druck-sitzt-im-inneren-auge/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-diastolische-druck-sitzt-im-inneren-auge/</guid>
-      <pubDate>Fri, 17 Jul 2026 23:15:31 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Wie lebhaft jemand vor dem inneren Auge sieht, hängt messbar am Blutdruck.</description>
-    </item>
-    <item>
-      <title>Gliazellen antworten in ihren Ausläufern, nicht im Zellkörper</title>
-      <link>https://hellmuth-soda.de/news/science/gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper/</guid>
-      <pubDate>Fri, 17 Jul 2026 23:15:15 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Neurowissenschaft verschiebt den Ort, an dem Alzheimer-Pathologie molekular sichtbar wird.</description>
     </item>
     <item>
       <title>Bubble Tea sucht die nächste Textur</title>
@@ -3198,14 +3206,6 @@
       <pubDate>Mon, 29 Jun 2026 23:20:57 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die malaysische Bubble-Tea-Kette koppelt sich an einen Molkereiriesen, um an der Theke vorbeizuziehen.</description>
-    </item>
-    <item>
-      <title>Elton Johns alkoholfreier Schaumwein führt den UK-Premiummarkt</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt/</guid>
-      <pubDate>Mon, 29 Jun 2026 23:19:54 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der nüchterne Schaumwein des Sängers ist nach eigener Auskunft die meistverkaufte Premium-Null-Prozent-Marke Großbritanniens.</description>
     </item>
   </channel>
 </rss>

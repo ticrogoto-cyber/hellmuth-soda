@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-23T00:44:49.306Z",
+  "generated": "2026-09-24T00:37:40.250Z",
   "hellmuth": [
+    {
+      "title": "Recess baut die Chefetage um",
+      "date": "2026-09-24",
+      "created": "2026-09-24T00:34:39.039Z",
+      "slug": "recess-baut-die-chefetage-um",
+      "rubrik": "hellmuth",
+      "lead": "Der Functional-Drinks-Hersteller sortiert seine Führung neu und signalisiert, dass die Nische Erwachsenwerden übt.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/recess-preps-for-scale-with-health-ade-poppi-vets-joining-in-executive-roles",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/recess-baut-die-chefetage-um/"
+    },
     {
       "title": "Der Cashewapfel kommt aus dem Abfall zurück",
       "date": "2026-09-23",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/tealive-zieht-aus-dem-becher-in-den-kuhlschrank/"
-    },
-    {
-      "title": "Elton Johns alkoholfreier Schaumwein führt den UK-Premiummarkt",
-      "date": "2026-06-29",
-      "created": "2026-06-29T23:19:54.448Z",
-      "slug": "elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt",
-      "rubrik": "hellmuth",
-      "lead": "Der nüchterne Schaumwein des Sängers ist nach eigener Auskunft die meistverkaufte Premium-Null-Prozent-Marke Großbritanniens.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/06/elton-john-celebrates-his-best-selling-0-sparkling/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/elton-johns-alkoholfreier-schaumwein-fuhrt-den-uk-premiummarkt/"
     }
   ],
   "science": [
+    {
+      "title": "Immunrezeptor formt Mausverhalten außerhalb der Entzündung",
+      "date": "2026-09-24",
+      "created": "2026-09-24T00:37:40.165Z",
+      "slug": "immunrezeptor-formt-mausverhalten-ausserhalb-der-entzundung",
+      "rubrik": "science",
+      "lead": "Ein Rezeptor, den die Immunologie unter Sepsis abheftet, greift in gesundes Hirngewebe ein.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752150v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/immunrezeptor-formt-mausverhalten-ausserhalb-der-entzundung/"
+    },
+    {
+      "title": "Morphin verschiebt das Lipidprofil in Hirn und Körper",
+      "date": "2026-09-24",
+      "created": "2026-09-24T00:37:22.830Z",
+      "slug": "morphin-verschiebt-das-lipidprofil-in-hirn-und-korper",
+      "rubrik": "science",
+      "lead": "Ein Preprint kartiert, wie akuter und chronischer Morphinkonsum die Signalfette im Organismus umbaut.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752401v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/morphin-verschiebt-das-lipidprofil-in-hirn-und-korper/"
+    },
+    {
+      "title": "Zwei Genetiken der Schizophrenie greifen nebeneinander, nicht ineinander",
+      "date": "2026-09-24",
+      "created": "2026-09-24T00:36:57.300Z",
+      "slug": "zwei-genetiken-der-schizophrenie-greifen-nebeneinander-nicht-ineinander",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem All-of-Us-Programm trennt häufige Risikovarianten von seltenen strukturellen Umbauten und findet: Beide wirken, aber nicht miteinander.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.21.26363600v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/zwei-genetiken-der-schizophrenie-greifen-nebeneinander-nicht-ineinander/"
+    },
     {
       "title": "Schizophrenie schrumpft dort, wo Dopamin und Serotonin dicht sitzen",
       "date": "2026-09-23",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/reelin-immunaktivierung-cannabis/"
-    },
-    {
-      "title": "Suizidalität wird zum eigenen Wirkstoffziel",
-      "date": "2026-07-18",
-      "created": "2026-07-18T23:18:25.723Z",
-      "slug": "suizidalitat-wird-zum-eigenen-wirkstoffziel",
-      "rubrik": "science",
-      "lead": "Was jahrzehntelang Nebenschauplatz der Depressionsbehandlung war, wird zur eigenen Indikation.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.euroneuro.2026.112888",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/suizidalitat-wird-zum-eigenen-wirkstoffziel/"
-    },
-    {
-      "title": "Der diastolische Druck sitzt im inneren Auge",
-      "date": "2026-07-17",
-      "created": "2026-07-17T23:15:31.911Z",
-      "slug": "der-diastolische-druck-sitzt-im-inneren-auge",
-      "rubrik": "science",
-      "lead": "Wie lebhaft jemand vor dem inneren Auge sieht, hängt messbar am Blutdruck.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.12.738020v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/der-diastolische-druck-sitzt-im-inneren-auge/"
-    },
-    {
-      "title": "Gliazellen antworten in ihren Ausläufern, nicht im Zellkörper",
-      "date": "2026-07-17",
-      "created": "2026-07-17T23:15:15.373Z",
-      "slug": "gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Neurowissenschaft verschiebt den Ort, an dem Alzheimer-Pathologie molekular sichtbar wird.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.12.737168v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/gliazellen-antworten-in-ihren-auslaufern-nicht-im-zellkorper/"
     }
   ]
 }
