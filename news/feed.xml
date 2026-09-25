@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 24 Sep 2026 00:37:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:40:52 GMT</lastBuildDate>
+    <item>
+      <title>Migräne-Lichtscheu ohne Schmerzfühler</title>
+      <link>https://hellmuth-soda.de/news/science/migrane-lichtscheu-ohne-schmerzfuhler/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/migrane-lichtscheu-ohne-schmerzfuhler/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:40:52 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Mausforschung räumt eine naheliegende Erklärung für Photophobie ab.</description>
+    </item>
+    <item>
+      <title>Depression hinterlässt eine Signatur in der Netzwerktopologie des Gehirns</title>
+      <link>https://hellmuth-soda.de/news/science/depression-hinterlasst-eine-signatur-in-der-netzwerktopologie-des-gehirns/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-hinterlasst-eine-signatur-in-der-netzwerktopologie-des-gehirns/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:40:33 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv nimmt sich die funktionelle Konnektivität bei Depression mit Werkzeugen der topologischen Datenanalyse vor, statt mit den üblichen paarweisen Korrelationen.</description>
+    </item>
+    <item>
+      <title>Klassik gegen Neglect, an drei Patienten getestet</title>
+      <link>https://hellmuth-soda.de/news/science/klassik-gegen-neglect-an-drei-patienten-getestet/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/klassik-gegen-neglect-an-drei-patienten-getestet/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:40:20 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv prüft, ob tägliches Klassikhören nach Rechtshirn-Schlaganfall die Raumwahrnehmung verschiebt.</description>
+    </item>
+    <item>
+      <title>Paradiso mischt für einen alkoholfreien Rosé</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/paradiso-mischt-fur-einen-alkoholfreien-ros/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/paradiso-mischt-fur-einen-alkoholfreien-ros/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:39:48 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der alkoholfreie Sparkling wandert aus der Diät-Ecke in die Werkbank der Top-Bars.</description>
+    </item>
+    <item>
+      <title>Die Dose frisst die Flasche</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/die-dose-frisst-die-flasche/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/die-dose-frisst-die-flasche/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:37:08 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Ready-to-Drink-Cocktails verschieben die Machtverhältnisse in der Spirituosenindustrie, und die Konzerne haben die Wahl zwischen Eigenentwicklung und Zukauf.</description>
+    </item>
     <item>
       <title>Immunrezeptor formt Mausverhalten außerhalb der Entzündung</title>
       <link>https://hellmuth-soda.de/news/science/immunrezeptor-formt-mausverhalten-ausserhalb-der-entzundung/</link>
@@ -2776,14 +2816,6 @@
       <description>Ein Phase-1-Preprint testet, ob die therapeutische Pharmakologie von Psilocybin unterhalb der Halluzinationsschwelle beginnt.</description>
     </item>
     <item>
-      <title>Kindheitstrauma und Hirnvolumen bei Psychose und bipolarer Störung</title>
-      <link>https://hellmuth-soda.de/news/science/kindheitstrauma-und-hirnvolumen-bei-psychose-und-bipolarer-storung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kindheitstrauma-und-hirnvolumen-bei-psychose-und-bipolarer-storung/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:00:48 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Meta-Analyse zieht die vermeintlich klare Linie zwischen früher Belastung und geschrumpften Stressregionen neu und dünner nach.</description>
-    </item>
-    <item>
       <title>Funktionspilze wandern ins Alltagsgetränk</title>
       <link>https://hellmuth-soda.de/news/hellmuth/funktionspilze-wandern-ins-alltagsgetrank/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/funktionspilze-wandern-ins-alltagsgetrank/</guid>
@@ -2806,22 +2838,6 @@
       <pubDate>Mon, 20 Jul 2026 02:59:48 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Thailand testet, ob sich der Nachtschlaf pharmakologisieren lässt, ohne dass es nach Pharma aussieht.</description>
-    </item>
-    <item>
-      <title>Oxytocin gegen Alkoholsucht scheitert im Multisite-Trial</title>
-      <link>https://hellmuth-soda.de/news/science/oxytocin-gegen-alkoholsucht-scheitert-im-multisite-trial/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/oxytocin-gegen-alkoholsucht-scheitert-im-multisite-trial/</guid>
-      <pubDate>Sat, 18 Jul 2026 23:18:54 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Der Traum vom Kuschelhormon als Suchtmedikament kollidiert mit einer randomisierten, placebokontrollierten Studie.</description>
-    </item>
-    <item>
-      <title>Reelin, Immunaktivierung, Cannabis</title>
-      <link>https://hellmuth-soda.de/news/science/reelin-immunaktivierung-cannabis/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/reelin-immunaktivierung-cannabis/</guid>
-      <pubDate>Sat, 18 Jul 2026 23:18:36 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Mausmodell verknüpft pränatalen Immunstress und pubertäres THC zu einem messbaren Schaden im Reelin-System.</description>
     </item>
     <item>
       <title>Protein trifft Bubble Tea</title>
@@ -3190,22 +3206,6 @@
       <pubDate>Tue, 30 Jun 2026 23:41:35 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der alkoholfreie Cocktail ist im US-Naturkosthandel keine Nische mehr, sondern eine eigene Kategorie mit eigenem Einkäufer.</description>
-    </item>
-    <item>
-      <title>Ingwer-Shots wechseln den Eigentümer</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/ingwer-shots-wechseln-den-eigentumer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ingwer-shots-wechseln-den-eigentumer/</guid>
-      <pubDate>Mon, 29 Jun 2026 23:22:31 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der Markt für funktionale Getränke konsolidiert sich nach oben, sobald die ersten Lieblinge der Bio-Regale zahlungsunfähig werden.</description>
-    </item>
-    <item>
-      <title>Tealive zieht aus dem Becher in den Kühlschrank</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/tealive-zieht-aus-dem-becher-in-den-kuhlschrank/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/tealive-zieht-aus-dem-becher-in-den-kuhlschrank/</guid>
-      <pubDate>Mon, 29 Jun 2026 23:20:57 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die malaysische Bubble-Tea-Kette koppelt sich an einen Molkereiriesen, um an der Theke vorbeizuziehen.</description>
     </item>
   </channel>
 </rss>

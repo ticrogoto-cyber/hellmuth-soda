@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-24T00:37:40.250Z",
+  "generated": "2026-09-25T00:40:52.827Z",
   "hellmuth": [
+    {
+      "title": "Paradiso mischt für einen alkoholfreien Rosé",
+      "date": "2026-09-25",
+      "created": "2026-09-25T00:39:48.674Z",
+      "slug": "paradiso-mischt-fur-einen-alkoholfreien-ros",
+      "rubrik": "hellmuth",
+      "lead": "Der alkoholfreie Sparkling wandert aus der Diät-Ecke in die Werkbank der Top-Bars.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/beau-viva-x-gabriele-armani-die-neue-kunst-der-alkoholfreien-mixologie/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/paradiso-mischt-fur-einen-alkoholfreien-ros/"
+    },
+    {
+      "title": "Die Dose frisst die Flasche",
+      "date": "2026-09-25",
+      "created": "2026-09-25T00:37:08.176Z",
+      "slug": "die-dose-frisst-die-flasche",
+      "rubrik": "hellmuth",
+      "lead": "Ready-to-Drink-Cocktails verschieben die Machtverhältnisse in der Spirituosenindustrie, und die Konzerne haben die Wahl zwischen Eigenentwicklung und Zukauf.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/canned-cocktails-rtd-spirits-alcohol-trends/830208/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/die-dose-frisst-die-flasche/"
+    },
     {
       "title": "Recess baut die Chefetage um",
       "date": "2026-09-24",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/wie-mingle-in-die-whole-foods-regale-kam/"
-    },
-    {
-      "title": "Ingwer-Shots wechseln den Eigentümer",
-      "date": "2026-06-29",
-      "created": "2026-06-29T23:22:31.973Z",
-      "slug": "ingwer-shots-wechseln-den-eigentumer",
-      "rubrik": "hellmuth",
-      "lead": "Der Markt für funktionale Getränke konsolidiert sich nach oben, sobald die ersten Lieblinge der Bio-Regale zahlungsunfähig werden.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/nach-insolvenz-rauch-uebernimmt-kloster-kitchen/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/ingwer-shots-wechseln-den-eigentumer/"
-    },
-    {
-      "title": "Tealive zieht aus dem Becher in den Kühlschrank",
-      "date": "2026-06-29",
-      "created": "2026-06-29T23:20:57.104Z",
-      "slug": "tealive-zieht-aus-dem-becher-in-den-kuhlschrank",
-      "rubrik": "hellmuth",
-      "lead": "Die malaysische Bubble-Tea-Kette koppelt sich an einen Molkereiriesen, um an der Theke vorbeizuziehen.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/06/29/tealive-and-dutch-lady-partner-to-bring-cafe-inspired-rtd-dairy-beverages-to-more-malaysians-nationwide/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/tealive-zieht-aus-dem-becher-in-den-kuhlschrank/"
     }
   ],
   "science": [
+    {
+      "title": "Migräne-Lichtscheu ohne Schmerzfühler",
+      "date": "2026-09-25",
+      "created": "2026-09-25T00:40:52.741Z",
+      "slug": "migrane-lichtscheu-ohne-schmerzfuhler",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Mausforschung räumt eine naheliegende Erklärung für Photophobie ab.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.16.752141v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/migrane-lichtscheu-ohne-schmerzfuhler/"
+    },
+    {
+      "title": "Depression hinterlässt eine Signatur in der Netzwerktopologie des Gehirns",
+      "date": "2026-09-25",
+      "created": "2026-09-25T00:40:33.523Z",
+      "slug": "depression-hinterlasst-eine-signatur-in-der-netzwerktopologie-des-gehirns",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv nimmt sich die funktionelle Konnektivität bei Depression mit Werkzeugen der topologischen Datenanalyse vor, statt mit den üblichen paarweisen Korrelationen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752576v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-hinterlasst-eine-signatur-in-der-netzwerktopologie-des-gehirns/"
+    },
+    {
+      "title": "Klassik gegen Neglect, an drei Patienten getestet",
+      "date": "2026-09-25",
+      "created": "2026-09-25T00:40:20.530Z",
+      "slug": "klassik-gegen-neglect-an-drei-patienten-getestet",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv prüft, ob tägliches Klassikhören nach Rechtshirn-Schlaganfall die Raumwahrnehmung verschiebt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.18.751660v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/klassik-gegen-neglect-an-drei-patienten-getestet/"
+    },
     {
       "title": "Immunrezeptor formt Mausverhalten außerhalb der Entzündung",
       "date": "2026-09-24",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/psilocybin-ohne-trip/"
-    },
-    {
-      "title": "Kindheitstrauma und Hirnvolumen bei Psychose und bipolarer Störung",
-      "date": "2026-07-20",
-      "created": "2026-07-20T03:00:48.473Z",
-      "slug": "kindheitstrauma-und-hirnvolumen-bei-psychose-und-bipolarer-storung",
-      "rubrik": "science",
-      "lead": "Eine Meta-Analyse zieht die vermeintlich klare Linie zwischen früher Belastung und geschrumpften Stressregionen neu und dünner nach.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.17.26358306v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/kindheitstrauma-und-hirnvolumen-bei-psychose-und-bipolarer-storung/"
-    },
-    {
-      "title": "Oxytocin gegen Alkoholsucht scheitert im Multisite-Trial",
-      "date": "2026-07-18",
-      "created": "2026-07-18T23:18:54.211Z",
-      "slug": "oxytocin-gegen-alkoholsucht-scheitert-im-multisite-trial",
-      "rubrik": "science",
-      "lead": "Der Traum vom Kuschelhormon als Suchtmedikament kollidiert mit einer randomisierten, placebokontrollierten Studie.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1111/acer.70326",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/oxytocin-gegen-alkoholsucht-scheitert-im-multisite-trial/"
-    },
-    {
-      "title": "Reelin, Immunaktivierung, Cannabis",
-      "date": "2026-07-18",
-      "created": "2026-07-18T23:18:36.474Z",
-      "slug": "reelin-immunaktivierung-cannabis",
-      "rubrik": "science",
-      "lead": "Ein Mausmodell verknüpft pränatalen Immunstress und pubertäres THC zu einem messbaren Schaden im Reelin-System.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1038/s41398-026-04282-1",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/reelin-immunaktivierung-cannabis/"
     }
   ]
 }
