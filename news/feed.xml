@@ -6,7 +6,47 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 25 Sep 2026 00:40:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 00:45:48 GMT</lastBuildDate>
+    <item>
+      <title>Ein Forsythien-Molekül greift der Mikroglia in den Stoffwechsel</title>
+      <link>https://hellmuth-soda.de/news/science/ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:45:48 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Chronischer Nervenschmerz sitzt nicht nur in Nervenfasern, sondern im Zuckerhaushalt der Immunzellen im Rückenmark.</description>
+    </item>
+    <item>
+      <title>Amyloid-Plaques im Reagenzglas, aus menschlichen Stammzellen</title>
+      <link>https://hellmuth-soda.de/news/science/amyloid-plaques-im-reagenzglas-aus-menschlichen-stammzellen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/amyloid-plaques-im-reagenzglas-aus-menschlichen-stammzellen/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:45:29 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint modelliert Alzheimer-Pathologie an aus induzierten pluripotenten Stammzellen gewonnenen Neuronen und liest das Proteom der Zerstörung ab.</description>
+    </item>
+    <item>
+      <title>Wasserkanal im Hirn gegen Huntington</title>
+      <link>https://hellmuth-soda.de/news/science/wasserkanal-im-hirn-gegen-huntington/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wasserkanal-im-hirn-gegen-huntington/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:45:03 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem bioRxiv-Neurowissenschaftskanal setzt an einer Stelle an, die in der Huntington-Forschung bislang randständig war: der Müllabfuhr des Gehirns.</description>
+    </item>
+    <item>
+      <title>Pucuk Harum bricht mit dem eigenen Dogma</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/pucuk-harum-bricht-mit-dem-eigenen-dogma/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/pucuk-harum-bricht-mit-dem-eigenen-dogma/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:42:48 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Indonesiens Jasmintee-Marke lässt erstmals eine Frucht in die Flasche.</description>
+    </item>
+    <item>
+      <title>Alkoholfreies Bier frisst sich in fremde Regale</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-frisst-sich-in-fremde-regale/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/alkoholfreies-bier-frisst-sich-in-fremde-regale/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:41:54 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der NA-Beer-Sektor verlässt seine Nische und kolonisiert Kategorien, die mit Bier nichts zu tun hatten.</description>
+    </item>
     <item>
       <title>Migräne-Lichtscheu ohne Schmerzfühler</title>
       <link>https://hellmuth-soda.de/news/science/migrane-lichtscheu-ohne-schmerzfuhler/</link>
@@ -2792,30 +2832,6 @@
       <description>Ratten trinken Alkohol trotz Bitterstoff hartnäckiger, wenn ein gelernter Reiz im Raum ist.</description>
     </item>
     <item>
-      <title>Sucht hat eine gemeinsame Anatomie</title>
-      <link>https://hellmuth-soda.de/news/science/sucht-hat-eine-gemeinsame-anatomie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sucht-hat-eine-gemeinsame-anatomie/</guid>
-      <pubDate>Mon, 20 Jul 2026 23:22:11 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine transdiagnostische Metaanalyse findet über Substanzen hinweg dieselben strukturellen Hirnveränderungen.</description>
-    </item>
-    <item>
-      <title>Wer trinkt, dessen Striatum reifte anders</title>
-      <link>https://hellmuth-soda.de/news/science/wer-trinkt-dessen-striatum-reifte-anders/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wer-trinkt-dessen-striatum-reifte-anders/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:01:28 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein bioRxiv-Preprint verortet den Übergang vom jugendlichen Probierkonsum zum problematischen Trinken in der Reifung kortikostriataler Schaltkreise.</description>
-    </item>
-    <item>
-      <title>Psilocybin ohne Trip</title>
-      <link>https://hellmuth-soda.de/news/science/psilocybin-ohne-trip/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psilocybin-ohne-trip/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:01:01 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Phase-1-Preprint testet, ob die therapeutische Pharmakologie von Psilocybin unterhalb der Halluzinationsschwelle beginnt.</description>
-    </item>
-    <item>
       <title>Funktionspilze wandern ins Alltagsgetränk</title>
       <link>https://hellmuth-soda.de/news/hellmuth/funktionspilze-wandern-ins-alltagsgetrank/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/funktionspilze-wandern-ins-alltagsgetrank/</guid>
@@ -3190,22 +3206,6 @@
       <pubDate>Tue, 30 Jun 2026 23:44:12 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Mugicha, das ungesüßte Gerstengebräu, das Japan im Sommer literweise trinkt, wird in der Hauptstadt nur noch von zwei Betrieben produziert.</description>
-    </item>
-    <item>
-      <title>Amass setzt auf Sparkling Protein und Hanf</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/amass-setzt-auf-sparkling-protein-und-hanf/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/amass-setzt-auf-sparkling-protein-und-hanf/</guid>
-      <pubDate>Tue, 30 Jun 2026 23:42:16 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der kalifornische Nüchtern-Spezialist sortiert sein Portfolio neu und folgt damit der Bewegung des Marktes weg vom reinen Anti-Alkohol-Versprechen.</description>
-    </item>
-    <item>
-      <title>Wie Mingle in die Whole-Foods-Regale kam</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/wie-mingle-in-die-whole-foods-regale-kam/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/wie-mingle-in-die-whole-foods-regale-kam/</guid>
-      <pubDate>Tue, 30 Jun 2026 23:41:35 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der alkoholfreie Cocktail ist im US-Naturkosthandel keine Nische mehr, sondern eine eigene Kategorie mit eigenem Einkäufer.</description>
     </item>
   </channel>
 </rss>

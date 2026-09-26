@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-25T00:40:52.827Z",
+  "generated": "2026-09-26T00:45:48.781Z",
   "hellmuth": [
+    {
+      "title": "Pucuk Harum bricht mit dem eigenen Dogma",
+      "date": "2026-09-26",
+      "created": "2026-09-26T00:42:48.743Z",
+      "slug": "pucuk-harum-bricht-mit-dem-eigenen-dogma",
+      "rubrik": "hellmuth",
+      "lead": "Indonesiens Jasmintee-Marke lässt erstmals eine Frucht in die Flasche.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/25/pucuk-harum-ventures-into-flavour-innovation-with-lychee-rtd-tea/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/pucuk-harum-bricht-mit-dem-eigenen-dogma/"
+    },
+    {
+      "title": "Alkoholfreies Bier frisst sich in fremde Regale",
+      "date": "2026-09-26",
+      "created": "2026-09-26T00:41:54.861Z",
+      "slug": "alkoholfreies-bier-frisst-sich-in-fremde-regale",
+      "rubrik": "hellmuth",
+      "lead": "Der NA-Beer-Sektor verlässt seine Nische und kolonisiert Kategorien, die mit Bier nichts zu tun hatten.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-beverages-na-beer-comes-for-energy-olive-oil-novamexs-new-zero-sodas",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/alkoholfreies-bier-frisst-sich-in-fremde-regale/"
+    },
     {
       "title": "Paradiso mischt für einen alkoholfreien Rosé",
       "date": "2026-09-25",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/zwei-hersteller-fur-tokios-sommergetrank/"
-    },
-    {
-      "title": "Amass setzt auf Sparkling Protein und Hanf",
-      "date": "2026-06-30",
-      "created": "2026-06-30T23:42:16.580Z",
-      "slug": "amass-setzt-auf-sparkling-protein-und-hanf",
-      "rubrik": "hellmuth",
-      "lead": "Der kalifornische Nüchtern-Spezialist sortiert sein Portfolio neu und folgt damit der Bewegung des Marktes weg vom reinen Anti-Alkohol-Versprechen.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/amass-brands-expands-taps-into-sparkling-protein-hemp-trends",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/amass-setzt-auf-sparkling-protein-und-hanf/"
-    },
-    {
-      "title": "Wie Mingle in die Whole-Foods-Regale kam",
-      "date": "2026-06-30",
-      "created": "2026-06-30T23:41:35.727Z",
-      "slug": "wie-mingle-in-die-whole-foods-regale-kam",
-      "rubrik": "hellmuth",
-      "lead": "Der alkoholfreie Cocktail ist im US-Naturkosthandel keine Nische mehr, sondern eine eigene Kategorie mit eigenem Einkäufer.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/how-mingle-mocktails-won-with-whole-foods",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/wie-mingle-in-die-whole-foods-regale-kam/"
     }
   ],
   "science": [
+    {
+      "title": "Ein Forsythien-Molekül greift der Mikroglia in den Stoffwechsel",
+      "date": "2026-09-26",
+      "created": "2026-09-26T00:45:48.675Z",
+      "slug": "ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel",
+      "rubrik": "science",
+      "lead": "Chronischer Nervenschmerz sitzt nicht nur in Nervenfasern, sondern im Zuckerhaushalt der Immunzellen im Rückenmark.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752649v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel/"
+    },
+    {
+      "title": "Amyloid-Plaques im Reagenzglas, aus menschlichen Stammzellen",
+      "date": "2026-09-26",
+      "created": "2026-09-26T00:45:29.484Z",
+      "slug": "amyloid-plaques-im-reagenzglas-aus-menschlichen-stammzellen",
+      "rubrik": "science",
+      "lead": "Ein Preprint modelliert Alzheimer-Pathologie an aus induzierten pluripotenten Stammzellen gewonnenen Neuronen und liest das Proteom der Zerstörung ab.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.20.753014v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/amyloid-plaques-im-reagenzglas-aus-menschlichen-stammzellen/"
+    },
+    {
+      "title": "Wasserkanal im Hirn gegen Huntington",
+      "date": "2026-09-26",
+      "created": "2026-09-26T00:45:03.050Z",
+      "slug": "wasserkanal-im-hirn-gegen-huntington",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus dem bioRxiv-Neurowissenschaftskanal setzt an einer Stelle an, die in der Huntington-Forschung bislang randständig war: der Müllabfuhr des Gehirns.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.20.753038v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/wasserkanal-im-hirn-gegen-huntington/"
+    },
     {
       "title": "Migräne-Lichtscheu ohne Schmerzfühler",
       "date": "2026-09-25",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/der-reiz-macht-das-trinken-bitterfest/"
-    },
-    {
-      "title": "Sucht hat eine gemeinsame Anatomie",
-      "date": "2026-07-20",
-      "created": "2026-07-20T23:22:11.660Z",
-      "slug": "sucht-hat-eine-gemeinsame-anatomie",
-      "rubrik": "science",
-      "lead": "Eine transdiagnostische Metaanalyse findet über Substanzen hinweg dieselben strukturellen Hirnveränderungen.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1002/hbm.70551",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/sucht-hat-eine-gemeinsame-anatomie/"
-    },
-    {
-      "title": "Wer trinkt, dessen Striatum reifte anders",
-      "date": "2026-07-20",
-      "created": "2026-07-20T03:01:28.530Z",
-      "slug": "wer-trinkt-dessen-striatum-reifte-anders",
-      "rubrik": "science",
-      "lead": "Ein bioRxiv-Preprint verortet den Übergang vom jugendlichen Probierkonsum zum problematischen Trinken in der Reifung kortikostriataler Schaltkreise.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738690v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wer-trinkt-dessen-striatum-reifte-anders/"
-    },
-    {
-      "title": "Psilocybin ohne Trip",
-      "date": "2026-07-20",
-      "created": "2026-07-20T03:01:01.927Z",
-      "slug": "psilocybin-ohne-trip",
-      "rubrik": "science",
-      "lead": "Ein Phase-1-Preprint testet, ob die therapeutische Pharmakologie von Psilocybin unterhalb der Halluzinationsschwelle beginnt.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.16.26358273v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/psilocybin-ohne-trip/"
     }
   ]
 }

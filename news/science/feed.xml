@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 25 Sep 2026 00:40:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 00:45:48 GMT</lastBuildDate>
+    <item>
+      <title>Ein Forsythien-Molekül greift der Mikroglia in den Stoffwechsel</title>
+      <link>https://hellmuth-soda.de/news/science/ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:45:48 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Chronischer Nervenschmerz sitzt nicht nur in Nervenfasern, sondern im Zuckerhaushalt der Immunzellen im Rückenmark.</description>
+    </item>
+    <item>
+      <title>Amyloid-Plaques im Reagenzglas, aus menschlichen Stammzellen</title>
+      <link>https://hellmuth-soda.de/news/science/amyloid-plaques-im-reagenzglas-aus-menschlichen-stammzellen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/amyloid-plaques-im-reagenzglas-aus-menschlichen-stammzellen/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:45:29 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint modelliert Alzheimer-Pathologie an aus induzierten pluripotenten Stammzellen gewonnenen Neuronen und liest das Proteom der Zerstörung ab.</description>
+    </item>
+    <item>
+      <title>Wasserkanal im Hirn gegen Huntington</title>
+      <link>https://hellmuth-soda.de/news/science/wasserkanal-im-hirn-gegen-huntington/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wasserkanal-im-hirn-gegen-huntington/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:45:03 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus dem bioRxiv-Neurowissenschaftskanal setzt an einer Stelle an, die in der Huntington-Forschung bislang randständig war: der Müllabfuhr des Gehirns.</description>
+    </item>
     <item>
       <title>Migräne-Lichtscheu ohne Schmerzfühler</title>
       <link>https://hellmuth-soda.de/news/science/migrane-lichtscheu-ohne-schmerzfuhler/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Mon, 20 Jul 2026 23:22:46 GMT</pubDate>
       <category>Forschung</category>
       <description>Ratten trinken Alkohol trotz Bitterstoff hartnäckiger, wenn ein gelernter Reiz im Raum ist.</description>
-    </item>
-    <item>
-      <title>Sucht hat eine gemeinsame Anatomie</title>
-      <link>https://hellmuth-soda.de/news/science/sucht-hat-eine-gemeinsame-anatomie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/sucht-hat-eine-gemeinsame-anatomie/</guid>
-      <pubDate>Mon, 20 Jul 2026 23:22:11 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine transdiagnostische Metaanalyse findet über Substanzen hinweg dieselben strukturellen Hirnveränderungen.</description>
-    </item>
-    <item>
-      <title>Wer trinkt, dessen Striatum reifte anders</title>
-      <link>https://hellmuth-soda.de/news/science/wer-trinkt-dessen-striatum-reifte-anders/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wer-trinkt-dessen-striatum-reifte-anders/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:01:28 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein bioRxiv-Preprint verortet den Übergang vom jugendlichen Probierkonsum zum problematischen Trinken in der Reifung kortikostriataler Schaltkreise.</description>
-    </item>
-    <item>
-      <title>Psilocybin ohne Trip</title>
-      <link>https://hellmuth-soda.de/news/science/psilocybin-ohne-trip/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psilocybin-ohne-trip/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:01:01 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Phase-1-Preprint testet, ob die therapeutische Pharmakologie von Psilocybin unterhalb der Halluzinationsschwelle beginnt.</description>
     </item>
   </channel>
 </rss>
