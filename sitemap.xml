@@ -1681,6 +1681,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/saudische-cola-sucht-malaiische-abfuller/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hellmuth-soda.de/news/hellmuth/heytea-eroffnet-lab-format-in-bangkok/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hellmuth-soda.de/news/hellmuth/pucuk-harum-bricht-mit-dem-eigenen-dogma/</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -2869,14 +2881,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/zu-viele-kaufer-zu-wenige-rtd-marken/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/tau-saat-in-vesikeln-molekul-fur-molekul-sichtbar/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hellmuth-soda.de/news/hellmuth/zwei-hersteller-fur-tokios-sommergetrank/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <loc>https://hellmuth-soda.de/news/science/fruhgeborenen-hirn-repariert-die-falsche-schicht/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4065,18 +4077,6 @@
   <url>
     <loc>https://hellmuth-soda.de/news/science/kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar/</loc>
     <lastmod>2026-07-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress/</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hellmuth-soda.de/news/science/der-reiz-macht-das-trinken-bitterfest/</loc>
-    <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

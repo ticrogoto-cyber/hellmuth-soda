@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 26 Sep 2026 00:45:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:46:13 GMT</lastBuildDate>
+    <item>
+      <title>Tau-Saat in Vesikeln, Molekül für Molekül sichtbar</title>
+      <link>https://hellmuth-soda.de/news/science/tau-saat-in-vesikeln-molekul-fur-molekul-sichtbar/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/tau-saat-in-vesikeln-molekul-fur-molekul-sichtbar/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:45:40 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv meldet, dass sich pathologisches Tau in einzelnen extrazellulären Vesikeln aus Alzheimer-Gehirnen direkt nachweisen lässt.</description>
+    </item>
+    <item>
+      <title>Frühgeborenen-Hirn repariert die falsche Schicht</title>
+      <link>https://hellmuth-soda.de/news/science/fruhgeborenen-hirn-repariert-die-falsche-schicht/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/fruhgeborenen-hirn-repariert-die-falsche-schicht/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:45:18 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint an Mäusen zeigt, warum sich das Gehirn nach Sauerstoffmangel um die Geburt scheinbar erholt und trotzdem lebenslang stolpert.</description>
+    </item>
     <item>
       <title>Ein Forsythien-Molekül greift der Mikroglia in den Stoffwechsel</title>
       <link>https://hellmuth-soda.de/news/science/ein-forsythien-molekul-greift-der-mikroglia-in-den-stoffwechsel/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Tue, 21 Jul 2026 23:17:17 GMT</pubDate>
       <category>Forschung</category>
       <description>Eine Meta-Analyse benennt, worüber frühe Belastung ins Psychotische kippt, und macht daraus behandelbare Ziele.</description>
-    </item>
-    <item>
-      <title>Ein Muskelbotenstoff puffert die Maus gegen den nächsten Stress</title>
-      <link>https://hellmuth-soda.de/news/science/ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress/</guid>
-      <pubDate>Mon, 20 Jul 2026 23:23:01 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Sport wirkt gegen Angst nicht nur über den Kopf, sondern über einen Botenstoff aus dem Muskel.</description>
-    </item>
-    <item>
-      <title>Der Reiz macht das Trinken bitterfest</title>
-      <link>https://hellmuth-soda.de/news/science/der-reiz-macht-das-trinken-bitterfest/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-reiz-macht-das-trinken-bitterfest/</guid>
-      <pubDate>Mon, 20 Jul 2026 23:22:46 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ratten trinken Alkohol trotz Bitterstoff hartnäckiger, wenn ein gelernter Reiz im Raum ist.</description>
     </item>
   </channel>
 </rss>

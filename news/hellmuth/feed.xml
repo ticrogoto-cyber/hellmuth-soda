@@ -6,7 +6,23 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 26 Sep 2026 00:45:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:46:13 GMT</lastBuildDate>
+    <item>
+      <title>Saudische Cola sucht malaiische Abfüller</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/saudische-cola-sucht-malaiische-abfuller/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/saudische-cola-sucht-malaiische-abfuller/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:43:51 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der halal-zertifizierte Softdrinkmarkt verlagert seinen Schwerpunkt nach Südostasien, und die Golfmarken kommen mit.</description>
+    </item>
+    <item>
+      <title>Heytea eröffnet Lab-Format in Bangkok</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/heytea-eroffnet-lab-format-in-bangkok/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/heytea-eroffnet-lab-format-in-bangkok/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:43:38 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Bubble Tea war Produkt, jetzt wird er Schaufenster.</description>
+    </item>
     <item>
       <title>Pucuk Harum bricht mit dem eigenen Dogma</title>
       <link>https://hellmuth-soda.de/news/hellmuth/pucuk-harum-bricht-mit-dem-eigenen-dogma/</link>
@@ -1590,22 +1606,6 @@
       <pubDate>Wed, 01 Jul 2026 23:50:04 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der TCM-Sud verlässt die Großmutterküche und landet als Limited Edition im Kühlregal.</description>
-    </item>
-    <item>
-      <title>Zu viele Käufer, zu wenige RTD-Marken</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/zu-viele-kaufer-zu-wenige-rtd-marken/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zu-viele-kaufer-zu-wenige-rtd-marken/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:49:13 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der Markt für fertig gemixte Dosendrinks kippt vom Wachstumsspiel in ein Verteilungsspiel.</description>
-    </item>
-    <item>
-      <title>Zwei Hersteller für Tokios Sommergetränk</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/zwei-hersteller-fur-tokios-sommergetrank/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/zwei-hersteller-fur-tokios-sommergetrank/</guid>
-      <pubDate>Tue, 30 Jun 2026 23:44:12 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Mugicha, das ungesüßte Gerstengebräu, das Japan im Sommer literweise trinkt, wird in der Hauptstadt nur noch von zwei Betrieben produziert.</description>
     </item>
   </channel>
 </rss>

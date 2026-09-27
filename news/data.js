@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-26T00:45:48.781Z",
+  "generated": "2026-09-27T00:46:13.413Z",
   "hellmuth": [
+    {
+      "title": "Saudische Cola sucht malaiische Abfüller",
+      "date": "2026-09-27",
+      "created": "2026-09-27T00:43:51.049Z",
+      "slug": "saudische-cola-sucht-malaiische-abfuller",
+      "rubrik": "hellmuth",
+      "lead": "Der halal-zertifizierte Softdrinkmarkt verlagert seinen Schwerpunkt nach Südostasien, und die Golfmarken kommen mit.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/26/middle-eastern-soda-brands-make-their-move-in-malaysia/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/saudische-cola-sucht-malaiische-abfuller/"
+    },
+    {
+      "title": "Heytea eröffnet Lab-Format in Bangkok",
+      "date": "2026-09-27",
+      "created": "2026-09-27T00:43:38.498Z",
+      "slug": "heytea-eroffnet-lab-format-in-bangkok",
+      "rubrik": "hellmuth",
+      "lead": "Bubble Tea war Produkt, jetzt wird er Schaufenster.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/27/heytea-debuts-first-southeast-asia-lheytea-has-opened-its-first-store-in-thailand-at-centralworld-marking-the-debut-of-the-heytea-lab-in-southeast-asia-the-new-flagship-concept-integrates-a-tea-lab/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/heytea-eroffnet-lab-format-in-bangkok/"
+    },
     {
       "title": "Pucuk Harum bricht mit dem eigenen Dogma",
       "date": "2026-09-26",
@@ -2773,37 +2801,37 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/chinese-elixir-als-supermarkt-sku/"
-    },
-    {
-      "title": "Zu viele Käufer, zu wenige RTD-Marken",
-      "date": "2026-07-01",
-      "created": "2026-07-01T23:49:13.287Z",
-      "slug": "zu-viele-kaufer-zu-wenige-rtd-marken",
-      "rubrik": "hellmuth",
-      "lead": "Der Markt für fertig gemixte Dosendrinks kippt vom Wachstumsspiel in ein Verteilungsspiel.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/ma-activity-for-scaled-rtd-brands-expected-to-ramp-up",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/zu-viele-kaufer-zu-wenige-rtd-marken/"
-    },
-    {
-      "title": "Zwei Hersteller für Tokios Sommergetränk",
-      "date": "2026-06-30",
-      "created": "2026-06-30T23:44:12.720Z",
-      "slug": "zwei-hersteller-fur-tokios-sommergetrank",
-      "rubrik": "hellmuth",
-      "lead": "Mugicha, das ungesüßte Gerstengebräu, das Japan im Sommer literweise trinkt, wird in der Hauptstadt nur noch von zwei Betrieben produziert.",
-      "source_name": "SoraNews24 Food",
-      "source_url": "https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/zwei-hersteller-fur-tokios-sommergetrank/"
     }
   ],
   "science": [
+    {
+      "title": "Tau-Saat in Vesikeln, Molekül für Molekül sichtbar",
+      "date": "2026-09-27",
+      "created": "2026-09-27T00:45:40.727Z",
+      "slug": "tau-saat-in-vesikeln-molekul-fur-molekul-sichtbar",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv meldet, dass sich pathologisches Tau in einzelnen extrazellulären Vesikeln aus Alzheimer-Gehirnen direkt nachweisen lässt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753085v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/tau-saat-in-vesikeln-molekul-fur-molekul-sichtbar/"
+    },
+    {
+      "title": "Frühgeborenen-Hirn repariert die falsche Schicht",
+      "date": "2026-09-27",
+      "created": "2026-09-27T00:45:18.735Z",
+      "slug": "fruhgeborenen-hirn-repariert-die-falsche-schicht",
+      "rubrik": "science",
+      "lead": "Ein Preprint an Mäusen zeigt, warum sich das Gehirn nach Sauerstoffmangel um die Geburt scheinbar erholt und trotzdem lebenslang stolpert.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753115v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/fruhgeborenen-hirn-repariert-die-falsche-schicht/"
+    },
     {
       "title": "Ein Forsythien-Molekül greift der Mikroglia in den Stoffwechsel",
       "date": "2026-09-26",
@@ -5575,34 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar/"
-    },
-    {
-      "title": "Ein Muskelbotenstoff puffert die Maus gegen den nächsten Stress",
-      "date": "2026-07-20",
-      "created": "2026-07-20T23:23:01.437Z",
-      "slug": "ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress",
-      "rubrik": "science",
-      "lead": "Sport wirkt gegen Angst nicht nur über den Kopf, sondern über einen Botenstoff aus dem Muskel.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.737482v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-muskelbotenstoff-puffert-die-maus-gegen-den-nachsten-stress/"
-    },
-    {
-      "title": "Der Reiz macht das Trinken bitterfest",
-      "date": "2026-07-20",
-      "created": "2026-07-20T23:22:46.734Z",
-      "slug": "der-reiz-macht-das-trinken-bitterfest",
-      "rubrik": "science",
-      "lead": "Ratten trinken Alkohol trotz Bitterstoff hartnäckiger, wenn ein gelernter Reiz im Raum ist.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738545v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/der-reiz-macht-das-trinken-bitterfest/"
     }
   ]
 }
