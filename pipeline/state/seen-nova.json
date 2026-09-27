@@ -93827,6 +93827,930 @@
       "date": "2026-09-26",
       "score": 1,
       "dropped": "low-relevance"
+    },
+    "01a7dfd41bf43ecf7f9c8a09df822d9874f63640198a269885a0bd5ca9c20069": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126722/6359632",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5f60691e807a051cf67f6d6420e6efdd6aef324e93a6b2c8ec6fea6f99ca58ee": {
+      "url": "https://www.presseportal.de/blaulicht/pm/108747/6359631",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e4abb879830c3b3b4923e8d1e57c11df309fe43865384c71d0e8cbfa129bcad7": {
+      "url": "https://www.presseportal.de/blaulicht/pm/117698/6359630",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8b7eb498d8df8269b15002bde6ac6ad4f4b22777ee064b765e1380db2a41df3e": {
+      "url": "https://www.presseportal.de/blaulicht/pm/117698/6359629",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "00def4437ff7628915890c09e0b5793ae104e9dff7d6dd7b247af6a719be0b8d": {
+      "url": "https://www.presseportal.de/blaulicht/pm/138081/6359628",
+      "date": "2026-09-27",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "581aff7b7b503a51cf2f83498632e4226909b24ff408c675e42db6f9ed6f8997": {
+      "url": "https://www.presseportal.de/blaulicht/pm/110976/6359627",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b4d07e2204de6a3fc7028f27896d35665b460782215507f4437baf9822c56a66": {
+      "url": "https://www.presseportal.de/blaulicht/pm/126719/6359626",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e340b00c50da3dee1cba9e5d04af37d8f80c763efce043f13a995a511fd66da7": {
+      "url": "https://www.presseportal.de/blaulicht/pm/43558/6359625",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "939380f8d0aa4d00117b35df6831c69e9f0c9ba9355691d25c72c424aeeb8406": {
+      "url": "https://www.presseportal.de/blaulicht/pm/110979/6359624",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "422b27d4d03f7136fd41eb8f5cc6e6645d4aab420f5e5bf4fd6cb06ff85c8c20": {
+      "url": "https://www.presseportal.de/blaulicht/pm/120429/6359623",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5806ef69bc4d3551b80c177d7edf88eece29a25d96c8222e656a794402777929": {
+      "url": "https://www.presseportal.de/blaulicht/pm/140932/6359622",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7549fcb87a718e3f9f13891007f5ffa042bf5aef4525451d0cf373a72a0552d6": {
+      "url": "https://www.presseportal.de/blaulicht/pm/171463/6359621",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2e1dd85e2370bfe073381bca02df5eac7553916adec652432fb87cb838dc681b": {
+      "url": "https://www.presseportal.de/blaulicht/pm/131348/6359620",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3333d180f46734ee3e03582ca3d8775e0848a647764dc7ebbf000a31f91ab44d": {
+      "url": "https://www.presseportal.de/blaulicht/pm/115885/6359619",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "88d73f9f399c3850e6491421b040b82898d5e5a6cde05add59ae975c63ae406c": {
+      "url": "https://www.presseportal.de/blaulicht/pm/117698/6359618",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "352e43c316b5fbd9510bb92bd4f819cb625ccaf22a27191044e9addb257d917a": {
+      "url": "https://www.tagesschau.de/ausland/europa/demonstration-mieten-madrid-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2bfe78a49aa6568bb4a4f11aa4ffa33abade0db90d5813708f96f72c81cb999c": {
+      "url": "https://www.tagesschau.de/ausland/wadephul-rede-un-generalversammlung-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "50bcf2e161e91441fb4f9f434d2d0c8f16cedc1c7a3abd719bcbf3b6fd8f8b97": {
+      "url": "https://www.tagesschau.de/inland/innenpolitik/berlin-spd-linke-gruene-sondierungen-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7d0b5677cdd41e5716cb31b094fcf769eda84c472b4e56108ab7fa00c159b83d": {
+      "url": "https://www.tagesschau.de/kommentar/olympia-bewerbung-deutschland-kommentar-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e91cb1d9ac75323032ff6efd6cceb90f7d76fef0afa47a86aca706e630a1faf1": {
+      "url": "https://www.tagesschau.de/ausland/europa/wadephul-treffen-lawrow-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "cae158d277cde663b6c070ee6dec24e91e4a8043bbf8c1f8fabf2a8d9c215d7f": {
+      "url": "https://www.tagesschau.de/ausland/asien/iran-krieg-hormus-trump-lehnt-vorschlag-ab-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7ed9d7bf1f8a73dbe5ab1d0eb67f0b8df57de2aaf14e53d04afd4241abc02d0e": {
+      "url": "https://www.tagesschau.de/ausland/europa/schweden-pflege-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c674615334e4db7e91b70ea26f6dd7e9cbcac463647f498a7885bfe2dc6463b7": {
+      "url": "https://www.tagesschau.de/inland/dobrindt-munich-migration-meeting-frontex-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d0cc4e5eefb75def7bd1f1abf0af59980ddad998d4861c969105a8eb8eb98544": {
+      "url": "https://www.tagesschau.de/ausland/europa/papst-paris-messe-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e4550d453ccd6c28b651c6d83356d1e9e5cf6cd8c624b41342b35b78bf348dee": {
+      "url": "https://www.tagesschau.de/inland/pflegekosten-deckel-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "09a36ecb33ea379f400dbc463d78594ff5095b2dd246f4a89e3ac0918ea8367d": {
+      "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/kabelklau-gelsenkirchen-zugausfaelle--umleitungen-ruhrgebiet-100.html",
+      "date": "2026-09-27",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "e7aa49b72f7e32754baadf068590cf36e755b37f1a8a0e0afbe682eac7c9a308": {
+      "url": "https://www.tagesschau.de/inland/innenpolitik/heidenau-stolpersteine-prien-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f1c73fcdc19e0a2cc49f03ef138481637040aeb3e4aca1a206750a459d507067": {
+      "url": "https://www.tagesschau.de/kultur/tim-struppi-comics-jubilaeum-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "53dba284d3ba66277ecbda71965c52c0a205932dc99d0461c468a000303e6f7f": {
+      "url": "https://www.tagesschau.de/inland/innenpolitik/sozialreformen-proteste-dgb-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7dc64fd16fbafcd9462598cfe3d21129d06c3a369a66a19cf18525f6e596bd2b": {
+      "url": "https://www.tagesschau.de/wissen/klima/karte-gletscher-104.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7d8a074eb604f560831411d8e1b593b1d9380a2d2e8220421bdc537ca9936188": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/pressemitteilung.1718523.php",
+      "date": "2026-09-27",
+      "score": 2,
+      "dropped": "low-relevance"
+    },
+    "4583a3da544ad3dd204324b777a33c5045db2f3be8fa5c32de672294f75006a9": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/pressemitteilung.1718522.php",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "78b484883b7c3362e7e28e7276c464618545abf10d0a9cbd57b5f0b8abdba2eb": {
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/pressemitteilung.1718519.php",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d77c66285dd5ff9133cfc020c3da0b6765dfa644d265e54a5b58e028e18bfa71": {
+      "url": "https://www.lto.de/recht/hintergruende/h/bverfg-75-jahre-afd-richter-verbot-aktivistisch-richterwahl-sinnlose-arbeit",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "65d8fc0c5f3fdd174532933d976d301fa059df6c3a78e0199e81db9fc84d270c": {
+      "url": "https://www.lto.de/recht/meinung/m/enteignen-verbieten-bverfg-private-chatnachrichten",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "444173a0f39e38c2114a560cc3968d1fd53ae7b7cef05ea83d379cadbaf5eee0": {
+      "url": "https://www.lto.de/recht/hintergruende/h/bundesverfassungsrichter-besuchen-schulen-torten-selfies",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "65d4393ba03bcc08478864032c7cd11aa5565df2045957ec9f5ebce49c87a601": {
+      "url": "https://www.lto.de/recht/hintergruende/h/kuenstliche-intelligenz-ki-reform-justiz-prozessrecht-csu-bmjv",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "188ff55a847e7c87ec79d48312f8c2538d1029973db0c1f1465efa696158bccd": {
+      "url": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/kabeldiebstahl-bahnverkehr-um-gelsenkirchen-steht-still-accg-201264884.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "41c3bf9bfad245d646f61b2d40b68e2378f6e47e49106daa85753fa2e70542fb": {
+      "url": "https://www.zdfheute.de/politik/wadephul-interview-treffen-lawrow-ukraine-krieg-russland-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "03c6161e4999aa5648a346b3946002ab4914db0338d62af4623619c3888e32e5": {
+      "url": "https://www.zdfheute.de/politik/wadephul-lawrow-treffen-new-york-deutschland-russland-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "55750a8d6b109484ca5ed8cdcfe276d8a5d98771bdbcd872d2a0227694cd6e6f": {
+      "url": "https://www.zdfheute.de/politik/ausland/spanien-madrid-zwangsraeumung-proteste-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9ce3d378f40c55c45d7cf0ad77fb856d23ca39ba0cb7b0ca3308a71d27142556": {
+      "url": "https://www.zdfheute.de/video/laenderspiegel/hammer-der-woche-aus-freden-102.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "07be839011a21448bd9499a2c6d310a50ae14a29b4c80f9fa118d1f4c530bf86": {
+      "url": "https://www.zdfheute.de/video/tote-jungwale-argentinien-9x16-reel-video-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0fcd03496c2292dfce67e523ca2fcf92fe1238b08149a6a38ac052057084db5b": {
+      "url": "https://www.zdfheute.de/video/zdfheute-xpress/csd-uruguay-montevideo-xpr-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "30320e48f14dd4370ef65b5a7bd54fe7064faaa3bdfc2f703b8ec215872afe2a": {
+      "url": "https://www.zdfheute.de/video/panorama-missbrauch-techno-szene-video-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "94deb6ee4b0ae3ae0714d03022b11cfbd997247b6152308dc2d41d7902fdc7d0": {
+      "url": "https://www.zdfheute.de/video/zdfheute-xpress/papst-reise-frankreich-xpr-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e374319413e1d9f51ad6c6590a2b8d43c59ee268daf9b4601fccbc5f218b1f5c": {
+      "url": "https://www.zdfheute.de/politik/deutschland/migrationsgipfel-muenchen-dobrindt-frontex-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "da12d65b87daeee1e0f4bb1ca45d4e68b2bb801c7e8feb162926f77def484e64": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/rueckruf-bei-vw-offenbar-fehlen-die-ersatzschrauben,volkswagen-380.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "645ff861da7e7da522ed36e12068aaa6ed8499beeac51349f5de3647fc9051b6": {
+      "url": "https://www.ndr.de/sport/olympia/Olympia-Bewerbung-DOSB-Muenchen-Kiel-Rhein-Ruhr-Warnemuende,olympia-entscheidung-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "72ecc50457e1be83c797e0584ce769f75bffd69829155bf61f968256079a1f50": {
+      "url": "https://www.ndr.de/nachrichten/info/gegen-sozialabbau-tausende-bei-dgb-demos-im-norden-unterwegs,dgb-144.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "43f7c03726a8b5ef11a52aba61ae92b00f0ac5ac3cbf0d362eddf385a5bab7f1": {
+      "url": "https://www.ndr.de/nachrichten/schleswig-holstein/reformen-in-der-kirche-synode-beraet-ueber-regeln-fuer-beschaeftigte,nordkirche-104.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0595d1b6d9ca1b51de78b7c07b0a370775177eedb1bc9bd536a2f2689c0d78ae": {
+      "url": "https://www.tagesschau.de/ausland/amerika/usa-ki-openai-regierungswebseiten-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "306fbcf929da210420fe7d00d156a2b7ed54f71ecb49bc2d521450ac93972e36": {
+      "url": "https://www.ndr.de/nachrichten/info/transportgewerbe-tankrabatt-loest-nicht-die-eigentlichen-probleme,audio-3500170.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bad752139516252c3c544c58d970ea1f8629495949c4c893bd21345bb83f3468": {
+      "url": "https://www.ndr.de/nachrichten/info/sendungen/mikado/mikado_am_morgen/kindernachrichten-wahlen-in-berlin-und-mecklenburg-vorpommern,kindernachrichtenndrinfo124.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4d9cf64ad1ff3b7f17357a0985c2cf0b8be995d8184c579f26a12443303fea2a": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/delmenhorst-25-jaehriger-toedlich-verletzt-in-parkanlage-gefunden,delmenhorst-212.html",
+      "date": "2026-09-27",
+      "score": 3,
+      "dropped": "low-relevance"
+    },
+    "aabb28b86bf7e803091a448fef1a36b25373e600d0344231f63e05fa9d8e3af5": {
+      "url": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/katamaran-mast-gebrochen-seglerpaar-aus-seenot-gerettet,wangerooge-170.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9767a674962792c17eaa7ae03355e46f6939aa6b1941f63b9dff54a3067234b4": {
+      "url": "https://www.ndr.de/fernsehen/sendungen/hallo_niedersachsen/kommunalwahl-in-der-verlaengerung-stichwahl-am-sonntag,hallonds-10504.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c00f00abb0715bcf3ebf71b177296056abbed3edc9592d00dce0f61d6ea6bd79": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/cdu-hagel-fordert-konsequenzen-von-merz-regierung-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4819995b114ec967aed6f482bc59f44c4a83a1190ccf7642980c3ee20746ddaf": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/kabelbrand-unimedizin-mainz-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a365fde7b07d4a57629e926861a89924a92ff3ff1c6ce4764e48613aadf64562": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-sommerwetter-am-wochenende-bis-zu-30-grad-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3c335c378f6176c4ad4718cd16eca74fcaa4d35d831af0554c38ecee847228b6": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/micky-maus-sammler-75-jubilaeum-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2dede285cb39392f414ebfaa5bf61ed03d75cbc4c324e0a5af7c6280b0e18c5f": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/demonstrationen-gegen-reformen-der-bundesregierung-zehntausende-in-stuttgart-und-freiburg-auf-der-strasse-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ccfdc51e6148269f39555cb0219110a3823a18fce776fb247d868865fd29d3c9": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/fdp-baden-wuerttemberg-waehlt-andreas-glueck-zum-vorsitzenden-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "396771c45b23e4b17b40c313bfa1cc00bd30ea9fd2917f36f21d514ef9b2b0cb": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/toedlicher-unfall-radfahrerin-und-lkw-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d76db502406d21099f3152b0a774e79e16ddc89e1079543f9fedbc3ee329805b": {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/weihnachts-tonie-voellig-ueberteuert-regionale-shops-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "feacbef63fa2ab751da197dea2a6c5fdb6909ddc943108dcf42988014c578535": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/niedrigwasser-rhein-pegelstand-kaub-faellt-auf-unter-null-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9522ca1cd8ce8ae57b59e26e9a7dd3458072d63a47c374f4cd912fdfabb09065": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/zwoelf-schwimmbaeder-bekommen-geld-fuer-sanierung-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1a4aabc0efb60f0e1f8db837db22e0dc71c80b64af58253b8026ebb5979e874a": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/entlastung-fuer-vereine-land-uebernimmt-gema-kosten-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "40a9be6fe27a20635fded13e67688b41bb3328af0bacc3cfef7267cd6b0eae8c": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/landesweiter-uebungstag-einsatzkraefte-ueben-fuer-unwetter-starkregen-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e28f4466a94a1119057fe0e2290a0f28e25c12700aef3f25f8442696c9ea1eea": {
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/polizei-informiert-frau-ueber-organspende-bingen-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f13463dc4c687f93ef79fba7884756509248e13c66b62f57723c085706343d71": {
+      "url": "https://www.swr.de/swraktuell-radio/digitaler-personalausweis-kennt-die-behoerde-wirklich-nur-unser-passbild-gesicht-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b14eb2c1bfe3190669601c666974adec489d33e2e8d4a636c7a222d3f97318df": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/hunderte-christopher-street-day-bernau.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5cccf3f90b402104b55855411d377e4993cd9ef3c8cb97b10cad1b61585e120c": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/tausende-teilnehmer-dgb-demo-berlin-kuerzungen-sozialbereich.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7c74afde094d96cefd9f762f51f719e7357c636bd7d35d4ad7232cf18963e440": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/festnahmen-demo-gegen-wehrpflicht-berlin.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8563ababe1c5187d36796341ff91156d77f0bedfbc8ad69cde02f445e77b95e8": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/berlin-verkehrsunfall-gatow-autofahrerin-lebensbedrohlichverletzt.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "cd42323b3ef040cb80e3998ffd8bb69df1094875aeb1b1afb2597926e08952a1": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/berlin-behoerde-warnung-thc-gummibaerchen-zwischenfaelle.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "35778eedb5c095c8df66b325680bac6941eb721c0acf58aafd242f979d82bcea": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/brandenburg-oderberg-b158-bruecke-bauarbeiten.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "74da4d7d839f98acd51375ae0b74520dd7d0fefc53de7daf2d14a19cc776dbe7": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/brandenburg-toedlicher-motorradunfall-spree-neisse.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bdd25cd33c4e1095760e36c4dfd957acff8cfa7c396bbf0b9aa2e08568fbc0bc": {
+      "url": "https://www.rbb24.de/panorama/beitrag/2026/09/interview-freiwilliger-wehrdienst-nuria-riedel-berlin-bundeswehr.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6b8f2bb3f7552ad26234d124d8695dcca469636066790922da20dcdddf38bf0a": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Bundesaussenminister-Wadephul-trifft-russischen-Kollegen-Lawrow-bei-der-UNO",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "868f9ab2891eadef0557eceb87fb1b1c04133446542cdec508efd2a503caf73d": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Leipzig-gratuliert-Muenchen-zur-Olympia-Bewerbung",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1a30bba75c0c0526800183c3debad67b12c480baf13f57bf2dc63f93d9bc65bf": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Papst-predigt-vor-800000-Menschen-in-Paris",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a6d92622c242e9b9adcdf9edf9c4438007eda62f9b985eba69ad91a00eda8b82": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Trump-Habe-iranisches-Hormus-Angebot-abgelehnt",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "718b34eefe062b2719ff32d649f14bfa036d4782a71c98fc8ca13fba2b10998c": {
+      "url": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Greiz-Knapp-400-Haushalte-weiter-von-Gasversorgung-abgeschnitten",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7c50933748ecd761263f8524d28ab5749d5bbf23c6901df1158605ed7b14dccd": {
+      "url": "https://www1.wdr.de/sport/olympia-bewerbung-reaktionen-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "713d179f24011f9c97ac7d48c6fb5914f3eaf2c2d70bcfd6b0f656b5c4d3313a": {
+      "url": "https://www1.wdr.de/nrw/jens-spahn-eklat-skandal-krank-urlaub-haushaltsausschuss-kritik-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a748b423c47d21bf39091210a06686b1648fb9fda4b968ef50f7a6d39d26fad8": {
+      "url": "https://www1.wdr.de/nrw/essen/dgb-demo-essen-verkehr-rente-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a16f284e2347d0c3b361445c5380266464bad2807487e893693de6c04ce8350e": {
+      "url": "https://www1.wdr.de/nrw/bergisches-land/wuppertal/unfall-elberfeld-a46-tote-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8e73185dcff76ea4d6719154279a82f73b8f15e281fa5e706070c5b20f4b5be4": {
+      "url": "https://www1.wdr.de/nrw/duesseldorf/pro-palaestina-demo-duesseldorf-102.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "51edbdecd99f08ca98133d8e9ef82ae3f7ac9f9ae5c0d2fa167ffc94eb488adb": {
+      "url": "https://www1.wdr.de/nrw/rheinland/bonn/bombenfund-rhein-bornheim-hersel-evakuierung-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e235d62a8a14e6f301bc6fa7cfcb9a1cc306bee91d0a864ff7a22cc90582f873": {
+      "url": "https://www1.wdr.de/freizeit/ausflugsziele-nrw/wandern-herbst-tipps-nrw-118.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "87fb60ac5905faf7e4c6db612cbdf58c2da29a654d67dae5be9eb9c543ee0f4c": {
+      "url": "https://www1.wdr.de/freizeit/tiere/schaeferin-rhede-wm-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "4869b77d72e5fa054a5f950ed1dc36a80aefbeda9d836724f3fcea96e4b7dc3f": {
+      "url": "https://www1.wdr.de/nrw/bergisches-land/remscheid/outlet-lennep-infoabend-106.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fe02723a98862929522fab0c90cb96b3e6d7f5b3479ef4589537d3728a98c397": {
+      "url": "https://www1.wdr.de/wirtschaft/tankrabatt-spedition-insolvenz-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "024114fcd90f747ec95a59be20c0a400681747fb804c065494b8faac0b04edc1": {
+      "url": "https://www1.wdr.de/nrw/koeln/deutz-unfall-strassenbahn-todesopfer-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "70f994886834af2720bc74e78d1ff165ab1e8930ffcddfaf32a30dafcdb7c0bf": {
+      "url": "https://www1.wdr.de/nrw/koeln/zoll-kontolle-koeln-friseur-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "251d46e72cd3d6af12edd7eecb8b36c94e3e609c15abe363cb0e26f01acba2d0": {
+      "url": "https://www1.wdr.de/sport/fussball/verbandspokal-sc-verl-rot-weiss-essen-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "f303332dbca13d6d33720d06305e8196102b6b2ee353510f5fd0a5eb545a90be": {
+      "url": "https://www1.wdr.de/nrw/ruhrgebiet/ennepe-ruhr-kreis/dachgeschoss-brand-wohnhaus-witten-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a15ff1f7e2ee3ced887b2917eb6ab0980383e7c2b8f2b06de5b6def0cbc8a4f1": {
+      "url": "https://www1.wdr.de/politik/politik-in-nrw/kommentar-olympia-bewerbung-nrw-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "fd773ab2f04ba22a5a5444aa8f208e60438d6b83381283a08646f88ee6c3fdb8": {
+      "url": "https://www.hessenschau.de/kultur/unter-darmstaedter-marienplatz-historisches-pferdegrab-wirft-fragen-auf-v1,pferdegrab-darmstadt-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "38f7e3d252ff9d651205440057f40bcfeaa49440e88f43e12fff7f13c328fdd3": {
+      "url": "https://www.hessenschau.de/panorama/deutlich-mehr-gegendemonstranten-als-reichsbuerger-in-darmstadt-v7,reichsbuerger-darmstadt-vor-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "ddd91ee3b6812d73d97b5a4963e0b52f721e00fa1c248bcc5034e2dcb486c423": {
+      "url": "https://www.hessenschau.de/wirtschaft/15000-menschen-protestieren-in-frankfurt-auf-dgb-demo-gegen-sozialabbau-v8,demo-sozialabbau-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1894084ed5c3e83efb3f9dd54f26b46eab52da0256e783005b48f43a89862cb6": {
+      "url": "https://www.hessenschau.de/politik/buergerentscheid-in-raunheim---buergermeisterwahlen-in-pohlheim-wesertal-und-steinau-v1,buergermeisterwahlen-166.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e67ec06d3062712a99b58a0892d2a44b5dbabce863be9debe951abaf8abd062e": {
+      "url": "https://www.hessenschau.de/politik/kenia-wende-in-marburg-cdu-gruene-und-spd-einigen-sich-auf-zusammenarbeit-v1,kenia-marburg-haushalt-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "dad5d2cb94a1689a363a529fb904a8a3eb9de9da10d352a7d53d833505a2b0d0": {
+      "url": "https://www.hessenschau.de/kultur/vom-brett-zum-rockriff-wie-nik-huber-gitarren-fuer-metallica--co-baut-v1,nik-huber-gitarren-rockstars-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5d56ff91697832063987a32631c61b8d007b76392c2a46bed26a8d1082c23b02": {
+      "url": "https://www.hessenschau.de/kultur/apache-207-bringt-fans-in-frankfurt-auch-in-runde-zwei-zum-fliegen-v1,konzert-apache-207-frankfurt-festhalle-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "6dd295b10ab1cc78984efa29603684dae29e51635317b399e3a38f0d14280eab": {
+      "url": "https://www.hessenschau.de/kultur/erschreckend-aktuell-das-adorno-experiment-am-frankfurter-institut-fuer-sozialforschung-v1,adorno-gruppenexperiment-forschung-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a949353a0969153b8c6e104df9bab3ebf36c91d748b4b55b4b6a273393e8aa4d": {
+      "url": "https://www.hessenschau.de/panorama/sommerwetter-im-herbst-hessen-knackt-noch-einmal-die-30-grad-marke-v1,wetter-hessen-spaetsommer-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7cbd88863a08b71c8515440905a936c8ebc762aada022e5564eeb8f8f3bf9323": {
+      "url": "https://www.hessenschau.de/gesellschaft/krebsvorsorge-wie-ein-patient-dank-frueherkennung-rechtzeitig-operiert-wurde-v1,krebs-praevention-100.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e1a8ae94923b459ac50fbeaf575b7f5a6220c8e50f9d1fe5b9736c119fc1818f": {
+      "url": "https://www.hessenschau.de/sport/basketball/skyliners-frankfurt/erster-sieg---skyliners-frankfurt-belohnen-sich-fuer-couragierten-auftritt-gegen-vechta-v1,skyliners-vechta-132.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1b065044aecd6cdd9f8405edc57e8c3f933d0f6863ebd3a7010db6f343ca59a3": {
+      "url": "https://www.hessenschau.de/sport/handball/mt-melsungen/handball-bundesliga-mt-melsungen-verliert-wiedersehen-mit-rhein-neckar-loewen-v1,melsungen-loewen-114.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a329d23dc8d2e1e839347e7c551229aad9efe45cf40ac9be935c6e8deadef237": {
+      "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-frankfurtdie-zwei-gesichter-des-can-uzun-v1,eintracht-uzun-132.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b9872ff5403b75429a08e24b82f5009878f08ac32f6fc72ac8dc14e18246651d": {
+      "url": "https://www.hessenschau.de/sport/fussball/regionalliga/regionalliga-suedwest-ofc-verliert-und-muss-tabellenfuehrung-abgeben-v1,regio-samstag-258.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e30392967089971dbcd210ce6b743db5f7a075ac370c5611feb991d1c83c0c9c": {
+      "url": "https://www.br.de/nachrichten/sport/muenchens-finale-um-olympia-deutsche-kandidatenkuer-live-im-br-stream-und-im-tv,VVsygK5",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "e6d65c0f6ac0319fead42caf37836bd25b364a2a05fb95bdd4e60213e886149c": {
+      "url": "https://www.br.de/nachrichten/sport/soeder-und-krause-nach-der-muenchen-wahl-in-den-wiesn-looping,VWJmCHD",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a4f0703f130d337dd3e7aac84f5c636849cabb2e030afb5e3f666ff4c46ded80": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/eu-grenzschutz-dobrindt-will-frontex-deutlich-staerken,VWKuVfO",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7200f1a0de5cf4cfbcad89b977555836fadc4e2cd3b88fda9233fd05d0faa50a": {
+      "url": "https://www.br.de/nachrichten/deutschland-welt/worum-geht-es-beim-munich-migration-meeting,VWG03vy",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a1ce967de2d59ff07ec6b928504786ae03594e37937f78a975a04a4fd38fbbac": {
+      "url": "https://www.br.de/nachrichten/bayern/25-000-demonstrieren-in-nuernberg-fuer-starken-sozialstaat,VWKv1rK",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "c55e952dd9a919fc32bb0b7511e9f161dfbd9fcb15879910a212700e69981c4b": {
+      "url": "https://www.br.de/nachrichten/wirtschaft/streitum-die-rente-mit-63-was-es-kostet-wenn-sie-bleibt,VSXCZlX",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "2dc711f46f9f036c68d19e46b813cd25a5f7e18ae45759efe277fa7465992021": {
+      "url": "https://www.br.de/nachrichten/bayern/grosser-wiesn-andrang-haupteingaenge-kurzzeitig-geschlossen,VWLDnV4",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "efc39f7ad971e9fa9c7910ac316823c914afa609792a40c4fb37910d54df7125": {
+      "url": "https://www.br.de/nachrichten/bayern/sicherheit-fuer-millionen-besucher-beim-muenchner-oktoberfest,VVIUNqP",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "9b0a33983c374f9948a6b2e7990d467f2aabe889f7909787a3d6ea484563d97e": {
+      "url": "https://www.br.de/nachrichten/bayern/nationalpark-berchtesgaden-auf-der-spur-der-fledermaeuse,VWKifZJ",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bba0b8dbc1d063e275c96aad8dac8ebaa9fa63b2e745564002f9e0578064e391": {
+      "url": "https://www.br.de/nachrichten/bayern/fledermaeuse-in-der-wohnung-was-tun-bei-tierischem-besuch,VTUmo6t",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0cac05ec22360dc809af75ebb8009eaff355d814eda823dd7190fd4ef5efcab4": {
+      "url": "https://www.br.de/nachrichten/wissen/sonnenlicht-auf-bestellung-weltraumspiegel-im-orbit-geplant,VWEFLvd",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8efcc1bdc9f8978a9d652d0eea4302fca2b5667f836aee0b07c42d2c5a52e563": {
+      "url": "https://www.br.de/nachrichten/wissen/immer-mehr-weltraumschrott-schaden-fuer-die-erdatmosphaere,V7nMXSn",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "926efe526c2cb2be155aa775952720f67c3df8e6155d8fce14266a760079bbde": {
+      "url": "https://www.focus.de/panorama/welt/mann-und-frau-sterben-bei-horror-unfall-in-wuppertal_e57b6c94-e2e0-458f-8f0f-64304ccf154f.html",
+      "date": "2026-09-27",
+      "score": 1,
+      "dropped": "low-relevance"
+    },
+    "eddb47c486838772e3fd1e463fd0f46d55ca22dd01b897e03639d403782dd691": {
+      "url": "https://www.focus.de/panorama/welt/mann-in-koeln-angeschossen-polizei-sucht-nach-verdaechtigen_94f216c7-15c4-454a-bfa6-ea73921632e0.html",
+      "date": "2026-09-27",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "2164a17a438f46086bdce1d76ffd608f49587dfba7e80f2d570ac271a8d5a012": {
+      "url": "https://www.focus.de/panorama/welt/aaron-kauft-einen-volkswagen-passat-gte-mit-300-000-kilometern-ohne-batterietest_adb92afb-4675-4c67-a7e7-8928d9afaa9d.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "5d07c22fdbf03985ee0cd823be0a19cf068844aaf62a543aae527ff1b873013a": {
+      "url": "https://www.focus.de/panorama/welt/fuenf-zahnaerzte-weigern-sich-billig-prothesen-aus-china-einzubauen-und-werden-entlassen_82ce2492-bf65-4a54-8178-290f36b24d72.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b79ee07d78287f486a71d576bff0705b471fb83aec091276e326bef8cca1da6e": {
+      "url": "https://www.focus.de/panorama/welt/falsche-beute-diebe-auf-hardware-jagd-finden-in-lkw-18-tonnen-sand_236b58e0-f1f0-4847-836e-85ac0cc63559.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "126340cfd6bc0576ce45edd057ee33b154cd22ff0c40d036e808319c6357b5d4": {
+      "url": "https://www.focus.de/panorama/welt/54-000-liter-diesel-68-000-euro-mann-29-tankt-mit-fremder-karte-136-mal-und-verkauft-sprit-fuer-einen-euro-weiter_9f94242c-af4b-4983-9710-2ba5b274c883.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "23bab73f853bc75556809fe3a6cd4d795c95b861b4a796ec8d07dc95b0e24a31": {
+      "url": "https://www.focus.de/panorama/welt/mariana-38-baut-ein-autarkes-erdhaus-aus-lehm-holz-und-12-recycelten-windschutzscheiben_708665a2-5f89-4982-a9b8-8ebc8b4f9be7.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "43cbdf8f0f92fbcb2e1f80e6b014b7a893083ce4da30e9e054059454f78bf3b7": {
+      "url": "https://www.focus.de/panorama/welt/finde-einfach-keine-wohnung-flavio-lebt-seit-zwei-jahren-am-gardasee-in-einem-wohnmobil_ec28626d-6f57-47c4-8689-e377ae5d3b7e.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3c35c76fa7c02dffcea1070196d2e75e5abdde8001c4d144d924b1a0833f6113": {
+      "url": "https://www.focus.de/panorama/welt/sonst-erfriert-ein-mensch-vor-meiner-haustuer-berlinerin-rettet-obdachlosen-mit-einem-tiny-house-vor-dem-winter_5daabe61-2bc4-42b7-b9da-16b51a00daa4.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "699e0708e0e96f1afe98d77aeb801db81a9aec6b9a4f8409c7d5dbb53870ddec": {
+      "url": "https://www.focus.de/panorama/welt/ein-tag-kostet-84-50-euro-skigebiete-verlangen-in-neuer-saison-mondpreise_a6deff33-7d61-4488-a483-c70ed4ff1f0a.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7dae97007efeb07bcfffed61e5044f9e6bfe3527f36943ad813caca0af350434": {
+      "url": "https://www.focus.de/panorama/welt/pawel-steht-10-stunden-am-pfand-automaten-um-11-218-flaschen-und-dosen-zurueckzubringen_08579bdf-e5ab-476d-bab6-0e5a98758ed0.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "607b476cdc54eaca93797a0a8f62973e55b75e1d103482c76345227aeab6f971": {
+      "url": "https://www.focus.de/panorama/welt/2-freigelassene-biber-bauen-in-einem-jahr-einen-35-meter-damm-und-verwandeln-wald-in-ein-feuchtgebiet_d7087853-2ecb-4f33-99e5-34051b2989b3.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "01216121e72785b94e112807586afd9160322e62c2eabfff3c97d8f37ec6cb18": {
+      "url": "https://www.focus.de/panorama/welt/fahndung-gefaehrlicher-messerangreifer-aus-vollzug-bei-leipzig-geflohen_48491f0f-89cf-4562-b9ed-e456de76801e.html",
+      "date": "2026-09-27",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "7f9e96133a741969f3095ecc21a862291ad0b04cbc6ed0ca890ebcaa4e073d94": {
+      "url": "https://www.focus.de/panorama/welt/frau-28-ist-seit-8-monaten-mit-1000-euro-im-minus-mein-gehalt-ist-nach-zwei-wochen-schon-weg_e43c4ddd-f08d-4439-956d-b82309b9b33c.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "85d3ec1eee4f7d10114b6640cdb3eca099d0f18482b6f852ff1ce5493f49341e": {
+      "url": "https://www.n-tv.de/politik/Hessens-Ministerpraesident-Rhein-haelt-Stadtbild-Debatte-nicht-fuer-beendet-id31351831.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "8e69d380720e6b9dadab607f90dee24cd2cacb41ab83fe9475442e104a7ead8e": {
+      "url": "https://www.n-tv.de/politik/Bericht-Zahl-der-Asylerstantraege-auf-tiefstem-Stand-seit-2012-id31351815.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "391d608a78a4e550834b184e994cfa8c9a420a6408333b643c451f2fdec52de8": {
+      "url": "https://www.n-tv.de/politik/Wadephul-trifft-Lawrow-erstmals-seit-Beginn-des-Ukraine-Krieges-id31351756.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "1891b5dc9b4947e05d4b329ea3faaa83c9553bd22d735da9c7ebaa187484939f": {
+      "url": "https://www.n-tv.de/wirtschaft/Apple-muss-5-7-Milliarden-Dollar-fuer-iPhone-Vibrationsalarm-zahlen-id31351849.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "d5f160010ec99b7a872467fee7ba929da937f4167243c94dad32f5f6068d7a48": {
+      "url": "https://www.n-tv.de/politik/Linke-geht-wegen-Video-gegen-Wirtschaftsministerin-Reiche-vor-id31351699.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "7b33decd08ae455b53ae874ed08421badbeaf52596a7475d0587769e87a1cc1c": {
+      "url": "https://www.n-tv.de/politik/37-Jaehriger-in-Koeln-nach-Schlaegerei-und-Schuss-schwer-verletzt-id31351707.html",
+      "date": "2026-09-27",
+      "score": 4,
+      "dropped": "low-relevance"
+    },
+    "7bdf63b64bcffb4cd59607f80840d35d7774ca0f625d3321cee7fb2a8e181140": {
+      "url": "https://www.n-tv.de/politik/Wadephul-warnt-UN-vor-KI-Risiken-id31351737.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "db3186017dc4c6573786f098a319a1b4ba69f08c2898affafeeeeaa311f57bd7": {
+      "url": "https://www.n-tv.de/sport/Offiziell-Muenchen-erhaelt-Zuschlag-fuer-deutsche-Olympia-Bewerbung-id31351071.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "bb07539f91278532f5a043c3374238603f68399d5abece19c3d316f5a94496c5": {
+      "url": "https://www.n-tv.de/panorama/Sturm-fegt-ueber-Nordosten-der-USA-id31351795.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "0c14e6034c610e216d56e3436c31a2a6a13d13ce3ef5623c6f3c689e9ac6e9d8": {
+      "url": "https://www.n-tv.de/wirtschaft/Boeing-raeumt-bei-737-Max-Maschinen-Softwarefehler-ein-id31351769.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "492aa0be3c6abbb6b05807e7ca5f77a552a48aa003e458a7f34c2c43f4b88f84": {
+      "url": "https://www.n-tv.de/politik/Kuba-warnt-bei-Vereinten-Nationen-vor-drohendem-US-Militaereinsatz-id31351591.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "27f3dec1c82ddb83a60b600bac12ec55bdc658f5a3017a3c8a285ee75d7c5f67": {
+      "url": "https://www.n-tv.de/politik/Bericht-Auch-Aegyptens-Geheimdienstchef-warnte-Israel-vor-Hamas-Angriff-id31351424.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "3dd3aef8cc5083f2c506140b5e2048dd8d90013feadbf78b472cc8a3cbef9096": {
+      "url": "https://www.n-tv.de/sport/fussball/fussball_nationalmannschaft/Das-war-anders-als-alles-was-ich-bisher-erlebt-habe-id31351665.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "b3ceacbdb3dec54bc57e2ba507f22a5370d569e7e8c577c105864ee1232b18a3": {
+      "url": "https://www.n-tv.de/sport/fussball/Tuchels-Englaender-verlieren-Wettschiessen-mit-dem-Weltmeister-id31351718.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
+    },
+    "a8328047a4fe6997b466fddfdbea47850b29b10f83a1f7f28ce5c131e8a2b6e7": {
+      "url": "https://www.n-tv.de/sport/fussball/Klopp-ueber-Wirtz-Liverpool-Wechsel-im-unguenstigsten-aller-Momente-id31351314.html",
+      "date": "2026-09-27",
+      "score": 0,
+      "dropped": "low-relevance"
     }
   }
 }
