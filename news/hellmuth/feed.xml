@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:46:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:55:24 GMT</lastBuildDate>
+    <item>
+      <title>est Thailand setzt auf Zuckerwatte und schwarze Kokosnuss</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/est-thailand-setzt-auf-zuckerwatte-und-schwarze-kokosnuss/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/est-thailand-setzt-auf-zuckerwatte-und-schwarze-kokosnuss/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:53:16 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der thailändische Softdrink-Hersteller est verlagert seine Produktentwicklung vom Geschmack zur Inszenierung.</description>
+    </item>
     <item>
       <title>Saudische Cola sucht malaiische Abfüller</title>
       <link>https://hellmuth-soda.de/news/hellmuth/saudische-cola-sucht-malaiische-abfuller/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Wed, 01 Jul 2026 23:52:22 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die Biermischmarke, die Cola und Energydrink ins Bier kippte, entfernt beides, was den Rausch trug.</description>
-    </item>
-    <item>
-      <title>Chinese Elixir als Supermarkt-SKU</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/chinese-elixir-als-supermarkt-sku/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/chinese-elixir-als-supermarkt-sku/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:50:04 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der TCM-Sud verlässt die Großmutterküche und landet als Limited Edition im Kühlregal.</description>
     </item>
   </channel>
 </rss>

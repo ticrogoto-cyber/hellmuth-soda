@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-27T00:46:13.413Z",
+  "generated": "2026-09-28T00:55:24.211Z",
   "hellmuth": [
+    {
+      "title": "est Thailand setzt auf Zuckerwatte und schwarze Kokosnuss",
+      "date": "2026-09-28",
+      "created": "2026-09-28T00:53:16.403Z",
+      "slug": "est-thailand-setzt-auf-zuckerwatte-und-schwarze-kokosnuss",
+      "rubrik": "hellmuth",
+      "lead": "Der thailändische Softdrink-Hersteller est verlagert seine Produktentwicklung vom Geschmack zur Inszenierung.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/09/27/est-surprises-with-mamuang-cotton-candy-and-black-coco-flavours/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/est-thailand-setzt-auf-zuckerwatte-und-schwarze-kokosnuss/"
+    },
     {
       "title": "Saudische Cola sucht malaiische Abfüller",
       "date": "2026-09-27",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/mixery-streicht-alkohol-und-zucker-aus-dem-biermisch/"
-    },
-    {
-      "title": "Chinese Elixir als Supermarkt-SKU",
-      "date": "2026-07-01",
-      "created": "2026-07-01T23:50:04.433Z",
-      "slug": "chinese-elixir-als-supermarkt-sku",
-      "rubrik": "hellmuth",
-      "lead": "Der TCM-Sud verlässt die Großmutterküche und landet als Limited Edition im Kühlregal.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/02/unlock-your-inner-radiance-with-nutriwells-limited-edition-freshly-brewed-longan-red-dates-with-wolfberry/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/chinese-elixir-als-supermarkt-sku/"
     }
   ],
   "science": [
+    {
+      "title": "Laktat beruhigt aktivierte Mikroglia",
+      "date": "2026-09-28",
+      "created": "2026-09-28T00:55:24.098Z",
+      "slug": "laktat-beruhigt-aktivierte-mikroglia",
+      "rubrik": "science",
+      "lead": "Das Abfallprodukt der Glykolyse wirkt im Gehirn als Bremse für Entzündung, nicht als Treibstoff.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754340v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/laktat-beruhigt-aktivierte-mikroglia/"
+    },
+    {
+      "title": "Ein Aktinregulator hält Tau und Amyloid in Schach",
+      "date": "2026-09-28",
+      "created": "2026-09-28T00:55:13.713Z",
+      "slug": "ein-aktinregulator-halt-tau-und-amyloid-in-schach",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus Drosophila-Sekretzellen benennt Cofilin als gemeinsamen Bremsklotz gegen zwei Alzheimer-Pathologien.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753479v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-aktinregulator-halt-tau-und-amyloid-in-schach/"
+    },
+    {
+      "title": "Ein Hirnsignal mit vier Monaten sagt Angststörung voraus",
+      "date": "2026-09-28",
+      "created": "2026-09-28T00:54:58.258Z",
+      "slug": "ein-hirnsignal-mit-vier-monaten-sagt-angststorung-voraus",
+      "rubrik": "science",
+      "lead": "Wie stark ein Säuglingsgehirn auf unerwartete Töne reagiert, sortiert später, welches Kind aus Zurückhaltung in Angst kippt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.17.26363348v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-hirnsignal-mit-vier-monaten-sagt-angststorung-voraus/"
+    },
     {
       "title": "Tau-Saat in Vesikeln, Molekül für Molekül sichtbar",
       "date": "2026-09-27",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/anhedonie-als-zustand-oder-zug/"
-    },
-    {
-      "title": "Ein Zentromer-Protein arbeitet nebenbei im Gedächtnis",
-      "date": "2026-07-21",
-      "created": "2026-07-21T23:17:59.854Z",
-      "slug": "ein-zentromer-protein-arbeitet-nebenbei-im-gedachtnis",
-      "rubrik": "science",
-      "lead": "CENP-A galt als Spezialist für Zellteilung, taucht aber im ruhenden Neuron als Regler synaptischer Plastizität auf.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738894v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-zentromer-protein-arbeitet-nebenbei-im-gedachtnis/"
-    },
-    {
-      "title": "Ein Enzym bremst das Gedächtnis, ein Hemmstoff löst die Bremse",
-      "date": "2026-07-21",
-      "created": "2026-07-21T23:17:44.267Z",
-      "slug": "ein-enzym-bremst-das-gedachtnis-ein-hemmstoff-lost-die-bremse",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Maus-Neurobiologie verknüpft epigenetische Bremse und Entzündungsschaltkreis im Hippocampus.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738883v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-enzym-bremst-das-gedachtnis-ein-hemmstoff-lost-die-bremse/"
-    },
-    {
-      "title": "Kindheitstrauma und Psychose, die Zwischenglieder werden sichtbar",
-      "date": "2026-07-21",
-      "created": "2026-07-21T23:17:17.750Z",
-      "slug": "kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar",
-      "rubrik": "science",
-      "lead": "Eine Meta-Analyse benennt, worüber frühe Belastung ins Psychotische kippt, und macht daraus behandelbare Ziele.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.19.26358426v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar/"
     }
   ]
 }

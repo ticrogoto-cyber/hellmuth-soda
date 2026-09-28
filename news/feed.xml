@@ -6,7 +6,39 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:46:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:55:24 GMT</lastBuildDate>
+    <item>
+      <title>Laktat beruhigt aktivierte Mikroglia</title>
+      <link>https://hellmuth-soda.de/news/science/laktat-beruhigt-aktivierte-mikroglia/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/laktat-beruhigt-aktivierte-mikroglia/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:55:24 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Das Abfallprodukt der Glykolyse wirkt im Gehirn als Bremse für Entzündung, nicht als Treibstoff.</description>
+    </item>
+    <item>
+      <title>Ein Aktinregulator hält Tau und Amyloid in Schach</title>
+      <link>https://hellmuth-soda.de/news/science/ein-aktinregulator-halt-tau-und-amyloid-in-schach/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-aktinregulator-halt-tau-und-amyloid-in-schach/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:55:13 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus Drosophila-Sekretzellen benennt Cofilin als gemeinsamen Bremsklotz gegen zwei Alzheimer-Pathologien.</description>
+    </item>
+    <item>
+      <title>Ein Hirnsignal mit vier Monaten sagt Angststörung voraus</title>
+      <link>https://hellmuth-soda.de/news/science/ein-hirnsignal-mit-vier-monaten-sagt-angststorung-voraus/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-hirnsignal-mit-vier-monaten-sagt-angststorung-voraus/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:54:58 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Wie stark ein Säuglingsgehirn auf unerwartete Töne reagiert, sortiert später, welches Kind aus Zurückhaltung in Angst kippt.</description>
+    </item>
+    <item>
+      <title>est Thailand setzt auf Zuckerwatte und schwarze Kokosnuss</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/est-thailand-setzt-auf-zuckerwatte-und-schwarze-kokosnuss/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/est-thailand-setzt-auf-zuckerwatte-und-schwarze-kokosnuss/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:53:16 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der thailändische Softdrink-Hersteller est verlagert seine Produktentwicklung vom Geschmack zur Inszenierung.</description>
+    </item>
     <item>
       <title>Tau-Saat in Vesikeln, Molekül für Molekül sichtbar</title>
       <link>https://hellmuth-soda.de/news/science/tau-saat-in-vesikeln-molekul-fur-molekul-sichtbar/</link>
@@ -2800,30 +2832,6 @@
       <description>Der Boom der Nolo-Biere zwingt die Branche, ein Wort zu definieren, das sie jahrelang bewusst offen gelassen hat.</description>
     </item>
     <item>
-      <title>Ein Zentromer-Protein arbeitet nebenbei im Gedächtnis</title>
-      <link>https://hellmuth-soda.de/news/science/ein-zentromer-protein-arbeitet-nebenbei-im-gedachtnis/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-zentromer-protein-arbeitet-nebenbei-im-gedachtnis/</guid>
-      <pubDate>Tue, 21 Jul 2026 23:17:59 GMT</pubDate>
-      <category>Forschung</category>
-      <description>CENP-A galt als Spezialist für Zellteilung, taucht aber im ruhenden Neuron als Regler synaptischer Plastizität auf.</description>
-    </item>
-    <item>
-      <title>Ein Enzym bremst das Gedächtnis, ein Hemmstoff löst die Bremse</title>
-      <link>https://hellmuth-soda.de/news/science/ein-enzym-bremst-das-gedachtnis-ein-hemmstoff-lost-die-bremse/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-enzym-bremst-das-gedachtnis-ein-hemmstoff-lost-die-bremse/</guid>
-      <pubDate>Tue, 21 Jul 2026 23:17:44 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Maus-Neurobiologie verknüpft epigenetische Bremse und Entzündungsschaltkreis im Hippocampus.</description>
-    </item>
-    <item>
-      <title>Kindheitstrauma und Psychose, die Zwischenglieder werden sichtbar</title>
-      <link>https://hellmuth-soda.de/news/science/kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/kindheitstrauma-und-psychose-die-zwischenglieder-werden-sichtbar/</guid>
-      <pubDate>Tue, 21 Jul 2026 23:17:17 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Meta-Analyse benennt, worüber frühe Belastung ins Psychotische kippt, und macht daraus behandelbare Ziele.</description>
-    </item>
-    <item>
       <title>Prebiotic Soda erreicht Südostasien</title>
       <link>https://hellmuth-soda.de/news/hellmuth/prebiotic-soda-erreicht-sudostasien/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/prebiotic-soda-erreicht-sudostasien/</guid>
@@ -3198,14 +3206,6 @@
       <pubDate>Wed, 01 Jul 2026 23:52:22 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die Biermischmarke, die Cola und Energydrink ins Bier kippte, entfernt beides, was den Rausch trug.</description>
-    </item>
-    <item>
-      <title>Chinese Elixir als Supermarkt-SKU</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/chinese-elixir-als-supermarkt-sku/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/chinese-elixir-als-supermarkt-sku/</guid>
-      <pubDate>Wed, 01 Jul 2026 23:50:04 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Der TCM-Sud verlässt die Großmutterküche und landet als Limited Edition im Kühlregal.</description>
     </item>
   </channel>
 </rss>
