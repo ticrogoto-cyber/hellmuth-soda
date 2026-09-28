@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-27T00:45:54.297Z",
+  "generated": "2026-09-28T00:55:37.999Z",
   "items": [
     {
       "title": "Projektil von oben",
