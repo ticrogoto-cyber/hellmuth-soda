@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-28T00:55:24.211Z",
+  "generated": "2026-09-29T02:07:42.769Z",
   "hellmuth": [
+    {
+      "title": "Rotwild ergänzt Glühwein um alkoholfreie Variante",
+      "date": "2026-09-29",
+      "created": "2026-09-29T02:06:29.870Z",
+      "slug": "rotwild-erganzt-gluhwein-um-alkoholfreie-variante",
+      "rubrik": "hellmuth",
+      "lead": "Der Winter-Klassiker verliert seinen Alkohol, behält aber die Inszenierung.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/jetzt-wirds-wild-rotwild-bringt-alkoholfreien-wintergenuss/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/rotwild-erganzt-gluhwein-um-alkoholfreie-variante/"
+    },
     {
       "title": "est Thailand setzt auf Zuckerwatte und schwarze Kokosnuss",
       "date": "2026-09-28",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/fancy-food-show-das-ende-der-nische/"
-    },
-    {
-      "title": "MiXery streicht Alkohol und Zucker aus dem Biermisch",
-      "date": "2026-07-01",
-      "created": "2026-07-01T23:52:22.801Z",
-      "slug": "mixery-streicht-alkohol-und-zucker-aus-dem-biermisch",
-      "rubrik": "hellmuth",
-      "lead": "Die Biermischmarke, die Cola und Energydrink ins Bier kippte, entfernt beides, was den Rausch trug.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/mixery-erweitert-sortiment-um-zwei-alkoholfreie-neuheiten-mit-00-alkohol-und-0-g-zucker/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/mixery-streicht-alkohol-und-zucker-aus-dem-biermisch/"
     }
   ],
   "science": [
+    {
+      "title": "Ein Gefäßprotein verändert, wie das Hirn nach dem Anfall atmet",
+      "date": "2026-09-29",
+      "created": "2026-09-29T02:07:42.645Z",
+      "slug": "ein-gefassprotein-verandert-wie-das-hirn-nach-dem-anfall-atmet",
+      "rubrik": "science",
+      "lead": "Epilepsie ist nicht nur ein Feuerwerk der Neuronen, sondern auch ein Versagen der Gefäße, die danach aufräumen sollen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.21.750745v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-gefassprotein-verandert-wie-das-hirn-nach-dem-anfall-atmet/"
+    },
+    {
+      "title": "Sehrindenschaden schärft den Geruchssinn",
+      "date": "2026-09-29",
+      "created": "2026-09-29T02:07:19.598Z",
+      "slug": "sehrindenschaden-scharft-den-geruchssinn",
+      "rubrik": "science",
+      "lead": "Eine fokale Läsion im visuellen Kortex der Maus zieht adulte Neuronen in den Riechkolben und verbessert die Geruchsleistung.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753668v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/sehrindenschaden-scharft-den-geruchssinn/"
+    },
+    {
+      "title": "Opioide aktivieren das Gehirn, statt es zu bremsen",
+      "date": "2026-09-29",
+      "created": "2026-09-29T02:07:02.936Z",
+      "slug": "opioide-aktivieren-das-gehirn-statt-es-zu-bremsen",
+      "rubrik": "science",
+      "lead": "Ein bioRxiv-Preprint kartiert die zelluläre Antwort auf Morphin und einen NOP-Agonisten im ganzen Mäusegehirn und findet das Gegenteil dessen, was die Rezeptorbiologie erwarten ließe.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753526v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/opioide-aktivieren-das-gehirn-statt-es-zu-bremsen/"
+    },
     {
       "title": "Laktat beruhigt aktivierte Mikroglia",
       "date": "2026-09-28",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/elektroden-gegen-therapieresistente-schizophrenie/"
-    },
-    {
-      "title": "Fettige Fresszellen nach neonataler Hirnischämie",
-      "date": "2026-07-22",
-      "created": "2026-07-22T23:20:30.584Z",
-      "slug": "fettige-fresszellen-nach-neonataler-hirnischamie",
-      "rubrik": "science",
-      "lead": "Nach Sauerstoffmangel im Neugeborenenhirn verwandelt sich die Immunabwehr selbst in eine Lastträgerin.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.18.739219v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/fettige-fresszellen-nach-neonataler-hirnischamie/"
-    },
-    {
-      "title": "Räumliche Nähe hilft dem alternden Gedächtnis, aber nur bis zur Hälfte",
-      "date": "2026-07-22",
-      "created": "2026-07-22T23:20:17.604Z",
-      "slug": "raumliche-nahe-hilft-dem-alternden-gedachtnis-aber-nur-bis-zur-halfte",
-      "rubrik": "science",
-      "lead": "Assoziatives Erinnern lässt im Alter überproportional nach, und ein oft empfohlener Trick zieht die Grenze früher als gedacht.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.17.739184v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/raumliche-nahe-hilft-dem-alternden-gedachtnis-aber-nur-bis-zur-halfte/"
-    },
-    {
-      "title": "Anhedonie als Zustand oder Zug",
-      "date": "2026-07-22",
-      "created": "2026-07-22T23:20:01.175Z",
-      "slug": "anhedonie-als-zustand-oder-zug",
-      "rubrik": "science",
-      "lead": "Die Frage, ob Belohnungslernen bei Depression dauerhaft gestört ist oder mit der Episode kommt und geht, entscheidet über die Therapielogik.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1159/000553592",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/anhedonie-als-zustand-oder-zug/"
     }
   ]
 }
