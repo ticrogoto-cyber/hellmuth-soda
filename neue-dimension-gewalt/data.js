@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-09-29T02:09:02.218Z",
+  "generated": "2026-09-30T01:25:16.283Z",
   "items": [
     {
       "title": "Messerangriff auf Polizisten in Berlin, Schussabgabe durch Beamte",
