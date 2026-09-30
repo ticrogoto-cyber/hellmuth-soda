@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 29 Sep 2026 02:07:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:23:17 GMT</lastBuildDate>
+    <item>
+      <title>Parkinson-Beta-Oszillationen sind keine universelle Signatur</title>
+      <link>https://hellmuth-soda.de/news/science/parkinson-beta-oszillationen-sind-keine-universelle-signatur/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/parkinson-beta-oszillationen-sind-keine-universelle-signatur/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:23:16 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint modelliert die pathologischen Beta-Rhythmen der Basalganglien und findet artspezifische Erzeugungsmechanismen statt eines gemeinsamen Schaltkreisdefekts.</description>
+    </item>
+    <item>
+      <title>Nach dem Schädel-Hirn-Trauma bluten die kleinsten Gefäße</title>
+      <link>https://hellmuth-soda.de/news/science/nach-dem-schadel-hirn-trauma-bluten-die-kleinsten-gefasse/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/nach-dem-schadel-hirn-trauma-bluten-die-kleinsten-gefasse/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:22:58 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Der Sekundärschaden nach einem Schädel-Hirn-Trauma beginnt nicht diffus, sondern an winzigen Gerinnseln in den Hirnkapillaren.</description>
+    </item>
+    <item>
+      <title>Synthetisches Kainat zwingt das Epilepsiemodell zur Neujustierung</title>
+      <link>https://hellmuth-soda.de/news/science/synthetisches-kainat-zwingt-das-epilepsiemodell-zur-neujustierung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/synthetisches-kainat-zwingt-das-epilepsiemodell-zur-neujustierung/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:22:41 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Standardwerkzeug der Temporallappenepilepsie-Forschung liefert seit dem Lieferantenwechsel andere Ergebnisse als gewohnt.</description>
+    </item>
     <item>
       <title>Ein Gefäßprotein verändert, wie das Hirn nach dem Anfall atmet</title>
       <link>https://hellmuth-soda.de/news/science/ein-gefassprotein-verandert-wie-das-hirn-nach-dem-anfall-atmet/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Fri, 24 Jul 2026 23:33:10 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Fallbericht aus den BMJ Case Reports koppelt Internet Gaming Disorder und chronischen Cannabiskonsum an eine psychotische Depression mit Suizidalität.</description>
-    </item>
-    <item>
-      <title>Ibogain verschiebt das Default Mode Network der Veteranen</title>
-      <link>https://hellmuth-soda.de/news/science/ibogain-verschiebt-das-default-mode-network-der-veteranen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ibogain-verschiebt-das-default-mode-network-der-veteranen/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:17:46 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus medRxiv verortet die Wirkung von Magnesium-Ibogain bei hirnverletzten US-Veteranen nicht in der ruhenden Verschaltung, sondern in deren Zeitverlauf.</description>
-    </item>
-    <item>
-      <title>Rauchen als eigenständiger Risikofaktor für psychische Erkrankungen</title>
-      <link>https://hellmuth-soda.de/news/science/rauchen-als-eigenstandiger-risikofaktor-fur-psychische-erkrankungen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/rauchen-als-eigenstandiger-risikofaktor-fur-psychische-erkrankungen/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:17:19 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine genetische Kausalanalyse trennt den Rauch-Effekt sauber von Sucht- und Sozialfaktoren und findet ihn trotzdem.</description>
-    </item>
-    <item>
-      <title>Elektroden gegen therapieresistente Schizophrenie</title>
-      <link>https://hellmuth-soda.de/news/science/elektroden-gegen-therapieresistente-schizophrenie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/elektroden-gegen-therapieresistente-schizophrenie/</guid>
-      <pubDate>Thu, 23 Jul 2026 23:17:04 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der medRxiv-Psychiatrie testet Tiefe Hirnstimulation bei drei Menschen, denen keine Medikation mehr hilft.</description>
     </item>
   </channel>
 </rss>

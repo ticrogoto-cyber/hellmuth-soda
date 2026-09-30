@@ -1,7 +1,35 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-29T02:07:42.769Z",
+  "generated": "2026-09-30T01:23:17.156Z",
   "hellmuth": [
+    {
+      "title": "Sechs Komma vier Millionen für ein Anti-Etikett",
+      "date": "2026-09-30",
+      "created": "2026-09-30T01:22:22.411Z",
+      "slug": "sechs-komma-vier-millionen-fur-ein-anti-etikett",
+      "rubrik": "hellmuth",
+      "lead": "Der Premium-Soda-Markt finanziert inzwischen nicht mehr Produkte, sondern Abgrenzungen.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/something-nothing-raises-6-4m-builds-on-not-pop-campaign",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/sechs-komma-vier-millionen-fur-ein-anti-etikett/"
+    },
+    {
+      "title": "Premium-Soda wächst ohne Funktionsversprechen",
+      "date": "2026-09-30",
+      "created": "2026-09-30T01:21:06.344Z",
+      "slug": "premium-soda-wachst-ohne-funktionsversprechen",
+      "rubrik": "hellmuth",
+      "lead": "Ein Getränk, das nichts verspricht außer sich selbst, sammelt 64 Millionen Dollar ein.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/09/29/something-nothing-scales-us-expansion-with-64m-funding-round/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/premium-soda-wachst-ohne-funktionsversprechen/"
+    },
     {
       "title": "Rotwild ergänzt Glühwein um alkoholfreie Variante",
       "date": "2026-09-29",
@@ -2773,37 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/"
-    },
-    {
-      "title": "Trip verlässt den Wellness-Sammeltopf",
-      "date": "2026-07-02",
-      "created": "2026-07-02T23:33:52.850Z",
-      "slug": "trip-verlasst-den-wellness-sammeltopf",
-      "rubrik": "hellmuth",
-      "lead": "Die britische CBD-Marke Trip ordnet sich neu, weg vom diffusen »Better-for-you«, hin zu funktionaler Entspannung als eigener Kategorie.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/inside-trips-breakout-brand-channel-strategy",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/trip-verlasst-den-wellness-sammeltopf/"
-    },
-    {
-      "title": "Fancy Food Show, das Ende der Nische",
-      "date": "2026-07-02",
-      "created": "2026-07-02T23:33:35.873Z",
-      "slug": "fancy-food-show-das-ende-der-nische",
-      "rubrik": "hellmuth",
-      "lead": "Alkoholfreie Getränke sind auf der Summer Fancy Food Show in New York keine Kuriosität mehr, sondern eine eigene Halle.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/new-non-alc-bevs-bfy-soda-and-pickle-lemonade-at-summer-fancy-food-show",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/fancy-food-show-das-ende-der-nische/"
     }
   ],
   "science": [
+    {
+      "title": "Parkinson-Beta-Oszillationen sind keine universelle Signatur",
+      "date": "2026-09-30",
+      "created": "2026-09-30T01:23:16.985Z",
+      "slug": "parkinson-beta-oszillationen-sind-keine-universelle-signatur",
+      "rubrik": "science",
+      "lead": "Ein Preprint modelliert die pathologischen Beta-Rhythmen der Basalganglien und findet artspezifische Erzeugungsmechanismen statt eines gemeinsamen Schaltkreisdefekts.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753820v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/parkinson-beta-oszillationen-sind-keine-universelle-signatur/"
+    },
+    {
+      "title": "Nach dem Schädel-Hirn-Trauma bluten die kleinsten Gefäße",
+      "date": "2026-09-30",
+      "created": "2026-09-30T01:22:58.880Z",
+      "slug": "nach-dem-schadel-hirn-trauma-bluten-die-kleinsten-gefasse",
+      "rubrik": "science",
+      "lead": "Der Sekundärschaden nach einem Schädel-Hirn-Trauma beginnt nicht diffus, sondern an winzigen Gerinnseln in den Hirnkapillaren.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754043v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/nach-dem-schadel-hirn-trauma-bluten-die-kleinsten-gefasse/"
+    },
+    {
+      "title": "Synthetisches Kainat zwingt das Epilepsiemodell zur Neujustierung",
+      "date": "2026-09-30",
+      "created": "2026-09-30T01:22:41.831Z",
+      "slug": "synthetisches-kainat-zwingt-das-epilepsiemodell-zur-neujustierung",
+      "rubrik": "science",
+      "lead": "Ein Standardwerkzeug der Temporallappenepilepsie-Forschung liefert seit dem Lieferantenwechsel andere Ergebnisse als gewohnt.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754069v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/synthetisches-kainat-zwingt-das-epilepsiemodell-zur-neujustierung/"
+    },
     {
       "title": "Ein Gefäßprotein verändert, wie das Hirn nach dem Anfall atmet",
       "date": "2026-09-29",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/gaming-gras-psychose/"
-    },
-    {
-      "title": "Ibogain verschiebt das Default Mode Network der Veteranen",
-      "date": "2026-07-23",
-      "created": "2026-07-23T23:17:46.334Z",
-      "slug": "ibogain-verschiebt-das-default-mode-network-der-veteranen",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus medRxiv verortet die Wirkung von Magnesium-Ibogain bei hirnverletzten US-Veteranen nicht in der ruhenden Verschaltung, sondern in deren Zeitverlauf.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.20.26358512v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ibogain-verschiebt-das-default-mode-network-der-veteranen/"
-    },
-    {
-      "title": "Rauchen als eigenständiger Risikofaktor für psychische Erkrankungen",
-      "date": "2026-07-23",
-      "created": "2026-07-23T23:17:19.043Z",
-      "slug": "rauchen-als-eigenstandiger-risikofaktor-fur-psychische-erkrankungen",
-      "rubrik": "science",
-      "lead": "Eine genetische Kausalanalyse trennt den Rauch-Effekt sauber von Sucht- und Sozialfaktoren und findet ihn trotzdem.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358653v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/rauchen-als-eigenstandiger-risikofaktor-fur-psychische-erkrankungen/"
-    },
-    {
-      "title": "Elektroden gegen therapieresistente Schizophrenie",
-      "date": "2026-07-23",
-      "created": "2026-07-23T23:17:04.657Z",
-      "slug": "elektroden-gegen-therapieresistente-schizophrenie",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der medRxiv-Psychiatrie testet Tiefe Hirnstimulation bei drei Menschen, denen keine Medikation mehr hilft.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.21.26358402v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/elektroden-gegen-therapieresistente-schizophrenie/"
     }
   ]
 }
