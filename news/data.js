@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-09-30T01:23:17.156Z",
+  "generated": "2026-10-01T01:25:06.016Z",
   "hellmuth": [
+    {
+      "title": "Lyre's zieht ins Football-Stadion",
+      "date": "2026-10-01",
+      "created": "2026-10-01T01:21:10.797Z",
+      "slug": "lyre-s-zieht-ins-football-stadion",
+      "rubrik": "hellmuth",
+      "lead": "Alkoholfreie Spirituosen suchen das Terrain, auf dem Bier bislang unangefochten regierte.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/inside-lyres-pro-sports-concession-strategy",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/lyre-s-zieht-ins-football-stadion/"
+    },
     {
       "title": "Sechs Komma vier Millionen für ein Anti-Etikett",
       "date": "2026-09-30",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/barkeeper-gegen-fokusgruppe/"
-    },
-    {
-      "title": "Was eine alkoholfreie Bar am Leben hält",
-      "date": "2026-07-02",
-      "created": "2026-07-02T23:34:11.460Z",
-      "slug": "was-eine-alkoholfreie-bar-am-leben-halt",
-      "rubrik": "hellmuth",
-      "lead": "Die alkoholfreie Bar ist kein Konzept mehr, sondern ein Betrieb mit eigener Ökonomie.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/zero-proof-playbook-soft-bar-on-what-sustains-a-non-alc-third-space",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/"
     }
   ],
   "science": [
+    {
+      "title": "Depression hat eine Hämodynamik, und die hat einen Darm",
+      "date": "2026-10-01",
+      "created": "2026-10-01T01:25:05.907Z",
+      "slug": "depression-hat-eine-hamodynamik-und-die-hat-einen-darm",
+      "rubrik": "science",
+      "lead": "Ein Preprint verknüpft die kortikale Durchblutung bei Depression mit Entzündung, oxidativem Stress und dem Mikrobiom.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.28.26364187v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-hat-eine-hamodynamik-und-die-hat-einen-darm/"
+    },
+    {
+      "title": "Psilocybin lockert die Ich-Verengung bei Alkoholabhängigen",
+      "date": "2026-10-01",
+      "created": "2026-10-01T01:24:49.407Z",
+      "slug": "psilocybin-lockert-die-ich-verengung-bei-alkoholabhangigen",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der medRxiv-Psychiatrie meldet, dass eine einzelne hohe Psilocybin-Dosis die egozentrische Verzerrung bei entgifteten Alkoholkranken messbar senkt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.26.26364086v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/psilocybin-lockert-die-ich-verengung-bei-alkoholabhangigen/"
+    },
+    {
+      "title": "Depression und Schizophrenie teilen ein metabolisches Fundament",
+      "date": "2026-10-01",
+      "created": "2026-10-01T01:24:33.299Z",
+      "slug": "depression-und-schizophrenie-teilen-ein-metabolisches-fundament",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus Thailand findet in Blutproben eine Signatur, die quer zu den klassischen Diagnosegrenzen läuft.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.28.26364141v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/depression-und-schizophrenie-teilen-ein-metabolisches-fundament/"
+    },
     {
       "title": "Parkinson-Beta-Oszillationen sind keine universelle Signatur",
       "date": "2026-09-30",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/methylierung-im-nabelschnurblut-als-psychiatrischer-fruhindex/"
-    },
-    {
-      "title": "Koffein am ischämischen Frettchenhirn",
-      "date": "2026-07-24",
-      "created": "2026-07-24T23:33:37.893Z",
-      "slug": "koffein-am-ischamischen-frettchenhirn",
-      "rubrik": "science",
-      "lead": "Ein Laborbefund verschiebt die Erzählung vom harmlosen Muntermacher in Richtung Wirkstoff mit Nebenrollen im geschädigten Gewebe.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.3390/neurosci7040079",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/koffein-am-ischamischen-frettchenhirn/"
-    },
-    {
-      "title": "Strom gegen Durst",
-      "date": "2026-07-24",
-      "created": "2026-07-24T23:33:23.513Z",
-      "slug": "strom-gegen-durst",
-      "rubrik": "science",
-      "lead": "Eine Pilotstudie testet, ob elektrische Reizung des Stirnhirns den Sog nach Alkohol dämpft.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.addbeh.2026.108798",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/strom-gegen-durst/"
-    },
-    {
-      "title": "Gaming, Gras, Psychose",
-      "date": "2026-07-24",
-      "created": "2026-07-24T23:33:10.754Z",
-      "slug": "gaming-gras-psychose",
-      "rubrik": "science",
-      "lead": "Ein Fallbericht aus den BMJ Case Reports koppelt Internet Gaming Disorder und chronischen Cannabiskonsum an eine psychotische Depression mit Suizidalität.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1136/bcr-2026-272917",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/gaming-gras-psychose/"
     }
   ]
 }

@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 30 Sep 2026 01:23:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 01:25:06 GMT</lastBuildDate>
+    <item>
+      <title>Lyre's zieht ins Football-Stadion</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/lyre-s-zieht-ins-football-stadion/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/lyre-s-zieht-ins-football-stadion/</guid>
+      <pubDate>Thu, 01 Oct 2026 01:21:10 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Alkoholfreie Spirituosen suchen das Terrain, auf dem Bier bislang unangefochten regierte.</description>
+    </item>
     <item>
       <title>Sechs Komma vier Millionen für ein Anti-Etikett</title>
       <link>https://hellmuth-soda.de/news/hellmuth/sechs-komma-vier-millionen-fur-ein-anti-etikett/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Fri, 03 Jul 2026 23:30:59 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der amerikanische RTD-Markt entdeckt, dass Rezepturen aus der Schicht überzeugender sind als solche aus dem Konferenzraum.</description>
-    </item>
-    <item>
-      <title>Was eine alkoholfreie Bar am Leben hält</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/was-eine-alkoholfreie-bar-am-leben-halt/</guid>
-      <pubDate>Thu, 02 Jul 2026 23:34:11 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die alkoholfreie Bar ist kein Konzept mehr, sondern ein Betrieb mit eigener Ökonomie.</description>
     </item>
   </channel>
 </rss>

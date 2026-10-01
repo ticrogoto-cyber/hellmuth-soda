@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 30 Sep 2026 01:23:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 01:25:06 GMT</lastBuildDate>
+    <item>
+      <title>Depression hat eine Hämodynamik, und die hat einen Darm</title>
+      <link>https://hellmuth-soda.de/news/science/depression-hat-eine-hamodynamik-und-die-hat-einen-darm/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-hat-eine-hamodynamik-und-die-hat-einen-darm/</guid>
+      <pubDate>Thu, 01 Oct 2026 01:25:05 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint verknüpft die kortikale Durchblutung bei Depression mit Entzündung, oxidativem Stress und dem Mikrobiom.</description>
+    </item>
+    <item>
+      <title>Psilocybin lockert die Ich-Verengung bei Alkoholabhängigen</title>
+      <link>https://hellmuth-soda.de/news/science/psilocybin-lockert-die-ich-verengung-bei-alkoholabhangigen/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/psilocybin-lockert-die-ich-verengung-bei-alkoholabhangigen/</guid>
+      <pubDate>Thu, 01 Oct 2026 01:24:49 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der medRxiv-Psychiatrie meldet, dass eine einzelne hohe Psilocybin-Dosis die egozentrische Verzerrung bei entgifteten Alkoholkranken messbar senkt.</description>
+    </item>
+    <item>
+      <title>Depression und Schizophrenie teilen ein metabolisches Fundament</title>
+      <link>https://hellmuth-soda.de/news/science/depression-und-schizophrenie-teilen-ein-metabolisches-fundament/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-und-schizophrenie-teilen-ein-metabolisches-fundament/</guid>
+      <pubDate>Thu, 01 Oct 2026 01:24:33 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus Thailand findet in Blutproben eine Signatur, die quer zu den klassischen Diagnosegrenzen läuft.</description>
+    </item>
     <item>
       <title>Parkinson-Beta-Oszillationen sind keine universelle Signatur</title>
       <link>https://hellmuth-soda.de/news/science/parkinson-beta-oszillationen-sind-keine-universelle-signatur/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sat, 25 Jul 2026 23:17:58 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein medRxiv-Preprint versucht, prä- und perinatale Risikofaktoren für kindliche Psychiatrie in einem einzigen molekularen Score zu bündeln.</description>
-    </item>
-    <item>
-      <title>Koffein am ischämischen Frettchenhirn</title>
-      <link>https://hellmuth-soda.de/news/science/koffein-am-ischamischen-frettchenhirn/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/koffein-am-ischamischen-frettchenhirn/</guid>
-      <pubDate>Fri, 24 Jul 2026 23:33:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Laborbefund verschiebt die Erzählung vom harmlosen Muntermacher in Richtung Wirkstoff mit Nebenrollen im geschädigten Gewebe.</description>
-    </item>
-    <item>
-      <title>Strom gegen Durst</title>
-      <link>https://hellmuth-soda.de/news/science/strom-gegen-durst/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/strom-gegen-durst/</guid>
-      <pubDate>Fri, 24 Jul 2026 23:33:23 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Eine Pilotstudie testet, ob elektrische Reizung des Stirnhirns den Sog nach Alkohol dämpft.</description>
-    </item>
-    <item>
-      <title>Gaming, Gras, Psychose</title>
-      <link>https://hellmuth-soda.de/news/science/gaming-gras-psychose/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/gaming-gras-psychose/</guid>
-      <pubDate>Fri, 24 Jul 2026 23:33:10 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Fallbericht aus den BMJ Case Reports koppelt Internet Gaming Disorder und chronischen Cannabiskonsum an eine psychotische Depression mit Suizidalität.</description>
     </item>
   </channel>
 </rss>
