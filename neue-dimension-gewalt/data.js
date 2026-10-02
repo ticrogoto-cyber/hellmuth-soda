@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-10-01T01:27:44.872Z",
+  "generated": "2026-10-02T01:50:38.442Z",
   "items": [
     {
       "title": "Schüsse vom Motorroller in Treptow-Köpenick",
