@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-01T01:25:06.016Z",
+  "generated": "2026-10-02T01:50:54.123Z",
   "hellmuth": [
+    {
+      "title": "Zuckergetränkesteuer im Kanzleramt gestoppt",
+      "date": "2026-10-02",
+      "created": "2026-10-02T01:50:12.720Z",
+      "slug": "zuckergetrankesteuer-im-kanzleramt-gestoppt",
+      "rubrik": "hellmuth",
+      "lead": "Der Entwurf aus dem Finanzministerium ist in der Regierung nicht mehrheitsfähig und liegt vorerst auf Eis.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/zuckergetraenkesteuer-kanzleramt-stoppt-gesetzentwurf-vorerst/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/zuckergetrankesteuer-im-kanzleramt-gestoppt/"
+    },
+    {
+      "title": "Walmart räumt der Stimmungs-Limonade ein eigenes Regal",
+      "date": "2026-10-02",
+      "created": "2026-10-02T01:46:08.695Z",
+      "slug": "walmart-raumt-der-stimmungs-limonade-ein-eigenes-regal",
+      "rubrik": "hellmuth",
+      "lead": "Funktionale Getränke verlassen die Nischenecke und bekommen bei Walmart eine eigene Shelf-Kategorie namens »Mood & Mind«.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/walmart-introduces-mood-mind-beverage-set-as-functional-drinks-evolve",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/walmart-raumt-der-stimmungs-limonade-ein-eigenes-regal/"
+    },
+    {
+      "title": "Gen X trinkt, während die Jungen aussteigen",
+      "date": "2026-10-02",
+      "created": "2026-10-02T01:45:30.132Z",
+      "slug": "gen-x-trinkt-wahrend-die-jungen-aussteigen",
+      "rubrik": "hellmuth",
+      "lead": "Der Rückzug der Jüngeren vom Alkohol ist Konsens geworden, doch eine Generation hält dagegen.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/10/young-americans-turn-from-booze-but-gen-x-drinks-up/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/gen-x-trinkt-wahrend-die-jungen-aussteigen/"
+    },
     {
       "title": "Lyre's zieht ins Football-Stadion",
       "date": "2026-10-01",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/b-lue-verkauft-kaugummi-als-vitaminwasser/"
-    },
-    {
-      "title": "Chagee greift nach der englischen Teekultur",
-      "date": "2026-07-05",
-      "created": "2026-07-05T23:31:12.192Z",
-      "slug": "chagee-greift-nach-der-englischen-teekultur",
-      "rubrik": "hellmuth",
-      "lead": "Die chinesische Teekette Chagee verschiebt ihre Referenzachse von Fujian nach London.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/05/chagee-bridges-east-and-west-through-artful-tea-collaborations/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/chagee-greift-nach-der-englischen-teekultur/"
-    },
-    {
-      "title": "Indonesiens alkoholfreier Getränkemarkt lahmt trotz demografischer Rückenlage",
-      "date": "2026-07-03",
-      "created": "2026-07-03T23:31:47.953Z",
-      "slug": "indonesiens-alkoholfreier-getrankemarkt-lahmt-trotz-demografischer-ruckenlage",
-      "rubrik": "hellmuth",
-      "lead": "Ein Land mit 280 Millionen Einwohnern und wachsender Mittelschicht produziert weniger Softdrinks, als seine Fabriken könnten.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/02/indonesias-non-alcoholic-beverage-market-between-cyclical-boosts-and-structural-challenges/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/indonesiens-alkoholfreier-getrankemarkt-lahmt-trotz-demografischer-ruckenlage/"
-    },
-    {
-      "title": "Barkeeper gegen Fokusgruppe",
-      "date": "2026-07-03",
-      "created": "2026-07-03T23:30:59.555Z",
-      "slug": "barkeeper-gegen-fokusgruppe",
-      "rubrik": "hellmuth",
-      "lead": "Der amerikanische RTD-Markt entdeckt, dass Rezepturen aus der Schicht überzeugender sind als solche aus dem Konferenzraum.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/spirits/2026/hugos-cocktails-takes-its-bartender-crafted-rtds-to-new-markets",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/barkeeper-gegen-fokusgruppe/"
     }
   ],
   "science": [
+    {
+      "title": "Jugendlicher Cannabiskonsum unter dem Mikroskop",
+      "date": "2026-10-02",
+      "created": "2026-10-02T01:50:54.002Z",
+      "slug": "jugendlicher-cannabiskonsum-unter-dem-mikroskop",
+      "rubrik": "science",
+      "lead": "Ein strukturierter Übersichtsartikel bündelt, was Cannabis im heranreifenden Gehirn hinterlässt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1080/10550887.2026.2734452",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/jugendlicher-cannabiskonsum-unter-dem-mikroskop/"
+    },
+    {
+      "title": "Cholin gegen fötalen Alkoholschaden, gemessen an Hirnvesikeln",
+      "date": "2026-10-02",
+      "created": "2026-10-02T01:50:41.816Z",
+      "slug": "cholin-gegen-fotalen-alkoholschaden-gemessen-an-hirnvesikeln",
+      "rubrik": "science",
+      "lead": "Eine Pilotanalyse prüft, ob sich die Nachsorge pränataler Alkoholexposition im Blut nachweisen lässt.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.3390/nu18183022",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/cholin-gegen-fotalen-alkoholschaden-gemessen-an-hirnvesikeln/"
+    },
+    {
+      "title": "Craving verdampft unter Belastung",
+      "date": "2026-10-02",
+      "created": "2026-10-02T01:50:29.130Z",
+      "slug": "craving-verdampft-unter-belastung",
+      "rubrik": "science",
+      "lead": "Kurze körperliche Anstrengung senkt bei jungen Problemtrinkern akut das Verlangen nach Alkohol.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1002/ejsc.70258",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/craving-verdampft-unter-belastung/"
+    },
     {
       "title": "Depression hat eine Hämodynamik, und die hat einen Darm",
       "date": "2026-10-01",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/science/eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus/"
-    },
-    {
-      "title": "Der Hippocampus schickt seine Fiktionen ins Sehzentrum",
-      "date": "2026-07-25",
-      "created": "2026-07-25T23:18:30.258Z",
-      "slug": "der-hippocampus-schickt-seine-fiktionen-ins-sehzentrum",
-      "rubrik": "science",
-      "lead": "Generative Replay, bislang als Hippocampus-Signatur verstanden, zeigt sich einem Preprint zufolge auch im primären visuellen Cortex.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740539v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-hippocampus-schickt-seine-fiktionen-ins-sehzentrum/"
-    },
-    {
-      "title": "Stimmung folgt einem Takt, den die Uhr am Handgelenk verrät",
-      "date": "2026-07-25",
-      "created": "2026-07-25T23:18:15.095Z",
-      "slug": "stimmung-folgt-einem-takt-den-die-uhr-am-handgelenk-verrat",
-      "rubrik": "science",
-      "lead": "Depressive Symptome schwanken bei jungen Erwachsenen entlang eines mehrtägigen Herzfrequenzrhythmus, den nur Wearables sichtbar machen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358741v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/stimmung-folgt-einem-takt-den-die-uhr-am-handgelenk-verrat/"
-    },
-    {
-      "title": "Methylierung im Nabelschnurblut als psychiatrischer Frühindex",
-      "date": "2026-07-25",
-      "created": "2026-07-25T23:17:58.963Z",
-      "slug": "methylierung-im-nabelschnurblut-als-psychiatrischer-fruhindex",
-      "rubrik": "science",
-      "lead": "Ein medRxiv-Preprint versucht, prä- und perinatale Risikofaktoren für kindliche Psychiatrie in einem einzigen molekularen Score zu bündeln.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.22.26358558v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/methylierung-im-nabelschnurblut-als-psychiatrischer-fruhindex/"
     }
   ]
 }
