@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 02 Oct 2026 01:50:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 01:18:44 GMT</lastBuildDate>
+    <item>
+      <title>Wer die Welt für feindlich hält, wird kränker</title>
+      <link>https://hellmuth-soda.de/news/science/wer-die-welt-fur-feindlich-halt-wird-kranker/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wer-die-welt-fur-feindlich-halt-wird-kranker/</guid>
+      <pubDate>Sat, 03 Oct 2026 01:18:44 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der North American Prodrome Longitudinal Study verschiebt die Richtung der Kausalitätsfrage bei Psychose-Risiko.</description>
+    </item>
+    <item>
+      <title>Stimulans und Nicht-Stimulans aktivieren verschiedene Hirnareale</title>
+      <link>https://hellmuth-soda.de/news/science/stimulans-und-nicht-stimulans-aktivieren-verschiedene-hirnareale/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/stimulans-und-nicht-stimulans-aktivieren-verschiedene-hirnareale/</guid>
+      <pubDate>Sat, 03 Oct 2026 01:18:27 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint vergleicht erstmals Lisdexamfetamin und Guanfacin bei ADHS-Jugendlichen im fMRT und findet getrennte Signaturen statt austauschbarer Wirkung.</description>
+    </item>
+    <item>
+      <title>EEG-Marker trennt depressiven Zustand von familiärer Veranlagung</title>
+      <link>https://hellmuth-soda.de/news/science/eeg-marker-trennt-depressiven-zustand-von-familiarer-veranlagung/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/eeg-marker-trennt-depressiven-zustand-von-familiarer-veranlagung/</guid>
+      <pubDate>Sat, 03 Oct 2026 01:18:11 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Studie findet ein frontales EEG-Kopplungsmuster, das nur bei akut Erkrankten auftritt, nicht bei ihren gesunden Geschwistern.</description>
+    </item>
     <item>
       <title>Jugendlicher Cannabiskonsum unter dem Mikroskop</title>
       <link>https://hellmuth-soda.de/news/science/jugendlicher-cannabiskonsum-unter-dem-mikroskop/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Mon, 27 Jul 2026 23:35:24 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Deep-Learning-Modell trennt Schizophrenie-Patienten von Gesunden anhand roher Hirnstromkurven besser als jede etablierte Kennzahl.</description>
-    </item>
-    <item>
-      <title>Rauschtrinken hat eine Adresse im Gehirn</title>
-      <link>https://hellmuth-soda.de/news/science/rauschtrinken-hat-eine-adresse-im-gehirn/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/rauschtrinken-hat-eine-adresse-im-gehirn/</guid>
-      <pubDate>Sun, 26 Jul 2026 23:17:33 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Häufiges Binge Drinking korreliert mit der Verschaltung zwischen Hippocampus und ventralem Striatum.</description>
-    </item>
-    <item>
-      <title>MDMA gegen frisches Trauma</title>
-      <link>https://hellmuth-soda.de/news/science/mdma-gegen-frisches-trauma/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/mdma-gegen-frisches-trauma/</guid>
-      <pubDate>Sun, 26 Jul 2026 23:17:21 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Substanz, die als Therapiehoffnung für chronisches PTBS gehandelt wird, wird im Tiermodell als Akutintervention getestet.</description>
-    </item>
-    <item>
-      <title>EEG-Signaturen bei Mädchen sagen späteren Substanzkonsum voraus</title>
-      <link>https://hellmuth-soda.de/news/science/eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus/</guid>
-      <pubDate>Sun, 26 Jul 2026 23:17:09 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Das Suchtrisiko lässt sich im Kortex ablesen, bevor der erste Zug, das erste Glas fällt.</description>
     </item>
   </channel>
 </rss>

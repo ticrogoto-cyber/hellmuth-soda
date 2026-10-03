@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-02T01:50:54.123Z",
+  "generated": "2026-10-03T01:18:44.893Z",
   "hellmuth": [
+    {
+      "title": "Die Getränkeindustrie entdeckt den Verbraucherschutz",
+      "date": "2026-10-03",
+      "created": "2026-10-03T01:17:55.726Z",
+      "slug": "die-getrankeindustrie-entdeckt-den-verbraucherschutz",
+      "rubrik": "hellmuth",
+      "lead": "Der Entwurf einer Zuckergetränkesteuer zum 1. Juli 2027 bringt jene Verbände auf, die bislang vom günstigen Zuckerwasser gelebt haben.",
+      "source_name": "about-drinks",
+      "source_url": "https://www.about-drinks.com/zuckergetraenkesteuer-getraenkeverbaende-kritisieren-plaene-fuer-neue-verbrauchsteuer/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/die-getrankeindustrie-entdeckt-den-verbraucherschutz/"
+    },
+    {
+      "title": "Blutorange als Branchenkonsens",
+      "date": "2026-10-03",
+      "created": "2026-10-03T01:15:56.993Z",
+      "slug": "blutorange-als-branchenkonsens",
+      "rubrik": "hellmuth",
+      "lead": "Zwei große US-Marken greifen gleichzeitig zur selben Zitrusnote, und das ist kein Zufall.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/new-beverages-liquid-death-liquid-i-v-embrace-blood-orange-mingles-non-alc-espresso-martini",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/blutorange-als-branchenkonsens/"
+    },
+    {
+      "title": "Hiyo sammelt 20,8 Millionen für alkoholfreie Social Tonics",
+      "date": "2026-10-03",
+      "created": "2026-10-03T01:15:35.504Z",
+      "slug": "hiyo-sammelt-20-8-millionen-fur-alkoholfreie-social-tonics",
+      "rubrik": "hellmuth",
+      "lead": "Der US-Markt für nüchterne Barflüssigkeiten verlässt die Nische und zieht in Risikokapital um.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/hiyo-closes-20-8m-series-b-as-distribution-footprint-surges",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/hiyo-sammelt-20-8-millionen-fur-alkoholfreie-social-tonics/"
+    },
     {
       "title": "Zuckergetränkesteuer im Kanzleramt gestoppt",
       "date": "2026-10-02",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien/"
-    },
-    {
-      "title": "Cheeky verlässt die Sirupflasche",
-      "date": "2026-07-06",
-      "created": "2026-07-06T23:34:48.034Z",
-      "slug": "cheeky-verlasst-die-sirupflasche",
-      "rubrik": "hellmuth",
-      "lead": "Der New Yorker Cocktailzutaten-Anbieter Cheeky zieht in die Dose, und damit in ein Regal, das längst überfüllt ist.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/cheeky-branches-into-canned-mixers-with-botanical-tonic-launch",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/cheeky-verlasst-die-sirupflasche/"
-    },
-    {
-      "title": "Kaubares Getränk mit Fitnessversprechen",
-      "date": "2026-07-05",
-      "created": "2026-07-05T23:31:40.683Z",
-      "slug": "kaubares-getrank-mit-fitnessversprechen",
-      "rubrik": "hellmuth",
-      "lead": "Der thailändische Getränkehersteller Sappe verlagert das Snacken in die Flasche.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/05/sappe-launches-preaw-xs-with-chewy-konjac-pearls-and-functional-benefits/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/kaubares-getrank-mit-fitnessversprechen/"
-    },
-    {
-      "title": "B'lue verkauft Kaugummi als Vitaminwasser",
-      "date": "2026-07-05",
-      "created": "2026-07-05T23:31:28.046Z",
-      "slug": "b-lue-verkauft-kaugummi-als-vitaminwasser",
-      "rubrik": "hellmuth",
-      "lead": "Danone Sappe erklärt Süßwarenaromen zur Wellness-Kategorie.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/05/blue-introduces-dessert-inspired-flavours-for-a-new-indulgent-twist/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/b-lue-verkauft-kaugummi-als-vitaminwasser/"
     }
   ],
   "science": [
+    {
+      "title": "Wer die Welt für feindlich hält, wird kränker",
+      "date": "2026-10-03",
+      "created": "2026-10-03T01:18:44.810Z",
+      "slug": "wer-die-welt-fur-feindlich-halt-wird-kranker",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der North American Prodrome Longitudinal Study verschiebt die Richtung der Kausalitätsfrage bei Psychose-Risiko.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364206v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/wer-die-welt-fur-feindlich-halt-wird-kranker/"
+    },
+    {
+      "title": "Stimulans und Nicht-Stimulans aktivieren verschiedene Hirnareale",
+      "date": "2026-10-03",
+      "created": "2026-10-03T01:18:27.988Z",
+      "slug": "stimulans-und-nicht-stimulans-aktivieren-verschiedene-hirnareale",
+      "rubrik": "science",
+      "lead": "Ein Preprint vergleicht erstmals Lisdexamfetamin und Guanfacin bei ADHS-Jugendlichen im fMRT und findet getrennte Signaturen statt austauschbarer Wirkung.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364506v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/stimulans-und-nicht-stimulans-aktivieren-verschiedene-hirnareale/"
+    },
+    {
+      "title": "EEG-Marker trennt depressiven Zustand von familiärer Veranlagung",
+      "date": "2026-10-03",
+      "created": "2026-10-03T01:18:11.791Z",
+      "slug": "eeg-marker-trennt-depressiven-zustand-von-familiarer-veranlagung",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Studie findet ein frontales EEG-Kopplungsmuster, das nur bei akut Erkrankten auftritt, nicht bei ihren gesunden Geschwistern.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364438v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/eeg-marker-trennt-depressiven-zustand-von-familiarer-veranlagung/"
+    },
     {
       "title": "Jugendlicher Cannabiskonsum unter dem Mikroskop",
       "date": "2026-10-02",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/ein-eeg-klick-reicht-dem-netz/"
-    },
-    {
-      "title": "Rauschtrinken hat eine Adresse im Gehirn",
-      "date": "2026-07-26",
-      "created": "2026-07-26T23:17:33.660Z",
-      "slug": "rauschtrinken-hat-eine-adresse-im-gehirn",
-      "rubrik": "science",
-      "lead": "Häufiges Binge Drinking korreliert mit der Verschaltung zwischen Hippocampus und ventralem Striatum.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1002/hipo.70113",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/rauschtrinken-hat-eine-adresse-im-gehirn/"
-    },
-    {
-      "title": "MDMA gegen frisches Trauma",
-      "date": "2026-07-26",
-      "created": "2026-07-26T23:17:21.370Z",
-      "slug": "mdma-gegen-frisches-trauma",
-      "rubrik": "science",
-      "lead": "Die Substanz, die als Therapiehoffnung für chronisches PTBS gehandelt wird, wird im Tiermodell als Akutintervention getestet.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.pnpbp.2026.111853",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/mdma-gegen-frisches-trauma/"
-    },
-    {
-      "title": "EEG-Signaturen bei Mädchen sagen späteren Substanzkonsum voraus",
-      "date": "2026-07-26",
-      "created": "2026-07-26T23:17:09.075Z",
-      "slug": "eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus",
-      "rubrik": "science",
-      "lead": "Das Suchtrisiko lässt sich im Kortex ablesen, bevor der erste Zug, das erste Glas fällt.",
-      "source_name": "PubMed E-Utilities",
-      "source_url": "https://doi.org/10.1016/j.jpsychires.2026.07.021",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/science/eeg-signaturen-bei-madchen-sagen-spateren-substanzkonsum-voraus/"
     }
   ]
 }
