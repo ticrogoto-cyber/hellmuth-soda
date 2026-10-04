@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-03T01:18:44.893Z",
+  "generated": "2026-10-04T00:46:52.143Z",
   "hellmuth": [
+    {
+      "title": "Masan verkleinert den Energy Drink zum Schnapsglas",
+      "date": "2026-10-04",
+      "created": "2026-10-04T00:45:10.330Z",
+      "slug": "masan-verkleinert-den-energy-drink-zum-schnapsglas",
+      "rubrik": "hellmuth",
+      "lead": "Vietnams Marktführer Masan presst seine Energy-Marke Wake-Up 247 in ein Shot-Format und erfindet damit einen Konsumanlass, den es bislang nicht gab.",
+      "source_name": "Mini Me Insights",
+      "source_url": "https://www.minimeinsights.com/2026/10/03/masan-extends-wake-up-247-into-energy-shots-to-unlock-new-on-the-go-consumption-occasions/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/masan-verkleinert-den-energy-drink-zum-schnapsglas/"
+    },
     {
       "title": "Die Getränkeindustrie entdeckt den Verbraucherschutz",
       "date": "2026-10-03",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/getrankeverbande-gegen-die-zuckersteuer/"
-    },
-    {
-      "title": "Kirin schickt einen Milchsäurebakterien-Stamm nach Südostasien",
-      "date": "2026-07-06",
-      "created": "2026-07-06T23:35:30.427Z",
-      "slug": "kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien",
-      "rubrik": "hellmuth",
-      "lead": "Ein japanischer Getränkekonzern verlagert seinen Immunmarkt in Länder, in denen Funktionsversprechen weniger streng geprüft werden.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/05/kirin-imuse-relaunches-in-vietnam-with-new-lemon-yogurt-drink-expands-overseas-to-taiwan/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien/"
     }
   ],
   "science": [
+    {
+      "title": "Was Gehirnscans über Sucht wirklich sagen",
+      "date": "2026-10-04",
+      "created": "2026-10-04T00:46:52.036Z",
+      "slug": "was-gehirnscans-uber-sucht-wirklich-sagen",
+      "rubrik": "science",
+      "lead": "Eine Metaanalyse neuronaler Reaktivität auf Drogenreize liefert weniger, als zwei Jahrzehnte Bildgebung versprochen haben.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1038/s41398-026-04458-9",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/was-gehirnscans-uber-sucht-wirklich-sagen/"
+    },
+    {
+      "title": "Endocannabinoide im ersten Psychose-Schub",
+      "date": "2026-10-04",
+      "created": "2026-10-04T00:46:40.826Z",
+      "slug": "endocannabinoide-im-ersten-psychose-schub",
+      "rubrik": "science",
+      "lead": "Eine spanische Arbeitsgruppe misst körpereigene Cannabinoide bei Menschen, die ihre erste Psychose erleben und noch nie Neuroleptika bekommen haben.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.psychres.2026.117479",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/endocannabinoide-im-ersten-psychose-schub/"
+    },
+    {
+      "title": "Saure Cannabinoide im Gehirn",
+      "date": "2026-10-04",
+      "created": "2026-10-04T00:46:27.760Z",
+      "slug": "saure-cannabinoide-im-gehirn",
+      "rubrik": "science",
+      "lead": "Die unerhitzte Vorstufe von THC und CBD rückt in die neurowissenschaftliche Debatte.",
+      "source_name": "PubMed E-Utilities",
+      "source_url": "https://doi.org/10.1016/j.neubiorev.2026.107005",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/saure-cannabinoide-im-gehirn/"
+    },
     {
       "title": "Wer die Welt für feindlich hält, wird kränker",
       "date": "2026-10-03",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/ocd-remission-als-kippunkt/"
-    },
-    {
-      "title": "Ein Ionenkanal als Angriffspunkt gegen Depression",
-      "date": "2026-07-27",
-      "created": "2026-07-27T23:36:10.349Z",
-      "slug": "ein-ionenkanal-als-angriffspunkt-gegen-depression",
-      "rubrik": "science",
-      "lead": "Die Depressionsforschung sucht seit Jahrzehnten jenseits der Monoamin-Hypothese, und ein Zebrafisch-Preprint zeigt jetzt einen Kandidaten außerhalb des klassischen Neurotransmitter-Kanons.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740018v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-ionenkanal-als-angriffspunkt-gegen-depression/"
-    },
-    {
-      "title": "Escitalopram bewegt den Motor, nicht das Empfinden",
-      "date": "2026-07-27",
-      "created": "2026-07-27T23:35:40.419Z",
-      "slug": "escitalopram-bewegt-den-motor-nicht-das-empfinden",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der medRxiv-Psychiatrie zerlegt die Antidepressivum-Wirkung in zwei Etagen, die nicht zusammenlaufen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.24.26358864v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/escitalopram-bewegt-den-motor-nicht-das-empfinden/"
-    },
-    {
-      "title": "Ein EEG-Klick reicht dem Netz",
-      "date": "2026-07-27",
-      "created": "2026-07-27T23:35:24.221Z",
-      "slug": "ein-eeg-klick-reicht-dem-netz",
-      "rubrik": "science",
-      "lead": "Ein Deep-Learning-Modell trennt Schizophrenie-Patienten von Gesunden anhand roher Hirnstromkurven besser als jede etablierte Kennzahl.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.24.26358816v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-eeg-klick-reicht-dem-netz/"
     }
   ]
 }

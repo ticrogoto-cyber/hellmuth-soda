@@ -143,27 +143,27 @@
     },
     "770dae0a8ff440fde46db1c0372ed16160ad815f8d077f52dc735d3c6719f7ca": {
       "url": "https://www.beveragedaily.com/Resources/Filling-packaging-equipment-systems/",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "rubrik": "hellmuth",
       "score": 1,
       "dropped": "low-relevance",
-      "expires": "2026-10-04T00:41:39.954Z"
+      "expires": "2026-10-11T00:44:23.537Z"
     },
     "25a0e3a7fe8d40d1f39d18dcf0726d3bcfe02493529b637860136da5287d2a77": {
       "url": "https://www.beveragedaily.com/Resources/Processing-equipment-systems-automation-control/",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "rubrik": "hellmuth",
       "score": 0,
       "dropped": "low-relevance",
-      "expires": "2026-10-04T00:41:41.325Z"
+      "expires": "2026-10-11T00:44:25.166Z"
     },
     "d27b3822cdaee6aa89c2ac02210620f1c3a75178d33d5b81319f8a77cbf62ca0": {
       "url": "https://www.beveragedaily.com/Resources/Packaging-packing-materials-containers/",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "rubrik": "hellmuth",
       "score": 0,
       "dropped": "low-relevance",
-      "expires": "2026-10-04T00:41:43.267Z"
+      "expires": "2026-10-11T00:44:26.962Z"
     },
     "3eebeca8fed4a20b8b64e2fa11d69ed779f245c68f66069559e301e3050a014a": {
       "url": "https://www.beveragedaily.com/Article/2026/06/05/texas-ag-investigates-celsius-alani-nu-over-caffeine-and-youth-marketing/",
@@ -3525,21 +3525,13 @@
       "score": 7,
       "published": true
     },
-    "3edc60b2ea75fc2b91d07071143ce6ab4b44873f563faf3ab69b05e713c98a3c": {
-      "url": "https://robbreport.com.sg/what-to-do-in-singapore-this-week/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:20.777Z"
-    },
     "8f3d10a78ffbcfece70f4ccebfd8c93d8b5c12fcae3a76b313868ae3f9b16a09": {
       "url": "https://www.japantimes.co.jp/podcast/2024/07/22/deep-dive/kabukicho-tokyo/",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "rubrik": "hellmuth",
       "score": 1,
       "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:29.013Z"
+      "expires": "2026-10-11T00:45:45.107Z"
     },
     "c26604465d803160b914cf1760e4070011e2861fd4878cf49ef9f6c1cf6dff27": {
       "url": "https://www.about-drinks.com/bioeg-studie-weniger-junge-menschen-konsumieren-alkohol/",
@@ -4054,22 +4046,6 @@
       "score": 9,
       "published": true
     },
-    "c0eab9634b7817509eeca6eee979fec8d3d5e279f209d9bb82a05faff33016aa": {
-      "url": "https://sustainable.japantimes.com/unraveling/49?utm_source=jto&utm_medium=sidebanner&utm_campaign=jto_sidebanner&f=1",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:30.917Z"
-    },
-    "89929e0131cade4cfd0723ba1367c466a4907965ce6cdb264cfce359d7544d7c": {
-      "url": "https://www.scmp.com/lifestyle/travel-leisure/article/3367989/momofukus-david-chang-takes-detours-culinary-road-trip-across-us?utm_source=rss_feed",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:46.539Z"
-    },
     "9e9066437e95a7ab08f21b8e11acf3a1e5e15a539e3c8dabaf5f9808942cd718": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752419v1?rss=1",
       "date": "2026-09-20",
@@ -4083,30 +4059,6 @@
       "rubrik": "science",
       "score": 9,
       "published": true
-    },
-    "0b19f49a1b3a6536da6fde906a49051ca56636bb87698c2643d5b7409ea6e0a8": {
-      "url": "https://www.nature.com/articles/s41593-026-02437-3",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:09.692Z"
-    },
-    "57669197d8bd2603d1eb71b5c5ac309e1226c2604eb6d2972749a63da5cdf5b5": {
-      "url": "https://www.nature.com/articles/s41593-026-02445-3",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:12.015Z"
-    },
-    "38786f52c72bc3a1481743c2f3ccfa4ac3cc575a2bfebd3582c241df42d52019": {
-      "url": "https://www.nature.com/articles/s41593-026-02433-7",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:13.272Z"
     },
     "3cb32ac81b963fd9aac3c7c573f12a24fe2a92b42d38045f690a0ac6d7c9dcf3": {
       "url": "https://www.nature.com/articles/s41593-026-02449-z",
@@ -4495,54 +4447,6 @@
       "score": 7,
       "published": true
     },
-    "2ae4b7fd148d888cd85f8d9d894d4fc25c2f966292f789ce6b3e2bbcd5d7e83d": {
-      "url": "https://www.foodnavigator-asia.com/News/Promotional-features/ingredient-branding-supports-consumer-understanding-of-postbiotics/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:41:27.731Z"
-    },
-    "d4e219dac7483479f026dd5fe14daa612987e2366b76ab7628ca4023e4612879": {
-      "url": "https://www.foodnavigator-asia.com/Article/2026/09/24/big-food-warns-of-risks-from-ultra-processed-foods/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:41:30.133Z"
-    },
-    "33741f33ffdc85d57316f2637c4d2f58c008fd87474773226da8d9164068d1f1": {
-      "url": "https://www.beveragedaily.com/News/Promotional-features/beverage-sustainability-innovation-strategy-for-value-creation/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:41:45.175Z"
-    },
-    "c968537fd815aef6e8dd80855cf492a629cf44412cd70a0034468151a6ab0f5d": {
-      "url": "https://www.minimeinsights.com/2026/09/27/one-nutrition-expands-beyond-beverages-with-superpuffs/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:43:17.824Z"
-    },
-    "ce43e442019fdc624ee2b63ac196e516c7b1c1a5bce6780c941b7665c5d0d0d1": {
-      "url": "https://www.minimeinsights.com/2026/09/27/cafe-amazon-rolls-out-floral-drip-coffee-and-soy-sauce-caramel-creations/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:43:20.384Z"
-    },
-    "d5258c523127f1fae2e4e005607f8bca4730ea48b9e2cdd9c010122dc3d01028": {
-      "url": "https://www.minimeinsights.com/2026/09/27/bts-inspired-arih-modern-noodle-arrives-in-thailand/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:43:22.788Z"
-    },
     "d7af9dfe12d703067efa7adfab1c0da766290bcae4529a99cad3cd2711ff56d2": {
       "url": "https://www.minimeinsights.com/2026/09/27/heytea-debuts-first-southeast-asia-lheytea-has-opened-its-first-store-in-thailand-at-centralworld-marking-the-debut-of-the-heytea-lab-in-southeast-asia-the-new-flagship-concept-integrates-a-tea-lab/",
       "date": "2026-09-27",
@@ -4557,133 +4461,13 @@
       "score": 7,
       "published": true
     },
-    "53d5353e4d92948dad4797fb7b741862e0b96ef867b0acfdecf78818200afe55": {
-      "url": "https://www.minimeinsights.com/2026/09/26/dutch-mill-expands-with-guava-4-in-1-uht-drinking-yoghurt-and-dutchie-royale-creme-hokkaido-milk-pudding/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:43:54.070Z"
-    },
-    "ee2aef45647b176dbe4a3d97fcbca1af0003543cd094cde28d7e4eab44ccae6b": {
-      "url": "https://www.minimeinsights.com/2026/09/26/dutch-mill-elevates-yogurt-portfolio-with-dutchie-royale-set-yogurt-and-dutchie-bio-new-flavour/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:43:56.266Z"
-    },
-    "145b67799c3c50baa3ca41867a449555ae0513aba1aa888261e710f2e48069f6": {
-      "url": "https://www.minimeinsights.com/2026/09/26/mars-officially-opens-thb-7-billion-pringles-plant-in-thailand/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:43:58.171Z"
-    },
-    "a253d1f988ba468ded55872d32dbd3fffdeaf3f4500b674a612f208137261d90": {
-      "url": "https://www.minimeinsights.com/2026/09/26/ovaltine-offers-new-plant-based-option-with-cocoa-malt-and-white-malt/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:00.762Z"
-    },
-    "e5232e65161335009efaf9e35365964253caafe95d96321c21db503b65477b12": {
-      "url": "https://www.minimeinsights.com/2026/09/26/arla-foods-brings-arla-protein-yoghurt-to-singapore/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:02.955Z"
-    },
-    "700b16923521834f97ad9ea4691cceae27d4e9834540f4b806904860a3012d5d": {
-      "url": "https://soranews24.com/2026/09/26/japans-cell-phone-memory-restart-event-reunites-users-with-old-photos-and-past-selves/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:09.683Z"
-    },
-    "7d3c9c4d9d73c15df186ada75f5aff0724ff02611694d49c6c9f8bf8f96865a2": {
-      "url": "https://soranews24.com/2026/09/26/mcdonalds-japan-makes-beautifully-bittersweet-burger-anime-music-video-with-idolmaster-video/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:11.505Z"
-    },
-    "6b795ccbcd85795496edf0b07ef8aa44934f27ae261a40e9f6eb79a019dd3818": {
-      "url": "https://www.thepeakmagazine.com.sg/lifestyle/colour-analysis-trend",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:14.955Z"
-    },
-    "96566ad9090d6f42d108e5be210cf3b1f263b2e4717b3806d3a396831d813b21": {
-      "url": "https://www.japantimes.co.jp/business/2026/09/24/tech/meta-ai-charm-hardware/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:23.426Z"
-    },
-    "770ac7fef93cf9b8fda6e27fc21e181f8beb302e5062f699b811ddb07c72a4fb": {
-      "url": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/japan-esports-prodigy-asian-games/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:24.815Z"
-    },
-    "a67f591a7977b844fd6c5097f5140e01cc56663f92c177c12cb6a8432414be80": {
-      "url": "https://www.japantimes.co.jp/news/2026/09/25/japan/nagoya-asian-games-mishap/",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:26.784Z"
-    },
-    "39ff6f5833df9e831a45c6934033d3b39152594fd81f95d0214e815436d10fd1": {
-      "url": "https://jingdaily.com/posts/inside-unitree-s-usd9b-ipo-wang-xingxing-s-one-of-a-kind-hardware-vision",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:36.066Z"
-    },
-    "5516c180ebfe5806ea0d0c17d4bf0acc4edeed39dd74d60ed6517ae318305b1b": {
-      "url": "https://jingdaily.com/posts/20-chinese-fashion-brands-to-know-in-2026",
-      "date": "2026-09-27",
-      "rubrik": "hellmuth",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:37.967Z"
-    },
     "825d524cf60060dde7b31ed64b6ce7fcb850fa8323537721ec841c8560e9242f": {
       "url": "https://www.scmp.com/lifestyle/food-drink/article/3368775/hong-kong-born-cookie-brand-founder-brings-flavours-her-youth-small-town-france?utm_source=rss_feed",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "rubrik": "hellmuth",
       "score": 2,
       "dropped": "low-relevance",
-      "expires": "2026-10-04T00:44:44.915Z"
-    },
-    "a5511dd38259de168ccf14f3bfdaa7c7cb27d254e8becafc27c5565bd7607123": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754341v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:01.692Z"
-    },
-    "fef24f19db807e30dd3bf24ad46422231c8197b012b01482c8feb6f78ab4f6ae": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753857v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:05.161Z"
+      "expires": "2026-10-11T00:46:02.941Z"
     },
     "62384dbc0301eab0687c806bcd5115394706eab278ec2f1356eb678b7334d081": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753115v1?rss=1",
@@ -4692,156 +4476,12 @@
       "score": 7,
       "published": true
     },
-    "c35b2a060511f2d4cae6040eb196b18f2b893c14414e7b75382ef52b57832f77": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.22.753511v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:20.250Z"
-    },
-    "b21981a280469a37289dbbdc553b04b784682d7198a0e35204f3ea7c04d91d50": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753785v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:22.615Z"
-    },
-    "e83b92c400abd3c6bc90387e328472dd63d1349820f60e871af6760d6de53b0e": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753833v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:24.542Z"
-    },
-    "f1bbb73f71d8d691191fe60c17611df96fa5fe99d87e7927e9003af0e4a77e99": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754219v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:26.413Z"
-    },
     "30fc25037fb8bec6aeced3eae4287127f57074ed626ea40669ed0de2a4f5e638": {
       "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753085v1?rss=1",
       "date": "2026-09-27",
       "rubrik": "science",
       "score": 9,
       "published": true
-    },
-    "49f8ded7311dc53a895a464c51a55dc1fd67ea5b7195712fb4980778de3a54de": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753089v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:42.472Z"
-    },
-    "41a06a2562105de87d4627e9b8c7f8926b780c7be4808a5b60d9fe2493b4649a": {
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753084v1?rss=1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 6,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:44.539Z"
-    },
-    "f7f417e8d5a328ce796687976968b607ec3fcb03df301566c7e4402b5a941034": {
-      "url": "https://www.nature.com/articles/s41591-026-04684-0",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:47.710Z"
-    },
-    "44f3628fe3d90b84c423270823dd9a172375b596f94649f22ae7d8c4972f24c7": {
-      "url": "https://www.nature.com/articles/s41591-026-04683-1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:49.588Z"
-    },
-    "14096d6f5a6126e7bc3043a9da690c65804afeb081269070a40430bfeb28799e": {
-      "url": "https://www.nature.com/articles/s41591-026-04681-3",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:51.096Z"
-    },
-    "512d16635869bf165b5696a336c9e7e327addd6e7e1cf6d7c4b7550ab2c6f143": {
-      "url": "https://www.nature.com/articles/s41591-026-04659-1",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:52.707Z"
-    },
-    "f967962c117af7b5fb2108c0b3966e1ebac7d12250aba727a3bed544fd3efb05": {
-      "url": "https://www.nature.com/articles/s41591-026-04653-7",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:54.693Z"
-    },
-    "efa8fc2e5ef2f0a0670ff54f1b27dc88ddc637ab31995646bba27721f5a4d640": {
-      "url": "https://www.nature.com/articles/s41591-026-04700-3",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 0,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:56.737Z"
-    },
-    "436e527ad9f3321f426f0004c002e63fe72d875dc27e0799c8013af71048dc14": {
-      "url": "https://www.nature.com/articles/s41591-026-04672-4",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:58.229Z"
-    },
-    "e05d36159344098e5e41fc4b1f2daaf1e6f63f821a5cac8e10011ae5847d09d7": {
-      "url": "https://www.nature.com/articles/s41591-026-04669-z",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 1,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:45:59.817Z"
-    },
-    "fd59ea728edd21edecdedac618f39cc22ae09e98f82180018b688f21db0cdc58": {
-      "url": "https://www.nature.com/articles/s41593-026-02474-y",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:02.090Z"
-    },
-    "037feb9aef57518f1d4f03e4d5365e1aeee269fcc03346974700cc23869980b7": {
-      "url": "https://www.nature.com/articles/s41593-026-02468-w",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:04.167Z"
-    },
-    "4033ffe917d7922156558bb297002f4841bf743a3e795b18a65bdca0e340483a": {
-      "url": "https://www.nature.com/articles/s41593-026-02454-2",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 2,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:05.842Z"
-    },
-    "5e14707c9f459dd436b150817c1b38b71c6e83ffa8e6455d031d96e2557c893a": {
-      "url": "https://www.nature.com/articles/s41593-026-02422-w",
-      "date": "2026-09-27",
-      "rubrik": "science",
-      "score": 3,
-      "dropped": "low-relevance",
-      "expires": "2026-10-04T00:46:07.808Z"
     },
     "ccc8f4b30f30a6705cd01cf0a2e875bcf954d19fb1a4e74d257f322bd48557e5": {
       "url": "https://www.foodnavigator-asia.com/News/Promotional-features/how-food-start-ups-are-driving-the-next-wave-of-ingredient-innovation/",
@@ -8244,6 +7884,186 @@
       "date": "2026-10-03",
       "rubrik": "science",
       "score": 8,
+      "published": true
+    },
+    "0efca2e717a9d01156fd476989a551eed5629f639dd7bbb06d2d9a1e63f7d9a0": {
+      "url": "https://www.globalwinemasters.com/fortified-masters",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:44:41.356Z"
+    },
+    "483f6e798ddbcaf8206a3db1ae790d825fb48e158f07171242259b38dd73a6ef": {
+      "url": "https://www.minimeinsights.com/2026/10/03/tealive-revs-up-f1-season-with-high-octane-orange-coffee/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:44:52.038Z"
+    },
+    "a3ef5eb4d6f9a7ba191e5a48b42577acc30f15625219b04305a94f30086d2b1d": {
+      "url": "https://www.minimeinsights.com/2026/10/03/yeos-takes-its-flavours-beyond-the-familiar-with-the-launch-of-malaysias-first-ever-teriyaki-tuna/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:44:54.077Z"
+    },
+    "420c66f9a92df4d656b9838b511a5b8e27bef8106134f5af42fe8b1ad6ecc222": {
+      "url": "https://www.minimeinsights.com/2026/10/03/wake-up-247-takes-refreshment-on-the-road-with-mobile-cooling-stations/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 6,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:44:56.487Z"
+    },
+    "228eac84d68522df1a50968e0290c167dfa0dbb1d4055531cb3841f9d4531afc": {
+      "url": "https://www.minimeinsights.com/2026/10/03/masan-extends-wake-up-247-into-energy-shots-to-unlock-new-on-the-go-consumption-occasions/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 8,
+      "published": true
+    },
+    "9d95599e62ab218068938b168aa9b7a1cd2ff6ce2ce1dcfc2f70b3be53ea4276": {
+      "url": "https://www.minimeinsights.com/2026/10/03/pop-spageti-blends-pizza-fried-chicken-and-carbonara-into-new-instant-pasta-mashups/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:12.499Z"
+    },
+    "98edebaeafe76213009aacc334700981df876974f7732adfab4558b992d70176": {
+      "url": "https://soranews24.com/2026/10/04/foreign-tourist-numbers-drop-in-osaka-despite-record-setting-highs-from-u-s-and-korea/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:19.210Z"
+    },
+    "fa12a940845c70a2506b28bf1b9dd2acb855d596f25a653091b12e167cf175a1": {
+      "url": "https://soranews24.com/2026/10/03/starbucks-japan-says-sayonara-to-the-filone-for-new-sandwiches-and-a-pumpkin-soupuccino/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:21.849Z"
+    },
+    "9da556c012219ccb89cedb68dc6c42c096b4da182e40e00318b366cef385e8a2": {
+      "url": "https://soranews24.com/2026/10/03/totoro-and-other-ghibli-anime-figure-humidifiers-return-just-in-time-for-the-dry-season-photos/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 1,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:23.777Z"
+    },
+    "b436e904cbf2dfed54670e9ada84b9b1a750597099ea5e0c0f1c791083b9fa0f": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/international-chicken-rice-day-the-hood-paris",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:27.297Z"
+    },
+    "32131cfd840dd512f87323e9992320273e0a92c9dd84f49266db0a7a33a9c737": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/beyond-f1-look-formula-2-3-and-e",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:28.477Z"
+    },
+    "0de36745b41eecef977941faf2d7c33f5c03c595a3bb027ff789bbb7a00a567f": {
+      "url": "https://www.thepeakmagazine.com.sg/lifestyle/vetreska",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:30.050Z"
+    },
+    "4273557b848be5e12656887a7a227635d509a876c03580d6a29dd604262ce521": {
+      "url": "https://www.japantimes.co.jp/news/2026/10/02/japan/crime-legal/okinawa-stalking-murder/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:35.991Z"
+    },
+    "a4f951f94c3529475718b7d7950ecd3e152a799e6295f770cd6fc6c3baea32d0": {
+      "url": "https://www.japantimes.co.jp/editorials/2026/10/02/japan-immigration-reform/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:37.840Z"
+    },
+    "b6da388da5efa5a26c87865a7999a7e5fc1f559a32bc5b0854331e43ad4dbd47": {
+      "url": "https://www.japantimes.co.jp/news/2026/10/03/japan/politics/hokkaido-aichi-osaka-fukuoka-secondary-capital/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:39.602Z"
+    },
+    "2f1e5e0e859b7e1b06559aa723b0ee563d0cddb27fea731f2d94091abd7b64db": {
+      "url": "https://www.japantimes.co.jp/life/2026/10/03/style-design/kimono-fabric-oshima-tsumugi-silk-ginza-fashion/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:41.121Z"
+    },
+    "e5396c94f03492324ac64afc18563b22486aa97f2af1ef0ae2fa5ef6e5e36e27": {
+      "url": "https://www.japantimes.co.jp/life/2026/10/03/style-design/familymart-socks-47-prefectures-convenience-store-fashion/",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:43.137Z"
+    },
+    "10331b427ad5c84611184343e29ab198b18fab0894d8aa4407fdfaa570ce7f76": {
+      "url": "https://jingdaily.com/posts/20-c-beauty-brands-to-know-in-2026",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 0,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:49.911Z"
+    },
+    "149903eea75c4d1e63bb06a421bdabf52a1bf638477058115eb0ace4a9134dc4": {
+      "url": "https://www.scmp.com/lifestyle/health-wellness/article/3369511/fibre-or-protein-which-more-important-its-about-balance-experts-say?utm_source=rss_feed",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:45:57.819Z"
+    },
+    "d458a3fbc5b40bf06c39663e347a0f6dec68bbc561ba41f6128d0e408cf708e4": {
+      "url": "https://www.scmp.com/lifestyle/food-drink/article/3369518/mala-coriander-congee-uk-doctor-sells-cantonese-inspired-bread-home?utm_source=rss_feed",
+      "date": "2026-10-04",
+      "rubrik": "hellmuth",
+      "score": 2,
+      "dropped": "low-relevance",
+      "expires": "2026-10-11T00:46:00.500Z"
+    },
+    "83c13cc239bb4d4eff92dd4a6e05c51da1ac51f95bc7f15aa43a7b51e2c11cc4": {
+      "url": "https://doi.org/10.1016/j.neubiorev.2026.107005",
+      "date": "2026-10-04",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "8f44ffaa0a25f4bbdabeeda5977b12c9a46adc49e3d00d1ce71cb51735c3f0c3": {
+      "url": "https://doi.org/10.1016/j.psychres.2026.117479",
+      "date": "2026-10-04",
+      "rubrik": "science",
+      "score": 9,
+      "published": true
+    },
+    "dfb76cb5bf40c0eb6b016006e4569830552669a6c65a49e6125f24f4e660f6c9": {
+      "url": "https://doi.org/10.1038/s41398-026-04458-9",
+      "date": "2026-10-04",
+      "rubrik": "science",
+      "score": 9,
       "published": true
     }
   }

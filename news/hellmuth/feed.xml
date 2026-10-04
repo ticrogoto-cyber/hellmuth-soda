@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 03 Oct 2026 01:18:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 00:46:52 GMT</lastBuildDate>
+    <item>
+      <title>Masan verkleinert den Energy Drink zum Schnapsglas</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/masan-verkleinert-den-energy-drink-zum-schnapsglas/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/masan-verkleinert-den-energy-drink-zum-schnapsglas/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:45:10 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Vietnams Marktführer Masan presst seine Energy-Marke Wake-Up 247 in ein Shot-Format und erfindet damit einen Konsumanlass, den es bislang nicht gab.</description>
+    </item>
     <item>
       <title>Die Getränkeindustrie entdeckt den Verbraucherschutz</title>
       <link>https://hellmuth-soda.de/news/hellmuth/die-getrankeindustrie-entdeckt-den-verbraucherschutz/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Mon, 06 Jul 2026 23:37:15 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Die deutsche Getränkewirtschaft läuft Sturm gegen ein früheres Inkrafttreten der Zuckersteuer, weil sie ahnt, dass jede Verzögerung ihr letztes Argument ist.</description>
-    </item>
-    <item>
-      <title>Kirin schickt einen Milchsäurebakterien-Stamm nach Südostasien</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/kirin-schickt-einen-milchsaurebakterien-stamm-nach-sudostasien/</guid>
-      <pubDate>Mon, 06 Jul 2026 23:35:30 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Ein japanischer Getränkekonzern verlagert seinen Immunmarkt in Länder, in denen Funktionsversprechen weniger streng geprüft werden.</description>
     </item>
   </channel>
 </rss>
