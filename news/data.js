@@ -1,7 +1,21 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-04T00:46:52.143Z",
+  "generated": "2026-10-05T01:05:10.802Z",
   "hellmuth": [
+    {
+      "title": "Functional Beverages werden klinisch geprüft",
+      "date": "2026-10-05",
+      "created": "2026-10-05T01:01:53.459Z",
+      "slug": "functional-beverages-werden-klinisch-gepruft",
+      "rubrik": "hellmuth",
+      "lead": "Der Markt für funktionale Getränke verschiebt seine Beweislast von Marketing zu Studiendesign.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/News/Promotional-features/clinical-evidence-behind-functional-beverage-formulation/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/functional-beverages-werden-klinisch-gepruft/"
+    },
     {
       "title": "Masan verkleinert den Energy Drink zum Schnapsglas",
       "date": "2026-10-04",
@@ -2787,23 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/hellmuth/functional-beverages-der-regalplatz-schlagt-die-rezeptur/"
-    },
-    {
-      "title": "Getränkeverbände gegen die Zuckersteuer",
-      "date": "2026-07-06",
-      "created": "2026-07-06T23:37:15.378Z",
-      "slug": "getrankeverbande-gegen-die-zuckersteuer",
-      "rubrik": "hellmuth",
-      "lead": "Die deutsche Getränkewirtschaft läuft Sturm gegen ein früheres Inkrafttreten der Zuckersteuer, weil sie ahnt, dass jede Verzögerung ihr letztes Argument ist.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/spitzenverbaende-vorziehen-der-zuckersteuer-auf-2027-waere-ein-affront-gegen-den-mittelstand/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/getrankeverbande-gegen-die-zuckersteuer/"
     }
   ],
   "science": [
+    {
+      "title": "Hyperaktive Neuronen ohne Anfall",
+      "date": "2026-10-05",
+      "created": "2026-10-05T01:05:10.675Z",
+      "slug": "hyperaktive-neuronen-ohne-anfall",
+      "rubrik": "science",
+      "lead": "Ein Mausmodell des Wolfram-Syndroms zeigt übererregbare Hippocampus-Neuronen, die trotzdem keine Epilepsie auslösen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754840v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/hyperaktive-neuronen-ohne-anfall/"
+    },
+    {
+      "title": "Ein Rechenmodell für den Rausch in zwei Gängen",
+      "date": "2026-10-05",
+      "created": "2026-10-05T01:04:42.898Z",
+      "slug": "ein-rechenmodell-fur-den-rausch-in-zwei-gangen",
+      "rubrik": "science",
+      "lead": "Komasaufen hat eine Dramaturgie, und sie lässt sich als Schaltkreis beschreiben.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754793v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-rechenmodell-fur-den-rausch-in-zwei-gangen/"
+    },
+    {
+      "title": "Weibliche Konnektivitätsmuster korrelieren mit Depressionsrisiko",
+      "date": "2026-10-05",
+      "created": "2026-10-05T01:04:25.362Z",
+      "slug": "weibliche-konnektivitatsmuster-korrelieren-mit-depressionsrisiko",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv verknüpft die Nähe individueller Hirnvernetzung zu einem weiblich-typischen Muster mit Angst- und Depressionsdiagnosen, geschlechtsübergreifend.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754773v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/weibliche-konnektivitatsmuster-korrelieren-mit-depressionsrisiko/"
+    },
     {
       "title": "Was Gehirnscans über Sucht wirklich sagen",
       "date": "2026-10-04",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/halluzinationen-bekommen-einen-lautstarkeregler/"
-    },
-    {
-      "title": "Dopamin unterscheidet nicht zwischen Peer und Pellet",
-      "date": "2026-07-28",
-      "created": "2026-07-28T23:21:04.994Z",
-      "slug": "dopamin-unterscheidet-nicht-zwischen-peer-und-pellet",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Ratte zeigt, dass der Nucleus accumbens sozialen Zugang und Zuckerfutter mit fast identischen Dopamin-Signaturen quittiert.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740421v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/dopamin-unterscheidet-nicht-zwischen-peer-und-pellet/"
-    },
-    {
-      "title": "TMS trifft Rückenmark im Scanner",
-      "date": "2026-07-28",
-      "created": "2026-07-28T23:20:43.857Z",
-      "slug": "tms-trifft-ruckenmark-im-scanner",
-      "rubrik": "science",
-      "lead": "Die Wirkung transkranieller Magnetstimulation lässt sich erstmals im Rückenmark selbst messen, nicht nur an der Muskelzuckung.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740278v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/tms-trifft-ruckenmark-im-scanner/"
-    },
-    {
-      "title": "OCD-Remission als Kippunkt",
-      "date": "2026-07-28",
-      "created": "2026-07-28T23:20:28.042Z",
-      "slug": "ocd-remission-als-kippunkt",
-      "rubrik": "science",
-      "lead": "Ein Preprint modelliert SSRI-Wirkung bei Zwangsstörungen als geometrischen Übergang zwischen zwei stabilen Zuständen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.24.26358842v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ocd-remission-als-kippunkt/"
     }
   ]
 }

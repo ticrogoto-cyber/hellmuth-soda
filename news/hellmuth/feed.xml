@@ -6,7 +6,15 @@
     <atom:link href="https://hellmuth-soda.de/news/hellmuth/feed.xml" rel="self" type="application/rss+xml" />
     <description>HELLMUTH — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Sun, 04 Oct 2026 00:46:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 01:05:10 GMT</lastBuildDate>
+    <item>
+      <title>Functional Beverages werden klinisch geprüft</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/functional-beverages-werden-klinisch-gepruft/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/functional-beverages-werden-klinisch-gepruft/</guid>
+      <pubDate>Mon, 05 Oct 2026 01:01:53 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der Markt für funktionale Getränke verschiebt seine Beweislast von Marketing zu Studiendesign.</description>
+    </item>
     <item>
       <title>Masan verkleinert den Energy Drink zum Schnapsglas</title>
       <link>https://hellmuth-soda.de/news/hellmuth/masan-verkleinert-den-energy-drink-zum-schnapsglas/</link>
@@ -1598,14 +1606,6 @@
       <pubDate>Wed, 08 Jul 2026 23:33:44 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der Wettbewerb um funktionale Getränke entscheidet sich nicht mehr in der Formulierung, sondern im Vertriebsweg.</description>
-    </item>
-    <item>
-      <title>Getränkeverbände gegen die Zuckersteuer</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/getrankeverbande-gegen-die-zuckersteuer/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/getrankeverbande-gegen-die-zuckersteuer/</guid>
-      <pubDate>Mon, 06 Jul 2026 23:37:15 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Die deutsche Getränkewirtschaft läuft Sturm gegen ein früheres Inkrafttreten der Zuckersteuer, weil sie ahnt, dass jede Verzögerung ihr letztes Argument ist.</description>
     </item>
   </channel>
 </rss>
