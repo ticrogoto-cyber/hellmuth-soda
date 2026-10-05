@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-10-04T00:48:21.676Z",
+  "generated": "2026-10-05T01:06:21.600Z",
   "items": [
     {
       "title": "Gewalt als Dienstleistung, Kinder als Verbrauchsmaterial",
