@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-05T01:05:10.802Z",
+  "generated": "2026-10-06T02:24:12.434Z",
   "hellmuth": [
+    {
+      "title": "KDP setzt 2027 auf Dirty Soda und cremige Energy-Linien",
+      "date": "2026-10-06",
+      "created": "2026-10-06T02:23:14.475Z",
+      "slug": "kdp-setzt-2027-auf-dirty-soda-und-cremige-energy-linien",
+      "rubrik": "hellmuth",
+      "lead": "Keurig Dr Pepper rückt sein Portfolio in Richtung eines TikTok-Formats, das vor drei Jahren noch mormonische Nische war.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/kdp-gets-dirty-with-soda-innovation-flavor-forward-energy-skus",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kdp-setzt-2027-auf-dirty-soda-und-cremige-energy-linien/"
+    },
+    {
+      "title": "Coca-Cola testet Präbiotika in Zero, Sprite und Fresca",
+      "date": "2026-10-06",
+      "created": "2026-10-06T02:22:58.554Z",
+      "slug": "coca-cola-testet-prabiotika-in-zero-sprite-und-fresca",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern, der die Zuckerbrause erfunden hat, schließt sich jetzt ihrem Nachfolger an.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/coca-cola-tests-prebiotic-twist-on-its-biggest-brands",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-testet-prabiotika-in-zero-sprite-und-fresca/"
+    },
+    {
+      "title": "Vom Nischenaroma zur Pflichtübung",
+      "date": "2026-10-06",
+      "created": "2026-10-06T02:21:35.868Z",
+      "slug": "vom-nischenaroma-zur-pflichtubung",
+      "rubrik": "hellmuth",
+      "lead": "Was lange als Risiko galt, wird zur Grundanforderung an jede neue Getränkelinie.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/10/05/why-beverage-brands-are-embracing-bold-new-flavours/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/vom-nischenaroma-zur-pflichtubung/"
+    },
     {
       "title": "Functional Beverages werden klinisch geprüft",
       "date": "2026-10-05",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/bee-pop-und-die-lucke-zwischen-sprudel-und-soda/"
-    },
-    {
-      "title": "Kombucha an der Zapfsäule",
-      "date": "2026-07-08",
-      "created": "2026-07-08T23:35:56.794Z",
-      "slug": "kombucha-an-der-zapfsaule",
-      "rubrik": "hellmuth",
-      "lead": "Der fermentierte Teepilz erreicht die Tankstelle, und damit den Ort, an dem sich Getränkekarrieren entscheiden.",
-      "source_name": "about-drinks",
-      "source_url": "https://www.about-drinks.com/premium-kombucha-spraga-jetzt-auch-an-25-aral-bft-tankstellen/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/kombucha-an-der-zapfsaule/"
-    },
-    {
-      "title": "Getränkemarkt 2026, erste Halbzeit",
-      "date": "2026-07-08",
-      "created": "2026-07-08T23:34:09.772Z",
-      "slug": "getrankemarkt-2026-erste-halbzeit",
-      "rubrik": "hellmuth",
-      "lead": "Die Zahlen aus dem ersten Halbjahr 2026 zeigen weniger einen Boom als eine Umschichtung.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/ytd-2026-beverage-performance-and-trends-3tier-beverages-via-niq",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/getrankemarkt-2026-erste-halbzeit/"
-    },
-    {
-      "title": "Functional Beverages, der Regalplatz schlägt die Rezeptur",
-      "date": "2026-07-08",
-      "created": "2026-07-08T23:33:44.237Z",
-      "slug": "functional-beverages-der-regalplatz-schlagt-die-rezeptur",
-      "rubrik": "hellmuth",
-      "lead": "Der Wettbewerb um funktionale Getränke entscheidet sich nicht mehr in der Formulierung, sondern im Vertriebsweg.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/distribution-playbook-where-functional-beverage-growth-is-really-happening-calebrate-june-2026",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/functional-beverages-der-regalplatz-schlagt-die-rezeptur/"
     }
   ],
   "science": [
+    {
+      "title": "Schizophrenie-Befunde bündeln sich auf Insel, Mediofrontal und Sensomotorik",
+      "date": "2026-10-06",
+      "created": "2026-10-06T02:24:12.317Z",
+      "slug": "schizophrenie-befunde-bundeln-sich-auf-insel-mediofrontal-und-sensomotorik",
+      "rubrik": "science",
+      "lead": "Eine große Bildgebungs-Metaanalyse verortet die strukturellen und funktionellen Auffälligkeiten der Schizophrenie an denselben kortikalen Knotenpunkten und bindet sie an Gliazellen, nicht an die jüngere Hirnevolution.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26364383v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schizophrenie-befunde-bundeln-sich-auf-insel-mediofrontal-und-sensomotorik/"
+    },
+    {
+      "title": "Abendmenschen mit Bipolarität tragen zwei Risiken, nicht eines",
+      "date": "2026-10-06",
+      "created": "2026-10-06T02:23:59.296Z",
+      "slug": "abendmenschen-mit-bipolaritat-tragen-zwei-risiken-nicht-eines",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Analyse an über einer Million Briten trennt zwei bekannte Diabetesrisiken, die bislang gemeinsam gehandelt wurden.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.29.26364301v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/abendmenschen-mit-bipolaritat-tragen-zwei-risiken-nicht-eines/"
+    },
+    {
+      "title": "Negativ-Fokus als Regelkreis",
+      "date": "2026-10-06",
+      "created": "2026-10-06T02:23:46.972Z",
+      "slug": "negativ-fokus-als-regelkreis",
+      "rubrik": "science",
+      "lead": "Ein Preprint testet, ob sich die depressive Aufmerksamkeitsschleife im MRT-Scanner selbst entwaffnen lässt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.09.30.26363896v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/negativ-fokus-als-regelkreis/"
+    },
     {
       "title": "Hyperaktive Neuronen ohne Anfall",
       "date": "2026-10-05",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/ein-alkaloid-aus-dem-boldo-baum-bremst-den-selbstzerstorungsschalter-der-nerven/"
-    },
-    {
-      "title": "Alzheimer beginnt im Netzwerk, nicht in der Zelle",
-      "date": "2026-07-29",
-      "created": "2026-07-29T23:20:25.032Z",
-      "slug": "alzheimer-beginnt-im-netzwerk-nicht-in-der-zelle",
-      "rubrik": "science",
-      "lead": "Ein Preprint an Fadenwürmern verschiebt die Frage vom sterbenden Neuron zur brechenden Verbindung.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740981v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alzheimer-beginnt-im-netzwerk-nicht-in-der-zelle/"
-    },
-    {
-      "title": "Ein Reparatur-Hotspot verrät Huntington früher",
-      "date": "2026-07-29",
-      "created": "2026-07-29T23:20:02.062Z",
-      "slug": "ein-reparatur-hotspot-verrat-huntington-fruher",
-      "rubrik": "science",
-      "lead": "Die kranke DNA an der Huntington-Stelle wird ununterbrochen repariert, und genau dieses Reparieren treibt die Krankheit voran.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741355v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-reparatur-hotspot-verrat-huntington-fruher/"
-    },
-    {
-      "title": "Halluzinationen bekommen einen Lautstärkeregler",
-      "date": "2026-07-29",
-      "created": "2026-07-29T23:19:32.425Z",
-      "slug": "halluzinationen-bekommen-einen-lautstarkeregler",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Psychiatrie testet, ob Betroffene die Lautstärke ihrer Stimmen an einer Audiospur einstellen können, statt sie auf einer Skala anzukreuzen.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.27.26359058v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/halluzinationen-bekommen-einen-lautstarkeregler/"
     }
   ]
 }
