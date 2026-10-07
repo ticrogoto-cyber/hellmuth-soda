@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-06T02:24:12.434Z",
+  "generated": "2026-10-07T01:40:24.206Z",
   "hellmuth": [
+    {
+      "title": "Topo Chico Colección und die zweite Phase des Sprudelmarkts",
+      "date": "2026-10-07",
+      "created": "2026-10-07T01:39:26.184Z",
+      "slug": "topo-chico-colecci-n-und-die-zweite-phase-des-sprudelmarkts",
+      "rubrik": "hellmuth",
+      "lead": "Sparkling Water verlässt die Phase der neutralen Durstlöscher und wird zur aromatisierten Submarke mit Herkunftserzählung.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/10/06/sparkling-water-trends-topo-chico-leads-new-wave/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/topo-chico-colecci-n-und-die-zweite-phase-des-sprudelmarkts/"
+    },
+    {
+      "title": "Social Drinks verkaufen Gefühle, nicht Inhaltsstoffe",
+      "date": "2026-10-07",
+      "created": "2026-10-07T01:39:08.408Z",
+      "slug": "social-drinks-verkaufen-gefuhle-nicht-inhaltsstoffe",
+      "rubrik": "hellmuth",
+      "lead": "Funktionale Getränke verschieben ihr Versprechen von der Zutatenliste zum Gemütszustand.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/10/06/can-functional-beverage-brands-sell-a-feeling/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/social-drinks-verkaufen-gefuhle-nicht-inhaltsstoffe/"
+    },
+    {
+      "title": "Traube, Gurke, Risiko",
+      "date": "2026-10-07",
+      "created": "2026-10-07T01:38:41.948Z",
+      "slug": "traube-gurke-risiko",
+      "rubrik": "hellmuth",
+      "lead": "Getränkemarken greifen zu Aromen, die bis vor kurzem als unverkäuflich galten.",
+      "source_name": "FoodNavigator Asia",
+      "source_url": "https://www.foodnavigator-asia.com/Article/2026/10/05/why-beverage-brands-are-embracing-bold-new-flavours/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/traube-gurke-risiko/"
+    },
     {
       "title": "KDP setzt 2027 auf Dirty Soda und cremige Energy-Linien",
       "date": "2026-10-06",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa/"
-    },
-    {
-      "title": "Ornithin-Hefe aus Osaka",
-      "date": "2026-07-10",
-      "created": "2026-07-10T23:17:25.752Z",
-      "slug": "ornithin-hefe-aus-osaka",
-      "rubrik": "hellmuth",
-      "lead": "Craft-Bier soll jetzt auch als Nahrungsergänzung durchgehen.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/07/osaka-scientists-develop-wild-yeast-that-boosts-ornithine-in-craft-beer/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/ornithin-hefe-aus-osaka/"
-    },
-    {
-      "title": "Zwei Wege aus der Flasche",
-      "date": "2026-07-10",
-      "created": "2026-07-10T23:16:46.426Z",
-      "slug": "zwei-wege-aus-der-flasche",
-      "rubrik": "hellmuth",
-      "lead": "Der alkoholfreie Markt spaltet sich in Kopisten und Konstrukteure.",
-      "source_name": "FoodNavigator Asia",
-      "source_url": "https://www.foodnavigator-asia.com/Article/2026/07/10/emerging-brands-reshape-the-non-alcoholic-category/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/zwei-wege-aus-der-flasche/"
-    },
-    {
-      "title": "Bee Pop und die Lücke zwischen Sprudel und Soda",
-      "date": "2026-07-09",
-      "created": "2026-07-09T23:41:38.220Z",
-      "slug": "bee-pop-und-die-lucke-zwischen-sprudel-und-soda",
-      "rubrik": "hellmuth",
-      "lead": "Der US-Getränkemarkt entdeckt ein Zwischenfach, das eigentlich niemand vermisst hat.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/review-bee-pop-has-us-buzzing",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/bee-pop-und-die-lucke-zwischen-sprudel-und-soda/"
     }
   ],
   "science": [
+    {
+      "title": "Drei Kleinhirne, drei Schizophrenien",
+      "date": "2026-10-07",
+      "created": "2026-10-07T01:40:24.096Z",
+      "slug": "drei-kleinhirne-drei-schizophrenien",
+      "rubrik": "science",
+      "lead": "Ein Preprint zerlegt die Schizophrenie anhand des Kleinhirns in drei räumlich und zeitlich getrennte Verlaufsformen.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.03.26364634v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/drei-kleinhirne-drei-schizophrenien/"
+    },
+    {
+      "title": "Elektroden gegen therapieresistente Schizophrenie",
+      "date": "2026-10-07",
+      "created": "2026-10-07T01:40:07.793Z",
+      "slug": "elektroden-gegen-therapieresistente-schizophrenie",
+      "rubrik": "science",
+      "lead": "Ein chinesisches Preprint testet Tiefe Hirnstimulation dort, wo Neuroleptika aufgeben, und meldet an zwei von drei Patienten eine Symptomhalbierung plus Rest.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.01.26364314v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/elektroden-gegen-therapieresistente-schizophrenie/"
+    },
+    {
+      "title": "Immunsignatur im dritten Trimester sagt Wochenbettdepression voraus",
+      "date": "2026-10-07",
+      "created": "2026-10-07T01:39:45.913Z",
+      "slug": "immunsignatur-im-dritten-trimester-sagt-wochenbettdepression-voraus",
+      "rubrik": "science",
+      "lead": "Postpartale Depression beginnt messbar vor der Geburt, nicht danach.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.02.26364495v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/immunsignatur-im-dritten-trimester-sagt-wochenbettdepression-voraus/"
+    },
     {
       "title": "Schizophrenie-Befunde bündeln sich auf Insel, Mediofrontal und Sensomotorik",
       "date": "2026-10-06",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/ect-ordnet-das-gehirn-um-nicht-die-stimmung/"
-    },
-    {
-      "title": "Beta-Wellen im Nucleus subthalamicus wandern",
-      "date": "2026-07-30",
-      "created": "2026-07-30T23:32:56.828Z",
-      "slug": "beta-wellen-im-nucleus-subthalamicus-wandern",
-      "rubrik": "science",
-      "lead": "Die pathologische Beta-Aktivität im Parkinson-Hirn ist keine stehende Schwingung, sondern läuft als räumliche Welle durch den Kern.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740919v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/beta-wellen-im-nucleus-subthalamicus-wandern/"
-    },
-    {
-      "title": "Der motorische Kortex bei Parkinson ist kein Opfer, sondern Mittäter",
-      "date": "2026-07-30",
-      "created": "2026-07-30T23:32:38.195Z",
-      "slug": "der-motorische-kortex-bei-parkinson-ist-kein-opfer-sondern-mittater",
-      "rubrik": "science",
-      "lead": "Ein Preprint verlagert den Tatort der Parkinson-Motorik weg von den Basalganglien hin zur Großhirnrinde selbst.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741031v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-motorische-kortex-bei-parkinson-ist-kein-opfer-sondern-mittater/"
-    },
-    {
-      "title": "Ein Alkaloid aus dem Boldo-Baum bremst den Selbstzerstörungsschalter der Nerven",
-      "date": "2026-07-30",
-      "created": "2026-07-30T23:32:19.772Z",
-      "slug": "ein-alkaloid-aus-dem-boldo-baum-bremst-den-selbstzerstorungsschalter-der-nerven",
-      "rubrik": "science",
-      "lead": "Wenn ein Axon durchtrennt wird, richtet es sich selbst hin, und dieser Mechanismus hat einen Namen.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741059v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-alkaloid-aus-dem-boldo-baum-bremst-den-selbstzerstorungsschalter-der-nerven/"
     }
   ]
 }
