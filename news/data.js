@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-07T01:40:24.206Z",
+  "generated": "2026-10-08T02:06:19.003Z",
   "hellmuth": [
+    {
+      "title": "Kanna statt Alkohol in der Dose",
+      "date": "2026-10-08",
+      "created": "2026-10-08T02:05:17.088Z",
+      "slug": "kanna-statt-alkohol-in-der-dose",
+      "rubrik": "hellmuth",
+      "lead": "Die südafrikanische Sukkulente wandert aus dem Nootropic-Nischenmarkt in die Spirituosen-Regalfläche.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/spirits/2026/nkd-distillery-turns-to-kanna-for-nakies-functional-edge",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/kanna-statt-alkohol-in-der-dose/"
+    },
+    {
+      "title": "Coca-Cola greift nach dem Präbiotik-Regal",
+      "date": "2026-10-08",
+      "created": "2026-10-08T02:04:28.226Z",
+      "slug": "coca-cola-greift-nach-dem-prabiotik-regal",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern, der die zuckrige Limonade zum Weltstandard gemacht hat, verkauft jetzt deren Gegenentwurf.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/coca-cola-prebiotic-soda-functional-beverage-innovation/832361/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-greift-nach-dem-prabiotik-regal/"
+    },
+    {
+      "title": "Prowein zieht die alkoholfreie Schiene aus dem Nebenprogramm",
+      "date": "2026-10-08",
+      "created": "2026-10-08T02:03:46.999Z",
+      "slug": "prowein-zieht-die-alkoholfreie-schiene-aus-dem-nebenprogramm",
+      "rubrik": "hellmuth",
+      "lead": "Die Düsseldorfer Leitmesse richtet mit Zero+ ein eigenes Format für alkoholfreie Getränke ein und macht damit sichtbar, was auf den Ständen längst passiert.",
+      "source_name": "The Drinks Business",
+      "source_url": "https://www.thedrinksbusiness.com/2026/10/prowein-expands-alcohol-free-focus-with-zero-launch/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/prowein-zieht-die-alkoholfreie-schiene-aus-dem-nebenprogramm/"
+    },
     {
       "title": "Topo Chico Colección und die zweite Phase des Sprudelmarkts",
       "date": "2026-10-07",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/kirin-verkauft-immunsystem-im-joghurtbecher/"
-    },
-    {
-      "title": "Osmanthus, Pu'er und Kokoswasser in Thailand",
-      "date": "2026-07-11",
-      "created": "2026-07-11T23:16:20.982Z",
-      "slug": "osmanthus-pu-er-und-kokoswasser-in-thailand",
-      "rubrik": "hellmuth",
-      "lead": "Ready-to-Drink-Tee in Südostasien verlässt die Zuckerbrause-Logik und rückt in Richtung Parfüm.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/11/cha-jing-x-if-osmanthus-coconut-tea-innovation-in-thailand/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/osmanthus-pu-er-und-kokoswasser-in-thailand/"
-    },
-    {
-      "title": "Coca-Cola entdeckt die Nacht",
-      "date": "2026-07-11",
-      "created": "2026-07-11T23:16:03.828Z",
-      "slug": "coca-cola-entdeckt-die-nacht",
-      "rubrik": "hellmuth",
-      "lead": "Thailand ist Testmarkt für eine Cola ohne Zucker und ohne Koffein, gebaut für den Konsum nach Sonnenuntergang.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/11/coke-zero-zero-unlocks-nighttime-refreshment-in-thailand/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/coca-cola-entdeckt-die-nacht/"
-    },
-    {
-      "title": "Naked Life bringt alkoholfreien Italian Spritz in die USA",
-      "date": "2026-07-10",
-      "created": "2026-07-10T23:17:50.630Z",
-      "slug": "naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa",
-      "rubrik": "hellmuth",
-      "lead": "Der alkoholfreie RTD-Markt in den USA reift von Nische zu Sortimentspflicht.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/07/italian-spritz-hitting-the-us-amplifies-the-non-alcoholic-rtd-trend/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/naked-life-bringt-alkoholfreien-italian-spritz-in-die-usa/"
     }
   ],
   "science": [
+    {
+      "title": "Serotonin hält die Anstrengung in Spur",
+      "date": "2026-10-08",
+      "created": "2026-10-08T02:06:18.919Z",
+      "slug": "serotonin-halt-die-anstrengung-in-spur",
+      "rubrik": "science",
+      "lead": "Im dorsalen Raphe-Kern laufen Mühe und Belohnung über getrennte Leitungen.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.751674v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/serotonin-halt-die-anstrengung-in-spur/"
+    },
+    {
+      "title": "Die Schere der frühen Toten",
+      "date": "2026-10-08",
+      "created": "2026-10-08T02:05:57.962Z",
+      "slug": "die-schere-der-fruhen-toten",
+      "rubrik": "science",
+      "lead": "Wer in Norwegen schwer psychisch krank ist, verliert bis zu zwanzig Lebensjahre, und zwar nach Bildungsgrad gestaffelt.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364794v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/die-schere-der-fruhen-toten/"
+    },
+    {
+      "title": "Ein Biomarker für die Antidepressiva-Wahl",
+      "date": "2026-10-08",
+      "created": "2026-10-08T02:05:35.818Z",
+      "slug": "ein-biomarker-fur-die-antidepressiva-wahl",
+      "rubrik": "science",
+      "lead": "Die Auswahl eines Antidepressivums ist bis heute strukturiertes Raten, und ein israelisch-amerikanischer Preprint beansprucht, dieses Raten zu beenden.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364759v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-biomarker-fur-die-antidepressiva-wahl/"
+    },
     {
       "title": "Drei Kleinhirne, drei Schizophrenien",
       "date": "2026-10-07",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/warum-das-jugendliche-gehirn-anders-lernt/"
-    },
-    {
-      "title": "Ein Alzheimer-Risikogen wird zum Stoffwechselverdacht",
-      "date": "2026-07-31",
-      "created": "2026-07-31T23:22:21.972Z",
-      "slug": "ein-alzheimer-risikogen-wird-zum-stoffwechselverdacht",
-      "rubrik": "science",
-      "lead": "Das Gen ABCA7 zählt zu den stärksten genetischen Risikofaktoren für spät auftretende Alzheimer-Erkrankung, doch wie es wirkt, blieb unscharf.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741021v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ein-alzheimer-risikogen-wird-zum-stoffwechselverdacht/"
-    },
-    {
-      "title": "Netzwerk-Metaanalyse zu Negativsymptomen der Schizophrenie",
-      "date": "2026-07-31",
-      "created": "2026-07-31T23:21:56.062Z",
-      "slug": "netzwerk-metaanalyse-zu-negativsymptomen-der-schizophrenie",
-      "rubrik": "science",
-      "lead": "Was Antipsychotika liegenlassen, sollen Add-ons richten, und die Bilanz dieser Zusatztherapien ist jetzt sortiert.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.29.26359223v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/netzwerk-metaanalyse-zu-negativsymptomen-der-schizophrenie/"
-    },
-    {
-      "title": "ECT ordnet das Gehirn um, nicht die Stimmung",
-      "date": "2026-07-31",
-      "created": "2026-07-31T23:21:36.439Z",
-      "slug": "ect-ordnet-das-gehirn-um-nicht-die-stimmung",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Bildgebungsforschung deutet Elektrokrampftherapie als topologischen Eingriff in die funktionale Netzwerkarchitektur schwer depressiver Patienten.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.29.26358453v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/ect-ordnet-das-gehirn-um-nicht-die-stimmung/"
     }
   ]
 }

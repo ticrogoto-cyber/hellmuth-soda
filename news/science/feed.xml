@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Wed, 07 Oct 2026 01:40:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 02:06:19 GMT</lastBuildDate>
+    <item>
+      <title>Serotonin hält die Anstrengung in Spur</title>
+      <link>https://hellmuth-soda.de/news/science/serotonin-halt-die-anstrengung-in-spur/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/serotonin-halt-die-anstrengung-in-spur/</guid>
+      <pubDate>Thu, 08 Oct 2026 02:06:18 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Im dorsalen Raphe-Kern laufen Mühe und Belohnung über getrennte Leitungen.</description>
+    </item>
+    <item>
+      <title>Die Schere der frühen Toten</title>
+      <link>https://hellmuth-soda.de/news/science/die-schere-der-fruhen-toten/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/die-schere-der-fruhen-toten/</guid>
+      <pubDate>Thu, 08 Oct 2026 02:05:57 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Wer in Norwegen schwer psychisch krank ist, verliert bis zu zwanzig Lebensjahre, und zwar nach Bildungsgrad gestaffelt.</description>
+    </item>
+    <item>
+      <title>Ein Biomarker für die Antidepressiva-Wahl</title>
+      <link>https://hellmuth-soda.de/news/science/ein-biomarker-fur-die-antidepressiva-wahl/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-biomarker-fur-die-antidepressiva-wahl/</guid>
+      <pubDate>Thu, 08 Oct 2026 02:05:35 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Die Auswahl eines Antidepressivums ist bis heute strukturiertes Raten, und ein israelisch-amerikanischer Preprint beansprucht, dieses Raten zu beenden.</description>
+    </item>
     <item>
       <title>Drei Kleinhirne, drei Schizophrenien</title>
       <link>https://hellmuth-soda.de/news/science/drei-kleinhirne-drei-schizophrenien/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sat, 01 Aug 2026 23:19:20 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint aus der Neurowissenschaft zeigt, wie sich die Lernmaschinerie des Hippocampus zwischen Entwöhnung und Erwachsenenalter umbaut.</description>
-    </item>
-    <item>
-      <title>Ein Alzheimer-Risikogen wird zum Stoffwechselverdacht</title>
-      <link>https://hellmuth-soda.de/news/science/ein-alzheimer-risikogen-wird-zum-stoffwechselverdacht/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-alzheimer-risikogen-wird-zum-stoffwechselverdacht/</guid>
-      <pubDate>Fri, 31 Jul 2026 23:22:21 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Das Gen ABCA7 zählt zu den stärksten genetischen Risikofaktoren für spät auftretende Alzheimer-Erkrankung, doch wie es wirkt, blieb unscharf.</description>
-    </item>
-    <item>
-      <title>Netzwerk-Metaanalyse zu Negativsymptomen der Schizophrenie</title>
-      <link>https://hellmuth-soda.de/news/science/netzwerk-metaanalyse-zu-negativsymptomen-der-schizophrenie/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/netzwerk-metaanalyse-zu-negativsymptomen-der-schizophrenie/</guid>
-      <pubDate>Fri, 31 Jul 2026 23:21:56 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Was Antipsychotika liegenlassen, sollen Add-ons richten, und die Bilanz dieser Zusatztherapien ist jetzt sortiert.</description>
-    </item>
-    <item>
-      <title>ECT ordnet das Gehirn um, nicht die Stimmung</title>
-      <link>https://hellmuth-soda.de/news/science/ect-ordnet-das-gehirn-um-nicht-die-stimmung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ect-ordnet-das-gehirn-um-nicht-die-stimmung/</guid>
-      <pubDate>Fri, 31 Jul 2026 23:21:36 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Bildgebungsforschung deutet Elektrokrampftherapie als topologischen Eingriff in die funktionale Netzwerkarchitektur schwer depressiver Patienten.</description>
     </item>
   </channel>
 </rss>
