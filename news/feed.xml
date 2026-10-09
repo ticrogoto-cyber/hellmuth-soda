@@ -6,7 +6,55 @@
     <atom:link href="https://hellmuth-soda.de/news/feed.xml" rel="self" type="application/rss+xml" />
     <description>Klartext aus Forschung und Getränkewelt.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 08 Oct 2026 02:06:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 02:19:09 GMT</lastBuildDate>
+    <item>
+      <title>Schmerz runterregeln gelingt leichter als hochregeln</title>
+      <link>https://hellmuth-soda.de/news/science/schmerz-runterregeln-gelingt-leichter-als-hochregeln/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schmerz-runterregeln-gelingt-leichter-als-hochregeln/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:19:09 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv zerlegt die vermeintliche Symmetrie willentlicher Schmerzkontrolle und findet eine Asymmetrie in der Mechanik.</description>
+    </item>
+    <item>
+      <title>Ein Fragebogen gegen die Psychose-Lücke</title>
+      <link>https://hellmuth-soda.de/news/science/ein-fragebogen-gegen-die-psychose-lucke/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-fragebogen-gegen-die-psychose-lucke/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:18:41 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Früherkennung psychotischer Risiken scheitert in der Breite daran, dass niemand die Richtigen findet.</description>
+    </item>
+    <item>
+      <title>Der Atem im REM-Schlaf verrät die Psyche</title>
+      <link>https://hellmuth-soda.de/news/science/der-atem-im-rem-schlaf-verrat-die-psyche/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-atem-im-rem-schlaf-verrat-die-psyche/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:18:25 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Studie findet den Marker für psychiatrische Belastung nicht in Herzschlag oder Hirnstrom, sondern im Atemrhythmus während des Traumschlafs.</description>
+    </item>
+    <item>
+      <title>Entspannungsgetränke werden zur eigenen Kategorie</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/entspannungsgetranke-werden-zur-eigenen-kategorie/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/entspannungsgetranke-werden-zur-eigenen-kategorie/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:18:09 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Was als Nische neben Energy Drinks begann, bekommt eigenes Regal und eigene Lobby.</description>
+    </item>
+    <item>
+      <title>Poppi verlässt den Darm</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/poppi-verlasst-den-darm/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/poppi-verlasst-den-darm/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:17:49 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Die von PepsiCo übernommene Prebiotic-Soda-Marke erweitert ihr Sortiment um zwei funktionale Linien jenseits der Verdauungsnische.</description>
+    </item>
+    <item>
+      <title>Olipop sucht den Milliardenumsatz</title>
+      <link>https://hellmuth-soda.de/news/hellmuth/olipop-sucht-den-milliardenumsatz/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/olipop-sucht-den-milliardenumsatz/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:17:31 GMT</pubDate>
+      <category>HELLMUTH</category>
+      <description>Der neue CEO der präbiotischen Limo-Marke übernimmt in einem Markt, in dem jede Woche ein Nachahmer startet.</description>
+    </item>
     <item>
       <title>Serotonin hält die Anstrengung in Spur</title>
       <link>https://hellmuth-soda.de/news/science/serotonin-halt-die-anstrengung-in-spur/</link>
@@ -2760,30 +2808,6 @@
       <description>Vietnams Nutricare bringt einen Joghurtdrink mit ausgelobten hundert Milliarden Postbiotika für Kinder auf den Markt.</description>
     </item>
     <item>
-      <title>Alzheimer war nie eine Plaque-Krankheit</title>
-      <link>https://hellmuth-soda.de/news/science/alzheimer-war-nie-eine-plaque-krankheit/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-war-nie-eine-plaque-krankheit/</guid>
-      <pubDate>Sat, 01 Aug 2026 23:20:22 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Ablagerungen im Alzheimer-Hirn bestehen offenbar nicht nur aus Eiweiß, sondern aus verendeten Mitochondrien.</description>
-    </item>
-    <item>
-      <title>Wenn das Gehirn eine neue Wirklichkeit erfindet</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-das-gehirn-eine-neue-wirklichkeit-erfindet/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-das-gehirn-eine-neue-wirklichkeit-erfindet/</guid>
-      <pubDate>Sat, 01 Aug 2026 23:19:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verortet Acetylcholin im Striatum als das Signal, das entscheidet, ob eine ausbleibende Belohnung Pech ist oder ein Regimewechsel.</description>
-    </item>
-    <item>
-      <title>Warum das jugendliche Gehirn anders lernt</title>
-      <link>https://hellmuth-soda.de/news/science/warum-das-jugendliche-gehirn-anders-lernt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-das-jugendliche-gehirn-anders-lernt/</guid>
-      <pubDate>Sat, 01 Aug 2026 23:19:20 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Neurowissenschaft zeigt, wie sich die Lernmaschinerie des Hippocampus zwischen Entwöhnung und Erwachsenenalter umbaut.</description>
-    </item>
-    <item>
       <title>Ein Festival ohne Alkohol wird zum Marktsignal</title>
       <link>https://hellmuth-soda.de/news/hellmuth/ein-festival-ohne-alkohol-wird-zum-marktsignal/</link>
       <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/ein-festival-ohne-alkohol-wird-zum-marktsignal/</guid>
@@ -3182,30 +3206,6 @@
       <pubDate>Mon, 13 Jul 2026 23:16:28 GMT</pubDate>
       <category>HELLMUTH</category>
       <description>Der globale Getränkemarkt kippt, und die vorgemischten Dosen führen die Verschiebung an.</description>
-    </item>
-    <item>
-      <title>Popping Boba wird ölgefüllt</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/popping-boba-wird-olgefullt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/popping-boba-wird-olgefullt/</guid>
-      <pubDate>Sun, 12 Jul 2026 23:12:58 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Bubble Tea verlässt seinen Zuckerkern und wandert in die Fettphase.</description>
-    </item>
-    <item>
-      <title>ChaPanda dockt in Kuala Lumpur an den Durian an</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/chapanda-dockt-in-kuala-lumpur-an-den-durian-an/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/chapanda-dockt-in-kuala-lumpur-an-den-durian-an/</guid>
-      <pubDate>Sun, 12 Jul 2026 23:12:36 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Chinesische Bubble-Tea-Ketten expandieren nach Südostasien nicht mehr mit dem Heimatsortiment, sondern mit lokaler Frucht als Eintrittsticket.</description>
-    </item>
-    <item>
-      <title>Kirin verkauft Immunsystem im Joghurtbecher</title>
-      <link>https://hellmuth-soda.de/news/hellmuth/kirin-verkauft-immunsystem-im-joghurtbecher/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/hellmuth/kirin-verkauft-immunsystem-im-joghurtbecher/</guid>
-      <pubDate>Sat, 11 Jul 2026 23:16:36 GMT</pubDate>
-      <category>HELLMUTH</category>
-      <description>Was in Japan als Funktionsgetränk etabliert ist, wird jetzt regional zur Rollout-Kampagne.</description>
     </item>
   </channel>
 </rss>

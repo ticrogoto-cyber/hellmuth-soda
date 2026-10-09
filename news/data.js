@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-08T02:06:19.003Z",
+  "generated": "2026-10-09T02:19:09.882Z",
   "hellmuth": [
+    {
+      "title": "Entspannungsgetränke werden zur eigenen Kategorie",
+      "date": "2026-10-09",
+      "created": "2026-10-09T02:18:09.702Z",
+      "slug": "entspannungsgetranke-werden-zur-eigenen-kategorie",
+      "rubrik": "hellmuth",
+      "lead": "Was als Nische neben Energy Drinks begann, bekommt eigenes Regal und eigene Lobby.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/cpg-week-mind-mood-on-display-maha-vs-maga",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/entspannungsgetranke-werden-zur-eigenen-kategorie/"
+    },
+    {
+      "title": "Poppi verlässt den Darm",
+      "date": "2026-10-09",
+      "created": "2026-10-09T02:17:49.421Z",
+      "slug": "poppi-verlasst-den-darm",
+      "rubrik": "hellmuth",
+      "lead": "Die von PepsiCo übernommene Prebiotic-Soda-Marke erweitert ihr Sortiment um zwei funktionale Linien jenseits der Verdauungsnische.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/nacs-pepsico-pushes-poppi-into-new-functional-territory-with-lift-and-chill-lines",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/hellmuth/poppi-verlasst-den-darm/"
+    },
+    {
+      "title": "Olipop sucht den Milliardenumsatz",
+      "date": "2026-10-09",
+      "created": "2026-10-09T02:17:31.635Z",
+      "slug": "olipop-sucht-den-milliardenumsatz",
+      "rubrik": "hellmuth",
+      "lead": "Der neue CEO der präbiotischen Limo-Marke übernimmt in einem Markt, in dem jede Woche ein Nachahmer startet.",
+      "source_name": "Food Dive",
+      "source_url": "https://www.fooddive.com/news/olipop-ceo-christian-patino-webb-interview-1-billion-sales-better-for-you-soda/831539/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/olipop-sucht-den-milliardenumsatz/"
+    },
     {
       "title": "Kanna statt Alkohol in der Dose",
       "date": "2026-10-08",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 0,
       "href": "/news/hellmuth/rtds-ubernehmen-den-handel/"
-    },
-    {
-      "title": "Popping Boba wird ölgefüllt",
-      "date": "2026-07-12",
-      "created": "2026-07-12T23:12:58.228Z",
-      "slug": "popping-boba-wird-olgefullt",
-      "rubrik": "hellmuth",
-      "lead": "Bubble Tea verlässt seinen Zuckerkern und wandert in die Fettphase.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/11/tachiz-pushes-popping-boba-boundaries-with-oil-filled-innovation-and-cocopop-minis-at-food-taipei-mega-shows-2026/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/popping-boba-wird-olgefullt/"
-    },
-    {
-      "title": "ChaPanda dockt in Kuala Lumpur an den Durian an",
-      "date": "2026-07-12",
-      "created": "2026-07-12T23:12:36.833Z",
-      "slug": "chapanda-dockt-in-kuala-lumpur-an-den-durian-an",
-      "rubrik": "hellmuth",
-      "lead": "Chinesische Bubble-Tea-Ketten expandieren nach Südostasien nicht mehr mit dem Heimatsortiment, sondern mit lokaler Frucht als Eintrittsticket.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/12/chapanda-malaysia-innovates-with-local-favourite-durian/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/chapanda-dockt-in-kuala-lumpur-an-den-durian-an/"
-    },
-    {
-      "title": "Kirin verkauft Immunsystem im Joghurtbecher",
-      "date": "2026-07-11",
-      "created": "2026-07-11T23:16:36.426Z",
-      "slug": "kirin-verkauft-immunsystem-im-joghurtbecher",
-      "rubrik": "hellmuth",
-      "lead": "Was in Japan als Funktionsgetränk etabliert ist, wird jetzt regional zur Rollout-Kampagne.",
-      "source_name": "Mini Me Insights",
-      "source_url": "https://www.minimeinsights.com/2026/07/11/kirin-immuse-yoghurt-flavour-to-debut-in-singapore-as-part-of-region-wide-push/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/kirin-verkauft-immunsystem-im-joghurtbecher/"
     }
   ],
   "science": [
+    {
+      "title": "Schmerz runterregeln gelingt leichter als hochregeln",
+      "date": "2026-10-09",
+      "created": "2026-10-09T02:19:09.650Z",
+      "slug": "schmerz-runterregeln-gelingt-leichter-als-hochregeln",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv zerlegt die vermeintliche Symmetrie willentlicher Schmerzkontrolle und findet eine Asymmetrie in der Mechanik.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schmerz-runterregeln-gelingt-leichter-als-hochregeln/"
+    },
+    {
+      "title": "Ein Fragebogen gegen die Psychose-Lücke",
+      "date": "2026-10-09",
+      "created": "2026-10-09T02:18:41.744Z",
+      "slug": "ein-fragebogen-gegen-die-psychose-lucke",
+      "rubrik": "science",
+      "lead": "Früherkennung psychotischer Risiken scheitert in der Breite daran, dass niemand die Richtigen findet.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364756v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/ein-fragebogen-gegen-die-psychose-lucke/"
+    },
+    {
+      "title": "Der Atem im REM-Schlaf verrät die Psyche",
+      "date": "2026-10-09",
+      "created": "2026-10-09T02:18:25.977Z",
+      "slug": "der-atem-im-rem-schlaf-verrat-die-psyche",
+      "rubrik": "science",
+      "lead": "Eine Preprint-Studie findet den Marker für psychiatrische Belastung nicht in Herzschlag oder Hirnstrom, sondern im Atemrhythmus während des Traumschlafs.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364874v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/der-atem-im-rem-schlaf-verrat-die-psyche/"
+    },
     {
       "title": "Serotonin hält die Anstrengung in Spur",
       "date": "2026-10-08",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/wenn-die-muskeln-schweigen-verirrt-sich-die-maus/"
-    },
-    {
-      "title": "Alzheimer war nie eine Plaque-Krankheit",
-      "date": "2026-08-01",
-      "created": "2026-08-01T23:20:22.832Z",
-      "slug": "alzheimer-war-nie-eine-plaque-krankheit",
-      "rubrik": "science",
-      "lead": "Die Ablagerungen im Alzheimer-Hirn bestehen offenbar nicht nur aus Eiweiß, sondern aus verendeten Mitochondrien.",
-      "source_name": "Nature Neuroscience",
-      "source_url": "https://www.nature.com/articles/s41593-026-02390-1",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/alzheimer-war-nie-eine-plaque-krankheit/"
-    },
-    {
-      "title": "Wenn das Gehirn eine neue Wirklichkeit erfindet",
-      "date": "2026-08-01",
-      "created": "2026-08-01T23:19:37.818Z",
-      "slug": "wenn-das-gehirn-eine-neue-wirklichkeit-erfindet",
-      "rubrik": "science",
-      "lead": "Ein Preprint verortet Acetylcholin im Striatum als das Signal, das entscheidet, ob eine ausbleibende Belohnung Pech ist oder ein Regimewechsel.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741321v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-das-gehirn-eine-neue-wirklichkeit-erfindet/"
-    },
-    {
-      "title": "Warum das jugendliche Gehirn anders lernt",
-      "date": "2026-08-01",
-      "created": "2026-08-01T23:19:20.657Z",
-      "slug": "warum-das-jugendliche-gehirn-anders-lernt",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Neurowissenschaft zeigt, wie sich die Lernmaschinerie des Hippocampus zwischen Entwöhnung und Erwachsenenalter umbaut.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741885v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/warum-das-jugendliche-gehirn-anders-lernt/"
     }
   ]
 }

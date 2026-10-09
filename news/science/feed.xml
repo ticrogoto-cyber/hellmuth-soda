@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Thu, 08 Oct 2026 02:06:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 02:19:09 GMT</lastBuildDate>
+    <item>
+      <title>Schmerz runterregeln gelingt leichter als hochregeln</title>
+      <link>https://hellmuth-soda.de/news/science/schmerz-runterregeln-gelingt-leichter-als-hochregeln/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schmerz-runterregeln-gelingt-leichter-als-hochregeln/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:19:09 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv zerlegt die vermeintliche Symmetrie willentlicher Schmerzkontrolle und findet eine Asymmetrie in der Mechanik.</description>
+    </item>
+    <item>
+      <title>Ein Fragebogen gegen die Psychose-Lücke</title>
+      <link>https://hellmuth-soda.de/news/science/ein-fragebogen-gegen-die-psychose-lucke/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/ein-fragebogen-gegen-die-psychose-lucke/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:18:41 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Früherkennung psychotischer Risiken scheitert in der Breite daran, dass niemand die Richtigen findet.</description>
+    </item>
+    <item>
+      <title>Der Atem im REM-Schlaf verrät die Psyche</title>
+      <link>https://hellmuth-soda.de/news/science/der-atem-im-rem-schlaf-verrat-die-psyche/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-atem-im-rem-schlaf-verrat-die-psyche/</guid>
+      <pubDate>Fri, 09 Oct 2026 02:18:25 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine Preprint-Studie findet den Marker für psychiatrische Belastung nicht in Herzschlag oder Hirnstrom, sondern im Atemrhythmus während des Traumschlafs.</description>
+    </item>
     <item>
       <title>Serotonin hält die Anstrengung in Spur</title>
       <link>https://hellmuth-soda.de/news/science/serotonin-halt-die-anstrengung-in-spur/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Sun, 02 Aug 2026 23:17:31 GMT</pubDate>
       <category>Forschung</category>
       <description>Räumliches Gedächtnis hängt nicht nur am Hippocampus, sondern an den Signalen der Muskelspindeln, zeigt ein neues Preprint.</description>
-    </item>
-    <item>
-      <title>Alzheimer war nie eine Plaque-Krankheit</title>
-      <link>https://hellmuth-soda.de/news/science/alzheimer-war-nie-eine-plaque-krankheit/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/alzheimer-war-nie-eine-plaque-krankheit/</guid>
-      <pubDate>Sat, 01 Aug 2026 23:20:22 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Die Ablagerungen im Alzheimer-Hirn bestehen offenbar nicht nur aus Eiweiß, sondern aus verendeten Mitochondrien.</description>
-    </item>
-    <item>
-      <title>Wenn das Gehirn eine neue Wirklichkeit erfindet</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-das-gehirn-eine-neue-wirklichkeit-erfindet/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-das-gehirn-eine-neue-wirklichkeit-erfindet/</guid>
-      <pubDate>Sat, 01 Aug 2026 23:19:37 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint verortet Acetylcholin im Striatum als das Signal, das entscheidet, ob eine ausbleibende Belohnung Pech ist oder ein Regimewechsel.</description>
-    </item>
-    <item>
-      <title>Warum das jugendliche Gehirn anders lernt</title>
-      <link>https://hellmuth-soda.de/news/science/warum-das-jugendliche-gehirn-anders-lernt/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/warum-das-jugendliche-gehirn-anders-lernt/</guid>
-      <pubDate>Sat, 01 Aug 2026 23:19:20 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Neurowissenschaft zeigt, wie sich die Lernmaschinerie des Hippocampus zwischen Entwöhnung und Erwachsenenalter umbaut.</description>
     </item>
   </channel>
 </rss>
