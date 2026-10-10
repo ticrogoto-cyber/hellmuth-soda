@@ -1,6 +1,6 @@
 window.NOVA_DATA =
 {
-  "generated": "2026-10-09T02:21:36.689Z",
+  "generated": "2026-10-10T01:54:09.378Z",
   "items": [
     {
       "title": "Berngau, Oberpfalz. Behördenmitarbeiter bei Waffenkontrolle erschossen",
