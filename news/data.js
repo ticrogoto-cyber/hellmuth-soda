@@ -1,7 +1,49 @@
 window.NEWS_DATA =
 {
-  "generated": "2026-10-09T02:19:09.882Z",
+  "generated": "2026-10-10T01:51:06.747Z",
   "hellmuth": [
+    {
+      "title": "Olipop kehrt in den Kühlregal-Krieg zurück",
+      "date": "2026-10-10",
+      "created": "2026-10-10T01:50:04.935Z",
+      "slug": "olipop-kehrt-in-den-kuhlregal-krieg-zuruck",
+      "rubrik": "hellmuth",
+      "lead": "Der Prebiotic-Soda-Marktführer schichtet um und holt sein ursprüngliches Format aus der Nische zurück ins Zentrum.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/olipop-planning-refrigerated-line-revamp-shares-new-seasonal-lto",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/olipop-kehrt-in-den-kuhlregal-krieg-zuruck/"
+    },
+    {
+      "title": "Coca-Cola testet präbiotische Varianten seiner Stammmarken",
+      "date": "2026-10-10",
+      "created": "2026-10-10T01:49:49.582Z",
+      "slug": "coca-cola-testet-prabiotische-varianten-seiner-stammmarken",
+      "rubrik": "hellmuth",
+      "lead": "Der Konzern, der Olipop und Poppi erst durch Nachahmung legitimierte, greift jetzt selbst nach dem funktionalen Regal.",
+      "source_name": "BevNet",
+      "source_url": "https://www.bevnet.com/news/2026/is-coke-the-newpoppi-and-why-grocery-prices-might-get-personal",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/coca-cola-testet-prabiotische-varianten-seiner-stammmarken/"
+    },
+    {
+      "title": "Turmeric Co. holt die Hochdruckanlage ins Haus",
+      "date": "2026-10-10",
+      "created": "2026-10-10T01:48:48.365Z",
+      "slug": "turmeric-co-holt-die-hochdruckanlage-ins-haus",
+      "rubrik": "hellmuth",
+      "lead": "Ein Shot-Hersteller investiert 3,6 Millionen Pfund, um nicht länger Gast in fremden Produktionshallen zu sein.",
+      "source_name": "Beverage Daily",
+      "source_url": "https://www.beveragedaily.com/Article/2026/10/07/the-turmeric-co-brings-high-pressure-processing-hpp-machinery-in-house-with-36-million-investment/",
+      "preprint": false,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/hellmuth/turmeric-co-holt-die-hochdruckanlage-ins-haus/"
+    },
     {
       "title": "Entspannungsgetränke werden zur eigenen Kategorie",
       "date": "2026-10-09",
@@ -2759,51 +2801,51 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/hellmuth/der-funktionsversprechens-markt-kippt-zuruck-zum-geschmack/"
-    },
-    {
-      "title": "Something & Nothing landet bei H-E-B",
-      "date": "2026-07-13",
-      "created": "2026-07-13T23:17:40.921Z",
-      "slug": "something-nothing-landet-bei-h-e-b",
-      "rubrik": "hellmuth",
-      "lead": "Der britische Premium-Soda-Newcomer erweitert seinen US-Vertrieb um über zweihundert Filialen einer texanischen Regionalkette.",
-      "source_name": "BevNet",
-      "source_url": "https://www.bevnet.com/news/2026/distribution-something-nothing-adds-h-e-b-to-u-s-footprint",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/something-nothing-landet-bei-h-e-b/"
-    },
-    {
-      "title": "Sake sucht die Enkel",
-      "date": "2026-07-13",
-      "created": "2026-07-13T23:17:11.797Z",
-      "slug": "sake-sucht-die-enkel",
-      "rubrik": "hellmuth",
-      "lead": "Die weltgrößte Sake-Messe hat im vergangenen Monat weniger ihre Gegenwart gefeiert als ihre demografische Lücke bearbeitet.",
-      "source_name": "The Drinks Business",
-      "source_url": "https://www.thedrinksbusiness.com/2026/07/sake-fair-builds-bridge-with-younger-drinkers/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/hellmuth/sake-sucht-die-enkel/"
-    },
-    {
-      "title": "RTDs übernehmen den Handel",
-      "date": "2026-07-13",
-      "created": "2026-07-13T23:16:28.301Z",
-      "slug": "rtds-ubernehmen-den-handel",
-      "rubrik": "hellmuth",
-      "lead": "Der globale Getränkemarkt kippt, und die vorgemischten Dosen führen die Verschiebung an.",
-      "source_name": "Beverage Daily",
-      "source_url": "https://www.beveragedaily.com/Article/2026/07/13/global-beverage-market-in-transition-with-rtds-spearheading-off-trade-growth/",
-      "preprint": false,
-      "press_review": false,
-      "minutes": 0,
-      "href": "/news/hellmuth/rtds-ubernehmen-den-handel/"
     }
   ],
   "science": [
+    {
+      "title": "Fentanyl-Entzug trifft die Hirnprojektionen unterschiedlich",
+      "date": "2026-10-10",
+      "created": "2026-10-10T01:51:06.633Z",
+      "slug": "fentanyl-entzug-trifft-die-hirnprojektionen-unterschiedlich",
+      "rubrik": "science",
+      "lead": "Ein Preprint aus der Neurowissenschaft zerlegt die Mär vom einheitlichen Opioid-Entzug im Belohnungssystem.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756315v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/fentanyl-entzug-trifft-die-hirnprojektionen-unterschiedlich/"
+    },
+    {
+      "title": "Geschlechtsunterschiede im Zwischenhirn sitzen tiefer als die Pubertät",
+      "date": "2026-10-10",
+      "created": "2026-10-10T01:50:34.965Z",
+      "slug": "geschlechtsunterschiede-im-zwischenhirn-sitzen-tiefer-als-die-pubertat",
+      "rubrik": "science",
+      "lead": "Ein Preprint auf bioRxiv datiert subkortikale Geschlechtsdifferenzen vor die Hormonflut der Adoleszenz.",
+      "source_name": "bioRxiv Neuroscience",
+      "source_url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756728v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 0,
+      "href": "/news/science/geschlechtsunterschiede-im-zwischenhirn-sitzen-tiefer-als-die-pubertat/"
+    },
+    {
+      "title": "Schlaflose spüren Defizite, die der Scanner nicht findet",
+      "date": "2026-10-10",
+      "created": "2026-10-10T01:50:22.277Z",
+      "slug": "schlaflose-spuren-defizite-die-der-scanner-nicht-findet",
+      "rubrik": "science",
+      "lead": "Eine randomisierte Studie trennt bei Insomnie das gefühlte vom gemessenen Hirn.",
+      "source_name": "medRxiv Psychiatry",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364880v1?rss=1",
+      "preprint": true,
+      "press_review": false,
+      "minutes": 1,
+      "href": "/news/science/schlaflose-spuren-defizite-die-der-scanner-nicht-findet/"
+    },
     {
       "title": "Schmerz runterregeln gelingt leichter als hochregeln",
       "date": "2026-10-09",
@@ -5561,48 +5603,6 @@ window.NEWS_DATA =
       "press_review": false,
       "minutes": 1,
       "href": "/news/science/dopamin-fahrt-runter-bevor-die-belohnung-kommt/"
-    },
-    {
-      "title": "Der jugendliche Stress schreibt sich in die Belohnungsschaltung",
-      "date": "2026-08-03",
-      "created": "2026-08-03T23:34:33.627Z",
-      "slug": "der-jugendliche-stress-schreibt-sich-in-die-belohnungsschaltung",
-      "rubrik": "science",
-      "lead": "Ein Preprint aus der Mausneurowissenschaft benennt eine Schaltung, die erklärt, warum frühe Belastung das Suchtrisiko lebenslang hebt.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741478v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/der-jugendliche-stress-schreibt-sich-in-die-belohnungsschaltung/"
-    },
-    {
-      "title": "Depression zerfällt in immunologische Untertypen",
-      "date": "2026-08-03",
-      "created": "2026-08-03T23:34:07.190Z",
-      "slug": "depression-zerfallt-in-immunologische-untertypen",
-      "rubrik": "science",
-      "lead": "Ein Preprint kartiert peripheres Zytokinmuster gegen Hirnmikrostruktur und findet geschlechtsspezifische Signaturen der Depression.",
-      "source_name": "medRxiv Psychiatry",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.08.01.26359430v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/depression-zerfallt-in-immunologische-untertypen/"
-    },
-    {
-      "title": "Wenn die Muskeln schweigen, verirrt sich die Maus",
-      "date": "2026-08-02",
-      "created": "2026-08-02T23:17:31.477Z",
-      "slug": "wenn-die-muskeln-schweigen-verirrt-sich-die-maus",
-      "rubrik": "science",
-      "lead": "Räumliches Gedächtnis hängt nicht nur am Hippocampus, sondern an den Signalen der Muskelspindeln, zeigt ein neues Preprint.",
-      "source_name": "bioRxiv Neuroscience",
-      "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.740838v1?rss=1",
-      "preprint": true,
-      "press_review": false,
-      "minutes": 1,
-      "href": "/news/science/wenn-die-muskeln-schweigen-verirrt-sich-die-maus/"
     }
   ]
 }

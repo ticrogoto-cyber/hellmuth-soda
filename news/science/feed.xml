@@ -6,7 +6,31 @@
     <atom:link href="https://hellmuth-soda.de/news/science/feed.xml" rel="self" type="application/rss+xml" />
     <description>Forschung — Kurzmeldungen in eigenen Worten.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 09 Oct 2026 02:19:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:51:06 GMT</lastBuildDate>
+    <item>
+      <title>Fentanyl-Entzug trifft die Hirnprojektionen unterschiedlich</title>
+      <link>https://hellmuth-soda.de/news/science/fentanyl-entzug-trifft-die-hirnprojektionen-unterschiedlich/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/fentanyl-entzug-trifft-die-hirnprojektionen-unterschiedlich/</guid>
+      <pubDate>Sat, 10 Oct 2026 01:51:06 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint aus der Neurowissenschaft zerlegt die Mär vom einheitlichen Opioid-Entzug im Belohnungssystem.</description>
+    </item>
+    <item>
+      <title>Geschlechtsunterschiede im Zwischenhirn sitzen tiefer als die Pubertät</title>
+      <link>https://hellmuth-soda.de/news/science/geschlechtsunterschiede-im-zwischenhirn-sitzen-tiefer-als-die-pubertat/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/geschlechtsunterschiede-im-zwischenhirn-sitzen-tiefer-als-die-pubertat/</guid>
+      <pubDate>Sat, 10 Oct 2026 01:50:34 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Ein Preprint auf bioRxiv datiert subkortikale Geschlechtsdifferenzen vor die Hormonflut der Adoleszenz.</description>
+    </item>
+    <item>
+      <title>Schlaflose spüren Defizite, die der Scanner nicht findet</title>
+      <link>https://hellmuth-soda.de/news/science/schlaflose-spuren-defizite-die-der-scanner-nicht-findet/</link>
+      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/schlaflose-spuren-defizite-die-der-scanner-nicht-findet/</guid>
+      <pubDate>Sat, 10 Oct 2026 01:50:22 GMT</pubDate>
+      <category>Forschung</category>
+      <description>Eine randomisierte Studie trennt bei Insomnie das gefühlte vom gemessenen Hirn.</description>
+    </item>
     <item>
       <title>Schmerz runterregeln gelingt leichter als hochregeln</title>
       <link>https://hellmuth-soda.de/news/science/schmerz-runterregeln-gelingt-leichter-als-hochregeln/</link>
@@ -1582,30 +1606,6 @@
       <pubDate>Mon, 03 Aug 2026 23:34:47 GMT</pubDate>
       <category>Forschung</category>
       <description>Ein Preprint stellt das Bild vom Dopamin als schlichtem Belohnungssignal weiter in Frage.</description>
-    </item>
-    <item>
-      <title>Der jugendliche Stress schreibt sich in die Belohnungsschaltung</title>
-      <link>https://hellmuth-soda.de/news/science/der-jugendliche-stress-schreibt-sich-in-die-belohnungsschaltung/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/der-jugendliche-stress-schreibt-sich-in-die-belohnungsschaltung/</guid>
-      <pubDate>Mon, 03 Aug 2026 23:34:33 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint aus der Mausneurowissenschaft benennt eine Schaltung, die erklärt, warum frühe Belastung das Suchtrisiko lebenslang hebt.</description>
-    </item>
-    <item>
-      <title>Depression zerfällt in immunologische Untertypen</title>
-      <link>https://hellmuth-soda.de/news/science/depression-zerfallt-in-immunologische-untertypen/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/depression-zerfallt-in-immunologische-untertypen/</guid>
-      <pubDate>Mon, 03 Aug 2026 23:34:07 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Ein Preprint kartiert peripheres Zytokinmuster gegen Hirnmikrostruktur und findet geschlechtsspezifische Signaturen der Depression.</description>
-    </item>
-    <item>
-      <title>Wenn die Muskeln schweigen, verirrt sich die Maus</title>
-      <link>https://hellmuth-soda.de/news/science/wenn-die-muskeln-schweigen-verirrt-sich-die-maus/</link>
-      <guid isPermaLink="true">https://hellmuth-soda.de/news/science/wenn-die-muskeln-schweigen-verirrt-sich-die-maus/</guid>
-      <pubDate>Sun, 02 Aug 2026 23:17:31 GMT</pubDate>
-      <category>Forschung</category>
-      <description>Räumliches Gedächtnis hängt nicht nur am Hippocampus, sondern an den Signalen der Muskelspindeln, zeigt ein neues Preprint.</description>
     </item>
   </channel>
 </rss>
